@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 9%
-
+source-wordcount: '557'
+ht-degree: 7%
 ---
-
 
 # アイデア創出スペースを他のユーザーと共有する
 
@@ -23,7 +21,9 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-<!--ome of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article-->
+<!--
+Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
+-->
 
 Workfront計画レコードの権限は、レコードのアイデア創出スペースに転送されます。
 
@@ -59,18 +59,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
 <li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>その他の製品</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow ライセンス</p></td> 
    <td><p>標準</p>
@@ -97,18 +96,20 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>ブリーフを作成するためのアイデア創出スペースの編集者権限</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketingのユーザーロール</p></td> 
-   <td><p><ul><li>キャンペーン、商品、ペルソナにアクセスするためのGenStudioのユーザーロール</li>
-   <li>GenStudio System Managerからアクティベーションにアクセス <!--and Events--></li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限</a>を参照してください。 
-   </p>
-  </td> 
-  </tr> 
+  <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -121,7 +122,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * [アイデア立案スペースの概要からプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン &#x200B;](assets/setting-icon.png)をクリックします。
+1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン ](assets/setting-icon.png)をクリックします。
 1. 「誰がアクセス権を持っているか」リストで、次のいずれかを選択します。
 
    * **招待されたユーザーのみが**&#x200B;にアクセスできます

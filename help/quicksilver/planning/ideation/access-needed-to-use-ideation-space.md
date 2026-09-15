@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 3%
-
+source-wordcount: '655'
+ht-degree: 2%
 ---
-
 
 # アイデア創出スペースの利用に必要なアクセス
 
@@ -30,21 +28,43 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 
 ## 必要な製品
 
-アイデア創出スペースは、単独の製品ではありません。 Workfront計画パッケージが必要であり、Workfront計画からのみアクセスできます。 追加の製品も必要です。
 
-アイデア創出スペースにアクセスするには、次の製品のパッケージを購入する必要があります。
+アイデア創出スペースは、単独のプロダクトではなく、Adobe Workfrontプランニングの機能を提供します。
 
-* プランニングパッケージに加えて、Adobe Workfront Workflow パッケージ
+組織がアイデア創出スペースにアクセスでき、アイデア創出スペースにアクセスするタイミングに応じて、次のパッケージにアクセスできる場合は、アイデア創出スペースにアクセスできます。
 
-  または
+* Open Betaのリリース中は、次の要件を満たしている必要があります。
 
-  スタンドアロン製品として購入されたAdobe Workfrontプランニング。
-* Adobe GenStudio for Performance Marketing ライセンス
+  * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
 
-  >[!TIP]
-  >
-  >GenStudio for Performance Marketingでは、適切なフォントエンタイトルメントにアクセスする必要があります。
+* 一般提供リリースの後、次のいずれかを実行できます。
 
+  * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+  * スタンドアロン製品としてのAdobe Workfront計画
+
+アイデア創出スペースのリリース段階について詳しくは、[Adobe Workfront計画のアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
+
+>[!NOTE]
+>
+>アイデア創出スペースには、Adobe WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
+
+<!--
+No longer the case: 
+
+Your organization must purchase a package for the following products to access the Ideation space: 
+
+* An Adobe Workfront Workflow package in addition to a Planning package
+
+    Or
+    
+    An Adobe Workfront Planning purchased as a standalone product. 
+* An Adobe GenStudio for Performance Marketing license
+
+    >[!TIP]
+    >
+    >GenStudio for Performance Marketing is needed to have access to the correct font entitlements. 
+
+-->
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
@@ -97,9 +117,11 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 | コメンター | アイデア創出スペースの表示とコメントを行えます |
 | ビューア | アイデア創出スペースを表示できます |
 
-アイデア創出スペースの共有について詳しくは、[&#x200B; アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
+アイデア創出スペースの共有について詳しくは、[ アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
 
-<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
+<!--
+there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
+-->
 
 
 <!-- 

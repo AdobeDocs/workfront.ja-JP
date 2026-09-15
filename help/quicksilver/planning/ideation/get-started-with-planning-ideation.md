@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1001'
 ht-degree: 2%
-
 ---
-
 
 # Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ
 
@@ -19,7 +17,8 @@ ht-degree: 2%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 Adobeのアイデア創出スペースは、Workfront Planningに直接ビルトインされた、AdobeのAIを活用した戦略的アイデア出し機能です。 これにより、マーケティング部門は、データにもとづいた体系化されたキャンペーン戦略の出発点を得ることができます。手作業による調査や推測は、組織の実際のパフォーマンス履歴にもとづいてAIが生成したブリーフに置き換えることができます。
 
-Workfront Planningからのみアクセスできるアイデア創出スペースは、キャンペーンのライフサイクルの最前線にあり、計画、制作、配信の前に配置され、チームが作業を計画および実行するWorkfront計画ワークスペースに直接送られます。
+WorkfrontプランニングまたはWorkfrontメインメニューからのみアクセスできるアイデア創出スペースは、キャンペーンのライフサイクルの最前線に位置し、プランニング、プロダクション、デリバリーの前に構築され、チームが作業を計画および実行するWorkfrontプランニングワークスペースに直接送られます。
 
 ## 製品の可用性
 
 変更される可能性のあるアイデア立案スペースのリリース予定タイムラインには、次のマイルストーンが含まれます。
 
 * **終了したBeta:** 2026年7月にリリースされ、少数のお客様が含まれています。
-* **2026年9月を目標とするBeta:**&#x200B;を開きます。 これはオプトインオファーであり、顧客はオプションを積極的にオプトアウトするのではなく、オプションをオンにして設定する必要があります。
+* **2026年10月を目標とするBeta:**&#x200B;を開きます。 これはオプトインオファーであり、顧客はオプションを積極的にオプトアウトするのではなく、オプションをオンにして設定する必要があります。
 * **一般公開：** 2026年後半の予定です。
 
 ## 必要な製品
 
-組織と同時に次のパッケージにアクセスできる場合は、アイデア創出スペースにアクセスできます。
+組織がアイデア創出スペースにアクセスでき、アイデア創出スペースにアクセスするタイミングに応じて、次のパッケージにアクセスできる場合は、アイデア創出スペースにアクセスできます。
 
-* Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+* Open Betaのリリース中は、次の要件を満たしている必要があります。
 
-  または
+  * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
 
-  スタンドアロン製品としてのAdobe Workfront計画
+* 一般提供リリースの後、次のいずれかを実行できます。
 
-  >[!NOTE]
-  >
-  >アイデア創出スペースには、Adobe Planningからのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningにログインできる場合は、すぐに使用できます。
+  * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+  * スタンドアロン製品としてのAdobe Workfront計画
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>アイデア創出スペースには、Adobe WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
-アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
-上記の要件に加えて、Closed Beta プログラムに参加するには、次の条件を満たす必要があります。
+<!--
+No longer required or recommended, per Et:
 
-* キャンペーンのトラッキングを設定したアクティブなAdobe Customer Journey Analytics（CJA）アカウントを持つ
-* 反復可能な計画プロセスによるマルチチャネル施策を実施している
-* マーケティングオペレーションにWorkfrontプランニングを活用する
-* 主要なアイデア創出スペースユーザーとなる、少なくとも1人の特定された戦略家またはアイデア創出ユーザーがいる
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## オーディエンスとユースケース
 
@@ -117,7 +123,7 @@ Too much:
 
 ## アイデア創出スペースの概要
 
-アイデア創出スペースは、ブランド企業と製品マーケターが、より緊密なキャンペーンをより迅速に、より緊密に連携して構築するための、戦略的なマーケティングアイデア創出ツールです。 過去のブリーフ、パフォーマンスデータ、オーディエンスインサイト、ブランドガイドライン、既存のキャンペーンアセットなど、リアルタイムのマーケティングのコンテキストにAIの提案を基にして、結果は汎用的なものではなく、関連性のあるものです。
+アイデア創出スペースは、ブランドと製品のマーケターが協力して、より強力なキャンペーンをより迅速に、より緊密に連携して構築できる、戦略的なマーケティングのアイデア創出ツールです。 過去のブリーフ、パフォーマンスデータ、オーディエンスインサイト、ブランドガイドライン、既存のキャンペーンアセットなど、リアルタイムのマーケティングのコンテキストにAIの提案を基にして、結果は汎用的なものではなく、関連性のあるものです。
 
 ブリーフを作成する際に、アイデア出しを最大限に活用する方法の例を以下に示します。
 
@@ -142,7 +148,7 @@ Too much:
 
 利用者は、たった一発の結果を得るのではなく、フォローアップで質問し、会話で概要を絞り込むことができます。
 
-ブリーフがWorkfront Planningのライブ接続に関連付けられている場合、Coworkerはブリーフの上書きを控え、基礎となるプランを維持します。
+ブリーフがWorkfront Planningのライブ接続に関連付けられている場合、Coworkerはブリーフの上書きを控え、基礎となるプランを維持します。<!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -181,10 +187,10 @@ Worth noting
 
 ## 追加のリソース
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront計画ドキュメント](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudioの概要](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudioの概要](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

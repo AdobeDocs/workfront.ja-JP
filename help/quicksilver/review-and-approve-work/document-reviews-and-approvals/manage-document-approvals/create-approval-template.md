@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 12%
-
 ---
-
 # ドキュメントの承認ワークフローテンプレートの作成
 
 Workfrontの設定領域で、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 テンプレートは、作成者が特定のユーザーまたは組織内の全員と共有しない限り、作成したユーザーにのみ表示されます。 作成した承認テンプレートは、オブジェクトの「ドキュメント」領域のアセットに適用できます。
@@ -74,6 +78,7 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
 1. ページの右側で「**新規テンプレート**」をクリックします。
 
 1. **テンプレート名**&#x200B;を追加します。
+
 <!--
 This field has a character limit of 255.
 -->
@@ -108,10 +113,11 @@ This field has a character limit of 255.
    </tr>
    </table>
 
-   ![&#x200B; ステージを追加](assets/add-stage.png)
+   ![ ステージを追加](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![並行パスを追加](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. （オプション）パスの名前を変更するには、パスのラベルにカーソルを合わせて鉛筆アイコンをクリックし、新しい名前を入力します。 パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。

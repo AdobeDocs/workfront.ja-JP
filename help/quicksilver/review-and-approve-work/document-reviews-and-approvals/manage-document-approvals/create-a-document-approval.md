@@ -11,29 +11,33 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 2878
+source-wordcount: '2878'
 ht-degree: 5%
-
 ---
-
 # ドキュメント承認ワークフローの作成
 
 {{highlighted-preview}}
 
 Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
 
-デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[&#x200B; テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
+デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[ テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
 
 >[!IMPORTANT]
 >
@@ -198,10 +202,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-parallel-paths.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-parallel-paths.jpeg)
 
-<!-- preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+<!-- 
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
 
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
@@ -223,7 +228,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
@@ -285,7 +290,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。
 
@@ -340,9 +345,10 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-advanced.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-advanced.jpeg)
 
-   <!-- preview screen
+   <!-- 
+   preview screen
    ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
    -->
 
@@ -363,7 +369,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. バージョンをクリックして展開します。 そのステージ、各承認者の決定、ステージの決定ルール（ステージを完了するために1つの決定のみが必要かどうかなど）、期日を表示できます。
 1. 別のバージョンをクリックして、パネルを離れずに承認ワークフローを展開します。

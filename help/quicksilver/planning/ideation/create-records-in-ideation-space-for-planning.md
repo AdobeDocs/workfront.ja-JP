@@ -3,13 +3,11 @@ title: アイデア立案スペースの概要からプランニングレコー�
 description: Adobe Workfront Planningの新しい機能であるアイデア創出スペースを使用すると、ブリーフをプランニングレコードに変換できます。 書き出されたブリーフは、新しいレコードを作成したり、既存のレコードを更新したりできます。 この記事では、アイデア創出スペースを使用して、既存のプランニングレコードを作成または編集する方法について説明します。
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 4%
-
+source-wordcount: '1166'
+ht-degree: 3%
 ---
-
 
 # アイデア立案スペースの概要からプランニングレコードを作成
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
 <li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>その他の製品</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow ライセンス</p></td> 
    <td><p>標準</p>
@@ -98,24 +95,26 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>ブリーフを作成するためのアイデア創出スペースの編集者権限</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketingのユーザーロール</p></td> 
-   <td><p><ul><li>キャンペーン、商品、ペルソナにアクセスするためのGenStudioのユーザーロール</li>
-   <li>GenStudio System Managerからアクティベーションにアクセス <!--and Events--></li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限</a>を参照してください。 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
-+++  
++++   
 
 ## アイデア創出スペースを使用したレコード作成に関する考慮事項
 
-* レコードを作成または編集する場合にのみ、Workfront Planningからアイデア創出スペースを起動できます。 アイデア創出スペースは、Workfront Planning以外には存在しません。
+* アイデア創出スペースは、レコードを作成または編集する際に、Workfront計画またはWorkfrontのメインメニューからのみ起動できます。 アイデア創出スペースは、Workfront以外には存在しません。
 * アイデア創出スペースにアクセスするには、Workfront Planningにワークスペースとレコードタイプが必要です。
 * 新しいレコードは、作成方法に関係なく、常にプレースホルダーコンテンツから開始されます。
 * アイデア概要にリンクされたプランニングレコードを削除すると、アイデア概要はアイデア作成スペースに残り、アイデア作成スペース内の関連するキャンバスは削除されません。
@@ -145,15 +144,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >
      >「**表示しない**」を選択すると、今後のプロンプトが完全に閉じられます。 閉じるアイコン **X**&#x200B;をクリックすると、このボックスは閉じますが、次回レコードをインラインに追加すると再度表示されます。
 
-   ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
+   ![ アイデア創出スペースを開くボタンを含む新しいレコードボックス ](assets/new-record-creation-picker-with-ideation.png)
 
    アイデア創出スペースが新しいタブで開き、空のプロンプトが表示されます。
 
    レコードは、プレースホルダーテキストを使用してすぐに作成されます。
 
-1. （オプション）プロンプトボックスの「**既存の概要を使用**」をクリックして、アイデア創出スペースで概要と今後のレコードの作成に使用する既存の文書を参照して追加します。
+1. （オプション）プロンプトボックスの「**既存の概要を使用**」をクリックして、アイデア創出スペースで概要と今後のレコードの作成に使用する既存の文書を参照して追加します。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
-   ![&#x200B; アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
+   ![ アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
 
 1. （オプション）プロンプトボックスの右上隅にある「**前のキャンバスを開く** <!--accurate??-->」アイコン「![既存のブリーフを開く](assets/open-existing-briefs-icon.png)」をクリックして、既存のブリーフを開きます
 
@@ -181,7 +180,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * アイデア創出スペースの左下隅にある&#x200B;**概要** ファイル。 概要は、今後のレコードのドラフトであり、レコードの詳細ページとして表示されます。
 
-   ![分岐を含むアイデア創出カード &#x200B;](assets/ideation-card-with-branched-off-additional-cards.png)
+   ![分岐を含むアイデア創出カード ](assets/ideation-card-with-branched-off-additional-cards.png)
 
 1. アイデア創出スペースに引き続き情報を追加して、ブリーフの作成を完了します。
 
@@ -190,7 +189,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **ファイルに書き出し**：ファイルを作成
    * **Workfront Planning**&#x200B;に書き出して、プランニング レコードを作成します
 
-   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[&#x200B; アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
+   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[ アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
@@ -218,14 +217,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
 
-1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
+1. この記事の「[ アイデア創出スペース ](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
 
 
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 
