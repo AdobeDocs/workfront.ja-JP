@@ -109,7 +109,7 @@ are there additional license restrictions or packages to be purchased to have ac
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -122,7 +122,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * [アイデア立案スペースの概要からプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン ](assets/setting-icon.png)をクリックします。
+1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン &#x200B;](assets/setting-icon.png)をクリックします。
 1. 「誰がアクセス権を持っているか」リストで、次のいずれかを選択します。
 
    * **招待されたユーザーのみが**&#x200B;にアクセスできます

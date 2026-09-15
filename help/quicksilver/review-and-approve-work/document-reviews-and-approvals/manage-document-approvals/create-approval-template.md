@@ -113,7 +113,7 @@ This field has a character limit of 255.
    </tr>
    </table>
 
-   ![ ステージを追加](assets/add-stage.png)
+   ![&#x200B; ステージを追加](assets/add-stage.png)
 
 <!-- 
 screen for preview

@@ -117,7 +117,7 @@ Your organization must purchase a package for the following products to access t
 | コメンター | アイデア創出スペースの表示とコメントを行えます |
 | ビューア | アイデア創出スペースを表示できます |
 
-アイデア創出スペースの共有について詳しくは、[ アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
+アイデア創出スペースの共有について詳しくは、[&#x200B; アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
 
 <!--
 there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
