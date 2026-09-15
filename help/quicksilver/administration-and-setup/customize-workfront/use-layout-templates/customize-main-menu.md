@@ -11,24 +11,30 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 56%
-
+source-wordcount: '682'
+ht-degree: 57%
 ---
-
 # レイアウトテンプレートを使用したメインメニューのカスタマイズ
 
 <!--Audited: 01/2024-->
@@ -109,7 +115,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >（現在のライセンスモデルの）プランライセンスを持つユーザー、または（新しいライセンスモデルの）標準ライセンスを持つユーザーのみが、メインメニューの「ユーザー」領域![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png)を表示できます。
+     >（現在のライセンスモデルの）プランライセンスを持つユーザー、または（新しいライセンスモデルの）標準ライセンスを持つユーザーのみが、メインメニューの「ユーザー」領域![ ユーザーアイコン ](assets/users-icon-in-main-menu.png)を表示できます。
 
    * リクエスト
    * タイムシート
@@ -124,7 +130,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
    * マイ更新
    * ボード
    * ブループリント
-   * プラン
+   * プランニング
 
      >[!NOTE]
      >
@@ -136,26 +142,19 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
      >
      > カスタムアプリケーションをメインメニューオプションとして使用できるようにするには、その前に個別に作成する必要があります。 詳しくは、[Adobe App Builderを使用したWorkfront用カスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
 
-プレビュー環境では、次の操作を行います。
+1. 次のいずれかの操作を行います：<!-- for the **Native** items-->
 
-1. **Native**&#x200B;項目について、次のいずれかの操作を行います。
+   * メインメニューに表示しない![非表示アイコン ](assets/remove-icon---x-in-circle.png)項目を非表示にします。
+   * メインメニューに表示する![表示アイコン ](assets/add-icon-plus-in-circle.png)項目を表示します。
+   * ![ アイコン ](assets/move-icon---dots.png)項目をドラッグして、メインメニューでの表示順序を変更します。
 
-   * メインメニューに表示しない![非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)項目を非表示にします。
-   * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
-   * ![&#x200B; アイコン &#x200B;](assets/move-icon---dots.png)項目をドラッグして、メインメニューでの表示順序を変更します。
-
-1. **システム**&#x200B;項目について、次のいずれかの操作を行います。
-
-   * メインメニューに表示しない![非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)項目を非表示にします。
-   * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
-
-   >[!NOTE]
-   >
-   >システム項目の順序は変更できません。 これらの項目は、アクティブな場合は常にメインメニューの下部に表示されます。
+     >[!NOTE]
+     >
+     >システム項目の順序は変更できません。 これらの項目は、アクティブな場合は常にメインメニューの下部に表示されます。
 
 1. 「**完了**」をクリックします。
 
-   また、変更を破棄する場合は、いつでも「**キャンセル**」をクリックして変更を破棄できます。
+   **キャンセル**&#x200B;をクリックして、いつでも変更を破棄することもできます。
 
 1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」はいつでもクリックして、進行状況を保存できます。
 
@@ -164,3 +163,18 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
    カスタマイズが完了したら、**保存して閉じる**&#x200B;をクリックします。
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->
