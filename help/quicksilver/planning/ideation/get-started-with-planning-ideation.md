@@ -186,10 +186,10 @@ Worth noting
 
 ## 追加のリソース
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
 * [Adobe Workfront計画ドキュメント](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudioの概要](https://business.adobe.com/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudioの概要](https://business.adobe.com/jp/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
