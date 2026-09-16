@@ -35,7 +35,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -84,7 +84,7 @@ ht-degree: 12%
 
 ## 前提条件
 
-KPI レポートを作成する前に、ダッシュボードを作成する必要があります。 詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+KPI レポートを作成する前に、ダッシュボードを作成する必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## キャンバスダッシュボードでの KPI レポートの作成
 
@@ -119,27 +119,27 @@ KPI レポートを作成するには、多くの設定オプションを使用�
 
 1. 以下の手順に従って、**ビルド KPI** セクションを設定します。
 
-   1. 左側のパネルで、**KPIの作成** ![KPIの作成アイコン ](assets/build-kpi-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**KPIの作成** ![KPIの作成アイコン &#x200B;](assets/build-kpi-icon.png) アイコンをクリックします。
 
    1. 「**フィールドを選択**」をクリックし、レポートに追加するフィールドを指定します。
 
    1. 「**集計タイプ**」ドロップダウンで、データのロールアップ方法を選択してKPI出力を生成します。 このフィールドのオプションは、前の手順で選択したフィールドのタイプによって異なります。
 
-1. 左側のパネルで、**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
+1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
 
-   詳しくは、「[ キャンバスダッシュボードでレポートをフィルタリング ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
+   詳しくは、「[&#x200B; キャンバスダッシュボードでレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 1. 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**ドリルダウン列** ![ ドリルダウン列アイコン ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+   1. 左側のパネルで、**ドリルダウン列** ![&#x200B; ドリルダウン列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
    1. （オプション）既存の列設定のいずれかを更新するには、**現在の列** セクションで更新する列を選択し、目的の情報（ラベル、リンクされたステータス、書式設定ルールなど）を更新します。
 
    1. **列を追加**&#x200B;をクリックし、テーブルに列として表示するフィールドを選択します。 追加する各列について、このプロセスを繰り返します。
 
-1. 左側のパネルで、**ドリルダウン グループ設定** ![ ドリルダウン グループ アイコン ](assets/drilldown-group-icon.png) アイコンをクリックし、ドリルダウン テーブルのグループ化を追加します。
+1. 左側のパネルで、**ドリルダウン グループ設定** ![&#x200B; ドリルダウン グループ アイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックし、ドリルダウン テーブルのグループ化を追加します。
 
-   詳しくは、[ カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)の「[ グラフおよびKPI レポートでのドリルダウングループ化の設定](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)」を参照してください。
+   詳しくは、[&#x200B; カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)の「[&#x200B; グラフおよびKPI レポートでのドリルダウングループ化の設定](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)」を参照してください。
 
 1. **保存**&#x200B;をクリックしてレポートを作成し、ダッシュボードに追加します。
 
@@ -147,7 +147,7 @@ KPI レポートを作成するには、多くの設定オプションを使用�
 
 ここでは、保留中のドキュメントの承認を表示するKPI レポートを作成する手順について説明します。
 
-KPI レポートの例について詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+KPI レポートの例について詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 {{step1-to-dashboards}}
 
@@ -168,7 +168,7 @@ KPI レポートの例について詳しくは、[ レビューと承認用の�
 
 1. 以下の手順に従って、**ビルド KPI** セクションを設定します。
 
-   1. 左側のパネルで、**KPIの作成** ![KPIの作成アイコン ](assets/build-kpi-icon.png)をクリックします。
+   1. 左側のパネルで、**KPIの作成** ![KPIの作成アイコン &#x200B;](assets/build-kpi-icon.png)をクリックします。
 
    1. 「**フィールドを選択**」をクリックします。
 
@@ -180,7 +180,7 @@ KPI レポートの例について詳しくは、[ レビューと承認用の�
 
 1. 次の手順に従って、**Filter** セクションを設定します。
 
-   1. 左側のパネルで、**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
 
    1. **フィルターを編集**&#x200B;を選択します。
 
@@ -211,7 +211,7 @@ KPI レポートの例について詳しくは、[ レビューと承認用の�
 * **Workfront オブジェクト**：ネイティブ Workfront オブジェクト。
 * **プランニングレコードタイプ**: Workfront Planningで定義されたカスタムレコードタイプ。
 
-![ セクション ドロップダウン ](assets/sections-dropdown.png)
+![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、**セクション** ドロップダウンが更新され、選択できるフィールドタイプオプションが表示されます。
 
@@ -221,7 +221,7 @@ KPI レポートの例について詳しくは、[ レビューと承認用の�
 * **Workfront フィールド**：ネイティブフィールドのみ。
 * **関係**：接続レコード。
 
-![ レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
+![&#x200B; レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 

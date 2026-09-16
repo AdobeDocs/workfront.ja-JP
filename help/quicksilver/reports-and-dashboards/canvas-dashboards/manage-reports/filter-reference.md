@@ -28,7 +28,7 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -36,7 +36,7 @@ ht-degree: 34%
 >* Azure
 >* Google Cloud Platform
 
-この記事では、レポートをフィルタリングする際に使用できるフィールド、演算子、ワイルドカードおよび特殊ルールについて説明します。 フィルターを作成または編集する手順については、「[ キャンバスダッシュボードでレポートをフィルター](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
+この記事では、レポートをフィルタリングする際に使用できるフィールド、演算子、ワイルドカードおよび特殊ルールについて説明します。 フィルターを作成または編集する手順については、「[&#x200B; キャンバスダッシュボードでレポートをフィルター](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 ## フィールドタイプ別のフィールド演算子
 
@@ -192,15 +192,15 @@ ht-degree: 34%
 
 * ユーザー`name`属性でフィルタリングを行うと、**自分（ログイン済みユーザー）** オプションが表示されます。
 
-  ![ ユーザー名属性](assets/user-name-attribute.png)
+  ![&#x200B; ユーザー名属性](assets/user-name-attribute.png)
 
 * グループ `name`属性でフィルタリングを実行すると、**マイホームグループ （ユーザーグループにログイン）**&#x200B;および&#x200B;**他のグループ （ユーザーグループにログイン）**&#x200B;のオプションが表示され、フィルター条件で使用されます。
 
-  ![ グループ名属性](assets/group-name-attribute.png)
+  ![&#x200B; グループ名属性](assets/group-name-attribute.png)
 
 * チーム `name`属性でフィルタリングを行うと、**デフォルトのチーム （ユーザーチームにログイン）**&#x200B;と&#x200B;**他のチーム （ユーザーチームにログイン）**&#x200B;のオプションが表示され、フィルター条件で選択できるようになります。
 
-  ![ チーム名の属性](assets/team-name-attribute.png)
+  ![&#x200B; チーム名の属性](assets/team-name-attribute.png)
 
 ## 子オブジェクトの参照
 
@@ -220,7 +220,7 @@ ht-degree: 34%
 
 コレクションでフィルターを実行するには、フィールドパネルを開き、「コレクション」を選択します。 このセクションには、コレクション関係のみが一覧表示されます。 単一レコードの関係は、関係の下に残ります。
 
-![ コレクション関係](assets/collections.png)
+![&#x200B; コレクション関係](assets/collections.png)
 
 コレクションを選択した後は、次の2つの操作を実行できます。
 

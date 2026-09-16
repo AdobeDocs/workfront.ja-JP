@@ -32,7 +32,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -42,7 +42,7 @@ ht-degree: 9%
 
 グラフレポートを作成してCanvas ダッシュボードに追加すると、データを棒グラフ、列グラフ、折れ線グラフ、円グラフとして視覚化できます。
 
-![ チャートレポート ](assets/chart-report-main.png)
+![&#x200B; チャートレポート &#x200B;](assets/chart-report-main.png)
 
 ## アクセス要件
 
@@ -81,7 +81,7 @@ ht-degree: 9%
 
 ## 前提条件
 
-グラフ レポートを作成する前に、ダッシュボードを作成する必要があります。 詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+グラフ レポートを作成する前に、ダッシュボードを作成する必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## キャンバスダッシュボードでのグラフレポートの作成
 
@@ -129,7 +129,7 @@ ht-degree: 9%
 >選択したフィールドタイプに応じて、追加のフィールドが追加される場合があります。 以下に示すオプションは、すべてのフィールドタイプに対して標準です。
 
 
-1. 左側のパネルで、**グラフを作成** ![ グラフを作成アイコン ](assets/build-chart-icon.png) アイコンをクリックします。
+1. 左側のパネルで、**グラフを作成** ![&#x200B; グラフを作成アイコン &#x200B;](assets/build-chart-icon.png) アイコンをクリックします。
 
 1. **グラフの種類** ドロップダウンで、**棒**、**列**、または&#x200B;**行**&#x200B;を選択します。
 1. 2番目のドロップダウンメニューで、バー、列、または行タイプを選択します。
@@ -153,7 +153,7 @@ ht-degree: 9%
 >選択したフィールドタイプに応じて、追加のフィールドが追加される場合があります。 以下に示すオプションは、すべてのフィールドタイプに対して標準です。
 
 
-1. 左側のパネルで、**グラフを作成** ![ グラフを作成アイコン ](assets/build-chart-icon.png) アイコンをクリックします。
+1. 左側のパネルで、**グラフを作成** ![&#x200B; グラフを作成アイコン &#x200B;](assets/build-chart-icon.png) アイコンをクリックします。
 
 1. **グラフの種類** ドロップダウンで、**棒**&#x200B;を選択します。
 1. **指標** セクションで、**更新フィールド**&#x200B;を選択し、グラフで要約されるデータを含むフィールドを見つけて選択します。
@@ -178,15 +178,15 @@ ht-degree: 9%
 
 ### フィルター
 
-左側のパネルで、**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
+左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
 
-詳しくは、「[ キャンバスダッシュボードでレポートをフィルタリング ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
+詳しくは、「[&#x200B; キャンバスダッシュボードでレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 ### ドリルダウン設定
 
 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 
-1. 左側のパネルで、**ドリルダウン列** ![ ドリルダウン列アイコン ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+1. 左側のパネルで、**ドリルダウン列** ![&#x200B; ドリルダウン列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
 1. （オプション）既存の列設定のいずれかを更新するには、**現在の列** セクションで更新する列を選択し、目的の情報（ラベル、リンクされたステータス、条件など）を更新します。
 
@@ -194,9 +194,9 @@ ht-degree: 9%
 
 ### ドリルダウングループの設定
 
-左側のパネルで、**ドリルダウン グループ設定** ![ グループ設定](assets/drilldown-group-icon.png) アイコンをクリックし、ドリルダウン テーブルのグループ化を追加します。
+左側のパネルで、**ドリルダウン グループ設定** ![&#x200B; グループ設定](assets/drilldown-group-icon.png) アイコンをクリックし、ドリルダウン テーブルのグループ化を追加します。
 
-詳しくは、[ カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)の「[ グラフおよびKPI レポートでのドリルダウングループ化の設定](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)」を参照してください。
+詳しくは、[&#x200B; カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)の「[&#x200B; グラフおよびKPI レポートでのドリルダウングループ化の設定](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)」を参照してください。
 
 **保存**&#x200B;をクリックしてレポートを作成し、ダッシュボードに追加します。
 
@@ -232,13 +232,13 @@ ht-degree: 9%
 
    1. 「**下軸（X）軸**」セクションの下にある「**フィールドを更新**」ボタンを選択し、「**タスク** > **プロジェクト** > **所有者** > **名前**」フィールドを見つけて選択します。
 
-      ![ フィールドを更新](assets/bottom-x-axis.png)
+      ![&#x200B; フィールドを更新](assets/bottom-x-axis.png)
 
    1. 「**左（Y）軸**」セクションの下にある「**フィールドを選択**」ボタンをクリックし、**タスク** > **名前**」フィールドを見つけて選択します。
 
    1. 「**集計タイプ**」ドロップダウンで、「**カウント**」を選択します。
 
-      ![集計タイプ フィールド ](assets/left-y-axis.png)
+      ![集計タイプ フィールド &#x200B;](assets/left-y-axis.png)
 
 1. 次の手順に従って、**Filter** セクションを設定します。
 
@@ -264,13 +264,13 @@ ht-degree: 9%
 
    1. エバリュエーターのフィールドに&#x200B;*$$TODAY*&#x200B;と入力します。
 
-      詳しくは、[ カンバスダッシュボードのレポートフィルターリファレンス ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)の[日付ベースのワイルドカードフィルター変数](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables)を参照してください。
+      詳しくは、[&#x200B; カンバスダッシュボードのレポートフィルターリファレンス &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)の[日付ベースのワイルドカードフィルター変数](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables)を参照してください。
 
-      ![評価者フィールド ](assets/add-condition.png)
+      ![評価者フィールド &#x200B;](assets/add-condition.png)
 
 1. 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**ドリルダウン列** ![ ドリルダウン列](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+   1. 左側のパネルで、**ドリルダウン列** ![&#x200B; ドリルダウン列](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
    1. 「**列を追加**」をクリックし、**割り当て先** > **名前** フィールドを選択します。
 
@@ -284,7 +284,7 @@ ht-degree: 9%
 
 1. 「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**グループ設定** ![ グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**グループ設定** ![&#x200B; グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
 
    1. 「**グループ化を追加**」ボタンをクリックし、「**プロジェクト** > **名前**」フィールドを選択します。
 
@@ -310,7 +310,7 @@ ht-degree: 9%
 * **Workfront オブジェクト**：ネイティブ Workfront オブジェクト。
 * **プランニングレコードタイプ**: Workfront Planningで定義されたカスタムレコードタイプ。
 
-![ セクション ドロップダウン ](assets/sections-dropdown.png)
+![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、**セクション** ドロップダウンが更新され、選択できるフィールドタイプオプションが表示されます。
 
@@ -320,7 +320,7 @@ ht-degree: 9%
 * **Workfront フィールド**：ネイティブフィールドのみ。
 * **関係**：接続レコード。
 
-![ レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
+![&#x200B; レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 

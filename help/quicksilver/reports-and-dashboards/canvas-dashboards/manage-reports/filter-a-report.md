@@ -28,7 +28,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -80,7 +80,7 @@ ht-degree: 23%
 
 ## 前提条件
 
-フィルターを適用する前に、ダッシュボードにレポートを作成するか、ダッシュボードを作成している必要があります。 詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+フィルターを適用する前に、ダッシュボードにレポートを作成するか、ダッシュボードを作成している必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## レポートフィルターの追加または編集
 
@@ -107,6 +107,6 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->フィールド、演算子、ワイルドカードおよび特殊フィルタールールの完全なリストについては、[ カンバスダッシュボードのフィルターリファレンスのレポート ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)を参照してください。
+>フィールド、演算子、ワイルドカードおよび特殊フィルタールールの完全なリストについては、[&#x200B; カンバスダッシュボードのフィルターリファレンスのレポート &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)を参照してください。
 
 1. 「**保存**」をクリックします。
