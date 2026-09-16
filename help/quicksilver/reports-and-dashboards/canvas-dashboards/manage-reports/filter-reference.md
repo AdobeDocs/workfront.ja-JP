@@ -19,16 +19,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 34%
+source-wordcount: '1022'
+ht-degree: 40%
 ---
 # Canvas ダッシュボードのレポートフィルター参照
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -36,7 +36,7 @@ ht-degree: 34%
 >* Azure
 >* Google Cloud Platform
 
-この記事では、レポートをフィルタリングする際に使用できるフィールド、演算子、ワイルドカードおよび特殊ルールについて説明します。 フィルターを作成または編集する手順については、「[&#x200B; キャンバスダッシュボードでレポートをフィルター](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
+この記事では、レポートをフィルタリングする際に使用できるフィールド、演算子、ワイルドカードおよび特殊ルールについて説明します。 フィルターを作成または編集する手順については、「[ キャンバスダッシュボードでレポートをフィルター](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 ## フィールドタイプ別のフィールド演算子
 
@@ -192,15 +192,15 @@ ht-degree: 34%
 
 * ユーザー`name`属性でフィルタリングを行うと、**自分（ログイン済みユーザー）** オプションが表示されます。
 
-  ![&#x200B; ユーザー名属性](assets/user-name-attribute.png)
+  ![ ユーザー名属性](assets/user-name-attribute.png)
 
 * グループ `name`属性でフィルタリングを実行すると、**マイホームグループ （ユーザーグループにログイン）**&#x200B;および&#x200B;**他のグループ （ユーザーグループにログイン）**&#x200B;のオプションが表示され、フィルター条件で使用されます。
 
-  ![&#x200B; グループ名属性](assets/group-name-attribute.png)
+  ![ グループ名属性](assets/group-name-attribute.png)
 
 * チーム `name`属性でフィルタリングを行うと、**デフォルトのチーム （ユーザーチームにログイン）**&#x200B;と&#x200B;**他のチーム （ユーザーチームにログイン）**&#x200B;のオプションが表示され、フィルター条件で選択できるようになります。
 
-  ![&#x200B; チーム名の属性](assets/team-name-attribute.png)
+  ![ チーム名の属性](assets/team-name-attribute.png)
 
 ## 子オブジェクトの参照
 
@@ -212,26 +212,29 @@ ht-degree: 34%
 
 上記の親子関係のいずれかを使用すると、親オブジェクトに接続されている各子レコードのテーブルに行が表示されます。
 
+<!--
 <div class="preview">
 
-## プレビューでのコレクション関係に対するフィルター
+## Filter on collection relationships in Preview
 
-コレクションは、1つのレコードではなく、関連するレコードのグループにリンクするフィールドです。 たとえば、プロジェクトの承認段階にある参加者は、コレクションです。 フィルターを作成する場合、テキストモードに切り替えずに、コレクションで直接フィルターを適用できます。
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-コレクションでフィルターを実行するには、フィールドパネルを開き、「コレクション」を選択します。 このセクションには、コレクション関係のみが一覧表示されます。 単一レコードの関係は、関係の下に残ります。
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![&#x200B; コレクション関係](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-コレクションを選択した後は、次の2つの操作を実行できます。
+After you select a collection, you can do two things:
 
-* コレクション独自のフィールドでフィルターを実行します。 例えば、ポートフォリオのプロジェクトから、プロジェクトのステータスをフィルタリングできます。
-* コレクションから1つのシングルレコード関係に従います。 例えば、ポートフォリオのプロジェクトから、プロジェクトオーナーに連絡できます。
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-コレクションでは、より詳細なナビゲーションはサポートされていません。 別のコレクション内にネストされたコレクションを開いたり、複数のリレーションシップに従ったり、最初のリレーションシップに戻るリレーションシップを選択することはできません。
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-「コレクション」セクションは、フィルターを作成する場合にのみ表示されます。 表の列、グループ化、グラフなどの他のフィールド選択では表示されません。
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## 個人プロジェクト、タスク、およびボットユーザーの除外
 
