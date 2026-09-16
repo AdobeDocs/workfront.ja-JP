@@ -4,17 +4,15 @@ description: この記事では、アイデア創出スペースでブレイン�
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 4%
-
+source-wordcount: '1461'
+ht-degree: 3%
 ---
-
 
 # アイデア創出スペースでブリーフを作成する
 
-<!-- add to TOC and miniTOC-->
+<!--add to TOC and miniTOC-->
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>
 
@@ -50,18 +48,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
 <li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>その他の製品</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow ライセンス</p></td> 
    <td><p>標準</p>
@@ -88,14 +85,16 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>ブリーフを作成するためのアイデア創出スペースの編集者権限</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketingのユーザーロール</p></td> 
-   <td><p><ul><li>キャンペーン、商品、ペルソナにアクセスするためのGenStudioのユーザーロール</li>
-   <li>GenStudio System Managerからアクティベーションにアクセス <!--and Events--></li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限</a>を参照してください。 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 

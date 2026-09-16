@@ -14,20 +14,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eDTZB36f13CgQ5HSrp5MGqHDnhMi-SVA9ygsfxRjh-M
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 62d9d350c2b233f657780ab540b709368e3e0bc9
 workflow-type: tm+mt
-source-wordcount: 2877
-ht-degree: 100%
-
+source-wordcount: '2882'
+ht-degree: 97%
 ---
-
 # キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み
 
 <!--Audited: 12/2023-->
@@ -76,7 +79,9 @@ ht-degree: 100%
 
 * この方法でデータを読み込んでも、Workfront に既に存在するレコードの情報は更新されません。
 * 読み込めるのは、新しいレコードとその情報のみです。
-* 読み込みがタイムアウトしないように、一度に読み込むレコードを 2,000 件以下にします
+* キックスタートのインポートはバックグラウンドで実行され、レコードの制限はありません。
+
+<!--THIS IS OLD. The background run was added September 2026, can delete this text at the end of the year * Import no more than 2,000 records at a time to ensure that the import does not time out.-->
 
 ## キックスタートテンプレートをスプレッドシートファイルとして書き出す
 
@@ -85,10 +90,6 @@ ht-degree: 100%
 キックスタートテンプレートを書き出すには、次の手順に従います。
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. **システム**／**データを読み込み（キックスタート）**&#x200B;をクリックします。
 
@@ -331,9 +332,9 @@ ht-degree: 100%
    * 読み込むオブジェクトが新規の場合は、**TRUE** と入力して行にデータを読み込みます。 この値は大文字と小文字が区別され、常に大文字の英字である必要があります
    * Workfront に既にオブジェクトがある場合は、**isNew** 列に **FALSE** と入力して行を無視します。 この値は大文字と小文字が区別され、常に大文字の英字である必要があります
 
-      * Workfront に既に存在するレコードは更新されません。
-      * Workfront からデータを含むテンプレートをダウンロードした場合、既存のオブジェクトにはあらかじめ **FALSE** が付けられます。
-      * 空のテンプレートをダウンロードした場合は、既存のオブジェクトに新しい行を追加する必要はありません。
+     * Workfront に既に存在するレコードは更新されません。
+     * Workfront からデータを含むテンプレートをダウンロードした場合、既存のオブジェクトにはあらかじめ **FALSE** が付けられます。
+     * 空のテンプレートをダウンロードした場合は、既存のオブジェクトに新しい行を追加する必要はありません。
 
 1. 次のいずれかの方法で、**ID** 列に情報を追加します。
 
@@ -353,13 +354,13 @@ ht-degree: 100%
 
    * プロジェクトを読み込む際には、グループ ID を指定する必要があります。
 
-      * Workfront に既にグループが存在する場合は、プロジェクトの **setGroupID** フィールドに一意の ID を追加する必要があります。
-      * Workfront にグループが存在しない場合は、**グループ**&#x200B;シートを読み込むファイルに追加し、グループシートの **isNew** フィールドを **TRUE** に設定し、**ID** 列で新規グループの数値 ID を指定します。 新規プロジェクトの **setGroupID** フィールドは新規グループの数値 **ID** と一致する必要があります。
+     * Workfront に既にグループが存在する場合は、プロジェクトの **setGroupID** フィールドに一意の ID を追加する必要があります。
+     * Workfront にグループが存在しない場合は、**グループ**&#x200B;シートを読み込むファイルに追加し、グループシートの **isNew** フィールドを **TRUE** に設定し、**ID** 列で新規グループの数値 ID を指定します。 新規プロジェクトの **setGroupID** フィールドは新規グループの数値 **ID** と一致する必要があります。
 
      **例：**&#x200B;プロジェクトの場合、**setGroupID** 列に表示される値は、次のいずれかに該当する必要があります。
 
-      * Workfront インスタンス内の既存のグループの GUID
-      * インポート中に新しいグループを作成する場合は、**「GROUP」グループ**&#x200B;シートの ID 列の値（数値）
+     * Workfront インスタンス内の既存のグループの GUID
+     * インポート中に新しいグループを作成する場合は、**「GROUP」グループ**&#x200B;シートの ID 列の値（数値）
 
 1. 必須フィールドおよび読み込み時に入力するその他のフィールドの値を入力します。
 1. （オプション）カスタムデータを追加するには、次の手順に従います。
@@ -387,11 +388,11 @@ Workfront は、ほとんどの日付形式を処理できます。 ただし、
 
 Workfront では、日付の一部として時間値も使用できます。
 
-例：07/10/2022 01:30 または 07/10/2022 1:00 PM。
+例：07/10/2022 01:30または07/10/2022 1:00 PM.
 
 日付の時刻を省略した場合、Workfront は次のいずれかを実行します。
 
-* 時刻が午前12:00であると仮定します。 期待する日付の結果を確認するには、システムのタイムゾーンがお使いのタイムゾーンと一致している必要があります。
+* 時間は午前12時とします。 期待する日付の結果を確認するには、システムのタイムゾーンがお使いのタイムゾーンと一致している必要があります。
 * スケジュールに関連付けられたオブジェクト上にある場合、時間は、スケジュールが許可する最も早い時間に従います。
 
 >[!NOTE]
@@ -461,13 +462,13 @@ Workfront では、日付の一部として時間値も使用できます。
 
   同じ読み込みファイルで両方のメソッドを使用する方法を次に示します。
 
-   * スプレッドシートの **setRoleID** 列の左側に列を追加します。
-   * 新しい列に **#setRoleID ROLE name** という名前を付けます。
-   * 既存のレコードに役割を割り当てる場合は、**#setRoleID ROLE name** 列に役割名を入力します。
+  * スプレッドシートの **setRoleID** 列の左側に列を追加します。
+  * 新しい列に **#setRoleID ROLE name** という名前を付けます。
+  * 既存のレコードに役割を割り当てる場合は、**#setRoleID ROLE name** 列に役割名を入力します。
 
-     新しい役割レコードへの役割割り当ての場合は、ROLE Role シートの setRoleID に割り当てた ID を入力します。
+    新しい役割レコードへの役割割り当ての場合は、ROLE Role シートの setRoleID に割り当てた ID を入力します。
 
-     ![ユーザーの役割 ID](assets/set-role-id.png)
+    ![ユーザーの役割 ID](assets/set-role-id.png)
 
 ## スプレッドシートデータを Workfront に読み込む
 
@@ -491,8 +492,6 @@ Excel テンプレートにデータを入力した後、そのデータを Work
 
 テンプレートスプレッドシートデータを Workfront に読み込むには、以下の手順を実行します。
 
-<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
-
 {{step-1-to-setup}}
 
 1. **システム**／**データを読み込み（キックスタート）**&#x200B;の順にクリックします。
@@ -501,7 +500,9 @@ Excel テンプレートにデータを入力した後、そのデータを Work
 
    ファイルは自動的にアップロードされ、読み込みが成功したという通知が表示されます。
 
-   Excel ファイルの Workfront へのアップロードに 5 分以上かかる場合、アプリケーションがタイムアウトし、Workfront はファイルをアップロードできません。 オブジェクトの小さなバッチでデータを読み込んでみてください。
+   <!--If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.-->
+
+   読み込みはバックグラウンドで実行されるので、タイムアウトしません。 読み込みが完了するまで待ってから、別の読み込みを開始するか、ページから移動します。 読み込みに時間がかかりすぎている場合は、キャンセルできます。
 
 1. （条件付き）読み込みが成功しなかった場合は、問題の詳細を示すエラーメッセージが表示されます。 問題が発生したフィールド、シートおよび行番号を特定し、Excel ファイルの情報を修正します。 その後、もう一度ファイルを読み込んでみます。
 1. （条件付き）Workfront Fusion を使用している場合、読み込みが完了したときに FLO またはシナリオをオンにできます。
