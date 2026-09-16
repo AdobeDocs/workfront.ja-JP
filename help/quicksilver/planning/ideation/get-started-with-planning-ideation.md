@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 2%
@@ -19,7 +19,6 @@ Should we add a new Feature to ExL for "Strategic Ideation"?
 
 <!--
 information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
-
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
 
@@ -61,7 +60,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
-アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 <!--
 No longer required or recommended, per Et:
@@ -187,10 +186,10 @@ Worth noting
 
 ## 追加のリソース
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront計画ドキュメント](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudioの概要](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudioの概要](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

@@ -12,27 +12,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GijvNmSyIroodL3bz-AJRl0A-wuvKetxmrtSzscaje0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 24%
-
+source-wordcount: '579'
+ht-degree: 22%
 ---
-
 # キャンバスダッシュボードの概要
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
 >
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
@@ -50,44 +55,46 @@ Adobe Canvas Dashboardsでは、ドキュメントの承認決定やWorkfront計
 ## 前提条件
 
 * お客様の組織がCanvas Dashboards betaに参加している必要があります。 詳しくは、[Canvas ダッシュボードのベータ情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)を参照してください。
-* Canvas ダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新規ライセンス）が必要です。 Workfront ライセンスの種類について詳しくは、[&#x200B; ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)または[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
-* Workfront管理者は、Canvas ダッシュボードを作成または編集するために、アクセスレベルのダッシュボードへの「編集」アクセス権を付与する必要があります。 編集アクセス権の付与について詳しくは、[&#x200B; レポート、ダッシュボード、カレンダーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
+* Canvas ダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新規ライセンス）が必要です。 Workfront ライセンスの種類について詳しくは、[ ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)または[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
+* Workfront管理者は、Canvas ダッシュボードを作成または編集するために、アクセスレベルのダッシュボードへの「編集」アクセス権を付与する必要があります。 編集アクセス権の付与について詳しくは、[ レポート、ダッシュボード、カレンダーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
 ## Canvas ダッシュボードの記事
 
 * キャンバスダッシュボードの使用
 
-   * [キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
+  * [キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * キャンバスダッシュボードのベータ版
 
-   * [キャンバスダッシュボードベータ版の情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+  * [キャンバスダッシュボードベータ版の情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 * ダッシュボードの作成
 
-   * [キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+  * [キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
 
 * レポートの追加
 
-   * [キャンバスダッシュボードへの既存のレポートの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-   * [キャンバスダッシュボードでの KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-   * [キャンバスダッシュボードでのグラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-   * [キャンバスダッシュボードでのテーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+  * [キャンバスダッシュボードへの既存のレポートの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+  * [キャンバスダッシュボードでの KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+  * [キャンバスダッシュボードでのグラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+  * [キャンバスダッシュボードでのテーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 
 * キャンバスダッシュボードの管理
 
-   * [キャンバスダッシュボードの共有](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-   * [キャンバスダッシュボードでのレポートの配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
-   * [キャンバスダッシュボードのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
-   * [キャンバスダッシュボードの名前または説明の変更](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-   * [キャンバスダッシュボードの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-   * [レイアウトテンプレートへのキャンバスダッシュボードの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+  * [キャンバスダッシュボードの共有](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+  * [キャンバスダッシュボードでのレポートの配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+  * [キャンバスダッシュボードのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
+  * [キャンバスダッシュボードの名前または説明の変更](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+  * [キャンバスダッシュボードの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+  * [レイアウトテンプレートへのキャンバスダッシュボードの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
 * レポートを管理
 
-   * [キャンバスダッシュボードでのウィジェットの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-   * [キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-   * [キャンバスダッシュボードでのレポートの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+  * [キャンバスダッシュボードでのウィジェットの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+  * [カンバスダッシュボードでのレポートのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+  * [Canvas ダッシュボードのレポートフィルター参照](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+  * [カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
+  * [キャンバスダッシュボードでのレポートの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
 ## 現在の機能と予定された機能
 
@@ -125,7 +132,7 @@ Adobe Canvas Dashboardsでは、ドキュメントの承認決定やWorkfront計
 * AzureおよびGCPのお客様への拡張サポート
 * パフォーマンスの最適化
 
-Canvas ダッシュボードに追加される機能について詳しくは、[製品リリース &#x200B;](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
+Canvas ダッシュボードに追加される機能について詳しくは、[製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
 
 ### 今後のロードマップの機能
 
