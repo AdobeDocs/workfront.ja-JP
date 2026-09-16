@@ -70,7 +70,7 @@ ht-degree: 3%
 
 プライベートリストでは、次のアクセス権を持ちます。
 
-* Workfrontオブジェクトのデータビューは100を超えています。 各ビューについて詳しくは、[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
+* Workfrontオブジェクトのデータビューは100を超えています。 各ビューについて詳しくは、[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
 * データ接続データパイプラインに配信された各変更トランザクションを含む`*_event` データビュー。
 * データ拡張可能なオブジェクトのカスタムデータ値。 例については、[Workfront Data Connect クエリの例](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)のカスタムデータクエリの例を参照してください。
 
