@@ -6,16 +6,71 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '2057'
 ht-degree: 3%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## CX CoworkerがWorkfront Planningで利用可能になりました
+
+>[!NOTE]
+>
+>プレビュー：2026年9月3日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+CX Coworkerは、Workfront Planning内で利用できるようになりました。 これで、Workfront Planning全体で使用できるパネルでCX Coworkerにアクセスできます。
+
+CX Coworker Chatは、対話型のインターフェイスで作業を進めることができます。 目標を平易な言葉で説明し、Coworkerが作業を計画し、Workfront Planningと接続されたAdobeシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。
+
+Coworkerは、デフォルトで読み取り専用アクセスを使用する組織の既存のアクセス制御を尊重し、ユーザーが書き込みアクセスを取得する際にはシステム管理者が制御します。
+
+Adobe Workfrontは、作業を完了するためのより強力な方法として、現在のAI アシスタントに取って代わりました。 CoworkerはAdobeエコシステムの一部であり、Workfront Planningに限定されません。
+
+>[!IMPORTANT]
+>
+>CX Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。
+
+詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## 1対1または1対多の接続タイプでフィールドを接続したレコードを複製する際のエクスペリエンスが向上しました
+
+>[!NOTE]
+>
+>プレビュー：2026年9月17日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+1対1または1対多の接続されたレコードが存在する場合でも、レコードを複製できるようになりました。 複製の後、ユーザーは、接続されたレコードを元のレコードに保持するか、新しいレコードに接続するかを選択できます。 初期設定では、「元の画像を保持」が選択されます。
+
+接続の競合解決ダイアログが更新され、この新しい動作が反映され、接続されたレコードを管理する際の柔軟性が向上しました。
+
+詳しくは、[ レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 
 ## テーブルビューのプライマリフィールド列から、レコードのサムネールとカラーの表示を管理します
 
@@ -49,7 +104,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 グローバルレコードタイプにビジネスルールを追加することはできません。
 
-詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 >[!NOTE]
 >
@@ -72,7 +127,7 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
-詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## 接続されたレコードフィールドのフィルター
 
@@ -126,7 +181,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 カレンダーの週ビューに、表示中の週の最初の1,000件のレコードのみが表示されるようになりました。 レコードが多い場合、カレンダーの下部に次のメッセージが表示され、追加のレコードが使用可能であることを示します。「レコードが多い。 さらに読み込む&quot;。
 
-詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 依存する接続レコードフィールドの列ヘッダーを更新しました
 
@@ -167,7 +222,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## Workfront Planning Solution Architect Skillの紹介
 
@@ -185,7 +240,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 このスキルは、最初のセットアップを超えて、継続的なガバナンスをサポートしています。摩擦が生じる前に設定ドリフトを捉え、制限に近づいているときに警告を発することで、ブロッカーになる前に警告を発し、誰が設定したかに関係なく、あらゆるワークスペースに一貫性のある標準を適用し、チーム全員に専門家のサポートを待たずに正確な回答を提供します。 これは、ワークスペースを正しく設定し、使用が増えるにつれてワークスペースを維持するライフサイクル全体をカバーします。
 
-詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
