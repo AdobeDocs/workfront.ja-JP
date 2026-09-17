@@ -3,13 +3,11 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 92%
-
 ---
-
 # Workfront ガイド {#using}
 
 * [Workfront のドキュメント](home.md)
@@ -970,10 +968,10 @@ ht-degree: 92%
     * [Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP Server Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [直接インストールに使用できるスキル](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * WORKFRONTのCX担当者 {#coworker-in-workfront}
-    * [WORKFRONTのCX Coworker：記事インデックス](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX担当者の概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX担当者のスキル](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+  * WorkfrontのCX Coworker {#coworker-in-workfront}
+    * [WorkfrontのCX Coworker：記事インデックス](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Coworkerのスキル](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [WorkfrontでのCX Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
     * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -1645,7 +1643,9 @@ ht-degree: 92%
     * レポートの管理 {#manage-reports}
       * [レポートの管理：記事インデックス](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [キャンバスダッシュボードでのウィジェットの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [カンバスダッシュボードでのレポートのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [Canvas ダッシュボードのレポートフィルター参照](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [キャンバスダッシュボードのレポートの複製](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [キャンバスダッシュボードでのレポートの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * レポート {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 92%
     * [Snowflake のリーダーアカウントまたは接続の作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Workfront Data Connect への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect のデータ辞書](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[Workfront Data Connectのプライベートリストを登録](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[&#x200B; データディクショナリテスト &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)

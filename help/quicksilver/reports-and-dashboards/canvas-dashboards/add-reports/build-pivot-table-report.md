@@ -5,13 +5,11 @@ title: Canvas ダッシュボードでのピボットテーブルレポートの
 description: ピボットテーブルレポートをCanvas ダッシュボードに追加すると、データの集計合計を表形式で表示できます。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 10%
-
+source-wordcount: '1510'
+ht-degree: 9%
 ---
-
 # Canvas ダッシュボードでのピボットテーブルレポートの作成
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ ht-degree: 10%
 
    1. 上記の2つの手順を繰り返して、最大2つのセグメントを追加します。
 
-1. 次の手順に従って、**Filter** セクションを設定します。
+1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
 
-   1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
-
-   1. **フィルターを編集**&#x200B;を選択します。
-
-   1. 「**条件を追加**」をクリックし、フィルタリングするフィールドと、フィールドが満たす必要がある条件を定義する修飾子を指定します。
-
-   1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
+   詳しくは、「[&#x200B; キャンバスダッシュボードでレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 1. 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 

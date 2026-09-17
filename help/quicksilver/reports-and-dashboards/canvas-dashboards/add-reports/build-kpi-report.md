@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
-ht-degree: 13%
-
+source-wordcount: '1347'
+ht-degree: 12%
 ---
-
 # キャンバスダッシュボードでの KPI レポートの作成
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ KPI レポートを作成するには、多くの設定オプションを使用�
 
    1. 「**集計タイプ**」ドロップダウンで、データのロールアップ方法を選択してKPI出力を生成します。 このフィールドのオプションは、前の手順で選択したフィールドのタイプによって異なります。
 
-1. 次の手順に従って、**Filter** セクションを設定します。
+1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
 
-   1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
-
-   1. **フィルターを編集**&#x200B;を選択します。
-
-   1. 「**条件を追加**」をクリックし、フィルタリングするフィールドと、フィールドが満たす必要がある条件を定義する修飾子を指定します。
-
-   1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
-
-      フィルターについて詳しくは、[&#x200B; キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)を参照してください。
+   詳しくは、「[&#x200B; キャンバスダッシュボードでレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 1. 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 
@@ -141,11 +137,9 @@ KPI レポートを作成するには、多くの設定オプションを使用�
 
    1. **列を追加**&#x200B;をクリックし、テーブルに列として表示するフィールドを選択します。 追加する各列について、このプロセスを繰り返します。
 
-1. 「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
+1. 左側のパネルで、**ドリルダウン グループ設定** ![&#x200B; ドリルダウン グループ アイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックし、ドリルダウン テーブルのグループ化を追加します。
 
-   1. 左側のパネルで、**グループ設定** ![&#x200B; ドリルダウングループアイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックします。
-
-   1. 「**グループ化を追加**」ボタンをクリックし、グループ化として作成するフィールドを選択します。
+   詳しくは、[&#x200B; カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)の「[&#x200B; グラフおよびKPI レポートでのドリルダウングループ化の設定](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)」を参照してください。
 
 1. **保存**&#x200B;をクリックしてレポートを作成し、ダッシュボードに追加します。
 

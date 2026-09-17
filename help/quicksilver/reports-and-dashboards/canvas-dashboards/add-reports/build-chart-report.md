@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
-ht-degree: 10%
-
+source-wordcount: '1860'
+ht-degree: 9%
 ---
-
 # キャンバスダッシュボードでのグラフレポートの作成
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ ht-degree: 10%
 
 ### フィルター
 
-次の手順に従って、**Filter** セクションを設定します。
+左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックし、表示されるデータを決定する条件を設定します。
 
-1. 左側のパネルで、**フィルター**![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
-1. **フィルターを編集**&#x200B;を選択します。
-1. 「**条件を追加**」をクリックし、フィルタリングするフィールドと、フィールドが満たす必要がある条件を定義する修飾子を指定します。
-1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
+詳しくは、「[&#x200B; キャンバスダッシュボードでレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 ### ドリルダウン設定
 
@@ -194,13 +194,11 @@ ht-degree: 10%
 
 ### ドリルダウングループの設定
 
-「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
+左側のパネルで、**ドリルダウン グループ設定** ![&#x200B; グループ設定](assets/drilldown-group-icon.png) アイコンをクリックし、ドリルダウン テーブルのグループ化を追加します。
 
-1. 左側のパネルで、**グループ設定** ![&#x200B; グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
+詳しくは、[&#x200B; カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)の「[&#x200B; グラフおよびKPI レポートでのドリルダウングループ化の設定](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)」を参照してください。
 
-1. 「**グループ化を追加**」ボタンをクリックし、グループ化として作成するフィールドを選択します。
-
-1. **保存**&#x200B;をクリックしてレポートを作成し、ダッシュボードに追加します。
+**保存**&#x200B;をクリックしてレポートを作成し、ダッシュボードに追加します。
 
 ## チャートレポートの例を作成
 
@@ -266,7 +264,7 @@ ht-degree: 10%
 
    1. エバリュエーターのフィールドに&#x200B;*$$TODAY*&#x200B;と入力します。
 
-      ワイルドカードについて詳しくは、「[&#x200B; キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)」の記事の「日付ベースのワイルドカードフィルター変数」の節を参照してください。
+      詳しくは、[&#x200B; カンバスダッシュボードのレポートフィルターリファレンス &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)の[日付ベースのワイルドカードフィルター変数](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables)を参照してください。
 
       ![評価者フィールド &#x200B;](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ ht-degree: 10%
 
 ### 子オブジェクトの参照
 
-その他の列、フィルターオプション、グループ化属性に対して使用できるリレーションシップは、通常、Workfront オブジェクト階層内の上位のオブジェクトに限定されるか、レポートの基本エンティティオブジェクトに対して1つの選択範囲が設定されます。 これには、次のような例外があります。
-
-* プロジェクト/タスク
-* ドキュメント承認/ドキュメント承認ステージ
-* ドキュメント承認ステージ/ドキュメント承認ステージ参加者
-
-上記の親子関係のいずれかを使用すると、親オブジェクトに接続されている各子レコードのテーブルに行が表示されます。
+一部の親子関係は、列、フィルター、グループ化で使用できます。 詳しくは、「[Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)」の「[子オブジェクトの参照](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects)」を参照してください。
