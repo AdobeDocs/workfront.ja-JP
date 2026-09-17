@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 17%
-
+source-wordcount: '714'
+ht-degree: 19%
 ---
-
 # レコードの複製
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -84,7 +88,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -162,7 +166,7 @@ Old:
 
 1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
    選択したタイプのすべてのレコードがビューに表示されます。
 
 1. （条件付き）テーブルビューを選択します。
@@ -171,23 +175,28 @@ Old:
 
    * レコードの名前にカーソルを合わせ、レコード名のインラインにある&#x200B;**詳細** メニューをクリックし、**重複** アイコン ![重複アイコン グレー](assets/duplicate-icon-gray.png)をクリックします。
 
-     ![&#x200B; テーブルビューのレコードからのその他のメニュー](assets/more-menu-from-record-in-table-view.png)
+     ![ テーブルビューのレコードからのその他のメニュー](assets/more-menu-from-record-in-table-view.png)
 
    * レコードを選択し、ページ下部のツールバーにある「**複製**」アイコン「![複製アイコン白と青](assets/duplicate-icon-white-and-blue.png)」をクリックします。
 
-     ![&#x200B; テーブルビューのツールバーにアイコンを複製](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ テーブルビューのツールバーにアイコンを複製](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    元のレコードの下に、同じ名前の同じレコードが作成されます。 新しいレコードのすべてのフィールドには、元のレコードと同じ情報が入力されます。
+
+1. （条件付き）複製するレコードが、1対1または1対多の接続タイプのレコードに接続されている場合は、使用している環境に応じて、次のいずれかをクリックします。
+
+   * 実稼動環境で、**Connect**&#x200B;をクリックして、接続されたレコードを元のレコードから削除して複製されたレコードに追加するか、レコードの複製を続行しない場合は、**キャンセル**&#x200B;をクリックします。
+   * <span class="preview"> プレビュー環境で、接続されたレコードを新しいレコードに移動する場合は、**新しいレコードに接続**&#x200B;をクリックし、接続されたレコードを元のレコードに残す場合は、**元の**&#x200B;を保持をクリックします。 複製されたレコードには、そのフィールドに接続されたレコードはありません。</span>
 
 1. （オプション）テーブルビューで使用可能なフィールドで新しいレコードに関する情報の更新を開始するか、レコードのプレビューまたはページでレコードと更新情報をクリックします。
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
+   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[ テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-   レコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+   レコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 1. （オプション）次のキーボードショートカットを使用して、テーブルビューで新しいレコードまたはその情報を追加するときに、元に戻したり、やり直したりします。
 
