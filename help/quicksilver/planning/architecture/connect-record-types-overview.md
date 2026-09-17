@@ -47,7 +47,7 @@ ht-degree: 6%
 
 この記事では、レコードタイプの接続の概要を説明し、レコードタイプとオブジェクトタイプの間で確立できる接続のタイプについて説明します。
 
-レコードタイプの接続について詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+レコードタイプの接続について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -71,7 +71,7 @@ ht-degree: 6%
 
   * 2 つのレコードタイプ
 
-    デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+    デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
   * これらのアプリケーションのレコードタイプと次のオブジェクトタイプ：
 
     * Adobe Workfront:
@@ -122,7 +122,7 @@ ht-degree: 6%
 
     レコードタイプを他のレコードタイプまたはオブジェクトタイプと手動で接続すると、個々のレコードとオブジェクトを接続できます。
 
-    レコードとオブジェクトタイプの接続方法について詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+    レコードとオブジェクトタイプの接続方法について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
     詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
@@ -138,7 +138,7 @@ ht-degree: 6%
 
     レコードを作成するPlanning リクエストを送信して承認すると、レコードタイプとリクエストオブジェクトタイプの間の接続が自動的に作成されます。
 
-    詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+    詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
     元のリクエストは、Workfrontのリクエスト領域の&#x200B;**件名** フィールドまたはWorkfront Planningの元のリクエスト接続フィールドで表示できます。
 
@@ -161,7 +161,7 @@ ht-degree: 6%
     * リンクされたレコードフィールドは、接続元のレコードタイプに作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
     * プランニングレコードフィールドには、Workfront オブジェクトからアクセスできません。
     * プランニングレコードは、Workfront オブジェクトの「プランニング」セクションから表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md)を参照してください。
-    * Planning Connection カスタムフィールドを作成し、それをWorkfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+    * Planning Connection カスタムフィールドを作成し、それをWorkfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
     * Experience Manager管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Workfront assetsからプランニングレコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。<!--not sure if this is also possible for content fragments-->
     * プランニングレコードフィールドには、GenStudio for Performance MarketingのBrandsからアクセスできません。
 
@@ -186,7 +186,7 @@ ht-degree: 6%
     >
     >ワークスペースに対する表示権限またはそれ以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションの権限や他のワークスペースの権限に関係なく、ルックアップフィールドの情報を表示できます。
 
-    * 接続されたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
+    * 接続されたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
 
     * 接続されたルックアップフィールドの前には、フィールドタイプを識別するアイコンが表示されます。 ルックアップフィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが表示されます。
 
@@ -196,7 +196,7 @@ ht-degree: 6%
       >
       >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドでは、Workfront Planningで15:00と表示されます。
 
-  * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+  * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 
   * 組織がAdobe GenStudio for Performance Marketing パッケージを購入した場合、次のシナリオが存在します。
 
@@ -218,7 +218,7 @@ ht-degree: 6%
   * 実稼動環境では、接続されたレコードが複製されたレコードに移動します。または、レコードを複製する前に元のレコードから手動で削除してから、再度追加する必要があります。
   * <span class="preview"> プレビュー環境では、接続されたレコードが元のレコードに残るか、複製されたレコードに移動するかを選択できます。</span>
 
-  詳しくは、[ レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
+  詳しくは、[&#x200B; レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 
 
 ## 接続タイプ
@@ -253,7 +253,7 @@ ht-degree: 6%
 
 ### 複数選択の接続タイプ
 
-![複数選択の接続タイプ ](assets/multi-select-connection-picker.png)
+![複数選択の接続タイプ &#x200B;](assets/multi-select-connection-picker.png)
 
 レコードタイプ間に複数選択接続を作成する場合、接続フィールドで元のレコードタイプから複数の接続されたレコードを選択できます。
 
@@ -268,7 +268,7 @@ ht-degree: 6%
 
 ### シングルセレクト接続タイプ
 
-![単一選択接続タイプ ](assets/single-select-connection-picker.png)
+![単一選択接続タイプ &#x200B;](assets/single-select-connection-picker.png)
 
 レコードタイプ間にシングルセレクト接続を作成する場合は、接続フィールドで元のレコードタイプから1つのレコードを選択できます。
 

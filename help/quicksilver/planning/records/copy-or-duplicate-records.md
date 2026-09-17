@@ -88,7 +88,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -175,11 +175,11 @@ Old:
 
    * レコードの名前にカーソルを合わせ、レコード名のインラインにある&#x200B;**詳細** メニューをクリックし、**重複** アイコン ![重複アイコン グレー](assets/duplicate-icon-gray.png)をクリックします。
 
-     ![ テーブルビューのレコードからのその他のメニュー](assets/more-menu-from-record-in-table-view.png)
+     ![&#x200B; テーブルビューのレコードからのその他のメニュー](assets/more-menu-from-record-in-table-view.png)
 
    * レコードを選択し、ページ下部のツールバーにある「**複製**」アイコン「![複製アイコン白と青](assets/duplicate-icon-white-and-blue.png)」をクリックします。
 
-     ![ テーブルビューのツールバーにアイコンを複製](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![&#x200B; テーブルビューのツールバーにアイコンを複製](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    元のレコードの下に、同じ名前の同じレコードが作成されます。 新しいレコードのすべてのフィールドには、元のレコードと同じ情報が入力されます。
 
@@ -192,11 +192,11 @@ Old:
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[ テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
+   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-   レコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+   レコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 1. （オプション）次のキーボードショートカットを使用して、テーブルビューで新しいレコードまたはその情報を追加するときに、元に戻したり、やり直したりします。
 
