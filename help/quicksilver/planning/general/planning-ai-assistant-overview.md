@@ -28,19 +28,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 10%
+source-wordcount: '988'
+ht-degree: 11%
 ---
 # Adobe Workfront Planning の AI アシスタントの概要
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 
 {{planning-important-intro}}
@@ -48,6 +48,10 @@ ht-degree: 10%
 AI アシスタントを使用すると、現在のページコンテキストに基づいて、Adobe Workfront Planningのレコードやその他のオブジェクトを変更または更新できます。
 
 ユーザーのコマンドとAIによるコマンドの実行が連携して、AIによる変更が環境に正確に反映されるようにします。
+
+>[!IMPORTANT]
+>
+><span class="preview">一部の組織では、AI アシスタントがCX Coworkerに置き換えられました。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
 
 ## アクセス要件
 
@@ -100,7 +104,7 @@ AI アシスタントを使用すると、現在のページコンテキスト�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -111,7 +115,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
 
-* Workfrontが組織のエージェントを有効にした後、メインのWorkfront管理者が使用できるようになります。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+* Workfrontが組織のエージェントを有効にした後、メインのWorkfront管理者が使用できるようになります。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 * Workfront管理者は、他のすべてのユーザーに対してAI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの有効化または無効化](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)を参照してください。
 
@@ -150,12 +154,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## Workfront PlanningのAI アシスタントを探す
 
+>[!NOTE]
+>
+><span class="preview">組織がCX Coworkerへのアクセスを受け取った場合、CX Coworkerの場所を特定することは、AI アシスタントの場所を特定することと似ています。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
+
+
 AI アシスタントは、Workfront Planningの次の領域で見つけることができます。
 
 * 画面の右上隅にあるメインナビゲーションバー。
 * レコードの詳細領域内で、プレビューでレコードを開いた後、またはレコードのページを開いた後。
 
-## 計画領域のAI アシスタントにアクセスします
+### 計画領域のAI アシスタントにアクセスします
 
 1. Workfrontにログインし、左上隅の&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックしてから、**計画**&#x200B;をクリックします。
 
@@ -169,11 +178,11 @@ AI アシスタントは、Workfront Planningの次の領域で見つけるこ�
 
 1. グローバルナビゲーションバーの画面の右上隅、またはレコードのプレビューまたはページの右上隅にある&#x200B;**AI アシスタントアイコン**&#x200B;をクリックします。
 
-   ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon-highlighted.png)
+   ![AI アシスタント アイコン ](assets/ai-assistant-icon-highlighted.png)
 
 1. 提供されたスペースで、AI アシスタントのコマンドを入力し始め、完了したら「Enter」をクリックします。
 
-   ![空のコマンドボックスを含むAI アシスタントパネル &#x200B;](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![空のコマンドボックスを含むAI アシスタントパネル ](assets/ai-assistant-panel-with-empty-command-box.png)
 
    例えば、次のいずれかを入力します。
 
