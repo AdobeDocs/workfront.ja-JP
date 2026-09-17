@@ -104,7 +104,7 @@ AI アシスタントを使用すると、現在のページコンテキスト�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -115,7 +115,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
 
-* Workfrontが組織のエージェントを有効にした後、メインのWorkfront管理者が使用できるようになります。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+* Workfrontが組織のエージェントを有効にした後、メインのWorkfront管理者が使用できるようになります。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 * Workfront管理者は、他のすべてのユーザーに対してAI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの有効化または無効化](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)を参照してください。
 
@@ -178,11 +178,11 @@ AI アシスタントは、Workfront Planningの次の領域で見つけるこ�
 
 1. グローバルナビゲーションバーの画面の右上隅、またはレコードのプレビューまたはページの右上隅にある&#x200B;**AI アシスタントアイコン**&#x200B;をクリックします。
 
-   ![AI アシスタント アイコン ](assets/ai-assistant-icon-highlighted.png)
+   ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon-highlighted.png)
 
 1. 提供されたスペースで、AI アシスタントのコマンドを入力し始め、完了したら「Enter」をクリックします。
 
-   ![空のコマンドボックスを含むAI アシスタントパネル ](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![空のコマンドボックスを含むAI アシスタントパネル &#x200B;](assets/ai-assistant-panel-with-empty-command-box.png)
 
    例えば、次のいずれかを入力します。
 
