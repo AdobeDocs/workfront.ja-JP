@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 5%
-
 ---
-
 # Adobe Workfront Planning でのリクエストフォームの作成と管理
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -199,12 +205,12 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
    * **ラベル**：これは、リクエストフォームに表示されるフィールド名です。 これは、レコードフィールドの名前を変更するものではありません。
    * **手順**: フィールドに関する詳細情報を追加します。
    * **必須フィールドを作成**：選択した場合、フィールドには値が必要です。 それ以外の場合は、フォームを送信できません。
-   * **ロジックを追加**: フィールドを表示または非表示にするには、どの条件を満たす必要があるかを定義します。
+   * **ロジックを追加**: フィールドを表示または非表示にするには、どの条件を満たす必要があるかを定義します。<!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   各フィールドのフィールドタイプは、フォームでフィールドを選択した後、右側のパネルの上部に表示されます。
-   >     
+   >各フィールドのフィールドタイプは、フォームでフィールドを選択した後、右側のパネルの上部に表示されます。
+
 1. （オプション）フィールドを長押ししてドラッグし、フォーム上の別の位置にドロップします。
 1. （オプション）フォームの左側にある「**コンテンツ要素**」タブをクリックし、次のいずれかの要素を追加します。
 
@@ -237,6 +243,7 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 * 少なくとも1人の承認者がリクエストを拒否すると、リクエストは拒否され、レコードは作成されません。 リクエストはWorkfrontのリクエスト領域に残ります。
 * 複数の承認者を追加し、「1つの決定のみが必要」オプションが有効になっていない場合、リクエストが承認または却下される前に、すべての承認者が決定を下す必要があります。
 * チームが承認者として設定されている場合、チームから必要な決定はひとつだけです。
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 承認の追加について詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
@@ -255,11 +262,13 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
    ![既定の承認ルール領域](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. （オプション）追加の承認ルールごとに、次の操作を行います。
 
-   1. **承認ルールを追加**&#x200B;をクリックします
+   1. 「**承認ルールを追加**」をクリックします。
    1. プレースホルダータイトル「名称未設定の承認ルール」をクリックし、承認ルールの名前を入力します。
    1. 「**フィールドを選択**」をクリックし、ルールをアクティブ化するフィールドを選択します。
    1. ルールの演算子を選択します。 演算子は、フィールドのタイプによって異なります。
@@ -267,6 +276,8 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
    1. （オプション）条件を追加するには、「条件を追加」をクリックし、追加の条件を設定します。
    1. 承認ルールの「アクション」エリアの「**承認者**」フィールドに、条件が満たされたときに承認者で設定するユーザーまたはチームを少なくとも1つ追加します。
    1. （条件付き）承認者のいずれかがレコードを承認した後にレコードを作成する場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. （オプション）ルーティングルールを並べ替えるには、ルールの左側にあるドラッグハンドルをクリックし、ルールを目的の場所にドラッグします。
 

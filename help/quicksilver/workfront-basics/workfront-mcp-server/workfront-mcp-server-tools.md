@@ -5,13 +5,12 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2811'
 ht-degree: 6%
 
 ---
-
 
 # Adobe Workfront MCP Server Tools
 
@@ -287,6 +286,10 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 ### インサイトツール
 
 インサイトツールは、Workfront オブジェクトに関する情報を取得します。
+
+>[!NOTE]
+>
+>インサイトデータはほぼリアルタイムで取得でき、SLAの所要時間は約15分です。 Workfrontで行った変更は、インサイトの結果にすぐに表示されない場合があります。
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |

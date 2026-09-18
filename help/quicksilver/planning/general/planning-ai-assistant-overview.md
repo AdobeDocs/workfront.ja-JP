@@ -11,37 +11,47 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '988'
 ht-degree: 11%
-
 ---
-
 # Adobe Workfront Planning の AI アシスタントの概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 
 {{planning-important-intro}}
 
-AI アシスタントを使用して、現在のページコンテキストとレコード構造にもとづいて、レコードを生成、更新、削除できます。
+AI アシスタントを使用すると、現在のページコンテキストに基づいて、Adobe Workfront Planningのレコードやその他のオブジェクトを変更または更新できます。
 
 ユーザーのコマンドとAIによるコマンドの実行が連携して、AIによる変更が環境に正確に反映されるようにします。
+
+>[!IMPORTANT]
+>
+><span class="preview">一部の組織では、AI アシスタントがCX Coworkerに置き換えられました。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
 
 ## アクセス要件
 
@@ -57,28 +67,40 @@ AI アシスタントを使用して、現在のページコンテキストと�
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+または
 <p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
    </td> </tr>
  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>標準</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
-   <td><p>計画標準</p>
+   <td><p>標準</p>
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>アクセスレベル設定</p></td> 
-   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td>  
+     <p>AI アシスタントへのアクセスを許可するには、管理者が次の操作を行う必要があります。</p>
+   <ul>
+   <li><p>ワークフローとプランニングパッケージの両方を持っている場合は、ワークフローとプランニングライセンスタイプの両方をアクセスレベルに追加します</p></li>
+   <li><p>アクセスレベルで「Workfront AI アシスタント設定を無効にする」の選択を解除します</p></li></ul>
+
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースへの権限の管理</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
-  </tr>  
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>システム設定</p></td> 
+   <td>   <p>Workfront管理者は、設定の「システム環境設定」エリアで「AIを有効にする」設定を選択し、AI アシスタントにアクセスできるようにAIに署名する必要があります</p>  
+    </td> 
+  </tr> 
 </tbody> 
 </table>
 
@@ -86,10 +108,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 +++
 
+
 ## AI アシスタントに関する考慮事項
 
-* AI アシスタントは、社内のユーザーが利用できるようにする前に、組織で有効にする必要があります。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
-* Workfrontで組織のAI アシスタントが有効になると、メインのWorkfront管理者が利用できるようになります。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+* AI アシスタントは、社内のユーザーが利用できるようにする前に、組織で有効にする必要があります。
+
+  詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
+
+* Workfrontが組織のエージェントを有効にした後、メインのWorkfront管理者が使用できるようになります。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 * Workfront管理者は、他のすべてのユーザーに対してAI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの有効化または無効化](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)を参照してください。
 
@@ -97,8 +123,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 計画領域でAI アシスタントによって実行されるアクションは、Workfront計画の権限とWorkfront アクセスレベルのコンテキストにあります。 詳しくは、次の記事を参照してください。
 
-  * [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-  * [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
+  * [Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
 * ユーザーに代わってAI アシスタントが行った変更は、レコードの履歴パネルで追跡されます。
 
@@ -128,12 +154,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## Workfront PlanningのAI アシスタントを探す
 
+>[!NOTE]
+>
+><span class="preview">組織がCX Coworkerへのアクセスを受け取った場合、CX Coworkerの場所を特定することは、AI アシスタントの場所を特定することと似ています。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
+
+
 AI アシスタントは、Workfront Planningの次の領域で見つけることができます。
 
 * 画面の右上隅にあるメインナビゲーションバー。
 * レコードの詳細領域内で、プレビューでレコードを開いた後、またはレコードのページを開いた後。
 
-## 計画領域のAI アシスタントにアクセスします
+### 計画領域のAI アシスタントにアクセスします
 
 1. Workfrontにログインし、左上隅の&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックしてから、**計画**&#x200B;をクリックします。
 

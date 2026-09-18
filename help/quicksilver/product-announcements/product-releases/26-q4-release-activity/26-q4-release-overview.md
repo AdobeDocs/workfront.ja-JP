@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2853'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -192,9 +192,9 @@ ht-degree: 8%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX CoworkerがWorkfrontで利用可能になりました</a>
                 <p>CX Coworkerは、現在のAI アシスタントに代わり、WorkfrontやコネクテッドAdobeシステムで作業を完了するための新しい会話型インターフェイスです。</p>
             </td>
-            <td><p>2026年9月3日（PT）</p></td>
-            <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年9月3日（PT）から段階的に展開</p></td>
+            <td><p>2026年9月17日（PT）より段階的に展開</p></td>
+            <td><p>2026年10月15日（PT）から段階的に展開</p></td>
         </tr>
 
     &lt;tr>
@@ -618,18 +618,24 @@ ht-degree: 8%
 * [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
-## デスクトッププルーフビューアーのアップデート
+<!--
+## Desktop proofing viewer updates
 
-### バージョン 2.1.59
+### Version 2.2.1
 
-すべてのユーザー向けの実稼動リリース：2026年9月9日（PT）
+Production release for all customers: September 16, 2026
 
-デスクトップ校正ビューアがバージョン 2.1.59に更新されました。 このアップデートには、次の変更が含まれます。
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* デスクトッププルーフビューアは、Apple シリコンを搭載したMac用のネイティブビルドとして利用できるようになりました。
-* 基盤となるアプリケーションフレームワーク（Electron）を新しいバージョンに更新し、パフォーマンスとセキュリティが向上しました。
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## お知らせ
 

@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 3%
-
+source-wordcount: '1171'
+ht-degree: 4%
 ---
-
 
 # Workfront計画フィールドの共有
 
@@ -80,62 +78,150 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ## フィールドの共有に関する考慮事項
 
 * ユーザー、担当業務、グループ、チーム、会社とフィールドを共有できます。
+* フィールドを共有できるのは、レコードタイプのテーブルビューのみです。
+* 次の種類のフィールドは共有できません。
+
+  * システムフィールド（作成者、レコード IDなど）
+  * プライマリフィールド
+  * ルックアップフィールド： ソースオブジェクトフィールドの権限は常に継承されます。
 * フィールドへのアクセスは、次の設定を組み合わせることで可能になります。
 
-  * **継承された権限**: デフォルトでは、フィールドは、レコードタイプに対するユーザーと同じアクセス権を継承します（表示レコードタイプの権限は、フィールド値を表示するためのユーザー権限を付与します。ContributeまたはManage レコードタイプの権限は、フィールド値を管理するためのユーザー権限を付与します）。 継承された権限をオフにして、ユーザーにレコードタイプよりも低いアクセス権を与えることができます。
+  * **継承された権限**: デフォルトでは、フィールドは、レコードタイプに対して誰かが持っているのと同じアクセス権を継承します。 継承された権限をオフにして、ユーザーにレコードタイプよりも低いアクセス権を与えることができます。
   * ワークスペース内の&#x200B;**すべてのユーザーが表示できます**&#x200B;または&#x200B;**招待されたユーザーのみが**&#x200B;の選択にアクセスできます。 ワークスペースに対する権限を持つ全員にフィールドの表示を許可するか、個々のエンティティにのみ権限を与えることができます。
 
   同じユーザーに複数のルールが適用される場合、いずれかのルールから利用可能な最も高い権限が付与されます。
 
-* ワークスペースの所有者とマネージャーのみがフィールド権限を調整できます。ワークスペースマネージャーは常にすべてのフィールドへの管理アクセス権を保持し、これを下げることはできません。
+* レコードタイプの権限に応じて、ユーザーは次のフィールド権限を受け取ることができます。
+
+  * 表示レコードタイプの権限は、フィールド値を表示するためのユーザー権限を与えます
+  * レコードタイプのコントリビュートまたは管理の権限は、フィールド値を管理するためのユーザー権限を与えます
+
+* ワークスペースの所有者とマネージャーのみがフィールド権限を調整できます。 Workspace管理者は、すべてのフィールドへの管理アクセス権を常に保持します。このアクセス権を下げることはできません。
 * フィールド共有は、フィールド設定ではなく値へのアクセスを制御します。 フィールドの設定を変更できるのは、ワークスペースマネージャーのみです。
 * フィールドの共有リストにユーザーを追加しても、ワークスペースまたはレコードタイプのアクセス権は付与されません。 そのアクセス権がない場合、警告アイコンは、権限がレコードタイプに追加された後にのみ有効であることを示します。
-* システムフィールド（作成者、レコード IDなど）およびプライマリフィールドには、共有を制限することはできません。
-* 制限されたフィールドは、フィールドが表示されるあらゆる場所で適用されます。 これには、すべてのビュー、レコードの詳細ページ、リクエストフォーム、接続およびルックアップフィールド、キャンバスダッシュボード、API、およびMCP ツールが含まれます。
-* ルックアップフィールドは、ソースフィールドの権限を継承します。
+* 制限された権限を持つフィールドは、フィールドが表示されるすべての場所で適用されます。 これには、すべてのビュー、レコードの詳細ページ、リクエストフォーム、接続およびルックアップフィールド、キャンバスダッシュボード、API、およびMCP ツールが含まれます。
 * パブリックビューは、完全に表示され、アクセスできるユーザーには読み取り専用のままになります。
-* レコードを複製する場合、制限された値は新しいレコードにコピーされません。
+  <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * 制限されたフィールド値の変更は、レコードの履歴には記録されません。
 * フィールドの権限の変更は、通知をトリガーしません。
 * グローバルレコードタイプの場合、フィールド権限はすべてのセカンダリワークスペースに適用され、ローカルで調整することはできません。
 
+<!--
+From Claude: 
+Additional permissions for fields - maybe add this to the Overview article for all of the sharing?? - help/quicksilver/planning/access/sharing-permissions-overview.md 
 
-Claudeより：
-フィールドに対する追加の権限 – すべての共有に関する概要記事に追加してください？? - help/quicksilver/planning/access/sharing-permissions-overview.md
+Here's how record type / workspace access maps to field-level access in the document:
 
-レコードタイプ/ワークスペースアクセスが、ドキュメント内のフィールドレベルのアクセスにマップされる方法は次のとおりです。
+Field permission levels (only two, plus none):
 
-フィールド権限レベル（2つのみ、プラスなし）:
+No Access – field is completely hidden
+View field values – can see the value, can't edit
+Manage field values – can view and edit
 
-アクセスなし – フィールドは完全に非表示です
-フィールド値の表示 – 値を表示できます。編集できません
-フィールド値の管理 – 表示と編集が可能
+Default inheritance from record type role
 
-レコードタイプの役割からのデフォルトの継承
+Record type / workspace access    Default field permission
+View    View field values
+Contribute    Manage field values
+Manage (workspace manager)    Manage field values (locked — cannot be reduced)
 
-レコードタイプ / ワークスペースへのアクセス デフォルトフィールド権限
-ビューのフィールド値
-Contribute Manage フィールド値
-管理（ワークスペースマネージャー） フィールド値の管理（ロック済み – 減らすことはできません）
+So by default, a field simply mirrors whatever role someone has on the record type — Viewers get read-only, Contributors and Managers get edit rights. Workspace managers are a special case: whenever they're added to a field's sharing list, "Manage field values" is pre-selected and the "View field values" option is disabled, since their edit access can never be taken away.
 
-デフォルトでは、フィールドは誰かがレコードタイプに持つ役割を単純に反映します。ビューアは読み取り専用で、コントリビューターとマネージャーは編集権限を取得します。 Workspaceの管理者は特殊なケースです。フィールドの共有リストに追加されるたびに、「フィールド値を管理」が事前に選択され、「フィールド値を表示」オプションは無効になります。これは、編集アクセスを削除できないためです。
+Wildcard (fallback) setting
+Separate from inheritance, each field has a wildcard default:
 
-ワイルドカード（フォールバック）設定
-継承とは別に、各フィールドにはワイルドカードのデフォルトがあります。
+Everyone in the workspace can view (default)
+Only invited people can access
 
-ワークスペース内のすべてのユーザーが表示できます（デフォルト）
-招待されたユーザーのみがアクセス可能
+How the final permission is calculated
 
-最終権限の計算方法
+If inherited permissions are enabled: a person's access = the highest of (inherited from record type, wildcard, individually granted permission).
+If inherited permissions are disabled: a person's access = the highest of (wildcard, individually granted permission) — record type role no longer factors in.
+If inheritance is disabled, wildcard is "Only invited people can access," and the person isn't individually added → they get No Access.
 
-継承された権限が有効になっている場合：個人のアクセス =の最大値（レコードタイプ、ワイルドカード、個別に付与された権限から継承）。
-継承された権限が無効になっている場合：個人のアクセス = （ワイルドカード、個別に付与された権限）の最大値 – レコードタイプの役割が考慮されなくなりました。
-継承が無効になっている場合、ワイルドカードは「招待されたユーザーのみがアクセスできる」となり、アクセス権がないユーザー→個別に追加されることはありません。
+Other permission notes
 
-その他の権限メモ
+Individually granting access to someone doesn't grant them workspace/record-type access — it just sits inactive (with a warning icon) until they're separately added to the workspace.
+For Global Record Types, field permissions are set once and apply to all secondary workspaces; secondary/team workspace managers cannot override them locally.
 
-個別にユーザーにアクセス権を付与しても、ワークスペースやレコードタイプのアクセス権は付与されません。ユーザーがワークスペースに個別に追加されるまで、非アクティブのままになります（警告アイコン付き）。
-グローバルレコードタイプの場合、フィールド権限は1回設定され、すべてのセカンダリワークスペースに適用されます。セカンダリ/チームワークスペースマネージャーは、それらをローカルで上書きすることはできません。
+-->
 
 ## フィールドの共有
 
+ワークスペースマネージャーは、個々のフィールドに対する権限を調整できます。
+
+{{step1-to-planning}}
+
+1. ワークスペースを開き、フィールドを共有するレコードタイプを開きます。
+
+1. テーブル表示で、フィールドの列ヘッダーの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**フィールドを共有**&#x200B;をクリックします。
+
+   **共有** ボックスが開きます。
+
+1. （オプション） **アクセス権を付与**&#x200B;領域で、**ワークスペース内のすべてのユーザーが表示できる** オプションがデフォルトで選択されています。 ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、フィールドに対して同じ権限を持っています。
+
+1. （オプション）「**から権限を継承」オプションの下にあるユーザーのアバターをクリックして、ワークスペースから権限を継承するユーザー、チーム、グループ、企業、またはジョブロールを表示します。**
+
+   継承された権限を展開すると、レコードタイプに対するユーザーの権限が表示されます。
+
+   >[!TIP]
+   >
+   >継承された権限リストから個々のエンティティを削除することはできません。 ワークスペースとレコードタイプが共有されたときに関連付けられたエンティティの代わりに、チーム、グループ、会社、または担当業務のユーザーが一覧表示されます。
+
+1. （オプションおよび条件付き）特定のエンティティとフィールドを共有し、レコードタイプに対して既に持っているフィールドとは異なるアクセス権を与える場合は、次の操作を行います。
+
+   1. **継承した権限**&#x200B;から&#x200B;**オンにした** オプションの選択を解除します。 デフォルトで選択されています。
+
+      オプションが&#x200B;**に変更され、オフになりました**。
+
+      >[!TIP]
+      >
+      >Workspace マネージャーには、レコードタイプとフィールドに対する管理権限が引き続き付与されます。
+
+   1. 「**アクセス権を付与**」ボックスに、ワークスペースまたはレコードタイプに対して付与する権限レベルとは異なる権限レベルを付与するユーザー、チーム、グループ、会社、またはジョブロールを追加します。
+
+      ユーザーとフィールドを共有すると、そのユーザーの主な担当業務と電子メールもフィールドに表示されます。 ユーザーの電子メールを表示するには、アクセスレベルのUsers オブジェクトで「連絡先情報を表示」設定を有効にする必要があります。
+
+   1. 次のいずれかの権限レベルを選択します。
+
+      * フィールドの値を表示
+      * フィールドの値を管理
+
+      >[!IMPORTANT]
+      >
+      ><!-- * If users have Contribute or Manage permissions to the workspace and the record type, you can give them Manage permissions to the field. The View permission is dimmed.-->
+      >* ユーザーがレコードタイプに対してContribute以上を持っている場合、フィールドに対して少ない権限を付与することはできません。
+      >
+      >* ワークスペース内にないユーザーに権限を付与することはできません。 ワークスペースおよびレコードタイプに対する権限を持たないユーザーは、どのフィールドにもアクセスできません。 ワークスペースとレコードタイプに対する権限を取得すると、フィールドにアクセスできるようになります。
+
+1. 「**保存**」をクリックします。
+
+   これで、フィールドは他のユーザーと共有されました。
+
+   <!--
+    Not possible for fields: 
+    The users you shared the field with receive both an in-app and email notification about having been given permissions to the field.
+    For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md).
+    -->
+
+## フィールドへの権限の削除
+
+フィールドからユーザーの権限を削除できます。 ただし、少なくともワークスペースに対する表示権限とレコードタイプを保持し、少なくともフィールドに対する表示権限を付与します。
+
+ワークスペース内のレコードタイプまたはフィールドに対する権限を付与しない場合は、ワークスペースからアクセス権を削除する必要があります。
+
+継承された権限からユーザーを削除することはできません。
+
+{{step1-to-planning}}
+
+1. フィールドの共有を停止するワークスペースを開き、レコードタイプカードをクリックします。 レコードタイプページが開きます。
+1. テーブル表示で、フィールドの列ヘッダーの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**フィールドを共有**&#x200B;をクリックします。
+
+   **共有** ボックスが開きます。
+1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。
+
+1. 「**保存**」をクリックします。
+
+   ユーザーには、フィールドに対する指定された権限がなくなりました。 ただし、レコードタイプとワークスペースに対する権限は、それらの権限から削除しない限り、引き続き保持されます。
+
+   これらの権限を持たなくなったフィールドへのアクセスを削除されたユーザーに対する通知はありません。

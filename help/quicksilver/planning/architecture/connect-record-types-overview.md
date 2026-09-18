@@ -1,6 +1,6 @@
 ---
 title: 接続レコードタイプの概要
-description: 個々のレコードタイプが互いにどのように関連しているかは、レコードタイプを連結するとよくわかります。 また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプに接続して、ユーザーのエクスペリエンスを向上させ、ユーザーが 1 つのアプリケーションに集中できるようにすることもできます。
+description: 個々のレコードタイプが互いにどのように関連しているかは、レコードタイプを連結するとよくわかります。 また、Workfront プランニングのレコードタイプを他のアプリケーションのオブジェクトタイプに接続して、ユーザーのエクスペリエンスを向上させ、ユーザーが 1 つのアプリケーションに集中できるようにすることもできます。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -9,23 +9,29 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 2498
+source-wordcount: '2578'
 ht-degree: 6%
-
 ---
-
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 接続されたレコードタイプの概要
@@ -206,6 +212,14 @@ ht-degree: 6%
     詳細と追加の考慮事項については、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
 
   </div>
+
+* 1対1または1対多の接続タイプで、接続されたレコードを持つレコードを複製する場合、次のシナリオが存在します。
+
+  * 実稼動環境では、接続されたレコードが複製されたレコードに移動します。または、レコードを複製する前に元のレコードから手動で削除してから、再度追加する必要があります。
+  * <span class="preview"> プレビュー環境では、接続されたレコードが元のレコードに残るか、複製されたレコードに移動するかを選択できます。</span>
+
+  詳しくは、[&#x200B; レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
+
 
 ## 接続タイプ
 
