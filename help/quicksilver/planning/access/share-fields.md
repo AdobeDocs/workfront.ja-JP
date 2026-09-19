@@ -5,21 +5,20 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 4%
+source-wordcount: '1335'
+ht-degree: 5%
 ---
 
 # Workfront計画フィールドの共有
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 Workfront計画レコードのフィールドを他のユーザーと共有して、Adobe Workfront計画を使用する際にコラボレーションを確保できます。
 
@@ -87,9 +86,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * フィールドへのアクセスは、次の設定を組み合わせることで可能になります。
 
   * **継承された権限**: デフォルトでは、フィールドは、レコードタイプに対して誰かが持っているのと同じアクセス権を継承します。 継承された権限をオフにして、ユーザーにレコードタイプよりも低いアクセス権を与えることができます。
-  * ワークスペース内の&#x200B;**すべてのユーザーが表示できます**&#x200B;または&#x200B;**招待されたユーザーのみが**&#x200B;の選択にアクセスできます。 ワークスペースに対する権限を持つ全員にフィールドの表示を許可するか、個々のエンティティにのみ権限を与えることができます。
+  * レコードタイプにアクセスできる&#x200B;**すべてのユーザーが表示できます**&#x200B;または&#x200B;**招待されたユーザーのみが**&#x200B;の選択にアクセスできます。 ワークスペースに対する権限を持つ全員にフィールドの表示を許可するか、個々のエンティティにのみ権限を与えることができます。
 
   同じユーザーに複数のルールが適用される場合、いずれかのルールから利用可能な最も高い権限が付与されます。
+
+* ワークスペース内のすべてのユーザーに対してフィールドビューのみを使用するには、次の設定が存在することを確認します。
+
+  * 継承されたアクセス許可を無効にする
+  * レコードタイプへのアクセス権を持つすべてのユーザーが&#x200B;**設定を表示できるようにします**
+  * 個々のエンティティは追加しないでください。
 
 * レコードタイプの権限に応じて、ユーザーは次のフィールド権限を受け取ることができます。
 
@@ -158,7 +163,7 @@ For Global Record Types, field permissions are set once and apply to all seconda
 
    **共有** ボックスが開きます。
 
-1. （オプション） **アクセス権を付与**&#x200B;領域で、**ワークスペース内のすべてのユーザーが表示できる** オプションがデフォルトで選択されています。 ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、フィールドに対して同じ権限を持っています。
+1. （オプション）「**アクセス権を付与**」エリアでは、**レコードタイプにアクセスできるすべてのユーザーが** オプションを表示できます」がデフォルトで選択されています。 ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、フィールドに対して同じ権限を持っています。
 
 1. （オプション）「**から権限を継承」オプションの下にあるユーザーのアバターをクリックして、ワークスペースから権限を継承するユーザー、チーム、グループ、企業、またはジョブロールを表示します。**
 
@@ -177,6 +182,13 @@ For Global Record Types, field permissions are set once and apply to all seconda
       >[!TIP]
       >
       >Workspace マネージャーには、レコードタイプとフィールドに対する管理権限が引き続き付与されます。
+
+   1. （オプション）「**レコードタイプにアクセスできるすべてのユーザーが**」ドロップダウンメニューをクリックし、**招待されたユーザーのみが**&#x200B;にアクセスできます」を選択します。
+
+      >[!IMPORTANT]
+      >
+      >この変更は、**継承された権限**&#x200B;をオフにすると、レコードタイプを表示でき、指定されたユーザーのみにアクセス権を付与できるすべてのユーザーのアクセス権が削除されます。 Workspaceの管理者と管理者は、すべてのフィールドに常にアクセスできます。
+
 
    1. 「**アクセス権を付与**」ボックスに、ワークスペースまたはレコードタイプに対して付与する権限レベルとは異なる権限レベルを付与するユーザー、チーム、グループ、会社、またはジョブロールを追加します。
 
