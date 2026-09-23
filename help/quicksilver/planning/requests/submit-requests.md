@@ -98,7 +98,7 @@ Workspace Managerがリクエストフォームを作成し、レコードタイ
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -145,7 +145,7 @@ Workfront Planning リクエストフォームにリクエストを送信する�
 
 * 送信された計画リクエストは、新しいリクエストエクスペリエンスでのみ表示されます。 従来のリクエストエクスペリエンスでは、プランニングリクエストを表示できません。
 
-  詳しくは、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+  詳しくは、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 * 特定のフィールドタイプをリクエストフォームに表示する方法や、フォームの送信後にリクエストの詳細ページを表示する方法には制限があります。
 
   詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
@@ -164,7 +164,7 @@ Workfront Planning リクエストフォームにリクエストを送信する�
     * <span class="preview"> プライマリレコードタイプページから、またはこの記事に記載されているその他の方法を使用してリクエストフォームを送信すると、レコードはプライマリレコードタイプページに表示されます。</span>
     * <span class="preview"> リクエストフォームで&#x200B;**Workspace** フィールドが使用でき、ユーザーがレコードを追加する特定のワークスペースを手動で選択した場合、フォームがプライマリレコードタイプとセカンダリレコードタイプのページのどちらから選択されたかに関係なく、そのスペースにレコードが保存されます。</span>
 
-  詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 <!--
 <div class="preview">
@@ -185,7 +185,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 {{step1-to-requests}}
 
 1. 画面の右上隅にある「**新しいエクスペリエンスを使用**」設定をオンにします。
-この設定をオンにすると、Workfront Planning リクエストフォームがWorkfrontの**リクエスト**&#x200B;領域で使用できるようになります。
+この設定をオンにすると、Workfront Planning リクエストフォームがWorkfrontの&#x200B;**リクエスト**&#x200B;領域で使用できるようになります。
 
    >[!TIP]
    >
@@ -236,7 +236,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    * リクエストフォームが承認に関連付けられている場合、リクエストはWorkfront リクエスト領域のリクエストリストに追加され、ステータスは&#x200B;**レビュー待ち**&#x200B;です。 新しいレコードは、承認者が承認した後にのみレコードタイプページに追加されます。
 
-     詳しくは、[ リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
+     詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
    * レコードを作成した元のリクエストの名前を表示するには、Planningのレコードタイプに「**元のリクエスト**」接続フィールドを追加できます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    * リクエストは、所有者、承認者、および少なくともワークスペースに対する表示権限を持つユーザーにのみ表示されます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。
@@ -261,7 +261,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    リクエストの詳細ページが開きます。
 
-   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
+   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
 
 1. （オプション）「**コメント**」領域にコメントを入力します。
 1. （オプションおよび条件付き）リクエストが承認待ちで、リクエストを開いた場合は、リクエスト名の右側にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックするか、リクエスト内のフィールドをダブルクリックして編集します。
@@ -374,7 +374,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
    * リクエストフォームが承認に関連付けられている場合、リクエストはWorkfront リクエスト領域のリクエストリストに追加され、マイリクエストウィジェットのステータスは「レビュー待ち」になります。 すべての承認者がレコードを承認した後にのみ、新しいレコードがレコードタイプページに追加されます。 これは、Workfrontにログインしている場合にのみ使用できます。
 
-     詳しくは、[ リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
+     詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
      >[!IMPORTANT]
      >
@@ -393,7 +393,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
    リクエストの詳細ページが開きます。
 
-   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
+   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
 
 1. （オプション）「**コメント**」領域にコメントを入力します。
 1. （条件付き）要求フォームが承認に関連付けられていない場合、または要求が承認されている場合は、要求の名前をクリックし、**作成済みオブジェクト** フィールドのレコード名をクリックします。
@@ -440,7 +440,7 @@ Planning リクエストを削除すると、次のことが発生します。
 
 リストからのプランニングリクエストの削除は、Workfront リクエストの削除と同様です。
 
-詳しくは、[送信されたリクエストの削除またはドラフトのリクエスト ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)を参照してください。
+詳しくは、[送信されたリクエストの削除またはドラフトのリクエスト &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)を参照してください。
 
 要求を開いた後にPlanning要求を削除するには、次の手順を実行します。
 

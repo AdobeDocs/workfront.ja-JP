@@ -114,7 +114,7 @@ AIを活用したフォーム入力を使用する場合は、次の点を考慮
 >
 >AIによるフォーム入力は組織レベルで有効になっており、特定のユーザーまたはアクセスレベルに対して有効または無効にすることはできません。
 
-詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 <!--
 
@@ -142,13 +142,13 @@ Workfrontでは、フォームに入力する際に、同様のコンテキス�
 
 1. リクエストの作成を開始します。
 
-   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
 
    または
 
-   1つのセクションにテキストプロンプトを適用するには、セクション名の横にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+   1つのセクションにテキストプロンプトを適用するには、セクション名の横にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
 
 1. プロンプトボックスにテキストをペーストします。
 1. 「**フォームに入力**」をクリックします。
@@ -326,13 +326,13 @@ AI フォーム入力にドキュメントをアップロードする際には�
 
 1. リクエストの作成を開始します。
 
-   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-1. ドキュメントをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+1. ドキュメントをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
 
    または
 
-   1つのセクションのドキュメントを適用するには、セクション名の横にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+   1つのセクションのドキュメントを適用するには、セクション名の横にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
 
 1. 「**ファイルをアップロード**」をクリックし、ファイルマネージャーからファイルを選択します。
 
@@ -365,13 +365,13 @@ AI フォーム入力にドキュメントをアップロードする際には�
 
 1. リクエストの作成を開始します。
 
-   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-1. リンクされたオブジェクトの情報をフォーム全体に適用するには、フォーム名の下にある&#x200B;**AI アイコン** ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+1. リンクされたオブジェクトの情報をフォーム全体に適用するには、フォーム名の下にある&#x200B;**AI アイコン** ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
 
    または
 
-   1つのセクションに対してリンクされたオブジェクトから情報を適用するには、セクション名の横にある&#x200B;**AI アイコン** ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+   1つのセクションに対してリンクされたオブジェクトから情報を適用するには、セクション名の横にある&#x200B;**AI アイコン** ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
 
 1. プロンプトを追加し、プロジェクト、タスク、またはイシューからコピーしたリンクをプロンプトウィンドウに貼り付けます。
 1. （条件付き）「**フォームに適用**」または「**セクションに適用**」をクリックします。
@@ -396,7 +396,7 @@ AI フォーム入力にドキュメントをアップロードする際には�
 予想される提案が得られない場合は、次のいずれかの原因が考えられます。
 
 * 以前のリクエストのフィールド値を提案する前に、システムに少なくとも1か月のリクエストデータが必要です。
-* ドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の「[ ドキュメントのアップロードガードレール ](#document-upload-guardrails)」を参照してください。
+* ドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の「[&#x200B; ドキュメントのアップロードガードレール &#x200B;](#document-upload-guardrails)」を参照してください。
 * AI フォーム入力では、外部参照フィールド値を入力できます。 ただし、外部参照フィールドが数式フィールドに依存している場合、AIはフィールドオプションを正確に取得できず、フィールド値を入力しません。
 
 
