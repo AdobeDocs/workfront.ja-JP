@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 97%
-
+source-wordcount: '303'
+ht-degree: 78%
 ---
-
 # デフォルトのプルーフメール通知設定の指定
 
 プルーフに関するコメントや決定がなされた場合、Adobe Workfront のプルーフユーザーは、Workfront と Workfront Proof の両方からメール通知を受け取ることができます。 ユーザーがすでに Workfront Proof からメール通知を受信している場合は、通知メールの重複を避けるために、Workfront から送信される通知を無効にすることをお勧めします。
@@ -68,9 +71,9 @@ Workfront から送信されるプルーフのメール通知を設定するに�
 
 1. **メール**&#x200B;を展開し、「**レビューと承認**」をクリックします。
 
-1. **Workfront のプルーフ通知**&#x200B;セクションで、プルーフに対するコメントが付けられた場合に、Workfront からメールを送信するオプションを有効にするか無効にするかを決定します。
+1. 「**Workfrontのプルーフ通知**」セクションで、このオプションを有効にするか無効にするかを決定します。**プルーフにコメントが付いたときにWorkfrontから通知を送信する**。
 
-   * この設定が有効の場合、プルーフにコメントが付けられた際に、Workfront からメールがユーザーに送信されます。
-   * この設定が無効の場合、プルーフにコメントが付けられても、Workfront からメールがユーザーに送信されません。
+   * この設定が有効の場合、プルーフにコメントが付けられた際に、Workfront からメールがユーザーに送信されます。 Workfrontのアプリ内通知も表示されます。
+   * この設定が無効になっている場合、プルーフにコメントが付いたときに、Workfrontからメールまたはアプリ内通知がユーザーに届きません。
 
 1. 「**保存**」をクリックします。
