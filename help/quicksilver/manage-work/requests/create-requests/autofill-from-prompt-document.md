@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 10%
-
+source-wordcount: '1764'
+ht-degree: 8%
 ---
-
 # AI を活用したフォーム入力で、プロンプトやドキュメントを使用してリクエストを入力
 
 >[!NOTE]
 >
 >この機能を使用するには、Workfront AI アシスタントを使用するための要件を満たしている必要があります。 詳しくは、[AI アシスタントの前提条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)を参照してください。
 
-AIを活用して、入力したプロンプトに基づいてリクエストフィールドを自動入力できます。 また、電子メールやアップロードされたドキュメントなどのテキストにもとづいてフィールドを入力することもできます。 リクエストを送信する前に、これらの提案を承認または却下できます。
+AIを活用して、入力したプロンプトに基づいてリクエストフィールドを自動入力できます。 また、プロンプトに追加した次の情報に基づいてフィールドを入力することもできます。
+
+* メール
+* アップロードされたドキュメント
+* プロジェクト、タスク、イシューへのリンク。
+
+リクエストを送信する前に、これらの提案を承認または却下できます。
 
 この機能は、WorkfrontとWorkfront Planningの両方のリクエストについて、Workfront リクエスト領域でリクエストを作成する際に使用できます。
 
@@ -104,7 +114,7 @@ AIを活用したフォーム入力を使用する場合は、次の点を考慮
 >
 >AIによるフォーム入力は組織レベルで有効になっており、特定のユーザーまたはアクセスレベルに対して有効または無効にすることはできません。
 
-詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 <!--
 
@@ -132,13 +142,13 @@ Workfrontでは、フォームに入力する際に、同様のコンテキス�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
+1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
 
    または
 
-   1つのセクションにテキストプロンプトを適用するには、セクション名の横にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
+   1つのセクションにテキストプロンプトを適用するには、セクション名の横にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
 
 1. プロンプトボックスにテキストをペーストします。
 1. 「**フォームに入力**」をクリックします。
@@ -155,6 +165,7 @@ Workfrontでは、フォームに入力する際に、同様のコンテキス�
    >[!NOTE]
    >
    >レビューされていない提案は、リクエストを送信すると自動的に承認されます。
+1. 「**送信**」をクリックしてリクエストを送信します。
 
 ### テキストプロンプトの例
 
@@ -315,13 +326,13 @@ AI フォーム入力にドキュメントをアップロードする際には�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-1. ドキュメントをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
+1. ドキュメントをフォーム全体に適用するには、フォーム名の下にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
 
    または
 
-   1つのセクションのドキュメントを適用するには、セクション名の横にあるAI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png)をクリックします。
+   1つのセクションのドキュメントを適用するには、セクション名の横にあるAI アイコン ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
 
 1. 「**ファイルをアップロード**」をクリックし、ファイルマネージャーからファイルを選択します。
 
@@ -342,13 +353,50 @@ AI フォーム入力にドキュメントをアップロードする際には�
    >[!NOTE]
    >
    >レビューされていない提案は、リクエストを送信すると自動的に承認されます。
+1. 「**送信**」をクリックしてリクエストを送信します。
+
+### 別のオブジェクトへのリンクを追加して、リクエストを自動入力する
+
+既存のプロジェクト、タスク、イシューへのリンクをプロンプトに追加して、フォーム全体またはフォームの単一のセクションに適用できます。
+
+1. 新しいリクエストに含める情報が必要なプロジェクト、タスク、またはイシューに移動し、オブジェクトのリンクをブラウザーのアドレス行からクリップボードにコピーします。
+
+   プロジェクト、タスク、イシューは、リクエストと同じWorkfront インスタンスに存在する必要があります。
+
+1. リクエストの作成を開始します。
+
+   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+
+1. リンクされたオブジェクトの情報をフォーム全体に適用するには、フォーム名の下にある&#x200B;**AI アイコン** ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+
+   または
+
+   1つのセクションに対してリンクされたオブジェクトから情報を適用するには、セクション名の横にある&#x200B;**AI アイコン** ![AI アイコン ](assets/request-prompt-icon.png)をクリックします。
+
+1. プロンプトを追加し、プロジェクト、タスク、またはイシューからコピーしたリンクをプロンプトウィンドウに貼り付けます。
+1. （条件付き）「**フォームに適用**」または「**セクションに適用**」をクリックします。
+1. 「**フォームに入力**」または「**セクションに入力**」をクリックします。
+
+   Workfrontは、フォームの候補を生成します。
+1. 各フィールドの提案について、そのフィールドの&#x200B;**提案を承認**&#x200B;または&#x200B;**提案を拒否** アイコンをクリックします。
+
+   ![提案の承認または拒否](assets/accept-reject-suggestion.png)
+
+   または
+
+   ページの上部にある「**すべてを受け入れる**」または「**すべてを却下する**」を選択して、すべての提案を受け入れるか却下します。
+
+   >[!NOTE]
+   >
+   >レビューされていない提案は、リクエストを送信すると自動的に承認されます。
+1. 「**送信**」をクリックしてリクエストを送信します。
 
 ## トラブルシューティング
 
 予想される提案が得られない場合は、次のいずれかの原因が考えられます。
 
 * 以前のリクエストのフィールド値を提案する前に、システムに少なくとも1か月のリクエストデータが必要です。
-* ドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の「[&#x200B; ドキュメントのアップロードガードレール &#x200B;](#document-upload-guardrails)」を参照してください。
+* ドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の「[ ドキュメントのアップロードガードレール ](#document-upload-guardrails)」を参照してください。
 * AI フォーム入力では、外部参照フィールド値を入力できます。 ただし、外部参照フィールドが数式フィールドに依存している場合、AIはフィールドオプションを正確に取得できず、フィールド値を入力しません。
 
 

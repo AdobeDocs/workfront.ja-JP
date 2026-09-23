@@ -11,28 +11,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 2795
-ht-degree: 71%
-
+source-wordcount: '2873'
+ht-degree: 69%
 ---
-
 # リクエストの作成と送信
 
 <!--Audited: 03/2026-->
@@ -117,7 +127,7 @@ Workfront 管理者は、リクエストキューの次のコンポーネント�
   詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
 * （オプション）リクエストのカスタムフォーム。\
-  詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の記事を参照してください。
+  詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の記事を参照してください。
 
 * （オプション）リクエストの承認プロセス。\
   詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
@@ -177,7 +187,7 @@ Workfront web アプリでリクエストを作成するには：
      >
      >Workfront は、実際にリクエストを送信した場合にのみパスを保存します。 ドラフトリクエストのパスは作成されません。
 
-     ![新しいリクエストを入力する際の最近のパスとリクエストキューのリスト &#x200B;](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![新しいリクエストを入力する際の最近のパスとリクエストキューのリスト ](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * 「**リクエストキュー**」セクションで、リクエストキューを選択します。
    * 以前にアクセスしたパスに属するキーワードを入力して、リクエストキューを検索します。
@@ -188,7 +198,7 @@ Workfront web アプリでリクエストを作成するには：
      >
      >特殊文字を含む名前を入力すると、入力を省略した場合でも、リクエストキュー、キューのトピック、またはトピックグループが表示されます。
 
-     ![強調表示された結果を含むキューの検索結果をリクエスト &#x200B;](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![強調表示された結果を含むキューの検索結果をリクエスト ](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      使用可能なリクエストキューと最近のパスのリストは、結果でハイライト表示されたキーワードを含むパスのみが含まれるように動的に更新されます。
 
@@ -217,6 +227,11 @@ Workfront web アプリでリクエストを作成するには：
    >   
    >プロジェクトをヘルプリクエストキューとして公開する方法について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)の記事を参照してください。
 
+1. （条件付き）新しいリクエストエクスペリエンスからリクエストを送信し、組織がAIを活用して&#x200B;**フォーム入力**&#x200B;を許可している場合、プロンプトとしてドキュメント、メール、または他のオブジェクト（プロジェクト、タスク、イシュー）へのリンクをアップロードできます。 AIはこれらの項目を使用してフォームに入力します。リクエストを送信する前に、AIの提案を承認または却下できます。
+
+
+   手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
+
 1. **新しいリクエスト**&#x200B;フォームで、次のいずれかの操作を行います。
 
    * （条件付き）「リクエストタイプ」フィールドに表示される通知メッセージから、使用可能なドラフトを選択します。
@@ -225,7 +240,7 @@ Workfront web アプリでリクエストを作成するには：
 
      デフォルトでは、3 つの異なるキューのトピックからの 3 つの最新のドラフトが表示されます。
 
-     ![新しいリクエスト領域が削除された後の新しいドラフト &#x200B;](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![新しいリクエスト領域が削除された後の新しいドラフト ](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * 選択したキューに新しいリクエストの入力を開始します。
 
@@ -238,7 +253,7 @@ Workfront web アプリでリクエストを作成するには：
    >トピックグループまたはキュートピックの上にポインタを合わせると、右側に「説明」フィールドが表示されます。 トピックグループまたはキューのトピックに関する追加情報が含まれます。
    >
    >
-   >![&#x200B; リクエスト送信時にキューのトピックに説明を表示](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![ リクエスト送信時にキューのトピックに説明を表示](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    リクエストキューには、最大 10 個のトピックグループを組み込むことができます。\
@@ -355,7 +370,7 @@ Workfront web アプリでリクエストを作成するには：
 
      送信する準備がまだ整っておらず、後で戻って完了する場合は、「**閉じる**」をクリックします。 リクエストは「ドラフト」セクションに保存され、次回このリクエストキューのリクエストを送信する際に利用できます。
 
-     ![新しいリクエストに対する送信、閉じる、ドラフトを破棄ボタン &#x200B;](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![新しいリクエストに対する送信、閉じる、ドラフトを破棄ボタン ](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    リクエストを送信すると、ドラフトが自動的に削除され、復元できなくなります。
 
@@ -416,7 +431,7 @@ Planning リクエストフォームを使用して、Workfront Planning リク�
 詳しくは、次の記事を参照してください。
 
 * [Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でリクエストフォームを作成および管理します。
-* [&#x200B; レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
+* [ レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 送信されたリクエストを見つける
 
