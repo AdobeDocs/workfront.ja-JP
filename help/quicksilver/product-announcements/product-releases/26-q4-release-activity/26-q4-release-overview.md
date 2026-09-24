@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b16738e5fbfa99fe2e9288adc059559fa3a725d3
+source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2835'
 ht-degree: 9%
 ---
 # 2026年第4四半期リリースの概要
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -406,8 +406,7 @@ ht-degree: 9%
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
-    &lt;/tbody>
+    </tbody>
 </table>
 
 ### 財務管理の機能強化
@@ -679,27 +678,25 @@ ht-degree: 9%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
-<!--
-## Desktop proofing viewer updates
+## デスクトッププルーフビューアーのアップデート
 
-### Version 2.2.1
+### バージョン 2.2.1
 
-Production release for all customers: September 16, 2026
+すべてのユーザー向けの実稼動リリース：2026年9月17日（PT）
 
-The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+デスクトップ校正ビューアがバージョン 2.2.1に更新されました。 このアップデートには、次の変更が含まれます。
 
-* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
-* Resolved an issue with opening proofs from a URL on non-US regions.
-* The viewer now keeps your 10 most recent proofs.
-* Updated the Workfront logo to the current branding.
-* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
-* Updated the underlying framework (Electron) for performance and security improvements.
+* 切り替え時に再インストールすることなく、同じビューアで任意の環境（実稼動、プレビュー、サンドボックスなど）からプルーフを開くことができるようになりました。
+* 米国以外の地域のURLからプルーフを開く際の問題を解決しました。
+* ビューアは、最新のプルーフを10個保持するようになりました。
+* Workfrontのロゴを現在のブランドに更新しました。
+* トラブルシューティングを高速化するために、Workfront Proofについて画面に詳細を追加しました。
+* パフォーマンスとセキュリティの改善のために、基盤となるフレームワーク（Electron）を更新しました。
 
-For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ## お知らせ
 
@@ -711,12 +708,14 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 レポートの代わりに、推奨されるテキストモードコードを使用できます（必要に応じて`costRates`または`billingRates`を使用してください）。
 
+    &quot;&#39;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested （costRates）.lists
     type=iterate
     valueexpression=CONCAT （{startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value}） 
     valueformat=HTML
+    &quot;&#39;
 
 レートを管理およびレビューするには、専用のレート管理エクスペリエンスを使用します。
 
@@ -726,7 +725,7 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 変更に備えるためのアクションは必要ありません。 ただし、現在、ユーザーまたは担当業務のリスト表示に「**時間当たりの請求**」および「**時間当たりのコスト**」フィールドを表示している管理者は、上記の推奨レート管理エクスペリエンスを使用するようにワークフローを更新する必要があります。
 
-担当業務とユーザー率について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)および[&#x200B; ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+担当業務とユーザー率について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)および[ ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ### Data Connect リーダーユーザーのパスワードのみの認証は2026年8月8日に終了します
 
@@ -736,7 +735,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 
