@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Workfront MCP サーバーをより柔軟でカスタマイズしやすくするために、カスタム OAuth コールバック URLを追加する機能を追加しました。 Workfront管理者は、MCP統合用に信頼できるOAuth コールバック URLの自分の組織の許可リストに加えるを管理できるようになりました。 これにより、Workfrontがネイティブにサポートしているプラットフォームだけでなく、OAuth コールバック URLが企業固有のカスタム AI エージェント型プラットフォームを接続できます。
 
-詳細については、[ システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)の「[許可されたリダイレクト URLを追加または削除する](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)」を参照してください。
+詳細については、[&#x200B; システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)の「[許可されたリダイレクト URLを追加または削除する](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)」を参照してください。
 
 <!--
 
@@ -61,7 +61,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 以前は、Workfrontはコントリビューターまたはリクエスターのアクセスレベルをユーザーに割り当てていました。
 
-詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 ## Workfront Planningのお客様向けのカスタム四半期に加えて、カスタム週
 
@@ -75,7 +75,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
-詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## メインメニューでのカスタムアプリケーションの並べ替え
 
@@ -91,7 +91,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 以前は、カスタムアプリケーションは常にレイアウトテンプレートのメインメニューオプションの最後の項目であり、再配置できませんでした。
 
-メインメニューにカスタムアプリケーションを追加する方法について詳しくは、[ レイアウトテンプレートを使用したメインメニューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+メインメニューにカスタムアプリケーションを追加する方法について詳しくは、[&#x200B; レイアウトテンプレートを使用したメインメニューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 ## カスタムドキュメント統合のための大きなファイルのサポート
 
@@ -115,7 +115,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。 これにより、企業はグループレベルでビジネスプロファイル管理を委任する柔軟性が向上します。
 
-詳しくは、[ ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
+詳しくは、[&#x200B; ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
 
 ## 拡張リストでのビューのレイアウトテンプレートのサポート
 
@@ -129,7 +129,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 レイアウトテンプレートの拡張リストの例は、**すべてのリクエスト**&#x200B;および&#x200B;**高度な割り当て**&#x200B;です。 拡張リストのビューの横に「新しいエクスペリエンス」ラベルが表示されます。
 
-詳しくは、[ レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
+詳しくは、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
 ## 外部参照フィールドの一括編集
 
@@ -145,7 +145,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 例えば、国のリストは、地域に対して行われた選択によって異なります。 あるプロジェクトの地域がアジアで、別のプロジェクトの地域がヨーロッパで、両方のプロジェクトを一括編集する場合、地域が一致しないため、国フィールドは使用できません。 両方のプロジェクトで同じ地域になるように地域を編集する場合は、両方のプロジェクトで使用する国を選択することもできます。
 
-外部参照フィールドについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
+外部参照フィールドについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
 
 ## カスタムフォームデザイナーのプレビューで高度なロジックをサポート
 
@@ -161,7 +161,7 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 
 これらのロジックタイプは、高度な表示、デフォルト値、条件付き書式設定、編集可能など、Workflow PrimeまたはUltimate パッケージ上の組織でのみ使用できます。
 
-詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## 統一されたレビューと承認のための変更管理
 
@@ -195,7 +195,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 カスタムアプリケーションをメインメニューまたはランディングページオプションとして使用するには、そのアプリケーションを個別に作成する必要があります。
 
-詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)および[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
+詳しくは、[&#x200B; レイアウトテンプレートを使用したランディングページのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)および[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
 
 ## 変更履歴でトラッキング対象フィールドを設定する
 
