@@ -11,28 +11,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 2795
-ht-degree: 71%
-
+source-wordcount: '2873'
+ht-degree: 69%
 ---
-
 # リクエストの作成と送信
 
 <!--Audited: 03/2026-->
@@ -216,6 +226,11 @@ Workfront web アプリでリクエストを作成するには：
    >* 選択したリクエストキューとして設定されたプロジェクトの説明が、リクエストキュー名の右側に表示されます。
    >   
    >プロジェクトをヘルプリクエストキューとして公開する方法について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)の記事を参照してください。
+
+1. （条件付き）新しいリクエストエクスペリエンスからリクエストを送信し、組織がAIを活用して&#x200B;**フォーム入力**&#x200B;を許可している場合、プロンプトとしてドキュメント、メール、または他のオブジェクト（プロジェクト、タスク、イシュー）へのリンクをアップロードできます。 AIはこれらの項目を使用してフォームに入力します。リクエストを送信する前に、AIの提案を承認または却下できます。
+
+
+   手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
 
 1. **新しいリクエスト**&#x200B;フォームで、次のいずれかの操作を行います。
 

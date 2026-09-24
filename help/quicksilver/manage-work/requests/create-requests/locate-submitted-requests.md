@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
-ht-degree: 38%
-
+source-wordcount: '1550'
+ht-degree: 37%
 ---
-
 # 送信されたリクエストを表示する
 
 <!--
@@ -58,6 +61,7 @@ Remove production and preview references at release
   >* 自分のドラフトリクエストのみを表示できます。
   >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに表示されます。
   >* 従来のエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスに表示されません。
+  >* 新しいリクエストエクスペリエンスでは、2025年7月から現在までの古いWorkfront リクエストのみを表示できます。<!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## アクセス要件
 
@@ -166,8 +170,8 @@ Remove production and preview references at release
    * **レビュー中**: （計画のみ）このリクエストには承認者が含まれており、少なくとも1人の承認者がリクエストを開きましたが、決定は行われていません。 このステータスはハードコードされています。
    * **却下**: （計画のみ）このリクエストには承認者が含まれており、却下されています。 このリクエストはレコードを作成しません。 このステータスはハードコードされています。
    * **進行中**:
-      * Workfront リクエスト：リクエストが変換され、作業が進行中です。
-      * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
+     * Workfront リクエスト：リクエストが変換され、作業が進行中です。
+     * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
    * **保留中**：これはWorkfront リクエストで使用できます。 ユーザーが手動で設定できます。
    * **完了**: リクエストを完了する計画レコードが作成されました。 （プランニングのみ）
    <!--
