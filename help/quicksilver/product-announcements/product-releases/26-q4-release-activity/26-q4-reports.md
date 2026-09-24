@@ -4,18 +4,34 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: c94c1f3d662cee00a12c786063a4e4db2015361d
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 6%
-
+ht-degree: 8%
 ---
-
 # 2026年第4四半期レポートの強化
 
 このページでは、2026年第4四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+<!--
+
+## Filter on collection relationships in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+
+Previously, filtering on collection relationships required text mode.
+
+For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+
+-->
 
 ## Canvas ダッシュボードでのダッシュボードのコピー
 
@@ -59,7 +75,7 @@ ht-degree: 6%
 | 承認プロセス | 作業承認プロセス |
 | 承認ステージ | 作業承認ステージ |
 | 上書きされている | 作業承認者のステータス |
-| 承認待ち | 承認待ち |
+| 承認待ち | 作業の承認待ち |
 
 この変更は、現在のレポートの機能には影響しません。
 
@@ -73,7 +89,7 @@ ht-degree: 6%
 
 Canvas ダッシュボードの新しいピボットテーブルレポートタイプでは、正確で完全なロールアップを使用してデータを集約します。 カウント、合計、平均などの指標をダッシュボードで直接作成し、その合計の背後にあるレコードをドリルダウンできます。
 
-詳しくは、「[&#x200B; キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
+詳しくは、「[ キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
 
 ## スケジュールレポートの終了日の適用
 
@@ -87,7 +103,7 @@ Canvas ダッシュボードの新しいピボットテーブルレポートタ�
 
 既存のスケジュールは、信頼性を向上させ、不要なシステム使用を減らすために、終了日を更新しました。 また、Workfrontでは、レポートのスケジュールのライフサイクルが終了日に近づいたときに、レポートのスケジュールを管理するのに役立つ可視性と警告も提供されます。
 
-詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+詳しくは、[自動レポート配信のスケジュール ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 ## ネイティブ参照フィールドは、リストとレポートで使用できます
 
@@ -101,8 +117,8 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 ネイティブ参照フィールドはカスタムフィールドです。 フィールドがオブジェクトに添付されたカスタムフォーム上にある場合、フィールドはオブジェクトデータから入力されます。 例えば、フィールドが「説明」フィールドを参照し、それがプロジェクトに添付されたカスタムフォーム上にある場合、フィールドはプロジェクトの説明を取り込みます。 （データが利用できない場合、フィールドには「該当なし」と表示される場合があります）。
 
-サポートされているネイティブフィールドのリストを含むネイティブ参照フィールドの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
-レポートへのフィールドの追加について詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+サポートされているネイティブフィールドのリストを含むネイティブ参照フィールドの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+レポートへのフィールドの追加について詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ## 従来のリストやレポートにおける複数選択フィールド値の一貫性のある順序付け
 
@@ -114,7 +130,7 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 複数を選択したカスタムフィールドのオプションが、従来のリストとレポートで一貫した予測可能な順序で表示されるようになりました。 フィールドの順序は、カスタムフォームでのフィールドの配置方法によって決まります。
 
-![&#x200B; カスタムフォームフィールドの順序が、リストまたはレポートで選択した値の順序と一致する](assets/new-field-order-multi-select.png)
+![ カスタムフォームフィールドの順序が、リストまたはレポートで選択した値の順序と一致する](assets/new-field-order-multi-select.png)
 
 以前は、選択したオプションが選択した順序で表示されていたり、一貫性のない順序で表示されていたため、行のスキャンと比較が困難になっていました。
 
