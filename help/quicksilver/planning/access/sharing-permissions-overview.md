@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
-ht-degree: 21%
-
+source-wordcount: '1502'
+ht-degree: 19%
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
 # Adobe Workfront Planning での共有権限の概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -41,7 +42,7 @@ Adobe Workfront Planning ワークスペース、レコードタイプ、また�
 
 ここでは、Workfront Planning ワークスペース、レコードタイプ、レコード、フィールドおよびビューの権限レベルについて説明します。
 
-## Adobe Workfront Planning で共有できるオブジェクト
+## Adobe Workfront プランニングで共有できるオブジェクト
 
 一部のWorkfront Planning オブジェクトは手動で共有できますが、他のオブジェクトは他のオブジェクトからこれらの権限を継承します。
 
@@ -49,45 +50,66 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
 
 * ワークスペース
 
-   * 組織内のユーザーとワークスペースを共有できます。
-   * ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
-   * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
+  * 組織内のワークスペースを、ユーザー、グループ、チーム、企業、担当業務と共有できます。
+  * ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
+  * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
+  詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
 
 * レコードタイプ
 
-   * レコードタイプは、組織内の他のユーザーと共有できます。
-   * ワークスペースに付与された権限レベルは、レコードタイプの継承された権限として表示されます。
-   * ユーザーがワークスペース上で持つ権限レベルよりも高い権限レベルのレコードタイプを共有することはできません。
+  * 組織内のレコードタイプを、ユーザー、グループ、チーム、企業、担当業務と共有できます。
+  * ワークスペースに付与された権限レベルは、レコードタイプの継承された権限として表示されます。
+  * ユーザーがワークスペース上で持つ権限レベルよりも高い権限レベルのレコードタイプを共有することはできません。
 
-  詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 * レコード
 
-   * 組織内のユーザーとレコードを共有できます。
-   * ユーザーは、ワークスペースとレコードタイプから権限をデフォルトで継承します。
-   * ユーザーの権限レベルがレコードタイプの権限レベルよりも高いレコードまたは低いレコードを共有することはできません。
+  * ユーザー、グループ、チーム、企業、担当業務など、組織内の関係者とレコードを共有できます。
+  * ユーザーは、ワークスペースとレコードタイプから権限をデフォルトで継承します。
+  * ユーザーの権限レベルがレコードタイプの権限レベルよりも高いレコードまたは低いレコードを共有することはできません。
 
-  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+  詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * ビュー
 
-   * システム管理者を含むユーザーに、ワークスペースへのアクセス権とは別にビューにアクセスする権限を付与する必要があります。
-   * ビューを共有すると、フィルター、グループ化、並べ替え、設定など、すべてのビュー要素が共有されます。
-   * ビューを共有すると、ビューに表示されるレコードは共有されません。 レコードは、ワークスペースを共有することによって共有する必要があります。
-   * ビューの公開リンクを生成すると、ビューを組織外のユーザーと公開で共有できます。公開リンクからレコードページにアクセスすると、接続されたレコードやフィールドを含む、すべてのレコードとそのフィールドを表示できます。
+  * システム管理者を含むユーザーに、ワークスペースへのアクセス権とは別にビューにアクセスする権限を付与する必要があります。
+  * ビューを共有すると、フィルター、グループ化、並べ替え、設定など、すべてのビュー要素が共有されます。
+  * ビューを共有すると、ビューに表示されるレコードは共有されません。 レコードは、ワークスペースを共有することによって共有する必要があります。
+  * ビューの公開リンクを生成すると、ビューを組織外のユーザーと公開で共有できます。 公開リンクからレコードページにアクセスすると、接続されたレコードやフィールドを含む、すべてのレコードとそのフィールドを表示できます。
 
   詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 
-## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
+## Adobe Workfront プランニングでのオブジェクトの共有に関する考慮事項
 
 * Adobe Workfrontのライセンスタイプは、Workfrontのプランニング権限と連携して、ワークスペースとそのオブジェクトを表示、提供、管理するためのアクセス権を付与します。
 
-  ライセンスタイプが Workfront Planning の権限レベルに与える影響については、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
+  ライセンスタイプが Workfront プランニングの権限レベルに与える影響については、[Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 * システム管理者は、作成しなかったワークスペースを含め、システム内のすべてのワークスペースを管理できます。
 * システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 システム管理者には、ビューの管理に対してのみ権限を付与できます。
 
@@ -95,35 +117,35 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
 
 * Planning オブジェクトは、次の方法で共有できます。
 
-   * 内部では、次のWorkfront エンティティとWorkfront計画オブジェクトを共有できます。
+  * 内部では、次のWorkfront エンティティとWorkfront計画オブジェクトを共有できます。
 
-      * ユーザー
-      * グループ
-      * チーム
-      * 会社
-      * 担当業務
+    * ユーザー
+    * グループ
+    * チーム
+    * 会社
+    * 担当業務
 
-     1つのオブジェクトにつき最大100個のエンティティを持つPlanning オブジェクトを共有できます。
+    1つのオブジェクトにつき最大100個のエンティティを持つPlanning オブジェクトを共有できます。
 
-   * 内部的には、ワークスペースまたはビューへのリンクを他のPlanning ユーザーと共有することによって行います。 次のシナリオが存在します。
+  * 内部的には、ワークスペースまたはビューへのリンクを他のPlanning ユーザーと共有することによって行います。 次のシナリオが存在します。
 
-      * ワークスペースへのリンクを受け取るユーザーは、アクティブユーザーで、Workfrontにログインしてワークスペースにアクセスする必要があります。
-      * ビューの内部共有リンクを受け取るユーザーは、アクティブなユーザーで、Workfrontにログインしてビューにアクセスする必要があります。
-   * 外部では、Workfront アカウントを持たない外部ユーザーとビューへの公開共有リンクを共有します。
+    * ワークスペースへのリンクを受け取るユーザーは、アクティブユーザーで、Workfrontにログインしてワークスペースにアクセスする必要があります。
+    * ビューの内部共有リンクを受け取るユーザーは、アクティブなユーザーで、Workfrontにログインしてビューにアクセスする必要があります。
+  * 外部では、Workfront アカウントを持たない外部ユーザーとビューへの公開共有リンクを共有します。
 
-## Adobe Workfront Planning オブジェクトに対する権限の共有
+## Adobe Workfront プランニングオブジェクトに対する権限の共有
 
 次の節の表に、ワークスペースまたはビューを共有する際に選択できる権限のレベルと、各レベルで許可される機能を示します。
 
 >[!IMPORTANT]
 >
->以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。 Workfront Planning オブジェクトに対して持つことができる権限のレベルは、ユーザーの個々のライセンスによって決まります。
+>以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。 Workfront プランニングオブジェクトに対して持つことができる権限のレベルは、ユーザーの個々のライセンスによって決まります。
 >
 >ワークスペースに対するContribute権限またはManage権限とビューに対するManage権限を持つことができるのは、Standard （またはプラン）のライセンスユーザーのみです。
 > 
 >他のすべてのライセンスタイプを持つユーザーは、ワークスペースとビューに対する表示権限を持つことができます。
 >
->詳しくは、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
+>詳しくは、[Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 
 
 ### ワークスペースへの権限
@@ -143,6 +165,10 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
 | 共有 | ✓ |            |       |
 | 削除 | ✓ |            |       |
 | 表示 | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### レコードタイプに対する権限
 
@@ -231,9 +257,13 @@ In the Production environment, the following are the levels of permissions for r
 
 ### レコードフィールドへの権限
 
-フィールド権限は、ワークスペースとレコードタイプに権限を付与する際に、レコードタイプから継承されます。
 
-次の権限は、各フィールドに関連付けられた値ではなく、フィールド自体を参照します。 フィールド値を編集するには、レコードを編集する権限が必要です。
+#### 実稼動環境でフィールドを記録するための権限
+
+
+フィールド設定を編集するための権限は、ワークスペースとレコードタイプに権限を付与する際に、レコードタイプから継承されます。
+
+次の権限は、各フィールドに関連付けられた値ではなく、フィールド設定を参照します。 フィールド値を編集するには、レコードを編集する権限が必要です。
 
 |        | 管理 | 参加 | 表示 |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ In the Production environment, the following are the levels of permissions for r
 | 編集 | ✓ |            |       |
 | 表示 | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### プレビュー環境でフィールドを記録する権限
+
+フィールド設定への権限は、ワークスペースとレコードタイプに権限を付与する際に、レコードタイプから継承されます。
+
+次の権限は、各フィールドに関連付けられた値ではなく、フィールド設定を参照します。
+
+|        | 管理 | 参加 | 表示 |
+|--------|--------|------------|-------|
+| 作成 | ✓ |            |       |
+| 削除 | ✓ |            |       |
+| 編集 | ✓ |            |       |
+| 表示 | ✓ | ✓ | ✓ |
+
+
+フィールド値に対する権限はレコードタイプから継承され、レコードに対する権限と連動して処理されます。
+
+個々のフィールドの値に対する権限を管理し、機密情報を含む可能性のあるフィールドを制限できます。
+
+フィールドを共有することで、フィールド値に次の権限を付与できます。
+
+|        | 管理 | 表示 |
+|--------|--------|------|
+| 削除 | ✓ |      |
+| 編集 | ✓ |      |
+| 表示 | ✓ | ✓ |
+
+フィールドにアクセスするには、少なくともレコードタイプに対する表示権限が必要です。
+
+</div>
 
 ### ビューに対する権限
 
