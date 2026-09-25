@@ -5,10 +5,24 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 11%
+source-wordcount: '592'
+ht-degree: 10%
 ---
 # プランニングリクエストの共有
 
@@ -62,7 +76,7 @@ ht-degree: 11%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -76,7 +90,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 管理者が別のデフォルトを設定していない限り、リクエスト者は、送信したリクエストに対する管理アクセス権を自動的に付与されます。
 
-  詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+  詳しくは、[ リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
 * Workfront管理者は、すべてのリクエストにアクセスして管理できます。
 * レコードタイプへの管理アクセス権を持つユーザーは、そのレコードタイプの受注フォームとそのフォームを通じて送信されたすべてのリクエストへの管理アクセス権を継承します。
@@ -86,6 +100,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 異なる人やチームが同じリクエストに対して異なるアクセスレベルを保持することができます。
 * 権限は、複数のエンティティを通じて割り当てることができます。 ユーザーがリクエストに対するContribute権限を持っていても、そのグループまたはジョブロールに表示権限がある場合、Contributeという最高レベルの権限が保持されます。
+* リクエストは、ワークスペースとレコードタイプから権限を継承します。 Planning リクエストの継承された権限を削除または編集することはできません。
 
 ## リクエストの共有
 
@@ -97,7 +112,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    選択したリクエストの&#x200B;**共有** ボックスが開きます。
 
-   ![&#x200B; リクエスト共有ボックス &#x200B;](assets/requests-sharing-box.png)
+   ![ リクエスト共有ボックス ](assets/requests-sharing-box.png)
 
 1. **このリクエストフィールドへのアクセス権を付与**&#x200B;で、ユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、リストに表示されたらクリックします。
 
@@ -109,8 +124,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 表示
 1. （オプション）権限レベルごとに、詳細な権限アイコンをクリックし、**編集**、**コメント**、**共有**、**削除**&#x200B;など、詳細な権限を選択または選択解除します。
 
-   ![&#x200B; リクエストに対する詳細な権限](assets/granular-permissions-on-requests.png)
+   ![ リクエストに対する詳細な権限](assets/granular-permissions-on-requests.png)
+1. （オプション）継承された権限ラインを展開して、ワークスペースとレコードタイプから権限を取得するユーザーを表示します。
+
+   >[!TIP]
+   >
+   >Planning リクエストの継承された権限を削除または編集することはできません。
+
 1. 「**保存**」をクリックします。
+
 
    リクエストは、選択したエンティティと共有されます。
 

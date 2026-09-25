@@ -6,22 +6,34 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## Workfront Planningでのフィールドの共有
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -37,7 +49,7 @@ Workspaceの管理者は、個々のフィールドへのアクセスを制御�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -51,7 +63,7 @@ Workspaceの管理者は、個々のフィールドへのアクセスを制御�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -63,7 +75,7 @@ Workspace管理者は、各Planning リクエストフォームに対して1段�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -71,13 +83,13 @@ Workspace管理者は、各Planning リクエストフォームに対して1段�
 
 さらに、リクエストフォームからフィールドのオプションを直接編集できるようになりました。 例えば、select-field タイプの場合、リクエストフォームからフィールドの選択肢、順序、およびデフォルト値を更新できます。 以前はこの機能は利用できませんでした。
 
-詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+詳しくは、[ リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
-## リクエストフォームごとに各アクセス層の機能を設定します
+## Planning リクエストフォームの依頼者に対するデフォルトの権限の設定
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -87,7 +99,7 @@ Workfrontとworkspaceの管理者は、リクエストフォームを設定す�
 
 詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
-## AI フォーム入力は、リンクで参照されたレコードからデータを取得するようになりました
+## AI フォーム入力は、リンクで参照されたレコードからデータを取得します
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ AI フォーム入力では、リンクで参照されるプランニングレ�
 
 詳しくは、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
 
-## CX CoworkerがWorkfront Planningで利用可能になりました
+## CX Coworkerは、Workfront Planningで利用できます
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ Adobe Workfrontは、作業を完了するためのより強力な方法とし�
 
 詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
-## CX Coworkerのローンチに備えて、詳細プレビューボックスのAI アシスタントアイコンを削除しました
+## CX COWORKERのローンチに備えて、レコードの詳細プレビューボックスからAI アシスタントアイコンが削除されました
 
 >[!NOTE]
 >
@@ -151,7 +163,7 @@ WorkfrontでのAdobe CX Coworkerのローンチに備えて、詳細プレビュ
 
 接続の競合解決ダイアログが更新され、この新しい動作が反映され、接続されたレコードを管理する際の柔軟性が向上しました。
 
-詳しくは、[&#x200B; レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
+詳しくは、[ レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 
 ## テーブルビューのプライマリフィールド列から、レコードのサムネールとカラーの表示を管理します
 
@@ -185,7 +197,7 @@ WorkfrontでのAdobe CX Coworkerのローンチに備えて、詳細プレビュ
 
 グローバルレコードタイプにビジネスルールを追加することはできません。
 
-詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ WorkfrontでのAdobe CX Coworkerのローンチに備えて、詳細プレビュ
 >* **リクエストフォームの作成**&#x200B;および&#x200B;**リクエストフォームの管理**&#x200B;が&#x200B;**リクエストフォーム**&#x200B;に変更されました
 >* **自動管理**&#x200B;が&#x200B;**自動処理**&#x200B;に変更されました
 
-## タイムラインビューのカスタム週の導入
+## タイムラインビューのカスタム週
 
 >[!NOTE]
 >
@@ -208,7 +220,7 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
-詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## 接続されたレコードフィールドのフィルター
 
@@ -238,7 +250,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
-## タイムラインビューでグループ名を確認し、グループパネルのサイズを変更する
+## タイムラインビューでグループ名を表示し、グループパネルのサイズを変更する
 
 >[!NOTE]
 >
@@ -262,7 +274,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 カレンダーの週ビューに、表示中の週の最初の1,000件のレコードのみが表示されるようになりました。 レコードが多い場合、カレンダーの下部に次のメッセージが表示され、追加のレコードが使用可能であることを示します。「レコードが多い。 さらに読み込む&quot;。
 
-詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 依存する接続レコードフィールドの列ヘッダーを更新しました
 
@@ -303,7 +315,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## Workfront Planning Solution Architect Skillの紹介
 
@@ -321,7 +333,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 このスキルは、最初のセットアップを超えて、継続的なガバナンスをサポートしています。摩擦が生じる前に設定ドリフトを捉え、制限に近づいているときに警告を発することで、ブロッカーになる前に警告を発し、誰が設定したかに関係なく、あらゆるワークスペースに一貫性のある標準を適用し、チーム全員に専門家のサポートを待たずに正確な回答を提供します。 これは、ワークスペースを正しく設定し、使用が増えるにつれてワークスペースを維持するライフサイクル全体をカバーします。
 
-詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
@@ -331,7 +343,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 >プロダクション高速リリース：2026年8月13日（PT）
 >すべての人のための生産：2026年10月15日
 
-テーブルビューでの行のドラッグ&amp;ドロップの操作性が視覚的に向上しました。
+テーブルビューで1行をドラッグ&amp;ドロップする際の操作性が視覚的に向上しました。
 
 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
@@ -356,9 +368,6 @@ Workspace Managerで、接続されたレコードタイプ間の依存関係を
 
 
 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
-
-
-
 
 ## レコードの新しいコメント インジケーターをテーブル ビューに表示
 

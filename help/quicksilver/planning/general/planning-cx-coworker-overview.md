@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 8%
 ---
 
@@ -85,7 +99,7 @@ CX Coworkerは、現在のAI アシスタントの機能をすべて保持しな
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -95,9 +109,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
-* WorkfrontでWorkfront インスタンスのエージェントを有効にすると、メインのWorkfront管理者がエージェントを有効にでき、組織に対してエージェントを有効にすることができます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+* WorkfrontでWorkfront インスタンスのエージェントを有効にすると、メインのWorkfront管理者がエージェントを有効にでき、組織に対してエージェントを有効にすることができます。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
-* Workfront管理者は、アクセスレベルでCX Coworkerを有効にする必要があります。 詳しくは、[&#x200B; アクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+* Workfront管理者は、アクセスレベルでCX Coworkerを有効にする必要があります。 詳しくは、[ アクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * CX Coworkerは、WorkfrontまたはWorkfront Planningにあり、アクセス権を持つ情報とオブジェクトで動作します。 プランニングの右側パネルで、共同作業者パネルは、開いているワークスペース、レコードタイプ、またはレコードページのコンテキストで動作します。
 
@@ -114,7 +128,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## CX Coworkerで現在利用可能な機能
 
-現在、CX CoworkerはWorkfrontのプランニング エリアで使用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、[CX Coworker スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
+現在、CX CoworkerはWorkfrontのプランニング エリアで使用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、[CX Coworker スキル ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
 
 CX Coworkerを使用して、次の操作を実行できます。
 
@@ -138,24 +152,23 @@ CX Coworkerは、Workfront Planningの次の領域に配置できます。
 
 ## 計画領域のCX Coworkerにアクセスします
 
-
 1. Workfrontにログインし、左上隅の&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックしてから、**計画**&#x200B;をクリックします。
 
    計画領域が開きます。
 
-   ページの右上隅にある&#x200B;**AI アイコン** ![AI アイコン &#x200B;](assets/ai-icon.png)を見つけるか、以下の手順に進みます。
+   ページの右上隅にある&#x200B;**Coworker** アイコン ![Coworker アイコン ](assets/coworker-icon.png)を見つけるか、以下の手順に進みます。
 
 1. **ワークスペースカード**&#x200B;をクリックします。
 
 1. **レコードタイプカード**&#x200B;をクリックします。
 
-1. **レコード**&#x200B;をクリックしてレコードの&#x200B;**詳細** ページを開き、「で開く」をクリックします。
+1. **レコード**&#x200B;をクリックしてレコードの&#x200B;**詳細** ページを開き、**新しいタブで開く** アイコン ![新しいタブで開く](assets/open-workspace-on-new-tab-icon.png)をクリックします。
 
-1. 画面の右上隅にある&#x200B;**CX Coworker アイコン**&#x200B;をクリックします。
+1. 画面の右上隅にある&#x200B;**CX Coworker アイコン** ![同僚アイコン ](assets/coworker-icon.png)をクリックします。
 
 1. 提供されたスペースで、CX Coworkerのコマンドを入力し始め、完了したら「Enter」をクリックします。
 
-   ![空のコマンドボックスを含むCX Coworker パネル &#x200B;](assets/cx-coworker-right-rail.png)
+   ![空のコマンドボックスを含むCX Coworker パネル ](assets/cx-coworker-right-rail.png)
 
    例えば、次のいずれかを入力します。
 
@@ -173,6 +186,6 @@ CX Coworkerは、Workfront Planningの次の領域に配置できます。
    応答が成功した後、提供されたリンクに従うか、左側の変更に注意してください。
 
 
-1. （オプション）「**フルスクリーンを展開**」アイコン「![&#x200B; フルスクリーンアイコン「](assets/expand-full-screen-icon.png)」をクリックすると、フルブラウザータブで同僚のチャットボックスが開きます。
+1. （オプション）「**フルスクリーンを展開**」アイコン「![ フルスクリーンアイコン「](assets/expand-full-screen-icon.png)」をクリックすると、フルブラウザータブで同僚のチャットボックスが開きます。
 
 
