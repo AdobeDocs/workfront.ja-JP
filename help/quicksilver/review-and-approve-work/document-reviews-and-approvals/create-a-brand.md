@@ -1,36 +1,44 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: コンテンツレビュアーのブランドを作成および管理する
-description: コンテンツレビュアーのブランドを作成および管理する
+title: AI レビュアーのブランドの作成と管理
+description: AI レビュアーのブランドの作成と管理
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
+TQID: 'https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 7%
-
 ---
+# AI レビュアーのブランドの作成と管理
 
-# コンテンツレビュアーのブランドを作成および管理する
-
-コンテンツレビュアーは、レビュープロセス中にコンテンツを評価するためにブランドガイドラインを使用します。 Workfrontでブランドを作成するには、ブランドガイドラインを含むPDF ファイルをアップロードするか、ブランド要素を手動で入力します。
+AI レビュアーは、レビュープロセス中にコンテンツを評価するためにブランドガイドラインを使用します。 Workfrontでブランドを作成するには、ブランドガイドラインを含むPDF ファイルをアップロードするか、ブランド要素を手動で入力します。
 
 ## アクセス要件
 
@@ -69,14 +77,14 @@ ht-degree: 7%
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 
 * 組織にはGenStudio Foundationが必要です。
-  * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
+  * WORKFRONTのAI Reviewerは、GenStudio Foundationでアセットのレビューと承認ワークフローに使用できる機能を提供します。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 AI ReviewerによるGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
 * Adobeには、署名済みのAdobe Gen AI契約書がファイルに登録されている必要があります。
 契約書への署名について詳しくは、[Adobe Gen AI契約書への署名](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)を参照してください。
 
 
 ## 前提条件
 
-1. ブランドを作成する前に、Admin ConsoleおよびWorkfrontのアクセスレベルでブランド権限へのアクセス権を付与する必要があります。 手順については、[&#x200B; ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)を参照してください。
+1. ブランドを作成する前に、Admin ConsoleおよびWorkfrontのアクセスレベルでブランド権限へのアクセス権を付与する必要があります。 手順については、[ ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)を参照してください。
 
 
 ## PDFを使用したブランドの構築
@@ -87,7 +95,7 @@ ht-degree: 7%
 1. 画面の右上隅にある「**ブランドを追加**」をクリックします。
 1. ブランドに名前を付けます。
 1. 「**PDFをアップロード**」をクリックして、ブランドファイルをアップロードします。
-   ![&#x200B; ブランド pdfをアップロード &#x200B;](assets/upload-PDF.png)
+   ![ ブランド pdfをアップロード ](assets/upload-PDF.png)
 1. 「**続行**」をクリックします。
 1. ブランドガイドラインを含む1つ以上のPDF ファイルをアップロードし、**ブランドを追加**&#x200B;をクリックします。
 1. ファイルがアップロードされたら、抽出したブランド要素を確認して、ブランドガイドラインに準拠していることを確認します。
@@ -96,7 +104,7 @@ ht-degree: 7%
    >
    >ガイドラインは、ファイルと生成AI テクノロジーを使用して生成されるため、不正確な場合があります。 抜き取ったガイドラインに欠けている情報や誤った情報がないか確認し、このブランドを公開する前に編集します。
 
-1. 完了したら、**公開**&#x200B;をクリックして、ブランドをコンテンツレビュー担当者が利用できるようにします。
+1. 完了したら、**公開**&#x200B;をクリックして、AI レビュアーがブランドを利用できるようにします。
 
 ## ブランドの手動作成
 
@@ -135,17 +143,17 @@ ht-degree: 7%
     </tr>
     </table>
 
-   ![&#x200B; ブランド要素を手動で追加](assets/brand-elements.png)
+   ![ ブランド要素を手動で追加](assets/brand-elements.png)
 
 
-1. 完了したら、**公開**&#x200B;をクリックして、ブランドをコンテンツレビュー担当者が利用できるようにします。
+1. 完了したら、**公開**&#x200B;をクリックして、AI レビュアーがブランドを利用できるようにします。
 
 
 ## ブランドガイドラインの作成方法のベストプラクティス
 
-ガイドラインを作成する前に、画像とブランドボイスのガイドラインの種類について[&#x200B; コンテンツレビュー担当者が評価する内容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)を確認してください。 これらの評価領域以外のガイドラインは採点されません。
+ガイドラインを作成する前に、画像とブランドボイスのガイドラインの種類について[AI レビュアーが評価する内容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates)を確認してください。 これらの評価領域以外のガイドラインは採点されません。
 
-*  測定可能な基準を示すブランドガイドラインを作成する。 コンテンツレビュアーは、コンテンツを文字通り評価するため、客観的なルールは、主観的なルールよりも一貫性のあるスコアを生成します。
+*  測定可能な基準を示すブランドガイドラインを作成する。 AI レビュアーはコンテンツを文字通り評価するため、客観的なルールは主観的なルールよりも一貫性のあるスコアを生成します。
 
 * ガイドラインで「避ける」、「保管する」、「確認する」などの単語を探します。 これらは多くの場合、あなたが締めることができるルールを示します。 あいまいな指示を、特定の単語、形式、または制限のリストに置き換えます。 例えば、「一般的なスキーの決まり文句を避ける」を「gnar、pow、shredを使用しない」に置き換えます。
 

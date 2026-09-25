@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 9%
-
 ---
-
 # ブランド権限へのアクセス権の付与
 
 ユーザーは、ユーザーグループに追加されると、Adobe GenStudio システムマネージャーのブランドの作成、編集、公開権限を付与されます。
@@ -55,7 +62,7 @@ ht-degree: 9%
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 
 * 組織にはGenStudio Foundationが必要です。
-   * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
+  * WORKFRONTのAI Reviewerは、GenStudio Foundationでアセットのレビューと承認ワークフローに使用できる機能を提供します。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 AI ReviewerによるGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
 * Adobeには、署名済みのAdobe Gen AI契約書がファイルに登録されている必要があります。
 契約書への署名について詳しくは、[Adobe Gen AI契約書への署名](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)を参照してください。
 
@@ -138,13 +145,13 @@ Workfrontのアクセスレベルでブランドにアクセス権を付与す�
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**アクセスレベル**」をクリックします。
-1. 編集するアクセスレベルを見つけ、編集アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックして編集します。
+1. 編集するアクセスレベルを見つけ、編集アイコン ![編集アイコン ](assets/edit-icon.png)をクリックして編集します。
 
    または
 
-   「**新しいアクセスレベル**」をクリックして、新しいアクセスレベルを作成します。 アクセス レベルの作成について詳しくは、[&#x200B; カスタム アクセス レベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-1. **追加の制限を設定**&#x200B;まで下にスクロールし、**ユーザーがブランドにアクセスすることを許可**&#x200B;を選択します。
-   ![&#x200B; ブランド設定へのアクセスを許可](assets/access-for-brands.png)
+   「**新しいアクセスレベル**」をクリックして、新しいアクセスレベルを作成します。 アクセス レベルの作成について詳しくは、[ カスタム アクセス レベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+1. **追加の制限を設定**&#x200B;まで下にスクロールし、**ユーザーがブランドにアクセスすることを許可**を選択します。
+   ![ ブランド設定へのアクセスを許可](assets/access-for-brands.png)
 1. **保存**&#x200B;をクリックします。
 
-ブランドを設定したら、コンテンツレビュー担当者を作成して、レビューと承認のワークフローでアセットをブランドガイドラインに照らし合わせてレビューできます。 詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
+ブランドを設定したら、AI レビュアーを作成して、レビューと承認のワークフローでアセットをブランドガイドラインに照らし合わせてレビューできます。 詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。

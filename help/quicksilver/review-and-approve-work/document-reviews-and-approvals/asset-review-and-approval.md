@@ -8,22 +8,29 @@ feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0
+TQID: 'https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 8%
-
 ---
-
 # ドキュメント承認で利用可能な機能
 
 現在、Workfrontでドキュメントの承認に使用できるシステムは3つあります。
@@ -45,7 +52,7 @@ ht-degree: 8%
 * 従来のレポートを使用した承認レポートの作成
 * ホーム領域のマイ承認ウィジェットで承認リクエストにアクセスする
 
-詳しくは、[&#x200B; レガシードキュメントの承認](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)を参照してください。
+詳しくは、[ レガシードキュメントの承認](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)を参照してください。
 
 ## 統合承認
 
@@ -67,13 +74,13 @@ ht-degree: 8%
 * Workfrontのホームウィジェットで、承認の複数の主要業績評価指標を表示します
 
 * 現在ベータ版のCanvas ダッシュボードを使用して、統合承認に関するレポートの詳細を表示します
-レポートについて詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+レポートについて詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 * 複数ステージの承認の作成
 
 * ホーム領域のマイ承認ウィジェットでレビューおよび承認リクエストにアクセスする
 
-* コンテンツレビュアーを使用して、ブランドコンプライアンスのレビューを自動化できます。 詳しくは、[Workfront Content Reviewerの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
+* AI レビュアーを使用して、ブランドコンプライアンスのレビューを自動化します。 詳しくは、[Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
 * Frame.io ビューアを使用したドキュメントのレビューと承認 詳しくは、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。
 
