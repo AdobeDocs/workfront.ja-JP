@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1171'
 ht-degree: 6%
 ---
 # Adobe Workfront Planning でリクエストフォームへの承認の追加
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -55,7 +55,7 @@ Adobe Workfront Planning リクエストフォームに承認プロセスを追�
 
 Workfront Planningでのリクエストフォームの作成について詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
-レコードを作成するためのレコードタイプへのリクエストの送信について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+レコードを作成するためのレコードタイプへのリクエストの送信について詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## アクセス要件
 
@@ -98,18 +98,87 @@ Workfront Planningでのリクエストフォームの作成について詳し�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 ## リクエストフォームへの承認の追加に関する考慮事項
 
-* 1つのリクエストフォームに1人または複数の承認者を追加できます。 ユーザーとチームを承認者として追加できます。
-* 「承認者」フィールドと「承認日」フィールドでリクエストフォームを送信して作成したレコードに承認情報を表示できます。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
-* 1つのリクエストフォームに複数の承認者を追加する場合、すべての承認者は、レコードをWorkfront Planningで作成する前にリクエストを受け入れる必要があります。
-* すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが作成されます。
-* 少なくとも1人の承認者がリクエストを拒否し、他のすべての承認者がリクエストを承認した場合、Workfrontのリクエスト領域にリクエストが作成されますが、リクエストフォームに関連付けられたレコードタイプのレコードは作成されません。
-* リクエストフォームへの承認の追加はオプションです。 Workfront Planningは、リクエストが送信されたときに、リクエストフォームが承認に関連付けられていない場合は、直ちにレコードを作成します。
+* 1人または複数の承認者（ユーザーまたはチーム）をリクエストフォームまたは承認ルールに追加できます。
+* 承認ルールは、送信されたリクエスト内のフィールド値に基づいてリクエストをルーティングします（例：「キャンペーンタイプ」フィールドの異なる値に対して異なる承認者）。
+* 作成したレコードの承認情報は、「承認者」フィールドと「承認日」フィールドで表示できます。 フィールドの作成を参照してください。
+* すべての承認者が承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが作成されます。
+* 少なくとも1人の承認者が拒否した場合、レコードタイプのレコードは作成されません。代わりに、リクエストはWorkfrontのリクエスト領域に残ります。 （この点は、少し異なる文言で両方のセクションに表示されました。ここでは1つのステートメントとしてマージされます。）
+* 複数の承認者が必要な場合は、「1つの決定のみが必要」オプションが有効になっていない限り、すべての承認者がリクエストを承認または却下する前に決定を下す必要があります。
+* チームが承認者として設定されている場合、そのチームのひとりのメンバーから必要な決定はひとつだけです。
+* 承認はオプションです。リクエストフォームに承認が添付されていない場合、Workfront Planningは送信時にすぐにレコードを作成します。
+* <span class="preview">承認に1つ以上のステージを追加できます。</span>
+
+## リクエストフォームへの承認ルールの追加
+
+承認ルールは、送信されたリクエストのフィールド値に基づいて承認プロセスを定義します。
+
+例えば、リクエストフォームに「Campaign type」フィールドがある場合、そのフィールドに「Digital」という値がある場合は1人に、そのフィールドに「Print」という値がある場合は別のユーザーにリクエストを送信するルールを作成できます。
+
+リクエストフォームの承認ルールを設定するには：
+
+1. 記事[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)のリクエストフォームの作成と管理の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
+1. リクエストフォームが開いたら、**設定**&#x200B;をクリックします。
+
+   「**設定**」タブが開きます。
+
+1. 承認ルールの設定を開始するには、左側のパネルで&#x200B;**承認** ![承認アイコン ](assets/approvals-icon-on-form.png)をクリックします。
+
+1. （オプション）デフォルトの承認プロセスを設定する場合は、**デフォルトの承認ルール**&#x200B;領域の&#x200B;**承認者** フィールドに少なくとも1人のユーザーまたはチームを追加し、**デフォルトの承認者のいずれかが承認した後にレコードを作成する場合は、「1つの決定のみが必要です**」チェックボックスをクリックします。
+
+   ![既定の承認ルール領域](assets/default-approvers.png)
+
+1. （オプション）承認ルールの追加を開始します。 カスタム承認ルールごとに、次の操作を行います。
+
+   1. 「**承認ルールを追加**」をクリックします。
+   1. プレースホルダータイトル **名称未設定の承認ルール**&#x200B;をクリックし、承認ルールの名前を入力します。
+   1. 「**フィールドを選択**」をクリックし、ルールをアクティブ化するフィールドを選択します。
+   1. ルールの演算子を選択します。 演算子は、フィールドのタイプによって異なります。
+   1. 選択した演算子に値が必要な場合は、プラスアイコンをクリックして1つ以上の値を追加します。
+   1. （オプション）「**条件を追加**」をクリックして、さらに条件を追加し、手順C-Eに従って追加条件を設定して&#x200B;**And**&#x200B;または&#x200B;**Or** ステートメントで接続します。
+   1. 承認ルールの&#x200B;**アクション**&#x200B;領域の&#x200B;**承認者** フィールドに、条件が満たされたときに承認者として設定するユーザーまたはチームを少なくとも1つ追加します。
+   1. （条件付き、オプション）承認者のいずれかがレコードを承認した後にレコードを作成する場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。 そうでない場合、すべての承認者は、リクエストが承認または却下される前に、承認を決定する必要があります。
+
+   >[!NOTE]
+   >
+   >   承認ルールを追加する際には、次の点を考慮してください。
+   >
+   >   * デフォルトのルールのみが設定されている場合、送信されたすべてのリクエストに適用されます。
+   >   * カスタムルールが満たされた場合、デフォルトはリクエスト承認ワークフローに適用されません。 一致したカスタムルールのみが承認に適用され、デフォルトのルールは無視されます。
+   >   * 複数のカスタムルールが満たされた場合、順序の最初のルールが適用されます。 この場合、デフォルトの承認は適用されません（存在する場合）。
+
+1. <span class="preview"> （オプション）「**ステージを追加**」をクリックして、承認に別のステージを追加します。</span>
+
+1. **保存**&#x200B;をクリックして、承認ルールを保存します。
+
+1. <span class="preview"> （オプション）承認にさらにステージを追加するには、次の操作を行います。</span>
+
+   1. <span class="preview"> クリック **ステージを追加**.</span>
+
+      <span class="preview">複数段階の承認&#x200B;**ボックスが表示されます。**&#x200B;既に既定の承認アクションを作成している場合、これらの承認者は自動的にステージ 1に追加されます。</span>
+
+   1. <span class="preview"> 「**ユーザーまたはチームを追加**」フィールドに、少なくとも1人のユーザーまたはチームを追加して、ステージの承認者として設定します。</span>
+   1. <span class="preview"> （条件付き、オプション）承認者のいずれかがレコードを承認した後、レコードを次のステージに進める場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。 そうでない場合、すべての承認者は、リクエストが次のステージに移動する前に、承認を決定する必要があります。</span>
+   1. <span class="preview"> 「**ステージを追加**」をクリックし、手順Bから繰り返して、承認にステージを追加します。</span>
+
+      <span class="preview">2つ以上のステージが存在する場合は、**ドラッグ** アイコン ![ ドラッグ アイコン ](assets/drag-icon.png)をクリックして、順番にドラッグ&amp;ドロップできます。</span>
+
+      <span class="preview">このステージを削除&#x200B;**をクリックして承認からステージを削除するか、承認者の横にある**&#x200B;削除&#x200B;**アイコン ![削除アイコン ](assets/delete.png)をクリックして、ステージの承認者リストからユーザーまたはチームを削除します。</span>**
+
+      ![複数段階の承認ボックス ](assets/planning-request-multi-stage-approval-box.png)
+
+   1. <span class="preview">承認ワークフローの作成が完了したら、**保存**&#x200B;をクリックします。</span>
+
+      <span class="preview">複数段階の承認は、承認ページから編集または削除できます。</span>
+
+1. （オプション） リクエストフォームを一度も共有したことがない場合は、**公開**&#x200B;をクリックします。
+
+
 
 <!--
 
@@ -149,86 +218,4 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
--->
-
-## リクエストフォームへの承認ルールの追加
-
-承認ルールは、送信されたリクエストのフィールド値に基づいて承認プロセスを定義します。
-
-例えば、リクエストフォームに「Campaign type」フィールドがある場合、そのフィールドに「Digital」という値がある場合は1人に、そのフィールドに「Print」という値がある場合は別のユーザーにリクエストを送信するルールを作成できます。
-
-承認ルールを追加する際には、次の点を考慮してください。
-
-* 承認ルールには、1人または複数の承認者を追加できます。
-* 少なくとも1人の承認者がリクエストを拒否すると、リクエストは拒否され、レコードは作成されません。 リクエストはWorkfrontのリクエスト領域に残ります。
-* 複数の承認者を追加し、「1つの決定のみが必要」オプションが有効になっていない場合、リクエストが承認または却下される前に、すべての承認者が決定を下す必要があります。
-* チームが承認者として設定されている場合、チームの1人のメンバーから1つの決定のみが必要です。
-
-リクエストフォームの承認ルールを設定するには：
-
-1. 記事[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)のリクエストフォームの作成と管理の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
-1. リクエストフォームが開いたら、**設定**&#x200B;をクリックします。
-
-   「**設定**」タブが開きます。
-
-1. 承認ルールの設定を開始するには、左側のパネルで&#x200B;**承認** ![承認アイコン &#x200B;](assets/approvals-icon-on-form.png)をクリックします。
-
-1. （オプション）デフォルトの承認プロセスを設定する場合は、**デフォルトの承認ルール**&#x200B;領域の&#x200B;**承認者** フィールドに少なくとも1人のユーザーまたはチームを追加し、**デフォルトの承認者のいずれかが承認した後にレコードを作成する場合は、「1つの決定のみが必要です**」チェックボックスをクリックします。
-
-   ![既定の承認ルール領域](assets/default-approvers.png)
-
-1. （オプション）承認ルールの追加を開始します。 カスタム承認ルールごとに、次の操作を行います。
-
-   1. 「**承認ルールを追加**」をクリックします。
-   1. プレースホルダータイトル **名称未設定の承認ルール**&#x200B;をクリックし、承認ルールの名前を入力します。
-   1. 「**フィールドを選択**」をクリックし、ルールをアクティブ化するフィールドを選択します。
-   1. ルールの演算子を選択します。 演算子は、フィールドのタイプによって異なります。
-   1. 選択した演算子に値が必要な場合は、プラスアイコンをクリックして1つ以上の値を追加します。
-   1. （オプション）「**条件を追加**」をクリックして、さらに条件を追加し、手順C-Eに従って追加条件を設定して&#x200B;**And**&#x200B;または&#x200B;**Or** ステートメントで接続します。
-   1. 承認ルールの&#x200B;**アクション**&#x200B;領域の&#x200B;**承認者** フィールドに、条件が満たされたときに承認者として設定するユーザーまたはチームを少なくとも1つ追加します。
-   1. （条件付き、オプション）承認者のいずれかがレコードを承認した後にレコードを作成する場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。 そうでない場合、すべての承認者は、リクエストが承認または却下される前に、承認を決定する必要があります。
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-   >[!NOTE]
-   >
-   >   承認ルールを追加する際には、次の点を考慮してください。
-   >
-   >   * デフォルトのルールのみが設定されている場合、送信されたすべてのリクエストに適用されます。
-   >   * カスタムルールが満たされた場合、デフォルトはリクエスト承認ワークフローに適用されません。 一致したカスタムルールのみが承認に適用され、デフォルトのルールは無視されます。
-   >   * 複数のカスタムルールが満たされた場合、順序の最初のルールが適用されます。 この場合、デフォルトの承認は適用されません（存在する場合）。
-
-1. **保存**&#x200B;をクリックして、承認ルールを保存します。
-1. （オプション） リクエストフォームを一度も共有したことがない場合は、**公開**&#x200B;をクリックします。
-
-
-
-
-<!--
-
-MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
-
-<div class="preview">
-
-1. (Optional) To add more stages to the approval, do the following:
-
-   1. Click **Add stage**.
-   
-      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
-
-   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
-   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
-   1. Click **Add stage** and repeat from step B to add more stages to the approval.
-
-      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
-
-      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
-
-      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
-
-   1. When you are finished building the approval workflow, click **Save**.
-
-      You can edit or delete the multi-stage approval from the Approvals page.
-
-</div>
 -->

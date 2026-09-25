@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 37%
+source-wordcount: '1646'
+ht-degree: 36%
 ---
 # 送信されたリクエストを表示する
 
@@ -36,13 +36,11 @@ ht-degree: 37%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
@@ -61,7 +59,7 @@ Remove production and preview references at release
   >* 自分のドラフトリクエストのみを表示できます。
   >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに表示されます。
   >* 従来のエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスに表示されません。
-  >* 新しいリクエストエクスペリエンスでは、2025年7月から現在までの古いWorkfront リクエストのみを表示できます。<!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* 実稼動環境では、新しいリクエストエクスペリエンスで、2025年7月から現在までにのみ送信されたWorkfront リクエストを見つけることができます。 <span class="preview">Preview環境では、新しいリクエストエクスペリエンスで、2023年から現在までにのみ送信されたWorkfront リクエストを検索できます。 すべてのWorkfront リクエストは、従来のエクスペリエンスで表示されます。</span>
 
 ## アクセス要件
 
@@ -108,7 +106,7 @@ Remove production and preview references at release
 
 送信されたリクエストは、リクエスト エリアまたはホームのマイリクエストウィジェットで表示できます。
 
-マイリクエストについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+マイリクエストについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 送信されたリクエストの表示は、新しいリクエスト体験を使用しているか、従来のリクエスト体験を使用しているかによって異なります。
 
@@ -158,7 +156,7 @@ Remove production and preview references at release
 
    >[!IMPORTANT]
    >
-   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[&#x200B; ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[ ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
    >
    >Workfrontの一部のリクエストステータスと、すべてのプランニングリクエストのステータスは、Workfrontによってハードコーディングされています。 カスタマイズしたり、名前を変更したり、同じものを追加したりすることはできません。
 
@@ -238,7 +236,7 @@ Remove production and preview references at release
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
@@ -246,13 +244,13 @@ Remove production and preview references at release
    >
    >* 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージリクエストにドキュメントを追加することはできません。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
-1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト &#x200B;](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト ](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。 イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある&#x200B;**フィルターアイコン** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
+1. リストの右上にある&#x200B;**フィルターアイコン** ![ フィルターアイコン ](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -285,7 +283,7 @@ Remove production and preview references at release
     </tbody> 
    </table>
 
-1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
 
