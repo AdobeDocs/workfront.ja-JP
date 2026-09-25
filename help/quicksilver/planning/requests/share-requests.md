@@ -76,7 +76,7 @@ ht-degree: 10%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -90,7 +90,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 管理者が別のデフォルトを設定していない限り、リクエスト者は、送信したリクエストに対する管理アクセス権を自動的に付与されます。
 
-  詳しくは、[ リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+  詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
 * Workfront管理者は、すべてのリクエストにアクセスして管理できます。
 * レコードタイプへの管理アクセス権を持つユーザーは、そのレコードタイプの受注フォームとそのフォームを通じて送信されたすべてのリクエストへの管理アクセス権を継承します。
@@ -112,7 +112,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    選択したリクエストの&#x200B;**共有** ボックスが開きます。
 
-   ![ リクエスト共有ボックス ](assets/requests-sharing-box.png)
+   ![&#x200B; リクエスト共有ボックス &#x200B;](assets/requests-sharing-box.png)
 
 1. **このリクエストフィールドへのアクセス権を付与**&#x200B;で、ユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、リストに表示されたらクリックします。
 
@@ -124,7 +124,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 表示
 1. （オプション）権限レベルごとに、詳細な権限アイコンをクリックし、**編集**、**コメント**、**共有**、**削除**&#x200B;など、詳細な権限を選択または選択解除します。
 
-   ![ リクエストに対する詳細な権限](assets/granular-permissions-on-requests.png)
+   ![&#x200B; リクエストに対する詳細な権限](assets/granular-permissions-on-requests.png)
 1. （オプション）継承された権限ラインを展開して、ワークスペースとレコードタイプから権限を取得するユーザーを表示します。
 
    >[!TIP]
