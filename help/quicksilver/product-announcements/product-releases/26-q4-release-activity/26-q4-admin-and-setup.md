@@ -4,9 +4,9 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 1%
 ---
 # 2026年第4四半期の管理者の機能強化
@@ -14,6 +14,18 @@ ht-degree: 1%
 このページでは、2026年第4四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+## MCP統合用の承認済みリダイレクト URLの追加
+
+>[!NOTE]
+>
+>プレビュー：2026年9月22日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+Workfront MCP サーバーをより柔軟でカスタマイズしやすくするために、カスタム OAuth コールバック URLを追加する機能を追加しました。 Workfront管理者は、MCP統合用に信頼できるOAuth コールバック URLの自分の組織の許可リストに加えるを管理できるようになりました。 これにより、Workfrontがネイティブにサポートしているプラットフォームだけでなく、OAuth コールバック URLが企業固有のカスタム AI エージェント型プラットフォームを接続できます。
+
+詳細については、[&#x200B; システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)の「[許可されたリダイレクト URLを追加または削除する](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)」を参照してください。
 
 <!--
 

@@ -5,12 +5,14 @@ title: Canvas ダッシュボードでのピボットテーブルレポートの
 description: ピボットテーブルレポートをCanvas ダッシュボードに追加すると、データの集計合計を表形式で表示できます。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 9%
 ---
 # Canvas ダッシュボードでのピボットテーブルレポートの作成
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

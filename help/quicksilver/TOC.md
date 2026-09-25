@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 92%
 ---
 # Workfront ガイド {#using}
@@ -19,12 +19,13 @@ ht-degree: 92%
     * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
     * 2026年第4四半期リリース {#release-26-q4}
       * [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [2026年第4四半期：AIの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第4四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026年第4四半期：AIの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第4四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [2026年第4四半期の財務管理の強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [2026年第4四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [2026年第4四半期レポートの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026年第4四半期の機能強化のリクエスト](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [2026年第4四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [2026年第4四半期その他の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026年第3四半期リリース {#release-26-q3}
@@ -2252,7 +2253,7 @@ ht-degree: 92%
     * [レコードタイプの共有](planning/access/share-record-types.md)
     * [ビューの共有](planning/access/share-views.md)
     * [レコードの共有](planning/access/share-records.md)
-    * {hide-from-toc}[Workfront計画フィールドの共有](planning/access/share-fields.md)
+    * [Workfront計画フィールドの共有](planning/access/share-fields.md)
     * [レコードのデフォルト権限の設定](planning/access/set-default-record-permissions.md)
     * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
   * Adobe Workfront プランニングレコード {#adobe-workfront-planning-records}

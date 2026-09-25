@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
+source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2398'
 ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
@@ -16,6 +16,91 @@ ht-degree: 2%
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## Workfront Planningでのフィールドの共有
+
+>[!NOTE]
+>
+>プレビュー：2026年9月24日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+Workspaceの管理者は、個々のフィールドへのアクセスを制御できるようになり、特定のユーザーやチームが同じレコードタイプ内の機密データを表示、編集、または完全に制限できるようになりました。
+
+フィールドレベルの権限は、ビュー、レコードの詳細、リクエストフォーム、接続、API、ダッシュボードをまたいで一貫して適用され、組織が機密情報を安全に管理するのに役立ちます。
+
+アクセス権のないユーザーには制限されたフィールドは表示されませんが、管理者はレコードの再構築や個別のワークスペースの作成を行わずに権限を設定できます。
+
+詳しくは、[Workfront計画フィールドの共有](/help/quicksilver/planning/access/share-fields.md)を参照してください。
+
+<!--
+
+## Share a Planning request
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now share a Planning request with others from the Requests area in the new request experience.
+
+You can give others one of the following permissions to the request: View, Contribute, or Manage.
+
+For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+
+## Set up multi-stage approvals for Planning requests
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Enhancements to display logic and field editing in Planning requests forms
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+
+In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+
+For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Configure capabilities for each access tier per request form
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+
+Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+-->
+
+## AI フォーム入力は、リンクで参照されたレコードからデータを取得するようになりました
+
+>[!NOTE]
+>
+>プレビューと制作：2026年9月22日（PT）
+>[!BADGE スケジュール外]{type=Neutral}
+
+AI フォーム入力では、リンクで参照されるプランニングレコードからフィールドデータを直接取得し、フォームの入力時にコンテキストとして使用できるようになりました。 レコードの直接URLをプロンプトに貼り付けるだけで、その詳細が自動的に取り込まれ、フォームの値が提案されます。
+
+詳しくは、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
 
 ## CX CoworkerがWorkfront Planningで利用可能になりました
 

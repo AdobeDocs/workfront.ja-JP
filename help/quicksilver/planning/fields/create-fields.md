@@ -1,6 +1,6 @@
 ---
 title: フィールドを作成
-description: Adobe Workfront Planning では、レコードタイプの種類ごとにカスタムフィールドを作成できます。 そしてフィールドを Workfront Planning レコードに関連付けることができます。
+description: Adobe Workfront プランニングでは、レコードタイプの種類ごとにカスタムフィールドを作成できます。 そしてフィールドを Workfront プランニングレコードに関連付けることができます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -11,23 +11,28 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: adda394cd1896753d3b6688eed528f92738eedcf
 workflow-type: tm+mt
-source-wordcount: 5442
+source-wordcount: '5561'
 ht-degree: 38%
-
 ---
-
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??
 -->
@@ -42,17 +47,14 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # フィールドの作成
 
-<!--information about choice values must stay in yellow till Jan 2026-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、レコードタイプのカスタムフィールドを作成できます。 そしてフィールドを Workfront Planning レコードに関連付けて、レコードの情報を強化できます。
+Adobe Workfront プランニングでは、レコードタイプのカスタムフィールドを作成できます。 そしてフィールドを Workfront プランニングレコードに関連付けて、レコードの情報を強化できます。
 
 レコードタイプに関連付けるフィールドを作成するには、まずレコードタイプを作成する必要があります。 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
@@ -193,7 +195,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 ## テンプレートからワークスペースを作成することでフィールドを作成
 
-テンプレートからワークスペースを作成する際に、Adobe Workfront Planning はレコードタイプ用のフィールドを作成します。
+テンプレートからワークスペースを作成する際に、Adobe Workfront プランニングはレコードタイプ用のフィールドを作成します。
 
 詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
@@ -295,6 +297,10 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
     -->
 
 1. 以下の節の説明に従って、各フィールドの追加に進みます。
+
+1. <span class="preview"> （オプションおよび条件付き）フィールドを追加したら、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**フィールドを共有**&#x200B;してフィールドを共有します。</span>
+
+   </span>詳しくは、[&#x200B; フィールドの共有](/help/quicksilver/planning/access/share-fields.md)を参照してください。</span>
 
 ### 1 行テキスト {#single-line-text}
 

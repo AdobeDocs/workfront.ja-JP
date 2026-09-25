@@ -4,18 +4,34 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: c94c1f3d662cee00a12c786063a4e4db2015361d
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 6%
-
+ht-degree: 8%
 ---
-
 # 2026年第4四半期レポートの強化
 
 このページでは、2026年第4四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+<!--
+
+## Filter on collection relationships in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+
+Previously, filtering on collection relationships required text mode.
+
+For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+
+-->
 
 ## Canvas ダッシュボードでのダッシュボードのコピー
 
@@ -59,7 +75,7 @@ ht-degree: 6%
 | 承認プロセス | 作業承認プロセス |
 | 承認ステージ | 作業承認ステージ |
 | 上書きされている | 作業承認者のステータス |
-| 承認待ち | 承認待ち |
+| 承認待ち | 作業の承認待ち |
 
 この変更は、現在のレポートの機能には影響しません。
 
