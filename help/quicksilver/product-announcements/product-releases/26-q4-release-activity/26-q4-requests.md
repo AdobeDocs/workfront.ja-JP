@@ -4,10 +4,10 @@ description: 2026年第4四半期リクエストの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 ---
 # 2026年第4四半期リクエストの機能強化
 
@@ -15,21 +15,17 @@ ht-degree: 9%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## 新しいリクエストエクスペリエンスで最大3年間の過去のリクエストを表示
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>プレビュー：2026年9月24日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+新しいリクエストエクスペリエンスから、2025年7月までに提出されたWorkfrontの問題リクエストにアクセスできるようになりました。 以前は、2025年7月以降に送信されたリクエストにのみアクセスできました。
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+詳しくは、[送信済みリクエストの表示](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)を参照してください。
 
 ## AI フォーム入力は、リンクで参照されたレコードからデータを取得するようになりました
 
