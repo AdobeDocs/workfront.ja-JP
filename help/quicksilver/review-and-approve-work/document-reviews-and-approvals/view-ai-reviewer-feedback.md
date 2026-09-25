@@ -33,7 +33,7 @@ ht-degree: 3%
 
 AI レビュアーは、レビューと承認ワークフローの意思決定者となるように設計されていません。 指定されたブランド要件に合致するスコアとレコメンデーションのみが提供されます。
 
-![AI レビュー担当者からのフィードバック ](assets/ai-reviewer-output.png)
+![AI レビュー担当者からのフィードバック &#x200B;](assets/ai-reviewer-output.png)
 
 ## スコアの計算方法の理解
 
@@ -42,7 +42,7 @@ AI レビュアーは、レビュータイプに応じてスコアを異なる�
 * 画像レビュー：このスコアは、合格したガイドラインと失敗したガイドラインの比率を反映しています。
 * レビューをコピー：このスコアは、主観的な結果と客観的な結果のバランスのとれた重み付けを使用します。 目的のガイドライン（「修正」に表示）は、主観的なガイドライン（「検討」に表示）の3倍の重み付けになります。
 
-客観的なガイドラインは、コピーレビューに重きを置くため、具体的で測定可能なガイドラインを作成することをお勧めします。 詳しくは、AI レビュアーのブランドの作成と管理の記事の「[ ブランドガイドラインの作成に関するベストプラクティス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines)」の節を参照してください。
+客観的なガイドラインは、コピーレビューに重きを置くため、具体的で測定可能なガイドラインを作成することをお勧めします。 詳しくは、AI レビュアーのブランドの作成と管理の記事の「[&#x200B; ブランドガイドラインの作成に関するベストプラクティス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines)」の節を参照してください。
 
 ## スコアとフィードバックの表示
 
@@ -54,7 +54,7 @@ AI レビュアーのスコアとフィードバックは、ドキュメント�
 
    ドキュメントをアップロードするドキュメント領域に移動し、ドキュメントの概要パネルを開きます。
 1. 「**スコア**」をクリックします。
-   ![ ドキュメントのスコアを表示](assets/view-score.png)
+   ![&#x200B; ドキュメントのスコアを表示](assets/view-score.png)
 
 スコアとフィードバックウィンドウで、AI レビュアーは、アセットが指定されたガイドラインを満たさない方法を説明します。
 ![AI レビュー担当者のフィードバックには注意が必要](assets/ai-reviewer-needs-attention.png)
@@ -63,4 +63,4 @@ AI レビュアーのスコアとフィードバックは、ドキュメント�
 
 AI レビュアーのフィードバックに基づいてアセットを調整する必要がある場合は、新しいバージョンをアップロードして新しいレビューを開始できます。
 
-詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。
+詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。

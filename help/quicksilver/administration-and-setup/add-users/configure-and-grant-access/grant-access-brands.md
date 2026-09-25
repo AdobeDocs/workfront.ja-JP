@@ -145,13 +145,13 @@ Workfrontのアクセスレベルでブランドにアクセス権を付与す�
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**アクセスレベル**」をクリックします。
-1. 編集するアクセスレベルを見つけ、編集アイコン ![編集アイコン ](assets/edit-icon.png)をクリックして編集します。
+1. 編集するアクセスレベルを見つけ、編集アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックして編集します。
 
    または
 
-   「**新しいアクセスレベル**」をクリックして、新しいアクセスレベルを作成します。 アクセス レベルの作成について詳しくは、[ カスタム アクセス レベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-1. **追加の制限を設定**&#x200B;まで下にスクロールし、**ユーザーがブランドにアクセスすることを許可**を選択します。
-   ![ ブランド設定へのアクセスを許可](assets/access-for-brands.png)
+   「**新しいアクセスレベル**」をクリックして、新しいアクセスレベルを作成します。 アクセス レベルの作成について詳しくは、[&#x200B; カスタム アクセス レベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+1. **追加の制限を設定**&#x200B;まで下にスクロールし、**ユーザーがブランドにアクセスすることを許可**&#x200B;を選択します。
+   ![&#x200B; ブランド設定へのアクセスを許可](assets/access-for-brands.png)
 1. **保存**&#x200B;をクリックします。
 
 ブランドを設定したら、AI レビュアーを作成して、レビューと承認のワークフローでアセットをブランドガイドラインに照らし合わせてレビューできます。 詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。

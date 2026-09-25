@@ -120,7 +120,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
 
 >[!NOTE]
 >
