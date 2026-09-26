@@ -144,15 +144,15 @@ AI レビュアーが評価する内容に沿ったブランドガイドライ�
 
 作成した承認テンプレートは、プロジェクト、タスク、イシューの「ドキュメント」エリアのアセットに適用できます。
 
-詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
-AI レビューアーを表示する![ テンプレートリスト ](assets/ai-review-templates.png)
+AI レビューアーを表示する![&#x200B; テンプレートリスト &#x200B;](assets/ai-review-templates.png)
 
 ### 個人のレビューと承認のリクエスト
 
 ユーザーが個別のレビューと承認のリクエストを作成する場合、AI レビュアーを他の参加者と追加したり、AI レビュアーのみで1つのリクエストを作成してブランドコンプライアンスをチェックしたりできます。
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 
 ![AI レビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
