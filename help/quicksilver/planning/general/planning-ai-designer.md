@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront計画Designerの基本を学ぶ
-description: AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。 直接またはAI アシスタントを通じて使用する場合でも、Planning Designerは、構造化され、連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+description: AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。 Planning Designerは、直接またはAI アシスタントやCX Coworkerを通じて使用される場合でも、構造化され、連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -8,28 +8,40 @@ role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
+TQID: 'https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: 1528
-ht-degree: 7%
-
+source-wordcount: '1651'
+ht-degree: 8%
 ---
-
 # Adobe Workfront計画Designerの基本を学ぶ
 
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 >[!IMPORTANT]
 >
@@ -43,7 +55,7 @@ ht-degree: 7%
 
 AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。
 
-直接またはAI アシスタントを通じて使用する場合でも、Planning Designerは、構造化され、連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+AI アシスタントを通じて直接使用する場合でも、CX Coworker</span>を<span class="preview">使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
 
 Workfront Planningについて詳しくは、次の記事を参照してください。
 
@@ -51,6 +63,10 @@ Workfront Planningについて詳しくは、次の記事を参照してくだ�
 * [Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)
 
+PlanningのAI アシスタントとCX Coworkerについて詳しくは、次の記事を参照してください。
+
+* [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## アクセス要件
 
@@ -199,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Workfront管理者は、組織のPlanning Designerを有効にする必要があります。 この後、デフォルトでは、すべてのユーザーがPlanning Designerを使用できます。
-* 組織がAI契約書に署名している場合、計画領域でAI アシスタントを使用すると、計画Designerで実行されたアクションもAI アシスタントで実行できます。
-* 計画領域でAI アシスタントによって実行されるアクションまたは計画Designerによって実行されるアクションは、Workfront計画の権限とWorkfront アクセスレベルのコンテキストにあります。
+* 組織がAI契約書に署名している場合、プランニング領域でAI アシスタントまたは<span class="preview">CX Coworker</span>を使用すると、プランニング Designerで実行されるアクションも実行できます。
+* AI アシスタントまたは計画領域の<span class="preview">CX Coworker</span>によって実行されたアクション、または計画Designerによって実行されたアクションは、Workfront計画の権限とWorkfrontのアクセスレベルのコンテキストにあります。
 
   詳しくは、次の記事を参照してください。
 
-  * [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-  * [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
+  * [Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI アシスタントまたはPlanning Designerがユーザーの代わりに行った変更は、レコードの履歴パネルで追跡されます。
+* AI アシスタント、<span class="preview">CX Coworker</span>またはユーザーの代わりにPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
 
 * 計画Designerによって行われたアクションは永続的であり、元に戻せない可能性があります。 例えば、フィールドの削除を元に戻すことはできません。 Designerが提案したすべての措置を承認する前に再検討する。
 
@@ -219,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## Planning Designerで現在使用できる機能
 
-Planning DesignerまたはAI アシスタントを使用して、次のいずれかのアクションを実行できます。
+Planning DesignerまたはAI アシスタント、または<span class="preview">CX Coworker</span>のいずれかを使用して、次のいずれかの操作を実行できます。
 
 * ワークスペースの作成と設定
 
@@ -258,7 +274,7 @@ Planning DesignerまたはAI アシスタントを使用して、次のいずれ
 
 ## Planning Designerを使用したオブジェクトの作成または更新
 
-特に指定がない限り、Workfront Planningでオブジェクトを作成または更新するには、Planning DesignerまたはAI アシスタントを使用します。
+Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、AI アシスタント、またはCX Coworker</span>の<span class="preview">を使用します。
 
 1. Workfrontにログインし、左上隅の&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックしてから、**計画**&#x200B;をクリックします。
 
@@ -272,7 +288,7 @@ Planning DesignerまたはAI アシスタントを使用して、次のいずれ
 
    ![Designer ウィンドウの計画](assets/planning-designer-window.png)
 
-1. 提供されたスペースで、AI アシスタントのプロンプトを入力し始め、完了したら「Enter」をクリックします。
+1. 提供されたスペースで、CX Coworker</span>のAI アシスタント <span class="preview">のプロンプトを入力し始め、完了したら「Enter」をクリックします。
 
    <!--add screen shot-->
 

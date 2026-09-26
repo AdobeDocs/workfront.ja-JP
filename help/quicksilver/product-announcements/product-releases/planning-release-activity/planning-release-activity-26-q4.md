@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
@@ -21,7 +33,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -37,7 +49,7 @@ Workspaceの管理者は、個々のフィールドへのアクセスを制御�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -51,7 +63,7 @@ Workspaceの管理者は、個々のフィールドへのアクセスを制御�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -63,7 +75,7 @@ Workspace管理者は、各Planning リクエストフォームに対して1段�
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -73,11 +85,11 @@ Workspace管理者は、各Planning リクエストフォームに対して1段�
 
 詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
-## リクエストフォームごとに各アクセス層の機能を設定します
+## Planning リクエストフォームの依頼者に対するデフォルトの権限の設定
 
 >[!NOTE]
 >
->プレビュー：2026年9月24日（PT）
+>プレビュー：2026年9月25日（PT）
 >プロダクション高速リリース：2026年10月14日（PT）
 >すべての人のための制作：2026年10月15日
 
@@ -87,7 +99,7 @@ Workfrontとworkspaceの管理者は、リクエストフォームを設定す�
 
 詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
-## AI フォーム入力は、リンクで参照されたレコードからデータを取得するようになりました
+## AI フォーム入力は、リンクで参照されたレコードからデータを取得します
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ AI フォーム入力では、リンクで参照されるプランニングレ�
 
 詳しくは、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
 
-## CX CoworkerがWorkfront Planningで利用可能になりました
+## CX Coworkerは、Workfront Planningで利用できます
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ Adobe Workfrontは、作業を完了するためのより強力な方法とし�
 
 詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
-## CX Coworkerのローンチに備えて、詳細プレビューボックスのAI アシスタントアイコンを削除しました
+## CX COWORKERのローンチに備えて、レコードの詳細プレビューボックスからAI アシスタントアイコンが削除されました
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ WorkfrontでのAdobe CX Coworkerのローンチに備えて、詳細プレビュ
 >* **リクエストフォームの作成**&#x200B;および&#x200B;**リクエストフォームの管理**&#x200B;が&#x200B;**リクエストフォーム**&#x200B;に変更されました
 >* **自動管理**&#x200B;が&#x200B;**自動処理**&#x200B;に変更されました
 
-## タイムラインビューのカスタム週の導入
+## タイムラインビューのカスタム週
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
-## タイムラインビューでグループ名を確認し、グループパネルのサイズを変更する
+## タイムラインビューでグループ名を表示し、グループパネルのサイズを変更する
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 >プロダクション高速リリース：2026年8月13日（PT）
 >すべての人のための生産：2026年10月15日
 
-テーブルビューでの行のドラッグ&amp;ドロップの操作性が視覚的に向上しました。
+テーブルビューで1行をドラッグ&amp;ドロップする際の操作性が視覚的に向上しました。
 
 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
@@ -356,9 +368,6 @@ Workspace Managerで、接続されたレコードタイプ間の依存関係を
 
 
 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
-
-
-
 
 ## レコードの新しいコメント インジケーターをテーブル ビューに表示
 

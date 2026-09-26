@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 37%
+source-wordcount: '1646'
+ht-degree: 36%
 ---
 # 送信されたリクエストを表示する
 
@@ -36,13 +36,11 @@ ht-degree: 37%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
@@ -61,7 +59,7 @@ Remove production and preview references at release
   >* 自分のドラフトリクエストのみを表示できます。
   >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに表示されます。
   >* 従来のエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスに表示されません。
-  >* 新しいリクエストエクスペリエンスでは、2025年7月から現在までの古いWorkfront リクエストのみを表示できます。<!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* 実稼動環境では、新しいリクエストエクスペリエンスで、2025年7月から現在までにのみ送信されたWorkfront リクエストを見つけることができます。 <span class="preview">Preview環境では、新しいリクエストエクスペリエンスで、2023年から現在までにのみ送信されたWorkfront リクエストを検索できます。 すべてのWorkfront リクエストは、従来のエクスペリエンスで表示されます。</span>
 
 ## アクセス要件
 

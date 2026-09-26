@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3087'
 ht-degree: 3%
 ---
 # Adobe Workfront Planning リクエストを送信して、レコードを作成
@@ -160,21 +160,24 @@ Workfront Planning リクエストフォームにリクエストを送信する�
 
   * <span class="preview"> プレビュー環境には、次のシナリオが存在します：</span>
 
-    * <span class="preview"> セカンダリ グローバル レコード タイプのページからリクエスト フォームを送信すると、レコードがセカンダリ レコード タイプ ページに表示されます。 ユーザーは、セカンダリワークスペースを表示するアクセス権がある場合、プライマリレコードタイプのページに新しいレコードも表示されます。</span>
-    * <span class="preview"> プライマリレコードタイプページから、またはこの記事に記載されているその他の方法を使用してリクエストフォームを送信すると、レコードはプライマリレコードタイプページに表示されます。</span>
-    * <span class="preview"> リクエストフォームで&#x200B;**Workspace** フィールドが使用でき、ユーザーがレコードを追加する特定のワークスペースを手動で選択した場合、フォームがプライマリレコードタイプとセカンダリレコードタイプのページのどちらから選択されたかに関係なく、そのスペースにレコードが保存されます。</span>
+    <div class="preview">
+
+    * セカンダリグローバルレコードタイプのページからリクエストフォームを送信すると、レコードはセカンダリレコードタイプページに表示されます。 ユーザーは、セカンダリワークスペースを表示するアクセス権がある場合、プライマリレコードタイプのページに新しいレコードも表示されます。
+    * プライマリレコードタイプページから、またはこの記事に記載されているその他の方法を使用してリクエストフォームを送信すると、レコードはプライマリレコードタイプページに表示されます。
+    * **Workspace** フィールドがリクエストフォームで使用でき、ユーザーがレコードを追加する特定のワークスペースを手動で選択した場合、フォームがプライマリレコードタイプとセカンダリレコードタイプのページのどちらかから選択されたかどうかに関係なく、そのスペースにレコードが保存されます。
+
+    </div>
 
   詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
-<!--
 <div class="preview">
 
-* You can share a request with others after it's been submitted. 
+* リクエストが送信された後、他のユーザーとリクエストを共有できます。
 
-   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+  詳しくは、[計画リクエストの共有](/help/quicksilver/planning/requests/share-requests.md)を参照してください。
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.

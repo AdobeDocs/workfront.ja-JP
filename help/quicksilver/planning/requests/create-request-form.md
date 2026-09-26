@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
+source-wordcount: '3098'
 ht-degree: 5%
 ---
 # Adobe Workfront Planning でのリクエストフォームの作成と管理
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ ht-degree: 5%
    <td> 
 <ul> 
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
-または
+   または
 <li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ ht-degree: 5%
   </tr>  
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースまたはレコードタイプ </a>に対する権限の管理 </p>  
+   <td>   <p>ワークスペースまたはレコードタイプへの権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
    1. **x** アイコンをクリックして、**既定のセクション**&#x200B;を削除します。
 1. 任意のフィールドをクリックし、フォームの右側のパネルにあるコントロールを使用して、サイズまたは次のいずれかの情報を定義します。
 
+   * **サイズ**: フォームでフィールドが占めるスペースを制御します。 一部のフィールドタイプでは利用できません。
    * **ラベル**：これは、リクエストフォームに表示されるフィールド名です。 これは、レコードフィールドの名前を変更するものではありません。
    * **手順**: フィールドに関する詳細情報を追加します。
-   * **必須フィールドを作成**：選択した場合、フィールドには値が必要です。 それ以外の場合は、フォームを送信できません。
-   * **ロジックを追加**: フィールドを表示または非表示にするには、どの条件を満たす必要があるかを定義します。<!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **選択肢**：これは、選択したフィールドでのみ使用できます。 次のいずれかの操作を行います。
+
+     * **選択肢A ～ Z**&#x200B;をクリックして、自動的に並べ替えます。
+     * 選択肢をドラッグ&amp;ドロップするか、手動で注文します。
+     * **設定** アイコン ![設定アイコン &#x200B;](assets/settings-icon.png)をクリックしてから、**デフォルトで選択**&#x200B;して、どの選択肢がデフォルトの選択肢であるかを示します。または、**選択肢を非表示**&#x200B;して非表示にします。
+
+   </div>
 
    >[!TIP]
    >
-   >各フィールドのフィールドタイプは、フォームでフィールドを選択した後、右側のパネルの上部に表示されます。
+   ><span class="preview">Planning リクエストフォームの選択肢の名前を変更したり削除したりすることはできません。 レコードタイプのテーブルビューでフィールドの選択肢を編集する必要があります。</span>
+
+
+1. **詳細設定**&#x200B;領域で、以下のオプションから選択します。 すべてのフィールドタイプですべてのオプションを使用できるわけではありません。
+
+   * **必須フィールドを作成**：選択した場合、フィールドには値が必要です。 それ以外の場合は、フォームを送信できません。
+   * **ロジックを追加**: フィールドを表示または非表示にするには、どの条件を満たす必要があるかを定義します。 ロジックの追加は、フィールドが単一フィールドと複数選択フィールドのどちらかである、またはそれらの前にある場合にのみ使用できます。 <span class="preview">検証ルールとデフォルト値ルールは、すべてのフィールドタイプで使用できるわけではありません。</span>
+
+     実稼動環境で、次のオプションから選択します。
+
+     * **表示ロジック**：選択したフィールドの前には、複数選択フィールドまたは単一選択フィールドが必要です。
+     * **ロジックをスキップ**: ユーザーがフィールドをスキップして空白のままにするタイミングのスキップ ルールを追加します。
+
+     <div class="preview">
+
+     プレビュー環境で、次のオプションから選択します。
+
+     * **表示**
+     * **スキップ**
+     * **デフォルト値**
+     * **検証**
+     * **書式**
+     * **編集可能性**
+
+     </div>
+
+     詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+
+     >[!TIP]
+     >
+     ><span class="preview"> フォームでフィールドを選択すると、各フィールドのフィールドタイプが右側のパネルの上部に表示されます。</span>
 
 1. （オプション）フィールドを長押ししてドラッグし、フォーム上の別の位置にドロップします。
 1. （オプション）フォームの左側にある「**コンテンツ要素**」タブをクリックし、次のいずれかの要素を追加します。
@@ -229,25 +270,19 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
 ### フォーム設定の設定
 
-「設定」タブで、承認ルールを設定し、このフォームから作成されたリクエストが完了としてマークされるタイミングを設定できます。
+「設定」タブで、承認ルールを設定し、このフォームから作成されたリクエストが完了としてマークされるタイミングを設定し、<span class="preview"> フォームを使用して送信された今後のリクエストに関するユーザーにデフォルトの権限を割り当てることができます。</span>
 
 承認ルールは、送信されたリクエストのフィールド値に基づいて承認プロセスを定義します。
 
 例えば、リクエストフォームに「Campaign type」フィールドがある場合、そのフィールドに「Digital」という値がある場合は1人に、そのフィールドに「Print」という値がある場合は別のユーザーにリクエストを送信するルールを作成できます。
 
-承認ルールを追加する際には、次の点を考慮してください。
-
-* ルールは順序で優先順位付けされます。 最初のルール条件が満たされた場合、リストの下位のルールの条件も満たされたとしても、そのルールが適用されます。
-* 条件が満たされない場合、デフォルトのルールが適用されます。
-* 承認ルールには、1人または複数の承認者を追加できます。
-* 少なくとも1人の承認者がリクエストを拒否すると、リクエストは拒否され、レコードは作成されません。 リクエストはWorkfrontのリクエスト領域に残ります。
-* 複数の承認者を追加し、「1つの決定のみが必要」オプションが有効になっていない場合、リクエストが承認または却下される前に、すべての承認者が決定を下す必要があります。
-* チームが承認者として設定されている場合、チームから必要な決定はひとつだけです。
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">承認プロセスでは、複数のステージがサポートされています。 ステージで必要なすべての決定が行われると、次のステージが開始され、新しいステージの承認者にメール通知が送信されます。</span>
 
 承認の追加について詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
 完了オプションを使用すると、リクエストされたオブジェクトが作成されたときにリクエストが完了したか、作成されたオブジェクトがいつ完了したかを設定できます。 指定した条件に基づいて、オブジェクトが完了するタイミングを定義します。
+
+<span class="preview"> リクエストフォームの「設定」セクションを使用して、フォームを使用して作成されたリクエストに対する依頼者<!--and non-requestors-->のデフォルトの権限を定義します。</span>
 
 フォーム設定を設定するには：
 
@@ -256,35 +291,12 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
    選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
 1. （オプション）「[&#x200B; フォームの詳細を設定](#set-up-form-details)」の説明に従って、フォームの詳細を設定します。
 
-1. 承認ルールの設定を開始するには、左側のナビゲーションで「承認![承認」アイコン &#x200B;](assets/approvals-icon-on-form.png)をクリックします。
+1. 承認ルールの設定を開始するには、左側のナビゲーションで&#x200B;**承認** ![承認アイコン &#x200B;](assets/approvals-icon-on-form.png)をクリックします。
 
-1. （オプション）デフォルトの承認プロセスを設定する場合は、デフォルトの承認ルール領域の「**承認者**」フィールドに少なくとも1人のユーザーまたはチームを追加し、デフォルトの承認者のいずれかが承認した後にレコードを作成する場合は、「**1つの決定のみが必要です**」チェックボックスをクリックします。
+   単一の<span class="preview">または多段階の承認ルール </span>を作成し、ユーザーまたはチームを承認に割り当てることができます。
 
-   ![既定の承認ルール領域](assets/default-approvers.png)
+   承認の追加について詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. （オプション）追加の承認ルールごとに、次の操作を行います。
-
-   1. 「**承認ルールを追加**」をクリックします。
-   1. プレースホルダータイトル「名称未設定の承認ルール」をクリックし、承認ルールの名前を入力します。
-   1. 「**フィールドを選択**」をクリックし、ルールをアクティブ化するフィールドを選択します。
-   1. ルールの演算子を選択します。 演算子は、フィールドのタイプによって異なります。
-   1. 選択した演算子に値が必要な場合は、プラスアイコンをクリックして1つ以上の値を追加します。
-   1. （オプション）条件を追加するには、「条件を追加」をクリックし、追加の条件を設定します。
-   1. 承認ルールの「アクション」エリアの「**承認者**」フィールドに、条件が満たされたときに承認者で設定するユーザーまたはチームを少なくとも1つ追加します。
-   1. （条件付き）承認者のいずれかがレコードを承認した後にレコードを作成する場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. （オプション）ルーティングルールを並べ替えるには、ルールの左側にあるドラッグハンドルをクリックし、ルールを目的の場所にドラッグします。
-
-   デフォルトのルールを並べ替えることはできません。
-
-1. （オプション）ルーティングルールを削除するには、ルールの右側にある&#x200B;**X**&#x200B;をクリックします。
-1. **保存**&#x200B;をクリックして、承認ルールを保存します。
 1. 左側のパネルで「**完了オプションをリクエスト**」をクリックします。
 1. 次のオプションから選択します。
 
@@ -293,27 +305,34 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
 1. （条件付き）要求されたオブジェクトが完了したときに要求が「完了」とマークされるように選択した場合は、フィールドと、オブジェクトがいつ完了したかを示す値を選択します。 例えば、作成したオブジェクトのステータスが「完了」に設定されている場合、「ステータス」フィールドと「完了」の値を選択して、リクエストを完了できます。
 
+1. <span class="preview">左側のパネルの&#x200B;**権限**&#x200B;をクリックします。</span>
+1. <span class="preview">このフォームを通じてリクエストを送信するユーザーの権限レベルを選択してください：</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **表示**：すべての依頼者がフォームにコメントし、共有できます。
+   * **Contribute**：すべての依頼者は、フォームにコメント、共有、編集できます。
+   * **管理**：すべての依頼者は、フォームにコメント、共有、編集、削除できます。
+
+   </div>
+
+1. <span class="preview"> （オプション）各権限レベルの詳細な権限の選択を解除して、依頼者が次の操作を実行できないようにします：</span>
+
+   <div class="preview">
+
+   * コメント
+   * 共有
+   * 編集。 ビューには使用できません。
+   * 削除します。 ContributeとViewでは使用できません。
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">ここで選択を解除した詳細な権限は、リクエストページからユーザーとリクエストを共有する際にグレー表示されます。</span>
+
+1. <span class="preview"> クリック **保存**.</span>
+
 
 1. [&#x200B; フォームの公開](#publish-form)に進みます。
 
@@ -361,7 +380,7 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
    ![&#x200B; リクエストフォーム用の共有ボックス &#x200B;](assets/share-box-for-request-form.png)
 
-1. （オプション）「**リンクをコピー**」をクリックして、フォームにアクセスしてリクエストを送信するアクセス権を持つユーザーとフォームへのリンクを共有します。 リンクはクリップボードにコピーされ、他のユーザーと共有できます。
+1. （オプション）「**リンクをコピー**」をクリックして、フォームへのリンクを、フォームにアクセスしてリクエストを送信できるユーザーと共有します。 リンクはクリップボードにコピーされ、他のユーザーと共有できます。
 1. フォームを公開で共有するには、「**公開共有**」タブを選択し、「**公開リンクを作成**」設定をオンにします。 デフォルトではオフになっています。
 
    ![&#x200B; リクエストフォームの公開共有](assets/share-request-form-publicly-tab.png)
@@ -438,6 +457,8 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 1. （オプション）Workfrontの&#x200B;**リクエスト**&#x200B;領域に移動し、リクエストを送信するための共有フォームを見つけます。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 

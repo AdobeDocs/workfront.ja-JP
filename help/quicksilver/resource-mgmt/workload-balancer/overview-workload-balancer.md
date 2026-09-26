@@ -10,25 +10,32 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1256
+source-wordcount: '1256'
 ht-degree: 92%
-
 ---
-
 # ワークロードバランサーの概要 {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
@@ -44,7 +51,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->ワークロードバランサーを使用して、実際の作業（タスクとイシュー）をユーザーとタスクコラボレーターに割り当てることができます。
+>ワークロードバランサーを使用して、実際の作業（タスクとイシュー）をユーザーと作業担当者に割り当てることができます。
 >
 >プロジェクトの担当業務割当てを高いレベルで見積もるには、ワークロードバランサーではなく、リソースプランナーを使用する必要があります。 リソースプランナーについて詳しくは、[リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
@@ -130,9 +137,9 @@ ht-degree: 92%
 
   詳しくは、[リソース管理の環境設定を設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
-* タスクの共同作業者に作業を割り当てるには、ユーザーに作業を割り当てるのと同じ方法を使用できます。 タスクコラボレーターは、タスクに割り当てる前にWorkfrontに存在する必要があります。
+* 作業エージェントに作業を割り当てるには、ユーザーに作業を割り当てるのと同じ方法を使用できます。 作業エージェントは、タスクに割り当てる前にWorkfrontに存在する必要があります。
 
-  タスク共同作業者の作成について詳しくは、[AI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)の記事[&#128279;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)の「 タスク共同作業者の設定」を参照してください。
+  作業エージェントの作成について詳しくは、[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)記事[AI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
 
 ### タスクおよびイシュー設定のベストプラクティス {#best-practices-for-setting-up-tasks-and-issues}
 

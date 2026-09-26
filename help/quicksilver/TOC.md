@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '14574'
+source-wordcount: '14588'
 ht-degree: 92%
 ---
 # Workfront ガイド {#using}
@@ -268,6 +268,7 @@ ht-degree: 92%
       * {hide-from-toc}[Adobe Workfrontの制限付き利用可能機能のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第1四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Adobe Workfrontの制限付き可用性の機能に関する2026年第2四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第4四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
       * [Adobe Workfront シナリオプランナーのリリースアクティビティ](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [21.3 リリースに伴う Adobe Workfront シナリオプランナー](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1940,13 +1941,13 @@ ht-degree: 92%
     * [統合ドキュメント承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [ドキュメント承認で利用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [Workfront Content Reviewerの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe クラウドストレージモデルのオブジェクト権限とアクセスレベルの概要](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [従来のドキュメント承認から統合承認への移行](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
       * [統合承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [コンテンツレビュアーのブランドを作成および管理する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [AI レビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [アセットまたはドキュメントへのレビュアーまたは承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [アセットまたはドキュメントからの承認者またはレビュアーの削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1957,7 +1958,7 @@ ht-degree: 92%
       * [レビューおよび承認のレポートダッシュボードの作成](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * アセットとドキュメントのレビューと承認 {#review-and-approve-documents}
       * [ドキュメントのレビューと承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [コンテンツレビュー担当者のスコアとフィードバックを表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [AI レビュアーのスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [Frame.io ビューアーでのドキュメントのレビューと承認](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2283,6 +2284,7 @@ ht-degree: 92%
     * [Adobe Workfront プランニングリクエスト：記事インデックス](planning/requests/requests-article-index.md)
     * [Adobe Workfront プランニングでのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
     * [Adobe Workfront プランニングリクエストを送信して、レコードを作成](planning/requests/submit-requests.md)
+    * [プランニングリクエストの共有](planning/requests/share-requests.md)
     * [Adobe Workfront プランニングでリクエストフォームを非公開](planning/requests/unpublish-request-form.md)
     * [Adobe Workfront プランニングでリクエストフォームへの承認の追加](planning/requests/add-approval-to-request-form.md)
     * [Adobe Workfront プランニングでのリクエストの承認](planning/requests/approve-request.md)

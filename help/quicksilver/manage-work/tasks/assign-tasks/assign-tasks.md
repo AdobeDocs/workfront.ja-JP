@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: タスクの割り当て
-description: ユーザー、役割、チーム、またはタスクコラボレーターにタスクを割り当てて、タスクを完了する責任を誰が負うかを示すことができます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
+description: ユーザー、役割、チーム、作業担当者にタスクを割り当てて、タスクを完了する責任を誰が負うかを示すことができます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -12,23 +12,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1661
+source-wordcount: '1661'
 ht-degree: 75%
-
 ---
-
 # タスクを割り当て
 
 <!--Audited: 10/2025-->
@@ -45,7 +50,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-ユーザー、担当業務、チーム、またはタスクコラボレーターにタスクを割り当てて、タスクを完了する責任を誰が負うかを示すことができます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
+ユーザー、担当業務、チーム、作業担当者にタスクを割り当てて、タスクの担当者を特定できます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
 >[!TIP]
 >
@@ -65,7 +70,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [スマート割り当ての実行](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [&#x200B; タスク共同作業者を使用](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
+* [作業用エージェントを使用](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [タスクリスト内の複数のユーザー割り当てを変更](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [プロジェクトの概要を計画](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -174,11 +179,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. 次のいずれかの操作を行います。
 
-   * 割り当てるユーザー、担当業務、チーム、またはタスクコラボレーターの名前を入力し、リストに表示されたらクリックします。
+   * 割り当てるユーザー、担当業務、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
 
      >[!TIP]
      >
-     >* タスクコラボレーターを追加する場合、タスクコラボレーターの名前はファーストネームのみになります。 タスクコラボレーターの姓は空白です。
+     >* 作業エージェントを追加する場合、作業エージェントの名前は名のみになります。 作業担当者の姓は空白です。
      >* ユーザー割り当てを追加する際には、アバター、ユーザーの主要な役割やメールアドレスに注意して、同じ名前のユーザーを区別してください。 ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。
      >
      >   ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。 詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
@@ -204,7 +209,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 |---|---|
 | **割り当て先** | 1 人のユーザーの割り当て |
 | **割り当て** | 1 人のユーザーの割り当て |
-| **割り当て** | ユーザー、担当業務、チーム、タスクコラボレーターの割り当て |
+| **割り当て** | ユーザー、担当業務、チーム、作業担当者の割り当て |
 
 リスト内のタスクを割り当てる手順は、以下のように行います。
 
@@ -222,7 +227,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 1. タスクを割り当てるには、以下のいずれかを実行します。
 
    * **割り当て先**&#x200B;または&#x200B;**割り当て**&#x200B;フィールドの内側をクリックし、タスクに割り当てるアクティブなユーザーの名前を入力し、リストに表示されたらクリックします。
-   * 「**割り当て**」フィールド内をクリックし、タスクに割り当てるアクティブなユーザー、ジョブロール、チーム、またはタスクコラボレーターの名前を入力し始め、リストに表示されたらクリックします。
+   * 「**割り当て**」フィールド内をクリックし、タスクに割り当てるアクティブなユーザー、担当業務、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
 
      >[!TIP]
      >
@@ -257,7 +262,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
    「**タスクを編集**」ボックスが開きます。
 
-1. **割り当て**&#x200B;領域で、指定された&#x200B;**人、役割、またはチームを検索** フィールドにユーザー、チーム、役割、またはタスクの共同作業者の名前を入力し始め、リストに表示されたらクリックします
+1. **割り当て**&#x200B;領域で、指定された&#x200B;**人、役割、またはチームを検索フィールドにユーザー、チーム、役割、または作業担当者の名前を入力し始め、リストに表示されたらクリックします**
 
    >[!IMPORTANT]
    >
