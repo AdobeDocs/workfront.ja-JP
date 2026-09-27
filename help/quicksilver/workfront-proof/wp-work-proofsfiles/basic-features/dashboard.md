@@ -56,13 +56,13 @@ ht-degree: 97%
 
 ![ダッシュボード](assets/dashboard-350x495.png)
 
-アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。 詳しくは、[ [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
+アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。 詳しくは、[&#x200B; [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
 
 アカウントをブランド化しない場合、[!DNL Workfront Proof] ロゴと標準カラーが表示されます。
 
 ## ヘッダーメニュー
 
-![ ヘッダーメニュー](assets/header-menu-350x150.png)
+![&#x200B; ヘッダーメニュー](assets/header-menu-350x150.png)
 
 ### ユーザー名
 
@@ -110,7 +110,7 @@ ht-degree: 97%
    * 新規ユーザー (12)
    * 新規グループ (13)
 
-![新しいプルーフ ](assets/new-proof-350x256.png)
+![新しいプルーフ &#x200B;](assets/new-proof-350x256.png)
 
 ## ダッシュボードメニュー
 
@@ -129,7 +129,7 @@ ht-degree: 97%
 * 新規タグを作成
 * タグを管理 (2)
 
-![ タグを編集](assets/edit-tags-350x204.png)
+![&#x200B; タグを編集](assets/edit-tags-350x204.png)
 
 ## 指定の場所に移動
 
@@ -151,7 +151,7 @@ ht-degree: 97%
 * アーカイブ解除（プルーフのみ）
 * オーナーを変更
 
-![その他のアクション ](assets/more-actions-350x303.png)
+![その他のアクション &#x200B;](assets/more-actions-350x303.png)
 
 ### 削除
 
@@ -181,7 +181,7 @@ ht-degree: 97%
 * その他の組織のフォルダー (10)（他の組織と共有した項目が見つかります）
 * タグ (11)
 
-![ サイドバー](assets/sidebar-350x426.png)
+![&#x200B; サイドバー](assets/sidebar-350x426.png)
 
 サイドバーについて詳しくは、サイドバーのヘルプページを参照してください。
 
@@ -210,7 +210,7 @@ ht-degree: 97%
 * 管理対象のプルーフ - 自分が所有したり自分に委任されたりしたアクティブなプルーフの合計数
 * 決定待ちのプルーフ - 決定を必要とするアクティブなプルーフの合計数
 
-  ![ ダッシュボードの概要](assets/dashboard-overview-350x169.png)
+  ![&#x200B; ダッシュボードの概要](assets/dashboard-overview-350x169.png)
 
 ここでは、自分またはレビュアーによる直接的なアクションが必要なプルーフの数をすぐに確認できます。
 
@@ -271,4 +271,4 @@ ht-degree: 97%
 1. **[!UICONTROL アクション]**&#x200B;メニュー (1) をクリックします。
 1. ドロップダウンメニューから「**[!UICONTROL プルーフの詳細を表示]**」(2) を選択します。
 
-   ![最近のアクティビティ ](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![最近のアクティビティ &#x200B;](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

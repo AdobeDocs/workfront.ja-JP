@@ -78,4 +78,4 @@ Adobe Unified Experience には次の内容が含まれます。
 
 Teamsとユーザーは、この変更には含まれません。 ユーザーは引き続きチーム名とユーザー名を表示できます。
 
-詳しくは、[!DNL Adobe Workfront] オブジェクトの概要の記事の「[ オブジェクトへのアクセス制限](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)」の節を参照してください。
+詳しくは、[!DNL Adobe Workfront] オブジェクトの概要の記事の「[&#x200B; オブジェクトへのアクセス制限](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)」の節を参照してください。

@@ -58,7 +58,7 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
 >[!NOTE]
 >
 >* ラベルをカスタマイズすると、文法やその他の問題が発生する場合があります。 例えば、「Issue」を「Request」に変更すると、UI 内の場所に「An request」という語句が表示される場合があります。 詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクト名のカスタマイズの影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)を参照してください。
->* 英語以外の言語に翻訳する用語をカスタマイズするには、[ カスタム ローカライズの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+>* 英語以外の言語に翻訳する用語をカスタマイズするには、[&#x200B; カスタム ローカライズの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
 
 レイアウトテンプレートについて詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 

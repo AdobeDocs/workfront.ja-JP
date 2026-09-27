@@ -80,7 +80,7 @@ ht-degree: 65%
 
 {{step-1-to-users}}
 
-1. 複数のユーザーを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 複数のユーザーを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
 1. **ユーザーを編集** ボックスで、任意のセクションの情報を変更し、いつでも&#x200B;**保存**&#x200B;をクリックします。
 
@@ -126,7 +126,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >
   >決定制限について詳しくは、[無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)を参照してください。
 
-* **レイアウトテンプレート**：ユーザー用のレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ホームグループ、ホームチーム、またはプライマリロールに割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当ての優先順位について詳しくは、[ レイアウトテンプレートの作成と管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+* **レイアウトテンプレート**：ユーザー用のレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ホームグループ、ホームチーム、またはプライマリロールに割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当ての優先順位について詳しくは、[&#x200B; レイアウトテンプレートの作成と管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
   このフィールドで使用できるテンプレートのリストがアクセス権によってどう異なるかを次のリストで示します。
 
@@ -134,7 +134,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   * グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。
   * 標準またはプランのライセンスを持ち、ユーザーを編集するためのアクセス権を持つユーザーは、システムレベルのレイアウトテンプレートのみを表示できます。
 
-    グループレベルのレイアウトテンプレートについて詳しくは、[ グループのレイアウトテンプレートの作成と変更](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+    グループレベルのレイアウトテンプレートについて詳しくは、[&#x200B; グループのレイアウトテンプレートの作成と変更](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
 ### 組織
 
@@ -180,7 +180,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >「作業時間」の値を 1 に設定すると、ユーザーがフルタイム当量の時間をプロジェクト関連の作業に使用できることを示します。
 
 * **非アクティブ化日を設定**：これらのユーザーを特定の日付と特定の時間に非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。
-* **非アクティブ化日**: ユーザーが非アクティブ化された日時。 ユーザーの非アクティブ化のスケジュール設定について詳しくは、[ ユーザーの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)の[非アクティブ化のユーザーのスケジュール ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)を参照してください。
+* **非アクティブ化日**: ユーザーが非アクティブ化された日時。 ユーザーの非アクティブ化のスケジュール設定について詳しくは、[&#x200B; ユーザーの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)の[非アクティブ化のユーザーのスケジュール &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)を参照してください。
 * **プライマリロール**：これは、ユーザーがWorkfrontで果たすことができる主要なジョブロールです。 ユーザーが割り当てられているすべてのタスクとイシューも、この担当業務に割り当てられます。 リソース管理には、担当業務が不可欠です。 このフィールドを更新できるのは、管理ユーザーアクセス権を持つ標準ライセンスまたはプラン ライセンスを持っている場合、またはWorkfront管理者である場合のみです。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、[ユーザーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
   リストには、アクティブな担当業務のみが表示されます。
@@ -212,7 +212,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   >[!IMPORTANT]
   >
-  >Workfrontは、**使用するリソースの可用性を計算**&#x200B;設定が&#x200B;**ユーザーのスケジュール**&#x200B;に設定されている場合にのみ、ユーザーのスケジュールを使用します。 この設定がリソース管理に使用されるスケジュールに与える影響について詳しくは、[ リソース管理の環境設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
+  >Workfrontは、**使用するリソースの可用性を計算**&#x200B;設定が&#x200B;**ユーザーのスケジュール**&#x200B;に設定されている場合にのみ、ユーザーのスケジュールを使用します。 この設定がリソース管理に使用されるスケジュールに与える影響について詳しくは、[&#x200B; リソース管理の環境設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
 * **タイムシート プロファイル**: タイムシートが自動的に生成されるように、タイムシート プロファイルをユーザーに関連付けます。
 
@@ -248,7 +248,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >
   >このフィールドには、選択したすべてのユーザーに共通するリソースプールのみが表示されます。 選択したユーザーに共有リソースプールがない場合、このフィールドは空です。 このフィールドが空の場合、ここで指定したリソースプールは、個々のリソースプールを上書きします。
 
-  リソースプールについて詳しくは、[ リソースプールとユーザーの関連付け](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)を参照してください。
+  リソースプールについて詳しくは、[&#x200B; リソースプールとユーザーの関連付け](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)を参照してください。
 
 * **コスト率**：ユーザーの 1 時間あたりのコストの量。
 
@@ -272,7 +272,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
 オプションで「**カスタム式を再計算**」オプションを選択して、選択したユーザーに添付されているカスタムフォームのすべての計算カスタムフィールドが最新であることを確認できます。
 
-カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ### コメント
 

@@ -47,7 +47,7 @@ ht-degree: 18%
 
 以前は、データ削除の警告は「削除」オプションの近くのテキストだけでした。
 
-カスタムフォームの削除について詳しくは、オブジェクトに添付されたカスタムフォームの管理の記事の[ オブジェクトからのカスタムフォームの削除](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)を参照してください。
+カスタムフォームの削除について詳しくは、オブジェクトに添付されたカスタムフォームの管理の記事の[&#x200B; オブジェクトからのカスタムフォームの削除](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)を参照してください。
 
 ## Workfront ユーザープロファイルの更新
 
@@ -89,7 +89,7 @@ Workfrontのユーザープロファイルのルックアンドフィールを�
 
 以前は、システム管理者がBeta機能を有効にすることはできませんでした。
 
-システム環境設定の詳細については、[ システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+システム環境設定の詳細については、[&#x200B; システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 AI機能を有効にするための前提条件については、[AI アシスタントの前提条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)を参照してください。
 
@@ -107,4 +107,4 @@ AI機能を有効にするための前提条件については、[AI アシス�
 
 フォームがオブジェクトに追加されると、APIから返された値がドロップダウンフィールドに表示され、ユーザーは複数の値を選択できます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

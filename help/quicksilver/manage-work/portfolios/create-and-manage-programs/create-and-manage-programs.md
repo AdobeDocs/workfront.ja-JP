@@ -38,7 +38,7 @@ ht-degree: 37%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Adobe Workfront]のプログラムの概要](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]のプログラムの概要](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
 * [プログラムを作成](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [プログラムを編集](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [ポートフォリオに既存のプログラムを追加](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)

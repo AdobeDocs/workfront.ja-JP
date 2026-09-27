@@ -81,7 +81,7 @@ ht-degree: 17%
 **レイアウトテンプレート**
 
 * _ホームワークスペース_&#x200B;領域の名前は&#x200B;_ホーム_&#x200B;に変更されます。
-* _ホームおよび概要_&#x200B;領域の名前が&#x200B;_概要パネル_&#x200B;に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも適用されます。 詳しくは、「[ レイアウトテンプレートを使用したホームと概要のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)」を参照してください。
+* _ホームおよび概要_&#x200B;領域の名前が&#x200B;_概要パネル_&#x200B;に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも適用されます。 詳しくは、「[&#x200B; レイアウトテンプレートを使用したホームと概要のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)」を参照してください。
 * 次のタブをホームパネルと概要パネルから削除します。
   * プロジェクト
   * ドキュメント

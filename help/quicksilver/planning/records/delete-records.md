@@ -86,7 +86,7 @@ Adobe Workfront Planningで関連性がなくなったレコードを削除で�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -180,16 +180,16 @@ Old:
    * テーブルビューで、レコードの名前をクリックします。
    * テーブル表示で、レコードの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**表示**&#x200B;をクリックします
 
-     レコード行](assets/contextual-menu-for-record-row.png)の![ コンテキストメニュー
+     レコード行![&#128279;](assets/contextual-menu-for-record-row.png)の コンテキストメニュー
    * タイムラインビューで、レコードバーをクリックします。
 
    レコードページが開きます。
 
 1. レコード名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**、次に&#x200B;**削除**&#x200B;をもう一度クリックして確認します。
 
-   ![ レコードの詳細ページのその他のメニューオプション ](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![&#x200B; レコードの詳細ページのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
    レコードが削除されます。
-1. （オプション）レコードページのテーブルビューに移動し、ビューの右上隅にある&#x200B;**取り消し** アイコン ![取り消しアイコン ](assets/undo-icon.png)をクリックし、**最近削除した**&#x200B;をクリックして削除したレコードを復元します。
+1. （オプション）レコードページのテーブルビューに移動し、ビューの右上隅にある&#x200B;**取り消し** アイコン ![取り消しアイコン &#x200B;](assets/undo-icon.png)をクリックし、**最近削除した**&#x200B;をクリックして削除したレコードを復元します。
 
 削除されたレコードの回復について詳しくは、[削除されたレコードの回復](/help/quicksilver/planning/records/restore-deleted-records.md)を参照してください。
 
@@ -212,15 +212,15 @@ Old:
    * レコード行を右クリックし、「**削除**」をクリックします。
    * レコード名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックします。
 
-     レコード行](assets/contextual-menu-for-record-row.png)の![ コンテキストメニュー
+     レコード行![&#128279;](assets/contextual-menu-for-record-row.png)の コンテキストメニュー
 
-   * **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png)をクリックして、レコードの詳細情報を含むボックスを開き、レコード名の右側にある&#x200B;**詳細** ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;します。
+   * **詳細を開く** アイコン ![&#x200B; テーブル名フィールドで詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png)をクリックして、レコードの詳細情報を含むボックスを開き、レコード名の右側にある&#x200B;**詳細** ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;します。
 
    レコードが削除されます。
 
 1. （オプション）次のいずれかの操作を行って、レコードの削除を取り消したり、やり直したりします。
 
-   * **取り消し** アイコン ![取り消しアイコン ](assets/undo-icon.png)をクリックしてから、**最近削除した**&#x200B;をクリックして、削除したレコードを復元します。 削除されたレコードの回復について詳しくは、[削除されたレコードの回復](/help/quicksilver/planning/records/restore-deleted-records.md)を参照してください。
+   * **取り消し** アイコン ![取り消しアイコン &#x200B;](assets/undo-icon.png)をクリックしてから、**最近削除した**&#x200B;をクリックして、削除したレコードを復元します。 削除されたレコードの回復について詳しくは、[削除されたレコードの回復](/help/quicksilver/planning/records/restore-deleted-records.md)を参照してください。
    * 次のキーボードショートカットを使用して、レコードの削除を取り消したり、やり直したりできます。
 
      * CTRL + Z （⌘ + Z for Mac）を使用してレコードの削除を取り消す

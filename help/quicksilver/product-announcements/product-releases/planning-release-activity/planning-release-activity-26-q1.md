@@ -38,7 +38,7 @@ ht-degree: 16%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 
 ## グローバルなレコードタイプは、セカンダリワークスペースから共有できます
@@ -58,7 +58,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 この変更前は、元のプライマリワークスペースからのみグローバルレコードタイプを共有できました。
 
-詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 
 ## セカンダリワークスペースのグローバルレコードタイプに追加されたレコードは、他のセカンダリワークスペースからは表示されません
@@ -72,7 +72,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 セカンダリワークスペースのグローバルレコードタイプに追加されたレコードは、そのワークスペースまたはレコードタイプの元のプライマリワークスペースからのみ表示されます。 このアップデートの前は、セカンダリワークスペースに追加されたレコードは、表示する権限を持っている可能性がある他のセカンダリワークスペースからも表示されていました。
 
-詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 ## ワークスペースでのレコードタイプ階層の作成
 
@@ -130,7 +130,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 * 各レコードまたはオブジェクトタイプごとに1つの接続されたレコードページのみを許可する制限を追加しました。 この機能強化の前は、同じレコードまたはオブジェクトタイプに複数のページを追加できます。 これで、1つの接続されたレコードページで、同じレコードタイプに対して複数のビューを使用できるようになります。
 * テーブルビューの下部に&#x200B;**新しい行** リンクを追加し、接続レコードページの右上領域に「**レコードを接続**」ボタンを追加しました。 この機能強化の前は、**新しい行** リンクと&#x200B;**レコードを接続** ボタンは、プロジェクトに接続されたページにのみ存在していました。
 
-詳しくは、[接続されたレコードの追加ページをレコード ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
+詳しくは、[接続されたレコードの追加ページをレコード &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
 
 ## プロジェクト接続レコードページでのビューの共有
 
@@ -142,7 +142,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 必要な情報を簡単に確認できるように、プロジェクトの接続されたレコード ページにビューを共有する機能を追加しました。 他のユーザー、チーム、グループとビューを共有できるようになりました。
 
-詳しくは、[接続されたレコードの追加ページをレコード ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
+詳しくは、[接続されたレコードの追加ページをレコード &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
 
 ## 現在のユーザーワイルドカードがプロジェクト接続ビューフィルターで使用できるようになりました
 
@@ -158,7 +158,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 ワイルドカードは、値がユーザーであるフィールドで使用できます。
 
-フィルターを含むプロジェクト接続ビューの設定について詳しくは、[接続されたレコードの追加ページをレコード ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)を参照してください。
+フィルターを含むプロジェクト接続ビューの設定について詳しくは、[接続されたレコードの追加ページをレコード &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)を参照してください。
 
 
 ## Workspace メインページの機能強化
@@ -229,7 +229,7 @@ Workfront PlanningとAdobe GenStudio for Performance Marketingの両方が必要
 
 セカンダリワークスペースでグローバルレコードのビューを共有する際に、「公開共有」タブを削除しました。 既存のグローバルレコードタイプから別のワークスペースに追加されたグローバルレコードタイプからビューを公開することはできません。 元のワークスペースからグローバルなレコードタイプのビューを公開で共有できます。
 
-詳しくは、[ ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 
 ## GenStudio for Performance MarketingとAdobe Workfront Planningのレコードタイプを連携することで
@@ -278,9 +278,9 @@ Workfront PlanningのレコードタイプをAdobe GenStudio for Performance Mar
 
 詳しくは、次の記事を参照してください。
 
-* [ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [別のワークスペースから既存のレコードタイプを追加](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 

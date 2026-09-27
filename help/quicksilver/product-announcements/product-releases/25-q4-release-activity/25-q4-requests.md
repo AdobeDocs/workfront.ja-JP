@@ -45,7 +45,7 @@ ht-degree: 14%
 
 以前は、フィルターと列設定を保存できませんでした。
 
-詳しくは、「[ リクエスト領域でのビューの作成](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[&#x200B; リクエスト領域でのビューの作成](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
 
 <!--
 ## New combined Status column in unified Request list 
@@ -94,5 +94,5 @@ WorkfrontとWorkfront Planningでリクエストを行う際に、より優れ�
 
 リクエストの作成について詳しくは、次を参照してください。
 
-* Workfrontの場合：[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Workfront計画の場合：[ レコードを作成するためにAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)
+* Workfrontの場合：[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Workfront計画の場合：[&#x200B; レコードを作成するためにAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)

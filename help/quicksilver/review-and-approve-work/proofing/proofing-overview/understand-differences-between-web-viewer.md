@@ -62,7 +62,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
 | 静的プルーフナビゲーター | ✓ | ✓&#42; |
 | ドキュメント検索 | ✓ | ✓&#42; |
 | 複数ページへのコメントの投稿 | ✓ （すべてのビューで利用可能） | ✓&#42; （すべてのビューで利用可能） |
-| 静的プルーフの高度なショートカット | ✓ （詳細については、プルーフビューアの[ キーボードショートカット ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42; （詳細については、[ プルーフビューアのキーボードショートカット ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） |
+| 静的プルーフの高度なショートカット | ✓ （詳細については、プルーフビューアの[&#x200B; キーボードショートカット &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42; （詳細については、[&#x200B; プルーフビューアのキーボードショートカット &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） |
 
 {style="table-layout:auto"}
 
@@ -81,7 +81,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
 | フルスクリーンモード | ✓ | ✓&#42;  |
 | 範囲コメント | ✓ | ✓&#42;  |
 | ビデオプルーフのリピート再生（ビデオが終了すると自動的に開始） | ✓ | ✓&#42;  |
-| 高度なビデオショートカット | ✓ （詳細については、プルーフビューアの[ キーボードショートカット ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42;  |
+| 高度なビデオショートカット | ✓ （詳細については、プルーフビューアの[&#x200B; キーボードショートカット &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42;  |
 
 {style="table-layout:auto"}
 

@@ -96,7 +96,7 @@ ht-degree: 83%
 1. 開いたダイアログで「**追加**」をクリックします。
 1. 「チャネルを選択」セクションで、Workfront アプリを追加するチームを選択し、**Go**&#x200B;をクリックします。
 
-   ![ チームを選択](assets/select-a-team.png)
+   ![&#x200B; チームを選択](assets/select-a-team.png)
 1. 「**Workfrontに** ログインしてMicrosoft Teams用Workfrontにアクセスします。
 
    [!DNL Workfront] へのログインの詳細については、この記事の [Microsoft Teams から Workfront にログイン](#log-in-to-workfront-from-microsoft-teams)の節を参照してください。
@@ -124,9 +124,9 @@ ht-degree: 83%
 
 [!DNL Microsoft Teams] から [!DNL Workfront] にログインすると、[!DNL Workfront] ボットチャネルで [!DNL Workfront] 通知を受信したり、[!DNL Microsoft Teams] から [!DNL Workfront] で特定のアクションを実行したりすることができます。
 
-[!DNL Workfront] アプリのインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) をインストールの節を参照してください。
+[!DNL Workfront] アプリのインストールについて詳しくは、[&#x200B; [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) をインストールの節を参照してください。
 
-特定のアクションを実行するための [!DNL Microsoft Teams] から [!DNL Workfront] へのアクセスについて詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md) から  [!DNL Adobe Workfront]  にアクセスを参照してください。
+特定のアクションを実行するための [!DNL Microsoft Teams] から [!DNL Workfront] へのアクセスについて詳しくは、[&#x200B; [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md) から  [!DNL Adobe Workfront]  にアクセスを参照してください。
 
 [!DNL Microsoft Teams] から [!DNL Workfront] にログインするには、次の手順を実行します。
 

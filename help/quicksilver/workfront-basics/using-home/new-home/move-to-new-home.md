@@ -109,7 +109,7 @@ Legacy Homeは、第4四半期のリリースで10月17日にWorkfrontから削�
 * アップデートを追加
 * ドキュメント エリアに移動してドキュメントをアップロードします
 * 作業項目の詳細の表示とカスタムフィールドの更新
-Workfront管理者は、レイアウトテンプレートの概要に表示されるフィールドをカスタマイズできます。 詳しくは、「[ レイアウトテンプレートを使用したホームと概要のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)」を参照してください。
+Workfront管理者は、レイアウトテンプレートの概要に表示されるフィールドをカスタマイズできます。 詳しくは、「[&#x200B; レイアウトテンプレートを使用したホームと概要のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)」を参照してください。
 * 作業項目のステータスの変更
 * サブタスクの表示
 * 時間を記録
@@ -271,7 +271,7 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 
 管理者におすすめ：
 
-1. レイアウトテンプレートを使用して、デフォルトの新しいホームページのレイアウトを作成します（または、オプションで、一意のレイアウトを必要とするユーザー、チーム、グループ、またはジョブロールごとに作成します）。 詳しくは、[ レイアウトテンプレートを使用した新しいホームのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)を参照してください。
+1. レイアウトテンプレートを使用して、デフォルトの新しいホームページのレイアウトを作成します（または、オプションで、一意のレイアウトを必要とするユーザー、チーム、グループ、またはジョブロールごとに作成します）。 詳しくは、[&#x200B; レイアウトテンプレートを使用した新しいホームのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)を参照してください。
 
 1. 少数のテストユーザーに新しいレイアウトテンプレートを割り当て、ユーザーがウィジェットと一般設定を作業ニーズに合わせて検証できるようにします。
 

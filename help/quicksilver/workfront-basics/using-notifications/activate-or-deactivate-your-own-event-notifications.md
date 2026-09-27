@@ -81,7 +81,7 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
 
 {{step1-click-profile-pic}}
 
-1. 名前の横にある&#x200B;**[!UICONTROL 詳細]** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**[!UICONTROL ユーザーを編集]**&#x200B;をクリックします。
+1. 名前の横にある&#x200B;**[!UICONTROL 詳細]** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**[!UICONTROL ユーザーを編集]**&#x200B;をクリックします。
 
 1. 表示される「**[!UICONTROL ユーザーを編集]**」ボックスで、**[!UICONTROL 通知]** セクションに移動します。
 

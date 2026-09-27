@@ -48,4 +48,4 @@ ht-degree: 98%
 
 以前は、すべてのプロファイル検索ドロップダウンにシステム内のすべてのユーザーが表示され、大きなメニューが表示されていました。
 
-![ ユーザープロファイル先行入力](assets/user-profile-typeahead-350x142.png)
+![&#x200B; ユーザープロファイル先行入力](assets/user-profile-typeahead-350x142.png)

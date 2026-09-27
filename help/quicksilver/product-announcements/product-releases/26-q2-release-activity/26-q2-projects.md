@@ -35,7 +35,7 @@ ht-degree: 16%
 >
 >プレビュー：2026年2月5日（PT）
 >制作：2026年2月5日より開始\
->[!BADGE  オフスケジュール ]{type=Neutral}
+>[!BADGE &#x200B; オフスケジュール &#x200B;]{type=Neutral}
 
 単一のテンプレートタスクを編集したり、一括編集したりする場合は、テンプレートタスクを編集ボックスの「割り当て」セクションを更新しました。  
 このアップデートには、次の変更が含まれています。 
@@ -48,7 +48,7 @@ ht-degree: 16%
 
 * 「古いエクスペリエンスに戻る」オプションが削除されました。
 
-詳しくは、[ テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください
+詳しくは、[&#x200B; テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください
 
 ## タスクを1回割り当てたり一括割り当てたりする際のエクスペリエンスを更新しました
 

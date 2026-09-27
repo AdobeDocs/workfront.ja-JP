@@ -92,7 +92,7 @@ ht-degree: 97%
 
    各プルーフの上にパンくずリストを個別に配置すると、プルーフに関連付けられた作業項目を表示および移動できます。
 
-   ![ プルーフのパンくずリストを比較](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![&#x200B; プルーフのパンくずリストを比較](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    2 つのプルーフを比較するために使用できるツールについて詳しくは、[プルーフビューアでプルーフの比較](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)の[比較ツールの使用](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)を参照してください。
 

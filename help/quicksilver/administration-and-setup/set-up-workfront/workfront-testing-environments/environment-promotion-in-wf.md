@@ -49,7 +49,7 @@ ht-degree: 41%
   * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
   * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Workfront APIを使用してこのプロセスを実行する手順については、 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)を使用して [!DNL Workfront] 環境間でオブジェクトを移動するを参照してください。[
+* Workfront APIを使用してこのプロセスを実行する手順については、 [!DNL Workfront] API[&#128279;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)を使用して [!DNL Workfront] 環境間でオブジェクトを移動するを参照してください。
 
 [この機能のデモ動画を見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -181,6 +181,6 @@ ht-degree: 41%
 ## リソース
 
 * 環境プロモーションに関するFAQについては、[環境プロモーション FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)を参照してください
-* トラブルシューティングの推奨事項については、[環境プロモーションのトラブルシューティング ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)を参照してください
+* トラブルシューティングの推奨事項については、[環境プロモーションのトラブルシューティング &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)を参照してください
 
 

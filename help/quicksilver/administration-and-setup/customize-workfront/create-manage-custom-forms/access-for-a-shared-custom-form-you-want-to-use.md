@@ -36,7 +36,7 @@ ht-degree: 82%
 
 ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。 フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。 フィールドを表示すると、次のように表示されます。
 
-ユーザーがカスタムフォームを共有する際に共有設定を設定する方法について詳しくは、[ カスタムフィールドとカスタムウィジェットの共有をフォーム ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)で設定するを参照してください。
+ユーザーがカスタムフォームを共有する際に共有設定を設定する方法について詳しくは、[&#x200B; カスタムフィールドとカスタムウィジェットの共有をフォーム &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)で設定するを参照してください。
 
 <table style="table-layout:auto"> 
  <col> 

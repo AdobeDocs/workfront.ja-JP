@@ -37,8 +37,8 @@ ht-degree: 91%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [ [!DNL Workfront Proof] の自動化ワークフロー](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [ [!DNL Workfront Proof] の基本機能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [&#x200B; [!DNL Workfront Proof] の自動化ワークフロー](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [&#x200B; [!DNL Workfront Proof] の基本機能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [プルーフとファイルの作成](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [作業を管理](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [作業の整理](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

@@ -40,7 +40,7 @@ ht-degree: 2%
 * 単一ステージの承認に使用する簡略化された基本モードと、マルチステージおよびマルチパスのワークフローに使用する詳細設定モードを切り替えます
 * Workfront設定から再利用可能な承認テンプレートに、同じパラレルパス設定を適用します
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 ## Adobe Cloud Drive
 
@@ -92,7 +92,7 @@ Adobe ExpressとWorkfrontのFrame.ioとの連携により、Adobe Expressで作�
 
 ドキュメントに承認が付与されると、「**概要を印刷**」オプションがドキュメントの詳細パネルの「概要」セクションに表示されます。 **印刷概要を開く**&#x200B;をクリックすると、Frame.io印刷コメントページが開き、アセットのプレビュー、コメント、承認決定が印刷可能な形式で表示されます。
 
-詳しくは、[ ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)および[ ドキュメントの概要](/help/quicksilver/documents/managing-documents/summary-for-documents.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)および[&#x200B; ドキュメントの概要](/help/quicksilver/documents/managing-documents/summary-for-documents.md)を参照してください。
 
 
 ## ドキュメント承認ワークフローステージへのカスタムメッセージの追加
@@ -111,7 +111,7 @@ Adobe ExpressとWorkfrontのFrame.ioとの連携により、Adobe Expressで作�
 
 これは、従来のドキュメント領域（Workfront ストレージ）と新しいドキュメント領域（Adobe クラウドストレージ）の両方で使用できます。
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## ドキュメント領域でExperience Manager Assetsと承認ステータスのバッジを表示する
 
@@ -142,5 +142,5 @@ Experience Manager Assetsへのアセットの送信について詳しくは、[
 
 Workfrontの管理者は、ストレージの使用率が割り当て量の75%、85%、100%に達すると、自動的にメール通知を受け取ります。
 
-詳しくは、[ ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
 

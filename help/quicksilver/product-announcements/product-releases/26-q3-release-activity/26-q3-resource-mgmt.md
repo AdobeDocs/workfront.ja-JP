@@ -42,7 +42,7 @@ ht-degree: 10%
 * 役割を持つユーザー
 * ユーザーの役割
 
-詳しくは、[ ワークロードバランサーを使用した一括作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
+詳しくは、[&#x200B; ワークロードバランサーを使用した一括作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
 
 
 

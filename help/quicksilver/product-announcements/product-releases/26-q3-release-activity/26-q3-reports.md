@@ -41,7 +41,7 @@ ht-degree: 1%
 * 新しいジョブは、使用権限に基づいてアクセスを許可、取り消し、または保持します
 * プロビジョニング、アカウント作成、継続的な使用権限の変更など、ライフサイクル全体をカバーしています。
 
-[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)の記事は、リリース日以降に更新されます。
+[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)の記事は、リリース日以降に更新されます。
 
 ## 新しいオブジェクトのカスタムデータサポートの追加
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 この機能強化の前は、ダッシュボードプロンプトには、設定可能なデフォルトやプロンプトステータスの保存されたユーザー設定がありませんでした。
 
-詳しくは、[ キャンバスダッシュボードのフィルタリング ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードのフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)を参照してください。
 
 ## 複数のPower BI IP アドレス範囲をData ConnectのIP アドレス範囲に一度に追加する
 
@@ -100,7 +100,7 @@ Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理�
 
 カンバスダッシュボードリストを次のいずれかの列で並べ替えることができるようになりました：**名前**、**説明**、**作成日**、または&#x200B;**作成日**。 列ヘッダーをクリックしてその列でリストを並べ替え、同じヘッダーをもう一度クリックして並べ替え方向を反転します。 デフォルトでは、リストは&#x200B;**名前**&#x200B;でAからZに並べ替えられます。カンバスダッシュボードリストでタブを切り替えると、並べ替え順序は保持されます。
 
-詳しくは、[ キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
 
 ## カスタム式の実際の時間の変更
 
@@ -110,7 +110,7 @@ Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理�
 >プロダクション高速リリース：2026年6月1日（PT）
 >すべての人のための制作：2026年6月1日
 
-2025年、新しい実時間数フィールドがWorkfront データベースに`actualWorkRequiredDouble`として追加され、既存の実時間数フィールド （`actualWorkRequired` データベース内）の名前が従来の実時間数に変更されました。 詳しくは、[ リリースノート ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)を参照してください。
+2025年、新しい実時間数フィールドがWorkfront データベースに`actualWorkRequiredDouble`として追加され、既存の実時間数フィールド （`actualWorkRequired` データベース内）の名前が従来の実時間数に変更されました。 詳しくは、[&#x200B; リリースノート &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)を参照してください。
 
 2026年6月、`actualWorkRequired` （従来の実際の時間）を使用する既存のカスタム式は、代わりに`actualWorkRequiredDouble` （実際の時間）を使用するように移行されました。 `actualWorkRequired`は、計算および数式で使用できなくなりました。
 
@@ -132,7 +132,7 @@ Canvas ダッシュボードレポートでは、システム設定で複数の�
 
 2回目の為替レート通貨が追加された後に、「制限フィールド」メッセージで以前に失敗したレポートがレンダリングされるようになりました。 複数の為替レートが定義されている場合、計画通貨フィールドは引き続き制限されます。
 
-詳しくは、[ キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
 
 ## Canvas ダッシュボードレポートでのデータ精度の向上
 

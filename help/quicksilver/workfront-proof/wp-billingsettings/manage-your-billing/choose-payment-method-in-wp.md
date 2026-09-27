@@ -83,7 +83,7 @@ ht-degree: 98%
 サテライトアカウントをお持ちの場合は、それぞれのアカウントに対して個別にクレジットカードの詳細と支払い方法をアップデートする必要があります。 サテライトアカウントに関して詳しくは、[サテライトアカウント](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)を参照してください。
 
 1. ハブアカウントの[!UICONTROL 請求]ページに移動します。\
-   請求ページに関して詳しくは、[ [!DNL Workfront]  プルーフの請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+   請求ページに関して詳しくは、[&#x200B; [!DNL Workfront]  プルーフの請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 1. [!UICONTROL アカウントリスト]のドロップダウンメニューを開きます。 （1）
 1. アップデートするクレジットカードに関連付けられているサテライトアカウント（2）を選択します。

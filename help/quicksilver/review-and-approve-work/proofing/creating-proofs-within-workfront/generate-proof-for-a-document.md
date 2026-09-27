@@ -83,7 +83,7 @@ If a proof fails to generate after following the steps described in the followin
 
 1. 新しいプルーフを作成するプロジェクト、タスクまたはイシューに移動します。
 1. 「**ドキュメント**」タブをクリックします。
-1. 左側のパネルで「ドキュメント ![ ドキュメント」アイコン ](assets/document-icon.png)をクリックします。
+1. 左側のパネルで「ドキュメント ![&#x200B; ドキュメント」アイコン &#x200B;](assets/document-icon.png)をクリックします。
 1. 「**新規追加**」をクリックし、表示されるメニューで「**プルーフ**」をクリックします。
 
    >[!TIP]

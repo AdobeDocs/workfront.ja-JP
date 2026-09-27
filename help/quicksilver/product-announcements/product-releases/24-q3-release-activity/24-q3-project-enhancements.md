@@ -40,8 +40,8 @@ ht-degree: 45%
 
 コミット日と条件の更新について詳しくは、次の記事を参照してください。
 
-* [ タスクと問題の条件を更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
-* [ タスクとイシューのコミット日を更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
+* [&#x200B; タスクと問題の条件を更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
+* [&#x200B; タスクとイシューのコミット日を更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 [この機能のデモ動画をご覧ください。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 

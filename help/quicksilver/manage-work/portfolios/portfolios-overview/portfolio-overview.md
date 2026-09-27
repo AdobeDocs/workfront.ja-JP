@@ -85,7 +85,7 @@ Adobe Workfrontでは、ポートフォリオとは、統一性のあるプロ�
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -142,18 +142,18 @@ Old:
 
    [!UICONTROL ビジネスケース]について詳しくは、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-   ビジネスケースを構築しながら、プロジェクトをポートフォリオに関連付けることができます。 プロジェクトに関連付ける前に、ポートフォリオを作成する必要があります。 詳しくは、[ ポートフォリオの作成](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください
+   ビジネスケースを構築しながら、プロジェクトをポートフォリオに関連付けることができます。 プロジェクトに関連付ける前に、ポートフォリオを作成する必要があります。 詳しくは、[&#x200B; ポートフォリオの作成](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください
 
-   ビジネスケースの構築中に収集した詳細は、[!UICONTROL portfolio optimizer]および[!UICONTROL  リソースプランナー]で使用され、プロジェクトの選択における管理に役立ちます。
+   ビジネスケースの構築中に収集した詳細は、[!UICONTROL portfolio optimizer]および[!UICONTROL &#x200B; リソースプランナー]で使用され、プロジェクトの選択における管理に役立ちます。
 1. リソースプールとプロジェクトを関連付け、ビジネスケースを構築します。
 
    ポートフォリオは、通常、リソースプールに対応するように構成されます。 ポートフォリオ内のプログラムは、リソースプールとも整合させます。 同じポートフォリオ内のプロジェクトは通常同じリソースを奪い合うので、この相関関係により、すべてのリソース計画がポートフォリオの目的に沿うようになります。
 
-   詳しくは、[ リソースプールの作成](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
+   詳しくは、[&#x200B; リソースプールの作成](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
 1. [!UICONTROL ビジネスケース]をポートフォリオマネージャーから承認してもらいます。
 
-   詳しくは、[ ビジネスケースの承認](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
+   詳しくは、[&#x200B; ビジネスケースの承認](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
 1. [!UICONTROL ポートフォリオオプティマイザー]で、ポートフォリオ内のプロジェクトのパフォーマンスを管理します。
 
    ポートフォリオマネージャーは、ポートフォリオダッシュボードを使用して、ポートフォリオ内の財務パフォーマンスを追跡できます。 このダッシュボードはポートフォリオのヘッダーに表示されます。

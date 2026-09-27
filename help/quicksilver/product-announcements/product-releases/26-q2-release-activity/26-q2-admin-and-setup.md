@@ -64,7 +64,7 @@ Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準�
 
 この変更の一環として、以前Workfrontで利用可能だった一部のタイムゾーンは、標準のIANA タイムゾーンに置き換えられました。
 
-これらの変更のリストについては、[ タイムゾーン名の更新](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)を参照してください。
+これらの変更のリストについては、[&#x200B; タイムゾーン名の更新](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)を参照してください。
 
 ## カスタム四半期は、セットアップの別ページとして使用できるようになりました
 
@@ -81,7 +81,7 @@ Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準�
 * 「カスタム四半期」セクションが左側の設定パネルに追加されます。 機能は同じままです。 
 * 「カスタム四半期」セクションが、グループの「プロジェクト環境設定」セクションから削除されました。 グループ管理者は、カスタム四半期の設定を表示できなくなりました。 
 
-詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## カスタムフォームセクションをデフォルトで折りたたむ
 
@@ -93,7 +93,7 @@ Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準�
 
 デフォルトでは、カスタムフォーム自体が展開されると、カスタムフォームのすべてのセクションが展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションにマークを付けることができます。 このオプションは、フィールドではなく、セクションレベルで適用されます。
 
-詳細については、[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## リッチテキストフィールドは、テキストを書式設定フィールドタイプに置き換えます
 
@@ -109,7 +109,7 @@ Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準�
 
 リッチテキストフィールドタイプは、テキストを書式設定フィールドタイプに置き換えます。 右側のフィールドオプションのボタンをクリックすると、書式設定フィールドを含む既存のテキストをリッチテキストにすばやく変換できます。 変換すると、履歴データはフィールドに残り、レポートで同じ方法で使用されます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## Workfrontのメール通知用の新しいIP アドレス
 

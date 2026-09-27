@@ -37,7 +37,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->ユーザーがプルーフに登録する前に、そのサブスクリプション設定を有効にする必要があります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) のプルーフ設定を設定の[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) のプルーフ設定を設定の節を参照）。
+>ユーザーがプルーフに登録する前に、そのサブスクリプション設定を有効にする必要があります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) のプルーフ設定を設定の[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) のプルーフ設定を設定の節を参照）。
 
 プルーフに登録するには、次の手順を実行します。
 
@@ -48,4 +48,4 @@ ht-degree: 97%
    [!DNL Workfront Proof] パスワードをお持ちの場合は、それを入力します（プルーフのレビュアーかどうかは関係ありません）。\
    プルーフを共有したユーザーが選択したプルーフ共有メールの設定に応じて、送信されたメールに記載されている検証手順に従う必要がある場合があります。
 
-1. プルーフにおけるユーザーの役割はサブスクリプションであり、これはプルーフのプルーフの詳細ページで設定されます。 プルーフの役割の設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフを設定を参照してください。
+1. プルーフにおけるユーザーの役割はサブスクリプションであり、これはプルーフのプルーフの詳細ページで設定されます。 プルーフの役割の設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフを設定を参照してください。

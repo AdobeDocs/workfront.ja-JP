@@ -26,5 +26,5 @@ ht-degree: 92%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Adobe Workfront] を検索](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
+* [&#x200B; [!DNL Adobe Workfront] を検索](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
 * [オブジェクトの参照番号を使用](../../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)

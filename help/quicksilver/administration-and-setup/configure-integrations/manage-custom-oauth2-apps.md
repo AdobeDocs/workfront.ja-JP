@@ -45,7 +45,7 @@ ht-degree: 74%
 >
 >   詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 >
->* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+>* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 >
 >* 一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
@@ -85,7 +85,7 @@ ht-degree: 74%
 
 [!UICONTROL OAuth2] アプリケーションを表示または管理するには、組織でこのアプリケーションを作成する必要があります。
 
-詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
 ## カスタム OAuth2 アプリケーションの管理
 
@@ -98,10 +98,10 @@ ht-degree: 74%
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
-1. アプリケーションにカーソルを合わせ、右端に表示されたら&#x200B;**[!UICONTROL 編集]** ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. アプリケーションにカーソルを合わせ、右端に表示されたら&#x200B;**[!UICONTROL 編集]** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. （オプション）アプリケーションの詳細を編集します。
 
-   OAuth2 および JWT アプリに関連するフィールドについては、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+   OAuth2 および JWT アプリに関連するフィールドについては、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
 ### カスタム OAuth2 アプリケーションの削除 {#delete-custom-oauth2-applications}
 
@@ -123,7 +123,7 @@ ht-degree: 74%
 >クライアントシークレット自体は表示できません。 クライアントシークレットがわからなくなった場合は、そのシークレットを削除して新しく作成する必要があります。
 >
 >* クライアントシークレットを削除するには、この記事の[クライアントシークレットの削除](#delete-client-secret)を参照してください。
->* 新しいクライアントシークレットを作成するには、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の [OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)を参照してください。
+>* 新しいクライアントシークレットを作成するには、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の [OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)を参照してください。
 >
 
 {{step-1-to-setup}}

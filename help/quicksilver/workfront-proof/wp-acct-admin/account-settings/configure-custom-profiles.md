@@ -40,7 +40,7 @@ ht-degree: 96%
 
 [!DNL Workfront Proof] 請求管理者または [!DNL Workfront Proof] 管理者は、他のユーザー用のカスタムプロファイルを設定できます。
 
-カスタムプロファイルを使用すると、アカウント内のユーザーに細分化した権限を割り当て、アカウント内の項目に対してユーザーが持つアクセス権と権限のレベルを定義できます。 カスタムプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+カスタムプロファイルを使用すると、アカウント内のユーザーに細分化した権限を割り当て、アカウント内の項目に対してユーザーが持つアクセス権と権限のレベルを定義できます。 カスタムプロファイルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 ページのレイアウトを調整して、自分に関連する情報のみを表示できます。
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 * プロファイルをコピー（6）
 * プロファイルを無効化（7）
 
-「プロファイル」タブをカスタマイズする方法について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+「プロファイル」タブをカスタマイズする方法について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 ![Profiles_tab_1.png](assets/profiles-tab-1-350x190.png)
 
@@ -70,7 +70,7 @@ ht-degree: 96%
 
 プロファイルの詳細ページでは、カスタムプロファイルに対して有効になっている権限の変更、プロファイルのコピーと削除、プロファイルが割り当てられているユーザーのリストの表示を行うことができます。
 
-このページで実行できるアクションについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+このページで実行できるアクションについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 * [プロファイルの詳細ページにアクセス](#accessing-the-profile-details-page)
 * [プロファイルが割り当てられたユーザーのリストを表示](#viewing-the-list-of-users-with-a-profile-assigned)

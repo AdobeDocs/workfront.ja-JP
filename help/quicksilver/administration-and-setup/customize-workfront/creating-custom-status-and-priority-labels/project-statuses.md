@@ -81,7 +81,7 @@ Workfront 管理者は、システムレベルのプロジェクトステータ�
 
    Workfront で使用できるプロジェクトステータスがこのタブに表示されます。
 
-   ![ プロジェクトの状態](assets/project-status.png)
+   ![&#x200B; プロジェクトの状態](assets/project-status.png)
 
    ビルトインの各システムプロジェクトステータスについて詳しくは、[システムプロジェクトステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)を参照してください。
 

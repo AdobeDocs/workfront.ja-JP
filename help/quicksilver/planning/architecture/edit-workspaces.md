@@ -109,7 +109,7 @@ tr>
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -189,7 +189,7 @@ Old:
 
    * ワークスペースカードにカーソルを合わせ、カードの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします
      または
-   * ワークスペースページの右上隅にある&#x200B;**検索** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、ワークスペースを名前で検索し、ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします。
+   * ワークスペースページの右上隅にある&#x200B;**検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、ワークスペースを名前で検索し、ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします。
 
    >[!TIP]
    >
@@ -198,13 +198,13 @@ Old:
    >* Windowsの場合はCTRL+K
    >* Macの⌘+K
    >
-   >![ グローバル検索ボックス ](assets/global-search-box.png)
+   >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
 
 1. 「**編集**」をクリックします。
 
    「**ワークスペースを編集**」ボックスが表示されます。
 
-   ![ ワークスペース ボックスを編集](assets/edit-workspace-box.png)
+   ![&#x200B; ワークスペース ボックスを編集](assets/edit-workspace-box.png)
 
 1. 「**ワークスペースを編集**」ボックスで、次の情報を更新します。
 
@@ -221,7 +221,7 @@ Old:
 
 1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
 
-   * セクション名にカーソルを合わせて&#x200B;**グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png)をクリックし、右側の場所にドラッグ&amp;ドロップします。
+   * セクション名にカーソルを合わせて&#x200B;**グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png)をクリックし、右側の場所にドラッグ&amp;ドロップします。
    * セクション名にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**上に移動**&#x200B;または&#x200B;**下に移動**&#x200B;をクリックします。 セクションは、ワークスペース内で上下に移動します。
 
 1. （オプション）ワークスペースセクションを削除するには、次の操作を行います。
@@ -237,15 +237,15 @@ Old:
 
 1. （オプション）レコードタイプカードにカーソルを合わせ、右上隅の&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックしてレコードタイプの外観を変更します。
 
-   詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+   詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
 1. （オプション）レコードタイプカードにカーソルを合わせ、右上隅の&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてレコードタイプを削除します。
 
-   詳しくは、[ レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)を参照してください。
+   詳しくは、[&#x200B; レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)を参照してください。
 
 1. （オプション）レコードタイプのカードを押しながらクリックしてドラッグし、新しい場所にドロップします。 レコードタイプをワークスペースセクションから別のセクションにドラッグ&amp;ドロップできます。
 
-   ![ ワークスペースにレコードタイプをドラッグ&amp;ドロップ ](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![&#x200B; ワークスペースにレコードタイプをドラッグ&amp;ドロップ &#x200B;](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （オプション）ワークスペースの右上隅にある「**共有**」をクリックして、ワークスペースを他のユーザーと共有します。
 

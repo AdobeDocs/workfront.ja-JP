@@ -46,7 +46,7 @@ ht-degree: 96%
 
 1. [!UICONTROL 設定]メニューを開き、「**[!UICONTROL 請求]**」を選択して、アカウントの[!UICONTROL 請求]ページを開きます（1）。
 
-   請求ページについて詳しくは、[ [!DNL Workfront]  Proof の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+   請求ページについて詳しくは、[&#x200B; [!DNL Workfront]  Proof の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
    ![請求設定](assets/upgradesdowngrades-billing-settings-350x168.png)
 

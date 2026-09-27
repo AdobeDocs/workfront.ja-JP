@@ -357,7 +357,7 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
    1回の書き出しで、最大100個のダッシュボードと100個のレポートを選択できます。
 
-   ![ キックスタートの書き出し](assets/kickstart-export-spreadsheet-options.png)
+   ![&#x200B; キックスタートの書き出し](assets/kickstart-export-spreadsheet-options.png)
 
    一度に複数のオブジェクトを書き出すことができます。
 

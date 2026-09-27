@@ -47,7 +47,7 @@ Workfront通知がメール許可リストで承認されたメールドメイ�
 
 現在は、入力されたメールアドレスがメール送信許可リストに加えるに準拠していることを確認するために、メールの送信中にチェックも行います。 この改善されたチェックは、ユーザーに関連付けられたメールアドレスと、レポート受信者リストに追加されたアドホックメールの両方に適用されます。
 
-詳しくは、[自動レポート配信のスケジュール ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 
 ## ユーザーワイルドカードは、フィルタリング時にnull値を持つ結果を返さなくなりました

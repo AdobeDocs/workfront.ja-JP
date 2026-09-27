@@ -56,7 +56,7 @@ ht-degree: 71%
 | [!UICONTROL 問題] | ✓ | ✓ |
 | [!UICONTROL ユーザー] | ✓ | ✓ |
 | [!UICONTROL ドキュメント] | ✓ | ✓ |
-| [!UICONTROL  リソース ]地域 | ✓ | ✓ |
+| [!UICONTROL &#x200B; リソース &#x200B;]地域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -101,7 +101,7 @@ ht-degree: 71%
 
 1. 左側のパネルでダッシュボードを追加できる[!DNL Workfront]領域またはオブジェクトのいずれかに移動します。
 
-   ダッシュボードを追加できる領域とオブジェクトについて詳しくは、[[!DNL Adobe Workfront]  セクション ](#adobe-workfront-sections)を参照してください。
+   ダッシュボードを追加できる領域とオブジェクトについて詳しくは、[[!DNL Adobe Workfront]  セクション &#x200B;](#adobe-workfront-sections)を参照してください。
 
 1. 左側のパネルで「**[!UICONTROL ダッシュボードを追加]**」をクリックします。
 1. ダッシュボードの名前を「**[!UICONTROL クイックリンク名]**」フィールドに入力します。 これは自分だけに表示されます。
@@ -115,7 +115,7 @@ ht-degree: 71%
 
 ## オブジェクトの左側のパネルでのダッシュボードの表示
 
-オブジェクトの下にダッシュボードを追加する方法について詳しくは、この記事の [[!UICONTROL Workfront オブジェクトまたはエリアの左側のパネルへのダッシュボード ] の追加](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)の節を参照してください。
+オブジェクトの下にダッシュボードを追加する方法について詳しくは、この記事の [[!UICONTROL Workfront オブジェクトまたはエリアの左側のパネルへのダッシュボード &#x200B;] の追加](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)の節を参照してください。
 
 オブジェクトの左側のパネルにダッシュボードを追加すると、そのオブジェクトはダッシュボードのフィルターとして機能します。 例えば、ダッシュボードにタスクレポートを追加し、ダッシュボードをプロジェクトに追加すると、ダッシュボードには表示しているプロジェクトのタスクのみが表示されます。
 

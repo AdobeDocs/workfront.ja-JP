@@ -82,7 +82,7 @@ ht-degree: 88%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードのアクション**」をクリックして、「**削除**」をクリックします。
 
-   ![ ダッシュボードを削除](assets/unshimmed-delete-dashboard.png)
+   ![&#x200B; ダッシュボードを削除](assets/unshimmed-delete-dashboard.png)
 
 1. ダッシュボードの削除を確定するには、「**はい、削除します**
 ダッシュボードがWorkfrontから削除されます。
@@ -94,9 +94,9 @@ ht-degree: 88%
 複数のダッシュボードを削除するには、次の操作を実行します。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**[!UICONTROL ダッシュボード]**」を選択します。
-1. 削除するリストの各ダッシュボードを選択し、**削除** ![削除アイコン ](assets/delete.png)をクリックします。
+1. 削除するリストの各ダッシュボードを選択し、**削除** ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
 
-   ![ ダッシュボードを削除](assets/unshimmed-delete-dashboard-list.png)
+   ![&#x200B; ダッシュボードを削除](assets/unshimmed-delete-dashboard-list.png)
 
 1. ダッシュボードの削除を確定するには、「**はい、削除します**
 ダッシュボードがWorkfrontから削除されます。

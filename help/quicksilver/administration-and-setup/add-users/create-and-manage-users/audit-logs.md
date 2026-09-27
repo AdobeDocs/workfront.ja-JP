@@ -126,7 +126,7 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
 
 ### ビジネスルール
 
-ビジネスルールは、Ultimate Workfront パッケージを購入したお客様のみが使用できます。 詳しくは、[ ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
+ビジネスルールは、Ultimate Workfront パッケージを購入したお客様のみが使用できます。 詳しくは、[&#x200B; ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
 
 ユーザーが次のいずれかの操作を行うと、システムはビジネスルール監査ログエントリを生成します。
 
@@ -233,7 +233,7 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
 * カスタムセクションの名前または説明を変更
 * カスタムセクションの削除
 
-カスタムフォームのカスタムセクションについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムセクションについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ### 為替レート {#exchange-rate}
 

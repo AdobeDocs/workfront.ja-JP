@@ -38,7 +38,7 @@ ht-degree: 98%
 
 [!DNL Box] のオンラインファイル共有およびコンテンツ管理システムとの統合により、[!DNL Box] アカウント内のファイルから直接新しいプルーフと新しいプルーフバージョンを作成できます。 [!DNL Box] の詳細については、www.box.com を参照してください。
 
-アドビのフォルダー同期機能を使用すると、[!DNL Box] フォルダーを、[!DNL Workfront Proof] 内のフォルダーと同期させることができます。 ファイルまたはファイルの新しいバージョンを [!DNL Box] の同期されたフォルダーに追加すると、そのファイルは Workfront Proof の関連フォルダーにも追加されます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md) との  [!DNL Box]  フォルダーの同期を参照してください。
+アドビのフォルダー同期機能を使用すると、[!DNL Box] フォルダーを、[!DNL Workfront Proof] 内のフォルダーと同期させることができます。 ファイルまたはファイルの新しいバージョンを [!DNL Box] の同期されたフォルダーに追加すると、そのファイルは Workfront Proof の関連フォルダーにも追加されます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md) との  [!DNL Box]  フォルダーの同期を参照してください。
 
 ## 主なメリット
 

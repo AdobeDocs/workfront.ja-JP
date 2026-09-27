@@ -100,9 +100,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
     >     例えば、「処理中」のステータスにタスクの承認が関連付けられている場合、承認が許可されると、タスクのステータスは自動的に「処理中」に変わります。 ステータスを「完了」に自動的に変更したり、承認に関連付けられていない他のステータスに自動的に変更することはできません。
     >   
     >   
-    >
-
-  * 承認プロセスに関連付けられるエンティティは、ユーザー、担当業務、チームのいずれかです。 ユーザーは、最終的に承認を許可または却下する責任を負います。 プロジェクトで特定の役割を果たすユーザーに承認を割り当てることができます。 例えば、プロジェクト所有者やスポンサーに承認を割り当てることができます。 詳しくは、[作業アイテムの承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
+    >* 承認プロセスに関連付けられるエンティティは、ユーザー、担当業務、チームのいずれかです。 ユーザーは、最終的に承認を許可または却下する責任を負います。 プロジェクトで特定の役割を果たすユーザーに承認を割り当てることができます。 例えば、プロジェクト所有者やスポンサーに承認を割り当てることができます。 詳しくは、[作業アイテムの承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
 
     次のシナリオが存在します。
 
@@ -178,7 +176,7 @@ Workfrontにアップロードした後にドキュメントに承認者を追�
 
 >[!NOTE]
 >
->現在、Workfrontには複数のドキュメント承認オプションがあります。 詳しくは、[ ドキュメント承認で利用できる機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)を参照してください。
+>現在、Workfrontには複数のドキュメント承認オプションがあります。 詳しくは、[&#x200B; ドキュメント承認で利用できる機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)を参照してください。
 
 
 ## プルーフの承認プロセス

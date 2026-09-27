@@ -43,7 +43,7 @@ Adobe Workfront でのオブジェクトの表示は、そのタイプのオブ�
 >
 >この記事では、以下を除くすべてのオブジェクトに対して権限をリクエストする方法について説明します。
 >
->* Adobe Workfront Scenario PlannerのScenario Planner プラン。 詳しくは、「[ シナリオプランナーでプランに権限を要求する](../../scenario-planner/request-access-to-plan.md)」を参照してください。 追加のライセンスが必要です。
+>* Adobe Workfront Scenario PlannerのScenario Planner プラン。 詳しくは、「[&#x200B; シナリオプランナーでプランに権限を要求する](../../scenario-planner/request-access-to-plan.md)」を参照してください。 追加のライセンスが必要です。
 >
 >* Workfront Planningのビューとワークスペース。 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。 追加のライセンスが必要です。
 
@@ -116,7 +116,7 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 1. ドロップダウンリストから、リクエストするアクセスのタイプを選択します。
 1. （オプション）「**P.S.**」フィールドに、追加のアクセスが必要な理由に関するメモを入力します。
 
-   ![ アクセスを要求ダイアログボックス ](assets/request-access-to-project.png)
+   ![&#x200B; アクセスを要求ダイアログボックス &#x200B;](assets/request-access-to-project.png)
 
 1. 「**アクセスの要求**」をクリックします。
 
@@ -135,7 +135,7 @@ For example, if you do not have portfolio access, but you were given a link to a
 
 1. プロジェクト名の右にある&#x200B;**その他**&#x200B;メニューをクリックして、「**さらにアクセスを要求する**」をクリックします。
 
-   ![さらにアクセスをリクエスト ](assets/more-menu-request-more-access.png)
+   ![さらにアクセスをリクエスト &#x200B;](assets/more-menu-request-more-access.png)
 
 1. （条件付き）複数のユーザーが適切なアクセス権を持ち、追加のアクセス権を付与できる場合、ユーザー名の横にドロップダウン矢印が表示されます。 ドロップダウンリストからアクセスリクエストを受け取るユーザーを選択します。
 
@@ -144,7 +144,7 @@ For example, if you do not have portfolio access, but you were given a link to a
 1. ドロップダウンリストから、要求するアクセスレベルを選択します。
 1. （オプション）「**P.S.**」フィールドに、追加のアクセスが必要な理由に関するメモを入力します。
 
-   ![ アクセスを要求ダイアログボックス ](assets/request-access-to-project.png)
+   ![&#x200B; アクセスを要求ダイアログボックス &#x200B;](assets/request-access-to-project.png)
 
 1. 「**アクセスの要求**」をクリックします。
 

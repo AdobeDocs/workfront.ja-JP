@@ -45,9 +45,9 @@ ht-degree: 3%
 >
 >この記事では、WorkfrontまたはWorkflow パッケージも購入した場合のWorkfront計画に関する一般的な情報を説明します。
 >
->Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス ](/help/quicksilver/planning/planning-information.md)を参照してください。
+>Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス &#x200B;](/help/quicksilver/planning/planning-information.md)を参照してください。
 >
->スタンドアロン製品としてのWorkfront Planningについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+>スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 Adobe Workfront Workflowのライセンスタイプは、Adobe Workfront PlanningのライセンスタイプおよびPlanning権限と組み合わせて使用することで、次のアクセス権を付与できます。
 
@@ -65,7 +65,7 @@ Workfront Planningへのアクセスについて詳しくは、[Adobe Planning�
 * ワークフローライセンスタイプ
 * Planning ライセンス・タイプ
 
-詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ユーザーを割り当てることができるプランニングライセンスの種類は、購入したWorkfront パッケージによって異なります。
 
@@ -78,7 +78,7 @@ Workfront Planningは、次のような方法で購入できます。
 
 * Workfront Workflow パッケージと一緒に、WorkflowとPlanningの同じ数のライセンスを含みます。 Adobe Workfront WorkflowとPlanningの両方で、あらゆる機能にアクセスできます。
 * Workfront Workflow パッケージと一緒に、WorkflowとPlanningに対するライセンスの数が異なります。 Adobe Workfront Workflowの全機能にアクセスでき、Workfront Planningへのアクセスは限定的です。
-* Workfront Planningを単独で使用する場合。 ユーザーはWorkfront ワークフロー機能にアクセスできず、Workfront計画の機能に完全にアクセスできます。 詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+* Workfront Planningを単独で使用する場合。 ユーザーはWorkfront ワークフロー機能にアクセスできず、Workfront計画の機能に完全にアクセスできます。 詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 次の表に、ワークフローとプランニングのライセンスタイプの関係と、これらのライセンスに基づくユーザーの機能を示します。
 
@@ -141,7 +141,7 @@ Users with all other license types can have View permissions to workspaces and r
 >
 >共有ボックスには、ユーザーが下位レベルのライセンスを保持している場合に、ワークスペースに対して貢献または管理する権限をユーザーに付与できないという表示があります。これらの権限レベルはグレー表示されます。
 >
->![ ワークスペース上のコントリビューターユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![&#x200B; ワークスペース上のコントリビューターユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ## ライセンスの種類と表示の権限
@@ -160,4 +160,4 @@ Planning Standard ライセンスを持つユーザーのみが、ビューに�
 >
 >共有ボックスには、ユーザーが下位レベルのライセンスを保持している場合、これらの権限レベルがグレー表示されるため、ビューを管理するための権限をユーザーに付与できないという表示があります。
 >
->![ ビュー共有のライトユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-light-user.png)
+>![&#x200B; ビュー共有のライトユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-light-user.png)

@@ -73,7 +73,7 @@ Workfront プランニングでは、組織のニーズに合ったカスタム�
   * グローバルレコードタイプは、既存のレコードタイプとして他のワークスペースに追加できます。
   * 接続可能なレコードタイプは、他のワークスペースから接続できます。
 
-  詳細については、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+  詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 
 <!--

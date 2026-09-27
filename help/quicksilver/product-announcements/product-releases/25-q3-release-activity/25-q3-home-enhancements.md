@@ -60,7 +60,7 @@ ht-degree: 8%
 
 この機能強化の前は、この領域で従来のコメント機能を利用できました。
 
-詳しくは、[ マイアップデート領域の使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)を参照してください。
+詳しくは、[&#x200B; マイアップデート領域の使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)を参照してください。
 
 ## 自分の承認ウィジェットが期限内に自動的に並べ替えられるようになりました
 

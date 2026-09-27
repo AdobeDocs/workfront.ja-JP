@@ -40,7 +40,7 @@ ht-degree: 33%
 * ユーザーに、あるバージョンを表示する権限を与えることができますが、別のバージョンを表示する権限を与えることはできません。 逆に、後続のバージョンをユーザーと共有する場合、そのユーザーは以前のバージョンに戻ってアクセス権を付与しない限り、以前のバージョンを表示できません。
 * 新しいバージョンを作成するには、プルーフの編集権限が必要です。
 
-  詳しくは、[Workfront Proofでのプルーフの役割の管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)および[Workfront Proofでのプルーフの権限プロファイル ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
+  詳しくは、[Workfront Proofでのプルーフの役割の管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)および[Workfront Proofでのプルーフの権限プロファイル &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 
   プルーフのバージョンの共有について詳しくは、[Workfront Proof のプルーフの共有](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)を参照してください。
 
@@ -132,15 +132,15 @@ Workfront Proof で新しいバージョンのプルーフを作成するには�
 
    * （オプション）バージョンの&#x200B;**所有者**&#x200B;をアカウント内の別のユーザーに変更します。
 
-     詳しくは、[Workfront Proofのプルーフ権限プロファイル ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
+     詳しくは、[Workfront Proofのプルーフ権限プロファイル &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 
    * （オプション） **タイプの連絡先名または電子メールアドレスを使用して、受信者** ボックスを追加し、バージョンにレビュー担当者を追加します。 次に、各受信者に対して&#x200B;**プルーフの役割**&#x200B;および&#x200B;**電子メールアラート** タイプを選択できます。
 
-     詳しくは、[ プルーフにグループを追加](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)および[Workfront Proofでのプルーフ ロールの管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)を参照してください。
+     詳しくは、[&#x200B; プルーフにグループを追加](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)および[Workfront Proofでのプルーフ ロールの管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)を参照してください。
 
      >[!NOTE]
      >
-     >プルーフの作成者または所有者が、個人設定でプルーフ作成済み電子メールをデフォルトで無効にしている場合、このプルーフに関する&#x200B;**受信者への通知** ボックスが「新しいプルーフ」ページでオンになっている場合でも、プルーフ作成済み電子メールまたは新しいプルーフ電子メールは受信されません。 詳しくは、[Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)でのメール通知の設定、[ プルーフ作成メール ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)および[新しいプルーフ メール ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)を参照してください。
+     >プルーフの作成者または所有者が、個人設定でプルーフ作成済み電子メールをデフォルトで無効にしている場合、このプルーフに関する&#x200B;**受信者への通知** ボックスが「新しいプルーフ」ページでオンになっている場合でも、プルーフ作成済み電子メールまたは新しいプルーフ電子メールは受信されません。 詳しくは、[Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)でのメール通知の設定、[&#x200B; プルーフ作成メール &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)および[新しいプルーフ メール &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)を参照してください。
 
    * （オプション）プルーフの期限を設定します。
 

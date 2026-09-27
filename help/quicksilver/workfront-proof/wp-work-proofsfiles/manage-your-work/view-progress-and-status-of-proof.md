@@ -157,7 +157,7 @@ Workfront Proof は進捗アイコンを使用して、次の各レベルでの�
 
 >[!NOTE]
 >
->プルーフの詳細を編集できるかどうかは、プルーフに対する権限によって異なります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください）。
+>プルーフの詳細を編集できるかどうかは、プルーフに対する権限によって異なります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください）。
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png)
 
@@ -173,11 +173,11 @@ Workfront Proof は進捗アイコンを使用して、次の各レベルでの�
 
 >[!NOTE]
 >
->これらのオプションを使用できるかどうかは、プルーフに対する権限によって異なります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください）。
+>これらのオプションを使用できるかどうかは、プルーフに対する権限によって異なります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください）。
 
 ![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
 
-「概要」セクションでは、プルーフの編集権限を持っている場合、レビュアーのアクションメニューにアクセスすることもできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください。 レビュアーの詳細にポインタを合わせると、レビュアーのアクションメニュー（1）が表示され、次の操作を実行できます。
+「概要」セクションでは、プルーフの編集権限を持っている場合、レビュアーのアクションメニューにアクセスすることもできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください。 レビュアーの詳細にポインタを合わせると、レビュアーのアクションメニュー（1）が表示され、次の操作を実行できます。
 
 * レビュアーにメッセージを送信（2）
 * レビュアーの詳細を編集（3）- レビュアーの表示名、プルーフの役割およびメールアラートを編集できます
@@ -187,7 +187,7 @@ Workfront Proof は進捗アイコンを使用して、次の各レベルでの�
 
 >[!NOTE]
 >
->これらのオプションが表示されるかどうかは、プルーフに対する権限によって異なります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください）。
+>これらのオプションが表示されるかどうかは、プルーフに対する権限によって異なります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください）。
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png)
 
@@ -211,7 +211,7 @@ Workfront Proof は進捗アイコンを使用して、次の各レベルでの�
 
 >[!NOTE]
 >
->これらのオプションを使用できるかどうかは、プルーフに対する権限によって異なります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください）。
+>これらのオプションを使用できるかどうかは、プルーフに対する権限によって異なります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理を参照してください）。
 
 [!DNL Workfront] 内でのプルーフの進捗状態とステータスの表示について詳しくは、[進捗状況とステータスの表示](#viewing-progress-and-status)を参照してください。
 

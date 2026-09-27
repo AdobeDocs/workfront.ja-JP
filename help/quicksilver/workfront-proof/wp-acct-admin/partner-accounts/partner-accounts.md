@@ -44,5 +44,5 @@ ht-degree: 74%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Workfront Proof ] アカウントの間のパートナー関係の管理](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-* [ [!DNL Workfront Proof] のパートナーと項目の共有](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof &#x200B;] アカウントの間のパートナー関係の管理](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [&#x200B; [!DNL Workfront Proof] のパートナーと項目の共有](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

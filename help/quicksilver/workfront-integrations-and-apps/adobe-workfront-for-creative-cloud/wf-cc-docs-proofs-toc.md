@@ -36,11 +36,11 @@ ht-degree: 92%
 >ドキュメントとプルーフのアップロードは現在、Premiere Pro および After Effects ではサポートされていません。
 
 
-* [ [!DNL Photoshop] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
-* [ [!DNL Photoshop] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-* [ [!DNL XD]  アートボードをプルーフとして  [!DNL Workfront] にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-* [ [!DNL XD]  アートボードをドキュメントとして  [!DNL Workfront] にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [ [!DNL InDesign] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
-* [ [!DNL InDesign] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-* [ [!DNL Illustrator] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-* [ [!DNL Illustrator] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [&#x200B; [!DNL Photoshop] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
+* [&#x200B; [!DNL Photoshop] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
+* [&#x200B; [!DNL XD]  アートボードをプルーフとして  [!DNL Workfront] にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [&#x200B; [!DNL XD]  アートボードをドキュメントとして  [!DNL Workfront] にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [&#x200B; [!DNL InDesign] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+* [&#x200B; [!DNL InDesign] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [&#x200B; [!DNL Illustrator] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+* [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)

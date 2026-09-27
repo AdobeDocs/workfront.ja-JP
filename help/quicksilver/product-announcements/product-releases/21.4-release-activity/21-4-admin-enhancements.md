@@ -83,7 +83,7 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
 
 詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-![ ブループリントの詳細](assets/blueprint-detailspage.png)
+![&#x200B; ブループリントの詳細](assets/blueprint-detailspage.png)
 
 ## 新しいイシューに対するブループリント環境設定
 

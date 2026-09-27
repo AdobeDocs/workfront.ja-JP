@@ -37,7 +37,7 @@ ht-degree: 91%
 >
 >[Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) の[インストール [!DNL Adobe Workfront] を参照してください。
+>アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams[&#128279;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストール [!DNL Adobe Workfront] を参照してください。
 
 
 
@@ -76,13 +76,13 @@ ht-degree: 91%
 >
 >[!DNL Microsoft Teams] では [!DNL Internet Explorer] のサポートを終了しました。 [!DNL Adobe Workfront for Microsoft Teams] 統合を使用するには、[!DNL Internet Explorer] 以外の web ブラウザーを使用する必要があります。
 
-[!DNL Workfront for Microsoft Teams] のインストールと [!DNL Microsoft Teams] からの [!UICONTROL Workfront] へのログインについては、[ [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
+[!DNL Workfront for Microsoft Teams] のインストールと [!DNL Microsoft Teams] からの [!UICONTROL Workfront] へのログインについては、[&#x200B; [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 
 ## [!DNL Microsoft Teams] から個人タスクを作成
 
 1. [!DNL Microsoft Teams] から [!DNL Workfront] にログインします。
 
-   [!DNL Workfront] へのログインについては、[ [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
+   [!DNL Workfront] へのログインについては、[&#x200B; [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 
 1. **[!UICONTROL 新規タスク]**&#x200B;カードを開くには
 
@@ -106,7 +106,7 @@ ht-degree: 91%
 
    新しい個人タスクが [!DNL Workfront] に作成されます。 [!UICONTROL 参照番号]がタスクに割り当てられ、[!UICONTROL 新規タスク]カードに表示されます。
 
-   参照番号については、[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) のオブジェクトについての記事のオブジェクトの[[!UICONTROL 参照番号]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects)の節を参照してください。
+   参照番号については、[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) のオブジェクトについての記事のオブジェクトの[[!UICONTROL 参照番号]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects)の節を参照してください。
 
 1. （オプション）「**[!UICONTROL 編集]**」をクリックして、タスクの情報をさらに編集します。
 1. （オプション）「**[!UICONTROL [!DNL Workfront]]** で表示」をクリックして [!DNL Workfront] の新しいタブにタスクを開き、さらに編集して、プロジェクトに移動するか、他のユーザーに割り当てます。

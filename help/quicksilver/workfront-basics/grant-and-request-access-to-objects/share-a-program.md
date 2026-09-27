@@ -90,7 +90,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
   Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
-* 継承された権限をプログラムから削除できます。 オブジェクトから権限を削除する方法について詳しくは、[ オブジェクトから権限を削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
+* 継承された権限をプログラムから削除できます。 オブジェクトから権限を削除する方法について詳しくは、[&#x200B; オブジェクトから権限を削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
 
 ## プログラムの共有
 
@@ -100,7 +100,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. プログラム名の右側にある「**共有**」をクリックします。 **共有[ プログラム名]** ダイアログボックスが開きます。
 
-   ![ プログラムを共有ボタン ](assets/share-program-button.png)
+   ![&#x200B; プログラムを共有ボタン &#x200B;](assets/share-program-button.png)
 
 1. 「**プログラムに**&#x200B;へのアクセス権を付与」フィールドで、プログラムを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -134,9 +134,9 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 {{step1-to-programs}}
 
-1. **プログラム** ページで、共有する各プログラムの左側にあるボックスを選択し、ページの上部にある&#x200B;**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
+1. **プログラム** ページで、共有する各プログラムの左側にあるボックスを選択し、ページの上部にある&#x200B;**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
 
-   ![一括共有プログラム ](assets/bulk-share-programs.png)
+   ![一括共有プログラム &#x200B;](assets/bulk-share-programs.png)
 
 1. 「**プログラムに**&#x200B;へのアクセス権を付与」フィールドで、プログラムを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 

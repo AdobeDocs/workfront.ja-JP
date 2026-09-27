@@ -119,7 +119,7 @@ Workfront計画では、チーム間の分断を解消するために、それ�
 
 * **ルール**：これらのフィールドは共有され、必須です。
 
-詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 ### 地元の遊び場（または「スポーク」）
 
@@ -202,7 +202,7 @@ Workfront計画の規模を拡大する際の一般的な課題は、まず最�
 
 * **レベル 3: エンタープライズ標準化**：管理者は、Global Taxonomy Workspaceのレコードタイプとして、そのフィールドの単一の標準化されたバージョンを作成し、それをチームに同期させます。
 
-  詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 ### フィールドを廃止する方法
 
@@ -367,7 +367,7 @@ Workfront計画の拡大は、技術的な課題と同様に、文化的な課�
 
 * [ ] **引き継ぎを設定**：自分の作業は、関連するプライマリワークスペースにどのように反映されますか？ たとえば、作業は、グローバルレコードタイプや特定のルックアップフィールドを使用して、関連するプライマリワークスペースに反映されます。
 
-  グローバルレコードタイプについて詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  グローバルレコードタイプについて詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 <!--
 original content: 

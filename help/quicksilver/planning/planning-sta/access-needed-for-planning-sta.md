@@ -70,7 +70,7 @@ Workfront Planningは、次のいずれかのWorkfront パッケージを購入�
 
 * Workfront Planningは、組織内のユーザー向けのスタンドアロン製品です。 これにより、Workfront ワークフロー機能やプランニング機能にアクセスできなくなります。
 
-スタンドアロン製品としてPlanningに含まれる機能について詳しくは、「[ スタンドアロン製品としてWorkfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)」の「スタンドアロン製品としてAdobe Workfront Planningに含まれる機能」の節を参照してください。
+スタンドアロン製品としてPlanningに含まれる機能について詳しくは、「[&#x200B; スタンドアロン製品としてWorkfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)」の「スタンドアロン製品としてAdobe Workfront Planningに含まれる機能」の節を参照してください。
 
 ## ユーザーライセンスとアクセスレベル
 
@@ -145,7 +145,7 @@ Planning管理者のアクセス・レベルを持つユーザーには、次の
   * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
 * リクエストを送信および管理できます。
 
-  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
+  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
 * メインメニューには次の領域があります。
 
   * **Planning**: Planning オブジェクトを作成、削除、共有、接続するための完全な機能を備えています。
@@ -171,7 +171,7 @@ Planning Standardのアクセス・レベルを持つユーザーには、次の
 * ワークスペースとそのコンテンツを管理できます。
 * リクエストを送信および管理できます。
 
-  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
+  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
 * Planning Standardのユーザーは、メインメニューの次の領域にアクセスできます。
 
   * **計画中**
@@ -193,7 +193,7 @@ Planning管理者としてユーザーにアクセス・レベルを割り当て
   * 管理者としてAdobe Consoleに追加されたユーザーは、Workfront PlanningでPlanning Administratorのアクセスレベルを受け取ります。
   * Adobe Consoleに追加されたユーザーは、Workfront PlanningでPlanning Standardのアクセスレベルを割り当てることができます。 これは、Workfront Planningの新規ユーザーにスタンドアロン製品として割り当てることができる唯一のアクセスです。
 
-詳しくは、[ ユーザーの管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)を参照してください。
+詳しくは、[&#x200B; ユーザーの管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)を参照してください。
 
 ## スタンドアロン製品としてのWorkfront Planningでの権限の付与
 
@@ -206,7 +206,7 @@ Workfront Planningでは、次のオブジェクトをスタンドアロン製�
 
 スタンドアロン製品としてのPlanningでのオブジェクトの共有は、ワークフローパッケージと一緒に購入した場合のPlanningでのオブジェクトの共有と同じです。
 
-詳しくは、[Adobe Workfront Planningのアクセス情報：記事インデックス ](/help/quicksilver/planning/access/access-information.md)を参照してください。
+詳しくは、[Adobe Workfront Planningのアクセス情報：記事インデックス &#x200B;](/help/quicksilver/planning/access/access-information.md)を参照してください。
 
 <!--
 

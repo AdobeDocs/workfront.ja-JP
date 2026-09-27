@@ -63,6 +63,6 @@ ht-degree: 86%
 イベント登録を作成、クエリ、または削除するには、Workfront ユーザーが次の条件を満たす必要があります。
 
 * **システム管理者のアクセス レベル**
-詳しくは、[ ユーザーに完全な管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域へのユーザーの管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
+詳しくは、[&#x200B; ユーザーに完全な管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域へのユーザーの管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
 * 組織でAdobe IMS（Identity Management System）を使用している場合は、`X-User-Token` ヘッダーに渡されたIMS ユーザートークンを含めます。

@@ -34,7 +34,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -90,7 +90,7 @@ Canvas ダッシュボードを作成し、レポートを追加したら、そ�
 
 削除する前に、ダッシュボードにレポートを適用する必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## レポートの削除
 
@@ -105,9 +105,9 @@ Canvas ダッシュボードを作成し、レポートを追加したら、そ�
 
 1. **Canvas ダッシュボード** ページで、削除するレポートを含むダッシュボードを選択します。
 
-1. ダッシュボードの詳細ページで、削除するレポートウィジェットの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. ダッシュボードの詳細ページで、削除するレポートウィジェットの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 
-1. **削除**を選択します。
-   ![ レポートを削除](assets/delete-a-report.png)
+1. **削除**&#x200B;を選択します。
+   ![&#x200B; レポートを削除](assets/delete-a-report.png)
 
 1. **レポートを削除** ダイアログボックスで、**削除**&#x200B;をクリックします。

@@ -51,7 +51,7 @@ Workfront Proof では、ごみ箱に入れることができるプルーフ、�
 
 ## ごみ箱を空にする
 
-管理者または請求管理者は、ごみ箱を空にできます。 権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+管理者または請求管理者は、ごみ箱を空にできます。 権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 1. 左側のサイドバーにある&#x200B;**[!UICONTROL ごみ箱]**&#x200B;をクリックすると、削除したアイテムを一覧表示できます。
 1. 「**[!UICONTROL ごみ箱を空にする]**」をクリックします。

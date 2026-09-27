@@ -815,12 +815,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON パス</td>
       <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。 これは、JSON 内のどの値がドロップダウンオプションに表示されるかを選択する手段の役割を果たします。</p><p>例えば、API URLが次の形式でJSONを返す場合、「$.data[*].name」を使用してドロップダウンオプションとして米国とカナダを選択できます。</br>
       <pre>
-      {
-       データ：{
+      &lbrace;
+       データ：&lbrace;
          { name: "USA"},
          { name: "Canada"}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>
@@ -882,7 +882,7 @@ To add typeahead and date fields:
 >
 >先行入力フィールドは、カスタムフォームに追加できなくなりました。 右側のフィールドオプションのボタンをクリックすると、既存の書体を内部参照に変換できます。 変換すると、履歴データはフィールドに残り、レポートで同じ方法で使用されます。
 > 
->また、環境プロモーションパッケージに先行入力フィールドが含まれている場合、プロモーションが行われると、そのフィールドは自動的に内部参照に変換されます。 環境の昇格について詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境の昇格） ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)を参照してください。
+>また、環境プロモーションパッケージに先行入力フィールドが含まれている場合、プロモーションが行われると、そのフィールドは自動的に内部参照に変換されます。 環境の昇格について詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境の昇格） &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)を参照してください。
 
 内部参照を追加するには：
 

@@ -47,7 +47,7 @@ ht-degree: 39%
 
 この記事では、2024年8月28日の一般公開リリースに先立つ、2024年のWorkfront計画の初期段階でリリースされた機能をリストします。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## Workfront Planningのリリースタイムライン
 
@@ -73,7 +73,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 Workfront Planningは、Workfront ライセンスに加えて、Workfront Planning ライセンスを購入したすべてのお客様が利用できます。 Workfront Planningの購入について詳しくは、アカウント担当者にお問い合わせください。
 
-2024年8月28日以降にWorkfront Planningにリリースされた機能について詳しくは、[Adobe Workfront Planning リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+2024年8月28日以降にWorkfront Planningにリリースされた機能について詳しくは、[Adobe Workfront Planning リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ### Workfront Planningはプレビューで使用できるようになりました
 
@@ -118,7 +118,7 @@ Workfront Planningのリリースが一般提供に移行したことに伴い�
 >権限リクエストからビューまたはワークスペースに権限をリクエストして付与できるようにするには、組織をAdobe Unified Experienceにオンボーディングする必要があります。
 
 
-詳しくは、[ ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
+詳しくは、[&#x200B; ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
 
 ### 数式フィールド値の形式の定義
 
@@ -133,7 +133,7 @@ Workfront Planningのリリースが一般提供に移行したことに伴い�
 * 日付
 * タグ
 
-詳しくは、[ フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
+詳しくは、[&#x200B; フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
 
 ### レコードビューでのリアルタイムのプレゼンス指標
 
@@ -176,7 +176,7 @@ Workfront Planningのパブリック APIのリリースにより、Workfront カ
 
 詳しくは、次の記事を参照してください。
 
-* [ カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [&#x200B; カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
 
 ### カレンダービューの新規設定メニュー
@@ -247,7 +247,7 @@ Workfront Canvas ダッシュボードを使用して、Workfront計画の情報
 
 この機能強化の前は、同じワークスペースに属するレコードタイプのみを、他のアプリケーションのオブジェクトタイプと共に接続できました。
 
-詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
 ### 分類フィーチャーを使用して、タイムラインビューに接続されたレコードを表示する
 
@@ -309,7 +309,7 @@ Workfront Canvas ダッシュボードを使用して、Workfront計画の情報
 
 レコードの詳細ページまたはプレビューをWord文書（.docx）に書き出せるようになりました。
 
-詳しくは、[ レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
 
 ### 接続タイプのオプションを追加
 
@@ -382,7 +382,7 @@ Adobe Workfront Planningのパブリック APIが利用可能になりました�
 
 * テーブルビューのレコードページの下部に追加された新しいツールバー
 
-詳しくは、[ レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください
+詳しくは、[&#x200B; レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください
 
 ### Workfront計画ビューの公開
 
@@ -445,7 +445,7 @@ Workfront Planning レコードに接続されたWorkfront オブジェクトに
 詳しくは、次の記事を参照してください。
 
 * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [ テーブルビューを管理](/help/quicksilver/planning/views/manage-the-table-view.md)。
+* [&#x200B; テーブルビューを管理](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
 
 ## 2024年6月24日（PT）の週
@@ -468,7 +468,7 @@ AI アシスタントは現在ベータ版で、一部のお客様がご利用�
 
 ワークスペース間やレコードタイプ間の移動を容易にするために、ページヘッダーの名前の右側にあるドロップダウンメニューで、ワークスペースまたはレコードタイプを検索できるようになりました。
 
-詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
 ### テーブルビューで、既存のフィールドの左右に新しいフィールドを挿入します
 
@@ -512,9 +512,9 @@ Workfront Planningのワークスペーステンプレートカードのルッ�
 
 詳しくは、次の記事を参照してください。
 
-* [ ワークスペース テンプレートのリスト ](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [&#x200B; ワークスペース テンプレートのリスト &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md)
 
-* [ ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
+* [&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
 
 ### サムネールまたはカバー画像をレコードに追加する際の新しいエクスペリエンス
 
@@ -532,9 +532,9 @@ Workfront Planningのワークスペーステンプレートカードのルッ�
 
 詳しくは、次の記事を参照してください。
 
-* [ レコードにカバー画像を追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [&#x200B; レコードにカバー画像を追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
-* [ レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [&#x200B; レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ### 詳細ページでレコードタイトルを更新する
 
@@ -614,7 +614,7 @@ Workfront Planningのワークスペーステンプレートカードのルッ�
 
 詳しくは、次の記事を参照してください。
 
-* [ フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)
+* [&#x200B; フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)
 
 * [テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)
 
@@ -682,7 +682,7 @@ UNIQUE演算子は、次を除くすべてのフィールドタイプで使用�
 
 これで、ワークスペースのすべてのメンバーにビュー権限をすばやく付与できるオプションが導入されました。 この機能強化の前は、ビューにアクセスできるのは、特定のビューを共有したユーザーのみでした。 このオプションは、デフォルトでは有効になっていません。
 
-詳しくは、[ ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 ### メインメニューのプランニングアイコンの外観を更新
 
@@ -710,7 +710,7 @@ UNIQUE演算子は、次を除くすべてのフィールドタイプで使用�
 
 削除されたワークスペースとその情報は復元できません。
 
-詳しくは、[ ワークスペースの削除](/help/quicksilver/planning/architecture/delete-workspaces.md)を参照してください。
+詳しくは、[&#x200B; ワークスペースの削除](/help/quicksilver/planning/architecture/delete-workspaces.md)を参照してください。
 
 ### タイムラインビューで参照日フィールドを使用できるようになりました
 
@@ -720,7 +720,7 @@ UNIQUE演算子は、次を除くすべてのフィールドタイプで使用�
 
 タイムラインビューの開始日と終了日を、接続されたレコードまたはオブジェクトタイプのルックアップフィールドに設定できるようになりました。
 
-ビューの作成について詳しくは、[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+ビューの作成について詳しくは、[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
 ## 2024年5月20日（PT）の週
 
@@ -785,7 +785,7 @@ Workfront Planning以外のオブジェクトタイプへの接続を作成す�
 
 レコードのページに関する情報をより適切に整理して、より効率的に読みやすくおよびナビゲーションするために、レコードのページにセクションを導入しました。 セクションタイトルは、フィールドを個別のカテゴリに整理するヘッダーとして機能します。 セクションは完全にカスタマイズ可能で、必要に応じて拡張または折りたたむことができます。
 
-詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ### フィールド設定の変更に関するリアルタイムの更新
 
@@ -803,7 +803,7 @@ Workfront Planning以外のオブジェクトタイプへの接続を作成す�
 >
 >フィールド設定が変更されたことを他のユーザーに通知しません。
 
-詳しくは、[ フィールド設定の編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
+詳しくは、[&#x200B; フィールド設定の編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
 
 ## 2024年5月6日（PT）の週
 
@@ -827,9 +827,9 @@ Workfront Planning以外のオブジェクトタイプへの接続を作成す�
 
 プレビュー：未決定
 
-Adobe Unified Experienceをご利用のお客様で、誰かがレコードページにコメントを追加すると、そのコメントに関するアプリ内メッセージとメール通知が届きます。 Adobe Experience Cloud プロファイルの「環境設定」領域で通知の環境設定を管理できます。 詳しくは、[ アカウントの環境設定と通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)を参照してください。
+Adobe Unified Experienceをご利用のお客様で、誰かがレコードページにコメントを追加すると、そのコメントに関するアプリ内メッセージとメール通知が届きます。 Adobe Experience Cloud プロファイルの「環境設定」領域で通知の環境設定を管理できます。 詳しくは、[&#x200B; アカウントの環境設定と通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)を参照してください。
 
-Workfront計画の通知について詳しくは、[Adobe Workfront計画の通知：記事インデックス ](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
+Workfront計画の通知について詳しくは、[Adobe Workfront計画の通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
 
 ## 2029年4月29日（PT）の週
@@ -842,7 +842,7 @@ Workfront計画の通知について詳しくは、[Adobe Workfront計画の通�
 
 ユーザーがテーブルビューのレコードに関する情報を更新すると、他のユーザーは、レコードの詳細ボックス（ビュー内）またはページで、更新された情報をリアルタイムで表示できます。 これにより、すべてのユーザーが、更新された情報を、変更が発生したときに同期して同時に表示できるようになります。
 
-レコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+レコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 ### レコードの編集後、カレンダービューでリアルタイムに更新されます
 
@@ -866,9 +866,9 @@ Workfront計画の通知について詳しくは、[Adobe Workfront計画の通�
 
 詳しくは、次の記事を参照してください。
 
-* [ ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)
+* [&#x200B; ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
-* [ レコードタイプを編集](/help/quicksilver/planning/architecture/edit-record-types.md)。
+* [&#x200B; レコードタイプを編集](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
 ## 2024年4月8日（PT）の週
 
@@ -894,7 +894,7 @@ Workfront計画の通知について詳しくは、[Adobe Workfront計画の通�
 
 Workspace管理者は、レコードページまたはプレビューに表示されているフィールドを並べ替えることができるようになりました。 フィールドの順序を更新すると、レコードページまたはレコードプレビューを表示している全員に対して、同じタイプのすべてのレコードのフィールドの順序が変更されます。
 
-詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 
 ### レコードページへのカバー画像の追加
@@ -905,7 +905,7 @@ Workspace管理者は、レコードページまたはプレビューに表示�
 
 レコードページを管理する際に、レコードページまたはプレビューでカバー画像を追加、再配置、置き換えして、レコードのプレゼンテーションと関係者のエンゲージメントを強化できるようになりました。 カバー画像は、レコードを表示するすべてのユーザーに表示されます。
 
-詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## 2024年3月25日（PT）の週
 
@@ -1198,7 +1198,7 @@ ExcelまたはCSV ファイルを使用したレコードタイプの読み込�
 
 各レコードに個々のサムネールを追加して、ビュー内で区別できるようにしました。 テーブル表示では、コンピューターに保存済みの画像ファイルをサムネールとして追加できます。 サムネールは各レコードに固有で、レコードタイプのページのテーブルビューとタイムラインビューの両方に表示されます。
 
-詳しくは、[ レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+詳しくは、[&#x200B; レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
 ### 接続されたレコードタイプカードの削除
 

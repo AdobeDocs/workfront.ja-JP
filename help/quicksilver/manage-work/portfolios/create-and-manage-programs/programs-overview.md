@@ -65,7 +65,7 @@ Adobe Workfrontでは、プログラムとは、特性が統一されたプロ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム ]へのアクセス</p>  </td> 
+   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム &#x200B;]へのアクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

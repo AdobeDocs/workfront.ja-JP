@@ -66,7 +66,7 @@ Workfront Planningでユーザーを割り当てることができるアクセ�
 </tbody> 
 </table>
 
-Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
+Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
 +++    
 
 ## Adobe Workfront Planningのアクセスレベル
@@ -76,7 +76,7 @@ Workfront as a スタンドアロンパッケージに必要なアクセスに�
 * 計画管理者
 * 計画標準
 
-各アクセスに含まれる機能について詳しくは、「[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)」を参照してください。
+各アクセスに含まれる機能について詳しくは、「[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)」を参照してください。
 
 Workfront Planningをスタンドアロン製品として使用する場合は、次の点を考慮してください。
 
@@ -105,7 +105,7 @@ Workfront Planningをスタンドアロン製品として使用する場合は�
    Workfront Planningが開きます。
 1. **メインメニュー** > **ユーザー** > **新規ユーザー**&#x200B;をクリックします。
 
-   ![ スタンドアロン計画の新しいユーザーボックス ](assets/new-user-box-planning-sta.png)
+   ![&#x200B; スタンドアロン計画の新しいユーザーボックス &#x200B;](assets/new-user-box-planning-sta.png)
 
 1. **新規ユーザー** ボックスで、次の情報を更新します。
 
@@ -121,7 +121,7 @@ Workfront Planningをスタンドアロン製品として使用する場合は�
 
    * **チーム**: ドロップダウンメニューから、ユーザーに関連付けるチームを選択します。 チームをユーザーに割り当てる前に、チームを作成する必要があります。
 
-     詳しくは、[ チームの管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)を参照してください。
+     詳しくは、[&#x200B; チームの管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)を参照してください。
 
 1. 「**今すぐアップロード**」をクリックしてプロファイル画像を追加し、「**保存**」をクリックします。
 

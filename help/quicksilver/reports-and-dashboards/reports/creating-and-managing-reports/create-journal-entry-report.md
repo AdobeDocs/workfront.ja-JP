@@ -181,7 +181,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅のにある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -255,7 +255,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 1. 「**フィルター**」タブで、**フィルタールールを追加**&#x200B;をクリックし、フィルタールール **フィールド名** > **等しい** > **ステータス**&#x200B;を追加します。
 
-   ![ ジャーナルエントリのステータス フィルター](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![&#x200B; ジャーナルエントリのステータス フィルター](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -381,7 +381,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -452,7 +452,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト >**。
 
-   ![ カスタムフォーム変更フィルター](assets/qs-custom-form-changes-filter-350x92.png)
+   ![&#x200B; カスタムフォーム変更フィルター](assets/qs-custom-form-changes-filter-350x92.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -483,7 +483,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -584,7 +584,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 

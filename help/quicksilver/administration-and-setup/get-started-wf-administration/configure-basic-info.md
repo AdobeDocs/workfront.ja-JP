@@ -89,10 +89,10 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
    | セクション | 詳細情報 |
    |---------|-----------------|
    | **基本情報** | Workfront での基本情報の設定について詳しくは、[基本情報の設定](#configure-basic-info)を参照してください。 |
-   | **ストレージの概要** | ドキュメントのストレージの使用状況と割り当て量の確認について詳しくは、[ ドキュメントのストレージの制限の確認](../../documents/managing-documents/check-document-storage.md)を参照してください。 |
+   | **ストレージの概要** | ドキュメントのストレージの使用状況と割り当て量の確認について詳しくは、[&#x200B; ドキュメントのストレージの制限の確認](../../documents/managing-documents/check-document-storage.md)を参照してください。 |
    | **API キー設定** | API キーの設定について詳しくは、[API キーの管理](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)を参照してください。 |
    | **IP 許可リスト** | ユーザーが Workfront にアクセスするために許可リストに IP アドレスを追加する方法については、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。 |
-   | **メール許可リスト** | メールをメール許可リストに追加する方法について詳しくは、[ メールを設定するを参照してください](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |
+   | **メール許可リスト** | メールをメール許可リストに追加する方法について詳しくは、[&#x200B; メールを設定するを参照してください](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |
 
    <!--
    * **License**

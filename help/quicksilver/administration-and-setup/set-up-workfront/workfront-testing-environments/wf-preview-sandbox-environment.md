@@ -45,7 +45,7 @@ ht-degree: 87%
 
 * カスタム更新サンドボックス
 
-  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[ [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
+  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[&#x200B; [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +90,7 @@ ht-degree: 87%
 >
 >アクセスしている環境の名前（プレビュー）とコードのリリースバージョンがバナーに表示されます。 そのリリースについては、「**[!UICONTROL XXの新機能]**」をクリックしてください。
 >
->![ バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
+>![&#x200B; バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
 
 ## プレビューサンドボックスへのアクセス
 
@@ -192,7 +192,7 @@ SSO を使用している場合はカスタマーサポートチームと協力�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動的に再計算するタイミングを設定できます。 Workfrontでは、毎晩、プロジェクトスコープが変更されたタイミング、またはその両方で、プロジェクトタイムラインを再計算できます。
 
-詳しくは、[ プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
 プレビュー環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的に再計算されません。 プレビュー環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 

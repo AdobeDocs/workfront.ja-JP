@@ -53,9 +53,9 @@ ht-degree: 14%
 >
 >この記事では、WorkfrontまたはWorkflow パッケージも購入した場合のWorkfront計画に関する一般的な情報を説明します。
 >
->Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス ](/help/quicksilver/planning/planning-information.md)を参照してください。
+>Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス &#x200B;](/help/quicksilver/planning/planning-information.md)を参照してください。
 >
->スタンドアロン製品としてのWorkfront Planningについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+>スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ここでは、Workfront Planningの機能を使用するために必要なアクセス権と設定について説明します。
 
@@ -182,7 +182,7 @@ Workfront Planningにアクセスするには、両方のライセンスタイ�
 
 ## アクセスレベルの設定
 
-Workfrontでのアクセス設定について詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+Workfrontでのアクセス設定について詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ## ユーザーへのライセンスの割り当て
 
@@ -229,7 +229,7 @@ Workfront インスタンスのユーザーにWorkfront計画領域を追加ま�
 
 1. **メインメニュー** > **セットアップ** > **インターフェイス** > **レイアウトテンプレート**&#x200B;に移動し、レイアウトテンプレートを開くか作成します。
 
-   レイアウトテンプレートのカスタマイズについて詳しくは、[ レイアウトテンプレートの作成と管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+   レイアウトテンプレートのカスタマイズについて詳しくは、[&#x200B; レイアウトテンプレートの作成と管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
 1. Workfront プランニングへのアクセス権を付与するユーザーにレイアウトテンプレートを割り当てます。
 

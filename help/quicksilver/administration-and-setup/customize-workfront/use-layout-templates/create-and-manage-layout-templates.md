@@ -121,7 +121,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 1. 次の記事で説明するように、引き続きレイアウトテンプレートをテストし、ユーザーが使用できるようにします。
 
-   * [新しいレイアウトテンプレートをテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [新しいレイアウトテンプレートをテスト &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [レイアウトテンプレートの管理アクセス権を付与](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

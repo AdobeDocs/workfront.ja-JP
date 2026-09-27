@@ -41,7 +41,7 @@ Workfrontの統合承認には、ドキュメントのレビューと承認に�
 ## ドキュメントのアップロードとプルーフの作成
 
 1. 新しいドキュメントを追加するプロジェクト、タスク、またはイシューに移動します。
-1. 「**ドキュメント**」タブをクリックし、**新規追加**ドロップダウンメニューをクリックします。
+1. 「**ドキュメント**」タブをクリックし、**新規追加**&#x200B;ドロップダウンメニューをクリックします。
 または
 ドキュメントをドキュメントリストにドラッグ&amp;ドロップします。
 
@@ -109,11 +109,11 @@ To assign participants:
 
 1. アップロードしたドキュメントを選択し、ドキュメントの概要を開きます。
 
-   ![ ドキュメントの概要を開く](assets/open-doc-summary.png)
+   ![&#x200B; ドキュメントの概要を開く](assets/open-doc-summary.png)
 
 1. 「**承認**」セクションまでスクロールし、「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
-1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 1. 「**承認を依頼**」をクリックします。 参加者にはメールで通知されます。
 
@@ -180,11 +180,11 @@ To add a new version:
 
 1. 文書をもう一度選択してから、文書の概要を開きます。
 
-   ![ ドキュメントの概要を開く](assets/open-doc-summary.png)
+   ![&#x200B; ドキュメントの概要を開く](assets/open-doc-summary.png)
 
 1. 「**承認**」セクションまでスクロールし、「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
-1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 1. 「**承認を依頼**」をクリックします。 参加者にはメールで通知されます。
 
@@ -198,7 +198,7 @@ To add a new version:
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. 次のいずれかの決定を選択します。
 

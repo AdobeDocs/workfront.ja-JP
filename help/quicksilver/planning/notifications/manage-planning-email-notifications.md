@@ -49,7 +49,7 @@ ht-degree: 6%
 
 * 誰かがレコードのコメントで自分やチームにタグを付けます
 
-  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[ レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * ビュー、ワークスペース、レコードタイプまたはレコードへのアクセス権を求めるユーザー
 * 誰かが、ビュー、ワークスペース、レコードタイプ、またはレコードに対するアクセス権が付与されたことを確認します
 * Workfront計画リクエストを送信します。 詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください
@@ -99,7 +99,7 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -177,14 +177,14 @@ OLD:
 
 1. （条件付き、オプション）誰かがレコードのコメントで自分またはチームにタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
-   ![ メール通知の例](assets/email-notification-example.png)
+   ![&#x200B; メール通知の例](assets/email-notification-example.png)
 
 1. （オプション）電子メール内の&#x200B;**Workfront** ボックス内のメッセージをクリックします。
 
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
 1. （条件付き）使用可能な場合は、**すべての通知を表示**&#x200B;をクリックします。 <!--check with Lilit - do non-IMS users have this button??-->
-Adobe Experience Cloudで**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
+Adobe Experience Cloudで&#x200B;**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
 
 ## 権限をリクエストおよび付与する際のメール通知を管理します
 
@@ -194,11 +194,11 @@ Adobe Experience Cloudで**通知** ページが開きます。 すべてのAdob
 
    Workfrontで開く権限を要求したオブジェクト。
 
-1. （条件付き）使用可能な場合は、**すべての通知を表示**をクリックします。
-Adobe Experience Cloudで**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
+1. （条件付き）使用可能な場合は、**すべての通知を表示**&#x200B;をクリックします。
+Adobe Experience Cloudで&#x200B;**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
 
 
-権限の要求、付与、または拒否について詳しくは、[ ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
+権限の要求、付与、または拒否について詳しくは、[&#x200B; ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
 
 Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。
 
@@ -213,8 +213,8 @@ Workfront計画の通知の管理について詳しくは、[Adobe Workfront計�
    * **リクエストを承認する**&#x200B;を承認します。 Planning リクエストを承認すると、レコードが作成されます。
    * **却下**&#x200B;してリクエストを却下します。 Workfront Planningでリクエストを却下すると、レコードは作成されません。 リクエストは、ステータスが&#x200B;**Rejected**&#x200B;のリクエスト領域に保存されます。
 
-   ![計画リクエストの「レビューと承認」ボタン ](assets/review-approval-button-with-drop-down-expanded.png)
+   ![計画リクエストの「レビューと承認」ボタン &#x200B;](assets/review-approval-button-with-drop-down-expanded.png)
 
-1. 画面の右上隅にある&#x200B;**通知** アイコン ![通知領域アイコンの統合シェル ](assets/notifications-area-icon-unified-shell.png)をクリックして、**通知** ページにアクセスします。
+1. 画面の右上隅にある&#x200B;**通知** アイコン ![通知領域アイコンの統合シェル &#x200B;](assets/notifications-area-icon-unified-shell.png)をクリックして、**通知** ページにアクセスします。
 
    Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。

@@ -78,7 +78,7 @@ ht-degree: 42%
 
 1. プロジェクトリストを見る。
 1. （必須） プロジェクトの実際の期間の集計平均値を表示するには、グループ化をプロジェクトリストに追加する必要があります。\
-   グループ化の作成について詳しくは、Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)の「[ グループ化の概要」を参照してください。
+   グループ化の作成について詳しくは、Adobe Workfront[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)の「 グループ化の概要」を参照してください。
 1. **ビュー** ドロップダウンメニューを展開し、**ビューをカスタマイズ**&#x200B;を選択します。
 1. 「**列を追加**」をクリックします。
 1. 「**テキストモードに切り替え**」をクリックし、「**テキストモードを編集**」をクリックします。

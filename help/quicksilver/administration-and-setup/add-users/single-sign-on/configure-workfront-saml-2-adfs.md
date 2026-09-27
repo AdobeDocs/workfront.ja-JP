@@ -168,7 +168,7 @@ SAML 2.0 を使用してWorkfront web アプリケーションと Workfront モ�
 
 1. 「**テスト接続**」をクリックします。 正しく設定されていると、次のようなページが表示されます。
 
-   ![SAML 2成功メッセージ ](assets/success-saml-2.png)
+   ![SAML 2成功メッセージ &#x200B;](assets/success-saml-2.png)
 
    >[!NOTE]
    >

@@ -101,7 +101,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。 会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。 詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。 会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。 詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 <div class="preview">
 
@@ -109,7 +109,7 @@ ht-degree: 52%
 
 1. 代理店、場所、コストセンターなどのレートの属性を選択します。
 
-   これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+   これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
    ![新しい請求レートダイアログ](assets/company-billing-rates-090326.png)
 
@@ -121,7 +121,7 @@ ht-degree: 52%
 
    Workfrontでの基本通貨の設定について詳しくは、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
 
-   プロジェクトの通貨の変更について詳しくは、[ プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
+   プロジェクトの通貨の変更について詳しくは、[&#x200B; プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
 
 1. 「[!DNL **請求レート**]」フィールドに、担当業務の請求レートを入力します。
 
@@ -143,7 +143,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。 会社レベルで変更されたレートは、会社が割り当てられたすべてのプロジェクトに影響します。 詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。 会社レベルで変更されたレートは、会社が割り当てられたすべてのプロジェクトに影響します。 詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 </div>
 

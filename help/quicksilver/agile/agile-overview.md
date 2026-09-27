@@ -33,13 +33,13 @@ ht-degree: 44%
 
 [!DNL Workfront] ボードは、チームの共同作業を支援するシンプルでありながら柔軟性の高いツールです。 ボードについては、[ボードの概要](../agile/boards-overview.md)を参照してください。
 
-その他の高度なアジャイルチームツールでは、カンバンとスクラムのどちらかを使用します。 カンバンとスクラムの手法について詳しくは、[ アジャイルチームの編成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の記事[ アジャイル手法の決定](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)を参照してください。
+その他の高度なアジャイルチームツールでは、カンバンとスクラムのどちらかを使用します。 カンバンとスクラムの手法について詳しくは、[&#x200B; アジャイルチームの編成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の記事[&#x200B; アジャイル手法の決定](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)を参照してください。
 
 Workfrontの高度なアジャイル機能を使い始めるには、次のステップに従います。
 
 1. アジャイルチームの編成。
 
-   詳しくは、「[ アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)または[既存のチームをアジャイルチームに変換](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)」の節（[ アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)）を参照してください。
+   詳しくは、「[&#x200B; アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)または[既存のチームをアジャイルチームに変換](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)」の節（[&#x200B; アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)）を参照してください。
 
 1. カンバンまたはスクラムを使用するようにアジャイルチームを設定する。
 
@@ -47,15 +47,15 @@ Workfrontの高度なアジャイル機能を使い始めるには、次のス�
 
 1. カンバンチーム：バックログを管理し、[!UICONTROL かんばん]ボードを作成します。
 
-   詳しくは、[ アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)および[ カンバンの概要](../agile/use-kanban-in-an-agile-team/kanban-overview.md)を参照してください。
+   詳しくは、[&#x200B; アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)および[&#x200B; カンバンの概要](../agile/use-kanban-in-an-agile-team/kanban-overview.md)を参照してください。
 
 1. スクラムチーム：バックログを管理し、イテレーションを作成して、[!UICONTROL スクラム]ボードを作成します。
 
-   詳しくは、[ アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[ イテレーションの概要](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)、[ スクラムボードの概要](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)を参照してください。
+   詳しくは、[&#x200B; アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[&#x200B; イテレーションの概要](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)、[&#x200B; スクラムボードの概要](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)を参照してください。
 
 1. プロジェクトのタスクをチームのバックログまたはストーリーボードに追加します。
 
-   詳しくは、[ アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。[既存のタスクまたは問題を[!UICONTROL  カンバン ] ボード ](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)に追加し、[既存のイテレーションにストーリーを追加する](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
+   詳しくは、[&#x200B; アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。[既存のタスクまたは問題を[!UICONTROL &#x200B; カンバン &#x200B;] ボード &#x200B;](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)に追加し、[既存のイテレーションにストーリーを追加する](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)。
 
 ## プロジェクトでのアジャイルの活用
 

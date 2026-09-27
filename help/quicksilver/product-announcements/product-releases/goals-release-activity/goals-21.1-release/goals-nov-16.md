@@ -54,4 +54,4 @@ Workfront 管理者は、設定のシステム領域で Workfront Goals ライ�
 
 Workfront Goals に表示される情報について詳しくは、[Adobe Workfront Goals での情報のフィルタリング](../../../../workfront-goals/goal-management/filter-information-wf-goals.md)を参照してください。
 
-![目標ページ ](assets/goals-page-with-no-my-teams-tab-350x114.png)
+![目標ページ &#x200B;](assets/goals-page-with-no-my-teams-tab-350x114.png)

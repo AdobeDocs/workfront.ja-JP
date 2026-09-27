@@ -138,7 +138,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 
 詳しくは、[重要な作業項目の優先順位付け](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)を参照してください。
 
-![自分のフォーカス ](assets/my-focus-060226.png)
+![自分のフォーカス &#x200B;](assets/my-focus-060226.png)
 
 ### カレンダービューの使用
 
@@ -152,7 +152,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 >
 >Light、Review、Contributor、およびRequestorのライセンスでは、優先度へのアクセスが制限されています。 これらのライセンスの種類がタスクや問題とどのように関係しているかについて詳しくは、を参照してください
 >
->* [新しいライセンスによるオブジェクトと領域へのアクセス ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [新しいライセンスによるオブジェクトと領域へのアクセス &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 >* [新しいアクセス レベルの各オブジェクト タイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 >* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
 >* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
@@ -166,7 +166,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 
 詳しくは、[優先度](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)でのコメントの追加と表示を参照してください。
 
-![更新、ログ時間、アップロード ](assets/update-log-upload.png)
+![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
 
 ### 時間を記録
 
@@ -174,7 +174,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 
 詳しくは、[優先度に時間を記録する](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)を参照してください。
 
-![更新、ログ時間、アップロード ](assets/update-log-upload.png)
+![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -185,16 +185,16 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 * 追加ファイルの追加
 * 接続されたドキュメント統合からファイルを読み込む
 
-詳しくは、「[優先度でファイルをアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)」を参照してください。
+詳しくは、「[優先度でファイルをアップロード &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)」を参照してください。
 
-![更新、ログ時間、アップロード ](assets/update-log-upload.png)
+![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
 
 
 ### クイックリンクを追加
 
 頻繁に使用するリンクは、作業項目の詳細ページに埋め込むことができます。 クイックリンクを使用すると、リンクに素早くアクセスしたり、リンクをコピーしたりできます。
 
-![ クイックリンク ](assets/quick-links.png)
+![&#x200B; クイックリンク &#x200B;](assets/quick-links.png)
 
 詳細については、[優先順位のクイックリンクの追加と管理](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)を参照してください。
 

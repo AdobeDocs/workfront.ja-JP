@@ -110,7 +110,7 @@ Adobe Workfrontでオブジェクトを共有すると、そのオブジェク�
 1. 「**変更を保存**」をクリックします。
 1. 共有するオブジェクトのリストに移動してオブジェクトを選択し、リストの上部にある「**共有**」アイコンをクリックします。
 
-   オブジェクトの一括共有について詳しくは、[ オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
+   オブジェクトの一括共有について詳しくは、[&#x200B; オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 
 1. 通知を無効にしたユーザーのリストに戻り、同じユーザーを選択します。
 1. リストで同じユーザーを選択し、**通知**/**その他**&#x200B;をクリックします。

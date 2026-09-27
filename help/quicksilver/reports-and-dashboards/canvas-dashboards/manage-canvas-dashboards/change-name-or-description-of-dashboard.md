@@ -34,7 +34,7 @@ ht-degree: 28%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -91,7 +91,7 @@ Canvas ダッシュボードの名前や説明は、作成後に編集できま�
 
 名前または説明を変更する前に、ダッシュボードを作成する必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 
 ## ダッシュボードの名前と説明の変更
@@ -106,7 +106,7 @@ Canvas ダッシュボードの名前や説明は、作成後に編集できま�
 
 1. 名前を変更するダッシュボードをクリックするか、説明を更新します。
 
-1. 画面上部のダッシュボード名の右側にある&#x200B;**詳細** ![詳細アイコン ](assets/details-icon.png) アイコンをクリックします。
+1. 画面上部のダッシュボード名の右側にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/details-icon.png) アイコンをクリックします。
 
 1. 新しい&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;を入力します。
 

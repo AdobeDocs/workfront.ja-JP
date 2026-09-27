@@ -97,13 +97,13 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 リストから 1 つのレポートを共有することも、複数のレポートを共有することも同じです。
 
-1. レポートのリストに移動し、1つまたは複数のレポートを選択し、**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。
+1. レポートのリストに移動し、1つまたは複数のレポートを選択し、**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
 
    または
 
    1つのレポートの名前をクリックし、**レポートアクション** > **共有**&#x200B;をクリックします。 「**共有[ レポート名]**」ボックスが開きます。
 
-   ![共有オプション ](assets/unshimmed-report-actions-sharing.png)
+   ![共有オプション &#x200B;](assets/unshimmed-report-actions-sharing.png)
 
 1. 「**レポートに**&#x200B;へのアクセス権を付与」フィールドで、レポートを共有するユーザー、チーム、担当業務、グループ、または会社の名前を入力し始め、表示されたら選択します。
 
@@ -141,6 +141,6 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
      >[!NOTE]
      >
-     >レポートにプロンプトが表示され、公開されている場合、公開共有リンクを介してレポートを実行しているユーザーは、プロンプトを使用してレポートを実行できません。 ユーザーは、Workfrontにログインして「公開共有」リンクを使用せずにレポートにアクセスしない限り、レポートに適用されたプロンプトを表示せずにレポートを確認できます。 プロンプトを使用したレポートの共有の制限について詳しくは、[ レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事[ プロンプト付きレポートの共有の制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)を参照してください。
+     >レポートにプロンプトが表示され、公開されている場合、公開共有リンクを介してレポートを実行しているユーザーは、プロンプトを使用してレポートを実行できません。 ユーザーは、Workfrontにログインして「公開共有」リンクを使用せずにレポートにアクセスしない限り、レポートに適用されたプロンプトを表示せずにレポートを確認できます。 プロンプトを使用したレポートの共有の制限について詳しくは、[&#x200B; レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事[&#x200B; プロンプト付きレポートの共有の制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)を参照してください。
 
 1. 「**保存**」をクリックします。

@@ -22,7 +22,7 @@ ht-degree: 49%
 問題がある場合は、ボブに連絡してください。
 
 
-![Adobeのロゴ ](assets/adobe-logo-old.png)
+![Adobeのロゴ &#x200B;](assets/adobe-logo-old.png)
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
@@ -65,7 +65,7 @@ ht-degree: 49%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 ## アクセス要件
 
@@ -230,7 +230,7 @@ ht-degree: 49%
    <td> 
 <p>Adobe WorkfrontのワークフローパッケージとAdobe Workfrontプランニングパッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform （****これを呼び出すか、下部のリンクされた記事の一部にするか？??*****）</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform （**&#x200B;**&#x200B;これを呼び出すか、下部のリンクされた記事の一部にするか？??**&#x200B;***）</p></td> 
    <td> 
 <p>Workfront Planningにアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experienceにオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -255,7 +255,7 @@ ht-degree: 49%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 
 

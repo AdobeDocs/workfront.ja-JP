@@ -30,6 +30,6 @@ ht-degree: 58%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [ [!DNL Adobe Workfront]  モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
-* [ [!DNL Adobe Workfront View] の使用](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [ [!DNL Adobe Workfront]  モバイルアプリに関するヒント、テクニック、およびトラブルシューティング](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [&#x200B; [!DNL Adobe Workfront]  モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+* [&#x200B; [!DNL Adobe Workfront View] の使用](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront]  モバイルアプリに関するヒント、テクニック、およびトラブルシューティング](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

@@ -39,7 +39,7 @@ ht-degree: 93%
 
 ポートフォリオまたはプロジェクトポートフォリオ管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストに優先順位を付けて管理するプロセスです。
 
-この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[ ポートフォリオ手法の理解](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
+この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[&#x200B; ポートフォリオ手法の理解](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
 
 ポートフォリオとは、共通のビジネス目標を持つプロジェクトの集まりです。 効果的な PPM 手法の結果、経営陣は次のことが可能になります。
 
@@ -62,7 +62,7 @@ ht-degree: 93%
 
 次の図は、[!DNL Workfront] の PPM プロセスの概要を示しています。
 
-![ プロジェクト ポートフォリオ管理プロセス ](assets/project-portfolio-management-process-diagram.png)
+![&#x200B; プロジェクト ポートフォリオ管理プロセス &#x200B;](assets/project-portfolio-management-process-diagram.png)
 
 * [プロジェクト要求](#project-request)
 * [プロジェクトのレビュー](#project-review)
@@ -81,7 +81,7 @@ ht-degree: 93%
 
 プロジェクト要求を送信すると、ポートフォリオマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、プロジェクトを承認するかどうかを決定します。 プロジェクトが承認されると、そのプロジェクトは会社のプロジェクトポートフォリオに選択されます。
 
-ポートフォリオについて詳しくは、[ポートフォリオの方法論について](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。 ビジネスケースの承認について詳しくは、[ ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
+ポートフォリオについて詳しくは、[ポートフォリオの方法論について](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。 ビジネスケースの承認について詳しくは、[&#x200B; ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
 
 ### ポートフォリオの最適化 {#portfolio-optimization}
 

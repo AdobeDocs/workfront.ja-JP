@@ -127,13 +127,13 @@ To add additional approvers or reviewers from the Document Summary:
 
 1. 追加した各ユーザーについて、承認者かレビュアーかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-reviewer-or-approver.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-reviewer-or-approver.png)
 
 1. 「**保存**」をクリックします。 追加した参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
 >[!TIP]
 >
->基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+>基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 <!--
 ## Add additional approvers or reviewers in the new Documents area in Production
@@ -170,7 +170,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを編集**」をクリックします。 承認を依頼ダイアログが開きます。1段階の承認の場合は「基本」、複数段階の承認の場合は「詳細」と、並行パスを使用する承認の場合は「詳細」の順に選択します。
 
@@ -181,10 +181,10 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. 追加した各ユーザーについて、承認者かレビュアーかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-reviewer-or-approver.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-reviewer-or-approver.png)
 
 1. 「**保存**」をクリックします。 追加した参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
 >[!TIP]
 >
->基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+>基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。

@@ -69,7 +69,7 @@ ht-degree: 99%
 * 次のプランのタイプ
 * 次のプランの支払い方法
 
-  詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md) での支払い方法の選択を参照してください。
+  詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md) での支払い方法の選択を参照してください。
 
 ## [!UICONTROL 請求先および住所]
 
@@ -117,7 +117,7 @@ ht-degree: 99%
 
 ### [!UICONTROL 使用状況の警告]
 
-アカウントの請求先連絡先（1）として設定されている [!DNL Workfront] プルーフ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の[[!UICONTROL プルーフ権限プロファイル]は、アカウントが次の状況に達するとメールで通知されます。
+アカウントの請求先連絡先（1）として設定されている [!DNL Workfront] プルーフ[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の[!UICONTROL プルーフ権限プロファイル]は、アカウントが次の状況に達するとメールで通知されます。
 
 * ストレージ容量の 75％と 98％
 * プルーフ制限の 75％と 100％
@@ -146,7 +146,7 @@ ht-degree: 99%
 
 このセクションには、最近の請求期間のアクティビティが表示されます。 また、このセクションから請求書をダウンロードすることもできます。
 
-詳しくは、「[ [!DNL Workfront Proof] 請求書のダウンロード](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)」を参照してください。
+詳しくは、「[&#x200B; [!DNL Workfront Proof] 請求書のダウンロード](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)」を参照してください。
 
 ## [!UICONTROL 請求アクティビティ]
 

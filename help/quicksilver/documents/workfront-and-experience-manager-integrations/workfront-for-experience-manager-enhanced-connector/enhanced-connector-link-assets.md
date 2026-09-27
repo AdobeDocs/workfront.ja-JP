@@ -106,7 +106,7 @@ Experience Manager Assets から Workfront にアセットをリンクできま�
 
 1. 目的のアセットを選択します。
 
-   ![ アセットを選択](assets/select-an-asset.png)
+   ![&#x200B; アセットを選択](assets/select-an-asset.png)
 
 1. 「**リンク**」をクリックします。
 
@@ -125,7 +125,7 @@ Experience Manager Assets から Workfront にアセットをリンクできま�
 
 1. 目的のフォルダーを選択します。
 
-   ![ フォルダーを選択](assets/select-a-folder.png)
+   ![&#x200B; フォルダーを選択](assets/select-a-folder.png)
 
 1. 「**リンク**」をクリックします。
 
@@ -149,6 +149,6 @@ Experience Manager Assets から新しいバージョンをリンクするには
 
 1. 目的のアセットを選択します。
 
-   ![ アセットを選択](assets/select-an-asset.png)
+   ![&#x200B; アセットを選択](assets/select-an-asset.png)
 
 1. 「**リンク**」をクリックします。

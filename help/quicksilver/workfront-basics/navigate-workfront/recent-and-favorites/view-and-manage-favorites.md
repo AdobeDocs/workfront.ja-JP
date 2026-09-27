@@ -63,7 +63,7 @@ ht-degree: 69%
 
 以前お気に入りに追加した項目を表示するには、次の手順を実行します。
 
-1. 任意の[!DNL Adobe Workfront] ページの右上隅にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン ](assets/favorites-icon.png)をクリックします。
+1. 任意の[!DNL Adobe Workfront] ページの右上隅にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン &#x200B;](assets/favorites-icon.png)をクリックします。
 
 1. **お気に入り**&#x200B;リストで、表示する項目をクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 69%
 
 ### 最近使用した項目をお気に入りに追加
 
-1. 新しい[!DNL Adobe Workfront] エクスペリエンスのページの右上隅にある&#x200B;**[!UICONTROL 最近]** アイコン ![最近アイコン ](assets/recents-icon.png)をクリックします。
+1. 新しい[!DNL Adobe Workfront] エクスペリエンスのページの右上隅にある&#x200B;**[!UICONTROL 最近]** アイコン ![最近アイコン &#x200B;](assets/recents-icon.png)をクリックします。
 1. お気に入りとして保存するアイテムの位置にある星をクリックします。 **お気に入り**&#x200B;メニューに表示される最近使用した項目。
 
    ![最近使用した項目をお気に入りに登録](assets/recents-section.png)
@@ -95,10 +95,10 @@ ht-degree: 69%
 
 ## [!UICONTROL お気に入り]メニューから項目を削除
 
-1. 任意の[!DNL Workfront] ページの右上隅にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン ](assets/favorites-icon.png)をクリックします。
+1. 任意の[!DNL Workfront] ページの右上隅にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン &#x200B;](assets/favorites-icon.png)をクリックします。
 
 1. お気に入りとして削除する項目の上にポインタを合わせて、隣にある「**X**」をクリックします。
 
    または
 
-   お気に入りとして削除するページにアクセスしている場合は、オブジェクト名の横にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン ](assets/remove-favorite-icon.png)をクリックして、**お気に入り** メニューから削除します。
+   お気に入りとして削除するページにアクセスしている場合は、オブジェクト名の横にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン &#x200B;](assets/remove-favorite-icon.png)をクリックして、**お気に入り** メニューから削除します。

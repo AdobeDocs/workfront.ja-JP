@@ -195,7 +195,7 @@ OAuth2 を使用してユーザーをログインするには、次の手順に�
 
 ## 更新アクセストークンの設定
 
-![ アクセストークンのフローを更新](assets/refresh-access-token-flow-350x142.png)
+![&#x200B; アクセストークンのフローを更新](assets/refresh-access-token-flow-350x142.png)
 
 access_token を更新するには、トークンエンドポイントに対して「POST」呼び出しを行う必要があります。 今回は、次のように別のフォームデータを送信します。
 

@@ -67,7 +67,7 @@ ht-degree: 35%
 
 * レコードがワークスペースまたはレコードタイプと共有される際に、継承された権限をオフにすることで、個々のレコードを人物、チーム、役割、グループ、または会社と共有できます。
 
-  詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 
 ## アクセス要件
@@ -117,7 +117,7 @@ ht-degree: 35%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -209,7 +209,7 @@ Old:
 
    レコードの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リンクをコピー**&#x200B;をクリックします。
 
-   レコード行](assets/contextual-menu-for-record-row.png)の![ コンテキストメニュー
+   レコード行![&#128279;](assets/contextual-menu-for-record-row.png)の コンテキストメニュー
 
    リンクがクリップボードにコピーされます。
 
@@ -245,7 +245,7 @@ Old:
 
 ワークスペースに対する管理権限を持つユーザーのみが、そのレコードタイプとレコードを他のユーザーと共有できます。
 
-詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 ## 個人レコードの共有
 
@@ -255,7 +255,7 @@ Old:
 
 1つのレコード、または同時に複数のレコードの権限を一括で調整できます。
 
-詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 
 

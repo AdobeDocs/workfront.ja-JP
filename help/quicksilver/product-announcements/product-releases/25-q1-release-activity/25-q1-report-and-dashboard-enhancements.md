@@ -57,7 +57,7 @@ Data Connectでは、次のエンティティのサポートが追加されま�
 * 労力以外のリソースカテゴリ
 * ユーザーロケーション
 
-詳しくは、[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
+詳しくは、[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
 
 ## ダッシュボードのレポート、外部ページ、カレンダーの上限は25件です
 
@@ -69,7 +69,7 @@ Data Connectでは、次のエンティティのサポートが追加されま�
 
 この制限を超える既存のダッシュボードには、最も上位の25項目のみが表示されるという警告が表示されます。ダッシュボードを編集した後は、ダッシュボードに含まれる項目の数が25以下になるまで保存できません。
 
-詳しくは、[ ダッシュボードの作成](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
+詳しくは、[&#x200B; ダッシュボードの作成](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
 ## Data Connectの初めてのリーダーアカウント作成ボタン
 

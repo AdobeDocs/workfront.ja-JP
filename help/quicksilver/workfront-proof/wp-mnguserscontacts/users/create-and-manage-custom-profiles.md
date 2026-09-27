@@ -57,28 +57,28 @@ ht-degree: 85%
 どちらのセクションでも、アカウント内の次の項目に対する権限を付与できます。
 
 * プルーフ
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 * ファイル
 詳しくは、[ファイルと web コンテンツを  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) にアップロードを参照してください。
 
 * 公開フォルダー
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) でのフォルダー権限についてを参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) でのフォルダー権限についてを参照してください。
 
 * プライベートフォルダー
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) でのフォルダー権限についてを参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) でのフォルダー権限についてを参照してください。
 
 * 連絡先
 詳しくは、[連絡先](https://support.workfront.com/hc/ja-jp/sections/115000920808-Contacts)を参照してください。
 
 * グループ
-詳しくは、[ グループ ](https://support.workfront.com/hc/ja-jp/sections/115000920828-Groups)を参照してください。
+詳しくは、[&#x200B; グループ &#x200B;](https://support.workfront.com/hc/ja-jp/sections/115000920828-Groups)を参照してください。
 
 * タグ
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理を参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理を参照してください。
 
 * カスタムビュー
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) でのカスタムビューの作成と管理を参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) でのカスタムビューの作成と管理を参照してください。
 
 ![Screenshot_2018-04-06_12-20-27.png](assets/screenshot-2018-04-06-12-20-27-350x223.png)
 
@@ -89,49 +89,49 @@ ht-degree: 85%
 次の権限を付与できます。
 
 * アカウント設定の管理
-詳しくは、[ アカウント設定](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings)を参照してください。
+詳しくは、[&#x200B; アカウント設定](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings)を参照してください。
 
 * ユーザーの管理
-詳しくは、[ ユーザー](https://support.workfront.com/hc/ja-jp/sections/115000911887-Users)を参照してください。
+詳しくは、[&#x200B; ユーザー](https://support.workfront.com/hc/ja-jp/sections/115000911887-Users)を参照してください。
 
 * 決定の管理
-詳しくは、「[ プルーフビューアでプルーフを決定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)」を参照してください。
+詳しくは、「[&#x200B; プルーフビューアでプルーフを決定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)」を参照してください。
 
 * パートナーの管理
-詳しくは、[ パートナー](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
+詳しくは、[&#x200B; パートナー](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
 
 * アプリの管理
 詳しくは、[統合](https://support.workfront.com/hc/ja-jp/categories/115000588707-Integrations)を参照してください。
 
 * カスタムフィールドの管理
-詳しくは、[ カスタムフィールドの作成と管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
+詳しくは、[&#x200B; カスタムフィールドの作成と管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
 
 * ドロップゾーンの管理
-詳しくは、[ ドロップゾーン ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)を参照してください。
+詳しくは、[&#x200B; ドロップゾーン &#x200B;](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)を参照してください。
 
 * 高度なワークフローの管理
 詳しくは、[自動ワークフローの概要](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)を参照してください。
 
 * SSOの管理
-詳しくは、 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)の[ シングルサインオンを参照してください。
+詳しくは、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)の シングルサインオンを参照してください。
 
 * アカウント履歴を表示
-詳しくは、[ アクティビティ監査証跡の概要](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)を参照してください。 [!DNL Workfront Proof] 
+詳しくは、[&#x200B; アクティビティ監査証跡の概要](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)を参照してください。 [!DNL Workfront Proof] 
 
 * アカウントのバックアップの表示
-詳しくは、[ データのバックアップ  [!DNL Workfront Proof] を参照してください。](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+詳しくは、[&#x200B; データのバックアップ  [!DNL Workfront Proof] を参照してください。](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
 
 * 請求の管理
 詳しくは、[請求の管理](https://support.workfront.com/hc/ja-jp/sections/115000912187-Managing-your-billing)を参照してください。
 
 * サテライトアカウントの作成
-詳しくは、[ サテライトアカウントの設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)を参照してください。
+詳しくは、[&#x200B; サテライトアカウントの設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)を参照してください。
 
 * 空のゴミ箱
 詳しくは、[でゴミ箱を復元して空にする [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)を参照してください。
 
 * 権限プロファイルの管理
-詳しくは、 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の[ プルーフ権限プロファイルを参照してください。
+詳しくは、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の プルーフ権限プロファイルを参照してください。
 
 * 分析の表示
 
@@ -161,7 +161,7 @@ ht-degree: 85%
 これで、新しいプロファイルが「**[!UICONTROL ユーザー]**」タブで使用できるようになりました。
 
 1. （オプション）新しいユーザーアカウントと既存のユーザーアカウントに新しいプロファイルを割り当てます。
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ## プロファイルの有効化と無効化 {#enabling-and-disabling-a-profile}
 
@@ -169,7 +169,7 @@ ht-degree: 85%
 
 1. 有効または無効にするプロファイルを選択します。
 または
-複数のプロファイルを同時に有効または無効にするには、プロファイルを手動で選択するか、**[!UICONTROL 名前]**を選択してすべてのカスタムプロファイルを選択します。
+複数のプロファイルを同時に有効または無効にするには、プロファイルを手動で選択するか、**[!UICONTROL 名前]**&#x200B;を選択してすべてのカスタムプロファイルを選択します。
    ![Screenshot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
 
 1. **[!UICONTROL その他]**&#x200B;ドロップダウンメニューをクリックし、プロファイルを有効または無効にするかに応じて、次のオプションのどちらかをクリックします。

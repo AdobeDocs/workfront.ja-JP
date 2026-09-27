@@ -48,7 +48,7 @@ ht-degree: 94%
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![Android QR コード ](assets/android-qr-code-350x409.png)
+![Android QR コード &#x200B;](assets/android-qr-code-350x409.png)
 
 ## 現在の状況をお知らせください
 

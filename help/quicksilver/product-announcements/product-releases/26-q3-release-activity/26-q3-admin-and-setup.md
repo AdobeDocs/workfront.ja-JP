@@ -55,12 +55,12 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 >
 >すべての顧客のプレビューと実稼動：2026年7月16日（PT）
 >
->[!BADGE  オフスケジュール ]{type=Neutral}
+>[!BADGE &#x200B; オフスケジュール &#x200B;]{type=Neutral}
 
 「アクセスレベル」ボックスで、次のフィールドが変更されました。
 
 * 「アクセスレベル」ボックスの「ライセンスタイプ」フィールドの名前を「ワークフローライセンスタイプ」に変更しました。 このラベル付けに関する機能の変更はありません。\
-  詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+  詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * Workfront Planning パッケージを購入したお客様に対しては、ユーザーのライセンスをWorkfront Planningに示す新しい「Planning License Type」フィールドが追加されました。
 同じ数のWorkflowおよびPlanning ライセンスを購入したお客様は、次のライセンスタイプを利用できます。
@@ -97,7 +97,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 >
 >Workfront FusionのシナリオやAPI ベースの自動化などの外部統合は、従来のフィールド構造を参照し、変換後に更新が必要になる場合があります。 先行入力フィールドを内部参照フィールドに変換する前に、統合を確認する必要があります。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## ネイティブ参照フィールドでサポートされるデフォルト値ロジック
 
@@ -113,7 +113,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 このネイティブ参照フィールドのロジックタイプは、Workfront APIではなく、ユーザーインターフェイスでのみ使用できます。
 
-詳しくは、[ カスタムフォームとフィールドにロジックルールを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)の記事の[ カスタムフォームにデフォルト値ロジックを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form)を参照してください。
+詳しくは、[&#x200B; カスタムフォームとフィールドにロジックルールを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)の記事の[&#x200B; カスタムフォームにデフォルト値ロジックを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md#add-default-value-logic-to-a-custom-form)を参照してください。
 
 ## カスタムフォームのネイティブフィールドフィルタリングの更新
 
@@ -133,7 +133,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 例えば、「プロジェクト」フィールドフィルターで`?portfolioID={portfolio}.{ID}`を使用し、Portfolio ネイティブフィールドがカスタムフォーム上にある場合、「プロジェクト」フィールドには、選択したポートフォリオ内のプロジェクトのみが表示されます。 「Portfolio」フィールドが空白のままになっている場合は、「プロジェクト」フィールドにすべてのプロジェクトが表示されます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 誤った名前の変更からフィールド名を保護する
 
@@ -147,7 +147,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 フィールド設定パネルのフィールド名は、デフォルトで読み取り専用になりました。 フィールド名は引き続き編集できますが、名前の変更には明示的な確認手順が必要です。 以前に&#x200B;**Name**&#x200B;という名前のフィールドも、技術的な重要性をより反映させるために&#x200B;**API Name**&#x200B;に更新されました。 **Label** フィールドは編集可能なままです。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#notes-on-field-names-and-labels)を参照してください。
 
 ## Workfront オブジェクトの変更履歴を表示する
 
@@ -182,7 +182,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 以前は、Adobe クラウドストレージプロジェクトをレガシーストレージポートフォリオに追加すると、ポートフォリオが自動的にAdobe クラウドストレージに変換されていました。
 
-詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 ## リッチテキストによるテキストの書式設定フィールドタイプへの置き換え
 
@@ -200,7 +200,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 >
 >Workfront FusionのシナリオやAPI ベースの自動化などの外部統合は、従来のフィールド構造を参照し、変換後に更新が必要になる場合があります。 フィールドをリッチテキストに変換する前に、統合を検証する必要があります。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームでサポートされているネイティブの財務フィールド
 
@@ -214,7 +214,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 参照できる財務フィールドは、フォームのタイプによって異なります。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-workfront-native-fields)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-workfront-native-fields)を参照してください。
 
 ## カスタムフォームは、システム全体で共有し、添付ファイルへのアクセス権を持つことが可能
 
@@ -242,4 +242,4 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 新しいシステム環境設定で、一括編集で必須フィールドを適用できるようになりました。 すべての必須フィールドに値が含まれていない限り、一括編集されたオブジェクトを保存しないようにするには、設定/システム/環境設定ページで「**常に一括編集で必須フィールドを適用**」オプションを選択します。
 
-詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。

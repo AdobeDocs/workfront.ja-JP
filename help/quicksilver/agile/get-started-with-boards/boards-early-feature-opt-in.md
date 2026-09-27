@@ -232,7 +232,7 @@ ht-degree: 97%
 
 [!DNL Workfront] 管理者がボードの早期機能を有効にすると、組織内のすべてのユーザーがオプトインします。
 
-ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個人ユーザーまたはグループに対し、[!UICONTROL  メインメニュー]で「ボード」オプションを非表示にできます。 詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個人ユーザーまたはグループに対し、[!UICONTROL &#x200B; メインメニュー]で「ボード」オプションを非表示にできます。 詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 >[!NOTE]
 >

@@ -70,7 +70,7 @@ ht-degree: 88%
 
 他のユーザーのパスワードのリセットについて詳しくは、[ユーザーのプロファイルの編集](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[ グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[&#x200B; グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。
 
 ### グループ管理者用のアクセスレベル設定オプション {#access-level-setup-options-for-group-administrators}
 
@@ -78,7 +78,7 @@ Workfront の管理者は、グループ管理者が他のユーザーとして�
 
 ユーザーのアクセスレベルの設定について詳しくは、[ユーザーへのアクセス権の付与](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[ グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[&#x200B; グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。
 
 ### グループのタイムシートプロファイルを作成 {#create-timesheet-profiles-for-groups}
 
@@ -88,7 +88,7 @@ Workfront の管理者は、グループ管理者が他のユーザーとして�
 
 タイムシートプロファイルの作成について詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[ グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[&#x200B; グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。
 
 ### ユーザーの削除された項目をグループ管理者として復元 {#recover-deleted-items-for-users-as-a-group-administrator}
 
@@ -96,7 +96,7 @@ Workfront の管理者は、グループ管理者が他のユーザーとして�
 
 Workfront で削除した項目を復元する方法について詳しくは、[削除した項目の復元](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[ グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。 
+グループ管理者の機能について詳しくは、[&#x200B; グループを作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の「グループ管理者の機能」の節を参照してください。 
 
 ## HTML5 プルーフビューアの改善  {#html5-proofing-viewer-improvements}
 
@@ -206,7 +206,7 @@ Workfront Proof アカウントに既に存在するドキュメントプルー�
 
 この変更以前は、バックログに追加できたのはタスクだけでした。 イシューを追加する場合は、イシューを追加する前に、まずイシューをタスクに変換する必要がありました。
 
-バックログで問題を使用する方法について詳しくは、[ アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログで問題を使用する方法について詳しくは、[&#x200B; アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
 
 ### アジャイルチームのバックログへのグループ化とフィルターの適用 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -214,7 +214,7 @@ Workfront Proof アカウントに既に存在するドキュメントプルー�
 
 この変更を行う前は、ビューをアジャイルバックログに適用できます。
 
-詳しくは、[ アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の[ アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+詳しくは、[&#x200B; アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の[&#x200B; アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
 
 ### 空白のイテレーションを作成し後で更新する {#create-a-blank-iteration-and-update-it-later}
 

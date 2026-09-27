@@ -45,7 +45,7 @@ Adobe Workfront Planningでは、既存のフィールドを参照し、数式�
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、[ フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
+詳しくは、[&#x200B; フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
 
 <!--
 do we need these for an overview article?
@@ -168,7 +168,7 @@ Old:
   * タグ
   * 日付
 
-  詳しくは、[ フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
+  詳しくは、[&#x200B; フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
 * 新しい数式内の数式フィールドを参照できます。 数式フィールドで参照されているフィールドで値が更新されると、そのフィールドを含むフィールドまたは数式フィールドを参照しているすべての後続フィールドが自動的に更新されます。
 
 * 数式フィールドまたはその影響を与える可能性のあるフィールドを更新すると、変更の影響がアラートで通知されます。 アラートは次の場合に表示されます。

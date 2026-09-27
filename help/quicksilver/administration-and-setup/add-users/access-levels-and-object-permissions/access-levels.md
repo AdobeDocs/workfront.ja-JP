@@ -38,12 +38,12 @@ ht-degree: 71%
 Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てて、オブジェクトの表示や編集のアクセス権を付与できます。 以下の記事では、アクセスレベルの仕組みを説明します。
 
 * [従来のアクセス レベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [ レガシーライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [組み込みの従来のアクセス レベル ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [&#x200B; レガシーライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [組み込みの従来のアクセス レベル &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [従来のアクセス レベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [ ユーザーのアクセス レベルとライセンスを一覧表示します（レガシー） ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [ ライセンスの種類（レガシー）別のオブジェクトとエリアへのアクセス ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [各オブジェクトタイプで使用できる機能（従来のアクセスレベル） ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [&#x200B; ユーザーのアクセス レベルとライセンスを一覧表示します（レガシー） &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [&#x200B; ライセンスの種類（レガシー）別のオブジェクトとエリアへのアクセス &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [各オブジェクトタイプで使用できる機能（従来のアクセスレベル） &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## 関連トピック
 

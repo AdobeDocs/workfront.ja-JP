@@ -19,4 +19,4 @@ ht-degree: 0%
 
 画像の追加
 
-![Adobeのロゴ ](assets/adobe-logo-old.png)
+![Adobeのロゴ &#x200B;](assets/adobe-logo-old.png)

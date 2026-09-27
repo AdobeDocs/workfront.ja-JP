@@ -101,7 +101,7 @@ Adobe Workfront Planningの承認に関連付けられたリクエストフォ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -148,13 +148,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >* Workfront Planningにアクセスできない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認リクエストにのみアクセスできます。
      >* 従来のリクエストエクスペリエンスからPlanning リクエストにアクセスすることはできません。
 
-   * 画面の右上隅にある&#x200B;**通知**&#x200B;領域アイコン ![統合シェル ](assets/notifications-area-icon-unified-shell.png)の通知領域アイコンをクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
+   * 画面の右上隅にある&#x200B;**通知**&#x200B;領域アイコン ![統合シェル &#x200B;](assets/notifications-area-icon-unified-shell.png)の通知領域アイコンをクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
    * 承認待ちのリクエストについて通知するメールのメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
-1. （オプション）リクエストの右上隅にある&#x200B;**承認** アイコン ![承認アイコン ](assets/approvals-icon.png)をクリックして、承認者を表示します。
+   ![&#x200B; レビューステータスの読み取り専用リクエストページ &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
+1. （オプション）リクエストの右上隅にある&#x200B;**承認** アイコン ![承認アイコン &#x200B;](assets/approvals-icon.png)をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックし、次のいずれかを選択します。
 
    * **承認**：これにより、リクエストが承認されます。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードがすぐに作成されます。
@@ -175,7 +175,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. **ホーム**&#x200B;の&#x200B;**マイ承認** ウィジェットに移動します。
 
-   ![ ホームの自分の承認ウィジェット ](assets/my-approvals-widget-in-home.png)
+   ![&#x200B; ホームの自分の承認ウィジェット &#x200B;](assets/my-approvals-widget-in-home.png)
 1. 承認または却下する計画リクエストを探します。
 
 1. （オプション）コメントを追加するには、**承認**&#x200B;または&#x200B;**却下**&#x200B;の横にあるドロップダウン矢印をクリックし、メモに入力して、**追加**&#x200B;をクリックします。

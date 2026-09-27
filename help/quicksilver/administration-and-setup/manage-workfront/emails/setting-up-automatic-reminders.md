@@ -85,7 +85,7 @@ Adobe Workfront管理者は、すべてのタスク、イシュー、または�
 
 自動リマインダーは、Workfront タスクとイシューの設定レベルのリマインダー機能であり、オブジェクトレベルのリマインダー通知機能とは別のものです。 自動リマインダーとリマインダー通知の違いについて詳しくは、[自動リマインダーとリマインダー通知](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)を参照してください。
 
-プルーフとプルーフの決定も、自動リマインダーによって処理されず、別のリマインダープロセスに従います。 プルーフとプルーフの決定のリマインダーについて詳しくは、[ プルーフの通知とリマインダー](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)の記事を参照してください。
+プルーフとプルーフの決定も、自動リマインダーによって処理されず、別のリマインダープロセスに従います。 プルーフとプルーフの決定のリマインダーについて詳しくは、[&#x200B; プルーフの通知とリマインダー](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)の記事を参照してください。
 
 ## 自動リマインダーを使用する際の考慮事項
 

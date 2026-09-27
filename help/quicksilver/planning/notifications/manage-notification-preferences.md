@@ -103,7 +103,7 @@ Workfront計画アクティビティから次の種類の通知を受け取っ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -177,7 +177,7 @@ Old:
 
 Workfront計画の通知の詳細については、次の記事も参照してください。
 
-* レコードに対するコメントについて詳しくは、[ レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+* レコードに対するコメントについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * 承認通知について詳しくは、次の記事を参照してください。
 
   * [Adobe Workfront Planning でのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)
@@ -199,7 +199,7 @@ Workfront計画の通知の詳細については、次の記事も参照して�
 または
 受信を停止する通知の選択を解除します。
 
-   Workfront Planning用![Adobe Experience Cloud通知パネル ](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   Workfront Planning用![Adobe Experience Cloud通知パネル &#x200B;](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfrontでは、次の通知を利用できます。
 
    * **承認**：誰かがプランニングの承認依頼を送信したとき、または自分からプランニング オブジェクトへのアクセスをリクエストしたいときに通知が届きます。
@@ -211,7 +211,7 @@ Workfront計画の通知の詳細については、次の記事も参照して�
      * 変更を送信したWorkfront Planning リクエストのステータス
      * Workfront Planningのリクエストに対する承認のリクエスト、付与または拒否
 
-   通知の管理について詳しくは、[ アカウントの環境設定と通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)を参照してください。
+   通知の管理について詳しくは、[&#x200B; アカウントの環境設定と通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)を参照してください。
 
 <!--
 OLD: notifications are not available to non-IMS customers: 

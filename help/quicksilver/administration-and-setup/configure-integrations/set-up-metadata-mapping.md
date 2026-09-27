@@ -95,7 +95,7 @@ ht-degree: 95%
 
 1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 
-   ![ メタデータマッピング ](assets/metadata-mapping.png)
+   ![&#x200B; メタデータマッピング &#x200B;](assets/metadata-mapping.png)
 
 1. 「**[!UICONTROL マッピングのソース フィールドを選択]**」ボックスで、[!DNL Workfront DAM] にマッピングする Workfront フィールドの名前を一部入力し、名前がリストに表示されたらそれを選択します。
 1. 「**[!UICONTROL マッピングのターゲット フィールドを選択]**」ボックスで、選択した [!DNL Workfront] フィールドの情報を入力するフィールドを選択します。

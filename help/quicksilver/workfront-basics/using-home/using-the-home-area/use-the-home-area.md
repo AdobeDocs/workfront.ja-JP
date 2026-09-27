@@ -36,7 +36,7 @@ ht-degree: 89%
 * [マイ承認ウィジェットを使用した承認の管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [[!UICONTROL ホーム]エリアでの作業およびチームリクエストの管理](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [[!UICONTROL ホーム]エリア内の作業項目の更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-* [[!UICONTROL  ホーム ]領域から作業項目とプロジェクトを作成します](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [[!UICONTROL &#x200B; ホーム &#x200B;]領域から作業項目とプロジェクトを作成します](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [個人用 To Do アイテムの作成と管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [[!UICONTROL ホーム]エリアから作業項目の時間を記録](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)

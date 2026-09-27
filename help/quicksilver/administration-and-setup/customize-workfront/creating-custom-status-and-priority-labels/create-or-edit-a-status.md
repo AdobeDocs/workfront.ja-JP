@@ -87,13 +87,13 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
 1. （条件付き）システム全体で使用するステータスを作成または編集する場合は、右上隅のボックスで「**システムステータス**」が選択されていることを確認してください。
 
-   ![ システムのステータス ](assets/system-statuses-in-upper-rt-corner-new-png.png)
+   ![&#x200B; システムのステータス &#x200B;](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    または
 
    ステータスがグループまたはサブグループの場合は、右上隅にグループの名前を入力し始め、表示されたら選択します。
 
-   ![ グループのシステム状態](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
+   ![&#x200B; グループのシステム状態](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. ステータスに関連付けるオブジェクトタイプ（**プロジェクト**、**タスク**、または&#x200B;**イシュー**）のタブを選択します。
 
@@ -103,7 +103,7 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
    既存のステータスを編集する場合は、そのステータスのチェックボックスをクリックし、画面の下部にあるバナーの「**編集**」をクリックします。
 
-   ![ カスタムステータスを編集](assets/edit-in-banner.png)
+   ![&#x200B; カスタムステータスを編集](assets/edit-in-banner.png)
 
 1. 次のオプションを使用して、ステータスを設定します。
 

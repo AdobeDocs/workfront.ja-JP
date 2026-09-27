@@ -127,7 +127,7 @@ Adobe Expressから、Express テンプレートをニーズに合わせて再�
 
 プロジェクトが選択されていない場合、プルーフはデフォルトでExpress固有のプロジェクトになります。
 
-詳しくは、[ レビューと承認用にテンプレートを送信](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)を参照してください。
+詳しくは、[&#x200B; レビューと承認用にテンプレートを送信](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)を参照してください。
 
 ## リミックスされたExpress ファイルのレビューと承認
 

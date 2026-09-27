@@ -83,7 +83,7 @@ Adobe Cloud Driveをインストールする前に、次の点を確認してく
 * 初期設定と同期のためのインターネット接続
 * パフォーマンスに推奨される安定した接続
 
-Adobe Cloud Driveが依存するサービスに確実にアクセスできるようにするには、[Adobe ネットワークエンドポイント ](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)にリストされているネットワークエンドポイントを許可します。
+Adobe Cloud Driveが依存するサービスに確実にアクセスできるようにするには、[Adobe ネットワークエンドポイント &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)にリストされているネットワークエンドポイントを許可します。
 
 ## インストーラーのダウンロード
 

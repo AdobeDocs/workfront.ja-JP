@@ -26,8 +26,8 @@ ht-degree: 77%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Adobe Workfront View] の基本を学ぶ](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
-* [ [!DNL Adobe Workfront View] でプロジェクトを表示](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-* [ [!DNL Adobe Workfront View] のプロジェクトリストをフィルター](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront View] の基本を学ぶ](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront View] でプロジェクトを表示](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
+* [&#x200B; [!DNL Adobe Workfront View] のプロジェクトリストをフィルター](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
 * [[!UICONTROL プロジェクト詳細]ビューのウィジェットを更新します。](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
-* [ [!DNL Adobe Workfront View] で更新を追加](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront View] で更新を追加](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)

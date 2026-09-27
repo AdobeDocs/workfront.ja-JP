@@ -93,7 +93,7 @@ ht-degree: 93%
 
    1. 元のカスタムフォームから削除する新しいフォームにカスタムフィールドを追加します。
 
-      詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の「[ カスタムフォームに新規または既存のフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)」の節を参照してください。
+      詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の「[&#x200B; カスタムフォームに新規または既存のフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)」の節を参照してください。
 
    1. 新規カスタムフォームを保存します。
 

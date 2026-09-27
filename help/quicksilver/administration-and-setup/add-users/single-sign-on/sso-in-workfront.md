@@ -42,7 +42,7 @@ Workfront で SSO 機能を使用するには、組織で SSO アプリケーシ
 
 連合型ソリューションを使用すると、ユーザーは、一元化されたログインポータルにユーザー名とパスワードを入力して、すべてのアプリケーションにログインできます。
 
-![SSO フェデレーテッド ](assets/overview-sso-wf-fed-only.png)
+![SSO フェデレーテッド &#x200B;](assets/overview-sso-wf-fed-only.png)
 
 
 ## ファイアウォールの設定

@@ -45,9 +45,9 @@ ht-degree: 42%
 >
 >既存のフィールドを非アクティブにすると、その時点からレポート要素やカスタムフォームで使用できなくなります。 非アクティブなフィールドが現在レポートまたはフォームで使用されている場合、そのフィールドと履歴データはそのまま残ります。
 
-カスタムフォームからカスタムフィールドを削除した場合、そのカスタムフィールドは追加された他のすべてのフォームにまだ存在し、フォームまたはフィールド領域で編集できます。 フィールドの削除について詳しくは、[ カスタムフィールドまたはウィジェットをシステムから削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)を参照してください。
+カスタムフォームからカスタムフィールドを削除した場合、そのカスタムフィールドは追加された他のすべてのフォームにまだ存在し、フォームまたはフィールド領域で編集できます。 フィールドの削除について詳しくは、[&#x200B; カスタムフィールドまたはウィジェットをシステムから削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -86,7 +86,7 @@ ht-degree: 42%
 1. **新しいカスタムフィールド**&#x200B;をクリックします。
 1. 表示されるボックスに、追加する項目の必須およびオプション情報を入力します。
 
-   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**作成**」をクリックします。
 
@@ -99,7 +99,7 @@ ht-degree: 42%
 1. カスタムフィールド、セクション区切りまたはウィジェットを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 完了したら、**編集**&#x200B;をクリックします。
 

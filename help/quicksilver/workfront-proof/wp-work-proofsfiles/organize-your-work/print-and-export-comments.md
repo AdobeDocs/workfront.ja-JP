@@ -41,7 +41,7 @@ ht-degree: 39%
 
 * [プルーフビューア](#the-proof-viewer)
 * [プルーフの詳細ページ](#the-proof-details-page)
-* [ [!DNL Proof]  アクションメニュー](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof]  アクションメニュー](#the-proof-actions-menu)
 
 ### プルーフビューア {#the-proof-viewer}
 
@@ -61,7 +61,7 @@ ht-degree: 39%
 
 ### [!DNL Proof] アクションメニュー {#the-proof-actions-menu}
 
-プルーフのコメントの概要を印刷するには、[!UICONTROL  プルーフアクション ] メニューの&#x200B;**[!UICONTROL 印刷]** アイコンをクリックします。
+プルーフのコメントの概要を印刷するには、[!UICONTROL &#x200B; プルーフアクション &#x200B;] メニューの&#x200B;**[!UICONTROL 印刷]** アイコンをクリックします。
 
 リスト表示から[!UICONTROL コメントの概要]ページにアクセスするには、次の手順に従います。
 
@@ -103,7 +103,7 @@ ht-degree: 39%
 
 プルーフアクションメニューから[!DNL Excel]概要をエクスポートするには：
 
-1. プルーフの右側にある&#x200B;**アクション** アイコンをクリックし、**[!UICONTROL [!DNL Excel]の概要]**を選択します。
+1. プルーフの右側にある&#x200B;**アクション** アイコンをクリックし、**[!UICONTROL [!DNL Excel]の概要]**&#x200B;を選択します。
    ![Excelの概要の書き出し](assets/excel-summary-option.png)
 
 プルーフの詳細ページから [!DNL Excel] 概要をダウンロードするには、次の手順に従います。

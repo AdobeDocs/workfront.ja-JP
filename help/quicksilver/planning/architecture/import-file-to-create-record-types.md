@@ -91,7 +91,7 @@ tr&gt;
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -207,7 +207,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
    * 最初のシートまたはレコードタイプが選択され、関連付けられたフィールド名が列ヘッダーとして表示されます。 各フィールドのタイプは、デフォルトで選択されています。
    * 各行は新しいレコードを表します。 「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
-   ![ プレビューと編集ボックス ](assets/preview-and-edit-box.png)
+   ![&#x200B; プレビューと編集ボックス &#x200B;](assets/preview-and-edit-box.png)
 
 1. （オプション）左パネルの各シート名をクリックすると、シートに含まれる情報を確認できます。
 
@@ -223,7 +223,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかを実行します。
 
-   レコードタイプマッピングインポートボックスの![ フィールドタブ ](assets/field-tab-on-record-type-import-mapping-box.png)
+   レコードタイプマッピングインポートボックスの![&#x200B; フィールドタブ &#x200B;](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * フィールドの1つの名前を変更する
    * **フィールドタイプ**&#x200B;の変更
@@ -231,7 +231,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. （オプション）「**接続**」タブをクリックして、列の情報を他のレコードタイプから接続されたフィールドにマッピングします。
 
-   レコードタイプ読み込みマッピングボックスの![接続タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)
+   レコードタイプ読み込みマッピングボックスの![接続タブ &#x200B;](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >

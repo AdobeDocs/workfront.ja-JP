@@ -131,7 +131,7 @@ ht-degree: 98%
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりすることができます。
 
-   ![ リクエストキューURL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![&#x200B; リクエストキューURL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### リクエストタイプを変更できないリクエストキューへのリンクを取得 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -160,7 +160,7 @@ ht-degree: 98%
 
    ユーザーは、選択したリクエストタイプに必要な任意のトピックグループまたはキューのトピックを選択できます。 別のリクエストタイプは選択できません。
 
-   ![ リクエストキューコード ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![&#x200B; リクエストキューコード &#x200B;](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## ダッシュボードへのリクエストキューの埋め込み
 
@@ -174,7 +174,7 @@ ht-degree: 98%
 
 1. 「**外部ページを追加**」をクリックします。
 
-   ![外部ページ ](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![外部ページ &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 「**外部ページを追加**」ボックスで、次のフィールドを編集します。
 

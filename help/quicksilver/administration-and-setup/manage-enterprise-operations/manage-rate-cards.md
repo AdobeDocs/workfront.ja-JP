@@ -24,7 +24,7 @@ ht-degree: 12%
 ---
 # 評価カードを管理
 
-レートカードとは、クライアントとの契約上の契約を表します。この契約では、作業を完了する担当業務に対して時間単位のレートが定義されます。 レートカードでは、代理店、所在地、コストセンターなどの属性にもとづいて、担当業務ごとに複数の請求レートを定義できます。 一意のレート属性は、設定領域で設定されます。 詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+レートカードとは、クライアントとの契約上の契約を表します。この契約では、作業を完了する担当業務に対して時間単位のレートが定義されます。 レートカードでは、代理店、所在地、コストセンターなどの属性にもとづいて、担当業務ごとに複数の請求レートを定義できます。 一意のレート属性は、設定領域で設定されます。 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 例えば、エージェンシーAではパリに拠点を置くDesigner、エージェンシーBではパリに拠点を置く別のDesigner、エージェンシーに割り当てられていないニューヨークに拠点を置く3番目のDesignerの役職があり、それぞれ請求率が異なる場合があります。 ただし、レートカードの担当業務には属性は必要ありません。 属性は、より詳細なコンバージョン率を確立するツールとしての役割を果たします。 レートカードの請求レートは、指定した日付に開始して終了するように、日付に有効にすることもできます。
 
@@ -48,7 +48,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
@@ -71,7 +71,7 @@ ht-degree: 12%
 
    名前は一意である必要があります。
 
-   ![新しいレートカードダイアログ ](assets/new-rate-card-dialog.png)
+   ![新しいレートカードダイアログ &#x200B;](assets/new-rate-card-dialog.png)
 
 1. （オプション）レート カードの&#x200B;[!UICONTROL **グループ**]&#x200B;を選択します。 これはレートカードを定義する代理店です。
 1. （オプション）レート カードの&#x200B;[!UICONTROL **会社**]&#x200B;を選択します。 これは、料金が契約されている顧客です。
@@ -93,7 +93,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+   >これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 1. 請求レートの&#x200B;[!UICONTROL **通貨**]&#x200B;を選択します。
 1. （オプション）担当業務の&#x200B;[!UICONTROL **担当業務エイリアス**]&#x200B;を入力します。
@@ -114,7 +114,7 @@ ht-degree: 12%
 1. （条件付き）この担当業務に複数の請求レートを追加する場合は、次の情報を入力します。
 
    * [!UICONTROL **請求レート**]：期間の請求レートの値。
-   * [!UICONTROL **開始日**]: レートが開始される日付。
+   * [!UICONTROL **開始日**]&#x200B;: レートが開始される日付。
    * [!UICONTROL **終了日**]：レートが終了する日付。
 
      最初の請求レートに開始日を設定する必要はなく、最後の請求レートに終了日を設定する必要もありません。 レート日付間のギャップは許可されますが、重複する日付は許可されません。 ギャップの間、請求料率の階層の他の領域は、タスクの収益タイプに基づいて請求率を決定するために使用されます。 詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)を参照してください。
@@ -122,9 +122,9 @@ ht-degree: 12%
 1. 「[!UICONTROL **保存**]」をクリックします。
 1. （オプション）別の請求率を追加するには、属性が異なる同じ担当業務または別の担当業務の場合は、[!UICONTROL **担当業務を追加**]&#x200B;をクリックします。
 
-   各役割のレートは、作成するときにレートカードに追加されます。 日付に基づく現在有効なレートは、アイコン ![現在のレート アイコン ](assets/current-rate-icon.png)で示されます。
+   各役割のレートは、作成するときにレートカードに追加されます。 日付に基づく現在有効なレートは、アイコン ![現在のレート アイコン &#x200B;](assets/current-rate-icon.png)で示されます。
 
-   ![ レートが表示されたレートカード ](assets/rates-on-rate-card.png)
+   ![&#x200B; レートが表示されたレートカード &#x200B;](assets/rates-on-rate-card.png)
 
 ## レートカードの詳細とレートの編集
 
@@ -167,7 +167,7 @@ ht-degree: 12%
    1. アクションバーの「[!UICONTROL **レートを調整**]」をクリックします。
    1. 「[!UICONTROL **担当業務のレートを調整**]」ボックスで、選択した期間（既存の有効日）にレート調整を行うか、定義したカスタム日付範囲を行うかを選択します。
 
-      ![担当業務の割り当て率の調整ボックス ](assets/adjust-job-role-rates-dialog.png)
+      ![担当業務の割り当て率の調整ボックス &#x200B;](assets/adjust-job-role-rates-dialog.png)
 
    1. レートの調整値を入力します。
 
@@ -180,7 +180,7 @@ ht-degree: 12%
 
 ## レートカードの読み込み
 
-[ テンプレートからレートカードを読み込む](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)の記事を参照してください。
+[&#x200B; テンプレートからレートカードを読み込む](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)の記事を参照してください。
 
 ## レートカードをコピー
 

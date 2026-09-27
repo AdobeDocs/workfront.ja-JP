@@ -107,7 +107,7 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、[アクセ
 
    >[!NOTE]
    >
-   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランキングのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーが自分のアクセスレベルでプロジェクトを削除することを制限できますが、これにより、プロジェクトよりもランクの低いドキュメントの削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[ オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
+   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランキングのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーが自分のアクセスレベルでプロジェクトを削除することを制限できますが、これにより、プロジェクトよりもランクの低いドキュメントの削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[&#x200B; オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
 
 1. （オプション）ドキュメントの継承された権限を上位ランキングのオブジェクトから制限するには、「**追加制限の設定**」を選択し、「**ドキュメントのアクセス権をプロジェクト、タスク、イシューなどから継承しない**」を選択します。
 1. （オプション）作業中のアクセスレベルで他のオブジェクトや他の領域のアクセス権を設定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)のリストに記載されている、[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)や[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)などの記事を参照してください。

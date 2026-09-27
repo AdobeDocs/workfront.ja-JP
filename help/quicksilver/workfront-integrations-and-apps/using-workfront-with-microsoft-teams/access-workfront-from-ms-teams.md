@@ -41,7 +41,7 @@ ht-degree: 90%
 >
 >[Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) の[インストール [!DNL Adobe Workfront] を参照してください。
+>アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams[&#128279;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストール [!DNL Adobe Workfront] を参照してください。
 
 
 [!DNL Workfront] ボットチャネルまたはその他のチームチャネルにいずれかにコマンドを入力することで、[!DNL Microsoft Teams] から [!DNL Adobe Workfront] にアクセスして、[!DNL Workfront] で複数のアクションを実行できます。
@@ -101,7 +101,7 @@ Workfront にログインしている必要があります。
 
 1. プロジェクト、タスクまたはイシューの名前を入力します。
 
-   項目の検索について詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) での  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront]  項目の  [!DNL Adobe Workfront]  項目を検索および共有を参照してください。
+   項目の検索について詳しくは、[&#x200B; [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) での  [!DNL Microsoft Teams]&#x200B;[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article Search for and share [!DNL Adobe Workfront]  項目の  [!DNL Adobe Workfront]  項目を検索および共有を参照してください。
 
 1. 「**[!UICONTROL ここに質問を入力]**」フィールドをクリックします。
 
@@ -125,7 +125,7 @@ Workfront にログインしている必要があります。
 
 1. 「**[!UICONTROL 検索]**」をクリックして、プロジェクト、タスクまたはイシューを検索します。
 
-   項目の検索について詳しくは、 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) 記事に記載される  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront]  項目での項目の[検索と共有 [!DNL Adobe Workfront] を参照してください。
+   項目の検索について詳しくは、 [!DNL Microsoft Teams]&#x200B;[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) 記事に記載される  [!DNL Microsoft Teams]&#x200B;[&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the Search for and share [!DNL Adobe Workfront]  項目での項目の検索と共有 [!DNL Adobe Workfront] を参照してください。
 
 1. 次のいずれかのコマンドを入力して、Workfront でこれらのアクションを実行します。\
    コマンドでは大文字と小文字が区別されません。
@@ -134,7 +134,7 @@ Workfront にログインしている必要があります。
    * **[!DNL Log out]** で Workfront からログアウトする
    * **[!DNL New task]** で新しい個人の仕事を作成する
 
-     [!DNL Microsoft Teams] からのタスクの作成について詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) から  [!DNL Adobe Workfront]  タスクを作成を参照してください。
+     [!DNL Microsoft Teams] からのタスクの作成について詳しくは、[&#x200B; [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) から  [!DNL Adobe Workfront]  タスクを作成を参照してください。
 
    * **[!UICONTROL ヘルプ]**&#x200B;で使用できるすべてのコマンドのリストを表示します。
 

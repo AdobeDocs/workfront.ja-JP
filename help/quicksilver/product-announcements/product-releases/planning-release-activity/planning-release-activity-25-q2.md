@@ -36,7 +36,7 @@ ht-degree: 2%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## 送信後に新しいリクエストを表示するためのリンク
 
@@ -53,7 +53,7 @@ Workfront Planningで送信したリクエストへのアクセス方法が改�
 * レコードタイプページの「新規レコード」または「レコードの要求」ボタンから
 * リクエストの送信用に新しいエクスペリエンスを有効にした後、リクエスト領域から。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## 自動処理を使用して、1つのレコードから複数のオブジェクトを作成する
 
@@ -78,7 +78,7 @@ Workfront Planningで自動処理を使用する場合に、同じWorkfront計�
 
 この機能強化の前は、既存のルックアップフィールドを編集できませんでした。
 
-詳しくは、[ フィールドの編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
+詳しくは、[&#x200B; フィールドの編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
 
 ## レコードタイプから複数のリクエストフォームを設定および管理できます
 
@@ -115,7 +115,7 @@ Workfront オブジェクトから接続されたレコードからすべての�
 
 Workfront オブジェクトに接続されたレコードには、Planning Connection カスタムフィールドに最大7つのルックアップフィールドを追加できます。 この機能強化の一環として、Workfront オブジェクトのカスタム形式で、接続されたレコードとそのフィールドを読みやすい表形式で表示できるようになりました。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## CSVまたはExcel ファイルを使用してレコードをインポートする
 
@@ -152,7 +152,7 @@ WorkfrontとWorkfront Planningの両方のリクエストをメインメニュ�
 
 * 最新の6つのリクエストは、最初に統合検索可能エリアに表示されます。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## リクエストフォームで数式フィールドがサポートされるようになりました
 
@@ -182,7 +182,7 @@ Workfront Planningのレコードタイプのリクエストフォームに数�
 
 * レコードを接続したり切断したりできます。
 
-詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## 数式フィールドに新しい式が追加されました
 
@@ -322,4 +322,4 @@ Workfront Planningで、チーム、担当業務、会社とビューやワー�
 
 その結果、長いレコードタイトルは、詳細ページとプレビューボックスに表示される際に切り捨てられるのではなく、ラップされるようになりました。
 
-レコードのページについて詳しくは、[ レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+レコードのページについて詳しくは、[&#x200B; レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。

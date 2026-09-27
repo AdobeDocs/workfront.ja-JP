@@ -86,7 +86,7 @@ ht-degree: 95%
 
 更新されたリストについて詳しくは、[Adobe Workfront でのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
-![先行入力フィールド ](assets/typeahead-updates-350x336.png)
+![先行入力フィールド &#x200B;](assets/typeahead-updates-350x336.png)
 
 ## システムのアップデートに関するレポート
 
@@ -102,5 +102,5 @@ ht-degree: 95%
 
 以前は、Workfront API を使用してのみ、システムのアップデートをレポートできました。
 
-このレポートとその使用方法について詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+このレポートとその使用方法について詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
 

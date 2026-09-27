@@ -73,8 +73,8 @@ Adobe Workfront for XD プラグインで、アートボードを 1 つの PDF �
 
 詳しくは、次の記事を参照してください。
 
-* [ [!DNL XD]  アートボードをドキュメントとして  [!DNL Workfront] にアップロードする](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [ [!DNL XD]  アートボードをプルーフとして  [!DNL Workfront] にアップロードする](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [&#x200B; [!DNL XD]  アートボードをドキュメントとして  [!DNL Workfront] にアップロードする](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [&#x200B; [!DNL XD]  アートボードをプルーフとして  [!DNL Workfront] にアップロードする](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## Adobe Unified Experience にオンボーディングされる純新規顧客
 

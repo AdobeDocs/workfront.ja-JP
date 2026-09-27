@@ -86,10 +86,10 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
    * <span class="preview"> プレビュー環境で、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーの&#x200B;**編集**&#x200B;をクリックします。</span>
 
    実稼動環境のサンプル画像：
-   ![ カスタム条件を編集](assets/custom-conditions-0825.png)
+   ![&#x200B; カスタム条件を編集](assets/custom-conditions-0825.png)
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![ カスタム条件を編集](assets/edit-conditions-082526.png)
+   ![&#x200B; カスタム条件を編集](assets/edit-conditions-082526.png)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
 
@@ -139,11 +139,11 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    * ユーザーがプロジェクトを編集する場合：
 
-     ![ プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
+     ![&#x200B; プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
 
    * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![ リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
+     ![&#x200B; リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
 
      >[!NOTE]
      >

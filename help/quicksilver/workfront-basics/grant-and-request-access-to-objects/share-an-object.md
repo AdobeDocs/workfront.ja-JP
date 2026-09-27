@@ -51,17 +51,17 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 Workfrontでオブジェクトを共有する方法について詳しくは、次の記事を参照してください。
 
-* プロジェクトについては、[ プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
+* プロジェクトについては、[&#x200B; プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
-* タスクについては、[ タスクの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-task.md)を参照してください。
+* タスクについては、[&#x200B; タスクの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-task.md)を参照してください。
 
 * 問題については、[問題の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
 
-* ポートフォリオについては、[ ポートフォリオの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください
+* ポートフォリオについては、[&#x200B; ポートフォリオの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください
 
-* プログラムについては、[ プログラムの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-program.md)を参照してください。
+* プログラムについては、[&#x200B; プログラムの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-program.md)を参照してください。
 
-* ドキュメントについては、[ ドキュメントの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/document-permissions.md)を参照してください。
+* ドキュメントについては、[&#x200B; ドキュメントの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/document-permissions.md)を参照してください。
 
 * テンプレートについては、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 * プルーフについては、[Workfront Proof でのプルーフの共有](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)を参照してください。

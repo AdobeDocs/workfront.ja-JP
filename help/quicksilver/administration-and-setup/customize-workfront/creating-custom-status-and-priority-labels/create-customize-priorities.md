@@ -70,11 +70,11 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 * 優先度の名前を変更する。
 * 優先度を並べ替える。
 
-  優先順位を並べ替える方法について詳しくは、[ プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
+  優先順位を並べ替える方法について詳しくは、[&#x200B; プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
 
 * デフォルトの優先度を変更する。
 
-  デフォルトの優先度を変更する機能について詳しくは、[ プロジェクト、タスク、またはイシューの優先度の作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
+  デフォルトの優先度を変更する機能について詳しくは、[&#x200B; プロジェクト、タスク、またはイシューの優先度の作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
 
 * 優先度の説明を編集する。
 * 各優先度に色を設定する。
@@ -89,7 +89,7 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 
 * 優先度を非表示にする。
 
-  優先度を非表示にする機能について詳しくは、[ プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
+  優先度を非表示にする機能について詳しくは、[&#x200B; プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
 
   >[!NOTE]
   >
@@ -124,7 +124,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
    * **カラー**：優先度のカラーを選択します。
 
-     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。 グラフレポートについて詳しくは、[レポートへのグラフの追加](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。 アジャイルチーム設定について詳しくは、[ アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。 グラフレポートについて詳しくは、[レポートへのグラフの追加](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。 アジャイルチーム設定について詳しくは、[&#x200B; アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
    * **デフォルトの優先度**：新しく作成されたすべてのプロジェクト、タスク、またはイシューにWorkfrontを自動的に適用する優先度を選択します。
 
@@ -132,7 +132,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
      非表示の優先度をデフォルトにすることはできません。
 
-     デフォルトの優先度は、アイコン ![ デフォルトの優先度アイコン ](assets/default-icon.png)で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの優先度は、アイコン ![&#x200B; デフォルトの優先度アイコン &#x200B;](assets/default-icon.png)で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
      * 優先順位名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**デフォルトにする**」を選択します。
      * 優先順位名にカーソルを合わせ、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。

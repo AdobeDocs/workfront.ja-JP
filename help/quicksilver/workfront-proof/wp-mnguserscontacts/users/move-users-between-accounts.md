@@ -94,11 +94,11 @@ ht-degree: 96%
 
 ### グループ
 
-グループは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) を使用してプルーフグループを作成を参照してください。
+グループは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) を使用してプルーフグループを作成を参照してください。
 
 ### カスタムビュー
 
-個人用カスタムビューは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[ [!DNL Workfront Proof]  プルーフ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)でカスタムビューを作成および管理を参照してください。
+個人用カスタムビューは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[&#x200B; [!DNL Workfront Proof]  プルーフ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)でカスタムビューを作成および管理を参照してください。
 
 ### カスタムフィールド
 

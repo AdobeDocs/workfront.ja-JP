@@ -43,7 +43,7 @@ ht-degree: 9%
 
 * 誰かがレコードのコメントで自分やチームにタグを付けます
 
-  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[ レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * ビュー、ワークスペースまたはレコードへのアクセス権を求めるユーザー
 * 誰かが、ビュー、ワークスペース、またはレコードに対するアクセスが許可されたことを確認します
 
@@ -90,7 +90,7 @@ ht-degree: 9%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -168,9 +168,9 @@ OLD:
 
 ## 誰かがコメントであなたをタグ付けしたときに、アプリ内通知を管理します
 
-1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience Cloud通知アイコン ](assets/experience-cloud-notifications-icon.png)に移動します。
+1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience Cloud通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png)に移動します。
 
-   ![ アプリ内通知の例](assets/in-app-notification-example.png)
+   ![&#x200B; アプリ内通知の例](assets/in-app-notification-example.png)
 
 1. 通知をクリックします。
 
@@ -183,7 +183,7 @@ OLD:
 
 誰かがビュー、ワークスペース、またはレコードタイプに対して権限をリクエストまたは付与すると、アプリ内通知が届きます。<!--<span class="preview">or record</span>-->
 
-権限の要求、付与、または拒否について詳しくは、[ ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
+権限の要求、付与、または拒否について詳しくは、[&#x200B; ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
 
 Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。
 
@@ -191,6 +191,6 @@ Workfront計画の通知の管理について詳しくは、[Adobe Workfront計�
 
 誰かが承認リクエストを送信したとき、または誰かが送信したリクエストを承認したときに、アプリ内通知が届きます。
 
-リクエストの送信について詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+リクエストの送信について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 リクエストの承認について詳しくは、[Adobe Workfront Planningでのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)を参照してください。

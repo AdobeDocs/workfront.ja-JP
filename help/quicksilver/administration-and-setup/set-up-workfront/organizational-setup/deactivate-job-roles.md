@@ -90,7 +90,7 @@ ht-degree: 90%
 * プロジェクトの[!UICONTROL 割り当てをかんばんボードに追加]ダイアログボックス
 * 計画またはイニシアチブの[!UICONTROL 担当業務]フィールド（[!DNL Adobe Workfront Scenario Planner] を使用しているユーザーがいる場合）。
 
-  [!DNL Scenario Planner] は新バージョンの [!DNL Adobe Workfront] でのみ使用可能であり、使用するには追加のライセンスが必要です。 [!DNL Workfront Scenario Planner] については、[ [!DNL Scenario Planner] の概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+  [!DNL Scenario Planner] は新バージョンの [!DNL Adobe Workfront] でのみ使用可能であり、使用するには追加のライセンスが必要です。 [!DNL Workfront Scenario Planner] については、[&#x200B; [!DNL Scenario Planner] の概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 >[!TIP]
 >
@@ -129,7 +129,7 @@ ht-degree: 90%
 
 1. 左パネルで「**[!UICONTROL 担当業務]」をクリックします。**
 1. （オプション）「**[!UICONTROL フィルター]**」リストで「**[!UICONTROL アクティブ]**」を選択して、アクティブな担当業務のみを表示します。
-1. 無効にする担当業務の横にあるチェックボックスを選択し、[!UICONTROL **編集**] アイコン [編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 無効にする担当業務の横にあるチェックボックスを選択し、[!UICONTROL **編集**] アイコン [編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 「**[!UICONTROL はアクティブです]**」フィールドで、**[!UICONTROL No]**&#x200B;を選択します。
 
    ![担当業務を非アクティブ化](assets/edit-job-role.png)

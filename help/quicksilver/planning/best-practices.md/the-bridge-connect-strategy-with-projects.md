@@ -122,7 +122,7 @@ Adobe Workfront Planningの上位レベルの計画とWorkfrontでの日々の�
 
 このアプローチには、Adobe Workfront Fusionのライセンスが必要です。
 
-詳しくは、[Workfront Fusionの設定と管理：記事インデックス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)を参照してください。
+詳しくは、[Workfront Fusionの設定と管理：記事インデックス &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)を参照してください。
 
 * **送信トリガーを使用：** フォームは1つのクリーンな送信イベントを提供するので、Fusion自動処理のトリガーとして使用できます。 Fusion シナリオでは、フォーム送信を検出し、Workfrontでリンクされたプロジェクトを即座に生成できます。
 

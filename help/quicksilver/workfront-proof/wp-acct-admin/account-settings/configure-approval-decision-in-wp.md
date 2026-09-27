@@ -89,7 +89,7 @@ ht-degree: 95%
    ![reasons_setup_2.png](assets/reasons-setup-2-350x146.png)
    最も重要なステップは、理由を表示する必要がある決定を選択することです。 それを忘れると、その理由はプルーフに表示されなくなります。
 
-1. ページ上部にある決定リストの&#x200B;**[!UICONTROL 理由を表示]**列のチェックボックスをオンにします。 理由に対応する決定を 1 つ以上選択できます。
+1. ページ上部にある決定リストの&#x200B;**[!UICONTROL 理由を表示]**&#x200B;列のチェックボックスをオンにします。 理由に対応する決定を 1 つ以上選択できます。
    ![reasons_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
 ## 決定後メッセージの作成
@@ -103,6 +103,6 @@ ht-degree: 95%
 また、メッセージをすべての意思決定者に表示するか、主な意思決定者にのみ表示するかを決定することもできます。
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. **[!UICONTROL メッセージを表示]**列で、このメッセージを表示する決定を指定します。
+1. **[!UICONTROL メッセージを表示]**&#x200B;列で、このメッセージを表示する決定を指定します。
 1 つ以上の決定を選択しない場合、メッセージはプルーフに表示されません。 この列の 1 つ以上のボックスを必ずクリックしてください。
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

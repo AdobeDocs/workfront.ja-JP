@@ -41,7 +41,7 @@ ht-degree: 72%
 
 1. Workfrontの右上隅にある番号付きアイコンをクリックして通知リストを開き、リストの下部にある&#x200B;**すべての通知**&#x200B;をクリックします。
 
-   ![通知アイコン ](assets/notifications-icon-jewel.png)
+   ![通知アイコン &#x200B;](assets/notifications-icon-jewel.png)
 
 
 1. お知らせページの右上隅にある「**設定**」をクリックします。

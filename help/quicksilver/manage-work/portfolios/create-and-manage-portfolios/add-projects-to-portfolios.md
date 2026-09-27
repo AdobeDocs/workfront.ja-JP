@@ -98,7 +98,7 @@ ht-degree: 41%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -135,13 +135,13 @@ Old:
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![ プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![&#x200B; プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -155,7 +155,7 @@ Old:
       <td> <p>新しいプロジェクトを追加します。 </p> <p>プロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New Project （レガシーストレージ） ]</td> 
+      <td role="rowheader">[!UICONTROL New Project （レガシーストレージ） &#x200B;]</td> 
       <td> <p>新しいWorkfront ストレージプロジェクトを追加します。 </p>
       <p>このオプションは、組織がWorkfrontとAdobeの両方のクラウドドキュメントストレージを使用している場合にのみ表示されます。 Workfront インスタンスには、両方のタイプのストレージがない可能性があります。</p>
        <p>プロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
@@ -181,7 +181,7 @@ Old:
 
    <!-- update screen shot for both kinds of storages??-->
 
-   ![新規プロジェクトのドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![新規プロジェクトのドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合、「**プロジェクトを追加**」ボックスが開きます。<!--check this after UI changes-->
 
@@ -200,7 +200,7 @@ Old:
    >* 従来のストレージポートフォリオ内のAdobe クラウドストレージテンプレートからプロジェクトを作成することはできません。
    >* Adobe クラウドストレージポートフォリオの従来のストレージテンプレートからプロジェクトを作成できますが、テンプレート上のドキュメントとフォルダーは新しいプロジェクトに追加されません。 プロジェクトは、Adobe クラウドストレージを受け取ります。
    >
-   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
    >
    >すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
 

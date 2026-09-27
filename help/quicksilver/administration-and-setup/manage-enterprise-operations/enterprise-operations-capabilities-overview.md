@@ -42,13 +42,13 @@ ht-degree: 10%
 
 Workfrontのプロジェクトスナップショットを使用すると、（特定の日時に実行された）スナップショットとプロジェクトの現在のデータとの違いを迅速かつ正確に確認できるので、プロジェクトをより効果的に管理し、より優れた意思決定をおこなうことができます。 スナップショット比較により、プロジェクトがどのように進化したかを並べて確認できます。
 
-詳しくは、[ プロジェクトのスナップショットの作成と表示](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトのスナップショットの作成と表示](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)を参照してください。
 
 ## エンタープライズ権限
 
 ビジネスプロファイルなどの高度なエンタープライズ権限は、安全でスケーラブルなシステムアクセスを提供し、エンタープライズガバナンスの強化に役立ちます。
 
-詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
 ## カスタムフォームとフィールドの機能強化
 
@@ -63,10 +63,10 @@ Workfrontのカスタムフォームロジックの拡張機能は、データ�
 
 Adobe Workfrontでは、ユーザーが入力したラベルにカスタム翻訳を追加できるため、独自の用語やローカルニーズに柔軟に対応できます。 これにより、システム全体で一貫性とアクセス性が高く、グローバルで調整された体験を実現できます。
 
-詳しくは、[ カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+詳しくは、[&#x200B; カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
 
 ## 企業の行動
 
 特定の条件が満たされたときに、作成、編集、または変更されたオブジェクトのアクションを自動化するようにビジネスルールを設定できるようになりました。 使用可能なアクションには、オブジェクトの共有や、カスタムフォームのオブジェクトへの添付などがあります。
 
-詳しくは、[ ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
+詳しくは、[&#x200B; ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。

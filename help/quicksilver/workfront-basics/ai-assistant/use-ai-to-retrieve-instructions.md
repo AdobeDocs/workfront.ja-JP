@@ -33,7 +33,7 @@ ht-degree: 16%
 
 AI アシスタントは、Workfrontのドキュメントから情報を検索できるため、必要なサポートを受けるためにAdobe Experience Leagueにアクセスする必要はありません。
 
-例えば、AI アシスタントに「リクエストキューを作成する方法」を尋ねると、記事[ リクエストキューの作成と管理](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)から取得したリクエストの作成手順が返されます。
+例えば、AI アシスタントに「リクエストキューを作成する方法」を尋ねると、記事[&#x200B; リクエストキューの作成と管理](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)から取得したリクエストの作成手順が返されます。
 
 
 ## アクセス要件
@@ -72,7 +72,7 @@ AI アシスタントは、Workfrontのドキュメントから情報を検索�
 
 AI アシスタントを使用してWorkfront ドキュメントから情報や手順を取得するには、次の手順を実行します。
 
-1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。
+1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。
 1. AI アシスタントパネルで、パネルの下部のテキスト領域にプロンプトを入力します。
 
    AI アシスタントは、プロンプトの規模や複雑さによっては、情報を見つけるのに少し時間がかかることがあります。 シンプルなプロンプトをお勧めします。

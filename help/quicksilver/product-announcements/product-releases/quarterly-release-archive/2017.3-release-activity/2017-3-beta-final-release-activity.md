@@ -147,7 +147,7 @@ Workfrontのスクラムとカンバンのアジャイル手法には、次の�
 
   詳しくは、[アジャイルバーンダウンチャートの概要](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)を参照してください。
 
-アジャイルチームのカンバン手法の有効化と設定について詳しくは、[ アジャイルチームの作成](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の[ アジャイル手法の決定](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)を参照してください。
+アジャイルチームのカンバン手法の有効化と設定について詳しくは、[&#x200B; アジャイルチームの作成](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の[&#x200B; アジャイル手法の決定](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)を参照してください。
 
 ## アジャイルチームのスクラムバックログにイシューを含める {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -161,9 +161,9 @@ Workfrontのスクラムとカンバンのアジャイル手法には、次の�
 
 バックログのタスク以外にもアクセスできるようになったので、バックログでこれまで使用可能だったカスタムタスクビューはすべてコピーされ、カスタムバックログ作業アイテムビューとしてバックログに追加されます。
 
-バックログで問題を使用する方法について詳しくは、[ アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログで問題を使用する方法について詳しくは、[&#x200B; アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
 
-アジャイルスクラムチームのバックログで問題を利用できるようにするには、[作業項目をイテレーションに追加する際に日付を適用する方法の設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) （[ スクラムの設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)）を参照してください。
+アジャイルスクラムチームのバックログで問題を利用できるようにするには、[作業項目をイテレーションに追加する際に日付を適用する方法の設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) （[&#x200B; スクラムの設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)）を参照してください。
 
 ## スクラムアジャイルストーリーボードにイシューを含める {#include-issues-on-the-scrum-agile-story-board}
 
@@ -173,7 +173,7 @@ Workfrontのスクラムとカンバンのアジャイル手法には、次の�
 
 スクラムアジャイル手法を使用する際に、ストーリーボードに問題を含めることができるようになりました。
 
-詳しくは、[ スクラムの設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の「[ アジャイルストーリーボードのステータス列の設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)」を参照してください。
+詳しくは、[&#x200B; スクラムの設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の「[&#x200B; アジャイルストーリーボードのステータス列の設定](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)」を参照してください。
 
 ## アジャイルチームのバックログへのグループ化とフィルターの適用 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -185,7 +185,7 @@ Workfrontのスクラムとカンバンのアジャイル手法には、次の�
 
 この変更を行う前は、ビューをアジャイルバックログに適用できます。
 
-詳しくは、[ アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の[ アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+詳しくは、[&#x200B; アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の[&#x200B; アジャイルバックログの管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
 
 ## 更新やメールのリッチテキスト書式 {#rich-text-formatting-for-updates-and-emails}
 

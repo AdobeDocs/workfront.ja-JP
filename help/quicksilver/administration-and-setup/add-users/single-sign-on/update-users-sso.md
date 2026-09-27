@@ -40,7 +40,7 @@ Adobe Workfront インスタンスでシングルサインオン（SSO）が有�
 
 既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
-Workfront と SSO システムの統合について詳しくは、[](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+Workfront と SSO システムの統合について詳しくは、[&#128279;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 
 ## アクセス要件
@@ -125,7 +125,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
    * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
-     ![ ユーザーの更新CSV](assets/update-users-for-sso-csv-file-for-import.png)
+     ![&#x200B; ユーザーの更新CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. レポートを CSV または TSV ファイルとしてコンピューターに保存します。
 

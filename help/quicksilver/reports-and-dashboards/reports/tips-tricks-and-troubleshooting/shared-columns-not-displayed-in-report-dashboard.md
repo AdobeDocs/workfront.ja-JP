@@ -47,7 +47,7 @@ shortview=true
 
 ## ソリューション
 
-レポートで使用するビューにアクセスし、テキストモードを開きます。 （詳しくは、[ テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください）。 共有/結合された列で使用される列を含め、レポートのすべての列にラベルを付けます。
+レポートで使用するビューにアクセスし、テキストモードを開きます。 （詳しくは、[&#x200B; テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください）。 共有/結合された列で使用される列を含め、レポートのすべての列にラベルを付けます。
 
 ```
 shortview=true

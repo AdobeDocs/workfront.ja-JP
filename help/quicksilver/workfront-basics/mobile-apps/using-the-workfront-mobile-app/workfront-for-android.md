@@ -29,7 +29,7 @@ ht-degree: 94%
 
 [!DNL Adobe Workfront] アプリを使用すると、任意の [!DNL Android] デバイスで作業にアクセスできます。 [!DNL Workfront] モバイルアプリは、[!DNL Android] 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。
 
-モバイルアプリへのログインについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) へのログインの記事で、[ [!DNL Workfront]  モバイルアプリへのログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
+モバイルアプリへのログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) へのログインの記事で、[&#x200B; [!DNL Workfront]  モバイルアプリへのログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
 
 ## [!UICONTROL ホーム]
 
@@ -69,7 +69,7 @@ ht-degree: 94%
 
 ![ボードエリア](assets/mobile-all-boards-displayed.png)
 
-詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ## [!UICONTROL プロジェクト]
 
@@ -124,9 +124,9 @@ ht-degree: 94%
  </tbody>
 </table>
 
-承認について詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
+承認について詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
 
-プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
+プルーフのレビューと承認について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
 
 ![モバイルアプリの承認リスト](assets/mobile-approvals-adobe-350x574.png)
 

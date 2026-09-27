@@ -57,7 +57,7 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
 >これは、システムの特定のエリアに管理者アクセス権をユーザーに付与するアクセスレベルを使用する場合とは異なります。 詳しくは、以下を参照してください。
 >
 >* [特定のエリアに対する管理者アクセス権のユーザーへの付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Workfront管理者のアクセスと、管理者権限を持つ標準ユーザーまたはプランユーザーのアクセス ](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)の比較
+>* [Workfront管理者のアクセスと、管理者権限を持つ標準ユーザーまたはプランユーザーのアクセス &#x200B;](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)の比較
 >
 
 ## アクセス要件

@@ -44,7 +44,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 >[!NOTE]
 >
->アジャイルビューでプロジェクトを表示する場合、カスタムグループステータスをプロジェクトに表示できません。 アジャイルビューでプロジェクトを表示する場合は、デフォルトステータスとカスタムロックされたステータスのみが表示されます。 プロジェクトのアジャイルビューのカスタマイズについて詳しくは、[Adobe Workfrontでのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)の「[ アジャイルビューの作成またはカスタマイズ ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)」の節を参照してください。
+>アジャイルビューでプロジェクトを表示する場合、カスタムグループステータスをプロジェクトに表示できません。 アジャイルビューでプロジェクトを表示する場合は、デフォルトステータスとカスタムロックされたステータスのみが表示されます。 プロジェクトのアジャイルビューのカスタマイズについて詳しくは、[Adobe Workfrontでのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)の「[&#x200B; アジャイルビューの作成またはカスタマイズ &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)」の節を参照してください。
 
 ステータスに関する一般的な情報について詳しくは、[ステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)を参照してください。
 
@@ -80,7 +80,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. ステータスを作成またはカスタマイズするグループの名前をクリックします。
 1. 左側のパネルで、「**ステータス**」をクリックします。
@@ -101,7 +101,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 1. （条件付き）ステータスがイシューステータスの場合、**メインリスト**&#x200B;が選択されていることを確認します。
 
-   ![マスターリスト ](assets/master-list.png)
+   ![マスターリスト &#x200B;](assets/master-list.png)
 
    その他のイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）のカスタマイズについて詳しくは、[デフォルトのイシュータイプのカスタマイズ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)を参照してください。
 
@@ -111,7 +111,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
    既存のステータスを編集する場合は、そのステータスのチェックボックスをクリックし、画面の下部にあるバナーの「**編集**」をクリックします。
 
-   ![ グループステータス ](assets/group-statuses-edit-new.png)
+   ![&#x200B; グループステータス &#x200B;](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
    >
@@ -189,11 +189,11 @@ Workfront 管理者は、システム全体のステータスを作成し、そ�
 1. 編集するステータスのチェックボックスをクリックし、画面下部のバナーにある&#x200B;**編集**&#x200B;をクリックします。
 
 
-   ![ ステータスを編集](assets/group-statuses-edit-new.png)
+   ![&#x200B; ステータスを編集](assets/group-statuses-edit-new.png)
 
 1. 表示される「**ステータスを非表示**」オプションを有効にします。
 
-   ![ ステータスを非表示](assets/hide-group-status.png)
+   ![&#x200B; ステータスを非表示](assets/hide-group-status.png)
 
 1. 「**更新**」をクリックします。
 

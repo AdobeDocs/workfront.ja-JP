@@ -74,7 +74,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 
 * **プルーフ**：詳しくは、[Workfront でのプルーフの共有](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)を参照してください。
 
-* **レポート、ダッシュボード、カレンダー**：詳しくは、[ レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)を参照してください。  さらに、次の記事を参照してください。
+* **レポート、ダッシュボード、カレンダー**：詳しくは、[&#x200B; レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)を参照してください。  さらに、次の記事を参照してください。
 
   * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
   * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
@@ -82,7 +82,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 
 * **フィルター、ビュー、グループ化**：詳しくは、[フィルター、ビューまたはグループ化の共有](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)を参照してください。
 
-* **レートカード**：詳しくは、[ レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)を参照してください。
+* **レートカード**：詳しくは、[&#x200B; レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)を参照してください。
 
 * **計画**：詳しくは、[シナリオプランナーでの計画の共有](../../scenario-planner/share-a-plan.md)を参照してください。
 
@@ -192,7 +192,7 @@ Workfront のオブジェクトの階層と相互依存関係について詳し�
 
 >[!NOTE]
 >
->Workfront管理者は、アクセスレベルのドキュメントに対する継承された権限を無効にできます。  アクセス レベルのドキュメントに対する継承された権限の無効化について詳しくは、[ カスタム アクセス レベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+>Workfront管理者は、アクセスレベルのドキュメントに対する継承された権限を無効にできます。  アクセス レベルのドキュメントに対する継承された権限の無効化について詳しくは、[&#x200B; カスタム アクセス レベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ### 組織のメンバーシップを通じて取得された権限   {#permissions-acquired-through-organizational-memberships}
 

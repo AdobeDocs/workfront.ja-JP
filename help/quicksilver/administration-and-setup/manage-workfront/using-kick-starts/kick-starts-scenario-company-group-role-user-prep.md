@@ -187,7 +187,7 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    企業が既にシステムに存在しない限り、空にする必要があります。
 
-   ![会社シート ](assets/cmpysheet-350x16.png) ![会社ID](assets/companyid--1--350x78.png)
+   ![会社シート &#x200B;](assets/cmpysheet-350x16.png) ![会社ID](assets/companyid--1--350x78.png)
 
 1. **isNew**&#x200B;列に&#x200B;**TRUE**&#x200B;と入力します。
 
@@ -209,7 +209,7 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    Workfront で既にグループを作成している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされたデフォルトグループのみが表示されます。
 
-   ![ グループシート ](assets/groupsheet-350x15.png) ![空のグループシート ](assets/emptygroupsheet-350x85.png)
+   ![&#x200B; グループシート &#x200B;](assets/groupsheet-350x15.png) ![空のグループシート &#x200B;](assets/emptygroupsheet-350x85.png)
 
 1. **isNew**&#x200B;列に&#x200B;**TRUE**&#x200B;と入力します。
 
@@ -219,17 +219,17 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    各行にIDを入力する必要があります。 1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![ グループ ID](assets/groupids-350x85.png)
+   ![&#x200B; グループ ID](assets/groupids-350x85.png)
 
 1. **setName**&#x200B;列に各部門の名前を入力します。
 
-   ![ グループ名](assets/groupnames-350x85.png)
+   ![&#x200B; グループ名](assets/groupnames-350x85.png)
 
 1. **役割** シートに移動します。
 
    アカウントで既に役割を作成または削除している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされた 8 つの役割が表示されます。
 
-   ![ グループ名](assets/groupnames-350x85.png)
+   ![&#x200B; グループ名](assets/groupnames-350x85.png)
 
 1. **isNew**&#x200B;列に&#x200B;**TRUE**&#x200B;と入力します。
 
@@ -255,27 +255,27 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    アカウントで既にユーザーを作成している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされた管理者ユーザーのみが表示されます。
 
-   ![ ユーザーシート ](assets/usersheet-350x16.png) ![空のユーザーシート ](assets/emptyusersheet-350x52.png)
+   ![&#x200B; ユーザーシート &#x200B;](assets/usersheet-350x16.png) ![空のユーザーシート &#x200B;](assets/emptyusersheet-350x52.png)
 
 1. **isNew**&#x200B;列に&#x200B;**TRUE**&#x200B;と入力します。
 
    シナリオによると、6人のユーザーが読み込まれるので、4 ～ 9行の&#x200B;**isNew**&#x200B;列に&#x200B;**TRUE**&#x200B;と入力します。
 
-   ![ ユーザーが新しい](assets/userisnew-350x52.png)
+   ![&#x200B; ユーザーが新しい](assets/userisnew-350x52.png)
 
 1. 一意の&#x200B;**ID**&#x200B;を入力してください。
 
    各行にIDを入力する必要があります。 1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![ ユーザーが新しい](assets/userisnew-350x52.png)
+   ![&#x200B; ユーザーが新しい](assets/userisnew-350x52.png)
 
 1. **setFirstName**&#x200B;列と&#x200B;**setLastName**&#x200B;列に各ユーザーの名前を入力します。
 
-   ![ ユーザー名](assets/usernames-350x52.png)
+   ![&#x200B; ユーザー名](assets/usernames-350x52.png)
 
 1. **setEmail**、**setPassword**、**setUsername**&#x200B;の各列に値を入力して、詳細値を設定します。
 
-   ![ ユーザー資格情報](assets/usercredentials-350x52.png)
+   ![&#x200B; ユーザー資格情報](assets/usercredentials-350x52.png)
 
 1. アクセスレベルの値を指定します。
 
@@ -283,13 +283,13 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    ユーザーおよびアクセスレベルごとに、この手順を繰り返します。
 
-   ![ アクセスレベル IDをコピー](assets/copyalid-350x171.png) ![ アクセスレベル IDを貼り付け](assets/pastealid-350x59.png)
+   ![&#x200B; アクセスレベル IDをコピー](assets/copyalid-350x171.png) ![&#x200B; アクセスレベル IDを貼り付け](assets/pastealid-350x59.png)
 
 1. ユーザーのホームグループの詳細を入力します。
 
    シナリオによると、Chris Manning はマーケティンググループに所属しています。 **グループ** シートで、マーケティンググループのIDを検索してコピーし、**USER** シートで、ユーザーの行の&#x200B;**setHomeGroupID**&#x200B;列に貼り付けます。 &#x200B;ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![ グループ IDをコピー](assets/copygroupid-1-350x133.png) ![ グループ IDを貼り付け](assets/pastegroupid-350x59.png)
+   ![&#x200B; グループ IDをコピー](assets/copygroupid-1-350x133.png) ![&#x200B; グループ IDを貼り付け](assets/pastegroupid-350x59.png)
 
 1. ユーザーの会社の詳細を入力します。
 

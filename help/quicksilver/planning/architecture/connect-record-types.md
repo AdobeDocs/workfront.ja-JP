@@ -77,9 +77,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 接続タイプの一般的な情報については、[接続されたレコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)を参照してください。
 
-レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-レコードタイプとレコードの接続例については、[ レコードタイプとレコードの接続例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
+レコードタイプとレコードの接続例については、[&#x200B; レコードタイプとレコードの接続例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -146,7 +146,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -230,7 +230,7 @@ Old:
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront、AEM、GenStudio Brandsとの新しい接続タブ ](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![Workfront、AEM、GenStudio Brandsとの新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -254,9 +254,9 @@ Old:
      >
      >他のワークスペースでこのレコードタイプへの接続を許可するには、**レコードタイプを編集** ボックスの「**クロスワークスペース設定**」タブにあるレコードタイプに対して、**他のワークスペースでのレコードタイプへの接続を許可する**&#x200B;設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、ワークスペースセクションは表示されません。
      >
-     >詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+     >詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
      >
-     >![ レコードタイプボックスのクロスワークスペース設定タブを編集](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![&#x200B; レコードタイプボックスのクロスワークスペース設定タブを編集](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--
         Old:
@@ -265,7 +265,7 @@ Old:
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-     詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+     詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
      >[!TIP]
      >
@@ -274,7 +274,7 @@ Old:
      >* Windowsの場合はCTRL+K
      >* Macの⌘+K
      >
-     >![ グローバル検索ボックス ](assets/global-search-box.png)
+     >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 
@@ -290,7 +290,7 @@ Old:
      >
      >詳しくは、次の記事を参照してください。
      >* [Adobe Workfront Planningでリクエストフォームを作成および管理](/help/quicksilver/planning/requests/create-request-form.md)
-     >* [ レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
+     >* [&#x200B; レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
 
      <!--see if they fixed the UI here and update the screen shot-->
 
@@ -455,7 +455,7 @@ Old:
    >
    > タイムラインビューとカレンダービューの開始日と終了日としてフィールドを追加できるようにする場合は、ルックアップ日フィールドを追加する際に集計の値を選択する必要があります。 例えば、検索日フィールドにMAXまたはMIN アグリゲーターを選択できます。
 
-   ![ リンクされた数値フィールドの集計ドロップダウン ](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![&#x200B; リンクされた数値フィールドの集計ドロップダウン &#x200B;](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -487,7 +487,7 @@ Old:
    >* **一意**: $100,000
    >
 
-1. （オプション） **検索** アイコン ![検索アイコン ](assets/search-icon.png)を使用して、フィールドを検索します。
+1. （オプション） **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)を使用して、フィールドを検索します。
 
 1. 「**フィールドを追加**」をクリックして変更を保存します。
 
@@ -516,7 +516,7 @@ Old:
    * **フィールドを編集**: フィールドの&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;情報を更新します。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
-   ![ テーブル列のフィールドとルックアップフィールドの編集ドロップダウンメニュー](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![&#x200B; テーブル列のフィールドとルックアップフィールドの編集ドロップダウンメニュー](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    ルックアップフィールドを追加または削除するには、上記の手順16 ～ 17の手順に従います。<!--ensure these step numbers stay accurate-->
 

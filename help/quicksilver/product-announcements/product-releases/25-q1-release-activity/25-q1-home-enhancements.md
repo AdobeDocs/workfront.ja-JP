@@ -35,7 +35,7 @@ ht-degree: 13%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-この概要に含まれる機能の完全なデモについては、以下の[優先度の機能強化のデモビデオ ](#priorities-enhancements-demo-video)を参照してください。
+この概要に含まれる機能の完全なデモについては、以下の[優先度の機能強化のデモビデオ &#x200B;](#priorities-enhancements-demo-video)を参照してください。
 
 ## スマートフィルターを使用して、優先順位で作業を見つける
 
@@ -90,7 +90,7 @@ WorkfrontのAI アシスタントを活用して、24時間、3日、7日とい�
 * プルーフビューアを起動する
 * その他
 
-詳しくは、[ ドキュメントのアップロードとプルーフの作成を優先順位](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)で参照してください。
+詳しくは、[&#x200B; ドキュメントのアップロードとプルーフの作成を優先順位](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)で参照してください。
 
 ## 優先度でカレンダービューを使用できるようになりました
 

@@ -62,7 +62,7 @@ ht-degree: 68%
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -102,7 +102,7 @@ Old:
 >* 画像は、オブジェクト上の[!UICONTROL 更新]タブからアクセスでき、[!UICONTROL メインメニュー]の[!UICONTROL ドキュメント]エリアでも使用できます。
 >* また、この環境設定は、Adobe クラウドストレージを使用して、オブジェクトに画像を添付できるかどうかを制御します。 添付された画像は、Adobe クラウドストレージに保存されます。
 
-1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL 設定]** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
+1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL 設定]** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
 1. 左パネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;を選択します。
 1. 「**[!UICONTROL 環境設定]**」タブを選択します。
 

@@ -38,7 +38,7 @@ ht-degree: 3%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## リクエストフォームで、Adobe Experience Manager アセットとの接続フィールドがサポートされるようになりました
 
@@ -159,7 +159,7 @@ CSVまたはExcel ファイルを読み込むことで、新しいレコード�
 
 追加されたページは読み取り専用です。
 
-詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## リクエスト領域の「送信済み」セクションにある「新しいWorkfront」タブと「計画」タブ
 
@@ -176,7 +176,7 @@ Workfront Planningのレコードタイプにリクエストを追加するに�
 
 「計画」タブが「リクエスト」エリアで利用できるようになる前に、Workfront計画パッケージを購入する必要があります。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## リクエストフォームで追加のフィールドタイプがサポートされるようになりました
 
@@ -217,7 +217,7 @@ Workfront Planningのレコードタイプリクエストフォームに、次�
 
 週ごとにカレンダービューにレコードを表示できるようになりました。 この機能強化の前は、カレンダービューを月単位でのみ表示していました。
 
-詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 削除されたレコードの復元
 
@@ -324,6 +324,6 @@ Workfront オブジェクトをWorkfront計画レコードに引き続きブリ�
 
 Workfront オブジェクトのPlanning接続フィールドの一括編集はまだ使用できません。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 [この機能のデモ動画を見る](https://video.tv.adobe.com/v/3435633/){target=_blank}

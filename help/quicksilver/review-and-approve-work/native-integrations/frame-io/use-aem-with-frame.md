@@ -44,7 +44,7 @@ ht-degree: 56%
 ---
 # Adobe Experience ManagerとWorkfrontおよびAdobe クラウドストレージの併用
 
-[!DNL Experience Manager Assets]}&#x200B;を使用して、レビューと承認サイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
+[!DNL Experience Manager Assets]&rbrace;&#x200B;を使用して、レビューと承認サイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
 ## Experience Manager Assets統合の設定
 
@@ -152,7 +152,7 @@ ht-degree: 56%
 1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
-1. Workfront でカスタムフォームフィールドを設定します。 [!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。 ただし、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)で説明しているように、独自のカスタムフィールドを作成することもできます。
+1. Workfront でカスタムフォームフィールドを設定します。 [!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。 ただし、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)で説明しているように、独自のカスタムフィールドを作成することもできます。
 
 +++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開** 
 
@@ -228,7 +228,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. [!DNL Experience Manager Assets] フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 および 3 を繰り返します。
    ![メタデータフィールド](assets/metadata-no-asset-toggle.png)
-1. [!UICONTROL **保存**]&#x200B;をクリックするか、この記事の[ オブジェクトメタデータ同期](#object-metadata-sync) セクションに移動します。
+1. [!UICONTROL **保存**]&#x200B;をクリックするか、この記事の[&#x200B; オブジェクトメタデータ同期](#object-metadata-sync) セクションに移動します。
 
 
 
@@ -285,7 +285,7 @@ Workfront から Experience Manager Assets または Assets Essentials にユー
 
 1. コンテンツをリンクするWorkfront オブジェクトに移動します。
 1. 左側のパネルで「**ドキュメント**」セクションをクリックします。
-1. ページの右側にある&#x200B;**新規**&#x200B;をクリックし、**AEM ファイル**をクリックして個々のアセットをリンクします。
+1. ページの右側にある&#x200B;**新規**&#x200B;をクリックし、**AEM ファイル**&#x200B;をクリックして個々のアセットをリンクします。
    ![AEM ファイルをドキュメント領域に追加](assets/aem-files.png)
 
 1. Content Advisorを使用すると、次のことが可能になります。

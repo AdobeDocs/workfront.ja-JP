@@ -39,9 +39,9 @@ ht-degree: 99%
 >
 >[Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) の[インストール [!DNL Adobe Workfront] を参照してください。
+>アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams[&#128279;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストール [!DNL Adobe Workfront] を参照してください。
 
-チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。 そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。 [!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
+チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。 そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。 [!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[&#x200B; [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ ht-degree: 99%
 1. （オプション）リクエストキューで使用可能な場合は、トピックグループまたはキューのトピックを選択します。
 1. 次の情報を指定します。
 
-   （リクエストキューの設定方法に応じて、オプションとボックスは異なる場合があります。 使用可能なフィールドの完全なリストと説明については、[ [!DNL Adobe Workfront]  リクエストを作成して送信](../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください）
+   （リクエストキューの設定方法に応じて、オプションとボックスは異なる場合があります。 使用可能なフィールドの完全なリストと説明については、[&#x200B; [!DNL Adobe Workfront]  リクエストを作成して送信](../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください）
 
    <table style="table-layout:auto"> 
     <col> 

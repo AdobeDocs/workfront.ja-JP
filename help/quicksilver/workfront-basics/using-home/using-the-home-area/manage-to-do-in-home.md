@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホームでのTo Do アイテムの作成と管理
-description: '[!UICONTROL  ホーム ]領域から個人のTo Do アイテムを作成できます。'
+description: '[!UICONTROL &#x200B; ホーム &#x200B;]領域から個人のTo Do アイテムを作成できます。'
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
@@ -24,7 +24,7 @@ ht-degree: 14%
 ---
 # 個人用 To Do アイテムの作成と管理
 
-[!UICONTROL  ホーム ] エリアのTo-dos ウィジェットで、個人のTo-Do アイテムを作成できます。 ToDo アイテムは、自分で作成した個人的なタスクです。
+[!UICONTROL &#x200B; ホーム &#x200B;] エリアのTo-dos ウィジェットで、個人のTo-Do アイテムを作成できます。 ToDo アイテムは、自分で作成した個人的なタスクです。
 
 個人タスクレポートでは、自分と他のユーザーが個人タスクを表示できます。 その後、必要に応じてプロジェクトに追加することができます。
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 1. 個人のToDo項目の名前を入力し、「Enter」をクリックします。
 1. （オプション） **日付** アイコン ![](assets/date-icon.png)をクリックして、アイテムの期日を追加します。
    ![](assets/my-work-to-dos.png)
-1. （オプション）個人用タスクレポートまたはフィルターを作成します。 個人タスクフィルターの作成について詳しくは、[ フィルター：個人タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
+1. （オプション）個人用タスクレポートまたはフィルターを作成します。 個人タスクフィルターの作成について詳しくは、[&#x200B; フィルター：個人タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
 個人タスクレポートでは、ToDo項目だけでなく、他のユーザーのToDo項目も表示できます。
 
 

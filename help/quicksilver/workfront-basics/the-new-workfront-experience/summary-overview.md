@@ -119,11 +119,11 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
 1. タスクまたはイシューに移動し、リストからアイテムを選択します。
-1. 新しいツールバー](assets/qs-summary-in-new-toolbar-small.png)の&#x200B;**[!UICONTROL 概要]** アイコン ![概要をクリックします
+1. 新しいツールバー![&#128279;](assets/qs-summary-in-new-toolbar-small.png)の&#x200B;**[!UICONTROL 概要]** アイコン 概要をクリックします
 
    または
 
-   [!UICONTROL  リクエスト ] エリアの「[!UICONTROL 送信済み]」セクションにある「**[!UICONTROL 概要を開く]**」アイコン「![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)」をクリックします。
+   [!UICONTROL &#x200B; リクエスト &#x200B;] エリアの「[!UICONTROL 送信済み]」セクションにある「**[!UICONTROL 概要を開く]**」アイコン「![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)」をクリックします。
 
    概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
@@ -135,13 +135,13 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
-   * タスクまたは問題リストで、**[!UICONTROL 概要を開く]** アイコン ![概要パネルアイコン ](assets/summary-panel-icon.png)をクリックします
+   * タスクまたは問題リストで、**[!UICONTROL 概要を開く]** アイコン ![概要パネルアイコン &#x200B;](assets/summary-panel-icon.png)をクリックします
 
      または
 
      [!UICONTROL 概要]パネルの右上隅にある **X** アイコンをクリックします。
 
-   * [!UICONTROL  リクエスト ]領域の[!UICONTROL 送信済み] セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![概要をテキストで閉じる](assets/close-summary-with-text-nwe.png)をクリックします
+   * [!UICONTROL &#x200B; リクエスト &#x200B;]領域の[!UICONTROL 送信済み] セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![概要をテキストで閉じる](assets/close-summary-with-text-nwe.png)をクリックします
 
      または
 

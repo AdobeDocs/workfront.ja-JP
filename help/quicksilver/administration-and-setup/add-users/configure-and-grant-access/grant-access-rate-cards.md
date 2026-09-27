@@ -24,9 +24,9 @@ ht-degree: 49%
 ---
 # レートカードへのアクセス権の付与
 
-Adobe Workfront管理者は、[ アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明されているように、ユーザーのアクセスレベルを通じてレートカードへのユーザーのアクセス権を定義できます。
+Adobe Workfront管理者は、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明されているように、ユーザーのアクセスレベルを通じてレートカードへのユーザーのアクセス権を定義できます。
 
-レートカードについて詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+レートカードについて詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +67,7 @@ Workfrontでレートカードへのアクセスを許可する場合は、次�
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. レートカードの右側にある&#x200B;**表示**&#x200B;または&#x200B;**編集** ボタンの歯車アイコン ![](assets/gear-icon-settings.png)をクリックし、**設定を微調整**&#x200B;の下で付与する機能を選択します。
 
-   ![ レート カード アクセスの微調整](assets/rate-card-access-fine-tune.png)
+   ![&#x200B; レート カード アクセスの微調整](assets/rate-card-access-fine-tune.png)
 
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス権を設定するには、[タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)などの、[Adobe Workfront へのアクセス権を設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事に従って、作業を続けます。
 1. 完了したら「**保存**」をクリックします。
@@ -76,7 +76,7 @@ Workfrontでレートカードへのアクセスを許可する場合は、次�
 
 ## 共有レートカードへのアクセス
 
-[ レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)で説明しているように、レートカードを他のユーザーに権限を付与することで、レートカードを他のユーザーと共有できます。
+[&#x200B; レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)で説明しているように、レートカードを他のユーザーに権限を付与することで、レートカードを他のユーザーと共有できます。
 
 別のユーザーとオブジェクトを共有する場合、そのオブジェクトに対する受信者の権限は次の 2 つ項目の組み合わせによって決まります。
 

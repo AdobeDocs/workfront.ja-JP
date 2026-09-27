@@ -114,7 +114,7 @@ Adobe管理者は、Adobe Admin ConsoleのWorkfront製品プロファイルに�
 * このユーザーはどのホームチームに所属すべきですか？ このユーザーは複数のチームに所属する必要がありますか？ チームについて詳しくは、[チームの概要](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
 * このユーザーに関連付ける必要があるカスタム情報は何ですか？
 
-  ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。 カスタムフォームについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+  ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。 カスタムフォームについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## プロジェクトをゼロから作成
 
@@ -181,7 +181,7 @@ Adobe管理者は、Adobe Admin ConsoleのWorkfront製品プロファイルに�
 
 {{step-1-to-users}}
 
-1. コピーするユーザーを選択し、コピーアイコン ![ コピーアイコン ](assets/copy-icon.png)をクリックします。
+1. コピーするユーザーを選択し、コピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)をクリックします。
 1. 表示される「**ユーザーのコピー**」ボックスで、新規ユーザーに使用可能なフィールドを編集します。
 
    ユーザーに関連付けられているすべてのフィールドについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。

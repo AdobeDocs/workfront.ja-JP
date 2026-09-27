@@ -84,7 +84,7 @@ Adobe Workfrontには、計画段階でプロジェクトに関連付けて、�
 
 リスクタイプとは、レポート用にリスクを分類するために使用できるラベルです。
 
-[!DNL Workfront]管理者は、[!UICONTROL **セットアップ**]&#x200B;領域で[!UICONTROL  リスクタイプ ]を作成できます。
+[!DNL Workfront]管理者は、[!UICONTROL **セットアップ**]&#x200B;領域で[!UICONTROL &#x200B; リスクタイプ &#x200B;]を作成できます。
 
 リスクタイプを設定した後は、システムに対して共通です。
 
@@ -110,7 +110,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
    「[!UICONTROL **リスクタイプを編集**]」ボックスが開きます。
 
-   ![ リスクタイプボックスの編集](assets/edit-risk-type-box.png)
+   ![&#x200B; リスクタイプボックスの編集](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -167,7 +167,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
    「**新しいリスクの種類**」ボックスが開きます。
 
-   ![新しいリスク タイプ ボックス ](assets/new-risk-type-box.png)
+   ![新しいリスク タイプ ボックス &#x200B;](assets/new-risk-type-box.png)
 
 1. リスクの種類に「**[!UICONTROL 名前]**」（必須）と「**[!UICONTROL 説明]**」（オプション）を追加します。
 

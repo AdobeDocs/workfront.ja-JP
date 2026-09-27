@@ -69,7 +69,7 @@ ht-degree: 19%
 
 * 環境プロモーションパッケージは、ロールバックする前にインストールする必要があります。
 
-  手順については、[環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。
+  手順については、[環境プロモーションパッケージのインストール &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。
 
 
 ## 特定のパッケージのデプロイメントをロールバックできるかどうかを確認します

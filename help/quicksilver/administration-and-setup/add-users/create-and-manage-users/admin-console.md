@@ -192,7 +192,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
    ユーザーは、組織の Workfront パッケージに応じて、要求者またはコントリビューターのアクセスレベルで Workfront に作成されます。
 
-   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
+   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
 
    >[!IMPORTANT]
    >
@@ -261,7 +261,7 @@ Adobe Admin Consoleでのユーザーの一括編集について詳しくは、�
 >* ユーザーがAdmin Console ユーザーグループに属しており、そのユーザーグループの1つ以上に製品プロファイルが追加されている場合、Workfrontからユーザーを非アクティブ化しても、実際には製品から削除されません。 Admin Consoleのユーザーグループからユーザーを削除する必要があります。
 >* Adobe Admin Consoleからユーザーを削除すると、Workfrontではユーザーが無効になりますが、Workfrontからは削除されません。
 
-Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[ ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
+Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[&#x200B; ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

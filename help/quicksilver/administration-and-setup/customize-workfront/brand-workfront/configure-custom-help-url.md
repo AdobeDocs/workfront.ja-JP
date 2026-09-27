@@ -32,11 +32,11 @@ ht-degree: 37%
 
 組織でのWorkfrontの使用方法に関する情報を含むカスタム内部ヘルプサイトを作成する場合は、メインメニューヘルプアイコンを設定して、そのサイトに移動できます。
 
-![ カスタムヘルプボタン ](assets/custom-help-with-left-menu.png)
+![&#x200B; カスタムヘルプボタン &#x200B;](assets/custom-help-with-left-menu.png)
 
 これは、Workfront ヘルプサイトに移動するWorkfront全体のコンテクストに応じたヘルプリンクには影響しません。
 
-Workfrontで設定したカスタムヘルプ URLと通常のWorkfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Adobe Workfront ヘルプへのアクセス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)を参照してください。
+Workfrontで設定したカスタムヘルプ URLと通常のWorkfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Adobe Workfront ヘルプへのアクセス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)を参照してください。
 
 ## アクセス要件
 

@@ -40,7 +40,7 @@ web ページから静的プルーフを作成できます。 さらに、キャ
 
 ## Web サイトの静的プルーフを作成
 
-1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成の説明に従って、[!UICONTROL 新しいプルーフ]ページを開きます。
+1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成の説明に従って、[!UICONTROL 新しいプルーフ]ページを開きます。
 1. URL を「**www.shareyourlink.com**」ボックスにペーストするか入力します。
 1. この手順を繰り返して、複数の URL を追加できます。
 1. このボックスのすぐ下で、解像度（デフォルトは 1366 x 768）をクリックし、「**[!UICONTROL スクリーンショットの解像度]**」ボックスで目的の解像度を選択します。
@@ -50,7 +50,7 @@ web ページから静的プルーフを作成できます。 さらに、キャ
    [!DNL Workfront Proof] は、接続されているページをスキャンし、「**[!UICONTROL サブページを探す]**」オプションの下に一覧表示します。 含めるページを選択できます。
 
 1. [!UICONTROL プルーフを結合]機能を使用すると、すべての web ページを単一の複数ページプルーフとして送信できます。
-1. 「**[!UICONTROL 完了]**」をクリックし、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成の説明に従って、プルーフの設定を終了します。
+1. 「**[!UICONTROL 完了]**」をクリックし、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成の説明に従って、プルーフの設定を終了します。
 
 ## パスワードで保護されたページおよび認証が必要なページについて
 
@@ -70,7 +70,7 @@ web ページから静的プルーフを作成できます。 さらに、キャ
 
 ## Web サイトの静的プルーフの処理について
 
-* アニメーション、埋め込みビデオ、スクリプト、インタラクションは、web サイトの静的プルーフに含めることはできません。 インタラクティブコンテンツのプルーフを行う場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成にある[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+* アニメーション、埋め込みビデオ、スクリプト、インタラクションは、web サイトの静的プルーフに含めることはできません。 インタラクティブコンテンツのプルーフを行う場合は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成にある[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 * プルーフページは、通常、1 ページあたり約 20 秒のペースで取り込みの準備がされます。 ただし、準備の総時間は、ページがホストされているサーバーによっても異なります。 ツールは、送信されたそれぞれの URL が読み込まれるまで、60 秒待機します。 この待機時間を超えると、プルーフは失敗します。
 * 組み合わせプルーフの場合、いずれかの URL がキャプチャツールに応答しない場合、プルーフは失敗します。

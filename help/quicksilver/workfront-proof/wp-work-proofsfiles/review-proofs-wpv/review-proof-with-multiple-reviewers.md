@@ -45,4 +45,4 @@ ht-degree: 99%
 
 1. （オプション）プレゼンスインジケーターの上にマウスを合わせると、ユーザーの名前が表示されます。
 
-   ![ プルーフプレゼンス ](assets/proof-presence.png)
+   ![&#x200B; プルーフプレゼンス &#x200B;](assets/proof-presence.png)

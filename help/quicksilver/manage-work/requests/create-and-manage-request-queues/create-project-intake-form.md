@@ -108,7 +108,7 @@ Workfront プロジェクト取り込みフォームは、作成されたプロ�
 
 プロジェクト受注フォームは、新しいリクエスト側エクスペリエンスでのみ使用できます。
 
-新しいリクエスト用エクスペリエンスについて詳しくは、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+新しいリクエスト用エクスペリエンスについて詳しくは、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 #### 共有
 
@@ -171,7 +171,7 @@ Workfront プロジェクト取り込みフォームは、作成されたプロ�
    * **説明テキスト**
    * **セクション区切り**
 
-   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. フォームの左側にある「**自動化**」タブをクリックし、次のいずれかの操作を行います。
 
@@ -192,7 +192,7 @@ Workfront プロジェクト取り込みフォームは、作成されたプロ�
    * プロジェクトが承認または却下される前に、あらゆる承認者が決定する必要があります。
    * チームが承認者として設定されている場合、チームから必要な決定はひとつだけです。
 
-     リクエストフォームへの承認の追加について詳しくは、[ リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
+     リクエストフォームへの承認の追加について詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
 1. （オプション）ヘッダーのフォーム名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックしてフォーム名を更新します。
 

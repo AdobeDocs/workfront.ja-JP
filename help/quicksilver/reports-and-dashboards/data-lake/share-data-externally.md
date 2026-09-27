@@ -107,7 +107,7 @@ Microsoft Power BIのData Connectへのトラフィックは、1つの固定ア�
 
 ### AzureのIP範囲とサービスタグ用の公式Microsoft ソース
 
-Microsoftは、[Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ ](https://www.microsoft.com/en-us/download/details.aspx?id=56519)でリストを公開します。 現在のJSON ファイルをダウンロードします（ファイル名は通常`ServiceTags_Public_YYYYMMDD.json`に似ています）。 Microsoftがこのファイルを更新する場合、またはMicrosoftの変更後に接続性の問題が発生する場合は、の許可リストを更新します。
+Microsoftは、[Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=56519)でリストを公開します。 現在のJSON ファイルをダウンロードします（ファイル名は通常`ServiceTags_Public_YYYYMMDD.json`に似ています）。 Microsoftがこのファイルを更新する場合、またはMicrosoftの変更後に接続性の問題が発生する場合は、の許可リストを更新します。
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ JSON ファイルには、多数の地域を集約し、数百のCIDR ブロッ�
 
 MicrosoftからIP範囲を収集し、Workfront許可リストに追加するには：
 
-1. [Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ ](https://www.microsoft.com/en-us/download/details.aspx?id=56519)を開き、サービスタグ JSON ファイルをダウンロードし、ローカルに保存します（例：`Downloads\ServiceTags_Public_YYYYMMDD.json`）。
+1. [Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=56519)を開き、サービスタグ JSON ファイルをダウンロードし、ローカルに保存します（例：`Downloads\ServiceTags_Public_YYYYMMDD.json`）。
 
 1. Visual Studio Codeなど、大きなJSONを適切に処理する任意のエディターでファイルを開きます。
 
@@ -195,7 +195,7 @@ MicrosoftからIP範囲を収集し、Workfront許可リストに追加するに
 
 1. 左側のパネルで、**システム**/**データ接続**&#x200B;をクリックします。
 
-1. **許可されたIP** タブをクリックし、削除するIP アドレスの右側にあるゴミ箱アイコン ![削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
+1. **許可されたIP** タブをクリックし、削除するIP アドレスの右側にあるゴミ箱アイコン ![削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして確認し、**削除**&#x200B;をクリックします。
 

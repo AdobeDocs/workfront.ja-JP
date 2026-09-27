@@ -64,7 +64,7 @@ Workfrontに、スケジュール済みレポート用の新しいリンク配�
 
 この変更に伴い、レポート配信メールのルックアンドフィールも更新されました。
 
-詳しくは、[自動レポート配信のスケジュール ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 ## Canvas ダッシュボードでレポートを特定のユーザーとして実行する
 

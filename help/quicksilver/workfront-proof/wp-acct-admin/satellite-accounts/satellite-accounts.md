@@ -42,7 +42,7 @@ ht-degree: 90%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Workfront Proof] のサテライトアカウント](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
-* [ [!DNL Workfront Proof] でのサテライトアカウントの設定](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
-* [ [!DNL Workfront Proof] でのサテライトアカウントの管理](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof] のサテライトアカウント](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof] でのサテライトアカウントの設定](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof] でのサテライトアカウントの管理](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
 

@@ -95,7 +95,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 詳しくは、[タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
-![期間フィールド ](assets/duration-combined-field-350x139.png)
+![期間フィールド &#x200B;](assets/duration-combined-field-350x139.png)
 
 ## プロジェクト上でのイシューのインライン追加を無効にする
 

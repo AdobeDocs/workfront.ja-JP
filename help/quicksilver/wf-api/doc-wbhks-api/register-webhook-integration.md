@@ -36,7 +36,7 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
 
 統合を追加するには、「**カスタム統合の追加**」ボタンをクリックします。
 
-![ カスタム統合を追加](assets/webhooks-integration-2-350x220.png)
+![&#x200B; カスタム統合を追加](assets/webhooks-integration-2-350x220.png)
 
 ## 使用可能なフィールド
 

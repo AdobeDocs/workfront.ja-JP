@@ -30,9 +30,9 @@ ht-degree: 52%
 ---
 # ポートフォリオ内の[!UICONTROL 純価値に対するリスク]の計算
 
-[!UICONTROL Portfolio Optimizer]では、[!UICONTROL 純価値へのリスク ]指標は、[!UICONTROL Portfolio Optimizer]に表示されているすべてのプロジェクトによって提供される[!UICONTROL 純価値]を考慮して、潜在的なリスクを測定します。
+[!UICONTROL Portfolio Optimizer]では、[!UICONTROL 純価値へのリスク &#x200B;]指標は、[!UICONTROL Portfolio Optimizer]に表示されているすべてのプロジェクトによって提供される[!UICONTROL 純価値]を考慮して、潜在的なリスクを測定します。
 
-ポートフォリオ内で最も効率を高めるには、[!UICONTROL  リスク ]指標が低く、[!UICONTROL 正味値]指標が高いことを確認します。
+ポートフォリオ内で最も効率を高めるには、[!UICONTROL &#x200B; リスク &#x200B;]指標が低く、[!UICONTROL 正味値]指標が高いことを確認します。
 
 [!UICONTROL リスク]および[!UICONTROL 純価値]指標は、相互にどのように関係しているかという観点から表現されます。
 
@@ -58,4 +58,4 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->[!UICONTROL 純価値に対するリスク ]指標は、[!UICONTROL Portfolio Optimizer]に表示されるプロジェクトに基づいて計算され、ポートフォリオに関連付けられているすべてのプロジェクトに基づいていません。
+>[!UICONTROL 純価値に対するリスク &#x200B;]指標は、[!UICONTROL Portfolio Optimizer]に表示されるプロジェクトに基づいて計算され、ポートフォリオに関連付けられているすべてのプロジェクトに基づいていません。

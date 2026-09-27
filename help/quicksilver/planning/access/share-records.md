@@ -52,7 +52,7 @@ Adobe Workfront Planningのレコードタイプで、個々のレコードに�
 
 * レコードへのリンクを共有します。
 
-  詳しくは、[ リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
+  詳しくは、[&#x200B; リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
 
@@ -299,7 +299,7 @@ Lilit is checking on this, it is not working correctly
    * The workspace, if they had not had permissions to the workspace before the record was shared with them.
    -->
 
-   詳しくは、[Adobe Workfront計画通知：記事インデックス ](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
+   詳しくは、[Adobe Workfront計画通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
 
 1. （オプション）コピーしたリンクを他のユーザーと共有します。
@@ -308,7 +308,7 @@ Lilit is checking on this, it is not working correctly
 
    レコードタイプを表示するには、レコードタイプに対する権限が必要です。
 
-   詳細については、「[ リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+   詳細については、「[&#x200B; リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 
 ## レコードへの権限の削除
@@ -333,7 +333,7 @@ Lilit is checking on this, it is not working correctly
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。
 
-   ![ レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
+   ![&#x200B; レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 

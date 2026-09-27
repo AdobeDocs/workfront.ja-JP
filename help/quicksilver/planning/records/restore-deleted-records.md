@@ -47,7 +47,7 @@ ht-degree: 14%
 
 Adobe Workfront Planningの「最近削除された」領域から、削除されたレコードを復元できます。
 
-レコードの削除について詳しくは、[ レコードの削除](/help/quicksilver/planning/records/delete-records.md)を参照してください。
+レコードの削除について詳しくは、[&#x200B; レコードの削除](/help/quicksilver/planning/records/delete-records.md)を参照してください。
 
 ## アクセス要件
 
@@ -93,7 +93,7 @@ Adobe Workfront Planningの「最近削除された」領域から、削除さ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -171,11 +171,11 @@ Old:
 ## 削除されたレコードの復元
 
 1. レコードを削除したレコードタイプページに移動します。
-1. 任意のレコードタイプのページビューの右上隅にある&#x200B;**取り消し** アイコン ![取り消しアイコン ](assets/undo-icon.png)をクリックし、**最近削除した**&#x200B;をクリックします。
+1. 任意のレコードタイプのページビューの右上隅にある&#x200B;**取り消し** アイコン ![取り消しアイコン &#x200B;](assets/undo-icon.png)をクリックし、**最近削除した**&#x200B;をクリックします。
 
    最近削除された&#x200B;**個のボックスが表示されます。**
 
-   ![最近削除されたボックス ](assets/recently-deleted-box.png)
+   ![最近削除されたボックス &#x200B;](assets/recently-deleted-box.png)
 
 1. 削除するレコードを選択し、**復元** > **復元**&#x200B;をクリックします。 複数のレコードを選択できます。
 

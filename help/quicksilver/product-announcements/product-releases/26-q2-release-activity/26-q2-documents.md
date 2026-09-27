@@ -94,7 +94,7 @@ Workfrontと、合理化されたレビューと承認のエクスペリエン�
 
 #### 新しいドキュメント体験
 
-モダンなルックアンドフィールで、完全にリニューアルされたドキュメント体験をお楽しみください。 更新されたインターフェイスはナビゲーションを簡素化し、わかりやすさを向上させ、チームが単一の統合環境でレビューと承認を容易に管理できるようにします。 詳しくは、[ ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+モダンなルックアンドフィールで、完全にリニューアルされたドキュメント体験をお楽しみください。 更新されたインターフェイスはナビゲーションを簡素化し、わかりやすさを向上させ、チームが単一の統合環境でレビューと承認を容易に管理できるようにします。 詳しくは、[&#x200B; ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 #### 複数ステージの承認
 
@@ -132,7 +132,7 @@ Adobeクラウドストレージにアクセスすることで、Adobe Creative 
 * 必要な決定が完了したときにのみ承認を進行させることができます
 * 承認進捗の可視化
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 多段階の承認ワークフローテンプレートを設定して使用する
 
@@ -150,6 +150,6 @@ Adobeクラウドストレージにアクセスすることで、Adobe Creative 
 * 承認開始時の手動設定時間を短縮
 * 必要な関係者が適切な段階で関与するようにします
 
-詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 

@@ -37,7 +37,7 @@ ht-degree: 6%
 
 この記事では、カスタムフィールドで高度なロジックを構築するために使用される式の例を示します。
 
-カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
 ## アクセス要件
 
@@ -87,7 +87,7 @@ IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{own
 
 プロジェクト所有者（システム管理者を含む）でないユーザーが&#x200B;**X Rush**&#x200B;を選択しようとすると、エラーが表示されます。
 
-![ プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
+![&#x200B; プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
 
 ### 前のフィールドの選択に基づく日付の検証
 
@@ -119,7 +119,7 @@ IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7
 
 検証の適用は、次のチェックボックスを選択して上書きできます。
 
-![検証を無効にするチェックボックス ](assets/disable-validation-checkbox.png)
+![検証を無効にするチェックボックス &#x200B;](assets/disable-validation-checkbox.png)
 
 テキストフィールドには、実行中の文字数が含まれます。
 

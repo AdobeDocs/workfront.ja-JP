@@ -87,19 +87,19 @@ WorkfrontとのFrame.io統合について詳しくは、[統一レビューと�
 
 レビュー担当者は、アセットにコメントを追加したり、マークアップしたりできます。 完了したら、Workfrontでレビューを完了することができます。 アセットを承認プロセスで進めるために、レビューを「完了」とマークする必要はありません。
 
-1. レビューメール通知に移動し、**レビューに移動**をクリックします。
+1. レビューメール通知に移動し、**レビューに移動**&#x200B;をクリックします。
 または
 Workfrontのホームページに移動し、「自分の承認」ウィジェットを見つけて、**レビューを開く**&#x200B;をクリックします。
 
    >[!NOTE]
    > 
-   >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[ ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
+   >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
 1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。
-コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Workfrontにはコメントは表示されません。 <span class="preview">ただし、Workfrontのドキュメントのコメントパネルには、カウントが利用可能な場合のコメントの数と、Frame.io ビューアを開いて読み取るためのリンクが表示されます。</span> Frame.io ビューアの使用について詳しくは、[ メディアに対するコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Workfrontにはコメントは表示されません。 <span class="preview">ただし、Workfrontのドキュメントのコメントパネルには、カウントが利用可能な場合のコメントの数と、Frame.io ビューアを開いて読み取るためのリンクが表示されます。</span> Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 1. ドキュメントに問題がなければ、Workfrontのドキュメントの詳細ページに戻り、レビューを完了としてマークします。
 
-   ![ レビュー完了をマーク ](assets/mark-review-complete.png)
+   ![&#x200B; レビュー完了をマーク &#x200B;](assets/mark-review-complete.png)
 
 ## ドキュメントを承認
 
@@ -109,16 +109,16 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
 
 ドキュメントの決定を行うには：
 
-1. レビューメール通知に移動し、**レビューに移動**をクリックします。
+1. レビューメール通知に移動し、**レビューに移動**&#x200B;をクリックします。
 または
 Workfrontのホームページに移動し、「自分の承認」ウィジェットを見つけて、**レビューを開く**&#x200B;をクリックします。
 
    >[!NOTE]
    > 
-   >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[ ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
+   >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
 
-1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。 コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアに対するコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。 コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
 1. 文書に問題がなければ、Frame.io ビューアで次のいずれかの決定を選択できます。
 
    * **承認**: アセットは変更を必要とせず、使用する準備ができています。
-   * **作業が必要**: アセットは変更が必要で、使用する準備ができていません。 指定した変更が行われたら、アセットを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 詳しくは、[新しいドキュメントのバージョンをアップロードして承認をリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。<!--do they need to tell someone it was uploaded via comment tagging?-->
+   * **作業が必要**: アセットは変更が必要で、使用する準備ができていません。 指定した変更が行われたら、アセットを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 詳しくは、[新しいドキュメントのバージョンをアップロードして承認をリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。<!--do they need to tell someone it was uploaded via comment tagging?-->
 
    決定を下すと、ドキュメント所有者にメールで通知されます。
 
-   Workfrontでの決定について詳しくは、[ ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
+   Workfrontでの決定について詳しくは、[&#x200B; ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
-   ![ フレームビューアーと決定](assets/make-decision-frame.png)
+   ![&#x200B; フレームビューアーと決定](assets/make-decision-frame.png)
 
 
 

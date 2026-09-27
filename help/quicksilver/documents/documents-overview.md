@@ -36,9 +36,9 @@ ht-degree: 62%
 
 ドキュメントの操作について詳しくは、次の各項目にある記事を参照してください。
 
-* [Adobe Workfrontに新しいドキュメントを追加：記事インデックス ](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [ ドキュメントの管理：記事インデックス ](../documents/managing-documents/manage-documents.md)
-* [ ドキュメントを整理：記事インデックス ](../documents/organizing-documents/organize-documents.md)
+* [Adobe Workfrontに新しいドキュメントを追加：記事インデックス &#x200B;](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [&#x200B; ドキュメントの管理：記事インデックス &#x200B;](../documents/managing-documents/manage-documents.md)
+* [&#x200B; ドキュメントを整理：記事インデックス &#x200B;](../documents/organizing-documents/organize-documents.md)
 * [Adobe Cloud Drive：記事インデックス](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
 * [WorkfrontとExperience Manager Assetsの統合：記事インデックス](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
 * [Adobe WorkfrontのC2PA メタデータ](../documents/c2pa-metadata-overview.md)

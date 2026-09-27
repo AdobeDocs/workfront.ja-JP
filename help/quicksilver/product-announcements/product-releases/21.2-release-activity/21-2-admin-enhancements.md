@@ -119,7 +119,7 @@ Workfront 全体で最新化されたリストについて詳しくは、[リス
 * 各サブページの名前の上の階層情報（例：単一のグループのページ上）
 * フォントのスタイルとサイズを最新化
 
-  ![ セットアップのヘッダーを更新](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![&#x200B; セットアップのヘッダーを更新](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 設定エリアについて詳しくは、[管理と設定](../../../administration-and-setup/administration-and-setup.md)を参照してください。
 

@@ -34,11 +34,11 @@ ht-degree: 56%
 
 * ユーザーがプロジェクトを編集する場合：
 
-  ![ プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
+  ![&#x200B; プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
 
 * ユーザーがタスクまたはイシューの条件を変更する場合
 
-  ![ リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
+  ![&#x200B; リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
 
   >[!NOTE]
   >
@@ -80,8 +80,8 @@ ht-degree: 56%
 
 1. 「**プロジェクト**、**タスク**、または&#x200B;**問題**」タブを選択します。
 
-1. 条件を![移動アイコン ](assets/move-icon---dots.png) ドラッグして、順序を変更します。
+1. 条件を![移動アイコン &#x200B;](assets/move-icon---dots.png) ドラッグして、順序を変更します。
 
    新しい順序は自動的に保存されます。
 
-条件のカスタマイズについて詳しくは、[ カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。
+条件のカスタマイズについて詳しくは、[&#x200B; カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。

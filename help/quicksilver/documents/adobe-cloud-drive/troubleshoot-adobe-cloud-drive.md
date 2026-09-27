@@ -50,7 +50,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * Adobe Cloud Driveに保存されたファイルは、デバイスのディスク容量をローカルで使用します。
 * クラウドのみのファイルでは、ローカルストレージは使用されません。
-* 不要になったファイルのオフラインアクセスを削除します。 詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の「[ オフラインアクセスを削除して空き容量を増やす](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space)」を参照してください。
+* 不要になったファイルのオフラインアクセスを削除します。 詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の「[&#x200B; オフラインアクセスを削除して空き容量を増やす](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space)」を参照してください。
 
 ## パフォーマンスに関する検討事項
 
@@ -73,7 +73,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 * Adobe Cloud Driveがインストールされていることを確認します。 **アプリケーション** （Mac）または&#x200B;**プログラム** （Windows）を確認します。
 * Adobe Cloud Driveを手動で起動します。
 * お客様の組織がWorkfront クラウドストレージをサポートするWorkfrontのバージョンを使用していることを確認するには、Adobe管理者にお問い合わせください。
-* 必要に応じて、Adobe Cloud Driveを再インストールします。 詳しくは、[Adobe Cloud Driveのインストール ](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)を参照してください。
+* 必要に応じて、Adobe Cloud Driveを再インストールします。 詳しくは、[Adobe Cloud Driveのインストール &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)を参照してください。
 
 ### Adobe Cloud Drive アイコンがメニューバーまたはタスクバーに表示されない
 
@@ -112,7 +112,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * インターネット接続を確認します。
 * 十分なディスク容量があることを確認します。
-* 同期エラーについては、ファイルのステータスインジケーターを確認してください。 詳しくは、[Adobe Cloud Driveを使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の[ ファイル ステータス インジケーター](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#file-status-indicators)を参照してください。
+* 同期エラーについては、ファイルのステータスインジケーターを確認してください。 詳しくは、[Adobe Cloud Driveを使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の[&#x200B; ファイル ステータス インジケーター](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#file-status-indicators)を参照してください。
 * Adobe Cloud Driveを再起動します。
 * システムトレイ（Windows）またはメニューバー（Mac）でAdobe Cloud Driveのステータスを確認します。
 

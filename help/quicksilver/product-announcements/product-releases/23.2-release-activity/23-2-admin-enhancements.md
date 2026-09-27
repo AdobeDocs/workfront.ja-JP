@@ -61,7 +61,7 @@ Experience Manager Assets Essentials のこの機能について詳しくは、[
 
 * **説明テキストのサイズの変更**：説明テキストフィールドに小、中、大のいずれかのサイズを割り当てられるようになりました。 他のフィールドと同じ行で使用することもできます。<span style="color: #ff0000;"> 説明テキストのサイズの変更は一時的に遅れましたが、近日リリース予定です。</span></li>
 
-詳しくは、[ カスタムフォームの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
 
 [この機能のデモ動画を見る](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

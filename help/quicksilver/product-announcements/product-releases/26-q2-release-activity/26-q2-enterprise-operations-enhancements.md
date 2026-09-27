@@ -49,7 +49,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 * **レート属性**&#x200B;を使用すると、担当業務を超えたレートにディメンションを追加できます。これにより、レートは担当業務だけでなく、代理店、場所、ブランド、コストセンターなどの要因によっても異なる場合があります。 これらの属性を組み合わせることで、Workfrontは適切な割り当て率を自動的に選択し、プロジェクト全体の財務的な正確性と一貫性を確保できます。
 
-  詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+  詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 * **レートカード**&#x200B;は、クライアント固有の請求を体系化された方法で管理し、ロールベースのレートとカスタマイズ可能な属性を組み合わせて、正確で管理されたプロジェクトのコストを確保します。
 
@@ -91,7 +91,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 **プロジェクトスナップショット**&#x200B;を使用して、プロジェクトをより効果的に管理し、情報に基づいた意思決定を行います。
 
-詳しくは、[ プロジェクトのスナップショットの作成と表示](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトのスナップショットの作成と表示](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)を参照してください。
 
 [プロジェクトのスナップショットのデモ動画を見る。](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
@@ -104,7 +104,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 **ビジネスプロファイル**&#x200B;は、安全でスケーラブルなシステムアクセスを提供し、エンタープライズガバナンスの強化に役立ちます。
 
-詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
 [ビジネスプロファイルのデモ動画を見る。](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
@@ -128,7 +128,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 * 新しい&#x200B;**高度なロジックタイプ**：高度な表示、デフォルト値、条件付き書式設定、編集可能性
 
-  詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+  詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
   >[!NOTE]
   >
@@ -139,7 +139,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
   * フォームが添付できるオブジェクトタイプは、ドロップダウンリストにあります。
   * すべてのロジックタイプについて、フィールドにロジックインジケーターを表示または非表示にすることができます。 表示およびスキップロジックのタイプは、影響を受ける両方のフィールドの指標を示します。 他のすべてのロジックタイプは、1つのフィールドに影響します。
 
-  詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+  詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
   >[!NOTE]
   >
@@ -147,7 +147,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 * チーム、レートカード、担当業務にカスタムフォームを追加できる。
 
-  詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+  詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
   >[!NOTE]
   >
@@ -156,7 +156,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 * 通貨形式のフィールドに対する&#x200B;**財務権限タイプ**&#x200B;の設定。特定の権限が設定されているユーザーのみにアクセスを許可します。
 
-  詳しくは、[ カスタムフィールド内の財務データへのアクセスを制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)を参照してください。
+  詳しくは、[&#x200B; カスタムフィールド内の財務データへのアクセスを制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)を参照してください。
 
   >[!NOTE]
   >
@@ -184,7 +184,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 例えば、「Target Audience」というラベルを設定して、ドイツ語の「Zielgruppe」に変換できます。 Adobe IMSアカウントの言語としてドイツ語を設定したユーザーは、英語で「Target Audience」というラベルが付いたフィールドのラベルとして「Zielgruppe」という単語を見ることができます。
 
-詳しくは、[ カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+詳しくは、[&#x200B; カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
 
 [カスタムローカライゼーションのデモ動画を見る。](https://video.tv.adobe.com/v/3483248/){target="_blank"}
 
@@ -196,9 +196,9 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 Workfront管理者は、特定の条件が満たされたときに、作成、編集、または変更されたオブジェクトのアクションを自動化するようにビジネスルールを設定できるようになりました。 使用可能なアクションには、オブジェクトの共有や、カスタムフォームのオブジェクトへの添付などがあります。
 
-詳しくは、[ ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
+詳しくは、[&#x200B; ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
 
-[ ビジネス ルールの機能強化に関するビデオ デモを表示します。](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+[&#x200B; ビジネス ルールの機能強化に関するビデオ デモを表示します。](https://video.tv.adobe.com/v/3483247/){target="_blank"}
 
 
 ### 日付有効率に許容されるギャップ
@@ -217,6 +217,6 @@ Workfrontでは、請求とコスト率の日付範囲にギャップを残す�
 * レートカードのレート
 * 変更を加えても、その変更は反映されません
 
-詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[ ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[&#x200B; ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 

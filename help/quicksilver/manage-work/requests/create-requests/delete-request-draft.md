@@ -129,7 +129,7 @@ Workfront管理者とWorkfront Planningのワークスペース管理者は、�
 
    1. **My Requests** ウィジェットを探します。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 1. **リクエスト** リストまたは&#x200B;**マイリクエスト** ウィジェットで、削除する各リクエストの左側にあるボックスをクリックします。
 1. ページ下部の青いバーで、**削除**&#x200B;をクリックします。

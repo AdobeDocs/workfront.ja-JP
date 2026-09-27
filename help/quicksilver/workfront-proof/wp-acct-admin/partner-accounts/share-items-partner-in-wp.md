@@ -45,7 +45,7 @@ ht-degree: 97%
 パートナーと項目を共有する際は、次の点を考慮してください。
 
 * 新しいプルーフを作成する場合にのみ、パートナーアカウント内のユーザーをプルーフの所有者に選択できます。 既存のプルーフまたは新しいバージョンのプルーフに対してこれを行うことはできません。
-* 項目をパートナーと共有する場合、プルーフの編集権限をパートナーアカウントのスーパーバイザーおよび管理者に渡します。 プルーフが作成されたアカウントのスーパーバイザーと管理者は、プルーフの編集権限を持ちません（プルーフの作成者を含む）。 [!DNL Workfront] Proof の権限について詳しくは、[ [!DNL Workfront]  Proof のプルーフ権限プロファイル](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
+* 項目をパートナーと共有する場合、プルーフの編集権限をパートナーアカウントのスーパーバイザーおよび管理者に渡します。 プルーフが作成されたアカウントのスーパーバイザーと管理者は、プルーフの編集権限を持ちません（プルーフの作成者を含む）。 [!DNL Workfront] Proof の権限について詳しくは、[&#x200B; [!DNL Workfront]  Proof のプルーフ権限プロファイル](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 * プルーフは、（プルーフが作成されたアカウントではなく）プルーフが所有されているアカウントに保存されます。
 * プルーフのブランディングは、（プルーフが作成されたアカウントではなく）プルーフが所有されているアカウントから取得されます。
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 パートナーと良好な関係を築いたら、フォルダー、ファイル、プルーフなどの項目を簡単に共有できます。
 
 1. プルーフまたはファイルの共有を開始します。\
-   共有について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) でファイルを共有、および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) でフォルダーを共有を参照してください。
+   共有について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) でファイルを共有、および[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) でフォルダーを共有を参照してください。
 
 1. 「[!UICONTROL 新規プルーフ]」または「[!UICONTROL 新規ファイル]」ページの「**[!UICONTROL 共有]**」セクションで、システム内の別のユーザーと共有しているかのように、オートコンプリートフィールドに名前を入力し始めると、パートナーの名前が表示されます。\
    ![proof_share_partner.png](assets/proof-share-partner-350x258.png)

@@ -66,7 +66,7 @@ ht-degree: 53%
 
 Adobe Unified Experience Managerへの移行の一環として、Adobe Identity Management Systemを使用してユーザーを認証するようになりました。 つまり、Workfrontに直接ログインするのではなく、Adobeを通じてWorkfrontにログインします。 Adobe IMSを行うには、Workfront管理者がWorkfrontではなくAdobe Admin Consoleでユーザー管理を行う必要があります。
 
-Adobe Unified ExperienceでWorkfrontにログインする方法について詳しくは、この記事の「[Adobe CX Enterpriseにログイン ](#log-in-to-adobe-cx-enterprise)」を参照してください。
+Adobe Unified ExperienceでWorkfrontにログインする方法について詳しくは、この記事の「[Adobe CX Enterpriseにログイン &#x200B;](#log-in-to-adobe-cx-enterprise)」を参照してください。
 
 Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Admin Consoleでのユーザーの管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 
@@ -85,7 +85,7 @@ Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Adm
 
 [!DNL Adobe CX Enterprise] にログインすると、上部のナビゲーションエリアにある組織スイッチャーをクリックして、アクセスできるすべての [!DNL Workfront] 組織と環境を表示できます。 作業する [!DNL Workfront] の組織または環境を選択します。 組織で使用されている場合、環境には[!UICONTROL プレビュー]と[!UICONTROL サンドボックス]が含まれる可能性があります。
 
-![ [!DNL Workfront] の組織と環境を表示 ](assets/wf-org-instance-switcher-2026.png)
+![&#x200B; [!DNL Workfront] の組織と環境を表示 &#x200B;](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
@@ -93,14 +93,14 @@ Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Adm
 
 [!DNL Workfront] は、アクセスできる [!DNL Adobe CX Enterprise] 製品のリストに表示されます。 [!DNL CX Enterprise] ホームページのクイックアクセスメニューで [!DNL Workfront] を選択するか、製品スイッチャー ![製品スイッチャー](assets/main-menu-icon.png) を使用していつでもアプリケーションを変更できます。
 
-![ [!DNL Workfront] を選択してアプリケーションにアクセス ](assets/cx-enterprise-home-2026.png)
+![&#x200B; [!DNL Workfront] を選択してアプリケーションにアクセス &#x200B;](assets/cx-enterprise-home-2026.png)
 
 ## [!DNL Workfront] をナビゲートする
 
-[!DNL Workfront] ナビゲーションバーの左側にある[!UICONTROL  メインメニュー] アイコン ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png)を使用して、アクセスできるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
+[!DNL Workfront] ナビゲーションバーの左側にある[!UICONTROL &#x200B; メインメニュー] アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon-left-nav.png)を使用して、アクセスできるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
 
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
-* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定について詳しくは、「[Light] – ライセンスユーザー](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)のナビゲーションについて」または「[Work] – ライセンスユーザー](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)」のナビゲーションについて説明してください。[!UICONTROL [!UICONTROL 
+* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定について詳しくは、「[Light] – ライセンスユーザー(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)のナビゲーションについて」または「[Work] – ライセンスユーザー(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)」のナビゲーションについて説明してください。
 
 ![メインメニュー](assets/main-menu-options-2026.png)
 

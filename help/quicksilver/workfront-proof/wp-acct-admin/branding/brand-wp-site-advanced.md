@@ -42,7 +42,7 @@ ht-degree: 99%
 
 高度なブランディングはセレクトプランとプレミアムプランで利用でき、プランの料金に含まれています。
 
-ログインページ、メール通知、プルーフなどを含む、基本的なブランディングについて詳しくは、[ [!DNL Workfront Proof]  サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
+ログインページ、メール通知、プルーフなどを含む、基本的なブランディングについて詳しくは、[&#x200B; [!DNL Workfront Proof]  サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
 
 詳細ブランディングオプションには、次のエリアのカスタマイズが含まれます。
 

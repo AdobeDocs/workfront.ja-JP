@@ -97,7 +97,7 @@ Workfront の次のエリアで、ビルトインフィルターを使用する�
 
 * ホーム
 
-  詳しくは、「[ ホーム領域の作業リストにアイテムを表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)」を参照してください。
+  詳しくは、「[&#x200B; ホーム領域の作業リストにアイテムを表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)」を参照してください。
 
 * リクエストエリア。 リクエストエリアでは、フィルターをカスタマイズできません。
 

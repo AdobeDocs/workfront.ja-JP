@@ -28,4 +28,4 @@ ht-degree: 57%
 このセクションには、次のサブセクションが含まれます。
 
 * [ユーザープロファイルを設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [ [!DNL Adobe Workfront]  アカウントを管理](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [&#x200B; [!DNL Adobe Workfront]  アカウントを管理](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

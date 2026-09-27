@@ -35,7 +35,7 @@ ht-degree: 96%
 
 [!DNL Adobe Workfront] オブジェクトへのリンクが [!DNL Slack] チャネルで共有されると、[!DNL Workfront for Slack] をインストールして設定した後で、それらに関する追加情報が [!DNL Slack] に表示されます。
 
-[!DNL Workfront for Slack] の設定について詳しくは、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+[!DNL Workfront for Slack] の設定について詳しくは、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 [!DNL Slack] からリンクを開いたり、これらのオブジェクトに対して追加のアクションを実行したりするには、別のブラウザータブで [!DNL Workfront] にログインする必要があります。
 
@@ -69,13 +69,13 @@ ht-degree: 96%
 [!DNL Slack] からお気に入りと最近使用した項目にアクセスする前に、以下を行います
 
 * [!DNL Workfront for Slack] の設定\
-   [!DNL Workfront for Slack] の設定の手順については、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+   [!DNL Workfront for Slack] の設定の手順については、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## [!DNL Slack] からのプロジェクトへのアクセス
 
 1. [!DNL Slack] インスタンスにログインし、[!DNL Workfront from Slack.] にログインします。
 
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) へのアクセスの「[!DNL Workfront from Slack] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) へのアクセスの「[!DNL Workfront from Slack] へのログイン」の節を参照してください。
 
 1. [!DNL Workfront] プロジェクトへのリンクを含んだメッセージに移動します。
 
@@ -90,7 +90,7 @@ ht-degree: 96%
 
    * **[!UICONTROL 予定完了日]**：予定完了日について詳しくは、[プロジェクトの予定完了日の設定](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)を参照してください。
 
-   * **[!UICONTROL Portfolio]**&#x200B;名：ポートフォリオについて詳しくは、[ ポートフォリオ手法の理解](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
+   * **[!UICONTROL Portfolio]**&#x200B;名：ポートフォリオについて詳しくは、[&#x200B; ポートフォリオ手法の理解](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
 
    * **[!UICONTROL 状況]**：プロジェクト状況について詳しくは、[プロジェクト状況と状況タイプの概要](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)を参照してください。
 
@@ -106,7 +106,7 @@ ht-degree: 96%
 
 1. [!DNL Slack] インスタンスにログインし、[!DNL Workfront from Slack] にログインします。
 
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. [!DNL Workfront] タスクへのリンクを含んだメッセージに移動します。
 
@@ -142,7 +142,7 @@ ht-degree: 96%
 
 1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   [!DNL Slack] から Workfront へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
+   [!DNL Slack] から Workfront へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
 1. [!DNL Workfront] イシューへのリンクを含むメッセージに移動します。
 
@@ -173,7 +173,7 @@ ht-degree: 96%
 
 1. [!DNL Slack] インスタンスにログインし、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
 1. [!DNL Workfront] ポートフォリオへのリンクを含むメッセージに移動します。
 
@@ -198,7 +198,7 @@ ht-degree: 96%
 
 1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
 1. [!DNL Workfront] プログラムへのリンクを含むメッセージに移動します。
 
@@ -219,7 +219,7 @@ ht-degree: 96%
 
 1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
 1. [!DNL Workfront] レポートへのリンクを含むメッセージに移動します。
 

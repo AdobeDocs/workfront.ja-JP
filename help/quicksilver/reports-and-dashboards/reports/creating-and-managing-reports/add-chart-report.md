@@ -97,7 +97,7 @@ ht-degree: 72%
    >[!TIP]
    >
    >* レポートの結果がグループ化されている場合は、グラフをレポートに追加することのみ可能です。
-   >* グラフでは、テキストモードのグループ化はサポートされていません。 テキストモードのグループ化について詳しくは、[ テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)を参照してください。
+   >* グラフでは、テキストモードのグループ化はサポートされていません。 テキストモードのグループ化について詳しくは、[&#x200B; テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)を参照してください。
    >* 1 つの指標を表す 1 つのグループ化を追加した場合は、円グラフを除くすべてのグラフでグループが同じ色で表示されます。
 
    グループ化の作成について詳しくは、[Adobe Workfront でのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください。
@@ -105,7 +105,7 @@ ht-degree: 72%
 1. 「**グラフ**」タブを選択します。
 
 1. グラフのタイプをクリックして選択します。\
-   ![ グラフの種類の選択](assets/unshimmed-report-builder-chart.png)
+   ![&#x200B; グラフの種類の選択](assets/unshimmed-report-builder-chart.png)
 
 1. 次のタイプのグラフから選択します。
 
@@ -286,11 +286,11 @@ ht-degree: 72%
 
    例えば、タスクレポートで&#x200B;**プロジェクト名**&#x200B;を選択した場合、**タスクステータス**&#x200B;を&#x200B;**バブル色** フィールドとして追加できます。
 
-   ![ タスクの状態をバブルの色](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![&#x200B; タスクの状態をバブルの色](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    ただし、「**バブル**」フィールドの「**タスクの状態**」を選択した場合、「**バブルの色**」フィールドは選択できません。 また、**吹き出し** フィールドに&#x200B;**プロジェクト名**&#x200B;を選択した場合でも、**吹き出し色** フィールドに&#x200B;**プロジェクト名**&#x200B;を選択することはできません。
 
-   ![ バブルの色を選択できません](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![&#x200B; バブルの色を選択できません](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. 「**保存して閉じる**」をクリックして、インターフェイスビルダーの変更を保存します。
 
@@ -313,7 +313,7 @@ Workfront では、グラフ要素の色を選択したり、レポートにグ�
 
 1. 以下のフィールドが使用できる場合は、「**カスタム色**」をクリックします。\
    「カスタム色」ダイアログボックスが表示されます。\
-   ![ グラフのカスタムカラー](assets/unshimmed-custom-colors-in-charts.png)
+   ![&#x200B; グラフのカスタムカラー](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

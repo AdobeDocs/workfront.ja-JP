@@ -64,7 +64,7 @@ Adobe Workfront Planningでは、Adobe Workfrontで管理するのと同様の�
 </tbody> 
 </table>
 
-Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
+Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
 +++    
 
 ## Adobe Workfront Planningでのチーム管理
@@ -72,7 +72,7 @@ Workfront as a スタンドアロンパッケージに必要なアクセスに�
 1. プランニング管理者として、Adobe CX Enterprise ホームからWorkfrontにログインします。
 1. **メインメニュー** > **設定** > チーム > **新しいチーム**&#x200B;をクリックします。
 
-   ![ プランニング スタンドアロンの新しいチーム ボックス ](assets/new-team-planning-sta.png)
+   ![&#x200B; プランニング スタンドアロンの新しいチーム ボックス &#x200B;](assets/new-team-planning-sta.png)
 
 1. 次の情報を更新します。
 

@@ -96,7 +96,7 @@ ht-degree: 79%
    同様に、元のフォームのセクション区切りのアクセスオプションが、新しいフォームに追加するオブジェクトタイプと互換性がない場合は、オプションを調整するように求めるメッセージが表示されます。
 
 1. 先ほどコピーしたフォームを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
-1. [ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)記事の次の節で説明しているように、フォームに変更を加えます。
+1. [&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)記事の次の節で説明しているように、フォームに変更を加えます。
 
    * [別のカスタムフォームで既に使用されている既存のフィールドまたはウィジェットの再利用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [テキストフィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
@@ -107,4 +107,4 @@ ht-degree: 79%
    * [Adobe XD ファイルの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
    * [Planning 接続フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)
 
-1. （オプション）「**保存して閉じる**」をクリックした後、「[ カスタムフォームをオブジェクトに追加](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)」の説明に従って、フォームを使用するオブジェクトに添付します。
+1. （オプション）「**保存して閉じる**」をクリックした後、「[&#x200B; カスタムフォームをオブジェクトに追加](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)」の説明に従って、フォームを使用するオブジェクトに添付します。

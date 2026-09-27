@@ -112,7 +112,7 @@ Workfront と GenStudio for Performance Marketing は、同じ IMS 組織にデ�
 >
 >* プレビューリリース：2025年6月2日（PT）、実稼動リリース：すべてのユーザー：2025年6月2日（PT）
 
-Googleは、Google Driveにアクセスするサードパーティ製アプリケーションのセキュリティ制御を[強化します](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)。そのため、アプリケーションではユーザーごとの同意モデルを採用する必要があります。 そのため、Workfrontで表示するには、個々のアセットを一度に1つずつリンクする必要があります。 詳しくは、[ ドキュメント統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
+Googleは、Google Driveにアクセスするサードパーティ製アプリケーションのセキュリティ制御を[強化します](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)。そのため、アプリケーションではユーザーごとの同意モデルを採用する必要があります。 そのため、Workfrontで表示するには、個々のアセットを一度に1つずつリンクする必要があります。 詳しくは、[&#x200B; ドキュメント統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 
 変更されない主な機能：
 

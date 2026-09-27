@@ -46,7 +46,7 @@ Select プランまたは Premium プランがある場合は、既存の組織�
 
 >[!NOTE]
 >
->SAML を有効にするには、[!DNL Workfront Proof] アカウントにカスタムのサブドメインまたはドメインを設定する必要があります。 カスタムサブドメインは自由に設定できます。 詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)を参照してください。完全にカスタマイズされたドメインについて詳しくは、[ ブランド the [!DNL Workfront Proof]  サイト - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)をご覧ください。
+>SAML を有効にするには、[!DNL Workfront Proof] アカウントにカスタムのサブドメインまたはドメインを設定する必要があります。 カスタムサブドメインは自由に設定できます。 詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)を参照してください。完全にカスタマイズされたドメインについて詳しくは、[&#x200B; ブランド the [!DNL Workfront Proof]  サイト - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)をご覧ください。
 
 ## [!DNL Workfront Proof] 内で SSO を有効化
 
@@ -95,7 +95,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 1. （オプション）「**ユーザーを自動的にプロビジョニング**」を有効にします（7）。
 このオプションを有効にすると、独自の [!DNL Workfront Proof] プロファイルを持たないユーザーに対してユーザーアカウントが自動的に作成されますが、そのようなユーザーは、シングルサインオン資格情報を使用して [!DNL Workfront Proof] アカウントにアクセスします。 これは、アカウントのユーザー制限にまだ達していない場合にのみ実行されます。
 
-1. 新しくプロビジョニングされたユーザーには、デフォルトでマネージャープロファイルの権限が割り当てられます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+1. 新しくプロビジョニングされたユーザーには、デフォルトでマネージャープロファイルの権限が割り当てられます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ![Enable_SSO_SAML_2.0.png](assets/enable-sso-saml-2.0-350x236.png)
 
@@ -113,8 +113,8 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 1. ![Enabling_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
 ここでは、設定の2つの方法（5）があります。
 
-1. **継承：**ハブアカウントから取得した設定での SSO。
-ユーザーが**デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を介して[!DNL Workfront Proof]にアクセスすると、**2つのレベルの認証**&#x200B;が行われます。最初に、ユーザーは[!DNL Workfront Proof] アクセス データ（電子メールとパスワード）を使用してログインするよう求められます。その後、ユーザーはSSO ウィンドウを介してSSO ログインページに転送されます。
+1. **継承：**&#x200B;ハブアカウントから取得した設定での SSO。
+ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を介して[!DNL Workfront Proof]にアクセスすると、**2つのレベルの認証**&#x200B;が行われます。最初に、ユーザーは[!DNL Workfront Proof] アクセス データ（電子メールとパスワード）を使用してログインするよう求められます。その後、ユーザーはSSO ウィンドウを介してSSO ログインページに転送されます。
 したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof] サブドメインまたはドメインからログインすることをお勧めします。
 
    >[!NOTE]

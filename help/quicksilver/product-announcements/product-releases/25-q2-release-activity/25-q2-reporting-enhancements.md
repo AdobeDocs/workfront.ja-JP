@@ -57,4 +57,4 @@ Workfront カレンダーの外観を、Workfrontの他の領域と一致する�
 * 週末を非表示にすることはできません
 * その他
 
-詳しくは、[ カレンダー](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md)の記事を参照してください。
+詳しくは、[&#x200B; カレンダー](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md)の記事を参照してください。

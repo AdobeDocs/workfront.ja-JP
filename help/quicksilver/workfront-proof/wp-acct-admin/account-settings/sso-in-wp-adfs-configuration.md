@@ -66,7 +66,7 @@ IIS で SSL 証明書が設定されていない場合、設定ウィザード�
 
 ## [!DNL Workfront Proof] シングルサインオンの設定
 
-[!DNL Workfront Proof] 管理者の場合、[!DNL Workfront Proof] 側でシングルサインオンを設定できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) でのシングルサインオンを参照してください。
+[!DNL Workfront Proof] 管理者の場合、[!DNL Workfront Proof] 側でシングルサインオンを設定できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) でのシングルサインオンを参照してください。
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**&#x200B;をクリックし、「**[!UICONTROL シングルサインオン]**」タブをクリックします。
 

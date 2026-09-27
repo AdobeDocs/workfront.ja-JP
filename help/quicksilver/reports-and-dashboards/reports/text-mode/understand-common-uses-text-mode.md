@@ -67,7 +67,7 @@ Workfrontで次の操作を行う場合は、テキストモードを使用で�
 
 テキストモードを使用して、計算カスタムフィールドをカスタムフォームに追加できます。
 
-計算されたカスタム フィールドをカスタム フォームに追加する方法について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+計算されたカスタム フィールドをカスタム フォームに追加する方法について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[計算フィールドをフォームに追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 

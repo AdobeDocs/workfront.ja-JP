@@ -74,7 +74,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## パンくずリストからの親オブジェクトへのアクセス
 
-[!DNL Workfront] での親オブジェクトの詳細については、[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
+[!DNL Workfront] での親オブジェクトの詳細については、[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
 
 1. （条件付き）折りたたまれたパンくずリストのパスで移動したいオブジェクトが表示されない場合は、**[!UICONTROL 詳細]**&#x200B;をクリックし、オブジェクトを探します。
 
@@ -99,7 +99,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 1. パンくずパス内の任意のオブジェクトにカーソルを合わせます。
 1. オブジェクト名の横に表示される「**[!UICONTROL リンクをコピー]**」アイコンをクリックします。
 
-   ![ パンくずリストのリンクアイコンをコピー](assets/copy-breadcrumbs.png)
+   ![&#x200B; パンくずリストのリンクアイコンをコピー](assets/copy-breadcrumbs.png)
 
    オブジェクトの名前とリンクがコピーされます。 コピーした情報を貼り付けると、オブジェクト名をリンクテキストとしてクリック可能なリンクとして表示されます。
 

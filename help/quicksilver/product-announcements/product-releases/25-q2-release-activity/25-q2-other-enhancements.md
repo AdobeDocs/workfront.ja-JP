@@ -46,9 +46,9 @@ Workfrontには、イベントサブスクリプションのバージョンが�
 
 イベント登録のアップグレードまたはダウングレード機能により、イベントの構造に変更が加えられても既存の登録には影響せず、イベント登録を中断することなく新しいバージョンのテストとアップグレードができます。
 
-2つのバージョンの違いについて詳しくは、[ イベント サブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-versioning.md)の記事を参照してください。
+2つのバージョンの違いについて詳しくは、[&#x200B; イベント サブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-versioning.md)の記事を参照してください。
 
-バージョン間でイベントサブスクリプションをアップグレードまたはダウングレードするために使用されるエンドポイントについて詳しくは、「イベントサブスクリプション API」の「[ イベントサブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)」の節を参照してください。
+バージョン間でイベントサブスクリプションをアップグレードまたはダウングレードするために使用されるエンドポイントについて詳しくは、「イベントサブスクリプション API」の「[&#x200B; イベントサブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)」の節を参照してください。
 
 ## Workfrontの更新フィードでAdobe Admin Console ユーザーの変更を「システム」として表す
 

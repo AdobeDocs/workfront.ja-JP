@@ -38,9 +38,9 @@ ht-degree: 95%
 >
 >この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-サテライトアカウントとは、[!DNL Workfront Proof] アカウント内でお客様自身が設定および管理する有料アカウントです。 詳しくは、[ [!DNL Workfront]  Proof のサテライトアカウント](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)を参照してください。
+サテライトアカウントとは、[!DNL Workfront Proof] アカウント内でお客様自身が設定および管理する有料アカウントです。 詳しくは、[&#x200B; [!DNL Workfront]  Proof のサテライトアカウント](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)を参照してください。
 
-請求管理者なら誰でもサテライトアカウントを作成できます。 請求管理者について詳しくは、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイル]を参照してください。
+請求管理者なら誰でもサテライトアカウントを作成できます。 請求管理者について詳しくは、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイル]を参照してください。
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 95%
 サテライトアカウントを作成するには：
 
 1. [!UICONTROL 請求]ページに移動します。\
-   請求ページについて詳しくは、[ [!DNL Workfront Proof] [!UICONTROL  の請求]ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+   請求ページについて詳しくは、[&#x200B; [!DNL Workfront Proof] [!UICONTROL &#x200B; の請求]ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 1. 「**[!UICONTROL 新しいサテライト]**」アカウントボタンをクリックします。 （1）
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 [サテライトアカウントの作成](#creating-a-satellite-account)の説明に従ってサテライトアカウントを設定した後、目的のプランにアップグレードする必要があります。
 
 1. [!UICONTROL 請求]ページに移動します。\
-   請求ページについて詳しくは、[ [!DNL Workfront Proof] [!UICONTROL  の請求]ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+   請求ページについて詳しくは、[&#x200B; [!DNL Workfront Proof] [!UICONTROL &#x200B; の請求]ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 1. ページ上部の&#x200B;**[!UICONTROL アカウント]**&#x200B;ドロップダウンメニュー（1）で、該当するサテライトアカウントを選択します。
 

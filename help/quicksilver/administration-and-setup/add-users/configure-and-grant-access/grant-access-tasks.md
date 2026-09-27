@@ -67,11 +67,11 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. **ビュー**&#x200B;の歯車アイコン ![](assets/gear-icon-settings.png) またはタスクの右側の「**編集**」ボタンをクリックして、**設定の微調整**&#x200B;下で付与する機能を選択します。
 
-   ![ タスク設定の微調整](assets/fine-tune-tasks.png)
+   ![&#x200B; タスク設定の微調整](assets/fine-tune-tasks.png)
 
    >[!NOTE]
    >
-   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランキングのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーがアクセスレベルのタスクを削除することを制限できますが、これにより、タスクよりもランクの低い問題の削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[ オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
+   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランキングのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーがアクセスレベルのタスクを削除することを制限できますが、これにより、タスクよりもランクの低い問題の削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[&#x200B; オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
 
 1. （オプション）上位ランキングのオブジェクトからのタスクに継承された権限を制限するには、「**追加制限の設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権限を継承しない**」を選択します。
 

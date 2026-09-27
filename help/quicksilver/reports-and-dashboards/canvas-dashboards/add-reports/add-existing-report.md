@@ -39,7 +39,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -47,7 +47,7 @@ ht-degree: 25%
 >* Azure
 >* Google Cloud Platform
 
-Adobe Workfront レポートツールで作成したレポートは、Canvas ダッシュボードに追加できます。 レポートの作成について詳しくは、[ レポートの概要](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)を参照してください。
+Adobe Workfront レポートツールで作成したレポートは、Canvas ダッシュボードに追加できます。 レポートの作成について詳しくは、[&#x200B; レポートの概要](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)を参照してください。
 
 ## アクセス要件
 

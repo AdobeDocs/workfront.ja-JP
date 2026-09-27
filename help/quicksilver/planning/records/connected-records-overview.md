@@ -42,7 +42,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 この記事では、Workfront Planningでレコードを接続する際に考慮しなければならない考慮事項について説明します。
 
-レコードを相互または別のオブジェクトに接続する方法について詳しくは、[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+レコードを相互または別のオブジェクトに接続する方法について詳しくは、[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
 ## 前提条件
 
@@ -114,4 +114,4 @@ Workfrontでは、レコードを手動または自動で接続できます。
   >
   >レコードを元のリクエストから切断することはできません。
 
-  詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+  詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。

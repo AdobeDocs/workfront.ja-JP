@@ -52,7 +52,7 @@ Workfrontのアクセスレベルは、Workfront内でのみ適用されます�
 
 Workfront環境でAdobe クラウドストレージを有効にしている場合は、Adobe クラウドストレージプロジェクトと従来のWorkfront ストレージプロジェクトの両方を作成できます。 従来のWorkfront ストレージプロジェクトは、Workfrontに表示されるプロジェクト名の横にアイコンが表示されます。 Adobe クラウドストレージプロジェクトにアイコンが表示されない。
 
-プロジェクト名](assets/legacy-project-icon.png)の横にある![従来のworkfront ストレージアイコン
+プロジェクト名![&#128279;](assets/legacy-project-icon.png)の横にある従来のworkfront ストレージアイコン
 
 
 ### Adobe クラウドストレージのみを使用する環境

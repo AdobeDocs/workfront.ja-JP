@@ -51,7 +51,7 @@ ht-degree: 80%
 
   >[!NOTE]
   >
-  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。 新しいライセンスの種類について詳しくは、[ オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。 新しいライセンスの種類について詳しくは、[&#x200B; オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
   >[!NOTE]
   >

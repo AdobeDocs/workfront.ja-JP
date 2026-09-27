@@ -93,7 +93,7 @@ Workfront オブジェクトをWorkfront Planning レコードに接続して作
   * レコードタイプのテーブルビュー
   * 接続フィールドのレコードの詳細領域
 
-Planning レコードとWorkfront オブジェクトの接続について詳しくは、[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+Planning レコードとWorkfront オブジェクトの接続について詳しくは、[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
 ## アクセス要件
 
@@ -151,7 +151,7 @@ Planning レコードとWorkfront オブジェクトの接続について詳し�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -227,7 +227,7 @@ Old:
 
 * Workfrontのプロジェクト、ポートフォリオ、プログラムに接続されたレコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * Workfront オブジェクトに接続されたレコードタイプのレコード。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-* この記事の「[ アクセス要件](#access-requirements)」の節で説明されているように、Workfront PlanningおよびWorkfrontの正しいアクセスと権限。
+* この記事の「[&#x200B; アクセス要件](#access-requirements)」の節で説明されているように、Workfront PlanningおよびWorkfrontの正しいアクセスと権限。
 
 ## Workfront Planningのレコードを使用してプロジェクトを作成します
 
@@ -240,7 +240,7 @@ Old:
 
 他のレコードからプロジェクトを接続するときにプロジェクトを作成するには、次の手順を実行します。
 
-1. レコードの詳細ページまたはレコードタイプのテーブルに移動し、記事[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)で説明されているように、Workfront Planning レコードとWorkfront プロジェクトの接続を開始します。
+1. レコードの詳細ページまたはレコードタイプのテーブルに移動し、記事[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)で説明されているように、Workfront Planning レコードとWorkfront プロジェクトの接続を開始します。
 
 1. （条件付き）「**プロジェクトを追加」をクリック**
 または
@@ -253,7 +253,7 @@ Old:
 1. （オプション） **プロジェクト名**&#x200B;を更新します。 デフォルトでは、プロジェクトは、レコードから接続する際に検索項目として追加したものにちなんで名前が付けられます。
 1. （オプション） **プロジェクトテンプレート**&#x200B;を選択します。 テンプレートを選択しない場合、Workfrontはタスクのない空白のプロジェクトを作成します。
 1. 「**作成**」をクリックします。
-1. （条件付き）テンプレートからプロジェクトを作成することを選択した場合は、[ テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)記事の手順に従って、プロジェクトの追加を完了してください。
+1. （条件付き）テンプレートからプロジェクトを作成することを選択した場合は、[&#x200B; テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)記事の手順に従って、プロジェクトの追加を完了してください。
 
    新しいプロジェクトが作成され、選択したレコードの接続フィールドに追加されます。
 
@@ -269,7 +269,7 @@ Old:
 
 1. プロジェクトの&#x200B;**接続レコードページ**&#x200B;を追加します。
 
-   詳しくは、[接続されたレコードの追加ページをレコード ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
+   詳しくは、[接続されたレコードの追加ページをレコード &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
 
    接続されたレコード ページがテーブルビューに表示されます。 接続されたプロジェクトがテーブルに表示されます。
 
@@ -286,7 +286,7 @@ Old:
 
 Planning レコードから接続するポートフォリオを作成するには、次の手順を実行します。
 
-1. レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します（記事[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照）。
+1. レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します（記事[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照）。
 
 1. （条件付き）「**ポートフォリオを追加**」をクリック
 
@@ -306,7 +306,7 @@ Planning レコードから接続するポートフォリオを作成するに�
 
 プランニング レコードからプログラムを接続する際にプログラムを作成するには、次の手順を実行します。
 
-1. レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します（記事[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照）。
+1. レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します（記事[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照）。
 
 1. 「**プログラムを追加**」をクリックします
 

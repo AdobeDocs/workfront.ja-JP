@@ -97,7 +97,7 @@ Workfront Planningをスタンドアロン製品として使用すると、Plann
   詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください
 * キャンペーン受注にリクエストフォームを使用
 
-  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください
+  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください
 * PrimeおよびUltimate パッケージを使用して、お客様にクロスワークスペース機能を使用します
 
 * AEM オブジェクトへの接続を含むレコードタイプの接続
@@ -119,7 +119,7 @@ Workfront Planningをスタンドアロン製品として使用すると、Plann
   詳しくは、[Adobe Workfront Planningのインスタンスをスタンドアロン製品として管理](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)を参照してください。
 * FusionでのWorkfront Planning コネクタの使用
 
-  詳しくは、[Adobe Workfront計画モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)を参照してください。
+  詳しくは、[Adobe Workfront計画モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)を参照してください。
 * 組織がAdobe GenStudio for Performance Marketingも購入している場合は、GenStudio for Performance Marketing ワークスペースを管理します。
 
   詳しくは、[Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)を参照してください。
@@ -150,7 +150,7 @@ Workfront プランニングのフレームワークは完全なカスタマイ�
 
 ## ライセンスの概要
 
-スタンドアロン製品としてのWorkfront Planningのパッケージとライセンスについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
+スタンドアロン製品としてのWorkfront Planningのパッケージとライセンスについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
 
 ## Workfront Planningを単独で使用する場合
 

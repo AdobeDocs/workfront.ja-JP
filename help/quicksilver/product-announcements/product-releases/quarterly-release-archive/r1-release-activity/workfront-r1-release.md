@@ -62,7 +62,7 @@ Outlook 365に直接統合すると、Outlook 365からWorkfrontを直接更新�
 
 詳しくは、[R1 プレビュー 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md) を参照してください。
 
-![ プロジェクトを順調に進める](assets/mceclip1-350x169.png)\
+![&#x200B; プロジェクトを順調に進める](assets/mceclip1-350x169.png)\
 **用語と通知のカスタマイズ**
 カスタム用語の機能を活用して、「Portfolio」や「プロジェクト」などの用語を、業界に関係なく任意の言語に合わせて変更することで、Workfrontをチームにより適切なものにします。 さらに、各ユーザーはダイジェストの頻度を調整することで、受信する通知のタイプをカスタマイズすることも可能です。
 
@@ -73,7 +73,7 @@ Outlook 365に直接統合すると、Outlook 365からWorkfrontを直接更新�
 
 詳しくは、[R1 プレビュー 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md) を参照してください。
 
-![ マイルストーンビュー](assets/mceclip3-350x122.png)
+![&#x200B; マイルストーンビュー](assets/mceclip3-350x122.png)
 
 **Workfrontのごみ箱**
 新しいWorkfrontのごみ箱を使用すると、プロジェクト、タスク、イシュー、および関連するすべてのドキュメント、フォーム、更新を削除後30日以内に復元できます。
@@ -88,7 +88,7 @@ ProofHQの新しい検索機能により、レビュー中に単語またはフ�
 
 詳しくは、[R1 最終版](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)を参照してください。
 
-![ プルーフの検索と検索](assets/mceclip5-350x226.png)\
+![&#x200B; プルーフの検索と検索](assets/mceclip5-350x226.png)\
 **ビジュアルレポートと拡張カスタムビュー**
 ProofHQの新しいレポート指標を使用すると、ターンアラウンドタイム、レイトパーセンテージ、コメント数、最初のアクティビティまでの時間を追跡できます。 新しいカスタムビューでは高度なフィルターロジックが作成されるため、必要に応じて適切なデータを取得できます。
 

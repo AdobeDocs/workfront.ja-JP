@@ -44,6 +44,6 @@ ht-degree: 80%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Workfront Proof] でのプルーフのセキュリティ](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-* [ [!DNL Workfront Proof] でのシングルサインオン](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
-* [ [!DNL Workfront Proof] での電子署名について](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof] でのプルーフのセキュリティ](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+* [&#x200B; [!DNL Workfront Proof] でのシングルサインオン](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+* [&#x200B; [!DNL Workfront Proof] での電子署名について](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)

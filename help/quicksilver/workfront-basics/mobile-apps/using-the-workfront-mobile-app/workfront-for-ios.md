@@ -29,7 +29,7 @@ ht-degree: 95%
 
 [!DNL Adobe Workfront] アプリを使用すると、任意の [!DNL iOS] デバイスで作業にアクセスできます。 [!DNL Workfront] モバイルアプリは、iOS 10 以降を実行している携帯電話やタブレットにインストールして使用できます。 専用の [!DNL Workfront] モバイルアプリは、[!DNL iPhone] と [!DNL iPad] の両方で使用できます。
 
-モバイルアプリへのログインについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) にログインの記事の [[!UICONTROL Workfront] モバイルアプリにログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
+モバイルアプリへのログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) にログインの記事の [[!UICONTROL Workfront] モバイルアプリにログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
 
 ## [!UICONTROL ホーム]
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 
 ![ボードエリア](assets/mobile-all-boards-displayed.png)
 
-詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ## [!UICONTROL プロジェクト]
 
@@ -124,9 +124,9 @@ ht-degree: 95%
  </tbody>
 </table>
 
-承認について詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
+承認について詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
 
-プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
+プルーフのレビューと承認について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
 
 ![モバイルアプリの承認リスト](assets/mobile-approvals-adobe-350x574.png)
 

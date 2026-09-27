@@ -108,7 +108,7 @@ ht-degree: 65%
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
-1. 変更する費用タイプを選択し、**[!UICONTROL 編集]** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 変更する費用タイプを選択し、**[!UICONTROL 編集]** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    「**[!UICONTROL 費用タイプを編集]**」ダイアログボックスが表示されます。
 

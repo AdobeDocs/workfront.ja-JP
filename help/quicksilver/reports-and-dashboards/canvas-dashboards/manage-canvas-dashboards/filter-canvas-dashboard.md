@@ -34,7 +34,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -99,7 +99,7 @@ Take Preview and production mentions out at release
 
 ダッシュボードを作成してからフィルタリングする必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## ダッシュボードのフィルタリング
 
@@ -137,7 +137,7 @@ Take Preview and production mentions out at release
 
    1. ルールボックスの右側にある&#x200B;**編集** アイコンを選択します。
 
-      ![ アイコンを編集](assets/edit-icon.png)
+      ![&#x200B; アイコンを編集](assets/edit-icon.png)
 
    1. 「**条件を追加**」をクリックし、次の情報を追加します。
       * 「**フィールドを選択**」をクリックして、フィルタリングするフィールドを選択します。
@@ -145,7 +145,7 @@ Take Preview and production mentions out at release
 
    1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
-1. [ パート 2: ダッシュボード プロンプトを作成する](#part-2-define-a-dashboard-prompt)に進みます。
+1. [&#x200B; パート 2: ダッシュボード プロンプトを作成する](#part-2-define-a-dashboard-prompt)に進みます。
 
 
 ### パート 2：ダッシュボードプロンプトの定義
@@ -205,7 +205,7 @@ Take Preview and production mentions out at release
    1. （オプション）「**デフォルトをリセット**」をクリックして、元のデフォルト設定を変更に置き換えます。 このオプションは、ダッシュボードマネージャーでのみ使用できます。
 
 
-1. [ パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
+1. [&#x200B; パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
 
 ### 手順3：ダッシュボードプロンプトの適用
 
@@ -222,7 +222,7 @@ Take Preview and production mentions out at release
 1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。 プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。
    ![条件を選択](assets/prompts-list.png)
 
-1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン ](assets/close-icon.png)をクリックして、パネルを非表示にします。
+1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして、パネルを非表示にします。
 
 
 

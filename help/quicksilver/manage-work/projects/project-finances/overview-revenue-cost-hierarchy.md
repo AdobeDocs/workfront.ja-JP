@@ -81,7 +81,7 @@ Workfront管理者は、必要に応じて、請求率、コスト率、その�
 >請求レートを保持するためにフラグをオンにすると、プロジェクトに割り当てがなく、時間がない限り、フラグをオフにすることはできません。 これにより、すべての財務報告書に真の契約率が反映されます。
 >フラグがオフの場合、請求レートを再計算または動的に調整できます。 ユーザーの役割、給与、または請求率の更新は、割り当ての請求率にすぐに反映されます。
 
-詳しくは、[ プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)および[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)および[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## 予定収益 – ユーザーおよび役割（時間単位）
 
@@ -89,7 +89,7 @@ Workfront管理者は、必要に応じて、請求率、コスト率、その�
 
 次の図は、計画収益階層のフローを示しています。
 
-![ ユーザーおよび役割の予定収益の時間単位の収益タイプ ](assets/planned-revenue-chart.png)
+![&#x200B; ユーザーおよび役割の予定収益の時間単位の収益タイプ &#x200B;](assets/planned-revenue-chart.png)
 
 ユーザーがタスクに割り当てられている場合、Workfrontは次の階層に従って検索します。
 
@@ -153,7 +153,7 @@ Workfront管理者は、必要に応じて、請求率、コスト率、その�
 
 次の図は、実際の収益階層のフローを示しています。
 
-![ ユーザーおよび役割の時間単位のコスト タイプ ](assets/actual-revenue-chart.png)の実際の収益
+![&#x200B; ユーザーおよび役割の時間単位のコスト タイプ &#x200B;](assets/actual-revenue-chart.png)の実際の収益
 
 ### ログに記録された時間の所有者とタスクに割り当てられたユーザーが同じ場合
 
@@ -200,7 +200,7 @@ Workfrontは、次の階層に従って、所有者のユーザープロパテ�
 
 次の図は、計画コスト階層のフローを示しています。
 
-![ ユーザーおよび役割の予定コスト時間コスト タイプ ](assets/planned-cost-chart.png)
+![&#x200B; ユーザーおよび役割の予定コスト時間コスト タイプ &#x200B;](assets/planned-cost-chart.png)
 
 ユーザーがタスクに割り当てられている場合、Workfrontは次の階層に従って検索します。
 
@@ -224,7 +224,7 @@ Workfrontは、次の階層に従って、所有者のユーザープロパテ�
 
 次の図は、実際のコスト階層のフローを示しています。
 
-![ ユーザーおよび役割の実際のコスト時間コスト タイプ ](assets/actual-cost-chart.png)
+![&#x200B; ユーザーおよび役割の実際のコスト時間コスト タイプ &#x200B;](assets/actual-cost-chart.png)
 
 ### ログに記録された時間の所有者とタスクに割り当てられたユーザーが同じ場合
 

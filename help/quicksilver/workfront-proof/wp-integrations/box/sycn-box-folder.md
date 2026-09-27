@@ -40,7 +40,7 @@ ht-degree: 99%
 
 [!DNL Box] フォルダーを [!DNL Workfront Proof] にあるフォルダーと同期できます。 ボックスフォルダー内のファイルに加えたすべての変更は、Workfront Proof のプルーフに反映されます（新規ファイルのアップロード、新しいバージョンの追加、ファイルの名前の変更など）。
 
-フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
+フォルダーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 99%
    * **[!UICONTROL 同期を一時停止]**：[!DNL Workfront Proof] フォルダーはボックスからの変更によってはアップデートされなくなります。 同期はいつでも再開できます（1）。
    * **[!UICONTROL フォルダーの同期を無効化]**：フォルダー間の接続が失われ、同期を [!DNL Box] アカウントから再設定する必要があります（2）。
 
-   * フォルダーの同期を開始したユーザーのみが、フォルダーの同期を無効化または一時停止できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
+   * フォルダーの同期を開始したユーザーのみが、フォルダーの同期を無効化または一時停止できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
    * **[!DNL Box]フォルダー**&#x200B;に移動：[!DNL Box] フォルダー オプション内でフォルダー URL を共有した場合、このオプションが利用可能になり、[!DNL Box] フォルダーに直接移動します（3）。
    * **[!UICONTROL フォルダー同期の詳細]**：この節には、[!DNL Box] フォルダーに関する情報が含まれます（4）。
    * **[!UICONTROL [!DNL Box]フォルダーリンク]**：[!DNL Box] フォルダーへの URL（5）。
@@ -78,7 +78,7 @@ ht-degree: 99%
 >
 >* [!UICONTROL フォルダーオプション]メニューから [!DNL Box] フォルダを同期することもできます。
 >* 独自のブランドの [!DNL Workfront Proof] ログインページがある場合は、標準 [!DNL Workfront Proof] ログインページの代わりにそのページが表示されます。 詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) の記事を参照してください。
->* [!DNL Workfront Proof] アカウントで [!UICONTROL シングル サインオン（SSO）] 機能を有効にしている場合は、SSO ログインページが表示され、SSO ログイン資格情報の入力を求められます。ただし、[!DNL Box] アカウントと [!DNL Workfront Proof] に同じメールアドレスを使用している場合に限ります。 詳しくは、 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) での[[!UICONTROL シングルサインオン]を参照してください。
+>* [!DNL Workfront Proof] アカウントで [!UICONTROL シングル サインオン（SSO）] 機能を有効にしている場合は、SSO ログインページが表示され、SSO ログイン資格情報の入力を求められます。ただし、[!DNL Box] アカウントと [!DNL Workfront Proof] に同じメールアドレスを使用している場合に限ります。 詳しくは、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) での[!UICONTROL シングルサインオン]を参照してください。
 >* [!DNL Box] アカウントと [!DNL Workfront Proof] アカウントの両方に同じメールアドレスを使用していない場合は、常に標準の [!DNL Workfront Proof] ログインページが表示されます。
 >
 

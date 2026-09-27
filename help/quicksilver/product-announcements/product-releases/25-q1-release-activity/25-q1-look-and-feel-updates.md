@@ -68,7 +68,7 @@ ht-degree: 17%
 
 オブジェクトへのアクセスを要求するダイアログが、Workfrontの他の領域と一致する、より現代的なデザインに更新されました。 このダイアログは、プロジェクト、タスク、イシュー、プログラム、ポートフォリオ、テンプレート、テンプレートタスクへのアクセスをリクエストする場合に使用できます。
 
-詳しくは、[ オブジェクトへのアクセスの要求](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md)を参照してください。
+詳しくは、[&#x200B; オブジェクトへのアクセスの要求](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md)を参照してください。
 
 ## ドキュメント統合のルックアンドフィール更新
 
@@ -119,7 +119,7 @@ Workfront設定エリアに新しいリスト書式を導入します。この�
 
 Workfrontの他の領域と一致する、より現代的なデザインで、設定エリアのデータ書き出し（キックスタート）ページを更新しました。
 
-詳しくは、[ キックスタートを使用したWorkfrontからのデータの書き出し](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
+詳しくは、[&#x200B; キックスタートを使用したWorkfrontからのデータの書き出し](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
 
 ## 「ユーザーに更新を送信」ウィンドウのルックアンドフィールの更新
 

@@ -30,13 +30,13 @@ ht-degree: 96%
 ---
 # [!DNL Adobe Workfront with Anaplan] 統合に関する FAQ
 
-* [ [!DNL Adobe Workfront Fusion?] を使用する必要があるか](#do-i-have-to-use-adobe-workfront-fusion)
-* [ [!DNL Anaplan] 以外の金融ツールと同じような統合を行うことはできますか？](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
-* [ [!DNL Workfront-Anaplan]  統合に役立つライセンスティアは？](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
+* [&#x200B; [!DNL Adobe Workfront Fusion?] を使用する必要があるか](#do-i-have-to-use-adobe-workfront-fusion)
+* [&#x200B; [!DNL Anaplan] 以外の金融ツールと同じような統合を行うことはできますか？](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
+* [&#x200B; [!DNL Workfront-Anaplan]  統合に役立つライセンスティアは？](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
 * [この統合には実装サービスが必要ですか？](#will-this-integration-require-implementation-services)
 * [これが機能するために [!DNL Workfront] を設定する必要がある具体的な方法はありますか？](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
 * [これが機能するために [!DNL Anaplan] を設定する必要がある具体的な方法はありますか？](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [ [!DNL Workfront professional services]  [!DNL Anaplan]  ワークスペースの構成に役立ちますか？](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [&#x200B; [!DNL Workfront professional services]  [!DNL Anaplan]  ワークスペースの構成に役立ちますか？](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
 ## [!DNL Adobe Workfront Fusion?] を使用する必要があるか {#do-i-have-to-use-adobe-workfront-fusion}
 

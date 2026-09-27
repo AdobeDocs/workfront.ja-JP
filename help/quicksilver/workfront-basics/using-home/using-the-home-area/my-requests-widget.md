@@ -93,7 +93,7 @@ My Requests ウィジェットには、送信したリクエストが表示さ�
 
 マイリクエストウィジェットから直接リクエストを作成できます。
 
-手順については、「[作業項目とプロジェクトをホーム エリア ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)から作成する」の「[ リクエストを作成](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)」の節を参照してください。
+手順については、「[作業項目とプロジェクトをホーム エリア &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)から作成する」の「[&#x200B; リクエストを作成](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)」の節を参照してください。
 
 ## リクエストをコピーする
 
@@ -110,7 +110,7 @@ The My Requests widget features a customizable filter that allows you to control
 To configure the filter in the My Requests widget:
 -->
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
 1. （オプション）情報がリクエストリストに表示される方法を管理するには、リストの次のビュー要素を作成または更新します。
 
@@ -204,7 +204,7 @@ Consider the following when working with views in the My Requests widget:
 
 マイリクエストウィジェットで特定のリクエストを検索するには：
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
 1. マイリクエストウィジェットの右上付近にある検索バーで、検索する語句を入力します。
 
@@ -224,7 +224,7 @@ Consider the following when working with views in the My Requests widget:
 >* 「オブジェクト作成」フィールドのPlanning リクエストから作成されたPlanning レコード。
 >* Workfront リクエストから変換されたWorkfront タスクとイシューは、「オブジェクトを作成」フィールドにあります。
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
 1. オブジェクトを作成したリクエストを探します。
 1. そのリクエストの&#x200B;**作成済みオブジェクト**&#x200B;列のオブジェクト名をクリックします。

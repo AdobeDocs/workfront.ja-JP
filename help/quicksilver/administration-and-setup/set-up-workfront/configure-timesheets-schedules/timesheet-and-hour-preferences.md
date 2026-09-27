@@ -91,7 +91,7 @@ ht-degree: 95%
 
 1. （オプション）「**システムのタイムシートおよび時間設定**」検索ボックスにグループの名前を入力し、リストに表示されたら選択します。
 
-   ![ グループボックスを検索](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![&#x200B; グループボックスを検索](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    タイムシートと時間の環境設定ページは、選択したグループの環境設定で更新されます。 グループレベルの環境設定を変更するには、システムレベルの環境設定のロックを解除する必要があります。 詳細については、この記事の[グループのタイムシートと時間の環境設定のロックを解除](#unlock-timesheet-and-hour-preferences-for-groups)の節を参照してください。
 
@@ -226,8 +226,8 @@ ht-degree: 95%
 
 1. 次のいずれかの操作を行います。
 
-   * グループ管理者が自分のグループの環境設定を設定できるようにするには、「**ロック解除**」トグル「![ ロック解除](assets/unlock-toggle-button.png)」をクリックしてロックを解除します。
-   * すべてのグループで環境設定を使用する場合は、トグルがロックされていることを確認します![ ロックされた環境設定トグル ](assets/locked-preference-toggle.png) （これはデフォルトです）。
+   * グループ管理者が自分のグループの環境設定を設定できるようにするには、「**ロック解除**」トグル「![&#x200B; ロック解除](assets/unlock-toggle-button.png)」をクリックしてロックを解除します。
+   * すべてのグループで環境設定を使用する場合は、トグルがロックされていることを確認します![&#x200B; ロックされた環境設定トグル &#x200B;](assets/locked-preference-toggle.png) （これはデフォルトです）。
 
      >[!IMPORTANT]
      >

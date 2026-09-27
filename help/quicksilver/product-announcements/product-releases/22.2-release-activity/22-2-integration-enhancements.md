@@ -119,4 +119,4 @@ OAuth2 または JWT カスタム統合でのクライアントの秘密鍵に�
 
 セキュリティを強化し、あらゆる統合で一貫性のあるエクスペリエンスを提供するために、Google Google Workspaceの統合を更新し、業界標準のOAuth2認証方式を使用してユーザーを認証しました。 ユーザーがログインすると、ユーザーに統合機能でアクセスできる特定のアクションやエリアが表示され、アクセスを許可できるようになりました。 その後は、頻繁にログインする必要はありません。
 
-詳しくは、[Google Workspace用Adobe Workfrontへのログインとログアウト ](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)を参照してください。
+詳しくは、[Google Workspace用Adobe Workfrontへのログインとログアウト &#x200B;](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)を参照してください。

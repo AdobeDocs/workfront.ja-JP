@@ -42,7 +42,7 @@ ht-degree: 32%
 
 CX Enterpriseにログインしたら、上部のナビゲーション領域の組織スイッチャーをクリックして、アクセス権を持つすべての[!DNL Workfront]組織と環境を表示できます。 作業する [!DNL Workfront] の組織または環境を選択します。 組織で使用されている場合、環境には[!UICONTROL プレビュー]と[!UICONTROL サンドボックス]が含まれる可能性があります。
 
-![ [!DNL Workfront] の組織と環境を表示 ](assets/wf-org-instance-switcher-2026.png)
+![&#x200B; [!DNL Workfront] の組織と環境を表示 &#x200B;](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ CX Enterpriseにログインしたら、上部のナビゲーション領域の�
 
 [!DNL Workfront]は、アクセス権のあるCX Enterprise製品の一覧に表示されます。 CX Enterprise ホームページのクイックアクセス メニューで[!DNL Workfront]を選択するか、製品スイッチャー![製品スイッチャー](assets/main-menu-icon.png)を使用して、いつでもアプリケーションを変更できます。
 
-![ [!DNL Workfront] を選択してアプリケーションにアクセス ](assets/cx-enterprise-home-2026.png)
+![&#x200B; [!DNL Workfront] を選択してアプリケーションにアクセス &#x200B;](assets/cx-enterprise-home-2026.png)
 
 >[!NOTE]
 >

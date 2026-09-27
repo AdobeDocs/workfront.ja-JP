@@ -45,7 +45,7 @@ ht-degree: 83%
 >[!NOTE]
 >
 >この記事の例には、`<supported-version>`が含まれます。 これを、使用するバージョンのWorkfront APIに置き換えます。
->Workfront APIのバージョン管理とサポートスケジュールについては、[APIのバージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+>Workfront APIのバージョン管理とサポートスケジュールについては、[APIのバージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
 Adobe Workfront API の目的は、HTTP 経由で動作する REST フルアーキテクチャを導入することで、Workfront との統合の構築を簡略化することです。 このドキュメントでは、REST および JSON の応答に精通していることを前提とし、Workfront API で採用されているアプローチについて説明します。
 
@@ -527,7 +527,7 @@ PUT に対する応答は GET と同じです。 どちらの場合も、サー�
 ### ネストされた更新の作成
 
 一部のオブジェクトには、非公開で所有するコレクションを更新できます。 例えば、次の例は、特定のタスクの既存の割り当てを上書きする方法を示しています。
-<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>{<br>割り当て：[<br> {<br> assignedToID: "2222...54d0, <br>割り当てパーセント：50.0 <br> },{<br> roleID: "1111...54d0"<br>} } <br> ] <br>}</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>{<br>割り当て：[<br> {<br> assignedToID: "2222...54d0, <br>割り当てパーセント：50.0 <br> },{<br> roleID: "1111...54d0"<br>} } <br> ] <br>&rbrace;</pre>
 
 >[!NOTE]
 >

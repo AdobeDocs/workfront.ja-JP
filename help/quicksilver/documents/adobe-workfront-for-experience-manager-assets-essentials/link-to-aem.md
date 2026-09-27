@@ -184,7 +184,7 @@ Experience Manager AssetsまたはAssets Essentialsから新しいコンテン�
 
    * 「Assets」タブを選択して、Experience Manager AssetsまたはAssets Essentialsのアセット、フォルダー、コレクションを参照します。
 
-     ![ コンテンツアドバイザー](assets/content-advisor-full.png)
+     ![&#x200B; コンテンツアドバイザー](assets/content-advisor-full.png)
 
    * コンテンツフラグメントはバージョンをサポートしていません。 コンテンツフラグメントを選択すると、新しいバージョンを作成する代わりに、新しいバージョンが既存のコンテンツフラグメントに置き換わります。
 
@@ -213,8 +213,8 @@ Experience Manager AssetsまたはAssets Essentialsから新しいコンテン�
 
 ## 考慮事項
 
-* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)を参照してください。
+* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)を参照してください。
 
-* Content Advisor機能は、Assets Essentialsでは使用できません。 Assets Essentialsからアセットとフォルダーをリンクするには、[Experience Manager Assets Essentialsからアセットとフォルダーをリンク ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)するを参照してください。
+* Content Advisor機能は、Assets Essentialsでは使用できません。 Assets Essentialsからアセットとフォルダーをリンクするには、[Experience Manager Assets Essentialsからアセットとフォルダーをリンク &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)するを参照してください。
 
 * メタデータフィールドは、WorkfrontからExperience Manager Assetsにアセットを送信するときに最初にマッピングされます。 Workfront 管理者がオブジェクトメタデータの同期を有効にしている場合、どちらかのアプリケーションで変更されたフィールドは最新の状態に保たれます。

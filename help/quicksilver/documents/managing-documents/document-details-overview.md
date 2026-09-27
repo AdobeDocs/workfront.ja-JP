@@ -68,7 +68,7 @@ ht-degree: 23%
 
   Workfront Proof でプルーフカスタムフィールドを設定する必要があります。 詳しくは、[Workfront Proof でのカスタムフィールドの作成と管理](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
 
-![ ドキュメントの詳細](assets/doc-details-full-legacy.png)
+![&#x200B; ドキュメントの詳細](assets/doc-details-full-legacy.png)
 
 ### 従来のドキュメント領域でドキュメントの詳細ページを開きます
 
@@ -76,7 +76,7 @@ ht-degree: 23%
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 
-   ![ ドキュメントの詳細](assets/doc-details-legacy.png)
+   ![&#x200B; ドキュメントの詳細](assets/doc-details-legacy.png)
 
 
 ## 新規ドキュメント領域
@@ -104,7 +104,7 @@ ht-degree: 23%
 </tr>
 </table>
 
-![ ドキュメントの詳細メニューアイコン ](assets/more-menu-new-doc.png)
+![&#x200B; ドキュメントの詳細メニューアイコン &#x200B;](assets/more-menu-new-doc.png)
 
 
 
@@ -113,7 +113,7 @@ ht-degree: 23%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントを選択し、左側のサイドバーにある&#x200B;**詳細を表示**&#x200B;をクリックします。
 
-   ![ ドキュメントの詳細](assets/doc-details.png)
+   ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
 
 
 ### 新しいドキュメント領域の「概要を印刷」を表示します
@@ -123,7 +123,7 @@ ht-degree: 23%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントを選択し、左側のサイドバーにある&#x200B;**詳細を表示**&#x200B;をクリックします。
 
-   ![ ドキュメントの詳細](assets/doc-details.png)
+   ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
 
 1. **概要** セクションで、**印刷概要を開く**&#x200B;をクリックします。
 
