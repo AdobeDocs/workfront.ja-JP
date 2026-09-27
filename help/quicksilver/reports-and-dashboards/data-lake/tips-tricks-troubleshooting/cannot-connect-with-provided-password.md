@@ -7,21 +7,26 @@ description: Power BI ツールからData Connectにログインしようとす�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
-TQID: https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo
+TQID: 'https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '229'
 ht-degree: 6%
-
 ---
-
 # Power BI ツールは、指定されたパスワードに接続できません
 
 ## 問題
@@ -46,8 +51,8 @@ Workfrontで接続パスワードをリセットし、接続を編集ダイア�
 1. Workfront/設定/システム/Data Connectに移動します。
 1. リストから接続を検索して開きます。
 1. 「**接続パスワードをリセット**」で、パスワードをリセットするかどうかを確認するチェックボックスをオンにします。
-1. **接続パスワードのリセット**&#x200B;をクリックします。
-   ![接続パスワードのリセット &#x200B;](assets/reset-password.png)
+1. **接続パスワードのリセット**をクリックします。
+   ![接続パスワードのリセット ](assets/reset-password.png)
 1. 以下のセクションに進みます。
 
 ### 接続の新しいパスワードを作成

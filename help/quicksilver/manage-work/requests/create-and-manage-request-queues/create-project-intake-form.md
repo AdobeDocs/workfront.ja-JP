@@ -7,16 +7,28 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
-hidefromtoc: true
-last-update: 2026-04-01T18:03:50Z
+hidefromtoc: 'yes'
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 7%
-
 ---
-
 # プロジェクト受け入れフォームの作成
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
@@ -89,14 +101,14 @@ Workfront プロジェクト取り込みフォームは、作成されたプロ�
 * 式
 * ロールアップ
 * 1 行のロールアップ
-* 接続の計画
+* プランニング接続
 * 読み取り専用のプロジェクトネイティブフィールドに参照されるネイティブフィールド参照（例：`workRequiredExpression`）
 
 #### 利用申請
 
 プロジェクト受注フォームは、新しいリクエスト側エクスペリエンスでのみ使用できます。
 
-新しいリクエスト用エクスペリエンスについて詳しくは、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+新しいリクエスト用エクスペリエンスについて詳しくは、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 #### 共有
 
@@ -159,7 +171,7 @@ Workfront プロジェクト取り込みフォームは、作成されたプロ�
    * **説明テキスト**
    * **セクション区切り**
 
-   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. フォームの左側にある「**自動化**」タブをクリックし、次のいずれかの操作を行います。
 
@@ -180,7 +192,7 @@ Workfront プロジェクト取り込みフォームは、作成されたプロ�
    * プロジェクトが承認または却下される前に、あらゆる承認者が決定する必要があります。
    * チームが承認者として設定されている場合、チームから必要な決定はひとつだけです。
 
-     リクエストフォームへの承認の追加について詳しくは、[&#x200B; リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
+     リクエストフォームへの承認の追加について詳しくは、[ リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)を参照してください。
 
 1. （オプション）ヘッダーのフォーム名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックしてフォーム名を更新します。
 

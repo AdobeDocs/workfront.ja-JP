@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof] でのプルーフの設定'
+title: '[!DNL Workfront Proof] でのプルーフの設定の指定'
 description: プルーフで作成中または編集中のプルーフを設定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-TQID: https://experienceleague.adobe.com/TmIsFRFe5aBI4M9Qv430PwZSpNNPvqojV-S4OVG0ZyI
+TQID: 'https://experienceleague.adobe.com/TmIsFRFe5aBI4M9Qv430PwZSpNNPvqojV-S4OVG0ZyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1055'
 ht-degree: 94%
-
 ---
-
 # [!DNL Workfront Proof] でのプルーフの設定の指定
 
 >[!IMPORTANT]
@@ -37,9 +46,9 @@ ht-degree: 94%
 
 最終承認者が決定したときに、プルーフの状態をロックするように設定できます。 これは、レビュアーがプルーフに戻ってコメントを追加したり、決定を変更したりできないようにしたい場合に役立ちます。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
    または\
-   [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
+   [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
 
 1. 新規プルーフの場合は、**[!UICONTROL プルーフの設定]**&#x200B;の下の「**[!UICONTROL 必要な校正判断がすべて完了したらプルーフをロック]**」を選択します。\
    または\
@@ -60,9 +69,9 @@ ht-degree: 94%
 
 プルーフをレビューするすべてのユーザーに対してログインを必須にするには、次の手順に従います。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
    または\
-   [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフに関するプルーフの詳細ページを開きます。
+   [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフに関するプルーフの詳細ページを開きます。
 
 1. 新規プルーフの場合は、**[!UICONTROL プルーフの設定]**&#x200B;の下の「**[!UICONTROL ログインを必須にする]**」を選択します。\
    または\
@@ -72,11 +81,11 @@ ht-degree: 94%
 
 この設定は、プルーフの校正判断に対して、グループ、部門または会社の 1 人のユーザーのみを必要とする場合に役立ちます。
 
-承認者またはレビュアーおよび承認者の役割を複数のユーザーに割り当てた場合でも、1 人のユーザーがプルーフに対する校正判断を行うと、（その校正判断に従って）プルーフのステータスが更新されます。 プルーフのステータスについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) でのプルーフの進捗とステータスの表示を参照してください。
+承認者またはレビュアーおよび承認者の役割を複数のユーザーに割り当てた場合でも、1 人のユーザーがプルーフに対する校正判断を行うと、（その校正判断に従って）プルーフのステータスが更新されます。 プルーフのステータスについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) でのプルーフの進捗とステータスの表示を参照してください。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
    または\
-   [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細の管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
+   [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細の管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
 
 1. 新規プルーフの場合は、**[!UICONTROL ワークフロー]**&#x200B;の下の「**[!UICONTROL このステージに必要な校正判断を 1 つにする]**」を選択します。\
    または\
@@ -86,25 +95,25 @@ ht-degree: 94%
 
 ## 校正判断に電子サインを必須にする
 
-プルーフで校正判断をするレビュアーに対して、メールとパスワードの入力して、電子署名する必要があります。 レビュアーが校正判断をする場合、メールとパスワードの入力および校正判断の確認を求めるプロンプトが表示されます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md) での電子署名についてを参照してください。
+プルーフで校正判断をするレビュアーに対して、メールとパスワードの入力して、電子署名する必要があります。 レビュアーが校正判断をする場合、メールとパスワードの入力および校正判断の確認を求めるプロンプトが表示されます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md) での電子署名についてを参照してください。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
    または\
-   [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
+   [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
 
 1. 新規プルーフの場合は、**[!UICONTROL プルーフの設定]**&#x200B;の下の「**[!UICONTROL 校正判断に電子サインを必須にする]**」を選択します。\
    または\
    既存のプルーフの場合は、**[!UICONTROL 設定]**&#x200B;の下の「**[!UICONTROL 校正判断に電子サインを必須にする]**」を選択します。
 
-校正判断について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
+校正判断について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
 
 ## 元のファイルのダウンロードをユーザーに許可しない
 
 プルーフのレビュアーが、プルーフの作成元のファイルをダウンロードしないようにすることができます。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフの生成の説明に従って、新規プルーフを作成します。\
    または\
-   [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
+   [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
 
 1. 新規プルーフの場合は、**[!UICONTROL プルーフの設定]**&#x200B;の下の「**[!UICONTROL オリジナルファイルをダウンロード]**」の選択を解除します。\
    または\
@@ -114,7 +123,7 @@ ht-degree: 94%
 
 購読は、プルーフの URL とミニプルーフで機能する詳細設定です。
 
-デフォルトでは、プルーフに特に追加されておらず、プルーフ URL またはミニプルーフを使用してアクセスしているユーザーは、プルーフを読み取り専用モードでのみ表示できます。 既にプルーフのレビュアーであるユーザーは、自分のメールアドレスを使用してログインできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)でのプルーフの役割を管理を参照してください。
+デフォルトでは、プルーフに特に追加されておらず、プルーフ URL またはミニプルーフを使用してアクセスしているユーザーは、プルーフを読み取り専用モードでのみ表示できます。 既にプルーフのレビュアーであるユーザーは、自分のメールアドレスを使用してログインできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)でのプルーフの役割を管理を参照してください。
 
 プルーフの登録を有効にすると、プルーフに明示的に追加されていないユーザーが、自分自身をプルーフに登録できるようになります（つまり、プルーフに自分自身を追加できるようになります）。 その後、登録の設定で選択した役割とメールアドレスのアラートが割り当てられます。
 
@@ -127,13 +136,13 @@ ht-degree: 94%
 
 
 
-[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) でプルーフを登録を参照してください。
+[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) でプルーフを登録を参照してください。
 
 他のユーザーにプルーフの登録を許可するには、以下のように行います。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成の説明に従って、プルーフを新規作成します。\
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成の説明に従って、プルーフを新規作成します。\
    または\
-   [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
+   [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、既存のプルーフのプルーフの詳細ページを開きます。
 
 1. 新規プルーフの場合は、**[!UICONTROL プルーフ設定]**&#x200B;の下の「**[!UICONTROL パブリック URL か埋め込みコードからプルーフに参加]**」の選択を解除します。\
    または\

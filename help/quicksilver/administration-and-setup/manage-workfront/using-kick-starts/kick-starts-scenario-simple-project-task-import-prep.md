@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 79%
-
+source-wordcount: '1505'
+ht-degree: 80%
 ---
-
 # キックスタートのシナリオ：シンプルなプロジェクトおよびタスクの読み込みの準備
 
 キックスタート方式を使用した基本的なプロジェクトとタスクの読み込みで使用できる設定とコントロールについて詳しく説明します。
@@ -290,7 +295,7 @@ ht-degree: 79%
 ![PROJ プロジェクトセット](assets/im2.png)
 Workfrontでプロジェクトを作成済みでない限り、空にする必要があります。
 
-![空のプロジェクトシート &#x200B;](assets/im10.png)
+![空のプロジェクトシート ](assets/im10.png)
 
 次のプロジェクトフィールドの値を設定します。
 
@@ -310,10 +315,10 @@ setName列に各プロジェクトの名前を入力します。
 
 * **タスク番号の設定**
 setTaskNumber列に値を入力して、タスクがプロジェクト計画に表示される順序を制御します。
-* **プロジェクトの日付を指定します。**
+* **プロジェクトの日付を入力します。**
 setPlannedStartDate列に、各プロジェクトの予定開始日を入力します。
 * **その他の必要な詳細を設定します。**
-必要に応じて、説明や現在の状況など、その他の詳細を入力します。グループ グループ シートで各プロジェクトのグループ IDを検索し、各プロジェクトのsetGroupID列に入力します。CMPY会社シートでプロジェクトの会社IDを検索し、setCompanyID列に入力します。USER User シートで各プロジェクト所有者のユーザーIDを検索し、setOwnerID列に入力します。ユーザーユーザーシートで各プロジェクトスポンサーのユーザーIDを検索し、setSponsorID列に入力します。
+必要に応じて、説明や現在の状況など、その他の詳細を入力します。 「Group」グループシートで各プロジェクトのグループ ID を検索し、それぞれのプロジェクトの setGroupID 列に入力します。 「CMPY」会社シートでプロジェクトの会社 ID を検索し、setCompanyID 列に入力します。 「USER」ユーザーシートで各プロジェクト所有者のユーザー ID を検索し、これを setOwnerID 列に入力します。 「USER」ユーザーシートで各プロジェクトスポンサーのユーザー ID を検索し、これを setOwnerID 列に入力します。
 
 ![値を設定](assets/im9.png)
 
@@ -329,11 +334,11 @@ setPlannedStartDate列に、各プロジェクトの予定開始日を入力し�
 
 Workfront で既にタスクを作成している場合を除き、このシートは空白にしておく必要があります。
 
-![&#x200B; タスクシート &#x200B;](assets/im8.png)
+![ タスクシート ](assets/im8.png)
 
-![空のタスクシート &#x200B;](assets/im7.png)
+![空のタスクシート ](assets/im7.png)
 
-![&#x200B; タスクシート列](assets/im6.png)
+![ タスクシート列](assets/im6.png)
 
 タスクをマッピングする最も簡単な方法は、（特に、各プロジェクトでタスクが同じ場合）一度に 1 つのプロジェクトです。 その後、最初のプロジェクトのタスクプランをコピーし、後続のプロジェクトのタスクプランを少し調整できます。 残りの手順では、Workfront プロジェクトの実装のみのタスクを作成することを前提としています。 シナリオに従って、1 つのプロジェクトにつき 9 つのタスクを読み込むので、isNew 列の 3 行目から 11 行目までに TRUE を入力します。
 
@@ -380,11 +385,11 @@ setDuration フィールドにタスクの時間数、日数、週数、月数�
 
   このシナリオの場合、読み込む他のプロジェクトのタスクを作成する最も簡単な方法は、定義したタスクをコピーし、下の 12 行目以降にペーストすることです。 続いて、以下を行います。
 
-   1. ID 列の値を付け直します。
-   1. setProjectID 列を、次に行うプロジェクトに設定した値に更新します。
-   1. setParentID 値と setPredecoderString 値を更新して、このプロジェクトのタスクに割り当てた新しい ID が反映されるようにします。
-   1. タスクの割り当てと完了率を更新します。
-   1. 次回のプロジェクトのタスクに対して、これらの手順を繰り返します。
+  1. ID 列の値を付け直します。
+  1. setProjectID 列を、次に行うプロジェクトに設定した値に更新します。
+  1. setParentID 値と setPredecoderString 値を更新して、このプロジェクトのタスクに割り当てた新しい ID が反映されるようにします。
+  1. タスクの割り当てと完了率を更新します。
+  1. 次回のプロジェクトのタスクに対して、これらの手順を繰り返します。
 
 * **Excel ファイルの読み込み**
 

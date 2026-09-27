@@ -9,25 +9,31 @@ feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI
+TQID: 'https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 15%
-
 ---
-
 # プログラムの概要
 
 <!-- Audited: 08/2025 -->
@@ -59,7 +65,7 @@ Adobe Workfrontでは、プログラムとは、特性が統一されたプロ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム &#x200B;]へのアクセス</p>  </td> 
+   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム ]へのアクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -125,18 +131,18 @@ Old:
 
 * プロジェクト、プログラム、ポートフォリオを作成する際には、次の点を考慮してください。
 
-   * プロジェクトは、プログラムやポートフォリオに関連付けずに独立させることができます。
-   * プロジェクトはポートフォリオに関連付けることができますが、プログラムにも関連付ける必要はありません。
-   * プログラムは常にポートフォリオに関連付けられている必要があります。 ポートフォリオの外には決して存在できません。
-   * プログラムに関連付けられたプロジェクトは、常にプログラムのポートフォリオに関連付けられます。
-   * プログラムは、1つのポートフォリオにのみ関連付けることができます。
-   * プロジェクトは、一度に1つのプログラムとプログラムのポートフォリオにのみ関連付けることができます。
-   * ポートフォリオには、複数のプログラムやプロジェクトを含めることができます。
-   * プログラムには複数のプロジェクトを含めることができます。
+  * プロジェクトは、プログラムやポートフォリオに関連付けずに独立させることができます。
+  * プロジェクトはポートフォリオに関連付けることができますが、プログラムにも関連付ける必要はありません。
+  * プログラムは常にポートフォリオに関連付けられている必要があります。 ポートフォリオの外には決して存在できません。
+  * プログラムに関連付けられたプロジェクトは、常にプログラムのポートフォリオに関連付けられます。
+  * プログラムは、1つのポートフォリオにのみ関連付けることができます。
+  * プロジェクトは、一度に1つのプログラムとプログラムのポートフォリオにのみ関連付けることができます。
+  * ポートフォリオには、複数のプログラムやプロジェクトを含めることができます。
+  * プログラムには複数のプロジェクトを含めることができます。
 
   プロジェクトとポートフォリオの作成について詳しくは、次の記事を参照してください。
-   * [プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-   * [ポートフォリオを作成](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+  * [プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+  * [ポートフォリオを作成](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * ポートフォリオオプティマイザーを使用すると、ポートフォリオ内のすべてのプロジェクトのパフォーマンスを分析できます。 同じプログラム内の複数のプロジェクトのパフォーマンスを比較することはできません。 プロジェクトのパフォーマンスをポートフォリオレベルで分析する必要があります。

@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 8%
-
+source-wordcount: '870'
+ht-degree: 7%
 ---
-
 # 2026年第2四半期ドキュメントの機能強化
 
 <!--hide this article until multi stage goes out-->
@@ -24,7 +31,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->プレビュー：2026年4月16日>実稼動用の高速リリース：2026年4月16日>全員の実稼動環境：2026年4月16日
+>プレビュー：2026年4月16日（PT）
+>プロダクション高速リリース：2026年4月16日（PT）
+>すべての人のための制作：2026年4月16日
 
 Content AdvisorがWorkfrontとAdobe Experience Manager Assetsの連携によって利用可能になり、チームは価値の高い既存コンテンツを簡単に見つけて再利用できるようになりました。
 
@@ -43,7 +52,9 @@ Workfrontから直接、AEMの既存のアセットを利用して、コンテ�
 
 >[!NOTE]
 >
->プレビュー：2026年3月31日>実稼動用の高速リリース：2026年3月31日>全員の実稼動環境：2026年3月31日
+>プレビュー：2026年3月31日（PT）
+>プロダクション高速リリース：2026年3月31日（PT）
+>すべての人のための制作：2026年3月31日
 
 2026年3月31日、すべてのWorkfrontのお客様がGenStudio Foundation用にプロビジョニングされ、Admin Console システム管理者には、この追加に関する電子メールが送信されます。 この製品は、Workfrontのお客様がAI Collaboratorsのリリースに必要に応じてWorkfrontのお客様にアクセスできるようにプロビジョニングされています。 製品自体はブランドのアクセスメカニズムに過ぎず、GenStudio Foundation製品にはその他の機能はありません。
 
@@ -53,7 +64,9 @@ Workfrontから直接、AEMの既存のアセットを利用して、コンテ�
 
 >[!NOTE]
 >
->プレビュー：2026年4月2日>実稼動用の高速リリース：2026年4月15日>全員の実稼動環境：2026年4月16日
+>プレビュー：2026年4月2日（PT）
+>プロダクション高速リリース：2026年4月15日（PT）
+>すべての人のための制作：2026年4月16日
 
 ホームのMy Approvals ウィジェットに次の機能強化が追加されました。
 
@@ -70,7 +83,9 @@ Workfrontから直接、AEMの既存のアセットを利用して、コンテ�
 
 >[!NOTE]
 >
->プレビュー：2026年3月12日>実稼動用の高速リリース：2026年4月15日>全員の実稼動環境：2026年4月16日
+>プレビュー：2026年3月12日（PT）
+>プロダクション高速リリース：2026年4月15日（PT）
+>すべての人のための制作：2026年4月16日
 
 
 Workfrontと、合理化されたレビューと承認のエクスペリエンスを提供するFrame.ioを活用した統一レビューと承認の機能をご紹介します。
@@ -79,7 +94,7 @@ Workfrontと、合理化されたレビューと承認のエクスペリエン�
 
 #### 新しいドキュメント体験
 
-モダンなルックアンドフィールで、完全にリニューアルされたドキュメント体験をお楽しみください。 更新されたインターフェイスはナビゲーションを簡素化し、わかりやすさを向上させ、チームが単一の統合環境でレビューと承認を容易に管理できるようにします。 詳しくは、[&#x200B; ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+モダンなルックアンドフィールで、完全にリニューアルされたドキュメント体験をお楽しみください。 更新されたインターフェイスはナビゲーションを簡素化し、わかりやすさを向上させ、チームが単一の統合環境でレビューと承認を容易に管理できるようにします。 詳しくは、[ ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 #### 複数ステージの承認
 
@@ -105,7 +120,9 @@ Adobeクラウドストレージにアクセスすることで、Adobe Creative 
 
 >[!NOTE]
 >
->プレビュー：2026年3月12日>実稼動用の高速リリース：2026年4月15日>全員の実稼動環境：2026年4月16日
+>プレビュー：2026年3月12日（PT）
+>プロダクション高速リリース：2026年4月15日（PT）
+>すべての人のための制作：2026年4月16日
 
 統合承認では、複数の段階の承認ワークフローを利用できるようになりました。これにより、組織は構造化された反復可能な承認プロセスを実施し、実際の作業のレビュー方法を反映することができます。 複数段階の承認を利用すると、次のことが可能になります。
 
@@ -115,13 +132,15 @@ Adobeクラウドストレージにアクセスすることで、Adobe Creative 
 * 必要な決定が完了したときにのみ承認を進行させることができます
 * 承認進捗の可視化
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 多段階の承認ワークフローテンプレートを設定して使用する
 
 >[!NOTE]
 >
->プレビュー：2026年3月12日>実稼動用の高速リリース：2026年4月15日>全員の実稼動環境：2026年4月16日
+>プレビュー：2026年3月12日（PT）
+>プロダクション高速リリース：2026年4月15日（PT）
+>すべての人のための制作：2026年4月16日
 
 多段階の承認ワークフローテンプレートを設定および再利用できるようになりました。これにより、反復可能な承認ワークフローをまたいで一貫したガバナンスを容易に適用できます。
 
@@ -131,6 +150,6 @@ Adobeクラウドストレージにアクセスすることで、Adobe Creative 
 * 承認開始時の手動設定時間を短縮
 * 必要な関係者が適切な段階で関与するようにします
 
-詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 

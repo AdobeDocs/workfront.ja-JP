@@ -6,26 +6,37 @@ description: アートボードをプルーフとして Adobe Workfront に直�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
+TQID: 'https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1014
+source-wordcount: '1014'
 ht-degree: 93%
-
 ---
-
 # [!DNL XD] アートボードをプルーフとして [!DNL Workfront] にアップロード
 
 アートボードをプルーフとして [!DNL Adobe Workfront] に直接アップロードすると、詳細なレビューと承認ができます。
@@ -70,16 +81,16 @@ ht-degree: 93%
 
 * [!DNL Adobe XD] からプルーフをアップロードする前に、[!DNL Adobe Workfront for XD] プラグインをインストールする必要があります。
 
-  手順については、[&#x200B; [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
+  手順については、[ [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
 
 ## 静的プルーフのアップロード
 
 1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. 静的プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部付近にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. アップロードするアートボードを選択します。
@@ -129,7 +140,7 @@ ht-degree: 93%
 
 1. （オプション）PDF に名前を付けます。
 
-   ![PDF オプション &#x200B;](assets/pdf-options.png)
+   ![PDF オプション ](assets/pdf-options.png)
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。\
    ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
@@ -161,10 +172,10 @@ ht-degree: 93%
 
 1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、**[!UICONTROL 作業リスト]**&#x200B;を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. インタラクティブなプルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. 「**[!UICONTROL プルーフを作成]**」を有効にします。
@@ -215,10 +226,10 @@ ht-degree: 93%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;を有効にします。

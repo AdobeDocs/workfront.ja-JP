@@ -10,25 +10,31 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ
+TQID: 'https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 55%
-
 ---
-
 # 計算済みカスタムフィールドの例：フィールドの編集履歴の表示
 
 ユーザーが定期的にカスタムフィールドを更新し、フィールドに加えられたすべての変更のログと変更が発生した日付をキャプチャする場合は、計算済みカスタムフィールドにその情報をキャプチャすることができます。
@@ -44,8 +50,8 @@ ht-degree: 55%
 * Workfront データベースの制限内に収まるように、「Instructions Edit History」フィールドを最新の2000文字に制限します。
 * 「Instructions」フィールドの現在の値が「Instructions Edit History」値の先頭と一致するかどうかを確認します。空白であると仮定し、そうでない場合は、次の操作を行います。
 
-   * それらが一致する場合、インストラクションの「履歴を編集」はそのままになります。
-   * 一致しない場合は、「説明の編集履歴」フィールドの最新の値に置き換え、「説明」フィールドの後に現在の日付を括弧で囲み、縦の棒と前の説明の編集履歴が置き換えられます。これにより、前の値と入力された日付が保持されます。
+  * それらが一致する場合、インストラクションの「履歴を編集」はそのままになります。
+  * 一致しない場合は、「説明の編集履歴」フィールドの最新の値に置き換え、「説明」フィールドの後に現在の日付を括弧で囲み、縦の棒と前の説明の編集履歴が置き換えられます。これにより、前の値と入力された日付が保持されます。
 
 ## アクセス要件
 

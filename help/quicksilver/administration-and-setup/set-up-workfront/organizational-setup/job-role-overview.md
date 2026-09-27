@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+TQID: 'https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 99%
-
 ---
-
 # 担当業務の概要
 
 担当業務は、ユーザーが満たせる可能性のある機能的能力またはスキルセットを表します。 この記事では、[!DNL Adobe Workfront] における担当業務の様々な使用法について説明します。
@@ -48,24 +56,24 @@ ht-degree: 99%
 
   例えば、実際の作業にどのユーザーが後で割り当てられるかがまだ明確でない場合は、テンプレートの作成時にタスクを担当業務に関連付けることをお勧めします。 詳しくは、次の記事を参照してください。
 
-   * [プロジェクトテンプレートの作成](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-   * [タスクを割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-   * [イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)
+  * [プロジェクトテンプレートの作成](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+  * [タスクを割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
+  * [イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * 担当業務をプロジェクト、タスクやイシューの承認プロセスに関連付けることができ、担当業務を果たすことのできる任意のユーザーが承認を決定できます。 詳しくは、[作業アイテムの承認プロセスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
 * 以下のオブジェクトを担当業務と共有できます。
 
-   * プロジェクト
-   * タスク
-   * イシュー
-   * ポートフォリオ
-   * プログラム
-   * テンプレート
-   * テンプレートタスク
-   * レポート
-   * ダッシュボード
+  * プロジェクト
+  * タスク
+  * イシュー
+  * ポートフォリオ
+  * プログラム
+  * テンプレート
+  * テンプレートタスク
+  * レポート
+  * ダッシュボード
 
-     オブジェクトの共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+    オブジェクトの共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 * リクエストキューを作成する際に、担当業務とルーティングルールを関連付けることができます。 詳しくは、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
 * レイアウトテンプレートを担当業務に割り当てることができます。 主要役割として割り当てられた担当業務を持つすべてのユーザーが、割り当てられたレイアウトテンプレートに従って [!DNL Workfront] を表示することができます。
@@ -74,5 +82,5 @@ ht-degree: 99%
   >
   >ユーザーがユーザープロファイルにレイアウトテンプレートを割り当てられている場合、そのテンプレートは、プライマリ担当業務に割り当てられているテンプレートより優先されます。 詳しくは、[レイアウトテンプレートにユーザーを割り当](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
-* [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。 これには、追加の [!DNL Scenario Planner] ライセンスが必要です。 詳しくは、[&#x200B; [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
+* [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。 これには、追加の [!DNL Scenario Planner] ライセンスが必要です。 詳しくは、[ [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
 

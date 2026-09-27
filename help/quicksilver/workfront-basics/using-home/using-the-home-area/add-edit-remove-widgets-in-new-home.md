@@ -6,18 +6,21 @@ description: 多数のウィジェットから選択して、ホームページ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 48%
-
 ---
-
 # ホームでウィジェットを追加、編集、または削除
 
 <!-- Audited: 4/2025 -->
@@ -88,11 +91,11 @@ ht-degree: 48%
 
 ## ホームにウィジェットを追加
 
-ウィジェットはホームの基本です。 ウィジェットをホームページに追加することで、作業のニーズに最も合うように表示する情報のタイプを選択できます。 一部のウィジェットは、特定のライセンスの種類に対してのみ使用できます。それらのウィジェットが追跡するオブジェクトは、それらのライセンスに対してのみ使用できるからです。 詳しくは、上記の「特定のライセンスタイプで使用可能な[&#x200B; ウィジェット &#x200B;](#widgets-available-for-specific-license-types)」の節を参照してください。
+ウィジェットはホームの基本です。 ウィジェットをホームページに追加することで、作業のニーズに最も合うように表示する情報のタイプを選択できます。 一部のウィジェットは、特定のライセンスの種類に対してのみ使用できます。それらのウィジェットが追跡するオブジェクトは、それらのライセンスに対してのみ使用できるからです。 詳しくは、上記の「特定のライセンスタイプで使用可能な[ ウィジェット ](#widgets-available-for-specific-license-types)」の節を参照してください。
 
 ウィジェットを追加するには：
 
-1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン &#x200B;](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
+1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン ](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
 
 1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
 
@@ -124,9 +127,9 @@ ht-degree: 48%
 
    * **自分の承認**\
        保留中のすべての割り当て済みまたはデリゲートされた承認、承認をデリゲートするボタン、承認の決定をウィジェット内で直接行うボタンを表示します。 承認の順序は次のとおりです。
-      * 期限切れ
-      * 今後の期限
-      * 期限のないアイテム
+     * 期限切れ
+     * 今後の期限
+     * 期限のないアイテム
 
    * **ドキュメント承認指標**\
            平均承認時間と決定、保留中および期限切れの承認のリストビューに関する情報を含む2つのグラフを表示します。 このウィジェットを使用するには、[統合承認](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)を有効にする必要があります。
@@ -148,7 +151,7 @@ ht-degree: 48%
 
 ## ホームページ上のウィジェットを移動またはサイズ変更
 
-1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン &#x200B;](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
+1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン ](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
 
 1. ホームページ上で移動またはサイズ変更するウィジェットを見つけます。
 
@@ -158,16 +161,16 @@ ht-degree: 48%
 
 ## ホームページからウィジェットを削除
 
-1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン &#x200B;](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
+1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン ](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
 
-1. 削除するホームページでウィジェットを見つけたら、ウィジェットの右上隅にある&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックします。
+1. 削除するホームページでウィジェットを見つけたら、ウィジェットの右上隅にある&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックします。
 
 1. 「**削除**」をクリックします。
 
 
 ## 背景の色を変更する
 
-1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン &#x200B;](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
+1. ホームページに移動します。ホームページがランディングページとして設定されている場合は、画面上部のAdobe Workfront アイコン ![Adobe Workfront アイコン ](assets/home-icon-30x29.png)をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックして、**ホーム**&#x200B;をクリックします。
 
 1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
 

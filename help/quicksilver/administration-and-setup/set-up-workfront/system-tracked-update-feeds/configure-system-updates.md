@@ -3,31 +3,36 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: システム更新の設定
-description: Workfront は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、ユーザーがオブジェクトに対して実行した変更を記録します。  [!DNL Workfront]  管理者は、 [!DNL Workfront]  がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
+description: Workfront は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、ユーザーがオブジェクトに対して実行した変更を記録します。 [!DNL Workfront] 管理者は、[!DNL Workfront] がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
+TQID: 'https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1032
+source-wordcount: '1032'
 ht-degree: 46%
-
 ---
-
 # システム更新の設定
 
 <!-- Audited: 08/2025 -->
@@ -79,7 +84,7 @@ ht-degree: 46%
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -125,7 +130,7 @@ Old:
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。 フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド &#x200B;] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[&#x200B; トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
+>更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。 フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド ] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[ トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
 
 {{step-1-to-setup}}
 
@@ -156,8 +161,8 @@ Old:
    >
    >[!DNL Workfront]が既にフィールドを追跡している場合、リストから2回目に追加することはできません。
 
-1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**&#x200B;をクリックします。
-追加した組み込みフィールドは&#x200B;**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
+1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**をクリックします。
+追加した組み込みフィールドは**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
 **[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]が追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
@@ -170,7 +175,7 @@ Old:
 
 1. 「**[!UICONTROL トラッキングフィールド]**」タブで、「**[!UICONTROL すべてのフィールド]**」サブタブを選択します。 現在追跡されているビルトインフィールドとカスタムフィールドの両方が表示されます。
 
-1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン &#x200B;](assets/remove-icon.png)をクリックします。
+1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン ](assets/remove-icon.png)をクリックします。
 
 1. 表示される「**[!UICONTROL フィールドを削除]**」ボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
 

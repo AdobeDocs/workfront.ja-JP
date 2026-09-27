@@ -7,18 +7,25 @@ description: 既存の従来のWorkfront ストレージポートフォリオを
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 11%
-
 ---
-
 # 従来のポートフォリオをAdobe クラウドストレージに変換
 
 Workfront管理者は、既存の従来のWorkfront ストレージポートフォリオを、システム環境設定の「ストレージ環境設定」領域からAdobe クラウドストレージに変換できます。 ポートフォリオを変換すると、他のAdobe クラウドストレージポートフォリオと同じように動作します。
 
-変換されたポートフォリオの動作と子オブジェクトの影響について詳しくは、[Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[&#x200B; オブジェクトポータビリティ &#x200B;](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
+変換されたポートフォリオの動作と子オブジェクトの影響について詳しくは、[Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[ オブジェクトポータビリティ ](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
 
 ## アクセス要件
 

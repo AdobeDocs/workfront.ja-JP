@@ -6,20 +6,24 @@ description: 以下の通知は、自分が関係する作業項目に対する�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-TQID: https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA
+TQID: 'https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1492
+source-wordcount: '1492'
 ht-degree: 100%
-
 ---
-
 # 通知：コミュニケーション
 
 以下の通知は、自分が関係する作業項目に対する更新コメントなど、コミュニケーションに関することを知らせるものです。 受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。

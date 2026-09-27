@@ -1,28 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: ' [!DNL Adobe Workfront]  リリースの準備'
+title: '[!DNL Adobe Workfront] リリースの準備'
 description: 新しい Workfront リリースのたびに組織をスムーズに更新するには、次のヒントに従ってください。
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+TQID: 'https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1234
+source-wordcount: '1235'
 ht-degree: 99%
-
 ---
-
 # [!DNL Adobe Workfront] の予定リリースの準備
 
 >[!NOTE]
@@ -51,13 +56,13 @@ ht-degree: 99%
 >
 >プロジェクトテンプレートを作成して、スケジュール済みの [!DNL Workfront] リリースに関連する作業を追跡できます。
 >
->詳しくは、この記事の [&#x200B; [!DNL Workfront]  プロジェクトを使用してリリース作業を追跡](#use-a-workfront-project-to-track-release-work)を参照してください。
+>詳しくは、この記事の [ [!DNL Workfront]  プロジェクトを使用してリリース作業を追跡](#use-a-workfront-project-to-track-release-work)を参照してください。
 
 
 今後のリリースに備えて組織を準備するのに役立つ、以下の操作の一部またはすべてを検討することをお勧めします。
 
 * [リリースノートで常に最新にする](#stay-up-to-date-with-release-notes)
-* [&#x200B; [!DNL Workfront]  お知らせセンターを見る](#watch-the-workfront-announcement-center)
+* [ [!DNL Workfront]  お知らせセンターを見る](#watch-the-workfront-announcement-center)
 * [[!UICONTROL サンドボックスをプレビュー]環境を調べる](#explore-the-preview-sandbox-environment)
 * [リリースウェビナーに参加](#attend-the-release-webinar)
 * [Workfront にフィードバックを提供](#offer-feedback-to-workfront)
@@ -102,7 +107,7 @@ ht-degree: 99%
 
 機能がプレビューサンドボックス環境にリリースされると、[!DNL Workfront] ドキュメントが更新されて新しい機能が追加されます。 該当する記事を検索したり、リリースノートからドキュメントへのリンクをたどることができます。
 
-[!UICONTROL プレビューサンドボックス]環境について詳しくは、[&#x200B; [!DNL Adobe Workfront] [!UICONTROL &#x200B; プレビューサンドボックス]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+[!UICONTROL プレビューサンドボックス]環境について詳しくは、[ [!DNL Adobe Workfront] [!UICONTROL  プレビューサンドボックス]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ### リリースウェビナーに参加
 

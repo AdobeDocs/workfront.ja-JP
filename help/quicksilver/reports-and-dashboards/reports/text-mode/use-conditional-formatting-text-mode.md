@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo
+TQID: 'https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1738
+source-wordcount: '1834'
 ht-degree: 92%
-
 ---
-
 # テキストモードでの条件付き書式の使用
 
 <!--Audited: 01/2025-->
@@ -193,10 +198,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* このステートメントは会社名の列に適用できますが、レポート上の他の列にも適用できます。 緑のテキストは、プロジェクトに会社が関連付けられている場合にのみ表示されます。 条件付けが最終的に列に表示されるかどうかを決定するのは `[field name]`、`[value]`、`[qualifier]` です。
 >* 修飾子を使用する場合、`cicontains` ではなく `equal` を使用することをお勧めします。 デフォルトでは、`equal` は ID 番号を探します。 `cicontains` 修飾子を使用すると、名前で項目にアクセスできます。
 
-![&#x200B; テキストモードの例](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![ テキストモードの例](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![&#x200B; テキストモードの例](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![ テキストモードの例](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 テキストモードに「テキストの色」、「整列」、「フォントのスタイル」、「背景色」のどれを適用するにしても、同じステートメント（上記）を使用します。
 
@@ -301,9 +306,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >`case.0.` で始まるステートメントでは、テキストの使用を識別するために大文字と小文字の比較を使用します。 `styledef.case.0.` で始まる行は初期の条件付き形式ステートメントであり、`truetext` 式を通じてテキストの使用を識別します。 `truetext` を空白のままにするのではなく、必ず値を設定してください。
 
-![&#x200B; テキストの例を適用](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![ テキストの例を適用](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![&#x200B; テキスト結果を適用](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![ テキスト結果を適用](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### レコード書式の適用 {#apply-row-formats}
 
@@ -363,26 +368,26 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >ステートメントに `icon=true` 式が使用されていることに注目してください。 また、このステートメントは、他の条件付き書式設定ステートメントとは異なり、`style.def` 形式を使用せずに一意の画像形式を使用します。
 
-![&#x200B; アイコンテキストモード &#x200B;](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![ アイコンテキストモード ](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![&#x200B; アイコンテキストモードの結果](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![ アイコンテキストモードの結果](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 使用可能な画像を使用するには、次のコードと値を適用します。
 
 | **アイコン** | **行：image.case.0.comparison.truetext=** |
 |---|---|
 | 顔の顔![顔の顔](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| ハッピーフェイス ![&#x200B; ハッピーフェイス &#x200B;](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| ハッピーフェイス ![ ハッピーフェイス ](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
 | 青い旗![青い旗](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
 | 緑の旗![緑の旗](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
 | 赤旗![赤旗](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
 | 黄色の旗![黄色の旗](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
 | 黒い円![黒い円](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
 | 青い円![青い円](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| グレーの円![&#x200B; グレーの円](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| グレーの円![ グレーの円](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
 | 緑の円![緑の円](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| オレンジ色の円![&#x200B; オレンジ色の円](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| ピンクの円![&#x200B; ピンクの円](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| オレンジ色の円![ オレンジ色の円](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| ピンクの円![ ピンクの円](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
 | 紫色の円![紫色の円](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
 | 赤い円![赤い円](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
 | 白い円![白い円](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
@@ -408,9 +413,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 * 列の値は、要約できる形式にする必要があります。 例えば、次のいずれかの形式にする必要があります。
 
-   * 数値
-   * 日付
-   * 通貨
+  * 数値
+  * 日付
+  * 通貨
 
 * 計算を表示する列に集計を追加できます。 集計値は、ビューまたはレポートのグループ化に表示されます。 詳しくは、[グループ化：グループ化内の複数の計算値の集計結果の表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)を参照してください。
 * 列の定義に使用するコード行は、集計を導入し、その前に「aggregator.」が付くコード行と同じである必要があります。 例えば、プロジェクトに予定時間数を表示する列がある場合、列の主な行のテキストモードは次のようになります。

@@ -7,31 +7,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+TQID: 'https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2948
-ht-degree: 96%
-
+source-wordcount: '2965'
+ht-degree: 97%
 ---
-
 # 23.3 リリースの概要
 
 このページでは、23.3 リリースに含まれる機能について説明します。 これらの機能強化は、2023年7月20日（PT）および 2023年7月21日（PT）の 23.3 リリースで本番環境で使用可能になりました。
@@ -727,7 +739,7 @@ ht-degree: 96%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいカンバスダッシュボードエクスペリエンスの機能強化</a></p>
-                        <p>Canvas ダッシュボードの機能強化は、23.3 リリース期間内に利用できるようになります。これらの機能強化は、特に指定がない限り、23.3 リリースの実稼動環境で利用できます。 
+                        <p>カンバスダッシュボードの機能強化は、23.3 リリースの期間内に提供されます。 特に指定のない限り、これらの機能強化は、23.3 リリースの本番環境で利用可能になります。 
  </p>
                     </td>
                     <td><p><b>公開日：</b></p>

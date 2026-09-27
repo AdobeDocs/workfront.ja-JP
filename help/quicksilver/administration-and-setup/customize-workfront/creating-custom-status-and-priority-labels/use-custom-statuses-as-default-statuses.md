@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-TQID: https://experienceleague.adobe.com/B5-tjy-e33pN0nXohWtt7HoFArOdPAu-jQfVu270K9w
+TQID: 'https://experienceleague.adobe.com/B5-tjy-e33pN0nXohWtt7HoFArOdPAu-jQfVu270K9w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: '798'
 ht-degree: 97%
-
 ---
-
 # カスタムステータスをデフォルトのステータスとして使用
 
 カスタムステータスがデフォルトステータスとして設定されている場合、新しいデフォルトステータスは、様々な方法でシステム全体で使用されます。 使用方法は、デフォルトのシステムレベルのステータスとして設定されているか、デフォルトのグループレベルのステータスとして設定されているかによって異なります。
@@ -105,6 +109,6 @@ ht-degree: 97%
    >グループのカスタムステータスを設定している場合、後でプロジェクトを別のグループに割り当てると、プロジェクトのステータスがリロードみされ、変更される可能性があります。
 
    1. カスタムステータスを使用するプロジェクトに移動します。
-   1. 詳細メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+   1. 詳細メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
    1. 表示される「**プロジェクトを編集**」ボックスの、「**プロジェクトの関連付け**」の「**グループ**」フィールドで、ステータスが存在するグループを選択します。
    1. 「**変更を保存**」をクリックします。

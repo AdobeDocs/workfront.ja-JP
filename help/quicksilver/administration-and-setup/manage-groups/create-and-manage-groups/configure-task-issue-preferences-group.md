@@ -11,26 +11,35 @@ role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MZdPcSLClVIK2mJS9ssxz3NZ3DvztgHfJxHdvmtS1KY
+TQID: 'https://experienceleague.adobe.com/MZdPcSLClVIK2mJS9ssxz3NZ3DvztgHfJxHdvmtS1KY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2177'
 ht-degree: 84%
-
 ---
-
 # グループのタスクとイシューの環境設定を行う
 
 <!--
@@ -94,13 +103,13 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![ グループアイコン ](assets/groups-icon.png)をクリックします。
 
 1. ロックが解除されたタスクとイシューの環境設定を実施するグループの名前をクリックします。
 1. グループに対して表示されるページの左側のパネルで、**タスクとイシューの環境設定**&#x200B;をクリックします。
 1. 表示されるページで、これらの手順の下にリストされている 5 つのセクションのいずれかに進み、新規タスクのデフォルト、イシュー、削除、実際の日付、アクセスの各エリアの設定を行い、「**保存**」をクリックします。
 
-   設定が必要な環境設定のロックアイコン ![&#x200B; ロックアイコン &#x200B;](assets/lock-toggle-button-dimmed.png)にカーソルを合わせると、ロックされていることを示すツールヒントが表示されます。その場合は、Workfront管理者に対して、組織内のすべてのグループのロックを解除するように依頼できます。
+   設定が必要な環境設定のロックアイコン ![ ロックアイコン ](assets/lock-toggle-button-dimmed.png)にカーソルを合わせると、ロックされていることを示すツールヒントが表示されます。その場合は、Workfront管理者に対して、組織内のすべてのグループのロックを解除するように依頼できます。
 
    ロックが解除されると、ユーザーと他のグループ管理者は、自分のグループに対してこれを別々に設定できます。 また、自分のグループと自分のグループの下の任意のサブグループに対してロックすることもできます。
 
@@ -271,16 +280,16 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 この設定が有効になっている場合、グループ ユーザーには次の情報が表示されます。
 
-* [!UICONTROL **委任**] リンクは、[!UICONTROL &#x200B; マイワーク &#x200B;]、[!UICONTROL &#x200B; マイタスク &#x200B;]、または[!UICONTROL &#x200B; マイイシュー] ウィジェットの[!UICONTROL &#x200B; ホーム &#x200B;]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
+* [!UICONTROL **委任**] リンクは、[!UICONTROL  マイワーク ]、[!UICONTROL  マイタスク ]、または[!UICONTROL  マイイシュー] ウィジェットの[!UICONTROL  ホーム ]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
 
   >[!NOTE]
   >
-  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL &#x200B; ホーム &#x200B;]領域で常に有効になっています。
+  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL  ホーム ]領域で常に有効になっています。
 
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
-* タスクまたはイシューが、[!UICONTROL &#x200B; ホーム &#x200B;]の[!UICONTROL &#x200B; マイワーク &#x200B;] ウィジェットで別のユーザーに委任されたことを示す表示。
+* タスクまたはイシューが、[!UICONTROL  ホーム ]の[!UICONTROL  マイワーク ] ウィジェットで別のユーザーに委任されたことを示す表示。
 
-  「[!UICONTROL &#x200B; ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
+  「[!UICONTROL  ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 

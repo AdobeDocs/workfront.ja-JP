@@ -10,18 +10,21 @@ role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/yBJa1km1L7-DnwPLDLUZgN-zqUeWgRO6Fg04sghMUWo
+TQID: 'https://experienceleague.adobe.com/yBJa1km1L7-DnwPLDLUZgN-zqUeWgRO6Fg04sghMUWo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: '774'
 ht-degree: 65%
-
 ---
-
 # 「作業開始」と「完了」ボタンの概要
 
 タスクまたはイシューに割り当てられた場合は、コンテキストボタンを使用して、関与した作業アイテムに応じて名前や機能を変更できます。
@@ -43,7 +46,7 @@ ht-degree: 65%
 
 * タスクまたはイシューが最初に割り当てられ、ステータスが「新規」になると、ボタンは「作業開始」と表示されます。
 
-  ![作業ボタン &#x200B;](assets/nwe-work-on-it-button.png)
+  ![作業ボタン ](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -51,7 +54,7 @@ ht-degree: 65%
 
 * 「作業を完了」をクリックすると、ボタンが「完了」に変わります。 「作業開始」ボタンにアクセスできる場所について詳しくは、この記事の[「作業開始」と「完了」ボタンを検索する](#locate-the-work-on-it-and-done-button)の節を参照してください。
 
-  ![完了としてマーク ボタン &#x200B;](assets/nwe-mark-as-done-button-350x122.png)
+  ![完了としてマーク ボタン ](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--

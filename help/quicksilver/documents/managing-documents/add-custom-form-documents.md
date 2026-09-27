@@ -8,25 +8,33 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/s1Xokz2ScQd6uSe-cf7h1op-GPHogcQtO2KAsLnBqeE
+TQID: 'https://experienceleague.adobe.com/s1Xokz2ScQd6uSe-cf7h1op-GPHogcQtO2KAsLnBqeE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: '515'
 ht-degree: 54%
-
 ---
-
 # ドキュメントにカスタムフォームを追加または編集
 
 カスタムフォームをドキュメントまたはドキュメントバージョンに追加して、アセットに固有の追加情報やメタデータをキャプチャすることができます。
@@ -78,23 +86,23 @@ ht-degree: 54%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **概要** アイコン ![概要アイコン &#x200B;](assets/summary-panel-icon.png)をクリックし、**詳細** セクションを見つけます。
+1. **概要** アイコン ![概要アイコン ](assets/summary-panel-icon.png)をクリックし、**詳細** セクションを見つけます。
 1. **カスタムフォームを追加**&#x200B;ボックスに入力し、カスタムフォームを選択します。 フォームはドキュメントに自動的に保存されます。
 
    >[!NOTE]
    >
-   >アクティブなカスタムフォームのみがドロップダウンメニューに表示されます。 1 つのドキュメントにつき最大 10 個のカスタムフォームを追加できます。 カスタムフォームを作成する必要がある場合は、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >アクティブなカスタムフォームのみがドロップダウンメニューに表示されます。 1 つのドキュメントにつき最大 10 個のカスタムフォームを追加できます。 カスタムフォームを作成する必要がある場合は、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 従来のドキュメント領域でのカスタムフォームの編集
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **概要** アイコン ![概要アイコン &#x200B;](assets/summary-panel-icon.png)をクリックし、上部の&#x200B;**詳細** セクションを見つけます。
+1. **概要** アイコン ![概要アイコン ](assets/summary-panel-icon.png)をクリックし、上部の&#x200B;**詳細** セクションを見つけます。
 1. 右上隅にある「**編集**」をクリックして、目的のフォームを展開します。
 1. 必要な変更を加え、「**保存**」をクリックします。
 
-   ![&#x200B; カスタムフォームを編集](assets/edit-custom-form-350x265.png)
+   ![ カスタムフォームを編集](assets/edit-custom-form-350x265.png)
 
 ## 新しいドキュメント領域にカスタムフォームを追加する
 
@@ -104,8 +112,8 @@ ht-degree: 54%
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを選択します。
-1. 右側の&#x200B;**詳細** セクションで、**編集**&#x200B;をクリックします。
-   詳細セクション ![&#128279;](assets/edit-custom-form.png)の編集ボタン
+1. 右側の&#x200B;**詳細** セクションで、**編集**をクリックします。
+   詳細セクション ](assets/edit-custom-form.png)の![編集ボタン
 1. 「**カスタムForms**」フィールドで、入力を開始し、カスタムフォームを選択します。
 1. 「**保存**」をクリックします。 カスタムフォームが詳細セクションに表示されます。
 
@@ -114,7 +122,7 @@ ht-degree: 54%
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを選択します。
-1. 右側の&#x200B;**詳細** セクションで、**編集**&#x200B;をクリックします。
-   詳細セクション ![&#128279;](assets/edit-custom-form.png)の編集ボタン
+1. 右側の&#x200B;**詳細** セクションで、**編集**をクリックします。
+   詳細セクション ](assets/edit-custom-form.png)の![編集ボタン
 1. 「**カスタム Forms**」セクションで、編集するフォームを見つけます。
 1. 必要な変更を加え、「**保存**」をクリックします。

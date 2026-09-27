@@ -6,28 +6,36 @@ description: プルーフビューアーでプルーフにコメントを付け�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-TQID: https://experienceleague.adobe.com/2SXtiuPnP7J6jRrlsWFlrmgeqAmWsBzMwyhAs-Rp7bI
+TQID: 'https://experienceleague.adobe.com/2SXtiuPnP7J6jRrlsWFlrmgeqAmWsBzMwyhAs-Rp7bI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: '653'
 ht-degree: 96%
-
 ---
-
 # プルーフを共有するようユーザーにタグを付ける
 
 プルーフビューアーでプルーフにコメントを付ける際に、他のユーザーにタグを付けて、コメントにメールで注意を引き、プルーフのワークフローに追加することができます。
 
-プルーフに対するコメントでユーザーにタグ付けする場合、タグ付けできるユーザーは、個々のユーザー権限や組織のメンバーシップなど、様々な要因によって異なる場合があります。
+プルーフに対するコメントでユーザーにタグ付けする場合、タグ付けできるユーザーは、個人ユーザー権限や組織のメンバーシップなど、様々な要因によって異なる場合があります。
 
 * プルーフの作成者、所有者または特定の権限が有効になっている場合は、プルーフワークフローの外部でユーザーをタグ付けし、プルーフをユーザーと共有できます。
 * 外部ユーザーとしてプルーフに追加され、異なるプルーフアカウントを持つ別の環境のメンバーである場合、元の環境からのユーザーのみにタグ付けできます。<!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
@@ -92,7 +100,7 @@ ht-degree: 96%
 1. コメントを終了し、「**投稿**」をクリックします。
 1. （条件付き）プルーフにまだ追加されていない人にタグを付けた場合は、表示されるボックスに一覧表示される各ユーザーの&#x200B;**プルーフの役割**&#x200B;および&#x200B;**メールアラート**&#x200B;設定を指定し、「**担当者の追加とコメントの投稿**」をクリックします。
 
-   ![&#x200B; プルーフにユーザーを追加](assets/add-people-to-proof-350x220.png)
+   ![ プルーフにユーザーを追加](assets/add-people-to-proof-350x220.png)
 
    プルーフについて詳しくは、次を参照してください。 プルーフメールアラートについて詳しくは、この記事の[Workfront Proof でのメール通知の設定](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)の節を参照してください。
 

@@ -8,20 +8,26 @@ feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/UBrLQv-1DRwZ-TO3c1SAUn8OF0yOAYnKPGrf-lSS0xM
+TQID: 'https://experienceleague.adobe.com/UBrLQv-1DRwZ-TO3c1SAUn8OF0yOAYnKPGrf-lSS0xM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 10%
-
 ---
-
 # 統合承認とプルーフの併用
 
 Workfrontの統合承認には、ドキュメントのレビューと承認に役立つ新しい機能セットが導入されています。 既存のプルーフビューアで統合承認ワークフローを使用して、レビュー中のドキュメントにコメントやマークアップを追加できます。
@@ -35,7 +41,7 @@ Workfrontの統合承認には、ドキュメントのレビューと承認に�
 ## ドキュメントのアップロードとプルーフの作成
 
 1. 新しいドキュメントを追加するプロジェクト、タスク、またはイシューに移動します。
-1. 「**ドキュメント**」タブをクリックし、**新規追加**&#x200B;ドロップダウンメニューをクリックします。
+1. 「**ドキュメント**」タブをクリックし、**新規追加**ドロップダウンメニューをクリックします。
 または
 ドキュメントをドキュメントリストにドラッグ&amp;ドロップします。
 
@@ -103,11 +109,11 @@ To assign participants:
 
 1. アップロードしたドキュメントを選択し、ドキュメントの概要を開きます。
 
-   ![&#x200B; ドキュメントの概要を開く](assets/open-doc-summary.png)
+   ![ ドキュメントの概要を開く](assets/open-doc-summary.png)
 
 1. 「**承認**」セクションまでスクロールし、「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
-1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 1. 「**承認を依頼**」をクリックします。 参加者にはメールで通知されます。
 
@@ -174,11 +180,11 @@ To add a new version:
 
 1. 文書をもう一度選択してから、文書の概要を開きます。
 
-   ![&#x200B; ドキュメントの概要を開く](assets/open-doc-summary.png)
+   ![ ドキュメントの概要を開く](assets/open-doc-summary.png)
 
 1. 「**承認**」セクションまでスクロールし、「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
-1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+1. 承認ワークフローを設定します。 フィールドの説明、詳細モードの切り替え、および並列パスのフローについては、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 1. 「**承認を依頼**」をクリックします。 参加者にはメールで通知されます。
 
@@ -192,7 +198,7 @@ To add a new version:
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. 次のいずれかの決定を選択します。
 

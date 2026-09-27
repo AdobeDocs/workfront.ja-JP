@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+TQID: 'https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 91%
-
 ---
-
 # グループステータスの削除
 
 グループ管理者は、自分が管理するグループのステータスが、システムレベルまたは階層内の上位グループで必須ステータスまたはロックステータスとして設定されていない場合、そのステータスを削除できます。
@@ -88,10 +94,10 @@ ht-degree: 91%
 
    * **ロックされている場合**：次のいずれかが該当します。
 
-      * 他にロックされた非表示でないステータスがある場合は、それらのステータスのみが使用可能です。
-      * ロックされた非表示でないステータスがない場合は、非表示またはロック解除されている場合でも、デフォルトの Workfront ステータスを使用できます。
+     * 他にロックされた非表示でないステータスがある場合は、それらのステータスのみが使用可能です。
+     * ロックされた非表示でないステータスがない場合は、非表示またはロック解除されている場合でも、デフォルトの Workfront ステータスを使用できます。
 
-        デフォルトの Workfront のステータスについて詳しくは、[システムプロジェクトステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)、[システムタスクステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)、および[システムのイシューステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)の 4 つの必須のイシューステータスに関する情報を参照してください。
+       デフォルトの Workfront のステータスについて詳しくは、[システムプロジェクトステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)、[システムタスクステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)、および[システムのイシューステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)の 4 つの必須のイシューステータスに関する情報を参照してください。
 
 1. 「**削除**」をクリックします。
 

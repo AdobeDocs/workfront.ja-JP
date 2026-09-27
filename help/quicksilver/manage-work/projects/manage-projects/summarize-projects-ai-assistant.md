@@ -6,22 +6,26 @@ description: プロジェクトヘッダーには、AI アシスタントを使�
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-TQID: https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM
+TQID: 'https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: '357'
 ht-degree: 13%
-
 ---
-
 # AI アシスタントでプロジェクトを要約する
 
 WorkfrontのAI アシスタントを使用すれば、プロジェクトを概要化し、プロジェクトの目的や状況などのプロジェクト情報をすばやく把握できます。完了したタスクや保留中のタスクの例、追加の詳細やメモなど、プロジェクトに関する基本的な情報を確認できます。
@@ -90,7 +94,7 @@ WorkfrontのAI アシスタントを使用すれば、プロジェクトを概�
 オブジェクトの概要を表示するには：
 
 1. 概要を表示するオブジェクトに移動します。
-1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。
+1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。
 1. AI アシスタントパネルに、次のようなプロンプトを入力します。
 
    * 3つの文章で要約を入力してください

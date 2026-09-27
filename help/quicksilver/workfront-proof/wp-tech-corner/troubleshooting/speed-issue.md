@@ -3,25 +3,34 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: ' [!DNL Workfront Proof] での速度の問題'
-description: このヘルプページは、ISP または  [!DNL Workfront Proof] のコンテンツ配信ネットワークに関連する  [!DNL Workfront Proof]  を使用する際に発生する可能性のある速度の問題を判断するのに役立ちます。
+title: '[!DNL Workfront Proof] での速度の問題'
+description: このヘルプページは、ISP または [!DNL Workfront Proof]のコンテンツ配信ネットワークに関連する [!DNL Workfront Proof] を使用する際に発生する可能性のある速度の問題を判断するのに役立ちます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
-TQID: https://experienceleague.adobe.com/oqa0s2kT-1eMT2y0AY-58ERLUAZ4SnAr1iXR2BI6LfE
+TQID: 'https://experienceleague.adobe.com/oqa0s2kT-1eMT2y0AY-58ERLUAZ4SnAr1iXR2BI6LfE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 641
-ht-degree: 98%
-
+source-wordcount: '658'
+ht-degree: 100%
 ---
-
 # [!DNL Workfront Proof] での速度の問題
 
 >[!IMPORTANT]
@@ -57,8 +66,8 @@ ht-degree: 98%
 
 1. （Windows のみ）**ping app.proofhq.com** を入力します。
 1. ping が完了したら、コマンドプロンプトで右クリックし、「すべてを選択」を選択します。
-1. 結果をコピーして、電子メールへの返信に貼り付けます。
-結果をサポートチームに送信する前に、tracerouteとpingが終了することを許可してください。
+1. 結果をコピーして、メールの返信に貼り付けます。
+結果をサポートチームに送信する前に、traceroute と ping を必ず完了させてください。
 
 ## Speedtest.net を使用して接続速度をテストする
 

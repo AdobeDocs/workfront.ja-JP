@@ -9,22 +9,29 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
+TQID: 'https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 28%
-
 ---
-
 # ドキュメントエリア
 
 ドキュメントエリアでは、Adobe Workfront にアップロードされたドキュメントのメタデータを整理、管理、表示できます。 プルーフ決定もl確認できます。
@@ -35,9 +42,9 @@ Workfrontには現在、従来のドキュメント領域と新しいドキュ�
 
 ドキュメントエリアには 2 つのタイプがあります。 特徴と機能は両方とも同じです。
 
-* **プログラム、ポートフォリオ、テンプレート、プロジェクト、タスク、またはイシュー内のドキュメント エリア：**&#x200B;特定のプロジェクト、タスク、またはイシューに対してアクセスできるすべてのドキュメントを一覧表示します。 この領域にアクセスするには、プロジェクト、タスク、イシューを表示しながら、左側のパネルで「**ドキュメント** ![&#x200B; ドキュメントアイコン &#x200B;](assets/document-icon-12x14.png)」をクリックします。
+* **プログラム、ポートフォリオ、テンプレート、プロジェクト、タスク、またはイシュー内のドキュメント エリア：**&#x200B;特定のプロジェクト、タスク、またはイシューに対してアクセスできるすべてのドキュメントを一覧表示します。 この領域にアクセスするには、プロジェクト、タスク、イシューを表示しながら、左側のパネルで「**ドキュメント** ![ ドキュメントアイコン ](assets/document-icon-12x14.png)」をクリックします。
 
-* **グローバルドキュメントエリア：** Workfront でアクセスできるすべてのドキュメントをリストします。 この領域にアクセスするには、メインメニュー![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)の&#x200B;**ドキュメント** ![&#x200B; ドキュメントアイコン &#x200B;](assets/document-icon.png)をクリックします。
+* **グローバルドキュメントエリア：** Workfront でアクセスできるすべてのドキュメントをリストします。 この領域にアクセスするには、メインメニュー![ メインメニューアイコン ](assets/main-menu-icon.png)の&#x200B;**ドキュメント** ![ ドキュメントアイコン ](assets/document-icon.png)をクリックします。
 
 Workfront へのドキュメントのアップロードについては、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
 
@@ -57,7 +64,7 @@ Workfront へのドキュメントのアップロードについては、[ファ
 
 ドキュメントに関するすべての情報が必要な場合は、「詳細」見出しをクリックして、完全なドキュメントの詳細エリアに移動できます。
 
-![&#x200B; ドキュメント領域](assets/documents-area-v2-350x199.png)
+![ ドキュメント領域](assets/documents-area-v2-350x199.png)
 
 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
@@ -65,7 +72,7 @@ Workfront へのドキュメントのアップロードについては、[ファ
 
 プルーフ決定が行われると、その決定がドキュメントリストに表示されます。
 
-![&#x200B; ドキュメントリスト内のプルーフ決定](assets/proof-decision---doc-list-350x168.png)
+![ ドキュメントリスト内のプルーフ決定](assets/proof-decision---doc-list-350x168.png)
 
 ### フォルダー
 
@@ -91,7 +98,7 @@ Workfront へのドキュメントのアップロードについては、[ファ
 
 ドキュメント領域でドキュメントを選択すると、右側の概要パネルを使用して、ドキュメントに関する詳細の表示、添付されたカスタムフォームの追加と編集、承認ワークフローの作成と管理、ドキュメントのバージョンの表示などを行うことができます。
 
-文書の詳細が開いている![概要パネル &#x200B;](assets/new-doc-details.png)
+文書の詳細が開いている![概要パネル ](assets/new-doc-details.png)
 
 #### Frame.ioでのレビューと承認
 

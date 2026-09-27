@@ -9,23 +9,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
+TQID: 'https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: '1061'
 ht-degree: 1%
-
 ---
-
 # Adobe クラウドストレージの概要
 
 Adobe クラウドストレージは、Adobe エンタープライズ製品全体のアセットの中央リポジトリとして機能するクラウドベースのストレージソリューションです。 WorkfrontとFrame.ioの連携は、Adobeクラウドストレージ上に構築されており、シームレスな連携とアセット管理を実現します。
@@ -69,7 +77,7 @@ WorkfrontとFrame.ioの連携について詳しくは、[統一されたレビ�
 
 新しいドキュメント領域は、Adobe クラウドストレージ用に再設計された統合ドキュメント領域です。
 
-更新されたインターフェイスにより、ナビゲーションが簡素化され、わかりやすくなり、チームは単一の統合環境でレビューと承認を容易に管理できるようになります。 詳しくは、[&#x200B; ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+更新されたインターフェイスにより、ナビゲーションが簡素化され、わかりやすくなり、チームは単一の統合環境でレビューと承認を容易に管理できるようになります。 詳しくは、[ ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 #### 新しいドキュメント権限モデル
 
@@ -85,7 +93,7 @@ WorkfrontとFrame.ioの連携について詳しくは、[統一されたレビ�
 
 プロジェクトレベルでは、システム生成フォルダーにリンクされたオブジェクトが表示されます。 フォルダーには、属するタスクまたはイシューと自動的に同じ名前が付けられます。 リンクされたフォルダーは、フォルダーを表示するタスクまたはイシューをシステムが把握する仕組みです。
 
-詳しくは、[&#x200B; ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
+詳しくは、[ ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
 
 #### Adobe Cloud Drive
 
@@ -113,7 +121,7 @@ Workfront オブジェクトには、ポートフォリオ、プログラム、�
 
 これらの変換中に、ドキュメントとドキュメントフォルダーが従来のWorkfront ストレージからAdobe クラウドストレージに移動することはありません。
 
-詳しくは、[Adobe クラウドストレージでのWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[&#x200B; オブジェクトポータビリティ &#x200B;](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
+詳しくは、[Adobe クラウドストレージでのWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[ オブジェクトポータビリティ ](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
 
 ## Adobe クラウドストレージを有効にする
 
@@ -131,7 +139,7 @@ Adobe クラウドストレージをサポートするWorkfrontのバージョ�
 
 Adobe クラウドストレージは[!DNL Workfront] サンドボックス環境で利用できるため、実稼動環境で有効にする前にテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
 
-カスタムリフレッシュサンドボックスがある場合は、サンドボックス内のAdobe クラウドストレージ機能にアクセスするために、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 詳しくは、[&#x200B; カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+カスタムリフレッシュサンドボックスがある場合は、サンドボックス内のAdobe クラウドストレージ機能にアクセスするために、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 詳しくは、[ カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 考慮事項
 

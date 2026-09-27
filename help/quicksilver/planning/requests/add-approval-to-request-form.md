@@ -8,18 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
+TQID: 'https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 6%
@@ -55,7 +59,7 @@ Adobe Workfront Planning リクエストフォームに承認プロセスを追�
 
 Workfront Planningでのリクエストフォームの作成について詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
-レコードを作成するためのレコードタイプへのリクエストの送信について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+レコードを作成するためのレコードタイプへのリクエストの送信について詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## アクセス要件
 
@@ -98,7 +102,7 @@ Workfront Planningでのリクエストフォームの作成について詳し�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -127,7 +131,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    「**設定**」タブが開きます。
 
-1. 承認ルールの設定を開始するには、左側のパネルで&#x200B;**承認** ![承認アイコン &#x200B;](assets/approvals-icon-on-form.png)をクリックします。
+1. 承認ルールの設定を開始するには、左側のパネルで&#x200B;**承認** ![承認アイコン ](assets/approvals-icon-on-form.png)をクリックします。
 
 1. （オプション）デフォルトの承認プロセスを設定する場合は、**デフォルトの承認ルール**&#x200B;領域の&#x200B;**承認者** フィールドに少なくとも1人のユーザーまたはチームを追加し、**デフォルトの承認者のいずれかが承認した後にレコードを作成する場合は、「1つの決定のみが必要です**」チェックボックスをクリックします。
 
@@ -166,11 +170,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    1. <span class="preview"> （条件付き、オプション）承認者のいずれかがレコードを承認した後、レコードを次のステージに進める場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。 そうでない場合、すべての承認者は、リクエストが次のステージに移動する前に、承認を決定する必要があります。</span>
    1. <span class="preview"> 「**ステージを追加**」をクリックし、手順Bから繰り返して、承認にステージを追加します。</span>
 
-      <span class="preview">2つ以上のステージが存在する場合は、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックして、順番にドラッグ&amp;ドロップできます。</span>
+      <span class="preview">2つ以上のステージが存在する場合は、**ドラッグ** アイコン ![ ドラッグ アイコン ](assets/drag-icon.png)をクリックして、順番にドラッグ&amp;ドロップできます。</span>
 
-      <span class="preview">このステージを削除&#x200B;**をクリックして承認からステージを削除するか、承認者の横にある**&#x200B;削除&#x200B;**アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、ステージの承認者リストからユーザーまたはチームを削除します。</span>**
+      <span class="preview">このステージを削除&#x200B;**をクリックして承認からステージを削除するか、承認者の横にある**&#x200B;削除&#x200B;**アイコン ![削除アイコン ](assets/delete.png)をクリックして、ステージの承認者リストからユーザーまたはチームを削除します。</span>**
 
-      ![複数段階の承認ボックス &#x200B;](assets/planning-request-multi-stage-approval-box.png)
+      ![複数段階の承認ボックス ](assets/planning-request-multi-stage-approval-box.png)
 
    1. <span class="preview">承認ワークフローの作成が完了したら、**保存**&#x200B;をクリックします。</span>
 

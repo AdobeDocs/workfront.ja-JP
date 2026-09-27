@@ -8,26 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo
+TQID: 'https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7a657f3e0e6ee302e30e8bc9a61b1a3b0bab5ae9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1021
+source-wordcount: '1021'
 ht-degree: 10%
-
 ---
-
 # [!DNL Priorities] の基本を学ぶ
 
 「Priorities」は、タスクオーナー向けにカスタマイズされた、合理化された直感的なエクスペリエンスです。 優先順位は、ワークリストから順に段階的に公開されます。
@@ -131,7 +138,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 
 詳しくは、[重要な作業項目の優先順位付け](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)を参照してください。
 
-![自分のフォーカス &#x200B;](assets/my-focus-060226.png)
+![自分のフォーカス ](assets/my-focus-060226.png)
 
 ### カレンダービューの使用
 
@@ -145,7 +152,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 >
 >Light、Review、Contributor、およびRequestorのライセンスでは、優先度へのアクセスが制限されています。 これらのライセンスの種類がタスクや問題とどのように関係しているかについて詳しくは、を参照してください
 >
->* [新しいライセンスによるオブジェクトと領域へのアクセス &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [新しいライセンスによるオブジェクトと領域へのアクセス ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 >* [新しいアクセス レベルの各オブジェクト タイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 >* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
 >* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
@@ -159,7 +166,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 
 詳しくは、[優先度](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)でのコメントの追加と表示を参照してください。
 
-![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
+![更新、ログ時間、アップロード ](assets/update-log-upload.png)
 
 ### 時間を記録
 
@@ -167,7 +174,7 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 
 詳しくは、[優先度に時間を記録する](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)を参照してください。
 
-![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
+![更新、ログ時間、アップロード ](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -178,16 +185,16 @@ Workfront管理者は、レイアウトテンプレートでユーザーの優�
 * 追加ファイルの追加
 * 接続されたドキュメント統合からファイルを読み込む
 
-詳しくは、「[優先度でファイルをアップロード &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)」を参照してください。
+詳しくは、「[優先度でファイルをアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)」を参照してください。
 
-![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
+![更新、ログ時間、アップロード ](assets/update-log-upload.png)
 
 
 ### クイックリンクを追加
 
 頻繁に使用するリンクは、作業項目の詳細ページに埋め込むことができます。 クイックリンクを使用すると、リンクに素早くアクセスしたり、リンクをコピーしたりできます。
 
-![&#x200B; クイックリンク &#x200B;](assets/quick-links.png)
+![ クイックリンク ](assets/quick-links.png)
 
 詳細については、[優先順位のクイックリンクの追加と管理](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)を参照してください。
 

@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
-ht-degree: 89%
-
+source-wordcount: '2179'
+ht-degree: 91%
 ---
-
 # キックスタートのシナリオ：複数オプションのカスタムフィールドを Workfront に読み込み
 
 キックスタート機能を使用して、Adobe Workfront で複数のオプションを持つカスタムフィールドを読み込むことができます。
@@ -96,7 +102,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 「**含める内容**」セクションで、「**カスタムデータ**」を選択します。
 
-   ![&#x200B; カスタムデータを選択](assets/kickstarts-select-existing-data.png)
+   ![ カスタムデータを選択](assets/kickstarts-select-existing-data.png)
 
 1. 「**ダウンロード形式**」セクションで、「**.xlsx ファイル**」を選択します。
 
@@ -132,7 +138,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. **空白のKick-Start スプレッドシートをダウンロード**&#x200B;領域で、**カスタムデータ** チェックボックスを選択し、**ダウンロード**&#x200B;をクリックします。
 
-   ![&#x200B; カスタムデータを選択](assets/kickstarts-blank-spreadsheet-options.png)
+   ![ カスタムデータを選択](assets/kickstarts-blank-spreadsheet-options.png)
 
    空のキックスタートファイルがお使いのコンピューターにダウンロードされます。
 
@@ -156,11 +162,11 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    オブジェクトの名前と属性は、Workfront データベースでサポートされている形式で記述する必要があります。
 
-   これらのオブジェクトの意味については、[&#x200B; [!DNL Adobe Workfront] の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+   これらのオブジェクトの意味については、[ [!DNL Adobe Workfront] の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
    Workfront データベース内のオブジェクトの名前について詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 
-   データ書き出しに含まれる![&#x200B; シート &#x200B;](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   データ書き出しに含まれる![ シート ](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. 次の情報が正しくフォーマットされていることを確認します。
 
@@ -183,19 +189,19 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    * **`ID`** = は、新しいフィールドを表す各行の一意の数値である必要があります。 各新しいフィールドに一意の番号が含まれている限り、1 から始まる任意の数字を使用できます。
    * **`setDataType`** = は、新しいフィールドを表す各行に対する設定で、フィールドがサポートするデータタイプを入力します。 データタイプは、データベースに表示されるとおりに入力する必要があります。 次のデータタイプから選択します。
 
-      * 数字の場合 **`NMBR`**
-      * 通貨の場合 **`CURC`**
-      * テキストの場合 **`TEXT`**
+     * 数字の場合 **`NMBR`**
+     * 通貨の場合 **`CURC`**
+     * テキストの場合 **`TEXT`**
 
    * `**setDisplaySize**`= 表示サイズ（「**setDisplaySize**」）は、任意の複数のオプションのカスタムフィールドに対する設定で、常に 0 になります。
    * **`setDisplayType`** = は、新しいフィールドを表す各行に対する設定で、フィールドの表示タイプを入力します。 表示タイプは、データベースに表示されるとおりに入力する必要があります。
 
      複数オプションのカスタムフィールドの場合は、次のオプションから選択します。
 
-      * 複数選択ドロップダウンの場合 **`MULT`**
-      * ドロップダウン場合、**`SLCT`**
-      * ラジオボタンの場合、**`RDIO`**
-      * チェックボックスの場合、**`CHCK`**
+     * 複数選択ドロップダウンの場合 **`MULT`**
+     * ドロップダウン場合、**`SLCT`**
+     * ラジオボタンの場合、**`RDIO`**
+     * チェックボックスの場合、**`CHCK`**
 
      >[!TIP]
      >
@@ -211,11 +217,11 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    フィールドの値は、例えばレポートに表示される名前ですが、オブジェクトに添付されたカスタムフォームには名前が表示されます。
 
-   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-   ![&#x200B; パラメーターシートが記入されました](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![ パラメーターシートが記入されました](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. **`POPT Parameter Options`**&#x200B;** シートを選択し、次の必須列に各カスタムフィールドのオプションに関する情報を追加します。
+1. **`POPT Parameter Options`**** シートを選択し、次の必須列に各カスタムフィールドのオプションに関する情報を追加します。
 
    * **`isNew`** = には、新しいフィールドオプションを表す各行のこの列の **`TRUE`** を入力します。
 
@@ -232,10 +238,10 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setParameterID`** = 「_ブランド_」カスタムフィールドに対応するオプションの **`setParameterID`** は 1 で、「_メディア_」に対応するオプションの **`setParameterID`** は 2 です。 `PARAM` および `POPT` シートは相互に参照され、どのオプションがどのカスタムフィールドに属しているかを示します。
    * **`setDisplayOrder`**= 表示順列は、カスタムフィールドでオプションが表示される順序を示します。 どのフィールドに属するかに関係なく、1 から始めて、すべてのオプションを昇順で続行できます。 ここで重要なのは、各オプションに一意の数字を設定することです。
-   * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。 オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。 オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
    * **`setIsHidden`** には、いずれかのオプションを非表示にする場合、「`TRUE`」を入力します。
 
-   ![&#x200B; パラメーターシートが記入されました](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![ パラメーターシートが記入されました](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 1. （オプション）後で新しいフィールドを追加するためのカスタムフォームも作成する場合は、「**`CTGY Category`**」シートを選択し、カスタムフォームの情報に関する次の必須列を追加して更新します。
 
@@ -246,18 +252,18 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    グループの `ID` を見つけるには、グループレポートを作成し、ビューで `ID` フィールドを追加するか、グループに移動してそのグループの URL を探します。 グループ ID は、グループのページの URL に含まれています。 例えば、グループの URL が `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` の場合、グループ ID は `575b000800467a6f66e747932c807464` です。
 
    * **`setCatObjCode`**=これは、フォームを作成するオブジェクト タイプのオブジェクト コードです。 次のオプションからコードを入力します。
-      * **`CMPY`**（会社）
-      * **`TASK`**（タスク）
-      * **`PROJ`**（プロジェクト）
-      * **`PORT`**（ポートフォリオ）
-      * **`PRGM`**（プログラム）
-      * **`USER`**（ユーザー）
-      * **`DOCU`**（ドキュメント）
-      * **`OPTASK`**（イシュー）
-      * **`EXPNS`**（費用）
-      * **`ITRN`**（イテレーション）
-      * **`BILL`**（請求記録）
-      * **`GROUP`**（グループ）
+     * **`CMPY`**（会社）
+     * **`TASK`**（タスク）
+     * **`PROJ`**（プロジェクト）
+     * **`PORT`**（ポートフォリオ）
+     * **`PRGM`**（プログラム）
+     * **`USER`**（ユーザー）
+     * **`DOCU`**（ドキュメント）
+     * **`OPTASK`**（イシュー）
+     * **`EXPNS`**（費用）
+     * **`ITRN`**（イテレーション）
+     * **`BILL`**（請求記録）
+     * **`GROUP`**（グループ）
 
      >[!NOTE]
      >
@@ -265,7 +271,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setName`** は、Workfront インターフェイスに表示するカスタムフォームの名前です。
 
-     ![&#x200B; カテゴリーシートが記入されました](assets/category-sheet-filled-out-kick-starts.png)
+     ![ カテゴリーシートが記入されました](assets/category-sheet-filled-out-kick-starts.png)
 
 1. スプレッドシートを.xls または.xlsx ファイルとしてコンピューターに保存します。 Excel スプレッドシートが入力され、Workfront に読み込む準備が整います。
 
@@ -289,12 +295,12 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    >
    >新しいフォームとインポートしたフィールドは、まだ接続されていません。 フォームのインポートに、カスタムフィールドは含まれません。 カスタムフィールドは、新しいカスタムフォームまたは別の既存のカスタムフォームに手動で追加する必要があります。
 
-   カスタムフォームへのフィールドの追加について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   カスタムフォームへのフィールドの追加について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. （条件付き）読み込みが成功しなかった場合は、問題の詳細を示すエラーメッセージが表示されます。 問題が発生したフィールド、シートおよび行番号を特定し、Excel ファイルの情報を修正します。 その後、もう一度ファイルを読み込んでみます。
 
 1. （条件付き）問題の内容によっては、エラーメッセージに記載されているように、一部の情報が既に読み込まれている場合があります。 シートを再度読み込むには、まず次のいずれかを行う必要があります。
 
    * Workfront から正常に読み込まれた情報をカスタムフォームエリアから削除し、エラーメッセージに示されている修正を行います。
-   * 既に読み込まれているフィールドまたはフォームのフィールドまたはフォームが既にシステム内にあることを示してから、修正します。
-フィールドまたはカスタムフォームが既にWorkfront内にあることを示すには、キックスタートインポートシートのフォーム （`CTGY`）またはフィールド （`PARAM`）に関する情報を含むシートで、`inNew` フィールドが`FALSE`としてマークされていることを確認する必要があります。
+   * 既に読み込まれているフィールドやフォームについては、フィールドやフォームが既にシステムに存在することを示し、修正を行います。
+     フィールドやカスタムフォームが既に Workfront に存在することを示すには、キックスタート読み込みシートで、フォーム（`CTGY`）またはフィールド（`PARAM`）に関する情報を含んだシートの `inNew` フィールドが `FALSE` としてマークされていることを確認します。

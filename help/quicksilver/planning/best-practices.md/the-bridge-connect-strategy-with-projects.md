@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VRJ1TnXYb7TSnXsBLThdW-PhxPc-sCFP1-SQI7JZaGo
+TQID: 'https://experienceleague.adobe.com/VRJ1TnXYb7TSnXsBLThdW-PhxPc-sCFP1-SQI7JZaGo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: '1193'
 ht-degree: 3%
-
 ---
-
 # 橋渡しをする：戦略的な意図をプロジェクトに結びつける
 
 >[!IMPORTANT]
@@ -113,7 +122,7 @@ Adobe Workfront Planningの上位レベルの計画とWorkfrontでの日々の�
 
 このアプローチには、Adobe Workfront Fusionのライセンスが必要です。
 
-詳しくは、[Workfront Fusionの設定と管理：記事インデックス &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)を参照してください。
+詳しくは、[Workfront Fusionの設定と管理：記事インデックス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)を参照してください。
 
 * **送信トリガーを使用：** フォームは1つのクリーンな送信イベントを提供するので、Fusion自動処理のトリガーとして使用できます。 Fusion シナリオでは、フォーム送信を検出し、Workfrontでリンクされたプロジェクトを即座に生成できます。
 

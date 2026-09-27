@@ -8,30 +8,37 @@ feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4
+TQID: 'https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
-ht-degree: 85%
-
+source-wordcount: '686'
+ht-degree: 86%
 ---
-
 # ドキュメントのチェックアウト
 
-ドキュメントをチェックアウトして、他のユーザーがドキュメントを削除したり、新しいバージョンをアップロードしたりするのを防ぐことができます。一度に1人のユーザーのみがドキュメントをチェックアウトできます。 Adobe Workfrontにアップロードされたドキュメントと、サードパーティのドキュメントプロバイダー（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePointまたはその他のカスタムプロバイダー）にリンクされたドキュメントをチェックアウトできます。 
+ドキュメントをチェックアウトすると、他のユーザーがドキュメントを削除したり、新しいバージョンのドキュメントをアップロードしたりするのを防ぐことができます。 一度に 1 人のユーザーだけがドキュメントをチェックアウトできます。 Adobe Workfront にアップロードされたドキュメントだけでなく、サードパーティのドキュメントプロバイダー（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint、その他のカスタムプロバイダー）にリンクされているドキュメントをチェックアウトできます。 
 
 >[!NOTE]
 >
->この機能は、新しいドキュメント エリアでは使用できません。<br>
->組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+>この機能は、新規ドキュメント領域では使用できません。<br>
+>組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -93,9 +100,9 @@ ht-degree: 85%
 
    ドキュメントの追加について詳しくは、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
 
-1. **チェックアウト** アイコン ![&#x200B; チェックアウトアイコン &#x200B;](assets/check-out-25x23.png)をクリックします。
+1. **チェックアウト** アイコン ![ チェックアウトアイコン ](assets/check-out-25x23.png)をクリックします。
 
-1. ドキュメント名の右側に、ロックアイコン ![&#x200B; ロックアイコン &#x200B;](assets/lock-icon-locked-qs.png)が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
+1. ドキュメント名の右側に、ロックアイコン ![ ロックアイコン ](assets/lock-icon-locked-qs.png)が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
 1. ドキュメントをチェックアウトしたユーザーか、Workfront 管理者のみが、ドキュメントをチェックインできます。
 
 ## チェックアウトしたドキュメントを管理
@@ -109,7 +116,7 @@ ht-degree: 85%
 
   ユーザーの削除について詳しくは、[ユーザーの削除](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)を参照してください。
 
-* Workfront管理者がユーザーを非アクティブ化すると、チェックアウトしたドキュメントはすべてチェックアウトされたままになります。Workfront管理者のみが再度チェックインできます。 
+* Workfront 管理者がユーザーを非アクティブ化した場合、そのユーザーがチェックアウトしているドキュメントは、チェックアウトされたままになります。 再度チェックインできるのは、Workfront 管理者のみです。 
 
 ## ドキュメントをチェックイン
 
@@ -119,6 +126,6 @@ ht-degree: 85%
 
 1. ドキュメントが保存されているエリアに移動し、ドキュメントを選択します。 
 
-   ドキュメント名の右側に、ロックアイコン ![&#x200B; ロックアイコン &#x200B;](assets/lock-icon-locked-qs.png)が表示されます。
+   ドキュメント名の右側に、ロックアイコン ![ ロックアイコン ](assets/lock-icon-locked-qs.png)が表示されます。
 
-1. **チェックイン** アイコン ![&#x200B; チェックインアイコン &#x200B;](assets/check-in-25x22.png)をクリックします。
+1. **チェックイン** アイコン ![ チェックインアイコン ](assets/check-in-25x22.png)をクリックします。

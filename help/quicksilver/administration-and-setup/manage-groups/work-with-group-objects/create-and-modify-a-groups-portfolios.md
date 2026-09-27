@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-TQID: https://experienceleague.adobe.com/kUJ353BgsyVNKo1CKvzhdyhDJbwjnoZGjcEC4rByB7g
+TQID: 'https://experienceleague.adobe.com/kUJ353BgsyVNKo1CKvzhdyhDJbwjnoZGjcEC4rByB7g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 92%
-
 ---
-
 # グループのポートフォリオの作成と変更
 
 グループエリアで管理しているグループを表示しているときは、そのポートフォリオのプログラムを表示および操作できます。
@@ -67,7 +74,7 @@ ht-degree: 92%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
 
 1. ポートフォリオを作成、表示、および操作するグループの名前をクリックします。
 1. 左側のパネルで、「**ポートフォリオ**」をクリックして、グループ（およびその下のサブグループ）に関連付けられているポートフォリオを一覧表示します。

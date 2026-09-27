@@ -10,26 +10,33 @@ role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/XgMSfw7qXS68sw75WjwVPaiHg640N-CO8rREpjK-4r0
+TQID: 'https://experienceleague.adobe.com/XgMSfw7qXS68sw75WjwVPaiHg640N-CO8rREpjK-4r0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 803
-ht-degree: 97%
-
+source-wordcount: '808'
+ht-degree: 98%
 ---
-
 # メールテンプレートの設定
 
 <!--Audited: 10/2024-->
@@ -77,7 +84,7 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
 
 1. 左側のパネルで、**メール**／**通知**／**メールテンプレート**&#x200B;をクリックします。
 
-   ![電子メールテンプレートタブ &#x200B;](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![電子メールテンプレートタブ ](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. **新規メールテンプレート**&#x200B;をクリックします。
 
@@ -93,7 +100,7 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
      </tr> 
      <tr> 
       <td role="rowheader">オブジェクトタイプ</td> 
-      <td>テンプレートを関連付けるオブジェクトタイプを指定します。次のオブジェクトから選択します。
+      <td>テンプレートを関連付けるオブジェクトタイプを指定します。 次のオブジェクトから選択します。
       <ul>
       <li>プロジェクト</li>
       <li>タスク</li>
@@ -250,7 +257,7 @@ Workfront フィールドへのリンクは、`$$` ワイルドカードを使�
 
 これにより、次のようなメールが生成されます。
 
-![&#x200B; プロジェクトが遅延電子メールになりました](assets/project-became-late-email.png)
+![ プロジェクトが遅延電子メールになりました](assets/project-became-late-email.png)
 
 #### 開始予定のタスクまたはイシューのリマインダー {#task-or-issue-about-to-start-reminder-example}
 

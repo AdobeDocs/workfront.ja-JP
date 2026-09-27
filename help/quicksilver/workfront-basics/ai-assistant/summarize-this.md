@@ -5,22 +5,26 @@ description: 「この要約」機能を使用して、作業項目とドキュ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-TQID: https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4
+TQID: 'https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '425'
 ht-degree: 12%
-
 ---
-
 # AI アシスタントを使用した要約
 
 >[!IMPORTANT]
@@ -103,7 +107,7 @@ AI アシスタントは、次のオブジェクトを要約できます。
 オブジェクトの概要を表示するには：
 
 1. 概要を表示するオブジェクトに移動します。
-1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。
+1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。
 1. AI アシスタントパネルに、次のようなプロンプトを入力します。
 
    * 3つの文章で要約を入力してください

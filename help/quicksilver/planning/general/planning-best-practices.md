@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 3%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Adobe Workfront計画の導入に関する推奨事項
@@ -38,7 +47,7 @@ ht-degree: 3%
 > 
 >Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 >
->詳しくは、[Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)の記事を参照することをお勧めします。
+>詳しくは、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)の記事を参照することをお勧めします。
 
 マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。
 
@@ -59,12 +68,12 @@ ht-degree: 3%
 * ✅まず、既存の類似したユースケースのアイデアを得るために、定義済みのワークスペース テンプレートを調べます。 テンプレートに含まれる定義済みのレコードタイプ、フィールドを使用するか、自分で追加することができます。
 * ✅ Workfront Planningで解決する主なユースケースを特定します。 例えば、多くの企業は、より優れた「キャンペーンカレンダー」の構築を含め、戦略的アクティビティの可視性を改善したいと考えています。 その場合、まずいくつか質問に答えることから始めましょう。
 
-   * 誰がそれを求めているのか。
-   * カレンダーに入れたいものを何と呼ぶのでしょうか？
-キャンペーン？戦術？取り組み？アクティビティ？イベント？
-   * どのような質問に答えたいのでしょうか？
-   * 同じオーディエンスを対象とした、重複するキャンペーンはありますか？
-   * キャンペーン、戦術、アクティビティ、イベントの予算はどれくらいか？
+  * 誰がそれを求めているのか。
+  * カレンダーに入れたいものを何と呼ぶのでしょうか？
+    キャンペーン？ 戦術？ 取り組み？ アクティビティ？ イベント？
+  * どのような質問に答えたいのでしょうか？
+  * 同じオーディエンスを対象とした、重複するキャンペーンはありますか？
+  * キャンペーン、戦術、アクティビティ、イベントの予算はどれくらいか？
 
   これらの質問に対する答えが、Workfront Planningの内部で何を構築する必要があるかを決めます。
 
@@ -210,9 +219,9 @@ ht-degree: 3%
 
   次の権限レベルから選択できます。
 
-   * **管理**：ユーザーは、ワークスペースの編集、削除、共有、レコードタイプ、レコードの編集、削除、作成を行うことができます。
-   * **Contribute**：ユーザーはレコードを作成、編集、削除できます。
-   * **表示**：ユーザーはレコードを表示できます。
+  * **管理**：ユーザーは、ワークスペースの編集、削除、共有、レコードタイプ、レコードの編集、削除、作成を行うことができます。
+  * **Contribute**：ユーザーはレコードを作成、編集、削除できます。
+  * **表示**：ユーザーはレコードを表示できます。
 
 * ✅多くの顧客は、ワークスペースに&#x200B;**Manage**&#x200B;権限を付与すると考えていますが、**Manage**&#x200B;権限は、レコードタイプを誤って削除したり、不要なレコードタイプやフィールドを作成したりしない、信頼できるユーザーの選択グループに制限しないでください。 ワークスペースの編集、共有、削除も可能です。 この権限レベルでは、Workspaceへの完全な管理アクセス権が付与されます。
 
@@ -289,14 +298,14 @@ ht-degree: 3%
 
   次の共有オプションから選択できます。
 
-   * Workfrontのユーザーとの内部共有の場合：
+  * Workfrontのユーザーとの内部共有の場合：
 
-      * **ワークスペースへの表示以上のアクセス権を持つユーザー：** ワークスペースへの表示以上の権限を持つすべてのユーザーが、レコードを作成するリクエストを送信できます。
-      * **ワークスペースへの貢献度が高いユーザーまたは高いユーザー**:Contribute以上の権限を持つユーザーに対して、ワークスペースへの送信を制限します。
-      * **招待されたユーザーのみがアクセスできます**: フォームにリクエストを送信できるユーザー、チーム、役割、グループ、または会社を追加します。
-   * Workfront アカウントをお持ちでないユーザーとの外部共有の場合：
-      * **公開リンクを作成**&#x200B;してから、これをコピーして誰とでも共有できます。Workfront アカウントを持たないユーザーでも、フォームリンクを持っている人なら誰でもリクエストを送信できます。
-      * **リンクの有効期限：** セキュリティを強化するために、公開リンクの有効期限を必ず設定してください。
+    * **ワークスペースへの表示以上のアクセス権を持つユーザー：** ワークスペースへの表示以上の権限を持つすべてのユーザーが、レコードを作成するリクエストを送信できます。
+    * **ワークスペースへの貢献度が高いユーザーまたは高いユーザー**:Contribute以上の権限を持つユーザーに対して、ワークスペースへの送信を制限します。
+    * **招待されたユーザーのみがアクセスできます**: フォームにリクエストを送信できるユーザー、チーム、役割、グループ、または会社を追加します。
+  * Workfront アカウントをお持ちでないユーザーとの外部共有の場合：
+    * **公開リンクを作成**&#x200B;してから、これをコピーして誰とでも共有できます。Workfront アカウントを持たないユーザーでも、フォームリンクを持っている人なら誰でもリクエストを送信できます。
+    * **リンクの有効期限：** セキュリティを強化するために、公開リンクの有効期限を必ず設定してください。
 
 ### リクエストフォーム管理のベストプラクティス
 
@@ -364,10 +373,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -375,7 +384,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 

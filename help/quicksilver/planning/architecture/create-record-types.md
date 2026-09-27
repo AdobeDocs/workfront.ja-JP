@@ -1,6 +1,6 @@
 ---
 title: レコードタイプの作成
-description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planning では、組織のライフサイクルで必要な作業アイテムを示すカスタムレコードタイプを作成できます。
+description: レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。 Workfront プランニングでは、組織のライフサイクルで必要な作業アイテムを示すカスタムレコードタイプを作成できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
+TQID: 'https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1271
+source-wordcount: '1271'
 ht-degree: 42%
-
 ---
-
 <!--this is linked to the UI in an empty workspace screen-->
 
 <!--keep the yellow for cross-workspace functionality till Jan 2026-->
@@ -41,9 +49,9 @@ ht-degree: 42%
 
 {{planning-important-intro}}
 
-レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 Workfront計画では、組織のライフサイクルで必要な作業関連項目を示すカスタムレコードタイプを作成できます。
+レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。 Workfront計画では、組織のライフサイクルで必要な作業関連項目を示すカスタムレコードタイプを作成できます。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -100,7 +108,7 @@ ht-degree: 42%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -194,7 +202,7 @@ Old:
 
 ## ワークスペーステンプレートを使用してレコードタイプを作成
 
-Workfront Planning テンプレートを使用してワークスペースを作成すると、レコードタイプを自動的に作成できます。 各テンプレートには、サンプルレコードタイプが含まれています。
+Workfront プランニングテンプレートを使用してワークスペースを作成すると、レコードタイプを自動的に作成できます。 各テンプレートには、サンプルレコードタイプが含まれています。
 
 ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
@@ -224,7 +232,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    >* Windowsの場合はCTRL+K
    >* Macの⌘+K
    >
-   >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+   >![ グローバル検索ボックス ](assets/global-search-box.png)
 
 1. （任意）「**セクションを追加**」をクリックし、新規セクションをワークスペースに追加します。
 1. 「**レコードタイプを追加**」をクリックしてから、**手動で追加**」をクリックします。
@@ -243,24 +251,24 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
 1. （オプションおよび条件付き）システム管理者の場合は、「**クロスワークスペース設定**」タブをクリックし、レコードタイプのクロスワークスペース機能に関する情報を更新します。
 
-   ![&#x200B; クロスワークスペース設定タブを含むレコードタイプボックスを編集](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![ クロスワークスペース設定タブを含むレコードタイプボックスを編集](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
-   詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+   詳細については、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
    選択したセクションとワークスペースにレコードタイプカードが追加されます。
    レコードタイプの説明がカードに表示されます。
 
-   ![説明が付いたレコードタイプのカード &#x200B;](assets/record-type-card-with-description.png)
+   ![説明が付いたレコードタイプのカード ](assets/record-type-card-with-description.png)
 
-   このレコードを他のワークスペースから接続することを選択した場合、**接続可能なレコード** アイコン ![他のスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png)がレコードカードに表示されます。
+   このレコードを他のワークスペースから接続することを選択した場合、**接続可能なレコード** アイコン ![他のスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png)がレコードカードに表示されます。
 
-   このレコードを他のワークスペースに追加することを許可するように選択した場合、**グローバルレコード** アイコン ![&#x200B; グローバルレコードタイプアイコン &#x200B;](assets/global-icon.png)がレコードカードに表示されます。
+   このレコードを他のワークスペースに追加することを許可するように選択した場合、**グローバルレコード** アイコン ![ グローバルレコードタイプアイコン ](assets/global-icon.png)がレコードカードに表示されます。
 
 1. （オプション）レコードタイプカードにカーソルを合わせ、右上隅の&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;または&#x200B;**設定**&#x200B;をクリックして、レコードタイプに関する情報を変更します。
 
-   詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+   詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
 1. （オプション）レコードタイプカードをクリックして、レコードタイプのページを開きます。
 
@@ -280,7 +288,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    または
 
-   レコードタイプ名の右側にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックして名前を変更するか、情報を変更します。 詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+   レコードタイプ名の右側にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックして名前を変更するか、情報を変更します。 詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
 1. （オプション）「**+ 新規レコード**」をクリックして、選択したレコードタイプのレコードを追加します。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 1. （オプション）テーブルの右上隅にある「**+**」アイコンをクリックして、レコードタイプにさらにフィールドを追加します。

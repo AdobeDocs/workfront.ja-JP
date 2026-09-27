@@ -9,34 +9,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0
+TQID: 'https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2530
-ht-degree: 6%
-
+source-wordcount: '2706'
+ht-degree: 9%
 ---
-
 # Adobe Workfront Planning の 2025年第 4 四半期リリースアクティビティ
 
 ここでは、2025年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 
 ## Workfront Planningでのリクエストフォームの機能強化
 
 >[!NOTE]
 >
->プレビュー：2025年10月2日>実稼動用の高速リリース：2025年10月15日>全員の実稼動環境：2025年10月16日
+>プレビュー：2025年10月2日（PT）
+>プロダクション高速リリース：2025年10月15日（PT）
+>すべての人のための制作：2025年10月16日
 
 リクエストプロセスを簡素化するために、リクエストフォームにいくつかの機能強化を行いました。 これで、リクエストフォームを設定する際に、次の設定を行うことができます。
 
@@ -50,7 +59,9 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 >[!NOTE]
 >
->プレビュー：2025年10月2日>実稼動用の高速リリース：2025年10月15日>全員の実稼動環境：2025年10月16日
+>プレビュー：2025年10月2日（PT）
+>プロダクション高速リリース：2025年10月15日（PT）
+>すべての人のための制作：2025年10月16日
 
 
 タイムラインビューとカレンダービューでレコードをドラッグ&amp;ドロップできるようになりました。 別の時間枠のレコードをドラッグすると、開始日と終了日が自動的に更新されます。
@@ -61,13 +72,15 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 >[!NOTE]
 >
->プレビュー：2025年10月2日>実稼動用の高速リリース：2025年10月15日>全員の実稼動環境：2025年10月16日
+>プレビュー：2025年10月2日（PT）
+>プロダクション高速リリース：2025年10月15日（PT）
+>すべての人のための制作：2025年10月16日
 
 Workfront Planningで行ったリクエストでコミュニケーションを簡単にするために、リクエストの詳細ページにコメント領域を追加しました。 これは、例えば、リクエストが割り当てられているユーザーに、リクエストを行ったユーザーに対する質問がある場合に便利です。
 
 以前は、Workfront Planningではリクエストに対するコメントは使用できませんでした。
 
-コメントを含むリクエストの詳細については、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+コメントを含むリクエストの詳細については、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 <!--
 ## Approve a Workfront Planning request in the My Approvals widget
@@ -89,7 +102,9 @@ For more information on approving requests, see [Approve a request in Adobe Work
 
 >[!NOTE]
 >
->プレビュー：2025年9月25日>実稼動用の高速リリース：2025年10月15日>実稼動版すべて：2025年10月16日
+>プレビュー：2025年9月25日（PT）
+>プロダクション高速リリース：2025年10月15日（PT）
+>Production all: 2025年10月16日
 
 レコードの接続されたレコードページを改善しました。 このアップデートで行われた改善は次のとおりです。
 
@@ -97,7 +112,7 @@ For more information on approving requests, see [Approve a request in Adobe Work
 * テンプレートなしで新しいプロジェクトを追加できる、接続されたプロジェクトを表示する際に、テーブルビューの下部に「新しい行」リンクを追加しました
 * Workfront ポートフォリオおよびプログラム用に接続されたレコードページを作成できなくなります。 Workfront プロジェクトに対してのみ、接続されたレコードページを作成できます。
 
-詳しくは、[&#x200B; レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 <!--
 ## Unified request form list now available
@@ -214,7 +229,9 @@ For more information on creating a request form and configuring these options, s
 
 >[!NOTE]
 >
->プレビュー：2025年9月11日>すべての顧客の本番稼動：2025年9月11日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
+>プレビュー：2025年9月11日（PT）
+>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
+>[!BADGE スケジュール外]{type=Neutral}
 
 Adobe Workfront PlanningとAdobe GenStudio for Performance Marketingの両方を使用している場合は、GenStudioがデフォルトでサポートしているものよりも、キャンペーン、製品、ペルソナなどのマーケティングコンセプトをより詳細に定義する必要があります。
 
@@ -304,7 +321,7 @@ Workfront PlanningとGenStudio for Performance Marketingの統合により、次
 
 設定は、カレンダービューが月ごとに表示される場合にのみ使用できます。 カレンダーが週単位で表示される場合、この設定は使用できません。
 
-各オプションの制限など、詳細については、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+各オプションの制限など、詳細については、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 
 ## テーブルビューのselect-type フィールドに新しい選択肢を追加
@@ -338,8 +355,8 @@ Workfront PlanningとGenStudio for Performance Marketingの統合により、次
 
 リクエストの作成について詳しくは、次を参照してください。
 
-* Workfrontの場合：[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Workfront計画の場合：[&#x200B; レコードを作成するためにAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)
+* Workfrontの場合：[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Workfront計画の場合：[ レコードを作成するためにAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## 数式フィールドの新しい制限
 
@@ -378,7 +395,9 @@ Workfront PlanningとGenStudio for Performance Marketingの統合により、次
 
 >[!NOTE]
 >
->プレビュー：2025年8月7日>すべての顧客の本番稼動：2025年8月>[!BADGE &#x200B; オフスケジュール &#x200B;]{type=Neutral}
+>プレビュー：2025年8月7日（PT）
+>すべてのお客様の本番環境：2025年8月
+>[!BADGE スケジュール外]{type=Neutral}
 
 Workfront Planningの数式フィールドとWorkfrontの計算カスタムフィールドに、次の使用法を持つ新しい式を追加しました。
 
@@ -392,7 +411,9 @@ Workfront Planningの数式フィールドとWorkfrontの計算カスタムフ�
 
 >[!NOTE]
 >
->プレビュー：2025年7月31日>すべての顧客の本番稼動：2025年7月31日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
+>プレビュー：2025年7月31日（PT）
+>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
+>[!BADGE スケジュール外]{type=Neutral}
 
 レコードテーブルビューでフィールドを作成または編集する際に、「数式」フィールドを拡大する「最大化」ボタンを追加しました。 さらに、新しい拡大ウィンドウに「最小化」ボタンを追加して、フィールド作成ボックスに戻りました。
 
@@ -410,7 +431,7 @@ Workfront Planningの数式フィールドとWorkfrontの計算カスタムフ�
 
 この機能強化の前は、接続されたレコード ページで接続されたレコードを表示できるのは、レコードの詳細領域のフルページのみでした。
 
-詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 <!--
 ## Updates to Requesting experience 
@@ -442,7 +463,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->プレビュー：2025年7月24日>実稼動環境の高速リリース：2025年8月14日>すべてのお客様の実稼動環境：2025年10月16日
+>プレビュー：2025年7月24日（PT）
+>プロダクション高速リリース：2025年8月14日（PT）
+>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 タイムライン上の任意の場所をダブルクリックして、レコードタイプのタイムラインビューでレコードを作成できるようになりました。
 
@@ -456,17 +479,21 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->プレビュー：2025年7月24日>実稼動環境の高速リリース：2025年8月14日>すべてのお客様の実稼動環境：2025年10月16日
+>プレビュー：2025年7月24日（PT）
+>プロダクション高速リリース：2025年8月14日（PT）
+>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 ワークスペースページのレコードタイプカードのその他メニューから、レコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
 
-詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 ## すべてのWorkfront計画ビューをフルスクリーンモードで表示する
 
 >[!NOTE]
 >
->プレビュー：2025年7月24日>実稼動環境の高速リリース：2025年8月14日>すべてのお客様の実稼動環境：2025年10月16日
+>プレビュー：2025年7月24日（PT）
+>プロダクション高速リリース：2025年8月14日（PT）
+>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 すべてのWorkfront計画ビュー（テーブル、タイムライン、カレンダー）をフルスクリーンモードで表示できるようになりました。 ビュー機能は保持され、フルスクリーンでもビューを変更できます。
 
@@ -478,7 +505,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->プレビュー：2025年7月22日（PT） >迅速リリース用の実稼動：2025年8月14日（PT） >すべてのお客様の実稼動：2025年10月16日（PT）
+>プレビュー：2025年7月22日（PT）
+>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 承認プロセスの柔軟性を高めるために、Planning リクエストフォームに承認者としてチームを追加する機能を追加しました。 承認者を設定するときに、チーム名を入力して選択できるようになりました。 チームメンバー全員が決定を下すことができます。これは、チーム全体の承認決定としてカウントされます。
 
@@ -490,7 +519,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->プレビュー：2025年7月17日>迅速リリース用の実稼動：2025年8月14日>すべてのお客様の実稼動：2025年10月16日
+>プレビュー：2025年7月17日（PT）
+>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 次のフィールドを導入して、承認を得たリクエストを送信して作成されたレコードの承認情報を取得します。
 
@@ -503,7 +534,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->プレビュー：2025年7月10日>実稼動環境の高速リリース：2025年8月14日>すべてのお客様の実稼動環境：2025年10月16日
+>プレビュー：2025年7月10日（PT）
+>プロダクション高速リリース：2025年8月14日（PT）
+>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 
 これで、グループ化がテーブルビューに適用されている場合、レコードをテーブルに追加すると、レコードを追加したグループ化に関連するフィールドが自動的に入力されます。

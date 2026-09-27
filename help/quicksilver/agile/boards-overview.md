@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/OP2xElD-kYsKzRb4IdjM6TNH-JfE0KoUwlhw9zm14c4
+TQID: 'https://experienceleague.adobe.com/OP2xElD-kYsKzRb4IdjM6TNH-JfE0KoUwlhw9zm14c4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 75%
-
 ---
-
 # [!UICONTROL ボード]の概要
 
 [!DNL Adobe Workfront] [!UICONTROL ボード]は、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。
@@ -35,12 +41,12 @@ ht-degree: 75%
 * チームの作業を 1 か所で整理および管理する
 * カンバンボードの取り込み列など、アジャイル計画ツールを活用する
 
-基本的なボード機能の使用方法について詳しくは、[ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。 ボードのアジャイル計画ツールについて詳しくは、[&#x200B; アジャイル計画ツールの概要](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)を参照してください。
+基本的なボード機能の使用方法について詳しくは、[ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。 ボードのアジャイル計画ツールについて詳しくは、[ アジャイル計画ツールの概要](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)を参照してください。
 
-プロジェクトでのボードの使用について詳しくは、[&#x200B; ボードビューでのアジャイルプロジェクトの管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
+プロジェクトでのボードの使用について詳しくは、[ ボードビューでのアジャイルプロジェクトの管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
-モバイルアプリでボードにアクセスすることもできます。 詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+モバイルアプリでボードにアクセスすることもできます。 詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ボードの機能に関するビデオチュートリアルについて詳しくは、[[!DNL Adobe Workfront] [!UICONTROL ボード]のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)を参照してください。
 
-[!DNL Workfront]の追加のアジャイルツールについて詳しくは、[&#x200B; アジャイルの概要](../agile/agile-overview.md)を参照してください。
+[!DNL Workfront]の追加のアジャイルツールについて詳しくは、[ アジャイルの概要](../agile/agile-overview.md)を参照してください。

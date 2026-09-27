@@ -1,50 +1,72 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: ' [!DNL Adobe Workfront]  の用語集'
-description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] インターフェイス、レポートでよく使用される用語がリストされています。また、 [!DNL Workfront] ドキュメントで定義されている [!DNL Workfront] 概念の意味を理解しようとする場合にも使用できます。'
+title: '[!DNL Adobe Workfront] の用語集'
+description: '[!DNL Adobe Workfront]用語集には、[!DNL Adobe Workfront]でよく使用される用語が一覧表示されます。 この用語集は、[!UICONTROL Workfront] インターフェイスに表示される概念の定義を検索する場合、レポートを使用する場合、または[!DNL Workfront] ドキュメントで定義されている[!DNL Workfront]概念の意味を理解しようとする場合に使用できます。'
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+TQID: 'https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 22016
+source-wordcount: '22039'
 ht-degree: 97%
-
 ---
-
 # [!DNL Adobe Workfront] の用語集
 
 <!--Audited: 04/2026-->
@@ -155,18 +177,18 @@ ht-degree: 97%
     <!--
     Resource Estimates or     
      -->
-     [!UICONTROL プロジェクト （財務データ） &#x200B;] レポート： </p>
+     [!UICONTROL プロジェクト （財務データ） ] レポート： </p>
     <ul> 
      <li>このレポートは、次の項目を確認しながら
      <!--
      how resources are budgeted for work, or
      -->
-     リソースに割り当てられる[!UICONTROL 予定時間数]の量。</li>
+     リソースに割り当てられる[!UICONTROL予定時間数]の量。</li>
      <li> <p>[!UICONTROL Allocation Date]は、タスクへの[!UICONTROL Job Role]の配分が開始される週の最初の日（日曜日）です。 リソース（[!UICONTROL Job Role]）には、割り当てられているタスクの[!UICONTROL Duration]中の週と同数の[!UICONTROL Allocation Dates]を設定できます。 タスクが複数月にわたる場合、タスクの [!UICONTROL Duration]内であれば、月の最初の日を[!UICONTROL Allocation Date]にすることもできます。</p> <p>例えば、3 週間以上にわたるタスクにユーザーの[!UICONTROL Job Role]を割り当て、[!UICONTROL Planned Hours]を 90 時間にすることができます。 これらの時間数はタスクの期間中に均等に配分され、毎日 6 時間の[!UICONTROL Planned Hours]が担当業務に割り当てられます。</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours] / タスクの[!UICONTROL Duration]中の[!UICONTROL Work Days]の数</em> </p> <p>その結果、[!UICONTROL Allocation Dates]は 3 つあり、タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つで、それぞれに特定の数の[!UICONTROL Planned Hours]が関連付けられています。<br>ある月の最終週の真ん中でタスクが開始され、新しい月の初めから 2 週間後に終了する場合、タスクには 4 つの[!UICONTROL Allocation Dates]があります。タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つと、新しい月の最初の日に 1 つです。</p> <p>この情報を最大限に活用するには、以下を作成することをお勧めします。
       <!--
       Resource Estimates or a
       -->
-     プロジェクト（財務データ）レポートを作成し、[!UICONTROL 配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
+     プロジェクト（財務データ）レポートを作成し、[!UICONTROL配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
     </ul> <p>[!UICONTROL Project (Financial Data)]レポートに財務情報が入力されるのは、関連付けられているデータが 5 年未満の場合のみです。 例えば、2015年1月に担当業務がタスクに割り当てられ、今日が 2021年9月の場合、[!UICONTROL Project (Financial Data)]レポートでは、担当業務の[!UICONTROL Allocation Date]などの財務フィールドにデータは入力されません。 </p> 
     <div> 
      <p>[!UICONTROL Budgeted Hour]レポートの場合：</p> 
@@ -497,7 +519,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td>[!UICONTROL Business Case]</td> 
-   <td> <p>プロジェクトを [!UICONTROL Idea] ステータスから [!UICONTROL Planning] ステータスに移行する必要があるかどうかを評価するために使用されるツール。 言い換えれば、[!UICONTROL business case] は、特にポートフォリオ内の他のプロジェクトと比較する場合に、当該のプロジェクトを開始して完了することが重要かどうかを判断するのに役立ちます。</p> <p>詳しくは、<a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">プロジェクトの [!UICONTROL Business Case] を作成 </a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトを [!UICONTROL アイデア] ステータスから [!UICONTROL 計画] ステータスに移行する必要があるかどうかを評価するために使用されるツール。 言い換えれば、[!UICONTROL business case] は、特にポートフォリオ内の他のプロジェクトと比較する場合に、当該のプロジェクトを開始して完了することが重要かどうかを判断するのに役立ちます。</p> <p>詳しくは、<a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">プロジェクトの [!UICONTROL Business Case] を作成 </a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Business Case Budgeted Hours]</td> 
@@ -660,7 +682,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td>[!UICONTROL 接続されたレコードタイプ]</td> 
-   <td> <p>Workfront Planning では、次のいずれかの方法で接続を作成できます。 </p>
+   <td> <p>Workfront プランニングでは、次のいずれかの方法で接続を作成できます。 </p>
    <ul>
    <li>2 つのレコードタイプ</li>
    <li>レコードタイプと Workfront オブジェクトタイプ</li>
@@ -672,7 +694,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td>[!UICONTROL 接続されたレコード]</td> 
-   <td> <p>Workfront Planning では、2 つのレコードタイプを接続した後、それらのタイプの 2 つの個々のレコードを相互に接続できます。  </p>
+   <td> <p>Workfront プランニングでは、2 つのレコードタイプを接続した後、それらのタイプの 2 つの個々のレコードを相互に接続できます。  </p>
    <p>レコードを接続すると、あるレコードまたはオブジェクトの情報を、別のレコード上の別のアプリケーションから表示できます。</p>
    <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md">接続されたレコードの概要</a>を参照してください。 </p>
   <p>Workfront Planning には追加のライセンスが必要です。 </p>
@@ -680,7 +702,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td>[!UICONTROL 接続]</td> 
-   <td> <p>Workfront Planning では、接続は、接続されたレコードタイプまたは接続されたレコードを指す場合があります。 Workfront Planning には追加のライセンスが必要です。</p> </td> 
+   <td> <p>Workfront プランニングでは、接続は、接続されたレコードタイプまたは接続されたレコードを指す場合があります。 Workfront プランニングには追加のライセンスが必要です。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
@@ -963,7 +985,7 @@ ht-degree: 97%
    <p> テキストモードのレポート、表示、フィルター、グループ化を記述するとき、または計算フィールドを作成するときは、データベースに表示されるフィールドを使用することが重要です。</p>
    <p>詳しくは、<a href="../../../wf-api/general/api-explorer.md">API エクスプローラー</a>および<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">テキストモードの概要</a>を参照してください。</p>  
    <p>デフォルトでは、Workfront には、オブジェクトとその情報の両方を定義する一連のフィールドが用意されています。 カスタムフィールドを作成してオブジェクトを定義することもできますが、カスタムオブジェクトを作成することはできません。</p> 
-   <p>Workfront Planning で、すべてのレコードタイプのカスタムフィールドを作成できます。 Workfront レコードタイプには、限られた数のフィールドが用意されています。 すべてのフィールドを最初から作成し、レコードタイプに関連付ける必要があります。 詳しくは、<a href="/help/quicksilver/planning/fields/fields-overview.md">フィールドの概要</a>を参照してください。 </p> <p>Workfront Planning には追加のライセンスが必要です。 </p>   
+   <p>Workfront プランニングで、すべてのレコードタイプのカスタムフィールドを作成できます。 Workfront レコードタイプには、限られた数のフィールドが用意されています。 すべてのフィールドを最初から作成し、レコードタイプに関連付ける必要があります。 詳しくは、<a href="/help/quicksilver/planning/fields/fields-overview.md">フィールドの概要</a>を参照してください。 </p> <p>Workfront Planning には追加のライセンスが必要です。 </p>   
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
@@ -1242,7 +1264,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>このフィールドには、任意のユーザーがオブジェクトに最後に入力した更新が表示されます。 これは、オブジェクト上の最新のアクティビティまたはインタラクションです。</p> <p>オブジェクトの最終メモのテキストが削除されている場合、[!UICONTROL Last Note] 列は空になります。 オブジェクトに新規メモを入力すると、それが最終メモになり、列に再び表示されます。</p>
-   <p>このフィールドを[!UICONTROL タスク &#x200B;] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
+   <p>このフィールドを[!UICONTROL タスク ] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
    <p><b>メモ</p>
    <p>APIを使用してオブジェクトに最後に追加されたメモは、Workfrontのレポートには表示されません。 オブジェクトの最新の更新がAPIを使用して追加された場合、[!DNL Last Note] フィールドは空です。 </p>
    </td> 
@@ -1320,14 +1342,14 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
-   <td> <p>[!UICONTROL Interface Setup] の一部で、カスタムフィルター、ビューおよびグループ化を個々のユーザーにまたはすべてのユーザーにグローバルにリンクできます。</p> </td> 
+   <td> <p>[!UICONTROL インターフェイス設定] の一部で、カスタムフィルター、ビューおよびグループ化を個人ユーザーにまたはすべてのユーザーにグローバルにリンクできます。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ルックアップフィールド]</td> 
-   <td> <p>Workfront Planning では、2 つのレコードタイプ間の接続を確立し、個別のレコードをリンクすると、接続元のレコード上で、リンクされたレコードのフィールドを参照できます。</p>
+   <td> <p>Workfront プランニングでは、2 つのレコードタイプ間の接続を確立し、個別のレコードをリンクすると、接続元のレコード上で、リンクされたレコードのフィールドを参照できます。</p>
    <p>例えば、キャンペーンレコードタイプを Workfront プロジェクトのオブジェクトタイプと接続する場合、接続されたプロジェクトの「予算」フィールドをキャンペーンレコードに表示できます。 プロジェクトの「予算」フィールドは、キャンペーン上のプロジェクトのルックアップフィールドです。</p> <p>ルックアップフィールドの値は、接続元のレコードに自動的に入力されます。</p>
    <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md">接続されたレコードの概要</a>を参照してください。</p>
-   <p>Workfront Planning には追加のライセンスが必要です。</p>
+   <p>Workfront プランニングには追加のライセンスが必要です。</p>
     </td> 
   </tr> 
  </tbody> 
@@ -1431,7 +1453,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Number of Children]</td> 
-   <td> <p>[!UICONTROL プロジェクト &#x200B;] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
+   <td> <p>[!UICONTROL プロジェクト ] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
    <p><b>ヒント</b></p>
    タスクのカスタムフォームの計算カスタムフィールドに<code>{numberOfChildren}</code>計算を追加して、カスタムフィールドにタスクの子の数を表示できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">計算フィールドをフォームに追加</a>を参照してください。 
     </td> 
@@ -1833,7 +1855,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>プロジェクトの範囲、タイムライン、割り当てを管理するユーザー。 変更依頼、財務上の変更、成果物に対するデフォルトの承認者。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Project Planning]</td> 
+   <td>[!UICONTROL プロジェクト計画]</td> 
    <td>プロジェクトスケジュールを作成および管理するプロセス。</td> 
   </tr> 
   <tr> 
@@ -1903,7 +1925,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Rank]</td> 
-   <td> <p>[!UICONTROL Access Level] レポートでは、[!UICONTROL Access Level] の [!UICONTROL Rank] を手動で指定できます。 これは、[!DNL Workfront] 管理者として、各アクセスレベルに関連付けられている複雑さのレベルを視覚的に識別するのに役立ちます。 例えば、複雑さの高い（[!UICONTROL Plan] レベルの）アクセスレベルには小さい数値を指定し、複雑さの低い（[!UICONTROL Requester] レベルの）アクセスレベルには大きい数値を指定できます。 標準アクセスレベルのランク付けはできません。 </p> </td> 
+   <td> <p>[!UICONTROL Access Level] レポートでは、[!UICONTROL Access Level] の [!UICONTROL Rank] を手動で指定できます。 これは、[!DNL Workfront] 管理者として、各アクセスレベルに関連付けられている複雑さのレベルを視覚的に識別するのに役立ちます。 例えば、複雑さの高い（[!UICONTROL Plan] レベルの）アクセスレベルには小さい数値を指定し、複雑さの低い（[!UICONTROL Requester] レベルの）アクセスレベルには大きい数値を指定できます。 標準アクセスレベルのランキングはできません。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ready]</td> 
@@ -1911,7 +1933,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL レコード]</td> 
-   <td> <p>Workfront Planning では、レコードはレコードタイプの一意のインスタンスです。</p>
+   <td> <p>Workfront プランニングでは、レコードはレコードタイプの一意のインスタンスです。</p>
   <p>レコードタイプをワークスペースに追加したら、そのタイプのレコードをレコードタイプのページに追加できます。</p>
   <p>例えば、「キャンペーン」をレコードタイプとして設定し、「EMEA 向け夏のキャンペーン」をキャンペーンレコードタイプのレコードにすることができます。</p>
   <p>レコードの作成について詳しくは、<a href="/help/quicksilver/planning/records/create-records.md">レコードの作成</a>を参照してください。 </p> <p>Workfront Planning には追加のライセンスが必要です。 </p></td> 
@@ -1921,7 +1943,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>Workfront Planning のオブジェクトタイプ。</p>
   <p>オブジェクトタイプが事前に定義されている Workfront とは異なり、Workfront Planning では独自のオブジェクトタイプを作成できます。Workfront Planningのオブジェクト・タイプは、レコード・タイプと呼ばれます。</p>
   <p>例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。</p>
-  <p>Workfront Planning では、組織のワークフローを満たす任意のレコードタイプを作成できます。 後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。</p> レコードタイプの作成について詳しくは、<a href="/help/quicksilver/planning/architecture/create-record-types.md">レコードタイプの作成</a>を参照してください。 </p> <p>Workfront Planning には追加のライセンスが必要です。 </p></td> 
+  <p>Workfront プランニングでは、組織のワークフローを満たす任意のレコードタイプを作成できます。 後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。</p> レコードタイプの作成について詳しくは、<a href="/help/quicksilver/planning/architecture/create-record-types.md">レコードタイプの作成</a>を参照してください。 </p> <p>Workfront Planning には追加のライセンスが必要です。 </p></td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
@@ -2478,8 +2500,8 @@ The designated full time equivalency for users. A full-time user should have 100
    <ul><li>テーブル</li>
    <li>タイムライン</li>
    <li>カレンダー</li></ul>
-   <p>Workfront Planning のビューには、フィルター、グループ化、並べ替えなど、画面上のレコードに適用できる設定が含まれます。</p> <p>詳しくは、<a href="/help/quicksilver/planning/views/manage-record-views.md">レコードビューの管理</a>を参照してください。</p>   
-   <p>Workfront Planning には追加のライセンスが必要です。</p>
+   <p>Workfront プランニングのビューには、フィルター、グループ化、並べ替えなど、画面上のレコードに適用できる設定が含まれます。</p> <p>詳しくは、<a href="/help/quicksilver/planning/views/manage-record-views.md">レコードビューの管理</a>を参照してください。</p>   
+   <p>Workfront プランニングには追加のライセンスが必要です。</p>
    </td> 
   </tr> 
   <tr> 

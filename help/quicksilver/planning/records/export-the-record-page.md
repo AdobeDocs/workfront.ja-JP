@@ -8,23 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc
+TQID: 'https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 10%
-
 ---
-
 # レコードの詳細の書き出し
 
 <!--
@@ -82,7 +90,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -179,7 +187,7 @@ Old:
 
 1. 「**詳細**」タブを選択します。 「詳細」タブはデフォルトで開きます。
 
-1. プレビューまたはレコードのページで&#x200B;**書き出し** メニュー![&#x200B; レコードの詳細ページ &#x200B;](assets/export-icon-in-record-details-page.png)の書き出しアイコンをクリックし、次のいずれかをクリックします。
+1. プレビューまたはレコードのページで&#x200B;**書き出し** メニュー![ レコードの詳細ページ ](assets/export-icon-in-record-details-page.png)の書き出しアイコンをクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -188,7 +196,7 @@ Old:
 
    書き出されたファイルの名前は、レコードのプライマリフィールドです。
 
-   ![書き出されたword ファイル &#x200B;](assets/exported-word-file.png)
+   ![書き出されたword ファイル ](assets/exported-word-file.png)
 
    >[!NOTE]
    >

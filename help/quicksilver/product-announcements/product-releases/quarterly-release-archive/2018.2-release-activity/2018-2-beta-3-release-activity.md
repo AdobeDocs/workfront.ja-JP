@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-TQID: https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY
+TQID: 'https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 92%
-
+source-wordcount: '527'
+ht-degree: 96%
 ---
-
 # 2018.2 Beta 3 リリースアクティビティ
 
 このページでは、2018.2 Beta 3 リリースのプレビュー環境で利用可能な最新の変更についてすべて説明します。 機能は、2018年4月19日（PT）にプレビュー環境で利用できるようになりました。 2018年6月に、本番環境で利用できるようになります。
@@ -71,7 +76,7 @@ Workfront 管理者向けに、現在使用されているライセンスの数�
 
 ## 複数の単語に対する検索関連性の向上 {#improved-search-relevancy-for-multiple-words}
 
-複数のキーワードを使用する場合の検索方法に変更が加えられました。新しいアップデートでは、複数の単語を検索すると、指定したすべての単語を含む項目が検索されます。キーワード内の任意の単語を検索する場合は、検索語句の間に「OR」（引用符なし）を挿入する必要があります。 
+複数のキーワードを使用した場合の検索方法が変更されました。 新しい更新では、複数の単語を検索すると、指定したすべての単語を含む項目が検索されます。 キーワード内の任意の単語を検索する場合は、検索語句の間に「OR」（引用符なし）を挿入する必要があります。 
 
 この変更以前は、複数の単語を一度に検索すると、フレーズ内の単語のいずれかまたはすべてを含む項目が見つかりました。 
 

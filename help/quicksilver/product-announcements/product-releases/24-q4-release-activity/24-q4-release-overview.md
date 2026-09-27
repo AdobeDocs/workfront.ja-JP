@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE
+TQID: 'https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2308
+source-wordcount: '2308'
 ht-degree: 41%
-
 ---
-
 # 2024年第 4 四半期リリースの概要
 
 このページでは、2024年第 4 四半期リリースに含まれる機能について説明します。 これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
@@ -80,7 +89,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">環境プロモーションでアクセスレベルが利用可能になりました</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>環境プロモーション機能の機能を拡張するために、アクセスレベルを含める機能を追加しました。 これで、サンドボックス環境でアクセスレベルを設定し、そのアクセスレベルを本番環境に昇格できます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -97,7 +106,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフォームのカウンターに表示されるフィールド数</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>カスタムフォームのフィールド数は 500 個に制限されています。 長いフォームでは、フォームのフィールド数や上限に達しているかどうかを把握するのは難しい場合があります。 左下のカスタムフォームにカウンターが追加されました。 カウンターには、フォームで使用されているフィールドの数が表示され、フォームデザイナー内でスクロールすると常に表示されます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -114,7 +123,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> レイアウトテンプレートで「すべて選択」オプションを使用できるようになりました</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>レイアウトテンプレートを使用したフィールドの表示と非表示をより簡単に行えるように、レイアウトテンプレートの詳細ビューの概要および財務領域に「すべてを選択」チェックボックスが追加されました。 このオプションは、「ユーザーに表示される内容をカスタマイズ」で「プロジェクト」、「タスク」、「イシュー」、「Portfolio」または「プログラム」を選択した場合に使用できます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -131,7 +140,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">環境プロモーションパッケージのロールバック </a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>環境プロモーションをより柔軟で使いやすいものにするために、ロールバック機能を有効にしました。 これにより、24時間以内にパッケージをロールバックできるようになり、環境プロモーションパッケージの影響を受けた以前の設定をより簡単に復元できるようになりました。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -210,7 +219,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">以前のレビュー担当者と承認者を新しいドキュメントのバージョンにすばやく追加</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>以前のドキュメントのバージョンからレビュー担当者や承認者をすばやく追加できるようになりました。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -246,7 +255,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">新しいホームで承認待ちウィジェットを更新</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>承認待ちウィジェットに次の変更を加えました。</p>
                         <ul>
                             <li>ウィジェットの名前を変更しました：このウィジェットの名前は「自分の承認」になりました。</li>
@@ -268,7 +277,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">優先事項の紹介：タスクオーナー向けの、シンプルで合理的で直感的なWorkfront エクスペリエンス </a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>優先事項は、集中力と生産性を高め、顧客がより少ない時間でより多くのことを達成できるようにします。</p>
                     <p>「Priorities」では、次の機能を利用できます。</p>
                         <ul>
@@ -310,7 +319,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook統合ログインエクスペリエンスの機能強化</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Outlook統合のログインエクスペリエンスが合理化され、IMSが有効であるかどうかに関係なく、すべてのユーザーが同じボタンを使用してWorkfrontにログインできるようになりました。 IMS インスタンスとIMS以外のインスタンスでは、後続のログインステップは異なりますが、最初のページはすべてのユーザーで同じです。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -346,7 +355,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
-                    [!BADGE In production for Fast Release &#x200B;]{type=Positive}
+                    [!BADGE In production for Fast Release ]{type=Positive}
                     <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -364,7 +373,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                    [!BADGE In production for Fast Release &#x200B;]{type=Positive}
+                    [!BADGE In production for Fast Release ]{type=Positive}
                     <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -401,7 +410,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトップ校正ビューアの問題の修正をコピー/貼り付け</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>デスクトッププルーフビューアの「更新」セクションでコンテンツが正しくペーストされない問題を修正しました。</p>
                     <p>新しいバージョン：2.1.39</p>
                 </td>
@@ -419,7 +428,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     デスクトップ プルーフ ビューアのWindows ユーザー向けの<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">空の画面の修正</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>新しい2.1.36 デスクトッププルーフビューアバージョンで、一部のWindows ユーザーがビューアを開いた後に空白の画面が表示される問題を修正しました。 </p>
                     <p>Windows ユーザー向けの新しいバージョン：2.1.37</p>
                 </td>
@@ -437,7 +446,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     デスクトップ校正ビューアの<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromiumの更新</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>デスクトッププルーフビューアをアップグレードして、Chromium 126.0.6478.127をサポートします。これにより、インタラクティブなプルーフのUI要素に関する問題が解決されます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -473,7 +482,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいプランで利用可能なWorkfront Data Connect</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Workfront Data Connectは、新しいWorkfront プランの1つで組織向けに利用できるようになります。 Data Connectにより、企業は安全で拡張性の高いデータレイクとしてデータにアクセスし、ビジネスインテリジェンスツールを使用して分析および可視化したり、社外に保存したりできます。 さらに、時間ベースのトレンド分析、変数マッピング、Workfrontデータと組み合わせた外部システムデータの分析など、以前は利用できなかったデータ分析をデータコネクトで表示することもできます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -497,7 +506,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> ワンクリックでプロジェクトまたは更新を要約</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>プロジェクトや更新ストリームのハイライトをすばやく簡単に確認できるように、Workfrontのこれらの領域に「要約」ボタンを追加しました。 次に、ボタンをクリックして、AI アシスタントに要約を生成できます。</p><p>以前は、ユーザーはAI アシスタントを開き、プロジェクトの概要やアップデートストリームを作成するためのプロンプトを入力しました。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
@@ -514,7 +523,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planningの一般提供</a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Workfront Planningは、Workfront ライセンスに加えて、Workfront Planning ライセンスを購入したすべてのお客様が利用できます。 Workfront Planningについて詳しくは、アカウント担当者にお問い合わせください。</p>
                     <p>各四半期の最新のWorkfront Planning リリース情報については、以下の「<a href="#workfront-planning-enhancements">Workfront Planningの機能強化</a>」の節を参照してください。</p>
                 </td>
@@ -529,7 +538,7 @@ ht-degree: 41%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontで利用できるAdobe AI アシスタント </a></p>
-                    [!BADGE In production &#x200B;]{type=Informative}
+                    [!BADGE In production ]{type=Informative}
                     <p>Adobe Workfrontには、作業を容易に達成できるように、AdobeのAI アシスタントが追加されました。 AI アシスタントを使用すれば、次のことが可能になります。</p>
                     <ul>
                         <li>作業項目とドキュメントをまとめ、タスク、プロジェクト、アセットの概要をすばやく把握できます。</li>
@@ -582,9 +591,9 @@ ht-degree: 41%
 
 Workfront Fusion の新機能は、2024 年第 4 四半期のリリーススケジュールから外れたタイミングで、実稼動環境で利用可能になります。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
-### Workfront Planning の機能強化
+### Workfront プランニングの機能強化
 
-Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Planning 2024年第4四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)を参照してください。
+Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Planning 2024年第4四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 

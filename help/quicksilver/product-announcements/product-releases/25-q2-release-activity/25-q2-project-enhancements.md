@@ -7,20 +7,27 @@ recommendations: noDisplay, noCatalog
 exl-id: b20300d7-77d6-46f5-a458-23f7b84ef29b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/yPkTOdx-YM0PStg6C3K4OA8e1WW2Q6kQzTEYrQRiy3o
+TQID: 'https://experienceleague.adobe.com/yPkTOdx-YM0PStg6C3K4OA8e1WW2Q6kQzTEYrQRiy3o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: '157'
 ht-degree: 45%
-
 ---
-
 # 2025年第 2 四半期のプロジェクトの機能強化
 
 このページでは、2025年第 2 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。

@@ -7,32 +7,38 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+TQID: 'https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2204
+source-wordcount: '2204'
 ht-degree: 3%
-
 ---
-
 # Adobe Workfront Planning の 2025年第 1 四半期リリースアクティビティ
 
 ここでは、2025年第1四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## リクエストフォームで、Adobe Experience Manager アセットとの接続フィールドがサポートされるようになりました
 
@@ -153,7 +159,7 @@ CSVまたはExcel ファイルを読み込むことで、新しいレコード�
 
 追加されたページは読み取り専用です。
 
-詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## リクエスト領域の「送信済み」セクションにある「新しいWorkfront」タブと「計画」タブ
 
@@ -170,7 +176,7 @@ Workfront Planningのレコードタイプにリクエストを追加するに�
 
 「計画」タブが「リクエスト」エリアで利用できるようになる前に、Workfront計画パッケージを購入する必要があります。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## リクエストフォームで追加のフィールドタイプがサポートされるようになりました
 
@@ -211,7 +217,7 @@ Workfront Planningのレコードタイプリクエストフォームに、次�
 
 週ごとにカレンダービューにレコードを表示できるようになりました。 この機能強化の前は、カレンダービューを月単位でのみ表示していました。
 
-詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 削除されたレコードの復元
 
@@ -318,6 +324,6 @@ Workfront オブジェクトをWorkfront計画レコードに引き続きブリ�
 
 Workfront オブジェクトのPlanning接続フィールドの一括編集はまだ使用できません。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 [この機能のデモ動画を見る](https://video.tv.adobe.com/v/3435633/){target=_blank}

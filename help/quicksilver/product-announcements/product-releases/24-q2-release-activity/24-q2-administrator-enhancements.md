@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-TQID: https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0
+TQID: 'https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 827
+source-wordcount: '827'
 ht-degree: 96%
-
 ---
-
 # 2024年第 2 四半期の管理者の機能強化
 
 このページでは、プレビュー環境の 2024年第 2 四半期リリースで行われた管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -48,7 +54,7 @@ ht-degree: 96%
 
 カスタムフォームを会社またはユーザーに添付すると、外部参照フィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能が使用できるようになりました。 高度な機能は、会社を編集ダイアログやユーザーを編集ダイアログではなく、会社の詳細ページとユーザーの詳細ページで使用できます。 これらのフィールドタイプを使用するには、新しいフォーム designer でカスタムフォームを作成する必要があります。
 
-カスタムフォームフィールドについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームフィールドについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## JumpSeat 統合が、新しいパッケージタイプで使用可能
 
@@ -76,7 +82,7 @@ Workfront にネイティブなフィールドをカスタムフォームに追�
 
 この機能は、フォーム designer（Beta）でのみ使用でき、従来のフォームビルダーでは使用できません。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 [この機能のデモ動画をご覧ください。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

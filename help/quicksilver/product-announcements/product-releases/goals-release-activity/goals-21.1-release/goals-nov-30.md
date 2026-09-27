@@ -7,18 +7,26 @@ description: このページでは、2020年11月30日 (PT) の週にプレビ�
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 3c3555df-9c8c-40d9-91d7-1e4b0e34ae1f
-TQID: https://experienceleague.adobe.com/-pcn07HHpJ7Iy014DPCBrjG8zOc3IABiF9sHEmgM9EA
+TQID: 'https://experienceleague.adobe.com/-pcn07HHpJ7Iy014DPCBrjG8zOc3IABiF9sHEmgM9EA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: '246'
 ht-degree: 100%
-
 ---
-
 # Adobe Workfront Goals 21.1 リリースアクティビティ：2020年11月30日（PT）の週
 
 このページでは、2020年11月30日 (PT) の週にプレビュー環境に対して Adobe Workfront Goals の 21.1 リリースで行われたすべての機能強化について説明します。 これらの機能強化は、21.1 の第 1 四半期に本番環境で利用可能になる予定です。

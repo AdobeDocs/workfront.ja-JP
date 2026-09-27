@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jME5S-vKX72Y56J0sj-pOyokhKiyZ3e-pMTFMB7660o
+TQID: 'https://experienceleague.adobe.com/jME5S-vKX72Y56J0sj-pOyokhKiyZ3e-pMTFMB7660o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2386
+source-wordcount: '2386'
 ht-degree: 97%
-
 ---
-
 # Adobe Workfront でフィルターを作成または編集する
 
 <!-- Audited: 11/2024 -->
@@ -246,7 +252,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 
    また、「**フィールドを参照**」をクリックすると、フィルタリングに使用できるすべてのフィールドの一覧が表示されます。 詳細検索のフィールドは、オブジェクトカテゴリ別にグループ化されます。
 
-   ![&#x200B; フィルターに使用するフィールドを検索 &#x200B;](assets/new-filter-search-for-field.png)
+   ![ フィルターに使用するフィールドを検索 ](assets/new-filter-search-for-field.png)
 
 1. 修飾子のドロップダウンメニューをクリックして、修飾子を選択します。 デフォルトの修飾子は「等しい」です。
 
@@ -364,7 +370,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 フィルターの作成に使用する方法に関係なく、フィルターを最初から作成することも、既存のフィルターから作成することも同様です。
 
 1. カスタマイズするフィルターを含むリストまたはレポートに移動します。
-1. **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックしてから、**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**従来のフィルター**&#x200B;に戻ります。
+1. **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックしてから、**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**従来のフィルター**&#x200B;に戻ります。
 
    >[!TIP]
    >
@@ -374,7 +380,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 
    または
 
-   変更するフィルターにカーソルを合わせ、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+   変更するフィルターにカーソルを合わせ、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    フィルター起動をカスタマイズするためのビルダー。
 

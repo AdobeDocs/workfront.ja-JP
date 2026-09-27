@@ -10,24 +10,30 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/t5iR6y08l5ovcwShZCiqYKv1B9K85Qtg7H18pLyTCTU
+TQID: 'https://experienceleague.adobe.com/t5iR6y08l5ovcwShZCiqYKv1B9K85Qtg7H18pLyTCTU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1857
+source-wordcount: '1857'
 ht-degree: 4%
-
 ---
-
 # ビジネスルールを作成および編集
 
 ビジネスルールを使用すると、Workfront オブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ビジネスルールの検証は、データの整合性を損なう可能性のあるアクションを防止することで、データの品質と運用効率を向上させるのに役立ちます。
@@ -87,11 +93,11 @@ Workflow Ultimate パッケージを持つ組織は、特定の条件が満た�
 
 ビジネスルール検証の形式は、「定義された条件が満たされた場合、ユーザーはオブジェクトに対するアクションから除外され、メッセージが表示されます」です。
 
-ビジネスルールのプロパティおよびその他の関数の構文は、カスタムフォームの計算フィールドの構文と同じです。 構文について詳しくは、[&#x200B; フォームデザイナーで計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+ビジネスルールのプロパティおよびその他の関数の構文は、カスタムフォームの計算フィールドの構文と同じです。 構文について詳しくは、[ フォームデザイナーで計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 IF ステートメントについて詳しくは、[&quot;IF&quot; ステートメントの概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)および[計算カスタムフィールドの条件演算子](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)を参照してください。
 
-ユーザーベースのワイルドカードについて詳しくは、[&#x200B; ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
+ユーザーベースのワイルドカードについて詳しくは、[ ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
 
 日付ベースのワイルドカードについて詳しくは、[日付ベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
 
@@ -158,7 +164,7 @@ IF(
 
 >[!ENDSHADEBOX]
 
-カスタムローカライゼーションについて詳しくは、[&#x200B; カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+カスタムローカライゼーションについて詳しくは、[ カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
 
 >[!NOTE]
 >
@@ -186,7 +192,7 @@ IF(true, true)
 IF({status} = "APR", true)
 ```
 
-ビジネス ルールの検証[&#x200B; シナリオ &#x200B;](#scenarios-for-business-rule-validation)の節で説明しているように、ビジネス ルール アクションでワイルドカードを使用できます。
+ビジネス ルールの検証[ シナリオ ](#scenarios-for-business-rule-validation)の節で説明しているように、ビジネス ルール アクションでワイルドカードを使用できます。
 
 
 ## 新しいビジネスルールの追加
@@ -206,7 +212,7 @@ IF({status} = "APR", true)
 
 1. ビジネスルールを割り当てるオブジェクトタイプを選択します。
 
-   ![&#x200B; オブジェクトを選択](assets/object-for-business-rule4.png)
+   ![ オブジェクトを選択](assets/object-for-business-rule4.png)
 
    ビジネスルールは、次のオブジェクトに適用できます。
 
@@ -259,11 +265,11 @@ IF({status} = "APR", true)
 
      この例では、「詳細情報」がURLにリンクされます。`"You are not allowed to add a new project in November.[Learn more](http://url)"` URLは括弧で囲む必要がありますが、括弧内のリンクテキストは必要ありません。 完全なURLを表示することができ、クリック可能なリンクになります。
 
-   ![&#x200B; ビジネスルールダイアログを追加](assets/add-business-rule-new.png)
+   ![ ビジネスルールダイアログを追加](assets/add-business-rule-new.png)
 
    この例は、プロジェクトのビジネスルールです。 現在の月が11月の場合、ユーザーは新しいプロジェクトを作成できません。このメッセージは、これを説明しています。
 
-   ビジネスルールの詳細な例については、この記事の「[&#x200B; ビジネスルールのシナリオ &#x200B;](#scenarios-for-business-rules)」を参照してください。
+   ビジネスルールの詳細な例については、この記事の「[ ビジネスルールのシナリオ ](#scenarios-for-business-rules)」を参照してください。
 
 1. （オプション）右側のパネルの式&#x200B;**式**&#x200B;と&#x200B;**フィールド**&#x200B;を使用して、ルールの作成を支援します。
 
@@ -277,7 +283,7 @@ IF({status} = "APR", true)
 
 1. （条件付き）別のアクションを自動化するには、アクションを選択します。
 
-   これらのアクションについて詳しくは、この記事の「[&#x200B; ビジネスルールの自動化オプション &#x200B;](#business-rule-automation-options)」の節を参照してください。
+   これらのアクションについて詳しくは、この記事の「[ ビジネスルールの自動化オプション ](#business-rule-automation-options)」の節を参照してください。
 
    >[!NOTE]
    >

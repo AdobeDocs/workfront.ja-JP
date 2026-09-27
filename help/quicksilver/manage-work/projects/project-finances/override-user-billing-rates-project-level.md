@@ -7,20 +7,24 @@ description: この記事では、プロジェクトのシステムユーザー�
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '749'
 ht-degree: 23%
-
 ---
-
 # プロジェクト レベルでのユーザーの請求レートの上書き
 
 プロジェクトマネージャーは、特定のプロジェクトのユーザーの請求レートを指定できます。 このプロジェクトレベルの請求レートは、このユーザーのシステムレベルの請求レートを上書きします。 Workfrontでは、システムレベルの請求レートではなく、プロジェクトレベルのユーザーの請求レートを使用して収益を計算します。
 
 この記事では、プロジェクトのシステムユーザーの請求レートを上書きする方法について説明します。
 
-プロジェクトの請求レートの上書きとプロジェクト収益の計算について詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの請求レートの上書きとプロジェクト収益の計算について詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 プロジェクトでの収益の計算について詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)およびユーザーと役割の割り当てに基づくタスクの[収益計算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) セクション（[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)）を参照してください。
 
@@ -71,7 +75,7 @@ ht-degree: 23%
 プロジェクトのユーザーの請求レートを上書きするには：
 
 1. 請求料金を上書きするプロジェクトに移動します。
-1. 左側のパネルで「**レート**」をクリックします。 最初に「**さらに表示**」をクリックする必要がある場合もあります。
+1. 左側のパネルで「**レート**」をクリックします。 最初に&#x200B;**詳細を表示**&#x200B;をクリックする必要がある場合があります。
 1. まだ選択されていない場合は、**請求** タブをクリックします。
 1. 「**請求レートを追加** > **新規ユーザー請求レート**」をクリックします。
 
@@ -87,7 +91,7 @@ ht-degree: 23%
    * **開始日**：請求レートの上書きが開始される日付。
    * **終了日**：請求レートの上書きが終了した日付。
 
-   ![有効な日付を表示する新規ユーザー請求率ボックス &#x200B;](assets/new-user-billing-rate-on-project2.png)
+   ![有効な日付を表示する新規ユーザー請求率ボックス ](assets/new-user-billing-rate-on-project2.png)
 
    Workfrontでは、プロジェクトの収益を計算する際に、これらの時間枠の間に発生した時間にオーバーライドのユーザーレートが適用されます。
 

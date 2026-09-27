@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
+TQID: 'https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: '662'
 ht-degree: 6%
-
 ---
-
 # Adobe Workfront Planning のメール通知の管理
 
 <!--
@@ -41,7 +49,7 @@ ht-degree: 6%
 
 * 誰かがレコードのコメントで自分やチームにタグを付けます
 
-  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[ レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * ビュー、ワークスペース、レコードタイプまたはレコードへのアクセス権を求めるユーザー
 * 誰かが、ビュー、ワークスペース、レコードタイプ、またはレコードに対するアクセス権が付与されたことを確認します
 * Workfront計画リクエストを送信します。 詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください
@@ -91,7 +99,7 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -169,14 +177,14 @@ OLD:
 
 1. （条件付き、オプション）誰かがレコードのコメントで自分またはチームにタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
-   ![&#x200B; メール通知の例](assets/email-notification-example.png)
+   ![ メール通知の例](assets/email-notification-example.png)
 
 1. （オプション）電子メール内の&#x200B;**Workfront** ボックス内のメッセージをクリックします。
 
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
 1. （条件付き）使用可能な場合は、**すべての通知を表示**&#x200B;をクリックします。 <!--check with Lilit - do non-IMS users have this button??-->
-Adobe Experience Cloudで&#x200B;**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
+Adobe Experience Cloudで**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
 
 ## 権限をリクエストおよび付与する際のメール通知を管理します
 
@@ -186,11 +194,11 @@ Adobe Experience Cloudで&#x200B;**通知** ページが開きます。 すべ�
 
    Workfrontで開く権限を要求したオブジェクト。
 
-1. （条件付き）使用可能な場合は、**すべての通知を表示**&#x200B;をクリックします。
-Adobe Experience Cloudで&#x200B;**通知** ページが開きます。すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
+1. （条件付き）使用可能な場合は、**すべての通知を表示**をクリックします。
+Adobe Experience Cloudで**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
 
 
-権限の要求、付与、または拒否について詳しくは、[&#x200B; ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
+権限の要求、付与、または拒否について詳しくは、[ ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
 
 Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。
 
@@ -205,8 +213,8 @@ Workfront計画の通知の管理について詳しくは、[Adobe Workfront計�
    * **リクエストを承認する**&#x200B;を承認します。 Planning リクエストを承認すると、レコードが作成されます。
    * **却下**&#x200B;してリクエストを却下します。 Workfront Planningでリクエストを却下すると、レコードは作成されません。 リクエストは、ステータスが&#x200B;**Rejected**&#x200B;のリクエスト領域に保存されます。
 
-   ![計画リクエストの「レビューと承認」ボタン &#x200B;](assets/review-approval-button-with-drop-down-expanded.png)
+   ![計画リクエストの「レビューと承認」ボタン ](assets/review-approval-button-with-drop-down-expanded.png)
 
-1. 画面の右上隅にある&#x200B;**通知** アイコン ![通知領域アイコンの統合シェル &#x200B;](assets/notifications-area-icon-unified-shell.png)をクリックして、**通知** ページにアクセスします。
+1. 画面の右上隅にある&#x200B;**通知** アイコン ![通知領域アイコンの統合シェル ](assets/notifications-area-icon-unified-shell.png)をクリックして、**通知** ページにアクセスします。
 
    Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。

@@ -3,29 +3,40 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-security-workfront-proof
-title: ' [!DNL Workfront Proof] でのプルーフのセキュリティ'
-description: ' [!DNL Workfront Proof] にとってデータセキュリティは最重要です。 アドビは、セキュリティインフラストラクチャを最新の状態に保つために、大量のリソースを投入しています。'
+title: '[!DNL Workfront Proof] でのプルーフのセキュリティ'
+description: '[!DNL Workfront Proof] にとってデータセキュリティは最重要です。 アドビは、セキュリティインフラストラクチャを最新の状態に保つために、大量のリソースを投入しています。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-TQID: https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk
+TQID: 'https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '349'
 ht-degree: 97%
-
 ---
-
 # [!DNL Workfront Proof] でのプルーフのセキュリティ
 
 >[!IMPORTANT]
@@ -40,7 +51,7 @@ ht-degree: 97%
 
 ## 電子サインの必要性
 
-電子サインの設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md) での電子サインについてを参照してください。
+電子サインの設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md) での電子サインについてを参照してください。
 
 ## ログインが必要
 
@@ -58,12 +69,12 @@ ht-degree: 97%
 
 
 
-[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) プルーフの設定を指定の説明に従って、自分の個人のプルーフ設定を変更することでログインを要求できます。
+[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) プルーフの設定を指定の説明に従って、自分の個人のプルーフ設定を変更することでログインを要求できます。
 
 ## ファイルダウンロードの無効化
 
 デフォルトでは、レビュアーはプルーフが作成された元のファイルをダウンロードすることができます。 この設定を無効にした場合、プルーフのレビュアーは元のファイルをダウンロードできません。
 
-個人設定に保存された設定は、自分が作成したすべてのプルーフに適用されますが、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの新規作成時や変更時に上書きすることができます。
+個人設定に保存された設定は、自分が作成したすべてのプルーフに適用されますが、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの新規作成時や変更時に上書きすることができます。
 
-[[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフ設定を指定の説明に従って、個人のプルーフの設定を変更することにより、ファイルのダウンロードを無効にできます。
+[[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフ設定を指定の説明に従って、個人のプルーフの設定を変更することにより、ファイルのダウンロードを無効にできます。

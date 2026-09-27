@@ -8,31 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-TQID: https://experienceleague.adobe.com/sQ0-5jDNs4Pr8icC-mYCp0QFec5g1i-e0XkTz78WEWQ
+TQID: 'https://experienceleague.adobe.com/sQ0-5jDNs4Pr8icC-mYCp0QFec5g1i-e0XkTz78WEWQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 37%
-
 ---
-
 # カスタムヘルプ URL の設定
 
 組織でのWorkfrontの使用方法に関する情報を含むカスタム内部ヘルプサイトを作成する場合は、メインメニューヘルプアイコンを設定して、そのサイトに移動できます。
 
-![&#x200B; カスタムヘルプボタン &#x200B;](assets/custom-help-with-left-menu.png)
+![ カスタムヘルプボタン ](assets/custom-help-with-left-menu.png)
 
 これは、Workfront ヘルプサイトに移動するWorkfront全体のコンテクストに応じたヘルプリンクには影響しません。
 
-Workfrontで設定したカスタムヘルプ URLと通常のWorkfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Adobe Workfront ヘルプへのアクセス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)を参照してください。
+Workfrontで設定したカスタムヘルプ URLと通常のWorkfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Adobe Workfront ヘルプへのアクセス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)を参照してください。
 
 ## アクセス要件
 

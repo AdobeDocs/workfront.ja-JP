@@ -8,27 +8,31 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-TQID: https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8
+TQID: 'https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 443
+source-wordcount: '443'
 ht-degree: 93%
-
 ---
-
 # リクエストタイプを設定
 
 プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。 これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。 リクエストを送信することもできます。リクエストは、リクエストキューとして指定されたプロジェクトのイシューとして記録されます。 Adobe Workfront では、イシューとリクエストは互換性があると見なします。
 
-[!DNL Workfront] でのイシューの作成については、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。 [!DNL Workfront] でのリクエストの作成については、[&#x200B; [!DNL Adobe Workfront] リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。 リクエストタイプとプロジェクトの関連付けについては、[プロジェクトのリクエストタイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)を参照してください。
+[!DNL Workfront] でのイシューの作成については、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。 [!DNL Workfront] でのリクエストの作成については、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。 リクエストタイプとプロジェクトの関連付けについては、[プロジェクトのリクエストタイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -84,7 +88,7 @@ You must have at least one request type selected. You can select multiple reques
 
   [!DNL Workfront] でのイシューの作成について詳しくは、[イシューを作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。
 
-  [!DNL Workfront] でのリクエストの作成について詳しくは、[&#x200B; [!DNL Adobe Workfront]  リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+  [!DNL Workfront] でのリクエストの作成について詳しくは、[ [!DNL Adobe Workfront]  リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 * キューのトピックを設定するとき、**[!UICONTROL キューのトピックの詳細]**&#x200B;フォーム。\
    キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。

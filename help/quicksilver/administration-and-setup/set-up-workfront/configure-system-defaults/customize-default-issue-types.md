@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-TQID: https://experienceleague.adobe.com/nOJ0b31wi1hCL6TuDXU9VkyPyxplK0h5RChNfIpvVQs
+TQID: 'https://experienceleague.adobe.com/nOJ0b31wi1hCL6TuDXU9VkyPyxplK0h5RChNfIpvVQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: '418'
 ht-degree: 90%
-
 ---
-
 # デフォルトのイシュータイプをカスタマイズ
 
 イシュータイプは、次の状況で役立ちます。
@@ -91,8 +95,8 @@ ht-degree: 90%
 1. 「**[!UICONTROL イシュー]**」タブを選択します。
 1. 次のいずれかの操作を行います。
 
-   * カスタマイズする問題タイプにカーソルを合わせ、右端に表示される[!UICONTROL 編集] アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、問題タイプの新しい名前を入力します。
+   * カスタマイズする問題タイプにカーソルを合わせ、右端に表示される[!UICONTROL 編集] アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、問題タイプの新しい名前を入力します。
 
-     ![問題タイプのカスタマイズ &#x200B;](assets/customize-issue-type.png)
+     ![問題タイプのカスタマイズ ](assets/customize-issue-type.png)
 
    * [!UICONTROL イシューの種類]をクリックして関連するステータスをリストし、ポインタを合わせると表示されるハンドルをドラッグし、ユーザーのイシュー&#x200B;**[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューに表示する順序でドロップします。

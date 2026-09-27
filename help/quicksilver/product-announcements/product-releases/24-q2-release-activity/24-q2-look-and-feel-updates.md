@@ -7,24 +7,29 @@ recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TCj4W1igTtMjqXw6zvaWw2g0VvQtdOK4Kq7j8C3v34M
+TQID: 'https://experienceleague.adobe.com/TCj4W1igTtMjqXw6zvaWw2g0VvQtdOK4Kq7j8C3v34M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 253
+source-wordcount: '253'
 ht-degree: 97%
-
 ---
-
 # 2024年第 2 四半期のリリース期間中のルックアンドフィールの更新
 
 このページでは、2024年第 2 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明しています。
@@ -47,4 +52,4 @@ ht-degree: 97%
 
 設定／カスタムフォームエリアの「フォーム」タブ、「フィールド」タブおよび「セクション」タブを、Workfront のその他のエリアと一貫性のある、より現代的なデザインに更新しました。 左側のナビゲーションメニューから、これら 3 つのエリアにアクセスできるようになりました。 リストに対して、フィルター、ビューおよびグループ化を引き続き使用できます。 新しいフォーム designer と従来のフォームビルダーの両方で作成されたカスタムフォーム、フィールドおよびセクションに、更新されたデザインが適用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

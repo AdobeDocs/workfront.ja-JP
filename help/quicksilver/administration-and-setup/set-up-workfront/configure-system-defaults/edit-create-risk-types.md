@@ -8,24 +8,30 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
+TQID: 'https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 645
+source-wordcount: '645'
 ht-degree: 36%
-
 ---
-
 # リスクタイプを編集および作成
 
 <!--Audited: 03/2025-->
@@ -78,7 +84,7 @@ Adobe Workfrontには、計画段階でプロジェクトに関連付けて、�
 
 リスクタイプとは、レポート用にリスクを分類するために使用できるラベルです。
 
-[!DNL Workfront]管理者は、[!UICONTROL **セットアップ**]&#x200B;領域で[!UICONTROL &#x200B; リスクタイプ &#x200B;]を作成できます。
+[!DNL Workfront]管理者は、[!UICONTROL **セットアップ**]&#x200B;領域で[!UICONTROL  リスクタイプ ]を作成できます。
 
 リスクタイプを設定した後は、システムに対して共通です。
 
@@ -104,7 +110,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
    「[!UICONTROL **リスクタイプを編集**]」ボックスが開きます。
 
-   ![&#x200B; リスクタイプボックスの編集](assets/edit-risk-type-box.png)
+   ![ リスクタイプボックスの編集](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -161,7 +167,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
    「**新しいリスクの種類**」ボックスが開きます。
 
-   ![新しいリスク タイプ ボックス &#x200B;](assets/new-risk-type-box.png)
+   ![新しいリスク タイプ ボックス ](assets/new-risk-type-box.png)
 
 1. リスクの種類に「**[!UICONTROL 名前]**」（必須）と「**[!UICONTROL 説明]**」（オプション）を追加します。
 

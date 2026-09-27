@@ -6,26 +6,35 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-TQID: https://experienceleague.adobe.com/SGwYFV5aZJGwfUy7ejVTaOkn0v4Dt-HJLI5hDWKVhMo
+TQID: 'https://experienceleague.adobe.com/SGwYFV5aZJGwfUy7ejVTaOkn0v4Dt-HJLI5hDWKVhMo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2232
+source-wordcount: '2232'
 ht-degree: 4%
-
 ---
-
 # Adobe Workfront Planning API の基本
 
 {{planning-important-intro}}
@@ -40,7 +49,7 @@ She also said we need to reword how we organize the version features, after we g
 
 Adobe Workfront Planning APIの目的は、HTTP経由で動作するRESTful アーキテクチャを導入することで、Planningとの統合を構築することを簡素化することです。 このドキュメントでは、RESTおよびJSON応答に精通していることを前提としています。
 
-エンドポイントの完全なリファレンス、リクエスト/レスポンスのスキーマ、バージョン固有の詳細については、[Workfront Planning API開発者ドキュメント &#x200B;](https://developer.adobe.com/wf-planning)を参照してください。
+エンドポイントの完全なリファレンス、リクエスト/レスポンスのスキーマ、バージョン固有の詳細については、[Workfront Planning API開発者ドキュメント ](https://developer.adobe.com/wf-planning)を参照してください。
 
 ## 認証
 
@@ -50,11 +59,11 @@ Workfront Planning APIは、認証にOAuth 2.0を使用します。 資格情報
 
 * **サーバー間認証（JWT）**：ユーザー操作のない自動統合およびバックエンドサービスの場合。 OAuth サーバー間の資格情報を使用します（クライアント資格情報の付与 – アプリケーションはクライアント IDと秘密鍵を使用して直接認証を行い、ユーザーのログインや同意手順を行わずにアクセストークンを取得します）。
 
-  詳しくは、[&#x200B; サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
+  詳しくは、[ サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
 
 * **ユーザー認証（認証コードフロー）**：特定のユーザーの代理で動作する統合用。 OAuth Web アプリまたはシングルページアプリの資格情報（認証コード付与 – ユーザーがログインして同意し、その後、アプリケーションがアクセストークンと交換する認証コードを受け取ります）を使用します。
 
-  詳しくは、[&#x200B; ユーザー認証](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/)を参照してください。
+  詳しくは、[ ユーザー認証](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/)を参照してください。
 
 初めに、Adobe Developer Consoleでプロジェクトを作成し、Workfront Planning APIを追加して資格情報を取得します。
 
@@ -88,7 +97,7 @@ Planning APIは、URL パスを使用してバージョン管理されます。
 >
 >Workfront Fusion用のWorkfront Planning コネクタは、API バージョン 2に更新されておらず、追って通知されるまでバージョン 1を引き続き使用します。
 
-現在サポートされているバージョンについて詳しくは、[Workfront Planning API開発者ドキュメント &#x200B;](https://developer.adobe.com/wf-planning)を参照してください。
+現在サポートされているバージョンについて詳しくは、[Workfront Planning API開発者ドキュメント ](https://developer.adobe.com/wf-planning)を参照してください。
 
 すべての統合でバージョンを明示的にターゲットにすることをお勧めします。
 
@@ -221,7 +230,7 @@ json
 
 フィールドで修飾子とフィルターを使用して、結果で返されるデータを制御できます。
 
-例については、[Workfront Planning API開発者ドキュメント &#x200B;](https://developer.adobe.com/wf-planning/)を参照してください。
+例については、[Workfront Planning API開発者ドキュメント ](https://developer.adobe.com/wf-planning/)を参照してください。
 
 ### 検索修飾子の使用
 
@@ -440,7 +449,7 @@ Planning APIは、1回のリクエストでのレコードの一括作成、更�
 
 ## Workfront カスタムフォームでのPlanning APIの使用
 
-Workfront カスタムフォームの外部ルックアップフィールドからPlanning APIを呼び出して、Workfront オブジェクト内に直接Planning データを表示できます。 詳細については、[&#x200B; カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)を参照してください。
+Workfront カスタムフォームの外部ルックアップフィールドからPlanning APIを呼び出して、Workfront オブジェクト内に直接Planning データを表示できます。 詳細については、[ カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)を参照してください。
 
 ## 関連リソース
 

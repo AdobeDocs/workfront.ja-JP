@@ -7,23 +7,28 @@ feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6z-6LTzYteh2Ydn9SyjYdagszzc0VEV-mSHAV7fnMAI
+TQID: 'https://experienceleague.adobe.com/6z-6LTzYteh2Ydn9SyjYdagszzc0VEV-mSHAV7fnMAI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2783
+source-wordcount: '2783'
 ht-degree: 93%
-
 ---
-
 # ジャーナルエントリレポートを使用した更新エリアのレポート
 
 <!-- Audited: 11/2024 -->
@@ -176,7 +181,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅のにある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -250,7 +255,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 1. 「**フィルター**」タブで、**フィルタールールを追加**&#x200B;をクリックし、フィルタールール **フィールド名** > **等しい** > **ステータス**&#x200B;を追加します。
 
-   ![&#x200B; ジャーナルエントリのステータス フィルター](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![ ジャーナルエントリのステータス フィルター](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -290,7 +295,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -376,7 +381,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -447,7 +452,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト >**。
 
-   ![&#x200B; カスタムフォーム変更フィルター](assets/qs-custom-form-changes-filter-350x92.png)
+   ![ カスタムフォーム変更フィルター](assets/qs-custom-form-changes-filter-350x92.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -478,7 +483,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -579,7 +584,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 

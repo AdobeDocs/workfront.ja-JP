@@ -5,24 +5,35 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-TQID: https://experienceleague.adobe.com/e7Lmt14iKZNJpq3MirbKST-KjdZJODNbG9pbmvZveeU
+TQID: 'https://experienceleague.adobe.com/e7Lmt14iKZNJpq3MirbKST-KjdZJODNbG9pbmvZveeU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 94%
-
 ---
-
 # 拡張コネクターを使用したアセットおよびフォルダーのリンク
 
 ドキュメントをサポートする任意の Workfront オブジェクトに Experience Manager Assets からアセットまたはフォルダーをリンクできます。 Experience Manager Assets から送信されたアセットは、Workfront のドキュメントストレージ全体にはカウントされません。 Workfront から Experience Manager Assets にアップロードおよび送信されたドキュメントは、全体的なストレージにカウントされます。
@@ -95,7 +106,7 @@ Experience Manager Assets から Workfront にアセットをリンクできま�
 
 1. 目的のアセットを選択します。
 
-   ![&#x200B; アセットを選択](assets/select-an-asset.png)
+   ![ アセットを選択](assets/select-an-asset.png)
 
 1. 「**リンク**」をクリックします。
 
@@ -114,7 +125,7 @@ Experience Manager Assets から Workfront にアセットをリンクできま�
 
 1. 目的のフォルダーを選択します。
 
-   ![&#x200B; フォルダーを選択](assets/select-a-folder.png)
+   ![ フォルダーを選択](assets/select-a-folder.png)
 
 1. 「**リンク**」をクリックします。
 
@@ -138,6 +149,6 @@ Experience Manager Assets から新しいバージョンをリンクするには
 
 1. 目的のアセットを選択します。
 
-   ![&#x200B; アセットを選択](assets/select-an-asset.png)
+   ![ アセットを選択](assets/select-an-asset.png)
 
 1. 「**リンク**」をクリックします。

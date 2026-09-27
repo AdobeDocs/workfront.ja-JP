@@ -6,18 +6,21 @@ feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
+TQID: 'https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: '412'
 ht-degree: 70%
-
 ---
-
 # パンくずリストの概要
 
 パンくずリストには、すべてのオブジェクトタイプのナビゲーション階層がすべて表示されます。 パンくずリストパス内の各オブジェクトには、オブジェクトタイプを表示するラベルがあります。 現在表示しているページは、ページヘッダーとパンくずリストパスの最後の両方に斜体で表示されます。 以下の例では、これは「[!UICONTROL ブランドチームと共有]」タスクです。
@@ -71,7 +74,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## パンくずリストからの親オブジェクトへのアクセス
 
-[!DNL Workfront] での親オブジェクトの詳細については、[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
+[!DNL Workfront] での親オブジェクトの詳細については、[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
 
 1. （条件付き）折りたたまれたパンくずリストのパスで移動したいオブジェクトが表示されない場合は、**[!UICONTROL 詳細]**&#x200B;をクリックし、オブジェクトを探します。
 
@@ -96,7 +99,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 1. パンくずパス内の任意のオブジェクトにカーソルを合わせます。
 1. オブジェクト名の横に表示される「**[!UICONTROL リンクをコピー]**」アイコンをクリックします。
 
-   ![&#x200B; パンくずリストのリンクアイコンをコピー](assets/copy-breadcrumbs.png)
+   ![ パンくずリストのリンクアイコンをコピー](assets/copy-breadcrumbs.png)
 
    オブジェクトの名前とリンクがコピーされます。 コピーした情報を貼り付けると、オブジェクト名をリンクテキストとしてクリック可能なリンクとして表示されます。
 

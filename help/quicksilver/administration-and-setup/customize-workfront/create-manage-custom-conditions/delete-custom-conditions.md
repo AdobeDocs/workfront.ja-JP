@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-TQID: https://experienceleague.adobe.com/jHR0a3-MzkRRrlZ-h-X9f0n5HQbO9nDhWSxqy8KnWa8
+TQID: 'https://experienceleague.adobe.com/jHR0a3-MzkRRrlZ-h-X9f0n5HQbO9nDhWSxqy8KnWa8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 58%
-
 ---
-
 # カスタム条件の削除
 
 {{preview-fast-release-general}}
@@ -65,7 +69,7 @@ ht-degree: 58%
 1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
 
 1. オブジェクトタイプのタブ（「**プロジェクト**」タブ、「**タスク**」タブ、または「**イシュー**」タブ）を選択します。ここで、削除する条件を見つけることができます。
-1. 実稼動環境で、削除する条件名の横にある&#x200B;**削除**&#x200B;をクリックします。
+1. 実稼動環境で、削除する条件名の横にある&#x200B;**削除**をクリックします。
    <span class="preview"> プレビュー環境で、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーの&#x200B;**削除**&#x200B;をクリックします。</span>
 
 1. 表示される「**条件を削除**」ボックスで、削除する条件を使用していたすべてのプロジェクト、タスク、またはイシューのドロップダウンリストで新しい条件を選択します。
@@ -78,4 +82,4 @@ ht-degree: 58%
 >
 >「目標どおり」、「危険あり」、「トラブル発生中」のビルトインの条件は削除できません。 ただし、名前と色は変更できます。
 >
->カスタム条件の編集について詳しくは、[&#x200B; カスタム条件の作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
+>カスタム条件の編集について詳しくは、[ カスタム条件の作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。

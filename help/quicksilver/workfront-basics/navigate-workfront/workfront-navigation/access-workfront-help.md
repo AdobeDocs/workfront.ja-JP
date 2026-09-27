@@ -4,18 +4,21 @@ title: Adobe Workfront ヘルプへのアクセス
 description: Workfront では、提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
+TQID: 'https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: '183'
 ht-degree: 81%
-
 ---
-
 # [!DNL Adobe Workfront] ヘルプへのアクセス
 
 [!DNL Workfront] では、[!DNL Workfront] で提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
@@ -29,7 +32,7 @@ ht-degree: 81%
 * Workfront チュートリアル：詳しくは、[[!DNL Workfront] チュートリアル](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 * [!UICONTROL イノベーションラボ]：詳しくは、[[!UICONTROL イノベーションラボ]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=ja)を参照してください。
-* [!UICONTROL [!DNL Workfront] コミュニティ &#x200B;]：詳しくは、[The [!UICONTROL [!DNL Adobe Workfront]  コミュニティ &#x200B;]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください。
+* [!UICONTROL [!DNL Workfront] コミュニティ ]：詳しくは、[The [!UICONTROL [!DNL Adobe Workfront]  コミュニティ ]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください。
 
 ## [!DNL Workfront] 内部からのヘルプへのアクセス
 
@@ -39,5 +42,5 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->また、ヘッダーの右上にあるヘルプセンターアイコンからヘルプにアクセスすることもできます。 詳しくは、[CX Enterprise interface and administration](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)を参照してください。
+>また、ヘッダーの右上にあるヘルプセンターアイコンからヘルプにアクセスすることもできます。 詳しくは、[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)を参照してください。
 

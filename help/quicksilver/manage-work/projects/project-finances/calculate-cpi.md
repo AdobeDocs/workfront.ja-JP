@@ -7,13 +7,20 @@ description: コスト効率指数（CPI）は、予定コストと実際のコ�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 82%
-
 ---
-
 # コスト効率指数（CPI）の計算
 
 <!-- Audited: 5/2025 -->
@@ -194,4 +201,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 1. 「**財務**」をクリックします。 CPI は「**CPI／SPI／CSI**」フィールドを表示します。
 
-   プロジェクト ![&#128279;](assets/cpi-on-project-nwe.png)のCPI
+   プロジェクト ](assets/cpi-on-project-nwe.png)の![CPI

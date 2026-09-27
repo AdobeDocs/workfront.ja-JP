@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: ' [!DNL Workfront Proof] で連絡先の管理'
+title: '[!DNL Workfront Proof] で連絡先の管理'
 description: 連絡先ページで、同僚、メンバーおよびゲストを管理できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
-TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
+TQID: 'https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 90%
-
+source-wordcount: '494'
+ht-degree: 92%
 ---
-
 # [!DNL Workfront Proof] で連絡先の管理
 
 >[!IMPORTANT]
@@ -39,9 +48,9 @@ ht-degree: 90%
 ## 連絡先の並べ替え
 
 1. 左側のナビゲーションサイドバーの「**[!UICONTROL 連絡先]**」をクリックします。
-1. 並べ替える列見出しをクリックします。
+1. 並べ替える基準となる「列見出し」をクリックします。
 または
-連絡先ページの右上隅にある&#x200B;**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
+連絡先ページの右上隅にある**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 
@@ -76,11 +85,11 @@ ht-degree: 90%
    * 「**[!UICONTROL 連絡先を削除]**」をクリックして、選択した連絡先をリストから削除します。
 
      ![Trash_button.png](assets/trash-button.png)
-連絡先を削除しても、ユーザーがアカウントから削除されるわけではありません。ただし、管理者または請求管理者が連絡先リストからユーザーを削除すると、そのユーザーは組織のアカウントから完全に削除されます。
+     連絡先を削除しても、ユーザーがアカウントから削除されるわけではありません。ただし、管理者または請求管理者が連絡先リストからユーザーを削除すると、そのユーザーは組織のアカウントから完全に削除されます。
 
    * 連絡先の行の最後にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコンをクリックして、表示されるドロップダウンメニューのオプションを使用します。
 
-     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
+     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
 
 ## 連絡先の読み込み
 

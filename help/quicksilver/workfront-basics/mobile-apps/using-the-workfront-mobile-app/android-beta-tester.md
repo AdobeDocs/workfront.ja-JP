@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Android ベータ版テスターになる
-description: この記事をレビューして、 [!DNL Adobe Workfront]  モバイルアプリの Android ベータテスターになります。
+description: この記事を確認して、[!DNL Adobe Workfront] モバイルアプリのAndroid ベータテスターになってください。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+TQID: 'https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '325'
 ht-degree: 94%
-
 ---
-
 # [!DNL Android] ベータテスターになる
 
 ## ベータ版アプリをダウンロードする
@@ -29,7 +32,7 @@ ht-degree: 94%
 [!DNL Google Play Store] を使用してアプリを見つけてダウンロードできます。
 
 1. デバイスで [!DNL Play Store] アプリにアクセスします。
-1. [!DNL Workfront]を検索し、リストに表示されたらタップします。
+1. [!DNL Workfront] を検索し、リストに表示されたらタップします。
 ベータ版に参加する前に、[!DNL Workfront] アプリをインストールする必要があります。
 1. [!DNL Workfront] アプリをまだインストールしていない場合は、インストールして開きます。
 1. ページの中央に向かってスクロールし、「**[!UICONTROL ベータテスターになる]**」セクションで「**[!UICONTROL 参加する]**」をタップします。
@@ -45,7 +48,7 @@ ht-degree: 94%
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![Android QR コード &#x200B;](assets/android-qr-code-350x409.png)
+![Android QR コード ](assets/android-qr-code-350x409.png)
 
 ## 現在の状況をお知らせください
 

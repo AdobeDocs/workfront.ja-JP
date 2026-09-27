@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A
+TQID: 'https://experienceleague.adobe.com/WmG-52JaTKD-0-bH2qKniwUBrpGyOKz5jJ3s9nwd12A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 21%
-
 ---
-
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Adobe Workfront Planning オブジェクトの制限事項の概要
@@ -38,9 +46,9 @@ ht-degree: 21%
 
 Adobe Workfront Planningでは、インスタンスで作成できるオブジェクトの数に制限があります。 オブジェクトの制限は、Workfront Planningで製品のパフォーマンスを向上させ、エクスペリエンスを強化するために設定されています。
 
-Workfront Planning で作成できるオブジェクトの数の制限を次の表に示します。 制限は変更される場合があります。
+Workfront プランニングで作成できるオブジェクトの数の制限を次の表に示します。 制限は変更される場合があります。
 
-| Adobe Workfront Planning オブジェクト | 制限 |
+| Adobe Workfront プランニングオブジェクト | 制限 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 1つのWorkfront インスタンスのワークスペースの数 | 無制限* |
 | 1 つのワークスペースのセクションの数 | 50 |

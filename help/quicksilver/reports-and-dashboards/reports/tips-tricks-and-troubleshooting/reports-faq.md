@@ -9,26 +9,33 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/T0beriGNdLjLUEIHLFnbMVS6tW18CuTnwcEEWBPiz7Q
+TQID: 'https://experienceleague.adobe.com/T0beriGNdLjLUEIHLFnbMVS6tW18CuTnwcEEWBPiz7Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 81%
-
 ---
-
 # レポートに関する FAQ
 
 <!--Audited: 05/2025-->
@@ -134,7 +141,7 @@ Workfrontで時間を使用しているほとんどのフィールドは、数�
 ### 回答
 
 レポートまたはカレンダーには、ログインしたユーザーを指すワイルドカードフィルター変数が含まれている場合があります。 この場合、レポートには、ログインしたユーザーに基づく情報が表示されます。 フィルターを調整して、ログインしたユーザーを指すワイルドカードを削除します。\
-![&#x200B; ユーザーID フィルター変数](assets/qs--user.id-filter-variable-350x79.png)
+![ ユーザーID フィルター変数](assets/qs--user.id-filter-variable-350x79.png)
 
 ユーザーベースのワイルドカードフィルター変数の完全なリストについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
@@ -166,7 +173,7 @@ Workfrontで時間を使用しているほとんどのフィールドは、数�
 1. **が次に等しい**&#x200B;修飾子を選択します。
 1. テキストボックスに *$$USER.ID* と入力していき、表示されるドロップダウンリストから選択します。\
    これにより、ログインしたユーザーに割り当てられているすべてのタスクとイシューを確認できます。 ワイルドカードを特定のユーザー名に置き換えることができます。\
-   ![自分に割り当てられたタスク &#x200B;](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![自分に割り当てられたタスク ](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -187,7 +194,7 @@ Workfrontで時間を使用しているほとんどのフィールドは、数�
 * プロジェクトのデフォルト通貨以外の通貨が選択されている&#x200B;**ビュー**&#x200B;がこれらのリストに適用されている場合、リンクは表示されません。 **ビュー**&#x200B;を&#x200B;**プロジェクトの元の通貨**&#x200B;に変更すると、リンクが表示されて、プロジェクトにイシューやタスクを追加できるようになります。\
   ビューでの通貨の変更について詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
-![&#x200B; プロジェクト通貨](assets/nwe-project-original-currency-350x229.png)
+![ プロジェクト通貨](assets/nwe-project-original-currency-350x229.png)
 
 ## レポートやダッシュボードの情報は自動的に更新されますか？
 

@@ -6,13 +6,23 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 3%
-
+source-wordcount: '3226'
+ht-degree: 6%
 ---
-
 # Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ
 
 <!--
@@ -29,7 +39,7 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 この記事では、2026年第3四半期のリリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 
 ## アクセス レベルの新しいライセンス タイプ フィールド
@@ -44,14 +54,14 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 * 「アクセスレベル」ボックスの「ライセンスタイプ」フィールドの名前を「ワークフローライセンスタイプ」に変更しました。 このラベル付けに関する機能の変更はありません。
 
-  詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+  詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * Workfront Planning パッケージを購入したお客様に対しては、ユーザーのライセンスをWorkfront Planningに示す新しい「Planning License Type」フィールドが追加されました。
 同じ数のWorkflowおよびPlanning ライセンスを購入したお客様は、次のライセンスタイプを利用できます。
 
-   * 計画標準
-   * 計画貢献者
-   * なし
+  * 計画標準
+  * 計画貢献者
+  * なし
 
 >[!NOTE]
 >
@@ -85,7 +95,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 * 新しいジョブは、使用権限に基づいてアクセスを許可、取り消し、または保持します
 * プロビジョニング、アカウント作成、継続的な使用権限の変更など、ライフサイクル全体をカバーしています。
 
-[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)の記事は、リリース日以降に更新されます。
+[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)の記事は、リリース日以降に更新されます。
 
 
 ## レコードのデフォルト権限の設定
@@ -104,7 +114,7 @@ Workspaceの管理者は、各レコードタイプに対してデフォルト�
 
 レコードを作成した後でも、その権限は、今後のレコードのデフォルトのルールに影響を与えることなく、独立して更新できます。
 
-詳しくは、[&#x200B; レコードに対する既定の権限の設定](/help/quicksilver/planning/access/set-default-record-permissions.md)を参照してください。
+詳しくは、[ レコードに対する既定の権限の設定](/help/quicksilver/planning/access/set-default-record-permissions.md)を参照してください。
 
 ## タイムラインビューのスイムレーンのグループ化レイアウト
 
@@ -151,7 +161,7 @@ Canvas ダッシュボードで、通貨計画フィールド、テーブル、K
 
 この機能強化の前は、通貨フィールドはCanvas ダッシュボードでサポートされていませんでした。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
 
 ## 行のカラーコントロールのインターフェイスの改善
 
@@ -241,7 +251,7 @@ Workfront Planningの次の領域のテーブルビューのルックアンド�
 
 サンプル ワークスペースを例として表示し、マルチワークスペース テンプレート バンドルを使用して、そのテンプレートを使用した結果のワークスペースを作成、編集、共有することをお勧めします。  テンプレートバンドルには、「サンプルワークスペース」タブと同じワークスペースが含まれています。
 
-詳しくは、[&#x200B; ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)を参照してください。
+詳しくは、[ ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)を参照してください。
 
 >[!NOTE]
 >
@@ -304,7 +314,7 @@ You can give users the following permissions levels:
 >* ユーザーのレコードレベルの権限は、レコードタイプの権限を超えることはできません。 例えば、レコードタイプへの表示アクセス権を持つユーザーには、そのタイプの個々のレコードへの管理アクセス権を付与することはできません。
 >* 現時点では、レコードからユーザーの権限を削除することはできません。 少なくともレコードタイプへの表示アクセス権を持つユーザーは、そのタイプのすべてのレコードを表示できます。
 
-詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 ## グローバルなレコードタイプの追加を合理化
 
@@ -441,7 +451,7 @@ Planning レコードタイプをWorkfront オブジェクトタイプに接続�
 
 編集または削除したレコードフィールドが、これらのフィールドを含むリクエストフォームに影響を与える可能性があることを示すリマインダーを追加しました。 これにより、影響を受けるフォームを確認し、フィールドに加える変更が既存の情報に影響を与えないようにすることができます。
 
-詳しくは、[&#x200B; フィールド設定の編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
+詳しくは、[ フィールド設定の編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
 
 ## 送信された計画要求の編集
 
@@ -461,7 +471,7 @@ Planning レコードタイプをWorkfront オブジェクトタイプに接続�
 
 この機能強化の前は、送信されたリクエストを編集できませんでした。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## AEM コンテンツフラグメントの新しいプレビューウィンドウ
 
@@ -511,7 +521,7 @@ Planning レコードタイプをAEM コンテンツフラグメントに接続�
 
 この更新により、**すべてのフィールドを表示**&#x200B;の設定が削除され、カスタム詳細ビューに置き換えられます。
 
-詳しくは、[&#x200B; レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## プロジェクト接続レコードページへのグループ化の追加
 
@@ -523,5 +533,5 @@ Planning レコードタイプをAEM コンテンツフラグメントに接続�
 
 Workfront Planningのレコードの「プロジェクト接続レコード」ページで情報をグループ化できるようになりました。 この機能は、この機能強化の前はこの領域には存在しませんでした。
 
-詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 

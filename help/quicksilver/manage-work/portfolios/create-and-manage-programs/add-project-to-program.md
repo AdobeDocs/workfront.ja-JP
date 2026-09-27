@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EyxmgHO7j8VmDleBabPYGXsZmjNr-3h8r9-ujvK4DcE
+TQID: 'https://experienceleague.adobe.com/EyxmgHO7j8VmDleBabPYGXsZmjNr-3h8r9-ujvK4DcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 47%
-
 ---
-
 # プログラムへのプロジェクトの追加
 
 <!--Audited: 05/2026-->
@@ -76,7 +83,7 @@ ht-degree: 47%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -120,7 +127,7 @@ old:
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -134,7 +141,7 @@ old:
       <td> <p>新規プロジェクトをゼロから追加します。 </p> <p>最初からプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New Project （レガシーストレージ） &#x200B;]</td> 
+      <td role="rowheader">[!UICONTROL New Project （レガシーストレージ） ]</td> 
       <td> <p>新しいWorkfront ストレージプロジェクトを追加します。 </p>
       <p>このオプションは、組織がWorkfrontとAdobeの両方のクラウドドキュメントストレージを使用している場合にのみ表示されます。 Workfront インスタンスには、両方のタイプのストレージがない可能性があります。</p>
       <p>プロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
@@ -159,7 +166,7 @@ old:
     </tbody> 
    </table>
 
-1. （条件付き）既存のプロジェクト **を選択した場合、「** プロジェクトを追加&#x200B;**」ボックスが開きます。<!--check at unshimming-->&rbrack;**
+1. （条件付き）既存のプロジェクト **[!UICONTROL を選択した場合、「** プロジェクトを追加&#x200B;**」ボックスが開きます。<!--check at unshimming-->]**
 
    ![既存のプロジェクトをプログラムボックスに追加](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
@@ -178,14 +185,14 @@ old:
       >* 従来のストレージプログラムでは、Adobe クラウドストレージテンプレートからプロジェクトを作成することはできません。
       >* Adobe クラウドストレージプログラムの従来のストレージテンプレートからプロジェクトを作成できますが、テンプレート上のドキュメントとフォルダーは新しいプロジェクトに追加されません。 プロジェクトは、Adobe クラウドストレージを受け取ります。
       >
-      >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+      >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
       >
       >すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
 
 
 
 
-   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
+   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 

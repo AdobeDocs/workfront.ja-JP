@@ -7,23 +7,31 @@ description: デスクトップ版と web 版のプルーフビューアーの�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-TQID: https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M
+TQID: 'https://experienceleague.adobe.com/5wUR3OHvmgjQmRtvt85iax2gbY0rC0yWsLzuLULia3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 872
+source-wordcount: '872'
 ht-degree: 94%
-
 ---
-
 # Web プルーフビューアとデスクトッププルーフビューアの違いの概要
 
 Adobe Workfront には 2 種類のプルーフビューアが用意されています。
@@ -54,7 +62,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
 | 静的プルーフナビゲーター | ✓ | ✓&#42; |
 | ドキュメント検索 | ✓ | ✓&#42; |
 | 複数ページへのコメントの投稿 | ✓ （すべてのビューで利用可能） | ✓&#42; （すべてのビューで利用可能） |
-| 静的プルーフの高度なショートカット | ✓ （詳細については、プルーフビューアの[&#x200B; キーボードショートカット &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42; （詳細については、[&#x200B; プルーフビューアのキーボードショートカット &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） |
+| 静的プルーフの高度なショートカット | ✓ （詳細については、プルーフビューアの[ キーボードショートカット ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42; （詳細については、[ プルーフビューアのキーボードショートカット ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） |
 
 {style="table-layout:auto"}
 
@@ -73,7 +81,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
 | フルスクリーンモード | ✓ | ✓&#42;  |
 | 範囲コメント | ✓ | ✓&#42;  |
 | ビデオプルーフのリピート再生（ビデオが終了すると自動的に開始） | ✓ | ✓&#42;  |
-| 高度なビデオショートカット | ✓ （詳細については、プルーフビューアの[&#x200B; キーボードショートカット &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42;  |
+| 高度なビデオショートカット | ✓ （詳細については、プルーフビューアの[ キーボードショートカット ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)を参照してください） | ✓&#42;  |
 
 {style="table-layout:auto"}
 

@@ -6,22 +6,29 @@ description: コメントまたはコメントに対する返信は、それに�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a558cd5c-0341-48bf-b00a-d6db232bda14
-TQID: https://experienceleague.adobe.com/btimAEAVC9Ubdbo35NIr0cSsU5QXK-RyqUSfwICIKwk
+TQID: 'https://experienceleague.adobe.com/btimAEAVC9Ubdbo35NIr0cSsU5QXK-RyqUSfwICIKwk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '223'
 ht-degree: 93%
-
 ---
-
 # プルーフのコメントを削除
 
 コメントまたはコメントに対する返信は、それに対して誰も返信していない場合は削除できます。 通常、コメントは削除するよりも解決することをお勧めします。 詳しくは、[プルーフのコメントを解決](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)を参照してください。

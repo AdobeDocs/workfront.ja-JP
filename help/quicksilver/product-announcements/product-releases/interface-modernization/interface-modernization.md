@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+TQID: 'https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 9918
+source-wordcount: '9993'
 ht-degree: 2%
-
 ---
-
 # インターフェイスの最新化
 
 このページでは、ユーザーエクスペリエンスを向上させ、他のAdobe アプリケーションと統合するために、Adobe Workfront全体で行っているインターフェイスの更新を示します。 これらの変更は主に視覚的なものであり、特に明記されていない限り、ワークフローを大幅に変更することはありません。
@@ -37,7 +46,7 @@ ht-degree: 2%
 >
 >ほとんどの場合、各アップデートは最初にプレビュー環境にリリースされ、次に、リストされた実稼動リリース日から開始される顧客の成長するサブセットに対して、実稼動環境で段階的に有効になります。
 
-その他のすべてのAdobe Workfrontの変更点については、[製品リリース &#x200B;](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
+その他のすべてのAdobe Workfrontの変更点については、[製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
 
 ## 管理者と設定
 
@@ -89,12 +98,12 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 * テンプレートタスクにリソースを割り当てるための新しいエクスペリエンスが追加されました。 新しいエクスペリエンスは、1つのタスクを編集する場合と、複数のタスクを一括編集する場合の両方で利用できるようになりました。 次のフィールドが「タスクを編集」ボックスから削除されました。
 
 * 割り当て
-   * 所有者またはタスク所有者
-   * 割り当て先の役割
+  * 所有者またはタスク所有者
+  * 割り当て先の役割
 
 テンプレートタスクの高度な割り当てを行う際に、削除されたフィールドを見つけることができます。
 
-詳しくは、[&#x200B; テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください。
+詳しくは、[ テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください。
 
 
 ### 一括編集や、タスクの一括割り当てをおこなう際の新しいエクスペリエンス
@@ -115,9 +124,9 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 * タスクにリソースを割り当てるための新しいエクスペリエンスがあります。 これは、1つのタスクを編集する場合と、複数のタスクを一括編集する場合の両方で使用できるようになりました。 次のフィールドが「タスクを編集」ボックスから削除されました。
 
-   * 割り当て
-   * 所有者またはタスク所有者
-   * 割り当て先の役割
+  * 割り当て
+  * 所有者またはタスク所有者
+  * 割り当て先の役割
 
 タスクの高度な割り当てを行う際に、削除されたフィールドを見つけることができます。
 
@@ -129,7 +138,7 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 テンプレートを使用してタスクをプロジェクトに変換する際に、「プロジェクトに変換」ボックスを更新しました。 ボックスのデザインが「プロジェクトを編集」ボックスと一致するようになりました。
 
-詳しくは、[&#x200B; タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
+詳しくは、[ タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
 
 ### 一括編集および単一または一括割り当て問題の場合の新しいエクスペリエンス
 
@@ -145,9 +154,9 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 * 問題にリソースを割り当てるための新しいエクスペリエンスがあります。 これは、1つの問題を編集する場合と、複数の問題を一括編集する場合の両方で使用できるようになりました。 「問題を編集」ボックスから次のフィールドが削除されました。
 
-   * 割り当て
-   * 所有者またはイシュー所有者
-   * 割り当て先の役割
+  * 割り当て
+  * 所有者またはイシュー所有者
+  * 割り当て先の役割
 
 問題に対して高度な割り当てを行う際に、削除されたフィールドを更新できます。
 
@@ -159,7 +168,7 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 既存のリスクを作成または更新する際に、「新しいリスク」ボックスと「リスクを編集」ボックスの外観を更新しました。 新しいデザインは現在、Workfrontの他の地域と一致しています。  新しいデザインにアクセスするには、リスクレポートを作成してダッシュボードに配置し、ダッシュボードをプロジェクトに追加し、ダッシュボードからリスクを管理します。
 
-詳しくは、[&#x200B; プロジェクトのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
+詳しくは、[ プロジェクトのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
 
 ## ユーザー
 
@@ -198,7 +207,7 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 「新規」および「マイルストーンパスを編集」ボックスに新しいインターフェイスが追加されました。 マイルストーンパスリストには新しいルックアンドフィールがあり、この領域の一部の機能が変更された可能性があります。
 
-詳しくは、[&#x200B; マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+詳しくは、[ マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 
 ### グループ タイムシート プロファイルの追加または編集時のインターフェイスの更新
 
@@ -232,7 +241,7 @@ Workfrontの他の領域と一致する、より現代的なデザインで重�
 
 これらの変更を表示するには、設定/プロジェクト環境設定/重要度に移動します。
 
-詳しくは、[問題の重要度の作成またはカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)を参照してください。
+詳しくは、[問題の重要度の作成またはカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)を参照してください。
 
 ### セットアップの「優先度」領域のインターフェイスの更新
 
@@ -244,7 +253,7 @@ Workfrontの他の領域と一致する、より現代的なデザインで優�
 
 これらの変更を表示するには、設定/プロジェクト環境設定/優先度に移動します。
 
-詳しくは、[優先順位の作成とカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)を参照してください。
+詳しくは、[優先順位の作成とカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)を参照してください。
 
 ### 設定領域でタイムシートプロファイルを追加または編集する際のインターフェイスの更新
 
@@ -261,7 +270,7 @@ Workfrontの他の領域と一致する、より現代的なデザインで優�
 **プレビューリリース：2025年9月4日、実稼動リリース：2025年9月11日**
 
 アプリケーションの他の領域のデザインに合わせて、「新規」および「スコアカードをコピー」ボックスのルックアンドフィールを更新しました。 Workfrontの「設定」領域でスコアカードを作成またはコピーする際に、更新されたデザインを表示できます。\
-詳しくは、[&#x200B; スコアカードの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
+詳しくは、[ スコアカードの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
 ### グループ内のレイアウトテンプレートリストのインターフェイスの更新
 
@@ -271,7 +280,7 @@ Workfrontの他の領域と一致する、より現代的なデザインで優�
 
 これらの変更を表示するには、設定/グループ/グループを選択/レイアウトテンプレートに移動します。
 
-詳しくは、[&#x200B; グループのレイアウトテンプレートの作成と変更](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+詳しくは、[ グループのレイアウトテンプレートの作成と変更](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
 
 ### スコアカードを編集する際のインターフェイスの更新
@@ -310,7 +319,7 @@ Workfrontの他の領域と一致する、より現代的なデザインの請�
 
 1人または複数のユーザーにアップデートを送信する際に、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
 
-詳しくは、[&#x200B; グループのメンバーシップの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)および[&#x200B; サブグループメンバーの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)を参照してください。
+詳しくは、[ グループのメンバーシップの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)および[ サブグループメンバーの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)を参照してください。
 
 ### 最近削除された項目のインターフェイスの更新
 
@@ -333,7 +342,7 @@ Workfrontの他の領域と一致する、より現代的なデザインで条�
 
 これらの変更を表示するには、設定/プロジェクト環境設定/条件に移動します。
 
-詳しくは、[&#x200B; カスタム条件の作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
+詳しくは、[ カスタム条件の作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
 
 ### グループ内のタイムシート プロファイル リストのインターフェイスの更新
 
@@ -386,7 +395,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのSSO�
 >ポートフォリオを一括編集する際に、「エクスプレッションを再計算」設定が削除されました。 リスト内で複数のポートフォリオを選択し、ツールバーのその他メニューの「エクスプレッションを再計算」オプションをクリックすると、カスタム式を一括再計算できます。
 
 
-詳しくは、[&#x200B; ポートフォリオの編集](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)を参照してください。
+詳しくは、[ ポートフォリオの編集](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)を参照してください。
 
 +++
 
@@ -400,7 +409,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのSSO�
 
 「プログラムを編集」ボックスのルックアンドフィールが、Workfrontの他の領域のデザインに合わせて更新されました。
 
-詳しくは、[&#x200B; プログラムの編集](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md)を参照してください。
+詳しくは、[ プログラムの編集](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md)を参照してください。
 
 +++
 
@@ -416,7 +425,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのSSO�
 
 この変更を表示するには、プロジェクト/請求レートに移動します。
 
-詳しくは、「[&#x200B; プロジェクトレベルでの担当業務の請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)」を参照してください。
+詳しくは、「[ プロジェクトレベルでの担当業務の請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)」を参照してください。
 
 ### マイルストーンビューを適用する際のプロジェクトリストまたはレポートのインターフェイスの更新
 
@@ -424,7 +433,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのSSO�
 
 マイルストーンビューを適用すると、プロジェクトリストまたはレポートのルックアンドフィールが更新されます。
 
-プロジェクトリストまたはレポートが、Workfrontの他の領域のデザインと一致するようになりました。 詳しくは、[&#x200B; マイルストーンビューの使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)を参照してください。
+プロジェクトリストまたはレポートが、Workfrontの他の領域のデザインと一致するようになりました。 詳しくは、[ マイルストーンビューの使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)を参照してください。
 
 <!--
 ### Interface updates for the Edit Tasks box
@@ -456,7 +465,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 テンプレートを使用せずにタスクをプロジェクトに変換する際に、「プロジェクトに変換」ボックスのインターフェイスの更新を導入しました。 このボックスは、Workfrontの他の領域のデザインと一致するようになりました。
 
-詳しくは、[&#x200B; タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
+詳しくは、[ タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
 
 ### プログラムやポートフォリオにオブジェクトを追加する際のインターフェイスの更新
 
@@ -489,7 +498,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 プロジェクトまたはテンプレートに新しいキュートピックを追加すると、Workfrontの他の領域のデザインに合わせて、「新しいキュートピック」ボックスのルックアンドフィールが更新されました。
 
-詳しくは、[&#x200B; キューのトピックの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
+詳しくは、[ キューのトピックの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
 ### プロジェクトまたはテンプレートでキュートピックを編集する際のインターフェイスの更新
 
@@ -503,7 +512,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 今回のアップデートでは、小さな機能変更が導入されました。 これで、キュートピックをクリックすると、キュートピックの詳細ページではなく、キュートピックの編集ページに直接移動します。
 
-詳しくは、[&#x200B; キューのトピックの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
+詳しくは、[ キューのトピックの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
 ### プロジェクトの「費用を編集」ボックスのインターフェイスの更新
 
@@ -538,7 +547,7 @@ Workfrontの他の領域のデザインに合わせて、「時間」セクシ�
 
 この変更を表示するには、プロジェクト/プロジェクトを選択/ビジネスケースに移動します。
 
-詳しくは、[&#x200B; プロジェクトのビジネスケースの作成](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+詳しくは、[ プロジェクトのビジネスケースの作成](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
 ### テンプレートの「キューの詳細」セクションの新しいルックアンドフィール
 
@@ -581,8 +590,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 **プレビューリリース：2025年7月31日、実稼動リリース：2025年7月31日**
 
-テンプレートでトピックグループを編集する際のルックアンドフィールを更新しました。トピックグループの編集ページが、Workfrontの他の領域のデザインと一致するようになりました。
-トピックグループに小さな機能変更が適用されました。トピックグループを編集するには、リストからトピックグループを選択し、編集アイコンをクリックします。編集する前に、トピックグループの詳細ページに移動する必要はありません。
+テンプレートでトピックグループを編集する際のルックアンドフィールを更新しました。 トピックグループの編集ページが、Workfrontの他の領域のデザインと一致するようになりました。
+トピックグループに小さな機能変更が適用されました。 トピックグループを編集するには、リストからトピックグループを選択し、編集アイコンをクリックします。 編集する前に、トピックグループの詳細ページに移動する必要はありません。
 
 詳しくは、[トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
@@ -624,7 +633,7 @@ MS プロジェクトからプロジェクトを読み込む際のMS プロジ�
 
 Workfrontの他の領域のデザインに合わせて、テンプレートの人物リストのルックアンドフィールを更新しました。
 
-テンプレートでの人の操作は、プロジェクトでの人の操作と似ています。 詳しくは、[&#x200B; プロジェクトチームの管理](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)を参照してください。
+テンプレートでの人の操作は、プロジェクトでの人の操作と似ています。 詳しくは、[ プロジェクトチームの管理](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)を参照してください。
 
 ### テンプレートの先行タスク リストのインターフェイスの更新
 
@@ -658,9 +667,9 @@ Workfrontの他の領域のデザインに合わせて、テンプレート上�
 
 詳細については、を参照してください
 
-* [&#x200B; キューのトピックを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
-* [&#x200B; トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
-* [&#x200B; ルーティングルールを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
+* [ キューのトピックを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。
+* [ トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
+* [ ルーティングルールを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 
 +++
 
@@ -700,7 +709,7 @@ Workfrontの他の領域のデザインに合わせて、テンプレート上�
 
 この変更を表示するには、ユーザー/新規ユーザー/新規ユーザーに移動します。
 
-詳しくは、[2025年第4四半期管理者向け機能強化ページ &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)の「[&#x200B; ユーザーを追加](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)および[Workfront ユーザープロファイルの更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)」を参照してください。
+詳しくは、[2025年第4四半期管理者向け機能強化ページ ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)の「[ ユーザーを追加](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)および[Workfront ユーザープロファイルの更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)」を参照してください。
 
 
 ### ユーザーインポートダイアログのインターフェイスの更新
@@ -711,7 +720,7 @@ Workfrontの他の領域のデザインに合わせて、テンプレート上�
 
 この変更を表示するには、ユーザー/新規ユーザー/ユーザーの読み込みに移動します。
 
-詳しくは、[&#x200B; ユーザーの読み込み](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md)を参照してください。
+詳しくは、[ ユーザーの読み込み](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md)を参照してください。
 
 +++
 
@@ -749,7 +758,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのレ�
 
 これらの変更を表示するには、設定/グループ/グループを選択/サブグループに移動します。 （グループのメインリストからサブグループを追加、編集、コピーするためのダイアログは既に更新されています）。
 
-詳しくは、[&#x200B; サブグループの作成](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)および[&#x200B; サブグループの管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)を参照してください。
+詳しくは、[ サブグループの作成](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)および[ サブグループの管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)を参照してください。
 
 ### 設定の「フィードを更新」セクションのルックアンドフィールの更新
 
@@ -757,7 +766,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのレ�
 
 設定の「フィードを更新」セクションのすべてのタブとサブタブのルックアンドフィールが更新されました。 「フィードを更新」セクションは、「設定」の「インターフェイス」領域に表示されます。 これで、「フィードを更新」セクションのすべてのタブが、Workfrontの他の領域と一致するようになりました。
 
-詳しくは、[&#x200B; システム更新の設定](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください
+詳しくは、[ システム更新の設定](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください
 
 ### 設定の「フィードを更新」セクションの「フィールドを追加」ボックスのルックアンドフィールの更新
 
@@ -765,7 +774,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのレ�
 
 設定の「フィードを更新」セクションの「フィールドを追加」ボックスのルックアンドフィールを更新しました。 「フィードを更新」セクションは、「設定」の「インターフェイス」領域に表示されます。 これで、「トラッキングされたフィールド」タブの任意のサブタブにフィールドを追加すると、「フィールドを追加」ボックスに新しい外観が追加され、一部のインターフェイス要素が更新されました。
 
-詳しくは、[&#x200B; システム更新の設定](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
+詳しくは、[ システム更新の設定](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
 ### 設定領域の「タイムシートと時間」セクションのリストの新しいルックアンドフィール
 
@@ -779,7 +788,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのレ�
 
 これらのリストは、Workfrontの他の領域と一致するようになりました。
 
-詳しくは、[&#x200B; タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+詳しくは、[ タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 ### 会社ページのインターフェイスの更新
 
@@ -818,7 +827,7 @@ Workfrontの他の領域と一致する、より現代的なデザインでス�
 * 「例外」タブで、終日イベントを終日イベントに変更する場合、または終日イベントを終日イベントに変更する場合は、既存のイベントを削除してから新しいイベントを作成する必要があります。
 
 
-詳しくは、[&#x200B; スケジュールの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
+詳しくは、[ スケジュールの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
 ### アクセス レベル ダイアログへの更新
 
@@ -847,7 +856,7 @@ Workfrontの他の領域と一致する、より現代的なデザインの顧�
 
 Workfrontの他の領域と一致する、より現代的なデザインで、セットアップ領域のデータの読み込み（キックスタート）ページを更新しました。 また、選択したファイルがすぐにアップロードされるように、キックスタートの読み込みプロセスが効率化されました。 ファイルを選択した後に読み込みを完了するために、別の「**アップロード**」ボタンをクリックする必要がなくなりました。
 
-詳しくは、「[&#x200B; キックスタートテンプレートを使用してWorkfrontにデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)」を参照してください。
+詳しくは、「[ キックスタートテンプレートを使用してWorkfrontにデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)」を参照してください。
 
 ### 「費用タイプ」リストのインターフェイスの更新
 
@@ -857,7 +866,7 @@ Workfrontの他の領域のデザインに合わせて、設定領域の費用�
 
 費用タイプ リストに小さな機能変更が適用されました。 費用タイプを編集または削除するには、リストで費用タイプを選択し、適切なアイコンをクリックします。 デフォルトの費用タイプは編集または削除できないことに注意してください。
 
-詳しくは、[&#x200B; カスタム費用タイプの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
+詳しくは、[ カスタム費用タイプの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
 
 ### セットアップの「アクセスログ」タブのインターフェイスの更新
 
@@ -873,7 +882,7 @@ Workfrontの他の領域のデザインに合わせて、設定領域の費用�
 
 アプリケーションの他の領域のデザインに合わせて、「新規」および「スコアカードをコピー」ボックスのルックアンドフィールを更新しました。 Workfrontの「設定」領域でスコアカードを作成またはコピーする際に、更新されたデザインを表示できます。
 
-詳しくは、[&#x200B; スコアカードの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
+詳しくは、[ スコアカードの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
 ### グループの最近復元されたアイテムに対するインターフェイスの更新
 
@@ -883,7 +892,7 @@ Workfrontの他の地域のデザインに合わせて、最近復元された�
 
 この変更を表示するには、設定/グループ/グループ名を選択/最近復元したグループ名に移動します。
 
-詳しくは、[&#x200B; グループの最近復元されたアイテムの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)を参照してください。
+詳しくは、[ グループの最近復元されたアイテムの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)を参照してください。
 
 
 ### セットアップの診断ページのインターフェイスの更新
@@ -979,7 +988,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 プロジェクトをテンプレートとして保存する際に表示される「テンプレートとして保存」ボックスのルックアンドフィールを更新しました。 新しいデザインには、すべてのセクションが1つの統一感のある形式で表示される合理化されたインターフェイスが含まれており、左側のパネルのリンクを使用して移動できます。 新しいデザインは、アプリケーション内の他の領域や他のオブジェクトと一致します。
 
-詳しくは、[&#x200B; プロジェクトをテンプレートとして保存](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)を参照してください。
+詳しくは、[ プロジェクトをテンプレートとして保存](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)を参照してください。
 
 ### 「問題を削除」ボックスのルックアンドフィールの更新
 
@@ -995,7 +1004,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 「リスク」セクションのプロジェクトまたはテンプレートでリスクを追加または編集する際に、新しいリスクと編集のリスクボックスのルックアンドフィールを更新しました。 ボックスのデザインは、Workfrontの他の地域と一致するようになりました。
 
-詳しくは、[&#x200B; プロジェクトでのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects)を参照してください。
+詳しくは、[ プロジェクトでのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects)を参照してください。
 
 ### 「テンプレートをコピー」ボックスの外観の変更
 
@@ -1003,7 +1012,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 「テンプレートをコピー」ボックスのルックアンドフィールが、Workfrontの他の領域のデザインに合わせて更新されました。
 
-詳しくは、[&#x200B; プロジェクトテンプレートのコピー](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)を参照してください。
+詳しくは、[ プロジェクトテンプレートのコピー](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)を参照してください。
 
 
 +++
@@ -1019,7 +1028,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 Workfrontの他の領域のデザインに合わせて、費用レポートの外観を更新しました。
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### 新しいスタイルを使用した更新レポート
 
@@ -1034,7 +1043,7 @@ Workfrontの他の領域のデザインに合わせて、複数のレポート�
 * 件の料率
 * レイアウトテンプレート
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### /tileまたは/qstileのURLは、Workfront ダッシュボードでサポートされなくなりました
 
@@ -1142,7 +1151,7 @@ Workfrontの他のエリアのデザインに合わせて、最近復元され�
 
 Workfrontの他の領域のデザインに合わせて、設定領域のリソース管理の環境設定のルックアンドフィールを更新しました。
 
-詳しくは、[&#x200B; リソース管理の環境設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
+詳しくは、[ リソース管理の環境設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
 ### 設定のマイルストーンパスリストのインターフェイスの更新
 
@@ -1150,7 +1159,7 @@ Workfrontの他の領域のデザインに合わせて、設定領域のリソ�
 
 Workfrontの他の領域のデザインに合わせて、設定領域のマイルストーンパスリストのルックアンドフィールを更新しました。
 
-詳しくは、[&#x200B; マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+詳しくは、[ マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 
 ### 設定の「リスクタイプを編集」ボックスへのインターフェイスの更新
 
@@ -1158,7 +1167,7 @@ Workfrontの他の領域のデザインに合わせて、設定領域のマイ�
 
 Workfrontの「設定」領域で既存のリスクタイプを更新する際の「リスクタイプを編集」ボックスのルックアンドフィールが更新されました。 新しいデザインは現在、Workfrontの他の地域と一致しています。
 
-詳しくは、[&#x200B; リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
+詳しくは、[ リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
 
 ### セットアップの「新しいリスク タイプ」ボックスへのインターフェイスの更新
 
@@ -1166,7 +1175,7 @@ Workfrontの「設定」領域で既存のリスクタイプを更新する際�
 
 Workfrontの「設定」領域に新しいリスクタイプを追加すると、新しい「リスクタイプ」ボックスのルックアンドフィールが更新されます。 新しいデザインは現在、Workfrontの他の地域と一致しています。
 
-詳しくは、[&#x200B; リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
+詳しくは、[ リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
 
 ### 設定の「費用タイプ」ダイアログのインターフェイスの更新
 
@@ -1174,7 +1183,7 @@ Workfrontの「設定」領域に新しいリスクタイプを追加すると�
 
 Workfrontの他の領域のデザインに合わせて、設定領域で費用タイプを追加および編集するためのダイアログのルックアンドフィールを更新しました。
 
-詳しくは、[&#x200B; カスタム費用タイプの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
+詳しくは、[ カスタム費用タイプの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
 
 ### セットアップのアクセスレベル領域のエクスペリエンスを更新しました
 
@@ -1242,7 +1251,7 @@ Workfrontの他の領域と一致する、より現代的なデザインでプ�
 
 Workfrontの他の領域と一致する、より現代的なデザインの自動リマインダーページを更新しました。
 このページを表示するには、設定/電子メール/自動リマインダーに移動します。
-この更新には、領域の視覚的な変更が含まれます。機能は変更されていません。
+この更新には、領域の視覚的な変更が含まれます。 機能は変更されていません。
 
 ### 設定のメールテンプレートページのインターフェイスの更新
 
@@ -1436,7 +1445,7 @@ Workfrontの他の領域のデザインに合わせて、プロジェクトの�
 
 今回のアップデートでは、各マイルストーンのカラーとカラーコードに関する情報も追加されました。
 
-詳しくは、[&#x200B; マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+詳しくは、[ マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 
 
 #### ポートフォリオの「プロジェクト」セクションの新しいルックアンドフィール
@@ -1458,7 +1467,7 @@ Workfrontの他の領域のデザインに合わせて、プロジェクトの�
 
 Workfrontの他の領域のデザインに合わせて、マイルストーンパスレポートのルックアンドフィールを更新しました。
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### 新しいスタイルを使用した更新レポート
 
@@ -1473,7 +1482,7 @@ Workfrontの他の領域のデザインに合わせて、複数のレポート�
 * スコアカード
 * スケジュール
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### 会社レポートの「会社を削除」ボックスのインターフェイスの更新
 
@@ -1503,7 +1512,7 @@ Workfrontの他の領域のデザインに合わせて、複数のレポート�
 * 定期タイムシート
 * ユーザーの委任
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### 新しいスタイルを使用した更新レポート
 
@@ -1518,7 +1527,7 @@ Workfrontの他の領域のデザインに合わせて、複数のレポート�
 * カスタムフォーム
 * 休暇
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### 新しいスタイル設定によるアクセスレベルレポートの更新
 

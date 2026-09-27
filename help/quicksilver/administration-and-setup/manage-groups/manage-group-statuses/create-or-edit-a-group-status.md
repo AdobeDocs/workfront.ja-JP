@@ -8,24 +8,32 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-TQID: https://experienceleague.adobe.com/q1AaAmCj7h-4PsuPXTFuw-e-t3UYu-pVCdv53DQHyDk
+TQID: 'https://experienceleague.adobe.com/q1AaAmCj7h-4PsuPXTFuw-e-t3UYu-pVCdv53DQHyDk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1337
+source-wordcount: '1337'
 ht-degree: 89%
-
 ---
-
 # グループステータスの作成または編集
 
 グループ管理者は、管理するグループに対してカスタムステータスを作成できます。 これにより、会社全体の多くのカスタムステータスを不要にし、グループの階層でより自律性を高めることができます。
@@ -36,7 +44,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 >[!NOTE]
 >
->アジャイルビューでプロジェクトを表示する場合、カスタムグループステータスをプロジェクトに表示できません。 アジャイルビューでプロジェクトを表示する場合は、デフォルトステータスとカスタムロックされたステータスのみが表示されます。 プロジェクトのアジャイルビューのカスタマイズについて詳しくは、[Adobe Workfrontでのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)の「[&#x200B; アジャイルビューの作成またはカスタマイズ &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)」の節を参照してください。
+>アジャイルビューでプロジェクトを表示する場合、カスタムグループステータスをプロジェクトに表示できません。 アジャイルビューでプロジェクトを表示する場合は、デフォルトステータスとカスタムロックされたステータスのみが表示されます。 プロジェクトのアジャイルビューのカスタマイズについて詳しくは、[Adobe Workfrontでのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)の「[ アジャイルビューの作成またはカスタマイズ ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)」の節を参照してください。
 
 ステータスに関する一般的な情報について詳しくは、[ステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)を参照してください。
 
@@ -72,7 +80,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
 
 1. ステータスを作成またはカスタマイズするグループの名前をクリックします。
 1. 左側のパネルで、「**ステータス**」をクリックします。
@@ -93,7 +101,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 1. （条件付き）ステータスがイシューステータスの場合、**メインリスト**&#x200B;が選択されていることを確認します。
 
-   ![マスターリスト &#x200B;](assets/master-list.png)
+   ![マスターリスト ](assets/master-list.png)
 
    その他のイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）のカスタマイズについて詳しくは、[デフォルトのイシュータイプのカスタマイズ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)を参照してください。
 
@@ -103,7 +111,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
    既存のステータスを編集する場合は、そのステータスのチェックボックスをクリックし、画面の下部にあるバナーの「**編集**」をクリックします。
 
-   ![&#x200B; グループステータス &#x200B;](assets/group-statuses-edit-new.png)
+   ![ グループステータス ](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
    >
@@ -181,11 +189,11 @@ Workfront 管理者は、システム全体のステータスを作成し、そ�
 1. 編集するステータスのチェックボックスをクリックし、画面下部のバナーにある&#x200B;**編集**&#x200B;をクリックします。
 
 
-   ![&#x200B; ステータスを編集](assets/group-statuses-edit-new.png)
+   ![ ステータスを編集](assets/group-statuses-edit-new.png)
 
 1. 表示される「**ステータスを非表示**」オプションを有効にします。
 
-   ![&#x200B; ステータスを非表示](assets/hide-group-status.png)
+   ![ ステータスを非表示](assets/hide-group-status.png)
 
 1. 「**更新**」をクリックします。
 

@@ -6,18 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-TQID: https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc
+TQID: 'https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 544
-ht-degree: 94%
-
+source-wordcount: '551'
+ht-degree: 98%
 ---
-
 # 23.2 リリース期間中のルックアンドフィールのアップデート
 
 このページでは、23.3 リリース期間内に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールのアップデートについて説明します。 これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。
@@ -30,8 +36,8 @@ ht-degree: 94%
 >
 >プレビューリリース：2023年4月4日（PT）、実稼動予定リリース：2023年4月20日（PT）
 
-Workfrontの最近のリストと一致するように、リクエスト領域のドラフトリストを更新しました。
-一部のアップデートには次のものが含まれます。
+Workfront の最新リストと一致するように、リクエスト領域のドラフトリストを更新しました。
+更新の一部を次に示します。
 
 * 「リクエストタイプでフィルター」フィルターを標準のクイックフィルターに置き換えました
 * 下書きリストにリクエストが含まれていない場合に、下書きリストから画像を削除しました。

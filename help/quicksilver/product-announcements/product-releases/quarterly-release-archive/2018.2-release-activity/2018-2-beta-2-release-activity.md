@@ -7,24 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
-TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
+TQID: 'https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 865
-ht-degree: 95%
-
+source-wordcount: '911'
+ht-degree: 100%
 ---
-
 # 2018.2 ベータ版 2 リリースアクティビティ
 
 このページでは、2018.2 ベータ版 2 リリースによりプレビュー環境で最近利用可能になったすべての変更について説明します。 機能は、2018年4月5日（PT）にプレビュー環境で利用できるようになりました。 2018年6月に、本番環境で利用できるようになります。
@@ -95,7 +102,7 @@ Workfront の管理者は、組織内のユーザーがログに記録する時�
 
 >[!NOTE]
 >
->この機能は、2018.2 リリースのプレビュー環境の公式リリースには含まれません。2018.3 リリースのベータ版期間中に再導入され、2018.3 リリースで実稼動環境にリリースされます。 
+>この機能は、2018.2 リリースのプレビュー環境の正式リリースには含まれません。 このリリースは、2018.3 リリースのベータ版期間中に再導入され、2018.3 リリースでは本番環境にリリースされます。 
 
 稼働率レポートの予算計上時間数が、ビジネスケースの新規リソース予算計上エリアで入手可能な情報から入力されるようになりました。
 
@@ -107,7 +114,7 @@ Workfront の管理者は、組織内のユーザーがログに記録する時�
 
 >[!NOTE]
 >
->この機能は、2018.2 リリースのプレビュー環境の公式リリースには含まれません。2018.3 リリースのベータ版期間中に再導入され、2018.3 リリースで実稼動環境にリリースされます。 
+>この機能は、2018.2 リリースのプレビュー環境の正式リリースには含まれません。 このリリースは、2018.3 リリースのベータ版期間中に再導入され、2018.3 リリースでは本番環境にリリースされます。 
 
 プロジェクトの稼働率レポートに、ユーザ別の予算計上時間数が表示されるようになりました。
 

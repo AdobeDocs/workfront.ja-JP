@@ -1,25 +1,29 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要'
-description: この記事では、 [!DNL Adobe Workfront]のプロジェクト、タスク、イシューに関連する最も一般的な日付の定義について説明します。
+title: '[!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要'
+description: この記事では、[!DNL Adobe Workfront] のプロジェクト、タスクおよびイシューに関連する最も一般的な日付の定義を示します。
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+TQID: 'https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2359
-ht-degree: 50%
-
+source-wordcount: '2359'
+ht-degree: 51%
 ---
-
 # [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要
 
 <!-- Audited: 05/2024 -->
@@ -32,7 +36,7 @@ ht-degree: 50%
 
 レポートとリストについて詳しくは、次の記事を参照してください。
 
-* [&#x200B; [!DNL Adobe Workfront] のリストの基本を学ぶ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [ [!DNL Adobe Workfront] のリストの基本を学ぶ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [レポートの基本を学ぶ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 プロジェクト、タスク、問題の各フィールドについて詳しくは、[用語集 [!DNL Adobe Workfront] 用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
@@ -56,7 +60,7 @@ ht-degree: 50%
 
 ![編集タスクの実際の開始日](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![&#x200B; タスクの実際の開始日](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![ タスクの実際の開始日](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL 実際の完了日]
 
@@ -105,7 +109,7 @@ ht-degree: 50%
 
 ## [!UICONTROL コミット日]
 
-[!UICONTROL &#x200B; コミット日]は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。 これは[!UICONTROL 予定完了日]とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。 詳しくは、[[!UICONTROL コミット日]の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
+[!UICONTROL  コミット日]は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。 これは[!UICONTROL 予定完了日]とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。 詳しくは、[[!UICONTROL コミット日]の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
 >[!NOTE]
 >
@@ -159,7 +163,7 @@ ht-degree: 50%
 
 [!UICONTROL エントリ日]は、プロジェクト、タスクまたはイシューのタイムラインに影響しませんが、トラッキングやレポートの目的では重要です。 [!DNL Workfront] は、オブジェクトの作成時に[!UICONTROL エントリ日]を自動的に生成しますが、手動でこの日付を編集することはできません。
 
-![&#x200B; タスクの詳細の入力日](assets/entry-date-in-task-details-highlighted-nwe.png)
+![ タスクの詳細の入力日](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## 推定期限
 
@@ -209,7 +213,7 @@ ht-degree: 50%
 
 ハンドオフ日は計算であり、手動で設定することはできません。
 
-ハンドオフ日について詳しくは、[&#x200B; タスクのハンドオフ日の概要](/help/quicksilver/manage-work/tasks/task-information/handoff-task-date.md)を参照してください。
+ハンドオフ日について詳しくは、[ タスクのハンドオフ日の概要](/help/quicksilver/manage-work/tasks/task-information/handoff-task-date.md)を参照してください。
 
 タスクのハンドオフ日は、タスクリストとレポートに表示されます。
 
@@ -259,9 +263,9 @@ Workfrontで時間を記録する方法について詳しくは、[時間を記�
 * [プロジェクトの[!UICONTROL 予定完了日]を設定](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [問題の概要[!UICONTROL 予定完了日]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![&#x200B; ヘッダーの予定完了日](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![ ヘッダーの予定完了日](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![&#x200B; タスクリストの予定完了日](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![ タスクリストの予定完了日](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## 予定日付との整合性
@@ -286,7 +290,7 @@ Workfrontで時間を記録する方法について詳しくは、[時間を記�
 
 ![編集タスクの予定開始日](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![&#x200B; タスクリストの予定開始日](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![ タスクリストの予定開始日](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL 見込み完了日]
 
@@ -322,7 +326,7 @@ Workfrontで時間を記録する方法について詳しくは、[時間を記�
 
 余裕日には、タスクがプロジェクトの完了日に確実に影響を与える可能性がある正確な日付が表示されます。
 
-タスクのSlack日について詳しくは、[&#x200B; タスクのSlack日の概要](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md)を参照してください。
+タスクのSlack日について詳しくは、[ タスクのSlack日の概要](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md)を参照してください。
 
 タスクのSlack日は、タスクリストとレポートに表示されます。
 

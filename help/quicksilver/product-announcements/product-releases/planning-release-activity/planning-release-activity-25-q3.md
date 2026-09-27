@@ -9,36 +9,44 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
-ht-degree: 6%
-
+source-wordcount: '2416'
+ht-degree: 7%
 ---
-
 # Adobe Workfront Planning の 2025年第 3 四半期リリースアクティビティ
 
 この記事では、2025年第3四半期のリリース中にWorkfront Planningでリリースされる機能について説明します。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## レコードタイプの作成および編集時に更新された詳細設定
 
 >[!NOTE]
 >
->プレビュー：2025年7月10日>全員の本番環境：2025年7月10日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
+>プレビュー：2025年7月10日（PT）
+>すべての人のための制作：2025年7月10日
+>[!BADGE スケジュール外]{type=Neutral}
 
 
 レコードタイプを作成または編集する際に、「詳細設定」タブを更新しました。
@@ -54,17 +62,21 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 >[!NOTE]
 >
->プレビュー：2025年7月10日>全員の本番環境：2025年7月10日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
+>プレビュー：2025年7月10日（PT）
+>すべての人のための制作：2025年7月10日
+>[!BADGE スケジュール外]{type=Neutral}
 
 現在、Workfront Planningのレコードコメントにチームを追加すると、チームのすべてのメンバーに、そのコメントに関するアプリ内およびメール通知の両方が送信されます。 この機能強化の前は、個別にコメントに追加されたユーザーのみが通知されていました。
 
-詳しくは、「レコードコメントを管理[&#x200B; レコードコメントを管理](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
+詳しくは、「レコードコメントを管理[ レコードコメントを管理](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
 
 ## 適用されたグループ化に基づいてフィールドを自動入力
 
 >[!NOTE]
 >
->プレビュー：2025年7月10日>実稼動用の高速リリース：2025年8月14日>全員の実稼動環境：2025年10月16日
+>プレビュー：2025年7月10日（PT）
+>プロダクション高速リリース：2025年8月14日（PT）
+>すべての人のための制作：2025年10月16日
 
 
 これで、グループ化がテーブルビューに適用されている場合、レコードをテーブルに追加すると、レコードを追加したグループ化に関連するフィールドが自動的に入力されます。
@@ -79,13 +91,14 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 >[!NOTE]
 >
->プレビュー：2025年7月9日>全員の本番環境：2025年7月17日
+>プレビュー：2025年7月9日（PT）
+>すべての人のための制作：2025年7月17日
 
 レコードタイプのページの同じボタンから、ビューとレコードタイプを共有できるようになりました。 この機能強化の前は、レコードタイプページの「共有」ボタンとビューのタブのビューからのみ、レコードタイプを共有することができました。
 
 詳しくは、次の記事を参照してください。
 
-* [&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)
+* [ ビューの共有](/help/quicksilver/planning/access/share-views.md)
 
 * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
@@ -116,18 +129,18 @@ Workfront Planningでリクエストフォームを共有する際のエクス�
 * フォームを共有ダイアログを内部共有（共有相手を選択）と公開共有（共有リンクを作成）に分離しました。
 * リクエストフォームを以下と共有できるようになりました。
 
-   * ユーザー
-   * チーム
-   * グループ
-   * 会社
-   * 担当業務
+  * ユーザー
+  * チーム
+  * グループ
+  * 会社
+  * 担当業務
 
   以前は、ワークスペースへのアクセスまたはリンクの共有に基づいてのみ共有できました。
 * リクエストフォームの継承された権限が削除されました。 これで、リクエストフォームは選択したユーザーとだけ共有されます。
 * リクエストフォームを共有するユーザーの管理と投稿のオプションが削除されました。 追加されたユーザーはフォームを送信することしかできません。
 * 「公開リンクを作成」オプションを有効にした後、「公開共有」タブに「リンクと有効期限」フィールドが表示されるようになりました。
 
-詳しくは、[Adobe Workfront Planning](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)でのリクエストフォームの作成と管理を参照してください。
+詳しくは、[Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)でのリクエストフォームの作成と管理を参照してください。
 
 ## テーブルビュー内のすべてのグループを展開して折りたたむ
 
@@ -153,7 +166,8 @@ Workfront Planningでリクエストフォームを共有する際のエクス�
 >[!NOTE]
 >
 >* プレビュー：2025年6月26日（PT）
->* すべての人に向けた制作：2025年6月26日>[!BADGE &#x200B; スケジュール外]{type=Neutral}
+>* すべての人のための制作：2025年6月26日
+>[!BADGE スケジュール外]{type=Neutral}
 
 これで、レコードタイプを接続してルックアップとして数式フィールドを取り込む際に、数式フィールドのフォーマットに応じて集計関数（SUM、AVERAGE、MIN、MAXなど）を適用できるようになりました。 例えば、数式フィールドが数値の場合は、SUMやAVGなどの関数を使用できます。数式フィールドがテキストとしてフォーマットされている場合は、SUMなどの集計関数は適用されません。
 
@@ -188,7 +202,8 @@ Workfront Planningを購入していないお客様の場合、カスタム四�
 >[!NOTE]
 >
 >* プレビュー：2025年6月12日（PT）
->* すべての人に向けた制作：2025年6月12日>[!BADGE &#x200B; スケジュール外]{type=Neutral}
+>* すべての人のための制作：2025年6月12日
+>[!BADGE スケジュール外]{type=Neutral}
 
 参照フィールドを手動で更新した後で、同時に互いに依存するすべての数式フィールドを更新する改善を導入しました。 値が手動で変更され、互いを参照するフィールドから2、3、または4つのフィールドが離れている数式フィールドは、同時に自動的に更新されるようになりました。
 
@@ -201,7 +216,8 @@ Workfront Planningを購入していないお客様の場合、カスタム四�
 >[!NOTE]
 >
 >* プレビュー：2025年6月6日（PT）
->* すべての顧客に対する実稼動：2025年6月6日>[!BADGE &#x200B; スケジュール外]{type=Neutral}
+>* すべての顧客の生産：2025年6月6日（PT）
+>[!BADGE スケジュール外]{type=Neutral}
 
 数式フィールドに次の式を追加しました。
 
@@ -228,16 +244,16 @@ Workfront Planningを購入していないお客様の場合、カスタム四�
 * リクエストを追加したユーザーを示す列で入力
 * 「計画」タブに表示するリクエストの数を制限するフィルター。 リストは、次の項目でフィルタリングできます。
 
-   * リクエストフォームの送信元のWorkspace
-   * リクエストフォームに関連付けられたレコードタイプ
-   * リクエストのエントリ日
-   * リクエストフォームの名前
-   * リクエストのステータス
-   * リクエストを入力した人の名前。
+  * リクエストフォームの送信元のWorkspace
+  * リクエストフォームに関連付けられたレコードタイプ
+  * リクエストのエントリ日
+  * リクエストフォームの名前
+  * リクエストのステータス
+  * リクエストを入力した人の名前。
 
 * 「列」コントロールを使用して、「計画リクエスト」リストのフィールド（または列）を表示または非表示にします。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## タイムラインビューでコンパクトモードでレコードを分割する際の新しいエクスペリエンス
 
@@ -271,7 +287,7 @@ Workfront Planningを購入していないお客様の場合、カスタム四�
 
 この機能強化を行う前は、メインレコードのバーをタイムラインビューに表示する際にのみ書式設定でき、接続されているレコードのバーを書式設定できませんでした。\
  
-詳しくは、[&#x200B; タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。  
+詳しくは、[ タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。  
 
 ## テーブルビューをCSVまたはExcel ファイルに書き出す 
 
@@ -287,7 +303,7 @@ Workfront Planningに新しい機能が追加されました。この機能で�
 
 * 書き出される情報には、Workfront Planningのテーブルビューに適用されるフィルター、グループ化、並べ替えが考慮されます。
 * サムネールとカスタム行の色は、書き出したファイルではサポートされていません。  
-* Workfront インターフェイスで表示されたフィールドのみが書き出されます。非表示のフィールドは書き出されません。  
+* Workfront インターフェイスで表示されたフィールドのみが書き出されます。 非表示のフィールドは書き出されません。  
 
 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。 
 
@@ -326,7 +342,7 @@ CSVまたはExcel ファイルを使用してレコードタイプにレコー�
 
 この機能強化の前は、接続ビューページのテーブルは、レコード接続に対して読み取り専用でした。
 
-詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## 標準ライセンスユーザーのメインメニューにデフォルトで表示されるプランニングエリア
 
@@ -343,7 +359,7 @@ CSVまたはExcel ファイルを使用してレコードタイプにレコー�
 >[!NOTE]
 >
 >この変更は、システム管理者および標準ライセンスを持つ新規および既存のすべてのユーザーに対して表示されます。
-> レイアウトテンプレートに割り当てられた既存のユーザーは、レイアウトテンプレートで定義された設定に従ってすべてを引き続き表示します。
+>レイアウトテンプレートに割り当てられた既存のユーザーは、レイアウトテンプレートで定義された設定に従ってすべてを引き続き表示します。
 
 詳しくは、[Adobe Workfront計画の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
@@ -390,6 +406,6 @@ CSVまたはExcel ファイルを使用してレコードタイプにレコー�
 * ユーザーがワークスペースで持つ権限レベルよりも高いレコードタイプを共有することはできません。
 * レコードタイプに対する継承された権限を無効にして、ワークスペース内のすべてのユーザーに対して読み取り専用にすることができます。 その後、個々のユーザー、チーム、グループ、企業、または役割を追加し、レコードタイプに対するコントリビューション権限を付与できます。
 
-詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 

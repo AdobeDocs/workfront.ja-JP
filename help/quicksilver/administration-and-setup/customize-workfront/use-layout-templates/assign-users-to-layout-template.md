@@ -10,24 +10,29 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4
+TQID: 'https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: '940'
 ht-degree: 78%
-
 ---
-
 # レイアウトテンプレートにユーザーを割り当て
 
 作成したレイアウトテンプレートを、使用する必要のある任意のユーザー、担当業務、チーム、またはグループに割り当てることができます。
@@ -42,7 +47,7 @@ ht-degree: 78%
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートとビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+レイアウトテンプレートとビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
 ## アクセス要件
 
@@ -80,14 +85,14 @@ ht-degree: 78%
 
    >[!TIP]
    >
-   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
+   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
 
 1. ページの上位のセクションで「**割り当て先:**」をクリックします。
 1. 表示されるボックスで、**ユーザー、担当業務、チーム、グループ、またはアクセス レベルを追加**&#x200B;をクリックし、ユーザー、担当業務、チーム、グループ、またはアクセス レベルの名前を入力し始め、ドロップダウンに表示されたら名前をクリックします。
 
    最近追加された名前には、青色の背景が表示されます。 これは、追加したばかりの名前とリストに既に存在する名前を区別できるため、既存のレイアウトテンプレートを編集する際に役立ちます。
 
-   情報アイコン ![情報アイコン &#x200B;](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、またはアクセスレベルの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
+   情報アイコン ![情報アイコン ](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、またはアクセスレベルの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
 
 1. 前の2つの手順を繰り返して、必要に応じてレイアウトテンプレートを他のユーザー、担当業務、チーム、グループ、またはアクセスレベルに割り当てます。
 
@@ -101,7 +106,7 @@ ht-degree: 78%
 
 ユーザーと他の Workfront 管理者は、次の 4 つの方法で、同じユーザーに複数の異なるレイアウトテンプレートを割り当てることができます。
 
-* 個々のユーザーに対して
+* 個人ユーザーに対して
 * ユーザーが持つ特定の担当業務に対して
 * ユーザーが属している特定のチームに対して
 * ユーザーが属している特定のグループに対して
@@ -109,7 +114,7 @@ ht-degree: 78%
 
 ただし、ユーザーには、一度に 1 つのレイアウトテンプレートのみが表示されます。 表示されるテンプレートは、次の優先度階層によって決まります。
 
-* **個々のユーザー**：個々のユーザーとして個人に割り当てられたレイアウトテンプレートが、他のすべてを上書きします。 新しい割り当てを行うことで、個々のユーザーに対して行われた以前の割り当てを上書きできます。最新の割り当てが優先されます。
+* **個々のユーザー**：個々のユーザーとして個人に割り当てられたレイアウトテンプレートが、他のすべてを上書きします。 新しい割り当てを行うことで、個人ユーザーに対して行われた以前の割り当てを上書きできます。最新の割り当てが優先されます。
 * **プライマリ担当業務**：ユーザーにレイアウトテンプレートが 1 人のユーザーとして割り当てられていない場合は、プライマリ担当業務に割り当てられたテンプレートが表示されます。
 
   ユーザーのプライマリ担当業務に割り当てられたレイアウトテンプレートのみが、ユーザーに対して表示されます。 ユーザーが保持するセカンダリ担当業務に割り当てられたテンプレートは表示されません。

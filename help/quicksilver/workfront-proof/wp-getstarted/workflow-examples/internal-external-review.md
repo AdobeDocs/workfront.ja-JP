@@ -3,23 +3,31 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
-title: ' [!DNL Workfront Proof] の内部レビューと外部レビュー'
+title: '[!DNL Workfront Proof] での内部レビューと外部レビュー'
 description: 組織外のレビューで Workfront Proof を使用する方法を説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-TQID: https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg
+TQID: 'https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 100%
-
 ---
-
 # [!DNL Workfront Proof] での内部レビューと外部レビュー
 
 >[!IMPORTANT]

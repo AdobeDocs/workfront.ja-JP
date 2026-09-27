@@ -6,22 +6,29 @@ description: 個々の作業のいくつものバージョンや改訂にわた�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-TQID: https://experienceleague.adobe.com/ZqIOiAuptaPBQBAMkiLZeLa3rBZUW3UuZOTwhlvJWBw
+TQID: 'https://experienceleague.adobe.com/ZqIOiAuptaPBQBAMkiLZeLa3rBZUW3UuZOTwhlvJWBw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: '1460'
 ht-degree: 33%
-
 ---
-
 # プルーフの新しいバージョンの作成
 
 <!-- Audited: 4/2025 -->
@@ -33,7 +40,7 @@ ht-degree: 33%
 * ユーザーに、あるバージョンを表示する権限を与えることができますが、別のバージョンを表示する権限を与えることはできません。 逆に、後続のバージョンをユーザーと共有する場合、そのユーザーは以前のバージョンに戻ってアクセス権を付与しない限り、以前のバージョンを表示できません。
 * 新しいバージョンを作成するには、プルーフの編集権限が必要です。
 
-  詳しくは、[Workfront Proofでのプルーフの役割の管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)および[Workfront Proofでのプルーフの権限プロファイル &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
+  詳しくは、[Workfront Proofでのプルーフの役割の管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)および[Workfront Proofでのプルーフの権限プロファイル ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 
   プルーフのバージョンの共有について詳しくは、[Workfront Proof のプルーフの共有](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)を参照してください。
 
@@ -125,15 +132,15 @@ Workfront Proof で新しいバージョンのプルーフを作成するには�
 
    * （オプション）バージョンの&#x200B;**所有者**&#x200B;をアカウント内の別のユーザーに変更します。
 
-     詳しくは、[Workfront Proofのプルーフ権限プロファイル &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
+     詳しくは、[Workfront Proofのプルーフ権限プロファイル ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 
    * （オプション） **タイプの連絡先名または電子メールアドレスを使用して、受信者** ボックスを追加し、バージョンにレビュー担当者を追加します。 次に、各受信者に対して&#x200B;**プルーフの役割**&#x200B;および&#x200B;**電子メールアラート** タイプを選択できます。
 
-     詳しくは、[&#x200B; プルーフにグループを追加](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)および[Workfront Proofでのプルーフ ロールの管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)を参照してください。
+     詳しくは、[ プルーフにグループを追加](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)および[Workfront Proofでのプルーフ ロールの管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)を参照してください。
 
      >[!NOTE]
      >
-     >プルーフの作成者または所有者が、個人設定でプルーフ作成済み電子メールをデフォルトで無効にしている場合、このプルーフに関する&#x200B;**受信者への通知** ボックスが「新しいプルーフ」ページでオンになっている場合でも、プルーフ作成済み電子メールまたは新しいプルーフ電子メールは受信されません。 詳しくは、[Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)でのメール通知の設定、[&#x200B; プルーフ作成メール &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)および[新しいプルーフ メール &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)を参照してください。
+     >プルーフの作成者または所有者が、個人設定でプルーフ作成済み電子メールをデフォルトで無効にしている場合、このプルーフに関する&#x200B;**受信者への通知** ボックスが「新しいプルーフ」ページでオンになっている場合でも、プルーフ作成済み電子メールまたは新しいプルーフ電子メールは受信されません。 詳しくは、[Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)でのメール通知の設定、[ プルーフ作成メール ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)および[新しいプルーフ メール ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)を参照してください。
 
    * （オプション）プルーフの期限を設定します。
 

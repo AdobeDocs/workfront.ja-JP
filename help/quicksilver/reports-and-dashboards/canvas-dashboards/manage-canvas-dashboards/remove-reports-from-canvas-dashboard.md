@@ -5,17 +5,21 @@ title: ダッシュボードからのレポートの削除
 description: ダッシュボードのレポートは、追加された後に削除できます。
 author: Courtney
 feature: Reports and Dashboards
-hidefromtoc: true
+hidefromtoc: 'yes'
 hide: true
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 20%
-
 ---
-
 # ダッシュボードからのレポートの削除
 
 >[!IMPORTANT]
@@ -79,8 +83,8 @@ ht-degree: 20%
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **Canvas ダッシュボード** ページで、更新するダッシュボードの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンを選択し、**削除**&#x200B;を選択します。
+1. **Canvas ダッシュボード** ページで、更新するダッシュボードの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンを選択し、**削除**&#x200B;を選択します。
 
-   ![&#x200B; レポートを削除](assets/delete-a-report.png)
+   ![ レポートを削除](assets/delete-a-report.png)
 
 1. 表示される&#x200B;**レポートを削除** ダイアログボックスで、**削除**&#x200B;をクリックします。 レポートが削除され、ダッシュボードから削除されます。

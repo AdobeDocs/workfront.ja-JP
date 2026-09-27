@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84
+TQID: 'https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 78%
-
 ---
-
 # 表示：複数の列の情報を 1 つの共有列に結合
 
 <!-- Audited: 11/2024 -->
@@ -75,9 +80,9 @@ ht-degree: 78%
 
   次の例外があります。
 
-   * Workfront で情報を表示する場合、結合された列を構成する列の形式が互いに異なる場合、最初の列の形式は維持され、他のすべての列の形式は無視されます。
-   * ビューを PDF ファイルに書き出す場合、条件付き形式は結合された列の最初の列に適用されます。
-   * ビューを Excel ファイルに書き出す場合、結合された列は別々の列として表示されます。 個々の列には、それぞれの条件付き形式ルールも表示されます。
+  * Workfront で情報を表示する場合、結合された列を構成する列の形式が互いに異なる場合、最初の列の形式は維持され、他のすべての列の形式は無視されます。
+  * ビューを PDF ファイルに書き出す場合、条件付き形式は結合された列の最初の列に適用されます。
+  * ビューを Excel ファイルに書き出す場合、結合された列は別々の列として表示されます。 個々の列には、それぞれの条件付き形式ルールも表示されます。
 
 * **viewalias** 属性を持つ列は、結合できる列の数を制限できます。 これらの制限を回避するには、**viewalias** 属性の使用を回避します。 列に **viewalias** 属性を含める必要がある場合、それが列の最後の項目であることを確認します。
 
@@ -96,7 +101,7 @@ ht-degree: 78%
 改行なしで 2 列のデータを結合するには：
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてビューを編集します。
+1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックしてビューを編集します。
 1. 結合する最初の列に移動し、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
 1. 結合する最初の列に次のテキストを追加します。
 
@@ -132,7 +137,7 @@ ht-degree: 78%
 複数の列のデータを結合して、1 つの共通列に表示し、各列の値を改行するには、次の手順を実行します。
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてビューを編集します。
+1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックしてビューを編集します。
 1. 結合する 2 列の間に 3 つ目の列を追加します。
 
    >[!TIP]

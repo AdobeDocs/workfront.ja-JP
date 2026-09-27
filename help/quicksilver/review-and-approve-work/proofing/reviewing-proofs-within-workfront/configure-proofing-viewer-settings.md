@@ -6,23 +6,31 @@ description: Web プルーフビューアーとデスクトッププルーフビ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-TQID: https://experienceleague.adobe.com/ly0FsjQ5yIjeDBpDewCHPOzFyTBnTucjageWgLzilg4
+TQID: 'https://experienceleague.adobe.com/ly0FsjQ5yIjeDBpDewCHPOzFyTBnTucjageWgLzilg4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: '1358'
 ht-degree: 96%
-
 ---
-
 # プルーフビューア設定の指定
 
 Web プルーフビューアーとデスクトッププルーフビューアーの両方で、次の設定を指定できます。
@@ -92,13 +100,13 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
 1. 次のいずれかの方法で、Web プルーフビューアーまたはデスクトップ プルーフビューアーを開きます。
 
    * Adobe Workfron t内でプルーフを行う場合は、表示するプルーフを含むドキュメントリストに移動し、ドキュメントにカーソルを合わせて、「**プルーフを開く**」をクリックします。
-   * Workfront Proofを使用している場合は、ダッシュボードのプルーフの&#x200B;**プルーフに移動** アイコンをクリックするか、ビューリスト ![&#x200B; プルーフに移動](assets/go-to-proof-blue-icon.png)します。
+   * Workfront Proofを使用している場合は、ダッシュボードのプルーフの&#x200B;**プルーフに移動** アイコンをクリックするか、ビューリスト ![ プルーフに移動](assets/go-to-proof-blue-icon.png)します。
 
 1. 左側のツールバーが表示されていない場合は、web プルーフビューアーの左上隅にある&#x200B;**メニュー**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![ メニューアイコン ](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 左側のツールバーで、**設定** アイコン ![設定アイコン &#x200B;](assets/settings-icon-in-pv.png)をクリックします。
+1. 左側のツールバーで、**設定** アイコン ![設定アイコン ](assets/settings-icon-in-pv.png)をクリックします。
 
 1. 次が表示されるので、いずれかを&#x200B;**設定**&#x200B;します。
 

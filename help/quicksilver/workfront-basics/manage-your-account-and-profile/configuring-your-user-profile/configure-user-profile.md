@@ -3,23 +3,26 @@ content-type: reference
 product-area: user-management;setup
 navigation-topic: manage-your-account-and-profile
 title: ユーザープロファイルを設定
-description: ' [!DNL Workfront]  ユーザープロファイルの設定方法については、この節の記事を参照してください。'
+description: '[!DNL Workfront] ユーザープロファイルの設定方法については、この節の記事を参照してください。'
 author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-TQID: https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws
+TQID: 'https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 47%
-
+source-wordcount: '147'
+ht-degree: 38%
 ---
-
 # ユーザープロファイルを設定
 
 上部のナビゲーションエリアにあるAdobe アカウントメニュー（プロフィール画像）をクリックすると、プロファイルと環境設定オプションにアクセスできます。
@@ -41,4 +44,4 @@ ht-degree: 47%
 この節では、次の記事を扱います。
 
 * [[!UICONTROL 個人設定]を指定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-* [&#x200B; [!DNL Adobe Workfront] で個人の休暇を設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+* [ [!DNL Adobe Workfront] で個人の休暇を設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)

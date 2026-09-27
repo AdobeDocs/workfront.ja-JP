@@ -2,88 +2,97 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management;setup
 navigation-topic: users-workfront-proof
-title: ' [!DNL Workfront Proof] を使用してユーザー情報を設定'
-description: ' [!DNL Workfront Proof] を使用してユーザー情報を設定'
+title: '[!DNL Workfront Proof] を使用してユーザー情報を設定'
+description: '[!DNL Workfront Proof] を使用してユーザー情報を設定'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
+TQID: 'https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 533
-ht-degree: 96%
-
+source-wordcount: '565'
+ht-degree: 100%
 ---
-
 # [!DNL Workfront Proof] を使用してユーザー情報を設定
 
 >[!IMPORTANT]
 >
 >この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成で説明されているように、ユーザーの作成または編集を開始します。
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成で説明されているように、ユーザーの作成または編集を開始します。
 1. 次の情報を指定します。
 
    * 「**[!UICONTROL 個人の詳細]**」セクション：
 
-      * **メールアドレス：**&#x200B;ユーザーのメールアドレス。
-      * **名：**&#x200B;ユーザーの名。
-      * **姓：**&#x200B;ユーザーの姓。
-      * **位置：**&#x200B;会社内でのユーザーの位置。
-      * **権限プロファイル：**&#x200B;プルーフアカウントにおけるユーザーの権限。
-      * **言語：**&#x200B;ユーザーの主要言語。
-      * **タイムゾーン：**&#x200B;ユーザーのタイムゾーンを選択します。
-      * **日付の形式：**&#x200B;ユーザーが希望する日付形式を選択します。
-      * **オプトイン - 製品およびマーケティング用のメール：**&#x200B;製品およびマーケティング用のメールでユーザーをオプトインするかどうかを選択します。
-      * **API のみ：**&#x200B;ユーザーが API 経由でのみログインできるようにします。
+     * **メールアドレス：**&#x200B;ユーザーのメールアドレス。
+     * **名：**&#x200B;ユーザーの名。
+     * **姓：**&#x200B;ユーザーの姓。
+     * **位置：**&#x200B;会社内でのユーザーの位置。
+     * **権限プロファイル：**&#x200B;プルーフアカウントにおけるユーザーの権限。
+     * **言語：**&#x200B;ユーザーの主要言語。
+     * **タイムゾーン：**&#x200B;ユーザーのタイムゾーンを選択します。
+     * **日付の形式：**&#x200B;ユーザーが希望する日付形式を選択します。
+     * **オプトイン - 製品およびマーケティング用のメール：**&#x200B;製品およびマーケティング用のメールでユーザーをオプトインするかどうかを選択します。
+     * **API のみ：**&#x200B;ユーザーが API 経由でのみログインできるようにします。
 
    * 「**[!UICONTROL ユーザーの詳細]**」セクションでは、住所や電話番号など、ユーザーの連絡先情報を入力します。
    * 「**[!UICONTROL デフォルトのプルーフ設定]**」セクションでは、ユーザーによるプルーフの作成方法や作業方法に影響する設定を行います。
 
-      * **デフォルトのプルーフの役割：**&#x200B;ユーザーのデフォルトのプルーフの役割を選択します。 役割のオプションは次のとおりです。**[!UICONTROL 読み取り専用]**、**[!UICONTROL レビュアー]**、**[!UICONTROL 承認者]**、**[!UICONTROL レビュアーと承認者]**、**[!UICONTROL 作成者]**、または&#x200B;**[!UICONTROL モデレーター]**。
+     * **デフォルトのプルーフの役割：**&#x200B;ユーザーのデフォルトのプルーフの役割を選択します。 役割のオプションは次のとおりです。**[!UICONTROL 読み取り専用]**、**[!UICONTROL レビュアー]**、**[!UICONTROL 承認者]**、**[!UICONTROL レビュアーと承認者]**、**[!UICONTROL 作成者]**、または&#x200B;**[!UICONTROL モデレーター]**。
 
-        プルーフの役割について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) のプルーフの役割の管理を参照してください。
+       プルーフの役割について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) のプルーフの役割の管理を参照してください。
 
-      * **すべての決定が行われたら、プルーフをロック：**&#x200B;プルーフに対するすべての決定が行われた後、プルーフがそれ以上変更されないように自動的にロックします。
-      * **ログインが必要です。 プルーフは他のユーザーとのみ共有可能：**&#x200B;[!DNL Workfront Proof] のログイン資格情報を持つユーザーのみがプルーフを利用できるようにします。
-      * **1 つの決定のみが必要：**&#x200B;プルーフに対する決定を 1 つだけ必要とします。
-      * **元のファイルのダウンロード：**&#x200B;ユーザーがプルーフ用に元のファイルをダウンロードできるようにします。 このオプションは、デフォルトで有効になっています。
+     * **すべての決定が行われたら、プルーフをロック：**&#x200B;プルーフに対するすべての決定が行われた後、プルーフがそれ以上変更されないように自動的にロックします。
+     * **ログインが必要です。 プルーフは他のユーザーとのみ共有可能：**[!DNL Workfront Proof] のログイン資格情報を持つユーザーのみがプルーフを利用できるようにします。
+     * **1 つの決定のみが必要：**&#x200B;プルーフに対する決定を 1 つだけ必要とします。
+     * **元のファイルのダウンロード：**&#x200B;ユーザーがプルーフ用に元のファイルをダウンロードできるようにします。 このオプションは、デフォルトで有効になっています。
 
-        元のファイルのダウンロードについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
+       元のファイルのダウンロードについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
 
-        <!--      
+       <!--      
         <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Public sharing. The proof can be shared via a public URL or embedded code:</strong>Enables the user to share proofs via a public URL or embed code.<br>This option is enabled by default but is not available if the&nbsp;<strong>Login required</strong>option is selected.<br>For more information on sharing proofs, see "<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md" class="MCXref xref" xrefformat="{para}">Share the Public URL in Workfront Proof</a>."</li>      
         -->
 
-      * **登録。 ユーザーは、パブリック URL または埋め込みコードを使用して、プルーフにサインアップ可能：**&#x200B;組織外のレビュアーがパブリック URL または埋め込みコードを介してプルーフにサインアップできるようにします。
+     * **登録。 ユーザーは、パブリック URL または埋め込みコードを使用して、プルーフにサインアップ可能：**&#x200B;組織外のレビュアーがパブリック URL または埋め込みコードを介してプルーフにサインアップできるようにします。
 
-        このオプションを選択すると、**購読者はプルーフにアクセスするためにメール内のリンクをクリックする必要があります**。このオプションを選択すると、外部レビュー担当者が電子メール内のリンクをクリックしてプルーフにアクセスする必要があります。
-**公開共有** オプションが選択されている場合、このオプションはデフォルトで有効になっています。
+       このオプションを選択した場合、**プルーフにアクセスするには、サブスクライバーがメール内のリンクをクリックする必要があります**も利用できます。 外部のレビュアーがメール内のリンクをクリックしてプルーフにアクセスするように求める場合に、このオプションを選択します。
+       **パブリック共有**&#x200B;オプションが選択されている場合、このオプションはデフォルトで有効になります。
 
-      * **新規ゲストレビュアーのデフォルトの役割：**&#x200B;ゲストレビュアー用にデフォルトのプルーフの役割を選択します。 オプションは、モデレーターと作成者を除き、**デフォルトのプルーフの役割**&#x200B;のオプションと同じです。
+     * **新規ゲストレビュアーのデフォルトの役割：**&#x200B;ゲストレビュアー用にデフォルトのプルーフの役割を選択します。 オプションは、モデレーターと作成者を除き、**デフォルトのプルーフの役割**&#x200B;のオプションと同じです。
 
    * 「**[!UICONTROL デフォルトのメールアラート設定]**」セクション：
 
-      * **デフォルトのメールアラート：**&#x200B;ユーザーがメールの更新を受け取る頻度を選択します。 **すべてのアクティビティ、自分のコメントに返信、決定、最終決定、時間別概要、日別概要、**&#x200B;または&#x200B;**無効**&#x200B;を選択します。
+     * **デフォルトのメールアラート：**&#x200B;ユーザーがメールの更新を受け取る頻度を選択します。 **すべてのアクティビティ、自分のコメントに返信、決定、最終決定、時間別概要、日別概要、**&#x200B;または&#x200B;**無効**&#x200B;を選択します。
 
-        デフォルトのメールアラートオプションについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。
+       デフォルトのメールアラートオプションについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。
 
-      * **新規ゲストレビュアー用のデフォルトのメールアラート：**&#x200B;ゲストレビュアーがメールの更新を受け取る頻度を選択します。 オプションは、**デフォルトのメールの役割**&#x200B;のオプションと同じです。
+     * **新規ゲストレビュアー用のデフォルトのメールアラート：**&#x200B;ゲストレビュアーがメールの更新を受け取る頻度を選択します。 オプションは、**デフォルトのメールの役割**&#x200B;のオプションと同じです。
 
-      * **プルーフの準備が整ったらメールを送信：**&#x200B;プルーフの準備が整ったら、確認メールをユーザーに自動的に送信する場合に選択します。
-      * **このユーザーに送信されるメールの形式：**&#x200B;ユーザーに送信されるメールのデフォルト形式として、**[!UICONTROL HTML]** または&#x200B;**[!UICONTROL プレーンテキスト]**&#x200B;を選択します。
+     * **プルーフの準備が整ったらメールを送信：**&#x200B;プルーフの準備が整ったら、確認メールをユーザーに自動的に送信する場合に選択します。
+     * **このユーザーに送信されるメールの形式：**&#x200B;ユーザーに送信されるメールのデフォルト形式として、**[!UICONTROL HTML]** または&#x200B;**[!UICONTROL プレーンテキスト]**&#x200B;を選択します。
 
    * 「**[!UICONTROL カスタムメッセージ設定]**」セクション：プルーフテンプレートの設定を作成します。
 
      テンプレートについて詳しくは、次を参照してください。
 
-      * **プルーフの件名テンプレート：**&#x200B;プルーフの件名のテンプレートを作成します。
-      * **プルーフメッセージテンプレート：**&#x200B;プルーフメッセージのテンプレートとその形式を作成します。
+     * **プルーフの件名テンプレート：**&#x200B;プルーフの件名のテンプレートを作成します。
+     * **プルーフメッセージテンプレート：**&#x200B;プルーフメッセージのテンプレートとその形式を作成します。

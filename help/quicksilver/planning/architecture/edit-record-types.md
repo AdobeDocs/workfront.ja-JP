@@ -1,6 +1,6 @@
 ---
 title: レコードタイプの編集
-description: 保存後にレコードタイプを編集できます。 レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。
+description: 保存後にレコードタイプを編集できます。 レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
+TQID: 'https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 24%
-
 ---
-
 # レコードタイプの編集
 
 
@@ -37,7 +45,7 @@ ht-degree: 24%
 
 {{planning-important-intro}}
 
-レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront Planning レコードタイプの作成について詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront プランニングレコードタイプの作成について詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -95,7 +103,7 @@ ht-degree: 24%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -173,11 +181,11 @@ Old:
      または
    * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;または&#x200B;**設定**&#x200B;をクリックします。
 
-   ![設定を含むレコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+   ![設定を含むレコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
 1. **レコードタイプを編集** ボックスで、**アピアランス** タブがデフォルトで開きます。
 
-   ![&#x200B; レコードタイプボックスのアピアランスを編集タブ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![ レコードタイプボックスのアピアランスを編集タブ ](assets/edit-record-type-box-appearance-tab.png)
 
    「**アピアランス**」タブの次の情報を更新します。
 
@@ -189,21 +197,21 @@ Old:
 
 1. （オプションおよび条件付き）システム管理者の場合は、「**クロスワークスペース設定**」タブをクリックし、レコードタイプのクロスワークスペース機能に関する情報を更新します。
 
-   詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+   詳細については、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
-   ![&#x200B; クロスワークスペース設定タブを含むレコードタイプボックスを編集](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![ クロスワークスペース設定タブを含むレコードタイプボックスを編集](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. 「**保存**」をクリックします。
 
-   このレコードを他のワークスペースから接続することを選択した場合、**接続可能なレコード** アイコン ![他のスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png)がレコードカードに表示されます。
+   このレコードを他のワークスペースから接続することを選択した場合、**接続可能なレコード** アイコン ![他のスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png)がレコードカードに表示されます。
 
-   このレコードを他のワークスペースに追加することを許可するように選択した場合、**グローバルレコード** アイコン ![&#x200B; グローバルレコードタイプアイコン &#x200B;](assets/global-icon.png)がレコードカードに表示されます。
+   このレコードを他のワークスペースに追加することを許可するように選択した場合、**グローバルレコード** アイコン ![ グローバルレコードタイプアイコン ](assets/global-icon.png)がレコードカードに表示されます。
 
 1. （オプション）ワークスペース領域のレコードタイプカードをクリックしてレコードタイプのページを開き、ヘッダーのレコードタイプの名前を変更します。
 
 1. （オプション）別のレコードタイプを編集するには、レコードタイプページから、レコードタイプ名の右側にある下向き矢印を展開し、レコードタイプを検索して、リストに表示されたら選択します。
 
-   ![検索ボックスを含むレコードタイプページのレコードタイプ ドロップダウン &#x200B;](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![検索ボックスを含むレコードタイプページのレコードタイプ ドロップダウン ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
 
    >[!TIP]
    >
@@ -212,10 +220,10 @@ Old:
    >* Windowsの場合はCTRL+K
    >* Macの⌘+K
    >
-   >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+   >![ グローバル検索ボックス ](assets/global-search-box.png)
 
 1. <span class="preview"> （オプション）レコードタイプのビジネスルールを追加、編集、非アクティブ化または削除するには、レコードタイプページに移動し、レコードタイプ名の右側にある&#x200B;**詳細** メニューをクリックしてから、**ビジネスルール**&#x200B;をクリックします。</span>
 
    <span class="preview"> ビジネスルールは、そのタイプのレコードを編集または削除できるタイミングを定義する、レコードタイプに設定された条件です。</span>
 
-   <span class="preview">詳しくは、[&#x200B; レコードタイプのビジネスルールの作成](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。</span>
+   <span class="preview">詳しくは、[ レコードタイプのビジネスルールの作成](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。</span>

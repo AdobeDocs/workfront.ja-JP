@@ -8,30 +8,37 @@ feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/vOjgBLxX5rFIGHBCHB2a6Q3Bs3KE5x-opXUMvANjI1E
+TQID: 'https://experienceleague.adobe.com/vOjgBLxX5rFIGHBCHB2a6Q3Bs3KE5x-opXUMvANjI1E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 491
+source-wordcount: '491'
 ht-degree: 15%
-
 ---
-
 # ドキュメントのストレージ制限のチェック
 
 ユーザーがWorkfront インスタンスにアップロードできる個々のファイルの種類とサイズに制限はありませんが、Workfront プランには合計ストレージ割り当てが含まれています。 Workfront管理者は、お客様情報ページの設定領域から使用状況と割り当てを監視できます。
 
 ストレージの表示方法は、組織で従来のWorkfront ストレージを使用するか、Adobe クラウドストレージを使用するかに応じて異なります。
 
-* 従来のWorkfront ストレージを使用している場合は、この記事の[従来のWorkfront ストレージ &#x200B;](#legacy-workfront-storage)を参照してください。
-* Adobe クラウドストレージを使用する場合は、この記事の「[Adobe クラウドストレージ &#x200B;](#adobe-cloud-storage)」を参照してください。
+* 従来のWorkfront ストレージを使用している場合は、この記事の[従来のWorkfront ストレージ ](#legacy-workfront-storage)を参照してください。
+* Adobe クラウドストレージを使用する場合は、この記事の「[Adobe クラウドストレージ ](#adobe-cloud-storage)」を参照してください。
 
   Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
@@ -96,7 +103,7 @@ Adobe クラウドストレージのドキュメントを確認するには：
    * 緑色のバーにフレームスタンドアロンプロジェクトが表示されます。 これらのプロジェクトはWorkfrontとは別のもので、Frame.io Enterprise ライセンスをお持ちの場合にのみ使用できます。
 
 
-お客様の情報![&#128279;](assets/storage-usage.png)でのAdobe クラウドストレージの使用状況
+お客様の情報](assets/storage-usage.png)での![Adobe クラウドストレージの使用状況
 
 使用状況の数値は定期的に更新されるので、最新の数を確認できます。
 

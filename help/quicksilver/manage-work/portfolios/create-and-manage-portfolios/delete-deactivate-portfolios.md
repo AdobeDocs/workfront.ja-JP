@@ -8,25 +8,31 @@ feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/kszFIGgchLbRBRYO6BExLU-jhzrQssGsfth9j9ybmcI
+TQID: 'https://experienceleague.adobe.com/kszFIGgchLbRBRYO6BExLU-jhzrQssGsfth9j9ybmcI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 69%
-
+source-wordcount: '452'
+ht-degree: 68%
 ---
-
 # ポートフォリオを削除および非アクティブ化する
 
 <!--Audited: 08/2025-->
@@ -118,7 +124,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. 次のいずれかの操作を行います。
 
-   * リストでポートフォリオを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
+   * リストでポートフォリオを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
    * ポートフォリオをクリックして開き、ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、**Portfolio**&#x200B;を削除します。
 1. 「**[!UICONTROL はい、削除]**」をクリックして確認します。
 
@@ -136,7 +142,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
-1. ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL Portfolioを非アクティブ化]**&#x200B;をクリックします。
+1. ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL Portfolioを非アクティブ化]**をクリックします。
 ポートフォリオは直ちに無効になります。
 1. （オプション）ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL Portfolioをアクティブ化]**&#x200B;して再アクティブ化します。
 

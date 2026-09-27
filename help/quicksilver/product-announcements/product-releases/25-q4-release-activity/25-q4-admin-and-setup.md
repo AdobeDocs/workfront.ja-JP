@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-TQID: https://experienceleague.adobe.com/OSD2Pf0yH0Tc-NC7-D7JD4n8w07bAF8lLU1TiQEIT7s
+TQID: 'https://experienceleague.adobe.com/OSD2Pf0yH0Tc-NC7-D7JD4n8w07bAF8lLU1TiQEIT7s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: '626'
 ht-degree: 18%
-
 ---
-
 # 2025年第 4 四半期の管理者の機能強化
 
 このページでは、2025年第4四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -41,7 +47,7 @@ ht-degree: 18%
 
 以前は、データ削除の警告は「削除」オプションの近くのテキストだけでした。
 
-カスタムフォームの削除について詳しくは、オブジェクトに添付されたカスタムフォームの管理の記事の[&#x200B; オブジェクトからのカスタムフォームの削除](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)を参照してください。
+カスタムフォームの削除について詳しくは、オブジェクトに添付されたカスタムフォームの管理の記事の[ オブジェクトからのカスタムフォームの削除](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)を参照してください。
 
 ## Workfront ユーザープロファイルの更新
 
@@ -83,7 +89,7 @@ Workfrontのユーザープロファイルのルックアンドフィールを�
 
 以前は、システム管理者がBeta機能を有効にすることはできませんでした。
 
-システム環境設定の詳細については、[&#x200B; システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+システム環境設定の詳細については、[ システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 AI機能を有効にするための前提条件については、[AI アシスタントの前提条件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)を参照してください。
 
@@ -101,4 +107,4 @@ AI機能を有効にするための前提条件については、[AI アシス�
 
 フォームがオブジェクトに追加されると、APIから返された値がドロップダウンフィールドに表示され、ユーザーは複数の値を選択できます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

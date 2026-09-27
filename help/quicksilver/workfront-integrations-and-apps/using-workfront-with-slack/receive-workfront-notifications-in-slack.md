@@ -1,32 +1,38 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: ' [!DNL Slack] での  [!DNL Adobe Workfront]  通知の受信'
-description: ' [!DNL Slack] での  [!DNL Adobe Workfront]  通知の受信'
+title: '[!DNL Slack] で [!DNL Adobe Workfront] 通知を受信'
+description: '[!DNL Slack] で [!DNL Adobe Workfront] 通知を受信'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/7uflm9ZieQq-nl81hUpljzWkW98s2EzqiN4W1eZubgQ
+TQID: 'https://experienceleague.adobe.com/7uflm9ZieQq-nl81hUpljzWkW98s2EzqiN4W1eZubgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '614'
 ht-degree: 95%
-
 ---
-
 # [!DNL Slack] での [!DNL Adobe Workfront] 通知の受信
 
 <!--
@@ -74,7 +80,7 @@ ht-degree: 95%
 ## [!DNL Slack] 用に [!DNL Workfront] 通知を設定 {#configure-workfront-notifications-for-slack}
 
 1. （条件付き）[!DNL Slack] インスタンスに [!DNL Workfront] が追加された後、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスを参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスを参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のいずれかのコマンドを入力します。
 
@@ -119,10 +125,10 @@ ht-degree: 95%
 
 1. [!UICONTROL Slack] にログインします。
 1. [!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」節を参照してください。
 
 1. [!DNL Slack] 用の [!DNL Workfront] 通知が有効になっていることを確認します。\
-   どの [!DNL Workfront] 通知を [!DNL Slack] にも通知されるように設定できるかについて詳しくは、[&#x200B; [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) 用の  [!DNL Workfront]  設定を参照してください。
+   どの [!DNL Workfront] 通知を [!DNL Slack] にも通知されるように設定できるかについて詳しくは、[ [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) 用の  [!DNL Workfront]  設定を参照してください。
 
 1. **[!DNL Workfront]** チャネルにアクセスして [!DNL Workfront] 通知を検索します。
 1. （条件付きおよびオプション）次のいずれかの操作を行います。

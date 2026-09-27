@@ -8,31 +8,39 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+TQID: 'https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1340'
 ht-degree: 69%
-
 ---
-
 # アジャイルバックログの管理
 
 アジャイルチームが使用するアジャイル手法に応じて、次の作業項目をアジャイルチームに割り当て、そのチームのバックログにストーリーとして追加できます。
 
-* **[!UICONTROL スクラムアジャイルチーム &#x200B;]:** タスクとイシューは、アジャイルチームに割り当てて、バックログに追加できます。
-* **[!UICONTROL カンバンアジャイルチーム &#x200B;]:** タスクは、アジャイルチームに割り当てて、バックログに追加できます。 バックログは、[[!UICONTROL &#x200B; バックログ &#x200B;]をカンバンボード &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)に追加の説明に従って、アジャイルストーリーボードから直接表示できます。 チームはこのバックログを使用し、作業キューに優先順位を付けて管理します。
+* **[!UICONTROL スクラムアジャイルチーム ]:** タスクとイシューは、アジャイルチームに割り当てて、バックログに追加できます。
+* **[!UICONTROL カンバンアジャイルチーム ]:** タスクは、アジャイルチームに割り当てて、バックログに追加できます。 バックログは、[[!UICONTROL  バックログ ]をカンバンボード ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)に追加の説明に従って、アジャイルストーリーボードから直接表示できます。 チームはこのバックログを使用し、作業キューに優先順位を付けて管理します。
 
 タスクまたはイシューは、[!DNL Adobe Workfront] の任意の場所からチームに割り当てることができます（その後、チームバックログに追加されます）。 例えば、1 つのチームに複数のプロジェクトから作業割り当てを割り当てることができます。
 
@@ -105,8 +113,8 @@ ht-degree: 69%
 ストーリーを分類するには：
 
 1. 分類するストーリーが含まれているバックログに移動します。
-1. 分類するストーリーを選択し、**[!UICONTROL 分類ストーリー]**&#x200B;をクリックします。
-「[!UICONTROL 内訳ストーリー]」ダイアログボックスが表示されます。
+1. 分類するストーリーを選択し、**[!UICONTROL 分類ストーリー]**をクリックします。
+[!UICONTROL ストーリーを分類]ダイアログボックスが表示されます。
    ![ストーリーを分類ダイアログ](assets/backlog-breakdown-dialog.png)
 
 1. ストーリーの名前と見積りを指定し、ストーリーの準備ができたかどうかを選択します。
@@ -139,7 +147,7 @@ ht-degree: 69%
 
    * **タスクを作成するには：**「**[!UICONTROL ストーリー]**」をクリックします。
 
-   * **イシューを作成するには：**&#x200B;[!UICONTROL 「]&#x200B;**イシュー**」をクリックします。
+   * **イシューを作成するには：**[!UICONTROL 「]**イシュー**」をクリックします。
 
 1. 「**[!UICONTROL 新規ストーリー]**」または「**[!UICONTROL 新規イシュー]**」をクリックします。
 
@@ -196,7 +204,7 @@ ht-degree: 69%
 1. 「**[!UICONTROL 割り当て先を追加]**」をクリックします。
 1. タスクまたはイシューに割り当てるアジャイルチームの名前を入力し始め、ドロップダウンリストに表示されたら、チーム名をクリックします。
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-タスクまたはイシューは、チームバックログで利用できるようになりました。
+タスクまたはイシューがチームのバックログで利用できるようになりました。
 
 ## バックログとのストーリーの移動
 
@@ -207,9 +215,9 @@ ht-degree: 69%
 ### バックログからイテレーションまたはボードへのストーリーの移動
 
 1. アジャイルチームのバックログに移動します。
-1. イテレーションまたはカンバンボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]**&#x200B;をクリックします。
-ストーリーを[!UICONTROL &#x200B; カンバン &#x200B;] ボードに移動すると、[!UICONTROL &#x200B; ストーリーをカンバン &#x200B;] ボードに移動が表示されます。
-ストーリーをイテレーションに移動すると、「[!UICONTROL &#x200B; ストーリーをイテレーションに移動]」ダイアログボックスが表示されます。
+1. イテレーションまたはカンバンボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]**をクリックします。
+ストーリーを[!UICONTROL  カンバン ] ボードに移動すると、[!UICONTROL  ストーリーをカンバン ] ボードに移動が表示されます。
+ストーリーをある反復に移動させる場合、[!UICONTROL ストーリーを反復に移動]ダイアログボックスが表示されます。
    ![ストーリーを移動ダイアログ](assets/agile-backlog-addtoiteration.png)
 
 1. 次のいずれかの操作を行います。
@@ -224,7 +232,7 @@ ht-degree: 69%
 
 チームがまだストーリーに取り組む準備ができていないと判断した場合は、ストーリーをバックログに移動できます。
 
-詳しくは、[&#x200B; アジャイルストーリーの移動](../../agile/work-in-an-agile-environment/move-an-agile-story.md)を参照してください。
+詳しくは、[ アジャイルストーリーの移動](../../agile/work-in-an-agile-environment/move-an-agile-story.md)を参照してください。
 
 ### バックログからストーリーの書き出し {#export-stories-from-the-backlog}
 

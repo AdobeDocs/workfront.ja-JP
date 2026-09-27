@@ -10,24 +10,30 @@ role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3GEaVitQ5ATF7lE4cNeuSqbL6vMVg-WGKOeh8T66T8w
+TQID: 'https://experienceleague.adobe.com/3GEaVitQ5ATF7lE4cNeuSqbL6vMVg-WGKOeh8T66T8w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '676'
 ht-degree: 77%
-
 ---
-
 # カスタム条件の作成または編集
 
 {{preview-fast-release-general}}
@@ -80,10 +86,10 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
    * <span class="preview"> プレビュー環境で、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーの&#x200B;**編集**&#x200B;をクリックします。</span>
 
    実稼動環境のサンプル画像：
-   ![&#x200B; カスタム条件を編集](assets/custom-conditions-0825.png)
+   ![ カスタム条件を編集](assets/custom-conditions-0825.png)
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![&#x200B; カスタム条件を編集](assets/edit-conditions-082526.png)
+   ![ カスタム条件を編集](assets/edit-conditions-082526.png)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
 
@@ -133,11 +139,11 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    * ユーザーがプロジェクトを編集する場合：
 
-     ![&#x200B; プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
+     ![ プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
 
    * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![&#x200B; リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
+     ![ リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
 
      >[!NOTE]
      >

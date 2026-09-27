@@ -1,35 +1,41 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: お気に入りと最近使用した項目にアクセスするには、 [!DNL Slack] を使用
-description: Slack の  [!DNL Adobe Workfront]  をインストールし、設定したら、Workfront のお気に入りと最近使用した項目を表示し、Slack のどちらかのリストから項目にアクセスできます。
+title: '[!DNL Slack] からお気に入りと最近使用した項目にアクセス'
+description: Slack用に[!DNL Adobe Workfront]をインストールして設定したら、Workfrontのお気に入りと最近使用したアイテムを表示し、Slackからいずれかのリストからアイテムにアクセスできます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-TQID: https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE
+TQID: 'https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 323
-ht-degree: 95%
-
+source-wordcount: '324'
+ht-degree: 87%
 ---
-
 # [!DNL Slack] からお気に入りと最近使用した項目にアクセス
 
 [!DNL Adobe Workfront for Slack] のインストールと設定が完了したら、[!UICONTROL Workfront] のお気に入りと最近使用した項目を表示でき、[!DNL Slack] のリストからいずれかの項目にアクセスできます。
 
-[!DNL Workfront with Slack] の設定に関して詳しくは、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+[!DNL Workfront with Slack] の設定に関して詳しくは、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## アクセス要件
 
@@ -59,12 +65,12 @@ ht-degree: 95%
 [!DNL Slack] からお気に入りと最近使用した項目にアクセスする前に、以下を行います
 
 * [!DNL Workfront for Slack] の設定\
-   [!DNL Workfront for Slack] の設定の手順については、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+   [!DNL Workfront for Slack] の設定の手順については、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## [!DNL Slack] から[!UICONTROL お気に入り]リストにアクセス
 
 1. お使いの [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、[!UICONTROL メッセージ]フィールドに次のコマンドの入力を開始します：`/workfront favorites`
 
@@ -80,7 +86,7 @@ ht-degree: 95%
 ## [!DNL Slack] から最近使用した項目の一覧にアクセス
 
 1. お使いの [!DNL Slack] インスタンスにログインして、Slack から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] にログインの節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] にログインの節を参照してください。
 
 1. 任意のチャネルから、[!UICONTROL メッセージ]フィールドに次のコマンドの入力を開始します：`/workfront recent`
 

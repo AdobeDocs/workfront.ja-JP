@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
-TQID: https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY
+TQID: 'https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 98%
-
+source-wordcount: '1394'
+ht-degree: 100%
 ---
-
 # 2017.2 Beta 3 リリースアクティビティ
 
 このページでは、2017.2 Beta 2 リリースに関してプレビュー環境で使用できるすべての変更について説明します。 このページの機能は、2017年5月24日（PT）にプレビュー環境で使用できるようになりました。 2018年7月下旬から8月上旬（PT）までの間に、本番環境で利用可能になる予定です。
@@ -105,7 +111,7 @@ Workfront から ProofHQ へのユーザー同期について詳しくは、以�
 
 {#new-proof-creator-object-in-document-version-report-workfront}
 
-ドキュメントバージョンレポートを作成する際に、新しいプルーフ作成者オブジェクトが追加されました。このオブジェクトを使用すると、プルーフを作成したユーザーに関する情報をレポートできます。 
+ドキュメントバージョンレポートを作成する際に、新しいプルーフ作成者オブジェクトを使用できるようになりました。 このオブジェクトを使用すると、プルーフを作成したユーザーに関する情報をレポートできます。 
 
 ドキュメントバージョンレポートの新しいプルーフ作成者オブジェクトには、他のタイプのオブジェクトレポートで既存のユーザーオブジェクトに対して使用できるすべてのフィールドが含まれています。
 

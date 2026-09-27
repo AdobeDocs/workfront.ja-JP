@@ -7,22 +7,26 @@ feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h1895B7LDBKIhpJPrMROBoi-85LqrBUS1Rmw-m2n2Bo
+TQID: 'https://experienceleague.adobe.com/h1895B7LDBKIhpJPrMROBoi-85LqrBUS1Rmw-m2n2Bo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 12%
-
 ---
-
 # AI アシスタントの有効化と無効化
 
 >[!IMPORTANT]
@@ -83,7 +87,7 @@ Workfront管理者は、組織内のどのユーザーがAI アシスタント�
 {{step-1-to-setup}}
 
 1. 左側のナビゲーションで「**アクセスレベル**」を選択します。
-1. 目的のアクセスレベルを選択し、リストの上にある&#x200B;**編集** ![編集アイコン &#x200B;](assets/edit-icon.png) アイコンをクリックします。
+1. 目的のアクセスレベルを選択し、リストの上にある&#x200B;**編集** ![編集アイコン ](assets/edit-icon.png) アイコンをクリックします。
 1. 「**アクセスレベルを編集**」ボックスの「**追加の制限を設定…**」領域で、「**Workfront AI アシスタントを無効にする**」チェックボックスのチェックを外します。
 1. 「**保存**」をクリックします。
 1. AI アシスタントを有効にするアクセスレベルごとに、手順3～5を繰り返します。

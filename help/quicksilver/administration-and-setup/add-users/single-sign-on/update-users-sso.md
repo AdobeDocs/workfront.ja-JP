@@ -8,23 +8,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-TQID: https://experienceleague.adobe.com/2mU1xA5BWwaVNDZeLNbJPMgB6l3l6BSkmGjscht-G9Y
+TQID: 'https://experienceleague.adobe.com/2mU1xA5BWwaVNDZeLNbJPMgB6l3l6BSkmGjscht-G9Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 96%
-
 ---
-
 # シングルサインオンに対応するためのユーザーの更新
 
 <!-- Audited: 1/2024 -->
@@ -35,7 +40,7 @@ Adobe Workfront インスタンスでシングルサインオン（SSO）が有�
 
 既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
-Workfront と SSO システムの統合について詳しくは、[&#128279;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+Workfront と SSO システムの統合について詳しくは、[](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 
 ## アクセス要件
@@ -120,7 +125,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
    * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
-     ![&#x200B; ユーザーの更新CSV](assets/update-users-for-sso-csv-file-for-import.png)
+     ![ ユーザーの更新CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. レポートを CSV または TSV ファイルとしてコンピューターに保存します。
 

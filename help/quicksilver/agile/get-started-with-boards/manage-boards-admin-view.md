@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
+TQID: 'https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '635'
 ht-degree: 10%
-
 ---
-
 # ボードの管理者ビューの管理
 
 ボード管理者ビューには、アカウント内のすべてのボードのリストが含まれており、システム管理者はボード全体の詳細を簡単にスナップショットで確認することができます。これには、前回の更新日時、各ボードのカード数などが含まれます。
@@ -81,14 +88,14 @@ ht-degree: 10%
 
 1. フィルターを設定するには、次の手順に従います。
 
-   1. （オプション）「**カレンダー**」アイコン「![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-icon.png)」をクリックし、その期間内に最後に変更されたボードでフィルタリングする日付範囲を選択します。
+   1. （オプション）「**カレンダー**」アイコン「![ カレンダーアイコン ](assets/calendar-icon.png)」をクリックし、その期間内に最後に変更されたボードでフィルタリングする日付範囲を選択します。
 
-   1. （オプション）「**テンプレート**」セクションで、リストでフィルタリングするボードテンプレートのタイプを選択します。複数のテンプレートタイプを選択できます。
-ボード テンプレートの種類について詳しくは、[&#x200B; ボードの作成または編集](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)を参照してください。
+   1. （オプション）「**テンプレート**」セクションで、リストでフィルタリングするボードテンプレートのタイプを選択します。 複数のテンプレートタイプを選択できます。
+      ボード テンプレートの種類について詳しくは、[ ボードの作成または編集](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)を参照してください。
 
    1. （オプション）「**アーカイブ済み**」セクションで、アーカイブ済みボードとアーカイブされていないボードのどちらを表示するかを選択します。 複数のオプションを選択できます。
 
-      ![はアーカイブされたセクション &#x200B;](assets/is-archived-section.png)です
+      ![はアーカイブされたセクション ](assets/is-archived-section.png)です
 
 1. **フィルター** パネルの外側をクリックして閉じます。 フィルターの選択は、デフォルトのビューに変更されるまで、ボードリストに適用されたままになります。
 
@@ -115,7 +122,7 @@ ht-degree: 10%
 
 1. （オプション）フィールドが表示される順序を調整するには、フィールドの左側にある&#x200B;**ドラッグ** アイコンをクリックしたまま、新しい位置にドラッグします。
 
-   ![&#x200B; クリックしてドラッグ &#x200B;](assets/click-and-drag.png)
+   ![ クリックしてドラッグ ](assets/click-and-drag.png)
 
 1. **フィールドの表示と順序** パネルの外側をクリックして閉じます。 列の設定は、変更されるまでボードリストに適用されたままになります。
 
@@ -151,5 +158,5 @@ ht-degree: 10%
 
    >[!NOTE]
    >   
-   >掲示板リストのグループ化表示を変更すると、**グループ** アイコンの上に青いドットが表示され、現在のビューがデフォルトと異なることを示します。<br>
+   >掲示板リストのグループ化表示を変更すると、**グループ** アイコンの上に青いドットが表示され、現在のビューがデフォルトと異なることを示します。 <br>
    >グループ化を削除する場合は、**グループ化** パネルを開き、右上隅の「**すべてクリア**」を選択します。

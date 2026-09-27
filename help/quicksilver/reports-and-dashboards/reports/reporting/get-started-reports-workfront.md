@@ -9,27 +9,35 @@ feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+TQID: 'https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3259
-ht-degree: 93%
-
+source-wordcount: '3321'
+ht-degree: 94%
 ---
-
 # レポートの基本を学ぶ
 
 <!-- Audited: 12/2023 -->
@@ -122,8 +130,8 @@ Workfront で提供されるシステムレポートに加えて、組織のニ�
 
 Workfront でレポートを作成したユーザーはそのレポートのデフォルトの所有者になり、レポートは「マイ報告書」セクションに表示されます。 レポートの所有者は変更できません。
 
-レポートをコピーすると、自動的にコピーされたレポートの所有者になります。
-レポートのコピーについて詳しくは、[&#x200B; レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
+レポートをコピーしたユーザーは、自動的に、コピーしたレポートの所有者になります。
+レポートのコピーについては、[レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
 レポートの所有者は、「**入力者**」フィールドで確認できます。
 
@@ -193,7 +201,7 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 >[!IMPORTANT]
 >
 >「詳細」タブの情報の表示は、タイムゾーンに応じて「グラフ」タブとは異なる場合があります。\
->例えば、カリフォルニア州のユーザーが2月12日の午後9:30時（太平洋標準時）にタスクを完了したとします。 ニューヨークのユーザーがこのタスクの完了を含むレポートを表示すると、実際の完了日は2月13日にESTの午前12:30に完了したため、「詳細」タブと「グラフの詳細」の両方に2月13日として表示されます。 ただし、グラフでは、グラフ要素を展開するまで、2月12日のグループ化に含まれます。
+>例えば、カリフォルニア州のユーザーが2月12日の午後9時30分（太平洋標準時）にタスクを完了しました。 ニューヨークのユーザーがこのタスク完了を含むレポートを表示すると、実際の完了日は2月13日にEST午前12時30分に完了したため、「詳細」タブと「チャートの詳細」の両方に2月13日として表示されます。 ただし、グラフでは、グラフ要素を展開するまで、2月12日のグループ化に含まれます。
 
 ### 「概要」タブ {#summary-tab}
 
@@ -222,7 +230,7 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 >[!IMPORTANT]
 >
 >グラフ要素をクリックすると、展開された情報が、タイムゾーンに応じてグラフとは異なって表示される場合があります。\
->例えば、カリフォルニア州のユーザーが2月12日の午後9:30時（太平洋標準時）にタスクを完了したとします。 ニューヨークのユーザーがこのタスクの完了を含むレポートを表示すると、実際の完了日は2月13日にESTの午前12:30に完了したため、「詳細」タブと「グラフの詳細」の両方に2月13日として表示されます。 ただし、グラフでは、グラフ要素を展開するまで、2月12日のグループ化に含まれます。
+>例えば、カリフォルニア州のユーザーが2月12日の午後9時30分（太平洋標準時）にタスクを完了しました。 ニューヨークのユーザーがこのタスク完了を含むレポートを表示すると、実際の完了日は2月13日にEST午前12時30分に完了したため、「詳細」タブと「チャートの詳細」の両方に2月13日として表示されます。 ただし、グラフでは、グラフ要素を展開するまで、2月12日のグループ化に含まれます。
 
 グラフを含むレポートの作成について詳しくは、[レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。
 
@@ -277,8 +285,8 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 
 ## レポートの使用
 
-レポートを作成して他のユーザーと共有した後、これらのレポートの使用頻度を追跡できます。
-レポートの使用状況（表示頻度、ユーザー、表示されるダッシュボードなど）について詳しくは、[&#x200B; レポートの使用状況の概要](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)を参照してください。
+レポートを作成して他のユーザーと共有した後、それらのレポートの使用頻度を追跡できます。
+表示頻度、ユーザー別、表示するダッシュボードなど、レポートの使用状況については、[レポートの使用状況の概要](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)を参照してください。
 
 ## レポートを参照する際に使用される一般的な用語
 

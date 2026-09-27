@@ -5,21 +5,29 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-TQID: https://experienceleague.adobe.com/PHzqu-jXLyFz2jQsPek4iK9b30pa-BvQOiKxG6dOtGA
+TQID: 'https://experienceleague.adobe.com/PHzqu-jXLyFz2jQsPek4iK9b30pa-BvQOiKxG6dOtGA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Insights
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 8%
-
 ---
-
 # 2025年第3四半期ホーム機能の強化
 
 このページでは、2025年第3四半期リリースでプレビュー環境に加えられたすべてのホーム機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -52,7 +60,7 @@ ht-degree: 8%
 
 この機能強化の前は、この領域で従来のコメント機能を利用できました。
 
-詳しくは、[&#x200B; マイアップデート領域の使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)を参照してください。
+詳しくは、[ マイアップデート領域の使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)を参照してください。
 
 ## 自分の承認ウィジェットが期限内に自動的に並べ替えられるようになりました
 

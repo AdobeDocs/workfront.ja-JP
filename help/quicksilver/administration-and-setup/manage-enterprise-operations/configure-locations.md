@@ -8,20 +8,27 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: d0464b7f055b9351ba5c3353c7e806c51008e30b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 26%
-
 ---
-
 # 場所を設定
 
 {{preview-fast-release-general}}
 
 レートカードの担当業務に属性として割り当てることができるデフォルトの場所を設定できます。 これにより、評価カードが各場所の市場評価を正確に反映します。
 
-評価カードを使用すると、組織でプロジェクトの請求レートを簡単に管理できます。 詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)および[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+評価カードを使用すると、組織でプロジェクトの請求レートを簡単に管理できます。 詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)および[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 ## アクセス要件
 
@@ -60,7 +67,7 @@ ht-degree: 26%
 
 1. 場所の名前と説明を入力します。
 1. 行の外側をクリックして、場所を保存します。
-1. 実稼動環境の場所を削除するには、リストでその場所を選択し、**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
+1. 実稼動環境の場所を削除するには、リストでその場所を選択し、**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
    <span class="preview"> プレビュー環境で場所を削除するには、リストで場所を選択し、画面下部のアクションバーの&#x200B;[!UICONTROL **削除**]&#x200B;をクリックします。</span>
 
 >[!NOTE]

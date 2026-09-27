@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3TIYqk3kk01uVs5lFjjfTaMZa63DtNgl-YTc65WhfkQ
+TQID: 'https://experienceleague.adobe.com/3TIYqk3kk01uVs5lFjjfTaMZa63DtNgl-YTc65WhfkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '961'
 ht-degree: 95%
-
 ---
-
 # レポート内のカスタムフォームの参照
 
 <!-- Audited: 11/2024 -->
@@ -73,7 +79,7 @@ ht-degree: 95%
 
 カスタムフォームをレポートで参照するには、その前にカスタムフォームが存在する必要があります。
 
-カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームのコンテンツの参照
 
@@ -82,13 +88,13 @@ ht-degree: 95%
 >[!NOTE]
 >
 >複数のオプションを持つフィールドの場合、非表示のものも含め、レポートのフィルターとプロンプトですべてのオプションを使用できます。\
->複数のオプションを持つカスタムフィールドから選択肢を非表示にする方法について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+>複数のオプションを持つカスタムフィールドから選択肢を非表示にする方法について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 レポートを作成する場合は、フォームのオブジェクトタイプをフィールドソースとして使用し、カスタムフィールドの名前をフィールド名として使用します。
 
 例えば、**コンサルタント**&#x200B;というカスタムフィールドを含むすべてのプロジェクトにカスタムフォームを適用するとします。 Olivia Kim がコンサルタントであるプロジェクトをすべてリストするレポートを作成するには、**プロジェクト**&#x200B;のオブジェクトタイプをフィールドソースとして使用し、**コンサルタント**&#x200B;をフィールド名として使用します。 フィルタ修飾子を「**次に等しい**」に設定し、Olivia Kim と入力します。
 
-![&#x200B; コンサルタントフィルター](assets/qs-consultant-filter-example-350x126.png)
+![ コンサルタントフィルター](assets/qs-consultant-filter-example-350x126.png)
 
 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
@@ -117,13 +123,13 @@ ht-degree: 95%
 1. [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**列**」タブで、参照するカスタムフォームの適用先となるオブジェクトタイプを展開し、「**カテゴリ名**」をクリックします。\
    例えば、タスクに関連付けられているすべてのカスタムフォームを表示するには、「**タスク**」フィールドソースを展開して、「**カテゴリ名**」フィールド名をクリックします。\
-   ![&#x200B; カテゴリ名列](assets/qs-category-name-column-350x267.png)
+   ![ カテゴリ名列](assets/qs-category-name-column-350x267.png)
 
 オブジェクトに関連付けられている主要なカスタムフォームのみを表示するには：
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**列**」タブで、「**カテゴリ**」フィールドソースを展開し、「**名前**」フィールド名をクリックします。\
-   ![&#x200B; カテゴリ名](assets/qs-category-name-column-2-350x248.png)
+   ![ カテゴリ名](assets/qs-category-name-column-2-350x248.png)
 
 ### レポートフィルターでカスタムフォームを参照する {#reference-custom-forms-in-a-report-filter}
 
@@ -131,7 +137,7 @@ ht-degree: 95%
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**フィルター**」タブで、「**カテゴリ**」を展開し、「**名前**」をクリックします。\
-   ![&#x200B; カテゴリ名フィルター](assets/qs-categories-name-filter-350x311.png)
+   ![ カテゴリ名フィルター](assets/qs-categories-name-filter-350x311.png)
 
 1. 使用する条件修飾子を選択します。
 
@@ -156,7 +162,7 @@ ht-degree: 95%
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**フィルター**」タブで、「**カテゴリ**」フィールドソースを展開し、「**名前**」フィールド名をクリックします。\
-   ![&#x200B; カテゴリ名フィルター](assets/qs-category-name-filter-350x437.png)
+   ![ カテゴリ名フィルター](assets/qs-category-name-filter-350x437.png)
 
 1. 使用する条件修飾子を選択します。
 
@@ -181,4 +187,4 @@ ht-degree: 95%
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**グループ化**」タブで、「**カテゴリ**」を展開し、「**名前**」をクリックします。\
-   ![&#x200B; カテゴリ名のグループ化](assets/qs-category-name-grouping-350x373.png)
+   ![ カテゴリ名のグループ化](assets/qs-category-name-grouping-350x373.png)

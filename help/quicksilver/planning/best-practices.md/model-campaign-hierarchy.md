@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 2%
-
 ---
-
 # 成功を設計する：キャンペーン階層のモデル化
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ Workfront計画では、明確さと拡張性を維持するために、実績�
 
 * **レベル 1: キャンペーン （Workfront計画）**
 
-   * **フォーカス：**&#x200B;長期的な戦略的支柱と年間の取り組みを定義します。 例えば、「FY26 グローバルブランド認知」という組織のイニシアチブを定義します。 特定の期間における優先事項です。 この取り組みを支援する施策を構築します。
+  * **フォーカス：**&#x200B;長期的な戦略的支柱と年間の取り組みを定義します。 例えば、「FY26 グローバルブランド認知」という組織のイニシアチブを定義します。 特定の期間における優先事項です。 この取り組みを支援する施策を構築します。
 
-   * このレベルの&#x200B;**ペルソナ：**&#x200B;の関係者は、マーケティング責任者、マーケティング担当バイスプレジデント、またはその他の戦略的リードです。
+  * このレベルの&#x200B;**ペルソナ：**&#x200B;の関係者は、マーケティング責任者、マーケティング担当バイスプレジデント、またはその他の戦略的リードです。
 
   詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 * **レベル 2: チャネル戦術（Workfront計画）**
 
-   * **フォーカス：**&#x200B;特定のチャネルに対する「何を」概要を説明する運用概要を定義します。 これは、戦略的意図を示す最後のレイヤーとなり、作業が始まります。 例えば、「第1四半期ソーシャルメディアブリッツ」戦術を策定します。 それをキャンペーンと組み合わせることができます。
+  * **フォーカス：**&#x200B;特定のチャネルに対する「何を」概要を説明する運用概要を定義します。 これは、戦略的意図を示す最後のレイヤーとなり、作業が始まります。 例えば、「第1四半期ソーシャルメディアブリッツ」戦術を策定します。 それをキャンペーンと組み合わせることができます。
 
-   * **ペルソナ：**&#x200B;主な関係者は、マーケティングオペレーションリーダー、チャネルリーダー、キャンペーンマネージャーです。
+  * **ペルソナ：**&#x200B;主な関係者は、マーケティングオペレーションリーダー、チャネルリーダー、キャンペーンマネージャーです。
 
 * **レベル 3: プロジェクト（計画およびWorkfront）**
 
-   * **フォーカス：**&#x200B;最終的に取り組みを達成するエクスペリエンスやアクティビティを正確に実行します。 成果物の中には、ソーシャル投稿、メール、web ページなど、特定のものもあります。
+  * **フォーカス：**&#x200B;最終的に取り組みを達成するエクスペリエンスやアクティビティを正確に実行します。 成果物の中には、ソーシャル投稿、メール、web ページなど、特定のものもあります。
 
-   * **実装：** Planningで戦術を作成し、それらをWorkfrontの&#x200B;**プロジェクト**&#x200B;に直接リンクできます。この場合、個々の成果物はタスクと問題として管理されます。
+  * **実装：** Planningで戦術を作成し、それらをWorkfrontの&#x200B;**プロジェクト**&#x200B;に直接リンクできます。この場合、個々の成果物はタスクと問題として管理されます。
 
-   * **ペルソナ：**&#x200B;主な関係者は、クリエイター、個人貢献者、イニシアチブをサポートする作業を担当する人です。
+  * **ペルソナ：**&#x200B;主な関係者は、クリエイター、個人貢献者、イニシアチブをサポートする作業を担当する人です。
 
 ### 戦略的な拡大：レベルを上げる方法
 
@@ -102,7 +114,7 @@ Workfront計画では、明確さと拡張性を維持するために、実績�
 >年間5,000以上のアクティビティを制作している場合は、個々の成果物をWorkfrontに保管しましょう。
 >
 >Planningで膨大なエクスペリエンス記録を管理すると、データが蓄積され、戦略的な可視性が不明瞭になる可能性があります。
->効率を最大化するために、この広範なガイドラインをお勧めします：
+>効率を最大化するための広範なガイドラインを以下に示します。
 >
 >* 「なぜ」と「何」に対するプランニングの使用
 >* Workfrontを使用して、大量の「方法」を作成します。
@@ -111,7 +123,7 @@ Workfront計画では、明確さと拡張性を維持するために、実績�
 
 エンタープライズグレードのマーケティング記録システムは、単一のワークスペースに構築されていません。 レコードタイプを自然な重心で管理する「ハブアンドスポーク」アーキテクチャを使用します。
 
-詳細については、「[戦略的ホームをロールアウト：30日間のランチパッド &#x200B;](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)」を参照してください。
+詳細については、「[戦略的ホームをロールアウト：30日間のランチパッド ](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)」を参照してください。
 
 ハブアンドスポーク方式でアーキテクチャを構築するには、次の要素を作成する必要があります。
 

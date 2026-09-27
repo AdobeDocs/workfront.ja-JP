@@ -3,30 +3,36 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: タイムシートと時間の環境設定
-description: ' [!DNL Adobe Workfront]  管理者は、 [!DNL Workfront]  でタイムシートと時間の環境設定を指定して、タイムシートに事前入力できる項目とユーザーが時間を記録できる項目を定義できます。'
+description: '[!DNL Adobe Workfront] 管理者は、[!DNL Workfront] でタイムシートと時間の環境設定を指定して、タイムシートに事前入力できる項目とユーザーが時間を記録できる項目を定義できます。'
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-TQID: https://experienceleague.adobe.com/qMIf5ZqLEhhUKcsoKe8dB0bT08K-aDKzvhI-eJm6-DU
+TQID: 'https://experienceleague.adobe.com/qMIf5ZqLEhhUKcsoKe8dB0bT08K-aDKzvhI-eJm6-DU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1418
+source-wordcount: '1418'
 ht-degree: 95%
-
 ---
-
 # タイムシートおよび時間の環境設定の指定
 
 <!--Audited: 06/2025-->
@@ -85,7 +91,7 @@ ht-degree: 95%
 
 1. （オプション）「**システムのタイムシートおよび時間設定**」検索ボックスにグループの名前を入力し、リストに表示されたら選択します。
 
-   ![&#x200B; グループボックスを検索](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![ グループボックスを検索](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    タイムシートと時間の環境設定ページは、選択したグループの環境設定で更新されます。 グループレベルの環境設定を変更するには、システムレベルの環境設定のロックを解除する必要があります。 詳細については、この記事の[グループのタイムシートと時間の環境設定のロックを解除](#unlock-timesheet-and-hour-preferences-for-groups)の節を参照してください。
 
@@ -220,8 +226,8 @@ ht-degree: 95%
 
 1. 次のいずれかの操作を行います。
 
-   * グループ管理者が自分のグループの環境設定を設定できるようにするには、「**ロック解除**」トグル「![&#x200B; ロック解除](assets/unlock-toggle-button.png)」をクリックしてロックを解除します。
-   * すべてのグループで環境設定を使用する場合は、トグルがロックされていることを確認します![&#x200B; ロックされた環境設定トグル &#x200B;](assets/locked-preference-toggle.png) （これはデフォルトです）。
+   * グループ管理者が自分のグループの環境設定を設定できるようにするには、「**ロック解除**」トグル「![ ロック解除](assets/unlock-toggle-button.png)」をクリックしてロックを解除します。
+   * すべてのグループで環境設定を使用する場合は、トグルがロックされていることを確認します![ ロックされた環境設定トグル ](assets/locked-preference-toggle.png) （これはデフォルトです）。
 
      >[!IMPORTANT]
      >

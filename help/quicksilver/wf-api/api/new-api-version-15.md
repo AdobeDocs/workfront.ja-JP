@@ -7,26 +7,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-TQID: https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM
+TQID: 'https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2294
-ht-degree: 100%
-
+source-wordcount: '2294'
+ht-degree: 99%
 ---
-
 # API バージョン 15 の新機能
 
 Adobe Workfront は、2022年6月14日（PT）に API バージョン 15 をリリースしました。 API バージョン 15 では、バージョン 14 から以下の変更が行われました。
@@ -174,7 +181,7 @@ Adobe Workfront は、2022年6月14日（PT）に API バージョン 15 をリ�
             </p>
           </li>
           <li>
-            <p><b>GET</b>
+            <p><b>取得</b>
             </p>
           </li>
           <li>
@@ -450,7 +457,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
             </p>
           </li>
           <li>
-            <p><b>顧客</b>
+            <p><b>customer</b>
             </p>
           </li>
           <li>
@@ -526,7 +533,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
             </p>
           </li>
           <li>
-            <p><b>COUNT</b>
+            <p><b>カウント</b>
             </p>
           </li>
           <li>
@@ -534,7 +541,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
             </p>
           </li>
           <li>
-            <p><b>GET</b>
+            <p><b>取得</b>
             </p>
           </li>
           <li>
@@ -1042,7 +1049,7 @@ Group オブジェクトにフラグ `DATA_EXTENDIBLE` が追加されました
             </p>
           </li>
           <li>
-            <p><b>顧客</b>
+            <p><b>customer</b>
             </p>
           </li>
           <li>

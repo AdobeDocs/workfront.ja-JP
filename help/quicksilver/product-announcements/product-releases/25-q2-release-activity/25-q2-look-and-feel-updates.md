@@ -7,26 +7,33 @@ recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/610vjG90npxW10XAa3zCKGvHligA8pOANS99oR-Lh4I
+TQID: 'https://experienceleague.adobe.com/610vjG90npxW10XAa3zCKGvHligA8pOANS99oR-Lh4I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 991
+source-wordcount: '991'
 ht-degree: 10%
-
 ---
-
 # 2025年第 2 四半期のリリース期間中のルックアンドフィールの更新
 
 このページでは、2025年第 2 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明しています。
@@ -48,7 +55,7 @@ Workfrontの他の領域のデザインに合わせて、複数のレポート�
 * カスタムフォーム
 * 休暇
 
-詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 
 ## Google Drive ドキュメント統合ダイアログのルックアンドフィール更新
@@ -97,7 +104,7 @@ Google Drive ドキュメント統合を使用してドキュメントの新し�
 
 Workfrontの他の領域のデザインに合わせて、設定領域で費用タイプを追加および編集するためのダイアログのルックアンドフィールを更新しました。
 
-詳しくは、[&#x200B; カスタム費用タイプの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
+詳しくは、[ カスタム費用タイプの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
 
 ## 「リスクタイプを編集」ボックスのルックアンドフィールの更新
 
@@ -107,7 +114,7 @@ Workfrontの他の領域のデザインに合わせて、設定領域で費用�
 
 Workfrontの「設定」領域で既存のリスクタイプを更新する際の「リスクタイプを編集」ボックスのルックアンドフィールが更新されました。 新しいデザインは現在、Workfrontの他の地域と一致しています。
 
-詳しくは、[&#x200B; リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
+詳しくは、[ リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
 
 ## 「新しいリスク タイプ」ボックスのルックアンドフィールの更新
 
@@ -117,7 +124,7 @@ Workfrontの「設定」領域で既存のリスクタイプを更新する際�
 
 Workfrontの「設定」領域に新しいリスクタイプを追加すると、新しい「リスクタイプ」ボックスのルックアンドフィールが更新されます。 新しいデザインは現在、Workfrontの他の地域と一致しています。
 
-詳しくは、[&#x200B; リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
+詳しくは、[ リスクタイプの編集と作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
 
 ## プロジェクトの「キューの詳細」エリアのルックアンドフィールの更新
 
@@ -152,7 +159,7 @@ Workfrontの他の領域のデザインに合わせて、プロジェクトの�
 
 Workfrontの他の領域のデザインに合わせて、設定領域のマイルストーンパスリストのルックアンドフィールを更新しました。
 
-詳しくは、[&#x200B; マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+詳しくは、[ マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 
 ## プロジェクトビューでのプロジェクトマイルストーンパスのビューの更新
 
@@ -164,7 +171,7 @@ Workfrontの他の領域のデザインに合わせて、設定領域のマイ�
 
 今回のアップデートでは、各マイルストーンのカラーとカラーコードに関する情報も追加されました。
 
-詳しくは、[&#x200B; マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+詳しくは、[ マイルストーンパスの作成](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 
 ## ドキュメントメールの一時的なルックアンドフィールの変更
 
@@ -189,4 +196,4 @@ Workfrontの他の領域のデザインに合わせて、設定領域のマイ�
 * 「システム全体で表示」オプションに「システム内のすべてのユーザーが表示できる」と表示されるようになりました。 このオプションは、以前と同じように機能します。
 * 高度な共有設定にアクセスするための新しいアイコンがあります。
 
-共有ダイアログの場所について詳しくは、[&#x200B; オブジェクトへの権限の付与と要求](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)を参照してください。
+共有ダイアログの場所について詳しくは、[ オブジェクトへの権限の付与と要求](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)を参照してください。

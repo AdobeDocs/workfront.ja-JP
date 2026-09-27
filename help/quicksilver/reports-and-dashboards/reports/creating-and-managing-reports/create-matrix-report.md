@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo
+TQID: 'https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1091
+source-wordcount: '1091'
 ht-degree: 98%
-
 ---
-
 # マトリックスレポートの作成
 
 マトリックスレポートは、概要情報を集計表形式で表示するので、従来のレポートでのリスト表示よりも見やすくなります。
@@ -35,14 +40,14 @@ ht-degree: 98%
 
 例えば、3 か月の期間に記録された時間を表示する時間レポートを作成し、その時間を入力したユーザーに基づいて、および月ごとおよび週ごとにレポートを整理することができます。
 
-![&#x200B; レポートマトリックスの概要](assets/report-matrix-overview-350x123.png)
+![ レポートマトリックスの概要](assets/report-matrix-overview-350x123.png)
 
 ## マトリックスレポートでのデータの表示方法
 
 マトリックスレポートの情報は、常に数値として表示されます。 ほとんどの場合、数値を含む列は、マトリックスレポートの表示に最適です（記録された時間数や実際のコストなど）。
 
 ただし、次の図に示すように、その他の列（「ステータス」など）もマトリックスレポートに表示できます。\
-![&#x200B; マトリックスの状態](assets/report-matrix-status-350x73.png)
+![ マトリックスの状態](assets/report-matrix-status-350x73.png)
 
 ## アクセス要件
 
@@ -138,8 +143,9 @@ ht-degree: 98%
      >   * 数値および通貨の値のカスタムデータフィールドは、すべてのタスク（親、子、親の親、スタンドアロンタスク）を集計します。 「予定時間数」または「実際の時間数」を「**値**」列に表示するためにマトリックスレポートを作成する場合は、親オブジェクト（親タスクなど）の時間またはコストの情報はマトリックスレポートに表示されないことに注意してください。 親オブジェクトの時間を確認するには、「**詳細**」タブを表示する必要があります。
      >   
      >   
-     >**条件付きルール：**&#x200B;集計される値の書式設定ルールを設定します。\
+     >
 
+   **条件付きルール：**&#x200B;集計される値の書式設定ルールを設定します。\
    ルールを追加した後、そのルールに一致するフィールドの表示方法について、フィールドとテキストのスタイルを定義できます。 ルールの定義が完了したら「**ルールを追加**」をクリックし、「**完了**」を選択してルールを保存します。
 
 1. 「**フィルター**」タブをクリックすることで、レポートに表示する情報を定義できます。

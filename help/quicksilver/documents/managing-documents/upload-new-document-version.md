@@ -8,22 +8,29 @@ feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/4ehmHIFLtIflKs9qVvg5AnZApX-n27xNKvGvVfoQMOs
+TQID: 'https://experienceleague.adobe.com/4ehmHIFLtIflKs9qVvg5AnZApX-n27xNKvGvVfoQMOs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '586'
 ht-degree: 72%
-
 ---
-
 # ドキュメントの新しいバージョンをアップロードする
 
 以前に Adobe Workfront にアップロードしたドキュメントの新しいバージョンを追加できます。
@@ -82,7 +89,7 @@ ht-degree: 72%
 1. ドキュメントがアップロードされるドキュメントエリアに移動します。
 1. デスクトップまたは別のブラウザータブから、ドキュメントの新しいバージョンを Workfront の既存のバージョンの上にドラッグします。
 
-   ![&#x200B; ドキュメントのバージョンをドラッグ&amp;ドロップ &#x200B;](assets/drag-drop-doc-qs-350x145.png)
+   ![ ドキュメントのバージョンをドラッグ&amp;ドロップ ](assets/drag-drop-doc-qs-350x145.png)
 
    新しいバージョンをドラッグする際に、Workfront ドキュメントフォルダーの上にポインタを合わせると、そのバージョンを開くことができます。 次に、ファイルを画面の上部または下部にドラッグして、上下にスクロールできます。
 
@@ -112,7 +119,7 @@ ht-degree: 72%
 1. ドキュメントがアップロードされるドキュメントエリアに移動します。
 1. Workfrontの既存のバージョンの上に、新しいバージョンのドキュメントをドラッグします。
 
-   ![&#x200B; ドキュメントのバージョンをドラッグ&amp;ドロップ &#x200B;](assets/drag-drop-new-doc.png)
+   ![ ドキュメントのバージョンをドラッグ&amp;ドロップ ](assets/drag-drop-new-doc.png)
 
 1. 「**ドキュメント**」タブの既存のファイルの上に新しいバージョンをドロップします。
 
@@ -121,7 +128,7 @@ ht-degree: 72%
 ### 詳細メニューを使用して新しいバージョンを追加します。
 
 1. 新しいバージョンを追加するドキュメントを選択します。
-1. 右側の「バージョンを表示」アイコン ![&#x200B; バージョンを表示アイコン &#x200B;](assets/show-versions.png)を開きます。
+1. 右側の「バージョンを表示」アイコン ![ バージョンを表示アイコン ](assets/show-versions.png)を開きます。
 1. 「**新しいバージョンを追加**」をクリックします。
 
    ![新しいバージョンを追加](assets/new-version-new-doc.png)

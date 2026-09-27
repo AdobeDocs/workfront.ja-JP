@@ -9,20 +9,27 @@ feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-mf4ubX7c-siYROEoY3IQzHp94lJ1nwsR1UMpD2y-sk
+TQID: 'https://experienceleague.adobe.com/-mf4ubX7c-siYROEoY3IQzHp94lJ1nwsR1UMpD2y-sk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 205
+source-wordcount: '205'
 ht-degree: 5%
-
 ---
-
 # タイムシートの週の作業開始日の修正
 
 <!--Audited: 5/2025-->
@@ -36,7 +43,7 @@ ht-degree: 5%
 
 ## ソリューション
 
-Workfront管理者は、[&#x200B; タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)の説明に従って、タイムシート プロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfrontの管理者は、タイムシートの開始日を、予定される週次の開始日以外の日に定義することができます。 タイムシート プロファイルの開始日がタイムシートの開始日を確認します。
+Workfront管理者は、[ タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)の説明に従って、タイムシート プロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfrontの管理者は、タイムシートの開始日を、予定される週次の開始日以外の日に定義することができます。 タイムシート プロファイルの開始日がタイムシートの開始日を確認します。
 
 タイムシートが手動で作成された場合、タイムシートの週の開始日には、ユーザーのプロファイルで電子メールロケール設定が使用されます。詳しくは、[個人設定の設定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 

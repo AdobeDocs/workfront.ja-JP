@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Microsoft Teams] での  [!DNL Adobe Workfront]  項目の検索および共有'
-description: ' [!DNL Microsoft Teams] の任意の [!DNL Adobe WorkfrontWorkfront] チャネルで [!DNL Workfront] 項目を検索し、これらの項目をチームのメンバーと共有できます。'
+title: '[!DNL Microsoft Teams] での [!DNL Adobe Workfront] 項目の検索および共有'
+description: '[!DNL Microsoft Teams] の任意の [!DNL Adobe WorkfrontWorkfront] チャネルで [!DNL Workfront] 項目を検索し、これらの項目をチームのメンバーと共有できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-TQID: https://experienceleague.adobe.com/LR2Je81cHRzkXMS9cyaLF4b01bN8PGmu2zC6aAqptrM
+TQID: 'https://experienceleague.adobe.com/LR2Je81cHRzkXMS9cyaLF4b01bN8PGmu2zC6aAqptrM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '504'
 ht-degree: 100%
-
 ---
-
 # [!DNL Microsoft Teams] での [!DNL Adobe Workfront] 項目の検索および共有
 
 >[!IMPORTANT]

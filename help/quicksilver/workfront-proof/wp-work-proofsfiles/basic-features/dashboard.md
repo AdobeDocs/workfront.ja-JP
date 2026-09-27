@@ -3,23 +3,31 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
-title: ' [!DNL Workfront Proof] のダッシュボード'
-description: ダッシュボードは、 [!DNL Workfront Proof] アカウントにログインすると最初に表示されるページです。 ここには、 [!DNL Workfront Proof] アカウントでのアクティビティの概要が表示され、 [!DNL Workfront Proof] 内の他のセクションや機能へのクイックリンクがあります。
+title: '[!DNL Workfront Proof] のダッシュボード'
+description: ダッシュボードは、[!DNL Workfront Proof] アカウントにログインすると最初に表示されるページです。 ここには、[!DNL Workfront Proof] アカウントでのアクティビティの概要が表示され、[!DNL Workfront Proof] 内の他のセクションや機能へのクイックリンクがあります。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-TQID: https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8
+TQID: 'https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '996'
 ht-degree: 97%
-
 ---
-
 # [!DNL Workfront Proof] のダッシュボード
 
 >[!IMPORTANT]
@@ -48,13 +56,13 @@ ht-degree: 97%
 
 ![ダッシュボード](assets/dashboard-350x495.png)
 
-アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。 詳しくは、[&#x200B; [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
+アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。 詳しくは、[ [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
 
 アカウントをブランド化しない場合、[!DNL Workfront Proof] ロゴと標準カラーが表示されます。
 
 ## ヘッダーメニュー
 
-![&#x200B; ヘッダーメニュー](assets/header-menu-350x150.png)
+![ ヘッダーメニュー](assets/header-menu-350x150.png)
 
 ### ユーザー名
 
@@ -102,7 +110,7 @@ ht-degree: 97%
    * 新規ユーザー (12)
    * 新規グループ (13)
 
-![新しいプルーフ &#x200B;](assets/new-proof-350x256.png)
+![新しいプルーフ ](assets/new-proof-350x256.png)
 
 ## ダッシュボードメニュー
 
@@ -121,7 +129,7 @@ ht-degree: 97%
 * 新規タグを作成
 * タグを管理 (2)
 
-![&#x200B; タグを編集](assets/edit-tags-350x204.png)
+![ タグを編集](assets/edit-tags-350x204.png)
 
 ## 指定の場所に移動
 
@@ -143,7 +151,7 @@ ht-degree: 97%
 * アーカイブ解除（プルーフのみ）
 * オーナーを変更
 
-![その他のアクション &#x200B;](assets/more-actions-350x303.png)
+![その他のアクション ](assets/more-actions-350x303.png)
 
 ### 削除
 
@@ -173,7 +181,7 @@ ht-degree: 97%
 * その他の組織のフォルダー (10)（他の組織と共有した項目が見つかります）
 * タグ (11)
 
-![&#x200B; サイドバー](assets/sidebar-350x426.png)
+![ サイドバー](assets/sidebar-350x426.png)
 
 サイドバーについて詳しくは、サイドバーのヘルプページを参照してください。
 
@@ -202,7 +210,7 @@ ht-degree: 97%
 * 管理対象のプルーフ - 自分が所有したり自分に委任されたりしたアクティブなプルーフの合計数
 * 決定待ちのプルーフ - 決定を必要とするアクティブなプルーフの合計数
 
-  ![&#x200B; ダッシュボードの概要](assets/dashboard-overview-350x169.png)
+  ![ ダッシュボードの概要](assets/dashboard-overview-350x169.png)
 
 ここでは、自分またはレビュアーによる直接的なアクションが必要なプルーフの数をすぐに確認できます。
 
@@ -263,4 +271,4 @@ ht-degree: 97%
 1. **[!UICONTROL アクション]**&#x200B;メニュー (1) をクリックします。
 1. ドロップダウンメニューから「**[!UICONTROL プルーフの詳細を表示]**」(2) を選択します。
 
-   ![最近のアクティビティ &#x200B;](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![最近のアクティビティ ](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VBP6x-FSAx2qHJ337azl-Dt4kc8SL9YYL0P4iEZlHJ8
+TQID: 'https://experienceleague.adobe.com/VBP6x-FSAx2qHJ337azl-Dt4kc8SL9YYL0P4iEZlHJ8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: '674'
 ht-degree: 97%
-
 ---
-
 # レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示する
 
 レポートやリストのオブジェクトに関連付けられたユーザー、担当業務、チームを表示し、それらをフィルターで参照することができます。 オブジェクトに関連付けられたユーザー、担当業務、またはチームでグループ化することはできません。
@@ -64,7 +68,7 @@ ht-degree: 97%
 
 プロジェクトに関連付けられているすべてのユーザーをプロジェクトリストまたはレポートのビューに表示できます。 これには、プロジェクトの「ユーザー」セクションに一覧表示されているすべてのユーザーが含まれます。 また、プロジェクトのタスクやイシューに割り当てられた際に関連付けられた役割を、プロジェクトレポートで表示することもできます。
 
-![&#x200B; ユーザーと役割の情報を含むプロジェクト &#x200B;](assets/project-with-user-and-role-information-report-350x100.png)
+![ ユーザーと役割の情報を含むプロジェクト ](assets/project-with-user-and-role-information-report-350x100.png)
 
 プロジェクト上のすべてのユーザーとその役割を表示するプロジェクトレポートの作成について詳しくは、[表示：担当業務を持つプロジェクトユーザーのリスト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)を参照してください。
 
@@ -74,7 +78,7 @@ ht-degree: 97%
 
 「割り当て」フィールドをビューに追加すると、タスクに割り当てられているすべてのユーザー、役割、またはチームをタスクリストまたはレポートのビューに表示できます。
 
-![割り当てフィールド &#x200B;](assets/assignments-field-task-view-350x124.png)
+![割り当てフィールド ](assets/assignments-field-task-view-350x124.png)
 
 タスクフィルター内の次のフィールドを参照すると、タスクに割り当てられたユーザー、担当業務、またはチームでフィルタリングできます。
 
@@ -82,7 +86,7 @@ ht-degree: 97%
 * 割り当てられた役割
 * チーム
 
-![&#x200B; タスクフィルターでのユーザーと役割の割り当て](assets/assignment-users-roles-task-filter-350x334.png)
+![ タスクフィルターでのユーザーと役割の割り当て](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## イシューに割り当てられているすべてのユーザー、担当業務、またはチームを表示する
 

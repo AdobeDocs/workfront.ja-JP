@@ -7,20 +7,29 @@ description: このページでは、2021年4月5日（PT）の週にプレビ�
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+TQID: 'https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 100%
-
 ---
-
 # Adobe Workfront Goals 21.2 リリースアクティビティ：2021年4月5日（PT）の週
 
 このページでは、2021年4月5日（PT）の週にプレビュー環境に対して Adobe Workfront Goals 21.2 リリースで行われたすべての機能強化について説明します。 これらの機能強化は、21.2 の第 1 四半期に本番環境で利用可能になる予定です。
@@ -41,15 +50,15 @@ Workfront で、関連する目標に関する情報を含む目標レポート�
 
 * 目標レポートを作成します。 これは、レポート領域の新しいレポートオブジェクトです。 目標レポートには、目標に関する様々な情報（名前、所有者、日付、進行状況など）を表示できます。これには、次の情報が含まれます。
 
-   * 目標階層：すべての親目標と、それらが相互にどのようにつながっているかを表示します。
-   * 企業目標である：組織が目標の所有者として指定されているかどうかを示します。
-   * 所有者のタイプ：目標の所有者がユーザー、チーム、グループのどれであるかを示します。
+  * 目標階層：すべての親目標と、それらが相互にどのようにつながっているかを表示します。
+  * 企業目標である：組織が目標の所有者として指定されているかどうかを示します。
+  * 所有者のタイプ：目標の所有者がユーザー、チーム、グループのどれであるかを示します。
 
 * 次のような目標情報を表示するプロジェクトレポートを作成します。
 
-   * 目標階層
-   * 目標：プロジェクトに関連付けられているすべての目標を表示するコレクションフィールドです。
-   * リンクされた目標の数：プロジェクトに関連付けられている目標の数。
+  * 目標階層
+  * 目標：プロジェクトに関連付けられているすべての目標を表示するコレクションフィールドです。
+  * リンクされた目標の数：プロジェクトに関連付けられている目標の数。
 
 プロジェクトの目標情報を見つける方法については、[Adobe Workfront Goals の目標にプロジェクトを追加](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 

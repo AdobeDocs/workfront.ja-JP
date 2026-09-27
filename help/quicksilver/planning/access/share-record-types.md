@@ -6,15 +6,27 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1530'
 ht-degree: 6%
-
 ---
-
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
@@ -33,10 +45,10 @@ Adobe Workfront Planningでレコードを操作する際に、レコードタ�
 >[!IMPORTANT]
 >
 >ワークスペースへのアクセス権を持つユーザーは、ワークスペース内のすべてのレコードタイプに対する少なくとも表示権限を自動的に取得します。
-> ビューを共有すると、レコードタイプに対するユーザー権限が付与されません。レコードタイプに対するユーザー権限を付与できるのは、共有ワークスペースのみです。
+>ビューを共有しても、レコードタイプに対するユーザー権限は付与されません。 レコードタイプに対するユーザー権限を付与できるのは、共有ワークスペースのみです。
 >
 >* Workfront Planningでのオブジェクトの共有に関する一般的な情報については、[Adobe Workfront Planningでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)も参照してください。
->* 詳しくは、この記事の「[&#x200B; レコードタイプを共有する際の考慮事項](#considerations-when-sharing-record-types)」の節を参照してください。
+>* 詳しくは、この記事の「[ レコードタイプを共有する際の考慮事項](#considerations-when-sharing-record-types)」の節を参照してください。
 
 ## アクセス要件
 
@@ -85,7 +97,7 @@ Adobe Workfront Planningでレコードを操作する際に、レコードタ�
 </table>
 
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -185,7 +197,7 @@ Old:
 
 * グローバルなレコードタイプは、元のワークスペースと追加された他のセカンダリワークスペースの両方から共有できます。
 
-  詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 
 ## レコードタイプへの権限の共有
@@ -224,7 +236,7 @@ Old:
    1. **このレコードタイプ**&#x200B;へのアクセス権を付与フィールドで、ワークスペースに対して付与する権限レベルとは異なる権限レベルを付与するユーザー、チーム、グループ、会社、または担当業務を追加します。
    1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。
 
-      ![&#x200B; レコードタイプをグループ &#x200B;](assets/share-record-type-with-group-expanding-arrow-highlighted.png)と共有
+      ![ レコードタイプをグループ ](assets/share-record-type-with-group-expanding-arrow-highlighted.png)と共有
 
    1. 権限レベルの選択：
 
@@ -234,7 +246,7 @@ Old:
    >* ユーザーに、ワークスペースに対する権限よりもレコードタイプに対する権限を付与することはできません。
    >* ユーザーがワークスペースに対する管理権限を持っている場合、レコードタイプに対する管理よりも少ない権限をユーザーに付与することはできません。
    >* ユーザーがワークスペースに対するContribute権限を持っている場合は、レコードタイプに対する権限を減らすことができます。
-   > 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+   > 詳しくは、[Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
    >* レコードタイプをユーザーと共有すると、そのユーザーの主な担当業務とその電子メールもフィールドに表示されます。 ユーザーの電子メールを表示するには、アクセスレベルのUsers オブジェクトで「連絡先情報を表示」設定を有効にする必要があります。
 
 1. ワークスペースへのアクセス権を持たないユーザーにレコードタイプを表示するアクセス権を付与するには、「**このビューへのアクセス権を付与**」フィールドで、ユーザー、グループ、チーム、会社、またはジョブロールの名前を入力し始め、リストに表示されたらクリックします。
@@ -268,7 +280,7 @@ Old:
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; レコードタイプ共有ドロップダウンのオプションを削除](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![ レコードタイプ共有ドロップダウンのオプションを削除](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 

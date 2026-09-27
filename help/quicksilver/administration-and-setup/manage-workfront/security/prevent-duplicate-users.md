@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 96%
-
+source-wordcount: '577'
+ht-degree: 99%
 ---
-
 # メールアドレスの重複を防止
 
 Adobe Workfront で新規ユーザーを作成する場合、大文字と小文字でメールアドレスが異なる場合でも（例えば、JohnDoe@example.com と johndoe@example.com など）、別のユーザーがすでに使用しているメールアドレスを使用できません。 さらに、将来の認証強化に備えて、すべてのユーザーが Workfront インスタンスで一意のメールアドレスを持っていることを確認してください。
@@ -63,8 +69,8 @@ Adobe Workfront で新規ユーザーを作成する場合、大文字と小文�
 
 ## Workfront インスタンスの既存ユーザーのメールアドレスを更新
 
-Workfront管理者は、大文字と小文字が異なるメールアドレスが一致する既存のユーザーを更新する必要があります。
-Workfront インスタンス内の重複するメールアドレスを修正するには：
+Workfront 管理者は、大文字と小文字が異なるだけで一致するメールアドレスを持つ既存のユーザーを更新する必要があります。
+Workfront インスタンス内の重複したメールアドレスを修正するには、次の手順を実行します。
 
 1. 重複したユーザーを調べて、どのユーザーが不要になったかを判断します。
 
@@ -107,8 +113,8 @@ Workfront インスタンス内の重複するメールアドレスを修正す�
 
      例えば、John Doe というユーザーは、日常使用アカウント用に 1 つ、テスト目的で使用するユーザーアカウントを 1 つ持つことができます：
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * 次のテキストをメールアドレスに追加して、偽のドメインを使用するようにドメインを変更します。
 
@@ -116,8 +122,8 @@ Workfront インスタンス内の重複するメールアドレスを修正す�
 
      例：John Doe というユーザーは次のドメインを持つことができます：（これらは一意である必要があります。）
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      パスワードのリセットには有効なメールアドレスが必要であるため、これらのアカウントにはログインできなくなります。 これらのアカウントには、ログイン機能を使用する場合のみアクセスできます。
 

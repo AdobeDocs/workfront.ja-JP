@@ -6,30 +6,43 @@ description: 承認プロセスを使用すると、プロジェクト、タス�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-TQID: https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0
+TQID: 'https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 73%
-
 ---
-
 # 承認の表示
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 プレビューサンドボックス環境でのみ使用できます。</span>
@@ -82,9 +95,9 @@ Workfront の複数のエリアで承認を表示または管理できます。 
 
 * ホームエリア
 
-   * 承認待ちのすべてのプロジェクト、タスク、イシュー、タイムシート、ドキュメント、アクセス、および<span class="preview">Workfront計画リクエスト </span>は、ホーム領域のMy Approvals ウィジェットに表示されます。
-   * 自分で送信した承認は、「自分で送信した承認」フィルターオプションを選択すると、ホーム領域の「自分の承認」ウィジェットにも表示されます。 詳しくは、[ホームエリアで承認用に送信する作業を確認](#review-work-you-submit-for-approval-in-the-home-area)の節を参照してください。
-   * 関連するプロジェクト、タスク、またはイシューが「解決済み」、「保留中」、「クローズ」、「キャンセル済み」とマークされている場合、ホーム領域の「マイ承認」ウィジェットから承認が削除されます。
+  * 承認待ちのすべてのプロジェクト、タスク、イシュー、タイムシート、ドキュメント、アクセス、および<span class="preview">Workfront計画リクエスト </span>は、ホーム領域のMy Approvals ウィジェットに表示されます。
+  * 自分で送信した承認は、「自分で送信した承認」フィルターオプションを選択すると、ホーム領域の「自分の承認」ウィジェットにも表示されます。 詳しくは、[ホームエリアで承認用に送信する作業を確認](#review-work-you-submit-for-approval-in-the-home-area)の節を参照してください。
+  * 関連するプロジェクト、タスク、またはイシューが「解決済み」、「保留中」、「クローズ」、「キャンセル済み」とマークされている場合、ホーム領域の「マイ承認」ウィジェットから承認が削除されます。
 
   ホームの使用については、[ホームの基本を学ぶ](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
 
@@ -102,7 +115,7 @@ Workfront の複数のエリアで承認を表示または管理できます。 
 
 ## ホームエリアで承認用に作成する作業を確認 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、**自分の承認** ウィジェットを追加します。
 1. （条件付き）「**フィルター**」ドロップダウンメニューをクリックし、**送信した承認**」を選択して、送信した承認を表示します。
 

@@ -3,24 +3,31 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: ビュー：先行タスクの詳細
-description: このタスクビューには、コレクションビューを使用して、タスクの先行タスクの詳細が表示されます。コレクションビューでは、「1 対多」の関係にあるオブジェクトに関する情報を表示できます。この場合、それぞれのタスク（1 つ）に複数の先行タスク（多）を設定できます。このビューには、タスクの名前、その先行タスクの名前、先行タスクのプロジェクト名、先行タスクの予定完了日、先行タスクのステータスが表示されます。
+description: このタスクビューには、コレクションビューを使用して、タスクの先行タスクの詳細が表示されます。 コレクションビューでは、「1 対多」の関係にあるオブジェクトに関する情報を表示できます。 この場合、それぞれのタスク（1 つ）に複数の先行タスク（多）を設定できます。 このビューには、タスクの名前、その先行タスクの名前、先行タスクのプロジェクト名、先行タスクの予定完了日、先行タスクのステータスが表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 81%
-
 ---
-
 # 表示：先行タスクの詳細
 
 <!--Audited: 11/2024-->
 
-このタスクビューには、コレクションビューを使用して、タスクの先行タスクの詳細が表示されます。コレクションビューでは、「1 対多」の関係にあるオブジェクトに関する情報を表示できます。この場合、それぞれのタスク（1 つ）に複数の先行タスク（多）を設定できます。このビューには、タスクの名前、その先行タスクの名前、先行タスクのプロジェクト名、先行タスクの予定完了日、先行タスクのステータスが表示されます。
+このタスクビューには、コレクションビューを使用して、タスクの先行タスクの詳細が表示されます。 コレクションビューでは、「1 対多」の関係にあるオブジェクトに関する情報を表示できます。 この場合、それぞれのタスク（1 つ）に複数の先行タスク（多）を設定できます。 このビューには、タスクの名前、その先行タスクの名前、先行タスクのプロジェクト名、先行タスクの予定完了日、先行タスクのステータスが表示されます。
 
 レポートでコレクションを参照する方法について詳しくは、[レポート内のコレクションを参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)を参照してください。
 

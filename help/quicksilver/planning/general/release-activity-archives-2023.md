@@ -1,6 +1,6 @@
 ---
 title: 2023年のAdobe Workfront計画リリースアクティビティ
-description: Adobe Workfront Planning は現在、Workfront の一部のお客様にご利用いただけます。 Planning 機能用に最近リリースされた機能について詳しくは、この記事を頻繁に確認してください。
+description: Adobe Workfront プランニングは現在、Workfront の一部のお客様にご利用いただけます。 Planning 機能用に最近リリースされた機能について詳しくは、この記事を頻繁に確認してください。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,28 +8,36 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 95%
-
 ---
-
 # Adobe Workfront Planning の 2023年リリースアクティビティ
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 この記事では、2024年8月28日の一般公開リリースに先立つ、2023年のWorkfront計画の初期段階でリリースされた機能をリストします。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## Workfront Planningのリリースタイムライン
 
@@ -83,9 +91,9 @@ Planning 機能レコードのコメントエクスペリエンスは、Workfron
 
 >[!IMPORTANT]
 >
->Adobe Workfront Planning 機能との接続を構築するには、Adobe Workfront Fusion を購入する必要があります。
+>Adobe Workfront プランニング機能との接続を構築するには、Adobe Workfront Fusion を購入する必要があります。
 >
->詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 Adobe Workfront Fusion を使用して Planning 機能に接続できます。 新しい Fusion 接続を使用すると、次のことが可能です。
 
@@ -101,7 +109,7 @@ Adobe Workfront Fusion を使用して Planning 機能に接続できます。 �
 
 * Planning 機能に変更が加えられたときにシナリオをトリガー
 
-詳しくは、[Adobe Workfront計画モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)を参照してください。
+詳しくは、[Adobe Workfront計画モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)を参照してください。
 
 ## 2023年12月11日（PT）の週
 
@@ -119,11 +127,11 @@ Adobe Workfront Fusion を使用して Planning 機能に接続できます。 �
 
 * 次のタイプの任意のフィールドをプライマリフィールドとして選択し、最初の列の「名前」フィールドを置き換えることができます。
 
-   * 1 行テキスト
+  * 1 行テキスト
 
-   * 数値
+  * 数値
 
-   * 式
+  * 式
 
 * テーブルビューのプライマリフィールドは常に固定され、別のフィールドをプライマリフィールドとして設定しない限り、移動できません。
 
@@ -141,17 +149,17 @@ Adobe Workfront Fusion を使用して Planning 機能に接続できます。 �
 
 >[!IMPORTANT]
 >
->Adobe Workfront Planning 機能レコードを Adobe Experience Manager Assets に接続するには、組織の Workfront インスタンスを Adobe Business Platform または Adobe Admin Console にオンボーディングする必要があります。
+>Adobe Workfront プランニング機能レコードを Adobe Experience Manager Assets に接続するには、組織の Workfront インスタンスを Adobe Business Platform または Adobe Admin Console にオンボーディングする必要があります。
 >
 >Adobe Admin Console のオンボーディングについて質問がある場合は、[Adobe Unified Experience の FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md) を参照してください。
 
-Adobe Workfront Planning 機能レコードタイプと Adobe Experience Manager Assets の間で接続を確立できるようになりました。
+Adobe Workfront プランニング機能レコードタイプと Adobe Experience Manager Assets の間で接続を確立できるようになりました。
 
 接続を確立すると、このアップデートで次の機能が利用できるようになります。
 
 * Experience Manager のアセットやフォルダーを、アクセス権限のある Experience Manager Assets 内の特定のリポジトリの Planning 機能レコードにリンクできます。 このプロセスで、アセットフィールドを Planning 機能フィールドに接続できます。
 
-* Planning 機能ユーザーは、接続されたアセットの名前と、接続されたフィールドの値を Planning 機能で表示できます。
+* プランニング機能ユーザーは、接続されたアセットの名前と、接続されたフィールドの値をプランニング機能で表示できます。
 
 <!--
 removed per PM, for now: 
@@ -201,11 +209,11 @@ Planning 機能レコードタイプのテーブルビューで、あるフィ�
 
 * 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
 
-   * ユーザー
+  * ユーザー
 
-   * システムフィールド
+  * システムフィールド
 
-   * レコードを接続した結果作成されたリンク済みフィールド
+  * レコードを接続した結果作成されたリンク済みフィールド
 
 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
@@ -225,7 +233,7 @@ Planning 機能レコードタイプのテーブルビューで、あるフィ�
 
 プレビューおよび実稼動環境：2023年10月30日（PT）
 
-Adobe Workfront Planning 機能レコードに次のフィールドタイプが導入されました。
+Adobe Workfront プランニング機能レコードに次のフィールドタイプが導入されました。
 
 * 作成者
 
@@ -292,19 +300,19 @@ Planning 機能レコードタイプに人物タイプフィールドを追加�
 
 * グループは、次のカラーに一致します。
 
-   * グレー（デフォルト）
+  * グレー（デフォルト）
 
-   * グループ化するフィールドのカラー
+  * グループ化するフィールドのカラー
 
 * バーは次のカラーに一致します。
 
-   * レコードタイプのカラー
+  * レコードタイプのカラー
 
-   * 選択したフィールドのカラー
+  * 選択したフィールドのカラー
 
-   * グループ化のカラー
+  * グループ化のカラー
 
-   * 色なし（デフォルト）
+  * 色なし（デフォルト）
 
 カラーを特定のフィールドに一致させる場合、色分けオプションを含むフィールドのみを選択できます。
 
@@ -346,8 +354,8 @@ Planning 機能レコードを Workfront の会社やグループに接続でき
 
   詳しくは、次の記事を参照してください。
 
-   * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
+  * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 
 ### 1 行テキストフィールドの URL のサポート
 
@@ -369,7 +377,7 @@ Planning 機能レコードを Workfront の会社やグループに接続でき
 
 ## 2023年8月21日（PT）の週
 
-### Adobe Workfront Planning 機能レコードをプログラムとポートフォリオに接続
+### Adobe Workfront プランニング機能レコードをプログラムとポートフォリオに接続
 
 プレビューおよび実稼動環境：2023年8月24日（PT）
 
@@ -384,7 +392,7 @@ Planning 機能レコードを Workfront のプログラムとポートフォリ
 プレビューおよび実稼動環境：2023年8月24日（PT）
 
 レコードタイプページのテーブルビューでレコードを並べ替えることができるようになりました。
-次の機能を使用できるようになりました。
+次の機能を利用できるようになりました。
 
 * テーブルレベルでの並べ替え。複数のフィールドで同時に並べ替えることができます。
 * 列レベルまたはフィールドレベルでの並べ替え。一度に個々のフィールドで並べ替えることができます。
@@ -397,8 +405,8 @@ Planning 機能レコードを Workfront のプログラムとポートフォリ
 
 * 以下のモードでタイムラインビューを表示できるようになりました。
 
-   * 標準：レコードを別々の行に表示します。
-   * コンパクト：日付が同じ行で交わらないレコードを表示します。
+  * 標準：レコードを別々の行に表示します。
+  * コンパクト：日付が同じ行で交わらないレコードを表示します。
 
 * タイムラインビューのグループ行のルックアンドフィールを変更し、含まれるレコードのタイムラインの上に表示されるようにしました。 この改善を行う前は、タイムラインの全長にわたってグループの行が表示されていました。
 
@@ -466,7 +474,7 @@ Planning 機能レコードタイプのフィールド名は一意の名前を�
 
 ## 2023年6月5日（PT）の週
 
-### Adobe Workfront Planning 機能レコードを Workfront プロジェクトに接続
+### Adobe Workfront プランニング機能レコードを Workfront プロジェクトに接続
 
 プレビューおよび実稼動環境：2023年6月5日（PT）
 

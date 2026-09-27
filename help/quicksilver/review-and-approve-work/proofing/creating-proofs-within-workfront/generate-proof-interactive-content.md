@@ -6,22 +6,29 @@ description: ZIP ファイルに保存された web サイト以外のインタ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-TQID: https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY
+TQID: 'https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 350
-ht-degree: 93%
-
+source-wordcount: '388'
+ht-degree: 99%
 ---
-
 # ZIP ファイル内のインタラクティブコンテンツのプルーフを作成
 
 ZIP ファイルに保存された web サイト以外のインタラクティブコンテンツのプルーフを生成できます。 このタイプの web コンテンツの例には、ストリーミングビデオまたはオーディオを含む広告、HTML アニメーション、インタラクティブバナーなどがあります。
@@ -62,7 +69,7 @@ ZIP ファイルに保存された web サイト以外のインタラクティ�
 
 ## ZIP ファイル内のインタラクティブコンテンツのプルーフを作成
 
-ZIP ファイル内のインタラクティブコンテンツをプルーフに追加すると、Adobe Workfrontは圧縮されたドキュメントのプルーフを作成します。ファイルサイズに応じて、アップロードの読み込み時間が異なる場合があります。大きなファイルの作成には時間がかかります。ページから移動すると、Workfrontで引き続きファイルを作成できます。 最大ファイルアップロードサイズは4GBです。 
+ZIP ファイル内のインタラクティブコンテンツをプルーフに追加すると、Adobe Workfront によって圧縮されたドキュメントのプルーフが作成されます。 ファイルサイズに応じて、アップロードの読み込み時間は異なる場合があります。 ファイルのサイズが大きいと、作成に時間がかかります。 ページから移動しても、Workfront はファイルの作成を続行します。 最大ファイルアップロードサイズは 4 GB です。 
 
 1. ZIP バンドルファイルを作成して、コンテンツを準備します。
 

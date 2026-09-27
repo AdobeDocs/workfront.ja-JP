@@ -3,30 +3,36 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: ' [!DNL Adobe Workfront]  カスタムリフレッシュサンドボックス環境'
+title: '[!DNL Adobe Workfront] カスタム更新サンドボックス環境'
 description: カスタム更新サンドボックスは、本番環境のデータを使用してテストし作業できる環境です。 トレーニングの実行、セットアップ機能の決定に最適です。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-TQID: https://experienceleague.adobe.com/0orzAcBft4J52M4nMDMxk6Kupagmn81V3qHB-M5YkvY
+TQID: 'https://experienceleague.adobe.com/0orzAcBft4J52M4nMDMxk6Kupagmn81V3qHB-M5YkvY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1828
+source-wordcount: '1829'
 ht-degree: 78%
-
 ---
-
 # [!DNL Adobe Workfront] カスタム更新サンドボックス環境
 
 カスタム更新サンドボックスは、本番環境のデータを使用してテストし作業できる環境です。 トレーニングの実行、セットアップ機能の決定に最適です。
@@ -40,7 +46,7 @@ ht-degree: 78%
 >
 >  また、プレビューサンドボックスには必要ないカスタム更新サンドボックスを取得するための追加費用も発生します。
 >
->  プレビューサンドボックスについて詳しくは、[&#x200B; [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+>  プレビューサンドボックスについて詳しくは、[ [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -109,11 +115,11 @@ Adobe クラウドストレージをサポートするWorkfrontのバージョ�
 
 >[!NOTE]
 >
->アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。 クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
+>アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。 クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
 
 カスタム更新サンドボックスへのアクセス方法：
 
-1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL 設定]** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL 設定]** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
 
 1. **[!UICONTROL システム]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 
@@ -236,7 +242,7 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動的に再計算するタイミングを設定できます。 Workfrontでは、毎晩、プロジェクトスコープが変更されたタイミング、またはその両方で、プロジェクトタイムラインを再計算できます。
 
-詳しくは、[&#x200B; プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
+詳しくは、[ プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
 カスタムリフレッシュサンドボックス環境の場合、毎晩再計算は無効になり、プロジェクトタイムラインは自動的に再計算されません。 カスタムリフレッシュサンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
@@ -253,8 +259,8 @@ Workfront管理者は、Workfrontがプロジェクトのタイムラインを�
 
 * 次の通知は、カスタムリフレッシュサンドボックス環境では使用できません。
 
-   * リマインダー通知
-   * 遅延または早期のリマインダー通知の自動送信
+  * リマインダー通知
+  * 遅延または早期のリマインダー通知の自動送信
 
 ### ビジネスルールに関する注記
 

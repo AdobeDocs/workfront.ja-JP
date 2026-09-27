@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ic5f6tER3yF45x5jSRvSJE-OKKlhZnPRKG3q1geQ3-M
+TQID: 'https://experienceleague.adobe.com/Ic5f6tER3yF45x5jSRvSJE-OKKlhZnPRKG3q1geQ3-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '828'
 ht-degree: 51%
-
 ---
-
 # Adobe Workfront でのレポートの共有
 
 <!-- Audited: 11/2024 -->
@@ -92,13 +97,13 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 リストから 1 つのレポートを共有することも、複数のレポートを共有することも同じです。
 
-1. レポートのリストに移動し、1つまたは複数のレポートを選択し、**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+1. レポートのリストに移動し、1つまたは複数のレポートを選択し、**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。
 
    または
 
    1つのレポートの名前をクリックし、**レポートアクション** > **共有**&#x200B;をクリックします。 「**共有[ レポート名]**」ボックスが開きます。
 
-   ![共有オプション &#x200B;](assets/unshimmed-report-actions-sharing.png)
+   ![共有オプション ](assets/unshimmed-report-actions-sharing.png)
 
 1. 「**レポートに**&#x200B;へのアクセス権を付与」フィールドで、レポートを共有するユーザー、チーム、担当業務、グループ、または会社の名前を入力し始め、表示されたら選択します。
 
@@ -136,6 +141,6 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
      >[!NOTE]
      >
-     >レポートにプロンプトが表示され、公開されている場合、公開共有リンクを介してレポートを実行しているユーザーは、プロンプトを使用してレポートを実行できません。 ユーザーは、Workfrontにログインして「公開共有」リンクを使用せずにレポートにアクセスしない限り、レポートに適用されたプロンプトを表示せずにレポートを確認できます。 プロンプトを使用したレポートの共有の制限について詳しくは、[&#x200B; レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事[&#x200B; プロンプト付きレポートの共有の制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)を参照してください。
+     >レポートにプロンプトが表示され、公開されている場合、公開共有リンクを介してレポートを実行しているユーザーは、プロンプトを使用してレポートを実行できません。 ユーザーは、Workfrontにログインして「公開共有」リンクを使用せずにレポートにアクセスしない限り、レポートに適用されたプロンプトを表示せずにレポートを確認できます。 プロンプトを使用したレポートの共有の制限について詳しくは、[ レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事[ プロンプト付きレポートの共有の制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)を参照してください。
 
 1. 「**保存**」をクリックします。

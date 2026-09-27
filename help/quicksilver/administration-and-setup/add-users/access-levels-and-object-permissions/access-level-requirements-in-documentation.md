@@ -9,27 +9,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
+TQID: 'https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1184'
 ht-degree: 56%
-
 ---
-
 # Workfront ドキュメントのアクセス要件
 
 Workfront ドキュメントの操作手順記事には、その手順に必要なアクセス権と権限を説明した表が含まれています。 アクセス要件の表では、Workfront で特定のアクションを実行できるかどうかや、実行できない場合の理由を理解できます。 この記事では、アクセス要件表の各要素について説明し、トラブルシューティングのヒントや、より詳細な情報へのリンクを示します。
@@ -58,7 +66,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
   <p>お客様は、これらの領域の1つ以上でWorkfront パッケージを購入した可能性があります。</p>
   <p>以前、Workfrontでは、Workfront Select、Workfront Prime、Workfront Ultimateの各パッケージが提供されていましたが、ワークフロー、プランニング、自動処理および統合は区別されていませんでした。 組織は、これらのレガシーパッケージの1つに属している可能性があります。 
    <ul><li>現在のパッケージモデルと従来のパッケージモデルのどちらを使用しているかなど、組織で使用されているAdobe Workfront パッケージを確認するには、Workfront管理者にお問い合わせください。</li>
-   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">組織のクラスターとWorkfront パッケージの表示</a>を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/jp/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a>を参照してください。</li></ul>
+   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">組織のクラスターとWorkfront パッケージの表示</a>を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a>を参照してください。</li></ul>
 
 Workfront計画パッケージは、次のいずれかの製品で購入できます。
 
@@ -122,7 +130,7 @@ Workfront計画パッケージは、次のいずれかの製品で購入でき�
    <ul><li>現在のライセンスモデルは、実行された操作数に基づいており、組織が実行できるアクションに制限はありません。 </li>
    <li>従来のライセンスは、シナリオがサードパーティ製アプリケーションに接続できるかどうか、またはシナリオがWorkfront自動処理にのみ使用されるかどうかに基づいています。 </li>
    </ul>
-   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
+   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
    </td> 
   </tr> 
  </tbody> 

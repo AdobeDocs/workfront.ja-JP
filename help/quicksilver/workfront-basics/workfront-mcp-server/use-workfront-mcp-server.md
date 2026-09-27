@@ -5,11 +5,16 @@ title: Adobe Workfront MCP サーバーの使用
 description: Adobe Workfront MCP サーバーを使用して、AI エージェント基盤で自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1982'
 ht-degree: 0%
-
 ---
 
 # Adobe Workfront MCP サーバーの使用
@@ -176,7 +181,7 @@ Workfrontでは、AI エージェンティック プラットフォーム プロ
 | Ai エージェント型プラットフォームが、誤ったWorkfront項目からデータを返しました。 | AI エージェントプラットフォームは、あいまいな表現にもとづいて間違った項目を選択しました。 | より具体的な名前、ID、フィルターを使用して、もう一度質問します。 |
 | 更新または削除がWorkfrontで有効になりません。 | Workfront管理者がWorkfront MCP サーバーの書き込みアクションを無効にしているか、特定の項目に対してアクションを実行する権限がありません。 | アクションが実行されたAI エージェント型プラットフォームと確認します。 次に、Workfront MCP サーバーに対する書き込みアクションが有効になっており、項目を変更する権限があることを確認します。 |
 
-セットアップと認証の問題について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)の「[&#x200B; セットアップと認証のトラブルシューティング &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication)」を参照してください。
+セットアップと認証の問題について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)の「[ セットアップと認証のトラブルシューティング ](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication)」を参照してください。
 
 +++
 
@@ -258,7 +263,7 @@ Workfront APIに慣れ親しんでいると、アクションは，
 
 ### Workfrontのデータは、AI エージェントプラットフォームプロバイダーに送信されるか、プロバイダーによって保存されますか？
 
-詳しくは、この「[&#x200B; データとセキュリティ &#x200B;](#data-and-security)」を参照してください
+詳しくは、この「[ データとセキュリティ ](#data-and-security)」を参照してください
 ガイド。
 
 ### Workfront MCP サーバーの新しいバージョンがリリースされたときはどうなりますか？

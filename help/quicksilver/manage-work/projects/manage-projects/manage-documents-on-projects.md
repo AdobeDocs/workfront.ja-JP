@@ -6,13 +6,20 @@ description: Workfront管理者がストレージ環境設定のデフォルト�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # プロジェクトと関連オブジェクトのドキュメント管理の概要
 
 Adobe Workfront管理者は、組織のストレージ環境設定のデフォルトを定義して、ドキュメントをWorkfrontに保存する場所を指定できます。
@@ -136,7 +143,7 @@ Workfront ストレージ内のオブジェクトに保存されたドキュメ�
 * MS プロジェクトからプロジェクトを読み込むと、Workfront管理者がWorkfront クラウドストレージをシステムのデフォルトにした場合でも、Workfrontは従来のAdobe ストレージプロジェクトを作成します。
 * Workfront Planningの自動化機能を使用してプロジェクトを作成する場合、Workfrontはプロジェクトに対するシステムのデフォルトのストレージ環境設定を使用します。 Workfront Planningにアクセスするには、Planning パッケージを購入する必要があります。
 
-詳しくは、この記事の「[&#x200B; プロジェクトテンプレートのドキュメント管理](#document-management-for-project-templates)」の節も参照してください。
+詳しくは、この記事の「[ プロジェクトテンプレートのドキュメント管理](#document-management-for-project-templates)」の節も参照してください。
 
 ### ポートフォリオの文書管理
 
@@ -151,8 +158,8 @@ This is not possible anymore:
 -->
 * Adobe クラウドストレージプロジェクトをレガシーストレージポートフォリオに追加したり、レガシーストレージプロジェクトをAdobe ストレージポートフォリオに追加したりすることはできません。
 * 管理者は、「設定」の「システム環境設定」セクションで、従来のストレージポートフォリオをAdobe クラウドストレージに変換できます。 すべての子オブジェクト（プログラム、プロジェクト、ドキュメント）はレガシーストレージに残ります。 新しいプロジェクトでは、Adobe クラウドストレージが使用されます。 ポートフォリオに追加された新しいドキュメントは、引き続きレガシーストレージに保存されます。
-詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
-* &#x200B;<!-- this point also repeats for programs below-->ポートフォリオがレガシーからAdobe クラウドストレージに変換され、プログラムにレガシーストレージがある場合、プログラム内のプロジェクトもレガシーストレージを使用しています。
+詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+* <!-- this point also repeats for programs below-->ポートフォリオがレガシーからAdobe クラウドストレージに変換され、プログラムにレガシーストレージがある場合、プログラム内のプロジェクトもレガシーストレージを使用しています。
 
   既存のレガシーストレージプロジェクトをこのポートフォリオに追加できなくなりました。
 
@@ -171,7 +178,7 @@ This is not possible anymore:
 * Adobe クラウドストレージプログラムをレガシーストレージポートフォリオに追加したり、レガシープログラムをAdobe クラウドストレージポートフォリオに追加したりすることはできません。
 * 従来のストレージプログラムでは、Adobe クラウドストレージテンプレートからプロジェクトを作成することはできません。
 * Adobe クラウドストレージプログラムの従来のストレージテンプレートからプロジェクトを作成できますが、テンプレート上のドキュメントとフォルダーは新しいプロジェクトに追加されません。 プロジェクトは、Adobe クラウドストレージを受け取ります。
-* &#x200B;<!-- this point also repeats for portfolios above-->ポートフォリオがレガシーからAdobe クラウドストレージに変換され、プログラムにレガシーストレージがある場合、プログラム内のプロジェクトもレガシーストレージを使用しています。
+* <!-- this point also repeats for portfolios above-->ポートフォリオがレガシーからAdobe クラウドストレージに変換され、プログラムにレガシーストレージがある場合、プログラム内のプロジェクトもレガシーストレージを使用しています。
 
   既存のレガシーストレージプロジェクトをこのポートフォリオに追加できなくなりました。
 

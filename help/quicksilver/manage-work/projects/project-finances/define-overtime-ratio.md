@@ -7,13 +7,17 @@ description: タスクの残業率を定義して、タスク割り当ての予�
 author: Lisa
 feature: Work Management
 exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 15%
-
 ---
-
 # 残業率の定義
 
 残業率がタスクに追加されると、その残業率はタスクのすべての割り当てに適用されます。 そのタスクのすべての予定時間が乗算され、予定収益の計算に影響します。
@@ -75,13 +79,13 @@ ht-degree: 15%
 1. レイアウトテンプレートで、**ユーザーに表示される内容をカスタマイズ**&#x200B;の下にある下向き矢印をクリックし、**タスク**&#x200B;をクリックします。
 1. **詳細** セクションで、**財務** エリアの&#x200B;**残業率** フィールドを選択します。
 
-   詳しくは、[&#x200B; レイアウトテンプレートを使用した詳細ビューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   詳しくは、[ レイアウトテンプレートを使用した詳細ビューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
 ## タスクの残業率の定義
 
 1. 編集するタスクに移動します。
 
-   詳細については、「[&#x200B; タスクの詳細のセクション &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md)でタスクの財務を管理する」を参照してください。
+   詳細については、「[ タスクの詳細のセクション ](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md)でタスクの財務を管理する」を参照してください。
 
 1. 左パネルでの「**タスクの詳細**」をクリックします。
 1. **Finance**&#x200B;領域で、**残業率** フィールドに残業乗数を入力します。

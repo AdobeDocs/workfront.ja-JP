@@ -1,34 +1,41 @@
 ---
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
-title: ' [!DNL Salesforce]  ユーザー用  [!DNL Adobe Workfront]  セクションの設定'
-description: ' [!DNL Workfront]  管理者は、 [!DNL Adobe Workfront]  for Salesforce をインストールした後に、Salesforce の新しいセクションで商談ページレイアウトとアカウントページレイアウトに追加することにより、ユーザーがそれを使用できるようになります。'
+title: '[!DNL Salesforce] ユーザー用 [!DNL Adobe Workfront] セクションの設定'
+description: Salesforceの[!DNL Adobe Workfront]を[!DNL Workfront]管理者としてインストールした後、Salesforceの商談ページとアカウントページのレイアウトに新しいセクションに追加して、ユーザーが利用できるようにします。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mjSptTTPuxObb09RLFHEwgjZj-dAn6VWckotwUxhMKg
+TQID: 'https://experienceleague.adobe.com/mjSptTTPuxObb09RLFHEwgjZj-dAn6VWckotwUxhMKg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 156
-ht-degree: 44%
-
+source-wordcount: '158'
+ht-degree: 25%
 ---
-
 # [!DNL Salesforce] ユーザー用 [!DNL Adobe Workfront] セクションの設定
 
 >[!IMPORTANT]
@@ -37,9 +44,9 @@ ht-degree: 44%
 >
 >組織のSalesforceとの統合ニーズには、Workfront Automation and Integrationを使用することをお勧めします。
 >
->Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)を参照してください。
 
 <!--
 

@@ -7,18 +7,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo
+TQID: 'https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: '848'
 ht-degree: 13%
-
 ---
-
 # 2025年第1四半期の優先事項の機能強化
 
 このページでは、プレビュー環境への2025年第1四半期リリースで行われたすべての優先度の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -29,7 +35,7 @@ ht-degree: 13%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-この概要に含まれる機能の完全なデモについては、以下の[優先度の機能強化のデモビデオ &#x200B;](#priorities-enhancements-demo-video)を参照してください。
+この概要に含まれる機能の完全なデモについては、以下の[優先度の機能強化のデモビデオ ](#priorities-enhancements-demo-video)を参照してください。
 
 ## スマートフィルターを使用して、優先順位で作業を見つける
 
@@ -84,7 +90,7 @@ WorkfrontのAI アシスタントを活用して、24時間、3日、7日とい�
 * プルーフビューアを起動する
 * その他
 
-詳しくは、[&#x200B; ドキュメントのアップロードとプルーフの作成を優先順位](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)で参照してください。
+詳しくは、[ ドキュメントのアップロードとプルーフの作成を優先順位](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)で参照してください。
 
 ## 優先度でカレンダービューを使用できるようになりました
 

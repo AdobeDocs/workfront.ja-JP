@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof] でカスタムフィールドを作成および管理'
-description: この機能を使用するには、Select または Premium [!DNL Workfront]  プランが必要です。 利用可能な様々なプランについて詳しくは、Workfront プランを参照してください。
+title: '[!DNL Workfront Proof] でカスタムフィールドを作成および管理'
+description: この機能を使用するには、Select または Premium[!DNL Workfront] プランが必要です。 利用可能な様々なプランについて詳しくは、Workfront プランを参照してください。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
+TQID: 'https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1055'
 ht-degree: 50%
-
 ---
-
 # [!DNL Workfront Proof] でカスタムフィールドを作成および管理
 
 <!-- Audited: 4/2025 -->
@@ -31,7 +40,7 @@ ht-degree: 50%
 >
 >この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この機能を使用するには、Select または Premium[!DNL Workfront] プランが必要です。 利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+この機能を使用するには、Select または Premium[!DNL Workfront] プランが必要です。 利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 カスタムフィールドを使用すると、新しいプルーフ、ユーザー、またはゲストを作成する際に追加のデータを取得できます。 例えば、新しいプルーフを作成するユーザーは、ジョブ番号、部門コードまたはサプライヤー参照を取り込むための追加セクションを含めることができます。
 
@@ -57,7 +66,7 @@ ht-degree: 50%
 
 1. 「**[!UICONTROL カスタムフィールド設定]**」タブをクリックして、ページを更新します。 新しいカスタムフィールドセクションが、割り当てられたモジュールの下に表示されます。
 
-   ![&#x200B; カスタムフィールド設定タブ &#x200B;](assets/custom-field-settings-tab.png)
+   ![ カスタムフィールド設定タブ ](assets/custom-field-settings-tab.png)
 
 1. 新しいカスタムフィールドセクションの名前をクリックして、**カスタムフィールドセクション** タブを開きます。
 
@@ -81,8 +90,8 @@ ht-degree: 50%
 
 1. フィールドの設定をさらに変更します。
 
-   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL セクションを非表示]**&#x200B;または&#x200B;**[!UICONTROL セクションを再表示]**&#x200B;をクリックして、カスタムフィールドセクションを非表示または再表示します。
-   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL カスタムフィールドを非表示]**&#x200B;または&#x200B;**[!UICONTROL カスタムフィールドを再表示]**&#x200B;をクリックして、カスタムフィールドを非表示または再表示します。
+   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン ](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL セクションを非表示]**&#x200B;または&#x200B;**[!UICONTROL セクションを再表示]**&#x200B;をクリックして、カスタムフィールドセクションを非表示または再表示します。
+   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン ](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL カスタムフィールドを非表示]**&#x200B;または&#x200B;**[!UICONTROL カスタムフィールドを再表示]**&#x200B;をクリックして、カスタムフィールドを非表示または再表示します。
    * フィールド名の右側に表示される上向きおよび下向きの矢印を使用して、フィールドの順序を変更します（セクションに複数のフィールドを追加した場合）。
 
 1. 「**[!UICONTROL 表示ルール]**」タブをクリックします。

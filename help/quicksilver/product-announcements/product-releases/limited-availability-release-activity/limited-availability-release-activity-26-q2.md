@@ -10,25 +10,31 @@ hide: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8cp64ljvxCaGBh-1eGxVc6llJ6xFZwdBXur1AkIxaHk
+TQID: 'https://experienceleague.adobe.com/8cp64ljvxCaGBh-1eGxVc6llJ6xFZwdBXur1AkIxaHk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: '372'
 ht-degree: 5%
-
 ---
-
 # Adobe Workfront の限定提供機能に関する 2026年第 2 四半期のリリースアクティビティ
 
 この記事では、2026年第2四半期中にリリースされるWorkfront機能の限定提供について説明します。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
+Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
 
 ## 制限付き機能のリリースノート
 

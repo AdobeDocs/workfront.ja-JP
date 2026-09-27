@@ -8,29 +8,34 @@ feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/i5k2ZLX3erDl0aBtNU8F8nNMaQ4PpF-b7M8oTZR4NiA
+TQID: 'https://experienceleague.adobe.com/i5k2ZLX3erDl0aBtNU8F8nNMaQ4PpF-b7M8oTZR4NiA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 248
-ht-degree: 32%
-
+source-wordcount: '340'
+ht-degree: 28%
 ---
-
 # キャンバスダッシュボードの名前または説明の変更
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -86,7 +91,7 @@ Canvas ダッシュボードの名前や説明は、作成後に編集できま�
 
 名前または説明を変更する前に、ダッシュボードを作成する必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 
 ## ダッシュボードの名前と説明の変更
@@ -101,7 +106,7 @@ Canvas ダッシュボードの名前や説明は、作成後に編集できま�
 
 1. 名前を変更するダッシュボードをクリックするか、説明を更新します。
 
-1. 画面上部のダッシュボード名の右側にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/details-icon.png) アイコンをクリックします。
+1. 画面上部のダッシュボード名の右側にある&#x200B;**詳細** ![詳細アイコン ](assets/details-icon.png) アイコンをクリックします。
 
 1. 新しい&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;を入力します。
 

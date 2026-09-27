@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s
+TQID: 'https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2735
+source-wordcount: '2746'
 ht-degree: 72%
-
 ---
-
 # レポートにグラフを追加
 
 <!--Audited: 11/2024-->
@@ -92,7 +97,7 @@ ht-degree: 72%
    >[!TIP]
    >
    >* レポートの結果がグループ化されている場合は、グラフをレポートに追加することのみ可能です。
-   >* グラフでは、テキストモードのグループ化はサポートされていません。 テキストモードのグループ化について詳しくは、[&#x200B; テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)を参照してください。
+   >* グラフでは、テキストモードのグループ化はサポートされていません。 テキストモードのグループ化について詳しくは、[ テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)を参照してください。
    >* 1 つの指標を表す 1 つのグループ化を追加した場合は、円グラフを除くすべてのグラフでグループが同じ色で表示されます。
 
    グループ化の作成について詳しくは、[Adobe Workfront でのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください。
@@ -100,7 +105,7 @@ ht-degree: 72%
 1. 「**グラフ**」タブを選択します。
 
 1. グラフのタイプをクリックして選択します。\
-   ![&#x200B; グラフの種類の選択](assets/unshimmed-report-builder-chart.png)
+   ![ グラフの種類の選択](assets/unshimmed-report-builder-chart.png)
 
 1. 次のタイプのグラフから選択します。
 
@@ -133,9 +138,9 @@ ht-degree: 72%
 
    * 次のいずれかのオプションをクリックして、グループ化された列の表示方法を選択します。
 
-      * **並列**
-      * **積み重ね**
-      * **100% まで積み重ね**
+     * **並列**
+     * **積み重ね**
+     * **100% まで積み重ね**
 
    * グラフに含めるグループ化を&#x200B;**データのグループ化基準**&#x200B;ドロップダウンメニューから選択します。
    * （オプション）「**カスタムカラー**」をクリックして、列の色をカスタマイズします。\
@@ -169,9 +174,9 @@ ht-degree: 72%
 
    * 次のいずれかのオプションをクリックして、グループ化された棒の表示方法を選択します。
 
-      * **並列**
-      * **積み重ね**
-      * **100% まで積み重ね**
+     * **並列**
+     * **積み重ね**
+     * **100% まで積み重ね**
 
    * グラフ内の情報をグループ化する方法を&#x200B;**データのグループ化基準**&#x200B;ドロップダウンメニューから選択します。
    * （オプション）「**カスタムカラー**」をクリックして、列の色をカスタマイズします。\
@@ -281,11 +286,11 @@ ht-degree: 72%
 
    例えば、タスクレポートで&#x200B;**プロジェクト名**&#x200B;を選択した場合、**タスクステータス**&#x200B;を&#x200B;**バブル色** フィールドとして追加できます。
 
-   ![&#x200B; タスクの状態をバブルの色](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![ タスクの状態をバブルの色](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    ただし、「**バブル**」フィールドの「**タスクの状態**」を選択した場合、「**バブルの色**」フィールドは選択できません。 また、**吹き出し** フィールドに&#x200B;**プロジェクト名**&#x200B;を選択した場合でも、**吹き出し色** フィールドに&#x200B;**プロジェクト名**&#x200B;を選択することはできません。
 
-   ![&#x200B; バブルの色を選択できません](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![ バブルの色を選択できません](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. 「**保存して閉じる**」をクリックして、インターフェイスビルダーの変更を保存します。
 
@@ -308,7 +313,7 @@ Workfront では、グラフ要素の色を選択したり、レポートにグ�
 
 1. 以下のフィールドが使用できる場合は、「**カスタム色**」をクリックします。\
    「カスタム色」ダイアログボックスが表示されます。\
-   ![&#x200B; グラフのカスタムカラー](assets/unshimmed-custom-colors-in-charts.png)
+   ![ グラフのカスタムカラー](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >
@@ -370,8 +375,8 @@ Workfront では、グラフ要素の色を選択したり、レポートにグ�
 
 * 一部のグラフ要素は編集できません。
 
-   * フォントタイプやそれぞれの要素の値のサイズを変更することはできません。
-   * グラフの軸の名前は変更できません。
+  * フォントタイプやそれぞれの要素の値のサイズを変更することはできません。
+  * グラフの軸の名前は変更できません。
 
 * グラフの凡例は編集できません。
 * グループ化に計算フィールドを使用する場合、グラフ要素をクリックすることはできません。

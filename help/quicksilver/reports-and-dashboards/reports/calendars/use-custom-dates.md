@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/URkp-zMtLtg3auZRaRciz2qCjeJUMFYZQ7SYKuzHU8g
+TQID: 'https://experienceleague.adobe.com/URkp-zMtLtg3auZRaRciz2qCjeJUMFYZQ7SYKuzHU8g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 618
+source-wordcount: '620'
 ht-degree: 84%
-
 ---
-
 # カレンダーレポートでのカスタム日付フィールドの使用
 
 [!UICONTROL カレンダー]レポートは、作業内容を視覚的に表示する動的なレポートです。 次のオブジェクトに対して、カレンダーレポートでカスタム日付フィールドを使用できます。
@@ -69,7 +74,7 @@ ht-degree: 84%
 
 ## 前提条件
 
-1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。 カスタム日付で設定されたカスタムフォームがない場合は、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の手順に従ってください。
+1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。 カスタム日付で設定されたカスタムフォームがない場合は、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の手順に従ってください。
 1. カレンダーに追加する予定のプロジェクト、タスク、またはイシューにカスタムフォームを添付し、日付を指定します。 詳しくは、[オブジェクトにカスタムフォームを追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 ## 項目のグループを設定
@@ -78,9 +83,9 @@ ht-degree: 84%
 
 {{step1-to-calendars}}
 
-1. 新しいアイテムのグループを追加するカレンダーを選択し、「その他」メニューをクリックしてから、**編集**&#x200B;します。
+1. 新しいアイテムのグループを追加するカレンダーを選択し、「その他」メニューをクリックしてから、**編集**します。
 または
-**[!UICONTROL 以上の新しいカレンダー]**&#x200B;をクリックし、プロジェクト名を入力してから、**[!UICONTROL 詳細アイテムを追加]**&#x200B;をクリックします。
+**[!UICONTROL +新しいカレンダー]**&#x200B;をクリックし、プロジェクト名を入力してから、**[!UICONTROL 詳細アイテムを追加]**&#x200B;をクリックします。
 
    >[!NOTE]
    >
@@ -148,6 +153,6 @@ ht-degree: 84%
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。 例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスクリベルの設定](assets/set-task-labels.png)
+   ![ タスクリベルの設定](assets/set-task-labels.png)
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

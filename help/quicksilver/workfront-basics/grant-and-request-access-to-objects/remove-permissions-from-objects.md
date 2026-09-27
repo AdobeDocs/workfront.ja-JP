@@ -6,22 +6,26 @@ description: 共有にアクセスできるオブジェクトに対する他の�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-TQID: https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE
+TQID: 'https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 77%
-
+source-wordcount: '771'
+ht-degree: 79%
 ---
-
 # オブジェクトから権限を削除
 
 <!--Audited: 01/2024-->
@@ -91,7 +95,7 @@ ht-degree: 77%
       ![共有](assets/new-share-button.png)
    1. オブジェクトから削除するユーザー、役割、チーム、グループまたは会社を検索します。
    1. 「**削除**」をクリックします。
-「**削除&lt; ユーザー名>から**」ドロップダウンメニューで、選択したオブジェクトからアクセスを削除するか、そのオブジェクトに関連付けられているすべての子オブジェクトからアクセスを削除するかを選択します。
+      「**次から &lt;ユーザー名> を削除**」ドロップダウンメニューで、選択したオブジェクトのみからアクセス権を削除するか、それに関連付けられているすべての子オブジェクトからアクセス権を削除するかを選択します。
 
       ![削除](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -173,7 +177,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    例えば、レポートに移動します。
 1. 「**レポートのアクション**」、「**共有**」の順にクリックします。
 
-   ![&#x200B; プライベートにする](assets/report-permissions-make-private-nwe-350x477.png)
+   ![ プライベートにする](assets/report-permissions-make-private-nwe-350x477.png)
 
 1. 歯車アイコンをクリックし、**これを外部ユーザーに公開する**&#x200B;のチェックを外します。
 1. **アクセス権のあるユーザー** ドロップダウンメニューで、**招待されたユーザーのみが**&#x200B;にアクセスできるアクセス権を持つユーザーをクリックして、すべてのWorkfront ユーザーとの共有を停止します。

@@ -1,24 +1,27 @@
 ---
 content-type: overview
 title: 概要パネルについて
-description: 概要パネルを使用すると、タスクのイシューのリスト、ドキュメント、またはタスクとイシューを表示する [!DNL Adobe Workfront] のその他の領域から、作業項目情報を直接確認して更新できます。
+description: 概要パネルを使用すると、タスクの問題、ドキュメント、またはタスクと問題を表示する[!DNL Adobe Workfront]の他の領域から、作業項目情報を直接確認して更新できます。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/cJBIqyDvl1wPpYWy4mFvJrcAOr52kRzyHDTCWyD8LdE
+TQID: 'https://experienceleague.adobe.com/cJBIqyDvl1wPpYWy4mFvJrcAOr52kRzyHDTCWyD8LdE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 914
-ht-degree: 84%
-
+source-wordcount: '915'
+ht-degree: 83%
 ---
-
 # [!UICONTROL 概要]パネルについて
 
 <!--
@@ -116,11 +119,11 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
 1. タスクまたはイシューに移動し、リストからアイテムを選択します。
-1. 新しいツールバー![&#128279;](assets/qs-summary-in-new-toolbar-small.png)の&#x200B;**[!UICONTROL 概要]** アイコン 概要をクリックします
+1. 新しいツールバー](assets/qs-summary-in-new-toolbar-small.png)の&#x200B;**[!UICONTROL 概要]** アイコン ![概要をクリックします
 
    または
 
-   [!UICONTROL &#x200B; リクエスト &#x200B;] エリアの「[!UICONTROL 送信済み]」セクションにある「**[!UICONTROL 概要を開く]**」アイコン「![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)」をクリックします。
+   [!UICONTROL  リクエスト ] エリアの「[!UICONTROL 送信済み]」セクションにある「**[!UICONTROL 概要を開く]**」アイコン「![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)」をクリックします。
 
    概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
@@ -132,13 +135,13 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
-   * タスクまたは問題リストで、**[!UICONTROL 概要を開く]** アイコン ![概要パネルアイコン &#x200B;](assets/summary-panel-icon.png)をクリックします
+   * タスクまたは問題リストで、**[!UICONTROL 概要を開く]** アイコン ![概要パネルアイコン ](assets/summary-panel-icon.png)をクリックします
 
      または
 
      [!UICONTROL 概要]パネルの右上隅にある **X** アイコンをクリックします。
 
-   * [!UICONTROL &#x200B; リクエスト &#x200B;]領域の[!UICONTROL 送信済み] セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![概要をテキストで閉じる](assets/close-summary-with-text-nwe.png)をクリックします
+   * [!UICONTROL  リクエスト ]領域の[!UICONTROL 送信済み] セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![概要をテキストで閉じる](assets/close-summary-with-text-nwe.png)をクリックします
 
      または
 

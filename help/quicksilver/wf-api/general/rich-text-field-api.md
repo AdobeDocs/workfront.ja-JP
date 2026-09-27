@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+TQID: 'https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 769
-ht-degree: 32%
-
+source-wordcount: '777'
+ht-degree: 33%
 ---
-
 # Adobe Workfront API のリッチテキストフィールド
 
 <!-- Audited: 5/2025 -->
@@ -29,7 +32,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 リッチテキスト形式のカスタムフィールドは、リッチテキスト付きフィールドと呼ばれ、次の値を関連付けることができます。
 
-![&#x200B; リッチテキストの例](assets/rich-text-example-350x158.png)
+![ リッチテキストの例](assets/rich-text-example-350x158.png)
 
 例：リッチテキストカスタムフォームフィールドを使用してフィールドの値を取得するための基本的なGET リクエスト：
 
@@ -57,7 +60,7 @@ GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
 
 例：ここでは、カスタムフィールドの各テキスト行が、配列ブロック内のブロック要素にマッピングされます。
 
-![&#x200B; リッチテキストマッピング &#x200B;](assets/copy-of-rich-text-mapping-350x159.png)
+![ リッチテキストマッピング ](assets/copy-of-rich-text-mapping-350x159.png)
 
 各ブロック要素もJSON オブジェクトなので、各ブロックは、key、text、type、depth、inlineStyleRanges、entityRanges、dataなどの要素で構成されます。 これらの各要素は、次のように機能します。
 
@@ -70,7 +73,7 @@ GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
 
 例：次に、文字レベルで各スタイルを説明するinlineStyleRanges配列を示します。 この場合、インデックス 0 （オフセット：0）から始まる9文字（長さ：9）に太字スタイルが適用されています。
 
-![&#x200B; リッチテキストマッピング &#x200B;](assets/copy-of-rich-text-mapping-2-350x136.png)
+![ リッチテキストマッピング ](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 1行に複数のタイプの書式が適用されている場合、スタイルはinlineStyleRanges配列の追加の要素にマッピングされます。
 
@@ -102,8 +105,8 @@ GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
 
 Workfront API を使用してリッチテキストフィールドの次の値を保存するには：
 <pre>
-        <strong> ワールド </strong>様こんにちは！!!
-        これが最初の<strong> リッチテキスト </strong>です</pre>
+        Hello <strong>World</strong>!!!
+        This is my first <strong>Rich Text</strong></pre>
 
 1. テキストの各行を配列ブロック内のブロック要素に整理することで、キャプチャしようとしているリッチテキストフィールドの値を表すJSONを作成します。
 
@@ -127,4 +130,4 @@ Workfront API を使用してリッチテキストフィールドの次の値を
 1. 上記のJSONのstringify メソッドを使用して、PUT リクエストを行い、更新を送信します。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

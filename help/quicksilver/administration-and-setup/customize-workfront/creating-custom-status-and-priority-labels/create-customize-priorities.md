@@ -5,23 +5,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-TQID: https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw
+TQID: 'https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 47%
-
 ---
-
 # 優先度の作成とカスタマイズ
 
 <!--
@@ -65,11 +70,11 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 * 優先度の名前を変更する。
 * 優先度を並べ替える。
 
-  優先順位を並べ替える方法について詳しくは、[&#x200B; プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
+  優先順位を並べ替える方法について詳しくは、[ プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
 
 * デフォルトの優先度を変更する。
 
-  デフォルトの優先度を変更する機能について詳しくは、[&#x200B; プロジェクト、タスク、またはイシューの優先度の作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
+  デフォルトの優先度を変更する機能について詳しくは、[ プロジェクト、タスク、またはイシューの優先度の作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
 
 * 優先度の説明を編集する。
 * 各優先度に色を設定する。
@@ -84,7 +89,7 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 
 * 優先度を非表示にする。
 
-  優先度を非表示にする機能について詳しくは、[&#x200B; プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
+  優先度を非表示にする機能について詳しくは、[ プロジェクト、タスク、または問題の優先度を作成](#create-a-priority-for-a-project-task-or-issue)を参照してください。
 
   >[!NOTE]
   >
@@ -119,7 +124,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
    * **カラー**：優先度のカラーを選択します。
 
-     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。 グラフレポートについて詳しくは、[レポートへのグラフの追加](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。 アジャイルチーム設定について詳しくは、[&#x200B; アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。 グラフレポートについて詳しくは、[レポートへのグラフの追加](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。 アジャイルチーム設定について詳しくは、[ アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
    * **デフォルトの優先度**：新しく作成されたすべてのプロジェクト、タスク、またはイシューにWorkfrontを自動的に適用する優先度を選択します。
 
@@ -127,12 +132,12 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
      非表示の優先度をデフォルトにすることはできません。
 
-     デフォルトの優先度は、アイコン ![&#x200B; デフォルトの優先度アイコン &#x200B;](assets/default-icon.png)で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの優先度は、アイコン ![ デフォルトの優先度アイコン ](assets/default-icon.png)で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
-      * 優先順位名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**デフォルトにする**」を選択します。
-      * 優先順位名にカーソルを合わせ、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
+     * 優先順位名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**デフォルトにする**」を選択します。
+     * 優先順位名にカーソルを合わせ、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
 
-        新しいデフォルトの優先度には、アイコンのラベルが付けられます。
+       新しいデフォルトの優先度には、アイコンのラベルが付けられます。
 
    * **説明**：優先度の説明を入力して、その機能を説明します。
    * **選択肢を非表示**: **はい**&#x200B;を選択すると、不要になった優先度を非表示にできます。

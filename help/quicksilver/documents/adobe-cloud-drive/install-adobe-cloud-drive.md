@@ -7,17 +7,25 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 44bf6f571c35bd9a2f44fc23b2a5eaa3eb2d763b
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '532'
 ht-degree: 6%
-
 ---
-
 # Adobe Cloud Driveのインストール
 
 デスクトップでAdobe クラウドストレージプロジェクトを操作するには、Adobe Cloud DriveをMacまたはWindows コンピューターにインストールします。
@@ -75,7 +83,7 @@ Adobe Cloud Driveをインストールする前に、次の点を確認してく
 * 初期設定と同期のためのインターネット接続
 * パフォーマンスに推奨される安定した接続
 
-Adobe Cloud Driveが依存するサービスに確実にアクセスできるようにするには、[Adobe ネットワークエンドポイント &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)にリストされているネットワークエンドポイントを許可します。
+Adobe Cloud Driveが依存するサービスに確実にアクセスできるようにするには、[Adobe ネットワークエンドポイント ](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)にリストされているネットワークエンドポイントを許可します。
 
 ## インストーラーのダウンロード
 

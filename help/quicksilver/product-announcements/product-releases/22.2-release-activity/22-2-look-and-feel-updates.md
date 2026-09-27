@@ -6,18 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-TQID: https://experienceleague.adobe.com/9MTK6HmMICIu6itU9SDDnqs5xv2pWchP2xHK-CljPZ0
+TQID: 'https://experienceleague.adobe.com/9MTK6HmMICIu6itU9SDDnqs5xv2pWchP2xHK-CljPZ0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '378'
 ht-degree: 100%
-
 ---
-
 # 22.2 リリース期間のルックアンドフィールの更新
 
 このページでは、22.2 リリース期間内に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールにおけるマイナーアップデートについて説明します。 これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。

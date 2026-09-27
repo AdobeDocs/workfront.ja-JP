@@ -8,25 +8,31 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-TQID: https://experienceleague.adobe.com/PQtVOIc3szHch0vLX3Lqn-PDCvYeXUXZWmF1enuICeY
+TQID: 'https://experienceleague.adobe.com/PQtVOIc3szHch0vLX3Lqn-PDCvYeXUXZWmF1enuICeY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 94%
-
 ---
-
 # グローバル承認設定の指定
 
 Adobe Workfront の管理者は、Workfront での承認プロセスのグローバル設定を決定できます。 これらの設定は、システム内のすべての作業項目の承認プロセスに影響します。
@@ -68,7 +74,7 @@ Adobe Workfront の管理者は、Workfront での承認プロセスのグロー
 
 1. **プロセス**/**承認**&#x200B;をクリックします。
 
-1. **承認** エリア名の横にある&#x200B;**設定** アイコン ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+1. **承認** エリア名の横にある&#x200B;**設定** アイコン ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
 
 1. 表示される「**承認設定**」ボックスで、次の情報を指定します。
 

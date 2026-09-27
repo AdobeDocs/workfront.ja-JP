@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4
+TQID: 'https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2668
+source-wordcount: '2668'
 ht-degree: 97%
-
 ---
-
 # EXISTS ステートメントを使用した複雑なテキストモードフィルターの作成
 
 <!-- Audited: 01/2025 -->
@@ -75,22 +81,22 @@ API エクスプローラーの操作とオブジェクトの検索の方法に�
 * フィルターオブジェクトに直接接続されていないオブジェクトを参照する場合は、複雑なフィルターを作成する必要があります。
 * 以下を行うには、EXISTS 文を使用する必要があります。
 
-   * 複数のレベルにまたがるフィルターの作成。
-   * 見つからないオブジェクトを探すフィルターの作成。\
-     例えば、ユーザーレポートを作成する際に、一定期間ログに記録していないユーザーを絞り込むことができます。
+  * 複数のレベルにまたがるフィルターの作成。
+  * 見つからないオブジェクトを探すフィルターの作成。\
+    例えば、ユーザーレポートを作成する際に、一定期間ログに記録していないユーザーを絞り込むことができます。
 
 フィルターで EXISTS 文を使用する際は、次のルールを考慮してください。
 
 * EXISTS フィルターで参照できるオブジェクトは次の 3 種類あります。
 
-   * フィルターのオブジェクト（オリジナルオブジェクト）。
-   * 参照するフィールドを持つオブジェクト（ターゲットオブジェクト）。
-   * 元のオブジェクトとターゲットオブジェクトが相互に直接接続されていない場合に両者を接続するオブジェクト（リンクオブジェクト）。
+  * フィルターのオブジェクト（オリジナルオブジェクト）。
+  * 参照するフィールドを持つオブジェクト（ターゲットオブジェクト）。
+  * 元のオブジェクトとターゲットオブジェクトが相互に直接接続されていない場合に両者を接続するオブジェクト（リンクオブジェクト）。
 
 * EXISTS を使用するフィルターには、等号でリンクされた 2 つの別個のステートメントが含まれます。
 
-   * 等号の前のステートメントは、参照先のオブジェクト（リンクオブジェクトまたはターゲットオブジェクト）を指します。
-   * 等号の後のステートメントは、参照元のオブジェクト（オリジナルオブジェクト）を指します。
+  * 等号の前のステートメントは、参照先のオブジェクト（リンクオブジェクトまたはターゲットオブジェクト）を指します。
+  * 等号の後のステートメントは、参照元のオブジェクト（オリジナルオブジェクト）を指します。
 
 * ステートメントを接続するには、リンクオブジェクトのオブジェクトコードを使用する必要があります。\
   すべてのオブジェクトのオブジェクトコードを API エクスプローラーで確認できます。\

@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
+TQID: 'https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 902
+source-wordcount: '902'
 ht-degree: 56%
-
 ---
-
 # ポートフォリオを作成
 
 <!--Audited: 08/2025-->
@@ -64,7 +71,7 @@ ht-degree: 56%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -114,14 +121,14 @@ Workfrontでは、次のいずれかの方法を使用してポートフォリ�
 
   * Workfront Planningのレコードタイプから連結するだけです。
 
-  レコードに追加してポートフォリオを作成する方法について詳しくは、「[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)」の「レコードを接続する際にレコードを作成する」の節を参照してください。
+  レコードに追加してポートフォリオを作成する方法について詳しくは、「[ レコードを作成](/help/quicksilver/planning/records/create-records.md)」の「レコードを接続する際にレコードを作成する」の節を参照してください。
   * Workfront計画の自動処理の使用。
 
   詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
 
   Workfront Planning用の新しいWorkfront ライセンスと、追加のWorkfront Planning パッケージが必要です。
 
-  Workfront Planningへのアクセスについて詳しくは、[&#x200B; アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+  Workfront Planningへのアクセスについて詳しくは、[ アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 
 ## ポートフォリオを作成
@@ -147,7 +154,7 @@ Workfrontでは、次のいずれかの方法を使用してポートフォリ�
 
      * レガシーWorkfront ストレージポートフォリオの`Untitled Portfolio`。
 
-       レガシーWorkfront ストレージポートフォリオには、名前の横に&#x200B;**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージポートフォリオアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+       レガシーWorkfront ストレージポートフォリオには、名前の横に&#x200B;**レガシーWorkfront ストレージ** アイコン ![ レガシーストレージポートフォリオアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
 
      * Adobe クラウドストレージポートフォリオの`Untitled Portfolio - < Month day, year hour.minute.second >`
 
@@ -157,7 +164,7 @@ Workfrontでは、次のいずれかの方法を使用してポートフォリ�
 
      Adobe クラウドストレージポートフォリオの場合、ポートフォリオと同じ名前の新しいドキュメントフォルダーがドキュメント領域に自動的に作成されます。
 
-     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+     詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. ポートフォリオの名前を、ポートフォリオヘッダーの新しい名前に置き換えます。
 

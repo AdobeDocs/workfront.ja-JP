@@ -7,18 +7,26 @@ description: ワークフローパネルには、プルーフの詳細ページ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-TQID: https://experienceleague.adobe.com/npnr8trMiVQ-Hv4I-cMCgQIaNbefbT8m4Yq8G7-SMc4
+TQID: 'https://experienceleague.adobe.com/npnr8trMiVQ-Hv4I-cMCgQIaNbefbT8m4Yq8G7-SMc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: '276'
 ht-degree: 99%
-
 ---
-
 # プルーフビューアーでワークフローを確認
 
 >[!IMPORTANT]
@@ -26,7 +34,7 @@ ht-degree: 99%
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!UICONTROL ワークフロー]パネルには、プルーフの詳細ページと、メール通知に表示されるプルーフのワークフローが表示されます。\
-プルーフの詳細について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細を管理を参照してください。\
+プルーフの詳細について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細を管理を参照してください。\
 ユーザーとゲストを含む、割り当てられたすべてのレビュアーは、[!UICONTROL ワークフロー]パネルを表示できます。
 
 [!UICONTROL ワークフロー]パネルにアクセスするには、次の手順に従います。
@@ -39,7 +47,7 @@ ht-degree: 99%
 
    **[!UICONTROL ワークフロー]**&#x200B;パネルが表示されます。
 
-   ![&#x200B; ワークフローパネル &#x200B;](assets/workflow-panel-350x115.png)
+   ![ ワークフローパネル ](assets/workflow-panel-350x115.png)
 
    ワークフローパネルの各セクションには、プルーフ、ステージおよびレビュアーの進捗状況とステータスが表示されます。
 
@@ -55,4 +63,4 @@ ht-degree: 99%
 
      ![Screen_Shot_2018-05-01_at_10.33.37_AM.png](assets/screen-shot-2018-05-01-at-10.33.37-am-350x29.png)
 
-     プルーフの進捗状況とステータスに関する詳細は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) でのプルーフの進捗状況とステータスの表示を参照してください。
+     プルーフの進捗状況とステータスに関する詳細は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) でのプルーフの進捗状況とステータスの表示を参照してください。

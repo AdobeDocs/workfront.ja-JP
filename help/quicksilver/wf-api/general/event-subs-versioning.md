@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 17%
-
+source-wordcount: '1326'
+ht-degree: 14%
 ---
-
 # イベント登録のバージョン管理
 
 Workfront には、2 つのバージョンのイベント登録があります。 この記事では、それらの違いについて説明します。
@@ -32,7 +36,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
 
 イベント登録を別のバージョンにアップグレードまたはダウングレードすると、バージョン変更後 5 分間にわたって、イベント配信ごとに重複したイベントが配信されます。 重複したイベントには、イベント登録バージョン 1 とバージョン 2 がそれぞれ 1 つずつ含まれます。 これにより、イベント登録バージョンを変更しても、イベントを見落とすことがなくなります。
 
-イベントサブスクリプションのアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、「イベントサブスクリプション API」の「[&#x200B; イベントサブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)」を参照してください。
+イベントサブスクリプションのアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、「イベントサブスクリプション API」の「[ イベントサブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)」を参照してください。
 
 >[!IMPORTANT]
 >
@@ -108,7 +112,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
    </td> 
   </tr> 
   <tr> 
@@ -120,7 +124,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>object id</code>に変更されたことが誤って表示されました。 </td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -130,7 +134,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>ドキュメントが削除された場合、<code>DELETE</code> イベントは、影響を受けるフィールドをbefore状態の空の配列として誤って表示しました。    </td> 
    <td><code>DELETE</code> イベントは、影響を受けるフィールドをbefore状態で正しく表示します。</td> 
-   <td>なし。<code>DELETE</code> イベントは引き続き送信されますが、影響を受けるフィールドの正しいデータが表示されるようになりました。 
+   <td>なし。 <code>DELETE</code> イベントは引き続き送信されますが、影響を受けるフィールドの正しいデータが表示されるようになりました。 
 </td> 
   </tr> 
   <tr> 
@@ -144,7 +148,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトが更新されると、2つの<code>UPDATE</code> イベントが送信されます。 最初のイベントには影響を受けるフィールドが含まれず、2番目のイベントには含まれていました。</td> 
    <td>影響を受けるフィールドを含むすべてのフィールド更新は、1つの<code>UPDATE</code> イベントにのみ存在し、2つ目の不要なイベントは送信されません。     </td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、イベントは最初のイベントで配信されます。 
+   <td>なし。 影響を受けるフィールドにフィルターがある場合、イベントは最初のイベントで配信されます。 
 </td> 
   </tr> 
   <tr> 
@@ -157,7 +161,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>任意のパラメーター値が経費で更新された場合、<code>UPDATE</code> イベントに誤って<code>EXPNS</code>から<code>PROJ</code>へのtopReferenceObjCodeの変更が表示され、<code>referenceObjectName</code>が<code>null</code>から<code>string value of project name</code>への変更が表示されました。      </td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -168,7 +172,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>費用オブジェクトが削除されると、<code>DELETE</code> イベントが送信される前に、影響を受けるフィールドをnullに変更する<code>UPDATE</code> イベントが送信されました。    </td> 
    <td>追加の<code>UPDATE</code> イベントは送信されません。 <code>DELETE</code> イベントには、before状態の影響を受けるフィールドの正しい値があります。 </td> 
-   <td><code>UPDATE</code> イベントの影響を受けるフィールドのフィルターがあり、オブジェクトが削除されたときに受信することを想定している場合は、その<code>UPDATE</code> イベントは受信されなくなります。オブジェクトが削除されたときにこれらのフィールドを表示するには、追加の<code>DELETE</code> サブスクリプションを作成する必要があります。
+   <td><code>UPDATE</code> イベントの影響を受けるフィールドのフィルターがあり、オブジェクトが削除されたときに受信することを想定している場合は、その<code>UPDATE</code> イベントは受信されなくなります。 オブジェクトが削除されたときにこれらのフィールドを表示するには、追加の<code>DELETE</code> サブスクリプションを作成する必要があります。
 </td> 
   </tr> 
   <tr> 
@@ -199,7 +203,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されたことが誤って表示されました。 </td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
 </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
     </ul> 
    <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されたことが誤って表示されました。 </td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -232,7 +236,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
   </tr> 
   <tr> 
    <th rowspan="2">タスク</th> 
@@ -243,7 +247,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されたことが誤って表示されました。 </td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -253,7 +257,7 @@ Workfront には、2 つのバージョンのイベント登録があります�
    </td> 
    <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
    <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
+   <td>なし。 影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
  </tbody> 
 </table>
 
@@ -262,6 +266,6 @@ Workfront には、2 つのバージョンのイベント登録があります�
 
 Workfront Fusionでは、イベントサブスクリプションを使用して、Workfrontからトリガーへの変更を監視します。 Fusionがシナリオで直接使用するイベント購読バージョンを更新するには、Workfront/イベントペイロードバージョンを更新モジュールを使用します。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの[Workfront モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの[Workfront モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)を参照してください。
 
-ウェビナーの録画など、イベント登録のアップグレード中に Workfront Fusion シナリオを保持する方法について詳しくは、[イベント登録 V2 のアップグレード中の Fusion シナリオの保持](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ja)を参照してください。
+ウェビナーの録画など、イベント登録のアップグレード中に Workfront Fusion シナリオを保持する方法について詳しくは、[イベント登録 V2 のアップグレード中の Fusion シナリオの保持](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)を参照してください。

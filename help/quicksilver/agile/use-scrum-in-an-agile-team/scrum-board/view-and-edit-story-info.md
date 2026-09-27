@@ -8,24 +8,33 @@ feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Hu0M7Y-w2u9NIISFgpf7Vg6tlz5AwsrFRtEEPhd4eMc
+TQID: 'https://experienceleague.adobe.com/Hu0M7Y-w2u9NIISFgpf7Vg6tlz5AwsrFRtEEPhd4eMc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '446'
 ht-degree: 76%
-
 ---
-
 # [!UICONTROL スクラム]のボードのストーリー情報の表示と編集
 
 ## 表示および編集できる情報について
@@ -75,7 +84,7 @@ ht-degree: 76%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Adobe Workfront]</a>の「<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> ビューの概要」の「アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更してアジャイルビューに追加された可能性のある追加フィールド（カスタムフィールドを含む）です。</p> </td> 
+   <td> <p>[!UICONTROL Adobe Workfront]</a>の「<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> ビューの概要」の「[!UICONTROL アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更してアジャイルビューに追加された可能性のある追加フィールド（カスタムフィールドを含む）です。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -119,10 +128,10 @@ ht-degree: 76%
 
 1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 
-1. [!UICONTROL &#x200B; スクラム &#x200B;] アジャイルストーリーボードに移動します。
+1. [!UICONTROL  スクラム ] アジャイルストーリーボードに移動します。
 1. [!UICONTROL ストーリー]タイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ ストーリーカード ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして、変更を加えます。
 

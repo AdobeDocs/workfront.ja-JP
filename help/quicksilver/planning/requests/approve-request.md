@@ -8,26 +8,35 @@ recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/u8dbV85NLabPjFj0-gsjPO1vz3mrmgU9yKxRBttHhtY
+TQID: 'https://experienceleague.adobe.com/u8dbV85NLabPjFj0-gsjPO1vz3mrmgU9yKxRBttHhtY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: '1017'
 ht-degree: 8%
-
 ---
-
 # Adobe Workfront Planning でのリクエストの承認
 
 <!--take Preview and Production references at Production time-->
@@ -92,7 +101,7 @@ Adobe Workfront Planningの承認に関連付けられたリクエストフォ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -139,13 +148,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >* Workfront Planningにアクセスできない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認リクエストにのみアクセスできます。
      >* 従来のリクエストエクスペリエンスからPlanning リクエストにアクセスすることはできません。
 
-   * 画面の右上隅にある&#x200B;**通知**&#x200B;領域アイコン ![統合シェル &#x200B;](assets/notifications-area-icon-unified-shell.png)の通知領域アイコンをクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
+   * 画面の右上隅にある&#x200B;**通知**&#x200B;領域アイコン ![統合シェル ](assets/notifications-area-icon-unified-shell.png)の通知領域アイコンをクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
    * 承認待ちのリクエストについて通知するメールのメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![&#x200B; レビューステータスの読み取り専用リクエストページ &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
-1. （オプション）リクエストの右上隅にある&#x200B;**承認** アイコン ![承認アイコン &#x200B;](assets/approvals-icon.png)をクリックして、承認者を表示します。
+   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
+1. （オプション）リクエストの右上隅にある&#x200B;**承認** アイコン ![承認アイコン ](assets/approvals-icon.png)をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックし、次のいずれかを選択します。
 
    * **承認**：これにより、リクエストが承認されます。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードがすぐに作成されます。
@@ -166,7 +175,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. **ホーム**&#x200B;の&#x200B;**マイ承認** ウィジェットに移動します。
 
-   ![&#x200B; ホームの自分の承認ウィジェット &#x200B;](assets/my-approvals-widget-in-home.png)
+   ![ ホームの自分の承認ウィジェット ](assets/my-approvals-widget-in-home.png)
 1. 承認または却下する計画リクエストを探します。
 
 1. （オプション）コメントを追加するには、**承認**&#x200B;または&#x200B;**却下**&#x200B;の横にあるドロップダウン矢印をクリックし、メモに入力して、**追加**&#x200B;をクリックします。

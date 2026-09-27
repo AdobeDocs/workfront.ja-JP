@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+TQID: 'https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 96%
-
+source-wordcount: '1681'
+ht-degree: 98%
 ---
-
 # 2017.3 ベータ版 4 リリースアクティビティ
 
 このページでは、2017.3 ベータ版 4 リリースでプレビュー環境に最近利用可能となったすべての変更について説明します。 このページの機能は、2017年9月25日（PT）の週にプレビュー環境で使用できるようになりました。 2017年11月初旬に、本番環境で利用可能になる予定です。
@@ -62,7 +70,7 @@ ht-degree: 96%
 
 ## タスクを複製 {#duplicate-tasks}
 
-プロジェクト内のタスクまたは一連のタスクをすばやく複製できるようになりました。このアクションは、元のタスクと同じタスクを作成します。複製プロセス中に、新しく作成したタスクに変更を加えることができる追加のオプションはありません。  
+プロジェクト内のタスクやタスクのセットをすばやく複製できるようになりました。 このアクションにより、元のタスクと同じタスクが作成されます。 複製プロセス中に、新しく作成したタスクに変更を加えることができる追加オプションはありません。  
 
 この変更以前は、新しいプロジェクトまたは既存のプロジェクトにタスクをコピーし、コピー時に情報を変更することができました。
 
@@ -119,7 +127,7 @@ Workfront は、稼動可能なユーザー全体の現在の作業割り当て�
 これで設定に、リソース管理という新しいエリアが追加されました。 このエリアでは、リソースプランナーでのユーザーの空き時間の計算方法を指定できる設定を導入しました。 以下の方法で計算できます。
 
 * 手動：ユーザーの個々の FTE に加えて、システムのデフォルトスケジュールを使用して、リソースプランナーでユーザーの空き時間を決定します。 ユーザーのスケジュールは無視されます。
-* 自動的：ユーザーのスケジュールは、リソースプランナーでユーザーの時間可用性を決定するために使用されます。FTEの可用性は、ユーザーのスケジュールとデフォルトのスケジュールに基づいて計算されます。ユーザーFTEの値は無視されます。 
+* 自動：ユーザーのスケジュールは、リソースプランナーでユーザーの空き時間を決定するために使用されます。 FTE の空き時間は、ユーザーのスケジュールとデフォルトのスケジュールに基づいて計算されます。 ユーザーの FTE の値は無視されます。 
 
 システムのリソース管理の環境設定の指定について詳しくは、[リソース管理の環境設定を指定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 

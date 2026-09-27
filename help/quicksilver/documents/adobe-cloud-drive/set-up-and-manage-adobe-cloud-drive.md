@@ -6,13 +6,27 @@ description: 管理者は、組織にAdobe Cloud Driveを設定し、ユーザ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 2%
-
 ---
-
 # Adobe Cloud Driveの設定と管理
 
 管理者は、macOSのFinderとWindowsのFile Explorerを使用して、Adobe Cloud Driveを設定し、Adobe クラウドストレージ内のプロジェクトファイルにデスクトップから直接アクセスできるようにすることができます。 この記事では、Adobe Admin Consoleでアクセスを有効にし、アプリケーションをユーザーデバイスにデプロイし、継続的にアクセスを管理する方法について説明します。
@@ -79,7 +93,7 @@ Adobeが組織のAdobe Cloud Driveをアクティブ化すると、デフォル�
 
 Adobe Cloud Driveは、Workflow Ultimate パッケージでのみ使用できます。 役割オプションは、他のパッケージでは使用できません。
 
-Workflow Ultimate パッケージ内のライセンスは、Standard、Light、Contributorのいずれかのライセンスタイプにすることができます。 ライセンスについて詳しくは、[&#x200B; ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
+Workflow Ultimate パッケージ内のライセンスは、Standard、Light、Contributorのいずれかのライセンスタイプにすることができます。 ライセンスについて詳しくは、[ ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
 
 次の表は、これらのコントロールがどのように相互作用するかを示しています。
 
@@ -97,12 +111,12 @@ Workflow Ultimate パッケージ内のライセンスは、Standard、Light、C
 開始する前に、次の点を確認してください。
 
 * プロビジョニングするユーザーには、Workfront Workflow ライセンスが割り当てられています。
-* IT チームとの[&#x200B; ネットワーク要件](#network-requirements)を確認しました。
+* IT チームとの[ ネットワーク要件](#network-requirements)を確認しました。
 * Adobe Cloud Driveが示す内容（Workfront プロジェクトアセットのみ）とインストール方法についてユーザーに説明するコミュニケーションを作成しました。
 
   >[!NOTE]
   >
-  >アクセスが有効になっているが、Workfront プロジェクトにアクセスできないユーザーは、ログイン後に空のマウントされたドライブを見ることができます。 今期待されているものです。 Workfront プロジェクトへのアクセスは、Workfrontでは個別に管理されます。 詳しくは、[&#x200B; プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
+  >アクセスが有効になっているが、Workfront プロジェクトにアクセスできないユーザーは、ログイン後に空のマウントされたドライブを見ることができます。 今期待されているものです。 Workfront プロジェクトへのアクセスは、Workfrontでは個別に管理されます。 詳しくは、[ プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
   >
   >また、プロジェクトをドライブに表示するには、Creative Cloudの使用権限がWorkfrontと同じIMS組織にある必要があります。
 
@@ -120,7 +134,7 @@ Adobeが組織のAdobe Cloud Driveをアクティブ化すると、組織レベ�
 1. 役割リストの&#x200B;**メンバー**&#x200B;をクリックします。
 1. 右側に表示される&#x200B;**メンバー** パネルで、**権限**&#x200B;の下に&#x200B;**Adobe Cloud Drive**&#x200B;が表示され、そのスイッチがオンになっていることを確認します。
 
-   Adobe Cloud Driveがオンになっている![&#x200B; メンバーの役割の詳細パネル &#x200B;](assets/member-permissions.png)
+   Adobe Cloud Driveがオンになっている![ メンバーの役割の詳細パネル ](assets/member-permissions.png)
 
    >[!NOTE]
    >
@@ -149,7 +163,7 @@ ACD ユーザーロールにパイロットユーザーを追加するには：
 1. 左側のパネルで「**役割**」をクリックして、役割リストに戻ります。
 1. 役割リストで「**ACD user**」をクリックします。
 
-   ![ACD ユーザー詳細パネル &#x200B;](assets/acd-user-panel.png)
+   ![ACD ユーザー詳細パネル ](assets/acd-user-panel.png)
 
 1. 「**ユーザーを追加**」をクリックします。
 1. 各パイロットユーザーのメールアドレスを入力します。
@@ -182,13 +196,13 @@ Adobe Admin Consoleでパッケージを作成するには：
 
    Adobe Cloud Driveがテンプレートリストに2回表示されます。macOSは1回、Windowsは1回です。
 
-   ![事前生成されたパッケージテンプレート &#x200B;](assets/pre-generated-packages.png)
+   ![事前生成されたパッケージテンプレート ](assets/pre-generated-packages.png)
 
 1. 対象のプラットフォームに一致する&#x200B;**Adobe Cloud Drive**&#x200B;行を見つけ、その行の詳細アイコンをクリックします。
 
    サイドパネルには、パッケージメタデータが表示されます。
 
-   ![&#x200B; パッケージの詳細とメタデータ &#x200B;](assets/template-details-and-metadata.png)
+   ![ パッケージの詳細とメタデータ ](assets/template-details-and-metadata.png)
 
 1. 「**カスタマイズ**」をクリックします。
 
@@ -199,29 +213,29 @@ Adobe Admin Consoleでパッケージを作成するには：
    * **macOS:** **macOS （Intel）**&#x200B;または&#x200B;**macOS （Apple Silicon）**&#x200B;を選択します。
    * **Windows:** **Windows （64 ビット）**&#x200B;または&#x200B;**Windows （ARM）**&#x200B;を選択します。
 
-   ![&#x200B; パッケージウィザードの手順の設定](assets/configure-step-in-wizard.png)
+   ![ パッケージウィザードの手順の設定](assets/configure-step-in-wizard.png)
 
 1. **アプリを選択**&#x200B;手順で、Adobe Cloud Driveが必要なバージョンで選択されていることを確認します。
 
    Adobe Cloud Driveは、利用可能な最新バージョンで事前に選択されています。 古いバージョンを使用するには、**その他のバージョン**&#x200B;をクリックし、**古いバージョン**&#x200B;を選択します。
 
-   ![&#x200B; パッケージウィザードでアプリの手順を選択](assets/choose-apps-step-in-wizard.png)
+   ![ パッケージウィザードでアプリの手順を選択](assets/choose-apps-step-in-wizard.png)
 
 1. 「**次へ**」をクリックします。
 1. **オプション** ステップで、オプションを選択せずに&#x200B;**次へ**&#x200B;をクリックします。
 
    これらの設定はCreative Cloud デスクトップアプリケーションに適用され、Adobe Cloud Driveには適用されません。
 
-   ![&#x200B; パッケージウィザードのオプション手順](assets/options-step-in-wizard.png)
+   ![ パッケージウィザードのオプション手順](assets/options-step-in-wizard.png)
 
 1. **最終版**&#x200B;の手順で、パッケージの名前を入力し、**フラットパッケージ**&#x200B;を選択します。
 1. 概要を確認し、**パッケージを作成**&#x200B;をクリックします。
 
-   ![&#x200B; パッケージウィザードで手順を最終決定](assets/finalize-step-in-wizard.png)
+   ![ パッケージウィザードで手順を最終決定](assets/finalize-step-in-wizard.png)
 
    ウィザードが閉じます。 新しいパッケージは、ビルド中に&#x200B;**準備中** ステータスでパッケージリストの上部に表示されます。 準備が整うと、ステータスが&#x200B;**最新**&#x200B;に変更され、ダウンロードリンクが表示されます。
 
-   ![準備中のパッケージ &#x200B;](assets/package-is-preparing.png)
+   ![準備中のパッケージ ](assets/package-is-preparing.png)
 
 1. 「**ダウンロード**」をクリックし、選択した場所にパッケージファイルを保存します。
 
@@ -233,7 +247,7 @@ Adobe Admin Consoleでパッケージを作成するには：
 
 * Adobe Admin Consoleのユーザーに対してアクセスが有効になっています。
 * ソフトウェア配布URLとログイン手順がユーザーに通知されました。
-* 必要なエンドポイントへのネットワーク接続が検証されました。 詳しくは、この記事の「[&#x200B; ネットワーク要件](#network-requirements)」を参照してください。
+* 必要なエンドポイントへのネットワーク接続が検証されました。 詳しくは、この記事の「[ ネットワーク要件](#network-requirements)」を参照してください。
 
 Adobe Cloud Driveをセルフインストールするには：
 
@@ -245,7 +259,7 @@ Adobe Cloud Driveをセルフインストールするには：
    >Adobe Cloud Drive インストーラーを表示するには、Adobe Admin ConsoleでAdobe Cloud Drive アクセスを有効にする必要があります。 アクセス権を持たないユーザーには、インストーラーが表示されません。
 
 1. ユーザーは、Enterprise IDまたはFederated IDでログインします。 Adobe Cloud Drive インストーラーは、「ソフトウェア配布」の「**Workfront**」タブに表示されます。
-1. ユーザーはプラットフォームのインストーラーをダウンロードし、[Adobe Cloud Driveのインストール &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)のインストール手順に従います。
+1. ユーザーはプラットフォームのインストーラーをダウンロードし、[Adobe Cloud Driveのインストール ](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)のインストール手順に従います。
 
    ![Workfront用Adobe Cloud Drive インストーラー](assets/wf-downloads.png)
 
@@ -299,11 +313,11 @@ Adobe Cloud Driveを使用したら、次の手順に従って新しいユーザ
 
 Adobe Cloud Driveは、ユーザーがアクセスできるWorkfront プロジェクトを表示します。 プロジェクトへのアクセスは、Adobe Admin ConsoleではなくWorkfrontで管理されます。 Adobe Cloud Driveへのアクセス権を持っているが、Workfront プロジェクトに属していないユーザーには、ログイン後に空のマウントされたドライブが表示されます。 これは予期される動作です。
 
-プロジェクト アクセスの管理について詳しくは、[&#x200B; プロジェクトの管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-overview.md)および[&#x200B; プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
+プロジェクト アクセスの管理について詳しくは、[ プロジェクトの管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-overview.md)および[ プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
 ## ネットワーク要件
 
-Adobe Cloud Driveでは、Adobe エンドポイントのセットへのアウトバウンド HTTPS （ポート 443）アクセスが必要です。 インバウンドファイアウォールルールは必要ありません。 エンドポイントの一覧については、[Adobe ネットワークエンドポイント &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)を参照してください。
+Adobe Cloud Driveでは、Adobe エンドポイントのセットへのアウトバウンド HTTPS （ポート 443）アクセスが必要です。 インバウンドファイアウォールルールは必要ありません。 エンドポイントの一覧については、[Adobe ネットワークエンドポイント ](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)を参照してください。
 
 Adobe Cloud Driveは、macOSとWindowsの両方でシステムレベルのプロキシ設定を読み取ります。 認証済みプロキシはサポートされています。
 
@@ -331,7 +345,7 @@ Adobe Cloud Driveは、Adobe IMS（Identity Management System）を介してユ�
 
 ## 一般的な問題のトラブルシューティング
 
-エンドユーザーのトラブルシューティング手順については、[Adobe Cloud Driveのトラブルシューティング &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)を参照してください。 以下に示す問題は、管理者に固有のものです。
+エンドユーザーのトラブルシューティング手順については、[Adobe Cloud Driveのトラブルシューティング ](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)を参照してください。 以下に示す問題は、管理者に固有のものです。
 
 ### ソフトウェア配布でAdobe Cloud Drive インストーラーが見つかりません
 

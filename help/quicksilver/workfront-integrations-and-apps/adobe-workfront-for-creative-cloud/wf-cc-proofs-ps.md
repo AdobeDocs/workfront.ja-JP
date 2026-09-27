@@ -2,36 +2,46 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Adobe Photoshop からプルーフをアップロード
-description: 写真ドキュメントのプリセットをプルーフとして [!DNL Adobe Workfront] に直接アップロードして、詳細なレビューと承認を行うことができます。
+description: 写真ドキュメントのプリセットをプルーフとして[!DNL Adobe Workfront]に直接アップロードして、詳細なレビューと承認を行うことができます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+TQID: 'https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 78%
-
+source-wordcount: '679'
+ht-degree: 84%
 ---
-
 # [!DNL Photoshop] からプルーフをアップロード
 
 特定のPhotoshop ドキュメントプリセットタイプをプルーフとして[!DNL Adobe Workfront]に直接アップロードして、詳細なレビューと承認を行うことができます。
 
 >[!IMPORTANT]
 >
->ファイルは、[Photoshopのテンプレートとプリセット &#x200B;](https://helpx.adobe.com/jp/photoshop/using/create-documents.html)で説明されているように、フォトドキュメントプリセットである必要があります。
+>ファイルは、[Photoshopのテンプレートとプリセット ](https://helpx.adobe.com/photoshop/using/create-documents.html)で説明されているように、フォトドキュメントプリセットである必要があります。
 
 
 
@@ -85,7 +95,7 @@ ht-degree: 78%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 1. （オプション）**[!UICONTROL プルーフ名]**&#x200B;テキストボックスにプルーフ名を入力します。
@@ -93,14 +103,14 @@ ht-degree: 78%
 1. （オプション）承認者を追加します。
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![&#x200B; コメントを追加](assets/add-comment.png)
+   ![ コメントを追加](assets/add-comment.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
-   ![&#x200B; プラグイン内のファイル &#x200B;](assets/plugin-files-350x307.png)\
+   ![ プラグイン内のファイル ](assets/plugin-files-350x307.png)\
    ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
 
 
@@ -111,7 +121,7 @@ ht-degree: 78%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
@@ -128,12 +138,12 @@ ht-degree: 78%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![&#x200B; コメント自動承認を追加](assets/add-comment-automated-approval.png)
+   ![ コメント自動承認を追加](assets/add-comment-automated-approval.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
-1. 「**[!UICONTROL アップロード]**」をクリックし、上記で選択したアセットタイプに基づいて、任意の書き出しオプションを設定します。
-ドキュメントは、[!DNL Photoshop]の[!DNL Workfront] パネルおよび[!DNL Workfront] デスクトップアプリの[!UICONTROL &#x200B; ドキュメント &#x200B;]領域に表示されます。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
 
 ## 新しいプルーフのバージョンをアップロード
 
@@ -144,7 +154,7 @@ ht-degree: 78%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規バージョン]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
@@ -155,5 +165,5 @@ ht-degree: 78%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
-1. 「**[!UICONTROL アップロード]**」をクリックし、上記で選択したアセットタイプに基づいて、任意の書き出しオプションを設定します。
-ドキュメントは、[!DNL Photoshop]の[!DNL Workfront] パネルおよび[!DNL Workfront] デスクトップアプリの[!UICONTROL &#x200B; ドキュメント &#x200B;]領域に表示されます。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。

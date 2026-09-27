@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/IEZux-GOBDi7Xi-9qmzX6rseckG2CSbikEKSfyLFl3I
+TQID: 'https://experienceleague.adobe.com/IEZux-GOBDi7Xi-9qmzX6rseckG2CSbikEKSfyLFl3I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 83%
-
+source-wordcount: '283'
+ht-degree: 88%
 ---
-
 # ダッシュボードの削除
 
 <!-- Audited: 1/2025 -->
@@ -77,9 +82,9 @@ ht-degree: 83%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードのアクション**」をクリックして、「**削除**」をクリックします。
 
-   ![&#x200B; ダッシュボードを削除](assets/unshimmed-delete-dashboard.png)
+   ![ ダッシュボードを削除](assets/unshimmed-delete-dashboard.png)
 
-1. ダッシュボードを削除することを確認するには、**はい、削除をクリックします。**
+1. ダッシュボードの削除を確定するには、「**はい、削除します**
 ダッシュボードがWorkfrontから削除されます。
 
 ## ダッシュボードエリアからのダッシュボードの削除 {#delete-a-dashboard-from-the-dashboards-area}
@@ -89,9 +94,9 @@ ht-degree: 83%
 複数のダッシュボードを削除するには、次の操作を実行します。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**[!UICONTROL ダッシュボード]**」を選択します。
-1. 削除するリストの各ダッシュボードを選択し、**削除** ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
+1. 削除するリストの各ダッシュボードを選択し、**削除** ![削除アイコン ](assets/delete.png)をクリックします。
 
-   ![&#x200B; ダッシュボードを削除](assets/unshimmed-delete-dashboard-list.png)
+   ![ ダッシュボードを削除](assets/unshimmed-delete-dashboard-list.png)
 
-1. ダッシュボードを削除することを確認するには、**はい、削除をクリックします。**
+1. ダッシュボードの削除を確定するには、「**はい、削除します**
 ダッシュボードがWorkfrontから削除されます。

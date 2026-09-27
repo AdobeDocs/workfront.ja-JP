@@ -5,13 +5,25 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 5%
-
 ---
-
 
 # レコードタイプのビジネスルールの設定
 
@@ -72,7 +84,7 @@ Adobe Workfront Planningのレコードタイプのビジネスルールを設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -109,7 +121,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビジネスルール設定フォームが開きます。
 
-   ![&#x200B; ビジネスルール設定フォーム &#x200B;](assets/business-rule-setup-form.png)
+   ![ ビジネスルール設定フォーム ](assets/business-rule-setup-form.png)
 
 1. ビジネスルール設定フォームの&#x200B;**If** セクションで、特定のルールに基づいて制限または許可するアクションを選択します。 次から選択してください：<!--check UI text-->
    * **レコード編集**：このルールで定義された条件が満たされた場合、ユーザーはレコードを編集または編集できません。
@@ -166,7 +178,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **非アクティブ化**：これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
    * **削除**: ルールに関するすべての情報が削除されます。 削除されたルールは復元できません。
 
-   ![&#x200B; ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
+   ![ ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
 
    編集されたルールまたはルールの非アクティブ化は、今後のレコードにのみ適用され、過去にさかのぼって適用されません。
 1. （オプションおよび条件付き）テーブルで非アクティブ化されたビジネスルールの名前にカーソルを合わせ、**詳細** > **アクティブ化**&#x200B;をクリックしてルールをアクティブ化します。

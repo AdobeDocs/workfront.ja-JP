@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: ' [!DNL Workfront Proof]  を Basecamp Classic と統合'
-description: プロジェクト管理用の  [!DNL Basecamp]  を使用する場合は、 [!DNL Workfront Proof] を使用して、プロジェクトチームにより豊富なレビューと承認ツールを提供できます。
+title: '[!DNL Workfront Proof]とBasecamp Classicの統合'
+description: '[!DNL Basecamp] をプロジェクト管理に使用している場合は、[!DNL Workfront Proof] を使用することで、プロジェクトチームに、より機能の豊富なレビューツールや承認ツールを提供できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+TQID: 'https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 100%
-
+source-wordcount: '801'
+ht-degree: 99%
 ---
-
 # [!DNL Workfront Proof] の [!DNL Basecamp Classic] との統合
 
 >[!IMPORTANT]

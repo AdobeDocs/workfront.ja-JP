@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 会社メンバーシップの管理
-description: 設定の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。 また、ユーザープロファイルを編集して、ユーザーに  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront]  システムで登録を促すこともできます。
+description: 設定の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。 また、ユーザープロファイルの編集、ユーザーに対する [!DNL Workfront] での登録のリマインド、[!DNL Workfront] で非アクティブ化および [!DNL Workfront] システムから削除もできます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-TQID: https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo
+TQID: 'https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '850'
 ht-degree: 83%
-
 ---
-
 # 会社メンバーシップの管理
 
 [!UICONTROL 設定]の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。 また、ユーザープロファイルの編集、ユーザーに対する [!DNL Workfront] での登録のリマインド、[!DNL Workfront] で非アクティブ化および [!DNL Workfront] システムから削除もできます。
@@ -60,7 +65,7 @@ ht-degree: 83%
       <li> <p>ユーザーを[!DNL Workfront] システムから追加および削除するには、次のいずれかの操作を行う必要があります。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
-        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） &#x200B;]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） ]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>

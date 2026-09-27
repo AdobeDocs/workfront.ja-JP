@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
-ht-degree: 56%
-
+source-wordcount: '1558'
+ht-degree: 57%
 ---
-
 # プロジェクトの共有
 
 <!-- Audited: 1/2024 -->
@@ -79,13 +83,13 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 * プロジェクトは個別に共有することも、一度に複数共有することもできます。 プロジェクトの共有は、他のオブジェクトを共有する場合と同じです。 Workfront でのアイテムの共有について詳しくは、[オブジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 * プロジェクトには、次の権限を付与できます。
 
-   * 表示
-   * 管理
-   * 参加
+  * 表示
+  * 管理
+  * 参加
 
 * プロジェクトを共有する場合、特に指定のない限り、すべてのタスク、イシューおよびドキュメントは同じ権限を継承します。
 
-  プロジェクトに対するユーザーの権限に基づいてプロジェクトでのタスクやイシューへのアクセス権を管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事で[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)の節を参照してください。
+  プロジェクトに対するユーザーの権限に基づいてプロジェクトでのタスクやイシューへのアクセス権を管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事で[](../../manage-work/projects/manage-projects/edit-projects.md#access)の節を参照してください。
 
   Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。 ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
@@ -104,25 +108,25 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 * 次のいずれかの操作を行って手動で操作：
 
-   * プロジェクトチームにユーザーを追加。 プロジェクトチームにユーザーを追加すると、プロジェクトに対する表示権限が自動的に取得されます。\
-     ユーザーをプロジェクトチームに追加する方法について詳しくは、[&#x200B; プロジェクトチームの概要](../../manage-work/projects/planning-a-project/project-team-overview.md)の「プロジェクトチームにユーザーを追加する」セクションを参照してください。
-   * プロジェクトを個別に、または一括で共有（「**共有**」オプションを使用する場合）。
+  * プロジェクトチームにユーザーを追加。 プロジェクトチームにユーザーを追加すると、プロジェクトに対する表示権限が自動的に取得されます。\
+    ユーザーをプロジェクトチームに追加する方法について詳しくは、[ プロジェクトチームの概要](../../manage-work/projects/planning-a-project/project-team-overview.md)の「プロジェクトチームにユーザーを追加する」セクションを参照してください。
+  * プロジェクトを個別に、または一括で共有（「**共有**」オプションを使用する場合）。
 
 * 次のいずれかの操作を行って自動的に実行します。
 
-   * 既に他のユーザーと共有されている&#x200B;**ポートフォリオ**&#x200B;または&#x200B;**プログラム**&#x200B;にプロジェクトを配置。 ポートフォリオやプログラムに対してユーザーが持っている権限と同じ権限を、プロジェクトに対しても取得します。\
-     プロジェクトを&#x200B;**ポートフォリオ**&#x200B;に追加する方法について詳しくは、[ポートフォリオへのプロジェクトの追加](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)を参照してください。\
-     プロジェクトを&#x200B;**プログラム**&#x200B;に追加する方法について詳しくは、[&#x200B; プロジェクトをプログラムに追加](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)を参照してください。
-オブジェクトに対する継承された権限の表示について詳しくは、[&#x200B; オブジェクトに対する継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
+  * 既に他のユーザーと共有されている&#x200B;**ポートフォリオ**&#x200B;または&#x200B;**プログラム**&#x200B;にプロジェクトを配置。 ポートフォリオやプログラムに対してユーザーが持っている権限と同じ権限を、プロジェクトに対しても取得します。\
+    プロジェクトを&#x200B;**ポートフォリオ**&#x200B;に追加する方法について詳しくは、[ポートフォリオへのプロジェクトの追加](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)を参照してください。\
+    プロジェクトを&#x200B;**プログラム**&#x200B;に追加する方法について詳しくは、[ プロジェクトをプログラムに追加](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)を参照してください。
+    オブジェクトに対する継承された権限の表示について詳しくは、[オブジェクトで継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
 
-   * プロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。 テンプレートからプロジェクトを共有する方法については、[テンプレートを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
-   * プロジェクトアクセステンプレートを定義します。
+  * プロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。 テンプレートからプロジェクトを共有する方法については、[テンプレートを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
+  * プロジェクトアクセステンプレートを定義します。
 
-     >[!TIP]
-     >
-     >テンプレートを添付または保存する際に、テンプレートプロジェクト共有ルールをクリアできます。
+    >[!TIP]
+    >
+    >テンプレートを添付または保存する際に、テンプレートプロジェクト共有ルールをクリアできます。
 
-   * プロジェクトを編集し、**誰かがこのプロジェクトにアクセスできる設定**&#x200B;を定義します。  詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+  * プロジェクトを編集し、**誰かがこのプロジェクトにアクセスできる設定**&#x200B;を定義します。  詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -153,7 +157,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. プロジェクト名の右側にある「**共有**」をクリックします。 **共有[ プロジェクト名]** ダイアログボックスが開きます。
 
-   ![&#x200B; プロジェクトを共有ボタン &#x200B;](assets/share-project.png)
+   ![ プロジェクトを共有ボタン ](assets/share-project.png)
 
 1. 「**プロジェクトにアクセス権を付与**」フィールドで、プロジェクトを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、ドロップダウンリストに表示されたら、名前をクリックします。
 
@@ -167,7 +171,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * **招待されたユーザーのみがアクセスできます：** プロジェクトに招待されたユーザーのみがアクセスできます（デフォルト）。
    * **システム内のすべてのユーザーが表示できます**: システム内のすべてのユーザーは、招待なしでプロジェクトを表示できます。
 
-1. （オプション）選択したプロジェクトアクセス設定をすべての新規プロジェクトに自動的に適用するには、**歯車** アイコン ![歯車アイコン &#x200B;](assets/gear-icon.png)をクリックし、**自分のプロジェクトアクセステンプレートとして設定**&#x200B;のボックスにインラインでチェックを入れます。
+1. （オプション）選択したプロジェクトアクセス設定をすべての新規プロジェクトに自動的に適用するには、**歯車** アイコン ![歯車アイコン ](assets/gear-icon.png)をクリックし、**自分のプロジェクトアクセステンプレートとして設定**&#x200B;のボックスにインラインでチェックを入れます。
 
    >[!NOTE]
    >
@@ -198,9 +202,9 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 {{step1-to-projects}}
 
-1. **プロジェクト** ページで、共有する各プロジェクトの左側にあるボックスを選択し、ページの上部にある&#x200B;**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
+1. **プロジェクト** ページで、共有する各プロジェクトの左側にあるボックスを選択し、ページの上部にある&#x200B;**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; プロジェクトを一括共有](assets/bulk-share-icon.png)
+   ![ プロジェクトを一括共有](assets/bulk-share-icon.png)
 
 1. 「**プロジェクトにアクセス権を付与**」フィールドで、プロジェクトを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、ドロップダウンリストに表示されたら、名前をクリックします。
 

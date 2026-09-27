@@ -8,26 +8,35 @@ feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/aBfoZ9noo6f3BfFbD-R8ZixqYeNHiL-0aFwH6K0mEZI
+TQID: 'https://experienceleague.adobe.com/aBfoZ9noo6f3BfFbD-R8ZixqYeNHiL-0aFwH6K0mEZI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 66%
-
 ---
-
 # Workfront でのドキュメントのレビュー
 
 レビュアーは、レビューのために送信されたドキュメントをプレビューできます。 承認とは異なり、決定は行いません。 代わりに、そのアセットをレビューしたことを確認します。
@@ -110,7 +119,7 @@ Add once functionality is added
 
 1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。 コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）ドキュメントの概要パネルの&#x200B;**バージョン** セクションまでスクロールダウンし、レビューするバージョンの横にあるその他アイコン ![詳細アイコン &#x200B;](../assets/more-icon.png)をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択することで、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
+1. （オプション）ドキュメントの概要パネルの&#x200B;**バージョン** セクションまでスクロールダウンし、レビューするバージョンの横にあるその他アイコン ![詳細アイコン ](../assets/more-icon.png)をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択することで、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 
 ## プルーフビューアからドキュメントをレビューする
@@ -121,7 +130,7 @@ Add once functionality is added
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 

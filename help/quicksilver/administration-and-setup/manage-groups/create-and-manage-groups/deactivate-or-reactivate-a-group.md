@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 91%
-
 ---
-
 # グループの非アクティブ化または再アクティブ化
 
 管理対象の使用しなくなったグループを非アクティブ化できます。
@@ -77,7 +84,7 @@ ht-degree: 91%
 
 1. グループの名前をクリックして、そのページを開きます。
 
-1. グループ名の横にある詳細メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;または&#x200B;**再アクティブ化**&#x200B;をクリックします。
+1. グループ名の横にある詳細メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;または&#x200B;**再アクティブ化**&#x200B;をクリックします。
 
    >[!NOTE]
    >
@@ -93,22 +100,22 @@ ht-degree: 91%
 
   この状況でのサブグループの再アクティブ化について詳しくは、[非アクティブな親グループの下のサブグループの再アクティブ化について](#about-reactivating-a-subgroup-below-an-inactive-parent-group)を参照してください。
 
-* セットアップのグループ領域に移動すると、アクティブはデフォルトのフィルター![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)であるため、リスト内のアクティブなグループのみが表示されます。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。 または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
+* セットアップのグループ領域に移動すると、アクティブはデフォルトのフィルター![ フィルターアイコン ](assets/filter-nwepng.png)であるため、リスト内のアクティブなグループのみが表示されます。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。 または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
 
   リスト内のフィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 * グループを非アクティブ化しても、次は変更されません。
 
-   * オブジェクトへのグループの関連付け。 関連オブジェクトは、変更を加えることなく、以前と同様に機能し続けます。
+  * オブジェクトへのグループの関連付け。 関連オブジェクトは、変更を加えることなく、以前と同様に機能し続けます。
 
-     例えば、非アクティブ化したグループにプロジェクトが関連付けられている場合、そのプロジェクトは変更されることはなく、グループの環境設定とステータスを引き続き使用します。
+    例えば、非アクティブ化したグループにプロジェクトが関連付けられている場合、そのプロジェクトは変更されることはなく、グループの環境設定とステータスを引き続き使用します。
 
-   * 設定のグループのページ内から、承認、チーム、会社などの新しいオブジェクトを作成する機能。 デフォルトでは、新しいオブジェクトは非アクティブなグループに関連付けられます。
-   * 管理者としてフィルターとレポートでグループを検索する機能。
+  * 設定のグループのページ内から、承認、チーム、会社などの新しいオブジェクトを作成する機能。 デフォルトでは、新しいオブジェクトは非アクティブなグループに関連付けられます。
+  * 管理者としてフィルターとレポートでグループを検索する機能。
 
-     また、設定領域でグループの設定を管理するグループの先行入力フィールドにも表示されます。 これには、環境設定、イベント通知、システムライセンスの各エリアが含まれます。
+    また、設定領域でグループの設定を管理するグループの先行入力フィールドにも表示されます。 これには、環境設定、イベント通知、システムライセンスの各エリアが含まれます。
 
-     例えば、設定／プロジェクト環境設定／プロジェクトに移動して、上のオプションの先行入力フィールドをクリアした場合、非アクティブなグループを見つけて、そのプロジェクト環境設定を設定できます。
+    例えば、設定／プロジェクト環境設定／プロジェクトに移動して、上のオプションの先行入力フィールドをクリアした場合、非アクティブなグループを見つけて、そのプロジェクト環境設定を設定できます。
 
 ## 非アクティブな親グループの下のサブグループの再アクティブ化について {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 

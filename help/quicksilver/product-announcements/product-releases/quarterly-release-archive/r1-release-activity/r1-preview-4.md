@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
-ht-degree: 97%
-
+source-wordcount: '855'
+ht-degree: 100%
 ---
-
 # R1 プレビュー 4
 
 このページでは、プレビュー環境で使用できるすべての R1.4 リリースの変更について説明します。 このページに記載される機能は、2017 年 2 月 15 日にプレビュー環境で提供開始となっています。
@@ -42,8 +47,8 @@ R1 で行われたすべての変更のリストについては、[Workfront R1 
 
 * 既存のグローバル承認プロセスの変更に関する、次の既存の制限が削除されました。
 
-   * 変更された承認プロセスは、承認プロセスがまだ開始されていないか、承認プロセスが変更されていないシステム全体のオブジェクトにのみ反映されます。 承認プロセスが既に開始されている、または承認プロセスが変更されているオブジェクトには、更新が反映されません。
-   * 承認を開始するタイミングを決定するステータスは変更できません。
+  * 変更された承認プロセスは、承認プロセスがまだ開始されていないか、承認プロセスが変更されていないシステム全体のオブジェクトにのみ反映されます。 承認プロセスが既に開始されている、または承認プロセスが変更されているオブジェクトには、更新が反映されません。
+  * 承認を開始するタイミングを決定するステータスは変更できません。
 
 * ルックアンドフィールが更新されました。
 
@@ -101,7 +106,7 @@ R1 で行われたすべての変更のリストについては、[Workfront R1 
 
 グループとサブグループの管理用の新しいインターフェイスが追加され、より簡単で、より使いやすいエクスペリエンスを提供します。
 
-「グループ所有者」フィールドと「グループメンバー」フィールドが、下に示すグループメンバーのリストを含む単一のフィールドに結合されるようになりました。さらに、グループメンバーのリストをフィルタリングし、そのメンバーが所有者かメンバーかを変更できます。 
+グループ所有者フィールドとグループメンバーフィールドが単一フィールドに結合されるようになり、以下に示すグループメンバーのリストが表示されます。 また、グループメンバーのリストをフィルタリングして、所有者かメンバーかを変更できます。 
 
 グループにサブグループを追加する方法と、ユーザーをメンバーまたはグループのグループ所有者に指定する方法について詳しくは、[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)および[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)を参照してください。 
 

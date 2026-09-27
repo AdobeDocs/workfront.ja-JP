@@ -6,22 +6,29 @@ description: コメントに対処したら、コメントに解決済みのマ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-TQID: https://experienceleague.adobe.com/VBWddUwY5h7N-b8W9fYZbkk0h637cf2P5LLnxGVsu24
+TQID: 'https://experienceleague.adobe.com/VBWddUwY5h7N-b8W9fYZbkk0h637cf2P5LLnxGVsu24'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 98%
-
 ---
-
 # プルーフのコメントの解決
 
 コメントに対処したら、コメントに解決済みのマークを付けることができます。 自分または他のレビュアーが解決したコメントを、再度開くことができます。
@@ -70,7 +77,7 @@ ht-degree: 98%
 1. コメントを選択します。
 1. コメントの右下隅にあるチェックマークアイコンをクリックします。 コメントの左上隅に緑のチェックマークが表示され、「スレッドが解決済みにされました」というラベルとメッセージがその下に表示されます。 コメントを送信したユーザーに、コメントが解決されたことを知らせるメール通知が届きます。
 
-   ![&#x200B; コメントを解決](assets/resolve-comment-350x247.png)
+   ![ コメントを解決](assets/resolve-comment-350x247.png)
 
 ## 解決されたコメントを再度開く
 

@@ -10,20 +10,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/aNY9-MPPqe7xJmBGE17vNgLjQOOvtkYui7WYQ-2d8-Q
+TQID: 'https://experienceleague.adobe.com/aNY9-MPPqe7xJmBGE17vNgLjQOOvtkYui7WYQ-2d8-Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 86
-ht-degree: 100%
-
+source-wordcount: '86'
+ht-degree: 89%
 ---
-
 # レポート内の計算カスタムデータ
 
 計算済みカスタムデータを使用してレポートを作成できます。 次の記事で方法について説明します。
@@ -34,5 +38,5 @@ ht-degree: 100%
 * [「IF」ステートメントの概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
 * [計算済みカスタムフィールドの例：イシューのカスタムフォームにイシュー作成者の管理者を表示する](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示する](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-* [計算済みカスタムフィールドの例：フィールドの編集履歴を表示する](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+* [計算されたカスタム フィールドの例：フィールドの編集履歴を表示](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

@@ -7,21 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f208b566-2529-4c4d-aa66-0c8756e55a5a
-TQID: https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE
+TQID: 'https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2151
-ht-degree: 98%
-
+source-wordcount: '2173'
+ht-degree: 100%
 ---
-
 # 2018.3 Beta 5 リリースアクティビティ
 
 このページでは、2018.3 Beta 5 リリースでプレビュー環境で最近使用されたすべての変更について説明します。 この機能は、2018年9月21日（PT）にプレビュー環境で使用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
@@ -133,7 +141,7 @@ Work ライセンスを持つユーザーは、「人材の配置」タブの下
 
 >[!NOTE]
 >
-> この機能は、2018.2 リリースで最初にプレビュー環境に導入されました。実稼動環境に2018.3 リリースでリリースされます。 
+> この機能は、2018.2 リリースで、プレビュー環境に最初に導入されました。 2018.3 リリースで本番環境にリリースされます。 
 
 稼働率レポートの予算計上時間数が、ビジネスケースの新規リソース予算計上エリアで入手可能な情報から入力されるようになりました。
 
@@ -145,7 +153,7 @@ Work ライセンスを持つユーザーは、「人材の配置」タブの下
 
 >[!NOTE]
 >
->この機能は、2018.2 リリースで最初にプレビュー環境に導入されました。実稼動環境に2018.3 リリースでリリースされます。 
+>この機能は、2018.2 リリースで、プレビュー環境に最初に導入されました。 2018.3 リリースで本番環境にリリースされます。 
 
 プロジェクトの稼働率レポートに、ユーザ別の予算計上時間数が表示されるようになりました。
 

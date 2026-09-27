@@ -1,6 +1,6 @@
 ---
 title: CSVまたはExcel ファイルから情報を読み込むことで、レコードタイプを作成する
-description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planningでは、CSVまたはExcel ファイルから情報をインポートすることで、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
+description: レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。 Workfront Planningでは、CSVまたはExcel ファイルから情報をインポートすることで、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ydcYvw38Xrlh0QQz0FSI4RBsewDKL2r2Yf1m0tl83jc
+TQID: 'https://experienceleague.adobe.com/ydcYvw38Xrlh0QQz0FSI4RBsewDKL2r2Yf1m0tl83jc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: '860'
 ht-degree: 31%
-
 ---
-
 # CSVまたはExcel ファイルから情報を読み込んで、レコードタイプを作成する
 
 <!--
@@ -37,7 +45,7 @@ ht-degree: 31%
 
 {{planning-important-intro}}
 
-レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planningでは、CSVまたはExcel ファイルから情報をインポートすることで、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
+レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。 Workfront Planningでは、CSVまたはExcel ファイルから情報をインポートすることで、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
 
 ## アクセス要件
 
@@ -83,7 +91,7 @@ tr&gt;
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -195,11 +203,11 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
    「**プレビューと編集**」ボックスに次の情報が表示されます。
 
-   * 左パネルに、シートまたは将来のレコードタイプの名前が表示されます。 Workfront Planning により、新しいレコードタイプごとにデフォルトでアイコンとカラーが選択されます。
+   * 左パネルに、シートまたは将来のレコードタイプの名前が表示されます。 Workfront プランニングにより、新しいレコードタイプごとにデフォルトでアイコンとカラーが選択されます。
    * 最初のシートまたはレコードタイプが選択され、関連付けられたフィールド名が列ヘッダーとして表示されます。 各フィールドのタイプは、デフォルトで選択されています。
    * 各行は新しいレコードを表します。 「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
-   ![&#x200B; プレビューと編集ボックス &#x200B;](assets/preview-and-edit-box.png)
+   ![ プレビューと編集ボックス ](assets/preview-and-edit-box.png)
 
 1. （オプション）左パネルの各シート名をクリックすると、シートに含まれる情報を確認できます。
 
@@ -215,7 +223,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかを実行します。
 
-   レコードタイプマッピングインポートボックスの![&#x200B; フィールドタブ &#x200B;](assets/field-tab-on-record-type-import-mapping-box.png)
+   レコードタイプマッピングインポートボックスの![ フィールドタブ ](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * フィールドの1つの名前を変更する
    * **フィールドタイプ**&#x200B;の変更
@@ -223,7 +231,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. （オプション）「**接続**」タブをクリックして、列の情報を他のレコードタイプから接続されたフィールドにマッピングします。
 
-   レコードタイプ読み込みマッピングボックスの![接続タブ &#x200B;](assets/connection-tab-on-record-type-import-mapping-box.png)
+   レコードタイプ読み込みマッピングボックスの![接続タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
@@ -233,7 +241,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. ファイルを読み込む準備が整ったら「**読み込み**」をクリックします。
 
-   次の情報が Workfront Planning にインポートされます。
+   次の情報が Workfront プランニングに読み込まれます。
 
    * 新しいレコードタイプ
    * 各レコードタイプに関連付けられた新しいフィールド

@@ -9,20 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ
+TQID: 'https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Adobe クラウドストレージモデルのオブジェクト権限とアクセスレベルの概要
 
 <!--linked in UI -->
@@ -41,12 +47,12 @@ Workfrontのアクセスレベルは、Workfront内でのみ適用されます�
 * **Adobe クラウドストレージ**: Adobe クラウドストレージを使用するプロジェクト、プログラム、ポートフォリオ、およびテンプレートは、他のAdobe製品のAdobe クラウドストレージへのアクセスレベルのロジックに従います。
 
 
-   * **プロジェクト、プログラム、ポートフォリオ、およびテンプレート オブジェクトの権限**：アクセス レベルで&#x200B;**アクセス権**&#x200B;がプロジェクト、プログラム、ポートフォリオ、およびテンプレートに選択されていても、オブジェクトが共有されている場合、Workfrontでオブジェクトを表示できませんが、Frame.ioやAdobe Creative Cloudなどの他のAdobe ツールでオブジェクト名と関連ドキュメントを表示することはできます。
-   * **ドキュメントの権限**: アクセスレベルで&#x200B;**アクセス権**&#x200B;がドキュメントに選択されていない場合、Workfrontのプロジェクトに関するドキュメントは表示できませんが、Frame.ioやAdobe Creative Cloudなどの他のAdobe ツールで共有されているプロジェクトのドキュメントを表示および管理することはできます。 これは、ドキュメントへのアクセスは、Workfrontのアクセスレベルのみではなく、Adobe クラウドストレージのプロジェクトレベルの権限によって決まるためです。
+  * **プロジェクト、プログラム、ポートフォリオ、およびテンプレート オブジェクトの権限**：アクセス レベルで&#x200B;**アクセス権**&#x200B;がプロジェクト、プログラム、ポートフォリオ、およびテンプレートに選択されていても、オブジェクトが共有されている場合、Workfrontでオブジェクトを表示できませんが、Frame.ioやAdobe Creative Cloudなどの他のAdobe ツールでオブジェクト名と関連ドキュメントを表示することはできます。
+  * **ドキュメントの権限**: アクセスレベルで&#x200B;**アクセス権**&#x200B;がドキュメントに選択されていない場合、Workfrontのプロジェクトに関するドキュメントは表示できませんが、Frame.ioやAdobe Creative Cloudなどの他のAdobe ツールで共有されているプロジェクトのドキュメントを表示および管理することはできます。 これは、ドキュメントへのアクセスは、Workfrontのアクセスレベルのみではなく、Adobe クラウドストレージのプロジェクトレベルの権限によって決まるためです。
 
 Workfront環境でAdobe クラウドストレージを有効にしている場合は、Adobe クラウドストレージプロジェクトと従来のWorkfront ストレージプロジェクトの両方を作成できます。 従来のWorkfront ストレージプロジェクトは、Workfrontに表示されるプロジェクト名の横にアイコンが表示されます。 Adobe クラウドストレージプロジェクトにアイコンが表示されない。
 
-プロジェクト名![&#128279;](assets/legacy-project-icon.png)の横にある従来のworkfront ストレージアイコン
+プロジェクト名](assets/legacy-project-icon.png)の横にある![従来のworkfront ストレージアイコン
 
 
 ### Adobe クラウドストレージのみを使用する環境

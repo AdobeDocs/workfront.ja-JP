@@ -8,18 +8,24 @@ recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LAxXoG6cLqWJfEn5FQQDVQ7JO9-Fql0o56Q9qUIi2Gs
+TQID: 'https://experienceleague.adobe.com/LAxXoG6cLqWJfEn5FQQDVQ7JO9-Fql0o56Q9qUIi2Gs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 12%
-
 ---
-
 # プライマリフィールドの概要
 
 <!--
@@ -38,9 +44,9 @@ ht-degree: 12%
 * 数値
 * 式
 
-![&#x200B; プライマリフィールドとしてハイライト表示された別のテキストフィールド &#x200B;](assets/another-text-field-as-a-primary-field-highlighted.png)
+![ プライマリフィールドとしてハイライト表示された別のテキストフィールド ](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-フィールドをプライマリフィールドとして指定する方法について詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+フィールドをプライマリフィールドとして指定する方法について詳しくは、[ テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
 ## プライマリフィールドの概要
 
@@ -53,9 +59,9 @@ ht-degree: 12%
 
 * レコードのタイトルは、次の領域に表示されます。
 
-   * レコードのページとプレビューボックスのヘッダー領域
-   * 接続されたレコードフィールド
-   * ビュー
+  * レコードのページとプレビューボックスのヘッダー領域
+  * 接続されたレコードフィールド
+  * ビュー
 * 別のフィールドをプライマリフィールドとして指定しない限り、テーブルビューのプライマリフィールドを移動、非表示、または削除することはできません。
 * プライマリフィールドは常にロックされ、テーブルビューの水平スクロールには含まれません。
 * テーブルビューのプライマリフィールドを変更すると、それを選択した他のすべてのユーザーのビューに影響します。

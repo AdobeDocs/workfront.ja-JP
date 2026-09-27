@@ -7,22 +7,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c
+TQID: 'https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 35%
-
+source-wordcount: '416'
+ht-degree: 32%
 ---
-
 # 2025年第 1 四半期のリリース期間中におけるその他の機能強化
 
 このページでは、2025年第1四半期リリースのプレビュー環境に対する機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -48,7 +53,7 @@ Experience Manager AssetsおよびAssets EssentialsとAdobe Workfrontの統合�
 
 複数のセクションを含むカスタムフォームがオブジェクトに添付されている場合、フォームの上部にあるデフォルトセクションを除くすべてのセクションを折りたたんで展開できるようになりました。 管理者は、フォームデザイナーでフォームをプレビューする際にも、この機能を確認できます。
 
-カスタムフォームへのセクションの追加について詳しくは、[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+カスタムフォームへのセクションの追加について詳しくは、[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## AI アシスタントは、プロジェクト、タスク、イシューを扱えるようになりました
 
@@ -56,7 +61,7 @@ Experience Manager AssetsおよびAssets EssentialsとAdobe Workfrontの統合�
 >
 >プレビューリリース：2024年10月31日（PT）。迅速リリース用の実稼動版：24.11 リリース（2024年11月14日（PT））。四半期リリース用の実稼動版：25.1 リリース（2025年1月16日（PT））
 
-Workfrontで作業項目を簡単に管理できるように、AI アシスタントを更新して、プロジェクト、タスク、イシューを操作できるようにしました。現在、AI アシスタントは、「今週までに完了するタスクを探す」など、指定した基準に基づいて、プロジェクト、タスク、イシューを見つけることができます。
+Workfrontで作業項目を簡単に管理できるように、AI アシスタントを更新して、プロジェクト、タスク、イシューを操作できるようにしました。 現在、AI アシスタントは、「今週までに完了するタスクを探す」など、指定した基準に基づいて、プロジェクト、タスク、イシューを見つけることができます。
 以前は、AI アシスタントはプロジェクト、タスク、イシューと直接連携することができませんでした。
 
 Workfront管理者は、組織のAI アシスタントを有効または無効にできます。 AI アシスタントは、Select プラン、Prime プラン、Ultimate プランのインスタンスで利用できます。

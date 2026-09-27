@@ -6,35 +6,51 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-TQID: https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA
+TQID: 'https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+    internal-label: Adobe Workfront for Creative Cloud Plugin
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3364
+source-wordcount: '3390'
 ht-degree: 99%
-
 ---
-
 # 22.3 リリースの概要
 
 このページでは、22.3 リリースに含まれる機能について説明します。 一覧に表示される機能はすべて、新しい Adobe Workfront エクスペリエンスで使用できます。 一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://experienceleague.adobe.com/ja/docs/workfront/using/home)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
@@ -319,8 +335,8 @@ ht-degree: 99%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns（ベータ版）</a> </p>
                         <p>現在、作業の管理方法を変える可能性がある新しいオブジェクトを Adobe Workfront に導入しているところです。 </p>
-                        <p>Workfront Campaignsを使用すると、異なるポートフォリオやプログラムのプロジェクトを新しいワークコンテナに整理できます。
-Campaignsは、2022年7月に22.3 リリースでプレビューベータ版にリリースされました。詳しくは、<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 プロジェクトの機能強化</a>を参照してください。 </p>
+                        <p>Workfront Campaigns を使用すると、様々なポートフォリオやプログラムのプロジェクトを新しい作業コンテナに整理できます。
+Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版にリリースされました。 詳しくは、<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 プロジェクトの機能強化</a>を参照してください。 </p>
 <p>この新しいコンテナは、現在別々のサイロで管理されている作業オブジェクトを接続するために、今後のリリースで進化する予定です。</p>
 
 </td>
@@ -373,7 +389,7 @@ Campaignsは、2022年7月に22.3 リリースでプレビューベータ版に�
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートのリソース予算計上フィールドの削除と追加
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> リストとレポートのリソース予算フィールドの削除と追加
 </a> </p> <p>リソースプランナーからのリソース予算計上情報を反映させるために、リストとレポートに新しい「リソースプランナーの予算計上時間」フィールドを追加しました。 様々なフィールドは、以前のリリースで Workfront から削除された、非推奨ツールを参照していため、リストやレポートから削除されました。</p> 
    <td> <p><b>公開日：</b> </p> 
     <ul> 

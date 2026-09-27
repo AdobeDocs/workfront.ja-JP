@@ -9,22 +9,28 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY
+TQID: 'https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3231
-ht-degree: 93%
-
+source-wordcount: '3591'
+ht-degree: 100%
 ---
-
 # API バージョン 11 の新機能
 
 * [追加されたリソース](#added-resources)
@@ -339,7 +345,7 @@ Workfront のオブジェクトに対する必要なアクセス権をユーザ�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">アクション</p> <p>可能な値BUDGETING_INFORMATIONを追加しました。権限を持つユーザーは、プランナーで優先順位と予算時間を編集できます。  </p> </li> 
+     <li> <p style="font-weight: bold;">アクション</p> <p>可能な値 BUDGETING_INFORMATION を追加しました。 これにより、権限を持つユーザーは、プランナーで優先度と予算計上時間数を編集することができます。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -431,7 +437,7 @@ ApprovalPath オブジェクトは、承認プロセス内の分岐です。 承
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値ETを追加しました。この値は、月経過時間の単位を表します。これは、週末や休日に関係のない月を指します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を考慮しない、経過月数の単位を表します。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -449,7 +455,7 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、イシ�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドが追加され、オブジェクトがアクティブな場合はtrue、アクティブでない場合はfalseの値を持つブール値パラメーターです。「アクティブ」に設定されているオブジェクトは、ドロップダウンメニューおよび先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、他のオブジェクトに添付するドロップダウンメニューおよび先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。 「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。 「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -474,7 +480,7 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、イシ�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">可能な値ETを追加しました。この値は、月経過時間の単位を表します。これは、週末や休日に関係のない月を指します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を考慮しない、経過月数の単位を表します。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -492,7 +498,7 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、イシ�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値ETを追加しました。この値は、月経過時間の単位を表します。これは、週末や休日に関係のない月を指します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を考慮しない、経過月数の単位を表します。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -510,7 +516,7 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、イシ�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドが追加され、オブジェクトがアクティブな場合はtrue、アクティブでない場合はfalseの値を持つブール値パラメーターです。「アクティブ」に設定されているオブジェクトは、ドロップダウンメニューおよび先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、他のオブジェクトに添付するドロップダウンメニューおよび先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。 「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。 「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -535,7 +541,7 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、イシ�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドが追加され、オブジェクトがアクティブな場合はtrue、アクティブでない場合はfalseの値を持つブール値パラメーターです。「アクティブ」に設定されているオブジェクトは、ドロップダウンメニューおよび先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、他のオブジェクトに添付するドロップダウンメニューおよび先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。 「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。 「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -747,7 +753,7 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドが追加され、オブジェクトがアクティブな場合はtrue、アクティブでない場合はfalseの値を持つブール値パラメーターです。「アクティブ」に設定されているオブジェクトは、ドロップダウンメニューおよび先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、他のオブジェクトに添付するドロップダウンメニューおよび先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。 「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。 「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -853,7 +859,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 イシ
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">可能性のある値 TYAH（先行入力）を追加しました。</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">このフィールドは追加され、参照オブジェクトのオブジェクトコードを参照します。すべてのオブジェクトのオブジェクトコードは、<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラー</a>で見つけることができます。  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">このフィールドが追加され、参照されるオブジェクトのオブジェクトコードを参照します。 すべてのオブジェクトのオブジェクトコードは、<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラー</a>で確認できます。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -890,7 +896,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 イシ
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>説明</p> <p style="font-weight: normal;">バリデーター MAX_LENGTH が追加されました。このバリデーターは、説明の長さが 4,000 文字以下にするように指定しています。</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドが追加され、オブジェクトがアクティブな場合はtrue、アクティブでない場合はfalseの値を持つブール値パラメーターです。「アクティブ」に設定されているオブジェクトは、ドロップダウンメニューおよび先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、他のオブジェクトに添付するドロップダウンメニューおよび先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。 「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。 「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。  </p> </li> 
      <li style="font-weight: bold;"> <p>名前 </p> <p style="font-weight: normal;">バリデーター MAX_LENGTH が追加されました。このバリデーターは名前の長さを 255 文字以下にするように指定します。  </p> </li> 
     </ul> </td> 
   </tr> 
@@ -1178,7 +1184,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドが追加され、オブジェクトがアクティブな場合はtrue、アクティブでない場合はfalseの値を持つブール値パラメーターです。「アクティブ」に設定されているオブジェクトは、ドロップダウンメニューおよび先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、他のオブジェクトに添付するドロップダウンメニューおよび先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。 「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。 「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1212,7 +1218,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
    <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">可能な値ETを追加しました。この値は、月経過時間の単位を表します。これは、週末や休日に関係のない月を指します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を考慮しない、経過月数の単位を表します。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

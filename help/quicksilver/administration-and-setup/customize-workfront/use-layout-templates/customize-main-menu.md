@@ -8,13 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
+TQID: 'https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
     internal-label: Timesheets
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 57%
@@ -115,7 +117,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >（現在のライセンスモデルの）プランライセンスを持つユーザー、または（新しいライセンスモデルの）標準ライセンスを持つユーザーのみが、メインメニューの「ユーザー」領域![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png)を表示できます。
+     >（現在のライセンスモデルの）プランライセンスを持つユーザー、または（新しいライセンスモデルの）標準ライセンスを持つユーザーのみが、メインメニューの「ユーザー」領域![ ユーザーアイコン ](assets/users-icon-in-main-menu.png)を表示できます。
 
    * リクエスト
    * タイムシート
@@ -144,9 +146,9 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 1. 次のいずれかの操作を行います：<!-- for the **Native** items-->
 
-   * メインメニューに表示しない![非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)項目を非表示にします。
-   * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
-   * ![&#x200B; アイコン &#x200B;](assets/move-icon---dots.png)項目をドラッグして、メインメニューでの表示順序を変更します。
+   * メインメニューに表示しない![非表示アイコン ](assets/remove-icon---x-in-circle.png)項目を非表示にします。
+   * メインメニューに表示する![表示アイコン ](assets/add-icon-plus-in-circle.png)項目を表示します。
+   * ![ アイコン ](assets/move-icon---dots.png)項目をドラッグして、メインメニューでの表示順序を変更します。
 
      >[!NOTE]
      >

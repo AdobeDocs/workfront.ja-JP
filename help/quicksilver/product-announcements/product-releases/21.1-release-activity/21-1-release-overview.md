@@ -8,32 +8,45 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-TQID: https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14
+TQID: 'https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3831
+source-wordcount: '3833'
 ht-degree: 99%
-
 ---
-
 # 21.1 リリースの概要
 
 <!--
@@ -356,7 +369,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
+新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
 
 API のバージョンについて詳しくは、[API のバージョン管理とサポートのスケジュール](../../../wf-api/api/api-version-support-schedule.md)を参照してください。
 
@@ -411,7 +424,7 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 ### 21.1 リリースウェビナー {#21-1-release-webinar}
 
-Workfront 21.1 リリースウェビナーは、2月3日（PT） 11:00 am EDT / 4:00 pm BSTに開催されます。 ウェビナーへは[ここから](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)登録してください。
+Workfront 21.1 リリースウェビナーは、2月3日午前11:00 am EDT / 4:00 pm BSTに開催されます。 ウェビナーへは[ここから](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)登録してください。
 
 ### プレビューのリリース頻度の変更 {#change-in-preview-release-cadence}
 
@@ -423,4 +436,4 @@ Workfront 21.1 リリースウェビナーは、2月3日（PT） 11:00 am EDT / 
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。 エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/products/workfront.html)

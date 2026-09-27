@@ -4,13 +4,25 @@ description: この記事では、Adobe Workfront Planningの環境設定と顧�
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 7%
-
 ---
-
 
 # Adobe Workfront Planningのインスタンスをスタンドアロン製品として管理する
 
@@ -70,7 +82,7 @@ Workfront Planningをスタンドアロン製品として設定することは�
 </tbody> 
 </table>
 
-Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
+Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
 +++    
 
 ## 別のユーザーとしてのログイン
@@ -87,7 +99,7 @@ Workfront Planning インスタンスには、最大100四半期まで設定で�
 
 Workfront Planningでのカスタム四半期の設定は、Workfrontでのカスタム四半期の設定と同様です。
 
-詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## お客様情報の設定
 
@@ -108,5 +120,5 @@ Workfront計画中にシステム環境設定をスタンドアロン製品の�
 
 Workfront計画システム環境設定の設定は、Workfrontでの設定と同様です。
 
-詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 

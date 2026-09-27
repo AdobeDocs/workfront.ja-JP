@@ -7,26 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-TQID: https://experienceleague.adobe.com/ZcKZdtN2ajH8PdnIbKQxQHSvYKSftlugJczL0nPOgWs
+TQID: 'https://experienceleague.adobe.com/ZcKZdtN2ajH8PdnIbKQxQHSvYKSftlugJczL0nPOgWs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: '672'
 ht-degree: 36%
-
 ---
-
 # Workfront R1 リリース
 
 ## 全員の関与と効率性の維持
@@ -53,7 +62,7 @@ Outlook 365に直接統合すると、Outlook 365からWorkfrontを直接更新�
 
 詳しくは、[R1 プレビュー 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md) を参照してください。
 
-![&#x200B; プロジェクトを順調に進める](assets/mceclip1-350x169.png)\
+![ プロジェクトを順調に進める](assets/mceclip1-350x169.png)\
 **用語と通知のカスタマイズ**
 カスタム用語の機能を活用して、「Portfolio」や「プロジェクト」などの用語を、業界に関係なく任意の言語に合わせて変更することで、Workfrontをチームにより適切なものにします。 さらに、各ユーザーはダイジェストの頻度を調整することで、受信する通知のタイプをカスタマイズすることも可能です。
 
@@ -64,7 +73,7 @@ Outlook 365に直接統合すると、Outlook 365からWorkfrontを直接更新�
 
 詳しくは、[R1 プレビュー 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md) を参照してください。
 
-![&#x200B; マイルストーンビュー](assets/mceclip3-350x122.png)
+![ マイルストーンビュー](assets/mceclip3-350x122.png)
 
 **Workfrontのごみ箱**
 新しいWorkfrontのごみ箱を使用すると、プロジェクト、タスク、イシュー、および関連するすべてのドキュメント、フォーム、更新を削除後30日以内に復元できます。
@@ -79,7 +88,7 @@ ProofHQの新しい検索機能により、レビュー中に単語またはフ�
 
 詳しくは、[R1 最終版](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)を参照してください。
 
-![&#x200B; プルーフの検索と検索](assets/mceclip5-350x226.png)\
+![ プルーフの検索と検索](assets/mceclip5-350x226.png)\
 **ビジュアルレポートと拡張カスタムビュー**
 ProofHQの新しいレポート指標を使用すると、ターンアラウンドタイム、レイトパーセンテージ、コメント数、最初のアクティビティまでの時間を追跡できます。 新しいカスタムビューでは高度なフィルターロジックが作成されるため、必要に応じて適切なデータを取得できます。
 
@@ -97,7 +106,7 @@ ProofHQでは、すべてのユーザーにリリースする前に、プレビ�
 **DAMの必須メタデータフィールド**
 必須のメタデータフィールドを使用してデジタルアセットのカテゴリー化を強化し、アセット共有の管理を強化できます。
 
-**Workfrontを使用して、すべての関係者が積極的かつ効率的に作業できるようにします。**
+**全員が Workfront で効率的に作業できます。**
 Workfrontは、最新のナレッジワーカーや経営陣が、次のことを実現できるエンタープライズ作業管理ソリューションです。
 
 * 個人と組織の希望に合わせて作業を調整し、採用を促進

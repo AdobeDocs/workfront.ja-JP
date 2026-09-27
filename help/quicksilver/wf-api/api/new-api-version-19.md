@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
-TQID: https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY
+TQID: 'https://experienceleague.adobe.com/5LLcfkvjzqNZ9tswEkV7lMgFxHS4qcVFJ9YMUI6JazY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 51%
-
+source-wordcount: '980'
+ht-degree: 50%
 ---
-
 # API バージョン 19 の新機能
 
 Adobe Workfront は、2024年4月8日（PT）に API バージョン 19 をリリースしました。 API バージョン 19 では、バージョン 18 から次の変更が行われました。
@@ -72,7 +75,7 @@ AccessLevel オブジェクトはユーザーに関連付けられていて、�
       <td>次のダイレクトフィールドを追加しました。
         <ul>
           <li>
-            <p><b>categoryID</b><p>カテゴリはカスタムフォームです。このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
+            <p><b>categoryID</b><p>カテゴリはカスタムフォームです。 このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
             </p>
           </li>
           <li>
@@ -92,7 +95,7 @@ AccessLevel オブジェクトはユーザーに関連付けられていて、�
       <td>次の参照フィールドを追加しました。
         <ul>
           <li>
-            <p><b>カテゴリ</b><p>カテゴリはカスタムフォームです。このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
+            <p><b>カテゴリ</b><p>カテゴリはカスタムフォームです。 このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
             </p>
           </li>
         </ul>
@@ -103,7 +106,7 @@ AccessLevel オブジェクトはユーザーに関連付けられていて、�
       <td>次のコレクションフィールドを追加しました。
         <ul>
           <li>
-            <p><b>objectCategories</b><p>カテゴリはカスタムフォームです。このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
+            <p><b>objectCategories</b><p>カテゴリはカスタムフォームです。 このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
             </p>
           </li>
         </ul>
@@ -481,7 +484,7 @@ TemplateAssignment オブジェクトがフラグ **DATA_EXTENDIBLE**&#x200B;を
       <td>次のダイレクトフィールドを追加しました。
         <ul>
           <li>
-            <p><b>categoryID</b><p>カテゴリはカスタムフォームです。このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
+            <p><b>categoryID</b><p>カテゴリはカスタムフォームです。 このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
             </p>
           </li>
         </ul>
@@ -491,7 +494,7 @@ TemplateAssignment オブジェクトがフラグ **DATA_EXTENDIBLE**&#x200B;を
       <td>次の参照フィールドを追加しました。
         <ul>
           <li>
-            <p><b>カテゴリ</b><p>カテゴリはカスタムフォームです。このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
+            <p><b>カテゴリ</b><p>カテゴリはカスタムフォームです。 このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
             </p>
           </li>
         </ul>
@@ -502,7 +505,7 @@ TemplateAssignment オブジェクトがフラグ **DATA_EXTENDIBLE**&#x200B;を
       <td>次のコレクションフィールドを追加しました。
         <ul>
           <li>
-            <p><b>objectCategories</b><p>カテゴリはカスタムフォームです。このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
+            <p><b>objectCategories</b><p>カテゴリはカスタムフォームです。 このフィールドは、カスタムフォームを割り当てに追加する機能をサポートしています。
             </p>
           </li>
         </ul>

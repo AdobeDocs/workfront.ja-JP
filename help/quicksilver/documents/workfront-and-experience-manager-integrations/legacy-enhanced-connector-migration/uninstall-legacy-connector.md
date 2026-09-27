@@ -6,23 +6,33 @@ description: テキスト
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-TQID: https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE
+TQID: 'https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 98%
-
+source-wordcount: '428'
+ht-degree: 100%
 ---
-
 # Adobe Experience Manager レガシーコネクターでの Workfront のアンインストール
 
 Workfront と Adobe Experience Manager Assets as a Cloud Service を接続する最新のネイティブ統合に、Workfront と Adobe Experience Manager レガシーコネクターをアンインストールする必要があります。
@@ -35,8 +45,8 @@ Workfront と Adobe Experience Manager Assets as a Cloud Service を接続する
 
    ![Workfront から登録解除](assets/unsubscribe-from-workfront.png)
 
-1. ドキュメント、コメント、メタデータの同期を無効にします。ラベルは日に無効にする必要があります。
-これにより、Workfrontのサブスクリプションが削除され、Day CQ Link Externalizerで定義されているのと同じURLを使用して、新しいサブスクリプションを作成できるようになります。
+1. ドキュメント、コメントおよびメタデータの同期を無効にします。 ラベルは「無効」の日付にする必要があります。
+これにより、Workfront のサブスクリプションが削除され、Day CQ Link Externalizer で定義されたのと同じURLを使用して新しいサブスクリプションを作成できます。
 
 ## Workfront 統合設定の削除
 

@@ -8,16 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
+TQID: 'https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 19%
@@ -54,7 +60,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
   * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
+  詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
 
 * レコードタイプ
 
@@ -62,7 +68,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースに付与された権限レベルは、レコードタイプの継承された権限として表示されます。
   * ユーザーがワークスペース上で持つ権限レベルよりも高い権限レベルのレコードタイプを共有することはできません。
 
-  詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 * レコード
 
@@ -70,7 +76,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ユーザーは、ワークスペースとレコードタイプから権限をデフォルトで継承します。
   * ユーザーの権限レベルがレコードタイプの権限レベルよりも高いレコードまたは低いレコードを共有することはできません。
 
-  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+  詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 <!--
 * Fields

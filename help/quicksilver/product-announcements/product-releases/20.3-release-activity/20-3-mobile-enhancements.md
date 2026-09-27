@@ -7,22 +7,31 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-TQID: https://experienceleague.adobe.com/tV8tsEkumdgpfAcO-UWwOd8BkSf9LZDqmKq44fL3WsA
+TQID: 'https://experienceleague.adobe.com/tV8tsEkumdgpfAcO-UWwOd8BkSf9LZDqmKq44fL3WsA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Mobile experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 82%
-
+source-wordcount: '329'
+ht-degree: 84%
 ---
-
 # 20.3 統合およびモバイルの機能強化
 
 このページでは、本番環境の 20.3 リリースで行われた、統合およびモバイルに関するすべての機能強化について説明します。 これらの機能強化は、2020年8月10日（PT）の週に本番環境で利用可能になりました。

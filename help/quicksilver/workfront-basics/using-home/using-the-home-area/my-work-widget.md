@@ -6,24 +6,29 @@ description: マイ作業ウィジェットには、割り当てられたタス�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-TQID: https://experienceleague.adobe.com/sOTb-WRIEy2h1ncn-CLd-uRUlO3NOSIKYxeCP6GMGmw
+TQID: 'https://experienceleague.adobe.com/sOTb-WRIEy2h1ncn-CLd-uRUlO3NOSIKYxeCP6GMGmw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 14%
-
 ---
-
 # マイ作業ウィジェットを使用した作業の管理
 
 マイ作業ウィジェットには、割り当てられたタスク、イシュー、リクエストがすべて1か所に表示されます。 ここでは、作業のフィルタリングと整理、時間の記録、更新の実行、作業項目の完了のマークを付けることができます。
@@ -123,7 +128,7 @@ ht-degree: 14%
 
 >[!TIP]
 >
->より具体的なフィルタリングオプションを探している場合は、マイタスクまたはマイイシューのウィジェットを使用できます。 マイタスクとマイイシューのフィルターについて詳しくは、[&#x200B; ホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)を参照してください。
+>より具体的なフィルタリングオプションを探している場合は、マイタスクまたはマイイシューのウィジェットを使用できます。 マイタスクとマイイシューのフィルターについて詳しくは、[ ホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)を参照してください。
 
 ## 作業の整理
 
@@ -144,7 +149,7 @@ ht-degree: 14%
 >自分の作業ウィジェットの上部にすべての期限切れのアイテムを表示するリストを作成するには、期限で並べ替え、グループ化を適用しません。
 
 
-![&#x200B; マイワークウィジェットで並べ替え](assets/sort-my-work-widget.png)
+![ マイワークウィジェットで並べ替え](assets/sort-my-work-widget.png)
 
 ### グループ
 
@@ -170,13 +175,13 @@ ht-degree: 14%
 * 更新を追加
 * ドキュメント領域に移動してドキュメントをアップロードします
 * 作業項目の詳細の表示とカスタムフィールドの更新
-Workfront管理者は、レイアウトテンプレートの概要に表示されるフィールドをカスタマイズできます。 詳しくは、[&#x200B; レイアウトテンプレートを使用した概要パネルのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。
+Workfront管理者は、レイアウトテンプレートの概要に表示されるフィールドをカスタマイズできます。 詳しくは、[ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。
 * 作業項目のステータスの変更
 * サブタスクの表示
 * 時間を記録
 * 添付された承認プロセスの表示
 
-概要を開くには、作業項目にカーソルを合わせ、**概要** アイコン ![概要アイコン &#x200B;](assets/open-summary-new-home.png)をクリックします。
+概要を開くには、作業項目にカーソルを合わせ、**概要** アイコン ![概要アイコン ](assets/open-summary-new-home.png)をクリックします。
 
 概要パネルの使用方法について詳しくは、[概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
@@ -191,7 +196,7 @@ Workfront管理者は、レイアウトテンプレートの概要に表示さ�
 
 クイックアクションメニューを見つけるには、作業項目にカーソルを合わせます。 クイックアクションリストは、「**作業中**」または「**完了**」ボタンの近くに表示されます。
 
-![&#x200B; クイックアクションメニュー](assets/quick-actions-new-home.png)
+![ クイックアクションメニュー](assets/quick-actions-new-home.png)
 
 
 ## 承認とチームのリクエストを表示
@@ -202,4 +207,4 @@ Workfront管理者は、レイアウトテンプレートの概要に表示さ�
 * すべての承認
 * チームのリクエスト
 
-新しいホームページへのウィジェットの追加について詳しくは、[&#x200B; ホームでのウィジェットの追加、編集または削除](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)を参照してください。
+新しいホームページへのウィジェットの追加について詳しくは、[ ホームでのウィジェットの追加、編集または削除](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)を参照してください。

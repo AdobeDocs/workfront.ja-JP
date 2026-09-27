@@ -8,29 +8,34 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-TQID: https://experienceleague.adobe.com/aDc3yeQukT9pIRezV0OnfXuXkxfdDXE7WVZybDbPIVw
+TQID: 'https://experienceleague.adobe.com/aDc3yeQukT9pIRezV0OnfXuXkxfdDXE7WVZybDbPIVw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 360
+source-wordcount: '360'
 ht-degree: 66%
-
 ---
-
 # 特定のカスタムフィールドまたはウィジェットを使用するすべてのカスタムフォームを表示
 
 変更または削除するカスタムフィールドまたはウィジェットを使用しているカスタムフォームを確認できます。 これらのカスタムフォームが正常に動作し続けるために調整が必要かどうか、またはフィールドやウィジェットを変更または削除した後も有用であり続けるために必要かどうかを評価することが重要です。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 

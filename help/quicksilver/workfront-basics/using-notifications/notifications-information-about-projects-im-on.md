@@ -6,20 +6,24 @@ description: 次の通知は、作業中のプロジェクトで発生するア�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
+TQID: 'https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: '1516'
 ht-degree: 100%
-
 ---
-
 # 通知：自分が参加しているプロジェクトに関する情報
 
 次の通知は、作業中のプロジェクトで発生するアクティビティについて警告します。
@@ -56,7 +60,7 @@ ht-degree: 100%
    <td><strong>今すぐ</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>自分のチームが参加するプロジェクトがアクティブになった</strong> <p>プロジェクトがアクティブになると、チームのメンバーはメール通知を受け取ります。 通知を受け取るには、チームを 1 つ以上のタスクに割り当てる必要があります。</p><p>個々のユーザーとチームの両方がプロジェクトのタスクに割り当てられている場合。 チームは通知を受け取りません。</p><p>インスタント通知メールの件名は次の通りです：<i>&lt;Project Name&gt; [!UICONTROL is Active - Go to your project and see your tasks!]</i></p><p>日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p></td> 
+   <td><strong>自分のチームが参加するプロジェクトがアクティブになった</strong> <p>プロジェクトがアクティブになると、チームのメンバーはメール通知を受け取ります。 通知を受け取るには、チームを 1 つ以上のタスクに割り当てる必要があります。</p><p>個人ユーザーとチームの両方がプロジェクトのタスクに割り当てられている場合。 チームは通知を受け取りません。</p><p>インスタント通知メールの件名は次の通りです：<i>&lt;Project Name&gt; [!UICONTROL is Active - Go to your project and see your tasks!]</i></p><p>日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p></td> 
    <td>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトのステータス<br>プロジェクト [!UICONTROL Planned Completion Date]<br>プロジェクト所有者<br>自分、自分の職務の役割の 1 つ、または自分のチームの 1 つに割り当てられたタスクのリスト<br><strong>[!UICONTROL See More Details]</strong> ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*プロジェクトのステータス<br>*日次ダイジェストの日付</td> 
    <td><strong>今すぐ</strong> </td> 
   </tr> 

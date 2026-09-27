@@ -7,25 +7,31 @@ role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/qtYrWCi1pZMHTp6wZ9AzfXQ2La9s17bWrs-JJQqPl0c
+TQID: 'https://experienceleague.adobe.com/qtYrWCi1pZMHTp6wZ9AzfXQ2La9s17bWrs-JJQqPl0c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1223'
 ht-degree: 82%
-
 ---
-
 # リマインダー通知の設定
 
 <!-- Audited: 1/2024 -->
@@ -34,7 +40,7 @@ Workfront管理者は、ユーザーにリマインダー通知を作成し、�
 
 リマインダー通知は、指定した条件に基づいてユーザーに送信されるメールを生成します。 リマインダー通知は、タスク、イシュー、プロジェクト、またはタイムシートに対して実行する必要があるアクションをユーザーに通知します。
 
-リマインダー通知を作成した後、ユーザーはプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[&#x200B; オブジェクトへのリマインダー通知の添付](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md)を参照してください。
+リマインダー通知を作成した後、ユーザーはプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[ オブジェクトへのリマインダー通知の添付](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md)を参照してください。
 
 <!--
 DRAFTED IN FLARE:
@@ -90,7 +96,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. **メール**／**通知**／**リマインダー通知**&#x200B;をクリックします。
 
-   ![&#x200B; リマインダー通知タブ &#x200B;](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![ リマインダー通知タブ ](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. **新しいリマインダー通知**&#x200B;をクリックします。
 
@@ -188,4 +194,4 @@ An example of how this can be used would be helpful here and/or in the section <
 
    リマインダー通知で指定されたユーザーに、メールが届きます。
 
-![&#x200B; リマインダー通知テスト &#x200B;](assets/reminder-test.png)
+![ リマインダー通知テスト ](assets/reminder-test.png)

@@ -6,27 +6,37 @@ description: 作業の承認
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-TQID: https://experienceleague.adobe.com/dr9JkMk-s8-aartIC4j1N0uZOYOZwx96-xYdXC01fkU
+TQID: 'https://experienceleague.adobe.com/dr9JkMk-s8-aartIC4j1N0uZOYOZwx96-xYdXC01fkU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: '851'
 ht-degree: 77%
-
 ---
-
 # 作業の承認
 
 <!--
@@ -80,7 +90,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 ## ホーム領域から作業項目を承認
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、**自分の承認** ウィジェットを追加します。
 1. （条件付き）「**フィルター**」ドロップダウンメニューをクリックし、**すべて**&#x200B;を選択して、自分に割り当てられた承認と委任された承認を表示します。
 
@@ -91,7 +101,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認する項目を選択します。
 
-   ![自分の承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
+   ![自分の承認ウィジェット ](assets/my-approvals-widget.png)
 
 1. 右側のパネルで承認を決定する際に、使用可能なオプションの 1 つをクリックします。 承認する項目のタイプに応じて、ページの右上隅に次のオプションが表示されます。
 
@@ -136,13 +146,13 @@ Workfront の様々な領域で承認を表示または管理できます。
          <ul>
          <li>レビューの完了</li>
          </ul>
-      この列のオプションは、統合承認にのみ適用されます。レガシードキュメントの承認は、作業項目の承認と同じように表示されます。 
+      この列のオプションは、統合承認にのみ適用されます。 レガシードキュメントの承認は、作業項目の承認と同じように表示されます。 
       </td>
       <td>
          <ul>
          <li>プルーフを見る</li>
          </ul>
-         プルーフビューアで決定します。プルーフのレビューについて詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront内のプルーフのレビュー</a>を参照してください。
+         プルーフビューアで決定します。 プルーフの確認について詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront でのプルーフのレビュー</a>を参照してください。
       </td>
    </tr>
    </table>
@@ -160,7 +170,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
    プロジェクト、タスク、イシューの現在の承認プロセスに関する承認情報が、項目のヘッダーに表示されます。
 
-   ![&#x200B; プロジェクトヘッダーの現在の承認プロセス &#x200B;](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![ プロジェクトヘッダーの現在の承認プロセス ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    次の承認情報が表示されます。
 
@@ -199,7 +209,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 1. ドキュメントをレビューするには、次のいずれかの操作を行います。
 
    * ドキュメントに関するメタデータを表示します。
-   * マークアップとコメントを含むドキュメントを確認するためのプルーフが作成されている場合は、右上隅付近にある「**プルーフを開く** ![&#x200B; プルーフを開く](assets/open-proof-icon-qs.png)」をクリックして、プルーフを確認します。
+   * マークアップとコメントを含むドキュメントを確認するためのプルーフが作成されている場合は、右上隅付近にある「**プルーフを開く** ![ プルーフを開く](assets/open-proof-icon-qs.png)」をクリックして、プルーフを確認します。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

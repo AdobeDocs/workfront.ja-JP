@@ -8,26 +8,37 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-TQID: https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ
+TQID: 'https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+    internal-label: Content production
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '520'
 ht-degree: 11%
-
 ---
-
 # Adobe ExpressとWorkfront Proofの連携の詳細
 
 Workfront ProofとAdobe Expressを使用して、以下を行います
@@ -96,7 +107,7 @@ Express テンプレートがリミックスされると、公開前に承認が
 
 Adobe Expressから承認をリクエストするには、標準Workfront ライセンスが必要です。
 
-デザインに関する承認を[取得](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html)する方法について説明します。
+デザインに関する承認を[取得](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)する方法について説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認のために送信
@@ -116,7 +127,7 @@ Adobe Expressから、Express テンプレートをニーズに合わせて再�
 
 プロジェクトが選択されていない場合、プルーフはデフォルトでExpress固有のプロジェクトになります。
 
-詳しくは、[&#x200B; レビューと承認用にテンプレートを送信](https://helpx.adobe.com/jp/express/web/invite-collaborate/request-approval.html)を参照してください。
+詳しくは、[ レビューと承認用にテンプレートを送信](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)を参照してください。
 
 ## リミックスされたExpress ファイルのレビューと承認
 

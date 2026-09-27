@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: ' [!DNL Workfront Proof]  サイトをブランド化する'
-description: ' [!DNL Workfront Proof]  管理者は、 [!DNL Workfront Proof] アカウントをブランド化して、自分とユーザーにさらにカスタマイズされたエクスペリエンスを提供できます。'
+title: '[!DNL Workfront Proof] サイトをブランド化する'
+description: '[!DNL Workfront Proof] 管理者は、[!DNL Workfront Proof] アカウントをブランド化して、自分とユーザーにさらにカスタマイズされたエクスペリエンスを提供できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-TQID: https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies
+TQID: 'https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 579
-ht-degree: 98%
-
+source-wordcount: '595'
+ht-degree: 100%
 ---
-
 # [!DNL Workfront Proof] サイトをブランド化する
 
 >[!IMPORTANT]
@@ -33,7 +42,7 @@ ht-degree: 98%
 
 基本的なアカウントのブランド化は、追加費用なしですべてのプランで利用できます。
 
-ヘッダー、メニューバー、ダッシュボードのブランド化など、高度なブランディングについて詳しくは、[&#x200B; [!DNL Workfront Proof]  サイトのブランディング - 高度](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。 高度なブランディングは、Select プランと Premium プランでのみ利用できます
+ヘッダー、メニューバー、ダッシュボードのブランド化など、高度なブランディングについて詳しくは、[ [!DNL Workfront Proof]  サイトのブランディング - 高度](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。 高度なブランディングは、Select プランと Premium プランでのみ利用できます
 
 [!DNL Workfront] Proof サイトの様々な側面をブランド化する方法については、次の節を参照してください。
 
@@ -73,8 +82,8 @@ ht-degree: 98%
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. ドロップダウンメニューから、**[!UICONTROL ブランド画像]**&#x200B;を選択します。
-**[!UICONTROL 無効化]**&#x200B;を選択すると、プルーフ読み込みページに[!DNL Workfront Proof]のロゴが表示されます
+1. ドロップダウンメニューから、「**[!UICONTROL ブランディング画像]**」を選択します。
+「**[!UICONTROL 無効にする]**」を選択した場合、[!DNL Workfront Proof] ロゴがプルーフの読み込みページに表示されます
 
 1. 「**[!UICONTROL 保存]**」をクリックします。 （3）
 

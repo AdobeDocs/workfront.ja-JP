@@ -6,22 +6,29 @@ description: レビュープロセスでは、いつでも手動でプルーフ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-TQID: https://experienceleague.adobe.com/7G9-SDd45bYCFByK64Ro7cIgItOQdbVWwDve-2-4IGs
+TQID: 'https://experienceleague.adobe.com/7G9-SDd45bYCFByK64Ro7cIgItOQdbVWwDve-2-4IGs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 330
+source-wordcount: '330'
 ht-degree: 63%
-
 ---
-
 # プルーフをロック／ロック解除
 
 レビュープロセスでは、いつでも手動でプルーフをロックおよびロック解除できます。
@@ -68,13 +75,13 @@ ht-degree: 63%
 
    または
 
-   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
+   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
 
    概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、**ロック** アイコン ![&#x200B; ロックアイコン &#x200B;](assets/unlock-proof-icon.png)をクリックします。
+1. 左側のパネルで、**ロック** アイコン ![ ロックアイコン ](assets/unlock-proof-icon.png)をクリックします。
 
-   ![&#x200B; プルーフをロック &#x200B;](assets/lock-proof-350x277.png)
+   ![ プルーフをロック ](assets/lock-proof-350x277.png)
 
 ## プルーフのロック解除
 
@@ -86,10 +93,10 @@ ht-degree: 63%
 
    または
 
-   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
+   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
 
    概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、**ロック解除** アイコン ![&#x200B; ロック解除アイコン &#x200B;](assets/unlock-proof-icon.png)をクリックし、**はい、ロック解除**&#x200B;をクリックします。
+1. 左側のパネルで、**ロック解除** アイコン ![ ロック解除アイコン ](assets/unlock-proof-icon.png)をクリックし、**はい、ロック解除**&#x200B;をクリックします。
 
-   ![&#x200B; プルーフのロック解除](assets/copy-of-unlock-proof-350x279.png)
+   ![ プルーフのロック解除](assets/copy-of-unlock-proof-350x279.png)

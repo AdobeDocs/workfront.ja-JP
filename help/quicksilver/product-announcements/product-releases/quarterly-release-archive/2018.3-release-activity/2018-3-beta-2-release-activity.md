@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
-TQID: https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s
+TQID: 'https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 100%
-
 ---
-
 # 2018.3 Beta 2 リリースアクティビティ
 
 このページでは、2018.3 Beta 2 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年8月1日（PT）にプレビュー環境で利用できるようになります。 Beta 2 でリリースされるプルーフの機能強化は、7月18日水曜日（PT）にプレビュー環境で利用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。

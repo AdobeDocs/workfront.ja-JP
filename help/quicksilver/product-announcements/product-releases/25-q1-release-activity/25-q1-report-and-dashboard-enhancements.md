@@ -7,20 +7,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ErQ50FxskXgmvHOrn2lrueOrj4olCezDHQPSM0bEesE
+TQID: 'https://experienceleague.adobe.com/ErQ50FxskXgmvHOrn2lrueOrj4olCezDHQPSM0bEesE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 14%
-
 ---
-
 # 2025年第1四半期レポートとダッシュボードの機能強化
 
 このページでは、2025年第1四半期リリースでプレビュー環境に加えられたすべてのレポートとダッシュボードの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -50,7 +57,7 @@ Data Connectでは、次のエンティティのサポートが追加されま�
 * 労力以外のリソースカテゴリ
 * ユーザーロケーション
 
-詳しくは、[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
+詳しくは、[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
 
 ## ダッシュボードのレポート、外部ページ、カレンダーの上限は25件です
 
@@ -62,7 +69,7 @@ Data Connectでは、次のエンティティのサポートが追加されま�
 
 この制限を超える既存のダッシュボードには、最も上位の25項目のみが表示されるという警告が表示されます。ダッシュボードを編集した後は、ダッシュボードに含まれる項目の数が25以下になるまで保存できません。
 
-詳しくは、[&#x200B; ダッシュボードの作成](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
+詳しくは、[ ダッシュボードの作成](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
 ## Data Connectの初めてのリーダーアカウント作成ボタン
 

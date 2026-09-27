@@ -5,13 +5,23 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 5%
-
 ---
-
 
 # 依存関係の管理
 
@@ -69,7 +79,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
    <ul><li><p>Adobe Experience Manager Assetsライセンスと、AEM Assetsとプランニングレコードタイプを連携させるAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプをGenStudio オブジェクトやブランドに接続するためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -95,7 +105,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -143,9 +153,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    >
    >**この接続を依存にする**&#x200B;設定を有効にすると、**リンクされたレコードタイプに対応するフィールドを作成**&#x200B;が自動的に有効になります。 レコードタイプごとに500件のフィールドという制限があります。
 
-   ![依存接続が有効になっている新しい接続タブ &#x200B;](assets/dependent-connection-enabled-setting.png)
+   ![依存接続が有効になっている新しい接続タブ ](assets/dependent-connection-enabled-setting.png)
 
-1. 記事[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
+1. 記事[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
 1. 「**保存**」をクリックします。
 
    次のことが発生します。
@@ -157,7 +167,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      詳しくは、この記事の「[依存する接続レコードタイプの例](#example-of-dependent-connected-record-types)」の節を参照してください。
    * 接続されたレコードフィールドの列ヘッダーには、そのフィールドが依存関係にあることを示す表示があります。
 
-     ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
+     ![列ヘッダーの依存アイコンのツールヒント ](assets/dependent-icon-tooltip-in-column-header.png)
 1. （オプション）「**レコードフィルタリングルール**」をクリックし、接続しているレコードタイプからフィールドを選択して、そのフィールドの値のオプションを制限してから、**完了**&#x200B;をクリックします。
 
    2つのフィールドが3番目のレコードタイプに存在する場合、接続されたフィールドレコードタイプのオプションは、ここで選択したフィルターによって制限されます。

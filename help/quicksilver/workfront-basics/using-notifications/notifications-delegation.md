@@ -6,18 +6,21 @@ description: 次の通知は、Adobe Workfront で自分が行った、または
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
-TQID: https://experienceleague.adobe.com/c5WDbyvlVudvdpdKqcjSrqqKLn4Y-kecu5Lb0pmm0vM
+TQID: 'https://experienceleague.adobe.com/c5WDbyvlVudvdpdKqcjSrqqKLn4Y-kecu5Lb0pmm0vM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 100%
-
 ---
-
 # 通知：委任
 
 次の通知は、あなたが行った、または他の人が [!DNL Adobe Workfront] で行ったタスクとイシューの委任について知らせます。

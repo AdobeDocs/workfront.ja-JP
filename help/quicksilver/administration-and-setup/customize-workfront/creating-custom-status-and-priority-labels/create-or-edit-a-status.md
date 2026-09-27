@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-TQID: https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ
+TQID: 'https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 95%
-
 ---
-
 # ステータスの作成または編集
 
 <!-- Audited: 1/2024 -->
@@ -80,13 +87,13 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
 1. （条件付き）システム全体で使用するステータスを作成または編集する場合は、右上隅のボックスで「**システムステータス**」が選択されていることを確認してください。
 
-   ![&#x200B; システムのステータス &#x200B;](assets/system-statuses-in-upper-rt-corner-new-png.png)
+   ![ システムのステータス ](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    または
 
    ステータスがグループまたはサブグループの場合は、右上隅にグループの名前を入力し始め、表示されたら選択します。
 
-   ![&#x200B; グループのシステム状態](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
+   ![ グループのシステム状態](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. ステータスに関連付けるオブジェクトタイプ（**プロジェクト**、**タスク**、または&#x200B;**イシュー**）のタブを選択します。
 
@@ -96,7 +103,7 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
    既存のステータスを編集する場合は、そのステータスのチェックボックスをクリックし、画面の下部にあるバナーの「**編集**」をクリックします。
 
-   ![&#x200B; カスタムステータスを編集](assets/edit-in-banner.png)
+   ![ カスタムステータスを編集](assets/edit-in-banner.png)
 
 1. 次のオプションを使用して、ステータスを設定します。
 

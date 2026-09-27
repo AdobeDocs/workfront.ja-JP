@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
-ht-degree: 74%
-
+source-wordcount: '3700'
+ht-degree: 75%
 ---
-
 # ドキュメント Webhooks API
 
 <!-- Audited: 5/2025 -->
@@ -729,7 +736,7 @@ GET /serviceInfo
 
 ### フォルダーを作成
 
-（バージョン 1.2で追加）特定のディレクトリにフォルダーを作成します。
+（バージョン 1.2 で追加）特定のディレクトリにフォルダーを作成します。
 URL
 
 POST /createFolder
@@ -863,10 +870,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 （リリース日 - 未定）このエンドポイントを使用すると、Workfront ユーザー（または自動化ワークフローイベント）が外部システムでアクションを実行できるようになります。 /customAction エンドポイントは、「name」パラメーターを受け取ります。これにより、web フックプロバイダーは複数のカスタム操作を実装できます。
 
 Web フックプロバイダーでは、カスタムアクションを /serviceInfo 応答の customActions 下に含めることで、Workfront に登録します。 設定／ドキュメント／カスタム統合で web フックプロバイダーを設定または更新すると、Workfront がこのリストを読み込みます。\
-![&#x200B; カスタムアクションを実行](assets/mceclip0-350x262.png)
+![ カスタムアクションを実行](assets/mceclip0-350x262.png)
 
 ユーザーは、ドキュメントアクションの下のセクションを選択して、カスタムアクションをトリガーできます。\
-![&#x200B; カスタムアクションのトリガー](assets/mceclip1-350x95.png)
+![ カスタムアクションのトリガー](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -905,7 +912,7 @@ GET /customAction
 
 成功または失敗を示す JSON 文字列（この後の「エラー処理」の節を参照）。 失敗（status = &quot;failure&quot;）の場合、Workfront は、用意されているエラーメッセージをユーザーに表示します。
 
-**例：** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**例：** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 応答
 
@@ -922,9 +929,9 @@ API リクエストを処理する際に問題が発生する場合がありま�
 
 * 応答ヘッダーにエラーコードを含めます。 エラーコードの例は次のとおりです。
 
-   * 403 - Forbidden（禁止されている） リクエストトークンが見つからない、または無効であるか、トークンに関連付けられている資格情報に、指定されたリソースへのアクセス権がないことを示します。 OAuth ベースの web フックプロバイダーの場合、Workfront は新しいアクセストークンの取得を試みます。
-   * 404 - Not found（見つからない） 指定したファイルまたはフォルダーが存在しないことを示します。
-   * 500 - Internal Server Error（内部サーバーエラー） その他の種類のエラーです。
+  * 403 - Forbidden（禁止されている） リクエストトークンが見つからない、または無効であるか、トークンに関連付けられている資格情報に、指定されたリソースへのアクセス権がないことを示します。 OAuth ベースの web フックプロバイダーの場合、Workfront は新しいアクセストークンの取得を試みます。
+  * 404 - Not found（見つからない） 指定したファイルまたはフォルダーが存在しないことを示します。
+  * 500 - Internal Server Error（内部サーバーエラー） その他の種類のエラーです。
 
 * 応答の本文に次の形式でエラーの説明を記述します。
 
@@ -1047,13 +1054,13 @@ OAuth ベースの web フックプロバイダーの認証 URL とトークン�
 
 * バージョン 1.0（リリース日 - 2015年5月）
 
-   * 初期仕様
+  * 初期仕様
 
 * バージョン 1.1（リリース日 - 2015年6月）
 
-   * /uploadInit の更新 - documentId と documentVersionId の追加
+  * /uploadInit の更新 - documentId と documentVersionId の追加
 
 * バージョン 1.2（リリース日 - 2015年10月）
 
-   * /createFolder の追加
+  * /createFolder の追加
 

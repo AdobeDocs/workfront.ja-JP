@@ -5,13 +5,20 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 96%
-
 ---
-
 # 2024年第 1 四半期の更新ストリームと通知の機能強化
 
 このページでは、プレビュー環境への 2024年第 1 四半期リリースで行われた、すべての更新ストリームと通知の機能強化について説明します。 この機能強化は、2024年第 1 四半期のリリースにおいて本番環境で利用できるようになります。

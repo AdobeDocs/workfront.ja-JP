@@ -6,26 +6,33 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-TQID: https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE
+TQID: 'https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: '346'
 ht-degree: 74%
-
 ---
-
 # オブジェクトの共有
 
 <!--Audited: 01/2024-->
@@ -44,25 +51,25 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 Workfrontでオブジェクトを共有する方法について詳しくは、次の記事を参照してください。
 
-* プロジェクトについては、[&#x200B; プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
+* プロジェクトについては、[ プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
-* タスクについては、[&#x200B; タスクの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-task.md)を参照してください。
+* タスクについては、[ タスクの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-task.md)を参照してください。
 
 * 問題については、[問題の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
 
-* ポートフォリオについては、[&#x200B; ポートフォリオの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください
+* ポートフォリオについては、[ ポートフォリオの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください
 
-* プログラムについては、[&#x200B; プログラムの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-program.md)を参照してください。
+* プログラムについては、[ プログラムの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-program.md)を参照してください。
 
-* ドキュメントについては、[&#x200B; ドキュメントの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/document-permissions.md)を参照してください。
+* ドキュメントについては、[ ドキュメントの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/document-permissions.md)を参照してください。
 
 * テンプレートについては、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 * プルーフについては、[Workfront Proof でのプルーフの共有](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)を参照してください。
 * レポート、ダッシュボード、カレンダーについては、次の記事を参照してください。
 
-   * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [カレンダーレポートの共有](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [カレンダーレポートの共有](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
   また、レポート、ダッシュボードおよびカレンダーの共有に関する一般情報については、[レポート、ダッシュボード、カレンダーを共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)を参照してください。
 
@@ -78,8 +85,8 @@ Workfrontでオブジェクトを共有する方法について詳しくは、�
 
 * Workfront Planning オブジェクトについては、次の記事を参照してください。
 
-   * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
-   * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
+  * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
+  * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
   Workfront Planningへのアクセスには、追加ライセンスが必要です。
 

@@ -6,22 +6,26 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 54%
-
 ---
-
 # イシューの共有
 
 Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てる際に、イシューの表示や編集を行えるアクセス権を付与します。 イシューへのアクセスを許可について詳しくは、[イシューへのアクセスの許可](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)を参照してください。
@@ -76,9 +80,9 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 * イシューは、個別に共有することも、一度に複数共有することもできます。 イシューの共有は、Workfront の他のアイテムを共有する場合と同じです。 Workfront でのアイテムの共有について詳しくは、[オブジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 * イシューに次の権限を付与できます。
 
-   * 表示
-   * 参加
-   * 管理
+  * 表示
+  * 参加
+  * 管理
 
 * イシューを共有すると、イシューに添付されたすべてのドキュメントに同じ権限が継承されます。
 
@@ -91,27 +95,27 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 * 手動。Workfront で他のオブジェクトを共有する方法と同様です。
 * 自動的。次のいずれかの操作を行って設定します。
 
-   * そのイシュー、プロジェクト、プログラム、ポートフォリオの任意の親オブジェクトに対する権限を指定します。 イシューは親オブジェクトから権限を継承します。 オブジェクトの継承された権限の表示については、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
-   * そのイシューがあるプロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。 テンプレートからプロジェクトを共有する方法については、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
+  * そのイシュー、プロジェクト、プログラム、ポートフォリオの任意の親オブジェクトに対する権限を指定します。 イシューは親オブジェクトから権限を継承します。 オブジェクトの継承された権限の表示については、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
+  * そのイシューがあるプロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。 テンプレートからプロジェクトを共有する方法については、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
-   * プロジェクトを編集するときに、プロジェクト内のすべてのイシューに対する権限を指定します。 プロジェクトに対するユーザーの権限に基づいてプロジェクトのイシューやリクエストへのアクセス権を管理する方法については、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
+  * プロジェクトを編集するときに、プロジェクト内のすべてのイシューに対する権限を指定します。 プロジェクトに対するユーザーの権限に基づいてプロジェクトのイシューやリクエストへのアクセス権を管理する方法については、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
 
-     >[!TIP]
-     >
-     >ユーザーがプロジェクトのイシューに割り当てられたときに付与するイシュー権限を指定しない場合、ユーザーはデフォルトでプロジェクトと同じ権限を受け取ります。
+    >[!TIP]
+    >
+    >ユーザーがプロジェクトのイシューに割り当てられたときに付与するイシュー権限を指定しない場合、ユーザーはデフォルトでプロジェクトと同じ権限を受け取ります。
 
-   * リクエストキューを作成する際に、リクエストキューで送信するイシューに対してユーザーが付与される権限を指定します。 詳しくは、[リクエストキューの作成](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+  * リクエストキューを作成する際に、リクエストキューで送信するイシューに対してユーザーが付与される権限を指定します。 詳しくは、[リクエストキューの作成](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-     >[!IMPORTANT]
-     >
-     >プロジェクトがリクエストキューとして公開されているかどうかに応じて、付与される権限が異なります。
-     >
-     >   
-     >   
-     >   * ユーザーがリクエストキューとして公開されたプロジェクトにリクエストを送信すると、指定された権限がプライマリ連絡先と入力者のユーザーに付与されます。
-     >   * ユーザーがリクエストキューとして公開されていないプロジェクトにリクエストを送信すると、指定された権限はプライマリ連絡先（入力者のユーザーと異なる場合）のユーザーに付与され、入力者のユーザーにはイシューに対する管理権限が付与されます。
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >プロジェクトがリクエストキューとして公開されているかどうかに応じて、付与される権限が異なります。
+    >
+    >   
+    >   
+    >   * ユーザーがリクエストキューとして公開されたプロジェクトにリクエストを送信すると、指定された権限がプライマリ連絡先と入力者のユーザーに付与されます。
+    >   * ユーザーがリクエストキューとして公開されていないプロジェクトにリクエストを送信すると、指定された権限はプライマリ連絡先（入力者のユーザーと異なる場合）のユーザーに付与され、入力者のユーザーにはイシューに対する管理権限が付与されます。
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -174,7 +178,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. イシュー名の右側にある「**共有**」をクリックします。 **共有[問題名]** ダイアログボックスが開きます。
 
-   ![問題を共有ボタン &#x200B;](assets/share-issue-button.png)
+   ![問題を共有ボタン ](assets/share-issue-button.png)
 
 1. 「**課題へのアクセス権を付与**」フィールドで、課題を共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前を入力し始め、ドロップダウンリストに表示されたら、名前をクリックします。
 
@@ -206,7 +210,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. 共有するイシューを含むプロジェクトに移動します。
 
-1. プロジェクトページの「**問題**」タブで、共有する各問題の左側にあるボックスを選択し、ページ上部にある&#x200B;**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
+1. プロジェクトページの「**問題**」タブで、共有する各問題の左側にあるボックスを選択し、ページ上部にある&#x200B;**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
 
    ![一括共有問題](assets/bulk-share-issues.png)
 

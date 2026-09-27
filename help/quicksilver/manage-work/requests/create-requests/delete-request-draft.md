@@ -6,15 +6,22 @@ description: Adobe Workfrontでは、送信されたリクエストまたはリ�
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '689'
 ht-degree: 26%
-
 ---
-
 # 送信されたリクエストまたはリクエストのドラフトの削除
 
 Adobe WorkfrontまたはAdobe Workfront Planningが送信したリクエストを削除したり、作成したドラフトをリクエストしたり、管理権限を持っている場合は、これらの権限を持つことができます。
@@ -29,7 +36,7 @@ Workfront管理者とWorkfront Planningのワークスペース管理者は、�
 
 * [Adobe Workfront リクエストを作成して送信](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [ドラフトからリクエストを作成](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-* [Adobe Workfront Planning リクエストを送信して、レコードを作成](/help/quicksilver/planning/requests/submit-requests.md)
+* [Adobe Workfront プランニングリクエストを送信して、レコードを作成](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## アクセス要件
 
@@ -122,7 +129,7 @@ Workfront管理者とWorkfront Planningのワークスペース管理者は、�
 
    1. **My Requests** ウィジェットを探します。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 1. **リクエスト** リストまたは&#x200B;**マイリクエスト** ウィジェットで、削除する各リクエストの左側にあるボックスをクリックします。
 1. ページ下部の青いバーで、**削除**&#x200B;をクリックします。
@@ -135,13 +142,13 @@ Workfront管理者とWorkfront Planningのワークスペース管理者は、�
 
 リクエストドラフトを削除する前に、次の操作を行う必要があります。
 
-* リクエストの作成を開始します。これにより、リクエストがドラフトとして「ドラフト」セクションに自動的に保存されます。
+* リクエストの作成を開始します。 これにより、リクエストがドラフトとして「ドラフト」セクションに自動的に保存されます。
 
   リクエストの作成について詳しくは、[Adobe Workfront リクエストの作成および送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 ## 従来のリクエストエクスペリエンスでのリクエストドラフトの削除
 
-ドラフトされたリクエストがドラフトとして保存された後、関連性がなくなった場合は削除できます。削除されたドラフトリクエストを回復することはできません。
+ドラフトされたリクエストがドラフトとして保存された後、関連性がなくなった場合は削除できます。 削除されたドラフトリクエストを回復することはできません。
 
 従来のリクエストエクスペリエンスからPlanning リクエストまたはそのドラフトにアクセスすることはできません。
 

@@ -1,28 +1,32 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Data Connect におけるデータ更新の監視ビューの使用
+title: Data Connect におけるデータ更新のモニタリングビューの使用
 description: Data Connectを使用すると、Workfront管理者は、最新の更新中にデータレイクの日付に加えられた最近の更新の詳細な記録にアクセスできます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg
+TQID: 'https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 7%
-
+source-wordcount: '413'
+ht-degree: 6%
 ---
-
-# Data Connect におけるデータ更新の監視ビューの使用
+# Data Connect におけるデータ更新のモニタリングビューの使用
 
 データ更新の監視ビューには、最新の更新中にデータレイクの日付に対して行われた最近の更新が表示されます。 このビューのデータは、データ読み込みが正常に完了するたびに更新されます。
 
@@ -54,7 +58,7 @@ ht-degree: 7%
         <td>CALENDAR_DATE </td>
         <td>日付</td>
         <td>
-   OBJ_TYPE列に表示されるオブジェクトタイプの最後の正常なデータ更新の日付。 </td>
+   OBJ_TYPE列に表示されるオブジェクトタイプに対して、最後に成功したデータ更新の日付。 </td>
     </tr>
         <tr>
         <td>RECORD_LOAD_TIMESTAMP </td>
@@ -85,7 +89,7 @@ ht-degree: 7%
         <td>オブジェクト タイプの前のデータ更新と最新のデータ更新の間に取得されたUPDATE レコード イベントの数。</td>
     </tr>
                 <tr>
-        <td>削除済</td>
+        <td>削除済み</td>
         <td>数値 </td>
         <td>オブジェクト型の前回と最新のデータ更新の間にキャプチャされたDELETE レコードイベントのカウント。 </td>
     </tr>
@@ -94,6 +98,6 @@ ht-degree: 7%
         <td>数値 </td>
         <td>オブジェクト タイプの前回と最新のデータ更新の間のイベントの合計数です。 
         <br> 
-        <br><b>注意</b>：これは、CREATE、UPDATE、またはDELETE イベントの影響を受けるレコードの合計数と同じではありません。同じレコードが、更新の間隔で複数回作成および更新される可能性があるからです。  </td>
+        <br><b> メモ </b>：同じレコードが更新の間隔で複数回作成および更新される可能性があるため、CREATE、UPDATE、またはDELETE イベントの影響を受けるレコードの合計数とは異なります。  </td>
     </tr>
    </table>

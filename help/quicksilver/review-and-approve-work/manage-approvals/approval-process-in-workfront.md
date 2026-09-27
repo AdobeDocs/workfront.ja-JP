@@ -7,26 +7,35 @@ description: 承認プロセスを作成してオブジェクトに添付する�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
-ht-degree: 96%
-
+source-wordcount: '1816'
+ht-degree: 97%
 ---
-
 # 承認プロセスの概要
 
 <!-- Audited: 12/2023 -->
@@ -39,8 +48,8 @@ ht-degree: 96%
 * ドキュメント
 * プルーフ
 
-この記事には、作業項目に関連付けられている承認プロセスに関する一般的な情報が含まれています。
-承認プロセスの作成手順については、[作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
+この記事では、作業アイテムの承認プロセスに関連する一般的な情報について説明します。
+承認プロセスの作成手順については、[作業アイテムの承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
 
 ## 作業アイテムの承認プロセスのタイプ
 
@@ -48,15 +57,15 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 
 * **システムレベルのグローバル承認プロセス**：ユーザーは、これらを次のいずれかに関連付けることができます。
 
-   * 「承認」セクションのプロジェクト、タスクまたはイシュー
-   * タスク既定の承認プロセスエリアの「プロジェクトを編集」ボックス内。
-   * 既定の承認プロセスエリアのプロジェクトの「キューの詳細」または「キューのトピック」セクション内。 プロジェクトは、リクエストキューとして有効にする必要があります。
+  * 「承認」セクションのプロジェクト、タスクまたはイシュー
+  * タスク既定の承認プロセスエリアの「プロジェクトを編集」ボックス内。
+  * 既定の承認プロセスエリアのプロジェクトの「キューの詳細」または「キューのトピック」セクション内。 プロジェクトは、リクエストキューとして有効にする必要があります。
 
 * **グループレベルのグローバル承認プロセス**：ユーザーは、これらを次に関連付けることができます。
 
-   * 「承認」セクションで承認プロセスに関連付けられた、グループに属するプロジェクト、タスク、またはイシュー
-   * 承認プロセスに関連付けられたグループに属するプロジェクトのタスク既定の承認プロセスエリアの「プロジェクトを編集」ボックス内。
-   * 既定の承認プロセスエリアのプロジェクトの「キューの詳細」または「キューのトピック」セクション内。 プロジェクトは、リクエストキューとして有効にし、承認プロセスに関連付けられたグループに属している必要があります。
+  * 「承認」セクションで承認プロセスに関連付けられた、グループに属するプロジェクト、タスク、またはイシュー
+  * 承認プロセスに関連付けられたグループに属するプロジェクトのタスク既定の承認プロセスエリアの「プロジェクトを編集」ボックス内。
+  * 既定の承認プロセスエリアのプロジェクトの「キューの詳細」または「キューのトピック」セクション内。 プロジェクトは、リクエストキューとして有効にし、承認プロセスに関連付けられたグループに属している必要があります。
 
   システムレベルまたはグループレベルの承認プロセスの作成について詳しくは、[作業アイテムの承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
 
@@ -77,31 +86,33 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 * 承認プロセスを関連付ける前に、プロジェクト、タスク、イシュー、テンプレートまたはテンプレートのタスクを作成する必要があります。
 * 承認プロセスは、常に次の 2 つの重要な要素に関連付けられます。
 
-   * 各承認プロセスは、Workfront システムの特定の作業アイテムステータスに対応します。 作業アイテムのステータスを変更する場合、そのステータスに添付された承認を行うには、新しいステータスをそのアイテムに割り当てる前に、そのステータスの変更を確認する必要があります。
+  * 各承認プロセスは、Workfront システムの特定の作業アイテムステータスに対応します。 作業アイテムのステータスを変更する場合、そのステータスに添付された承認を行うには、新しいステータスをそのアイテムに割り当てる前に、そのステータスの変更を確認する必要があります。
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * グループレベルの承認をグローバルステータスまたはグループレベルのステータスに関連付けることができます。
-     >   * 承認プロセスを使用しているアイテムのステータスを、承認プロセスに関連付けられたステータス以外のステータスに変更することはできません。
-     >   
-     >   
-     >     例えば、「処理中」のステータスにタスクの承認が関連付けられている場合、承認が許可されると、タスクのステータスは自動的に「処理中」に変わります。 ステータスを「完了」に自動的に変更したり、承認に関連付けられていない他のステータスに自動的に変更することはできません。
-     >   
-     >   
-     >* 承認プロセスに関連付けられるエンティティは、ユーザー、担当業務、チームのいずれかです。 ユーザーは、最終的に承認を許可または却下する責任を負います。 プロジェクトで特定の役割を果たすユーザーに承認を割り当てることができます。 例えば、プロジェクト所有者やスポンサーに承認を割り当てることができます。 詳しくは、[作業アイテムの承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * グループレベルの承認をグローバルステータスまたはグループレベルのステータスに関連付けることができます。
+    >   * 承認プロセスを使用しているアイテムのステータスを、承認プロセスに関連付けられたステータス以外のステータスに変更することはできません。
+    >   
+    >   
+    >     例えば、「処理中」のステータスにタスクの承認が関連付けられている場合、承認が許可されると、タスクのステータスは自動的に「処理中」に変わります。 ステータスを「完了」に自動的に変更したり、承認に関連付けられていない他のステータスに自動的に変更することはできません。
+    >   
+    >   
+    >
 
-     次のシナリオが存在します。
+  * 承認プロセスに関連付けられるエンティティは、ユーザー、担当業務、チームのいずれかです。 ユーザーは、最終的に承認を許可または却下する責任を負います。 プロジェクトで特定の役割を果たすユーザーに承認を割り当てることができます。 例えば、プロジェクト所有者やスポンサーに承認を割り当てることができます。 詳しくは、[作業アイテムの承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
 
-      * 担当業務に承認を割り当てると、担当業務に関連付けられているプロジェクトチームのユーザーは、承認を決定できます。 承認に関連付けられる役割は、「プライマリの役割」または「その他の役割」のどちらかです。
+    次のシナリオが存在します。
 
-        プロジェクトチームの詳細については、[プロジェクトチームの概要](../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
+    * 担当業務に承認を割り当てると、担当業務に関連付けられているプロジェクトチームのユーザーは、承認を決定できます。 承認に関連付けられる役割は、「プライマリの役割」または「その他の役割」のどちらかです。
 
-      * チームに承認を割り当てると、そのチームの任意のメンバーが承認を決定できます。 承認に関連付けられたチームは、ホームチームまたはその他のチームのいずれかになります。
+      プロジェクトチームの詳細については、[プロジェクトチームの概要](../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
-        ユーザーの役割とチームについて詳しくは、[ユーザーのプロファイルを編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+    * チームに承認を割り当てると、そのチームの任意のメンバーが承認を決定できます。 承認に関連付けられたチームは、ホームチームまたはその他のチームのいずれかになります。
+
+      ユーザーの役割とチームについて詳しくは、[ユーザーのプロファイルを編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 * 作業アイテムを作成しても、承認プロセスは自動的に添付されません。 使用する場合は、手動で添付する必要があります。 項目への承認プロセスの添付について詳しくは、[新規または既存の承認プロセスを作業に関連付け](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)を参照してください。
 * Workfront 管理者や承認プロセスへの管理アクセス権を持つユーザーは、システム全体で使用するシステムレベルのグローバル承認プロセスを作成できます。 承認プロセスへの管理者アクセス権を持つグループ管理者は、管理する特定のグループのみが使用するグループレベルのグローバル承認プロセスを作成できます。
@@ -167,7 +178,7 @@ Workfrontにアップロードした後にドキュメントに承認者を追�
 
 >[!NOTE]
 >
->現在、Workfrontには複数のドキュメント承認オプションがあります。 詳しくは、[&#x200B; ドキュメント承認で利用できる機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)を参照してください。
+>現在、Workfrontには複数のドキュメント承認オプションがあります。 詳しくは、[ ドキュメント承認で利用できる機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)を参照してください。
 
 
 ## プルーフの承認プロセス

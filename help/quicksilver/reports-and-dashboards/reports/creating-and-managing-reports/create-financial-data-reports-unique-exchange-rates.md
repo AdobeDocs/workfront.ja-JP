@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/xOIYtXRmtpQ71FSdR4ltwkmT0qLpBX0tldlUEbXks9s
+TQID: 'https://experienceleague.adobe.com/xOIYtXRmtpQ71FSdR4ltwkmT0qLpBX0tldlUEbXks9s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '981'
 ht-degree: 98%
-
 ---
-
 # 独自の為替レートを使用した財務データレポートの作成
 
 <!-- Audited: 11/2024 -->
@@ -129,7 +135,7 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
    時間の記録の詳細については、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
-1. **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 1. **新規レポート**、**プロジェクトレポート**&#x200B;の順にクリックします。
 1. 「**列（ビュー）**」タブから、**実際コスト**&#x200B;列を追加し、「**合計**」で集計します。
 

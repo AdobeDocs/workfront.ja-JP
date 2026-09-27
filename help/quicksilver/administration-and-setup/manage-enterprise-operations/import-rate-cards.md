@@ -7,20 +7,27 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 3%
-
 ---
-
 # テンプレートからの評価カードの読み込み
 
 すべての担当業務とレートを手動で追加する代わりに、テンプレートファイルを使用してExcelでレートカードを作成し、Adobe Workfrontに読み込むことができます。
 
-この記事で説明されているレートカードの例を確認するには、[&#x200B; サンプルファイル &#x200B;](assets/rate-cards-sample.zip)をダウンロードしてください。
+この記事で説明されているレートカードの例を確認するには、[ サンプルファイル ](assets/rate-cards-sample.zip)をダウンロードしてください。
 
-レートカードについて詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+レートカードについて詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## テンプレートファイルを操作するための重要なルール
 
@@ -49,7 +56,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +87,7 @@ ht-degree: 3%
 
 レートカードをすべて作成し、このタブに表示します。 各行は1つのレートカードを表します。
 
-![&#x200B; レートカード読み込みテンプレートファイルの「RTCRD」タブ &#x200B;](assets/rate-card-import-template-tab1.png)
+![ レートカード読み込みテンプレートファイルの「RTCRD」タブ ](assets/rate-card-import-template-tab1.png)
 
 1. 各行にレートカードの情報を入力します。
 
@@ -112,7 +119,7 @@ ht-degree: 3%
 
 意図しない限り、日付が重複していないことを確認してください。
 
-レートカード読み込みテンプレートファイルの![RATE_RTCRD タブ &#x200B;](assets/rate-card-import-template-tab2.png)
+レートカード読み込みテンプレートファイルの![RATE_RTCRD タブ ](assets/rate-card-import-template-tab2.png)
 
 1. 各行のレートの情報を入力します。
 
@@ -151,7 +158,7 @@ ht-degree: 3%
      詳細については、以下の「[日付の書式要件](#date-formatting-requirements)」を参照してください。
 
    * **値** （オプション）：数値レート値（例：150）。 デフォルト値は 0 です。
-   * **通貨** （オプション）：レートの通貨（USD、EUR、GBPなど）。 デフォルトはシステム通貨です。
+   * **通貨** （オプション）：レートの通貨（例：USD、EUR、GBP）。 デフォルトはシステム通貨です。
    * **ロック済み** （オプション）: レートがロックされているかどうかを示します。 有効な値はTrueまたはFalseです。
    * **属性** （オプション/カスタム）：最後の列（代理店、場所、コストセンターなど） 顧客設定によって異なるレート属性です。 フィールドはカスタマイズ可能で、顧客環境によって異なります。
 
@@ -165,7 +172,7 @@ ht-degree: 3%
 
 エイリアスはシステムに追加されますが、このタブの情報に基づいてジョブロールに接続されません。
 
-![&#x200B; レートカード読み込みテンプレートファイルの「RSALS」タブ &#x200B;](assets/rsals-tab-rate-card-import.png)
+![ レートカード読み込みテンプレートファイルの「RSALS」タブ ](assets/rsals-tab-rate-card-import.png)
 
 1. 各行にエイリアスの名前を入力します。
 
@@ -175,7 +182,7 @@ ht-degree: 3%
 
 このタブでは、特定のレートカードのリソースとエイリアスの間の接続を定義できます。
 
-レートカード読み込みテンプレートファイルの「![RCRMET_RTCRD_RSALS」タブ &#x200B;](assets/rcrmet-tab-rate-card-import.png)
+レートカード読み込みテンプレートファイルの「![RCRMET_RTCRD_RSALS」タブ ](assets/rcrmet-tab-rate-card-import.png)
 
 1. 各行の情報を入力します。
 

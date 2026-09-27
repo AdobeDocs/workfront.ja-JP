@@ -7,13 +7,22 @@ description: Adobe ExpressとFrame.ioの連携についてさらに詳しく
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
-
 ---
-
 
 # Frame.ioとの連携でAdobe ExpressとWorkfrontを使い始める
 
@@ -70,7 +79,7 @@ WorkfrontとAdobe Expressを使用して、以下を行います
 
 Express テンプレートで承認ワークフローを追加するには、事前に標準ライセンスを持つユーザーがWorkfrontで承認ワークフローテンプレートを作成する必要があります。
 
-詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 ## Express テンプレートへの承認ワークフローの追加
 
@@ -80,7 +89,7 @@ Express テンプレートがリミックスされると、公開前に承認が
 
 Adobe Expressから承認をリクエストするには、標準Workfront ライセンスが必要です。
 
-デザインに関する承認を[取得](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html)する方法について説明します。
+デザインに関する承認を[取得](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)する方法について説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認のために送信
@@ -100,7 +109,7 @@ Adobe Expressから、Express テンプレートをニーズに合わせて再�
 
 プロジェクトが選択されていない場合、アセットはデフォルトでExpress固有のプロジェクトになります。
 
-詳しくは、[&#x200B; レビューと承認用にテンプレートを送信](https://helpx.adobe.com/jp/express/web/invite-collaborate/request-approval.html)を参照してください。
+詳しくは、[ レビューと承認用にテンプレートを送信](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)を参照してください。
 
 
 ## Frame.ioでリミックスされたExpress ファイルをレビューして承認
@@ -111,5 +120,5 @@ Adobe Expressから、Express テンプレートをニーズに合わせて再�
 
 レビューして決定を下すには、少なくともCollaborator Workfront ライセンスが必要です。
 
-Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+Frame.io ビューアの使用について詳しくは、[ メディアに対するコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 

@@ -2,27 +2,31 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: ' [!DNL Adobe Workfront]  ビューでのプロジェクトリストのフィルター'
+title: '[!DNL Adobe Workfront] ビューでプロジェクトリストをフィルタリング'
 feature: Get Started with Workfront
-description: デフォルトで、 [!DNL Adobe Workfront]  ビューでは  [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
+description: デフォルトでは、[!DNL Adobe Workfront] ビューには[!DNL Workfront]に[!UICONTROL すべてのプロジェクト ] リストが表示されるので、表示にアクセスできるすべてのプロジェクトは、ステータスに関係なく一覧表示されます。
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+TQID: 'https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 100%
-
+source-wordcount: '325'
+ht-degree: 91%
 ---
-
 # [!DNL Adobe Workfront View] でプロジェクトリストをフィルターする
 
 デフォルトで、[!DNL Adobe Workfront View] では [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
@@ -71,22 +75,22 @@ ht-degree: 100%
    * ステータス：特定の[!UICONTROL ステータス]のプロジェクトのみを表示する場合に選択します。
    * [!UICONTROL 予定開始]：次の時間枠の[!UICONTROL 予定開始日]を持つプロジェクトのみを表示する場合に選択します。
 
-      * 過去 3 か月
-      * 過去 2 か月
-      * 過去 1 か月
-      * 過去 2 週間
+     * 過去 3 か月
+     * 過去 2 か月
+     * 過去 1 か月
+     * 過去 2 週間
    * [!UICONTROL 予定完了]：次の今後の時間枠の[!UICONTROL 予定完了日]を持つプロジェクトのみを表示する場合に選択します。
 
-      * 2 週間
-      * 1 か月
-      * 2 か月
-      * 3 か月
+     * 2 週間
+     * 1 か月
+     * 2 か月
+     * 3 か月
    * [!UICONTROL 見込み完了]：次の今後の時間枠の[!UICONTROL 見込み完了日]を持つプロジェクトのみを表示する場合に選択します。
 
-      * 2 週間
-      * 1 か月
-      * 2 か月
-      * 3 か月
+     * 2 週間
+     * 1 か月
+     * 2 か月
+     * 3 か月
    * [!UICONTROL 所有者]：特定の所有者に割り当てられているプロジェクトを表示する場合に選択します。
    * [!UICONTROL スポンサー]：特定の[!UICONTROL スポンサー]に割り当てられたプロジェクトを表示する場合に選択します。
 

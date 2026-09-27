@@ -7,25 +7,31 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 65%
-
 ---
-
 # 「更新」セクションの概要
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * 次のオブジェクトは、「更新」セクションの3つのタブすべてで同様のエクスペリエンスを持っています。
 
-   * プロジェクト
-   * タスク
-   * イシュー
-   * プログラム
-   * ポートフォリオ
-   * ユーザー
-   * タイムシート
+  * プロジェクト
+  * タスク
+  * イシュー
+  * プログラム
+  * ポートフォリオ
+  * ユーザー
+  * タイムシート
 
 * 次のオブジェクトには、「システム活動」タブまたは「すべて」タブがなく、「コメント」タブのエクスペリエンスは他のすべてのオブジェクトと一致します。
 
-   * チーム
-   * テンプレート
-   * テンプレートタスク
+  * チーム
+  * テンプレート
+  * テンプレートタスク
 
 * 次のオブジェクトには、「システム活動」タブまたは「すべて」タブがありません。「コメント」タブのエクスペリエンスは、他のすべてのオブジェクトとは異なります。
 
-   * イテレーション
-   * ボード領域のアドホックカード
+  * イテレーション
+  * ボード領域のアドホックカード
 
-     カードの更新について詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)を参照してください。
+    カードの更新について詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 
 * 次のオブジェクトには「システム活動」タブがあり、「すべて」タブはありません。
 
-   * ボード領域の接続されたカード
+  * ボード領域の接続されたカード
 
-     詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+    詳しくは、[ ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * 次のオブジェクトには、「システム活動」タブに代わる「履歴」タブがあります。
 
-   * Workfront計画のレコード
+  * Workfront計画のレコード
 
-     詳しくは、[履歴セクションの概要](/help/quicksilver/planning/records/history-section-overview.md)を参照してください。
+    詳しくは、[履歴セクションの概要](/help/quicksilver/planning/records/history-section-overview.md)を参照してください。
 
 * 次のオブジェクトには「すべて」タブがなく、「コメント」タブのエクスペリエンスは、ほとんどのオブジェクトと一致します。
 
-   * Goals
+  * Goals
 
-     目標の更新について詳しくは、[目標のコメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)を参照してください。
+    目標の更新について詳しくは、[目標のコメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)を参照してください。
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -214,13 +220,13 @@ The following objects don't record system updates:
 * Iterations
 -->
 
-## 上位のオブジェクトにも表示される更新
+## 上位ランキングのオブジェクトにも表示される更新
 
-特定のオブジェクトに対するコメント、返信まはたシステム更新は、上位のオブジェクトの「更新」セクションにも表示されます。
+特定のオブジェクトに対するコメント、返信まはたシステム更新は、上位ランキングオブジェクトの「更新」セクションにも表示されます。
 
 例えば、タスクを更新すると、その更新はタスクの「更新」セクションと、そのタスクを含んだプロジェクトの「更新」セクションに表示されます。
 
-コメントが上位のオブジェクトにも表示されるオブジェクトを次の表に示します。
+コメントが上位ランキングのオブジェクトにも表示されるオブジェクトを次の表に示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -228,7 +234,7 @@ The following objects don't record system updates:
  <thead> 
   <tr> 
    <th><strong>元の更新が追加されたオブジェクト</strong> </th> 
-   <th> <p><strong>元の更新も表示される上位のオブジェクト</strong> </p> </th> 
+   <th> <p><strong>元の更新も表示される上位ランキングのオブジェクト</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -324,19 +330,19 @@ The following objects don't record system updates:
 
 * チームの「更新」セクションには、次のオブジェクトに追加されたコメントが入力されます。
 
-   * ユーザー
-   * ストーリー
-   * タイムシート
-   * イテレーション
+  * ユーザー
+  * ストーリー
+  * タイムシート
+  * イテレーション
 
 * ユーザーの「更新」エリアの「システム更新」タブには、他のオブジェクトの更新が表示されます。 次の更新は、ユーザーのプロファイルの「システム更新」タブに表示される更新です。これらのフィールドが設定の「更新フィード」領域で追跡されている場合に表示されます。
 
-   * ドキュメントの追加、削除、その他のドキュメントの更新
-   * 時間の追加、削除、代理での追加、およびその他の時間エントリの更新
-   * カスタムフィールドの更新
-   * ユーザープロファイルの更新（ユーザーのアバター、携帯電話番号、フィールドについて私に話す、タイトルの更新）
-   * ユーザーの追加、削除、アクセスレベルの変更、組み込みユーザーフィールドの変更
-   * タスクやプロジェクトからの財務情報。
+  * ドキュメントの追加、削除、その他のドキュメントの更新
+  * 時間の追加、削除、代理での追加、およびその他の時間エントリの更新
+  * カスタムフィールドの更新
+  * ユーザープロファイルの更新（ユーザーのアバター、携帯電話番号、フィールドについて私に話す、タイトルの更新）
+  * ユーザーの追加、削除、アクセスレベルの変更、組み込みユーザーフィールドの変更
+  * タスクやプロジェクトからの財務情報。
 
 ### 別のユーザーの代わりにコメントを入力する際の制限
 
@@ -365,4 +371,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。

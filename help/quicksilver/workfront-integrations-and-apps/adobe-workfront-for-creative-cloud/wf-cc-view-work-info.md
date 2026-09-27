@@ -8,23 +8,33 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v6QS7sDM50eMrXH9PZDqMKpxab7xcfdllNtzpO7g3u4
+TQID: 'https://experienceleague.adobe.com/v6QS7sDM50eMrXH9PZDqMKpxab7xcfdllNtzpO7g3u4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '548'
 ht-degree: 79%
-
 ---
-
 # [!DNL Adobe Workfront] プラグインを使用した作業アイテム情報の表示
 
 プロジェクト、タスク、イシュー、ドキュメントに関する情報は、次の [!DNL Adobe Creative Cloud] アプリケーションから確認できます。
@@ -109,7 +119,7 @@ ht-degree: 79%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックし、表示するドキュメントをダブルクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックし、表示するドキュメントをダブルクリックします。
 
    * [!UICONTROL 説明]
    * [!UICONTROL ファイルタイプ]
@@ -130,7 +140,7 @@ ht-degree: 79%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックし、プルーフをダブルクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックし、プルーフをダブルクリックします。
 
 1. サムネイルの右上隅にある矢印アイコンをクリックして、[!DNL Workfront] でプルーフの詳細を開きます。
 
@@ -148,11 +158,11 @@ ht-degree: 79%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックし、プルーフをダブルクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックし、プルーフをダブルクリックします。
 
 1. 下部までスクロールして、プルーフの現在のステータスを表示します。 送信済み、開封済み、コメント、決定（SOCD）の詳細については、 [ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
 
-![&#x200B; プルーフの状態](assets/proof-status.png)
+![ プルーフの状態](assets/proof-status.png)
 
 ## サブタスクとイシューの表示
 
@@ -166,7 +176,7 @@ ht-degree: 79%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. **[!UICONTROL 問題]** アイコン ![問題アイコン &#x200B;](assets/issues.png)または&#x200B;**サブタスク** アイコン ![&#x200B; サブタスクアイコン &#x200B;](assets/subtasks.png)をクリックします。
+1. **[!UICONTROL 問題]** アイコン ![問題アイコン ](assets/issues.png)または&#x200B;**サブタスク** アイコン ![ サブタスクアイコン ](assets/subtasks.png)をクリックします。
 
 1. タスクまたは問題を選択し、ナビゲーションバーの&#x200B;**[!UICONTROL 詳細]** アイコン ![詳細](assets/details.png)をクリックして表示します。
 

@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する
 
@@ -54,7 +66,7 @@ Workfront Planningでユーザーを割り当てることができるアクセ�
 </tbody> 
 </table>
 
-Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
+Workfront as a スタンドアロンパッケージに必要なアクセスについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)を参照してください。
 +++    
 
 ## Adobe Workfront Planningのアクセスレベル
@@ -64,7 +76,7 @@ Workfront as a スタンドアロンパッケージに必要なアクセスに�
 * 計画管理者
 * 計画標準
 
-各アクセスに含まれる機能について詳しくは、「[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス &#x200B;](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)」を参照してください。
+各アクセスに含まれる機能について詳しくは、「[ スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス ](/help/quicksilver/planning/planning-sta/access-needed-for-planning-sta.md)」を参照してください。
 
 Workfront Planningをスタンドアロン製品として使用する場合は、次の点を考慮してください。
 
@@ -93,7 +105,7 @@ Workfront Planningをスタンドアロン製品として使用する場合は�
    Workfront Planningが開きます。
 1. **メインメニュー** > **ユーザー** > **新規ユーザー**&#x200B;をクリックします。
 
-   ![&#x200B; スタンドアロン計画の新しいユーザーボックス &#x200B;](assets/new-user-box-planning-sta.png)
+   ![ スタンドアロン計画の新しいユーザーボックス ](assets/new-user-box-planning-sta.png)
 
 1. **新規ユーザー** ボックスで、次の情報を更新します。
 
@@ -109,7 +121,7 @@ Workfront Planningをスタンドアロン製品として使用する場合は�
 
    * **チーム**: ドロップダウンメニューから、ユーザーに関連付けるチームを選択します。 チームをユーザーに割り当てる前に、チームを作成する必要があります。
 
-     詳しくは、[&#x200B; チームの管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)を参照してください。
+     詳しくは、[ チームの管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)を参照してください。
 
 1. 「**今すぐアップロード**」をクリックしてプロファイル画像を追加し、「**保存**」をクリックします。
 

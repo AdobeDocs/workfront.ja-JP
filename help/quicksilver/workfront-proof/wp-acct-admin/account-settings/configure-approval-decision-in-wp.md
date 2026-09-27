@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof] での承認決定オプションの設定'
-description: 組織内の [!DNL Workfront Proof] ユーザーが作成したすべてのプルーフに対して承認決定オプションを設定できます。
+title: '[!DNL Workfront Proof] での承認決定オプションの設定'
+description: 組織内の[!DNL Workfront Proof] ユーザーが作成したすべてのプルーフに対して、承認決定オプションを設定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+TQID: 'https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 85%
-
+source-wordcount: '606'
+ht-degree: 95%
 ---
-
 # [!DNL Workfront Proof] での承認決定オプションの設定
 
 >[!IMPORTANT]
@@ -67,8 +76,8 @@ ht-degree: 85%
 1. **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 決定]**」タブを開きます。
-デフォルトでは、すべての意思決定者がプルーフで理由を使用できますが、その理由はプライマリの意思決定者のみに制限できます。
-要件に応じて、複数の理由を選択するか、選択リストを1つにすることができます。また、理由を必須にすることもできます。これは、レビュー担当者がプルーフに関する決定を保存する前に、理由を選択する必要があることを意味します。
+デフォルトでは、プルーフに関するすべての意思決定者が理由を使用できますが、それを主な意思決定者のみに制限することもできます。
+要件に応じて、複数の理由を選択できるようにすることも、単一の選択リストにすることもできます。 理由を必須にすることもできます。つまり、レビュー担当者はプルーフに関する決定を保存する前に理由を選択する必要があります。
    ![Reasons_setup.png](assets/reasons-setup-350x121.png)
 
 1. 「**[!UICONTROL 理由]**」セクションで、「**[!UICONTROL 新しい理由]**」をクリックします。
@@ -78,9 +87,9 @@ ht-degree: 85%
 1. テキストボックスを含める場合は、「**[!UICONTROL テキストボックスを含める]**」を選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
    ![reasons_setup_2.png](assets/reasons-setup-2-350x146.png)
-最も重要なステップは、理由を表示する必要がある決定を選択することです。 それを忘れると、その理由はプルーフに表示されなくなります。
+   最も重要なステップは、理由を表示する必要がある決定を選択することです。 それを忘れると、その理由はプルーフに表示されなくなります。
 
-1. ページの上部にある決定リストの「**[!UICONTROL 表示理由]**」列のチェックボックスをオンにします。理由に応じて、1つ以上の決定を選択できます。
+1. ページ上部にある決定リストの&#x200B;**[!UICONTROL 理由を表示]**列のチェックボックスをオンにします。 理由に対応する決定を 1 つ以上選択できます。
    ![reasons_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
 ## 決定後メッセージの作成
@@ -90,10 +99,10 @@ ht-degree: 85%
 1. **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 決定]**」タブを開きます。
-1. **[!UICONTROL 決定メッセージを投稿]** セクションで、**[!UICONTROL メッセージ]**&#x200B;行の最後にある&#x200B;**[!UICONTROL 編集]**&#x200B;をクリックします。
-また、メッセージをすべての意思決定者に表示するか、プライマリの意思決定者に制限するかを決定することもできます。
+1. 「**[!UICONTROL 決定後メッセージ]**」セクションで、**[!UICONTROL メッセージ]**&#x200B;行の最後にある「**[!UICONTROL 編集]**」をクリックします。
+また、メッセージをすべての意思決定者に表示するか、主な意思決定者にのみ表示するかを決定することもできます。
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. **[!UICONTROL メッセージを表示]**&#x200B;列で、このメッセージを表示する決定を指定します。
-少なくとも1つの決定を選択しない場合、メッセージはプルーフに表示されません。この列の少なくとも1つのチェックボックスをオンにしてください。
+1. **[!UICONTROL メッセージを表示]**列で、このメッセージを表示する決定を指定します。
+1 つ以上の決定を選択しない場合、メッセージはプルーフに表示されません。 この列の 1 つ以上のボックスを必ずクリックしてください。
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

@@ -8,15 +8,22 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 8%
-
 ---
-
 # Adobe クラウドストレージを有効にする
 
 Adobeクラウドストレージは、Adobeのあらゆるアプリケーションに対応する統合ストレージソリューションです。 Adobeのクラウドベースのストレージソリューションであり、エンタープライズ製品全体のアセットの中央リポジトリとして機能します。
@@ -67,14 +74,14 @@ Adobe クラウドストレージを有効にするには：
    >
    >このオプションを有効にすると、ユーザーは新しいプロジェクトの作成時にストレージプロバイダーを選択できます。 Adobe クラウドストレージは、デフォルトのストレージプロバイダーであるため、「新しいプロジェクト」というラベルが付けられます。 従来のWorkfront ストレージは、「従来のプロジェクト」とラベル付けされます。
    >
-   >![新しいプロジェクトと従来のプロジェクトのオプション &#x200B;](assets/new-esm-project.png)
+   >![新しいプロジェクトと従来のプロジェクトのオプション ](assets/new-esm-project.png)
 
 1. 「適用先」ドロップダウンメニューで、次のいずれかのオプションを選択します。
 
    - **組織全体**：このオプションは、デフォルトのストレージプロバイダーをWorkfront環境全体に適用します。 ユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます。
    - **特定のグループ**：このオプションは、組織内の特定のグループにのみデフォルトのストレージプロバイダーを適用します。 指定したグループのユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます
 
-   ![&#x200B; ストレージ環境設定グループ &#x200B;](assets/configure-storage-preference.png)
+   ![ ストレージ環境設定グループ ](assets/configure-storage-preference.png)
 
 1. 「**保存**」をクリックします。
 
@@ -88,4 +95,4 @@ Adobe クラウドストレージを有効にするには：
 
 Adobe クラウドストレージは、[!DNL Workfront] サンドボックス環境で利用できます。本番環境でロールアウトする前に、この記事で説明した機能をテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
 
-カスタムリフレッシュサンドボックスがある場合は、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 更新により、サンドボックスからAdobe クラウドストレージ機能にアクセスできるようになり、テストを開始できます。 詳しくは、[&#x200B; カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+カスタムリフレッシュサンドボックスがある場合は、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 更新により、サンドボックスからAdobe クラウドストレージ機能にアクセスできるようになり、テストを開始できます。 詳しくは、[ カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)

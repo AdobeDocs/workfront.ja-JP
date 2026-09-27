@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pPk3qt9-o3QhAajyI4eGhwe0J2tRphXDstrJxmdW8Ww
+TQID: 'https://experienceleague.adobe.com/pPk3qt9-o3QhAajyI4eGhwe0J2tRphXDstrJxmdW8Ww'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1489
+source-wordcount: '1489'
 ht-degree: 4%
-
 ---
-
 # Workfront Data Connect への接続の確立
 
 Workfront Data Connectを使用すると、組織のWorkfront データをビジネスインテリジェンスツールで使用したり、外部のデータウェアハウスに保存したりできます。
@@ -102,7 +107,7 @@ Microsoft Power BIのData Connectへのトラフィックは、1つの固定ア�
 
 ### AzureのIP範囲とサービスタグ用の公式Microsoft ソース
 
-Microsoftは、[Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=56519)でリストを公開します。 現在のJSON ファイルをダウンロードします（ファイル名は通常`ServiceTags_Public_YYYYMMDD.json`に似ています）。 Microsoftがこのファイルを更新する場合、またはMicrosoftの変更後に接続性の問題が発生する場合は、の許可リストを更新します。
+Microsoftは、[Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ ](https://www.microsoft.com/en-us/download/details.aspx?id=56519)でリストを公開します。 現在のJSON ファイルをダウンロードします（ファイル名は通常`ServiceTags_Public_YYYYMMDD.json`に似ています）。 Microsoftがこのファイルを更新する場合、またはMicrosoftの変更後に接続性の問題が発生する場合は、の許可リストを更新します。
 
 >[!NOTE]
 >
@@ -139,7 +144,7 @@ JSON ファイルには、多数の地域を集約し、数百のCIDR ブロッ�
 
 MicrosoftからIP範囲を収集し、Workfront許可リストに追加するには：
 
-1. [Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ &#x200B;](https://www.microsoft.com/en-us/download/details.aspx?id=56519)を開き、サービスタグ JSON ファイルをダウンロードし、ローカルに保存します（例：`Downloads\ServiceTags_Public_YYYYMMDD.json`）。
+1. [Azure IP範囲とサービスタグ – パブリッククラウドのダウンロードページ ](https://www.microsoft.com/en-us/download/details.aspx?id=56519)を開き、サービスタグ JSON ファイルをダウンロードし、ローカルに保存します（例：`Downloads\ServiceTags_Public_YYYYMMDD.json`）。
 
 1. Visual Studio Codeなど、大きなJSONを適切に処理する任意のエディターでファイルを開きます。
 
@@ -190,7 +195,7 @@ MicrosoftからIP範囲を収集し、Workfront許可リストに追加するに
 
 1. 左側のパネルで、**システム**/**データ接続**&#x200B;をクリックします。
 
-1. **許可されたIP** タブをクリックし、削除するIP アドレスの右側にあるゴミ箱アイコン ![削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
+1. **許可されたIP** タブをクリックし、削除するIP アドレスの右側にあるゴミ箱アイコン ![削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして確認し、**削除**&#x200B;をクリックします。
 

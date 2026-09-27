@@ -7,18 +7,26 @@ description: 2 つのプルーフの比較結果を並べて表示できます�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-TQID: https://experienceleague.adobe.com/WqMIoCFL-uqoaiZN59IyGljdSPb1sn0Py3RaVgjuuKM
+TQID: 'https://experienceleague.adobe.com/WqMIoCFL-uqoaiZN59IyGljdSPb1sn0Py3RaVgjuuKM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '964'
 ht-degree: 99%
-
 ---
-
 # プルーフビューアーでプルーフを比較
 
 >[!IMPORTANT]
@@ -32,7 +40,7 @@ ht-degree: 99%
 1. 比較する複数のバージョンを持つプルーフを開きます。
 1. 表示されるプルーフビューアの左上隅で、プルーフの名前をクリックします。 次に、表示されるバージョンリストで、開いて比較するバージョンの横にある&#x200B;**比較**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; プルーフを比較してバージョンを選択](assets/compare-proofs-choose-version-350x115.jpg)
+   ![ プルーフを比較してバージョンを選択](assets/compare-proofs-choose-version-350x115.jpg)
 
    プルーフは横に並べて表示され、より新しいバージョンが左側に表示されます。
 
@@ -50,8 +58,8 @@ ht-degree: 99%
 
 2 つの別個のプルーフを比較できます。
 
-* [&#x200B; [!DNL Workfront] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront)
-* [&#x200B; [!DNL Workfront Proof] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront-proof)
+* [ [!DNL Workfront] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront)
+* [ [!DNL Workfront Proof] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront-proof)
 
 ### [!DNL Workfront] 内の別個のプルーフを比較 {#compare-separate-proofs-in-workfront}
 

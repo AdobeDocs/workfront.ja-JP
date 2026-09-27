@@ -1,17 +1,24 @@
 ---
 content-type: overview
 title: トップ ナビゲーション バーの概要
-description: ' [!DNL Adobe Workfront]  の画面の上部に表示されるトップナビゲーションバーを使用すると、プラットフォームの他のエリアを簡単に見つけて移動できます。'
+description: '[!DNL Adobe Workfront] の画面上部に表示されるトップナビゲーションバーを使用すると、プラットフォームの他のエリアを簡単に見つけて移動できます。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 90%
-
 ---
-
 # 上部のナビゲーションバーの概要
 
 <!--Audited: 01/2024-->
@@ -30,13 +37,13 @@ Workfront 管理者は、レイアウトテンプレートを作成して割り�
 
 ## [!UICONTROL メインメニュー]
 
-**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](assets/main-menu-icon-left-nav.png)が[!UICONTROL &#x200B; メインメニュー]を開き、Workfrontの別の領域に移動できます。
+**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](assets/main-menu-icon-left-nav.png)が[!UICONTROL  メインメニュー]を開き、Workfrontの別の領域に移動できます。
 
 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
 
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
 
-* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[&#x200B; ライトライセンスユーザーのナビゲーションの理解](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[作業] ライセンスユーザーのナビゲーションの理解(../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。
+* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[ ライトライセンスユーザーのナビゲーションの理解](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[作業] ライセンスユーザーのナビゲーションの理解](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。[!UICONTROL 
 
 各アイコンにより、Workfront の様々なエリアに移動します。
 
@@ -66,8 +73,8 @@ Workfront 管理者は、レイアウトテンプレートを作成して割り�
      <li>[!UICONTROL Timesheets]：<a href="../../timesheets/timesheets-all.md" class="MCXref xref">タイムシート：記事インデックス</a></li> 
      <li>[!UICONTROL Documents]：<a href="../../documents/documents-overview.md" class="MCXref xref">ドキュメント</a></li> 
      <li>[!UICONTROL Templates]：<a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">プロジェクトテンプレートの作成と管理：記事インデックス</a></li> 
-     <li>[!UICONTROL ボード &#x200B;]: <a href="/help/quicksilver/agile/boards-overview.md"> ボードの概要</a></li>
-     <li>[!UICONTROL ブループリント &#x200B;]: <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md"> ブループリントの概要</a></li>
+     <li>[!UICONTROL ボード ]: <a href="/help/quicksilver/agile/boards-overview.md"> ボードの概要</a></li>
+     <li>[!UICONTROL ブループリント ]: <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md"> ブループリントの概要</a></li>
      <li>[!UICONTROL Priorities]: <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">優先度の基本を学ぶ</a></li>
      <li>[!UICONTROL Goals]：<a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 概要</a></li> 
      <li>[!UICONTROL Scenarios]：<a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">シナリオプランナーの概要</a></li> 

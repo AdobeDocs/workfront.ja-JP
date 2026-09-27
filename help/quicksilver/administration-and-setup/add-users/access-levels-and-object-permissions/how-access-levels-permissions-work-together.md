@@ -10,27 +10,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-TQID: https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8
+TQID: 'https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 908
+source-wordcount: '908'
 ht-degree: 98%
-
 ---
-
 # 従来のアクセスレベルと権限の連携
 
 >[!NOTE]
@@ -95,9 +103,9 @@ Workfront へのログインには、Workfront 管理者が各ユーザーに割
 
 * **表示**：このレベルの権限を使用すると、受信者は次のいずれかの方法でオブジェクトを共有できます。
 
-   * システム全体で、すべてのユーザーが表示可能（一部のオブジェクトでは利用不可）
-   * Workfront のライセンスを持たない外部ユーザー（一部のオブジェクトでは利用不可）
-   * メールアドレス（ドキュメントでのみ利用可能）
+  * システム全体で、すべてのユーザーが表示可能（一部のオブジェクトでは利用不可）
+  * Workfront のライセンスを持たない外部ユーザー（一部のオブジェクトでは利用不可）
+  * メールアドレス（ドキュメントでのみ利用可能）
 
 * **投稿**：（一部のオブジェクトでは利用不可）
 * **管理**：誰かがオブジェクトを共有する場合、そのオブジェクトに対する受信者の権限は、受信者のアクセスレベルと、共有者が付与したオブジェクトに対する権限の組み合わせによって決まります。 その組み合わせで利用可能な最低レベルのアクセスによって、受信者がオブジェクトに対して何を実行できるかが決まります。
@@ -133,7 +141,7 @@ Workfront へのログインには、Workfront 管理者が各ユーザーに割
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>上位の共有オブジェクトから継承 
+   <td> <p>上位ランキングの共有オブジェクトから継承 
    </td> 
    <td> </td> 
    <td>✓</td> 

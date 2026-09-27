@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+TQID: 'https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: '356'
 ht-degree: 86%
-
 ---
-
 # イベント登録のベストプラクティス
 
 サービスを正しく設定し、イベント登録を作成してこれらのメッセージ配信をトリガーすると、Adobe Workfront イベント登録メッセージが Workfront から自動的に送信されます。 イベント登録の適切な設定について詳しくは、[イベント登録の配信要件](../../wf-api/general/setup-event-sub-endpoint.md)を
@@ -59,6 +63,6 @@ ht-degree: 86%
 イベント登録を作成、クエリ、または削除するには、Workfront ユーザーが次の条件を満たす必要があります。
 
 * **システム管理者のアクセス レベル**
-詳しくは、[&#x200B; ユーザーに完全な管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域へのユーザーの管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
+詳しくは、[ ユーザーに完全な管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域へのユーザーの管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
 * 組織でAdobe IMS（Identity Management System）を使用している場合は、`X-User-Token` ヘッダーに渡されたIMS ユーザートークンを含めます。

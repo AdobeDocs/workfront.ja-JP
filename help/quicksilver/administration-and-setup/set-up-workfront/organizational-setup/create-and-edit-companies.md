@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 会社の作成と編集
-description: 会社を  [!DNL Adobe Workfront]  に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
+description: 会社を [!DNL Adobe Workfront] に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+TQID: 'https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1470'
 ht-degree: 67%
-
 ---
-
 # 会社の作成と編集
 
 <!--Audited: 01/2024-->
@@ -70,7 +77,7 @@ ht-degree: 67%
       <li> <p>ユーザーを[!DNL Workfront] システムから追加および削除するには、次のいずれかの操作を行う必要があります。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
-        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） &#x200B;]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） ]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -88,15 +95,15 @@ ht-degree: 67%
 * プロジェクトマネージャーは、同じ会社内で利用可能リソースを識別できます。
 * 以下の設定の 1 つまたはすべてを選択して、企業間で情報を非公開に保つことができます。
 
-   * 同じ会社のユーザーはお互いのリクエストを表示可能。
+  * 同じ会社のユーザーはお互いのリクエストを表示可能。
 
-     ユーザーの会社に基づいて [!DNL Workfront] 管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事にある [&#x200B; [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) の全員に対するタスクとイシューの環境設定の指定の節を参照してください。
+    ユーザーの会社に基づいて [!DNL Workfront] 管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事にある [ [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) の全員に対するタスクとイシューの環境設定の指定の節を参照してください。
 
-     ユーザーの会社に基づいて管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
+    ユーザーの会社に基づいて管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
-   * ユーザーは自分の会社に関連付けられているリクエストキューのみを表示可能。 リクエストキューの表示を制限する方法について詳しくは、[リクエストキューへのアクセス権の提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)を参照してください。
-   * ユーザーに対して、自分の会社または自分の会社とプライマリ会社のユーザーのみを表示するように制限できます。 ユーザーのプライバシーに関するプライマリ会社の機能について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-   * ユーザーは項目に加えた更新を自分の会社ユーザーのみが表示できるように制限可能。 会社で更新を非公開にする方法について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+  * ユーザーは自分の会社に関連付けられているリクエストキューのみを表示可能。 リクエストキューの表示を制限する方法について詳しくは、[リクエストキューへのアクセス権の提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)を参照してください。
+  * ユーザーに対して、自分の会社または自分の会社とプライマリ会社のユーザーのみを表示するように制限できます。 ユーザーのプライバシーに関するプライマリ会社の機能について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+  * ユーザーは項目に加えた更新を自分の会社ユーザーのみが表示できるように制限可能。 会社で更新を非公開にする方法について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## [!DNL Workfront] で会社を作成または編集 {#create-or-edit-a-company-in-workfront}
 
@@ -116,7 +123,7 @@ ht-degree: 67%
 
    または
 
-   既存の会社を編集する場合は、会社を選択し、会社リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+   既存の会社を編集する場合は、会社を選択し、会社リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
 1. **基本情報** セクションで次の情報を更新します。
 
@@ -128,7 +135,7 @@ ht-degree: 67%
 
      >[!NOTE]
      >
-     >アクセスレベルを変更することで、ユーザーが他のユーザーを表示することを制限できます。そのユーザーは、プライマリ会社、または関連する会社とプライマリ会社でのみ表示されます。 プライマリ会社がユーザーのアクセス レベルでどのように機能するかについては、[&#x200B; カスタム アクセス レベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+     >アクセスレベルを変更することで、ユーザーが他のユーザーを表示することを制限できます。そのユーザーは、プライマリ会社、または関連する会社とプライマリ会社でのみ表示されます。 プライマリ会社がユーザーのアクセス レベルでどのように機能するかについては、[ カスタム アクセス レベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
    * **グループ**：会社と取引を行うグループがある場合、ここにグループの名前を追加できます。 これは、グループがビジネスを展開するすべての会社に関するレポートおよび管理を必要とするグループ管理者に役立ちます。
 
@@ -154,7 +161,7 @@ ht-degree: 67%
    >
    >外部ルックアップフィールドやWorkfront ネイティブフィールドなどの高度なカスタムフォーム機能は、「会社を編集」ダイアログではなく、詳細ページで会社レコードを開いた場合にのみ使用できます。 （会社のリストで、会社名をクリックすると詳細が開きます）。
 
-   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -166,7 +173,7 @@ ht-degree: 67%
 
    会社のリストが表示されます。
 
-1. 削除する会社の横にあるチェックボックスをクリックし、ページの上部にある削除アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
+1. 削除する会社の横にあるチェックボックスをクリックし、ページの上部にある削除アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 1. プライマリ会社として設定されている会社、または別のオブジェクトで使用されている会社を削除する場合は、削除する会社を置き換える会社を選択します。 選択した会社がプライマリ会社になるか、会社が割り当てられているオブジェクトで削除された会社に置き換えられます。
 1. 「**削除**」をクリックします。
 
@@ -190,9 +197,9 @@ ht-degree: 67%
 
 [!DNL Workfront] 管理者がグループを会社に割り当てると、そのグループのグループ管理者は、[!UICONTROL 設定]で会社への[!UICONTROL 管理]権限を取得します。 これには、[!UICONTROL 設定]の[!UICONTROL 会社]ページへのアクセスが含まれており、グループに関連付けられている会社を表示および管理できます。
 
-この[!UICONTROL 会社]ページへのアクセスにより、グループ管理者はグループを会社に割り当てることができますが、その会社は同じグループ管理者が作成した会社である必要があります。 グループ管理者のアクセス レベルが企業への管理アクセスに設定されていない場合、グループ管理者が会社を作成する際に[!UICONTROL &#x200B; グループ &#x200B;] フィールドが必要になります。アスタリスクは次のことを示します。
+この[!UICONTROL 会社]ページへのアクセスにより、グループ管理者はグループを会社に割り当てることができますが、その会社は同じグループ管理者が作成した会社である必要があります。 グループ管理者のアクセス レベルが企業への管理アクセスに設定されていない場合、グループ管理者が会社を作成する際に[!UICONTROL  グループ ] フィールドが必要になります。アスタリスクは次のことを示します。
 
-![&#x200B; グループを持つ新しい会社ダイアログが必要](assets/group-admin-add-company-group-required.png)
+![ グループを持つ新しい会社ダイアログが必要](assets/group-admin-add-company-group-required.png)
 
 ユーザーがアクセスレベルで会社に対して管理者アクセス権を取得する方法について詳しくは、[ユーザーへの特定の領域に対する管理者アクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 

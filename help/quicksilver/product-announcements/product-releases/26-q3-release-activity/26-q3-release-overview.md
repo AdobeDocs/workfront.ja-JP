@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 16%
-
 ---
-
 # 2026年第3四半期リリースの概要
 
 このページでは、2026年7月に予定されている2026年第3四半期リリースに含まれる機能に関する情報を提供します。
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -576,7 +583,7 @@ ht-degree: 16%
 
 Workfront Fusion の新機能は、実稼動環境の標準リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
-### Workfront Planning の機能強化
+### Workfront プランニングの機能強化
 
 <!--
 New features in Workfront Planning are available in Production.
@@ -584,7 +591,7 @@ New features in Workfront Planning are available in Production.
 
 最新の機能について詳しくは、次を参照してください。
 
-* [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 * [Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)の2026年第3四半期のリリースアクティビティ。
 
 
@@ -616,7 +623,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### スタンドアロン製品としてのAdobe Workfront Planning
 
@@ -641,7 +648,7 @@ Adobe Workfront Planning as a standalone productには、次の機能が含ま�
 * プランニングレコード作成の自動化。
 * Planning リクエストフォームを使用した受注プロセス。
 
-詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ### API バージョン 22
 
@@ -679,7 +686,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

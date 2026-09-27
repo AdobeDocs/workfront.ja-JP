@@ -8,23 +8,30 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
+TQID: 'https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: '697'
 ht-degree: 74%
-
 ---
-
 # カスタム OAuth2 アプリケーションの表示と管理
 
 [!DNL Adobe Workfront] 管理者は、[!DNL Workfront] のインスタンス用の OAuth2 アプリケーションを表示および管理し、他のアプリケーションが [!UICONTROL Workfront] にアクセスできるようにします。
@@ -38,7 +45,7 @@ ht-degree: 74%
 >
 >   詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 >
->* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+>* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 >
 >* 一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
@@ -78,7 +85,7 @@ ht-degree: 74%
 
 [!UICONTROL OAuth2] アプリケーションを表示または管理するには、組織でこのアプリケーションを作成する必要があります。
 
-詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
 ## カスタム OAuth2 アプリケーションの管理
 
@@ -91,10 +98,10 @@ ht-degree: 74%
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
-1. アプリケーションにカーソルを合わせ、右端に表示されたら&#x200B;**[!UICONTROL 編集]** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. アプリケーションにカーソルを合わせ、右端に表示されたら&#x200B;**[!UICONTROL 編集]** ![編集アイコン ](assets/edit-icon.png)をクリックします。
 1. （オプション）アプリケーションの詳細を編集します。
 
-   OAuth2 および JWT アプリに関連するフィールドについては、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+   OAuth2 および JWT アプリに関連するフィールドについては、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
 ### カスタム OAuth2 アプリケーションの削除 {#delete-custom-oauth2-applications}
 
@@ -116,7 +123,7 @@ ht-degree: 74%
 >クライアントシークレット自体は表示できません。 クライアントシークレットがわからなくなった場合は、そのシークレットを削除して新しく作成する必要があります。
 >
 >* クライアントシークレットを削除するには、この記事の[クライアントシークレットの削除](#delete-client-secret)を参照してください。
->* 新しいクライアントシークレットを作成するには、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の [OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)を参照してください。
+>* 新しいクライアントシークレットを作成するには、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の [OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)を参照してください。
 >
 
 {{step-1-to-setup}}

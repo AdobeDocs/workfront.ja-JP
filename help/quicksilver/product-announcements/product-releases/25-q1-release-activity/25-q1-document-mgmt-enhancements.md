@@ -5,18 +5,25 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 56%
-
+source-wordcount: '218'
+ht-degree: 59%
 ---
-
 # 2025年第 1 四半期のドキュメント管理の機能強化
 
-このページでは、2025年第 1 四半期にプレビュー環境にリリースされた、すべてのドキュメントの管理の機能強化について説明します。この機能強化は、2025年第 1 四半期のリリースにおいて本番環境で利用できるようになります。
+このページでは、2025年第 1 四半期にプレビュー環境にリリースされた、すべてのドキュメントの管理の機能強化について説明します。 この機能強化は、2025年第 1 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 
@@ -28,7 +35,7 @@ ht-degree: 56%
 
 一度に複数のドキュメントを編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-詳しくは、[&#x200B; ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
+詳しくは、[ ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
 
 ## ドキュメントのバージョン承認に使用できる新しい引き出しステータス
 
@@ -38,4 +45,4 @@ ht-degree: 56%
 
 承認待ちの文書に新しいバージョンを追加すると、以前のバージョンの承認が「撤回」と表示され、新しいバージョンの追加により以前の承認プロセスが終了したことを示します。
 
-詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。
+詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。

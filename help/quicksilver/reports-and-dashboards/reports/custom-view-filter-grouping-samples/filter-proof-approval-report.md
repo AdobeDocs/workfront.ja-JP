@@ -9,26 +9,33 @@ feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0K5-65eWGsnej09HOH7yZKBDgANUPN1JThyGnkwt1kM
+TQID: 'https://experienceleague.adobe.com/0K5-65eWGsnej09HOH7yZKBDgANUPN1JThyGnkwt1kM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 49%
-
+source-wordcount: '382'
+ht-degree: 48%
 ---
-
 # フィルター：プルーフの以前のバージョンを省略するプルーフの承認レポート
 
 <!--Audited: 10/2024-->
@@ -82,10 +89,10 @@ ht-degree: 49%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   独自のプルーフ承認レポートを作成するには、右上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png)をクリックします。使用可能な場合は、**レポート** ![&#x200B; レポートアイコン &#x200B;](assets/reports-in-main-menu.png)をクリックします。
+   独自のプルーフ承認レポートを作成するには、右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png)をクリックします。使用可能な場合は、**レポート** ![ レポートアイコン ](assets/reports-in-main-menu.png)をクリックします。
 
 1. 「**新しいレポート**」をクリックします。 オブジェクトタイプのリストが表示されます。
-1. リストの&#x200B;**プルーフ承認**&#x200B;をクリックします。
+1. リストの&#x200B;**プルーフ承認**をクリックします。
 レポートビルダーが開きます。
 1. 「**フィルター**」、「**フィルタールールを追加**」の順にクリックします。
 

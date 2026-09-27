@@ -1,27 +1,31 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 招待メールを受信して  [!DNL Adobe Workfront] のパスワードを作成
-description: ' [!DNL Workfront] 管理者が新しいユーザーを作成すると、新しいユーザーにパスワードの作成を促す招待状メールが届く場合があります。'
+title: 招待メールを受信して [!DNL Adobe Workfront] のパスワードを作成
+description: '[!DNL Workfront]管理者が新しいユーザーを作成すると、新しいユーザーにパスワードの作成を依頼する招待状メールが届く場合があります。'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-TQID: https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI
+TQID: 'https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '320'
 ht-degree: 93%
-
 ---
-
 # 招待メールを受信して [!DNL Adobe Workfront] のパスワードを作成
 
 [!DNL Workfront] 管理者が新しいユーザーを作成すると、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。

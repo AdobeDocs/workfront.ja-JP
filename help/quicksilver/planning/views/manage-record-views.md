@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU
+TQID: 'https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1394
+source-wordcount: '1394'
 ht-degree: 33%
-
 ---
-
 # レコードビューの管理
 
 <!--
@@ -73,7 +81,7 @@ Adobe Workfront計画領域でレコードタイプを選択すると、その�
 この記事では、レコードビューに関する次の情報について説明します。
 
 * [ビューの作成と編集](#create-or-edit-record-views)
-* [&#x200B; ビューでリアルタイム プレゼンス指標を有効にする](#enable-the-real-time-presence-indicator-in-a-view)
+* [ ビューでリアルタイム プレゼンス指標を有効にする](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 Workfront Planning レコード ビューの管理の詳細については、次の記事も参照してください。
@@ -132,7 +140,7 @@ Workfront Planning レコード ビューの管理の詳細については、次
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -205,7 +213,7 @@ Old:
 
 ## レコードビューを使用する際の考慮事項
 
-* Workfront Planning のビューは、レコードタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
+* Workfront プランニングのビューは、レコードタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
 * 作成したビューは、自分と、そのビューを共有しているユーザーにのみ表示されます。
 * ビューを変更または削除すると、そのビューに対する権限を持つすべてのユーザーに対して、ビューが変更および削除されます。
 * 各ユーザーは最大100個のビューを作成できます。 レコードタイプには100以上のビューを表示できますが、1人のユーザーが作成できるビューは100までです。
@@ -268,7 +276,7 @@ Old:
 * タイムライン
 * カレンダー
 
-リスト ビューについて詳しくは、[&#x200B; リスト ビューの管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+リスト ビューについて詳しくは、[ リスト ビューの管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 {{step1-to-planning}}
 
@@ -283,7 +291,7 @@ Old:
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 現在のビュー名の横にあるドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/drop-down-icon.png)をクリックし、**+新しいビュー**&#x200B;をクリックします。
+1. 現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png)をクリックし、**+新しいビュー**&#x200B;をクリックします。
 
 1. 次のタイプのビューから選択します。
 
@@ -302,7 +310,7 @@ Old:
    >それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
    >  
 
-   ![&#x200B; ビューボックスを作成](assets/create-view-box.png)
+   ![ ビューボックスを作成](assets/create-view-box.png)
 
 1. （オプション）既存のビューを編集するには、現在のビュー名の右側にあるドロップダウンメニューをクリックし、**検索** フィールドにビュー名を入力して、キーボードのEnter キーを押します。
 
@@ -313,7 +321,7 @@ Old:
    >* Windowsの場合はCTRL+K
    >* Macの⌘+K
    >
-   >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+   >![ グローバル検索ボックス ](assets/global-search-box.png)
 
 1. （オプション）ビューのドロップダウンメニューから、ビューを環境設定の順にドラッグ&amp;ドロップします。
 
@@ -351,7 +359,7 @@ Old:
 
    ビュー名をダブルクリックし、新しい名前を入力していきます。<!--ensure there is not another saving step here?!-->
 
-1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで任意のビューを開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+1. （オプション）「**フルスクリーン**」アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで任意のビューを開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. （オプション）特定のタイプのビューを管理するには、次の記事を参照してください。
 

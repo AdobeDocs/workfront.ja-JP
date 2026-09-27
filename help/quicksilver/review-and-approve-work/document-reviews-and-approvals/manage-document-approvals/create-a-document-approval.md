@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
+TQID: 'https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -17,16 +17,20 @@ feature_v2:
     internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 5%
@@ -37,7 +41,7 @@ ht-degree: 5%
 
 Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
 
-デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[&#x200B; テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
+デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[ テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
 
 >[!IMPORTANT]
 >
@@ -202,7 +206,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-parallel-paths.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-parallel-paths.jpeg)
 
 <!--
 preview screen
@@ -228,7 +232,7 @@ preview screen
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
@@ -290,7 +294,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。
 
@@ -345,7 +349,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-advanced.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-advanced.jpeg)
 
 <!--
 preview screen
@@ -369,7 +373,7 @@ preview screen
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. バージョンをクリックして展開します。 そのステージ、各承認者の決定、ステージの決定ルール（ステージを完了するために1つの決定のみが必要かどうかなど）、期日を表示できます。
 1. 別のバージョンをクリックして、パネルを離れずに承認ワークフローを展開します。

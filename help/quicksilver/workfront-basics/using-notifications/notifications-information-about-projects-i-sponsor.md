@@ -6,18 +6,21 @@ description: 次の通知は、自分がスポンサーしているプロジェ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
+TQID: 'https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1254
+source-wordcount: '1254'
 ht-degree: 100%
-
 ---
-
 # 通知：スポンサーしているプロジェクトに関する情報
 
 次の通知は、自分がスポンサーしているプロジェクトで発生するアクティビティについて警告します。
@@ -44,7 +47,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分がスポンサーしているプロジェクトのマイルストーンタスクが完了した</strong> </p> <p>プロジェクトスポンサーは、スポンサーしているプロジェクトでマイルストーンタスクが完了すると、メール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Complete]: &lt;Project Name&gt; の &lt;Task Name&gt;</em></p> <p>注意：タスクが [!UICONTROL Complete] と同等のステータスに変更された場合も、メールの件名には [!UICONTROL Complete] と表示されます。<br></p> <p>日次ダイジェスト通知の件名：<em>スポンサーするプロジェクトのダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分がスポンサーしているプロジェクトのマイルストーンタスクが完了した</strong> </p> <p>プロジェクトスポンサーは、スポンサーしているプロジェクトでマイルストーンタスクが完了すると、メール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL 現在] か [!UICONTROL 計画] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Complete]: &lt;Project Name&gt; の &lt;Task Name&gt;</em></p> <p>注意：タスクが [!UICONTROL Complete] と同等のステータスに変更された場合も、メールの件名には [!UICONTROL Complete] と表示されます。<br></p> <p>日次ダイジェスト通知の件名：<em>スポンサーするプロジェクトのダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
    <td> タスク名<br>プロジェクト名<br>タスク参照番号<br>タスクを完了したユーザーの名前<br>新規タスクステータス<br>タスクが完了した日時<br>前のタスクのステータス<br><strong>[!UICONTROL See More Details]</strong> ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*完了したタスクの合計数<br>*タスク名<br>*タスクを完了したユーザーの名前<br>*日次ダイジェストの日付<br></td> 
    <td><strong>日次</strong> </td> 
   </tr> 
@@ -64,17 +67,17 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分がスポンサーするプロジェクトに問題が追加された</strong> </p> <p>プロジェクトスポンサーは、イシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分がスポンサーするプロジェクトに問題が追加された</strong> </p> <p>プロジェクトスポンサーは、イシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL 現在] か [!UICONTROL 計画] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> プロジェクト名<br>ポートフォリオ名<br>イシューの参照番号<br>イシューを追加したユーザーの名前<br>イシュー名<br>イシュータイプ<br>入力した日付<br>イシューの優先度<br>割り当て先の名前 <br>イシューのステータス<br>プライマリ連絡先<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*プロジェクトに追加されたイシューの合計数<br>*イシュー名<br>*イシューの割り当て先のユーザーの名前<br>*日次ダイジェストの日付<br><br></td> 
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分がスポンサーするプロジェクトの問題が完了した</strong> </p> <p>プロジェクトスポンサーがメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Complete]: &lt;Project Name&gt; の &lt;Issue Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em>スポンサーするプロジェクトのダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分がスポンサーするプロジェクトの問題が完了した</strong> </p> <p>プロジェクトスポンサーがメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL 現在] か [!UICONTROL 計画] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Complete]: &lt;Project Name&gt; の &lt;Issue Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em>スポンサーするプロジェクトのダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
    <td> イシュー名<br>プロジェクト名<br>イシューの参照番号<br>イシューを完了したユーザーの名前<br>イシューステータス<br>イシューが完了した日時<br>以前のイシューステータス<br><strong>詳細を表示</strong>ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*完了したイシューの総数<br>*イシュー名<br>*イシューに割り当てられたユーザーの名前<br>*日次ダイジェストの日付 </td> 
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分がスポンサーしているプロジェクトに未割り当ての問題が追加された</strong> </p> <p>プロジェクトスポンサーは、未割り当てのイシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Who should be assigned to this new issue on] &lt;Project Name&gt;?</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分がスポンサーしているプロジェクトに未割り当ての問題が追加された</strong> </p> <p>プロジェクトスポンサーは、未割り当てのイシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL 現在] か [!UICONTROL 計画] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Who should be assigned to this new issue on] &lt;Project Name&gt;?</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> プロジェクト名<br>ポートフォリオ名<br>イシューの参照番号<br>イシューを追加したユーザーの名前<br>イシュー名<br>イシューのタイプ<br>入力日<br>イシューの優先度<br>割り当て先名（空）<br>イシューステータス<br>プライマリ連絡先<br>*プロジェクト名<br>*プロジェクト参照番号<br>*追加されたイシューの総数<br>*イシュー名<br>*イシューを追加したユーザーの名前<br>*日次ダイジェストの日付<br></td> 
    <td><strong>日次</strong> </td> 
   </tr> 

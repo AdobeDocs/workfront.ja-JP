@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-TQID: https://experienceleague.adobe.com/BbyES980TEgJEigbZQuvzncLvGc1FlM09muH-t4zq44
+TQID: 'https://experienceleague.adobe.com/BbyES980TEgJEigbZQuvzncLvGc1FlM09muH-t4zq44'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '384'
 ht-degree: 72%
-
 ---
-
 # サブグループのメンバーの表示と管理
 
 管理対象のグループを表示している場合、グループのサブグループ内のすべてのユーザーを表示および管理できます。
@@ -77,7 +83,7 @@ ht-degree: 72%
 
 1. 次のいずれかの操作を行います。
 
-   * リスト内のメンバーを選択し、「![編集」アイコン &#x200B;](assets/edit-icon.png)をクリックして、そのユーザーのユーザープロファイルを変更します。
+   * リスト内のメンバーを選択し、「![編集」アイコン ](assets/edit-icon.png)をクリックして、そのユーザーのユーザープロファイルを変更します。
 
      詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
@@ -87,8 +93,8 @@ ht-degree: 72%
 
      詳しくは、[他のユーザーへのダイレクトメッセージの送信](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、「![&#x200B; ユーザーを非アクティブ化](assets/deactivate-user.png)」または「![&#x200B; ユーザーをアクティブ化](assets/activate-user.png)」をクリックします。
+   * リスト内の任意の数のメンバーを選択し、「![ ユーザーを非アクティブ化](assets/deactivate-user.png)」または「![ ユーザーをアクティブ化](assets/activate-user.png)」をクリックします。
 
      詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-   * メンバーのリストを![&#x200B; エクスポート &#x200B;](assets/export.png)します。
+   * メンバーのリストを![ エクスポート ](assets/export.png)します。

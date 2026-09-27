@@ -7,13 +7,20 @@ description: このページでは、Workfront Data Connectのデータの構造
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Workfront Data Connect のデータ辞書
 
 このページでは、Workfront Data Connectのデータの構造と内容について説明します。
@@ -67,11 +74,11 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 
 ### ドキュメントとドキュメントの承認
 
-![&#x200B; ドキュメントとドキュメント承認エンティティの関係図](assets/Document-and-Document-Approvals-centered-ERD.png)
+![ ドキュメントとドキュメント承認エンティティの関係図](assets/Document-and-Document-Approvals-centered-ERD.png)
 
 ### 時間とタイムシート
 
-![時間とタイムシートのエンティティ関係ダイアグラム &#x200B;](assets/Hours-and-Timesheet-centered-ERD.png)
+![時間とタイムシートのエンティティ関係ダイアグラム ](assets/Hours-and-Timesheet-centered-ERD.png)
 
 
 ### イシュー
@@ -80,17 +87,17 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 
 ### プロジェクト
 
-![&#x200B; プロジェクト エンティティ関係図](assets/Project-centered-ERD.png)
+![ プロジェクト エンティティ関係図](assets/Project-centered-ERD.png)
 
 
 ### タスク
 
-![&#x200B; タスクエンティティ関係図](assets/Task-centered-ERD.png)
+![ タスクエンティティ関係図](assets/Task-centered-ERD.png)
 
 
 ### ユーザー
 
-![&#x200B; ユーザーエンティティ関係図](assets/User-centered-ERD.png)
+![ ユーザーエンティティ関係図](assets/User-centered-ERD.png)
 
 +++
 
@@ -1708,15 +1715,15 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 >
 >レコードのタイプは、`enumClass` プロパティを通じて識別されます。 次の種類が必要です：<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### ドキュメント

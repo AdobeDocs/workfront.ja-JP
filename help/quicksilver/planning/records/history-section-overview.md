@@ -1,6 +1,6 @@
 ---
 title: 履歴セクションの概要
-description: Adobe Workfront Planning のレコードの右パネルで、レコードに対して行われ、システムによって記録された変更を確認できます。
+description: Adobe Workfront プランニングのレコードの右パネルで、レコードに対して行われ、システムによって記録された変更を確認できます。
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs
+TQID: 'https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 73%
-
 ---
-
 # 履歴セクションの概要
 
 <!--
@@ -36,11 +43,11 @@ ht-degree: 73%
 
 {{planning-important-intro}}
 
-レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
+レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront プランニングレコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
 
 レコードの右側のパネルには、次のセクションが表示されます。
 
-* **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。 Workfront Planning レコードでのコメントの管理について詳しくは、[レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+* **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。 Workfront プランニングレコードでのコメントの管理について詳しくは、[レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * **履歴**：ユーザーがレコードのフィールドに対して行い、システムで記録された変更を表示します。
 
 ## アクセス要件
@@ -90,7 +97,7 @@ ht-degree: 73%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -174,8 +181,8 @@ Old:
 1. 任意のビューから、レコードの名前をクリックします。
 
    レコードのページが開きます。 コメントエリアがデフォルトで右パネルに開きます。
-1. **履歴を表示** アイコン ![履歴を表示アイコン &#x200B;](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
-1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン &#x200B;](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
+1. **履歴を表示** アイコン ![履歴を表示アイコン ](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
+1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン ](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
 
 ## 履歴セクションに関する考慮事項
 
@@ -183,7 +190,7 @@ Old:
 
 コメントの![履歴領域](assets/history-area-in-comments.png)
 
-* Workfront Planning は、次の情報を「履歴」セクションに記録します。
+* Workfront プランニングは、次の情報を「履歴」セクションに記録します。
 
   * フィールドの変更
 
@@ -213,7 +220,7 @@ Old:
 
 * チェックボックスタイプのフィールドでは、以前の値が打ち消し線付きの形式で表示されることはありません。 フィールドが編集された場合は、変更が行われた時点の状態のみが表示されます。
 
-  Workfront Planning フィールドについて詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+  Workfront プランニングフィールドについて詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
 * 次のタイプのフィールドに対する変更は、「履歴」セクションに表示されません。
 

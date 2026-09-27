@@ -8,27 +8,34 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
+TQID: 'https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1448
-ht-degree: 65%
-
+source-wordcount: '1556'
+ht-degree: 64%
 ---
-
 # [!UICONTROL かんばん]の設定
 
 <!--Audited: 12/2023-->
 
-[&#x200B; アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の説明に従って、[!DNL Adobe Workfront]でアジャイルチームを作成できます。 アジャイルチームを編成する際に、チームが作業を完了するために使用する手法を選択できます。 以下のオプションから選択できます。
+[ アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の説明に従って、[!DNL Adobe Workfront]でアジャイルチームを作成できます。 アジャイルチームを編成する際に、チームが作業を完了するために使用する手法を選択できます。 以下のオプションから選択できます。
 
 * スクラム
 * かんばん
@@ -166,7 +173,7 @@ ht-degree: 65%
 
 かんばんチームの WIP 制限を定義する場合、チームが現在作業中の品目の数を制御するには、[!UICONTROL かんばん]ボードの[!UICONTROL 新規]または[!UICONTROL 進行中]列に表示されるタスクの数を制限します。
 
-カンバンチームのWIP制限を設定した後、WIP制限を表示して、[!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードから更新できます。詳しくは、[ カンバン ] ボード (../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)の進行中の作業（WIP）制限の管理に関する説明を参照してください。
+カンバンチームのWIP制限を設定した後、WIP制限を表示して、[!UICONTROL  カンバン ] アジャイルストーリーボードから更新できます。詳しくは、[ カンバン ] ボード ](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)の進行中の作業（WIP）制限の管理に関する説明を参照してください。[!UICONTROL 
 
 かんばんチームの WIP を制限するには、以下のように行います。
 
@@ -178,9 +185,9 @@ ht-degree: 65%
 1. **[!UICONTROL その他]**&#x200B;メニュー（![](assets/more-menu.png)）をクリックして、「**[!UICONTROL 編集]**」を選択します。
 1. **[!UICONTROL アジャイル]**&#x200B;セクション内の&#x200B;**[!UICONTROL 方式]**&#x200B;セクションで、かんばんが選択されていることを確認します。
 
-1. **[!UICONTROL ストーリーボード]** セクションの&#x200B;**[!UICONTROL WIP制限]** フィールドで、[!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードの各列で許可される最大項目数を指定します。各列に異なる制限を設定できます。各列に設定できる最大数は100です。
-WIP制限を設定すると、ストーリーボードの任意の列の制限を超えるたびに、[!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードに警告メッセージが表示されます。この警告メッセージは、WIP制限を初めて超えた場合にのみ表示されます。この警告メッセージは、[!UICONTROL Complete]と同等のステータスを持つ列には表示されません。
-WIP制限は単なる視覚的な警告であり、設定した制限よりも多くのアイテムを1列に入れることをチームに制限するものではありません。
+1. **[!UICONTROL ストーリーボード]** セクションの&#x200B;**[!UICONTROL WIP制限]** フィールドで、[!UICONTROL  カンバン ] アジャイルストーリーボードの各列で許可される最大項目数を指定します。 各列に異なる制限を設定できます。 各列に設定できる最大数は100です。
+WIP制限を設定すると、ストーリーボードの任意の列の制限を超えるたびに、[!UICONTROL  カンバン ] アジャイルストーリーボードに警告メッセージが表示されます。 この警告メッセージは、WIP の上限を初めて超えたときにのみ表示されます。 この警告メッセージは、[!UICONTROL Complete]と同等のステータスを持つ列には表示されません。
+WIP 制限は単に視覚的な警告であり、1 つの列に設定した制限値を超える数の項目を、チームが持つことを制約しません。
 
    ![WIP の制限](assets/wip-limit-350x193.png)
 
@@ -192,9 +199,9 @@ WIP制限は単なる視覚的な警告であり、設定した制限よりも�
 
 [!UICONTROL かんばん]ボードの最初の列から項目が移動された直後に、その列にバックログのストーリーが自動的に追加されるように設定できます。
 
-この機能を使用するには、[!UICONTROL &#x200B; カンバン &#x200B;] ボードの&#x200B;**バックログを表示**&#x200B;設定を有効にする必要があります。
+この機能を使用するには、[!UICONTROL  カンバン ] ボードの&#x200B;**バックログを表示**&#x200B;設定を有効にする必要があります。
 
-ストーリーが[!UICONTROL 進行中]列から[!UICONTROL 完了] ステータス （または[!UICONTROL 完了]に相当するステータス）を表すストーリーボード上の列に移動されると、バックログ列の次のストーリーは、[!UICONTROL &#x200B; カンバンボード &#x200B;]の[!UICONTROL 新規]列に自動的に移動します。
+ストーリーが[!UICONTROL 進行中]列から[!UICONTROL 完了] ステータス （または[!UICONTROL 完了]に相当するステータス）を表すストーリーボード上の列に移動されると、バックログ列の次のストーリーは、[!UICONTROL  カンバンボード ]の[!UICONTROL 新規]列に自動的に移動します。
 
 次のストーリーは、バックログの注文番号が最も少なく、次の条件をすべて満たす不完全なストーリーです。
 
@@ -205,7 +212,7 @@ WIP制限は単なる視覚的な警告であり、設定した制限よりも�
 
 バックログの順序は優先度と同じではありません。 バックログ列にストーリーをドラッグ&amp;ドロップすることで、バックログの順序を並べ替えることができます。 バックログの一番上にあるストーリーは、次にボードに取り込まれるストーリーです。
 
-バックログのストーリーを[!UICONTROL &#x200B; カンバン &#x200B;] ボードに自動的に追加するには：
+バックログのストーリーを[!UICONTROL  カンバン ] ボードに自動的に追加するには：
 
 {{step1-to-team}}
 

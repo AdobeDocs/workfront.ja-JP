@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/AgN8t6yPX1yu-nl4ArydXvSmcJh1GSwi9MSiBtz4DA4
+TQID: 'https://experienceleague.adobe.com/AgN8t6yPX1yu-nl4ArydXvSmcJh1GSwi9MSiBtz4DA4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '606'
 ht-degree: 92%
-
 ---
-
 # ダッシュボードでレポートを整理する方法について
 
 ## レポートリスト内のダッシュボード情報へのアクセス
@@ -84,7 +89,7 @@ ht-degree: 92%
 
 レポートリストのダッシュボード情報を使用してビューを作成するには：
 
-1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新しいビュー**」をクリックします。
 1. 「**列を追加**」をクリックします。
@@ -93,13 +98,13 @@ ht-degree: 92%
 
 1. 「**ビューを保存**」をクリックします。\
    レポートが表示されるダッシュボードは、レポートリストのダッシュボード列に表示されます。\
-   レポート ![&#128279;](assets/qs-dashboards-in-report-view.png)の ダッシュボード
+   レポート ](assets/qs-dashboards-in-report-view.png)の![ ダッシュボード
 
 ## ダッシュボード情報によるレポートリストのフィルタリング
 
 ダッシュボード情報でレポートのリストをフィルタリングするには：
 
-1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックしたあと、「**フィルター規則の追加**」をクリックします。
@@ -109,7 +114,7 @@ ht-degree: 92%
 1. 「**ダッシュボード**」オブジェクトで「**名前**」を選択します。
 
 1. 修飾子ドロップダウンメニューで「**が次に等しい**」を選択し、フィルタリングの条件となるダッシュボードの名前を入力していきます。 フィルターには複数のダッシュボードを選択できます。\
-   レポートフィルターの![&#x200B; ダッシュボード &#x200B;](assets/qs-dashboards-in-report-filters-350x143.png)
+   レポートフィルターの![ ダッシュボード ](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. 「**保存して閉じる**」をクリックします。\
    これにより、指定したダッシュボードにのみ一覧表示されているレポートのリストが表示されます。\

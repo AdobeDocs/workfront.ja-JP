@@ -7,13 +7,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 20%
-
 ---
-
 # カスタムローカライゼーションの設定
 
 カスタムローカライゼーションを使用すると、様々な言語でカスタム用語やフレーズを定義できます。 次に、Workfrontでは、ユーザーのAdobe Identity Management（IMS）設定で設定された言語でこれらの用語が表示されます。
@@ -68,7 +75,7 @@ ht-degree: 20%
 * ローカライズは、カスタムフィールドラベル（列ヘッダーとして使用する場合を含む）とツールヒントに適用されます。
 * カスタムローカライズは、ビジネスルールから生成されたメッセージに適用できますが、ビジネスルールで有効にする必要があります。
 
-  手順については、「[&#x200B; ビジネスルールでローカライゼーションを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules)」を参照してください。
+  手順については、「[ ビジネスルールでローカライゼーションを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules)」を参照してください。
 
 ## 翻訳の設定
 

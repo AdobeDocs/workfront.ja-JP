@@ -1,15 +1,19 @@
 ---
 title: スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス
 description: ここでは、スタンドアロン製品としてのAdobe Workfront Planningのライセンス、アクセスレベル、およびユーザー機能について説明します。
-last-update: 2026-04-01T18:02:40Z
+last-update: 2026-04-01T18:02:40.000Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 3%
-
 ---
-
 <!--
 
 Update metadata with this at release:
@@ -66,7 +70,7 @@ Workfront Planningは、次のいずれかのWorkfront パッケージを購入�
 
 * Workfront Planningは、組織内のユーザー向けのスタンドアロン製品です。 これにより、Workfront ワークフロー機能やプランニング機能にアクセスできなくなります。
 
-スタンドアロン製品としてPlanningに含まれる機能について詳しくは、「[&#x200B; スタンドアロン製品としてWorkfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)」の「スタンドアロン製品としてAdobe Workfront Planningに含まれる機能」の節を参照してください。
+スタンドアロン製品としてPlanningに含まれる機能について詳しくは、「[ スタンドアロン製品としてWorkfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)」の「スタンドアロン製品としてAdobe Workfront Planningに含まれる機能」の節を参照してください。
 
 ## ユーザーライセンスとアクセスレベル
 
@@ -137,28 +141,28 @@ Planning管理者のアクセス・レベルを持つユーザーには、次の
 
   詳しくは、次を参照してください。
 
-   * [Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
+  * [Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
 * リクエストを送信および管理できます。
 
-  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
+  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
 * メインメニューには次の領域があります。
 
-   * **Planning**: Planning オブジェクトを作成、削除、共有、接続するための完全な機能を備えています。
-   * **ユーザー**: ユーザーを追加し、そのプロファイルを編集できます。
-   * **リクエスト**
-   * **設定**
+  * **Planning**: Planning オブジェクトを作成、削除、共有、接続するための完全な機能を備えています。
+  * **ユーザー**: ユーザーを追加し、そのプロファイルを編集できます。
+  * **リクエスト**
+  * **設定**
 * 設定領域に次のセクションがあります。
 
-   * **チーム**: チームを追加、削除、または編集できます。 編集は、チーム名、説明、メンバーに限定されます。フィルター、表示、グループ化、書き出しのコントロールは使用できません。
-   * **別名でログイン**: トラブルシューティングのために別のユーザーを偽装します。
-   * **カスタム四半期**：計画タイムラインビューに表示されるカスタム会計四半期を設定します。
-   * システム
+  * **チーム**: チームを追加、削除、または編集できます。 編集は、チーム名、説明、メンバーに限定されます。フィルター、表示、グループ化、書き出しのコントロールは使用できません。
+  * **別名でログイン**: トラブルシューティングのために別のユーザーを偽装します。
+  * **カスタム四半期**：計画タイムラインビューに表示されるカスタム会計四半期を設定します。
+  * システム
 
 * システム領域に次のセクションがあります。
 
-   * **お客様の情報**：お客様と組織の詳細を表示します。
-   * **環境設定**: システムレベルの環境設定を確認して設定します。
+  * **お客様の情報**：お客様と組織の詳細を表示します。
+  * **環境設定**: システムレベルの環境設定を確認して設定します。
 
 ### Planning Standard ナビゲーションの概要
 
@@ -167,12 +171,12 @@ Planning Standardのアクセス・レベルを持つユーザーには、次の
 * ワークスペースとそのコンテンツを管理できます。
 * リクエストを送信および管理できます。
 
-  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
+  詳しくは、[Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md)を参照してください。
 * Planning Standardのユーザーは、メインメニューの次の領域にアクセスできます。
 
-   * **計画中**
-   * **ユーザー**：ユーザーには表示専用のアクセス権があります。 ユーザーを作成または編集することはできません。<!--not sure if this is still true-->
-   * **リクエスト**
+  * **計画中**
+  * **ユーザー**：ユーザーには表示専用のアクセス権があります。 ユーザーを作成または編集することはできません。<!--not sure if this is still true-->
+  * **リクエスト**
 
 * セットアップまたはそのセクションにアクセスできません。
 
@@ -186,10 +190,10 @@ Planning管理者としてユーザーにアクセス・レベルを割り当て
 
   次のシナリオが存在します。
 
-   * 管理者としてAdobe Consoleに追加されたユーザーは、Workfront PlanningでPlanning Administratorのアクセスレベルを受け取ります。
-   * Adobe Consoleに追加されたユーザーは、Workfront PlanningでPlanning Standardのアクセスレベルを割り当てることができます。 これは、Workfront Planningの新規ユーザーにスタンドアロン製品として割り当てることができる唯一のアクセスです。
+  * 管理者としてAdobe Consoleに追加されたユーザーは、Workfront PlanningでPlanning Administratorのアクセスレベルを受け取ります。
+  * Adobe Consoleに追加されたユーザーは、Workfront PlanningでPlanning Standardのアクセスレベルを割り当てることができます。 これは、Workfront Planningの新規ユーザーにスタンドアロン製品として割り当てることができる唯一のアクセスです。
 
-詳しくは、[&#x200B; ユーザーの管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)を参照してください。
+詳しくは、[ ユーザーの管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)を参照してください。
 
 ## スタンドアロン製品としてのWorkfront Planningでの権限の付与
 
@@ -202,7 +206,7 @@ Workfront Planningでは、次のオブジェクトをスタンドアロン製�
 
 スタンドアロン製品としてのPlanningでのオブジェクトの共有は、ワークフローパッケージと一緒に購入した場合のPlanningでのオブジェクトの共有と同じです。
 
-詳しくは、[Adobe Workfront Planningのアクセス情報：記事インデックス &#x200B;](/help/quicksilver/planning/access/access-information.md)を参照してください。
+詳しくは、[Adobe Workfront Planningのアクセス情報：記事インデックス ](/help/quicksilver/planning/access/access-information.md)を参照してください。
 
 <!--
 

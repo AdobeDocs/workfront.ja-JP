@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: ' [!DNL Workfront Proof] でプルーフを生成する'
+title: '[!DNL Workfront Proof] でプルーフを生成'
 description: Workfront Proof を使用すると、ドキュメントまたは web サイトからプルーフを作成し、作成したプルーフを他のユーザーと共有できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
+TQID: 'https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: '1895'
 ht-degree: 54%
-
 ---
-
 # [!DNL Workfront Proof] でプルーフを生成
 
 <!-- Audited: 4/2025 -->
@@ -49,7 +58,7 @@ ht-degree: 54%
 
    Web サイトのプルーフに関する詳細情報は、[URL のプルーフの生成](#generate-a-proof-for-a-url)を参照してください。
 
-   ![&#x200B; プルーフ web サイト &#x200B;](assets/proof-website-350x65.png)
+   ![ プルーフ web サイト ](assets/proof-website-350x65.png)
 
 1. （オプション）アップロードしたファイルのファイル名を変更します。
 
@@ -83,7 +92,7 @@ ht-degree: 54%
 
    * **基本：**&#x200B;プルーフの作成直後にそのプルーフへのアクセス権を持つユーザーを指定するには、このオプションを選択します。 プルーフを複数のユーザーと共有することができます。
 
-     プルーフの共有について詳しくは、[&#x200B; プルーフを [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内で共有するを参照してください。
+     プルーフの共有について詳しくは、[ プルーフを [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内で共有するを参照してください。
 
    * **自動：**&#x200B;複雑なレビュープロセスがある場合や、レビュー用のコンテンツを同じグループの同じ人々に定期的に送信する場合、このオプションを選択して、コンテンツのレビューと承認を管理します。 自動化されたワークフローにより、プルーフは最終承認までステージからステージへと移動します。 関連するユーザーには、承認を行う必要があるときにいつでも通知されます。
 
@@ -203,8 +212,8 @@ Web サイトのURLを使用して、静的プルーフを生成できます。
 
 1. （オプション）プルーフの共有、自動ワークフローの追加、アクセス設定やサブスクリプション設定など、その他のプルーフオプションを設定します。 これらのオプションについて詳しくは、次の記事を参照してください。
 
-   * [&#x200B; [!DNL Adobe Workfront] でプルーフを共有する](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [&#x200B; [!DNL Workfront Proof] で自動ワークフローを使用したプルーフを設定する](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+   * [ [!DNL Adobe Workfront] でプルーフを共有する](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [ [!DNL Workfront Proof] で自動ワークフローを使用したプルーフを設定する](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
    * [プルーフのアクセスおよびサブスクリプション設定を行う](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
@@ -228,7 +237,7 @@ Web サイトのURLを使用して、静的プルーフを生成できます。
 
 1. .zip バンドルファイルを作成して、コンテンツを準備します。
 
-   .zip バンドルされたファイルの仕様について詳しくは、[&#x200B; インタラクティブコンテンツプルーフの概要](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)を参照してください。
+   .zip バンドルされたファイルの仕様について詳しくは、[ インタラクティブコンテンツプルーフの概要](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)を参照してください。
 
 1. 次のいずれかの操作を行って、**[!UICONTROL 新しいプルーフ]** ページを開きます。
 
@@ -239,7 +248,7 @@ Web サイトのURLを使用して、静的プルーフを生成できます。
 
 1. （オプション）プルーフの共有、自動ワークフローの追加、アクセス設定やサブスクリプション設定など、その他のプルーフオプションを設定します。 これらのオプションについて詳しくは、次の記事を参照してください。
 
-   * [&#x200B; [!DNL Adobe Workfront] 内でプルーフを共有](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [ [!DNL Adobe Workfront] 内でプルーフを共有](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [プルーフのアクセスおよびサブスクリプション設定を行う](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. 「**[!UICONTROL プルーフを作成]**」をクリックします。 Workfrontは、zip ファイルのプルーフを生成します。

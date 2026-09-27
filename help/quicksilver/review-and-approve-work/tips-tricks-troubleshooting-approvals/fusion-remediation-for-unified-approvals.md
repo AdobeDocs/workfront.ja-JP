@@ -6,13 +6,25 @@ description: 従来のWorkfront Proofing上に構築されたWorkfront Fusion �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
-
 ---
-
 # Workfront Fusionのシナリオを更新して、レビューと承認を統合
 
 従来のWorkfront プルーフで構築されたWorkfront Fusion シナリオは、Adobe クラウドストレージプロジェクトに対して自動的に機能しません。 プルーフ固有のモジュール、Webhook、およびAPI エンドポイントには、直接同等の場合と大幅な変更がある場合があります。 この記事では、影響を受けるシナリオのインベントリを作成し、それらのシナリオに依存するチームをAdobe クラウドストレージのロールアウトに導入する前に、修復パスを決定する方法を説明します。
@@ -54,14 +66,14 @@ Workfront Proof上に構築された既存のFusion シナリオは、統一さ�
 >
 >Adobe Workfront Unified Review and Approvals コネクタがWorkfront Fusionで使用できるようになりました。 Adobe クラウドストレージでFusionを使用する場合は、このコネクタを使用して、より簡単で信頼性の高いシナリオを実現することをお勧めします。
 >
->詳しくは、Workfront Fusion ドキュメントの[Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)を参照してください。
+>詳しくは、Workfront Fusion ドキュメントの[Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)を参照してください。
 
 Fusionの修正を計画および実行するには、次のアプローチを使用します。
 
 1. **現在の在庫。** アクティブなFusion シナリオの完全なリストを取得し、プルーフの作成、プルーフステータス、ドキュメントの承認、または承認ルーティングを参照するすべてのシナリオにタグを付けます。 Adobe クラウドストレージが有効になるまで待つことはありません。
 1. **前のセクションの条件に基づいて、各シナリオ**&#x200B;を「編集」、「再構築」、「廃止」に分類します。
 1. **プルーフに依存するシナリオ**&#x200B;をAdobe クラウドストレージパイロットに参加させる前に、プルーフに依存するシナリオを一時停止します。 新しいモデルに対して古いプルーフベースの自動化を実行すると、サイレントエラーや重複するアクションが発生する可能性があります。
-1. **承認テンプレートを使用して、単純なルーティング ロジックを置き換えます。** 納期を自動化したネイティブの多段階承認テンプレートは、以前はFusionが必要だった多くのユースケースにも対応できます。 詳しくは、[&#x200B; アセットとドキュメントの承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+1. **承認テンプレートを使用して、単純なルーティング ロジックを置き換えます。** 納期を自動化したネイティブの多段階承認テンプレートは、以前はFusionが必要だった多くのユースケースにも対応できます。 詳しくは、[ アセットとドキュメントの承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 1. **再構築する際は、Adobe Workfront Unified Review and Approvals コネクタを使用します。** 更新されたコネクタは、統一されたレビューと承認のために特別に構築されたモジュールを公開し、再構築を大幅にシンプルにし、信頼性を高めます。 事前にWorkfront API バージョン 22に対して再構築することはお勧めしません。
 1. **再構築されたシナリオを実稼動環境で有効にする前に、サンドボックスインスタンス**&#x200B;でエンドツーエンドでテストします。 イベント購読ペイロードに特に注意を払う – フィールド名とスキーマは従来のプルーフイベントとは異なります。
 

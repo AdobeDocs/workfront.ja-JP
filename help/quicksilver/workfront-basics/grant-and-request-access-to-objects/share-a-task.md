@@ -6,22 +6,26 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-TQID: https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ
+TQID: 'https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: '1172'
 ht-degree: 41%
-
 ---
-
 # タスクの共有
 
 Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、タスクの表示や編集のアクセス権を付与できます。 タスクへのアクセス権の付与について詳しくは、[タスクへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)を参照してください。
@@ -74,16 +78,16 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 * タスクに次の権限を付与できます。
 
-   * 表示
-   * 管理
-   * 参加
+  * 表示
+  * 管理
+  * 参加
 * タスクを共有すると、デフォルトでは、タスクに関連付けられているすべての子オブジェクトに対して同じ権限がユーザーに継承されます。 例えば、タスクに添付された子タスク、イシューおよびドキュメントに対して同じ権限を継承します。\
   Adobe Workfrontでのオブジェクトの階層について詳しくは、[Workfrontでのオブジェクトの理解](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
   Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。 ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * タスクから継承された権限を削除できます。\
-  オブジェクトから継承された権限の削除について詳しくは、[&#x200B; オブジェクトからの権限の削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
+  オブジェクトから継承された権限の削除について詳しくは、[ オブジェクトからの権限の削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
 
 ## タスクの共有方法
 
@@ -93,10 +97,10 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 * 次の操作を実行すると、自動的に次の操作が行われます。
 
-   * プロジェクト、プログラムまたはポートフォリオなど、タスクの任意の親オブジェクトに対する権限を指定します。 タスクは、親オブジェクトから権限を継承します。 オブジェクトに対する継承された権限の表示について詳しくは、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
-   * タスクが存在するプロジェクトの作成に使用するテンプレートで、プロジェクト共有にエンティティを追加します。 テンプレートからのプロジェクトの共有について詳しくは、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
+  * プロジェクト、プログラムまたはポートフォリオなど、タスクの任意の親オブジェクトに対する権限を指定します。 タスクは、親オブジェクトから権限を継承します。 オブジェクトに対する継承された権限の表示について詳しくは、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
+  * タスクが存在するプロジェクトの作成に使用するテンプレートで、プロジェクト共有にエンティティを追加します。 テンプレートからのプロジェクトの共有について詳しくは、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
-   * プロジェクトの編集時に、プロジェクト内のすべてのタスクに対する権限を指定します。  プロジェクトに対するユーザーの権限に基づいて、プロジェクト上のタスクへのアクセスを管理する方法について詳しくは、記事[&#x200B; プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) セクションを参照してください。
+  * プロジェクトの編集時に、プロジェクト内のすべてのタスクに対する権限を指定します。  プロジェクトに対するユーザーの権限に基づいて、プロジェクト上のタスクへのアクセスを管理する方法について詳しくは、記事[ プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の[](../../manage-work/projects/manage-projects/edit-projects.md#access) セクションを参照してください。
 
   >[!TIP]
   >
@@ -108,7 +112,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. タスク名の右側にある「**共有**」をクリックします。 **共有[ タスク名]** ダイアログボックスが開きます。
 
-   ![&#x200B; タスクを共有ボタン &#x200B;](assets/share-task-button.png)
+   ![ タスクを共有ボタン ](assets/share-task-button.png)
 
 1. 「**タスクに**&#x200B;へのアクセス権を付与」フィールドで、タスクを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイル </span>の名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -143,9 +147,9 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. 共有するタスクを含むプロジェクトに移動します。
 
-1. プロジェクトページの「**タスク**」タブで、共有する各タスクの左側にあるボックスを選択し、ページの上部にある「**共有**」アイコン「![共有アイコン &#x200B;](assets/share-icon.png)」をクリックします。 共有モーダルが開きます。
+1. プロジェクトページの「**タスク**」タブで、共有する各タスクの左側にあるボックスを選択し、ページの上部にある「**共有**」アイコン「![共有アイコン ](assets/share-icon.png)」をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; タスクを一括共有](assets/bulk-share-tasks.png)
+   ![ タスクを一括共有](assets/bulk-share-tasks.png)
 
 1. 「**タスクに**&#x200B;へのアクセス権を付与」フィールドで、タスクを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイル </span>の名前を入力し始め、ドロップダウンリストに表示されたら、名前をクリックします。
 

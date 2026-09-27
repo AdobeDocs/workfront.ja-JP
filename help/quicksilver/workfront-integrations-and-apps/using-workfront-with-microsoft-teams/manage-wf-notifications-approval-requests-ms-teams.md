@@ -1,38 +1,45 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Microsoft]  Teams で  [!DNL Adobe Workfront]  の通知を管理'
-description: 承認が必要な項目、与えられた割り当て、または関連付けられている項目に対するコメントや変更について、 [!DNL Adobe Workfront]  から通知を受け取ることができます。
+title: '[!DNL Microsoft] チームの[!DNL Adobe Workfront]通知の管理'
+description: 承認が必要な項目、与えられた割り当て、または関連付けられている項目に対するコメントや変更について、[!DNL Adobe Workfront] から通知を受け取ることができます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+TQID: 'https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: '1425'
 ht-degree: 92%
-
 ---
-
 # [!DNL Microsoft Teams] で [!DNL Adobe Workfront] の通知を管理
 
 >[!IMPORTANT]
 >
 >[Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams[&#128279;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストール [!DNL Adobe Workfront] を参照してください。
+>アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) の[インストール [!DNL Adobe Workfront] を参照してください。
 
 承認が必要な項目、与えられた割り当て、または関連付けられている項目に対するコメントや変更について、[!DNL Adobe Workfront] から通知を受け取ることができます。
 
@@ -77,7 +84,7 @@ ht-degree: 92%
 * [!DNL Microsoft Teams] から [!DNL Workfront] にログインしている。
 * [!DNL Workfront] でインスタント通知を有効にしている。 インスタント通知の有効化について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
-[!DNL Workfront for Microsoft Teams] のインストールと [!DNL Workfront from Microsoft Teams] へのログインについては、[&#x200B; [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
+[!DNL Workfront for Microsoft Teams] のインストールと [!DNL Workfront from Microsoft Teams] へのログインについては、[ [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 
 ## [!DNL Microsoft Teams] での [!DNL Workfront] の通知の管理
 
@@ -88,7 +95,7 @@ ht-degree: 92%
 * [!DNL Microsoft Teams] の [!DNL Workfront] 通知は、すべてを受信することはできず、選択した数だけを受信します。
 * [!DNL Workfront] から受け取るすべての通知は、[!DNL Workfront] ボットチャットチャネルに表示されます。
 
-  [!DNL Workfront] ボットチャネルのインストールについて詳しくは、[&#x200B; [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールの記事の [&#x200B; [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) から  [!DNL Workfront]  へのログインの節を参照してください。
+  [!DNL Workfront] ボットチャネルのインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールの記事の [ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) から  [!DNL Workfront]  へのログインの節を参照してください。
 
 * [!DNL Workfront] で更新が行われてから、その更新に関する通知が [!DNL Microsoft Teams] で受信されるまでに、最大 5 分の遅れが生じる場合があります。
 * [!DNL Microsoft Teams] 通知ごとに、メール通知も受け取ります。
@@ -100,7 +107,7 @@ ht-degree: 92%
 1. 表示されるリストで [!DNL Workfront] をクリックします。
 1. 「**[!UICONTROL 設定]**」タブを選択します。
 
-   ![MS チーム設定タブ &#x200B;](assets/ms-teams-settings-tab-350x552.png)
+   ![MS チーム設定タブ ](assets/ms-teams-settings-tab-350x552.png)
 
 1. 受信しない通知を無効にします。 通知のグループ（情報通知や承認通知など）を有効または無効にしたり、通知を個別に管理したりできます。
 

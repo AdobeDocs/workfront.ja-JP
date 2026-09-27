@@ -5,13 +5,23 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 5%
-
+source-wordcount: '707'
+ht-degree: 6%
 ---
-
 
 # レコードのデフォルト権限の設定
 
@@ -121,7 +131,7 @@ at GA, check that the Workfront plans article linked below has Planning info
 
 1. レコードタイプ > **詳細** メニュー![詳細メニュー](assets/more-menu.png) > **設定** > **レコード設定**&#x200B;に移動します。
 
-   ![&#x200B; レコードタイプ設定エリアの「レコード設定」タブ &#x200B;](assets/record-settings-tab-in-record-type-settings-area.png)
+   ![ レコードタイプ設定エリアの「レコード設定」タブ ](assets/record-settings-tab-in-record-type-settings-area.png)
 
 1. **レコード権限タイプ** フィールドで、次のいずれかのオプションをクリックします。
 

@@ -6,22 +6,27 @@ description: 20.3 リリース（2020年8月をターゲット）での、Adobe 
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-TQID: https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw
+TQID: 'https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 85%
-
 ---
-
 # メールスプーフィングと POP 返信
 
 20.3 リリース（2020年8月をターゲット）での、Adobe Workfront のメールの送受信方法に 2 つの変更を加えています。
@@ -40,4 +45,4 @@ ht-degree: 85%
 
 Workfront Proof システムから直接送信されるメールは変更されません。 これらのメールは、これまでと同様に引き続き受信します。
 
-その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/ja?support-tab=home&lang=ja#support)にお問い合わせください。
+その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/?support-tab=home&lang=ja#support)にお問い合わせください。

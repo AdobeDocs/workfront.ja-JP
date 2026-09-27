@@ -3,24 +3,32 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Basecamp Classic でのプルーフのレビュー
-description: Basecamp は、37signals 社が開発したオンラインのプロジェクト管理ツールです。 Basecamp をプロジェクト管理に使用する場合、 [!DNL Workfront Proof] を使用することで、プロジェクトチームにレビューツールや承認ツールをより豊富に提供できます。
+description: Basecamp は、37signals 社が開発したオンラインのプロジェクト管理ツールです。 Basecampをプロジェクト管理に使用する場合は、[!DNL Workfront Proof]を使用して、プロジェクトチームに豊富なレビューおよび承認ツールを提供できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
-TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
+TQID: 'https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 864
-ht-degree: 99%
-
+source-wordcount: '864'
+ht-degree: 97%
 ---
-
 # [!DNL Basecamp] Classic でのプルーフのレビュー
 
 >[!IMPORTANT]
@@ -60,7 +68,7 @@ ht-degree: 99%
 1. プルーフを [!DNL Workfront Proof] で開くには、「**[!UICONTROL プルーフに移動]**」をクリックします。\
    または\
    プルーフを [!DNL Basecamp] で開くには、**[!UICONTROL [!DNL Basecamp]URL]** フィールドに表示されている URL をクリックします。\
-   [!DNL Basecamp Classic] でのプルーフのレビューについて詳しくは、この記事の[&#x200B; [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でのプルーフのレビューを参照してください。
+   [!DNL Basecamp Classic] でのプルーフのレビューについて詳しくは、この記事の[ [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でのプルーフのレビューを参照してください。
 
 ## [!DNL Basecamp Classic] メッセージからのプルーフの表示
 
@@ -88,11 +96,11 @@ ht-degree: 99%
       [!DNL Workfront Proof]アカウントがない場合、表示するパブリック名を入力します。\
       「[!UICONTROL 情報を記憶する]」というメッセージを選択したので、詳細を入力する必要があるのは 1 回だけです。
 
-1. プルーフを確認するには、[&#x200B; [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でプルーフを確認に進みます。
+1. プルーフを確認するには、[ [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でプルーフを確認に進みます。
 
 >[!NOTE]
 >
-> メッセージページ上のミニプルーフの下に表示されるコメントボックスは、メッセージ自体にのみ適用されます。 レビューコメントを送信するには、ミニプルーフの上部にある「コメントアイコン」ボタン、またはフルページプルーフの上にある大きい「[!UICONTROL コメント]」ボタンをクリックします。 詳しくは、 [!DNL Basecamp][&#128279;](#reviewing-a-proof-in-basecamp) でプルーフを確認を参照してください。
+> メッセージページ上のミニプルーフの下に表示されるコメントボックスは、メッセージ自体にのみ適用されます。 レビューコメントを送信するには、ミニプルーフの上部にある「コメントアイコン」ボタン、またはフルページプルーフの上にある大きい「[!UICONTROL コメント]」ボタンをクリックします。 詳しくは、 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)[ でプルーフを確認を参照してください。
 
 ## [!DNL Basecamp] のプルーフの確認
 

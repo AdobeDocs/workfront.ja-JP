@@ -11,6 +11,8 @@ product_v2:
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 40%
@@ -28,7 +30,7 @@ ht-degree: 40%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -36,7 +38,7 @@ ht-degree: 40%
 >* Azure
 >* Google Cloud Platform
 
-この記事では、レポートをフィルタリングする際に使用できるフィールド、演算子、ワイルドカードおよび特殊ルールについて説明します。 フィルターを作成または編集する手順については、「[&#x200B; キャンバスダッシュボードでレポートをフィルター](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
+この記事では、レポートをフィルタリングする際に使用できるフィールド、演算子、ワイルドカードおよび特殊ルールについて説明します。 フィルターを作成または編集する手順については、「[ キャンバスダッシュボードでレポートをフィルター](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)」を参照してください。
 
 ## フィールドタイプ別のフィールド演算子
 
@@ -192,15 +194,15 @@ ht-degree: 40%
 
 * ユーザー`name`属性でフィルタリングを行うと、**自分（ログイン済みユーザー）** オプションが表示されます。
 
-  ![&#x200B; ユーザー名属性](assets/user-name-attribute.png)
+  ![ ユーザー名属性](assets/user-name-attribute.png)
 
 * グループ `name`属性でフィルタリングを実行すると、**マイホームグループ （ユーザーグループにログイン）**&#x200B;および&#x200B;**他のグループ （ユーザーグループにログイン）**&#x200B;のオプションが表示され、フィルター条件で使用されます。
 
-  ![&#x200B; グループ名属性](assets/group-name-attribute.png)
+  ![ グループ名属性](assets/group-name-attribute.png)
 
 * チーム `name`属性でフィルタリングを行うと、**デフォルトのチーム （ユーザーチームにログイン）**&#x200B;と&#x200B;**他のチーム （ユーザーチームにログイン）**&#x200B;のオプションが表示され、フィルター条件で選択できるようになります。
 
-  ![&#x200B; チーム名の属性](assets/team-name-attribute.png)
+  ![ チーム名の属性](assets/team-name-attribute.png)
 
 ## 子オブジェクトの参照
 

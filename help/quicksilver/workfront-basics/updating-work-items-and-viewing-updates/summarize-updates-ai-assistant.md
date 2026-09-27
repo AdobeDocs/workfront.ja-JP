@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mn2wjOObMJ62DCpZNOEX3jvqPNA-kN7-vukY9E4-KHM
+TQID: 'https://experienceleague.adobe.com/mn2wjOObMJ62DCpZNOEX3jvqPNA-kN7-vukY9E4-KHM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '389'
 ht-degree: 14%
-
 ---
-
 # AI アシスタントを使用した更新の要約の作成
 
 WorkfrontのAI アシスタントを使用すると、更新ストリームの内容をまとめて、Workfront オブジェクトに関するコメントや議論をすばやく理解できます。
@@ -119,7 +123,7 @@ Old:
 オブジェクトの概要を表示するには：
 
 1. 概要を表示するオブジェクトに移動します。
-1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。
+1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。
 1. AI アシスタントパネルに、次のようなプロンプトを入力します。
 
    * 3つの文章で要約を入力してください

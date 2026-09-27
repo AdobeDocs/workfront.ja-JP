@@ -1,27 +1,31 @@
 ---
-title: CX担当者のスキル
+title: CX Coworkerのスキル
 content-type: reference
 description: Adobe WorkfrontでCoworkerに使用できるスキルについて説明します。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
-
 ---
-
-# CX担当者のスキル
+# CX Coworkerのスキル
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworkerは現在、ヘルスケアや金融など、機密データを扱う業界の企業には利用できません。 AI アシスタントは、これらの組織で利用できます。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
+>CX Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
 
 この記事では、WorkfrontのCX Coworkerで現在利用可能なスキルを紹介します。
 
-これらのスキルでカバーされている能力は、対話型インターフェイスを通じてCX Coworkerで利用でき、これらのスキルを直接呼び出す必要はありません。 ただし、スキルを直接呼び出す場合は、共同作業者パネルでスラッシュ `/`を入力し、スキルの名前を入力します。
+これらのスキルでカバーされている能力は、CX Coworkerの会話型インターフェイスで利用でき、直接呼び出す必要はありません。 ただし、スキルを直接呼び出す場合は、共同作業者パネルでスラッシュ `/`を入力し、スキルの名前を入力します。
 
 プロンプトの例については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)の記事のプロンプトを参照してください。
 

@@ -11,24 +11,29 @@ role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+TQID: 'https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 55%
-
 ---
-
 # システムで追跡される更新の概要
 
 <!-- Audited: 08/2025-->
@@ -49,7 +54,7 @@ ht-degree: 55%
 
   システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
-  ![&#x200B; システム更新の例](assets/system-updates-example-unified-stream.png)
+  ![ システム更新の例](assets/system-updates-example-unified-stream.png)
 
 
   <!--
@@ -64,35 +69,35 @@ ht-degree: 55%
 
 * [!UICONTROL 更新]エリアは、次のオブジェクトで使用できます。
 
-   * [!UICONTROL プロジェクト]
-   * [!UICONTROL タスク]
-   * [!UICONTROL 問題]
-   * [!UICONTROL ポートフォリオ]
-   * [!UICONTROL プログラム]
-   * [!UICONTROL ユーザー]
-   * [!UICONTROL テンプレート]
-   * [!UICONTROL テンプレート タスク]
-   * [!UICONTROL チーム]
-   * [!UICONTROL ドキュメント]
-   * [!UICONTROL タイムシート]
-   * [!UICONTROL ストーリー]
+  * [!UICONTROL プロジェクト]
+  * [!UICONTROL タスク]
+  * [!UICONTROL 問題]
+  * [!UICONTROL ポートフォリオ]
+  * [!UICONTROL プログラム]
+  * [!UICONTROL ユーザー]
+  * [!UICONTROL テンプレート]
+  * [!UICONTROL テンプレート タスク]
+  * [!UICONTROL チーム]
+  * [!UICONTROL ドキュメント]
+  * [!UICONTROL タイムシート]
+  * [!UICONTROL ストーリー]
 
-     [!DNL Workfront]では、ストーリーはタスクです。
-   * [!UICONTROL 反復]
-   * [!UICONTROL 目標]
+    [!DNL Workfront]では、ストーリーはタスクです。
+  * [!UICONTROL 反復]
+  * [!UICONTROL 目標]
 
-     Workfrontのパッケージに、Workfront Goalsが含まれているわけではありません。 詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
-   * ボード上の[!UICONTROL カード]
+    Workfrontのパッケージに、Workfront Goalsが含まれているわけではありません。 詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+  * ボード上の[!UICONTROL カード]
 
-     カードの更新について詳しくは、[ボードでの接続されたカードの使用](../../../agile/get-started-with-boards/connected-cards.md)を参照してください。
+    カードの更新について詳しくは、[ボードでの接続されたカードの使用](../../../agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * [!DNL Workfront] は、次のオブジェクトに関するシステム更新を追跡しません。
 
-   * [!UICONTROL チーム]
-   * [!UICONTROL テンプレート]
-   * [!UICONTROL テンプレート タスク]
-   * アドホック[!UICONTROL カード]
-   * [!UICONTROL イテレーション]
+  * [!UICONTROL チーム]
+  * [!UICONTROL テンプレート]
+  * [!UICONTROL テンプレート タスク]
+  * アドホック[!UICONTROL カード]
+  * [!UICONTROL イテレーション]
 
 
 <!--
@@ -128,9 +133,9 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * [!DNL Workfront] 管理者は、[!UICONTROL 更新]エリアでシステムで追跡する必要のある変更の種類を定義できます。 [!UICONTROL 更新]エリアを持つすべてのオブジェクトに、設定可能な[!UICONTROL 更新]フィードがあるとは限りません。 次のオブジェクトには[!UICONTROL 更新]エリアがあり、システムで追跡された更新フィードを記録しますが、設定可能な更新フィードはありません。
 
-   * [!UICONTROL ドキュメント]
-   * [!UICONTROL タイムシート]
-   * [!UICONTROL イテレーション]
-   * [!UICONTROL 目標]
+  * [!UICONTROL ドキュメント]
+  * [!UICONTROL タイムシート]
+  * [!UICONTROL イテレーション]
+  * [!UICONTROL 目標]
 
 

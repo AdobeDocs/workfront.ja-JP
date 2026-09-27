@@ -4,7 +4,21 @@ description: この記事では、アイデア創出スペースでブレイン�
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 3%
@@ -90,7 +104,7 @@ are there additional license restrictions or packages to be purchased to have ac
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -98,7 +112,7 @@ are there additional license restrictions or packages to be purchased to have ac
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -106,7 +120,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. Workfront Planningで開始し、アイデア創出スペースを使用してレコードを作成または編集します。
 
-   詳しくは、[&#x200B; アイデア創出スペース概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
+   詳しくは、[ アイデア創出スペース概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
 1. **アイデア創出スペース**&#x200B;が開いたら、指定されたプロンプトを使用して、作成する概要の種類を説明します。
 
    例えば、「米国の保護者と教師のために、8月の月を通して実行する小中高校向けの新学期キャンペーンを作成する」と入力します。  ブリーフを完成させるには、どのようなキャンペーン、タイムライン、関係者など、利用可能な情報をできるだけ多く示してください。
@@ -124,7 +138,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
         >[!TIP]
         >
         >AIがWeb上の情報を検索できるようにするには、Web検索設定をオンにする必要があります。\
-        >詳しくは、この記事の「[&#x200B; アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
+        >詳しくは、この記事の「[ アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
         >
    1. **オーディエンス定義**：過去のパターンに基づいてターゲットオーディエンスのパラメーターを特定または推奨します
    1. **戦略の構図**: キャンペーンの戦略的なストーリーを構築します
@@ -165,12 +179,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    例えば、タイムラインは日付型フィールドに追加され、説明は段落型フィールドに追加されます。
    1. （条件付き）カードをクリックし、「**AIに質問…**」をクリックして、情報を概要に追加する前に、次のステップのアイデアを得ます。 答えは、各カードの情報のコンテキストにあります。
-   1. アイデア出しスペースの左上隅にある「**ドキュメントを追加**」アイコン「![&#x200B; ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、ドキュメントをスペースにアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
+   1. アイデア出しスペースの左上隅にある「**ドキュメントを追加**」アイコン「![ ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、ドキュメントをスペースにアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
 
       >[!TIP]
       >
       >ドキュメントにアクセスしてスペースにアップロードするには、「ドキュメント」設定をオンにする必要があります。
-      >詳しくは、この記事の「[&#x200B; アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
+      >詳しくは、この記事の「[ アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
       > 
    1. **WF タクソノミーカードを追加** アイコン ![Workfront計画から追加](assets/add-from-wf-planning-on-ideations-space.png) <!--send this tooltip to be revised-->をクリックし、接続されたレコードタイプを選択してから、各タイプのレコードを選択して、選択したレコードタイプにそのレコードの情報を追加します。
 
@@ -192,9 +206,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）任意のアイデア出しカードセットから紫色のコネクタのいずれかをクリックし、「**コピーしてプロンプトバー**」アイコンをクリックして、アイデア出しの理由を再実行します。
 
-   ![&#x200B; プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
+   ![ プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. （オプション）ページ上部の&#x200B;**取り消し**&#x200B;または&#x200B;**やり直し** アイコン ![取り消しとやり直しアイコン &#x200B;](assets/undo-redo-icons.png)をクリックして、アクションをキャンセルまたは取り消します。
+1. （オプション）ページ上部の&#x200B;**取り消し**&#x200B;または&#x200B;**やり直し** アイコン ![取り消しとやり直しアイコン ](assets/undo-redo-icons.png)をクリックして、アクションをキャンセルまたは取り消します。
 1. 元のキャンペーン目標、AIが生成した引用を含むあらゆるコンセプトカード、追加のドキュメント、取り込んだ実際のWorkfrontプランニングレコード（商品、ペルソナなど）の全体像を確認できます。 左下隅の&#x200B;**概要**&#x200B;概要カードを使用すると、すべての概要をまとめて表示できます。
 
 1. 左下隅にある概要プレビュー画像をクリックして概要を確認し、次のいずれかのオプションをクリックします。
@@ -208,7 +222,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
-   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[&#x200B; アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
+   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[ アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
 
 
 ## アイデア創出スペースの設定
@@ -223,7 +237,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 「**保存**」をクリックします。
 
-1. **ヘルプ** アイコン ![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)をクリックして、アイデア出しスペースのナビゲーションに使用できるキーボードショートカットを確認するか、別のズーム値を選択します。
+1. **ヘルプ** アイコン ![ ヘルプアイコン ](assets/more-information-icon.png)をクリックして、アイデア出しスペースのナビゲーションに使用できるキーボードショートカットを確認するか、別のズーム値を選択します。
 
    次のズームレベルから選択します。
 

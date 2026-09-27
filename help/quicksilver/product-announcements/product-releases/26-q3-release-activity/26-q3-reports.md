@@ -4,13 +4,20 @@ description: 2026年第3四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
-
 ---
-
 # 2026年第3四半期レポートの強化
 
 このページでは、2026年第3四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
@@ -21,26 +28,30 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->すべてのユーザーのプレビューと実稼動：2026年7月16日（PT）スケジュール外&rbrack;{type=Neutral}
+>すべてのユーザーのプレビューと実稼動：2026年7月16日（PT）
+>[!BADGE スケジュール外]{type=Neutral}
 
-このリリースでは、Workfront Data Connectの一部として、SnowflakeのWorkfront計画データに対する自動の権限駆動型アクセス管理が導入されました。
-これは、セキュアビュー生成をプランニングテーブルに拡張し、ダウンストリームアクセス制御に必要な基盤を確立し、エンタイトルメントベースの付与を可能にすることから始まります。これを基盤として、リーダーアカウントプロビジョニングでは、作成時にTMSの使用権限を確認し、プランニングデータベースに対する付与を自動的に適用または保留するようになり、正しいことが保証されます。
-この機能強化の前は、これはWorkfrontでのみ使用できました。
+このリリースでは、Workfront Data Connectの一部として、SnowflakeのWorkfront計画データに対する自動の権限駆動型アクセス管理が導入されました。 
+これは、セキュアビュー生成をプランニングテーブルに拡張し、ダウンストリームアクセス制御に必要な基盤を確立し、エンタイトルメントベースの付与を可能にすることから始まります。
+これを基盤として、リーダーアカウントプロビジョニングでは、作成時にTMSの使用権限を確認し、プランニングデータベースに対する付与を自動的に適用または保留するようになり、正しいことが保証されます。 
+この機能強化の前は、これはWorkfrontでのみ使用できました。 
 このアップデートには、次の機能が含まれています。 
 
 * 自動化された日次ジョブは、既存顧客の使用権限の変更を検出します
 * 新しいジョブは、使用権限に基づいてアクセスを許可、取り消し、または保持します
 * プロビジョニング、アカウント作成、継続的な使用権限の変更など、ライフサイクル全体をカバーしています。
 
-[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)の記事は、リリース日以降に更新されます。
+[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)の記事は、リリース日以降に更新されます。
 
 ## 新しいオブジェクトのカスタムデータサポートの追加
 
 >[!NOTE]
 >
->すべてのユーザーのプレビューと実稼動：2026年7月7日スケジュール外&rbrack;{type=Neutral}
+>すべてのユーザーのプレビューと実稼動：2026年7月7日
+>[!BADGE スケジュール外]{type=Neutral}
 
-2026年第2四半期中に、Workfrontのエンタープライズ運用強化をサポートする新しいオブジェクトを追加しました。現在のリリースでは、Canvas ダッシュボードのいくつかの新しいオブジェクトに対するカスタムデータサポートも追加されています。
+2026年第2四半期中に、Workfrontのエンタープライズ運用強化をサポートする新しいオブジェクトを追加しました。
+現在のリリースでは、Canvas ダッシュボードのいくつかの新しいオブジェクトに対するカスタムデータサポートも追加されています。
 
 詳しくは、[Canvas ダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
@@ -48,7 +59,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->プレビュー：2026年6月25日（PT）プロダクション高速リリース：2026年7月15日（PT）すべての人のための制作：2026年7月16日
+>プレビュー：2026年6月25日（PT）
+>プロダクション高速リリース：2026年7月15日（PT）
+>すべての人のための制作：2026年7月16日
 
 作業中のフィルターの状態を保持することで、ダッシュボードとレコード間を移動するユーザーの効率を向上させるために、ダッシュボードマネージャーがCanvas ダッシュボードのデフォルトのプロンプト値を定義できるようになりました。 これらのデフォルトは、すべてのダッシュボードビューアに自動的に適用されます。
 
@@ -58,13 +71,15 @@ ht-degree: 1%
 
 この機能強化の前は、ダッシュボードプロンプトには、設定可能なデフォルトやプロンプトステータスの保存されたユーザー設定がありませんでした。
 
-詳しくは、[&#x200B; キャンバスダッシュボードのフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードのフィルタリング ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)を参照してください。
 
 ## 複数のPower BI IP アドレス範囲をData ConnectのIP アドレス範囲に一度に追加する
 
 >[!NOTE]
 >
->プレビュー：該当なしプロダクション高速リリース：2026年6月11日（PT）すべての人のための制作：2026年7月16日
+>プレビュー：該当なし
+>プロダクション高速リリース：2026年6月11日（PT）
+>すべての人のための制作：2026年7月16日
 
 Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理者は、1つの手順で、リージョン全体のAzure IP アドレス範囲を許可リストに追加できるようになりました。 **Data Connect**&#x200B;の「**IP 許可リストに加える**」タブに、「**新しいIP アドレス**」ボタンが追加され、公開されたPower BI IP範囲とサービスタグ JSON ファイルをMicrosoftからPower BI サービスタグエントリを貼り付けるダイアログが開きます。**Azure IP アドレスブロックを追加**」オプションが追加されました。
 
@@ -77,21 +92,25 @@ Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理�
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）プロダクション高速リリース：2026年7月15日（PT）すべての人のための制作：2026年7月16日
+>プレビュー：2026年6月11日（PT）
+>プロダクション高速リリース：2026年7月15日（PT）
+>すべての人のための制作：2026年7月16日
 >
 >Canvas ダッシュボードは現在ベータ版です。
 
 カンバスダッシュボードリストを次のいずれかの列で並べ替えることができるようになりました：**名前**、**説明**、**作成日**、または&#x200B;**作成日**。 列ヘッダーをクリックしてその列でリストを並べ替え、同じヘッダーをもう一度クリックして並べ替え方向を反転します。 デフォルトでは、リストは&#x200B;**名前**&#x200B;でAからZに並べ替えられます。カンバスダッシュボードリストでタブを切り替えると、並べ替え順序は保持されます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
 
 ## カスタム式の実際の時間の変更
 
 >[!NOTE]
 >
->プレビュー：2026年6月1日（PT）プロダクション高速リリース：2026年6月1日（PT）すべての人のための制作：2026年6月1日
+>プレビュー：2026年6月1日（PT）
+>プロダクション高速リリース：2026年6月1日（PT）
+>すべての人のための制作：2026年6月1日
 
-2025年、新しい実時間数フィールドがWorkfront データベースに`actualWorkRequiredDouble`として追加され、既存の実時間数フィールド （`actualWorkRequired` データベース内）の名前が従来の実時間数に変更されました。 詳しくは、[&#x200B; リリースノート &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)を参照してください。
+2025年、新しい実時間数フィールドがWorkfront データベースに`actualWorkRequiredDouble`として追加され、既存の実時間数フィールド （`actualWorkRequired` データベース内）の名前が従来の実時間数に変更されました。 詳しくは、[ リリースノート ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)を参照してください。
 
 2026年6月、`actualWorkRequired` （従来の実際の時間）を使用する既存のカスタム式は、代わりに`actualWorkRequiredDouble` （実際の時間）を使用するように移行されました。 `actualWorkRequired`は、計算および数式で使用できなくなりました。
 
@@ -105,19 +124,23 @@ Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理�
 
 >[!NOTE]
 >
->プレビュー：2026年5月28日（PT）プロダクション高速リリース：2026年6月11日（PT）すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月28日（PT）
+>プロダクション高速リリース：2026年6月11日（PT）
+>すべての人のための制作：2026年7月16日
 
 Canvas ダッシュボードレポートでは、システム設定で複数の為替レートが設定されている場合など、列、フィルター、グループ化、集計などのカスタム通貨データフィールドがサポートされるようになりました。 カスタム通貨データフィールドが列または集計として表示される場合、フィールドがレポートレベルでロックされていない限り、値はダッシュボードの為替レートトグルで選択された通貨に変換されます。
 
 2回目の為替レート通貨が追加された後に、「制限フィールド」メッセージで以前に失敗したレポートがレンダリングされるようになりました。 複数の為替レートが定義されている場合、計画通貨フィールドは引き続き制限されます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
 
 ## Canvas ダッシュボードレポートでのデータ精度の向上
 
 >[!NOTE]
 >
->プレビュー：2026年5月14日（PT）プロダクション高速リリース：2026年6月11日（PT）すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月14日（PT）
+>プロダクション高速リリース：2026年6月11日（PT）
+>すべての人のための制作：2026年7月16日
 >
 >Canvas ダッシュボードは現在ベータ版です。
 

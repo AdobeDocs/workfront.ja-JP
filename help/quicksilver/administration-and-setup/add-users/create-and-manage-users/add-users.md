@@ -8,24 +8,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-TQID: https://experienceleague.adobe.com/TeDJRpOI2i7PQIb-ImUyHTTi0ETJ7pZcOVRM3WMQhWY
+TQID: 'https://experienceleague.adobe.com/TeDJRpOI2i7PQIb-ImUyHTTi0ETJ7pZcOVRM3WMQhWY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1221
-ht-degree: 77%
-
+source-wordcount: '1276'
+ht-degree: 80%
 ---
-
 # ユーザーを追加
 
 <!--Audited 2/2024-->
@@ -40,8 +45,8 @@ ht-degree: 77%
 >
 >   お客様の組織がAdobe Workfrontにオンボーディングされているかどうかに応じて異なる手順の一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 >
->* **組織でシングルサインオン （SSO）**&#x200B;を使用している場合は、ユーザーを作成し、Adobe Admin ConsoleのWorkfrontに割り当てることをお勧めします。Workfrontでこれらのユーザーを作成することは可能ですが、組織のAdmin Consoleの設定方法に基づいて、その情報をAdobe Admin Consoleに転送する際に問題が発生する場合があります。
->   Adobe Admin Consoleでユーザーを作成した後、Workfrontでユーザー情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Console でユーザーを作成して Workfront に割り当てることをお勧めします。 これらのユーザーを Workfront で作成できますが、組織の Admin Console の設定によっては、情報を Adobe Admin Console に転送する際に問題が生じる場合があります。
+>   Adobe Admin Console でユーザーを作成したら、Workfront でユーザーの情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーを Workfront に直接追加できます。 Adobe Admin Console でユーザーを追加できますが、Workfront でユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 
@@ -93,10 +98,10 @@ Adobe管理者は、Adobe Admin ConsoleのWorkfront製品プロファイルに�
 
 * ユーザーの個人情報。 少なくとも、以下が必要です。
 
-   * フルネーム
-   * ユーザー名
-   * デフォルトのパスワード
-   * メールアドレス
+  * フルネーム
+  * ユーザー名
+  * デフォルトのパスワード
+  * メールアドレス
 
   >[!NOTE]
   >
@@ -109,7 +114,7 @@ Adobe管理者は、Adobe Admin ConsoleのWorkfront製品プロファイルに�
 * このユーザーはどのホームチームに所属すべきですか？ このユーザーは複数のチームに所属する必要がありますか？ チームについて詳しくは、[チームの概要](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
 * このユーザーに関連付ける必要があるカスタム情報は何ですか？
 
-  ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。 カスタムフォームについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+  ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。 カスタムフォームについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## プロジェクトをゼロから作成
 
@@ -176,7 +181,7 @@ Adobe管理者は、Adobe Admin ConsoleのWorkfront製品プロファイルに�
 
 {{step-1-to-users}}
 
-1. コピーするユーザーを選択し、コピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)をクリックします。
+1. コピーするユーザーを選択し、コピーアイコン ![ コピーアイコン ](assets/copy-icon.png)をクリックします。
 1. 表示される「**ユーザーのコピー**」ボックスで、新規ユーザーに使用可能なフィールドを編集します。
 
    ユーザーに関連付けられているすべてのフィールドについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。

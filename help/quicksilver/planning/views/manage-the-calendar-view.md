@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
+TQID: 'https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: '2002'
 ht-degree: 24%
-
 ---
-
 # カレンダービューの管理
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
@@ -36,7 +43,7 @@ ht-degree: 24%
 
 レコードの種類ページから、レコードとそのフィールドをカレンダービューに表示できます。
 
-Adobe Workfront計画ビューとその管理方法について詳しくは、[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+Adobe Workfront計画ビューとその管理方法について詳しくは、[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
 ## アクセス要件
 
@@ -174,7 +181,7 @@ Old:
 カレンダービューを管理するには：
 
 1. カレンダーを表示するレコードタイプページに移動します。
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、カレンダービューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、カレンダービューを作成します。
 
    ![カレンダービューの例](assets/calendar-view-example.png)
 
@@ -197,7 +204,7 @@ Old:
 
 1. <span class="preview"> （オプションおよび条件付き） 1,000件を超えるレコードがあり、その一部が週ごとにカレンダーを表示する際にデフォルトで表示されない場合は、カレンダーの下部にある&#x200B;**さらに**&#x200B;を読み込む</span>をクリックします。
 
-1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+1. （オプション）「**フルスクリーン**」アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. カレンダービューでレコードを作成したり、その日付を編集したりするには、次のいずれかの操作を行います。
 
@@ -243,7 +250,7 @@ Old:
 
 カレンダービューにフィルターを追加するには：
 
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのカレンダービューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのカレンダービューを作成します。
 1. カレンダービューを選択し、カレンダーのツールバーの「**フィルター**」をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
@@ -317,7 +324,7 @@ Old:
 
    * 選択したフィールドの値を選択します。
 
-   ![&#x200B; フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
+   ![ フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -329,7 +336,7 @@ Old:
 
    1. （オプション）複数の条件グループ間に&#x200B;**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子を追加します。
 
-      ![&#x200B; ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
+      ![ ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
 
    レコードのリストは自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -349,7 +356,7 @@ Old:
 >この設定は、月ごとにカレンダーを表示する場合にのみ使用できます。
 
 
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのカレンダービューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのカレンダービューを作成します。
 1. （条件付き）月ごとにカレンダービューを表示し、カレンダーのツールバーで「**行の高さ**」をクリックします。
 1. 次のオプションから選択します。
 
@@ -407,7 +414,7 @@ Old:
 
 カレンダービューの設定を更新して、ビューに表示される情報とその表示方法を示します。
 
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのカレンダービューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのカレンダービューを作成します。
 1. 「**設定**」をクリックします。
 1. 左側のパネルで&#x200B;**日付と時刻**&#x200B;をクリックし、**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択して、カレンダーに表示します。 デフォルトの開始日と終了日を選択するか、使用可能な任意の日付フィールドを選択できます。
 
@@ -428,7 +435,7 @@ Old:
 
    >[!NOTE]
    >
-   >    カレンダービューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、[&#x200B; レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+   >    カレンダービューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、[ レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
 1. **フィールドを追加**&#x200B;をクリックし、**フィールドを検索** ボックス内をクリックして、追加するフィールドをクリックします。
 
@@ -442,11 +449,11 @@ Old:
 
    カレンダーのバーのプレビューが右側に表示されます。
 
-   ![&#x200B; カレンダービュー設定の棒スタイル セクション &#x200B;](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+   ![ カレンダービュー設定の棒スタイル セクション ](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
 
 1. 左側のパネルの&#x200B;**カラー**&#x200B;をクリックして、カレンダーのレコードの色をカスタマイズします。
 
-   ![&#x200B; カレンダービュー設定のカラーパネル &#x200B;](assets/color-panel-on-calendar-view-settings.png)
+   ![ カレンダービュー設定のカラーパネル ](assets/color-panel-on-calendar-view-settings.png)
 
 1. 「**レコードの色を**&#x200B;に設定」セクションで、次のオプションからレコードの色を設定することを選択します。
 
@@ -458,7 +465,7 @@ Old:
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   ![&#x200B; カレンダービューのフィールドセレクタードロップダウンメニュー](assets/field-selector-drop-down-menu-calendar-view.png)
+   ![ カレンダービューのフィールドセレクタードロップダウンメニュー](assets/field-selector-drop-down-menu-calendar-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 

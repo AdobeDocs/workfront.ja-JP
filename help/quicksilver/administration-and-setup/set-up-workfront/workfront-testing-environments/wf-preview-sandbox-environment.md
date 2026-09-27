@@ -3,29 +3,34 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: ' [!DNL Adobe Workfront] プレビューサンドボックス環境'
+title: '[!DNL Adobe Workfront] プレビューサンドボックス環境'
 description: プレビューサンドボックスは、ライブ環境のレプリカとして機能するテスト環境です。 Workfront によって毎週末に更新されます。 金曜日にライブ環境に追加されたデータは、次の月曜日までにプレビューサンドボックスに表示されます。 すべてのサポートパッケージが、このサンドボックスにアクセスできます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-TQID: https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4
+TQID: 'https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1366
+source-wordcount: '1366'
 ht-degree: 87%
-
 ---
-
 # [!DNL Adobe Workfront] プレビューサンドボックス環境
 
 <!-- Audited: 12/2023 -->
@@ -40,7 +45,7 @@ ht-degree: 87%
 
 * カスタム更新サンドボックス
 
-  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[&#x200B; [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
+  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[ [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +90,7 @@ ht-degree: 87%
 >
 >アクセスしている環境の名前（プレビュー）とコードのリリースバージョンがバナーに表示されます。 そのリリースについては、「**[!UICONTROL XXの新機能]**」をクリックしてください。
 >
->![&#x200B; バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
+>![ バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
 
 ## プレビューサンドボックスへのアクセス
 
@@ -187,7 +192,7 @@ SSO を使用している場合はカスタマーサポートチームと協力�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動的に再計算するタイミングを設定できます。 Workfrontでは、毎晩、プロジェクトスコープが変更されたタイミング、またはその両方で、プロジェクトタイムラインを再計算できます。
 
-詳しくは、[&#x200B; プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
+詳しくは、[ プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
 プレビュー環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的に再計算されません。 プレビュー環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 

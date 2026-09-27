@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs
+TQID: 'https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1538'
 ht-degree: 99%
-
 ---
-
 # レポート配信の概要
 
 <!-- Audited: 11/2024 -->
@@ -75,20 +81,20 @@ Workfront でのレポートの表示方法、および手動書き出し、配�
 
   以下の制限が適用されます。
 
-   * レポートの手動書き出し。
-   * スケジュール済みレポート。
-   * API 統合を経由した書き出し。
-   * キックスタートを経由して書き出されたデータ。
+  * レポートの手動書き出し。
+  * スケジュール済みレポート。
+  * API 統合を経由した書き出し。
+  * キックスタートを経由して書き出されたデータ。
 
-     キックスタートを経由したデータの書き出しに関して詳しくは、記事[キックスタートを経由した Adobe Workfront からのデータの書き出し](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
+    キックスタートを経由したデータの書き出しに関して詳しくは、記事[キックスタートを経由した Adobe Workfront からのデータの書き出し](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
 
-     >[!NOTE]
-     >
-     >50,000 行をキックスタートファイルに書き出すことができますが、データは Excel 形式のファイルにのみ書き出すことができます。
+    >[!NOTE]
+    >
+    >50,000 行をキックスタートファイルに書き出すことができますが、データは Excel 形式のファイルにのみ書き出すことができます。
 
-   * プロジェクトの稼働率情報を書き出します。
+  * プロジェクトの稼働率情報を書き出します。
 
-     プロジェクトの稼働率情報を書き出す方法に関して詳しくは、[リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)を参照してください。
+    プロジェクトの稼働率情報を書き出す方法に関して詳しくは、[リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)を参照してください。
 
 * **65,530 個のハイパーリンク：**&#x200B;これは、65,530 個を超えるハイパーリンクを含むドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動で書き出した場合や、配信されたレポートに添付された場合には開けません。 Excel ドキュメントのデータは 200 行に過ぎなくても、ドキュメント内に 65,530 個を超えるリンクがある場合、ドキュメントは開きません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には該当しません。
 * **256 列**：Excel が 256 列を超えるドキュメントに対して課される制限です。 これらのドキュメントは、手動で書き出したり、配信されたレポートに添付して送信したりすることはできません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には該当しません。
@@ -203,7 +209,7 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 * レポートオブジェクトの&#x200B;**フィルター**&#x200B;の場合、レポートのリストまたは&#x200B;*スケジュール済みレポート ID が空白ではない*&#x200B;のステートメントを使用して、レポート用のレポートでフィルターを作成します。\
   これにより、リストまたはレポートでスケジュールされたレポートのみが表示されます。\
-  ![&#x200B; スケジュール済みレポートフィルター](assets/qs-scheduled-report-filter-350x101.png)\
+  ![ スケジュール済みレポートフィルター](assets/qs-scheduled-report-filter-350x101.png)\
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。 レポートの作成について詳しくは、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 
 <!--

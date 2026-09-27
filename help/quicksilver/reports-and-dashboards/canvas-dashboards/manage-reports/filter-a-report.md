@@ -11,6 +11,8 @@ product_v2:
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 23%
@@ -28,7 +30,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -80,7 +82,7 @@ ht-degree: 23%
 
 ## 前提条件
 
-フィルターを適用する前に、ダッシュボードにレポートを作成するか、ダッシュボードを作成している必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+フィルターを適用する前に、ダッシュボードにレポートを作成するか、ダッシュボードを作成している必要があります。 詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## レポートフィルターの追加または編集
 
@@ -107,6 +109,6 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->フィールド、演算子、ワイルドカードおよび特殊フィルタールールの完全なリストについては、[&#x200B; カンバスダッシュボードのフィルターリファレンスのレポート &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)を参照してください。
+>フィールド、演算子、ワイルドカードおよび特殊フィルタールールの完全なリストについては、[ カンバスダッシュボードのフィルターリファレンスのレポート ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)を参照してください。
 
 1. 「**保存**」をクリックします。

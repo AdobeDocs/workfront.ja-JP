@@ -5,22 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-TQID: https://experienceleague.adobe.com/qzKIWQuPNT6M8enUpycz27L9y23wosi5C3g2CjMDJkg
+TQID: 'https://experienceleague.adobe.com/qzKIWQuPNT6M8enUpycz27L9y23wosi5C3g2CjMDJkg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: '874'
 ht-degree: 22%
-
 ---
-
 # 2025年第 1 四半期の管理者の機能強化
 
 このページでは、2025年第 1 四半期にプレビュー環境にリリースされた管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -39,7 +44,7 @@ ht-degree: 22%
 
 ビジネス・ルールでは、プロジェクト、タスク、リクエスト、Portfolio、プログラム、費用、請求記録、グループ、リスク、レート・カードの各オブジェクトが既にサポートされていました。
 
-詳しくは、[&#x200B; ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
+詳しくは、[ ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
 
 ## 環境プロモーション用の環境間でのオブジェクトの比較
 
@@ -67,7 +72,7 @@ ht-degree: 22%
 
 以前は、これらのオブジェクトは環境のプロモーションには使用できませんでした。
 
-環境プロモーションで使用できるオブジェクトについて詳しくは、「環境プロモーションの概要」の「[環境プロモーションでサポートされるオブジェクト &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)」を参照してください。
+環境プロモーションで使用できるオブジェクトについて詳しくは、「環境プロモーションの概要」の「[環境プロモーションでサポートされるオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)」を参照してください。
 
 ## 時間が記録されているときにタスクを移動できないようにする
 
@@ -97,7 +102,7 @@ ht-degree: 22%
 
 ビジネスルールのカスタムエラーメッセージにハイパーリンクを含めて、ルールの制約内でユーザーがアクションを変更する方法をユーザーに案内できるようになりました。 静的URLは、ユーザーにとって役立つドキュメントやその他のページにリンクできます。
 
-詳しくは、[&#x200B; ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
+詳しくは、[ ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
 
 ## ネイティブ先行入力フィールドのフィルタリングが利用可能になりました
 
@@ -107,7 +112,7 @@ ht-degree: 22%
 
 カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、オーナーなど）を参照すると、フィルターオプションが使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用しているときに選択できるオブジェクトを制限できます。 このカスタムフィルターは、テキストモードを使用してフィルターを定義するカスタムタイプアヘッド フィールドのフィルターと同じように機能します。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフィールドに「移動先」アイコンが追加されました
 
@@ -117,4 +122,4 @@ ht-degree: 22%
 
 カスタムフォームに多数のフィールドを含む複数のセクションがある場合、ドラッグ&amp;ドロップ操作でフィールドをセクション間で移動するのは困難な場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。
 
-詳細については、[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。

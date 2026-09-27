@@ -5,11 +5,16 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2811'
 ht-degree: 6%
-
 ---
 
 # Adobe Workfront MCP Server Tools
@@ -111,7 +116,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_id_by_name`を使用してください。 このツールは、システム全体で名前の一部が一致するWorkfront プロジェクトを検索しました。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_workfront_data`を使用してください。 このツールには、呼び出し元ユーザーがオーナーであるWorkfront プロジェクトが一覧表示されます。 | 読み取り |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得[&#128279;](#insights-tools)」を参照してください。 | 読み取り |
+| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得](#insights-tools)」を参照してください。[ | 読み取り |
 | 名前でユーザーを検索 | `approvals_find_user_by_name` | 非推奨（廃止予定）: 代わりに`insights_search_users`を使用してください。 このツールは、WorkfrontユーザーのIDを名前（ファジーまたは部分的に一致）で検索し、名前、ID、メール、タイトル、アバターURLを返します。 | 読み取り |
 | 名前でチームを検索 | `approvals_find_team_by_name` | 非推奨（廃止予定）: 代わりに`insights_find_id_by_name`を使用してください。 このツールは、Workfront チームのIDを名前（ファジーまたは部分一致）で検索しました。 | 読み取り |
 | プロジェクトの検索 | `approvals_find_projects` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、Workfront プロジェクトを検索し、オプションで名前でフィルタリングしたり、呼び出し元ユーザーが所有するプロジェクトに限定したりしました。 | 読み取り |

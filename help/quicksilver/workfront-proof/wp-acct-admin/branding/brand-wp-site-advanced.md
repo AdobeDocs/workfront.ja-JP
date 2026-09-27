@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: ' [!DNL Workfront] Proof サイトのブランディング - 詳細'
+title: '[!DNL Workfront] プルーフ サイトのブランド – 高度な'
 description: 高度なブランディングはセレクトプランとプレミアムプランで利用でき、プランの料金に含まれています。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+TQID: 'https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 80%
-
+source-wordcount: '825'
+ht-degree: 99%
 ---
-
 # [!DNL Workfront Proof] サイトのブランディング - 詳細
 
 >[!IMPORTANT]
@@ -32,7 +42,7 @@ ht-degree: 80%
 
 高度なブランディングはセレクトプランとプレミアムプランで利用でき、プランの料金に含まれています。
 
-ログインページ、メール通知、プルーフなどを含む、基本的なブランディングについて詳しくは、[&#x200B; [!DNL Workfront Proof]  サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
+ログインページ、メール通知、プルーフなどを含む、基本的なブランディングについて詳しくは、[ [!DNL Workfront Proof]  サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
 
 詳細ブランディングオプションには、次のエリアのカスタマイズが含まれます。
 
@@ -49,7 +59,7 @@ ht-degree: 80%
 
 ## 詳細なブランディングの概要
 
-「[!UICONTROL &#x200B; ブランド設定]」セクションは、[&#x200B; アカウント設定](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings) ページのタブにあります。アカウントに変更を適用するには、「ブランディング」オプションが[!UICONTROL 有効] （1）に設定されていることを確認します。
+[アカウント設定](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings)ページのタブに「[!UICONTROL ブランド設定]」セクションがあります。 アカウントに変更を適用するには、ブランディングオプションが「[!UICONTROL 有効]」（1）に設定されていることを確認します。
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 詳細なブランディングオプション（2 ～ 14）の設定方法について詳しくは、以下の節を参照してください。
@@ -95,7 +105,7 @@ Web アプリケーションヘッダー（2）は 3 つのブランディング
 
 ### ヘッダーリンク {#header-links}
 
-このフィールド（4）では、アカウントの右上隅に表示されるヘッダーメニューのリンクのユーザー名の色と色を変更できます。
+このフィールド（4）では、アカウントの右上隅に表示されるヘッダーメニューで、ユーザー名とリンクのカラーを変更できます。
 ![Header_links.png](assets/header-links-350x140.png)
 
 ### サイドバー {#sidebar}
@@ -112,17 +122,17 @@ Web アプリケーションヘッダー（2）は 3 つのブランディング
 
 ### ようこそボックス {#welcome-box}
 
-このフィールド（7）では、ダッシュボードページに表示されるようこそボックスの色を設定できます。
+このフィールド（7）では、ダッシュボードページに表示される「ようこそ」ボックスのカラーを設定できます。
 ![Welcome_box.png](assets/welcome-box-350x110.png)
 
 ### セクションヘッダー {#section-headers}
 
-これらのフィールドを使用すると、[[!UICONTROL &#x200B; アカウント設定]](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings) ページのセクションヘッダーの背景（8）とフォントカラー（9）をカスタマイズできます。
+これらのフィールドを使用すると、[[!UICONTROL アカウント設定]](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings)ページのセクションヘッダーの背景（8）とフォントカラー（9）をカスタマイズできます。
 ![Section_headers.png](assets/section-headers-350x138.png)
 
 **フッター**
 
-ブランディング設定のこのフィールド（10）では、すべてのアカウントページの下部に表示されるフッターを構成できます。組み込みのWYSIWYG エディターを使用することも、独自のデザインを貼り付けることもできます。
+ブランディング設定のこのフィールド（10）では、すべてのアカウントページの下部に表示されるフッターを作成できます。 ビルトインの WYSIWYG エディターを使用することも、独自のデザインを貼り付けることもできます。
 ![Footer.png](assets/footer-350x157.png)
 
 >[!NOTE]
@@ -131,7 +141,7 @@ Web アプリケーションヘッダー（2）は 3 つのブランディング
 
 **お気に入りアイコンとページタイトル**
 
-独自のファビコン画像（.ICO ファイル） （11）とページタイトル （12）を設定することで、ブラウザーでの[!DNL Workfront Proof] ページの表示方法をカスタマイズできます。これらは、すべてのアカウントページのブラウザーのタブまたはウィンドウのヘッダーに表示されます。
+独自のお気に入りアイコンの画像（.ICO ファイル）（11）とページタイトル（12）を設定することで、[!DNL Workfront Proof] ページがブラウザーでどのように表示されるかをカスタマイズできます。これらは、すべてのアカウントページのブラウザーのタブやウィンドウのヘッダーに表示されます。
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]

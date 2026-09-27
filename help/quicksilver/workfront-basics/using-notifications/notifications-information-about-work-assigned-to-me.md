@@ -6,20 +6,24 @@ description: 次の通知は、割り当てられた作業アイテムでのア�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+TQID: 'https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2012
+source-wordcount: '2012'
 ht-degree: 99%
-
 ---
-
 # 通知：自分に担当割り当てされている作業に関する情報
 
 次の通知は、割り当てられた作業アイテムでのアクティビティの発生に関して警告します。
@@ -112,12 +116,12 @@ ht-degree: 99%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分に割り当てられているタスクの完了予定日が変更になった</strong> </p> <p>タスクの [!UICONTROL Planned Completion Date] が変更されると、タスクの担当者はメール通知を受け取ります。ただし、予定完了日を変更したユーザーがタスクの担当者でもある場合を除きます。</p> <p>プロジェクト状態が [!UICONTROL Planning] 以外の場合にのみ通知が送信されます。</p> <p>個人のタスクに関する通知は送信されません。</p> <p> 外部ライセンスを持つユーザーには通知が届きません。 </p> <p> インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed.]</em></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分に割り当てられているタスクの完了予定日が変更になった</strong> </p> <p>タスクの [!UICONTROL Planned Completion Date] が変更されると、タスクの担当者はメール通知を受け取ります。ただし、予定完了日を変更したユーザーがタスクの担当者でもある場合を除きます。</p> <p>プロジェクト状態が [!UICONTROL 計画] 以外の場合にのみ通知が送信されます。</p> <p>個人のタスクに関する通知は送信されません。</p> <p> 外部ライセンスを持つユーザーには通知が届きません。 </p> <p> インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed.]</em></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> タスク名<br>プロジェクト名<br>タスク参照番号<br>新しい期日（[!UICONTROL Planned Completion Date]）<br>期日が変更された日時<br>期日を変更したユーザーの名前<br>*プロジェクト名<br>*プロジェクト参照番号<br>*期日（予定完了日）が変更されたタスクの合計数<br>*タスク名<br>*新しい予定完了日<br>*期日を変更したユーザーの名前<br>*日刊ダイジェストの日付 </td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が割り当てられているイシューの期日が変更された</strong> </p> <p>[!UICONTROL Planned Completion Date] が変更されると、このイシューの担当者はメール通知を受け取ります。ただし、[!UICONTROL Planned Completion Date] を変更したユーザーが担当者でもある場合は除きます。</p> <p>プロジェクト状態が [!UICONTROL Planning] 以外の場合にのみ通知が送信されます。</p> <p>[!UICONTROL Review] または [!UICONTROL Requestor] のライセンスを持つユーザーには通知は届きません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed]</em></p> <p> </p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分が割り当てられているイシューの期日が変更された</strong> </p> <p>[!UICONTROL Planned Completion Date] が変更されると、このイシューの担当者はメール通知を受け取ります。ただし、[!UICONTROL Planned Completion Date] を変更したユーザーが担当者でもある場合は除きます。</p> <p>プロジェクト状態が [!UICONTROL 計画] 以外の場合にのみ通知が送信されます。</p> <p>[!UICONTROL Review] または [!UICONTROL Requestor] のライセンスを持つユーザーには通知は届きません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed]</em></p> <p> </p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> <p>イシュー名<br>プロジェクト名<br>イシューの参照番号<br>新しい期日（[!UICONTROL Planned Completion Date]）<br>期日が変更された日時<br>期日を変更したユーザーの名前<br>*プロジェクト名<br>*プロジェクト参照番号<br>*期日（[!UICONTROL Planned Completion Date]）が変更されたイシューの合計数<br>*イシュー名<br>*新しい [!UICONTROL Planned Completion Date]<br>*期日を変更したユーザーの名前<br>*日刊ダイジェストの日付<br></p> </td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 

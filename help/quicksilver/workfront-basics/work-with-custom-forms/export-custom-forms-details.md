@@ -6,24 +6,29 @@ feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NjEhz0XPK3AsV36PQ2LzU9cMROQyCLE-JPT-zYEpN8Q
+TQID: 'https://experienceleague.adobe.com/NjEhz0XPK3AsV36PQ2LzU9cMROQyCLE-JPT-zYEpN8Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 90%
-
 ---
-
 # カスタムフォームとオブジェクトの詳細の書き出し
 
 <!--Audited: 10/2025-->
@@ -120,7 +125,7 @@ Old:
 
    カスタムフォームを添付しフォーム上の情報を編集するための適切なアクセス権
 
-カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 オブジェクトへのフォームの添付については、[オブジェクトへのカスタムフォームの追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
@@ -139,7 +144,7 @@ Old:
 
    概要エリアとすべてのカスタムフォームを書き出す場合は、「**すべて選択**」を選択することもできます。
 
-   ![&#x200B; カスタムフォームの書き出しボタン &#x200B;](assets/export-custom-form-button-menu.png)
+   ![ カスタムフォームの書き出しボタン ](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >
@@ -148,7 +153,7 @@ Old:
    >   * グループ管理者または Workfront 管理者が概要エリアのすべてのフィールドを選択解除し、オブジェクトにカスタムフォームが添付されている場合は、「概要」セクションが表示されません。
    >   * グループ管理者または Workfront 管理者が概要エリアのすべてのフィールドを選択解除し、オブジェクトにカスタムフォームが添付されていない場合は、「書き出し」ドロップダウンメニューが表示されません。
    >   * オブジェクトにカスタムフォームが添付されていない場合は、概要エリアのみを書き出すことができます。
-   >   * ロジックの裏で動作しフォームに表示されないカスタムフィールドは、書き出されません。 カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+   >   * ロジックの裏で動作しフォームに表示されないカスタムフィールドは、書き出されません。 カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
    PDF ファイルが生成され、お使いのコンピューターにダウンロードされます。 この PDF ファイルには、次の情報が含まれています。
 

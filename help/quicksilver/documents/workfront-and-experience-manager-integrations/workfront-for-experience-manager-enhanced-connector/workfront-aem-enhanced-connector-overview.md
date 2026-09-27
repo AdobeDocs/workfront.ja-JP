@@ -7,27 +7,39 @@ description: Adobe Workfront は、作業のライフサイクル全体を 1 か
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
+TQID: 'https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Digital asset management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 96%
-
 ---
-
 # Workfront for Experience Manager 拡張コネクターの概要
 
 <!-- Audited: 01/2024 -->
@@ -63,10 +75,10 @@ Workfront for Experience Manager の拡張コネクタで、次のことがで�
 
 ## 基本を学ぶ
 
-1. **コネクタをインストールして設定します**。 認定パートナーまたは Adobe Professional Services を使用して、Workfront for Experience Manager 拡張コネクタのインストールおよび設定を行い、プロセスの整理と標準化、ガバナンスの確立、アセットの作成から配信までのライフサイクルの効率化を行います。 [Adobe Experience Manager 6.5 でのインストール](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/integrations/workfront-integrations)、または [Adobe Experience Manager as a Cloud Service でのインストール](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
+1. **コネクタをインストールして設定します**。 認定パートナーまたは Adobe Professional Services を使用して、Workfront for Experience Manager 拡張コネクタのインストールおよび設定を行い、プロセスの整理と標準化、ガバナンスの確立、アセットの作成から配信までのライフサイクルの効率化を行います。 [Adobe Experience Manager 6.5 でのインストール](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)、または [Adobe Experience Manager as a Cloud Service でのインストール](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 1. **コネクタを使用します**。 Experience Manager Assets でのプロジェクトにリンクされたフォルダーの自動生成、Experience Manager Assets とフォルダーにマッピングされた Workfront メタデータ、双方向のメタデータの同期など、拡張コネクタの機能が実際に動作している様子を確認します。 詳しくは、[Workfront for Experience Manager 拡張コネクタ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)を参照してください。
 
 ## その他の関連ヘルプ
 
-* [Workfront for Adobe Experience Manager](https://business.adobe.com/jp/products/workfront/aem-integration.html) の概要
+* [Workfront for Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html) の概要
 * [Adobe Workfront for Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

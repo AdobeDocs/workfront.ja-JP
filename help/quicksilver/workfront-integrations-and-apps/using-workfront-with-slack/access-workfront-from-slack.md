@@ -1,32 +1,40 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: ' [!DNL Slack] から  [!DNL Adobe Workfront]  へのアクセス'
-description: ' [!DNL Adobe Workfront]  を  [!DNL Slack]  に統合すると、Slack から  [!DNL Workfront]  にアクセスしたり、スラッシュコマンドを使用して  [!DNL Workfront]  で特定のアクションを実行したりできます。  [!DNL Slack]  モバイルアプリを含め、任意の  [!DNL Slack]  環境から統合を使用できます。'
+title: '[!DNL Slack] から [!DNL Adobe Workfront] へのアクセス'
+description: '[!DNL Adobe Workfront]と[!DNL Slack]を統合すると、Slackから[!DNL Workfront]にアクセスしたり、スラッシュコマンドを使用して[!DNL Workfront]で特定のアクションを実行したりできます。 [!DNL Slack] モバイルアプリを含め、任意の [!DNL Slack] 環境から統合を使用できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+TQID: 'https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 100%
-
+source-wordcount: '1100'
+ht-degree: 98%
 ---
-
 # [!DNL Slack] から [!DNL Adobe Workfront] へのアクセス
 
 [!DNL Adobe Workfront] を [!DNL Slack] に統合すると、[!DNL Slack] から [!DNL Workfront] にアクセスしたり、スラッシュコマンドを使用して [!DNL Workfront] で特定のアクションを実行したりできます。 [!DNL Slack] モバイルアプリを含め、任意の [!DNL Slack] 環境から統合を使用できます。
@@ -184,20 +192,20 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
      特定のキーワードを検索します。 次のタイプのオブジェクトを検索できます。
 
-      * プロジェクト
-      * タスク
-      * イシュー
-      * レポート
-      * ユーザー
-      * テンプレート
-      * ドキュメント
-      * ポートフォリオ
-      * プログラム
-      * ダッシュボード
-      * 会社
-      * メモ \
+     * プロジェクト
+     * タスク
+     * イシュー
+     * レポート
+     * ユーザー
+     * テンプレート
+     * ドキュメント
+     * ポートフォリオ
+     * プログラム
+     * ダッシュボード
+     * 会社
+     * メモ \
 
-        [!DNL Slack] での検索について詳しくは、[Slack からの  [!DNL Adobe Workfront]  項目の検索](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)を参照してください。
+       [!DNL Slack] での検索について詳しくは、[Slack からの  [!DNL Adobe Workfront]  項目の検索](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)を参照してください。
    * `/wf log in`
 
      [!DNL Slack] から [!DNL Workfront] にログインします。
@@ -212,7 +220,7 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
      Slack での [!DNL Workfront] 設定の構成については、[設定を行う](#configure-settings-configure-settings)を参照してください。
 
    * `/wf help`
-[!DNL Workfront] のコマンドの完全なリストを表示します。
+     [!DNL Workfront] のコマンドの完全なリストを表示します。
 
 
    * `Visit Workfront Help`：[!DNL Workfront] ヘルプサイトの [!UICONTROL Slack] セクションが新しいブラウザータブで開きます。

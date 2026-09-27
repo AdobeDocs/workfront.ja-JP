@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g
+TQID: 'https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 674
-ht-degree: 11%
-
+source-wordcount: '698'
+ht-degree: 10%
 ---
-
 # マイリクエストウィジェットの使用
 
 <!--
@@ -36,8 +40,8 @@ remove Preview and Production references at Production release April 15, 2026
 
 >[!IMPORTANT]
 >
->この記事では、新しいMy Requests ウィジェットについて説明します。新しいウィジェットを表示するには、新しいリクエスト用エクスペリエンスを有効にする必要があります。
->新しいリクエスト エクスペリエンスをリクエスト領域で有効にできます。
+>この記事では、新しいMy Requests ウィジェットについて説明します。 新しいウィジェットを表示するには、新しいリクエスト用エクスペリエンスを有効にする必要があります。
+>リクエスト領域で新しいリクエストエクスペリエンスを有効にできます。
 
 My Requests ウィジェットには、送信したリクエストが表示されます。 リクエストをフィルタリングしたり、特定のリクエストを検索したり、列の順序や表示を調整したりできます。 マイリクエストウィジェットから新しいリクエストを作成することもできます。
 
@@ -89,7 +93,7 @@ My Requests ウィジェットには、送信したリクエストが表示さ�
 
 マイリクエストウィジェットから直接リクエストを作成できます。
 
-手順については、「[作業項目とプロジェクトをホーム エリア &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)から作成する」の「[&#x200B; リクエストを作成](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)」の節を参照してください。
+手順については、「[作業項目とプロジェクトをホーム エリア ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)から作成する」の「[ リクエストを作成](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)」の節を参照してください。
 
 ## リクエストをコピーする
 
@@ -106,7 +110,7 @@ The My Requests widget features a customizable filter that allows you to control
 To configure the filter in the My Requests widget:
 -->
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
 1. （オプション）情報がリクエストリストに表示される方法を管理するには、リストの次のビュー要素を作成または更新します。
 
@@ -200,7 +204,7 @@ Consider the following when working with views in the My Requests widget:
 
 マイリクエストウィジェットで特定のリクエストを検索するには：
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
 1. マイリクエストウィジェットの右上付近にある検索バーで、検索する語句を入力します。
 
@@ -220,7 +224,7 @@ Consider the following when working with views in the My Requests widget:
 >* 「オブジェクト作成」フィールドのPlanning リクエストから作成されたPlanning レコード。
 >* Workfront リクエストから変換されたWorkfront タスクとイシューは、「オブジェクトを作成」フィールドにあります。
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
 1. オブジェクトを作成したリクエストを探します。
 1. そのリクエストの&#x200B;**作成済みオブジェクト**&#x200B;列のオブジェクト名をクリックします。

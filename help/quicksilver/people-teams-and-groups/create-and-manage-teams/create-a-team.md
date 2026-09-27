@@ -8,26 +8,33 @@ feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mCDsQnauBC-wEon8PpzGLfl5c5Ujp2A-Cq7IfLgic-c
+TQID: 'https://experienceleague.adobe.com/mCDsQnauBC-wEon8PpzGLfl5c5Ujp2A-Cq7IfLgic-c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 92%
-
 ---
-
 # チームの作成
 
 チームを作成すると、デフォルトでチームの所有者になります。
@@ -82,7 +89,7 @@ ht-degree: 92%
 
    * **[!UICONTROL これはアジャイルチームです]:**&#x200B;この新しいチームをアジャイルチームに設定する場合は、このオプションを選択します。
 
-     アジャイルチームについて詳しくは、[&#x200B; アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+     アジャイルチームについて詳しくは、[ アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
    * **[!UICONTROL チームメンバー]：**&#x200B;チームに追加するユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前を選択します。
 

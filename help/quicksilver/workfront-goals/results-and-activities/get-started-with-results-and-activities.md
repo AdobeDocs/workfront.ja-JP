@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE
+TQID: 'https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 98%
-
 ---
-
 # Adobe Workfront Goals の結果とアクティビティについての基本を学ぶ
 
 <!--Audited for P& P only: 10/2025-->
@@ -70,7 +76,7 @@ Old:
 >
 > 目標は、アクティビティ、結果、プロジェクト、連携された目標を、合計 1000 件以上持つことはできません。</span>
 
-この記事では、アクティビティと結果の概要を説明します。 目標の調整について詳しくは、[Adobe Workfront Goalsの目標の調整：記事インデックス &#x200B;](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+この記事では、アクティビティと結果の概要を説明します。 目標の調整について詳しくは、[Adobe Workfront Goalsの目標の調整：記事インデックス ](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 ## 結果の概要
 
@@ -89,9 +95,9 @@ Old:
 * 「目標がいつ完了するかをどうやって知るのか？」という質問に答えるようにします。
 * 結果は指標です。 結果の進行状況を示すために、次のオプションから選択できます。
 
-   * 通貨
-   * 数値
-   * パーセンテージ
+  * 通貨
+  * 数値
+  * パーセンテージ
 
 結果の詳細については、[結果、アクティビティ、プロジェクトの類似点](#similarities-between-results-activities-and-projects)の節で、結果とアクティビティの類似点リストを参照してください。
 
@@ -210,7 +216,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>開始値と終了値の間の値の範囲が提供され、これらの値を達成するにはどの程度近いかを示します。 終了値に近い値は、目標の進捗状況の値を計算します。 </td> 
    <td>✔</td> 
    <td>✔</td> 

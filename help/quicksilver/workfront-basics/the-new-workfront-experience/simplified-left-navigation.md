@@ -1,18 +1,25 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: ' [!DNL Adobe Workfront] の左側のナビゲーション'
-description: ' [!DNL Workfront]  の左側のナビゲーションパネルを使用すると、システム内を簡単に移動できます。'
+title: '[!DNL Adobe Workfront] の左側のナビゲーション'
+description: '[!DNL Workfront]の左側のナビゲーションパネルを使用すると、システム内を簡単に移動できます。'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1421'
 ht-degree: 81%
-
 ---
-
 # [!DNL Adobe Workfront] の左側のナビゲーション
 
 WF のほとんどのエリアとオブジェクトは、画面の左側にあるシンプルなナビゲーションパネルを使用します。 左側のパネルナビゲーションには次の利点があります。
@@ -89,7 +96,7 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
 * [[!UICONTROL リソース]エリアのデフォルトのセクション](#default-sections-in-the-resourcing-area)
 * [[!UICONTROL プロジェクト]エリアのデフォルトのセクション](#default-sections-in-the-projects-area)
 * [[!UICONTROL タイムシート]エリアのデフォルトのセクション](#default-sections-in-the-timesheets-area)
-* [&#x200B; [!DNL Goals]  エリアのデフォルトのセクション](#default-sections-in-the-goals-area)
+* [ [!DNL Goals]  エリアのデフォルトのセクション](#default-sections-in-the-goals-area)
 
 ### [!UICONTROL ダッシュボード]エリアのデフォルトのセクション
 
@@ -169,7 +176,7 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
     </tr>
     <tr>
         <td><strong>[!UICONTROL Dashboards]</strong></td>
-        <td>[!DNL Workfront]管理者がレイアウト テンプレートの[!UICONTROL プロジェクト &#x200B;]領域の左側のパネルに追加したすべてのダッシュボードを表示できます。 これらのダッシュボードには、環境に合わせてカスタマイズされた名前が付けられています。</td>
+        <td>[!DNL Workfront]管理者がレイアウト テンプレートの[!UICONTROL プロジェクト ]領域の左側のパネルに追加したすべてのダッシュボードを表示できます。 これらのダッシュボードには、環境に合わせてカスタマイズされた名前が付けられています。</td>
     </tr>
 </table>
 
@@ -275,7 +282,7 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
       >
       >すべてのオブジェクトで左側のパネルにダッシュボードが表示されるわけではありません。 ダッシュボードをサポートするオブジェクトについては、[Workfront オブジェクトまたは領域の左側のパネルにあるダッシュボードの追加](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
 
-1. （オプション）ダッシュボードクイックリンクを削除するには、左側のナビゲーションのダッシュボードにカーソルを合わせ、表示されたら&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/remove-dashboard-from-left.png)をクリックします。
+1. （オプション）ダッシュボードクイックリンクを削除するには、左側のナビゲーションのダッシュボードにカーソルを合わせ、表示されたら&#x200B;**削除** アイコン ![削除アイコン ](assets/remove-dashboard-from-left.png)をクリックします。
 
 1. （オプション）左側のパネルでセクションの順序を変更するには、セクションをクリックして正しい位置に上下にドラッグします。
 

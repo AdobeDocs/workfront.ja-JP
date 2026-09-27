@@ -6,20 +6,27 @@ description: ドキュメントエリアから、レビュープロセスでの�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+TQID: 'https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 93%
-
+source-wordcount: '377'
+ht-degree: 97%
 ---
-
 # プルーフの進行状況とステータスの概要
 
 ドキュメントエリアから、レビュープロセスでのプルーフの進行状況に関する情報を表示したり、プルーフの決定ステータスの全体的な概要を確認したりできます。
@@ -100,7 +107,7 @@ ht-degree: 93%
 
 ## プルーフのステータスの概要
 
-プルーフステータスには、プルーフに必要な決定のステータスが表示されます。プルーフのステータスは、「最悪のケース」の参加者によって駆動されます。例えば、プルーフに3つの決定があるとします。2つのステータスが&#x200B;**Accepted**、1つのステータスが&#x200B;**Rejected**。**拒否**&#x200B;の「最悪ケース」の決定は、他の決定とプルーフの全体的なステータスを&#x200B;**拒否**&#x200B;として示しています。 
+プルーフのステータスには、プルーフに必要な決定のステータスが表示されます。 プルーフのステータスは、「ワーストケース」の参加者によって決まります。 例えば、プルーフに関して 3 つの決定があるとします。2 つのステータスは&#x200B;**承認**&#x200B;で、1 つのステータスは&#x200B;**却下**&#x200B;です。 **却下**&#x200B;という「最悪のケース」の決定は他の決定を無効にし、プルーフの全体的なステータスは&#x200B;**却下**&#x200B;として表示されます。 
 
 ![既存の進捗状況を校正](assets/proof-edit-existing-progress-350x62.png)
 

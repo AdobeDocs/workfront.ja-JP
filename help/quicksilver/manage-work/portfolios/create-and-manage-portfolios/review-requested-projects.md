@@ -8,27 +8,35 @@ feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TedrcHAXyGEp4suJFPRv5p-kgXdFzyKr9h5Vqp4q3E8
+TQID: 'https://experienceleague.adobe.com/TedrcHAXyGEp4suJFPRv5p-kgXdFzyKr9h5Vqp4q3E8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 78%
-
 ---
-
 # リクエストされたプロジェクトの確認
 
 <!--Audited: 10/2025-->
@@ -74,7 +82,7 @@ ht-degree: 78%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -109,7 +117,7 @@ Old:
 
 プロジェクトレポートを作成して、[!UICONTROL リクエスト済み]のステータスを持つプロジェクトを表示できます。
 
-プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[&#x200B; ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)の「[[!UICONTROL &#x200B; プロジェクトレポートを作成してビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)」の節を参照してください。
+プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[ ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)の「[[!UICONTROL  プロジェクトレポートを作成してビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)」の節を参照してください。
 
 ## ポートフォリオ内でリクエストされたプロジェクトをレビュー
 
@@ -127,7 +135,7 @@ Old:
 1. 左側のパネルの「**[!UICONTROL プロジェクト詳細]**」をクリックします。
 1. 以下の操作のいずれかを行います。
 
-   * **[!UICONTROL ビジネスケース]**&#x200B;をクリックし、[!UICONTROL &#x200B; ビジネスケースの概要]領域の&#x200B;**[!UICONTROL 承認]**&#x200B;または&#x200B;**[!UICONTROL 却下]**&#x200B;をクリックして、ビジネスケースを承認または却下します。
+   * **[!UICONTROL ビジネスケース]**&#x200B;をクリックし、[!UICONTROL  ビジネスケースの概要]領域の&#x200B;**[!UICONTROL 承認]**&#x200B;または&#x200B;**[!UICONTROL 却下]**&#x200B;をクリックして、ビジネスケースを承認または却下します。
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 
@@ -143,7 +151,7 @@ Old:
 
    * **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューで、プロジェクトのステータスを他のステータスに変更します。
 
-     ![&#x200B; プロジェクトのステータスをドロップダウンから変更](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![ プロジェクトのステータスをドロップダウンから変更](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
 
 
 

@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: プルーフを自動的に生成するかどうかの設定
-description: 指定したユーザーが Workfront にドキュメントを追加する場合、システムが自動的にプルーフを生成するかどうかを設定できます。この設定は、デフォルトで無効になっています。
+description: 指定したユーザーが Workfront にドキュメントを追加する場合、システムが自動的にプルーフを生成するかどうかを設定できます。 この設定は、デフォルトで無効になっています。
 author: Courtney
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 82%
-
+source-wordcount: '251'
+ht-degree: 81%
 ---
-
 
 # プルーフを自動的に生成するかどうかの設定
 
-指定したユーザーが Workfront にドキュメントを追加する場合、システムが自動的にプルーフを生成するかどうかを設定できます。この設定は、デフォルトで無効になっています。
+指定したユーザーが Workfront にドキュメントを追加する場合、システムが自動的にプルーフを生成するかどうかを設定できます。 この設定は、デフォルトで無効になっています。
 
 ## アクセス要件
 
@@ -27,7 +28,7 @@ ht-degree: 82%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -36,7 +37,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td role="rowheader">アクセス設定</td> 
-   <td> <p>Workfront 管理者である必要があります。Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。 Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,17 +46,17 @@ ht-degree: 82%
 
 ## 1 人のユーザーに対してプルーフを自動的に生成するかどうかを設定
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザー &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**ユーザー** ![ ユーザー](assets/users-icon-in-main-menu.png)をクリックします。
 1. プルーフアクセス権を持つユーザーを選択し、「**編集**」をクリックします。
 1. 「**環境設定**」セクションで、**ドキュメントのアップロード時にプルーフを自動生成**&#x200B;チェックボックスを有効または無効にします。
 
-   ![&#x200B; 自動生成プルーフ &#x200B;](assets/autogenerate-proofs-350x216.png)
+   ![ プルーフの自動生成](assets/autogenerate-proofs-350x216.png)
 
 1. 「**変更を保存**」をクリックします。
 
 ## 複数のユーザーに対してプルーフを自動的に生成するかどうかを設定
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**ユーザー** ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png)をクリックします。
 1. プルーフアクセス権を持つユーザーを選択し、「**編集**」をクリックします。
 
    >[!IMPORTANT]
@@ -64,7 +65,7 @@ ht-degree: 82%
 
 1. 「**環境設定**」セクションで、**ドキュメントのアップロード中に自動的にプルーフを作成する**&#x200B;チェックボックスをオンにして、「**はい**」または「**いいえ**」を選択します。
 
-   ![&#x200B; 自動生成プルーフの一括 &#x200B;](assets/autogenerate-proofs-bulk-350x285.png)
+   ![ プルーフを一括自動生成](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. 「**変更を保存**」をクリックします。
 

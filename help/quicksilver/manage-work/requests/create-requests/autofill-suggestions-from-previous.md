@@ -7,23 +7,28 @@ feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EJR8tFVdc-sYRL5kXf-Ex9WExL0hcbkhQ1ZwEmpmU-s
+TQID: 'https://experienceleague.adobe.com/EJR8tFVdc-sYRL5kXf-Ex9WExL0hcbkhQ1ZwEmpmU-s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 314
+source-wordcount: '314'
 ht-degree: 23%
-
 ---
-
 # 以前のリクエストのデータを使用して、リクエストを自動補完します
 
 AIは、過去のリクエストにもとづいてリクエストフィールドを自動補完するのに役立ちます。 リクエストを送信する前に、これらの提案を承認または却下できます。
@@ -75,7 +80,7 @@ AIは、過去のリクエストにもとづいてリクエストフィールド
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 1. フィールドへの入力を開始します。
 

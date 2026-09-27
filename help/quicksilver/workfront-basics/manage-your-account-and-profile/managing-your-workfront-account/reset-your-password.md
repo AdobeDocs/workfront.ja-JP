@@ -2,27 +2,32 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: パスワードをリセット
-description: ' [!DNL Adobe Workfront]  パスワードをリセットできます。 重要なセキュリティ対策として、これを定期的に行うことをお勧めします。'
+description: '[!DNL Adobe Workfront] パスワードをリセットできます。 重要なセキュリティ対策として、これを定期的に行うことをお勧めします。'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-TQID: https://experienceleague.adobe.com/RzB4emBXtYily-iMYqSLrbYn7f8JCsUWz8r2SYd0O54
+TQID: 'https://experienceleague.adobe.com/RzB4emBXtYily-iMYqSLrbYn7f8JCsUWz8r2SYd0O54'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 103
+source-wordcount: '104'
 ht-degree: 78%
-
 ---
-
 # パスワードをリセット
 
 >[!NOTE]
@@ -35,7 +40,7 @@ ht-degree: 78%
 
 パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
 
-[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/jp/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
 

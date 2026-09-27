@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/yzpirNfY0Hsp0cbClQA8dFqhgqbpK8ZryIyeq4tBAgw
+TQID: 'https://experienceleague.adobe.com/yzpirNfY0Hsp0cbClQA8dFqhgqbpK8ZryIyeq4tBAgw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 35%
-
+source-wordcount: '460'
+ht-degree: 36%
 ---
-
 # ワークスペースの削除
 
 <!--
@@ -37,7 +45,7 @@ ht-degree: 35%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。 詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+Adobe Workfront プランニングでは、ワークスペースは、チームが作業を計画する一元的な場所です。 詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
 不要になったワークスペースは削除できます。
 
@@ -87,7 +95,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -175,7 +183,7 @@ Old:
 
    * ワークスペースカードにカーソルを合わせ、カードの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします
      または
-   * ワークスペースページの右上隅にある&#x200B;**検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、ワークスペースを名前で検索し、ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします。
+   * ワークスペースページの右上隅にある&#x200B;**検索** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、ワークスペースを名前で検索し、ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします。
 
    >[!TIP]
    >
@@ -186,7 +194,7 @@ Old:
 
 1. 「**削除**」をクリックします。
 
-   ![&#x200B; ワークスペースを完全に削除の確認](assets/permanently-delete-workspace-confirmation.png)
+   ![ ワークスペースを完全に削除の確認](assets/permanently-delete-workspace-confirmation.png)
 
 1. 指定されたスペースに「**delete**」と入力し、**完全に削除**&#x200B;をクリックします。 大文字と小文字を区別しません。
 

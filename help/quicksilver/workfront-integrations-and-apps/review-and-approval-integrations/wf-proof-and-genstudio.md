@@ -8,26 +8,37 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-TQID: https://experienceleague.adobe.com/1UOceajaDUpiW1jweaaQQ0hXMFIkhKf1sb229irQRZg
+TQID: 'https://experienceleague.adobe.com/1UOceajaDUpiW1jweaaQQ0hXMFIkhKf1sb229irQRZg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 8%
-
 ---
-
 # GenStudio for Performance MarketingとWorkfront Proofの連携の詳細
 
 GenStudio for Performance MarketingとWorkfront Proofの連携により、次のことが可能になります
@@ -38,7 +49,7 @@ GenStudio for Performance MarketingとWorkfront Proofの連携により、次の
 
 * 最終承認と公開のために、GenStudio for Performance Marketingでレビューの決定を表示します
 
-GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)を参照してください。
+GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)を参照してください。
 
 
 ## アクセス要件
@@ -91,9 +102,9 @@ GenStudio for Performance Marketingでのレビューと承認について詳し
 
 この統合を有効にするには、システム管理者でなければなりません。
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップ アイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![ セットアップ アイコン ](/help/_includes/assets/gear-icon-setup.png)をクリックします。
 1. 左側のパネルで、**レビューと承認**/**Adobe GenStudio**&#x200B;をクリックします。
-1. **プルーフ承認の使用**&#x200B;を有効にします。
+1. **プルーフ承認の使用**を有効にします。
    ![GenStudio設定のプルーフを有効にする](assets/enable-proofing-gs.png)
 
 ## Workfront プルーフテンプレートを使用した承認ワークフローの定義
@@ -113,7 +124,7 @@ Workfrontでの自動ワークフローとテンプレートの作成につい�
 
 利用者がGenStudio for Performance Marketingでレビューを開始すると、必要なテンプレートを選択するだけです。 レビューアーやステージの追加や削除など、任意のプルーフワークフローテンプレートをいつでも簡単に変更できます。
 
-詳しくは、[&#x200B; レビューと承認のリクエスト &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
+詳しくは、[ レビューと承認のリクエスト ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
 
 ## Workfront プルーフビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
@@ -125,7 +136,7 @@ Workfront プルーフビューアでは、GenStudio for Performance Marketing�
 * 変更が必要な項目を表示するマークアップのドラフト
 * 決定を下す
 
-詳しくは、[&#x200B; コンテンツのレビューと編集](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)を参照してください。
+詳しくは、[ コンテンツのレビューと編集](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)を参照してください。
 
 
 >[!IMPORTANT]
@@ -137,4 +148,4 @@ Workfront プルーフビューアでは、GenStudio for Performance Marketing�
 
 アセットがレビューと承認のプロセスを経ると、レビューの決定を表示し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
 
-詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。
+詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。

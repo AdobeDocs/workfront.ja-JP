@@ -7,24 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fH-P7EmGGbZUe5Eq4T1uVDNTfZeio0b1TuSqwcWvr4s
+TQID: 'https://experienceleague.adobe.com/fH-P7EmGGbZUe5Eq4T1uVDNTfZeio0b1TuSqwcWvr4s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1269
+source-wordcount: '1269'
 ht-degree: 15%
-
 ---
-
 # 2024年第 4 四半期のリリース期間中のルックアンドフィールのアップデート
 
 このページでは、2024年第 4 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートについて説明しています。
@@ -39,13 +46,13 @@ ht-degree: 15%
 
 Workfrontの他の領域のデザインに合わせて、レポートインターフェイスが更新されました。 これらのアップデートには、レポート機能に対する追加の変更が含まれます。
 
-* レポートの条件付き書式設定ルール用に拡張カラーパレットを追加しました。 条件付き書式について詳しくは、[&#x200B; ビューで条件付き書式を使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
-* レポートビルダーで列を編集する際にテキストモードに入るための新しい「テキストモードを編集」ボタンを追加しました。 テキストモードでのレポートビューの編集について詳しくは、[&#x200B; テキストモードを使用したビューの編集](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください
-* レポートのタイトルをクリックして、レポートのタイトルを編集できなくなりました。 レポートアクション/編集をクリックし、タイトルを変更することで、レポートタイトルを編集できます。 レポートの編集について詳しくは、[&#x200B; レポート設定の編集](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)を参照してください。
+* レポートの条件付き書式設定ルール用に拡張カラーパレットを追加しました。 条件付き書式について詳しくは、[ ビューで条件付き書式を使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
+* レポートビルダーで列を編集する際にテキストモードに入るための新しい「テキストモードを編集」ボタンを追加しました。 テキストモードでのレポートビューの編集について詳しくは、[ テキストモードを使用したビューの編集](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください
+* レポートのタイトルをクリックして、レポートのタイトルを編集できなくなりました。 レポートアクション/編集をクリックし、タイトルを変更することで、レポートタイトルを編集できます。 レポートの編集について詳しくは、[ レポート設定の編集](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)を参照してください。
 * グループ化ビルダーで列名をクリックして、グループ化を作成できなくなりました。 レポート内の既存の列に基づいてグループ化を作成するには、「グループ化：フィールドリスト」で対応するフィールドを選択します。 グループ化の作成について詳しくは、[Adobe Workfrontでのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください
 * レポートフィルターインターフェイスに新しい切り替えスイッチを追加し、日付フィールドでフィルタリングする際に、カレンダー日付セレクターと相対日付ワイルドカードテキストフィールドを切り替えました。 さらに、レポートフィルターインターフェイスで相対的な日付ワイルドカードショートカットを選択すると、選択内容に基づいて関連するワイルドカードフィールドが自動的に入力されるようになりました。 レポートフィルターで相対的な日付ワイルドカードを使用する方法について詳しくは、[日付ベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
-* レポートフィルター内のユーザーベースのワイルドカードは、選択したフィールドタイプに基づいて、オートコンプリート用の関連ワイルドカードを提案するようになりました。 レポートフィルターのユーザーベースのワイルドカードについて詳しくは、[&#x200B; ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
-* 公開共有リンクを介してアクセスするすべてのユーザーに対してプロンプトを適用することなく、公開共有されたプロンプトを含むレポートが表示されるようになりました。 レポートに直接アクセスするログイン済みユーザーは、引き続きプロンプトを適用できます。 レポートプロンプトについて詳しくは、[&#x200B; レポートへのプロンプトの追加](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。
+* レポートフィルター内のユーザーベースのワイルドカードは、選択したフィールドタイプに基づいて、オートコンプリート用の関連ワイルドカードを提案するようになりました。 レポートフィルターのユーザーベースのワイルドカードについて詳しくは、[ ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
+* 公開共有リンクを介してアクセスするすべてのユーザーに対してプロンプトを適用することなく、公開共有されたプロンプトを含むレポートが表示されるようになりました。 レポートに直接アクセスするログイン済みユーザーは、引き続きプロンプトを適用できます。 レポートプロンプトについて詳しくは、[ レポートへのプロンプトの追加](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。
 * Canvas ダッシュボードとの互換性を向上させるために、既存のレポートに変更を加えました。
 
 _これらの更新プログラムは、2024年10月17日の24.10 リリース以降、実稼動環境で段階的に実装されています。 最初は少数のお客様のみが変更を利用でき、2024年11月8日までにすべての顧客が完全に利用できるようになるまで、時間の経過とともに利用できるようになります。_
@@ -58,10 +65,10 @@ _これらの更新プログラムは、2024年10月17日の24.10 リリース�
 
 Workfrontの他の領域のデザインに合わせて、ダッシュボードインターフェイスが更新されました。 これらのアップデートには、ダッシュボード機能に対する追加の変更が含まれています。
 
-* ダッシュボードを印刷する際の印刷プレビュー画面を改善しました。 ダッシュボードの印刷について詳しくは、[&#x200B; ダッシュボードの印刷](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)を参照してください。
-* ダッシュボードエディターの「使用可能なレポートとカレンダー」の「すべて」、「レポート」および「カレンダー」タブが削除されました。 ダッシュボードへのレポートとカレンダーの追加について詳しくは、[&#x200B; ダッシュボードの編集](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)を参照してください。
+* ダッシュボードを印刷する際の印刷プレビュー画面を改善しました。 ダッシュボードの印刷について詳しくは、[ ダッシュボードの印刷](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)を参照してください。
+* ダッシュボードエディターの「使用可能なレポートとカレンダー」の「すべて」、「レポート」および「カレンダー」タブが削除されました。 ダッシュボードへのレポートとカレンダーの追加について詳しくは、[ ダッシュボードの編集](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)を参照してください。
 
-ダッシュボードの一般的な情報については、[&#x200B; ダッシュボードの作成と管理](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)を参照してください。
+ダッシュボードの一般的な情報については、[ ダッシュボードの作成と管理](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)を参照してください。
 
 _これらの更新プログラムは、2024年10月17日の24.10 リリース以降、実稼動環境で段階的に実装されています。 最初は少数のお客様のみが変更を利用でき、2024年11月8日までにすべての顧客が完全に利用できるようになるまで、時間の経過とともに利用できるようになります。_
 
@@ -73,8 +80,8 @@ _これらの更新プログラムは、2024年10月17日の24.10 リリース�
 
 Workfrontの他の領域のデザインに合わせて、リスト内のビュー、グループ化、従来のフィルターインターフェイスを更新しました。 これらの更新には、リストのビュー、グループ化、レガシーフィルターに対する追加の変更が含まれます。
 
-* レポートの条件付き書式設定ルール用に拡張カラーパレットを追加しました。 条件付き書式について詳しくは、[&#x200B; ビューで条件付き書式を使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
-* 新しいビューの作成中に列を編集する際にテキストモードに入るための新しい「テキストモードを編集」ボタンを追加しました。 テキストモードでのビューの編集について詳しくは、[&#x200B; テキストモードを使用したビューの編集](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください。
+* レポートの条件付き書式設定ルール用に拡張カラーパレットを追加しました。 条件付き書式について詳しくは、[ ビューで条件付き書式を使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
+* 新しいビューの作成中に列を編集する際にテキストモードに入るための新しい「テキストモードを編集」ボタンを追加しました。 テキストモードでのビューの編集について詳しくは、[ テキストモードを使用したビューの編集](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください。
 * レガシーフィルターインターフェイスに新しい切り替えスイッチを追加し、日付フィールドでフィルタリングする際に、カレンダー日付セレクターと相対日付ワイルドカードテキストフィールドを切り替えることができました。 さらに、レポートフィルターインターフェイスで相対的な日付ワイルドカードショートカットを選択すると、選択内容に基づいて関連するワイルドカードフィールドが自動的に入力されるようになりました。
 * 従来のフィルターのユーザーベースのワイルドカードは、選択したフィールドタイプに基づいて、オートコンプリート用の関連ワイルドカードを提案するようになりました。 従来のフィルターの使用について詳しくは、[Adobe Workfrontでのフィルターの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
@@ -88,7 +95,7 @@ _これらの更新プログラムは、2024年10月17日の24.10 リリース�
 
 設定/システム/環境設定ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 
-詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 ## ユーザーの削除とユーザーメッセージの非アクティブ化に関するルックアンドフィール更新
 
@@ -98,7 +105,7 @@ _これらの更新プログラムは、2024年10月17日の24.10 リリース�
 
 ユーザーを削除または非アクティブ化する際にユーザーに表示されるユーザーの削除と非アクティブ化の確認メッセージが、Workfrontの他の領域と一致する、より現代的なデザインに更新されました。
 
-ユーザーの削除と非アクティブ化について詳しくは、[&#x200B; ユーザーの削除](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)および[&#x200B; ユーザーの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
+ユーザーの削除と非アクティブ化について詳しくは、[ ユーザーの削除](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)および[ ユーザーの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
 ## リソースプールページのルックアンドフィールの更新
 
@@ -108,7 +115,7 @@ _これらの更新プログラムは、2024年10月17日の24.10 リリース�
 
 Workfrontの他の領域と一致する、より現代的なデザインのリソースプールページを更新しました。
 
-詳しくは、[&#x200B; リソースプールの作成](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
+詳しくは、[ リソースプールの作成](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
 ## 「タスクを削除」メッセージのルックアンドフィールの更新
 
@@ -118,7 +125,7 @@ Workfrontの他の領域と一致する、より現代的なデザインのリ�
 
 タスクを削除する際にユーザーに表示される「タスクを削除」の確認メッセージが、Workfrontの他の領域と一致する、より現代的なデザインに更新されました。
 
-タスクの削除について詳しくは、[&#x200B; タスクの削除](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)を参照してください。
+タスクの削除について詳しくは、[ タスクの削除](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)を参照してください。
 
 ## 通知ページのルックアンドフィールの更新
 
@@ -128,4 +135,4 @@ Workfrontの他の領域と一致する、より現代的なデザインのリ�
 
 Workfrontの他の領域と一致する、より現代的なデザインの通知ページ（メインツールバーの通知アイコンをクリックし、「すべての通知」をクリックして到達）を更新しました。
 
-詳しくは、[&#x200B; アプリ内通知の表示と管理](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。
+詳しくは、[ アプリ内通知の表示と管理](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。

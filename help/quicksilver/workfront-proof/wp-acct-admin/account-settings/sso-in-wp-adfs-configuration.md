@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof] のシングルサインオン：AD FS 設定'
+title: '[!DNL Workfront Proof] でのシングルサインオン：AD FS の設定'
 description: AD サーバーの管理者は、AD FS をインストールして設定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+TQID: 'https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 769
-ht-degree: 87%
-
+source-wordcount: '963'
+ht-degree: 86%
 ---
-
 # [!DNL Workfront Proof] でのシングルサインオン：AD FS の設定
 
 >[!IMPORTANT]
@@ -41,25 +52,25 @@ AD サーバーの管理者は、AD FS をインストールして設定でき�
 1. AD サーバー上の IIS をインターネットに公開しない場合（HTTP と HTTPS のポート 80 と 443）、まず、ファイアウォールの背後にフェデレーションサーバーを設定し、次に、ファイアウォールを介してフェデレーションサーバーに要求を渡す 2 つ目のフェデレーションサーバープロキシを作成します。
 1. AD FS の設定が完了したら、「**[!UICONTROL AD FS 2.0 管理スナップインを開始する]**」を選択し、次に「**[!UICONTROL 完了]**」をクリックします。 これが完了したら、AD FS 2.0 管理ウィンドウがすぐに開きます。 表示されない場合は、**[!UICONTROL 開始]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL AD FS 2.0 管理]**&#x200B;から開くことができます。 これは、メインの AD FS 制御アプリケーションです。
 
-1. まず、AD FS 2.0 フェデレーション サーバー設定ウィザードをクリックします。
-これにより、AD FSを設定し、IIS経由でインターネットとADの両方に接続できます。
+1. 「AD FS 2.0 フェデレーションサーバー設定ウィザード」をクリックして開始します。
+これにより、AD FS を設定し、IIS 経由のインターネットと AD の両方に接続することができます。
 1. 新しい AD FS サーバーを設定する場合は、「**[!UICONTROL 新しいフェデレーションサービ®スを作成]**」を選択します。
 1. 「**[!UICONTROL スタンドアロンフェデレーションサーバー]**」を選択します（テストおよび評価の目的で使用）。
 
 1. 高可用性と負荷分散を実現するには、「新しいフェデレーションサーバーファーム」をクリックします。
 1. フェデレーションサービス名を指定します。
-既定では、構成ウィザードはIISの既定のWeb サイトにバインドされたSSL証明書を取得し、そこで指定されたサブジェクト名を使用します。ワイルドカード証明書を使用する場合は、フェデレーションサービス名を入力する必要があります。
-IISでSSL証明書が設定されていない場合、設定ウィザードはローカルコンピューターの証明書ストアで有効な証明書を検索します。これらは、SSL証明書ドロップダウンに表示されます。証明書が見つからない場合は、IISのサーバー証明書ジェネレーターを使用して証明書を作成できます。
+デフォルトでは、構成ウィザードは IIS のデフォルト web サイトにバインドされた SSL 証明書を取得し、そこで指定されたサブジェクト名を使用します。 ワイルドカード証明書を使用する場合は、フェデレーションサービス名を入力する必要があります。
+IIS で SSL 証明書が設定されていない場合、設定ウィザードはローカルコンピューターの証明書ストアで有効な証明書を検索します。 これらは、SSL 証明書ドロップダウンに表示されます。 証明書が見つからない場合は、IIS の Server Certificate Generator を使用して証明書を作成できます。
 
 1. 設定を続行し、完了したら「**[!UICONTROL 閉じる]**」をクリックします。
 
 ## [!DNL Workfront Proof] シングルサインオンの設定
 
-[!DNL Workfront Proof] 管理者の場合、[!DNL Workfront Proof] 側でシングルサインオンを設定できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) でのシングルサインオンを参照してください。
+[!DNL Workfront Proof] 管理者の場合、[!DNL Workfront Proof] 側でシングルサインオンを設定できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) でのシングルサインオンを参照してください。
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**&#x200B;をクリックし、「**[!UICONTROL シングルサインオン]**」タブをクリックします。
 
-1. **SSO URL** ボックスに、エンティティ IDを貼り付けます。
+1. **SSO URL** ボックスに、自分のエンティティ ID を貼り付けます。
 エンティティ IDの例を次に示します。
 http://*&lt;adfs.your-company.com>*/adfs/services/trust
 エンティティ IDは、フェデレーション メタデータ XML ファイルにあります。
@@ -72,7 +83,7 @@ http://*&lt;adfs.your-company.com>*/adfs/services/trust
 1. このリンクは、フェデレーションメタデータ XML ファイルにあります。
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. 「**[!UICONTROL ログアウト URL]**」ボックスに、リンクを入力して保存します。
+1. 「**[!UICONTROL ログアウト URL]**」ボックスにリンクを入力し、保存します。
 ログアウト URLの例を次に示します。
 https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
@@ -97,7 +108,7 @@ https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
 1. **[!UICONTROL 信頼関係]**／**[!UICONTROL 証明書利用者の信頼]**&#x200B;フォルダーに移動し、「**[!UICONTROL 証明書利用者の信頼を追加]**」をクリックして、設定ウィザードを開始します。
 
-1. データソースの選択：
+1. データソースを選択します。
 お使いの[!DNL ProofHQ] アカウントのすべてのメタデータは、次のようなリンクの下にあります。
 https://`<yoursubdomain*>`.proofhq.com/saml/module.php/saml/sp/metadata.php/phq
 これにより、信頼者信頼のほとんどが設定されます。

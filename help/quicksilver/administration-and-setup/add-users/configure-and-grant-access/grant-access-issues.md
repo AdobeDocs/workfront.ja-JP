@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-TQID: https://experienceleague.adobe.com/Yrk-mcz0bSCRfklzaQN8ltT2inT25U6rRzTak4ItMDw
+TQID: 'https://experienceleague.adobe.com/Yrk-mcz0bSCRfklzaQN8ltT2inT25U6rRzTak4ItMDw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 98%
-
 ---
-
 # イシューへのアクセスを許可
 
 Adobe Workfront 管理者は、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明されるように、イシューに対するユーザーのアクセスを定義するために、アクセスレベルを使用できます。
@@ -65,7 +69,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
    ![問題設定の微調整](assets/fine-tune-issues.png)
 
-1. （オプション）上位のオブジェクトからのタスクに継承された権限を制限するには、「**追加制限を設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権を継承しない**」を選択します。
+1. （オプション）上位ランキングのオブジェクトからのタスクに継承された権限を制限するには、「**追加制限を設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権を継承しない**」を選択します。
 
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
 1. 完了したら「**保存**」をクリックします。

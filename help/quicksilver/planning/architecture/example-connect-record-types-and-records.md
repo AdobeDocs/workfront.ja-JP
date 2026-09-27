@@ -1,24 +1,31 @@
 ---
 title: レコードタイプとレコードの接続の例
-description: ここでは、Adobe Workfront計画レコードタイプとWorkfront プロジェクトオブジェクトタイプの間の接続を作成する方法の例について説明します。 また、Workfront Planning レコードを個々のプロジェクトに接続する方法についても説明します。
+description: ここでは、Adobe Workfront計画レコードタイプとWorkfront プロジェクトオブジェクトタイプの間の接続を作成する方法の例について説明します。 また、Workfront プランニングレコードを個々のプロジェクトに接続する方法についても説明します。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+TQID: 'https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2188
+source-wordcount: '2188'
 ht-degree: 64%
-
 ---
-
 # レコードタイプとレコードの接続例
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
@@ -29,16 +36,16 @@ ht-degree: 64%
 
 この記事では、次の例を説明します。
 
-* 2 つの Workfront Planning レコードタイプと 2 つのレコード間の接続を作成する方法。
+* 2 つの Workfront プランニングレコードタイプと 2 つのレコード間の接続を作成する方法。
 
-* Workfront Planning レコードタイプと Workfront プロジェクトオブジェクトタイプの間の接続、およびレコードとプロジェクトの間の接続を作成する方法。
+* Workfront プランニングレコードタイプと Workfront プロジェクトオブジェクトタイプの間の接続、およびレコードとプロジェクトの間の接続を作成する方法。
 
 詳しくは、次の記事も参照してください。
 
 * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 
-## 2 つの Workfront Planning レコードタイプとレコードを接続（例）
+## 2 つの Workfront プランニングレコードタイプとレコードを接続（例）
 
 例えば、元のレコードタイプとして「キャンペーン」という名前のレコードタイプがあるとします。
 
@@ -92,7 +99,7 @@ ht-degree: 64%
 
 1. （条件付き）検索フィールドを追加&#x200B;**ボックスを開いた場合は、**&#x200B;予算&#x200B;**フィールドの**+**アイコンをクリックし、** フィールドを追加&#x200B;**をクリックします。**&#x200B;これにより、**予算（製品情報から）**&#x200B;というフィールドが作成されます。これは、リンクされたフィールドの名前です。 製品予算の情報は、キャンペーンレコードのこのフィールドに表示されます。
 
-   ![&#x200B; レコードタイプ &#x200B;](assets/add-fields-for-budget-field-for-connector-with-record-type.png)の接続用の予算フィールドのフィールドを追加
+   ![ レコードタイプ ](assets/add-fields-for-budget-field-for-connector-with-record-type.png)の接続用の予算フィールドのフィールドを追加
 
    >[!TIP]
    >
@@ -115,13 +122,13 @@ ht-degree: 64%
 
    >[!TIP]
    >
-   >    リンクされたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
+   >    リンクされたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
 
 1. **キャンペーン**&#x200B;レコードタイプテーブルビューから、「キャンペーン」レコードタイプページのテーブルに新しい行を追加して、キャンペーンを作成します。
 
 1. 新しいキャンペーンの&#x200B;**製品情報**&#x200B;列内をダブルクリックします。
 
-   ![&#x200B; テーブルビュー内の他のレコードの小さいボックスを接続](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![ テーブルビュー内の他のレコードの小さいボックスを接続](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -131,7 +138,7 @@ ht-degree: 64%
 
 1. （条件付き）前の手順で「**すべて表示**」をクリックした場合、「**オブジェクトを接続**」ボックスが表示されます。
 
-   ![&#x200B; レコードの接続されたオブジェクト テーブル &#x200B;](assets/connected-objects-table-for-records.png)
+   ![ レコードの接続されたオブジェクト テーブル ](assets/connected-objects-table-for-records.png)
 
 1. 検索ボックスに製品の名前を入力していき、リストに名前が表示されたら選択します。
 
@@ -147,7 +154,7 @@ ht-degree: 64%
    * **製品情報**&#x200B;フィールドには、選択した製品がキャンペーンレコードに入力されます。
    * **予算（製品情報から）**&#x200B;フィールドには、選択した各製品の予算値か、（アグリゲーターに「SUM」を選択した場合）選択したすべての製品の予算の合計が入力されます。
 
-   ![&#x200B; キャンペーンレコードテーブルの製品情報と予算関係フィールドの例](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![ キャンペーンレコードテーブルの製品情報と予算関係フィールドの例](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -156,7 +163,7 @@ ht-degree: 64%
 1. **製品**&#x200B;テーブルビューから&#x200B;**キャンペーン**&#x200B;フィールドにデータを入力するには、「製品」レコードタイプテーブルビューから始めてキャンペーン情報を選択する手順 5～7 を繰り返します。 これにより、キャンペーンレコードタイプページのテーブルの「製品情報」フィールドも更新されます。<!--ensure the step numbers remain correct-->
 
 
-## Workfront Planning レコードタイプと Workfront プロジェクトオブジェクトタイプ、およびレコードと個別のプロジェクトを接続する
+## Workfront プランニングレコードタイプと Workfront プロジェクトオブジェクトタイプ、およびレコードと個別のプロジェクトを接続する
 
 >[!IMPORTANT]
 >
@@ -166,7 +173,7 @@ ht-degree: 64%
 
 また、Workfront には「予定収益」と呼ばれるフィールドを持つプロジェクトがあります。
 
-キャンペーンのレコードタイプで接続フィールドを作成し、そこで Workfront Planning のキャンペーンに接続されている Workfront のプロジェクトの予定収益フィールドの値を表示したい場合は、次の操作を行います。
+キャンペーンのレコードタイプで接続フィールドを作成し、そこで Workfront プランニングのキャンペーンに接続されている Workfront のプロジェクトの予定収益フィールドの値を表示したい場合は、次の操作を行います。
 
 手順は次のとおりです。
 
@@ -186,7 +193,7 @@ ht-degree: 64%
    * **この条件に一致するオブジェクトのみをリンク**: **カスタムフォーム** ドロップダウンメニューからカスタムフォームを選択します。 指定されたフォームに関連付けられているプロジェクトのみが、キャンペーンに接続できます。 複数のフォームを選択できます。
    * **ルックアップフィールドを選択**：このオプションを選択したままにすると、「**ルックアップフィールドを追加**」ボックスが開き、製品フィールドをキャンペーンレコードタイプにリンクできるようになります。 「**スキップ**」をクリックしてこの手順をスキップし、製品フィールドを後で追加することができます。
 
-   ![Workfront オプションを使用した新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-option.png)
+   ![Workfront オプションを使用した新しい接続タブ ](assets/new-connection-tab-with-workfront-option.png)
 
 1. （条件付き）前の手順で&#x200B;**ルックアップフィールドを選択**」オプションを選択した場合、**プロジェクト**&#x200B;オブジェクトタイプに関連付けられたフィールドのリストから&#x200B;**予定収益**&#x200B;フィールドの **+** をクリックし、**フィールドを追加**&#x200B;をクリックします。 これにより&#x200B;**予定収益（プロジェクト情報から）**&#x200B;というフィールドが作成されます。これは、リンクされたフィールドの名前です。 プロジェクト予定収益フィールドのすべての情報は、キャンペーンレコードのこのフィールドに自動的に表示されます。
 
@@ -207,13 +214,13 @@ ht-degree: 64%
 
    >[!TIP]
    >
-   >    リンクされたオブジェクトフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
+   >    リンクされたオブジェクトフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
 
 1. **キャンペーン**&#x200B;レコードタイプテーブルビューから、テーブルに新しい行を追加してキャンペーンを作成します。
 
 1. 新しいキャンペーンのプロジェクト情報**列をダブルクリックします。
 
-   ![&#x200B; テーブル内のプロジェクトの小さいボックスを接続](assets/connect-projects-smaller-box-in-table.png)
+   ![ テーブル内のプロジェクトの小さいボックスを接続](assets/connect-projects-smaller-box-in-table.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -241,7 +248,7 @@ ht-degree: 64%
      * **プロジェクト情報**&#x200B;フィールドに、選択したプロジェクトのキャンペーンレコードが入力されます。
      * **予定収益（製品情報から）**&#x200B;フィールドに、選択した各製品の予算値が入力されます。 これは読み取り専用フィールドです。
 
-   ![&#x200B; キャンペーンテーブルのプロジェクトリンクされたフィールドと予定収益が強調表示されている](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![ キャンペーンテーブルのプロジェクトリンクされたフィールドと予定収益が強調表示されている](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

@@ -10,22 +10,26 @@ role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A
+TQID: 'https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 75%
-
 ---
-
 # プロジェクトへのアクセスを許可
 
 <!-- Audited: 12/2023 -->
@@ -69,17 +73,17 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プロジ�
 ## カスタムアクセスレベルを使用してプロジェクトへのユーザーのアクセス権を設定
 
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
-1. プロジェクトの右側にある&#x200B;**表示**&#x200B;または&#x200B;**編集** ボタンの歯車アイコン ![歯車設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックし、**設定を微調整**&#x200B;で付与する機能を選択します。
+1. プロジェクトの右側にある&#x200B;**表示**&#x200B;または&#x200B;**編集** ボタンの歯車アイコン ![歯車設定アイコン ](assets/gear-icon-settings.png)をクリックし、**設定を微調整**&#x200B;で付与する機能を選択します。
 
-   ![&#x200B; プロジェクトのコピーの設定を微調整](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![ プロジェクトのコピーの設定を微調整](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >
    >* 作業ライセンスを持つユーザーは、限られたプロジェクト権限を持ちます。 プロジェクトに参加することはできますが、管理はできません。
    >* レビューライセンスを持つユーザーは、変換されたイシューからのプロジェクトに対する表示権限を持ちますが、その表示権限は制限されています。
    >* ユーザーが他のユーザーとプロジェクトを共有する際に付与できる権限について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
-   >* 特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーが自分のアクセスレベルでプロジェクトを削除することを制限できますが、これにより、プロジェクトよりもランクの低いタスクの削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[&#x200B; オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
-   >* アクセス レベルが財務データへのアクセスを許可していないユーザーは、他のユーザーが財務データを表示できるようにするアクセスを許可できません。 これには、財務データを表示するプロジェクトへのアクセス権を与えたり、財務データを表示できるようにアクセスレベルを変更したりすることが含まれます。
+   >* 特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランキングのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーが自分のアクセスレベルでプロジェクトを削除することを制限できますが、これにより、プロジェクトよりもランクの低いタスクの削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[ オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
+   * アクセス レベルが財務データへのアクセスを許可していないユーザーは、他のユーザーが財務データを表示できるようにするアクセスを許可できません。 これには、財務データを表示するプロジェクトへのアクセス権を与えたり、財務データを表示できるようにアクセスレベルを変更したりすることが含まれます。
 
 
 1. （オプション）「作成」オプションの右側にある&#x200B;**共有のデフォルトを設定**&#x200B;をクリックし、続いて&#x200B;**ルールを追加**&#x200B;をクリックして、新しいプロジェクト用の共有ルールを追加します。
@@ -106,7 +110,7 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プロジ�
 
 ## ライセンスタイプ別プロジェクトへのアクセス
 
-各アクセスレベルのユーザーがプロジェクトで実行できる処理について詳しくは、記事[各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の「[&#x200B; プロジェクト &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)」の節を参照してください。
+各アクセスレベルのユーザーがプロジェクトで実行できる処理について詳しくは、記事[各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の「[ プロジェクト ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects)」の節を参照してください。
 
 ## 共有プロジェクトへのアクセス権
 

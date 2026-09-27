@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM
+TQID: 'https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 86%
-
 ---
-
 # レポートへのアクセスと整理
 
 Adobe Workfront のレポートを使用すると、システム内のオブジェクトの情報を確認したり編集したりすることができます。 独自のレポートを作成し、作成したレポートを整理し、自分に共有されたレポートや公開されているレポートを表示することができます。
@@ -66,7 +71,7 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 自分が作成した、または自分と共有されている、または一般に共有されているレポートにアクセスするには、次の手順を実行します。
 
-1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)から、**レポート**&#x200B;をクリックします。
+1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)から、**レポート**&#x200B;をクリックします。
 
 1. 表示するレポートに応じて、次のいずれかのオプションをクリックします。
 
@@ -83,10 +88,10 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ### レポート用の新しいフォルダーを作成 {#create-a-new-folder-for-reports}
 
-1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)から、**レポート**&#x200B;をクリックします。
+1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)から、**レポート**&#x200B;をクリックします。
 
 1. 「**新規フォルダー**」アイコンをクリックします。\
-   ![新しいフォルダーアイコン &#x200B;](assets/nwe-new-folder-350x346.png)
+   ![新しいフォルダーアイコン ](assets/nwe-new-folder-350x346.png)
 
 1. 新しいフォルダーの名前を指定し、Enter キーを押します。
 1. **マイレポート**&#x200B;フォルダーから新しいフォルダーにレポートを追加します。\
@@ -98,17 +103,17 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ### フォルダーへレポートを追加 {#add-reports-to-a-folder}
 
-1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)から、**レポート**&#x200B;をクリックします。
+1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)から、**レポート**&#x200B;をクリックします。
 
 1. 「**マイレポート**」をクリックします。\
    または\
    **マイレポート**&#x200B;フォルダーにネストされている任意のフォルダーをクリックします。
 
-1. レポートを選択し、リストの上部にあるフォルダーアイコン ![&#x200B; フォルダーアイコン &#x200B;](assets/folder-icon.png)をクリックします。
+1. レポートを選択し、リストの上部にあるフォルダーアイコン ![ フォルダーアイコン ](assets/folder-icon.png)をクリックします。
 
 1. レポートを追加するフォルダーを選択します。
 
-   ![&#x200B; レポートを移動するフォルダーを選択](assets/choose-folder.png)
+   ![ レポートを移動するフォルダーを選択](assets/choose-folder.png)
 
    >[!NOTE]
    >

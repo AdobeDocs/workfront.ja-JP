@@ -4,13 +4,20 @@ description: 2026年第3四半期プロジェクトの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
-
 ---
-
 # 2026年第3四半期プロジェクトの機能強化
 
 このページでは、2026年第3四半期リリースのプレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
@@ -23,13 +30,17 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）高速リリースの実稼動：2026年6月11日（PT）四半期リリースの生産：2026年6月11日（PT）スケジュール外&rbrack;{type=Neutral}
+>プレビュー：2026年6月11日（PT）
+>高速リリースの実稼動：2026年6月11日（PT）
+>四半期リリースの生産：2026年6月11日（PT）
+>[!BADGE スケジュール外]{type=Neutral}
 
-組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。この場合、ドキュメントとドキュメントの承認は、新しく作成したプロジェクトに転送するのではなく、親オブジェクトに残ります。
+組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。
+この場合、ドキュメントとドキュメントの承認は、新しく作成したプロジェクトに転送するのではなく、親オブジェクトに残ります。
 
 以前は、タスクをプロジェクトに変換するには、同じストレージタイプを使用する必要がありました。
 
-詳しくは、[&#x200B; タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
+詳しくは、[ タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
 
 ## 従来のストレージテンプレートを使用して、Adobe クラウドストレージプロジェクトを作成する
 
@@ -39,7 +50,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）すべての人のための制作：2026年6月11日
+>プレビュー：2026年6月11日（PT）
+>すべての人のための制作：2026年6月11日
 
 組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージテンプレートを使用して、次のシナリオでAdobe クラウドストレージプロジェクトを作成できるようになりました。
 
@@ -48,7 +60,7 @@ ht-degree: 5%
 
 以前は、レガシーストレージテンプレートは、レガシーストレージプロジェクトの作成にのみ使用できました。
 
-詳しくは、[&#x200B; プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+詳しくは、[ プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
 
 
 

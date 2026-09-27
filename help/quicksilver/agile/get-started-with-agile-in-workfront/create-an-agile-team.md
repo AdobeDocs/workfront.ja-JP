@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo
+TQID: 'https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
-ht-degree: 55%
-
+source-wordcount: '1039'
+ht-degree: 59%
 ---
-
 # アジャイルチームの作成
 
 <!--Audited: 01/2024-->
@@ -34,9 +41,9 @@ ht-degree: 55%
 
 [!DNL Workfront]は次のアジャイル手法をサポートしています。
 
-* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。 チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。 スクラムチームの管理について詳しくは、「[&#x200B; アジャイルチームのスクラム &#x200B;](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)」を参照してください。
+* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。 チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。 スクラムチームの管理について詳しくは、「[ アジャイルチームのスクラム ](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)」を参照してください。
 
-* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。 デフォルトのステータスは、バックログ、処理中、完了です。 カンバンチームの管理について詳しくは、[&#x200B; アジャイルチームでのカンバン &#x200B;](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)を参照してください。
+* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。 デフォルトのステータスは、バックログ、処理中、完了です。 カンバンチームの管理について詳しくは、[ アジャイルチームでのカンバン ](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)を参照してください。
 
 ## アクセス要件
 
@@ -80,13 +87,13 @@ ht-degree: 55%
 以下の機能が、この方法論をサポートします。
 
 * バックログを[!DNL Kanban] アジャイルストーリーボードに表示します。
-詳しくは、[&#x200B; バックログを[!UICONTROL &#x200B; カンバン &#x200B;] ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
+詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* 他のアイテムが完了と等しいステータスに移動されると、バックログ上のアイテムを自動的に[!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードに追加するように設定します。
-詳細については、[&#x200B; カンバンの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事[&#x200B; バックログから自動的に追加するストーリーの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)を参照してください。
+* 他のアイテムが完了と等しいステータスに移動されると、バックログ上のアイテムを自動的に[!UICONTROL  カンバン ] アジャイルストーリーボードに追加するように設定します。
+詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* [!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードに表示する進行中の作業（WIP）制限を設定します。
-詳しくは、[&#x200B; カンバンボードの進行中の作業（WIP）制限の管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
+* [!UICONTROL  カンバン ] アジャイルストーリーボードに表示する進行中の作業（WIP）制限を設定します。
+詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
 ### [!DNL Workfront] でスクラムを使用するメリット
 
@@ -165,7 +172,7 @@ ht-degree: 55%
 1. アジャイルチームに転換するチームを選びます。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
    ![編集を選択](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。

@@ -9,15 +9,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 1%
-
 ---
-
 # ビジネスプロファイル概要
 
 {{highlighted-preview}}
@@ -41,7 +48,7 @@ Workfront システム管理者：
 
 >[!BEGINSHADEBOX]
 
-Samは、代理店Aと代理店Bのために、プロジェクトへの異なるアクセスを必要としています。両機関はWorkfrontに団体として設立されている。 （グループについて詳しくは、[&#x200B; グループの概要](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md)を参照してください）。
+Samは、代理店Aと代理店Bのために、プロジェクトへの異なるアクセスを必要としています。両機関はWorkfrontに団体として設立されている。 （グループについて詳しくは、[ グループの概要](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md)を参照してください）。
 
 代理店Aでは、Samは財務管理者として行動し、プロジェクトのすべての財務フィールドを確認するためのアクセスを必要としています。 エージェンシーBでは、Samがプロジェクトマネージャーを務めており、タスクと問題を管理する必要がありますが、財務情報を表示することはできません。
 
@@ -75,7 +82,7 @@ Workfront システム管理者は、グループとアクセスレベルを選�
 
 <!--image?-->
 
-詳しくは、[&#x200B; ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。<!--may be separate article now since it's not in the profile-->
+詳しくは、[ ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。<!--may be separate article now since it's not in the profile-->
 
 ### レイアウトテンプレートのアクセスレベルへの割り当て
 
@@ -109,9 +116,9 @@ Workfront システム管理者は、レイアウトテンプレートをアク�
 
 ビジネスプロファイルに複数のアクセスレベルがある場合、アクセス量が最も多いレベルが優先されます。
 
-共有について詳しくは、[&#x200B; オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
+共有について詳しくは、[ オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 
-アクセス レベルと権限の連携について詳しくは、[&#x200B; アクセス レベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
+アクセス レベルと権限の連携について詳しくは、[ アクセス レベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
 
 ## ビジネスプロファイルに関する考慮事項
 

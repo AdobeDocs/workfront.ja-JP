@@ -6,22 +6,26 @@ description: '[!UICONTROL プロジェクト詳細]画面にウィジェット�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 99%
-
 ---
-
 # [!UICONTROL プロジェクト詳細]ビューでウィジェットを更新
 
 [!UICONTROL プロジェクト詳細]画面にウィジェットを追加して、プロジェクトリストから[!UICONTROL プロジェクト]にアクセスしたら、そのプロジェクトに関する追加情報を確認できます。 各ユーザーは、自身のウィジェットをカスタマイズできます。
@@ -59,7 +63,7 @@ ht-degree: 99%
 1. 画面中央の下部にあるタブをタップします。\
    [!UICONTROL ウィジェット]エリアが表示されます。\
    ウィジェットをスクロールするには、左から右にスワイプします。\
-   ![&#x200B; ウィジェット &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ ウィジェット ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. ウィジェットをドラッグ＆ドロップして、プロジェクトページのレイアウトをカスタマイズします。\
    一度に最大 4 つのウィジェットを表示できます。\
@@ -78,8 +82,8 @@ ht-degree: 99%
    * **[!UICONTROL タスク進行状況]**：プロジェクト内のすべてのタスクを、[!UICONTROL 進捗状態]別に円グラフで表示します。
    * **[!UICONTROL 予定タスク]**：予定タスクを最大 6 つ表示します。 ウィジェットは、プロジェクトのタスクを次の順序で並べ替えます。
 
-      * 最初に、[!UICONTROL 推定期限]
-      * 2番目に、[!UICONTROL 作業分割構造]
+     * 最初に、[!UICONTROL 推定期限]
+     * 2番目に、[!UICONTROL 作業分割構造]
 
      最後に完了した 2 つのタスク（該当する場合）と、次の 4 つのタスクが表示されます。 どのタスクが [!DNL Workfront] View モバイルアプリに表示されるか把握するには、表示しているプロジェクトのタスクレポートを作成し、推定期限別に並べ替えて、次に [!DNL Workfront] 分類構造で並べ替えます。 最初の 6 つのタスクが、Workfront View モバイルアプリの[!UICONTROL 予定]タスクウィジェットに一覧表示されるタスクです。
 
@@ -88,17 +92,17 @@ ht-degree: 99%
 
      [!DNL Workfront View] では、次のドキュメント形式を開くことができます。
 
-      * すべてのテキストファイル
-      * .pdf
-      * 画像ファイル（.jpg、.jpeg、.png など）
-      * .xls
+     * すべてのテキストファイル
+     * .pdf
+     * 画像ファイル（.jpg、.jpeg、.png など）
+     * .xls
    * **[!UICONTROL 詳細]**：プロジェクトに関する次の詳細を表示します。
 
-      * プロジェクト名
-      * プロジェクトの作成者の名前
-      * プロジェクトのステータス
-      * プロジェクトグループ
-      * プロジェクトスケジュール
+     * プロジェクト名
+     * プロジェクトの作成者の名前
+     * プロジェクトのステータス
+     * プロジェクトグループ
+     * プロジェクトスケジュール
    * **[!UICONTROL チーム]**：プロジェクトチームに属しているユーザーの名前が表示されます。
 
      プロジェクトチームについて詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。

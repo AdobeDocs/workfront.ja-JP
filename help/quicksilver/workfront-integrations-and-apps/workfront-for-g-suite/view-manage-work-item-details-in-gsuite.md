@@ -2,34 +2,41 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: Google Workspaceからの [!DNL Adobe Workfront]  オブジェクトの詳細の表示と管理
-description: Google Workspaceを離れることなく、作業項目の詳細を表示および管理できます。 例えば、Google Workspaceでは、 [!DNL Adobe Workfront] 内でタスクの説明を読み取り、親オブジェクトを表示し、ステータスを変更し、完了としてマークできます。
+title: Google Workspaceから[!DNL Adobe Workfront] オブジェクトの詳細を表示および管理する
+description: Google Workspaceを離れることなく、作業項目の詳細を表示および管理できます。 例えば、タスクの説明を読み取り、親オブジェクトを表示し、ステータスを変更して、完了としてマークできます。これらはすべて、Google Workspaceの[!DNL Adobe Workfront]内で行うことができます。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0kNm1im-t00FReGTxaD0q9dUVqgtaB9-nm--VrGF79k
+TQID: 'https://experienceleague.adobe.com/0kNm1im-t00FReGTxaD0q9dUVqgtaB9-nm--VrGF79k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '221'
 ht-degree: 25%
-
 ---
-
 # [!DNL Google Workspace] から [!DNL Adobe Workfront] オブジェクトの詳細を表示および管理
 
 >[!IMPORTANT]
@@ -42,9 +49,9 @@ ht-degree: 25%
 >
 >Google Workspace を使用した組織の統合のニーズに対しては、Workfront の自動処理と統合を使用することをお勧めします。
 >
->Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能について詳しくは、[Gmail modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)および[Google Calendar modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)を参照してください。
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能について詳しくは、[Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)および[Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)を参照してください。
 
 <!--
 

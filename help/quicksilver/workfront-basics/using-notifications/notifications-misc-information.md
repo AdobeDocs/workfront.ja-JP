@@ -6,18 +6,21 @@ description: 次の通知は、自分がスポンサーしているプロジェ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+TQID: 'https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 98%
-
+source-wordcount: '928'
+ht-degree: 100%
 ---
-
 # 通知：その他の情報
 
 次の通知は、自分がスポンサーしているプロジェクトで発生するアクティビティについて警告します。
@@ -68,7 +71,7 @@ ht-degree: 98%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分のユーザー 1 名がプロジェクトに追加されました</strong> </p> <p>マネージャーは、ユーザーの1人がプロジェクトに追加されたときにメール通知を受け取ります。この通知は、プロジェクトのステータスに関係なく送信されます。 </p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>メールの件名は次のとおりです。<em>プロジェクトの割り当て：&lt;ユーザー名&gt;[&lt;プロジェクト GUID&gt;_ &lt;ユーザー GUID&gt;]</em></p> </td> 
+   <td> <p><strong>自分のユーザー 1 名がプロジェクトに追加されました</strong> </p> <p>マネージャーは、ユーザーの 1 人がプロジェクトに追加されると、メール通知を受け取ります。 この通知は、プロジェクトのステータスに関係なく送信されます。 </p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>メールの件名は次のとおりです。<em>プロジェクトの割り当て：&lt;ユーザー名&gt;[&lt;プロジェクト GUID&gt;_ &lt;ユーザー GUID&gt;]</em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトに人物を追加したユーザーの名前<br>プロジェクトに追加されたユーザーの名前<br>プロジェクト [!UICONTROL Planned Start Date]<br>プロジェクト [!UICONTROL Planned Completion Date]<br>プロジェクトの完了率<br>プロジェクト上の他のユーザーの名前<br>プロジェクトのステータス<br>プロジェクト所有者<br><strong>[!UICONTROL See More Details]</strong> ボタン<br><br><br></p> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 

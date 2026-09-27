@@ -5,22 +5,26 @@ description: 「この要約」機能を使用して、作業項目とドキュ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-TQID: https://experienceleague.adobe.com/sVulqIEiWIz7ItrQgGV-79JI-Sng-7oM9mmoK-I6Olk
+TQID: 'https://experienceleague.adobe.com/sVulqIEiWIz7ItrQgGV-79JI-Sng-7oM9mmoK-I6Olk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 16%
-
 ---
-
 # AI アシスタントの利用
 
 >[!IMPORTANT]
@@ -29,7 +33,7 @@ ht-degree: 16%
 
 AI アシスタントは、Workfrontのドキュメントから情報を検索できるため、必要なサポートを受けるためにAdobe Experience Leagueにアクセスする必要はありません。
 
-例えば、AI アシスタントに「リクエストキューを作成する方法」を尋ねると、記事[&#x200B; リクエストキューの作成と管理](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)から取得したリクエストの作成手順が返されます。
+例えば、AI アシスタントに「リクエストキューを作成する方法」を尋ねると、記事[ リクエストキューの作成と管理](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)から取得したリクエストの作成手順が返されます。
 
 
 ## アクセス要件
@@ -68,7 +72,7 @@ AI アシスタントは、Workfrontのドキュメントから情報を検索�
 
 AI アシスタントを使用してWorkfront ドキュメントから情報や手順を取得するには、次の手順を実行します。
 
-1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。
+1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。
 1. AI アシスタントパネルで、パネルの下部のテキスト領域にプロンプトを入力します。
 
    AI アシスタントは、プロンプトの規模や複雑さによっては、情報を見つけるのに少し時間がかかることがあります。 シンプルなプロンプトをお勧めします。

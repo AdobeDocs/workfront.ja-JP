@@ -1,33 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: ' [!DNL Adobe Workfront] for [!DNL Jira] のインストール'
-description: ' [!DNL Adobe Workfront] for [!DNL Jira] を使用すると、お使いの [!DNL Jira] システムと [!DNL Workfront] システムを統合できます。'
+title: '[!DNL Adobe Workfront] for [!DNL Jira] のインストール'
+description: '[!DNL Jira] 用 [!DNL Adobe Workfront] を使用すると、[!DNL Jira] システムと [!DNL Workfront] システムを統合できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oT8E-mg5qtw1pnTJ4sXuck6-Pf9QJDWJw-YxtbMomZY
+TQID: 'https://experienceleague.adobe.com/oT8E-mg5qtw1pnTJ4sXuck6-Pf9QJDWJw-YxtbMomZY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 29%
-
+source-wordcount: '130'
+ht-degree: 32%
 ---
-
 # [!DNL Adobe Workfront for Jira] のインストール
 
 >[!IMPORTANT]
@@ -36,9 +42,9 @@ ht-degree: 29%
 >
 >組織のJiraとの統合ニーズには、Workfront Automation and Integrationを使用することをお勧めします。
 >
->Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->Jira向けWorkfront AutomationおよびIntegration モジュールの具体的な機能については、[Jira Software modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)を参照してください。
+>Jira向けWorkfront AutomationおよびIntegration モジュールの具体的な機能については、[Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)を参照してください。
 
 <!--
 
@@ -50,9 +56,9 @@ ht-degree: 29%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 

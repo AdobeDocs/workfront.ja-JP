@@ -7,13 +7,17 @@ description: この記事では、ユーザーおよび役割/時間単位の収
 author: Lisa
 feature: Work Management
 exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3604'
+source-wordcount: '3627'
 ht-degree: 0%
-
 ---
-
 # 収益とコスト階層の概要
 
 {{ultimate-package}}
@@ -77,7 +81,7 @@ Workfront管理者は、必要に応じて、請求率、コスト率、その�
 >請求レートを保持するためにフラグをオンにすると、プロジェクトに割り当てがなく、時間がない限り、フラグをオフにすることはできません。 これにより、すべての財務報告書に真の契約率が反映されます。
 >フラグがオフの場合、請求レートを再計算または動的に調整できます。 ユーザーの役割、給与、または請求率の更新は、割り当ての請求率にすぐに反映されます。
 
-詳しくは、[&#x200B; プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)および[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+詳しくは、[ プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)および[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## 予定収益 – ユーザーおよび役割（時間単位）
 
@@ -85,7 +89,7 @@ Workfront管理者は、必要に応じて、請求率、コスト率、その�
 
 次の図は、計画収益階層のフローを示しています。
 
-![&#x200B; ユーザーおよび役割の予定収益の時間単位の収益タイプ &#x200B;](assets/planned-revenue-chart.png)
+![ ユーザーおよび役割の予定収益の時間単位の収益タイプ ](assets/planned-revenue-chart.png)
 
 ユーザーがタスクに割り当てられている場合、Workfrontは次の階層に従って検索します。
 
@@ -149,7 +153,7 @@ Workfront管理者は、必要に応じて、請求率、コスト率、その�
 
 次の図は、実際の収益階層のフローを示しています。
 
-![&#x200B; ユーザーおよび役割の時間単位のコスト タイプ &#x200B;](assets/actual-revenue-chart.png)の実際の収益
+![ ユーザーおよび役割の時間単位のコスト タイプ ](assets/actual-revenue-chart.png)の実際の収益
 
 ### ログに記録された時間の所有者とタスクに割り当てられたユーザーが同じ場合
 
@@ -196,7 +200,7 @@ Workfrontは、次の階層に従って、所有者のユーザープロパテ�
 
 次の図は、計画コスト階層のフローを示しています。
 
-![&#x200B; ユーザーおよび役割の予定コスト時間コスト タイプ &#x200B;](assets/planned-cost-chart.png)
+![ ユーザーおよび役割の予定コスト時間コスト タイプ ](assets/planned-cost-chart.png)
 
 ユーザーがタスクに割り当てられている場合、Workfrontは次の階層に従って検索します。
 
@@ -220,7 +224,7 @@ Workfrontは、次の階層に従って、所有者のユーザープロパテ�
 
 次の図は、実際のコスト階層のフローを示しています。
 
-![&#x200B; ユーザーおよび役割の実際のコスト時間コスト タイプ &#x200B;](assets/actual-cost-chart.png)
+![ ユーザーおよび役割の実際のコスト時間コスト タイプ ](assets/actual-cost-chart.png)
 
 ### ログに記録された時間の所有者とタスクに割り当てられたユーザーが同じ場合
 
