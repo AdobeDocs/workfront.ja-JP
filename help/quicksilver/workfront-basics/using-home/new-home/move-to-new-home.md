@@ -287,7 +287,7 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 
 **トレーニング**
 
-* [ホームチュートリアルでのウィジェットの削除、追加、並べ替え](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [ホームチュートリアルでのウィジェットの削除、追加、並べ替え](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Adobe Workfrontのワーカーの基本](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

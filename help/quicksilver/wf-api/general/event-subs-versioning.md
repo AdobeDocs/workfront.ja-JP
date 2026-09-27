@@ -266,6 +266,6 @@ Workfront には、2 つのバージョンのイベント登録があります�
 
 Workfront Fusionでは、イベントサブスクリプションを使用して、Workfrontからトリガーへの変更を監視します。 Fusionがシナリオで直接使用するイベント購読バージョンを更新するには、Workfront/イベントペイロードバージョンを更新モジュールを使用します。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの[Workfront モジュール &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの[Workfront モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)を参照してください。
 
-ウェビナーの録画など、イベント登録のアップグレード中に Workfront Fusion シナリオを保持する方法について詳しくは、[イベント登録 V2 のアップグレード中の Fusion シナリオの保持](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)を参照してください。
+ウェビナーの録画など、イベント登録のアップグレード中に Workfront Fusion シナリオを保持する方法について詳しくは、[イベント登録 V2 のアップグレード中の Fusion シナリオの保持](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ja)を参照してください。

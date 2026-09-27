@@ -140,7 +140,7 @@ Workfront Planningでリクエストフォームを共有する際のエクス�
 * リクエストフォームを共有するユーザーの管理と投稿のオプションが削除されました。 追加されたユーザーはフォームを送信することしかできません。
 * 「公開リンクを作成」オプションを有効にした後、「公開共有」タブに「リンクと有効期限」フィールドが表示されるようになりました。
 
-詳しくは、[Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)でのリクエストフォームの作成と管理を参照してください。
+詳しくは、[Adobe Workfront Planning](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)でのリクエストフォームの作成と管理を参照してください。
 
 ## テーブルビュー内のすべてのグループを展開して折りたたむ
 

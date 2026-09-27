@@ -44,7 +44,7 @@ ht-degree: 24%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第2四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -537,7 +537,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * Salesforce 用 Workfront
 
 Google Workspace を使用した組織の統合のニーズに対しては、Workfront の自動処理と統合を使用することをお勧めします。
-Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 
 ### Workfront のメンテナンスアップデート

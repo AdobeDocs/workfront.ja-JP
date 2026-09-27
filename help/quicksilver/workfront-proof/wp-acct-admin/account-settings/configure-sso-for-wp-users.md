@@ -114,7 +114,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 ここでは、設定の2つの方法（5）があります。
 
 1. **継承：**&#x200B;ハブアカウントから取得した設定での SSO。
-ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を介して[!DNL Workfront Proof]にアクセスすると、**2つのレベルの認証**&#x200B;が行われます。最初に、ユーザーは[!DNL Workfront Proof] アクセス データ（電子メールとパスワード）を使用してログインするよう求められます。その後、ユーザーはSSO ウィンドウを介してSSO ログインページに転送されます。
+ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）を介して[!DNL Workfront Proof]にアクセスすると、**2つのレベルの認証**&#x200B;が行われます。最初に、ユーザーは[!DNL Workfront Proof] アクセス データ（電子メールとパスワード）を使用してログインするよう求められます。その後、ユーザーはSSO ウィンドウを介してSSO ログインページに転送されます。
 したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof] サブドメインまたはドメインからログインすることをお勧めします。
 
    >[!NOTE]
@@ -163,7 +163,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 シングルサインオンが有効になっている場合、サブドメインログイン URL （例：yourcompany.proofhq.com/login）には、SSO ログインページに直接移動する転送画面（2）が表示されます。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）から[!DNL Workfront Proof]にアクセスすると、**2つの認証レベル**&#x200B;が表示されます。 まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。 次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\
+1. ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）から[!DNL Workfront Proof]にアクセスすると、**2つの認証レベル**&#x200B;が表示されます。 まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。 次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\
    したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof]サブドメインまたはドメインからログインすることをお勧めします。
 
 1. 現時点で Workfront Proof アカウントでシングルサインオンが有効である場合、これらの資格情報を使用して iPhone アプリにログインすることはできません。

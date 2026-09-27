@@ -49,7 +49,7 @@ GenStudio for Performance MarketingとWorkfront Proofの連携により、次の
 
 * 最終承認と公開のために、GenStudio for Performance Marketingでレビューの決定を表示します
 
-GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)を参照してください。
+GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)を参照してください。
 
 
 ## アクセス要件
@@ -124,7 +124,7 @@ Workfrontでの自動ワークフローとテンプレートの作成につい�
 
 利用者がGenStudio for Performance Marketingでレビューを開始すると、必要なテンプレートを選択するだけです。 レビューアーやステージの追加や削除など、任意のプルーフワークフローテンプレートをいつでも簡単に変更できます。
 
-詳しくは、[&#x200B; レビューと承認のリクエスト &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
+詳しくは、[&#x200B; レビューと承認のリクエスト &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
 
 ## Workfront プルーフビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
@@ -136,7 +136,7 @@ Workfront プルーフビューアでは、GenStudio for Performance Marketing�
 * 変更が必要な項目を表示するマークアップのドラフト
 * 決定を下す
 
-詳しくは、[&#x200B; コンテンツのレビューと編集](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)を参照してください。
+詳しくは、[&#x200B; コンテンツのレビューと編集](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)を参照してください。
 
 
 >[!IMPORTANT]
@@ -148,4 +148,4 @@ Workfront プルーフビューアでは、GenStudio for Performance Marketing�
 
 アセットがレビューと承認のプロセスを経ると、レビューの決定を表示し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
 
-詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。
+詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。

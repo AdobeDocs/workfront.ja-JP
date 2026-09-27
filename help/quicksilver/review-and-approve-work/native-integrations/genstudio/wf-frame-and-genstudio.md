@@ -96,7 +96,7 @@ Workfrontでの承認ワークフローテンプレートの作成について�
 
 利用者がGenStudio for Performance Marketingでレビューを開始すると、必要なテンプレートを選択するだけです。 統合された承認承認ワークフローテンプレートは、いつでも簡単に変更し、レビュー担当者やステージを追加または削除できます。
 
-詳しくは、[&#x200B; レビューと承認のリクエスト &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
+詳しくは、[&#x200B; レビューと承認のリクエスト &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
 
 ## Frame.io ビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
@@ -115,4 +115,4 @@ Frame.io ビューアの使用について詳しくは、[&#x200B; メディア�
 
 アセットがレビューと承認のプロセスを経ると、レビューの決定を表示し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
 
-詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。
+詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。

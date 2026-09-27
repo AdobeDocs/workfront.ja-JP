@@ -50,7 +50,7 @@ Adobe Experience Manager Assets as a Cloud Service をご利用のお客様は�
 >
 > パートナーが拡張コネクタで認定を希望する場合は、[Workfront for Experience Manager 拡張コネクタエキスパートシリーズ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview)の記事を参照してください。
 
-拡張コネクタを実装するには、[Workfront for Experience Manager 拡張コネクタの設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)を参照してください。
+拡張コネクタを実装するには、[Workfront for Experience Manager 拡張コネクタの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)を参照してください。
 
 
 ## 既存アセットの移動

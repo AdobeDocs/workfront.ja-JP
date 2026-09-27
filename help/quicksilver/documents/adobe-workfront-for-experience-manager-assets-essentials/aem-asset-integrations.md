@@ -84,7 +84,7 @@ Workfront と Experience Manager Assets、または Assets Essentials の統合�
 
 ## 基本を学ぶ
 
-1. [Adobe Workfront と Experience Manager Assets の間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)
+1. [Adobe Workfront と Experience Manager Assets の間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)
 1. 統合の設定：
    1. [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
       または
