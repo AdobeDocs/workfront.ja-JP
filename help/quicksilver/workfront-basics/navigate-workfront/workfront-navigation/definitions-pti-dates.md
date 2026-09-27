@@ -1,25 +1,29 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要'
-description: この記事では、 [!DNL Adobe Workfront]のプロジェクト、タスク、イシューに関連する最も一般的な日付の定義について説明します。
+title: '[!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要'
+description: この記事では、[!DNL Adobe Workfront] のプロジェクト、タスクおよびイシューに関連する最も一般的な日付の定義を示します。
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+TQID: 'https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2359
-ht-degree: 50%
-
+source-wordcount: '2359'
+ht-degree: 51%
 ---
-
 # [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要
 
 <!-- Audited: 05/2024 -->

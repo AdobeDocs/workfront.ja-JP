@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b9c1a628-030b-437e-b609-5ab3e608fa31
-TQID: https://experienceleague.adobe.com/GCxuDsSmsYlbavqYqQz-rSiADL2bKfwfA55BU1fCiD4
+TQID: 'https://experienceleague.adobe.com/GCxuDsSmsYlbavqYqQz-rSiADL2bKfwfA55BU1fCiD4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '518'
 ht-degree: 100%
-
 ---
-
 # 2019.2 リソース管理の機能強化
 
 このページでは、2019.2 リリースに含まれるすべてのリソース管理の機能強化について説明します。 この機能は、2019年5月20日の週に本番環境で使用できる予定です。

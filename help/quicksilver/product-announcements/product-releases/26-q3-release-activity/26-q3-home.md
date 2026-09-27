@@ -4,13 +4,20 @@ description: 2026年第3四半期リリース期間中のホーム機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '167'
 ht-degree: 7%
-
 ---
-
 # 2026年第3四半期リリース期間中のホーム機能強化
 
 このページでは、2026年第3四半期リリースのプレビュー環境で行われたホーム機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
@@ -21,7 +28,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->プレビュー：2026年6月4日> プロダクションの迅速なリリース：2026年6月11日>全員のプロダクション：2026年7月16日
+>プレビュー：2026年6月4日（PT）
+>プロダクション高速リリース：2026年6月11日（PT）
+>すべての人のための制作：2026年7月16日
 
 優先度では、列でのカスタムデータの使用がサポートされるようになりました。 ワークリストから列マネージャーを開き、列データに表示するカスタムフィールドを追加します。
 

@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+TQID: 'https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 98%
-
+source-wordcount: '1722'
+ht-degree: 99%
 ---
-
 # 2018.2 ベータ版 4 リリースアクティビティ
 
 このページでは、2018.2 Beta 4 リリースによりプレビュー環境で最近利用可能になったすべての変更について説明します。 この機能は、2018年5月17日（PT）にプレビュー環境で使用できるようになります。 2018年7月に、本番環境で利用可能になる予定です。
@@ -145,7 +151,7 @@ ht-degree: 98%
 
   従来のプルーフビューアでは、iFrame 内での表示を保護されたサイトのレビューをサポートしていませんでした。
 
-* 様々なデバイス用に事前設定済みの解像度を使用してコンテンツを表示します。例えば、さまざまな標準のデスクトップ解像度や、iPhone 8などの個々のデバイスでコンテンツがどのように表示されるかを確認できます。 
+* 様々なデバイス向けに事前に設定された解像度でコンテンツを表示します。 例えば、様々な標準のデスクトップ解像度や、iPhone 8 などの個々のデバイスでコンテンツがどのように表示されるかを確認できます。 
 
 デスクトッププルーフビューアのダウンロード、インストール、使用について詳しくは、次を参照してください。
 

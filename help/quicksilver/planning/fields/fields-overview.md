@@ -1,6 +1,6 @@
 ---
 title: フィールドの概要
-description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
+description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront プランニングに追加できます。 フィールドは、レコードタイプの属性です。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 72%
-
 ---
-
 # フィールドの概要
 
 <!--
@@ -32,7 +39,7 @@ ht-degree: 72%
 
 {{planning-important-intro}}
 
-組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
+組織のライフサイクルを反映する新しいフィールドを Adobe Workfront プランニングに追加できます。 フィールドは、レコードタイプの属性です。
 
 
 ## Adobe Workfront の計画フィールドに関する考慮事項
@@ -43,8 +50,8 @@ ht-degree: 72%
 
   フィールドの管理については、以下の記事も参照してください。
 
-   * [フィールド設定の編集](/help/quicksilver/planning/fields/edit-fields.md)
-   * [フィールドを削除](/help/quicksilver/planning/fields/delete-fields.md)
+  * [フィールド設定の編集](/help/quicksilver/planning/fields/edit-fields.md)
+  * [フィールドを削除](/help/quicksilver/planning/fields/delete-fields.md)
 
 * レコードタイプに関連付けられたフィールドは、そのタイプのすべてのレコードに関連付けることができます。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,49 +59,49 @@ ht-degree: 72%
 
 * 以下の方法で、手動または自動でフィールドを作成できます。
 
-   * 手動：
+  * 手動：
 
-      * レコードタイプページのテーブルビューに列を追加する場合。 テーブルの列は、レコードタイプに関連付けられるフィールドです。 これらは、レコードのページに表示されるフィールドと同じです。
+    * レコードタイプページのテーブルビューに列を追加する場合。 テーブルの列は、レコードタイプに関連付けられるフィールドです。 これらは、レコードのページに表示されるフィールドと同じです。
 
-        フィールドは、レコードのページから作成することはできません。
+      フィールドは、レコードのページから作成することはできません。
 
-      * 接続すると、レコードタイプは。 2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
+    * 接続すると、レコードタイプは。 2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
 
-        レコードタイプの接続について詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+      レコードタイプの接続について詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-      * Workfrontから既存のフィールドを読み込むと、
+    * Workfrontから既存のフィールドを読み込むと、
 
-        詳しくは、[Adobe Workfrontからのフィールドの読み込みを参照してください](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+      詳しくは、[Adobe Workfrontからのフィールドの読み込みを参照してください](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
 
 
-   * 自動：
+  * 自動：
 
-      * レコードタイプを作成する場合：
+    * レコードタイプを作成する場合：
 
-         * 名前
-         * 説明
-         * 開始日
-         * 終了日
-         * ステータス。 レコードのステータスのデフォルト値を以下に示します。
-            * 開発
-            * 予定
-            * アクティブ
-            * 完了
-            * 保留中
+      * 名前
+      * 説明
+      * 開始日
+      * 終了日
+      * ステータス。 レコードのステータスのデフォルト値を以下に示します。
+        * 開発
+        * 予定
+        * アクティブ
+        * 完了
+        * 保留中
 
-        さらに値を追加したり、既存の値の名前を変更したりできます。
+      さらに値を追加したり、既存の値の名前を変更したりできます。
 
-      * テンプレートからワークスペースを作成する場合。
+    * テンプレートからワークスペースを作成する場合。
 
-        詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+      詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-      * ExcelまたはCSV ファイルを使用してレコードタイプをインポートする場合。
+    * ExcelまたはCSV ファイルを使用してレコードタイプをインポートする場合。
 
-        詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+      詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-* Workfront Planning フィールドには Workfront からアクセスできません。
+* Workfront プランニングフィールドには Workfront からアクセスできません。
 
-* レコードタイプを Workfront オブジェクトタイプと関連付け、Workfront オブジェクトからリンクされたフィールドまたは参照フィールドを追加した場合にのみ、Workfront Planning から Workfront フィールドにアクセスできます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* レコードタイプを Workfront オブジェクトタイプと関連付け、Workfront オブジェクトからリンクされたフィールドまたは参照フィールドを追加した場合にのみ、Workfront プランニングから Workfront フィールドにアクセスできます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 * ワークスペースに対する管理権限と、そのフィールドが属するレコードタイプがある場合は、自分または他のユーザーが作成したフィールドの設定を表示および更新できます。
 

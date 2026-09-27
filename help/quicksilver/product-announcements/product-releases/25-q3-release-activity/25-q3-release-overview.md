@@ -7,31 +7,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/rj4ocwVEA4U-n72pbrSiwFzgazZ0UVKrSO7K9mrjUvY
+TQID: 'https://experienceleague.adobe.com/rj4ocwVEA4U-n72pbrSiwFzgazZ0UVKrSO7K9mrjUvY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2030
+source-wordcount: '2048'
 ht-degree: 42%
-
 ---
-
 # 2025年第 3 四半期リリースの概要
 
 このページでは、2025年7月に予定されている2025年第3四半期リリースに含まれる機能に関する情報を提供します。
@@ -94,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトップ校正ビューアの更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>デスクトップ校正ビューアがバージョン 2.1.50に更新されました。このアップデートには内部ツールのアップデートが含まれており、エンドユーザーの機能には影響しません。
+            <p>デスクトップ校正ビューアがバージョン 2.1.50に更新されました。 このアップデートには内部ツールのアップデートが含まれており、エンドユーザーの機能には影響しません。
         </td>
         <td>2025年6月16日（PT）</td>
         <td>2025年6月16日（PT）</td>
@@ -103,7 +115,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいプルーフとGenStudio for Performance Marketingの統合</a>
-            <p>「プルーフとGenStudio for Performance Marketingを新たに連携します。この統合により、次のことが可能になります 
+            <p>「プルーフとGenStudio for Performance Marketingを新たに連携します。 この統合により、次のことができるようになります。 
             <ul>
             <li>Workfrontの承認テンプレートを使用して、承認ワークフローを定義します
             </li>
@@ -373,7 +385,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 Workfront Fusion の新機能は、実稼動環境の標準リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
-### Workfront Planning の機能強化
+### Workfront プランニングの機能強化
 
 Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront計画2025年第3四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)を参照してください。
 

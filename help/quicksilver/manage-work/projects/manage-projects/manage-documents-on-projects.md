@@ -6,13 +6,20 @@ description: Workfront管理者がストレージ環境設定のデフォルト�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # プロジェクトと関連オブジェクトのドキュメント管理の概要
 
 Adobe Workfront管理者は、組織のストレージ環境設定のデフォルトを定義して、ドキュメントをWorkfrontに保存する場所を指定できます。

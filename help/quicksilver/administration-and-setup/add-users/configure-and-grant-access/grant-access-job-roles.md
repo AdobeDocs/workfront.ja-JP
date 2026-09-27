@@ -5,13 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 34%
-
+source-wordcount: '381'
+ht-degree: 33%
 ---
-
 # 担当業務へのアクセス権の付与
 
 Adobe Workfront管理者は、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明しているように、ユーザーのアクセスレベルを通じて担当業務へのユーザーのアクセス権を定義できます。
@@ -49,7 +56,7 @@ Adobe Workfront管理者は、[&#x200B; アクセスレベルの概要](../../..
 ## カスタムアクセスレベルを使用して、担当業務を編集するためのユーザーのアクセス権を設定します
 
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
-1. 担当業務の右側にある![](assets/gear-icon-settings.png)表示&#x200B;**または**&#x200B;編集&#x200B;**ボタンの歯車アイコン**&#x200B;をクリックし、**設定の微調整**&#x200B;で付与する機能を選択します。
+1. 担当業務の右側にある&#x200B;**表示**&#x200B;または&#x200B;**編集** ボタンの歯車アイコン ![](assets/gear-icon-settings.png)をクリックし、**設定の微調整**&#x200B;で付与する機能を選択します。
 
    >[!NOTE]
    >
@@ -75,8 +82,8 @@ Adobe Workfront管理者は、[&#x200B; アクセスレベルの概要](../../..
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス権を設定するには、[タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)などの、[Adobe Workfront へのアクセス権を設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事に従って、作業を続けます。
 1. 完了したら「**保存**」をクリックします。
 
-   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+   作成したアクセスレベルは、ユーザーに割り当てることができます。 詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## ライセンス タイプ別の担当業務へのアクセス
 
-各アクセスレベルのユーザーがジョブロールで実行できる操作について詳しくは、記事[各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#job-roles)の「[&#x200B; ジョブロール &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)」の節を参照してください。
+各アクセスレベルのユーザーがジョブロールで実行できる操作について詳しくは、記事[各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の「[&#x200B; ジョブロール &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#job-roles)」の節を参照してください。

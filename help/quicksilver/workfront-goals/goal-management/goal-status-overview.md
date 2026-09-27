@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 95%
-
 ---
-
 # Adobe Workfront Goals の目標ステータスの概要
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * クローズした目標を開くと、目標の進行状況も更新されます。
 * 目標に対して実行する特定のアクションも、そのステータスを更新します。 目標ステータスの更新方法について詳しくは、次の記事を参照してください。
 
-   * [Adobe Workfront Goals で目標を作成](../../workfront-goals/goal-management/create-goals.md)
-   * [Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)
-   * [Adobe Workfront Goals での目標の削除と非アクティブ化](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Adobe Workfront Goals での目標のクローズと再オープン](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [Adobe Workfront Goals で目標を作成](../../workfront-goals/goal-management/create-goals.md)
+  * [Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)
+  * [Adobe Workfront Goals での目標の削除と非アクティブ化](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [Adobe Workfront Goals での目標のクローズと再オープン](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Workfront Goalsの目標ステータスの概要
 
@@ -96,8 +102,8 @@ Workfront Goals では、目標は次のいずれかのステータスを持つ�
 * ドラフトの目標は、他の目標の進捗計算には影響せず、グラフでは考慮されません。
 * ドラフトの目標は、Workfront Goals の以下のエリアに表示されます。
 
-   * 目標リスト
-   * 「目標の整合性」セクション（調整された目標としてのみ）
+  * 目標リスト
+  * 「目標の整合性」セクション（調整された目標としてのみ）
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Workfront Goals では、目標は次のいずれかのステータスを持つ�
 * アクティブな目標は、他の目標の進捗状況の計算に影響し、グラフで考慮されます。
 * アクティブな目標は、Workfront Goals の以下のエリアに表示されます。
 
-   * 目標リスト
-   * 「目標の整合性」セクション
-   * アクティブな目標の進捗状況のグラフ表示
+  * 目標リスト
+  * 「目標の整合性」セクション
+  * アクティブな目標の進捗状況のグラフ表示
 
 * クローズした目標または非アクティブな目標を再アクティブ化できます。
 
@@ -131,8 +137,8 @@ Workfront Goals では、目標は次のいずれかのステータスを持つ�
 * 非アクティブな目標は、下書きの目標とは異なり、一度はアクティブだったことがあるので、進捗履歴があります。
 * 非アクティブな目標は、Workfront Goals の次のエリアに表示されます。
 
-   * 目標リスト
-   * 「目標の整合性」セクション（調整された目標としてのみ）
+  * 目標リスト
+  * 「目標の整合性」セクション（調整された目標としてのみ）
 
 ### クローズ {#closed}
 
@@ -148,6 +154,6 @@ Workfront Goals では、目標は次のいずれかのステータスを持つ�
 * クローズした目標の進捗状況を更新することはできません。
 * クローズした目標は、Workfront Goals の以下のエリアに表示されます。
 
-   * 目標リスト
-   * 「目標の整合性」セクション（調整された目標としてのみ）
-   * クローズした目標の情報は、「グラフ」セクションでも考慮されます。
+  * 目標リスト
+  * 「目標の整合性」セクション（調整された目標としてのみ）
+  * クローズした目標の情報は、「グラフ」セクションでも考慮されます。

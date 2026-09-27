@@ -8,27 +8,37 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY
+TQID: 'https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3743
+source-wordcount: '3743'
 ht-degree: 26%
-
 ---
-
 # レコードの接続
 
 <!--
@@ -55,7 +65,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 以下を連結することができます。
 
 * Adobe Workfront計画レコードを互いに共有します
-* 他のアプリケーションからのオブジェクトを含む Adobe Workfront Planning レコード。
+* 他のアプリケーションからのオブジェクトを含む Adobe Workfront プランニングレコード。
 
   次のアプリケーションから、次に示すタイプのオブジェクトにレコードを接続できます。
 
@@ -392,7 +402,7 @@ Workfront計画のレコードは、計画レコードの次の領域で接続�
 
    レコードタイプと別のアプリケーションのオブジェクトの接続について詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-1. （オプション）テーブルビューのリンクされたフィールド、またはレコードページのリンクされたフィールドで、Workfront Planning レコードに接続されている Workfront オブジェクトの名前をクリックします。
+1. （オプション）テーブルビューのリンクされたフィールド、またはレコードページのリンクされたフィールドで、Workfront プランニングレコードに接続されている Workfront オブジェクトの名前をクリックします。
 
    少なくともオブジェクトに対する表示権限がある場合は、WorkfrontでWorkfront オブジェクトが開きます。
 
@@ -410,7 +420,7 @@ Workfront計画のレコードは、計画レコードの次の領域で接続�
 
    **選択されたフィールド**&#x200B;エリアから、Workfront オブジェクトフィールドを削除します。
 
-   これにより、リンクされたフィールドが Workfront Planning レコードに追加または削除されます。 削除されたフィールドに関連付けられた情報は Workfront に残ります。
+   これにより、リンクされたフィールドが Workfront プランニングレコードに追加または削除されます。 削除されたフィールドに関連付けられた情報は Workfront に残ります。
 
 
 ### Workfront計画レコードを、レコードのテーブルビューまたは詳細領域からAdobe Experience Manager オブジェクトに接続します
@@ -477,7 +487,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > 接続できるのは、Experience Manager で表示するアクセス権のあるアセットのみです。 接続すると、すべての Workfront Planning ユーザーは、Experience Manager Assets へのアクセス権に関係なく、Workfront Planning でアセットを表示できます。
+   > 接続できるのは、Experience Manager で表示するアクセス権のあるアセットのみです。 接続すると、すべての Workfront プランニングユーザーは、Experience Manager Assets へのアクセス権に関係なく、Workfront プランニングでアセットを表示できます。
    > Content Advisorについて詳しくは、[Content Advisorを使用してAdobe アプリケーションのAEM コンテンツにアクセスする](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
 
 1. 「**コンテンツフラグメント**」タブから、「コンテンツフラグメント」を選択して、リンクされたレコードフィールドに追加します。

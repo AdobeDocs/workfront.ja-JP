@@ -9,26 +9,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg
+TQID: 'https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 88%
-
+source-wordcount: '2873'
+ht-degree: 94%
 ---
-
 # 2020.1 リリースの概要
 
 <!--
@@ -58,7 +67,7 @@ ht-degree: 88%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#limit" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> リストとレポートのフィルター、表示、グループ化コントロールを編集するユーザーの機能を制限</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#limit" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">ユーザーの機能を、リストとレポートのフィルター、表示、グループ化コントロールに制限する</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Limit users' ability to edit Filter, View, and Grouping controls on lists and reports</a>
      -->
@@ -88,7 +97,7 @@ ht-degree: 88%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> タスクリストを変更する際の新しい保存モード：タイムライン計画モード </a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">タスクリストに変更を加える際の新しい保存モード：タイムライン計画モード</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New saving mode when making changes in a task list: the Timeline Planning mode</a>
      -->
@@ -96,7 +105,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年3月14日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">明確なグループ化の区別により、すべての新規リストのナビゲーションが改善されました</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">明確なグループ化区別を含む、すべての新しいリストのナビゲーションを改善</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved navigation of all new lists with clear grouping differentiation</a>
      -->
@@ -104,7 +113,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年2月27日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#highligh" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> クイックフィルターの使用時に、リスト内の一致する項目をハイライト表示する</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#highligh" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">クイックフィルターを使用する際に、一致する項目をリスト内でハイライト</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Highlight matching items in lists when using the quick filters</a>
      -->
@@ -120,7 +129,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月17日（PT）</p> <p>実稼動リリース：なし</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#display" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> リストとレポートの列ヘッダーを文頭の大文字で表示</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#display" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">リストとレポートの列ヘッダーを文頭のみ大文字で表示</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Display column headers of lists and reports in sentence case</a>
      -->
@@ -128,7 +137,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月17日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新領域の新しい詳細メニュー</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">「アップデート」領域の新しい「その他」メニュー</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New More menu in the Updates area</a>
      -->
@@ -136,7 +145,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月8日（PT）</p> <p>実稼動版リリース：2020年1月8日（PT）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new3" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新領域の新しい進行状況バー</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new3" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">「アップデート」領域の新しい進捗バー</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New progress bar in the Updates area</a>
      -->
@@ -144,7 +153,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月8日（PT）</p> <p>実稼動版リリース：2020年1月8日（PT）</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#updated" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">新しいリストのルックアンドフィールを更新</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#updated" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">新しいリストのルックアンドフィールを更新しました</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
      -->
@@ -165,7 +174,7 @@ ht-degree: 88%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> ワークロードバランサーの未割り当て作業領域で、タスクの日次の予定時間数とアクセスできない項目を表示</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">タスクの日次予定時間数、およびワークロードバランサーの未割当作業領域にアクセスできない項目を表示</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Show daily Planned Hours for projects, tasks, and inaccessible items in the Unassigned Work area of the Workload Balancer</a>
      -->
@@ -173,7 +182,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年3月14日（PT）</p> <p>本番リリース：未定（この機能は、2020.1 リリース以降、本番環境で使用できるようになります）</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> ワークロードバランサーの「割り当て済み作業」エリアで、プロジェクト、タスク、およびアクセスできない項目の日別予定時間を表示</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">ワークロードバランサーの割り当て作業領域に、プロジェクト、タスクおよびアクセスできない項目の日次予定時間数を表示します</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Show daily Planned Hours for projects, tasks, and inaccessible items in the Assigned Work area of the Workload Balancer</a>
      -->
@@ -181,7 +190,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年2月27日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> ワークロードバランサーでタイムライン時間を調整</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">ワークロードバランサーのタイムライン期間の調整</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Adjust timeline duration in the Workload Balancer</a>
      -->
@@ -189,7 +198,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年2月27日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> ワークロードバランサー</a>でのナビゲーションの改善
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">ワークロードバランサーのナビゲーションの改善</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved navigation in the Workload Balancer</a>
      -->
@@ -197,7 +206,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月31日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">実際の時間表示の設定がリソースプランナー</a>から削除されました
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">リソースプランナーから削除された「実績時間の表示」設定</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Display Actual Hours setting removed from the Resource Planner</a>
      -->
@@ -218,7 +227,7 @@ ht-degree: 88%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#more" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新でタグ付けされたユーザーをより簡単に確認する</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#more" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">アップデートでタグ付けされたユーザーをより簡単に確認できます</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">More easily see who is tagged in an update</a>
      -->
@@ -226,7 +235,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年3月14日（PT）</p> <p>実稼動版リリース：2020年3月26日（P）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新コメントまたは返信に引用符で囲まれたテキストを含めて識別</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">アップデートコメントまたは返信に引用テキストを含めて識別する</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
      -->
@@ -234,7 +243,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年2月27日（PT）</p> <p>実稼動版リリース：2020年3月26日（P）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#quote" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">更新コメントまたは返信の前のコメントを引用</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#quote" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">アップデートコメントまたは返信内の前のコメントを引用</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Quote a previous comment in an update comment or reply</a>
      -->
@@ -242,7 +251,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年3月14日（PT）</p> <p>実稼動版リリース：2020年3月26日（P）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">追加リスク情報</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">その他のリスク情報</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Additional risks information</a>
      -->
@@ -250,7 +259,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年2月14日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> ベースラインとベースラインタスクに追加された追加フィールド </a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">ベースラインと、ベースラインタスクに追加される追加フィールド</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Additional fields added to Baselines and Baseline Tasks</a>
      -->
@@ -258,7 +267,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月31日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>「クローズ済み/保留中の承認」ステータスの<a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#issues" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">問題は不完全と見なされます</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#issues" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">「クローズ済み - 保留中の承認」ステータスのイシューは未完了と見なされます</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Issues in "Closed-Pending Approval" status are considered incomplete</a>
      -->
@@ -279,7 +288,7 @@ ht-degree: 88%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#updates" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> プルーフビューアの測定ツールを更新しました</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#updates" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">プルーフビューアーの測定ツールに対する更新</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Proofing-enhancements-1999580039?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updates to the measurement tool in the proofing viewer</a>
      -->
@@ -287,7 +296,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年3月6日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">自動ワークフロー領域のラベル設定を改善しました</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">自動ワークフロー領域の設定ラベルの改善</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Proofing-enhancements-1999580039?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved setting labels in Automated Workflow areas</a>
      -->
@@ -341,7 +350,7 @@ ht-degree: 88%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly"> プルーフを通知許可リストに追加するには、変更が必要です</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">プルーフを許可リストに加えるために必要な変更</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Change required for whitelisting proofs</a>
      -->
@@ -349,7 +358,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年3月10日（PT）</p> <p>実稼動リリース：2020.1 リリースを使用 <span style="color: #ff0000;">（リリースから削除）</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash Portfolio Optimizerが削除されました</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash ポートフォリオオプティマイザーが削除されました</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
      -->
@@ -357,7 +366,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年2月27日（PT）</p> <p>実稼動リリース：2020.1 リリース（PT）を使用</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Chromeとの互換性を維持するためにWorkfront Cookieの動作が更新されました</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Chrome との互換性を維持するために Workfront クッキーの動作を更新しました</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront cookie behavior updated to maintain compatibility with Chrome</a>
      -->
@@ -369,7 +378,7 @@ ht-degree: 88%
    <td> <p>ベータ版プレビューリリース：2020年1月29日（PT）</p> <p>実稼動版リリース：2020年1月30日（PT）</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront コメントをJiraに同期</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront のコメントを Jira に同期しました</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront comments sync to Jira</a>
      -->
@@ -435,7 +444,7 @@ Workfront One を使用すると、Workfront の重要なコンテンツ、リ�
 
 ### 第 1 四半期の製品ロードマップに関するウェビナー {#q1-product-roadmap-webinar}
 
-[第 1 四半期ロードマップウェビナー](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)では、今後の展開について詳しくご紹介します。 このウェビナーは2020年3月26日午前9時（PT）に開催されます。 :00aMT. 登録するには、このリンクをクリックしてください
+[第 1 四半期ロードマップウェビナー](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)では、今後の展開について詳しくご紹介します。 このウェビナーは2020年3月26日午前9時に開催されます。 MT. 登録するには、このリンクをクリックしてください
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

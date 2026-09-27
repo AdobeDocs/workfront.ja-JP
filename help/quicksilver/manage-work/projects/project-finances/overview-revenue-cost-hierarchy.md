@@ -7,13 +7,17 @@ description: この記事では、ユーザーおよび役割/時間単位の収
 author: Lisa
 feature: Work Management
 exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3604'
+source-wordcount: '3627'
 ht-degree: 0%
-
 ---
-
 # 収益とコスト階層の概要
 
 {{ultimate-package}}

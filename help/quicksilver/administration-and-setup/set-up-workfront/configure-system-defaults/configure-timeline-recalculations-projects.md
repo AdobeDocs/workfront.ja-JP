@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+TQID: 'https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 84%
-
+source-wordcount: '456'
+ht-degree: 90%
 ---
-
 # プロジェクトのタイムライン再計算を設定
 
 タイムラインを再計算すると、管理者は、プロジェクトの外部の力がプロジェクトのタイムラインに与える影響を確認できます。 プロジェクトのタイムラインとは、プロジェクトの予定日と見込み日のことです。
@@ -76,8 +80,8 @@ ht-degree: 84%
 
    * **プロジェクトのスコープが変更されたとき**：プロジェクトスコープの変更を構成する要素について詳しくは、[プロジェクトタイムラインの再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
-     この場合、[!DNL Workfront]は、更新タイプが[!UICONTROL 自動および変更時]または[!UICONTROL 変更時のみ]のすべてのプロジェクトのタイムラインを再計算します。
-プロジェクト更新タイプについて詳しくは、[&#x200B; プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
+     この場合、[!DNL Workfront] は更新タイプが[!UICONTROL 自動/変更時]または[!UICONTROL 変更時のみ]のプロジェクトのタイムラインを再計算します。
+     プロジェクトの更新タイプの詳細については、[プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

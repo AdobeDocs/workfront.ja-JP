@@ -1,23 +1,26 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 外部ユーザーとしてアカウント  [!DNL Adobe Workfront] を作成
+title: アカウント [!DNL Adobe Workfront]を外部ユーザーとして作成します
 description: Workfrontの組織に所属していなくても、Workfrontでタスクを実行するように求められる場合があります。 Workfrontでアカウントを作成することで、この作業をより簡単に行うことができます。
 author: Becky
 feature: Get Started with Workfront
 exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
-TQID: https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44
+TQID: 'https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # 外部ユーザーとして[!DNL Adobe Workfront]にアカウントを作成する
 
 [!DNL Workfront]組織のメンバーでなくても、[!DNL Workfront]のアイテムを表示または承認するように招待される可能性があります。 例えば、ドキュメントのレビューや承認を求められることがあります。 [!DNL Workfront]でアカウントを作成すると、これらのアイテムをより簡単に表示または承認できます。

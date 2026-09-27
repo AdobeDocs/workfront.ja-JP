@@ -10,24 +10,29 @@ role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zHLRYheTPbZUMzGm93gmS4iL-tbYlV9x3a0rWJq1ozo
+TQID: 'https://experienceleague.adobe.com/zHLRYheTPbZUMzGm93gmS4iL-tbYlV9x3a0rWJq1ozo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1090
-ht-degree: 53%
-
+source-wordcount: '1092'
+ht-degree: 52%
 ---
-
 # ユーザーの非アクティブ化または再アクティブ化 {#deactivate-or-reactivate-a-user}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +145,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
 1. 「**保存**」をクリックします。
 
-ユーザーは、選択した日付の午前12:00時に非アクティブ化されます。 複数のユーザーを一括で非アクティブ化するように選択した場合、選択したすべてのユーザーは、選択した日付の午前12:00時に非アクティブ化されます。
+ユーザーは、選択した日付の午前12:00に非アクティブ化されます。 複数のユーザーを一括で非アクティブ化するように選択した場合、選択したすべてのユーザーは、選択した日付の午前12:00に非アクティブ化されます。
 
 無効化が予定されているユーザーに関するレポートを作成して、無効化されるユーザーに関する情報を保持することをお勧めします。 ユーザーが非アクティブ化された後に非アクティブ化が行われたことを確認する情報はありません。
 

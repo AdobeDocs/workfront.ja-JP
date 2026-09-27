@@ -1,30 +1,33 @@
 ---
 navigation-topic: notifications
 title: Experience Cloud通知の概要
-description: Adobe Workfrontでは、あらゆるデジタルエクスペリエンス（DX）商品を、Experience Cloud Notificationsと呼ばれる一貫性のある通知システムに統合しています。
+description: Adobe Workfrontは、あらゆるデジタルエクスペリエンス（DX）商品を、Adobe Experience Cloud Notificationsと呼ばれる一貫性のある通知システムに統合しています。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Experience Cloud通知の概要
 
-Adobe Workfrontの通知は、Adobeの一元化された通知システムであるExperience Cloud Notificationsに移行します。 この通知システムは、あらゆるデジタルエクスペリエンス製品で利用されています。
+Adobe Workfrontの通知は、Adobe Experience Cloud通知と呼ばれるAdobeの一元化された通知システムに移行しています。 この通知システムは、あらゆるデジタルエクスペリエンス製品で利用されています。
 
-2026年2月頃から、現在のWorkfrontのメールとアプリ内通知がExperience Cloud Notificationsに移行されます。 この仕事は段階的に終わるでしょう。 移行を開始する前に、Workfront チームから組織に通知されます。
+2026年2月頃から、現在のWorkfront メールおよびアプリ内通知は、Experience Cloud Notificationsに移行されます。 この仕事は段階的に終わるでしょう。 移行を開始する前に、Workfront チームから組織に通知されます。
 
 この移行後、ユーザーはAdobe Workfrontやその他のAdobe DX アプリケーションのすべての通知に1か所でアクセスできるため、情報を入手し、設定を管理する方法を簡素化できます。
 
@@ -32,7 +35,7 @@ Adobe Workfrontの通知は、Adobeの一元化された通知システムであ
 
 ## アドビがこの変更を行う理由
 
-Workfrontは、Adobeのデジタルエクスペリエンス製品群の一部です。 Experience Cloudへの移行には、次のような利点があります。
+Workfrontは、Adobeのデジタルエクスペリエンス製品群の一部です。 Adobe Experience Cloudへの移行には、次のような利点があります。
 
 * 統合された通知エクスペリエンス：Adobe DX ソリューション全体で機能するインターフェイスをひとつ体験できるようになりました。
 * 常に情報を提供する：通知を一ヶ所に集約することで、通知が届かないリスクを低減します。
@@ -42,7 +45,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品群の一部で
 ## 現状
 
 * 上部ヘッダーのWorkfront通知アイコンが、通知アイコンに置き換わりました。
-* 新しいExperience Cloudのお知らせパネルとすべての通知ページから、お客様の個人用のお知らせ設定にアクセスできるようになりました。 以前は、これらはユーザープロファイルでアクセスされていました。
+* 新しいExperience Cloud通知パネルとすべての通知ページから、個人の通知設定にアクセスできるようになりました。 以前は、これらはユーザープロファイルでアクセスされていました。
 * 新しいフィルタリングおよび配信オプションが利用可能です。
 * メール通知の件名のカスタマイズは使用できなくなります。
 
@@ -98,7 +101,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品群の一部で
 最初はそうではありません。 Workfront管理者はまず設定を確認し、Experience Cloudへの移行後に新しい通知アイコンが表示されます。 そこから、個人の通知にアクセスする方法を学ぶ必要があります。
 +++
 
-+++Experience Cloudに移行する準備が整っていない場合は？
++++組織がExperience Cloudに移行する準備が整っていない場合はどうなりますか？
 
 移行のスケジュールを変更する必要がある場合は、アカウントチームまたはカスタマーサポートにお問い合わせください。 ただし、すべてのお客様は新しい通知エクスペリエンスに移行する必要があるため、より早い導入をお勧めします。
 +++

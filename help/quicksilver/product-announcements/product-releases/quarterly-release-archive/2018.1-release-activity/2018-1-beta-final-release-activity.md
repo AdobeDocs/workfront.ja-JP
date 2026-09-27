@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+TQID: 'https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 895
-ht-degree: 95%
-
+source-wordcount: '910'
+ht-degree: 100%
 ---
-
 # 2018.1 ベータ版最終リリース（PT）アクティビティ
 
 このページでは、2018.1 ベータ版最終リリースのプレビュー環境で最近使用されたすべての変更について説明します。 この機能は、2018年1月31日（PT）にプレビュー環境で使用できるようになりました。 2018年3月に、本番環境で利用できるようになります。
@@ -108,7 +114,7 @@ Workfront の管理者は、Workfront がリソースの空き時間とユーザ
 
 Workfront Proof の本番環境のデータが、毎週 Workfront Proof のプレビュー環境に同期されるようになりました。
 
-この変更の前は、Workfront Proof実稼動環境からプレビュー環境にデータが毎月同期されていましたが、Workfront実稼動環境のデータは週単位でWorkfront プレビュー環境に同期されていました。この不一致により、Workfront Preview環境でプルーフ機能を使用する際に、同期エラーが発生しました。 
+この変更以前は、データは Workfront Proof の本番環境からプレビュー環境に毎月同期されていましたが、Workfront の本番環境のデータは週に 1 回 Workfront のプレビュー環境に同期されていました。 この不一致により、Workfront のプレビュー環境でプルーフ機能を使用するときに、数件の同期エラーが発生しました。 
 
 詳しくは、[サンドボックステスト環境のプレビュー - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md) を参照してください。 
 

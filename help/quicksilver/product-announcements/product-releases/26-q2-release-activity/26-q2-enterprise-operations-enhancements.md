@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 7%
-
+source-wordcount: '1381'
+ht-degree: 6%
 ---
-
 # 2026年第2四半期のエンタープライズオペレーションの強化
 
 このページでは、プレビュー環境への2026年第2四半期リリースで行われたエンタープライズオペレーションの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -23,8 +30,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >プレビュー：2026年4月2日（PT）
->実稼動（迅速リリース）：2026年4月15日（PT）
->実稼動（全ユーザー）：2026年4月16日（PT）
+>プロダクション高速リリース：2026年4月15日（PT）
+>すべての人のための制作：2026年4月16日
 
 Adobe Workfrontの高度なエンタープライズオペレーション能力は、財務、プロジェクト、エンタープライズアクセスを管理する、統合されたスケーラブルな方法です。 これらの機能は、企業が収益性と効率性を維持しながら業務を遂行するために必要な可視性と管理性を提供します。
 
@@ -36,7 +43,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 マルチレベルのコスト階層と請求レート階層を利用して、財務を予測、追跡、最適化できます。
 
-[高度な財務管理機能のデモを13分の動画で見る。](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[アドビの先進的な財務管理機能のデモを、13分の動画で見ることができます。](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 この財務管理の機能強化には、次のものが含まれます。
 
@@ -74,11 +81,11 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 * **すべての請求情報を保持**&#x200B;し、今後の変更を防ぐためのプロジェクトレベルのコントロール。
 
-  詳しくは、[プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+  詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 * **レートカードで定義されている担当業務エイリアス**。 レートカードがプロジェクトに添付されている場合、内部担当者名ではなく、プレースホルダーの割り当て、費用、レポートなどの情報にエイリアスが表示されます。
 
-  詳しくは、[レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+  詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ### 履歴データトレーシング
 
@@ -86,7 +93,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 詳しくは、[&#x200B; プロジェクトのスナップショットの作成と表示](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)を参照してください。
 
-[&#x200B; プロジェクト スナップショットのビデオ デモを表示します。](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+[プロジェクトのスナップショットのデモ動画を見る。](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
 >[!NOTE]
 >
@@ -99,13 +106,13 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
-[&#x200B; ビジネスプロファイルのデモ動画を見る。](https://video.tv.adobe.com/v/3483246/){target="_blank"}
+[ビジネスプロファイルのデモ動画を見る。](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
 >ビジネスプロファイルは、Workflow Ultimate パッケージの組織でのみ使用できます。
 
-また、コストと請求データの両方を表示する権限は、ユーザーアクセスレベルとオブジェクト権限の両方で、一般的な財務権限から分離されています。 詳しくは、[財務データへのアクセスの許可](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[オブジェクトに対する財務権限の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
+また、コストと請求データの両方を表示する権限は、ユーザーアクセスレベルとオブジェクト権限の両方で、一般的な財務権限から分離されています。 詳しくは、[財務データへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[オブジェクトに対する財務権限の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
 
 >[!NOTE]
 >
@@ -115,7 +122,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 カスタムフォームの高度なロジックにより、より明確なインサイトを獲得し、より正確なプロジェクト管理と財務管理を実現できます。
 
-[&#x200B; カスタムフォームとフィールドの機能強化に関するビデオデモを表示します。](https://video.tv.adobe.com/v/3483244/){target="_blank"}
+[カスタムフォームとフィールドの機能強化のデモ動画をご覧ください。](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 カスタムフォームの機能強化は次のとおりです。
 
@@ -128,9 +135,9 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
   >新しいロジックタイプは、Workflow PrimeまたはUltimate パッケージの組織でのみ使用できます。
 
 * フォームデザイナーのインターフェイスが強化されました。
-   * フォーム名がデザイナーの左上に表示され、スクロールすると長いフォームに名前が表示されるようになりました。
-   * フォームが添付できるオブジェクトタイプは、ドロップダウンリストにあります。
-   * すべてのロジックタイプについて、フィールドにロジックインジケーターを表示または非表示にすることができます。 表示およびスキップロジックのタイプは、影響を受ける両方のフィールドの指標を示します。 他のすべてのロジックタイプは、1つのフィールドに影響します。
+  * フォーム名がデザイナーの左上に表示され、スクロールすると長いフォームに名前が表示されるようになりました。
+  * フォームが添付できるオブジェクトタイプは、ドロップダウンリストにあります。
+  * すべてのロジックタイプについて、フィールドにロジックインジケーターを表示または非表示にすることができます。 表示およびスキップロジックのタイプは、影響を受ける両方のフィールドの指標を示します。 他のすべてのロジックタイプは、1つのフィールドに影響します。
 
   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
@@ -163,9 +170,9 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 レイアウトテンプレートでは、追加のオブジェクトのヘッダーと左側のナビゲーションメニューをカスタマイズし、メインメニューでの項目の表示と非表示をより簡単にできます。 また、レイアウトテンプレートを使用して、ユーザーがプロジェクト、タスク、イシュー、ポートフォリオ、プログラムの&#x200B;**詳細** メニュー（3 ドットメニュー）をクリックしたときに表示されるオプションを決定することもできます。
 
-詳しくは、[レイアウトテンプレートの作成および管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+詳しくは、[レイアウトテンプレートの作成と管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-[&#x200B; レイアウトテンプレートの機能強化に関するビデオデモを表示します。](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[レイアウトテンプレートの機能強化に関するデモ動画をご覧ください。](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### カスタムローカライゼーション
 
@@ -179,7 +186,7 @@ Adobe Workfrontの高度なエンタープライズオペレーション能力�
 
 詳しくは、[&#x200B; カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
 
-[&#x200B; カスタムローカライゼーションのデモ動画を見る。](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+[カスタムローカライゼーションのデモ動画を見る。](https://video.tv.adobe.com/v/3483248/){target="_blank"}
 
 ### ビジネスルールでアクションを自動化
 

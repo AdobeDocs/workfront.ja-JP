@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wqO-t0Dkv7DPC8eM32opBpRcrF9nM1pm3XLIkVuYlmQ
+TQID: 'https://experienceleague.adobe.com/wqO-t0Dkv7DPC8eM32opBpRcrF9nM1pm3XLIkVuYlmQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 456
+source-wordcount: '469'
 ht-degree: 87%
-
 ---
-
 # [!UICONTROL ポートフォリオオプティマイザー]でプロジェクトを最適化
 
 [!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。 [!UICONTROL オプティマイザー] は、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。
@@ -126,7 +133,7 @@ Old
 1. **[!UICONTROL スコア]**&#x200B;列に正しい重みを設定したら、**[!UICONTROL スコア]**&#x200B;列のヘッダーをクリックして、この列で並べ替えます。 最もスコアの高いプロジェクトがリストの先頭に表示されます。
 
 1. （オプション）プロジェクトを優先順にドラッグ&amp;ドロップします。
-これにより、[!UICONTROL Portfolio Optimizer]のプロジェクトの順序が変更されます。
+これにより、[!UICONTROL ポートフォリオオプティマイザー]内のプロジェクトの順序が変更されます。
 1. （オプション）**[!UICONTROL 優先度の設定]**&#x200B;をクリックして、プロジェクトの新しい優先度を保存します。
 
    >[!NOTE]

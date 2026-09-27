@@ -6,22 +6,29 @@ description: プルーフの承認レポートを使用して、環境内のプ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-TQID: https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18
+TQID: 'https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 77%
-
 ---
-
 # プルーフの承認レポートを使用する
 
 プルーフの承認レポートを使用して、環境内のプルーフに関する情報を表示できます。
@@ -80,9 +87,9 @@ ht-degree: 77%
 * **ワークフローテンプレート**：プルーフに添付されているワークフローテンプレートが表示されます。 テンプレートが添付されていない場合、列は空白になります。
 * **決定待ち**：以下に該当する場合、最新バージョンで決定が下されていないことを示す「true」が表示されます。
 
-   * プルーフがアーカイブされていない
-   * 承認者がいるステージがアクティブになっている
-   * プルーフが承認待ち
+  * プルーフがアーカイブされていない
+  * 承認者がいるステージがアクティブになっている
+  * プルーフが承認待ち
 
 * **プルーフの期限**：プルーフの期限が表示されます。 このフィールドに値を入力するには、すべてのステージに期限を割り当てる必要があります。 このフィールドには、直近にアクティベートされたステージの期限が表示されます。
 

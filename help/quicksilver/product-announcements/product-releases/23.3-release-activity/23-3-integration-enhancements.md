@@ -5,26 +5,33 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+TQID: 'https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 86%
-
+source-wordcount: '764'
+ht-degree: 94%
 ---
-
 # 23.3 統合の強化
 
 このページでは、23.3 リリースで行われたすべての統合の機能強化について説明します。 これらの機能強化は、2023年7月20日（PT）および 2023年7月21日（PT）の 23.3 リリースで本番環境で使用可能になりました。
@@ -93,15 +100,15 @@ Adobe Experience Manager 統合用の新しい「リンクされたフォルダ�
 
 以前は、Workfront データを Experience Manager Assets タグにマッピングすることはできませんでした。
 
-Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、[Experience Manager Assets as a Cloud Service]統合(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)の設定を参照してください。
-Experience Manager Assets Essentialsのこの機能について詳しくは、[Experience Manager Assets Essentials統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
+Experience Manager Assets as a Cloud Service のこの機能について詳しくは、[[!UICONTROL Experience Manager Assetsas a Cloud Service] 統合を設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)を参照してください。
+Experience Manager Assets Essentials のこの機能について詳しくは、[Experience Manager Assets Essentials 統合を設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
 
 ## Workfront フィールドをカスタム Experience Manager Assets メタデータフィールドにマッピングする
 
 ネイティブ統合により、ネイティブとビルトインの Workfront フィールドの両方を、Experience Manager Assets as a Cloud Service のカスタムメタデータスキーマフィールドにマッピングできるようになりました。
 
-Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、[Experience Manager Assets as a Cloud Service]統合(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)の設定を参照してください。
-Experience Manager Assets Essentialsのこの機能について詳しくは、[Experience Manager Assets Essentials統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
+Experience Manager Assets as a Cloud Service のこの機能について詳しくは、[[!UICONTROL Experience Manager Assetsas a Cloud Service] 統合を設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)を参照してください。
+Experience Manager Assets Essentials のこの機能について詳しくは、[Experience Manager Assets Essentials 統合を設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
 
 ## Creative Cloud 向け Adobe Workfront を使用して自動プルーフワークフローテンプレート設定を調整する
 

@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+TQID: 'https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: '2347'
 ht-degree: 98%
-
 ---
-
 # 2017.2 最終ベータ版
 
 このページでは、2017.2 リリースのプレビュー環境で最近行われた変更について説明します。 このページの機能は、2017年6月28日（PT）にプレビュー環境で使用できるようになりました。 2017年7月26日（PT）に、本番環境で使用可能になります。
@@ -182,7 +189,7 @@ Workfront でこのオプションを設定する方法について詳しくは�
 
 ## レポートエリアをフィルタリング（ProofHQ） {#filter-the-reporting-area-proofhq}
 
-デフォルトでは、「レポート」タブに表示されるデータには、ProofHQ システムのすべての情報が含まれます。フィルターを使用して、ニーズに関連する情報のみを表示できるようになりました。 
+デフォルトでは、「レポート」タブに表示されるデータには、ProofHQ システムからのすべての情報が含まれます。 フィルターを使用して、必要に応じた情報のみを表示できるようになりました。 
 
 詳しくは、[Workfront Proof でのレポートの実行](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)の[レポートのフィルタリング](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)を参照してください。
 

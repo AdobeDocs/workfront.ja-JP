@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
+TQID: 'https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '533'
 ht-degree: 16%
-
 ---
-
 # 優先度でのコメントの追加と表示
 
 タスクやイシューにアップデートを追加して、作業項目の進捗を他のユーザーに伝えることができます。
@@ -96,7 +100,7 @@ ht-degree: 16%
 1. 画面の右下隅にある&#x200B;**更新**&#x200B;領域を探します。
 1. （オプション）「**コメント**」タブを使用して、他のユーザーが作業項目に対して行った更新を表示します。
 1. （オプション）「**システムアクティビティ**」タブを使用して、作業項目に関連するシステムアクティビティを表示します。
-1. （オプション）コメントを追加するには、**コメント** タブに移動し、**新規コメント** ボックスに入力を開始します。完了したら、**送信**&#x200B;をクリックします。
+1. （オプション）コメントを追加するには、**コメント** タブに移動し、**新規コメント** ボックスに入力を開始します。 完了したら、**送信**&#x200B;をクリックします。
    ![更新領域](assets/updates-area-in-overview.png)
 
 ## コメントへの返信

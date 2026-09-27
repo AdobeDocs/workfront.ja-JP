@@ -9,22 +9,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+TQID: 'https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 15%
-
+source-wordcount: '805'
+ht-degree: 14%
 ---
-
 # 環境のプロモーションパッケージの作成または編集
 
 オブジェクト **from**&#x200B;をコピーする環境でパッケージを作成する必要があります。 例えば、カスタムリフレッシュサンドボックス環境でプロジェクトを設定し、実稼動環境にプロモートする場合は、カスタムリフレッシュサンドボックス環境でパッケージを作成する必要があります。
@@ -110,7 +114,7 @@ ht-degree: 15%
 1. （オプション）すべてのオブジェクトとそのサブオブジェクトを含むコンテンツを表示するには、**コンテンツ** セクションのオブジェクトタイプの横にあるドロップダウン矢印をクリックします。
 1. （オプション）このパッケージの以前のインストールとインストール試行を表示するには、**デプロイメント**&#x200B;をクリックします。
 1. （オプション）パッケージを編集するには、画面の右上にある「**パッケージを編集**」をクリックします。
-パッケージを編集するには、`DRAFT` ステータスである必要があります。パッケージを`DRAFT` ステータスに移動するには、**ステータス** フィールドで「`Draft`」を選択します。その後、パッケージの編集を続行できます。
+パッケージを編集するには、`DRAFT` ステータスである必要があります。 パッケージを`DRAFT` ステータスに移動するには、**ステータス** フィールドで「`Draft`」を選択します。 その後、パッケージの編集を続行できます。
 1. パッケージをインストールするには、画面の右上にある「**インストール**」をクリックします。
 
    パッケージのインストール手順については、[環境プロモーションパッケージのインストール &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。

@@ -1,6 +1,6 @@
 ---
 title: レコードタイプの概要
-description: レコードタイプは、Adobe Workfront Planning ワークスペースの構成要素です。
+description: レコードタイプは、Adobe Workfront プランニングワークスペースの構成要素です。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 38%
-
 ---
-
 # レコードタイプの概要
 
 <!--
@@ -45,14 +52,14 @@ Workfront Planningのオブジェクト・タイプは「レコード・タイ�
 
 ## レコードタイプの概要
 
-Workfront Planning では、組織のニーズに合ったカスタムレコードタイプを作成できます。
+Workfront プランニングでは、組織のニーズに合ったカスタムレコードタイプを作成できます。
 
 レコードタイプの作成について詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 * テンプレートからワークスペースを作成する際、次のワークスペースセクションにレコードタイプが作成されます。
 
-   * **操作レコードタイプ**：戦略的プランニング、イニシアチブ、または計画作業を表すレコードタイプ。 たとえば、キャンペーン、アクティビティ、戦術、商談は、運用上のレコードタイプです。
-   * **分類**：運用レコードタイプに関する属性を取り込むレコードタイプ。 例えば、地域、住所、オーディエンスは分類基準です。
+  * **操作レコードタイプ**：戦略的プランニング、イニシアチブ、または計画作業を表すレコードタイプ。 たとえば、キャンペーン、アクティビティ、戦術、商談は、運用上のレコードタイプです。
+  * **分類**：運用レコードタイプに関する属性を取り込むレコードタイプ。 例えば、地域、住所、オーディエンスは分類基準です。
 
   セクションとレコードタイプの名前を変更したり、削除したり、さらに作成したりできます。
 
@@ -63,8 +70,8 @@ Workfront Planning では、組織のニーズに合ったカスタムレコー�
   1つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数に関する制限については、[Adobe Workfront プランニングオブジェクトの制限の概要](/help/quicksilver/planning/general/limitations-overview.md)を参照してください。
 * 複数のワークスペースでレコードタイプを使用するには、レコードタイプをグローバルまたは接続可能として指定できます。
 
-   * グローバルレコードタイプは、既存のレコードタイプとして他のワークスペースに追加できます。
-   * 接続可能なレコードタイプは、他のワークスペースから接続できます。
+  * グローバルレコードタイプは、既存のレコードタイプとして他のワークスペースに追加できます。
+  * 接続可能なレコードタイプは、他のワークスペースから接続できます。
 
   詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 

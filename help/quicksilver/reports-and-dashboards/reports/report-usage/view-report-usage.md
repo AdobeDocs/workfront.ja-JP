@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk
+TQID: 'https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: '968'
 ht-degree: 95%
-
 ---
-
 # レポートの使用状況を表示
 
 <!--
@@ -97,9 +102,9 @@ ht-degree: 95%
    * **最近の 10 人のユーザー**：レポートを閲覧した直近 10 人のユーザーの名前が表示されます。
    * **件数**：次のいずれかの時間枠内のビュー数を表示します。
 
-      * **現在の月／四半期／年を表示**
-      * **先月、四半期、年**
-      * **すべてのビュー**：レポートのすべてのビューの合計数を表示します
+     * **現在の月／四半期／年を表示**
+     * **先月、四半期、年**
+     * **すべてのビュー**：レポートのすべてのビューの合計数を表示します
 
    * **最終表示者**：最後にレポートを表示したユーザーに関する情報を表示します
    * **最終表示日**：レポートが最後に表示された日付を表示します
@@ -120,9 +125,9 @@ ht-degree: 95%
 
    * **ビュー**：次のいずれかの期間内のビューの件数を表示します。
 
-      * **現在の月／四半期／年を表示**
-      * **先月、前四半期、昨年**
-      * **すべてのビュー**
+     * **現在の月／四半期／年を表示**
+     * **先月、前四半期、昨年**
+     * **すべてのビュー**
 
    * **最終表示者**：最後にレポートを表示したユーザーに関する情報を表示します
    * **最終表示日**：最後にレポートが表示された日付を表示します

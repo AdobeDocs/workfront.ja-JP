@@ -9,25 +9,33 @@ feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+TQID: 'https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 94%
-
 ---
-
 # アジャイルバーンダウンチャートの概要
 
 バーンダウンチャートには、ストーリーがイテレーションでどのように進行しているかが視覚的に表示されます。 実際のバーンダウン率は、イテレーションタイムラインの理想的なバーンダウン率に対して測定されます。
@@ -95,9 +103,9 @@ ht-degree: 94%
 
   仕事が休日にログオンした場合。
 
-   * チームには作業を行う予定がないため、理想的なバーンダウンを計算する際には、記録された作業は含まれません。
-   * 作業が完了した日、またはバーンダウンチャートを表示している日（休日に表示している場合）のバーンダウンチャートには、理想的なバーンダウンライン（青い実線と青い破線）が平坦に表示されます。
-   * ログに記録された作業は、推測完了期間や 1 日あたりの平均ポイントまたは時間など、他のバーンダウン統計値を計算する際に含まれます。
+  * チームには作業を行う予定がないため、理想的なバーンダウンを計算する際には、記録された作業は含まれません。
+  * 作業が完了した日、またはバーンダウンチャートを表示している日（休日に表示している場合）のバーンダウンチャートには、理想的なバーンダウンライン（青い実線と青い破線）が平坦に表示されます。
+  * ログに記録された作業は、推測完了期間や 1 日あたりの平均ポイントまたは時間など、他のバーンダウン統計値を計算する際に含まれます。
 
 * 休日にバーンダウンチャートを表示しています。 （表示している日がバーンダウンチャートに表示されます。）
 * 休日にそのイテレーションの残り作業の合計を完了します。

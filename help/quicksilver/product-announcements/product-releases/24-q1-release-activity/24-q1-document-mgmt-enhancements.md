@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-TQID: https://experienceleague.adobe.com/q02y5omKlgFxVUj2SgDscgRVFc-qauvNB3gO9XjRlZA
+TQID: 'https://experienceleague.adobe.com/q02y5omKlgFxVUj2SgDscgRVFc-qauvNB3gO9XjRlZA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 100%
-
 ---
-
 # 2024年第 1 四半期のドキュメント管理の機能強化
 
 このページでは、2024年第 1 四半期にプレビュー環境にリリースされた、すべてのドキュメントの管理の機能強化について説明します。 この機能強化は、2024年第 1 四半期のリリースにおいて本番環境で利用できるようになります。

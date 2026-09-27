@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof] でのプルーフバージョンの管理'
-description: 作業の複数のバージョンまたはリビジョン全体でフィードバックを管理することは、大きな課題になる可能性があります。 [!DNL Workfront Proof]  プルーフの複数のバージョンを作成して比較できるようにすることで、このプロセスを簡素化します。
+title: '[!DNL Workfront Proof] でのプルーフバージョンの管理'
+description: 個々の作業のいくつものバージョンや改訂にわたってフィードバックを管理することは、大きな課題となります。 [!DNL Workfront Proof] を使用すると、複数のバージョンのプルーフを作成して比較できるので、このプロセスが簡素化されます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
-TQID: https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs
+TQID: 'https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 768
-ht-degree: 96%
-
+source-wordcount: '769'
+ht-degree: 100%
 ---
-
 # [!DNL Workfront Proof] でのプルーフバージョンの管理
 
 >[!IMPORTANT]
@@ -33,7 +41,7 @@ ht-degree: 96%
 
 プルーフの新しいバージョンを作成するには、そのプルーフの編集権限が必要です。
 
-プルーフの編集権限を持つユーザーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフロールの管理を参照してください。 バージョンの作成の詳細について確認してください。
+プルーフの編集権限を持つユーザーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフロールの管理を参照してください。 バージョンの作成の詳細について確認してください。
 
 ## プルーフビューアーでのプルーフバージョンの表示
 
@@ -62,7 +70,7 @@ ht-degree: 96%
 
 親プルーフ（以前のバージョン）をアカウント内の別のプルーフに変更したい場合、または 1 つのプルーフをアカウント内の別のプルーフに（他のプルーフの新しいバージョンとして）接続したい場合は、次の手順に従って簡単に行うことができます。
 
-1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、プルーフ詳細ページを開きます。
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、プルーフ詳細ページを開きます。
 1. **[!UICONTROL その他]**／**[!UICONTROL 以前のバージョンを変更]**&#x200B;をクリックします。
 
 1. 表示される「**[!UICONTROL 以前のバージョンを変更]**」ボックスで、親プルーフ（以前のバージョン）として設定するプルーフを選択します。\

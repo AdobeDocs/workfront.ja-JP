@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: リソース管理の環境設定
-description: ' [!DNL Adobe Workfront] 管理者は、システムのリソース管理環境設定を行うことができます。 これらのリソース管理環境設定は、ユーザーの空き時間またはキャパシティおよび FTE が [!DNL Workfront] リソースのスケジュールおよび計画ツールでどのように計算されるかを決定します。'
+description: '[!DNL Adobe Workfront]管理者は、システムのリソース管理環境設定を設定できます。 これらのリソース管理の環境設定により、[!DNL Workfront] リソースのスケジュール設定および計画ツールに対するユーザーの可用性またはキャパシティおよびFTEの計算方法が決まります。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/N-DtYyvhQ--RI0X4UlY2p9F304tTg0zT-5qKCaVjvig
+TQID: 'https://experienceleague.adobe.com/N-DtYyvhQ--RI0X4UlY2p9F304tTg0zT-5qKCaVjvig'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 57%
-
+source-wordcount: '631'
+ht-degree: 54%
 ---
-
 # [!UICONTROL リソース管理]環境設定の指定
 
 <!-- Audited: 5/2025 -->

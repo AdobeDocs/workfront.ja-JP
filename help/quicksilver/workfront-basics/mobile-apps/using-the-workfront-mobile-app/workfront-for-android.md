@@ -3,29 +3,33 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Android 用 Adobe Workfront
-description: ' [!DNL Adobe Workfront]  アプリを使用すると、任意の Android デバイスでワークにアクセスできます。  [!DNL Workfront]  モバイルアプリは、Android 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。'
+description: '[!DNL Adobe Workfront] アプリを使用すると、どのAndroid デバイスからでも作品にアクセスできます。 Android 5.0以降を実行しているスマートフォンやタブレットに[!DNL Workfront] モバイルアプリをインストールして使用できます。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+TQID: 'https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 100%
-
+source-wordcount: '540'
+ht-degree: 94%
 ---
-
 # [!DNL Android] 向け [!DNL Adobe Workfront]
 
 [!DNL Adobe Workfront] アプリを使用すると、任意の [!DNL Android] デバイスで作業にアクセスできます。 [!DNL Workfront] モバイルアプリは、[!DNL Android] 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。
 
-モバイルアプリへのログインについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) へのログインの記事で、[ [!DNL Workfront]  モバイルアプリへのログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
+モバイルアプリへのログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) へのログインの記事で、[&#x200B; [!DNL Workfront]  モバイルアプリへのログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
 
 ## [!UICONTROL ホーム]
 
@@ -65,7 +69,7 @@ ht-degree: 100%
 
 ![ボードエリア](assets/mobile-all-boards-displayed.png)
 
-詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ## [!UICONTROL プロジェクト]
 
@@ -120,9 +124,9 @@ ht-degree: 100%
  </tbody>
 </table>
 
-承認について詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
+承認について詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
 
-プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
+プルーフのレビューと承認について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
 
 ![モバイルアプリの承認リスト](assets/mobile-approvals-adobe-350x574.png)
 

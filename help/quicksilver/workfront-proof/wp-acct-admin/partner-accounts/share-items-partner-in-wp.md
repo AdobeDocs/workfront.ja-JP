@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
-title: ' [!DNL Workfront Proof] でパートナーと項目を共有'
-description: 別の組織（クライアントや社内の他の部門など）と  [!DNL Workfront Proof]  パートナー関係がある場合は、プルーフ、ファイル、フォルダー、連絡先の詳細をパートナーと共有できます。 パートナー関係について詳しくは、 [!DNL Workfront Proof]  アカウント間のパートナー関係を管理を参照してください。
+title: '[!DNL Workfront Proof] でパートナーと項目を共有'
+description: 別の組織（クライアントや社内の他の部門など）と [!DNL Workfront Proof] パートナー関係がある場合は、プルーフ、ファイル、フォルダー、連絡先の詳細をパートナーと共有できます。 パートナー関係について詳しくは、「[!DNL Workfront Proof] アカウント間のパートナー関係を管理する」を参照してください。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d80acefe-19d3-45c2-8acb-1db89f6e49be
-TQID: https://experienceleague.adobe.com/DXIv13NTjQcQAo5M51HlQ2oKsHk-lauv4hcf86939oM
+TQID: 'https://experienceleague.adobe.com/DXIv13NTjQcQAo5M51HlQ2oKsHk-lauv4hcf86939oM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 472
-ht-degree: 100%
-
+source-wordcount: '473'
+ht-degree: 97%
 ---
-
 # [!DNL Workfront Proof] でパートナーと項目を共有
 
 >[!IMPORTANT]
@@ -36,7 +45,7 @@ ht-degree: 100%
 パートナーと項目を共有する際は、次の点を考慮してください。
 
 * 新しいプルーフを作成する場合にのみ、パートナーアカウント内のユーザーをプルーフの所有者に選択できます。 既存のプルーフまたは新しいバージョンのプルーフに対してこれを行うことはできません。
-* 項目をパートナーと共有する場合、プルーフの編集権限をパートナーアカウントのスーパーバイザーおよび管理者に渡します。 プルーフが作成されたアカウントのスーパーバイザーと管理者は、プルーフの編集権限を持ちません（プルーフの作成者を含む）。 [!DNL Workfront] Proof の権限について詳しくは、[ [!DNL Workfront]  Proof のプルーフ権限プロファイル](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
+* 項目をパートナーと共有する場合、プルーフの編集権限をパートナーアカウントのスーパーバイザーおよび管理者に渡します。 プルーフが作成されたアカウントのスーパーバイザーと管理者は、プルーフの編集権限を持ちません（プルーフの作成者を含む）。 [!DNL Workfront] Proof の権限について詳しくは、[&#x200B; [!DNL Workfront]  Proof のプルーフ権限プロファイル](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 * プルーフは、（プルーフが作成されたアカウントではなく）プルーフが所有されているアカウントに保存されます。
 * プルーフのブランディングは、（プルーフが作成されたアカウントではなく）プルーフが所有されているアカウントから取得されます。
 
@@ -45,7 +54,7 @@ ht-degree: 100%
 パートナーと良好な関係を築いたら、フォルダー、ファイル、プルーフなどの項目を簡単に共有できます。
 
 1. プルーフまたはファイルの共有を開始します。\
-   共有について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) でファイルを共有、および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) でフォルダーを共有を参照してください。
+   共有について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) でファイルを共有、および[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) でフォルダーを共有を参照してください。
 
 1. 「[!UICONTROL 新規プルーフ]」または「[!UICONTROL 新規ファイル]」ページの「**[!UICONTROL 共有]**」セクションで、システム内の別のユーザーと共有しているかのように、オートコンプリートフィールドに名前を入力し始めると、パートナーの名前が表示されます。\
    ![proof_share_partner.png](assets/proof-share-partner-350x258.png)

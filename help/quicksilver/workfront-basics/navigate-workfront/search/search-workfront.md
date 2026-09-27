@@ -1,27 +1,32 @@
 ---
 navigation-topic: search
-title: ' [!DNL Adobe Workfront] での検索'
-description: アイテムの正確な場所を覚えていない場合にアイテムを検索すると、 [!DNL Adobe Workfront] 内のアイテムを簡単に見つけることができます。
+title: '[!DNL Adobe Workfront] での検索'
+description: '[!DNL Adobe Workfront]のアイテムは、正確な場所を覚えていない場合に検索することで、簡単に見つけることができます。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
-ht-degree: 62%
-
+source-wordcount: '1523'
+ht-degree: 61%
 ---
-
 # [!DNL Adobe Workfront] での検索
 
 <!-- Audited: 5/2025 -->
@@ -92,11 +97,11 @@ Workfront では次のオブジェクトを検索できます。
 
 * **基本検索**：基本検索でオブジェクトを検索する際、[!DNL Workfront]は次のフィールドにキーワードが含まれている可能性のあるテキストを検索します。
 
-   * オブジェクト名
-   * 説明
-   * カスタムデータフィールド
-   * アップデート
-   * ドキュメント名（特定のドキュメント検索および基本検索でのドキュメント名）
+  * オブジェクト名
+  * 説明
+  * カスタムデータフィールド
+  * アップデート
+  * ドキュメント名（特定のドキュメント検索および基本検索でのドキュメント名）
 
   [!DNL Workfront]での基本検索について詳しくは、この記事の次の節を参照してください：[基本検索](#basic-search)。
 
@@ -204,7 +209,7 @@ Workfront では次のオブジェクトを検索できます。
    ![&#x200B; オブジェクトタイプで検索](assets/search-by-object-type-2026.png)
 
 1. **[!UICONTROL 検索]** ボックスで、検索する情報の入力を開始します。
-[!DNL Workfront]で検索されるフィールドについて詳しくは、この記事の次の節を参照してください。[検索について](#understand-search)。
+[!DNL Workfront]で検索されるフィールドについて詳しくは、この記事の次の節を参照してください：[検索について](#understand-search)。
    ![検索ドロップダウン &#x200B;](assets/search-dropdown-suggestions-2026.png)
 
    検索バーで入力を始めると、[!DNL Workfront] は、閲覧履歴に基づいてレコメンデーションを行い、検索しているキーワードを青色でハイライト表示します。
@@ -234,8 +239,8 @@ Workfront では次のオブジェクトを検索できます。
 
 1. （条件付き）一般検索を実行した場合、検索対象のオブジェクトを、結果の左上にあるオブジェクトのリストから選択します。
 1. 検索結果の左側にあるツールバーの検索に表示されるオブジェクトに使用できるフィールドを探します。 各フィールドの値は、フィールドごとに最大 10 個の値が、カウント数の順に表示されます。
-1. 使用可能なフィールドのいずれかをクリックして、結果のリストを短縮します。選択した項目は青でハイライト表示され、選択しなかった項目は非表示になります。
-新しい値を選択すると、適切な値の結果が動的に更新されます。
+1. 使用可能なフィールドのいずれかをクリックして、結果のリストを短縮します。 選択した項目は青でハイライト表示され、選択しなかった項目は非表示になります。
+新しい値を選択するごとに、右側の結果が動的に更新されます。
 
    ![基本検索タブ &#x200B;](assets/basic-search.png)
 

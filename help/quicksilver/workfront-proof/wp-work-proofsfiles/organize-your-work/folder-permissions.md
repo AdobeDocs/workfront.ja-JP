@@ -3,23 +3,31 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: ' [!DNL Workfront Proof] のフォルダー権限を理解する'
+title: '[!DNL Workfront Proof] のフォルダー権限を理解する'
 description: フォルダー内のアイテムを見る権限がある人は、フォルダ自体も見ることができます。 ただし、フォルダー内のアイテムのうち、明示的に共有されたものだけを見ることができます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
-TQID: https://experienceleague.adobe.com/UO9UAyOk6QpGPItB1fBWbFpj8nCgDOzlmrosfHhHZoY
+TQID: 'https://experienceleague.adobe.com/UO9UAyOk6QpGPItB1fBWbFpj8nCgDOzlmrosfHhHZoY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: '565'
 ht-degree: 100%
-
 ---
-
 # [!DNL Workfront Proof] のフォルダー権限を理解する
 
 >[!IMPORTANT]

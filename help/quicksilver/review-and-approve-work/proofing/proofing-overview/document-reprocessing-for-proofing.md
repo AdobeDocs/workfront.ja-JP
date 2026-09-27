@@ -6,20 +6,27 @@ description: ドキュメント（DOCX、PDF、XLSX、AI）をプルーフ用に
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+TQID: 'https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 632
-ht-degree: 99%
-
+source-wordcount: '681'
+ht-degree: 100%
 ---
-
 # プルーフ用のドキュメントの再処理の概要
 
 ドキュメント（DOCX、PDF、XLSX、AI）をプルーフ用に送信すると、Adobe Workfront によって再処理され、作成時に使用したソフトウェアアプリケーションがなくても、プルーフビューアで表示できるようになります。 
@@ -59,6 +66,6 @@ ht-degree: 99%
 
 送信されたファイルに対して、次の手順の一部またはすべてが実行されます。
 
-1. **送信**。ドキュメントをシステムにアップロードする場合は、新しいプルーフページを使用するか、アプリケーションプログラミングインターフェイス（API）を使用してアップロードします。 
-1. **キュー**。トラフィックが多い時間帯は、Workfrontで送信をキューに入れて、システムの過負荷を防ぐ必要がある場合があります。ほとんどのプルーフは、キューに数秒しか費やしません。 
+1. **送信**。 ドキュメントをシステムにアップロードする際に、新しいプルーフページを使用するか、アプリケーションプログラミングインターフェイス（API）を使用して実行します。 
+1. **キュー**. トラフィックが多い期間では、システムの過負荷を防ぐために、Workfront は送信をキューに入れることが必要な場合があります。 ほとんどのプルーフは、キューでの待機は数秒しかかかりません。 
 1. **処理しています.**&#x200B;ファイルは、コンテンツタイプに従って処理マシンに送られます。 ビデオのプルーフや、web キャプチャ、静的画像およびドキュメントの処理には、様々なツールを使用しています。 リッチメディアコンテナ（ZIP）およびインタラクティブ web キャプチャの送信は、処理を必要としません。

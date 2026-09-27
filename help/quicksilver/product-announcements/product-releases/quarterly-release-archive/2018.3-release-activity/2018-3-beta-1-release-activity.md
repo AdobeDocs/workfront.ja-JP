@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
-TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
+TQID: 'https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 552
+source-wordcount: '552'
 ht-degree: 100%
-
 ---
-
 # 2018.3 ベータ版 1 リリースアクティビティ
 
 このページでは、2018.3 Beta 1 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年6月1日（PT）にプレビュー環境で使用できるようになります。 Beta 1 でリリースされるプルーフの機能強化は、7月18日水曜日（PT）にプレビュー環境で利用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。

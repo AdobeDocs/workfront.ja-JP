@@ -7,23 +7,33 @@ description: すべてのグループメンバーにコンテンツを自動的�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ec52948-0317-4ffa-b135-1c9696a937b7
-TQID: https://experienceleague.adobe.com/q4FJcSmm7mR-e2vVPCR--nUcdHXsxg76lYNsJ1yLUHI
+TQID: 'https://experienceleague.adobe.com/q4FJcSmm7mR-e2vVPCR--nUcdHXsxg76lYNsJ1yLUHI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 208
-ht-degree: 86%
-
+source-wordcount: '270'
+ht-degree: 96%
 ---
-
 # プルーフにグループを追加
 
 >[!IMPORTANT]
@@ -47,9 +57,9 @@ ht-degree: 86%
 
 1. **[!UICONTROL ワークフロー]**&#x200B;セクションで、**[!UICONTROL 受信者を追加する連絡先名またはメールアドレスを入力]**&#x200B;フィールドでグループ名の入力を開始します。<br><img src="assets/typegroupname.png" alt="Screenshot_2018-04-06_15-05-20.png">
 1. グループ名を選択します。
-グループのメンバーが表示されるようになりました。<br><img src="assets/membersofthegroupdisplay-350x117.png" alt="Screenshot_2018-04-06_15-07-06.png" style="width: 350;height: 117;">
+グループのメンバーが表示されます。<br><img src="assets/membersofthegroupdisplay-350x117.png" alt="Screenshot_2018-04-06_15-07-06.png" style="width: 350;height: 117;">
 1. （オプション）ドロップダウンメニューを使用して、個々のメンバーの&#x200B;**プルーフの役割**&#x200B;または&#x200B;**メールアラート**&#x200B;を変更します。
-詳しくは、<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref"> プルーフの役割の管理[!DNL Workfront Proof]</a>および<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref"> メール通知設定の設定[!DNL Workfront Proof]</a>を参照してください。
+詳しくは、<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのプルーフの役割の管理および<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのメール通知の設定を参照してください。
 1. （オプション）ユーザーの情報上にポインタを合わせ、**[!UICONTROL X]**&#x200B;をクリックすることにより、プルーフからグループメンバーを削除します。
 または
 **[!UICONTROL すべてを削除]**&#x200B;をクリックして、プルーフからすべてのメンバーを削除します。

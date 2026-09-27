@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 会社の作成と編集
-description: 会社を  [!DNL Adobe Workfront]  に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
+description: 会社を [!DNL Adobe Workfront] に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+TQID: 'https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1470'
 ht-degree: 67%
-
 ---
-
 # 会社の作成と編集
 
 <!--Audited: 01/2024-->
@@ -88,15 +95,15 @@ ht-degree: 67%
 * プロジェクトマネージャーは、同じ会社内で利用可能リソースを識別できます。
 * 以下の設定の 1 つまたはすべてを選択して、企業間で情報を非公開に保つことができます。
 
-   * 同じ会社のユーザーはお互いのリクエストを表示可能。
+  * 同じ会社のユーザーはお互いのリクエストを表示可能。
 
-     ユーザーの会社に基づいて [!DNL Workfront] 管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事にある [&#x200B; [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) の全員に対するタスクとイシューの環境設定の指定の節を参照してください。
+    ユーザーの会社に基づいて [!DNL Workfront] 管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事にある [&#x200B; [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) の全員に対するタスクとイシューの環境設定の指定の節を参照してください。
 
-     ユーザーの会社に基づいて管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
+    ユーザーの会社に基づいて管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
-   * ユーザーは自分の会社に関連付けられているリクエストキューのみを表示可能。 リクエストキューの表示を制限する方法について詳しくは、[リクエストキューへのアクセス権の提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)を参照してください。
-   * ユーザーに対して、自分の会社または自分の会社とプライマリ会社のユーザーのみを表示するように制限できます。 ユーザーのプライバシーに関するプライマリ会社の機能について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-   * ユーザーは項目に加えた更新を自分の会社ユーザーのみが表示できるように制限可能。 会社で更新を非公開にする方法について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+  * ユーザーは自分の会社に関連付けられているリクエストキューのみを表示可能。 リクエストキューの表示を制限する方法について詳しくは、[リクエストキューへのアクセス権の提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)を参照してください。
+  * ユーザーに対して、自分の会社または自分の会社とプライマリ会社のユーザーのみを表示するように制限できます。 ユーザーのプライバシーに関するプライマリ会社の機能について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+  * ユーザーは項目に加えた更新を自分の会社ユーザーのみが表示できるように制限可能。 会社で更新を非公開にする方法について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## [!DNL Workfront] で会社を作成または編集 {#create-or-edit-a-company-in-workfront}
 

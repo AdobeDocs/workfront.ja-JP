@@ -1,41 +1,46 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: ' [!DNL Adobe Workfront] へのログイン'
+title: '[!DNL Adobe Workfront] へのログイン'
 description: この記事を読んで、Workfront へのログイン方法を学んでください。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 32%
-
 ---
-
 # [!DNL Adobe Workfront] へのログイン
 
 <!--Audited: 2024-->
 
 1回のログインは、WorkfrontとすべてのAdobe CX Enterprise アプリケーションに使用されます。
 
-詳しくは、[CX エンタープライズ インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)を参照してください。
+詳しくは、[CX Enterprise インターフェイスと管理](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)を参照してください。
 
 ## [!DNL Workfront] にアクセス
 
-CX Enterpriseにログインしたら、上部のナビゲーション領域にある組織スイッチャーをクリックして、アクセス権のある[!DNL Workfront]組織と環境をすべて表示できます。 作業する [!DNL Workfront] の組織または環境を選択します。 組織で使用されている場合、環境には[!UICONTROL プレビュー]と[!UICONTROL サンドボックス]が含まれる可能性があります。
+CX Enterpriseにログインしたら、上部のナビゲーション領域の組織スイッチャーをクリックして、アクセス権を持つすべての[!DNL Workfront]組織と環境を表示できます。 作業する [!DNL Workfront] の組織または環境を選択します。 組織で使用されている場合、環境には[!UICONTROL プレビュー]と[!UICONTROL サンドボックス]が含まれる可能性があります。
 
 ![&#x200B; [!DNL Workfront] の組織と環境を表示 &#x200B;](assets/wf-org-instance-switcher-2026.png)
 
@@ -43,7 +48,7 @@ CX Enterpriseにログインしたら、上部のナビゲーション領域に�
 >
 >CX Enterpriseに初めてログインする場合、組織はアルファベット順のリストの最初の組織にデフォルトで設定されます。 次回ログインすると、最後にアクセスした組織がデフォルトで設定されます。
 
-[!DNL Workfront]は、アクセス権のあるCX Enterprise製品のリストに表示されます。 CX Enterprise ホームページのクイックアクセスメニューで[!DNL Workfront]を選択するか、製品スイッチャー![製品スイッチャー](assets/main-menu-icon.png)を使用して、いつでもアプリケーションを変更できます。
+[!DNL Workfront]は、アクセス権のあるCX Enterprise製品の一覧に表示されます。 CX Enterprise ホームページのクイックアクセス メニューで[!DNL Workfront]を選択するか、製品スイッチャー![製品スイッチャー](assets/main-menu-icon.png)を使用して、いつでもアプリケーションを変更できます。
 
 ![&#x200B; [!DNL Workfront] を選択してアプリケーションにアクセス &#x200B;](assets/cx-enterprise-home-2026.png)
 

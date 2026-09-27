@@ -8,13 +8,25 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 9%
-
+source-wordcount: '634'
+ht-degree: 11%
 ---
-
 # カスタムフィールドの財務データへのアクセス制限
 
 カスタムフィールドを作成する場合は、財務データへのアクセスを制限するオプション設定を定義できます。 これにより、アクセスレベルで特定の権限が設定されているユーザーはデータを表示でき、アクセス権を持つはずの財務データを表示することはできません。
@@ -53,7 +65,7 @@ ht-degree: 9%
 
 ## カスタムフィールドの財務データへのアクセスを制限
 
-1. 新しいカスタムフォームを作成するか、既存のフォームを開きます。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。
 
    詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 

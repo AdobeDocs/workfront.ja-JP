@@ -6,23 +6,31 @@ description: ユーザーにログインを要求するかどうか、ユーザ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-TQID: https://experienceleague.adobe.com/lcalyeMjj8Vj7hcdgwQx03101gSgocB82uWXHaZCacQ
+TQID: 'https://experienceleague.adobe.com/lcalyeMjj8Vj7hcdgwQx03101gSgocB82uWXHaZCacQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 823
-ht-degree: 94%
-
+source-wordcount: '861'
+ht-degree: 99%
 ---
-
 # プルーフのアクセスおよびサブスクリプション設定を行う
 
 ユーザーにログインを要求するかどうか、ユーザーにプルーフのサブスクリプションを許可するかどうかなど、個々のプルーフの特定のアクセスおよびサブスクリプション設定を行うことができます。 プルーフのアクセスおよびサブスクリプション設定は、作成時に行うことも、Workfront に既に存在するプルーフに行うこともできます。
@@ -81,7 +89,7 @@ ht-degree: 94%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>パブリック URL または埋め込みコード経由によるプルーフの登録を許可する</strong> </td> 
-      <td>このオプションを選択すると、プルーフに明示的に追加されていないユーザーは、プルーフを購読できます。プルーフを購読するユーザーには、次の設定で定義した役割と電子メールが付与されます。
+      <td>このオプションを選択すると、プルーフに明示的に追加されていないユーザーもプルーフを購読できます。 プルーフを購読しているユーザーには、次の設定で定義した役割とメールが付与されます。
        <ul>
         <li><p><strong>サブスクライバーの役割：</strong>プルーフを購読するすべてのレビュアーに割り当てられる、デフォルトのプルーフの役割です。 </p><p>重要：Workfront Proof 設定で<strong>共有を許可</strong>が<strong>全員</strong>以外に設定されている場合、サブスクリプションは組織内のユーザーに対してのみ機能します。 詳しくは、<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Workfront Proof でのサブスクリプション設定</a>を参照してください。</p></li>
         <li><strong>サブスクライバー向けのメールアラート設定：</strong>プルーフを購入するすべてのレビュアーに割り当てられるデフォルトのメールアラートです。</li>
@@ -113,7 +121,7 @@ Workfront に既に存在するプルーフのアクセスおよびサブスク�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>パブリック URL または埋め込みコード経由によるプルーフの登録を許可する</strong> </td> 
-      <td>このオプションを選択すると、プルーフに明示的に追加されていないユーザーは、プルーフを購読できます。プルーフを購読するユーザーには、次の設定で定義した役割と電子メールが付与されます。
+      <td>このオプションを選択すると、プルーフに明示的に追加されていないユーザーもプルーフを購読できます。 プルーフを購読しているユーザーには、次の設定で定義した役割とメールが付与されます。
        <ul>
         <li><p><strong>サブスクライバーの役割：</strong>プルーフを購読するすべてのレビュアーに割り当てられる、デフォルトのプルーフの役割です。 </p><p>重要：Workfront Proof 設定で<strong>共有を許可</strong>が<strong>全員</strong>以外に設定されている場合、サブスクリプションは組織内のユーザーに対してのみ機能します。 詳しくは、<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Workfront Proof でのサブスクリプション設定</a>を参照してください。</p></li>
         <li><strong>サブスクライバー向けのメールアラート設定：</strong>プルーフを購入するすべてのレビュアーに割り当てられるデフォルトのメールアラートです。</li>

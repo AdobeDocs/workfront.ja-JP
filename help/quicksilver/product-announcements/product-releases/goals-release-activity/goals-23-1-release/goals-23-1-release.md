@@ -7,18 +7,26 @@ description: このページでは、23.1 リリースに伴い、本番環境�
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
-TQID: https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho
+TQID: 'https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 86%
-
+source-wordcount: '352'
+ht-degree: 100%
 ---
-
 # Adobe Workfront Goals 23.1 リリース
 
 このページでは、2023年1月16日（PT）の週に予定される 23.1 リリースに伴い、本番環境にリリースされる Adobe Workfront Goals の機能について説明します。
@@ -43,8 +51,8 @@ ht-degree: 86%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Workfront Goals のアップデート</a></p>
                         <p>Workfront の他の機能とより一貫したエクスペリエンスを作成し、目標を簡単に確認して作業できるように、Workfront Goals をアップデートしました。 Workfront Goals のルックアンドフィールは、Workfront の他の領域に類似したものとなります。 </p>
-                        <p>これで、ヘッダー、リスト、詳細カードなどの領域が、Workfrontでのエクスペリエンスと一致するようになりました。
-個々の目標は独自のページで開き、左側のパネルに次のセクションを追加して、簡単にナビゲーションと更新を行えるようにしました。</p>
+                        <p>ヘッダー、リスト、詳細カードなどの領域が、Workfront でのエクスペリエンスと馴染みがあり、一貫性のあるものとなりました。
+個人の目標を各自のページで開き、左側のパネルに以下のセクションを追加して、ナビゲーションや更新を容易に行えるようにしました。</p>
                         <ul>
                         <li><b>目標の詳細</b>：目標の詳細。目標の説明、進行状況、日付、親の目標の情報などを表示します。</li>
                         <li><b>進行状況インジケーター</b>：進行状況インジケーターをリストに表示します。 これらの指標は、インラインで編集したり、編集ウィンドウを開いて編集したり、この領域から削除したりできます。</li>
@@ -52,8 +60,8 @@ ht-degree: 86%
 目標を共有、編集、削除、コピーする方法は、Workfront で他のオブジェクトに対してこれらのアクションを実行する場合と似ています。</li>    
                         </ul>
                         </p>
-                        <p>目標の共有、編集、削除またはコピーは、Workfrontの他のオブジェクトに対してこれらの操作を実行する方法と似ています。
-さらに、目標の「更新」セクションに新しいコメント機能が導入され、ユーザーコメントとシステムアクティビティノートが2つの別のタブに表示されるようになりました。</p>
+                        <p>目標を共有、編集、削除、コピーする方法は、Workfront で他のオブジェクトに対してこれらのアクションを実行する場合と似ています。
+さらに、目標の「更新」セクションに新しいコメントエクスペリエンスが導入され、ユーザーのコメントとシステムのアクティビティに関するメモが 2 つの異なるタブに表示されるようになりました。</p>
                         <p><b>重要</b>：このアップデートに伴い、Goals 領域の「チェックイン」セクションと「パルス」セクションが削除されました。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>

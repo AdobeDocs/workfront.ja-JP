@@ -2,36 +2,47 @@
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 「個人設定」の指定
-description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関する情報（名前、メールアドレス、住所、電話番号、役職など）が含まれます。 また、 [!DNL Workfront]  および社内の他のユーザーとのインタラクションに関する情報も含まれます。'
+description: '[!DNL Adobe Workfront] プロファイルには、自分に関する情報（名前、メールアドレス、住所、電話番号、役職など）が含まれます。 また、[!DNL Workfront]および社内の他のユーザーとのやり取りに関する情報も含まれます。'
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+TQID: 'https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3256
-ht-degree: 88%
-
+source-wordcount: '3379'
+ht-degree: 89%
 ---
-
 # 「個人設定」の指定
 
 <!-- Audited: 01/2024 -->
@@ -162,7 +173,7 @@ ht-degree: 88%
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Resource Planning]</td> 
+   <td rowspan="2">[!UICONTROL リソース計画]</td> 
    <td>表示</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -359,14 +370,14 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>ここで目的の言語を指定します。 これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
-   <p><strong> メモ：</strong>組織がAdobe Unified Experienceを利用している場合、言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 詳しくは、<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfrontでサポートされている言語</a>の記事の<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud言語の変更</a>を参照してください。</p></td> 
+   <p><strong> メモ：</strong>組織がAdobe Unified Experienceを利用している場合、言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 詳しくは、<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Adobe Workfrontでサポートされている言語</a>の記事の<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud言語の変更</a>を参照してください。</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL タスクが自己割り当てされると、タスクのステータスを自動的に「進行中」に設定します]</strong> </td>
   <td>自分に割り当てた作業のステータスを「新規」ではなく「進行中」に自動的に設定する場合は、このオプションを選択します。</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>（条件付き）Automatically generate proofs when uploading documents</strong></td> 
-   <td>ドキュメントが[!DNL Workfront]に読み込まれた直後にプルーフの生成を開始するには、このフィールドを選択します。このフィールドはデフォルトで無効になっており、Workfront管理者のみが更新できます。<br>このフィールドは、会社がWorkfront用のWorkfront Proof コンポーネントを購入しており、プルーフユーザーとして有効になっている場合にのみ使用できます。Workfront Proofについて詳しくは、<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront内のプルーフの管理</a>を参照してください。
+   <td>ドキュメントが [!DNL Workfront] に読み込まれた直後にプルーフの生成を開始するには、このフィールドを選択します。 このフィールドはデフォルトで無効になっており、Workfront 管理者のみが更新できます。<br>このフィールドは、Workfront の Workfront Proof コンポーネントを購入し、プルーフユーザーとして有効になっている場合にのみ表示されます。 Workfront Proof について詳しくは、<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront 内でのプルーフの管理</a>を参照してください。
    <p><b>メモ：</b>リクエストにアップロードされたドキュメントは、プルーフを自動生成しません。 </p></td> 
   </tr> 
  </tbody> 
@@ -394,7 +405,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
-   <td>このフィールドは、[!UICONTROL Standard]、[!UICONTROL Plan]または[!UICONTROL Workfront管理者] アクセス レベルを持つユーザーに表示され、[!DNL Workfront]人の管理者のみが編集できます。 [!DNL Workfront]管理者の場合は、このフィールドを変更する際に、アクセスレベルを低いレベルに変更しないように注意してください。 </td> 
+   <td>このフィールドは、[!UICONTROL Standard]、[!UICONTROL Plan] または [!UICONTROL Workfront administrator] のアクセスレベルを持つユーザーに対して表示され、[!DNL Workfront] 管理者のみが編集できます。 [!DNL Workfront] 管理者は、このフィールドを変更する際に、アクセスレベルを低い値に変更しないように注意してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
@@ -478,7 +489,7 @@ ht-degree: 88%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
-   <td><p>一定期間が経過した後にアカウントを非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。表示される<strong>[!UICONTROL Scheduled Deactivation Date]</strong>で、アカウントが非アクティブ化される日付を指定します。ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">非アクティブ化のユーザーのスケジュール </a>を参照してください。 </p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。 </p></td> 
+   <td><p>一定期間が経過した後にアカウントを非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。 表示される<strong>[!UICONTROL Scheduled Deactivation Date]</strong>で、アカウントが非アクティブ化される日付を指定します。 ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。 </p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。 </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
@@ -502,7 +513,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>スケジュール</strong></td> 
-   <td> <p>[!DNL Workfront] 管理者、または [!UICONTROL Standard] か [!UICONTROL Plan] ライセンスに加え、タイムシートと時間に対する管理アクセス権を持っているユーザーのみが、このフィールドを更新できます。 タイムシートと時間の管理アクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>の「タイムシートと時間数」の節を参照してください。</p> <p>ドロップダウンメニューから適切なタイムシートを選択します。これにより、[!DNL Workfront]管理者が設定した仕様に従って、タイムシートが自動的に生成されます。 </p> </td> 
+   <td> <p>[!DNL Workfront] 管理者、または [!UICONTROL Standard] か [!UICONTROL Plan] ライセンスに加え、タイムシートと時間に対する管理アクセス権を持っているユーザーのみが、このフィールドを更新できます。 タイムシートと時間の管理アクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>の「タイムシートと時間数」の節を参照してください。</p> <p>ドロップダウンメニューから正しいタイムシートを選択します。 これにより、[!DNL Workfront] 管理者によって指定された設定に従って、タイムシートが自動的に生成されます。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Default Hour Type]</strong> </td> 

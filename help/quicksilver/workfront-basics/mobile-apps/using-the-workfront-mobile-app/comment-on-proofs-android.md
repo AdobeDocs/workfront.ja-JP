@@ -6,18 +6,21 @@ description: プルーフに対する既存のコメントをレビューおよ�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-TQID: https://experienceleague.adobe.com/ZLVGe0gYBjB-gMr2bNBJPXxTVaabN5ELhaEL4uMASYY
+TQID: 'https://experienceleague.adobe.com/ZLVGe0gYBjB-gMr2bNBJPXxTVaabN5ELhaEL4uMASYY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 97%
-
 ---
-
 # [!DNL Android] でのプルーフに対するコメント
 
 プルーフに対する既存のコメントをレビューおよび解決し、新しいコメントや注釈をプルーフドキュメントに追加できます。

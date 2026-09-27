@@ -7,23 +7,28 @@ description: アクセスレベルを割り当てる際に、Adobe Workfront 管
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 100%
-
 ---
-
 # レポート、ダッシュボードおよびカレンダーの共有
 
 アクセスレベルを割り当てる際に、Adobe Workfront 管理者は、レポート、ダッシュボードおよびカレンダーを表示または編集するためのアクセス権をユーザーに付与します。 レポート、ダッシュボードおよびカレンダーへのアクセス権の付与に関して詳しくは、[レポート、ダッシュボードおよびカレンダーへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
@@ -49,9 +54,9 @@ ht-degree: 100%
 
   レポート、ダッシュボードおよびカレンダーの共有方法については、以下の記事も参照してください。
 
-   * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [カレンダーレポートの共有](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [カレンダーレポートの共有](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * レポートやダッシュボードは個別に共有することも、一括で共有することもできます。
 
@@ -63,8 +68,8 @@ ht-degree: 100%
 
 * レポート、ダッシュボードおよびカレンダーに対する以下の権限を付与できます。
 
-   * 表示
-   * 管理
+  * 表示
+  * 管理
 
 * ダッシュボードを共有すると、ユーザーにはデフォルトで、ダッシュボード上のすべてのレポート、カレンダーおよび外部ページに対する表示権限があります。
 * リクエストライセンスを持つユーザーは、システム全体のレポートを表示できません。 依頼者がレポートを表示する必要がある場合は、そのレポートを依頼者と個別に共有する必要があります。

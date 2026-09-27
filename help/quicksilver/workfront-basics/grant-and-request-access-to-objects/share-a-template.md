@@ -6,22 +6,26 @@ description: Adobe Workfront 管理者は、ユーザーのアクセスレベル
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 90%
-
 ---
-
 # テンプレートの共有
 
 Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当てる際に、テンプレートを表示または編集するためのアクセス権をユーザーに付与できます。 テンプレートを編集するには、ユーザーに標準またはプランのライセンスが必要です。
@@ -42,18 +46,18 @@ Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当�
 * テンプレートの作成者およびテンプレート所有者には、デフォルトで、テンプレートに対する管理権限があります。 ユーザーをテンプレート所有者に指定する方法については、[プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 * テンプレートを共有すると、以下のものを共有できます。
 
-   * テンプレート
+  * テンプレート
 
-     テンプレートの共有方法について詳しくは、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
+    テンプレートの共有方法について詳しくは、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 
-     テンプレートに対する次の権限を付与できます。
+    テンプレートに対する次の権限を付与できます。
 
-      * 表示
-      * 管理
+    * 表示
+    * 管理
 
-   * このテンプレートを使用して今後作成されるプロジェクト。 個々のプロジェクトに付与するのと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。
+  * このテンプレートを使用して今後作成されるプロジェクト。 個々のプロジェクトに付与するのと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。
 
-     テンプレートから作成されたプロジェクトをテンプレートレベルで共有する方法については、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
+    テンプレートから作成されたプロジェクトをテンプレートレベルで共有する方法については、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 
 * テンプレートまたはテンプレートから作成されたプロジェクトを共有する場合、ユーザーは、テンプレートまたはプロジェクトに関連付けられているすべての子オブジェクトに対して同じ権限をデフォルトで継承します。
 

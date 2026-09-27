@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: ユーザー、スケジュール
 navigation-topic: configure-timesheets-and-schedules
 title: スケジュールの概要
-description: スケジュールを使用して、週の作業時間を定義できます。 ユーザーやプロジェクトに、スケジュールを関連付けることができます。 これにより、 [!DNL Adobe Workfront]  がタイムラインとユーザーの空き時間を計算します。 手順については、スケジュールを作成を参照してください。
+description: スケジュールを使用して、週の作業時間を定義できます。 ユーザーやプロジェクトに、スケジュールを関連付けることができます。 これにより、[!DNL Adobe Workfront] がタイムラインとユーザーの空き時間を計算できるようになります。 手順については、スケジュールを作成を参照してください。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 94%
-
 ---
-
 # スケジュールの概要
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ Workfront でスケジュールを操作する際は、次の点に注意して�
 
 * 1人のユーザーがタスクに割り当てられている場合、[!DNL Workfront]は、[!UICONTROL &#x200B; セットアップ &#x200B;]の[!UICONTROL &#x200B; プロジェクト環境設定]領域で定義されているように、次のいずれかのスケジュールを使用します。
 
-   * タスクに割り当てられているユーザーのスケジュール
-   * プロジェクトに関連付けられたスケジュール。
+  * タスクに割り当てられているユーザーのスケジュール
+  * プロジェクトに関連付けられたスケジュール。
 
-     個人スケジュールについて詳しくは、[個人休暇の設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
+    個人スケジュールについて詳しくは、[個人休暇の設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
 
 * 複数のユーザーが 1 つのタスクに割り当てられ、タスクの期間中に異なるスケジュールを持つ場合、[!DNL Workfront] は、[!UICONTROL 設定]の[!UICONTROL プロジェクト環境設定]エリアで定義されている次のスケジュールのいずれかを使用します。
 
-   * プライマリ担当者に指定されたユーザーのスケジュール
-   * プロジェクトに関連付けられたスケジュール。
+  * プライマリ担当者に指定されたユーザーのスケジュール
+  * プロジェクトに関連付けられたスケジュール。
 
-     プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+    プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 * タスクに割り当てられているユーザーにスケジュールがない場合、またはタスクが担当業務やチームにのみ割り当てられていたり、あるいは割り当てられていない場合、[!DNL Workfront] は、タイムラインの計算にプロジェクトスケジュールを使用します。
 * タスクに割り当てられているユーザーにスケジュールがない場合、またはタスクが担当業務やチームにのみ割り当てられていたり、あるいは割り当てられていない場合、およびプロジェクトにスケジュールがない場合、[!DNL Workfront] は、タイムライン計算のデフォルトスケジュールとして指定されているシステム内のスケジュールを使用します。

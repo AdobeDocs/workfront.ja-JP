@@ -8,25 +8,31 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
+TQID: 'https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3659
+source-wordcount: '3693'
 ht-degree: 27%
-
 ---
-
 # カスタムフォームおよびフィールドへの論理ルールの追加
 
 {{preview-fast-release-general}}
@@ -97,7 +103,7 @@ ht-degree: 27%
 
 ## 表示ロジックとスキップロジックの使用に関する考慮事項
 
-* カスタムフィールド、ウィジェット、またはセクション区切りに表示ロジックを追加するには、少なくとも1つの複数選択フィールド（ラジオボタン、ドロップダウン、またはチェックボックス）をフォーム上に配置する必要があります。
+* カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。
 カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * スキップロジックはウィジェットやセクション区切りに追加することはできません。 追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
 * 表示またはスキップロジックを適用して、マルチオプションフィールドの選択肢を表示または非表示にすることはできません。 例えば、別のフィールドの表示またはスキップロジックに基づいて、ドロップダウン、チェックボックスグループ、ラジオボタンのフィールドに表示される選択肢を制限することはできません。

@@ -6,13 +6,23 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 3%
-
+source-wordcount: '3226'
+ht-degree: 6%
 ---
-
 # Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ
 
 <!--
@@ -49,9 +59,9 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 * Workfront Planning パッケージを購入したお客様に対しては、ユーザーのライセンスをWorkfront Planningに示す新しい「Planning License Type」フィールドが追加されました。
 同じ数のWorkflowおよびPlanning ライセンスを購入したお客様は、次のライセンスタイプを利用できます。
 
-   * 計画標準
-   * 計画貢献者
-   * なし
+  * 計画標準
+  * 計画貢献者
+  * なし
 
 >[!NOTE]
 >

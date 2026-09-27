@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: ボックスフォルダーを  [!DNL Workfront Proof] と同期
+title: '[!DNL Workfront Proof]とBox フォルダーを同期'
 description: ボックスフォルダーを Workfront Proof のフォルダーと同期できます。 ボックスフォルダー内のファイルに加えたすべての変更は、Workfront Proof のプルーフに反映されます（新規ファイルのアップロード、新しいバージョンの追加、ファイルの名前の変更など）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
-TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
+TQID: 'https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 100%
-
+source-wordcount: '662'
+ht-degree: 99%
 ---
-
 # [!DNL Box] フォルダーを [!DNL Workfront Proof] と同期
 
 >[!IMPORTANT]
@@ -31,7 +40,7 @@ ht-degree: 100%
 
 [!DNL Box] フォルダーを [!DNL Workfront Proof] にあるフォルダーと同期できます。 ボックスフォルダー内のファイルに加えたすべての変更は、Workfront Proof のプルーフに反映されます（新規ファイルのアップロード、新しいバージョンの追加、ファイルの名前の変更など）。
 
-フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
+フォルダーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
 
 >[!NOTE]
 >
@@ -58,7 +67,7 @@ ht-degree: 100%
    * **[!UICONTROL 同期を一時停止]**：[!DNL Workfront Proof] フォルダーはボックスからの変更によってはアップデートされなくなります。 同期はいつでも再開できます（1）。
    * **[!UICONTROL フォルダーの同期を無効化]**：フォルダー間の接続が失われ、同期を [!DNL Box] アカウントから再設定する必要があります（2）。
 
-   * フォルダーの同期を開始したユーザーのみが、フォルダーの同期を無効化または一時停止できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
+   * フォルダーの同期を開始したユーザーのみが、フォルダーの同期を無効化または一時停止できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
    * **[!DNL Box]フォルダー**&#x200B;に移動：[!DNL Box] フォルダー オプション内でフォルダー URL を共有した場合、このオプションが利用可能になり、[!DNL Box] フォルダーに直接移動します（3）。
    * **[!UICONTROL フォルダー同期の詳細]**：この節には、[!DNL Box] フォルダーに関する情報が含まれます（4）。
    * **[!UICONTROL [!DNL Box]フォルダーリンク]**：[!DNL Box] フォルダーへの URL（5）。
@@ -69,7 +78,7 @@ ht-degree: 100%
 >
 >* [!UICONTROL フォルダーオプション]メニューから [!DNL Box] フォルダを同期することもできます。
 >* 独自のブランドの [!DNL Workfront Proof] ログインページがある場合は、標準 [!DNL Workfront Proof] ログインページの代わりにそのページが表示されます。 詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) の記事を参照してください。
->* [!DNL Workfront Proof] アカウントで [!UICONTROL シングル サインオン（SSO）] 機能を有効にしている場合は、SSO ログインページが表示され、SSO ログイン資格情報の入力を求められます。ただし、[!DNL Box] アカウントと [!DNL Workfront Proof] に同じメールアドレスを使用している場合に限ります。 詳しくは、 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) での[[!UICONTROL シングルサインオン]を参照してください。
+>* [!DNL Workfront Proof] アカウントで [!UICONTROL シングル サインオン（SSO）] 機能を有効にしている場合は、SSO ログインページが表示され、SSO ログイン資格情報の入力を求められます。ただし、[!DNL Box] アカウントと [!DNL Workfront Proof] に同じメールアドレスを使用している場合に限ります。 詳しくは、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) での[!UICONTROL シングルサインオン]を参照してください。
 >* [!DNL Box] アカウントと [!DNL Workfront Proof] アカウントの両方に同じメールアドレスを使用していない場合は、常に標準の [!DNL Workfront Proof] ログインページが表示されます。
 >
 

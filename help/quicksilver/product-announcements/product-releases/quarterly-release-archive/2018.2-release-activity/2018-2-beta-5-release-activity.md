@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 99%
-
 ---
-
 # 2018.2 Beta 5 リリースアクティビティ
 
 このページでは、2018.2 Beta 5 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年6月1日（PT）にプレビュー環境で使用できるようになります。 Beta 5 でリリースされるプルーフの機能強化は、6月4日月曜日（PT）にプレビュー環境で利用できるようになります。 2018年7月に、本番環境で利用可能になる予定です。
@@ -136,8 +143,8 @@ Outlook でカレンダーを使用する場合は、カレンダーを統合し
 * フルスクリーンモード。
 * パフォーマンスを高速化および効率化しました。
 
-   * 表示できるプロジェクト、役割およびユーザーの数に新しく制限を設けました。
-   * 遅延読み込みで、プロジェクトと役割の読み込みを速くします。
+  * 表示できるプロジェクト、役割およびユーザーの数に新しく制限を設けました。
+  * 遅延読み込みで、プロジェクトと役割の読み込みを速くします。
 
 * リソースプランナーからプロジェクトとユーザーに直接クイックアクセスできます。
 * プロジェクトビューでドラッグ＆ドロップ機能を高速化して、プロジェクトを優先付けします。
@@ -266,10 +273,10 @@ Workfront でドキュメントに新規バージョンを追加する際に、�
 
   この機能により、次のエリアが改善されました。
 
-   * 担当作業とホーム
-   * 通知
-   * 連絡先
-   * 承認
+  * 担当作業とホーム
+  * 通知
+  * 連絡先
+  * 承認
 
 * 項目の「詳細」タブを表示する際の新しいルックアンドフィール
 
@@ -306,7 +313,7 @@ Workfront でドキュメントに新規バージョンを追加する際に、�
 
 Web プルーフビューアとデスクトッププルーフビューアからプルーフにユーザーを直接追加できるようになりました。 
 
-以前は、個々のユーザーをプルーフに追加できませんでした。 正確には、パブリック URL または埋め込みコードのみをコピーできました。
+以前は、個人ユーザーをプルーフに追加できませんでした。 正確には、パブリック URL または埋め込みコードのみをコピーできました。
 
 詳しくは、[プルーフビューアからのプルーフの共有](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)の記事の[プルーフへのユーザーの追加によるプルーフの共有](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)を参照してください。
 

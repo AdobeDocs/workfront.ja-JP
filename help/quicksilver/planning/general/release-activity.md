@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 39%
-
 ---
-
 # Adobe Workfront Planning の 2024年リリースアクティビティ
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ Workfront Planningのリリースが一般提供に移行したことに伴い�
 
 * Workfront Planningでは、次のことが可能です。
 
-   * 無制限のワークスペース
+  * 無制限のワークスペース
 
-   * 25,000 レコード/ワークスペース
+  * 25,000 レコード/ワークスペース
 
-   * インスタンスの合計レコード数は50万
+  * インスタンスの合計レコード数は50万
 
 * Workfront Planning Plusでは、次の機能を利用できます。
 
-   * 無制限のワークスペース
+  * 無制限のワークスペース
 
-   * 500,000 レコード/ワークスペース
+  * 500,000 レコード/ワークスペース
 
-   * インスタンスの合計レコード数は200万です。
+  * インスタンスの合計レコード数は200万です。
 
 詳しくは、[Adobe Workfront計画オブジェクトの制限の概要](/help/quicksilver/planning/general/limitations-overview.md)を参照してください。
 
@@ -149,10 +161,10 @@ Workfront Planningのリリースが一般提供に移行したことに伴い�
 
 * リクエストフォームの設定方法に応じて、次のタイプのフィールドを除く、レコードタイプのすべてのフィールドが表示される場合があります。
 
-   * ユーザー
-   * 接続されたフィールド（Experience Manager Assetsとの接続を含む）
-   * 接続されたルックアップフィールド
-   * 式
+  * ユーザー
+  * 接続されたフィールド（Experience Manager Assetsとの接続を含む）
+  * 接続されたルックアップフィールド
+  * 式
 
 詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
@@ -179,13 +191,13 @@ Workfront Planningのパブリック APIのリリースにより、Workfront カ
 
 * レコードバーまたはそのグループの色を次のいずれかに合わせて変更します。
 
-   * レコードタイプのカラー
+  * レコードタイプのカラー
 
-   * 選択したフィールドのカラー
+  * 選択したフィールドのカラー
 
-   * グループ化のカラー
+  * グループ化のカラー
 
-   * 色なし（デフォルト）
+  * 色なし（デフォルト）
 
 カラーを特定のフィールドに一致させる場合、色分けオプションを含むフィールドのみを選択できます。
 
@@ -494,9 +506,9 @@ Workfront Planningのワークスペーステンプレートカードのルッ�
 
 * マーケティング管理テンプレートが削除されました。 マーケティング管理用に次のテンプレートを追加しました。ワークフローの複雑さに応じて、適切なテンプレートを使用することをお勧めします。
 
-   * ベーシック：マーケティング管理
-   * アドバンスト：マーケティング管理
-   * エンタープライズ：マーケティング管理
+  * ベーシック：マーケティング管理
+  * アドバンスト：マーケティング管理
+  * エンタープライズ：マーケティング管理
 
 詳しくは、次の記事を参照してください。
 
@@ -622,9 +634,9 @@ Workfront Planningのワークスペーステンプレートカードのルッ�
 
 * Workfront管理者の場合は、次のタブが表示されます。
 
-   * マイワークスペース：作成したワークスペースのみを表示します。
+  * マイワークスペース：作成したワークスペースのみを表示します。
 
-   * その他のワークスペース：作成したワークスペースまたは共有されているワークスペースが表示されます。
+  * その他のワークスペース：作成したワークスペースまたは共有されているワークスペースが表示されます。
 
 * Workfront Planningのドキュメントおよびリリースアクティビティへのリンク
 
@@ -815,7 +827,7 @@ Workfront Planning以外のオブジェクトタイプへの接続を作成す�
 
 プレビュー：未決定
 
-Adobe Unified Experienceをご利用のお客様で、誰かがレコードページにコメントを追加すると、そのコメントに関するアプリ内メッセージとメール通知が届きます。 Adobe Experience Cloud プロファイルの「環境設定」領域で、通知の環境設定を管理できます。 詳しくは、[&#x200B; アカウントの環境設定と通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)を参照してください。
+Adobe Unified Experienceをご利用のお客様で、誰かがレコードページにコメントを追加すると、そのコメントに関するアプリ内メッセージとメール通知が届きます。 Adobe Experience Cloud プロファイルの「環境設定」領域で通知の環境設定を管理できます。 詳しくは、[&#x200B; アカウントの環境設定と通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)を参照してください。
 
 Workfront計画の通知について詳しくは、[Adobe Workfront計画の通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
@@ -925,13 +937,13 @@ Workspace管理者は、レコードページまたはプレビューに表示�
 
 詳しくは、[レコードビューを管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-### メインメニューの Maestro エリアの名前を「Planning」に変更しました。
+### メインメニューの Maestro エリアの名前を「プランニング」に変更しました。
 
 実稼動：2024年3月27日（PT）
 
 プレビュー：未決定
 
-メインメニューの Maestro エリアの名前を「Planning」に変更しました。
+メインメニューの Maestro エリアの名前を「プランニング」に変更しました。
 
 Adobe Workfront計画の概要については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
@@ -1122,7 +1134,7 @@ ExcelまたはCSV ファイルを使用したレコードタイプの読み込�
 
 新しいライセンスモデルについて詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-Planning 機能でのライセンスタイプと権限の接続については、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
+プランニング機能でのライセンスタイプと権限の接続については、[Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 
 
 ### レコードフィールド用のリッチテキストツールバーの新しいルックアンドフィール
@@ -1230,13 +1242,13 @@ Planning 機能でのライセンスタイプと権限の接続については�
 
 ## 2024年1月8日（PT）の週
 
-### Planning 機能をプレビュー環境とサンドボックス環境から削除
+### プランニング機能をプレビュー環境とサンドボックス環境から削除
 
 プレビューとサンドボックス：2024年1月11日（PT）
 
-Adobe Workfront Planning 機能は、プレビュー環境とサンドボックス環境から一時的に削除されました。 この機能は、後日これらの環境に追加されます。日程はリリースアクティビティノートでお伝えします。
+Adobe Workfront プランニング機能は、プレビュー環境とサンドボックス環境から一時的に削除されました。 この機能は、後日これらの環境に追加されます。日程はリリースアクティビティノートでお伝えします。
 
-### ワークスペースとビューに対する Planning 機能権限
+### ワークスペースとビューに対するプランニング機能権限
 
 実稼動：2024年1月11日（PT）
 

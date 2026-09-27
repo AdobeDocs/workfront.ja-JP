@@ -2,23 +2,26 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: モバイル用 Adobe Workfront ボード
-description: ' [!DNL Workfront]  モバイルアプリでは、 [!DNL Workfront] のデスクトップバージョンで作成したボードまたは追加されたボードをすべて表示できます。'
+description: '[!DNL Workfront] モバイルアプリでは、[!DNL Workfront] のデスクトップバージョンで作成したボードまたは追加されたボードをすべて表示できます。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
-ht-degree: 97%
-
+source-wordcount: '1074'
+ht-degree: 100%
 ---
-
-# モバイル用 [!DNL Adobe Workfront] ボード
+# ]モバイル用 [!DNL Adobe Workfront] [!UICONTROL ボード
 
 [!DNL Adobe Workfront] [!UICONTROL ボード]は、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。 ボードの詳細については、[ボードの概要](/help/quicksilver/agile/boards-overview.md)を参照してください。
 
@@ -112,7 +115,7 @@ ht-degree: 97%
 1. （オプション）チェックリスト項目をコピーするには、カードを開き、項目の&#x200B;[!UICONTROL **その他**]&#x200B;メニュー ![その他メニュー](assets/more-icon-spectrum.png) を選択し、「[!UICONTROL **コピー**]」を選択します。 項目のコピーがリストの下部に追加されます。
 1. （オプション）チェックリスト項目を削除するには、カードを開き、[!UICONTROL **その他**]&#x200B;メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択し、「[!UICONTROL **削除**]」を選択します。
 1. チェックリスト項目を完了するには、カードを開き、項目名の横にあるチェックボックスを選択します。
-アイテムが「完了」とマークされ、カードのカウンターが更新され、チェックリストのアイテムが完了した数が表示されます。
+項目が完了とマークされ、カードのカウンターが更新されて、完了したチェックリスト項目の数が表示されます。
 
 ## ボード内でのフィルターと検索
 
@@ -137,7 +140,7 @@ ht-degree: 97%
 1. フィルターと検索アイコン ![フィルターと検索](assets/filter-search-icon-mobile-boards.png) を選択します。
 1. ボックスに検索語を入力し、「[!UICONTROL **完了**]」または ![完了アイコン](assets/mobile-apply-icon-checkmark.png) を選択します。
 
-   タイトルに検索語が含まれているすべてのカードが表示されます。
-「X」を選択して検索を消去します。
+   タイトルに検索語を含むカードがすべて表示されます。
+   「X」を選択して検索をクリアします。
 
    ![カードを検索](assets/mobile-search-for-card.png)

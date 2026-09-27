@@ -1,6 +1,6 @@
 ---
 title: フィールドの削除
-description: Adobe Workfront Planning では、関係なくなったカスタムフィールドを削除できます。
+description: Adobe Workfront プランニングでは、関係なくなったカスタムフィールドを削除できます。
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
@@ -8,25 +8,33 @@ author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EusoK7-jmYJHg9nqyvvQamsfVeUy802p36EyDmLGwik
+TQID: 'https://experienceleague.adobe.com/EusoK7-jmYJHg9nqyvvQamsfVeUy802p36EyDmLGwik'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '708'
 ht-degree: 27%
-
 ---
-
 # フィールドの削除
 
 <!--
@@ -37,11 +45,11 @@ ht-degree: 27%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、カスタムフィールドを作成して、レコードに関する情報を格納できます。
+Adobe Workfront プランニングでは、カスタムフィールドを作成して、レコードに関する情報を格納できます。
 
-Workfront Planning でのカスタムフィールドの作成について詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+Workfront プランニングでのカスタムフィールドの作成について詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
-関係がなくなった Workfront Planning フィールドは削除できます。
+関係がなくなった Workfront プランニングフィールドは削除できます。
 
 ## アクセス要件
 
@@ -158,7 +166,7 @@ Old:
 </table>
 -->
 
-## Workfront Planning フィールドの削除に関する考慮事項：
+## Workfront プランニングフィールドの削除に関する考慮事項：
 
 * レコードタイプのテーブルビューでのみフィールドを削除できます。
 * レコードの主フィールドは削除できません。

@@ -1,34 +1,43 @@
 ---
 navigation-topic: use-lists
-title: ' [!DNL Adobe Workfront] のリストの概要'
-description: ' [!DNL Adobe Workfront]  内のオブジェクトのリストを表示して、オブジェクトの開始日と期限、オブジェクトに割り当てられたユーザー、オブジェクトに関連付けられている他のオブジェクトなどの情報を取得できます。'
+title: '[!DNL Adobe Workfront] のリストの概要'
+description: '[!DNL Adobe Workfront] 内のオブジェクトのリストを表示して、オブジェクトの開始日と期限、オブジェクトに割り当てられたユーザー、オブジェクトに関連付けられている他のオブジェクトなどの情報を取得できます。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/SHiKAwglWS8kvsmB9viH2VAd0z9Z4iL-EDKmhUtFOf4
+TQID: 'https://experienceleague.adobe.com/SHiKAwglWS8kvsmB9viH2VAd0z9Z4iL-EDKmhUtFOf4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2282
-ht-degree: 71%
-
+source-wordcount: '2284'
+ht-degree: 72%
 ---
-
 # [!DNL Adobe Workfront] のリストの概要
 
 <!--Audited: 12/2025-->
@@ -48,8 +57,8 @@ ht-degree: 71%
 
 * Workfrontのリストの種類は次のとおりです。
 
-   * 標準リスト
-   * 拡張リスト
+  * 標準リスト
+  * 拡張リスト
 
   詳しくは、この記事の「[標準と拡張リストの違い](#the-difference-between-the-standard-and-the-enhanced-lists)」を参照してください。
 

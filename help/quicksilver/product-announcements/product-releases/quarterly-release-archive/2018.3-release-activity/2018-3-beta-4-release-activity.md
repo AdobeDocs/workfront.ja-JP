@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
-TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
+TQID: 'https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1134
+source-wordcount: '1134'
 ht-degree: 100%
-
 ---
-
 # 2018.3 ベータ版 4 リリースアクティビティ
 
 このページでは、2018.3 ベータ版 4 リリースでのプレビュー環境で最近利用可能になったすべての変更点について説明します。 この機能は、2018年8月30日（PT）にプレビュー環境で使用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
@@ -88,10 +95,10 @@ ht-degree: 100%
 * 右クリック機能と、その機能が提供するコンテキストメニュー。\
   タスクを右クリックして編集することなく、次の操作を実行できます。
 
-   * 1 つのタスクを選択したときに、以前の右クリックメニューと同じオプションの「その他」メニューを使用できるようになりました。
-   * 複数のタスクを選択した場合は、リストの上部にあるアイコンを使用して、以前の右クリックメニューにあったどのアクションでも実行できます。
+  * 1 つのタスクを選択したときに、以前の右クリックメニューと同じオプションの「その他」メニューを使用できるようになりました。
+  * 複数のタスクを選択した場合は、リストの上部にあるアイコンを使用して、以前の右クリックメニューにあったどのアクションでも実行できます。
 
-     すべての変更は、プロジェクト内のタスクリストと、タスクの下の「サブタスク」タブに表示されます。
+    すべての変更は、プロジェクト内のタスクリストと、タスクの下の「サブタスク」タブに表示されます。
 
 リストでの作業について詳しくは、[Adobe Workfront のリストの基本を学ぶ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)を参照してください。
 

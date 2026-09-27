@@ -9,21 +9,26 @@ feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+TQID: 'https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
+    internal-label: Measurement
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2201
+source-wordcount: '2203'
 ht-degree: 1%
-
 ---
-
 # Workfront Data Connect クエリの例
 
 このページでは、Workfront Data Connect データをより効果的に活用するために、特定の種類のクエリの構文と構造を理解するために使用できる基本的なクエリの例を示します。
@@ -191,9 +196,11 @@ FROM
 
 >[!NOTE]
 >
->このクエリをPowerBIまたはTableauの独自の「ビュー」として使用することをお勧めします。`<object>_event view`から他のフィールドを取り込む場合は、このクエリの出力を`<object>_event view`に戻します。結合フィールドは次のとおりです。<br>
->projects_event: 
->`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>このクエリをPowerBIまたはTableauの独自の「ビュー」として使用することをお勧めします。`<object>_event view`から他のフィールドを取り込む場合は、このクエリの出力を`<object>_event view`に戻します。結合フィールドは次のとおりです。  <br>
+>projects_eventの場合： 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 ## 計画：単一レコードタイプのクエリ
 

@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w
+TQID: 'https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2626
-ht-degree: 21%
-
+source-wordcount: '2640'
+ht-degree: 24%
 ---
-
 # 2026年第 2 四半期リリースの概要
 
 このページでは、2026年4月に予定されている2026年第2四半期リリースに含まれる機能に関する情報を提供します。
@@ -459,7 +468,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 Workfront Fusion の新機能は、実稼動環境の標準リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
-### Workfront Planning の機能強化
+### Workfront プランニングの機能強化
 
 Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Planningの2026年第2四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)を参照してください。
 
@@ -527,8 +536,8 @@ API バージョンの詳細については、[API のバージョン管理と�
 * Workfront for Jira
 * Salesforce 用 Workfront
 
-組織のGoogle Workspaceとの統合ニーズには、Workfront Automation and Integrationを使用することをお勧めします。
-Workfrontの自動化と統合の概要については、[Adobe Workfront Fusionの概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+Google Workspace を使用した組織の統合のニーズに対しては、Workfront の自動処理と統合を使用することをお勧めします。
+Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 
 ### Workfront のメンテナンスアップデート

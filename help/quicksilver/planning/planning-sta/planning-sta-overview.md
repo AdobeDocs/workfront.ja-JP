@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 14%
-
 ---
-
 
 # スタンドアロン製品としてAdobe Workfront Planningを使用する
 
@@ -43,7 +55,7 @@ Should the information about licenses and access level capabilities be in anothe
 
 Adobe Workfront Planningは、Adobe Workfrontのスタンドアロン製品です。 Workfront計画の目的は、組織の業務詳細を包括的に可視化し、作業計画サイクル中に重要なビジネス上の疑問に答えることです。
 
-Workfront Planning は、次のような質問に回答できます。
+Workfront プランニングは、次のような質問に回答できます。
 
 * 第 4 四半期に EMEA で実行しているキャンペーンの数は？
 * 同時開催のキャンペーンでオーディエンスが重複していないか？
@@ -75,11 +87,11 @@ Workfront Planningをスタンドアロン製品として使用すると、Plann
 
   詳しくは、次の記事を参照してください。
 
-   * [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
-   * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
-   * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-   * [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)
-   * [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)
+  * [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
+  * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
+  * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
+  * [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)
+  * [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)
 * プランニングレコードを生成するための自動化の作成
 
   詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください
@@ -99,8 +111,8 @@ Workfront Planningをスタンドアロン製品として使用すると、Plann
 
   詳しくは、次の記事を参照してください。
 
-   * [Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
 
 * セットアップで顧客とライセンスの詳細にアクセス
 
@@ -125,13 +137,13 @@ Workfront Planningをスタンドアロン製品として使用すると、Plann
 * Workfrontのメインメニューから「Adobe プロファイル」オプションにアクセスします
 
 
-## Workfront Planning の用語
+## Workfront プランニングの用語
 
 Workfront Planningには、独自の概念と用語が含まれています。 組織が購入したプランニングパッケージにかかわらず、用語は同じです。
 
-組織で Workfront Planning の設定を開始する前に、新しい概念を十分に理解する必要があります。
+組織で Workfront プランニングの設定を開始する前に、新しい概念を十分に理解する必要があります。
 
-Workfront Planning のフレームワークは完全なカスタマイズが可能です。 組織の正確なニーズに合わせて、すべてのレコードタイプとその属性、およびそれらに関連付けられた任意のフィールドを作成できます。
+Workfront プランニングのフレームワークは完全なカスタマイズが可能です。 組織の正確なニーズに合わせて、すべてのレコードタイプとその属性、およびそれらに関連付けられた任意のフィールドを作成できます。
 
 詳しくは、「[Workfront計画の概要](/help/quicksilver/planning/general/planning-overview.md)」の「Adobe Workfront計画の用語」の節を参照してください。
 

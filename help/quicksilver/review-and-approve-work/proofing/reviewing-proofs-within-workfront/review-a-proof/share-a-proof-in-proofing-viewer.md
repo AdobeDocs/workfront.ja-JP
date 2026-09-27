@@ -6,25 +6,33 @@ description: プルーフの所有者または作成者が共有を有効にし�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-TQID: https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag
+TQID: 'https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1446'
 ht-degree: 98%
-
 ---
-
 # プルーフビューアーからのプルーフの共有
 
 プルーフの所有者または作成者が共有を有効にしている場合は、プルーフビューアからプルーフを共有できます。
@@ -90,15 +98,15 @@ ht-degree: 98%
 
    * Adobe Workfront から直接リンクをメールで送信するには、以下の操作を実行します。
 
-      1. 「**リンクをメールする**」フィールドに入力して、受信者の名前を選択します。 または、共有する外部ユーザーのメールアドレスを指定します。
+     1. 「**リンクをメールする**」フィールドに入力して、受信者の名前を選択します。 または、共有する外部ユーザーのメールアドレスを指定します。
 
-         >[!NOTE]
-         >
-         >プルーフを共有する際にメールエイリアスが表示される場合、対応するメールエイリアスが存在するのであれば、元のメールアドレスを入力して新しいゲストユーザーを作成しないでください。
+        >[!NOTE]
+        >
+        >プルーフを共有する際にメールエイリアスが表示される場合、対応するメールエイリアスが存在するのであれば、元のメールアドレスを入力して新しいゲストユーザーを作成しないでください。
 
-      1. 次のオプションから選択します。
+     1. 次のオプションから選択します。
 
-         <table style="table-layout:auto">
+        <table style="table-layout:auto">
           <col>
           <col>
           <tbody>
@@ -117,11 +125,11 @@ ht-degree: 98%
           </tbody>
          </table>
 
-      1. 「**送信**」をクリックします。
+     1. 「**送信**」をクリックします。
 
-         受信者には、プルーフに関する情報が記載され、選択したボタンが含まれたメール通知が届きます。
+        受信者には、プルーフに関する情報が記載され、選択したボタンが含まれたメール通知が届きます。
 
-         ![](assets/proof-share-email-350x87.png)
+        ![](assets/proof-share-email-350x87.png)
 
 ## 埋め込みコードを共有
 
@@ -153,7 +161,7 @@ ht-degree: 98%
 
 自動ワークフローを有効にし、Workfront でプルーフを有効にしていないユーザーをプルーフに追加すると、自動ワークフロー内に新しいステージが作成されます。 追加するユーザーが、プルーフを初めて表示する際に、自動的にこの新しいステージに追加されます。 詳しくは、[自動ワークフローの概要](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)を参照してください。
 
-プルーフを個々のユーザーと共有するには：
+プルーフを個人ユーザーと共有するには：
 
 1. プルーフビューアーの左側にあるツールバーで、**共有**&#x200B;アイコンをクリックします。
 

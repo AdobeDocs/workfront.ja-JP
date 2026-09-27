@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof] でのカスタムプロファイルの設定'
-description: ' [!DNL Workfront]  Proof の請求管理者または  [!DNL Workfront Proof]  管理者は、他のユーザー用のカスタムプロファイルを設定できます。'
+title: '[!DNL Workfront Proof] でのカスタムプロファイルの設定'
+description: '[!DNL Workfront] プルーフ請求管理者または[!DNL Workfront Proof]管理者は、他のユーザー用にカスタム プロファイルを設定できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
-TQID: https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ
+TQID: 'https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 100%
-
+source-wordcount: '411'
+ht-degree: 96%
 ---
-
 # [!DNL Workfront Proof] でのカスタムプロファイルの設定
 
 >[!IMPORTANT]
@@ -31,7 +40,7 @@ ht-degree: 100%
 
 [!DNL Workfront Proof] 請求管理者または [!DNL Workfront Proof] 管理者は、他のユーザー用のカスタムプロファイルを設定できます。
 
-カスタムプロファイルを使用すると、アカウント内のユーザーに細分化した権限を割り当て、アカウント内の項目に対してユーザーが持つアクセス権と権限のレベルを定義できます。 カスタムプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+カスタムプロファイルを使用すると、アカウント内のユーザーに細分化した権限を割り当て、アカウント内の項目に対してユーザーが持つアクセス権と権限のレベルを定義できます。 カスタムプロファイルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 ページのレイアウトを調整して、自分に関連する情報のみを表示できます。
 
@@ -53,7 +62,7 @@ ht-degree: 100%
 * プロファイルをコピー（6）
 * プロファイルを無効化（7）
 
-「プロファイル」タブをカスタマイズする方法について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+「プロファイル」タブをカスタマイズする方法について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 ![Profiles_tab_1.png](assets/profiles-tab-1-350x190.png)
 
@@ -61,7 +70,7 @@ ht-degree: 100%
 
 プロファイルの詳細ページでは、カスタムプロファイルに対して有効になっている権限の変更、プロファイルのコピーと削除、プロファイルが割り当てられているユーザーのリストの表示を行うことができます。
 
-このページで実行できるアクションについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+このページで実行できるアクションについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 * [プロファイルの詳細ページにアクセス](#accessing-the-profile-details-page)
 * [プロファイルが割り当てられたユーザーのリストを表示](#viewing-the-list-of-users-with-a-profile-assigned)

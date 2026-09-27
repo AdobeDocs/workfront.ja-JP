@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 18%
-
 ---
-
 # ワークスペースの概要
 
 <!--
@@ -29,7 +36,7 @@ ht-degree: 18%
 
 {{planning-important-intro}}
 
-ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
+ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront プランニングでは、ワークスペースを完全にカスタマイズできます。
 
 <!--update screenshot with production, it was broken at Preview-->
 
@@ -41,10 +48,10 @@ ht-degree: 18%
 * Workfront Planningには、事前設定されたワークスペースは付属していません。 自社のニーズに応じて作成する必要があります。
 * ワークスペースは、次の方法で作成できます。
 
-   * 最初から
-   * テンプレートの使用。 テンプレートには、事前設定済みのレコードタイプの数とそのフィールドが含まれています。
-   * AIを活用したPlanning Designerを使用します。 この機能は現在Betaにあります。
-   * マルチワークスペーステンプレートバンドルの使用。
+  * 最初から
+  * テンプレートの使用。 テンプレートには、事前設定済みのレコードタイプの数とそのフィールドが含まれています。
+  * AIを活用したPlanning Designerを使用します。 この機能は現在Betaにあります。
+  * マルチワークスペーステンプレートバンドルの使用。
 
   詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
@@ -53,9 +60,9 @@ ht-degree: 18%
   詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * ワークスペースは、プランニング領域の次のタブに表示されます。
 
-   * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
-   * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。 これは、システム管理者のみが使用できます。
-   * **サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。
+  * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
+  * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。 これは、システム管理者のみが使用できます。
+  * **サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ No longer the case - they match now:
 
 * 次のキーボードの組み合わせを押すと、プランニング ランディングページまたは任意のプランニング ページから検索にアクセスできます。
 
-   * Windowsの場合はCTRL+K
-   * Macの⌘+K
+  * Windowsの場合はCTRL+K
+  * Macの⌘+K
 * 各オブジェクトの最後の7つの結果が検索ボックスに表示されます。
 * 一般的な検索を実行するか、オブジェクトを選択して個々のリストを検索できます。
 

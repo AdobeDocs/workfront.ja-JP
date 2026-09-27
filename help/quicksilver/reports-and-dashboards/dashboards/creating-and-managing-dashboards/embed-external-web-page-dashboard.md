@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+TQID: 'https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 989
-ht-degree: 81%
-
+source-wordcount: '1035'
+ht-degree: 83%
 ---
-
 # ダッシュボードへの外部 web ページの埋め込み
 
 <!--Audited: 01/2025-->
@@ -41,8 +47,8 @@ ht-degree: 81%
 >所有している web サイトに埋め込みを許可するには、web 管理者と協力して、**X-Frame-Options** 設定を調整します。 詳しくは、[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) を参照してください。
 >
 >
->* ダッシュボードページは、ダッシュボードに埋め込まれた外部ページとしてサポートされなくなりました。既存のダッシュボードは、これらの外部ページを削除するように自動的に変更されることはありませんが、そのような参照を含むダッシュボードへの変更は、参照が削除または変更されるまで保存できません。
-> 具体的には、次のWorkfront.com サブドメインはサポートされなくなりました。
+>* ダッシュボードページは、ダッシュボードの埋め込み外部ページとしてサポートされなくなりました。 既存のダッシュボードは、これらの外部ページを削除するために自動的に変更されることはありませんが、そのような参照を含むダッシュボードに対する変更は、参照が削除または変更されるまで保存できません。
+> 特に、次の workfront.com サブドメインはサポートされなくなりました。
 >
 >     * /ダッシュボード
 >     * /dashboard/:ID&#x200B;
@@ -136,17 +142,17 @@ ht-degree: 81%
 
      次のタイプの URL を指定できます。
 
-      * Web ページへの https（暗号化）URL。\
-        https（暗号化）ページのみが URL により読み込まれます。\
-        ![外部ページダイアログを追加](assets/add-external-page-dialog-qs-350x247.png)
+     * Web ページへの https（暗号化）URL。\
+       https（暗号化）ページのみが URL により読み込まれます。\
+       ![外部ページダイアログを追加](assets/add-external-page-dialog-qs-350x247.png)
 
-      * 特定の web サイトのセッション情報を含むテンプレート URL。\
-        例：*https://localhost/?session={!$$SESSION}*
-外部ページを表示するには、指定したWeb サイトにログインする必要があります。\
-        Workfront から SessionID を取得する方法について詳しくは、[API の基本](../../../wf-api/general/api-basics.md)を参照してください。\
-        セキュリティ上の理由から、Workfront 管理者は、外部ページでのセッション情報の使用を許可しない方法で、システム環境設定を指定できます。 この場合、外部ページはダッシュボードに読み込まれません。\
-        システムのセキュリティ環境設定について詳しくは、[システムのセキュリティ環境設定を指定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。\
-        ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+     * 特定の web サイトのセッション情報を含むテンプレート URL。\
+       例：*https://localhost/?session={!$$SESSION}*
+       外部ページを表示するには、指定したWeb サイトにログインする必要があります。\
+       Workfront から SessionID を取得する方法について詳しくは、[API の基本](../../../wf-api/general/api-basics.md)を参照してください。\
+       セキュリティ上の理由から、Workfront 管理者は、外部ページでのセッション情報の使用を許可しない方法で、システム環境設定を指定できます。 この場合、外部ページはダッシュボードに読み込まれません。\
+       システムのセキュリティ環境設定について詳しくは、[システムのセキュリティ環境設定を指定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。\
+       ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
      >

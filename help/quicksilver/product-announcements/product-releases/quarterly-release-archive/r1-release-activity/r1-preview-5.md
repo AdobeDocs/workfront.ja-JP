@@ -7,13 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 100%
-
 ---
-
 # R1 プレビュー 5
 
 このページでは、R1 プレビュー 5 リリースでプレビュー環境で使用できるすべての変更について説明します。 このページの機能は、2017年3月16日（PT）にプレビュー環境で使用できるようになりました。
@@ -24,7 +34,7 @@ R1 で行われたすべての変更のリストについては、[R1 リリー�
 
 これで、プロジェクトへのアクセスを管理するユーザーは、稼働率レポートを使用して、プロジェクトの進捗を追跡できます。
 
-稼働率レポートを使用すると、ある 1 週間または 1 か月の予算計上時間や予定時間に対する実際の時間の追跡状況を、プロジェクト全体の予算内に収めることができます。 さらに、各カテゴリの時間数（予算、計画、実績）に関する詳細情報を、担当業務または個々のユーザー別に分類して表示できます。
+稼働率レポートを使用すると、ある 1 週間または 1 か月の予算計上時間や予定時間に対する実際の時間の追跡状況を、プロジェクト全体の予算内に収めることができます。 さらに、各カテゴリの時間数（予算、計画、実績）に関する詳細情報を、担当業務または個人ユーザー別に分類して表示できます。
 
 プロジェクトでの稼働率の追跡について詳しくは、[リソース稼働率レポートの概要](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)を参照してください。
 
@@ -71,10 +81,10 @@ Workfront でのオブジェクトの復元について詳しくは、[削除し
 * 診断
 * シングルサインオン（SSO）には以下が含まれます。
 
-   * Active Directory
-   * LDAP
-   * SAML 1.1
-   * SAML 2.0
+  * Active Directory
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * SSO ユーザーの更新
 

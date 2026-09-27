@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Workfront Proof のごみ箱のアイテムの復元と完全削除
-description: ' [!DNL Workfront Proof]  管理者は、ユーザーが削除して  [!DNL Workfront] Proof のごみ箱に入ったプルーフ、ファイル、フォルダーを一覧表示したり、復元したりすることができます。 また、ごみ箱を空にすることもできます。その場合、ごみ箱内のアイテムはシステムから完全に削除されます。'
+description: '[!DNL Workfront Proof]管理者は、ユーザーが削除したプルーフ、ファイル、フォルダーを[!DNL Workfront] プルーフのごみ箱に一覧表示して復元できます。 また、ごみ箱を空にすることもできます。その場合、ごみ箱内のアイテムはシステムから完全に削除されます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23f2b370-6b9c-46f9-b715-560f6a074715
-TQID: https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk
+TQID: 'https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 100%
-
+source-wordcount: '207'
+ht-degree: 90%
 ---
-
 # [!DNL Workfront Proof] のごみ箱のアイテムの復元と完全削除
 
 >[!IMPORTANT]
@@ -43,7 +51,7 @@ Workfront Proof では、ごみ箱に入れることができるプルーフ、�
 
 ## ごみ箱を空にする
 
-管理者または請求管理者は、ごみ箱を空にできます。 権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+管理者または請求管理者は、ごみ箱を空にできます。 権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 1. 左側のサイドバーにある&#x200B;**[!UICONTROL ごみ箱]**&#x200B;をクリックすると、削除したアイテムを一覧表示できます。
 1. 「**[!UICONTROL ごみ箱を空にする]**」をクリックします。

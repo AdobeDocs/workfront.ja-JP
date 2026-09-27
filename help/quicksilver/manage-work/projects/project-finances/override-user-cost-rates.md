@@ -7,13 +7,17 @@ description: この記事では、プロジェクトのシステムユーザー�
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 22%
-
 ---
-
 # プロジェクト レベルでのユーザー原価率の上書き
 
 特定のプロジェクトのユーザーのコスト率を指定できます。 このプロジェクトレベルのコスト率は、このユーザーのシステムレベルのコスト率を上書きします。 Workfrontでは、システムレベルのコスト率ではなく、担当業務のプロジェクトレベルのコスト率を使用してコストを計算します。
@@ -67,7 +71,7 @@ ht-degree: 22%
 ## プロジェクト レベルでのユーザー原価率の上書き
 
 1. コスト率を上書きするプロジェクトに移動します。
-1. 左側のパネルで「**レート**」をクリックします。 最初に「**さらに表示**」をクリックする必要がある場合もあります。
+1. 左側のパネルで「**レート**」をクリックします。 最初に&#x200B;**詳細を表示**&#x200B;をクリックする必要がある場合があります。
 1. まだ選択されていない場合は、「**コスト**」タブをクリックします。
 1. 「**コスト率を追加** > **新規ユーザーコスト率**」をクリックします。
 

@@ -1,6 +1,6 @@
 ---
 title: レコードのコメントの管理
-description: レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
+description: レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront プランニングレコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
+TQID: 'https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 51%
-
+source-wordcount: '944'
+ht-degree: 50%
 ---
-
 # レコードのコメントの管理
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
@@ -161,17 +168,17 @@ Old:
 
 ## レコードへのコメントに関する考慮事項
 
-* レコードの「コメント」セクションで、Workfront Planning のレコードにコメントや返信を追加できます。
+* レコードの「コメント」セクションで、Workfront プランニングのレコードにコメントや返信を追加できます。
 
-* リンク先のレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、キャンペーンレコードにリンクされている Workfront Planning の製品レコードにコメントを付けると、そのコメントは Workfront Planning の製品レコードにのみ表示され、リンク元のキャンペーンレコードには表示されません。
+* リンク先のレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、キャンペーンレコードにリンクされている Workfront プランニングの製品レコードにコメントを付けると、そのコメントは Workfront プランニングの製品レコードにのみ表示され、リンク元のキャンペーンレコードには表示されません。
 
-* レコードと別のアプリケーションのオブジェクトとの接続の結果として作成された Workfront Planning レコードにコメントを追加できます。
+* レコードと別のアプリケーションのオブジェクトとの接続の結果として作成された Workfront プランニングレコードにコメントを追加できます。
 
-  例えば、Workfront プロジェクトを Workfront Planning レコードと接続した後で、プロジェクトの Workfront Planning レコードにコメントを付けることができます。 詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+  例えば、Workfront プロジェクトを Workfront プランニングレコードと接続した後で、プロジェクトの Workfront プランニングレコードにコメントを付けることができます。 詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-* 他のアプリケーションでリンク先のオブジェクトに追加されたコメントは Workfront Planning には表示されず、Workfront Planning でリンク先のオブジェクトに追加されたコメントは他のアプリケーションには表示されません。
+* 他のアプリケーションでリンク先のオブジェクトに追加されたコメントは Workfront プランニングには表示されず、Workfront プランニングでリンク先のオブジェクトに追加されたコメントは他のアプリケーションには表示されません。
 
-  例えば、Workfront のプロジェクトに追加されたコメントは、Workfront Planning のキャンペーンにリンクされている同じプロジェクトには表示されず、プロジェクトの Workfront Planning レコードに追加されたコメントは Workfront には表示されません。
+  例えば、Workfront のプロジェクトに追加されたコメントは、Workfront プランニングのキャンペーンにリンクされている同じプロジェクトには表示されず、プロジェクトの Workfront プランニングレコードに追加されたコメントは Workfront には表示されません。
 
 * ユーザーやチームにタグを付けて、注目をアップデートに集めることができます。 個別にタグ付けされたユーザーとタグ付けされたチームのユーザーの両方が、アプリ内通知と更新情報に関するメールを受け取ります。
 
@@ -188,7 +195,7 @@ Old:
 
    ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプカードをクリックします。
+1. レコードタイプのカードをクリックします。
 レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。

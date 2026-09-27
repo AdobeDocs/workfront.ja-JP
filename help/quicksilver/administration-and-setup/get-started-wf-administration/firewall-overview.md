@@ -9,25 +9,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-TQID: https://experienceleague.adobe.com/m15T5ktaT8pxLn8ebahoeT8Tev72YtvzSVS-wDOq0UI
+TQID: 'https://experienceleague.adobe.com/m15T5ktaT8pxLn8ebahoeT8Tev72YtvzSVS-wDOq0UI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 714
+source-wordcount: '714'
 ht-degree: 89%
-
 ---
-
 # ファイアウォールの概要
 
 Adobe Workfront は組織のネットワークと通信するので、組織のファイアウォールがその通信を許可するように設定されている必要があります。 ファイアウォールは、組織のネットワークをインターネットから分離することによって機能する、非常に効果的なセキュリティ対策です。 これにより、選択したデータとネットワークトラフィックのみが組織のネットワークに出入りできるようになります。 ファイアウォールは、データの送受信を行うサイトに基づいて、データを許可またはブロックします。 Adobe Workfront 管理者は、Workfront との間で送信されるデータが組織のファイアウォールを通過できることを確認する必要があります。

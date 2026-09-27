@@ -8,29 +8,36 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 65%
-
 ---
-
 # ユーザープロファイルの一括編集
 
-ユーザーアカウントは一括で編集できます。 ユーザーを一括編集する場合、特に選択したフィールドのみが更新され、選択したすべてのユーザーに同じ情報が反映されます。 選択を解除したままにしたその他のフィールドは、ユーザーごとに異なる場合でも、個々のユーザーに対して同じ状態に保たれます。
+ユーザーアカウントは一括で編集できます。 ユーザーを一括編集する場合、特に選択したフィールドのみが更新され、選択したすべてのユーザーに同じ情報が反映されます。 選択を解除したままにしたその他のフィールドは、ユーザーごとに異なる場合でも、個人ユーザーに対して同じ状態に保たれます。
 
 >[!NOTE]
 >
@@ -123,11 +130,11 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   このフィールドで使用できるテンプレートのリストがアクセス権によってどう異なるかを次のリストで示します。
 
-   * Workfront 管理者は、システムレベルおよびグループレベルのすべてのレイアウトテンプレートを表示できます。
-   * グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。
-   * 標準またはプランのライセンスを持ち、ユーザーを編集するためのアクセス権を持つユーザーは、システムレベルのレイアウトテンプレートのみを表示できます。
+  * Workfront 管理者は、システムレベルおよびグループレベルのすべてのレイアウトテンプレートを表示できます。
+  * グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。
+  * 標準またはプランのライセンスを持ち、ユーザーを編集するためのアクセス権を持つユーザーは、システムレベルのレイアウトテンプレートのみを表示できます。
 
-     グループレベルのレイアウトテンプレートについて詳しくは、[&#x200B; グループのレイアウトテンプレートの作成と変更](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+    グループレベルのレイアウトテンプレートについて詳しくは、[&#x200B; グループのレイアウトテンプレートの作成と変更](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
 ### 組織
 
@@ -140,9 +147,9 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   次のいずれかに該当する場合にのみ、ユーザーにグループを割り当てることができます。
 
-   * Workfront 管理者である
-   * グループの管理者である
-   * グループはパブリックです
+  * Workfront 管理者である
+  * グループの管理者である
+  * グループはパブリックです
 
 * **その他のグループ**：ユーザーは複数のグループに属することができます。 ユーザーにグループを割り当てることができるのは、Workfront管理者、グループの管理者、またはグループが公開されている場合のみです。
 
@@ -211,9 +218,9 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   このフィールドで使用可能なプロファイルのリストは、アクセス権によって異なります。
 
-   * Workfront 管理者は、すべてのシステムレベルおよびすべてのグループレベルのタイムシートプロファイルを表示することができます。
-   * グループ管理者は、システムレベルのタイムシートプロファイルと、自分が管理するグループに関連付けられたタイムシートプロファイルを確認できます。
-   * 標準またはプランのライセンスを持ち、ユーザーを編集するためのアクセス権を持つユーザーは、システムレベルのタイムシートプロファイルのみを表示できます。 グループレベルのタイムシートプロファイルについて詳しくは、[タイムシートプロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+  * Workfront 管理者は、すべてのシステムレベルおよびすべてのグループレベルのタイムシートプロファイルを表示することができます。
+  * グループ管理者は、システムレベルのタイムシートプロファイルと、自分が管理するグループに関連付けられたタイムシートプロファイルを確認できます。
+  * 標準またはプランのライセンスを持ち、ユーザーを編集するためのアクセス権を持つユーザーは、システムレベルのタイムシートプロファイルのみを表示できます。 グループレベルのタイムシートプロファイルについて詳しくは、[タイムシートプロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 * **デフォルトの時間タイプ**：ユーザーのデフォルトの時間タイプを選択します。 これは、ユーザーが時間をログに記録する際にデフォルトで使用される時間タイプです。
 * **使用可能な時間タイプ**: ユーザーが使用できる時間タイプを選択します。 これらの時間タイプは、Workfront でユーザーが時間をログに記録できる場所に表示されます。 ユーザーは、プロジェクトレベルとユーザーレベルで有効になっている時間タイプのみを表示できます。 ユーザーが使用できる時間タイプについて詳しくは、[時間タイプと可用性の定義](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)を参照してください。

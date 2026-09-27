@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof]  ユーザー向けのシングルサインオンの設定'
-description: Select プランまたは Premium プランがある場合は、既存の組織のユーザー名とパスワードを使用して [!DNL Workfront Proof]  アカウントにアクセスできる、シングルサインオン（SSO）機能を提供することができます。
+title: '[!DNL Workfront Proof] ユーザー向けのシングルサインオンの設定'
+description: Select プランまたは Premium プランがある場合は、既存の組織のユーザー名とパスワードを使用して [!DNL Workfront Proof] アカウントにアクセスできる、シングルサインオン（SSO）機能を提供することができます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+TQID: 'https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 91%
-
+source-wordcount: '1340'
+ht-degree: 89%
 ---
-
 # [!DNL Workfront Proof] ユーザー向けのシングルサインオンの設定
 
 >[!IMPORTANT]
@@ -63,27 +73,27 @@ Select プランまたは Premium プランがある場合は、既存の組織�
 SSO を設定するには、以下のように行います。
 
 1. 「**[!UICONTROL シングルサインオン]**」タブを開きます（1）。
-1. **SSO URL** （2）を入力します。
-これは、SSO サーバーへのリンクです（例：**https://sso.mycompany.com/opensso**）。
+1. **SSO URL** を入力します（2）。
+これは SSO サーバーへのリンクです（例：**https://sso.mycompany.com/opensso**）。
 
-1. **ログイン URL** （3）を入力します。
-ユーザーをID プロバイダーにリダイレクトするために呼び出されるURLです。
+1. **ログイン URL** を入力します（3）。
+これは、ユーザーを ID プロバイダーにリダイレクトするために呼び出される URL です。
 
    ブラウザーに入力する実際の URL ではなく、むしろログイン画面を表示するために送信された情報を処理するエンドポイントです。
 
-1. **ログアウト URL** （4）を入力します。
-例えば、ログアウト後に返されるURLです
+1. **ログアウト URL** を入力します（4）。
+これは、ログアウト後に返される URL です。例：
 
    **https://www.yourcompany.com/services/logout.asp**
 
 1. **証明書フィンガープリント**&#x200B;を入力します（5）。
 1. SAML ID プロバイダーによって提供される SAML 証明書の SHA1 フィンガープリント。
 1. ID プロバイダーにこれを設定して、必ずキー情報を含めてください。
-1. **SSO**&#x200B;を&#x200B;**[!UICONTROL 有効]** （6）に切り替えます。
-SSOを有効にすると、アカウントのユーザーは独自の認証メカニズムを使用してログインします。つまり、ユーザーが[!DNL Workfront Proof] アカウントのログイン画面（例：**yourcompany.proofhq.com/login**）にアクセスすると、ユーザーは自分の認証ログインページへの転送ウィンドウを求められます。
+1. **SSO** を「**[!UICONTROL 有効]**」に切り替えます（6）。
+SSO が有効になると、ご自身と他のユーザーはアカウント上で、独自の認証メカニズムを使用してログインします。 これは、ユーザーが[!DNL Workfront Proof]アカウントのログイン画面（例えば、**yourcompany.proofhq.com/login**）にアクセスすると、認証ログインページへの転送ウィンドウが表示されることを意味します。
 
-1. （オプション） **ユーザーを自動的にプロビジョニングする** （7）を有効にします。
-このオプションを有効にすると、独自の[!DNL Workfront Proof] プロファイルを持たないが、シングルサインオン資格情報を使用して[!DNL Workfront Proof] アカウントにアクセスするユーザーのユーザーアカウントが自動的に作成されます。これは、アカウントのユーザー制限にまだ達していない場合にのみアクションが実行されます。
+1. （オプション）「**ユーザーを自動的にプロビジョニング**」を有効にします（7）。
+このオプションを有効にすると、独自の [!DNL Workfront Proof] プロファイルを持たないユーザーに対してユーザーアカウントが自動的に作成されますが、そのようなユーザーは、シングルサインオン資格情報を使用して [!DNL Workfront Proof] アカウントにアクセスします。 これは、アカウントのユーザー制限にまだ達していない場合にのみ実行されます。
 
 1. 新しくプロビジョニングされたユーザーには、デフォルトでマネージャープロファイルの権限が割り当てられます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
@@ -103,9 +113,9 @@ SSOを有効にすると、アカウントのユーザーは独自の認証メ�
 1. ![Enabling_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
 ここでは、設定の2つの方法（5）があります。
 
-1. **継承：**&#x200B;個のSSOと、ハブアカウントから取得した設定。
-ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）から[!DNL Workfront Proof]にアクセスすると、**2つのレベルの認証**&#x200B;が行われます。最初に、ユーザーは[!DNL Workfront Proof] アクセス データ（電子メールとパスワード）を使用してログインするよう求められ、その後、ユーザーはSSO ウィンドウを通じてSSO ログインページに転送されます。
-したがって、SSO サービスが有効になっている場合は、独自の[!DNL Workfront Proof] サブドメイン/ドメインを使用してログインすることをお勧めします。
+1. **継承：**&#x200B;ハブアカウントから取得した設定での SSO。
+ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）を介して[!DNL Workfront Proof]にアクセスすると、**2つのレベルの認証**&#x200B;が行われます。最初に、ユーザーは[!DNL Workfront Proof] アクセス データ（電子メールとパスワード）を使用してログインするよう求められます。その後、ユーザーはSSO ウィンドウを介してSSO ログインページに転送されます。
+したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof] サブドメインまたはドメインからログインすることをお勧めします。
 
    >[!NOTE]
    >
@@ -150,7 +160,7 @@ SSOを有効にすると、アカウントのユーザーは独自の認証メ�
 1. 「**[!UICONTROL シングルサインオン]**」タブを開きます。
 1. [!DNL Workfront Proof] ドメインまたはサブドメイン（1）が設定され、ユーザーがこのカスタマイズされたドメインまたはサブドメインから [!DNL Workfront Proof] アカウントにアクセスできることを確認します。
    ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)
-シングルサインオンが有効な場合、サブドメインログイン URL（例：yourcompany.proofhq.com/login）には、SSO ログインページに直接移動する転送画面（2）が表示されます。
+シングルサインオンが有効になっている場合、サブドメインログイン URL （例：yourcompany.proofhq.com/login）には、SSO ログインページに直接移動する転送画面（2）が表示されます。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
 1. ユーザーが&#x200B;**デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）から[!DNL Workfront Proof]にアクセスすると、**2つの認証レベル**&#x200B;が表示されます。 まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。 次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\

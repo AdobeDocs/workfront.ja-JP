@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: ' [!DNL Workfront Proof]  データのバックアップ'
-description: バックアップ機能を使用して、 [!DNL Workfront Proof]  のすべてのデータのバックアップをリクエストできます。
+title: '[!DNL Workfront Proof] データのバックアップ'
+description: バックアップ機能を使用して、[!DNL Workfront Proof] のすべてのデータのバックアップをリクエストできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
-TQID: https://experienceleague.adobe.com/GLlV0VddtRk0rbow8cD4FLPbneOrWOpUAT97c13WYoA
+TQID: 'https://experienceleague.adobe.com/GLlV0VddtRk0rbow8cD4FLPbneOrWOpUAT97c13WYoA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1058
+source-wordcount: '1058'
 ht-degree: 100%
-
 ---
-
 # [!DNL Workfront Proof] データのバックアップ
 
 >[!IMPORTANT]

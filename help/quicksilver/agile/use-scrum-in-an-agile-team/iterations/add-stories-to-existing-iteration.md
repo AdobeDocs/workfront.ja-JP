@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 81%
-
+source-wordcount: '601'
+ht-degree: 76%
 ---
-
 # 既存のイテレーションにストーリーを追加
 
 次のいずれかの方法で、イテレーションにストーリーを追加できます。
@@ -69,23 +76,23 @@ ht-degree: 81%
 
 * タスクでは、以下の場合にイテレーションの開始日を使用します。
 
-   * プロジェクトに[!UICONTROL 予定開始日]が設定されていない。
-   * プロジェクトの[!UICONTROL 予定開始日]が、イテレーションの開始日の&#x200B;*前*&#x200B;または&#x200B;*当日*&#x200B;である。
+  * プロジェクトに[!UICONTROL 予定開始日]が設定されていない。
+  * プロジェクトの[!UICONTROL 予定開始日]が、イテレーションの開始日の&#x200B;*前*&#x200B;または&#x200B;*当日*&#x200B;である。
 
 * タスクでは、以下の場合にプロジェクトの[!UICONTROL 予定開始日]を使用します。
 
-   * プロジェクトの[!UICONTROL 予定開始日]が、イテレーションの開始日の&#x200B;*後*&#x200B;である。
+  * プロジェクトの[!UICONTROL 予定開始日]が、イテレーションの開始日の&#x200B;*後*&#x200B;である。
 
 ### タスクの[!UICONTROL 予定完了日]
 
 * タスクでは、以下の場合にイテレーションの終了日を使用します。
 
-   * プロジェクトに[!UICONTROL 予定完了日]が設定されていない。
-   * プロジェクトの[!UICONTROL 予定開始日]がイテレーションの開始日の&#x200B;*前または当日*&#x200B;であるか、プロジェクトの[!UICONTROL 予定完了日]がイテレーションの終了日の&#x200B;*前または当日*&#x200B;である。
+  * プロジェクトに[!UICONTROL 予定完了日]が設定されていない。
+  * プロジェクトの[!UICONTROL 予定開始日]がイテレーションの開始日の&#x200B;*前または当日*&#x200B;であるか、プロジェクトの[!UICONTROL 予定完了日]がイテレーションの終了日の&#x200B;*前または当日*&#x200B;である。
 
 * タスクでは、以下の場合にプロジェクトの[!UICONTROL 予定完了日]を使用します。
 
-   * プロジェクトの[!UICONTROL 予定開始日]がイテレーションの開始日の&#x200B;*後*&#x200B;で、プロジェクトの[!UICONTROL 予定完了日]がイテレーションの終了日の&#x200B;*後*&#x200B;である。
+  * プロジェクトの[!UICONTROL 予定開始日]がイテレーションの開始日の&#x200B;*後*&#x200B;で、プロジェクトの[!UICONTROL 予定完了日]がイテレーションの終了日の&#x200B;*後*&#x200B;である。
 
 個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。 詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。
 
@@ -104,7 +111,7 @@ ht-degree: 81%
 
 1. イテレーションに追加するタスクまたはイシューを開きます。
 または
-イテレーションに追加するタスクまたはイシューを含むプロジェクト、レポート、またはダッシュボードに移動します。次に、1つ以上のタスクまたはイシューを選択します。
+イテレーションに追加するタスクまたはイシューを含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1つ以上のタスクまたはイシューを選択します。
 
 1. **[!UICONTROL 詳細]** ![詳細アイコン &#x200B;](assets/more-icon.png) > **[!UICONTROL 反復に追加]**&#x200B;をクリックします。
 アジャイル以外のチームに割り当てられたタスクやイシューを割り当てることはできません。

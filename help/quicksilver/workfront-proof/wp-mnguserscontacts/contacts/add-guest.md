@@ -7,31 +7,40 @@ description: 連絡先は、デフォルトで組織内で共有されます。 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
-TQID: https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0
+TQID: 'https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 220
-ht-degree: 96%
-
+source-wordcount: '311'
+ht-degree: 100%
 ---
-
 # [!DNL Workfront Proof] にゲストを追加する
 
 >[!IMPORTANT]
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-連絡先は、デフォルトで組織内で共有されます。 したがって、ゲストを追加すると、同僚の連絡先リストにもその人が表示されます。 ゲストと同僚について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) のユーザー、メンバー、ゲストについてを参照してください。
+連絡先は、デフォルトで組織内で共有されます。 したがって、ゲストを追加すると、同僚の連絡先リストにもその人が表示されます。 ゲストと同僚について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) のユーザー、メンバー、ゲストについてを参照してください。
 
-プルーフに追加する人は誰でも、連絡先リストに自動的に追加されます。 プルーフへのレビュアーの追加について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有を参照してください。
+プルーフに追加する人は誰でも、連絡先リストに自動的に追加されます。 プルーフへのレビュアーの追加について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有を参照してください。
 
 >[!NOTE]
 >
@@ -41,6 +50,6 @@ ht-degree: 96%
 
 1. ダッシュボードで、「**[!UICONTROL 新規プルーフ]**」の横にある下矢印をクリックし、「**[!UICONTROL 新規ゲスト]**」をクリックします。
 
-1. オブザーバープロファイルを持っている場合、新しい連絡先を追加するオプションはありません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルを参照してください。
-1. ゲストの情報を入力し、**[!UICONTROL 作成]**&#x200B;をクリックします。新しいゲストのデフォルトのプルーフの役割と権限を選択できます。その後、このユーザーがプルーフに追加されると、デフォルトでこの役割とアラートが与えられますが、プルーフに追加する際に、新しいプルーフページでこれらを変更できます。
-詳しくは、 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の プルーフ権限プロファイルおよび[&#x200B; メール通知設定の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)を参照してください。
+1. オブザーバープロファイルを持っている場合、新しい連絡先を追加するオプションはありません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルを参照してください。
+1. ゲストの情報を入力し、「**[!UICONTROL 作成]**」をクリックします。 新規ゲストに対するデフォルトのプルーフの役割と権限を選択できます。 このユーザーがプルーフに追加されると、この役割が与えられ、デフォルトで警告が表示されますが、これらは、プルーフに追加するときに、新しいプルーフページで変更できます。
+詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でメール通知を設定を参照してください。

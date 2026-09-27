@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s
+TQID: 'https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2735
+source-wordcount: '2746'
 ht-degree: 72%
-
 ---
-
 # レポートにグラフを追加
 
 <!--Audited: 11/2024-->
@@ -133,9 +138,9 @@ ht-degree: 72%
 
    * 次のいずれかのオプションをクリックして、グループ化された列の表示方法を選択します。
 
-      * **並列**
-      * **積み重ね**
-      * **100% まで積み重ね**
+     * **並列**
+     * **積み重ね**
+     * **100% まで積み重ね**
 
    * グラフに含めるグループ化を&#x200B;**データのグループ化基準**&#x200B;ドロップダウンメニューから選択します。
    * （オプション）「**カスタムカラー**」をクリックして、列の色をカスタマイズします。\
@@ -169,9 +174,9 @@ ht-degree: 72%
 
    * 次のいずれかのオプションをクリックして、グループ化された棒の表示方法を選択します。
 
-      * **並列**
-      * **積み重ね**
-      * **100% まで積み重ね**
+     * **並列**
+     * **積み重ね**
+     * **100% まで積み重ね**
 
    * グラフ内の情報をグループ化する方法を&#x200B;**データのグループ化基準**&#x200B;ドロップダウンメニューから選択します。
    * （オプション）「**カスタムカラー**」をクリックして、列の色をカスタマイズします。\
@@ -370,8 +375,8 @@ Workfront では、グラフ要素の色を選択したり、レポートにグ�
 
 * 一部のグラフ要素は編集できません。
 
-   * フォントタイプやそれぞれの要素の値のサイズを変更することはできません。
-   * グラフの軸の名前は変更できません。
+  * フォントタイプやそれぞれの要素の値のサイズを変更することはできません。
+  * グラフの軸の名前は変更できません。
 
 * グラフの凡例は編集できません。
 * グループ化に計算フィールドを使用する場合、グラフ要素をクリックすることはできません。

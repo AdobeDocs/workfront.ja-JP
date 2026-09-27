@@ -8,27 +8,35 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+TQID: 'https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 61%
-
+source-wordcount: '720'
+ht-degree: 65%
 ---
-
 # ポートフォリオ内での移動
 
 <!--Audited: 08/2025-->
@@ -114,12 +122,12 @@ Old:
    * **[!UICONTROL すべて]**：少なくともビューにアクセスできるすべてのポートフォリオが含まれます。
 
      ポートフォリオへのアクセスについて詳しくは、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
-ポートフォリオへの権限について詳しくは、[&#x200B; ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
+     ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
      新しいポートフォリオを追加するには、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
 
 1. ポートフォリオの名前をクリックしてアクセスします。
-ポートフォリオのパフォーマンス指標は、ポートフォリオ内の[!UICONTROL Portfolioの詳細]領域に表示されます。
+次のポートフォリオパフォーマンス指標は、ポートフォリオ内の[!UICONTROL ポートフォリオの詳細]領域に表示されます。
 
    * ポートフォリオが[!UICONTROL 予定通り]かどうか
    * ポートフォリオが[!UICONTROL 予算通り]かどうか
@@ -131,9 +139,9 @@ Old:
 
    * **[!UICONTROL アクティブ]**：選択したポートフォリオに関連付けられている、次のステータスのすべてのプロジェクトを含みます。
 
-      * [!UICONTROL 計画中]
-      * [!UICONTROL 承認済み]
-      * [!UICONTROL 現在]
+     * [!UICONTROL 計画中]
+     * [!UICONTROL 承認済み]
+     * [!UICONTROL 現在]
    * **[!UICONTROL 要求済み]**：選択したポートフォリオに関連付けられている、ステータスが&#x200B;**[!UICONTROL 要求済み]**&#x200B;のプロジェクトを含みます。
 
      リクエストされたプロジェクトの確認については、[リクエストされたプロジェクトの確認](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)を参照してください。
@@ -148,7 +156,7 @@ Old:
 
 
 1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
-プログラムについて詳しくは、「[&#x200B; プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)」の節を参照してください。
+プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
 
 1. （オプション）**[!UICONTROL ポートフォリオの詳細]**&#x200B;領域を展開して、「**[!UICONTROL 概要]**」または「**[!UICONTROL カスタムフォーム]**」をクリックし、ポートフォリオに関する情報を編集します。
 

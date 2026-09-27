@@ -6,27 +6,37 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+TQID: 'https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3298
-ht-degree: 97%
-
+source-wordcount: '3371'
+ht-degree: 99%
 ---
-
 # 22.4 リリースの概要
 
 このページでは、22.4 リリースに含まれる機能について説明します。
@@ -243,7 +253,7 @@ ht-degree: 97%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">計算日付フィールドは常に協定世界時（UTC）に基づいて保存されます</a> </p>
                         <p>カスタムデータ式の更新方法や、ユーザーがオブジェクトに関して共同作業している場所に関係なく、計算フィールドのすべての日付関数が一貫して機能し、すべてのユーザーに同じ結果をもたらすようになりました。 </p>
-                        <p>計算はすべて、ユーザーの組織のインスタンスと個々のユーザープロファイルに設定されたタイムゾーン設定ではなく、1 つの標準つまり協定世界時（UTC）で計算および保存されるようになりました。 ただし、計算は、各ユーザーのブラウザーで設定された個々のタイムゾーンに基づいたカスタムフォームに表示されます。</p>
+                        <p>計算はすべて、ユーザーの組織のインスタンスと個人ユーザープロファイルに設定されたタイムゾーン設定ではなく、1 つの標準つまり協定世界時（UTC）で計算および保存されるようになりました。 ただし、計算は、各ユーザーのブラウザーで設定された個々のタイムゾーンに基づいたカスタムフォームに表示されます。</p>
                         <p>以前は、以下の状況で計算の時間設定が異なると、混乱が生じていました。</p>
                         <ul>
                             <li>
@@ -312,9 +322,9 @@ ht-degree: 97%
 
 </p>
 <ol>
-<li>Adobe XD ファイルを追加して、カスタムフォームをより視覚的で有益なものにします。フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内からXD ファイルを表示して操作できます。
+<li>Adobe XD ファイルを追加して、カスタムフォームをより視覚的で有益なものにします。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内から XD ファイルの表示と操作を行うことができます。
 </li>
-<li>クイックフィルターを使用すると、最新のカスタムフォームとフィールドリスト内の項目を簡単に見つけることができます。また、フォームやフィールドを管理しながら、ルックアンドフィールを向上させることもできます。
+<li>クイックフィルターを使用すると、最新化されたカスタムフォームやフィールドリストで項目を簡単に見つけることができます。 また、フォームやフィールドの管理時のルックアンドフィールが改善されました。
 </li>
 </ol>
                     </td>
@@ -432,7 +442,7 @@ ht-degree: 97%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードまたはカードにチームを追加する</a> </p>
                         <p>これで、チームをボードのメンバーとして追加できます。 チームをボードに追加しても、個々のチームメンバーは追加されなくなりましたが、チームメンバー全員がボードにアクセスできます。</p>
-                        <p>チームをボードに追加したら、チームをカードに割り当てることができます。接続されたカードでは、1つのチーム割り当てのみが許可されます。アドホックカードでは、複数のチームを割り当てることができます。
+                        <p>チームをボードに追加した後、そのチームをカードに割り当てることができます。 接続されたカードでは、1 つのチーム割り当てのみが許可されます。 アドホックカードでは、複数のチームを割り当てることができます。
                         </p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -672,8 +682,8 @@ ht-degree: 97%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns（ベータ版）</a> </p>
                         <p>現在、作業の管理方法を変える可能性がある新しいオブジェクトを Adobe Workfront に導入しているところです。 </p>
-                        <p>Workfront Campaignsを使用すると、異なるポートフォリオやプログラムのプロジェクトを新しいワークコンテナに整理できます。
-Campaignsは、2022年7月に22.3 リリースでプレビューベータ版にリリースされました。</p>
+                        <p>Workfront Campaigns を使用すると、様々なポートフォリオやプログラムのプロジェクトを新しい作業コンテナに整理できます。
+Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版にリリースされました。</p>
 <p>この新しいコンテナは、現在別々のサイロで管理されている作業オブジェクトを接続するために、今後のリリースで進化する予定です。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -751,7 +761,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### 22.4 リリースウェビナー
 
-22.4 リリースウェビナーは、2022年9月22日（木）午前9:00時（太平洋夏時間）に開催されます。 [ここからウェビナーに登録できます](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
+22.4 リリースウェビナーは、2022年9月22日（木）午前9:00 （太平洋標準時）に開催されます。 [ここからウェビナーに登録できます](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
 
 ### トレーニングの更新
 

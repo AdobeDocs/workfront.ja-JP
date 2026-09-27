@@ -6,24 +6,31 @@ description: 自動ワークフローを使用すると、プロセスが複雑�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
+TQID: 'https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 97%
-
+source-wordcount: '1784'
+ht-degree: 99%
 ---
-
 # 自動ワークフローを使用した高度なプルーフの作成
 
 <!-- Audited: 2/2024 -->
@@ -193,7 +200,7 @@ ht-degree: 97%
     <tbody> 
      <tr> 
       <td role="rowheader">ログインが必要 - プルーフは他のユーザーとのみ共有できます</td> 
-      <td>このオプションが無効（デフォルト）になっている場合、URLを持つ人は誰でもプルーフを表示できます。<br>このオプションが選択されている場合：
+      <td>このオプションを無効にすると（デフォルト）、その URL を持つすべてのユーザーがプルーフを表示できます。 <br>このオプションを選択した場合は、次のようになります。
        <ul>
         <li>Workfront Proof ユーザーのみがプルーフを表示できます。</li>
         <li>ユーザーは、プルーフに追加されていない限り、プルーフにログインできません。</li>
@@ -222,7 +229,7 @@ ht-degree: 97%
      </tr> 
      <tr> 
       <td role="rowheader">公開 URL または埋め込みコードでプルーフを購読</td> 
-      <td>このオプションを選択すると、プルーフに明示的に追加されていないユーザーは、プルーフを購読できます。プルーフを購読するユーザーには、次の設定で定義した役割と電子メールが付与されます。
+      <td>このオプションを選択すると、プルーフに明示的に追加されていないユーザーもプルーフを購読できます。 プルーフを購読しているユーザーには、次の設定で定義した役割とメールが付与されます。
        <ul>
         <li><strong>プルーフに参加した際の役割：</strong>プルーフに参加するすべてのレビュアーに割り当てられる、デフォルトのプルーフの役割です。</li>
         <li><strong>プルーフに参加した際のメールアラート：</strong>プルーフに参加するすべてのレビュアーに割り当てられるデフォルトのメールアラートです。</li>

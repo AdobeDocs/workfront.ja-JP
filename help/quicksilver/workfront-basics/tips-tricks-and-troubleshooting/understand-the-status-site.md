@@ -1,25 +1,30 @@
 ---
-title: ' [!DNL Adobe Workfront]  ステータスサイト'
-description: ' [!DNL Workfront Status]  サイトにアクセスすると、インシデント、スケジュール済みメンテナンス期間、すべての  [!DNL Workfront]  クラスターの現在のステータスなど、 [!DNL Workfront]  プラットフォームのヘルスを表示できます。'
+title: '[!DNL Adobe Workfront] ステータスサイト'
+description: '[!DNL Workfront Status] サイトにアクセスすると、インシデント、スケジュール済みメンテナンス期間、すべての [!DNL Workfront] クラスターの現在のステータスなど、[!DNL Workfront] プラットフォームのヘルスを表示できます。'
 draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+TQID: 'https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: '373'
 ht-degree: 100%
-
 ---
-
 # [!DNL Adobe Workfront] ステータスサイト
 
 <!-- Audited: 1/2024 -->

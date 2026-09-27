@@ -7,20 +7,27 @@ description: ビジネスマネージャーは、Adobe Workfront シナリオプ
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+TQID: 'https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1167
+source-wordcount: '1167'
 ht-degree: 97%
-
 ---
-
 # [!DNL Scenario Planner] の計画概要
 
 ビジネスマネージャーは、[!DNL Adobe Workfront Scenario Planner] を使用して、1年、3年、または 5年計画の概要を示し、組織の短期的および長期的な将来の戦略を概説できます。

@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
-ht-degree: 76%
-
+source-wordcount: '1203'
+ht-degree: 75%
 ---
-
 # 承認リクエストをデリゲート
 
 不在時に割り当てられた作業を、一時的にデリゲートできます。 タスクとイシューの割り当てをデリゲートしたり、承認リクエストをデリゲートしたりできます。 この記事では、承認リクエストをデリゲートする方法について説明します。 タスクとイシューの割り当ての委任について詳しくは、[&#x200B; タスクとイシューの委任](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
@@ -135,11 +146,11 @@ ht-degree: 76%
 1. 「マイ承認を委任」セクションで、次の情報を指定します。
 
    * **名前**：承認の委任先となるユーザーの名前を入力していき、ドロップダウンメニューに表示される名前をクリックします。
-   * **開始日**：承認の転送が開始される日付を選択します。 転送は、選択した日付の午前12:00時に開始されます。\
+   * **開始日**：承認の転送が開始される日付を選択します。 転送は、選択した日付の午前12時に開始されます。\
      開始日は、現在の日付または将来の日付にする必要があります。
    * **終了日**：次のいずれかの操作を行います。
-      * 承認の転送を停止する日付を選択します。 転送は、選択した日付の午後11:59時に終了します。
-      * 「**終了日なし**」を選択して、承認を無期限に委任するように Workfront を設定します。
+     * 承認の転送を停止する日付を選択します。 転送は、選択した日付の午後11時59分に終了します。
+     * 「**終了日なし**」を選択して、承認を無期限に委任するように Workfront を設定します。
 
 1. 「**保存**」をクリックします。
 
@@ -155,11 +166,11 @@ ht-degree: 76%
 1. 「マイ承認を委任」セクションで、次の情報を指定します。
 
    * **名前**：承認の委任先となるユーザーの名前を入力していき、ドロップダウンメニューに表示される名前をクリックします。
-   * **開始日**：承認の転送が開始される日付を選択します。 転送は、選択した日付の午前12:00時に開始されます。\
+   * **開始日**：承認の転送が開始される日付を選択します。 転送は、選択した日付の午前12時に開始されます。\
      開始日は、現在の日付または将来の日付にする必要があります。
    * **終了日**：次のいずれかの操作を行います。
-      * 承認の転送を停止する日付を選択します。 転送は、選択した日付の午後11:59時に終了します。
-      * 「**終了日なし**」を選択して、承認を無期限に委任するように Workfront を設定します。
+     * 承認の転送を停止する日付を選択します。 転送は、選択した日付の午後11時59分に終了します。
+     * 「**終了日なし**」を選択して、承認を無期限に委任するように Workfront を設定します。
 
 ## 承認委任の更新または停止 {#update-or-stop-an-approval-delegation}
 

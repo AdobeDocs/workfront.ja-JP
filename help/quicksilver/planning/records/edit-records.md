@@ -1,6 +1,6 @@
 ---
 title: レコードの編集
-description: レコードの情報は、Adobe Workfront Planning で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
+description: レコードの情報は、Adobe Workfront プランニングで編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
+TQID: 'https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3218
-ht-degree: 25%
-
+source-wordcount: '3235'
+ht-degree: 26%
 ---
-
 # レコードの編集
 
 
@@ -303,7 +311,7 @@ Old:
    * **表示**&#x200B;または&#x200B;**新しいタブで開く**：これにより、レコードページが開きます。
    * **リンクをコピー**: レコードのページにリンクをコピーします。
    * **サムネールを編集**: レコードにサムネールを追加するには、次の手順を実行します。
-     詳しくは、[&#x200B; レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+     詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
    * **重複**：これにより、レコードの同一の複製が作成されます。
    * **上にレコードを挿入/下にレコードを挿入**：新しい行を追加して、新しいレコードを追加できます。 これはプレビュー環境では不可能です。
    * **削除**: レコードを削除します。 削除されたレコードは、「最近削除されたレコード」ボックスに最大30日間保存されます。
@@ -379,7 +387,7 @@ Old:
    >  * レコードタイプを接続して作成された他のレコードのルックアップフィールド。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
-1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。</span>
+1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。 </span>
    <span class="preview"> レコードは、作成時に自動的に色が割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しい色を選択します。</span>
 
 1. （オプション）「**カバーを追加**」をクリックして、カバー画像をレコードに追加します。 詳しくは、[&#x200B; レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)を参照してください。
@@ -438,7 +446,7 @@ Old:
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
 1. （オプション）表示されるフィールドの右側にある情報アイコンをクリックして、フィールドの説明を表示します。
-1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。</span>
+1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。 </span>
    <span class="preview"> レコードは、作成時に自動的に色が割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しい色を選択します。</span>
 
    ![&#x200B; レコードの詳細ボックスのカラーピッカーボックス &#x200B;](assets/color-picker-box-for-record-color-in-details-page.png)

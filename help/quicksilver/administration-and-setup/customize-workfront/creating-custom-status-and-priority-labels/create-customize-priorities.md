@@ -5,23 +5,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-TQID: https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw
+TQID: 'https://experienceleague.adobe.com/hnZPQ8LCzcfU9SyyK3-qoWlkYoXyk5Bxcx0-yprX1pw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 47%
-
 ---
-
 # 優先度の作成とカスタマイズ
 
 <!--
@@ -129,10 +134,10 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
      デフォルトの優先度は、アイコン ![&#x200B; デフォルトの優先度アイコン &#x200B;](assets/default-icon.png)で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
-      * 優先順位名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**デフォルトにする**」を選択します。
-      * 優先順位名にカーソルを合わせ、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
+     * 優先順位名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**デフォルトにする**」を選択します。
+     * 優先順位名にカーソルを合わせ、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
 
-        新しいデフォルトの優先度には、アイコンのラベルが付けられます。
+       新しいデフォルトの優先度には、アイコンのラベルが付けられます。
 
    * **説明**：優先度の説明を入力して、その機能を説明します。
    * **選択肢を非表示**: **はい**&#x200B;を選択すると、不要になった優先度を非表示にできます。

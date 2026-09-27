@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 29%
-
+source-wordcount: '592'
+ht-degree: 31%
 ---
-
 # 優先度でのドキュメントのアップロードとプルーフの作成
 
 ドキュメントをアップロードし、優先度でプルーフを作成できます。
@@ -77,7 +82,7 @@ ht-degree: 29%
 1. ワークリストで、作業名にカーソルを合わせ、**概要** アイコン ![概要アイコンを開く](assets/summary-icon.png)をクリックします。
 1. サマリーパネルの「**タスク**」または「**問題**」タブに表示されていることを確認します。
 1. **ファイルをアップロード** アイコン ![&#x200B; ファイルアップロード アイコン &#x200B;](assets/upload-file-icon.png)をクリックします。
-1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
+1. ファイルをドラッグ＆ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
    ![&#x200B; ファイルを追加](assets/add-files.png)
@@ -96,7 +101,7 @@ ht-degree: 29%
 1. ワークリストで、作業項目名をクリックします。
 1. 画面上部の「**ドキュメント**」タブをクリックします。
 1. 右上隅の「**ドキュメントをアップロード**」をクリックし、「**ドキュメント**」を選択します。
-1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
+1. ファイルをドラッグ＆ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
    ![&#x200B; ファイルを追加](assets/add-files.png)
@@ -160,7 +165,7 @@ ht-degree: 29%
 1. 画面上部の「**ドキュメント**」タブをクリックします。
 1. 右上隅の「**ドキュメントをアップロード**」をクリックし、**プルーフ**&#x200B;を選択します。
 1. で説明されているように、プルーフを作成します
-   [基本ワークフローを使用した高度なプルーフを作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [基本ワークフローを使用した高度なプルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [自動ワークフローを使用した詳細プルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--

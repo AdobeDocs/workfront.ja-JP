@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8pcOtwFrNqJrKYMzAgKEfRmHoJAkiimDVJxCav0NoiY
+TQID: 'https://experienceleague.adobe.com/8pcOtwFrNqJrKYMzAgKEfRmHoJAkiimDVJxCav0NoiY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: '1245'
 ht-degree: 91%
-
 ---
-
 # フィルター、ビュー、グループの共有
 
 <!-- Audited: 11/2024 -->
@@ -196,7 +201,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    **システム内のすべてのユーザーと共有するには、**&#x200B;**設定**&#x200B;アイコン、「**この機能をシステム全体で表示**」の順にクリックします。\
    このオプションを使用するには、管理者が「システム全体で共有」オプションを選択する必要があります。 詳しくは、[カスタムアクセスレベルを作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の記事と、[レポート、ダッシュボード、カレンダーを共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)の記事を参照してください。
 
-1. （条件付き）個々のユーザー、チーム、役割、グループや会社と共有している場合は、ドロップダウンメニューをクリックして、付与するアクセスレベルを定義します。
+1. （条件付き）個人ユーザー、チーム、役割、グループや会社と共有している場合は、ドロップダウンメニューをクリックして、付与するアクセスレベルを定義します。
 
    以下のオプションから選択できます。
 

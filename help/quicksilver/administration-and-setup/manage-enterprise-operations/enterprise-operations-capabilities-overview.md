@@ -10,13 +10,20 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 421cfc8c-8c81-4d48-9fa7-ce603f33d8a9
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 10%
-
 ---
-
 # エンタープライズオペレーション機能の概要
 
 高度なエンタープライズオペレーション能力は、財務、リソース、プロジェクト、エンタープライズアクセスを管理する、統合されたスケーラブルな方法です。 これらの機能は、企業が収益性と効率性を維持しながら業務を遂行するために必要な可視性と管理性を提供します。

@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+TQID: 'https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 99%
-
+source-wordcount: '1147'
+ht-degree: 100%
 ---
-
 # API バージョン 18 の新機能
 
 Adobe Workfront は、2024年4月8日（PT）に API バージョン 18 をリリースしました。 API バージョン 18 では、バージョン 17 から次の変更が行われました。
@@ -315,7 +318,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
             </p>
             <ul>
               <li>
-                <p><b>ADD</b>
+                <p><b>追加</b>
                 </p>
               </li>
               <li>
@@ -495,7 +498,7 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
           <li>
             <p><b>moveToFolder</b>：
             </p>
-            <p>を追加しました。この新しいアクションでは、次のパラメーターを使用します。
+            <p>追加済み。 この新しいアクションは、次のパラメーターを受け取ります。
             <ul>
               <li>
                 <p><code>documentIDs</code>

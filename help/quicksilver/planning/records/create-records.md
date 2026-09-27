@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
+TQID: 'https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3670
-ht-degree: 14%
-
+source-wordcount: '3730'
+ht-degree: 15%
 ---
-
 # レコードの作成
 
 
@@ -36,7 +44,7 @@ ht-degree: 14%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、レコードはレコードタイプのインスタンスです。
+Adobe Workfront プランニングでは、レコードはレコードタイプのインスタンスです。
 
 次のいずれかを行うことで、レコードを作成できます。
 
@@ -207,7 +215,7 @@ Old:
 
 1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
    選択したタイプのすべてのレコードがビューに表示されます。
 
 1. （条件付き）任意のビューで、ワークスペースとレコードタイプの権限に応じて、画面の右上隅にある次のいずれかをクリックします。
@@ -289,7 +297,7 @@ You can import records from other applications by linking them to existing recor
 
 1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
    選択したタイプのレコードがビューに表示されます。
 
 1. （条件付き）テーブルビューで、次のいずれかの操作を行います。
@@ -506,7 +514,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 別のアプリケーションから、複数の行と列を選択し、最初の新しいレコードから始まるレコードタイプのテーブルビューに情報を貼り付けます。
 
-   次の情報が Workfront Planning エリアに読み込まれます。
+   次の情報が Workfront プランニングエリアに読み込まれます。
 
    * 行には新しいレコードが含まれています
    * 列には、レコードのフィールドに関する情報が入力されます。

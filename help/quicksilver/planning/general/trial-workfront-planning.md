@@ -7,24 +7,33 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+TQID: 'https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 3%
-
+source-wordcount: '2346'
+ht-degree: 4%
 ---
-
 # Adobe Workfront Planning の無料体験版の使用を開始
 
 <!--add screen shots-->
@@ -60,10 +69,10 @@ Workfront Planningの無償体験版では、次の機能を利用できます�
 * キュレーションされたマルチワークスペースプランニング環境
 * 次の機能を含むWorkfront Planning Prime パッケージ。
 
-   * 無制限のワークスペース
-   * 500,000 レコード/ワークスペース
-   * 200万ワークスペース
-   * グローバルレコードタイプ
+  * 無制限のワークスペース
+  * 500,000 レコード/ワークスペース
+  * 200万ワークスペース
+  * グローバルレコードタイプ
 * サンプルデータから始めましょう
 * AIを利用したオンボーディングでは、平易な言葉を使ったり、既存の成果物をアップロードしたりすることができます。プランニング部門はAIを活用してカスタム構造を生成します。 これにより、ワークスペース、レコードタイプ、フィールド、ビューが自動的に作成されます。
 * 製品内トレーニングとガイダンス
@@ -75,12 +84,12 @@ Workfront Planningの無料トライアルに参加するには、次の要件�
 
 * 次のいずれかの新しいAdobe Workfront パッケージまたはWorkflow パッケージを用意します。
 
-   * 選択
-   * Prime
-   * Ultimate
+  * 選択
+  * Prime
+  * Ultimate
 
   Workfront計画の体験版は、従来のWorkfront パッケージでは利用できません。
-詳しくは、Workfront ドキュメント [&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)の アクセス要件を参照してください。
+  詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 * 2026年1月26日から4月1日の間に、組織のWorkfront インスタンスで使用可能な法務トライアル契約に同意します。 体験版契約書に同意するには、Workfront管理者である必要があります。
 
 ## 重要な日付の概要
@@ -88,31 +97,31 @@ Workfront Planningの無料トライアルに参加するには、次の要件�
 Adobe Workfront Planning無料体験版の提供に関連する重要な日付は次のとおりです。
 
 * **2026年1月26日**: Workfront計画の無料トライアル バナーがWorkfrontのお客様にリリースされました。 バナーには以下が含まれています。
-   * このドキュメントへのリンク。
-   * 試用契約書の承認ウィンドウ。 Workfrontの管理者のみが契約書に同意できます。 この日付からいつでも体験版契約書に同意できます。
+  * このドキュメントへのリンク。
+  * 試用契約書の承認ウィンドウ。 Workfrontの管理者のみが契約書に同意できます。 この日付からいつでも体験版契約書に同意できます。
 * **2026年3月2日**: Workfront計画体験版が開始されました。
 
   体験版のローンチに伴い、次の項目がWorkfront インスタンスに追加されます。
 
-   * Workfront計画バナーは、引き続きすべてのユーザーに表示されます。 このドキュメントへのリンクがバナーに含まれています。
-   * **体験版契約書の確認**&#x200B;の環境設定が&#x200B;**設定**&#x200B;領域に追加されます。
+  * Workfront計画バナーは、引き続きすべてのユーザーに表示されます。 このドキュメントへのリンクがバナーに含まれています。
+  * **体験版契約書の確認**&#x200B;の環境設定が&#x200B;**設定**&#x200B;領域に追加されます。
 
   次のシナリオが存在します。
 
-   * Workfront管理者がこの日付より前に契約書に同意している場合は、メインメニューにプランニング エリアがあり、Workfront プランニングの使用を開始できます。
+  * Workfront管理者がこの日付より前に契約書に同意している場合は、メインメニューにプランニング エリアがあり、Workfront プランニングの使用を開始できます。
 
   >[!NOTE]
   >
   >Workfront ライセンスの種類に関係なく、システム内のすべてのユーザーのメインメニューに計画領域が表示されます。
 
-   * Workfront管理者がこの日付より前に契約書に同意していない場合、Planning体験版プログラムを告知するバナーはすべてのユーザーに表示されますが、Planningはまだメインメニューで使用できません。 Workfront Planningにアクセスするには、まずシステム管理者が契約書に同意する必要があります。
+  * Workfront管理者がこの日付より前に契約書に同意していない場合、Planning体験版プログラムを告知するバナーはすべてのユーザーに表示されますが、Planningはまだメインメニューで使用できません。 Workfront Planningにアクセスするには、まずシステム管理者が契約書に同意する必要があります。
 
 * **2026年4月1日**：体験版に登録できなくなりました。
 
   次の項目は、Workfront インスタンスから削除されます。
 
-   * Workfront Planningの体験版バナー。
-   * **体験版の契約書を確認**&#x200B;の環境設定が&#x200B;**設定**&#x200B;領域から削除されます。
+  * Workfront Planningの体験版バナー。
+  * **体験版の契約書を確認**&#x200B;の環境設定が&#x200B;**設定**&#x200B;領域から削除されます。
 
 * **2026年5月1日**: Workfront Planningの体験版が終了し、Planningへのアクセス権が削除されます。 アクセスは2026年5月15日まで有効です。
 
@@ -137,9 +146,9 @@ Lauren wanted this out:
 
   無料トライアル中に、システム内のユーザーは、プランニング領域のワークスペースに対して次の権限を付与されます。
 
-   * すべてのシステム管理者は、「自分が所属するワークスペース」および「すべてのワークスペース」タブに対する管理権限を持っています。
-   * 他のすべてのユーザーにはワークスペース領域に対する表示権限がありますが、システム管理者は、そこに表示されるワークスペースに対する管理権限を付与できます。
-   * システム管理者を含むすべてのユーザーには、プランニング領域の「サンプルワークスペース」タブに対する表示権限があります。
+  * すべてのシステム管理者は、「自分が所属するワークスペース」および「すべてのワークスペース」タブに対する管理権限を持っています。
+  * 他のすべてのユーザーにはワークスペース領域に対する表示権限がありますが、システム管理者は、そこに表示されるワークスペースに対する管理権限を付与できます。
+  * システム管理者を含むすべてのユーザーには、プランニング領域の「サンプルワークスペース」タブに対する表示権限があります。
 
 * **2026年5月1日以降：**
 
@@ -260,10 +269,10 @@ Workfront Planningでの経験に関するフィードバックを送信する�
      グローバル分類ワークスペースの使用方法に関する推奨事項については、[最初の成果を持続可能な勢いに変える：管理された拡張のためのプレイブック &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)を参照してください。
    * 追加のサンプルワークスペース：次のワークスペースは、サンプル企業（Fréscopa）が特定のワークスペース、レコードタイプ、フィールド、および組織構造と作業構造のアーキテクチャに対するビューとして必要なワークスペースの例として機能します。
 
-      * **Fréscopa グローバルマーケティング**
-      * **Fréscopa Social Marketing**
-      * **Fréscopa Media &amp; PR**
-      * **Fréscopa Executive Company Leadership**
+     * **Fréscopa グローバルマーケティング**
+     * **Fréscopa Social Marketing**
+     * **Fréscopa Media &amp; PR**
+     * **Fréscopa Executive Company Leadership**
 
    >[!NOTE]
    >
@@ -304,8 +313,8 @@ Workfront Planningでの経験に関するフィードバックを送信する�
 
      詳しくは、次の記事を参照してください。
 
-      * [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)
-      * [レコードタイプの接続の概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     * [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)
+     * [レコードタイプの接続の概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
 1. 作成したワークスペースから、次のいずれかのエンティティを共有します。
 

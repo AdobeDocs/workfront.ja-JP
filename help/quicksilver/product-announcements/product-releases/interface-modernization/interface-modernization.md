@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+TQID: 'https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 9918
+source-wordcount: '9993'
 ht-degree: 2%
-
 ---
-
 # インターフェイスの最新化
 
 このページでは、ユーザーエクスペリエンスを向上させ、他のAdobe アプリケーションと統合するために、Adobe Workfront全体で行っているインターフェイスの更新を示します。 これらの変更は主に視覚的なものであり、特に明記されていない限り、ワークフローを大幅に変更することはありません。
@@ -89,8 +98,8 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 * テンプレートタスクにリソースを割り当てるための新しいエクスペリエンスが追加されました。 新しいエクスペリエンスは、1つのタスクを編集する場合と、複数のタスクを一括編集する場合の両方で利用できるようになりました。 次のフィールドが「タスクを編集」ボックスから削除されました。
 
 * 割り当て
-   * 所有者またはタスク所有者
-   * 割り当て先の役割
+  * 所有者またはタスク所有者
+  * 割り当て先の役割
 
 テンプレートタスクの高度な割り当てを行う際に、削除されたフィールドを見つけることができます。
 
@@ -115,9 +124,9 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 * タスクにリソースを割り当てるための新しいエクスペリエンスがあります。 これは、1つのタスクを編集する場合と、複数のタスクを一括編集する場合の両方で使用できるようになりました。 次のフィールドが「タスクを編集」ボックスから削除されました。
 
-   * 割り当て
-   * 所有者またはタスク所有者
-   * 割り当て先の役割
+  * 割り当て
+  * 所有者またはタスク所有者
+  * 割り当て先の役割
 
 タスクの高度な割り当てを行う際に、削除されたフィールドを見つけることができます。
 
@@ -145,9 +154,9 @@ Workfrontの他の領域と一致する、より現代的なデザインの会�
 
 * 問題にリソースを割り当てるための新しいエクスペリエンスがあります。 これは、1つの問題を編集する場合と、複数の問題を一括編集する場合の両方で使用できるようになりました。 「問題を編集」ボックスから次のフィールドが削除されました。
 
-   * 割り当て
-   * 所有者またはイシュー所有者
-   * 割り当て先の役割
+  * 割り当て
+  * 所有者またはイシュー所有者
+  * 割り当て先の役割
 
 問題に対して高度な割り当てを行う際に、削除されたフィールドを更新できます。
 
@@ -581,8 +590,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 **プレビューリリース：2025年7月31日、実稼動リリース：2025年7月31日**
 
-テンプレートでトピックグループを編集する際のルックアンドフィールを更新しました。トピックグループの編集ページが、Workfrontの他の領域のデザインと一致するようになりました。
-トピックグループに小さな機能変更が適用されました。トピックグループを編集するには、リストからトピックグループを選択し、編集アイコンをクリックします。編集する前に、トピックグループの詳細ページに移動する必要はありません。
+テンプレートでトピックグループを編集する際のルックアンドフィールを更新しました。 トピックグループの編集ページが、Workfrontの他の領域のデザインと一致するようになりました。
+トピックグループに小さな機能変更が適用されました。 トピックグループを編集するには、リストからトピックグループを選択し、編集アイコンをクリックします。 編集する前に、トピックグループの詳細ページに移動する必要はありません。
 
 詳しくは、[トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
@@ -1242,7 +1251,7 @@ Workfrontの他の領域と一致する、より現代的なデザインでプ�
 
 Workfrontの他の領域と一致する、より現代的なデザインの自動リマインダーページを更新しました。
 このページを表示するには、設定/電子メール/自動リマインダーに移動します。
-この更新には、領域の視覚的な変更が含まれます。機能は変更されていません。
+この更新には、領域の視覚的な変更が含まれます。 機能は変更されていません。
 
 ### 設定のメールテンプレートページのインターフェイスの更新
 

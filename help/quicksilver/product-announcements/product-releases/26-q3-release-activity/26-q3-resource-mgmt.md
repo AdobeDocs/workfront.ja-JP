@@ -4,13 +4,20 @@ description: 2026年第3四半期のリソース管理の強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
-
 ---
-
 # 2026年第3四半期のリソース管理の強化
 
 このページでは、2026年第3四半期リリースで行われたリソース管理の機能強化をプレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
@@ -21,7 +28,10 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->プレビュー：2026年6月19日（PT）プロダクション高速リリース：2026年6月19日（PT）すべての人のための制作：2026年6月19日スケジュール外&rbrack;{type=Neutral}
+>プレビュー：2026年6月19日（PT）
+>プロダクション高速リリース：2026年6月19日（PT）
+>すべての人のための制作：2026年6月19日
+>[!BADGE スケジュール外]{type=Neutral}
 
 一括割り当てがワークロードバランサーで効率化され、ユーザーの割り当てとユーザーの置き換えのアクションが&#x200B;**リソースの置き換え** アクションに統合されました。
 

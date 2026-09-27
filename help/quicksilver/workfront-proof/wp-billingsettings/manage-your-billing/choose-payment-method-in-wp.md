@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: ' [!DNL Workfront]  プルーフでの支払い方法の選択'
+title: '[!DNL Workfront] プルーフで支払い方法を選択しています'
 description: Workfront Proof での支払いの詳細について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
+TQID: 'https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 348
-ht-degree: 100%
-
+source-wordcount: '349'
+ht-degree: 98%
 ---
-
 # [!DNL Workfront Proof] での支払い方法の選択
 
 >[!IMPORTANT]
@@ -74,7 +83,7 @@ ht-degree: 100%
 サテライトアカウントをお持ちの場合は、それぞれのアカウントに対して個別にクレジットカードの詳細と支払い方法をアップデートする必要があります。 サテライトアカウントに関して詳しくは、[サテライトアカウント](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)を参照してください。
 
 1. ハブアカウントの[!UICONTROL 請求]ページに移動します。\
-   請求ページに関して詳しくは、[ [!DNL Workfront]  プルーフの請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+   請求ページに関して詳しくは、[&#x200B; [!DNL Workfront]  プルーフの請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 1. [!UICONTROL アカウントリスト]のドロップダウンメニューを開きます。 （1）
 1. アップデートするクレジットカードに関連付けられているサテライトアカウント（2）を選択します。

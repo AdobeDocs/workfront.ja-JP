@@ -6,13 +6,17 @@ title: レートカードのテンプレートへの添付
 description: レートカードをテンプレートに割り当てると、そのレートカードは、テンプレートから作成されたすべてのプロジェクトに添付されます。
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 10%
-
 ---
-
 # レートカードのテンプレートへの添付
 
 レートカードをテンプレートに割り当てると、そのレートカードは、テンプレートから作成されたすべてのプロジェクトに添付されます。 レートカードはプロジェクトのデフォルトになりますが、必要に応じて上書きできます。
@@ -71,7 +75,7 @@ ht-degree: 10%
 1. テンプレートの詳細/概要/テンプレートの関連付けセクションで、**レートカード** フィールドでレートカードを選択します。
 
    権限を持つレートカードのみが選択できます。
-レートカードの名前を入力して、結果のリストを絞り込むことができます。
+   レートカードの名前を入力して、結果のリストを絞り込むことができます。
 
    ![&#x200B; テンプレートでレートカードを選択](assets/select-rate-card-on-template.png)
 

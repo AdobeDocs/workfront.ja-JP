@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-TQID: https://experienceleague.adobe.com/jOkhCzw-50MOxy0xeappPpSGV-u4IMP2XqsU87so7oE
+TQID: 'https://experienceleague.adobe.com/jOkhCzw-50MOxy0xeappPpSGV-u4IMP2XqsU87so7oE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 86%
-
 ---
-
 # ポートフォリオへのアクセス権の付与
 
 Adobe Workfront 管理者は、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明されているように、アクセスレベルを使用してユーザーのポートフォリオへのアクセス権を定義できます。
@@ -65,7 +69,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
    >[!NOTE]
    >
-   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーがアクセスレベルでポートフォリオを削除することを制限できますが、これは、ポートフォリオよりもランクの低いプロジェクトの削除をユーザーに制限するものではありません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[&#x200B; オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
+   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランキングのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーがアクセスレベルでポートフォリオを削除することを制限できますが、これは、ポートフォリオよりもランクの低いプロジェクトの削除をユーザーに制限するものではありません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[&#x200B; オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
 
 1. （オプション）作業中のアクセスレベルで他のオブジェクトや他の領域のアクセス権を設定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)のリストに記載されている、[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)や[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)などの記事を参照してください。
 1. 完了したら「**保存**」をクリックします。

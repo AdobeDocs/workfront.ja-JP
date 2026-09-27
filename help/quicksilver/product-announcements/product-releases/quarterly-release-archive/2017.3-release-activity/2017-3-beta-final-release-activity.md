@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+TQID: 'https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3709
-ht-degree: 88%
-
+source-wordcount: '3822'
+ht-degree: 91%
 ---
-
 # 2017.3 ベータ版最終リリースアクティビティ
 
 このページでは、2017.3 ベータ版最終リリースでプレビュー環境で最近利用可能となったすべての変更について説明します。 このページの機能は、2017年9月12日（PT）にプレビュー環境で使用できるようになりました。 2017年11月初旬に、本番環境で利用可能になる予定です。
@@ -221,7 +229,7 @@ Workfront オブジェクトに対して行うコメントや更新を書式設�
 
 ## ドキュメントの機能強化：合理化されたインターフェイス {#document-enhancements-streamlined-interface}
 
-Workfrontにドキュメントを追加する際のユーザーエクスペリエンスが、より合理的で直感的になりました。これで、ファイルシステムからドキュメントをアップロードしたり、ドキュメントをリクエストしたり、サードパーティのアプリケーション（GoogleやDropboxなど）からファイルをリンクしたりすることができます。 
+Workfront にドキュメントを追加するためのユーザーエクスペリエンスが、より合理化され、直感的になりました。 これで、ファイルシステムからドキュメントをアップロードしたり、ドキュメントをリクエストしたり、サードパーティのアプリケーション（Google や Dropboxなど）からファイルをリンクしたりできるようになりました。 
 
 以前は、これらのオプションは、ドキュメントを追加ダイアログボックスを起動することで利用できました。 
 
@@ -304,9 +312,9 @@ HTML ビューアーには、静的コンテンツをプルーフする際の次
 
 * プルーフのサムネイルを介してプルーフを操作
 
-   * レビュー中のプルーフの部分を簡単に識別します。 これは、特にユーザーが大きな形式のプルーフ刷りや長い web ページを扱う場合、または詳細を確認するためにより大きなズームレベルが必要な場合に重要です。
-   * ズームレベルの変更
-   * コンテンツをパン
+  * レビュー中のプルーフの部分を簡単に識別します。 これは、特にユーザーが大きな形式のプルーフ刷りや長い web ページを扱う場合、または詳細を確認するためにより大きなズームレベルが必要な場合に重要です。
+  * ズームレベルの変更
+  * コンテンツをパン
 
 * 測定ツールでカスタム値を指定
 * Workfront プルーフのプルーフビューアーでプルーフ内のテキストに注釈を付ける場合、テキストを太字、斜体、下線を付ける必要があることを示すオプションを含めることができます。
@@ -464,8 +472,8 @@ Slack から Workfront へのアクセスについて詳しくは、[Workfront �
 
 Outlook 365 用 Workfront アドインに対して、次の機能が強化されました。
 
-* Workfrontでプロジェクトにタスクまたはイシューを追加する：Outlook 365 アドインを使用して、電子メールをWorkfrontのタスクまたはイシューに変換できるようになりました。このプロセスでは、タスクまたはイシューを追加するプロジェクト、担当者、期日を指定できます。この機能強化を行う前は、Outlook 365からリクエスト キューにリクエストを送信するか、作業中リストに個人タスクを追加することしかできませんでした。 
-* タスク、イシュー、またはリクエストに変換された元の電子メール内のWorkfront オブジェクトへのリンクを保持する：Outlook 365から電子メールをタスク、イシュー、またはリクエストに変換すると、Outlook 365は、元の電子メール内にその電子メールから変換されたタスクまたはイシューへのリンクを保持します。この変更以前、Outlookでは、電子メールがタスクに変換されたか、リクエストとして送信されたかは示されませんでした。 
+* Workfront のプロジェクトへのタスクまたはイシューの追加：Outlook 365 アドインを使用して、Workfront でメールをタスクまたはイシューに変換できるようになりました。 このプロセスでは、タスクまたはイシューを追加するプロジェクト、担当者および期限日を指定できます。 この機能強化以前は、リクエストキューにリクエストを送信するか、Outlook 365 から」作業中」リストに個人のタスクを追加することのみ可能でした。 
+* タスク、イシュー、またはリクエストに変換された元のメール内で Workfront オブジェクトへのリンクを保持：Outlook 365 からメールがタスク、イシュー、またはリクエストに変換されると、Outlook 365 は元のメール内で、そのメールから変換されたタスクまたはイシューへのリンクを保持します。 この変更以前は、メールがタスクに変換されたか、リクエストとして送信されたかを Outlook で確認することはできませんでした。 
 
 ## API の変更点 {#api-changes}
 

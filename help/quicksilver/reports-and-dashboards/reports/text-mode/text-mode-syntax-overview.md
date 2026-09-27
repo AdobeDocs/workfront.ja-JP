@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 98%
-
 ---
-
 # テキストモード構文の概要
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ ht-degree: 98%
 * Workfront データベース内のオブジェクトや属性を参照する場合は、必ずキャメルケースを使用してください。
 * Workfront 内のオブジェクトの階層に注意してください。 ビュー、フィルターおよびグループ化には、次のような違いがあります。
 
-   * レポートまたはリストオブジェクトから 3 つ離れたオブジェクトをビューに表示できます。
-   * グループ化、フィルターまたはカスタムプロンプトでは、メインオブジェクトから 2 つ以上離れたオブジェクトを参照することはできません。
+  * レポートまたはリストオブジェクトから 3 つ離れたオブジェクトをビューに表示できます。
+  * グループ化、フィルターまたはカスタムプロンプトでは、メインオブジェクトから 2 つ以上離れたオブジェクトを参照することはできません。
 
   **例：** ポートフォリオ所有者の名前または GUID をタスクビューに表示できます。
 
@@ -63,8 +67,8 @@ ht-degree: 98%
 
   Workfront のオブジェクトの階層について詳しくは、次を参照してください。
 
-   * [Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API エクスプローラー](../../../wf-api/general/api-explorer.md)
+  * [Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API エクスプローラー](../../../wf-api/general/api-explorer.md)
 
 * 可能な限りワイルドカードを使用して、レポートやリストをより動的にし、異なるユーザーや類似するタイムラインで重複しないようにしてください。
 
@@ -96,15 +100,15 @@ Workfront フィールドまたはその属性をテキストモードで参照�
 
   テキストモードで作成する場合の、ビューとグループ化のコードの主要な行について詳しくは、次を参照してください。
 
-   * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * フィルターとカスタムプロンプトでは、コードと構文の行は似ています。
 
   詳しくは、以下を参照してください。
 
-   * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### ビューとグループ化の構文
 
@@ -197,22 +201,22 @@ Workfront フィールドまたはその属性をテキストモードで参照�
 
   **例：**&#x200B;タスクレポートでタスク名と連結されたプロジェクト名を表示するには、次の行を使用します。
 
-   * ビューでは、次のようになります。
+  * ビューでは、次のようになります。
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * グループ内では、次のようになります。
+  * グループ内では、次のようになります。
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   Workfront データベース内でオブジェクトが相互に参照する方法について詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 
 * カスタムフィールドを参照する場合は、次のルールを使用します。
 
-   * インターフェイスに表示されるとおりのフィールドの名前を使用します。
-   * フィールドの名前の前に「DE:」を付けます。
-   * フィールドを中括弧で囲みます。
-   * オブジェクトに関連するフィールドはピリオドで区切ります。
+  * インターフェイスに表示されるとおりのフィールドの名前を使用します。
+  * フィールドの名前の前に「DE:」を付けます。
+  * フィールドを中括弧で囲みます。
+  * オブジェクトに関連するフィールドはピリオドで区切ります。
 
   **例：**&#x200B;追加の詳細プロジェクトのカスタムフィールドをタスクビューの valueexpression 行に表示するには、次の行を使用します。
 
@@ -284,14 +288,14 @@ Workfront フィールドまたはその属性をテキストモードで参照�
 
 * 複数のフィルターステートメントを接続するステートメントコネクタ：
 
-   * および
+  * および
 
-     これは、フィルターステートメント間のデフォルトのコネクタです。
+    これは、フィルターステートメント間のデフォルトのコネクタです。
 
-   * または
+  * または
 
-     >[!TIP]
-     >
-     >ステートメントコネクタでは大文字と小文字が区別され、常に大文字が使用されます。 「AND」は、テキストモードでは省略できます。
+    >[!TIP]
+    >
+    >ステートメントコネクタでは大文字と小文字が区別され、常に大文字が使用されます。 「AND」は、テキストモードでは省略できます。
 
 * フィルターをより動的にし、現在の時刻やログインしているユーザーに合わせてカスタマイズするワイルドカード。 ワイルドカードについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。

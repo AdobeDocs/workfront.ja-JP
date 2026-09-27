@@ -7,22 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+TQID: 'https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 746
-ht-degree: 95%
-
+source-wordcount: '796'
+ht-degree: 100%
 ---
-
 # 2017.2 Beta 2 リリースアクティビティ
 
 このページでは、2017.2 Beta 2 リリースに関してプレビュー環境で使用できるすべての変更について説明します。 このページの機能は、2017年5月24日（PT）にプレビュー環境で使用できるようになりました。 2018年7月下旬から8月上旬（PT）までの間に、本番環境で利用可能になる予定です。
@@ -80,7 +87,7 @@ ht-degree: 95%
 
   ガントチャートのすべてのタスクにわたって、マイルストーンに関連付けられたタスクの後に線が表示されます。
 
-この変更以前は、マイルストーンをガントチャートに表示できるオプションは「マイルストーン」と呼ばれていました。 このオプションを選択すると、マイルストーンダイヤモンドアイコンとマイルストーンラインの両方が有効になります。これらの指標は分離できませんでした。2つのオプションは、すべてのプロジェクトリストとレポートを含む、すべてのガントチャートで利用できるようになりました。 
+この変更が行われる前は、ガントチャートにマイルストーンを表示するためのオプション（名称「マイルストーン」）は 1 つのみでした。 このオプションでは、マイルストーンのひし形アイコンとの線の両方が有効になりました。 これらのインジケーターは分離できませんでした。 すべてのプロジェクトリストとレポートを含むすべてのガントチャートで、2 つのオプションを使用できるようになりました。 
 
 ガントチャートにおける情報の表示方法の設定について詳しくは、[ガントチャートでの情報の表示方法を設定](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)を参照してください。
 
@@ -109,7 +116,7 @@ Workfront インターフェース内で、プルーフ済みドキュメント�
 
 ## プルーフ承認レポートの新規「リクエスター」オブジェクト {#new-requester-object-in-proof-approval-report}
 
-これで、プルーフ承認レポートを作成する際に、新しいリクエスターオブジェクトが作成されました。このオブジェクトを使用すると、プルーフの承認を要求したユーザーに関する情報をレポートできます。 
+プルーフの承認レポートを作成すると、新しいリクエスターオブジェクトが追加されます。 このオブジェクトを使用すると、プルーフの承認をリクエストしたユーザーに関する情報をレポートできます。 
 
 プルーフの承認レポートの新しいリクエスターオブジェクトには、他のタイプのオブジェクトレポートの既存のユーザーオブジェクトで使用できるフィールドがすべて含まれています。
 

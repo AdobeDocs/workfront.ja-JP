@@ -8,23 +8,28 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LkyWuPHqv0muTinWZT1PMKPGUNErWulIIxHmXVtPIVg
+TQID: 'https://experienceleague.adobe.com/LkyWuPHqv0muTinWZT1PMKPGUNErWulIIxHmXVtPIVg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 45%
-
+source-wordcount: '323'
+ht-degree: 40%
 ---
-
 # ポートフォリオに既存プログラムの追加
 
 <!--Audited: 05/2026-->
@@ -100,8 +105,8 @@ Old:
 >[!NOTE]
 >
 >お客様の組織が従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用している場合、Adobe クラウドストレージプログラムを従来のストレージポートフォリオに追加したり、従来のプログラムをAdobe クラウドストレージポートフォリオに追加したりすることはできません。
->Workfront インスタンスには、両方の種類のドキュメント ストレージがない可能性があります。
->詳細については、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+>Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
+>詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 >
 
 既存のプログラムを別のポートフォリオに追加するには：

@@ -7,28 +7,37 @@ description: Adobe Workfront でフィルターを使用すると、リスト、
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-TQID: https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI
+TQID: 'https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1794
+source-wordcount: '1820'
 ht-degree: 99%
-
 ---
-
 # フィルターの概要
 
 <!-- Audited: 11/2024 -->
@@ -124,9 +133,9 @@ Workfront の次のエリアで、ビルトインフィルターを使用する�
 
   詳しくは、次の記事を参照してください。
 
-   * [シナリオプランナーでのプランの作成と編集](../../../scenario-planner/create-and-edit-plans.md)
-   * [シナリオプランナーでイニシアチブを公開してプロジェクトを更新または作成](../../../scenario-planner/publish-scenarios-update-projects.md)
-   * [シナリオプランナーのプランにプロジェクトを読み込む](../../../scenario-planner/import-projects-to-plans.md)
+  * [シナリオプランナーでのプランの作成と編集](../../../scenario-planner/create-and-edit-plans.md)
+  * [シナリオプランナーでイニシアチブを公開してプロジェクトを更新または作成](../../../scenario-planner/publish-scenarios-update-projects.md)
+  * [シナリオプランナーのプランにプロジェクトを読み込む](../../../scenario-planner/import-projects-to-plans.md)
 
 * Goals
 
@@ -238,7 +247,7 @@ Workfront には、各フィルターステートメントを結び付ける 2 �
 >[!INFO]
 >
 >**例：**
->完了率が100%のプロジェクトをフィルタリングできます。この場合、次のフィルターステートメントで「equal」修飾子を使用できます。
+>完了率が 100％のプロジェクトをフィルタリングできます。 この場合、次のフィルターステートメントで「次と等しい」修飾子を使用できます。
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

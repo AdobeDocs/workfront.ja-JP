@@ -7,27 +7,37 @@ feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg
+TQID: 'https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2730
-ht-degree: 99%
-
+source-wordcount: '2730'
+ht-degree: 100%
 ---
-
 # Adobe Workfront における Flash ベースのツールの置き換え
 
 Adobe Workfront Classic から、すべての Flash ベースのツールを削除しました。
@@ -67,13 +77,13 @@ Workfront のすべての Flash ベースのツールを削除する際には、
 
 ### リソース管理
 
-* ユーザーエリアの「レガシーリソースプランニング」タブと、タブに含まれるすべてのツール（以下を含む）。
+* ユーザーエリアの「レガシーリソース計画」タブと、タブに含まれるすべてのツール（以下を含む）。
 
-   * リソース予算マネージャー
-   * キャパシティプランナー
-   * リソース見積り
-   * リソースグリッド\
-     詳しくは、[リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
+  * リソース予算マネージャー
+  * キャパシティプランナー
+  * リソース見積り
+  * リソースグリッド\
+    詳しくは、[リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
 
 * プロジェクトのビジネスケースのレガシーリソースの予測エリア
 
@@ -102,14 +112,14 @@ Workfront のすべての Flash ベースのツールを削除する際には、
 
 * 次のレポート機能が削除されました。
 
-   * ユーザーレポートの「リソースグリッド」オプション
-   * プロジェクトまたはタスクレポートの「レガシーガント」オプション\
-     詳しくは、[ガントチャートで情報を表示](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)を参照してください。
+  * ユーザーレポートの「リソースグリッド」オプション
+  * プロジェクトまたはタスクレポートの「レガシーガント」オプション\
+    詳しくは、[ガントチャートで情報を表示](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)を参照してください。
 
 * 削除されたレポート：
 
-   * レガシーリソースプールレポート
-   * リソースの予測レポート
+  * レガシーリソースプールレポート
+  * リソースの予測レポート
 
   >[!NOTE]
   >
@@ -187,7 +197,7 @@ Workfront のすべての Flash ベースのツールを削除する際には、
   </tr> 
   <tr> 
    <td> <p><strong>リソース見積り</strong> </p> <p>各レガシーリソースプールの「リソースの見積もり」タブは、1 つのレガシーリソースプールのコンテキストでのみ、リソース予算マネージャーと同じ目的を果たしました。 このツールには、不正確なデータと空き時間の手動入力という、リソース予算マネージャーやレガシーリソースプールと同じ制限がありました。 </p> </td> 
-   <td> <p>ユーザーの空き時間を自動的に計算することにより、リソースの見積もりは廃止され、削除されました。</p> <p>このツールは、プロジェクトのビジネスケースのレガシーリソースプールとレガシーリソース見積もりで削除されます。
+   <td> <p>ユーザーの空き時間を自動的に計算することにより、リソースの見積もりは廃止され、削除されました。</p> <p>このツールは、プロジェクトのビジネスケースのレガシーリソースプールとレガシーリソース見積もりでは削除されます。
    <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 

@@ -1,16 +1,28 @@
 ---
 title: Workfront計画用語の概要
-description: Adobe Workfront計画はWorkfront製品ですが、独自の概念と用語が含まれています。 組織で Workfront Planning の設定を開始する前に、新しい概念を十分に理解する必要があります。
+description: Adobe Workfront計画はWorkfront製品ですが、独自の概念と用語が含まれています。 組織で Workfront プランニングの設定を開始する前に、新しい概念を十分に理解する必要があります。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 59%
-
 ---
-
 # Workfront計画の用語の概要
 
 
@@ -33,11 +45,11 @@ ht-degree: 59%
 >
 >スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
-Workfront Planning は Workfront の一部ですが、独自の概念と用語を備えています。 組織で Workfront Planning の設定を開始する前に、新しい概念を十分に理解する必要があります。
+Workfront プランニングは Workfront の一部ですが、独自の概念と用語を備えています。 組織で Workfront プランニングの設定を開始する前に、新しい概念を十分に理解する必要があります。
 
-Workfront Planning のフレームワークは完全なカスタマイズが可能です。 組織の正確なニーズに合わせて、すべてのレコードタイプとその属性、およびそれらに関連付けられた任意のフィールドを作成できます。
+Workfront プランニングのフレームワークは完全なカスタマイズが可能です。 組織の正確なニーズに合わせて、すべてのレコードタイプとその属性、およびそれらに関連付けられた任意のフィールドを作成できます。
 
-作成できる Workfront Planning オブジェクトの数には制限があります。 詳しくは、[Adobe Workfront Planning のオブジェクト数の制限の概要](/help/quicksilver/planning/general/limitations-overview.md)を参照してください。
+作成できる Workfront プランニングオブジェクトの数には制限があります。 詳しくは、[Adobe Workfront プランニングのオブジェクト数の制限の概要](/help/quicksilver/planning/general/limitations-overview.md)を参照してください。
 
 Workfront Planning の主なオブジェクトと概念は次のとおりです。
 
@@ -67,11 +79,11 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 ワークスペースにはレコードタイプが入力されます。
 
-オブジェクトタイプが事前に定義されている Workfront とは異なり、Workfront Planning では独自のオブジェクトタイプを作成できます。
+オブジェクトタイプが事前に定義されている Workfront とは異なり、Workfront プランニングでは独自のオブジェクトタイプを作成できます。
 
 例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。
 
-Workfront Planning では、組織のワークフローを満たす任意のレコードタイプを作成できます。 後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。
+Workfront プランニングでは、組織のワークフローを満たす任意のレコードタイプを作成できます。 後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。
 
 詳しくは、[レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 
@@ -131,7 +143,7 @@ Adobe Workfront Planning には、次のテンプレートが含まれていま�
 
 * フィールドはレコードタイプに固有で、レコードタイプ間では転送されません。
 
-* フィールドは完全なカスタマイズが可能で、Workfront Planning 内でのみアクセスできます。 Workfront からは Workfront Planning のフィールドにアクセスできません。
+* フィールドは完全なカスタマイズが可能で、Workfront プランニング内でのみアクセスできます。 Workfront からは Workfront プランニングのフィールドにアクセスできません。
 
 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 

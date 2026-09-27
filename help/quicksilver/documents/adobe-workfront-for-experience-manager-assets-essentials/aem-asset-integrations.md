@@ -6,25 +6,37 @@ description: Workfront と Experience Manager Assets、または Assets Essentia
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-TQID: https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY
+TQID: 'https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 75%
-
 ---
-
 # Adobe Experience Manager Assets 統合の概要
 
 <!-- Audited: 12/2023 -->
@@ -45,11 +57,11 @@ Workfront と Experience Manager Assets、または Assets Essentials の統合�
 * ポートフォリオが Workfront で変更されたときに、ポートフォリオ、プログラム、プロジェクト、タスク、イシュー、ドキュメントのメタデータを自動的に更新
 * 複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続できます。
 * Experience Manager Assetsのコンテンツアドバイザー機能を活用する。 Content Advisorでは、次のことが可能です
-   * コンテンツをアップロードして類似アセットを検索
-   * アセットに関するクイック詳細の表示
-   * コンテンツフラグメントへのアクセス
-   * コレクションを見る
-   * その他。 詳しくは、[Experience Manager Assets Content Advisor ドキュメント ]を参照してください。
+  * コンテンツをアップロードして類似アセットを検索
+  * アセットに関するクイック詳細の表示
+  * コンテンツフラグメントへのアクセス
+  * コレクションを見る
+  * その他。 詳しくは、[Experience Manager Assets Content Advisor ドキュメント ]を参照してください。
 
 
 ## 前提条件
@@ -75,6 +87,6 @@ Workfront と Experience Manager Assets、または Assets Essentials の統合�
 1. [Adobe Workfront と Experience Manager Assets の間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)
 1. 統合の設定：
    1. [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
-または
+      または
    1. [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. 統合の使用：アセットの送信、リンクされたフォルダーの作成、メタデータのマッピングなどを行います。 詳しくは、[Adobe Workfront for Experience Manager Assets と Assets Essentials：記事インデックス](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)を参照してください。

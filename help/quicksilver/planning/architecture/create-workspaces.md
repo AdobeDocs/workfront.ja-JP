@@ -1,6 +1,6 @@
 ---
 title: ワークスペースの作成
-description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。 レコードタイプは、ワークスペースのセクション別に整理されます。
+description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront プランニングでは、ワークスペースを完全にカスタマイズできます。 レコードタイプは、ワークスペースのセクション別に整理されます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,26 +8,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+TQID: 'https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1279
+source-wordcount: '1279'
 ht-degree: 16%
-
 ---
-
 # ワークスペースを作成
 
 <!--
@@ -38,9 +47,9 @@ ht-degree: 16%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。
+Adobe Workfront プランニングでは、ワークスペースは、チームが作業を計画する一元的な場所です。
 
-ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront プランニングでは、ワークスペースを完全にカスタマイズできます。
 
 ワークスペースの一般的な情報については、[&#x200B; ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)を参照してください。
 
@@ -201,7 +210,7 @@ Old:
 
    ![&#x200B; ワークスペース テンプレートのプレビュー](assets/previewing-a-workspace-template.png)
 
-   Workfront Planning ワークスペーステンプレートについて詳しくは、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
+   Workfront プランニングワークスペーステンプレートについて詳しくは、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
 1. テンプレートのプレビューボックスで、「**テンプレートを使用**」をクリックして、選択したテンプレートからワークスペースの作成を開始します
 

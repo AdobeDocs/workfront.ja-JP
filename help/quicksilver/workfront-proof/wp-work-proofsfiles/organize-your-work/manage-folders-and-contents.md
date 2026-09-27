@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: ' [!DNL Workfront Proof] でのフォルダーとそのコンテンツの管理'
+title: '[!DNL Workfront Proof] でのフォルダーとそのコンテンツの管理'
 description: プロジェクトやプルーフをフォルダーに整理する利点の 1 つは、それらを[!UICONTROL フォルダーの詳細]ページで管理できる点です。 このページはプロジェクトのコントロールセンターで、ここから個々のプルーフやファイルを便利に管理したり、一括アクションを実行したりできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+TQID: 'https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 99%
-
 ---
-
 # [!DNL Workfront Proof] でのフォルダーとそのコンテンツの管理
 
 >[!IMPORTANT]
@@ -109,7 +117,7 @@ ht-degree: 99%
 1. （オプション）「**[!UICONTROL 共有先]**」セクションで、プルーフのレビュアーにリマインダーを送信するには、ユーザー名の右側の「**[!UICONTROL その他]**」アイコンをクリックして、「**[!UICONTROL メッセージ]**」をクリックします。\
    「**[!UICONTROL 削除]**」をクリックして、そのユーザーとのフォルダーの共有を解除できます。\
    フォルダーの所有者と作成者は、常にこのリストに表示され、削除できません。 ユーザーがフォルダーの所有権を引き継ぐと、自動的に表示され、削除できなくなります。\
-   フォルダーを個々のユーザーやパートナーの会社と共有できます。 フォルダーがパートナーの会社と共有されている場合、行の上にポインタを合わせると表示される「[!UICONTROL 情報]」アイコンをクリックすることで、受信者の完全なリストを表示できます。 詳しくは、[パートナーアカウント](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
+   フォルダーを個人ユーザーやパートナーの会社と共有できます。 フォルダーがパートナーの会社と共有されている場合、行の上にポインタを合わせると表示される「[!UICONTROL 情報]」アイコンをクリックすることで、受信者の完全なリストを表示できます。 詳しくは、[パートナーアカウント](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
 
 1. （オプション）「**[!UICONTROL フォルダーで許可]**」の下にあるそのユーザーの行をクリックして、プライベートフォルダーに対するマネージャーのアクセス許可を編集し、そのユーザーがそのフォルダーから項目を作成、編集、削除できるようにするかどうかを指定します。 **メモ** このオプションは、プライベートフォルダーに追加されたフォルダー所有者と同じアカウントのマネージャーに対してのみ使用できます。 スーパーバイザー、管理者、請求管理者は、アカウント内のすべてのフォルダーに対して編集権限を持ち、監視者は項目を作成できません。 権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 

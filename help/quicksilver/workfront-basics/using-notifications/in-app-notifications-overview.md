@@ -6,18 +6,21 @@ description: この記事では、受信できるアプリ内通知の一覧を�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 32%
-
 ---
-
 # アプリ内通知の概要
 
 この記事では、受信できるアプリ内通知の一覧を記載します。 アプリ内通知では、お知らせ通知と作業アイテム通知の 2 種類の情報について常に知らせます。 Web アプリケーションとモバイルアプリケーションの両方から使用できます。
@@ -103,9 +106,9 @@ ht-degree: 32%
 * ![問題アイコン &#x200B;](assets/issue.png) [!UICONTROL 問題が]に割り当てられました[ チーム名] - [担当者の名前]
 * ![自分に割り当てられたタスク &#x200B;](assets/icon-taskassngdtoyou.png) [!UICONTROL 自分に割り当てられたタスク &#x200B;] [ チーム名] - [割り当て者の名前]
 
-   * 割り当て通知は、プロジェクトのステータスが[!UICONTROL 現在] （または[!UICONTROL 現在]と同等のカスタムステータス）に設定されている場合にのみ送信されます。
-   * 依頼者とレビュアーに作業が割り当てられることを目的としたものではありません。 したがって、タスクやタスクに割り当てられた場合は通知されません。
-   * 自分自身または所属するチームに作業を割り当てた場合、通知は受け取りません。
+  * 割り当て通知は、プロジェクトのステータスが[!UICONTROL 現在] （または[!UICONTROL 現在]と同等のカスタムステータス）に設定されている場合にのみ送信されます。
+  * 依頼者とレビュアーに作業が割り当てられることを目的としたものではありません。 したがって、タスクやタスクに割り当てられた場合は通知されません。
+  * 自分自身または所属するチームに作業を割り当てた場合、通知は受け取りません。
 
 ### [!UICONTROL コメント]
 

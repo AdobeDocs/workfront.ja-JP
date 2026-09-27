@@ -1,25 +1,29 @@
 ---
-title: CX担当者のプロンプトとベストプラクティス
+title: CX Coworkerのプロンプトとベストプラクティス
 content-type: reference
 description: WorkfrontでCoworkerを使用する際のベストプラクティスについて説明し、プロンプトの例の一覧を表示します。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 2%
-
 ---
-
-# CX担当者のプロンプトとベストプラクティス
+# CX Coworkerのプロンプトとベストプラクティス
 
 &lt;! – これを使用しないでください – 代わりにMCPのサンプル プロンプト記事にリンクし、MCPの最新リリースで更新されていることを確認します – >
 
 >[!IMPORTANT]
 >
->CX Coworkerは現在、ヘルスケアや金融など、機密データを扱う業界の企業には利用できません。 AI アシスタントは、これらの組織で利用できます。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
+>CX Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
 
-CX Coworkerでは、自然言語を使用して、Workfront WorkflowやWorkfront Planningを活用できます。
+CX Coworkerなら、自然言語を使ってWorkfront WorkflowやWorkfront Planningを操作できます。
 
 Adobe Experience Cloud Agent Orchestratorに含まれているチームです。
 
@@ -69,7 +73,7 @@ Agent Orchestratorについて詳しくは、[Adobe Experience Platform Agent Or
 
 ## 考慮事項
 
-CX Workfrontを利用する際には、次の制約を考慮してください。
+CX Coworkerを使用する場合は、次の制約を考慮してください。
 
 ### 可逆性
 
@@ -83,7 +87,7 @@ CX Workfrontを利用する際には、次の制約を考慮してください�
 
 ### インタラクション/ユーザーエクスペリエンスの制限
 
-* CX担当者は、現在、個々のユーザーのスタイルや好みから長期的に「学習」することはありません。 あらゆるチャットでは、現在の会話と製品知識のみが使用されます。
+* CX Coworkerは現在、個々のユーザーのスタイルや好みから長期的に「学習」することはありません。 あらゆるチャットでは、現在の会話と製品知識のみが使用されます。
 * 会話のコンテキストは、1つのチャットセッション内に保持されます。 新しいページを開いたり、アシスタントを閉じたりすると、会話履歴がリセットされます。
 * 承認手順がConfluenceやSharePointなどの外部アプリケーションにあり、URL フィールドのみを介してリンクされている場合、Coworkerは現在、それらのページを取得して理由を付けません。
 
@@ -103,7 +107,7 @@ CX Workfrontを利用する際には、次の制約を考慮してください�
 
 ### 製品知識
 
-CX Coworkerは、Workfrontのドキュメントから取得した手順や参照情報を提供することができます。
+CX Coworkerでは、Workfront ドキュメントから取得した手順や参照情報を提供できます。
 
 Workfront ドキュメントから情報を取得する方法について詳しくは、[AI アシスタントのヘルプを参照してください](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
@@ -111,7 +115,7 @@ Workfront ドキュメントから情報を取得する方法について詳し�
 
 ### プロジェクト、タスク、イシューの要約
 
-CX Coworkerは、Workfrontにアップロードされたプロジェクト、タスク、またはイシュー<!--, or documents-->を要約できます。
+CX Coworkerでは、Workfrontにアップロードされたプロジェクト、タスク、またはイシュー<!--, or documents-->を要約できます。
 
 プロジェクト、タスク、問題の概要について詳しくは、[AI アシスタントを使用した要約](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)を参照してください。
 
@@ -151,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## WORKFRONTのCX担当者
+## WorkfrontのCX Coworker
 
 * [プロジェクト、タスク、イシューの情報](#project-task-and-issue-information)
 * [プロジェクト管理および作業管理](#project-and-work-management)
@@ -159,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### プロジェクト、タスク、イシューの情報
 
-CX Coworkerは、プロジェクト、タスク、イシュー（概要やプロジェクトの健全性など）に関する情報を提供します。
+CX Coworkerでは、プロジェクト、タスク、問題（サマリーやプロジェクトの健全性など）に関する情報を得ることができます。
 
 次の領域のドキュメントとアセットの承認のサンプルプロンプトを参照してください。
 
@@ -198,7 +202,7 @@ CX Coworkerは、プロジェクト、タスク、イシュー（概要やプロ
 
 ### プロジェクト管理および作業管理
 
-タスクや割り当てなどのプロジェクトを作成および管理できます。
+CX Coworkerを使用すると、タスクや割り当てなどのプロジェクトを作成および管理できます。
 
 次の領域のプロジェクトと作業管理のプロンプト例を参照してください。
 
@@ -309,7 +313,7 @@ CX Coworkerは、Workfrontでドキュメントとアセットの承認を管理
 * Rick Kuvecを削除し、Karen Sterlingをステージ 2に追加して、「Creative Review」テンプレートを更新します。
 
 
-## WORKFRONT PlanningのCX担当者
+## Workfront PlanningでのCX Coworker
 
 ### プランニングレコードの操作
 

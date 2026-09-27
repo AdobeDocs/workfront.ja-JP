@@ -8,26 +8,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 1%
-
 ---
-
 # 初勝利を持続可能な勢いに変える：管理された拡張のプレイブック
 
 >[!IMPORTANT]
@@ -292,13 +305,13 @@ Workfront計画の拡大は、技術的な課題と同様に、文化的な課�
 
 * **責任**:
 
-   * Global Taxonomy Workspaceを管理します。
+  * Global Taxonomy Workspaceを管理します。
 
-   * グローバル標準に対するローカルな成功を促進することで、フィールド成熟度のパスを促進します。
+  * グローバル標準に対するローカルな成功を促進することで、フィールド成熟度のパスを促進します。
 
-   * エグゼクティブレポートのWorkspace ビューを維持します。
+  * エグゼクティブレポートのWorkspace ビューを維持します。
 
-   * ワークスペース全体で毎月のセマンティック監査をリードします。
+  * ワークスペース全体で毎月のセマンティック監査をリードします。
 
 ### The spoke champion （チームプロセスオーナー）
 
@@ -306,13 +319,13 @@ Workfront計画の拡大は、技術的な課題と同様に、文化的な課�
 
 * **責任**:
 
-   * 機能部門の窓口として機能。
+  * 機能部門の窓口として機能。
 
-   * ローカルのワークスペース構造とカスタムフィールド実験を所有します。
+  * ローカルのワークスペース構造とカスタムフィールド実験を所有します。
 
-   * データ入力にGoverned Gateway Formsを使用していることを確認します。
+  * データ入力にGoverned Gateway Formsを使用していることを確認します。
 
-   * ハーモナイゼーション中の共同握手に参加します。
+  * ハーモナイゼーション中の共同握手に参加します。
 
 ### エグゼクティブスポンサー（マーケティングリーダーシップ）
 
@@ -320,11 +333,11 @@ Workfront計画の拡大は、技術的な課題と同様に、文化的な課�
 
 * **責任**:
 
-   * グローバル分類ワークスペースでエンタープライズマーケティング OKRを定義します。
+  * グローバル分類ワークスペースでエンタープライズマーケティング OKRを定義します。
 
-   * 可視性ステップ 1の価値を他のリーダーに引き出します。
+  * 可視性ステップ 1の価値を他のリーダーに引き出します。
 
-   * 80/20のリソース割り当て（クリーンアップよりも価値）を強化します。
+  * 80/20のリソース割り当て（クリーンアップよりも価値）を強化します。
 
 ### イネーブルメント・リード（変更管理）
 
@@ -332,11 +345,11 @@ Workfront計画の拡大は、技術的な課題と同様に、文化的な課�
 
 * **責任**:
 
-   * 定期的なオフィス時間とディスカバリーワークショップのタッチポイントを開催します。
+  * 定期的なオフィス時間とディスカバリーワークショップのタッチポイントを開催します。
 
-   * 社内の成功事例の紹介を維持します。
+  * 社内の成功事例の紹介を維持します。
 
-   * エンタープライズアーキテクトが解決すべき技術的な課題を特定します。
+  * エンタープライズアーキテクトが解決すべき技術的な課題を特定します。
 
 ## &#x200B;10. 今後のチーム規模の拡大に役立つチェックリスト
 

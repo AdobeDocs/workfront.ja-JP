@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '891'
 ht-degree: 64%
-
 ---
-
 # Adobe Workfront でのビューの作成または編集
 
 <!-- Audited: 11/2024 -->
@@ -83,7 +88,7 @@ ht-degree: 64%
 1. 「**+ New View**」ボタンをクリックして、新しいビューを作成します。
 または
 編集する既存のビューの右側のマウスオーバーに表示される&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
-**ビューをカスタマイズ** ダイアログボックスが表示されます。
+**ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
 
@@ -131,9 +136,9 @@ ht-degree: 64%
      >
      >レポートでのグループ化の使用について詳しくは、[Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)を参照してください。
 
-      * （オプション）**「詳細」オプション**&#x200B;をクリックして、列に以下の情報を指定します。
+     * （オプション）**「詳細」オプション**&#x200B;をクリックして、列に以下の情報を指定します。
 
-        <table style="table-layout:auto"> 
+       <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -156,7 +161,7 @@ ht-degree: 64%
          </tbody> 
         </table>
 
-        レポートのビューを条件付きで書式設定する方法について詳しくは、[テキストモードでの条件付き書式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)の記事を参照してください。
+       レポートのビューを条件付きで書式設定する方法について詳しくは、[テキストモードでの条件付き書式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)の記事を参照してください。
 
 1. （条件付き）**「詳細」オプション**&#x200B;をクリックした場合は、「**完了**」をクリックします。
 

@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: ' [!DNL Workfront Proof] を使用したカスタムプロファイルの作成と管理'
+title: '[!DNL Workfront Proof] を使用したカスタムプロファイルの作成と管理'
 description: 請求管理者および管理者は、カスタムプロファイルを作成および管理して、組織のアカウントおよびアカウント設定でユーザーが実行できる操作を指定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+TQID: 'https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 81%
-
+source-wordcount: '1051'
+ht-degree: 85%
 ---
-
 # [!DNL Workfront Proof] を使用したカスタムプロファイルの作成と管理
 
 >[!IMPORTANT]
@@ -102,7 +113,7 @@ ht-degree: 81%
 詳しくは、[自動ワークフローの概要](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)を参照してください。
 
 * SSOの管理
-詳しくは、 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)の シングルサインオンを参照してください。
+詳しくは、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)の シングルサインオンを参照してください。
 
 * アカウント履歴を表示
 詳しくは、[&#x200B; アクティビティ監査証跡の概要](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)を参照してください。 [!DNL Workfront Proof] 
@@ -120,7 +131,7 @@ ht-degree: 81%
 詳しくは、[でゴミ箱を復元して空にする [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)を参照してください。
 
 * 権限プロファイルの管理
-詳しくは、 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の プルーフ権限プロファイルを参照してください。
+詳しくは、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の プルーフ権限プロファイルを参照してください。
 
 * 分析の表示
 
@@ -147,10 +158,10 @@ ht-degree: 81%
    詳しくは、[管理権限](#administrative-permissions)を参照してください。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
-新しいプロファイルは、**[!UICONTROL ユーザー]** タブで利用できるようになりました。
+これで、新しいプロファイルが「**[!UICONTROL ユーザー]**」タブで使用できるようになりました。
 
-1. （オプション）新しいプロファイルを新規および既存のユーザーアカウントに割り当てます。
-詳しくは、 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の プルーフ権限プロファイルを参照してください。
+1. （オプション）新しいユーザーアカウントと既存のユーザーアカウントに新しいプロファイルを割り当てます。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ## プロファイルの有効化と無効化 {#enabling-and-disabling-a-profile}
 
@@ -196,8 +207,8 @@ ht-degree: 81%
 1. 「**[!UICONTROL アカウント設定]**」に移動し、「**[!UICONTROL プロファイル]**」タブをクリックします。
 
 1. 編集するプロファイル名をクリックします。
-1. プロファイルの名前または権限に必要な変更を加えます。これらの変更は、自動的に保存および更新されます。
-権限について詳しくは、[&#x200B; モジュール権限](#module-permissions)および[管理権限](#administrative-permissions)を参照してください。
+1. プロファイルの名前やプロファイルに対する権限を必要に応じて変更します。 これらの変更は自動的に保存され、更新されます。
+権限について詳しくは、[モジュールの権限](#module-permissions)および[管理権限](#administrative-permissions)を参照してください。
 
 >[!NOTE]
 >

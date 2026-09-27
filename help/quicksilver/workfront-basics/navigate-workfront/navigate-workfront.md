@@ -1,24 +1,27 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: ' [!DNL Adobe Workfront]：記事インデックスを移動します'
+title: '[!DNL Adobe Workfront] の操作：記事インデックス'
 description: Adobe Workfront の操作方法を理解し、Workfront の用語を確認するには、以下の記事を参照してください。
 feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-TQID: https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U
+TQID: 'https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 121
-ht-degree: 90%
-
+source-wordcount: '121'
+ht-degree: 93%
 ---
-
 # [!DNL Adobe Workfront] の操作：記事インデックス
 
 <!-- Audited: 12/2023 -->

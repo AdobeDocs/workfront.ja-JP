@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+TQID: 'https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1857
+source-wordcount: '1857'
 ht-degree: 88%
-
 ---
-
 # 2018.1 ベータ版 3 リリースアクティビティ
 
 このページでは、2018.1 ベータ版 3 リリースでプレビュー環境で最近使用されたすべての変更について説明します。 この機能は、2018年1月7日（PT）にプレビュー環境で使用できるようになりました。 2018 年初頭に、本番環境で利用可能になる予定です。

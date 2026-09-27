@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 72%
-
 ---
-
 # カレンダーレポートとイベントの詳細を表示
 
 Adobe Workfront で作成または共有したカレンダーレポートおよびイベントの詳細を表示できます。
@@ -85,7 +90,7 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
 1. （条件付き）**[!UICONTROL 表示]**&#x200B;ドロップダウンリストをクリックして、表示するカレンダー期間を選択します。
    ![&#x200B; カレンダー期間](assets/view-menu-calendar-report-350x189.png)
-次のカレンダーレポートビューから選択できます。
+   次のカレンダーレポートビューから選択できます。
 
    * **[!UICONTROL 月]**：4 週間のカレンダーを表示します
    * **[!UICONTROL 週]**：1 週間のカレンダーを表示します
@@ -110,17 +115,17 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
    * 表示される日付をすばやく変更するには、次の手順に従います。
 
-      1. **[!UICONTROL カレンダー]** ツールバーで、日付インジケーターの左矢印をクリックしてカレンダーに戻るか、右矢印をクリックして先に進みます。
+     1. **[!UICONTROL カレンダー]** ツールバーで、日付インジケーターの左矢印をクリックしてカレンダーに戻るか、右矢印をクリックして先に進みます。
 
-         ![矢印をクリックして日付を変更](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![矢印をクリックして日付を変更](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         表示される日付は、現在のカレンダービューに基づく間隔で調整されます。 例えば、**週**&#x200B;のビューでカレンダーを表示している場合、選択した矢印に応じて、1 週間後に進むかまたは 1 週間前に戻った表示になります。
+        表示される日付は、現在のカレンダービューに基づく間隔で調整されます。 例えば、**週**&#x200B;のビューでカレンダーを表示している場合、選択した矢印に応じて、1 週間後に進むかまたは 1 週間前に戻った表示になります。
 
-      1. （オプション）現在の日付に戻すには、[!UICONTROL **今日**]&#x200B;をクリックします。
+     1. （オプション）現在の日付に戻すには、[!UICONTROL **今日**]&#x200B;をクリックします。
 
 1. （オプション）カレンダーにリンクされたプロジェクトまたはカレンダーのグループ化のイベントを非表示にするには、プロジェクトリストのプロジェクトまたはカレンダーのグループ化をオフにします。
    ![&#x200B; イベントを非表示](assets/hide-events-for-project-or-cal-grouping.png)
-プロジェクトリストで[!UICONTROL &#x200B; プロジェクト &#x200B;]またはカレンダーグループを選択すると、イベントを再度表示できます。
+   プロジェクトリストで[!UICONTROL &#x200B; プロジェクト &#x200B;]またはカレンダーグループを選択すると、イベントを再度表示できます。
 
 ## カレンダーレポートイベントの詳細を表示
 

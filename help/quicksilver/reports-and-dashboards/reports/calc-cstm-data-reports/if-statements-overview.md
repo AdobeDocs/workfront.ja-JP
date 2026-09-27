@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 100%
-
 ---
-
 # 「IF」ステートメントの概要
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ ht-degree: 100%
 
 * 次の Workfront 要素に対して「IF」ステートメントを作成できます。
 
-   * ビュー
-   * グループ化
-   * 計算済みカスタムフィールド
+  * ビュー
+  * グループ化
+  * 計算済みカスタムフィールド
 
 * フィルターに対して「IF」ステートメントを作成することはできません。 これにより、Workfront で「Whoops（おっと）」エラーが発生します。
 * サポートチームは、カスタムデータの作成を支援しません。 カスタムフィールドまたは列を作成した後で、希望する結果が表示されない場合は、サポートチームに連絡してください。 式の作成に関するヘルプが必要な場合は、アカウント担当者にお問い合わせいただき、当社のコンサルティングオプションをご確認ください。
@@ -60,9 +64,9 @@ ht-degree: 100%
 
 * **Condition** = これは Workfront 変数が満たす必要がある条件であり、この式の基礎となります。 式で後から指定できるものはすべて、条件によって異なります。 いくつかの参照、比較、数式を使用して、数式を開始できます。 条件の例を次に示します。
 
-   * 指定したオブジェクトの日付が別の日付よりも大きくなっています。
-   * ステータスは、指定したオブジェクトで使用可能なステータスの 1 つに等しくなります。
-   * タスクの完了率が、特定の割合よりも小さいか大きいです。
+  * 指定したオブジェクトの日付が別の日付よりも大きくなっています。
+  * ステータスは、指定したオブジェクトで使用可能なステータスの 1 つに等しくなります。
+  * タスクの完了率が、特定の割合よりも小さいか大きいです。
 
 * **Condition Operator** = これは、「IF」ステートメントの条件の作成に役立つ演算子です。 例えば、「is equal to」または「is greater than」は条件演算子です。 ステートメントで使用できる条件演算子のリストについては、[計算されたカスタム式の条件演算子](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)を参照してください。
 

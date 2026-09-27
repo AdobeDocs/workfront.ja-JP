@@ -2,33 +2,43 @@
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: '[!DNL Adobe Workfront] オブジェクト概要'
-description: ' [!DNL Adobe Workfront] に表示する情報は、 [!DNL Workfront]  データベースに保存されているオブジェクトで表されます。 オブジェクトが  [!DNL Workfront] の情報の基になっています。 これらのオブジェクトについて詳しくは、この記事を参照してください。'
+description: '[!DNL Adobe Workfront] で表示する情報は、[!DNL Workfront] データベース内で保存されるオブジェクトで表されます。 オブジェクトは、[!DNL Workfront] の情報を駆動する要素です。 これらのオブジェクトについて詳しくは、この記事を参照してください。'
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+TQID: 'https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2394
-ht-degree: 87%
-
+source-wordcount: '2464'
+ht-degree: 89%
 ---
-
 # [!DNL Adobe Workfront] オブジェクトの概要
 
 <!--Audited: 12/2023-->
@@ -256,8 +266,8 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL ベースラインタスク]
 * [!UICONTROL 請求記録]
 * [!UICONTROL 予算計上時間数]
-   * これは、古い非推奨のリソース管理ツールに表示される [!UICONTROL 予算時間] です。
-   * [!UICONTROL 予算時間] レポートの「予算時間」フィールドは、[!UICONTROL リソースプランナー] でジョブの役割に対して予算が設定されている時間を示します。 詳しくは、[[!UICONTROL 予算人件費]および[!UICONTROL プロジェクトの予算計上時間]を理解](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)を参照してください。
+  * これは、古い非推奨のリソース管理ツールに表示される [!UICONTROL 予算時間] です。
+  * [!UICONTROL 予算時間] レポートの「予算時間」フィールドは、[!UICONTROL リソースプランナー] でジョブの役割に対して予算が設定されている時間を示します。 詳しくは、[[!UICONTROL 予算人件費]および[!UICONTROL プロジェクトの予算計上時間]を理解](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)を参照してください。
 
 * [!UICONTROL カレンダーイベント]
 * [!UICONTROL 会社]
@@ -266,7 +276,7 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL ドキュメント]
 * [!UICONTROL ドキュメントの承認]
 * [!UICONTROL ドキュメントバージョン]
-   * ドキュメントのバージョン、そのバージョンが関連付けられているドキュメント、バージョンの作成者、ドキュメントバージョンにプルーフが存在する場合はそのプルーフを作成したユーザー（プルーフ作成者）に関する情報を表示できます。
+  * ドキュメントのバージョン、そのバージョンが関連付けられているドキュメント、バージョンの作成者、ドキュメントバージョンにプルーフが存在する場合はそのプルーフを作成したユーザー（プルーフ作成者）に関する情報を表示できます。
 * [!UICONTROL メールテンプレート]
 * [!UICONTROL 費用]
 * [!UICONTROL 費用タイプ]
@@ -274,44 +284,44 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL お気に入り]
 * [!UICONTROL フィルター]
 * [!UICONTROL 目標]
-   * 戦略目標に関するレポートを作成したり、目標に関連付けられたプロジェクトが目標アクティビティとしてプロジェクトレポートに目標関連情報を表示したりできます。戦略目標を作成し、組織が[!DNL Workfront Goals] ライセンスを購入した場合にのみプロジェクトを接続できます。[!DNL Workfront Goals]について詳しくは、[[!DNL Workfront Goals] 概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。プロジェクトを戦略目標に結び付ける方法について詳しくは、[Adobe Workfront Goalsの目標にプロジェクトを追加](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
-*[!UICONTROL &#x200B; ビジネスケース &#x200B;]に関連付けられているプロジェクト目標についてレポートすることはできません。プロジェクトの目標と戦略的な目標の詳細については、[用語集 [!DNL Adobe Workfront] の用語](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+  * 戦略的目標のレポートを作成したり、プロジェクトが目標アクティビティとして目標に関連付けられている場合は、プロジェクトレポートに目標関連情報を表示したりできます。 組織が [!DNL Workfront Goals] ライセンスを購入している場合にのみ、戦略的目標を作成し、プロジェクトに結び付けることができます。 [!DNL Workfront Goals] について詳しくは、[[!DNL Workfront Goals]  の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。 プロジェクトを戦略目標に接続する方法については、[Adobe Workfront Goals の目標へのプロジェクトの追加](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+    [!UICONTROL ビジネスケース]に関連付けられたプロジェクトの目標についてはレポートできません。 プロジェクトの目標と戦略的目標の詳細については、[&#x200B; [!DNL Adobe Workfront]  用語の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
 * [!UICONTROL グループ]
 * [!UICONTROL グループ化]
 * [!UICONTROL 時間タイプ]
 * [!UICONTROL イニシアチブ]
-   * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、計画の子オブジェクトであるイニシアティブのレポートを作成できます。 イニシアチブの詳細については、[&#x200B; [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)のイニシアチブの概要を参照してください。
+  * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、計画の子オブジェクトであるイニシアティブのレポートを作成できます。 イニシアチブの詳細については、[&#x200B; [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)のイニシアチブの概要を参照してください。
 
 * イニシアティブの担当業務
-   * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、プラン内のイニシアチブに関連付けられた担当業務のレポートを作成できます。 イニシアティブの作成と担当業務への関連付けの詳細については、[イニシアチブの作成と編集 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)を参照してください。
+  * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、プラン内のイニシアチブに関連付けられた担当業務のレポートを作成できます。 イニシアティブの作成と担当業務への関連付けの詳細については、[イニシアチブの作成と編集 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)を参照してください。
 
 * [!UICONTROL イテレーション]
 * [!UICONTROL 担当業務]
 * [!UICONTROL ジャーナルエントリ]
-   * タスク、プロジェクト、イシューなどのオブジェクトの[!UICONTROL 更新]領域で、追跡されたシステム更新についてレポートできます。詳しくは、「[仕訳レポートを使用した更新領域に関するレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+  * タスク、プロジェクト、イシューなどのオブジェクトの[!UICONTROL 更新]領域で、追跡されたシステム更新についてレポートできます。詳しくは、「[仕訳レポートを使用した更新領域に関するレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
 
 * [!UICONTROL レイアウトテンプレート]
 * [!UICONTROL マイルストーン]
 * [!UICONTROL マイルストーンパス]
 * [!UICONTROL メモ]または[!UICONTROL 更新]
-   * 個々のユーザーが追加したコメントについてレポートできます。
+  * 個人ユーザーが追加したコメントについてレポートできます。
 
 * [!UICONTROL パラメーター]（または [!UICONTROL カスタムフィールド]）
 * [!UICONTROL パラメーターグループ]（または[!UICONTROL セクション区切り]）
 * [!UICONTROL ポートフォリオ]
 * [!UICONTROL プログラム]
 * [!UICONTROL &#x200B; プロジェクト （財務データ） &#x200B;]
-   * 財務情報は、関連するデータが5年未満の場合にのみ、[!UICONTROL &#x200B; プロジェクト（財務データ） &#x200B;] レポートに入力されます。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL &#x200B; プロジェクト（財務データ）]レポートに入力されません。
+  * 財務情報は、関連するデータが5年未満の場合にのみ、[!UICONTROL &#x200B; プロジェクト（財務データ） &#x200B;] レポートに入力されます。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL &#x200B; プロジェクト（財務データ）]レポートに入力されません。
 
   >[!CAUTION]
   >
   >プロジェクト（財務データ）レポートを実行すると、財務データの再計算が実行され、以前の財務データが上書きされ、大幅な時間がかかる場合があります。 財務データの再計算の結果について詳しくは、[&#x200B; プロジェクトの財務の再計算](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md)を参照してください。
 
 * [!UICONTROL プルーフの承認]
-   * 承認のために送信されたプルーフ、[!UICONTROL 承認者] に関する情報、リクエスターに関する情報（リクエスターがライセンスを取得した [!DNL Workfront] ユーザーの場合）バージョン情報、プルーフ ID、プルーフの作成日など、プルーフの承認に関するさまざまな情報を表示できます。\
-      [!UICONTROL プルーフの承認]レポートには、ユーザーの担当作業エリアでまだ決定が行われていないプルーフのみが含まれます。
-   * [&#x200B; [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) でのプルーフを共有の[プルーフへのユーザーを追加](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)で説明されているように、プルーフの承認は [!DNL Workfront] で割り当てられます。
+  * 承認のために送信されたプルーフ、[!UICONTROL 承認者] に関する情報、リクエスターに関する情報（リクエスターがライセンスを取得した [!DNL Workfront] ユーザーの場合）バージョン情報、プルーフ ID、プルーフの作成日など、プルーフの承認に関するさまざまな情報を表示できます。\
+     [!UICONTROL プルーフの承認]レポートには、ユーザーの担当作業エリアでまだ決定が行われていないプルーフのみが含まれます。
+  * [&#x200B; [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) でのプルーフを共有の[プルーフへのユーザーを追加](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)で説明されているように、プルーフの承認は [!DNL Workfront] で割り当てられます。
 
 * [!UICONTROL キュー]
 * [!UICONTROL キューのトピック]
@@ -327,7 +337,7 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL テンプレート]
 * [!UICONTROL テンプレートのタスク]
 * [!UICONTROL 休暇]
-   * ユーザーのプロファイルに記載されている休暇についてレポートできます。
+  * ユーザーのプロファイルに記載されている休暇についてレポートできます。
 
 * [!UICONTROL タイムシート]
 * [!UICONTROL タイムシートプロファイル]
@@ -335,11 +345,11 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL ユーザーによる承認]
 * [!UICONTROL ユーザーの委任]
 
-   * 不在の際に他の人のタスクやイシューの実行を委任されたユーザーについてレポートできます。 このレポートには、不在ユーザーと不在の間に職務を遂行するユーザーが表示されます。
+  * 不在の際に他の人のタスクやイシューの実行を委任されたユーザーについてレポートできます。 このレポートには、不在ユーザーと不在の間に職務を遂行するユーザーが表示されます。
 
 * [!UICONTROL ユーザーの決定]
 
-   * 当月にユーザーがプルーフやドキュメントに関して行った決定の数をレポートできます。
+  * 当月にユーザーがプルーフやドキュメントに関して行った決定の数をレポートできます。
 
 * [!UICONTROL 表示]
 * [!UICONTROL 作業アイテム]（これにより、タスクとイシューに関するレポートが生成されます）

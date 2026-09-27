@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 83%
-
 ---
-
 # API の基本
 
 >[!NOTE]
 >
->この記事の例には、`<supported-version>`が含まれます。 これを、使用するバージョンのWorkfront APIに置き換えます。Workfront APIのバージョン管理とサポートスケジュールについては、[APIのバージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+>この記事の例には、`<supported-version>`が含まれます。 これを、使用するバージョンのWorkfront APIに置き換えます。
+>Workfront APIのバージョン管理とサポートスケジュールについては、[APIのバージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
 Adobe Workfront API の目的は、HTTP 経由で動作する REST フルアーキテクチャを導入することで、Workfront との統合の構築を簡略化することです。 このドキュメントでは、REST および JSON の応答に精通していることを前提とし、Workfront API で採用されているアプローチについて説明します。
 
@@ -309,7 +320,7 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 
 例えば、次のようなフィルターを実行する場合：
 
-* 「Planning」を含む名前を持つタスク OR
+* 「プランニング」を含む名前を持つタスク OR
 * 「FixedAssets」という名前のポートフォリオ内のタスク AND 「Steve」を含む名前のユーザーに割り当てられている OR
 * 「最終タスク」という名前の親タスクを持つタスク
 
@@ -319,7 +330,7 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 
 #### フィルターパラメーターの使用
 
-検索フィルターに URL パラメーターを使用する際に陥りそうな問題の 1 つは、Workfront が特定のパラメーターを解析してから、様々な認証方法（ユーザー名、パスワード、apiKey、cookie）を確認することです。 この場合、パラメーターは呼び出しでフィルターとして使用されません。
+検索フィルターに URL パラメーターを使用する際に陥りそうな問題の 1 つは、Workfront が特定のパラメーターを解析してから、様々な認証方法（ユーザー名、パスワード、apiKey、cookie）を確認することです。 この場合、パラメーターは呼び出しでフィルターとして使用されません。 
 
 この問題を回避するには、JSON 形式のフィルターパラメーターにこれらの値を配置します。 例えば、以下を使用する代わりに、ユーザー名 testuser にフィルタリングを行う場合 
 <pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>次の例に示すように、URL パラメーターをフィルターに渡します。
@@ -455,7 +466,7 @@ API 呼び出しに以下を追加すると、任意のフィールド別に結�
 デフォルトの結果数のクエリの制限を上書きし、200 個の結果を許可するには、次の例に示すように、クエリに `$$LIMIT=200` フィルターを指定します。
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-システム内の他のテナントに対する信頼性とパフォーマンスを確保するために、1 つのクエリに許可される結果の最大数は 2,000 個のオブジェクトです。 制限を大きく指定しようとすると、`IllegalArgumentException` エラーメッセージが表示されます。
+システム内の他のテナントに対する信頼性とパフォーマンスを確保するために、1 つのクエリに許可される結果の最大数は 2,000 個のオブジェクトです。 制限を大きく指定しようとすると、`IllegalArgumentException` エラーメッセージが表示されます。 
 
 したがって、大きなデータセットに対して、ページ分割された応答の使用を検討することをお勧めします。 返される最初の結果を指定するには、`$$FIRST` フィルターを追加します。 例えば、次のリクエストは、クエリの結果 201-250 を返します。
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>

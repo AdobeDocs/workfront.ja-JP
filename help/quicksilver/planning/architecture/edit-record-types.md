@@ -1,6 +1,6 @@
 ---
 title: レコードタイプの編集
-description: 保存後にレコードタイプを編集できます。 レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。
+description: 保存後にレコードタイプを編集できます。 レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
+TQID: 'https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 24%
-
 ---
-
 # レコードタイプの編集
 
 
@@ -37,7 +45,7 @@ ht-degree: 24%
 
 {{planning-important-intro}}
 
-レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront Planning レコードタイプの作成について詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+レコードタイプは、Adobe Workfront プランニングのオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront プランニングレコードタイプの作成について詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 

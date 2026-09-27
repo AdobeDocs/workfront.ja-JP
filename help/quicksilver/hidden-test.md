@@ -3,16 +3,18 @@ title: 非表示のテスト
 description: 非表示のテスト
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
+TQID: 'https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '616'
 ht-degree: 49%
-
 ---
-
 # 非表示のテスト
 
 大きなリポジトリで公開時間をテストするために使用される非表示のファイル。
@@ -152,7 +154,7 @@ ht-degree: 49%
   </tr>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## アクセス要件（この例では、他の製品が必要です）
 
@@ -180,7 +182,7 @@ ht-degree: 49%
   </tr>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## 2017 パッケージは、パッケージの行から削除する必要があります
@@ -242,7 +244,7 @@ ht-degree: 49%
   </tr> 
   <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td> <p>Adobe Workfront プランニングに対するアクセスレベルのコントロールはありません。</p>   
 </td> 
   </tr> 
 <tr> 

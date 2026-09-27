@@ -6,20 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+TQID: 'https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: '965'
 ht-degree: 97%
-
 ---
-
 # 22.4 プロジェクトの機能強化
 
 このページでは、22.4 リリースでプレビュー環境に対して行われたすべてのプロジェクト機能強化について説明します。 これらの機能強化は、2022年10月3日（PT）の週に利用できるようになります。
@@ -64,7 +71,7 @@ ht-degree: 97%
 
 カスタムデータ式の更新方法や、ユーザーがオブジェクトに関して共同作業している場所に関係なく、計算フィールドのすべての日付関数が一貫して機能し、すべてのユーザーに同じ結果をもたらすようになりました。
 
-計算はすべて、ユーザーの組織のインスタンスと個々のユーザープロファイルに設定されたタイムゾーン設定ではなく、1 つの標準つまり協定世界時（UTC）で計算および保存されるようになりました。 ただし、計算は、各ユーザーのブラウザーで設定された個々のタイムゾーンに基づいたカスタムフォームに表示されます。
+計算はすべて、ユーザーの組織のインスタンスと個人ユーザープロファイルに設定されたタイムゾーン設定ではなく、1 つの標準つまり協定世界時（UTC）で計算および保存されるようになりました。 ただし、計算は、各ユーザーのブラウザーで設定された個々のタイムゾーンに基づいたカスタムフォームに表示されます。
 
 以前は、以下の状況で計算の時間設定が異なると、混乱が生じていました。
 

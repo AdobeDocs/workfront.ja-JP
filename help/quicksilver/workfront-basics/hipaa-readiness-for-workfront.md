@@ -6,20 +6,24 @@ description: HIPAAで定義されているように、ビジネスアソシエ�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+TQID: 'https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '480'
 ht-degree: 2%
-
 ---
-
 # Workfront の HIPAA 対応
 
 HIPAAで定義されているWorkfrontのお客様で、ビジネスアソシエイトまたはビジネスアソシエイトがAdobe Workfrontを提供する対象事業者は、次のガイドラインを使用してWorkfrontをHIPAA対応に設定する必要があります。
@@ -66,10 +70,10 @@ HIPAAで定義されているWorkfrontのお客様で、ビジネスアソシエ
 
 >[!IMPORTANT]
 >
->Workfrontは、電子健康記録（EHR）のリポジトリとなるように設計されていません。ePHIは、Adobeによって書面で明示的に承認された場合にのみ処理されます。 
+>Workfrontは、電子健康記録（EHR）のリポジトリとなるように設計されていません。 ePHIは、Adobeが書面で明示的に承認した場合にのみ処理されます。 
 
 * ePHIにアクセスできる可能性があるWorkfront データベースの場合は、**保存時の暗号化（EAR）**&#x200B;が有効になっていることを確認してください。
-   * Workfrontの購入にEARが含まれていることを確認するには、アカウントエグゼクティブ（AE）にお問い合わせください。
-   * コンプライアンス要件に対応するために、Workfrontからアクセス可能なシステムやデータベースを設定できます。
+  * Workfrontの購入にEARが含まれていることを確認するには、アカウントエグゼクティブ（AE）にお問い合わせください。
+  * コンプライアンス要件に対応するために、Workfrontからアクセス可能なシステムやデータベースを設定できます。
 * ePHIが、HIPAAに対応していない他のAdobeソリューションと転送、リンク、共有されないようにします。
 * Workfrontで処理された患者の写真が安全に保存され、一般にアクセスできないことを確認します。

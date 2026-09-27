@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof] に保存されているファイルのダウンロード'
+title: '[!DNL Workfront Proof] に保存されているファイルのダウンロード'
 description: アクティブなプルーフ、ロックされたプルーフ、アーカイブされたプルーフから、元のファイルをローカルマシンにダウンロードできます。 その後、作成に使用したソフトウェアアプリケーション（アプリケーションがある場合）で、印刷したり、開いたりすることができます。 元のファイルは、1 つまたは複数のプルーフからダウンロードできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
-TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
+TQID: 'https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 97%
-
 ---
-
 # [!DNL Workfront Proof] に保存されているファイルのダウンロード
 
 >[!IMPORTANT]
@@ -54,7 +62,7 @@ ht-degree: 97%
 >[!NOTE]
 >
 >* 複数のプルーフの元のファイルは一括でダウンロードできます。
->* このバッチダウンロードオプションを利用するには、 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の  プルーフ権限プロファイルが必要です（単一ダウンロードの場合は必要ありません）。
+>* このバッチダウンロードオプションを利用するには、 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の  プルーフ権限プロファイルが必要です（単一ダウンロードの場合は必要ありません）。
 >
 
 

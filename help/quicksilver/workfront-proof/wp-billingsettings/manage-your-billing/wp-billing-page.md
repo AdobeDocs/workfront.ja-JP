@@ -3,27 +3,36 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: ' [!DNL Workfront]  Proof の請求ページ'
+title: '[!DNL Workfront] プルーフの請求ページ'
 description: '[!UICONTROL 請求]ページにアクセスするには、画面右上の設定メニューを開き、ドロップダウンメニューで「請求」を選択します。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
-TQID: https://experienceleague.adobe.com/o1VGrecH-BIItFQ0fvzpFYPILQ555TOhgOstI2ek9eo
+TQID: 'https://experienceleague.adobe.com/o1VGrecH-BIItFQ0fvzpFYPILQ555TOhgOstI2ek9eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 610
-ht-degree: 100%
-
+source-wordcount: '611'
+ht-degree: 99%
 ---
-
 # [!DNL Workfront Proof] 請求ページ
 
 >[!IMPORTANT]
@@ -60,7 +69,7 @@ ht-degree: 100%
 * 次のプランのタイプ
 * 次のプランの支払い方法
 
-  詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md) での支払い方法の選択を参照してください。
+  詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md) での支払い方法の選択を参照してください。
 
 ## [!UICONTROL 請求先および住所]
 
@@ -108,7 +117,7 @@ ht-degree: 100%
 
 ### [!UICONTROL 使用状況の警告]
 
-アカウントの請求先連絡先（1）として設定されている [!DNL Workfront] プルーフ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の[[!UICONTROL プルーフ権限プロファイル]は、アカウントが次の状況に達するとメールで通知されます。
+アカウントの請求先連絡先（1）として設定されている [!DNL Workfront] プルーフ[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の[!UICONTROL プルーフ権限プロファイル]は、アカウントが次の状況に達するとメールで通知されます。
 
 * ストレージ容量の 75％と 98％
 * プルーフ制限の 75％と 100％
@@ -137,7 +146,7 @@ ht-degree: 100%
 
 このセクションには、最近の請求期間のアクティビティが表示されます。 また、このセクションから請求書をダウンロードすることもできます。
 
-詳しくは、「[ [!DNL Workfront Proof] 請求書のダウンロード](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)」を参照してください。
+詳しくは、「[&#x200B; [!DNL Workfront Proof] 請求書のダウンロード](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)」を参照してください。
 
 ## [!UICONTROL 請求アクティビティ]
 

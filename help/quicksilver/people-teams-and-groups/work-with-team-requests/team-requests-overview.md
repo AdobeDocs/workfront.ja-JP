@@ -9,18 +9,21 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/usIfdIZm77U8ltA5lj37cqAp7uHoSSnRD4wuPx863ZM
+TQID: 'https://experienceleague.adobe.com/usIfdIZm77U8ltA5lj37cqAp7uHoSSnRD4wuPx863ZM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: '486'
 ht-degree: 96%
-
 ---
-
 # チームリクエストの概要
 
 ## チームリクエストについて
@@ -33,7 +36,7 @@ ht-degree: 96%
 
 「[!UICONTROL チームリクエスト]」タブには、ドロップダウンリストで現在選択されているチームの割り当て待ちのリクエストが表示されます。 括弧内の数字は、作業の準備ができているアイテムの数を示します。 「[!UICONTROL &#x200B; チームリクエスト &#x200B;]」タブには、1つのチームに対する最大2,000件のリクエストを表示できます。
 
-チームリクエストは、特定のユーザーに割り当てられていない保留中の作業アイテムを表します。 その代わり、そのアイテムはチームに割り当てられ、そのチームのメンバーであれば誰でも、自発的にそのアイテムに対する責任を引き受けることができます。 ユーザーがチームリクエストに応じて作業を行う場合、そのユーザーが自分で作業の割り当てを受け入れます。 タスクは、チームに加えて、個々のユーザーに割り当てられます。
+チームリクエストは、特定のユーザーに割り当てられていない保留中の作業アイテムを表します。 その代わり、そのアイテムはチームに割り当てられ、そのチームのメンバーであれば誰でも、自発的にそのアイテムに対する責任を引き受けることができます。 ユーザーがチームリクエストに応じて作業を行う場合、そのユーザーが自分で作業の割り当てを受け入れます。 タスクは、チームに加えて、個人ユーザーに割り当てられます。
 
 >[!NOTE]
 >

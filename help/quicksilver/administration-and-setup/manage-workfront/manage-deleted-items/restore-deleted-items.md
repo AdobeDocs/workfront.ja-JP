@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 97%
-
 ---
-
 # 削除した項目を復元
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ Workfront の管理者は、過去 30 日間に削除されているプロジェ
 * ステータス
 * 財務情報：
 
-   * 請求記録
-   * 請求レート
-   * 費用
+  * 請求記録
+  * 請求レート
+  * 費用
 
 * タイムライン情報：
 
-   * 先行タスク
-   * タスクの制約
-   * 期間タイプ
+  * 先行タスク
+  * タスクの制約
+  * 期間タイプ
 
 * ベースライン
 
@@ -125,12 +132,12 @@ Workfront の管理者は、過去 30 日間に削除されているプロジェ
 
   ドキュメントとドキュメントのバージョンを復元する際は、次の点を考慮してください。
 
-   * 個別に削除したドキュメントは、個別に復元できます。
+  * 個別に削除したドキュメントは、個別に復元できます。
 
-     親プロジェクト、タスク、またはイシューと共に削除されたドキュメントは、親を復元すると復元されますが、個別に復元することはできません。
+    親プロジェクト、タスク、またはイシューと共に削除されたドキュメントは、親を復元すると復元されますが、個別に復元することはできません。
 
-   * ドキュメントの復元時に、ドキュメントまたはドキュメントプルーフのすべてのバージョンが復元されます。\
-     個別に削除したドキュメントやドキュメントプルーフの個々のバージョンは復元できません。
+  * ドキュメントの復元時に、ドキュメントまたはドキュメントプルーフのすべてのバージョンが復元されます。\
+    個別に削除したドキュメントやドキュメントプルーフの個々のバージョンは復元できません。
 
 ## プロジェクト、タスク、イシューの復元時に復元されない情報
 
@@ -179,13 +186,13 @@ Workfront の管理者は、過去 30 日間に削除されているプロジェ
 
 * 項目を復元した後の動作は、以下のようになります。
 
-   * 成功したかどうかを知らせるメッセージが表示されます。
+  * 成功したかどうかを知らせるメッセージが表示されます。
 
-     また、メール通知も受け取ります。 複数の項目を復元した場合は、メールにリストが表示されます。
+    また、メール通知も受け取ります。 複数の項目を復元した場合は、メールにリストが表示されます。
 
-   * コメントは、プロジェクト、タスク、またはイシューのアップデートエリアと、親オブジェクトのアップデートエリアに表示されます。
+  * コメントは、プロジェクト、タスク、またはイシューのアップデートエリアと、親オブジェクトのアップデートエリアに表示されます。
 
-     ドキュメントまたはテンプレートを復元する場合は、このような動作は発生しません。
+    ドキュメントまたはテンプレートを復元する場合は、このような動作は発生しません。
 
 ## プルーフ復元済み
 

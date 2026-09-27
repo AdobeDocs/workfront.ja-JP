@@ -1,24 +1,27 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: ' [!DNL Adobe Workfront] モバイルアプリの使用'
+title: '[!DNL Adobe Workfront] モバイルアプリの使用'
 description: iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] モバイルアプリで、組織内のチームや個人のエンゲージメントを加速し業務を効率化できます。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-TQID: https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A
+TQID: 'https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 95%
-
+source-wordcount: '278'
+ht-degree: 94%
 ---
-
 # [!DNL Adobe Workfront] モバイルアプリの使用：記事インデックス
 
 <!-- Audited: 2/2024 -->

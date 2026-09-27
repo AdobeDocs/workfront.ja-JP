@@ -5,17 +5,20 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 承認者の決定がプルーフ承認レポートにハイフンを表示する
 description: 「プルーフの承認」レポートの「承認者の決定」フィールドのハイフンは、受信者がプルーフの意思決定の役割に留まっていないことを示します。
 author: Courtney
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # 承認者の決定がプルーフ承認レポートにハイフンを表示する
 
 ## 問題

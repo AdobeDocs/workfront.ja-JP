@@ -1,6 +1,6 @@
 ---
 title: レコードへのサムネールの追加
-description: Adobe Workfront Planning でレコード情報を編集し、各レコードを個々のサムネールに関連付けて、容易に認識できるようにします。
+description: Adobe Workfront プランニングでレコード情報を編集し、各レコードを個々のサムネイルに関連付けて、容易に認識できるようにします。
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM
+TQID: 'https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 818
-ht-degree: 24%
-
+source-wordcount: '843'
+ht-degree: 27%
 ---
-
 # レコードにサムネールを追加する
 
 <!--
@@ -36,10 +43,10 @@ ht-degree: 24%
 
 {{planning-important-intro}}
 
-レコードを Adobe Workfront Planning 内の一意のサムネールに関連付けて、容易に認識できるようにします。
+レコードを Adobe Workfront プランニング内の一意のサムネイルに関連付けて、容易に認識できるようにします。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
-詳しくは、[&#x200B; レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -257,7 +264,7 @@ Old:
 
 1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン &#x200B;](assets/remove-image-icon.png)をクリックします。
 
-1. **画像を使用**&#x200B;をクリックして、画像をサムネールとして追加します。
+1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
 これにより、**レコードサムネール** ボックスが閉じます。
 サムネールは、レコードが表示されるWorkfront Planningの領域に表示されます。
 

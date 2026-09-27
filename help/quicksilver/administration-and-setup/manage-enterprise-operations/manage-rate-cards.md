@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 12%
-
 ---
-
 # 評価カードを管理
 
 レートカードとは、クライアントとの契約上の契約を表します。この契約では、作業を完了する担当業務に対して時間単位のレートが定義されます。 レートカードでは、代理店、所在地、コストセンターなどの属性にもとづいて、担当業務ごとに複数の請求レートを定義できます。 一意のレート属性は、設定領域で設定されます。 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
@@ -107,7 +114,7 @@ ht-degree: 12%
 1. （条件付き）この担当業務に複数の請求レートを追加する場合は、次の情報を入力します。
 
    * [!UICONTROL **請求レート**]：期間の請求レートの値。
-   * [!UICONTROL **開始日**]: レートが開始される日付。
+   * [!UICONTROL **開始日**]&#x200B;: レートが開始される日付。
    * [!UICONTROL **終了日**]：レートが終了する日付。
 
      最初の請求レートに開始日を設定する必要はなく、最後の請求レートに終了日を設定する必要もありません。 レート日付間のギャップは許可されますが、重複する日付は許可されません。 ギャップの間、請求料率の階層の他の領域は、タスクの収益タイプに基づいて請求率を決定するために使用されます。 詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)を参照してください。

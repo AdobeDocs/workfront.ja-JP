@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
-TQID: https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo
+TQID: 'https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: '486'
 ht-degree: 17%
-
 ---
-
 # 2024年第 4 四半期のホームの機能強化
 
 このページでは、2024年第 4 四半期のリリースでプレビュー環境に対して行われたすべてのホーム機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -77,9 +83,9 @@ ht-degree: 17%
 * _ホームワークスペース_&#x200B;領域の名前は&#x200B;_ホーム_&#x200B;に変更されます。
 * _ホームおよび概要_&#x200B;領域の名前が&#x200B;_概要パネル_&#x200B;に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも適用されます。 詳しくは、「[&#x200B; レイアウトテンプレートを使用したホームと概要のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)」を参照してください。
 * 次のタブをホームパネルと概要パネルから削除します。
-   * プロジェクト
-   * ドキュメント
-   * ドキュメントバージョン
+  * プロジェクト
+  * ドキュメント
+  * ドキュメントバージョン
 
 注意：ドキュメントとドキュメントのバージョンは、レガシーホームにのみ適用されます。 ドキュメント領域で概要をカスタマイズできませんでした。
 

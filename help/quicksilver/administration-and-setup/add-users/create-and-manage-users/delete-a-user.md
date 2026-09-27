@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 80%
-
 ---
-
 # ユーザーの削除
 
 <!--Remove me October 2026-->
@@ -96,17 +102,17 @@ ht-degree: 80%
 * ユーザーにオブジェクトを共有できなくなります。
 * 次のオブジェクトとの関連付けはそのまま残ります。
 
-   * タスク、イシュー、プロジェクト、ポートフォリオ
-   * ダッシュボード
+  * タスク、イシュー、プロジェクト、ポートフォリオ
+  * ダッシュボード
 
-     >[!NOTE]
-     >
-     >ユーザーをディアクティベートし、そのユーザーに関連付けられているレポートやダッシュボードを表示できなくなった場合は、「**このレポートを次のアクセス権で実行：**」フィールドを更新する必要がある場合があります。\
-     >詳しくは、[&#x200B; アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [&#x200B; レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
+    >[!NOTE]
+    >
+    >ユーザーをディアクティベートし、そのユーザーに関連付けられているレポートやダッシュボードを表示できなくなった場合は、「**このレポートを次のアクセス権で実行：**」フィールドを更新する必要がある場合があります。\
+    >詳しくは、[&#x200B; アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [&#x200B; レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
 
-   * ドキュメント
-   * アップデート
-   * 時間
+  * ドキュメント
+  * アップデート
+  * 時間
 
 * ユーザーがチェックアウトしたドキュメントは、そのユーザーがディアクティベートされてもチェックアウトされたままになります。 再度チェックインできるのは、Workfront 管理者のみです。 ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
@@ -119,8 +125,8 @@ ht-degree: 80%
 * ユーザーにオブジェクトを共有できなくなります。
 * ユーザーと次のオブジェクトの関連付けが削除されます。
 
-   * タスク、イシュー、プロジェクト、ポートフォリオ
-   * ダッシュボード
+  * タスク、イシュー、プロジェクト、ポートフォリオ
+  * ダッシュボード
 
   <!--
 
@@ -132,19 +138,19 @@ ht-degree: 80%
 
    -->
 
-   * アップデート
-   * 時間
+  * アップデート
+  * 時間
 
-     >[!NOTE]
-     >
-     >これらのオブジェクトは Workfront に残りますが、オブジェクトの所有者は空になります。
+    >[!NOTE]
+    >
+    >これらのオブジェクトは Workfront に残りますが、オブジェクトの所有者は空になります。
 
 * ユーザーがグローバルナビゲーションバーのドキュメントエリアでドキュメントをアップロードした場合、そのドキュメントも削除されます。
 * ユーザーが自分の所有するドキュメントをチェックアウトし、（メインメニューからアクセスする）メインのドキュメントエリアにドキュメントがアップロードされた場合、そのドキュメントはユーザーと共に削除されます。 ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
 ユーザーの非アクティブ化について詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-一度に 1 人のユーザーを完全に削除することも、複数のユーザーを同時に完全に削除することもできます。 個々のユーザーを削除する場合は、削除プロセスが完了するのを待ってから、Workfront の他のアクティビティに移動する必要があります。 複数のユーザーを削除するプロセスは、バックグラウンドプロセスとして同時に実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
+一度に 1 人のユーザーを完全に削除することも、複数のユーザーを同時に完全に削除することもできます。 個人ユーザーを削除する場合は、削除プロセスが完了するのを待ってから、Workfront の他のアクティビティに移動する必要があります。 複数のユーザーを削除するプロセスは、バックグラウンドプロセスとして同時に実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
 
 ## 1 人以上のユーザーを削除
 

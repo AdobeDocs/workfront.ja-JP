@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof] でのカスタムビューの作成および管理'
+title: '[!DNL Workfront Proof] でのカスタムビューの作成および管理'
 description: ファイルとプルーフのカスタムビューを作成して、必要な項目を希望の形式で一覧表示できます。 また、カスタムビューに情報をレポート（CSV、コンマ区切り値、ファイル形式）として書き出すこともできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 98%
-
 ---
-
 # [!DNL Workfront Proof] でのカスタムビューの作成および管理
 
 >[!IMPORTANT]
@@ -229,34 +238,34 @@ ht-degree: 98%
 
      コメントのないプルーフのみを表示する場合は、次の値を選択します。
 
-      * フィールド：コメント
-      * 演算子：次と等しい
-      * 値フィールド：0
+     * フィールド：コメント
+     * 演算子：次と等しい
+     * 値フィールド：0
 
      2 つ以上のコメントを含むプルーフのみを表示する場合は、次の値を選択します。
 
-      * フィールド：コメント
-      * 演算子：より大きいか等しい
-      * 値フィールド：2
+     * フィールド：コメント
+     * 演算子：より大きいか等しい
+     * 値フィールド：2
 
      コメントが 1～4 のプルーフのみを表示する場合は、次の値を選択します。
 
-      * フィールド：コメント
-      * 演算子：範囲
-      * 値フィールド（最初のフィールド）：1
-      * 値フィールド（2 番目のフィールド）：4
+     * フィールド：コメント
+     * 演算子：範囲
+     * 値フィールド（最初のフィールド）：1
+     * 値フィールド（2 番目のフィールド）：4
 
-        カスタムビューに追加したフィルターを問題なく変更したり、必要に応じて[!UICONTROL 設定]フィルターの横にあるクロスアイコンをクリックして削除できます。
+       カスタムビューに追加したフィルターを問題なく変更したり、必要に応じて[!UICONTROL 設定]フィルターの横にあるクロスアイコンをクリックして削除できます。
 
-        フィールドリストは、「[!UICONTROL 列]」タブで選択した列に限定されないので、カスタムビューで表示するために選択しなかった列を含むフィルターを作成する場合には注意が必要です。 例えば、次の表示フィルターを使用すると、バージョンカウンター値が 2 以上のすべてのプルーフが選択されます。
+       フィールドリストは、「[!UICONTROL 列]」タブで選択した列に限定されないので、カスタムビューで表示するために選択しなかった列を含むフィルターを作成する場合には注意が必要です。 例えば、次の表示フィルターを使用すると、バージョンカウンター値が 2 以上のすべてのプルーフが選択されます。
 
-         * フィールド = バージョンカウンター
-         * 演算子 = 次よりも大きいか等しい
-         * 値フィールド = 2
+       * フィールド = バージョンカウンター
+       * 演算子 = 次よりも大きいか等しい
+       * 値フィールド = 2
 
-           >[!NOTE]
-           >
-           >カスタムビューに追加したフィルターを問題なく変更したり、必要に応じて[!UICONTROL 設定]フィルターの横にあるクロスアイコンをクリックして削除できます。
+         >[!NOTE]
+         >
+         >カスタムビューに追加したフィルターを問題なく変更したり、必要に応じて[!UICONTROL 設定]フィルターの横にあるクロスアイコンをクリックして削除できます。
 
 
 

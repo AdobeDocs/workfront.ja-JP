@@ -8,20 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/GXQFscmGL9dwGzM0t0pXSXdFiWX67k93WpLOHW3Z2ts
+TQID: 'https://experienceleague.adobe.com/GXQFscmGL9dwGzM0t0pXSXdFiWX67k93WpLOHW3Z2ts'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '343'
 ht-degree: 6%
-
 ---
-
 # 拡張分析の廃止ガイド
 
 使用の減少と機能の制限により、Enhanced Analyticsは間もなくAdobe Workfrontから非推奨（廃止予定）になります。 Workfront Data Connectは、Enhanced Analyticsでは不可能だった強力な新しいビジュアライゼーションの作成に加えて、現在使用しているEnhanced Analytics ビジュアライゼーションを複製できる代替手段としてリリースされました。 移行を成功させるために、このページでは、何が正確に変更されるのかに関する情報、移行の準備方法に関するアドバイス、よくある質問への回答を掲載しています。

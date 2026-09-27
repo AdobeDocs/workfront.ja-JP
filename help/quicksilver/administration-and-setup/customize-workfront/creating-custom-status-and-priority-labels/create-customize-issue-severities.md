@@ -8,25 +8,31 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-TQID: https://experienceleague.adobe.com/jwRUKjxTd--9vcxXsfkbiPmrC1SsR-V8rjOdcXFfKCg
+TQID: 'https://experienceleague.adobe.com/jwRUKjxTd--9vcxXsfkbiPmrC1SsR-V8rjOdcXFfKCg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: '631'
 ht-degree: 66%
-
 ---
-
 # イシューの重大度を作成またはカスタマイズ
 
 <!--
@@ -129,10 +135,10 @@ Workfront の管理者は、ユーザー要件に合わせてイシューの重�
 
      デフォルトの重大度は、アイコン ![&#x200B; デフォルトの重大度アイコン &#x200B;](assets/default-icon.png)で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
-      * 重大度の名前の横にあるチェックボックスを選択し、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
-      * 重要度の名前にカーソルを合わせて、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
+     * 重大度の名前の横にあるチェックボックスを選択し、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
+     * 重要度の名前にカーソルを合わせて、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
 
-        新しいデフォルトの重要度には、アイコンのラベルが付けられます。
+       新しいデフォルトの重要度には、アイコンのラベルが付けられます。
 
    * **説明**：重大度の説明を入力して、その機能を説明します。
    * **選択肢を非表示**: **はい**&#x200B;を選択して、不要になった重大度を非表示にします。

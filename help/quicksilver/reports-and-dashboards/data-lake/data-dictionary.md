@@ -7,13 +7,20 @@ description: このページでは、Workfront Data Connectのデータの構造
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Workfront Data Connect のデータ辞書
 
 このページでは、Workfront Data Connectのデータの構造と内容について説明します。

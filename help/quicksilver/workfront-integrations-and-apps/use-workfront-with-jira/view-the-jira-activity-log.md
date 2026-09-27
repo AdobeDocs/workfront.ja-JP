@@ -2,33 +2,40 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
 title: Jira のアクティビティログの表示
-description: ' [!DNL Jira]  管理者は、  [!DNL Adobe Workfront]  と  [!DNL Jira]  の間の同期中またはチケットの作成中に発生した例外やエラーをアクティビティログで参照できます。'
+description: '[!DNL Jira]管理者は、アクティビティ ログの[!DNL Adobe Workfront]と[!DNL Jira]の間のチケットの同期または作成中に発生した例外とエラーを表示できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1xS1rkxgESwQq38Zoo-lawkbTSOo-3TzdSeijAISaWU
+TQID: 'https://experienceleague.adobe.com/1xS1rkxgESwQq38Zoo-lawkbTSOo-3TzdSeijAISaWU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 41%
-
+source-wordcount: '153'
+ht-degree: 25%
 ---
-
 # [!UICONTROL [!DNL Jira]アクティビティログ]の表示
 
 >[!IMPORTANT]

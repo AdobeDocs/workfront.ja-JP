@@ -1,24 +1,31 @@
 ---
 title: レコードタイプとレコードの接続の例
-description: ここでは、Adobe Workfront計画レコードタイプとWorkfront プロジェクトオブジェクトタイプの間の接続を作成する方法の例について説明します。 また、Workfront Planning レコードを個々のプロジェクトに接続する方法についても説明します。
+description: ここでは、Adobe Workfront計画レコードタイプとWorkfront プロジェクトオブジェクトタイプの間の接続を作成する方法の例について説明します。 また、Workfront プランニングレコードを個々のプロジェクトに接続する方法についても説明します。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+TQID: 'https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2188
+source-wordcount: '2188'
 ht-degree: 64%
-
 ---
-
 # レコードタイプとレコードの接続例
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
@@ -29,16 +36,16 @@ ht-degree: 64%
 
 この記事では、次の例を説明します。
 
-* 2 つの Workfront Planning レコードタイプと 2 つのレコード間の接続を作成する方法。
+* 2 つの Workfront プランニングレコードタイプと 2 つのレコード間の接続を作成する方法。
 
-* Workfront Planning レコードタイプと Workfront プロジェクトオブジェクトタイプの間の接続、およびレコードとプロジェクトの間の接続を作成する方法。
+* Workfront プランニングレコードタイプと Workfront プロジェクトオブジェクトタイプの間の接続、およびレコードとプロジェクトの間の接続を作成する方法。
 
 詳しくは、次の記事も参照してください。
 
 * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 
-## 2 つの Workfront Planning レコードタイプとレコードを接続（例）
+## 2 つの Workfront プランニングレコードタイプとレコードを接続（例）
 
 例えば、元のレコードタイプとして「キャンペーン」という名前のレコードタイプがあるとします。
 
@@ -156,7 +163,7 @@ ht-degree: 64%
 1. **製品**&#x200B;テーブルビューから&#x200B;**キャンペーン**&#x200B;フィールドにデータを入力するには、「製品」レコードタイプテーブルビューから始めてキャンペーン情報を選択する手順 5～7 を繰り返します。 これにより、キャンペーンレコードタイプページのテーブルの「製品情報」フィールドも更新されます。<!--ensure the step numbers remain correct-->
 
 
-## Workfront Planning レコードタイプと Workfront プロジェクトオブジェクトタイプ、およびレコードと個別のプロジェクトを接続する
+## Workfront プランニングレコードタイプと Workfront プロジェクトオブジェクトタイプ、およびレコードと個別のプロジェクトを接続する
 
 >[!IMPORTANT]
 >
@@ -166,7 +173,7 @@ ht-degree: 64%
 
 また、Workfront には「予定収益」と呼ばれるフィールドを持つプロジェクトがあります。
 
-キャンペーンのレコードタイプで接続フィールドを作成し、そこで Workfront Planning のキャンペーンに接続されている Workfront のプロジェクトの予定収益フィールドの値を表示したい場合は、次の操作を行います。
+キャンペーンのレコードタイプで接続フィールドを作成し、そこで Workfront プランニングのキャンペーンに接続されている Workfront のプロジェクトの予定収益フィールドの値を表示したい場合は、次の操作を行います。
 
 手順は次のとおりです。
 

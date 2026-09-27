@@ -7,24 +7,29 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo
+TQID: 'https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 94%
-
 ---
-
 # Workfront の AI アシスタント
 
 >[!IMPORTANT]
@@ -80,9 +85,9 @@ Workfront の AI アシスタントは、アプリ内の情報やおすすめを
 
   詳しくは、[AI アシスタントの有効化または無効化](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)を参照してください。
 
-* Workfront Planning の AI アシスタントには、Workfront の AI アシスタントとは異なる機能があります。
+* Workfront プランニングの AI アシスタントには、Workfront の AI アシスタントとは異なる機能があります。
 
-  Workfront Planning の AI アシスタントについて詳しくは、[Adobe Workfront Planning の AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)を参照してください。
+  Workfront プランニングの AI アシスタントについて詳しくは、[Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)を参照してください。
 
 * AI アシスタントは現在、英語でのみ利用できます。
 
@@ -127,7 +132,7 @@ Workfront の AI アシスタントは、アプリ内の情報やおすすめを
 * イシュー
 * カスタムフォーム
 * ユーザー
-* Adobe Workfront Planning のレコード
+* Adobe Workfront プランニングのレコード
 
 
 ## AI アシスタントへのアクセス
@@ -171,9 +176,9 @@ Adobe 生成 AI 契約をリクエストするには：
 | キーワード | エフェクト |
 | --- | --- |
 | `workfront` | Workfront とやり取りしてください。 |
-| `planning` | Workfront Planning とやり取りしてください。 |
+| `planning` | Workfront プランニングとやり取りしてください。 |
 | `help` | Experience League ドキュメントからの情報を返してください。 |
-| `formula` | Planning、設定、またはカスタムフォームで使用する数式をチェックして返してください。 |
+| `formula` | プランニング、設定、またはカスタムフォームで使用する数式をチェックして返してください。 |
 | `health` | プロジェクトのヘルスアドバイザーでプロジェクトの正常性を確認してください。 |
 | `summarize` | ファイルをアップロードしたり、プロジェクトを要約したりするときなど、アイテムを要約してください。 |
 
@@ -181,8 +186,8 @@ Adobe 生成 AI 契約をリクエストするには：
 >
 > すべてのエリアですべてのキーワードを使用できるわけではありません。
 >
->* `formula` キーワードは、Planning、設定およびカスタムフォームビルダーでのみ使用できます。
->* `planning` キーワードは、Workfront Planning からのみ使用できます。
+>* `formula` キーワードは、プランニング、設定およびカスタムフォームビルダーでのみ使用できます。
+>* `planning` キーワードは、Workfront プランニングからのみ使用できます。
 
 
 

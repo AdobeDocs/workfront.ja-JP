@@ -3,28 +3,38 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: トラブルシューティング -  [!DNL Workfront Proof]  プルーフビューア
+title: トラブルシューティング - [!DNL Workfront Proof]プルーフビューア
 description: プルーフのコンテンツが読み込まれず、空のプルーフビューアしか表示されない場合は、何らかの原因でアクションがローカルでブロックされている可能性があります。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 97%
-
+source-wordcount: '980'
+ht-degree: 100%
 ---
-
 # トラブルシューティング - [!DNL Workfront Proof]プルーフビューア
 
 <!-- Audited: 01/2024 -->
@@ -78,17 +88,17 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * プルーフは別のブラウザーで開いているか?
 * 日常的に 1 つのブラウザーを使用していて、そのブラウザーでプルーフを表示するのに問題がある場合は、コンピューターの別のブラウザーで同じプルーフを開きます。 これを行うには、メインブラウザーの URL バーからプルーフのリンクをコピーし、別のブラウザーに貼り付けます。 そこでプルーフが正常に開く場合は、メインブラウザーの設定、プラグイン、拡張機能が干渉している可能性があるため、それらを確認します。
 * 推奨ブラウザーはありませんが、現在のブラウザーでパフォーマンスの問題が発生している場合は、別のブラウザーに変更することをお勧めします。
-* お住まいの地域の別のマシンでプルーフが開いていますか？
-プルーフがコンピューターのブラウザーで開かない場合は、別のコンピューターでプルーフを開いてみてください。これにより、特定のマシン上の問題が発生しているか、ローカルネットワークに問題があるかどうかを判断できます。
-セキュリティ レベルが高い場合は、次の方法で[!DNL Workfront Proof]への接続がブロックされる可能性があります：
+* プルーフが別のマシンで表示されるか?
+使用しているコンピューターのどのブラウザーでもプルーフが開かない場合は、同じ場所または別の場所にある別のコンピューターでそのプルーフを開きます。 これにより、問題が特定のコンピューターにあるのか、それともローカルネットワークにあるのかを判断できます。
+セキュリティレベルがより高い場合は、[!DNL Workfront Proof] への接続が次によってブロックされている可能性があります。
 
-   * ローカルの AV ソフトウェア
-   * ネットワークセキュリティソリューション
-   * DNS、ファイアウォールまたはプロキシの設定
-   * これらの設定は Workfront Proof では制御できません。 様々なセキュリティソリューションを利用できますが、どのセキュリティソリューションがネットワークに実装されているのか、どのセキュリティソリューションが [!DNL Workfront Proof] への接続をブロックしているのかは判別できません。 また、[!DNL Workfront Proof] が内部セキュリティ設定を決定することもできません。 使用する場所やネットワークで複数のコンピューターでプルーフを開く際に問題が発生する場合は、IT チームと連絡を取ってネットワークの設定を確認し、必要に応じて [!DNL Workfront Proof] を承認するか、許可リストに追加することをお勧めします。
+  * ローカルの AV ソフトウェア
+  * ネットワークセキュリティソリューション
+  * DNS、ファイアウォールまたはプロキシの設定
+  * これらの設定は Workfront Proof では制御できません。 様々なセキュリティソリューションを利用できますが、どのセキュリティソリューションがネットワークに実装されているのか、どのセキュリティソリューションが [!DNL Workfront Proof] への接続をブロックしているのかは判別できません。 また、[!DNL Workfront Proof] が内部セキュリティ設定を決定することもできません。 使用する場所やネットワークで複数のコンピューターでプルーフを開く際に問題が発生する場合は、IT チームと連絡を取ってネットワークの設定を確認し、必要に応じて [!DNL Workfront Proof] を承認するか、許可リストに追加することをお勧めします。
 
-* [!DNL Workfront Proof]への接続はネットワークで許可されていますか？
-プルーフビューア内で、ページのタイル – フラグメントを読み込みます。このコンテンツが最後に正しく読み込まれない場合は、[!DNL Workfront Proof]への一部の接続がネットワークでブロックされている可能性があります。*.proofhq.comからのすべてのコネクションとコンテンツが常に許可リストに追加されていることを確認します。IT部門が、その確認を支援する必要があります。
+* [!DNL Workfront Proof] への接続がネットワークで許可されているか?
+プルーフビューア内に、タイル（ページのフラグメント）を読み込みます。 このコンテンツがお客様側で正常に読み込まれない場合、[!DNL Workfront Proof] への接続がネットワークでブロックされている可能性があります。 *.proofhq.com からのすべての接続とすべてのコンテンツを許可リストに追加する必要があります。 この確認は、IT チームに依頼してください。
 
 ## プラグインの確認
 

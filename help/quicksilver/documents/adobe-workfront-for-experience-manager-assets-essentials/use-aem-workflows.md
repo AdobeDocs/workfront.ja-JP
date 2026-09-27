@@ -6,23 +6,33 @@ description: Experience Manager Assets Essentials 統合でのワークフロー
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-TQID: https://experienceleague.adobe.com/HycBMAmW3Pp4OccBVbGmeuvMm9Y6am-wwBRXaCP0ENs
+TQID: 'https://experienceleague.adobe.com/HycBMAmW3Pp4OccBVbGmeuvMm9Y6am-wwBRXaCP0ENs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1001
+source-wordcount: '1023'
 ht-degree: 97%
-
 ---
-
 # Experience Manager Assets 統合でのワークフローの使用
 
 ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。 Workfront管理者は、Workfrontでワークフローを設定し、プロジェクトテンプレートに割り当てることができます。
@@ -31,8 +41,8 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->ワークフローは、Adobe Experience Manager as a Cloud Service統合でのみ使用できます。Adobe Experience Manager Assets Essentialsとの統合では使用できません。<br>
->この機能は、新しいドキュメント エリアでは使用できません。
+>ワークフローを使用できるのは Adobe Experience Manager as a Cloud Service 統合のみで、 Adobe Experience Manager Assets Essentials との統合では使用できません。<br>
+>この機能は、新規ドキュメント領域では使用できません。
 
 
 ## アクセス要件

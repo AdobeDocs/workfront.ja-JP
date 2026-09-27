@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+TQID: 'https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1363
-ht-degree: 99%
-
+source-wordcount: '1390'
+ht-degree: 100%
 ---
-
 # 2017.2 ベータ版 1 リリースアクティビティ
 
 このページでは、2017.2 Beta 1 リリースに関してプレビュー環境で使用できるすべての変更について説明します。 このページの機能は、2017年5月10日（PT）にプレビュー環境で使用できるようになりました。
@@ -152,7 +158,7 @@ R1.5 リリースでは、プレビュー環境でのリソース計画に関す
 
 ダッシュボードのリストを表示する際のルックアンドフィールがより近代的で拡張性が高くなりました。
 
-この機能は、以前は早期アクセスに登録されているユーザーのみが利用できました。これは、プレビュー環境のすべてのユーザーで使用できるようになりました。2017.2 リリースでは、実稼動環境のすべてのユーザーが利用できるようになります。 
+この機能は、以前は早期アクセスに登録したユーザーのみが利用できました。 これはプレビュー環境のすべてのユーザーが使用できるようになりました。 2017.2 リリースの本番環境のすべてのユーザーが利用できるようになります。 
 
 ダッシュボードについて詳しくは、[ダッシュボードを作成](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 

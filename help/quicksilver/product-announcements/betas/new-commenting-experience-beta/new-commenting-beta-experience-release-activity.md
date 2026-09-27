@@ -10,19 +10,26 @@ role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc
+TQID: 'https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1988
-ht-degree: 90%
-
+source-wordcount: '2063'
+ht-degree: 91%
 ---
-
 # 新しいコメントエクスペリエンスのリリースアクティビティ
 
 <!--take the badge out when it comes to production GA for everyone-->
@@ -42,7 +49,7 @@ ht-degree: 90%
 >新しいコメント機能のベータプログラムは、2023年4月に開始され、2023年10月のリリースで2023年10月に終了しました。
 > 
 >新しいコメントエクスペリエンスに含まれるすべての機能は、2024年4月11日以降、実稼動環境のすべてのユーザーが利用できるようになりました。
->詳細については、[新しいコメント機能](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+>詳しくは、[新しいコメントエクスペリエンス](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 >
 
 ## 新しいコメントエクスペリエンスの場所とリリースタイムライン
@@ -342,5 +349,5 @@ ht-degree: 90%
 
 ### 2023年4月6日（PT）の週
 
-新しいコメントベータ版のエクスペリエンスが問題に対して開始されました。
-Workfront オブジェクトのコメントベータ版でリリースされた機能と同じ機能が、Workfront Goalsにアクセスできるすべてのユーザーの目標に対して同時にリリースされます。詳しくは、[23.2 リリースの概要](../../product-releases/23.2-release-activity/23-2-release-overview.md)を参照してください。
+新しいコメント機能のベータ版エクスペリエンスが、イシューに対して開始されました。
+Workfront オブジェクトのコメント機能ベータ版のリリースと同じ機能が、Workfront Goals にアクセスできるすべてのユーザーの目標に対して同時にリリースされます。 詳しくは、[23.2 リリースの概要](../../product-releases/23.2-release-activity/23-2-release-overview.md)を参照してください。

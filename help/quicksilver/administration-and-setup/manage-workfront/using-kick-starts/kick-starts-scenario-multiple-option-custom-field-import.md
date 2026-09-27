@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
-ht-degree: 89%
-
+source-wordcount: '2179'
+ht-degree: 91%
 ---
-
 # キックスタートのシナリオ：複数オプションのカスタムフィールドを Workfront に読み込み
 
 キックスタート機能を使用して、Adobe Workfront で複数のオプションを持つカスタムフィールドを読み込むことができます。
@@ -183,19 +189,19 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    * **`ID`** = は、新しいフィールドを表す各行の一意の数値である必要があります。 各新しいフィールドに一意の番号が含まれている限り、1 から始まる任意の数字を使用できます。
    * **`setDataType`** = は、新しいフィールドを表す各行に対する設定で、フィールドがサポートするデータタイプを入力します。 データタイプは、データベースに表示されるとおりに入力する必要があります。 次のデータタイプから選択します。
 
-      * 数字の場合 **`NMBR`**
-      * 通貨の場合 **`CURC`**
-      * テキストの場合 **`TEXT`**
+     * 数字の場合 **`NMBR`**
+     * 通貨の場合 **`CURC`**
+     * テキストの場合 **`TEXT`**
 
    * `**setDisplaySize**`= 表示サイズ（「**setDisplaySize**」）は、任意の複数のオプションのカスタムフィールドに対する設定で、常に 0 になります。
    * **`setDisplayType`** = は、新しいフィールドを表す各行に対する設定で、フィールドの表示タイプを入力します。 表示タイプは、データベースに表示されるとおりに入力する必要があります。
 
      複数オプションのカスタムフィールドの場合は、次のオプションから選択します。
 
-      * 複数選択ドロップダウンの場合 **`MULT`**
-      * ドロップダウン場合、**`SLCT`**
-      * ラジオボタンの場合、**`RDIO`**
-      * チェックボックスの場合、**`CHCK`**
+     * 複数選択ドロップダウンの場合 **`MULT`**
+     * ドロップダウン場合、**`SLCT`**
+     * ラジオボタンの場合、**`RDIO`**
+     * チェックボックスの場合、**`CHCK`**
 
      >[!TIP]
      >
@@ -246,18 +252,18 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    グループの `ID` を見つけるには、グループレポートを作成し、ビューで `ID` フィールドを追加するか、グループに移動してそのグループの URL を探します。 グループ ID は、グループのページの URL に含まれています。 例えば、グループの URL が `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` の場合、グループ ID は `575b000800467a6f66e747932c807464` です。
 
    * **`setCatObjCode`**=これは、フォームを作成するオブジェクト タイプのオブジェクト コードです。 次のオプションからコードを入力します。
-      * **`CMPY`**（会社）
-      * **`TASK`**（タスク）
-      * **`PROJ`**（プロジェクト）
-      * **`PORT`**（ポートフォリオ）
-      * **`PRGM`**（プログラム）
-      * **`USER`**（ユーザー）
-      * **`DOCU`**（ドキュメント）
-      * **`OPTASK`**（イシュー）
-      * **`EXPNS`**（費用）
-      * **`ITRN`**（イテレーション）
-      * **`BILL`**（請求記録）
-      * **`GROUP`**（グループ）
+     * **`CMPY`**（会社）
+     * **`TASK`**（タスク）
+     * **`PROJ`**（プロジェクト）
+     * **`PORT`**（ポートフォリオ）
+     * **`PRGM`**（プログラム）
+     * **`USER`**（ユーザー）
+     * **`DOCU`**（ドキュメント）
+     * **`OPTASK`**（イシュー）
+     * **`EXPNS`**（費用）
+     * **`ITRN`**（イテレーション）
+     * **`BILL`**（請求記録）
+     * **`GROUP`**（グループ）
 
      >[!NOTE]
      >
@@ -296,5 +302,5 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 1. （条件付き）問題の内容によっては、エラーメッセージに記載されているように、一部の情報が既に読み込まれている場合があります。 シートを再度読み込むには、まず次のいずれかを行う必要があります。
 
    * Workfront から正常に読み込まれた情報をカスタムフォームエリアから削除し、エラーメッセージに示されている修正を行います。
-   * 既に読み込まれているフィールドまたはフォームのフィールドまたはフォームが既にシステム内にあることを示してから、修正します。
-フィールドまたはカスタムフォームが既にWorkfront内にあることを示すには、キックスタートインポートシートのフォーム （`CTGY`）またはフィールド （`PARAM`）に関する情報を含むシートで、`inNew` フィールドが`FALSE`としてマークされていることを確認する必要があります。
+   * 既に読み込まれているフィールドやフォームについては、フィールドやフォームが既にシステムに存在することを示し、修正を行います。
+     フィールドやカスタムフォームが既に Workfront に存在することを示すには、キックスタート読み込みシートで、フォーム（`CTGY`）またはフィールド（`PARAM`）に関する情報を含んだシートの `inNew` フィールドが `FALSE` としてマークされていることを確認します。

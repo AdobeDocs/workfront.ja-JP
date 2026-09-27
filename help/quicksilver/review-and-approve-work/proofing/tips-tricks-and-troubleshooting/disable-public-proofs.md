@@ -4,27 +4,34 @@ product-area: documents
 keywords: 無効,パブリック,共有,プルーフ,パブリック,url
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 公開 URL または埋め込みコードでのプルーフの共有の無効化
-description: パブリック URL でプルーフを共有する機能や、プルーフごとまたは個々のユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
+description: パブリック URL でプルーフを共有する機能や、プルーフごとまたは個人ユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-TQID: https://experienceleague.adobe.com/QSiyfg19DWAAPIH4WB66KpOBorHcp73M7K5hv3h7jDA
+TQID: 'https://experienceleague.adobe.com/QSiyfg19DWAAPIH4WB66KpOBorHcp73M7K5hv3h7jDA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 89%
-
 ---
-
 # 公開 URL または埋め込みコードでのプルーフの共有の無効化
 
-パブリック URL でプルーフを共有する機能や、プルーフごとまたは個々のユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
+パブリック URL でプルーフを共有する機能や、プルーフごとまたは個人ユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
 
 ## プルーフごとに無効化
 
@@ -40,7 +47,7 @@ ht-degree: 89%
 
 ## ユーザーごとに無効化
 
-Workfront インスタンスで、個々のユーザーごとにパブリックプルーフ設定を無効にできます。 この変更を行うには、管理者のプルーフ権限プロファイルが必要です。
+Workfront インスタンスで、個人ユーザーごとにパブリックプルーフ設定を無効にできます。 この変更を行うには、管理者のプルーフ権限プロファイルが必要です。
 
 1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**プルーフ**&#x200B;をクリックします。
 1. 右上隅付近にある「**アカウント設定**」をクリックします。

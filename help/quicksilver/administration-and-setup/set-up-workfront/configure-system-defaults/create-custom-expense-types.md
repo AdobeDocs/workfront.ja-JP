@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: カスタム費用タイプの作成
-description: ' [!DNL Adobe Workfront]  管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。 費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。'
+description: '[!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。 費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+TQID: 'https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: '383'
 ht-degree: 65%
-
 ---
-
 # カスタム費用タイプを作成
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -84,13 +89,13 @@ ht-degree: 65%
    * **説明** – 費用の説明。
    * **計算単位** - ドロップダウンリストから、費用タイプの測定単位を選択します。 次の測定単位を使用できます。
 
-      * マイル
-      * キロメートル
-      * キログラム
-      * ドル
-      * 時間
-      * 日
-      * その他 - このオプションを選択すると、測定単位に名前を付け、測定単位を組織にとってなじみのあるものとして定義するよう求められます。
+     * マイル
+     * キロメートル
+     * キログラム
+     * ドル
+     * 時間
+     * 日
+     * その他 - このオプションを選択すると、測定単位に名前を付け、測定単位を組織にとってなじみのあるものとして定義するよう求められます。
 
    * **レート** – 単位あたりの価格。 これは通貨形式のフィールドで、**計算単位** フィールドに設定された各単位のコストを表します。 レートには、小数点以下 4 桁までの数値を含めることができます。 例：1.0375
 

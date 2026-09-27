@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+TQID: 'https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1304
-ht-degree: 97%
-
+source-wordcount: '1334'
+ht-degree: 100%
 ---
-
 # 2018.1 ベータ版 2 リリースアクティビティ
 
 このページでは、2018.1 ベータ版 2 リリースでのプレビュー環境で利用可能となった最新の変更点について説明します。 このページの機能は、2017年12月14日（PT）にプレビュー環境で使用できるようになりました。 2018年3月に、本番環境で利用できるようになります。
@@ -119,7 +124,7 @@ Workfront でページを表示すると、ブラウザーウィンドウ全体�
 * すべてのユーザーに対する低稼働率
 * この期間中に少なくとも 1 人のユーザーで配分が超過しています
 
-この変更が行われる前は、個々のユーザーの割り当てと空き時間は表形式でしか表示できませんでした。
+この変更が行われる前は、個人ユーザーの割り当てと空き時間は表形式でしか表示できませんでした。
 
 リソースプランナのユーザー割り当てグラフについて詳しくは、[リソースプランナーの概要](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
@@ -129,9 +134,9 @@ Workfront でページを表示すると、ブラウザーウィンドウ全体�
 
 * ルックアンドフィールの改善
 
-   * 右側のパネルが大きくなり、タスクとイシューの情報を表示するスペースが拡大しました。
-   * 期限切れの項目が左側のパネルで選択されると、明るい赤で表示されるようになりました。
-   * 左側のパネルと右側のパネルの関係をより簡単に確認できるようになりました。 左側のパネルで選択したドキュメントは、右側のパネルをポイントするようになっています。
+  * 右側のパネルが大きくなり、タスクとイシューの情報を表示するスペースが拡大しました。
+  * 期限切れの項目が左側のパネルで選択されると、明るい赤で表示されるようになりました。
+  * 左側のパネルと右側のパネルの関係をより簡単に確認できるようになりました。 左側のパネルで選択したドキュメントは、右側のパネルをポイントするようになっています。
 
 * 選択した項目にデフォルトのフィールドが表示されます。 
 
@@ -170,13 +175,13 @@ Workfront でページを表示すると、ブラウザーウィンドウ全体�
 
 ### コメント番号でコメントを検索 {#search-comments-by-comment-number}
 
-これで、プルーフビューアでコメントリストを検索する際に、検索フィールドにコメントの番号を入力できるようになりました。コメントリストがフィルタリングされ、検索したコメントが表示されます。 
+プルーフビューアでコメントリストを検索するときに、検索フィールドにコメントの番号を入力できるようになりました。 コメントリストがフィルタリングされ、検索したコメントが表示されます。 
 
 詳細情報は、次を参照してください。
 
 ### マークアップインジケーターの横にあるコメントを編集するオプション {#option-to-edit-comment-next-to-the-markup-indicator}
 
-既存のコメントをより簡単に編集できるようになりました。プルーフのコメントインジケーターをクリックすると、編集アイコンがバルーンの横に表示されます。 
+既存のコメントをより簡単に編集できるようになりました。 プルーフのコメントインジケーターをクリックすると、バルーンの横に編集アイコンが表示されます。 
 
 この変更以前は、コメントエリアの編集アイコンをクリックする必要がありました。  
 

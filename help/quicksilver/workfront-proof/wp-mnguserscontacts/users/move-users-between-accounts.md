@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: ' [!DNL Workfront Proof] を使用してアカウント間でユーザーを移動'
-description: ' [!DNL Workfront Proof]  管理者で、1 つ以上のサテライトアカウントがメインアカウントに接続されている場合は、これらすべてのアカウント間でユーザーを移動できます。'
+title: '[!DNL Workfront Proof] を使用してアカウント間でユーザーを移動'
+description: '[!DNL Workfront Proof]管理者で、1つ以上のサテライトアカウントがメインアカウントに接続されている場合は、これらすべてのアカウント間でユーザーを移動できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
-TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
+TQID: 'https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 767
-ht-degree: 98%
-
+source-wordcount: '797'
+ht-degree: 96%
 ---
-
 # [!DNL Workfront Proof] を使用してアカウント間でユーザーを移動
 
 >[!IMPORTANT]
@@ -41,8 +50,8 @@ ht-degree: 98%
 1. 表示されるユーザーを移動ボックスで、移動するユーザーを確認します (1)。
 1. 接続されたアカウントリストから宛先アカウントを選択します (2)。
 1. このユーザーが新しいアカウントで持つ必要があるプロファイル権限 (3) を割り当てます。
-1. 移動しないアイテムの所有権を持つユーザー（4）を選択します。
-これには、古いアカウントに残すことにしたアイテムと移動できないアイテムが含まれます（以下の[移動できないアイテム &#x200B;](https://support.workfront.com/knowledge/articles/115004087708/ja-jp?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved)を参照）。
+1. 移動しない項目の所有権を取得するユーザー (4) を選択します。
+これには、古いアカウントに残すことにした項目と、移動できない項目が含まれます（下記の[移動できない項目](https://support.workfront.com/knowledge/articles/115004087708/ja-jp?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved)を参照）。
 
 1. ユーザーと一緒にプルーフ (5) とファイル (6) を移動する場合は、チェックボックスをオンにします。
 1. 新しいアカウントで、移動したすべての項目を配置するフォルダー (7) の名前を作成します。

@@ -10,28 +10,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+TQID: 'https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1776'
 ht-degree: 96%
-
 ---
-
 # アクセスレベルの概要
 
 >[!NOTE]
@@ -302,7 +311,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 |---|---|---|---|
 | プロジェクト |   | ✓（制限あり） |   |
 | タスク |   | ✓（制限あり） |   |
-| イシュー |   |   | ✓ |
+| 問題 |   |   | ✓ |
 | ポートフォリオ |   | ✓ |   |
 | プログラム |   | ✓ |   |
 | レポート（ダッシュボードとカレンダーレポートを含む） |   | ✓（「詳細」タブのみ） |   |
@@ -315,7 +324,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 | 財務データ | ✓ |   |   |
 | リソース管理 | ✓ |   |   |
 | シナリオプランナー | ✓ |   |   |
-| 目標 |   |   | ✓（デフォルト設定はアクセスなしです。） |
+| Goals |   |   | ✓（デフォルト設定はアクセスなしです。） |
 
 {style="table-layout:auto"}
 
@@ -323,7 +332,8 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 >
 >24.7 リリース以降、コントリビューターには、デフォルトでプログラムとポートフォリオへの表示アクセスがあります。
 >
-> 24.7 リリースより前にオンボーディングした> コントリビューターは、引き続きデフォルトでプログラムとポートフォリオにアクセスできません。必要に応じて、アクセス権を更新して手動で表示できます。
+> 
+>24.7 リリースより前にオンボーディングされたコントリビューターは引き続き、デフォルトでプログラムとポートフォリオにアクセスできません。 必要に応じて、表示アクセス権を手動で更新できます。
 
 ### 外部ユーザーのアクセスレベル
 
@@ -364,7 +374,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 | 財務データ | ✓ |   |   |
 | リソース管理 | ✓ |   |   |
 | シナリオプランナー | ✓ |   |   |
-| 目標 | ✓ |   |   |
+| Goals | ✓ |   |   |
 
 
 ## アクセスレベルと権限の連携の仕組み
@@ -396,7 +406,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>上位の共有オブジェクトから継承 
+   <td> <p>上位ランキングの共有オブジェクトから継承 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -421,9 +431,9 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 
 * **表示**：このレベルの権限を使用すると、受信者は次のいずれかの方法でオブジェクトを共有できます。
 
-   * システム全体で、すべてのユーザーが表示可能（一部のオブジェクトでは利用不可）
-   * Workfront のライセンスを持たない外部ユーザー（一部のオブジェクトでは利用不可）
-   * メールアドレス（ドキュメントとカレンダーでのみ利用可能）
+  * システム全体で、すべてのユーザーが表示可能（一部のオブジェクトでは利用不可）
+  * Workfront のライセンスを持たない外部ユーザー（一部のオブジェクトでは利用不可）
+  * メールアドレス（ドキュメントとカレンダーでのみ利用可能）
 
 * **投稿**：（一部のオブジェクトでは利用不可）
 * **管理**：誰かがオブジェクトを共有する場合、そのオブジェクトに対する受信者の権限は、受信者のアクセスレベルと、共有者が付与したオブジェクトに対する権限の組み合わせによって決まります。 その組み合わせで利用可能な最低レベルのアクセスによって、受信者がオブジェクトに対して何を実行できるかが決まります。

@@ -10,27 +10,35 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 8056
+source-wordcount: '8056'
 ht-degree: 76%
-
 ---
-
 # カスタムフォームの作成
 
 <!-- Audited: 6/2025 -->
@@ -122,7 +130,7 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
    * [画像、PDF、ビデオの追加](#add-images-pdfs-and-videos)
    * [Workfront ネイティブフィールドの追加](#add-workfront-native-fields)
    * [Adobe XD ファイルの追加](#add-adobe-xd-files)
-   * [Planning 接続フィールドの追加](#add-planning-connection-fields)
+   * [プランニング接続フィールドの追加](#add-planning-connection-fields)
 
 ## 新規または既存のフィールドをカスタムフォームに追加する
 
@@ -1251,29 +1259,29 @@ Adobe XD ファイルを追加するには、以下のように行います。
 
    「**保存して閉じる**」をクリックします。
 
-### Planning 接続フィールドの追加
+### プランニング接続フィールドの追加
 
 >[!IMPORTANT]
 >
->この節の情報は、Adobe Workfront の追加機能である Adobe Workfront Planning に関するものです。
+>この節の情報は、Adobe Workfront の追加機能である Adobe Workfront プランニングに関するものです。
 >
->Workfront Planning にアクセスするには、追加のパッケージが必要です。
+>Workfront プランニングにアクセスするには、追加のパッケージが必要です。
 >
->Workfront Planning へのアクセス要件の完全なリストについて詳しくは、[Adobe Workfront Planning アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+>Workfront プランニングへのアクセス要件の完全なリストについて詳しくは、[Adobe Workfront プランニングアクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 > 
->Workfront Planning について詳しくは、[Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
+>Workfront プランニングについて詳しくは、[Adobe Workfront プランニングの基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
-Workfront Planning から接続されたレコードは、Planning 接続カスタムフィールドをオブジェクトのカスタムフォームに追加することで、Workfront オブジェクトのカスタムフィールドで表示できます。
+Workfront プランニングから接続されたレコードは、プランニング接続カスタムフィールドをオブジェクトのカスタムフォームに追加することで、Workfront オブジェクトのカスタムフィールドで表示できます。
 
-すべてのオブジェクトのカスタムフォームに Planning 接続フィールドを追加できます。 ただし、接続されたレコードを表示できるのは、Workfront Planning から接続できる、Workfront オブジェクトに関連付けられたカスタムフォームのみです。
+すべてのオブジェクトのカスタムフォームにプランニング接続フィールドを追加できます。 ただし、接続されたレコードを表示できるのは、Workfront プランニングから接続できる、Workfront オブジェクトに関連付けられたカスタムフォームのみです。
 
 >[!NOTE]
 >
->カスタムフィールドで情報を表示するユーザーは、Workfront Planning と、Workfront オブジェクトに接続されたレコードタイプを含むワークスペースにアクセスできる必要があります。
+>カスタムフィールドで情報を表示するユーザーは、Workfront プランニングと、Workfront オブジェクトに接続されたレコードタイプを含むワークスペースにアクセスできる必要があります。
 
 接続フィールドを追加するには、次の手順を実行します。
 
-1. 画面左側の「**新規フィールド**」タブで、**Planning 接続**&#x200B;を探し、キャンバス上のセクションにドラッグします。
+1. 画面左側の「**新規フィールド**」タブで、**プランニング接続**&#x200B;を探し、キャンバス上のセクションにドラッグします。
 1. 画面右側で、カスタムフィールドのオプションを設定します。
 
    <table style="table-layout:auto"> 
@@ -1301,7 +1309,7 @@ Workfront Planning から接続されたレコードは、Planning 接続カス�
      </tr> 
      <tr> 
       <td role="rowheader">オブジェクトタイプ</td> 
-      <td><p>（必須）Workfront Planning のレコードタイプに接続された Workfront オブジェクトタイプを選択します。</p>
+      <td><p>（必須）Workfront プランニングのレコードタイプに接続された Workfront オブジェクトタイプを選択します。</p>
       次のオブジェクトタイプから選択できます。
       <ul><li> プロジェクト</li>
       <li> ポートフォリオ</li><li> プログラム</li><li> 会社</li><li> グループ</li></ul>
@@ -1347,9 +1355,9 @@ Workfront Planning から接続されたレコードは、Planning 接続カス�
 
    「**保存して閉じる**」をクリックします。
 
-   これで、Workfront Planning から接続されたオブジェクトにフォームを添付して、次のいずれかの操作を行うことができます。
+   これで、Workfront プランニングから接続されたオブジェクトにフォームを添付して、次のいずれかの操作を行うことができます。
 
-   * Workfront オブジェクトに接続されたWorkfront Planning レコードタイプがある場合は、それを表示します。
+   * Workfront オブジェクトに接続された Workfront プランニングレコードタイプがある場合は、それを表示します。
    * Workfront オブジェクトからレコードを接続または切断します。
 
    詳しくは、[Workfront オブジェクトからのレコード接続の管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md)を参照してください。

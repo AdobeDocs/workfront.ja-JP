@@ -7,18 +7,24 @@ description: Adobe Workfront モバイルアプリは、2017年8月初旬に App
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
-TQID: https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI
+TQID: 'https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 80%
-
+source-wordcount: '375'
+ht-degree: 100%
 ---
-
 # iOS および Android 用のモバイルアプリを更新しました（2017年8月初旬）
 
 Adobe Workfront モバイルアプリは、2017年8月初旬に Apple App および Google Play ストアで更新されます。 
@@ -27,7 +33,7 @@ Adobe Workfront モバイルアプリは、2017年8月初旬に Apple App およ
 
 ## リクエストの送信
 
-新しいバージョンのモバイルアプリ以降、お使いのモバイルデバイスを使用してリクエストキューにリクエストを送信できるようになります。Web アプリケーションからアクセスできるのと同じリクエストキューにアクセスできるようになります。 
+新しいバージョンのモバイルアプリを使用し始めると、モバイルデバイスを使用してリクエストを送信し、キューをリクエストできるようになります。 Web アプリケーションからアクセスできるのと同じリクエストキューにアクセスできます。 
 
 リクエストを送信し、適切なリソースに割り当て、外出先でも更新することができます。 
 
@@ -56,8 +62,8 @@ Adobe Workfront モバイルアプリは、2017年8月初旬に Apple App およ
 
 ## モバイルアプリでのプルーフ承認の表示
 
-新しいバージョンのモバイルアプリから開始すると、モバイルデバイスでドキュメントの校正を承認できるようになります。プルーフで承認者として指定されると、通知領域にも通知が届きます。 
+新しいバージョンのモバイルアプリを使用すると、モバイルデバイスでドキュメントのプルーフを承認できるようになります。 また、プルーフの承認者として指定されると、通知エリアに通知が届きます。 
 
-このアップデート以前は、モバイルアプリを使用して、プロジェクト、タスク、イシュー、ドキュメントの承認を実行できました。モバイルアプリでドキュメント校正を承認するには、Proof HQ ライセンスが必要です。 
+この更新以前は、モバイルアプリを使用してプロジェクト、タスク、イシューおよびドキュメントの承認を実行できました。 モバイルアプリでドキュメントのプルーフを承認するには、プルーフの HQ ライセンスが必要になります。 
 
 Workfront 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)の節を参照してください。 
