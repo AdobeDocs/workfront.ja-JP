@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 99%
+source-wordcount: '1636'
+ht-degree: 93%
 ---
 # レポート配信の概要
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ ht-degree: 99%
 
 * 任意のレポートに対して、最大 10 回の繰り返しレポート配信をスケジュールできます。
 * レポートの作成者である場合のみ、レポートの配信をスケジュールできます。 作成していないレポートを送信する必要がある場合は、手動で送信できます。
+* <span class="preview"> プレビューでは、スケジュールされたレポート配信ごとに定義された終了日が必要です。 以前に配信が「なし」に設定されていた場合、Workfrontは、レポートが送信された次の日から13か月に終了日を自動的に設定します。</span>
 
 ## 書き出し制限
 
@@ -146,6 +149,7 @@ Workfront からレポートを送信すると、そのレポートが別のフ�
 * [ブランディング](#branding)
 * [書式](#formatting)
 * [リンク](#links)
+* [有効期限に関する通知を報告](#report-expiration-notices)
 
 ### 件名行、添付ファイル名およびレポートタイトル {#subject-line-attachment-name-and-report-title}
 
@@ -198,6 +202,18 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 また、メールメッセージ内のレポートの名前はリンクです。
 
+<div class="preview">
+
+### 有効期限に関する通知を報告 {#report-expiration-notices}
+
+プレビューでは、配信されたレポートメールにはレポートの有効期限が含まれます。
+
+配信が毎日繰り返される場合、有効期限が45日以内になると、メールには各配信に有効期限に関する警告が含まれます。
+
+配信が週単位または月単位で繰り返される場合、有効期限が切れる前の最後の4回のスケジュールされた配信に、有効期限に関する警告がメールに含まれます。
+
+</div>
+
 ## スケジュールされたレポートに関するレポート
 
 次の項目を作成することで、レポートの配信が設定されているかどうかを確認できます。
@@ -209,7 +225,7 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 * レポートオブジェクトの&#x200B;**フィルター**&#x200B;の場合、レポートのリストまたは&#x200B;*スケジュール済みレポート ID が空白ではない*&#x200B;のステートメントを使用して、レポート用のレポートでフィルターを作成します。\
   これにより、リストまたはレポートでスケジュールされたレポートのみが表示されます。\
-  ![&#x200B; スケジュール済みレポートフィルター](assets/qs-scheduled-report-filter-350x101.png)\
+  ![ スケジュール済みレポートフィルター](assets/qs-scheduled-report-filter-350x101.png)\
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。 レポートの作成について詳しくは、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 
 <!--

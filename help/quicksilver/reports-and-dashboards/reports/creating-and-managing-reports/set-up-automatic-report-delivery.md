@@ -27,12 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 64%
+source-wordcount: '1404'
+ht-degree: 59%
 ---
 # レポートの自動配信のスケジュール設定
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -150,7 +152,7 @@ ht-degree: 64%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>繰り返し</p> </td> 
-      <td> <p>レポートを毎日、毎週、毎月、毎年のどれで配信するかを選択します。</p> </td> 
+      <td> <p>レポートを毎日、毎週、毎月、毎年のどれで配信するかを選択します。 <span class="preview"> プレビューで、レポートを日単位、週単位、月単位のいずれで配信するかを選択します。</span></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>繰り返す間隔</p> </td> 
@@ -174,11 +176,15 @@ ht-degree: 64%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>終了日</p> </td> 
-      <td>スケジュールされた配信が終了する日付を選択します。</td> 
+      <td><p>スケジュールされた配信が終了する日付を選択します。</p> <p class="preview">「プレビュー」で、スケジュールされた配信を終了する日付を選択します。</p> <p class="preview">注意：終了日は、配信ルールを作成または更新した日から13か月以内である必要があります。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>実行しない</p> </td> 
-      <td>スケジュールされた配信を無期限に継続する場合、「<strong>実行しない</strong>」を選択します。</td> 
+      <td><p>スケジュールされた配信を無期限に継続する場合、「<strong>実行しない</strong>」を選択します。</p> <p class="preview">このオプションは、プレビュー環境または高速リリース環境では使用できなくなりました。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><div class="preview"><p>アクティブ</p></div></td> 
+      <td><div class="preview"><p>この配信をアクティブに保つには、オンに切り替えます。 新しい配信は、デフォルトでアクティブになっています。</p> <p><strong>の終了日</strong>が過ぎると、Workfrontはこのトグルを自動的にオフにして無効にします。 配信を再開するには、<strong>終了日</strong>を将来の日付に更新してから、切り替えスイッチをオンにします。</p></div></td> 
      </tr> 
     </tbody> 
    </table>

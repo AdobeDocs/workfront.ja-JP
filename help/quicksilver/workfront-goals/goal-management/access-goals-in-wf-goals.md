@@ -11,21 +11,24 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1i5KaduOVN3rVkyK0Ap0HsdbD7W-iFnjFFFyKiYKmpc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 79%
-
+source-wordcount: '376'
+ht-degree: 82%
 ---
-
 # Adobe Workfront Goals で目標にアクセスして開く
 
 <!--Audited P&P only: 4/2025-->
@@ -148,10 +151,9 @@ Old:
 
 目標リストが表示されます。
 
-
 >[!IMPORTANT]
 >
->   Workfront Goals に正しくアクセスできたら、デフォルトでは、目標リストに自分または他のユーザーが作成した目標を表示できます。
+>Workfront Goals に正しくアクセスできたら、デフォルトでは、目標リストに自分または他のユーザーが作成した目標を表示できます。
 
 <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
@@ -213,12 +215,12 @@ To access an individual goal in the Production environment:
 
 デフォルトでは、目標リストが表示されます。
 
-![目標リスト &#x200B;](assets/goal-list-unshimmed.png)
+![目標リスト ](assets/goal-list-unshimmed.png)
 
-1. リスト内の目標の名前をクリックします。
+1. リストで目標の名前をクリックします。
 目標のページが表示されます。
-   ![目標ページ &#x200B;](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、目標をさらに編集または共有します。
+   ![目標ページ ](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックして、目標をさらに編集または共有します。
 1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。 詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

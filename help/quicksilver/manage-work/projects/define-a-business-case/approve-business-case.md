@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 85%
@@ -150,9 +150,9 @@ ht-degree: 85%
 
    ビジネスケースが却下されると、プロジェクトステータスが&#x200B;**却下**&#x200B;に変更されます。
 
-   >[!NOTE]
-   >
-   >ビジネスケースの承認を送信したユーザーに、プロジェクトリクエストが承認されたか却下されたかを知らせる通知はありません。
+>[!NOTE]
+>
+>ビジネスケースの承認を送信したユーザーに、プロジェクトリクエストが承認されたか却下されたかを知らせる通知はありません。
 
 ## ポートフォリオ内のリクエストされたプロジェクトにアクセスしてビジネスケースを承認
 
