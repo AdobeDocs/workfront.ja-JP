@@ -8,24 +8,30 @@ exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 TQID: https://experienceleague.adobe.com/DCLPGdt9b-7jkg7ajSbaRJRO968yAdetzVvOXpNI9nc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 682
+source-wordcount: '682'
 ht-degree: 85%
-
 ---
-
 # ビジネスケースの承認
 
 <!--Audit: 6/2025-->
@@ -138,15 +144,15 @@ ht-degree: 85%
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
 1. ビジネスケースの概要エリアで「**承認**」または「**拒否**」をクリックして、ビジネスケースを承認または却下します。
 
-<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
+   <!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-ビジネスケースが承認されると、プロジェクトステータスが&#x200B;**承認済み**&#x200B;に変更されます。
+   ビジネスケースが承認されると、プロジェクトステータスが&#x200B;**承認済み**&#x200B;に変更されます。
 
-ビジネスケースが却下されると、プロジェクトステータスが&#x200B;**却下**&#x200B;に変更されます。
+   ビジネスケースが却下されると、プロジェクトステータスが&#x200B;**却下**&#x200B;に変更されます。
 
->[!NOTE]
->
->ビジネスケースの承認を送信したユーザーに、プロジェクトリクエストが承認されたか却下されたかを知らせる通知はありません。
+   >[!NOTE]
+   >
+   >ビジネスケースの承認を送信したユーザーに、プロジェクトリクエストが承認されたか却下されたかを知らせる通知はありません。
 
 ## ポートフォリオ内のリクエストされたプロジェクトにアクセスしてビジネスケースを承認
 

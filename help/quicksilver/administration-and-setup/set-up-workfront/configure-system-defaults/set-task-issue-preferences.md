@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
 source-wordcount: '2238'
 ht-degree: 86%
@@ -227,16 +227,16 @@ Linked to Converting Issues.
 
 この設定を有効にすると、次の情報が表示されます。
 
-* [!UICONTROL **委任**] リンクは、[!UICONTROL &#x200B; マイワーク &#x200B;]、[!UICONTROL &#x200B; マイタスク &#x200B;]、または[!UICONTROL &#x200B; マイイシュー] ウィジェットの[!UICONTROL &#x200B; ホーム &#x200B;]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
+* [!UICONTROL **委任**] リンクは、[!UICONTROL  マイワーク ]、[!UICONTROL  マイタスク ]、または[!UICONTROL  マイイシュー] ウィジェットの[!UICONTROL  ホーム ]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
 
   >[!NOTE]
   >
-  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL &#x200B; ホーム &#x200B;]領域で常に有効になっています。
+  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL  ホーム ]領域で常に有効になっています。
 
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
-* タスクまたはイシューが、[!UICONTROL &#x200B; ホーム &#x200B;]の[!UICONTROL &#x200B; マイワーク &#x200B;] ウィジェットで別のユーザーに委任されたことを示す表示。
+* タスクまたはイシューが、[!UICONTROL  ホーム ]の[!UICONTROL  マイワーク ] ウィジェットで別のユーザーに委任されたことを示す表示。
 
-  「[!UICONTROL &#x200B; ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
+  「[!UICONTROL  ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 
