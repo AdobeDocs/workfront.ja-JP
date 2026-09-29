@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 267e7ab4279a86112b343d32e96b482a490d73c4
+source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
 
-デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[&#x200B; テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
+デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[ テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
 
 >[!IMPORTANT]
 >
@@ -111,10 +111,10 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名またはチーム名の入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。</td>
    </tr>
-   <tr class="preview">
-   <td><strong>プレビューでのユーザーまたはチームの追加</strong></td>
-   <td><p>ユーザー名、チーム、または電子メールアドレスを入力します。 デフォルトでは、チームは単一の承認者またはレビューとして追加されますが、各チームメンバーを個々の参加者として追加することもできます。</p>
-   <p>注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。</p></td>
+   <tr>
+   <td><strong><span class="preview">プレビューでのユーザーまたはチームの追加</span></strong></td>
+   <td><p><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力します。 デフォルトでは、チームは単一の承認者またはレビューとして追加されますが、各チームメンバーを個々の参加者として追加することもできます。</span></p>
+   <p><span class="preview">注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。</span></p></td>
    </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
@@ -181,10 +181,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名またはチーム名の入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。<p>注意：レビュアーまたは承認者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。 複数の並行ステージが同時に開いている場合、同じ人物を複数に追加することはできません。</p></td>
    </tr>
-   <tr class="preview">
-   <td><strong>プレビューでのユーザーまたはチームの追加</strong></td>
-   <td><p>ユーザー名、チーム、または電子メールアドレスを入力します。 デフォルトでは、チームは単一の承認者またはレビューとして追加されますが、各チームメンバーを個々の参加者として追加することもできます。</p>
-   <p>注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</p></td>
+   <tr>
+   <td><strong><span class="preview">プレビューでのユーザーまたはチームの追加</span></strong></td>
+   <td><p><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力します。 デフォルトでは、チームは単一の承認者またはレビューとして追加されますが、各チームメンバーを個々の参加者として追加することもできます。</span></p>
+   <p><span class="preview">注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</span></p></td>
    </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
@@ -206,7 +206,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-parallel-paths.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-parallel-paths.jpeg)
 
 <!--
 preview screen
@@ -232,7 +232,7 @@ preview screen
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
@@ -247,10 +247,10 @@ preview screen
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名または電子メールの入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。</td>
    </tr>
-   <tr class="preview">
-   <td><strong>プレビューでのユーザーまたはチームの追加</strong></td>
-   <td><p>ユーザー名、チーム、または電子メールアドレスを入力し、そのユーザーが<strong>承認者</strong>か<strong> レビュー担当者</strong>かを選択します。 Workfrontは、チームのアクティブな各メンバーを個別に追加します。</p>
-   <p>注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。</p></td>
+   <tr>
+   <td><strong><span class="preview">プレビューでのユーザーまたはチームの追加</span></strong></td>
+   <td><p><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力し、そのユーザーが<strong>承認者</strong>か<strong> レビュー担当者</strong>かを選択します。 Workfrontは、チームのアクティブな各メンバーを個別に追加します。</span></p>
+   <p><span class="preview">注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。</span></p></td>
    </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
@@ -294,7 +294,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。
 
@@ -323,10 +323,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名または電子メールの入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。<p>注意：レビュアーまたは承認者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。 複数の並行ステージが同時に開いている場合、同じ人物を複数に追加することはできません。</p></td>
    </tr>
-   <tr class="preview">
-   <td><strong>プレビューでのユーザーまたはチームの追加</strong></td>
-   <td><p>ユーザー名、チーム、または電子メールアドレスを入力し、そのユーザーが<strong>承認者</strong>か<strong> レビュー担当者</strong>かを選択します。 Workfrontは、チームのアクティブな各メンバーを個別に追加します。</p>
-   <p>注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</p></td>
+   <tr>&gt;
+   <td><strong><span class="preview">プレビューでのユーザーまたはチームの追加</span></strong></td>
+   <td><p><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力し、そのユーザーが<strong>承認者</strong>か<strong> レビュー担当者</strong>かを選択します。 Workfrontは、チームのアクティブな各メンバーを個別に追加します。</span></p>
+   <p><span class="preview">注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</span></p></td>
    </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
@@ -349,7 +349,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-advanced.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-advanced.jpeg)
 
 <!--
 preview screen
@@ -373,7 +373,7 @@ preview screen
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. バージョンをクリックして展開します。 そのステージ、各承認者の決定、ステージの決定ルール（ステージを完了するために1つの決定のみが必要かどうかなど）、期日を表示できます。
 1. 別のバージョンをクリックして、パネルを離れずに承認ワークフローを展開します。
