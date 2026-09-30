@@ -9,28 +9,33 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 43ed208abe51a7172c0143fa6f838362edd913db
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 41%
-
+source-wordcount: '543'
+ht-degree: 37%
 ---
-
 # プロジェクトの費用の管理
 
 <!-- Audited: 6/2025 -->
 
-費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。 ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。 詳しくは、[&#x200B; プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。 ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。 詳しくは、[ プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
 すべてのタスクとプロジェクトからの費用の合計金額は、プロジェクトの総コストに貢献します。 費用の予定金額はプロジェクトの予定コストに貢献し、費用の実際の金額はプロジェクトの実際のコストに貢献します。
 
@@ -54,11 +59,11 @@ ht-degree: 41%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>プロジェクトおよび財務データへのアクセスを編集する</td> 
+   <td>プロジェクトとタスクへのアクセス権を編集</td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td>一般財務を表示または編集する権限を持つ、プロジェクトに対する貢献度以上の権限</td> 
+   <td><p>費用を追加し、作成した費用を編集または削除するには：プロジェクトまたはタスクに対する権限以上の権限を付与し、費用を追加する権限を付与します。</p><p>他のユーザーによって追加された費用を表示、編集、または削除するには、プロジェクトまたはタスクへの権限を管理し、コスト率を表示（表示用）またはコスト率を編集（編集用または削除用）の権限を持ちます。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +86,7 @@ ht-degree: 41%
 
    * **実際の金額：**&#x200B;費用の実際のコストの金額を入力します。 これは、プロジェクトの実際のコストに影響します。
 
-   * **予定日：**&#x200B;費用が発生する予定日を入力します。 *mm/dd/yy*&#x200B;形式を使用してフィールドに日付を入力するか、**カレンダー** アイコン ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-icon.png)をクリックして、日付を動的に選択できます。
+   * **予定日：**&#x200B;費用が発生する予定日を入力します。 *mm/dd/yy*&#x200B;形式を使用してフィールドに日付を入力するか、**カレンダー** アイコン ![ カレンダーアイコン ](assets/calendar-icon.png)をクリックして、日付を動的に選択できます。
 
    * **支払日：**&#x200B;費用を支払った日付を入力または選択します。
    * **請求可能：**&#x200B;この費用を請求する場合は、このオプションを選択します。 請求記録を作成する際は、費用を請求可能として分類することが重要です。
@@ -91,13 +96,13 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   >費用に関連付けるには、カスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >費用に関連付けるには、カスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
 ## 費用の削除
 
-1. 費用を削除するプロジェクトに移動します。
+1. 費用を削除するプロジェクトまたはタスクに移動します。
 1. 左側のパネルで「**費用**」をクリックします。
 1. 削除する費用を選択し、**削除** アイコン ![削除](assets/delete.png)をクリックします。
 1. **費用を削除** ダイアログで、**はい、削除**&#x200B;をクリックします。
