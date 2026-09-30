@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 3%
 ---
 # 作業担当者の使用
@@ -62,7 +62,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 ## 作業エージェントの概要
 
-作業担当者：MCP エージェントをWorkfrontの特定のタスクに割り当てる方法です。 Copilot Studio、Claude、Writer.aiなどのアプリでエージェントを設定し、そのエージェントをWorkfront as a Work Agentに接続します。 その後、ユーザーを割り当てるのと同じように、タスクに割り当てることができます。
+作業担当者：Workfrontで特定のタスクに担当者を割り当てる方法です。 Copilot Studio、Claude、Writer.aiなどのアプリでエージェントを設定し、そのエージェントをWorkfront as a Work Agentに接続します。 その後、ユーザーを割り当てるのと同じように、タスクに割り当てることができます。
 
 ワークフローの例には、次のようなものがあります。
 
@@ -120,7 +120,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
 
 >[!NOTE]
 >
