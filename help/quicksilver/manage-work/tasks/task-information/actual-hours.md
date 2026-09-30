@@ -12,28 +12,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 26%
-
 ---
-
 # 実際の時間数の表示
 
 <!-- Audited: 5/2025 -->
@@ -115,21 +125,21 @@ Workfrontのどのエリアから実際の時間にアクセスするかに応�
 
 * プロジェクト、タスク、イシューのレポートとリストで次の操作を行います。
 
-   * **実際の時間数**:2021年5月から今日までの間に、プロジェクト、タスク、または問題に対して記録された時間。 これらはWorkfront データベースに時間で保存され、値フィールドは`actualWorkRequiredDouble`です。
-   * **従来の実際の時間数**: 2021年5月より前の任意の日付から今日までの間に、プロジェクト、タスク、または問題に対して記録された時間数。 これらはWorkfront データベースに分として保存され、その値フィールドは`actualWorkRequired`です。
+  * **実際の時間数**:2021年5月から今日までの間に、プロジェクト、タスク、または問題に対して記録された時間。 これらはWorkfront データベースに時間で保存され、値フィールドは`actualWorkRequiredDouble`です。
+  * **従来の実際の時間数**: 2021年5月より前の任意の日付から今日までの間に、プロジェクト、タスク、または問題に対して記録された時間数。 これらはWorkfront データベースに分として保存され、その値フィールドは`actualWorkRequired`です。
 
-     現在ログに記録されている時間は、実際の時間と従来の実際の時間の両方を更新します。
+    現在ログに記録されている時間は、実際の時間と従来の実際の時間の両方を更新します。
 
-     >[!IMPORTANT]
-     >
-     >プロジェクトの実際のコストでは、従来の実際の時間数を使用して計算します。
+    >[!IMPORTANT]
+    >
+    >プロジェクトの実際のコストでは、従来の実際の時間数を使用して計算します。
 
 * 「プロジェクト」、「タスク」または「イシューの詳細」エリアでは、実際の時間を次のフィールドに表示できます。
 
-   * **実際の時間数**:「詳細」タブでは、2021年5月から今日までの間に、プロジェクト、タスク、または問題に関して記録された時間です。 これらはWorkfront データベースに時間で保存され、値フィールドは`actualWorkRequiredDouble`です。
-   * **実際の時間数**: プロジェクト、タスク、またはイシューのカスタムフォームで、実際の時間数ネイティブフィールドを参照するネイティブフィールド参照カスタムフィールドを使用してアクセスされる場合。 これは、2021年5月より前の任意の日付から今日までのプロジェクト、タスク、またはイシューのログ時間です。 これらはWorkfront データベースに時間で保存され、値フィールドは`actualWorkRequiredDouble`です。
+  * **実際の時間数**:「詳細」タブでは、2021年5月から今日までの間に、プロジェクト、タスク、または問題に関して記録された時間です。 これらはWorkfront データベースに時間で保存され、値フィールドは`actualWorkRequiredDouble`です。
+  * **実際の時間数**: プロジェクト、タスク、またはイシューのカスタムフォームで、実際の時間数ネイティブフィールドを参照するネイティブフィールド参照カスタムフィールドを使用してアクセスされる場合。 これは、2021年5月より前の任意の日付から今日までのプロジェクト、タスク、またはイシューのログ時間です。 これらはWorkfront データベースに時間で保存され、値フィールドは`actualWorkRequiredDouble`です。
 
-     現在ログに記録されている時間は、実際の時間と従来の実際の時間の両方を更新します。
+    現在ログに記録されている時間は、実際の時間と従来の実際の時間の両方を更新します。
 
 >[!NOTE]
 >
