@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1539'
 ht-degree: 32%
 ---
 # システム環境設定を指定
@@ -226,7 +226,9 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
 
 <div class="preview">
 
-許可されたリダイレクト URLを使用すると、OAuth コールバック URLが組織に固有のカスタム AI エージェント型プラットフォーム（接続またはテナント IDを含むURLなど）を接続できます。 これが必要な場合について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)の「[OAuthとの接続](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)」を参照してください。
+許可されたリダイレクト URLを使用すると、OAuth コールバック URLが組織に固有のカスタム AI エージェント型プラットフォーム（接続またはテナント IDを含むURLなど）を接続できます。
+
+許可されたリダイレクト URLが必要になる可能性があるタイミングについて詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)の「[OAuthとの接続](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)」を参照してください。
 
 +++ MCP用に許可されたリダイレクト URLを管理するための手順ごとの手順を表示するには、を展開します。
 
@@ -238,12 +240,11 @@ URLを追加するには：
 1. コールバック **URL**&#x200B;を入力します。
 1. 「**追加**」をクリックします。
 1. 「**保存**」をクリックします。
+1. URLを削除するには、**URLの管理**&#x200B;を開いてエントリを削除し、**保存**&#x200B;をクリックします。 これは、関連する統合が廃止または侵害された場合に必要になる場合があります。
 
 >[!IMPORTANT]
 >
 >コールバック URLは正確に一致する必要があります。 Workfrontでは、カスタムコールバック URLのワイルドカードまたはプレフィックスマッチングはサポートされていません。
-
-URLを削除するには（例えば、関連付けられた統合が廃止または侵害された場合）、**URLの管理**&#x200B;を開き、エントリを削除してから、**保存**&#x200B;をクリックします。
 
 +++
 
