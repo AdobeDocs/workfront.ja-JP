@@ -53,7 +53,7 @@ Adobe Workfront プランニングのレコードタイプのページにアク�
 * [テーブルビューでの列と行の作成または編集](#manage-a-table-view)
 * [テーブルビューのリアルタイムプレゼンス指標を有効にする](#enable-the-real-time-presence-indicator)
 
-テーブルビューをExcelまたはCSV ファイルに書き出す方法について詳しくは、[ テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
+テーブルビューをExcelまたはCSV ファイルに書き出す方法について詳しくは、[&#x200B; テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
 
 ## アクセス要件
 
@@ -104,7 +104,7 @@ Adobe Workfront プランニングのレコードタイプのページにアク�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -177,7 +177,7 @@ Old:
 
 レコード情報はテーブルビューで編集できます。
 
-テーブルビューでのレコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+テーブルビューでのレコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 ## テーブルビューの管理 {#manage-a-table-view}
 
@@ -215,7 +215,7 @@ Old:
    * 中
    * 高い
 
-1. （オプション）「**フルスクリーン**」アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [列（またはフィールド）](#add-columns-or-fields)
@@ -243,7 +243,7 @@ Old:
 
    追加した列は、レコードタイプにアクセスするすべてのユーザーに表示され、レコードのページに新しいフィールドとして追加されます。
 
-1. （オプション）ツールバーの&#x200B;**フィールド** アイコン ![ フィールドアイコン ](assets/fields-icon.png)をクリックし、フィールドを検索してから、フィールド名の右側にあるトグルを選択解除して、フィールドを非表示にします。
+1. （オプション）ツールバーの&#x200B;**フィールド** アイコン ![&#x200B; フィールドアイコン &#x200B;](assets/fields-icon.png)をクリックし、フィールドを検索してから、フィールド名の右側にあるトグルを選択解除して、フィールドを非表示にします。
 
 1. テーブルの列を並べ替えるには、次のいずれかの操作を行います。
 
@@ -253,7 +253,7 @@ Old:
 
      <!--update the screen shot without Thumbnail at Production release-->
 
-     ![ テーブル表示ツールバーの設定フィールドが拡張されました](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![&#x200B; テーブル表示ツールバーの設定フィールドが拡張されました](assets/fields-setting-table-view-toolbar-expanded.png)
 
      >[!TIP]
      >
@@ -267,7 +267,7 @@ Old:
 
 1. （オプション）テーブルの最初の列に表示されないフィールドの列ヘッダーにあるフィールド名の上にポインタを合わせ、フィールド名の右側にある下向き矢印をクリックして、「**プライマリフィールドとして設定**」をクリックします。
 
-   ![ テーブルビューでプライマリフィールドオプションとして設定](assets/set-as-primary-field-option-table-view.png)
+   ![&#x200B; テーブルビューでプライマリフィールドオプションとして設定](assets/set-as-primary-field-option-table-view.png)
 
 
 1. 「**フィールドを設定**」をクリックして確認します。
@@ -278,7 +278,7 @@ Old:
 
    >[!TIP]
    >
-   >列のフィールド名の右側にある&#x200B;**情報** アイコン ![情報アイコン ](assets/info-icon.png)をクリックすると、**説明**&#x200B;が表示されます。
+   >列のフィールド名の右側にある&#x200B;**情報** アイコン ![情報アイコン &#x200B;](assets/info-icon.png)をクリックすると、**説明**&#x200B;が表示されます。
 
 1. 列の区切り線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 
@@ -296,16 +296,16 @@ Old:
    >
    >非表示のフィールドの数は、ツールバーのフィールドアイコンの左側に表示されます。
    >
-   >デフォルトでは、非表示フィールドはレコードの&#x200B;**詳細** プレビューボックスに表示されません。 すべてのフィールドは、レコードの詳細ページに表示されます。 詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+   >デフォルトでは、非表示フィールドはレコードの&#x200B;**詳細** プレビューボックスに表示されません。 すべてのフィールドは、レコードの詳細ページに表示されます。 詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 
 1. **フィールド** アイコンをクリックし、テーブルの列に表示するフィールドに関連付けられている切り替えスイッチを選択します。 デフォルトでは、すべてのフィールドが表示されます。
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** ボックス ![検索アイコン ](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
+   1. **検索** ボックス ![検索アイコン &#x200B;](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
 
-      ![ テーブルビューの結果の青いアウトラインを含む検索ボックス ](assets/search-box-with-results-blue-outline-g-table.png)
+      ![&#x200B; テーブルビューの結果の青いアウトラインを含む検索ボックス &#x200B;](assets/search-box-with-results-blue-outline-g-table.png)
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -415,9 +415,9 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    ><span class="preview"> レコードに未読のコメントがある場合、レコードのプライマリフィールドの右上隅に&#x200B;**新しいコメント** インジケーターが表示されます。</span>
    >
-   >![ テーブルビューの新しいコメントアイコン ](assets/new-comment-icon-in-table-view-highlighted.png)
+   >![&#x200B; テーブルビューの新しいコメントアイコン &#x200B;](assets/new-comment-icon-in-table-view-highlighted.png)
 
-1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![ ハンドルアイコン ](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
+1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![&#x200B; ハンドルアイコン &#x200B;](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
 
    >[!NOTE]
    >
@@ -551,7 +551,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    * 選択したフィールドの値を選択します。
 
-   ![ フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
+   ![&#x200B; フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -563,7 +563,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    1. （オプション）複数の条件グループ間に&#x200B;**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子を追加します。
 
-      ![ ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
+      ![&#x200B; ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
 
    レコードのリストは自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -601,7 +601,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 レコードを並べ替えるには、次の操作を行います。
 
 1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
-1. テーブルの上部にある&#x200B;**並べ替え** アイコン ![並べ替えアイコン ](assets/sort-icon.png)をクリックします
+1. テーブルの上部にある&#x200B;**並べ替え** アイコン ![並べ替えアイコン &#x200B;](assets/sort-icon.png)をクリックします
 
    または
 
@@ -645,7 +645,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 1. 「**レコードの並べ替え基準**」ボックスの外側をクリックしてボックスを閉じます。
 
-   ![ テーブルビューでの並べ替え](assets/sorting-in-table-view-g-list.png)
+   ![&#x200B; テーブルビューでの並べ替え](assets/sorting-in-table-view-g-list.png)
 
    テーブルに表示される情報は、選択した条件に従って並べ替えられます。
 
@@ -663,7 +663,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * テーブルビューとタイムラインビューの両方でグループ化を適用できます。 テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
 * ビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
-&lt;!—!—*************** * APIを使用する場合、グループ化は最大4つのレベルまで適用できます。  – 今のところこれをチェックして******************—>
+&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * APIを使用する場合、グループ化は最大4つのレベルまで適用できます。  – 今のところこれをチェックして**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
 * グループは、選択したビューに固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。 同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
 * テーブルビュー用に作成したグループ化に名前を付けることはできません。
 * グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
@@ -681,10 +681,10 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 グループ化を追加するには：
 
-1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのテーブルビューを作成します。
+1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのテーブルビューを作成します。
 1. テーブルビューの右上隅にある「**グループ化**」をクリックします。
 
-   ![ リンクされたフィールドを含むUI テーブル ビューのグループ化](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![&#x200B; リンクされたフィールドを含むUI テーブル ビューのグループ化](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
 
@@ -702,7 +702,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-   ![ テーブル ビューでグループ化が適用されました](assets/grouping-applied-in-table-view.png)
+   ![&#x200B; テーブル ビューでグループ化が適用されました](assets/grouping-applied-in-table-view.png)
 
 1. （オプション）「**レコードを**&#x200B;でグループ化」ボックス内で、グループ化のために選択されたフィールドの右側にある&#x200B;**x** アイコンをクリックして、グループ化を削除します。
 
@@ -711,7 +711,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 1. グループ化を展開または折りたたむには、**グループ化** アイコンをクリックし、**すべてを展開**&#x200B;または&#x200B;**すべてを折りたたむ**&#x200B;をクリックします。 これにより、テーブルビュー内のすべてのグループ化とサブグループ化が展開されます。
 
-   ![ グループ化ボックス テーブル ビューのすべてのボタンを展開および折りたたむ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   ![&#x200B; グループ化ボックス テーブル ビューのすべてのボタンを展開および折りたたむ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
    <!--
     ******** NOT POSSIBLE **********
@@ -736,7 +736,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 1. 選択した条件の左上隅にあるカラーピッカーのドロップダウンメニューをクリックして、条件のカラーを選択し、カラーピッカーボックスの外側をクリックして閉じます。
 
-   アクティブなステータスが選択され、デフォルトの色が選択された![行の色ボックス ](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
+   アクティブなステータスが選択され、デフォルトの色が選択された![行の色ボックス &#x200B;](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. （オプション）「**条件を追加**」をクリックして、最初の条件セットにフィールドと値をさらに追加します
 
@@ -746,7 +746,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    例えば、新しい条件セットを定義することで、キャンペーンをプランニングステータスで黄色で表示できます。
 
-   アクティブおよびプランニング状態のカスタムカラーを含む![行カラーボックス ](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+   アクティブおよびプランニング状態のカスタムカラーを含む![行カラーボックス &#x200B;](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
 
    >[!TIP]
    >
@@ -788,7 +788,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    アバターのハイライトカラーがグレーの場合、ユーザーは30秒以上前にレコードのアクティブな編集を停止しました。
 
-   ![ リアルタイム インジケーターテーブル フィールドとアバター接続](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![&#x200B; リアルタイム インジケーターテーブル フィールドとアバター接続](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
