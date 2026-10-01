@@ -18,7 +18,7 @@ ht-degree: 7%
 
 プロジェクトコーディネーターを使用する場合、Workfront以外で担当者を設定する必要はありません。
 
-プロジェクトコーディネーターの設定の手順については、「AI コラボレーターの設定」の「[ プロジェクトコーディネーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-project-coordinator)」を参照してください。
+プロジェクトコーディネーターの設定の手順については、「AI コラボレーターの設定」の「[&#x200B; プロジェクトコーディネーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-project-coordinator)」を参照してください。
 
 AI共同作業者の一般的な詳細については、[AI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
 
@@ -76,4 +76,4 @@ AI共同作業者の一般的な詳細については、[AI共同作業者の設
 
 ## プロジェクトコーディネーターの設定
 
-プロジェクトコーディネーターの設定の手順については、「AI コラボレーターの設定」の「[ プロジェクトコーディネーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-the-project-coordinator)」を参照してください。
+プロジェクトコーディネーターの設定の手順については、「AI コラボレーターの設定」の「[&#x200B; プロジェクトコーディネーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-the-project-coordinator)」を参照してください。

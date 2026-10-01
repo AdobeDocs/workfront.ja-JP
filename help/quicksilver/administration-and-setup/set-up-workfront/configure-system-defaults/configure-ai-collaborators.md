@@ -125,7 +125,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業担当者は、タスクまたはイシューに割り当てることができます。
 
-作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス ](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
 * [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -215,7 +215,7 @@ Workfrontで作業エージェントとして使用するエージェントを�
 
 Writerで作業エージェントとして使用するエージェントを作成する場合は、次のワークフローをお勧めします。
 
-エージェントの作成について詳しくは、[ ライターのドキュメント ](https://dev.writer.com/no-code/introduction)を参照してください。
+エージェントの作成について詳しくは、[&#x200B; ライターのドキュメント &#x200B;](https://dev.writer.com/no-code/introduction)を参照してください。
 
 1. Writer AI Studioでノーコードアプリを作成します。
 1. 1つのテキスト入力フィールドを追加します。 デフォルト名「テキスト入力」を使用できます。
@@ -276,4 +276,4 @@ For more information on the Project Coordinator, including how to assign it to p
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
