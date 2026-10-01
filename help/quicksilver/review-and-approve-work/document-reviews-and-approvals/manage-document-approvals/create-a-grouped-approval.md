@@ -64,7 +64,7 @@ ht-degree: 3%
 
 1. アセットを選択した状態で、下部メニューの「**承認を依頼**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
-   ![ グループ化された承認の作成](assets/requeset-grouped-approval.png)
+   ![&#x200B; グループ化された承認の作成](assets/requeset-grouped-approval.png)
 
 1. 次の詳細を入力します。
 
@@ -116,7 +116,7 @@ You can configure up to 30 paths and 100 stages total.
 
 1. アセットを選択した状態で、下部メニューの「**承認を依頼**」をクリックします。
 
-   ![ グループ化された承認の作成](assets/requeset-grouped-approval.png)
+   ![&#x200B; グループ化された承認の作成](assets/requeset-grouped-approval.png)
 
 1. **承認を依頼** ダイアログの右上にある「**詳細に移動**」をクリックします。 基本モードで入力した入力はすべて保持され、**パス 1**、**ステージ 1**&#x200B;に適用されます。
 
