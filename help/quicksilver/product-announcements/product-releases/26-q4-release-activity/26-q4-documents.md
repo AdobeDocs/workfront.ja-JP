@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ec19d8268ff33a8cf773d0460d2af07f497687e
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1427'
 ht-degree: 3%
 ---
 # 2026年第4四半期ドキュメントの機能強化
@@ -24,15 +24,32 @@ ht-degree: 3%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
-<!--
+## 複数のドキュメントを単一の承認ワークフローにグループ化する
 
+>[!NOTE]
+>
+>プレビュー：Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+1つの承認ワークフローで複数のドキュメントをグループ化して、同じステージを進めることができるようになりました。
+
+グループ化された承認は、基本モードと詳細モード、複数のステージ、並行パスをサポートします。
+
+グループ化された承認は、組織がAdobe クラウドストレージをサポートするバージョンのWorkfrontを使用している場合に表示される新しいドキュメント領域でのみ使用できます。
+
+<!--
+For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
+-->
+
+<!--
 ## Access Workfront projects in Adobe Creative Cloud apps
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: [DATE]
->Production for everyone: [DATE]
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
 
 You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
 
@@ -42,6 +59,18 @@ For more information, see:
 
 * [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+## Add a web link as a document
+
+>[!NOTE]
+>
+> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
+> Production fast release: October 14, 2026
+> Production for everyone: October 15, 2026
+
+You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
+
+For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 -->
 
@@ -61,7 +90,7 @@ For more information, see:
 
 詳しくは、以下を参照してください。
 
-* ドキュメントの承認ワークフローテンプレートの作成の[&#x200B; テンプレートの共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* ドキュメントの承認ワークフローテンプレートの作成の[ テンプレートの共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
 * [ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 ## システム管理者による承認テンプレートへの完全アクセス
@@ -137,7 +166,7 @@ Workfront チームを、各人を個別に追加するのではなく、ドキ�
 
 Frame.io エンタープライズライセンスをお持ちでない場合、プロジェクトは引き続きWorkfrontのデフォルトワークスペースに移動します。
 
-詳しくは、[&#x200B; プロジェクト テンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)および[&#x200B; プロジェクトの概要エリアでの情報の管理](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
+詳しくは、[ プロジェクト テンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)および[ プロジェクトの概要エリアでの情報の管理](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
 
 <!--
 
@@ -174,7 +203,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 ドキュメントの承認時にカスタムメッセージを設定すると、そのメッセージが承認依頼メールの件名にも表示され、設定された期日までに送信されるようになりました。 これにより、レビュー担当者は電子メールを開くことなく、いつ受信トレイに届くのかを直接確認できます。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 新しいドキュメント領域のバージョンパネルを再設計
 
@@ -210,7 +239,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 以前は、承認パネルには現在のバージョンのワークフローのみが表示されていました。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## Adobe クラウドストレージオブジェクトのコメントに画像を添付する
 
