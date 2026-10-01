@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
 workflow-type: tm+mt
-source-wordcount: '4584'
-ht-degree: 32%
+source-wordcount: '5015'
+ht-degree: 29%
 ---
 # タイムラインビューの管理
 
@@ -97,7 +97,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -190,13 +190,18 @@ Old:
 1. タイムラインを表示するレコードタイプページに移動します。
 1. タイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-   ![&#x200B; タイムラインビューの例](assets/timeline-view-example.png)
+   ![ タイムラインビューの例](assets/timeline-view-example.png)
 
-   選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で並べ替えられます。
+   選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で自動的に並べ替えられます。
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    タイムラインのレコードの並べ替えは、コンパクト表示には表示されません。
+   >    タイムライン内のレコードの自動ソートは、コンパクトビューには表示されません。
 
 1. （条件付き）管理者がカスタム四半期を有効にし、Workfrontがカスタム四半期の設定方法に関する問題を検出した場合、タイムラインビューを開くと警告が表示される場合があります。
 
@@ -212,7 +217,7 @@ Old:
 
    * 四半期が部分的に設定されていて、同年の中に数か月が欠落している場合、スクロールして欠落している四半期を表示すると、その年の残りの部分に欠落している四半期を設定する必要があるという通知が表示される場合があります。
 
-   ![&#x200B; タイムラインビューにカスタム四半期の元のメッセージがありません](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+   ![ タイムラインビューにカスタム四半期の元のメッセージがありません](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
    カスタム四半期に関する警告メッセージは、各ユーザーごとに1回表示されます。
 
@@ -220,7 +225,7 @@ Old:
    >
    >カスタム四半期が正しく保存されていない場合、タイムラインビューには従来の四半期が表示されます。
    >設定領域でカスタム四半期を設定すると、タイムラインビューには従来の四半期ではなくカスタム四半期が表示されます。
-   >詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+   >詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 1. （条件付き）Workfront管理者の場合は、**設定**&#x200B;に移動して四半期を設定します。 そうでない場合は、**OK**&#x200B;をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。
 
@@ -228,7 +233,7 @@ Old:
    >
    >「設定に移動」ボタンは、Workfront管理者にのみ表示されます。
 
-1. （オプションおよび条件付き）レコード名が切り捨てられている場合は、レコードバーにカーソルを合わせると、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の「[&#x200B; タイムラインビュー設定の編集](#edit-the-timeline-view-settings)」を参照してください。
+1. （オプションおよび条件付き）レコード名が切り捨てられている場合は、レコードバーにカーソルを合わせると、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の「[ タイムラインビュー設定の編集](#edit-the-timeline-view-settings)」を参照してください。
 
 1. タイムラインを移動するには、次のいずれかを行います。
 
@@ -256,7 +261,7 @@ Old:
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+   1. **検索** アイコン ![検索アイコン ](assets/search-icon.png)をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
 
       ![検索ボックスと結果タイムラインビュー](assets/search-box-and-results-timeline-view.png)
 
@@ -264,11 +269,19 @@ Old:
 
       タイムラインビューに表示されないフィールドに関連付けられたキーワードは使用できません。
 
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+
    1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
 
-   1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+   1. （オプション）「**フルスクリーン**」アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. （オプション）「**分類**」をクリックして、タイムラインに接続されたレコードを表示します。
 
@@ -323,7 +336,7 @@ Old:
 
 タイムラインビューにフィルターを追加するには：
 
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのタイムラインビューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのタイムラインビューを作成します。
 1. タイムラインビューを選択し、テーブルの左上隅にある「**フィルター**」をクリックします。
 1. <span class> （条件付き）タイムラインビューに分割構造を追加した場合は、フィルターボックスの最初のドロップダウンでレコードタイプを展開します。 タイムラインビューを表示するレコードタイプです。</span>
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
@@ -361,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p>
+            <td><p>が次のいずれかを含む</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p>
+            <p>が次のいずれも含まない</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>
@@ -398,7 +411,7 @@ Old:
 
    * 選択したフィールドの値を選択します。
 
-   ![&#x200B; フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
+   ![ フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -419,7 +432,7 @@ Old:
 
    分類のすべてのレコードタイプについて、この手順を繰り返します。
 
-   ![&#x200B; タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+   ![ タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
    分類レコードタイプは、タイムラインビューからのみフィルタリングできます。
 1. （オプション）「**フィルター**」またはページ上の任意の場所をクリックして、フィルターボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
@@ -452,7 +465,7 @@ Old:
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. タイムラインビューの右上隅にある&#x200B;**グループ化**&#x200B;をクリックします。
 
-   ![&#x200B; リンクされたフィールドを含むUI タイムラインビューのグループ化](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![ リンクされたフィールドを含むUI タイムラインビューのグループ化](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 候補フィールドの1つをクリックするか、**別のフィールドを選択**&#x200B;し、別のフィールドを検索して、リストに表示されたらクリックします。
 
@@ -479,14 +492,24 @@ Old:
 
    * **積み重ね**: グループ化は、固定された左列なしで表示され、アイテムのタイムラインの幅に合わせて表示されます。
 
-     ![&#x200B; タイムラインビューでの積み重ねグループ化](assets/stacked-grouping-in-timeline-view.png)
+     ![ タイムラインビューでの積み重ねグループ化](assets/stacked-grouping-in-timeline-view.png)
    * **スイムレーン**: グループ化された左側のパネルに、グループ化されたアイテムとグループ化がタイムラインビューの幅に合わせて表示されます。
 
-     タイムラインビューでの![&#x200B; スイムレーンのグループ化](assets/swimlane-grouping-in-timeline-view.png)
+     タイムラインビューでの![ スイムレーンのグループ化](assets/swimlane-grouping-in-timeline-view.png)
 
    グループ化はすぐに適用されます。
 
-1. <span class="preview"> （オプション）ツールバーの&#x200B;**グループ化** アイコン ![&#x200B; グループ化アイコン &#x200B;](assets/grouping-icon.png)をクリックして、**レコードを**&#x200B;でグループ化ボックスを開き、**すべての**&#x200B;を展開してすべてのグループ化を展開するか、**すべてを折りたたむ**&#x200B;をクリックしてすべてのグループ化を折りたたみ、必要なグループのみを手動で折りたたみます。</span>
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
+1. <span class="preview"> （オプション）ツールバーの&#x200B;**グループ化** アイコン ![ グループ化アイコン ](assets/grouping-icon.png)をクリックして、**レコードを**&#x200B;でグループ化ボックスを開き、**すべての**&#x200B;を展開してすべてのグループ化を展開するか、**すべてを折りたたむ**&#x200B;をクリックしてすべてのグループ化を折りたたみ、必要なグループのみを手動で折りたたみます。</span>
 1. <span class="preview"> （オプションおよび条件付き）スイムレーン表示で、左パネルの区切り記号をドラッグ&amp;ドロップして、幅を調整します。 各ユーザーのパネル幅は、セッション間で保存され、初回ユーザーのデフォルト幅は</span>です。
 1. <span class="preview"> （オプション）長いグループ化名の場合、グループ化の行にカーソルを合わせると、グループ化のフルネームがツールチップに表示されます。</span>
 
@@ -504,50 +527,50 @@ Old:
    >あるグループから別のグループにレコードをドラッグ&amp;ドロップすると、グループ内で選択されているフィールドによって、移動したレコードの値が自動的に更新されます。
 1. （オプション）「**設定**」、「**カラー**」の順にクリックすると、グループ化をカラーコーディングできます。 詳しくは、この記事の[タイムラインビュー設定の編集](#edit-the-timeline-view-settings)の節を参照してください。
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### 並べ替えを追加
 
-You can sort records and groupings in the timeline view. 
+タイムラインビューでは、レコードとグループを並べ替えることができます。
 
-Consider the following when working with record sorting in the timeline view: 
+タイムラインビューでレコードの並べ替えを操作する場合は、次の点を考慮してください。
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* 並べ替えは、表ビューとタイムラインビューの両方に適用できます。 テーブルビューの並べ替えは、同じレコードタイプのタイムラインビューの並べ替えとは独立しています。
+* レコードに10個の並べ替え条件を適用し、タイムラインビューにグループ化がある場合と同じ数の並べ替え条件を適用できます（タイムラインビューには最大3個のグループ化条件を設定できます）。
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* 並べ替えは、選択したビューに固有です。 同じレコードタイプの2つのタイムラインビューに、異なる並べ替えを適用できます。 同じタイムラインビューを見ている2人のユーザーには、現在適用されている同じ並べ替えが表示されます。
+* タイムラインビュー用に作成した並べ替えに名前を付けることはできません。
+* 並べ替えを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示するユーザーから削除されます。
 
-* You can sort by connected record fields or lookup fields.  
+* 接続されているレコードフィールドまたはルックアップフィールドで並べ替えることができます。
 
-To add a sort in the timeline view:
+タイムラインビューで並べ替えを追加するには：
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、レコードタイプのタイムラインビューを作成します。
+1. ビューのツールバーで「**並べ替え**」をクリックします。
 
-    The sorting box opens. 
+   並べ替えボックスが開きます。
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![ グループ化された並べ替えでタイムラインで並べ替え](assets/sort-in-timeline.png)
+1. ドロップダウンメニューから「**レコードを並べ替え**」を選択し、**候補フィールドから開始** リストに表示されているフィールドをクリックするか、**別のフィールドを選択**&#x200B;をクリックしてから、フィールドを検索してリストに表示されたらクリックします。
+1. レコードの並べ替えを適用する方向（アルファベット順、逆順など）を選択します。 並べ替えの適用方向は、選択したフィールドの形式によって異なります。
+1. （オプション）「**条件を追加**」をクリックして、最大10件の条件を追加します。
+1. （オプション）すべての条件を削除するには、**すべてをクリア**&#x200B;をクリックします。
+1. 並べ替えボックスの左上隅にあるドロップダウンメニューから、「**グループ化を並べ替え**」を選択します。
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >タイムラインビューにグループ化が適用されていない場合、**グループ化を並べ替え** オプションは使用できません。
+1. （オプション）グループ化の並べ替えを適用する方向（アルファベット順、逆順など）を選択します。 並べ替えの適用方向は、選択したフィールドの形式によって異なります。
+1. （条件付き）デフォルトから変更した場合は、**すべてをリセット**&#x200B;をクリックして並べ替え方向をリセットします。
+1. フィールドの並べ替え順を変更するには、ツールバーの&#x200B;**グループ化**&#x200B;をクリックし、グループ化を並べ替えます。 フィールドの並べ替えも変更されます。
+1. （オプション）グループ化の並べ替えを削除するには、タイムラインビューからグループ化を削除します。
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   ソートは直ちに適用されます。
+1. ページ上の任意の場所をクリックして、並べ替えボックスを閉じます。
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
@@ -570,9 +593,9 @@ To add a sort in the timeline view:
 
 1. （条件付きとオプション）Workfront管理者の場合は、**カスタムクォーターを使用** ボックスの&#x200B;**設定**&#x200B;をクリックして、設定エリアに移動し、カスタムクォーターを設定します。 カスタム四半期を設定した後、従来の四半期ではなくタイムラインビューに表示できます。 Workfront管理者でない場合は、管理者からカスタム四半期を有効にするように依頼できます。
 
-   詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+   詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
-   ![&#x200B; タイムラインビュー設定でカスタム四半期の警告を使用](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+   ![ タイムラインビュー設定でカスタム四半期の警告を使用](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
    >[!TIP]
    >
@@ -589,7 +612,7 @@ To add a sort in the timeline view:
 
    >[!NOTE]
    >
-   >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、[&#x200B; レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+   >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、[ レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
 1. **フィールドを追加**&#x200B;をクリックし、**フィールドを検索** ボックス内をクリックして、追加するフィールドをクリックします。
 
@@ -607,7 +630,7 @@ To add a sort in the timeline view:
 
 1. （オプションおよび条件付き）標準モードでタイムラインを表示する場合は、**バーの詳細を切り捨て**&#x200B;設定を選択します。 選択すると、レコードバーの情報は切り捨てられ、バーにカーソルを合わせたときにのみ完全に表示されます。 この設定はデフォルトで選択解除され、レコード情報はバーに完全に表示されます。
 
-   ![&#x200B; タイムライン設定ボックスで有効になっている設定を切り捨てる](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+   ![ タイムライン設定ボックスで有効になっている設定を切り捨てる](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
@@ -616,7 +639,7 @@ To add a sort in the timeline view:
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
-   ![&#x200B; カラータブタイムラインビュー](assets/color-tab-timeline-view.png)
+   ![ カラータブタイムラインビュー](assets/color-tab-timeline-view.png)
 
    標準ビューで「分類」オプションを使用すると、メインレコードの色と、接続されているレコードの色を定義できます。
 
@@ -649,7 +672,7 @@ To add a sort in the timeline view:
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   タイムラインビューの![&#x200B; フィールドセレクタードロップダウンメニュー](assets/field-selector-drop-down-menu-timeline-view.png)
+   タイムラインビューの![ フィールドセレクタードロップダウンメニュー](assets/field-selector-drop-down-menu-timeline-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 
@@ -689,7 +712,7 @@ To add a sort in the timeline view:
 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * 少なくとも2つの日付フィールドに関連付けられているレコードタイプのみを表示できます。
 * タイムラインビューに表示するレコードタイプの日付フィールドは、選択したレコードタイプのテーブルビューでルックアップフィールドとして表示されている必要があります。
-* タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列で表示する必要があります。 例えば、レコードの開始日が1月31日で終了日が1月1日の場合、タイムラインビューには表示されません。 詳しくは、この記事の「[&#x200B; タイムラインビューの管理](#manage-a-timeline-view)」の節を参照してください。
+* タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列で表示する必要があります。 例えば、レコードの開始日が1月31日で終了日が1月1日の場合、タイムラインビューには表示されません。 詳しくは、この記事の「[ タイムラインビューの管理](#manage-a-timeline-view)」の節を参照してください。
 * レコードの分類に含めることができるレコードタイプは、5つまでです。
 
 #### 接続されたレコードの分解
@@ -698,7 +721,7 @@ To add a sort in the timeline view:
 1. **標準**&#x200B;または&#x200B;**コンパクト** モードで、タイムラインビューの右上隅にある&#x200B;**分類**&#x200B;をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![&#x200B; タイムラインビューの分類ピッカーとボタン &#x200B;](assets/breakdown-picker-and-button-on-timeline.png)
+   ![ タイムラインビューの分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -713,7 +736,7 @@ To add a sort in the timeline view:
    選択したレコードのバーが他のレコードと接続されている場合は、右向きの矢印がタイムラインに表示されます。
 1. 右向きの矢印をクリックして、レコードタイプを展開し、その接続を表示します。<!--update screen shot at production-->
 
-   タイムラインビューのプログラムごとに![&#x200B; キャンペーンを分割](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   タイムラインビューのプログラムごとに![ キャンペーンを分割](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
    >[!IMPORTANT]
    >
