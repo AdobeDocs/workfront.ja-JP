@@ -60,7 +60,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
   * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
+  詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
 
 * レコードタイプ
 
@@ -68,7 +68,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースに付与された権限レベルは、レコードタイプの継承された権限として表示されます。
   * ユーザーがワークスペース上で持つ権限レベルよりも高い権限レベルのレコードタイプを共有することはできません。
 
-  詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+  詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 * レコード
 
@@ -76,7 +76,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ユーザーは、ワークスペースとレコードタイプから権限をデフォルトで継承します。
   * ユーザーの権限レベルがレコードタイプの権限レベルよりも高いレコードまたは低いレコードを共有することはできません。
 
-  詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 <!--
 * Fields
@@ -173,7 +173,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
 | 表示 | ✓ | ✓ | ✓ |
 
 
-<span class="preview">上記の表で説明した権限に加えて、ワークスペースを共有する際にワークスペースの所有者を変更することもできます。 詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。</span>
+<span class="preview">上記の表で説明した権限に加えて、ワークスペースを共有する際にワークスペースの所有者を変更することもできます。 詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。</span>
 
 
 ### レコードタイプに対する権限
