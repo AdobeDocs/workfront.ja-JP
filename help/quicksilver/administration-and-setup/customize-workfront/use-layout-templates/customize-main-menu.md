@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 57%
+source-wordcount: '723'
+ht-degree: 54%
 ---
 # レイアウトテンプレートを使用したメインメニューのカスタマイズ
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -144,7 +146,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
      >
      > カスタムアプリケーションをメインメニューオプションとして使用できるようにするには、その前に個別に作成する必要があります。 詳しくは、[Adobe App Builderを使用したWorkfront用カスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
 
-1. 次のいずれかの操作を行います：<!-- for the **Native** items-->
+1. **Native**&#x200B;項目について、次のいずれかの操作を行います。
 
    * メインメニューに表示しない![非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)項目を非表示にします。
    * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
@@ -152,7 +154,16 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >システム項目の順序は変更できません。 これらの項目は、アクティブな場合は常にメインメニューの下部に表示されます。
+     >システム項目の順序は変更できません。 これらの項目は、アクティブな場合は常にメインメニューの下部に表示されます。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
+
+<div class="preview">
+
+1. **システム**&#x200B;項目について、次のいずれかの操作を行います。
+
+   * メインメニューに表示しない![非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)項目を非表示にします。
+   * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
+
+</div>
 
 1. 「**完了**」をクリックします。
 
@@ -166,17 +177,3 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-<!--
-
-MOVE TO LINE 151 or thereabouts:
-
-<div class="preview">
-
-1. Do any of the following for the **System** items:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
-
-</div>
-
--->

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
 workflow-type: tm+mt
-source-wordcount: '4584'
-ht-degree: 32%
+source-wordcount: '5015'
+ht-degree: 29%
 ---
 # タイムラインビューの管理
 
@@ -192,11 +192,16 @@ Old:
 
    ![&#x200B; タイムラインビューの例](assets/timeline-view-example.png)
 
-   選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で並べ替えられます。
+   選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で自動的に並べ替えられます。
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    タイムラインのレコードの並べ替えは、コンパクト表示には表示されません。
+   >    タイムライン内のレコードの自動ソートは、コンパクトビューには表示されません。
 
 1. （条件付き）管理者がカスタム四半期を有効にし、Workfrontがカスタム四半期の設定方法に関する問題を検出した場合、タイムラインビューを開くと警告が表示される場合があります。
 
@@ -263,6 +268,14 @@ Old:
       画面に表示される任意の単語や特殊文字を使用できます。
 
       タイムラインビューに表示されないフィールドに関連付けられたキーワードは使用できません。
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
@@ -361,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p>
+            <td><p>が次のいずれかを含む</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p>
+            <p>が次のいずれも含まない</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>
@@ -486,6 +499,16 @@ Old:
 
    グループ化はすぐに適用されます。
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview"> （オプション）ツールバーの&#x200B;**グループ化** アイコン ![&#x200B; グループ化アイコン &#x200B;](assets/grouping-icon.png)をクリックして、**レコードを**&#x200B;でグループ化ボックスを開き、**すべての**&#x200B;を展開してすべてのグループ化を展開するか、**すべてを折りたたむ**&#x200B;をクリックしてすべてのグループ化を折りたたみ、必要なグループのみを手動で折りたたみます。</span>
 1. <span class="preview"> （オプションおよび条件付き）スイムレーン表示で、左パネルの区切り記号をドラッグ&amp;ドロップして、幅を調整します。 各ユーザーのパネル幅は、セッション間で保存され、初回ユーザーのデフォルト幅は</span>です。
 1. <span class="preview"> （オプション）長いグループ化名の場合、グループ化の行にカーソルを合わせると、グループ化のフルネームがツールチップに表示されます。</span>
@@ -504,50 +527,50 @@ Old:
    >あるグループから別のグループにレコードをドラッグ&amp;ドロップすると、グループ内で選択されているフィールドによって、移動したレコードの値が自動的に更新されます。
 1. （オプション）「**設定**」、「**カラー**」の順にクリックすると、グループ化をカラーコーディングできます。 詳しくは、この記事の[タイムラインビュー設定の編集](#edit-the-timeline-view-settings)の節を参照してください。
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### 並べ替えを追加
 
-You can sort records and groupings in the timeline view. 
+タイムラインビューでは、レコードとグループを並べ替えることができます。
 
-Consider the following when working with record sorting in the timeline view: 
+タイムラインビューでレコードの並べ替えを操作する場合は、次の点を考慮してください。
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* 並べ替えは、表ビューとタイムラインビューの両方に適用できます。 テーブルビューの並べ替えは、同じレコードタイプのタイムラインビューの並べ替えとは独立しています。
+* レコードに10個の並べ替え条件を適用し、タイムラインビューにグループ化がある場合と同じ数の並べ替え条件を適用できます（タイムラインビューには最大3個のグループ化条件を設定できます）。
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* 並べ替えは、選択したビューに固有です。 同じレコードタイプの2つのタイムラインビューに、異なる並べ替えを適用できます。 同じタイムラインビューを見ている2人のユーザーには、現在適用されている同じ並べ替えが表示されます。
+* タイムラインビュー用に作成した並べ替えに名前を付けることはできません。
+* 並べ替えを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示するユーザーから削除されます。
 
-* You can sort by connected record fields or lookup fields.  
+* 接続されているレコードフィールドまたはルックアップフィールドで並べ替えることができます。
 
-To add a sort in the timeline view:
+タイムラインビューで並べ替えを追加するには：
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、レコードタイプのタイムラインビューを作成します。
+1. ビューのツールバーで「**並べ替え**」をクリックします。
 
-    The sorting box opens. 
+   並べ替えボックスが開きます。
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![&#x200B; グループ化された並べ替えでタイムラインで並べ替え](assets/sort-in-timeline.png)
+1. ドロップダウンメニューから「**レコードを並べ替え**」を選択し、**候補フィールドから開始** リストに表示されているフィールドをクリックするか、**別のフィールドを選択**&#x200B;をクリックしてから、フィールドを検索してリストに表示されたらクリックします。
+1. レコードの並べ替えを適用する方向（アルファベット順、逆順など）を選択します。 並べ替えの適用方向は、選択したフィールドの形式によって異なります。
+1. （オプション）「**条件を追加**」をクリックして、最大10件の条件を追加します。
+1. （オプション）すべての条件を削除するには、**すべてをクリア**&#x200B;をクリックします。
+1. 並べ替えボックスの左上隅にあるドロップダウンメニューから、「**グループ化を並べ替え**」を選択します。
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >タイムラインビューにグループ化が適用されていない場合、**グループ化を並べ替え** オプションは使用できません。
+1. （オプション）グループ化の並べ替えを適用する方向（アルファベット順、逆順など）を選択します。 並べ替えの適用方向は、選択したフィールドの形式によって異なります。
+1. （条件付き）デフォルトから変更した場合は、**すべてをリセット**&#x200B;をクリックして並べ替え方向をリセットします。
+1. フィールドの並べ替え順を変更するには、ツールバーの&#x200B;**グループ化**&#x200B;をクリックし、グループ化を並べ替えます。 フィールドの並べ替えも変更されます。
+1. （オプション）グループ化の並べ替えを削除するには、タイムラインビューからグループ化を削除します。
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   ソートは直ちに適用されます。
+1. ページ上の任意の場所をクリックして、並べ替えボックスを閉じます。
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 

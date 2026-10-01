@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 44%
+source-wordcount: '1262'
+ht-degree: 43%
 ---
 # レイアウトテンプレートを使用した左パネルのカスタマイズ
 
@@ -199,7 +199,7 @@ ht-degree: 44%
      <tr> 
        <td>[!UICONTROL ユーザーの詳細]</td> 
        <td>ユーザーの名前</td> 
-       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer], [!UICONTROL Employment History]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL レートカード &#x200B;]</td> 
@@ -237,6 +237,8 @@ ht-degree: 44%
 
    * **表示** ![表示アイコン &#x200B;](assets/add-secondary-nav-item.png)または&#x200B;**非表示** ![非表示アイコン &#x200B;](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルでセクションを表示または非表示にします。 **表示**&#x200B;または&#x200B;**非表示** アイコンがない項目を非表示にすることはできません。
 
+     すべての領域またはオブジェクトタイプには、左側のパネルに少なくとも1つのセクションが必要です。 他のすべての項目が非表示になっている場合、最後の残りの項目を非表示にすることはできません。
+
    * 項目![移動アイコン &#x200B;](assets/move-icon---dots.png)をドラッグして、左側のパネルで順序を変更します。
 
    >[!NOTE]
@@ -247,7 +249,7 @@ ht-degree: 44%
    >* [!UICONTROL ホーム]
    >* [!UICONTROL ブランディング]
    > 
-   >その他の領域をカスタマイズする方法については、次の記事を参照してください。
+   >これらの追加領域をカスタマイズする方法については、次の記事を参照してください。
    >
    >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [&#x200B; レイアウトテンプレートを使用して[!UICONTROL 概要パネル &#x200B;]をカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)

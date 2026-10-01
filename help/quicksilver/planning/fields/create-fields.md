@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 38%
 ---
 <!--
@@ -301,6 +301,17 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
     -->
 
 1. 以下の節の説明に従って、各フィールドの追加に進みます。
+1. （オプションおよび条件付き）フィールドを追加した後、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**フィールドを編集**&#x200B;してフィールドを編集します。
+
+   詳しくは、[&#x200B; フィールドの編集](/help/quicksilver/planning/fields/edit-fields.md)を参照してください。
+1. （オプションおよび条件付き）フィールドを追加した後、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**削除**&#x200B;してフィールドを削除します。
+
+   詳しくは、[&#x200B; フィールドの削除](/help/quicksilver/planning/fields/delete-fields.md)を参照してください。
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview"> （オプションおよび条件付き）フィールドを追加したら、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**フィールドを共有**&#x200B;してフィールドを共有します。</span>
 

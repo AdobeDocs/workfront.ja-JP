@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 76%
+source-wordcount: '8284'
+ht-degree: 75%
 ---
 # カスタムフォームの作成
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
     <li>単一選択ドロップダウン</li>
     <li>複数選択ドロップダウン</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">選択肢 </td> 
     <td> 
     <p>次のいずれかのオプションを選択します。</p> 
@@ -507,6 +510,36 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">選択肢</span></td> 
+    <td>
+    <div class="preview">
+    <p>「<strong>選択肢を編集</strong>」をクリックして、フィールドの選択肢を追加または編集します。</p>
+    <p>選択肢を編集ダイアログで新しい選択肢を追加するには：</p>
+    <ol>
+    <li><p>テーブルの下部にある<strong>新しい行</strong>をクリックします。</p> <p><b>注：</b>追加できる選択肢の数に制限はありません。</p></li>
+    <li><strong>Choice name</strong>と<strong>Choice value</strong>を入力します。 これらは通常、フィールド API名とラベルと同じです。</li>
+    <li>（オプション）「<strong> デフォルトで選択</strong>」を選択すると、フィールドでデフォルトで選択された選択肢が表示されます。</li> 
+    </ol>
+    <p>追加のアクションの場合：</p>
+    <ul>
+    <li>既存の選択肢を編集するには、変更する領域をダブルクリックします。</li>
+    <li> フィールドで選択肢を非表示にするには、選択し、画面下部のアクションバーで「<strong>選択肢を非表示</strong>」をクリックします。 非表示された選択肢は、レポート内で引き続きアクセスできます。</li> 
+    <li> <p>フィールドから選択肢を削除するには、その選択肢を選択し、画面下部のアクションバーで「<strong>選択肢を削除</strong>」をクリックします。</p> <p><b>警告</b>：この選択肢を使用する現在のオブジェクトがある場合は、フィールドから削除しないでください。 削除すると、履歴データが失われる可能性があります。 その代わりに、非表示にするオプションを選択します。これにより、ユーザーは今後このオプションを選択できなくなります。</p> </li> 
+    <li><strong> ドラッグ </strong> アイコン <img src="assets/drag-icon.png">を使用して、選択肢を手動で並べ替えます。</li>
+    <li>「<strong>選択肢A ～ Zを並べ替え</strong>」をクリックして、フィールド内の選択肢をアルファベット順に並べ替えます。</li>
+    </ul>
+    <p>選択肢の編集が完了したら、<strong>保存</strong>をクリックします。</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">ラジオボタン</span></li>
+    <li><span class="preview">チェックボックスグループ</span></li>
+    <li><span class="preview">単一選択ドロップダウン</span></li>
+    <li><span class="preview">複数選択ドロップダウン</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>アクティブ</td>
      <td><p>このオプションは、デフォルトでオンになっています。<p><p>フィールドを非アクティブに設定すると、そのフィールドはレポート、フィルター、ビューから除外され、カスタムフォームフィールドライブラリでは使用できなくなります。</p></td>

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 2%
 ---
 # 拡張リストの使用
@@ -78,27 +78,32 @@ ht-degree: 2%
 | Workfront リスト | オブジェクトリストの場所 |
 | --- | --- |
 | 優先度 | <ul><li>ホーム >左側のメニューで「優先度」アイコンを選択します</li><li>メインメニュー/優先度</li></ul> |
-| リクエストのリスト | <ul><li>リクエスト（新しいエクスペリエンスのみ）</li><li>ホームのマイリクエストウィジェット</li></ul> |
+| リクエストのリスト | <ul><li>メインメニュー/リクエスト（新しいエクスペリエンスのみ）</li><li>ホームのマイリクエストウィジェット</li></ul> |
 | 設定のステータス、優先順位、重要度、<span class="preview">条件</span>、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li><span class="preview">設定/ プロジェクト環境設定/条件</span></li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
 | <span class="preview">更新フィードのアクションと追跡フィールドのリスト </span> | <ul><li><span class="preview">設定/ インターフェイス / フィードの更新/「トラッキングフィールド」タブ </span></li> <li><span class="preview">設定/ インターフェイス / フィードの更新/「アクション」タブ </span></li></ul> |
 | <span class="preview"> スコアカードのリスト </span> | <span class="preview">設定/ スコアカード </span> |
 | <span class="preview"> リスクタイプのリスト </span> | <span class="preview">設定/リスクの種類</span> |
+| <span class="preview"> イベント通知のリスト </span> | <ul><li><span class="preview">設定/電子メール/通知/イベント通知</span></li><li><span class="preview"> グループの詳細ページ/イベント通知</span></li></ul> |
 | レートカードの担当業務と料金のリスト | 設定/レート・カード/レート・カードの選択/担当業務とレート |
 | <span class="preview">場所のリスト </span> | <span class="preview">設定/場所</span> |
 | 翻訳のリスト | 設定/ローカライズ |
-| <span class="preview">統合のリスト </span> | <ul><li><span class="preview">設定/ドキュメント/SharePoint統合</span></li><li><span class="preview"> セットアップ/ドキュメント/カスタム統合</span></li></ul> |
-| レポートのリスト | レポート （**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
+| <span class="preview">統合のリスト </span> | <ul><li><span class="preview">設定/ドキュメント/SharePoint統合</span></li><li><span class="preview"> セットアップ/ドキュメント/カスタム統合</span></li><li><span class="preview">設定/ドキュメント/Experience Manager Assets</span></li></ul> |
+| レポートのリスト | メインメニュー/レポート（**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
+| <span class="preview"> キューのトピック、トピックグループ、ルーティングルールのリスト </span> | <ul><li><span class="preview"> プロジェクトまたはテンプレート/キューのトピック </span></li><li><span class="preview"> プロジェクトまたはテンプレート/トピックグループ </span></li><li><span class="preview"> プロジェクトまたはテンプレート/ルーティングルール </span></li></ul> |
 | スナップショットのリスト | プロジェクト/スナップショット |
 | 請求用リソースのリスト | プロジェクト/請求用リソース |
+| <span class="preview">先行タスクのリスト </span> | <span class="preview">設定/ タスクまたはテンプレート タスク / 先行タスク </span> |
 | タスクの新しい高度な割り当て | タスク/割り当て/詳細 |
 | <span class="preview"> ドキュメントのすべてのバージョン表示</span> | <span class="preview"> プロジェクト/ドキュメント/ドキュメントの詳細/すべてのバージョン </span> |
 | ボード管理者ビュー | ボード/管理者ビュー |
 | Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
 | <span class="preview"> シナリオプランとイニシアチブのリスト </span> | <span class="preview"> メインメニュー/シナリオ </span> |
+| <span class="preview">目標と進捗状況インジケーターのリスト </span> | <ul><li><span class="preview"> メインメニュー/目標</span></li><li><span class="preview"> メインメニュー/目標/進行状況インジケーター</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -424,7 +429,7 @@ Last, under Scenario Planner
 1. リストの上にある&#x200B;**フィルター**&#x200B;をクリックします。
 1. フィルターボックスで、**条件を追加**&#x200B;をクリックします。
 1. フィルタリングするフィールドを選択します。
-1. 「次のいずれかを持つ」、「次のいずれも持たない」、「次の前にある」、「次の後にある」などのフィルター修飾子を選択します。 修飾子オプションは、フィルタリングするフィールドのタイプによって異なります。
+1. フィルター修飾子を選択します。例えば、「次のいずれかである」、「次のいずれでもない」、「次の前である」、「次の後である」などです。 修飾子オプションは、フィルタリングするフィールドのタイプによって異なります。
 1. フィールドの値を選択します。 フィルタリングするフィールドタイプに応じて、リストから項目を選択するか、検索するか、カレンダーを使用して日付範囲を選択するように求められることがあります。
 
    ![拡張リストのフィルター](assets/glist-filter-with-options.png)
@@ -471,7 +476,7 @@ Workfrontでは、事前に定義されたグループ化の数が限られて�
    ![&#x200B; グループ化を選択](assets/glist-grouping-choose-a-group-by.png)
 
 1. 「**すべてを折りたたむ**」をクリックすると、すべてのグループが折りたたまれたリストが表示されます。 デフォルトのオプションは、すべてのグループ化が展開されたリストを表示することです。
-1. グループ化を適用すると、「グループ」オプションをもう一度開いて、すべてのグループ化を一度に折りたたんだり展開したり、グループ化を変更して別のフィールドでグループ化したり、すべてのグループ化をクリアしたりできます。
+1. グループ化を適用すると、「グループ化」オプションをもう一度開いて、すべてのグループ化を一度に折りたたんだり展開したり、グループ化を変更して別のフィールドでグループ化したり、すべてのグループ化をクリアしたりできます。
 
    ![拡張リストでのグループ化](assets/glist-group-by-due-date-priorities.png)
 

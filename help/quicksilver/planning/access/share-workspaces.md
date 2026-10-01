@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 28%
+source-wordcount: '1210'
+ht-degree: 27%
 ---
 # ワークスペースを共有
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -173,6 +173,15 @@ Old:
 * ワークスペースを共有する場合、ビューは共有されません。 ビューを個別に共有する必要があります。
 * Workspace権限は、レコードタイプに対して継承された権限として表示されます。
 
+<div class="preview">
+
+* ワークスペースの所有者を、アクティブで標準ライセンスのユーザーに変更できます。 グループ、チーム、会社、または担当業務をワークスペースの所有者にすることはできません。
+
+</div>
+
+
+&lt;!—! – 実稼動時に上記を確認します。アクティブユーザーに置き換える必要がありますか？? 非アクティブでもOKです。環境がありませんでした – >
+
 ## ワークスペースに対する権限の共有
 
 以下のユーザーは、ワークスペースを他のユーザーと共有できます。
@@ -202,7 +211,7 @@ Old:
 
      ワークスペースのグローバル権限を変更するには、システム管理者に依頼する必要があります。
 
-1. **このワークスペースへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。
+1. **このワークスペースへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。<!--update screen shot at production-->
 
    ![&#x200B; グループとUIを共有](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ Old:
    >
    >* ユーザーとワークスペースを共有すると、そのユーザーの主な担当業務と電子メールもフィールドに表示されます。 ユーザーの電子メールを表示するには、アクセスレベルのUsers オブジェクトで「連絡先情報を表示」設定を有効にする必要があります。
 
-1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。
+1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。<!--update screen shot at preview-->
 
    ![&#x200B; グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -221,7 +230,19 @@ Old:
    * 参加
    * 管理
 
-     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+
+   <div class="preview">
+
+   * 所有者
+
+     別のアクティブなStandard ライセンス ユーザーをワークスペースの所有者にすることしかできません。 元の所有者は、管理権限を持つワークスペースに残ります。
+
+   </div>
+
+1. <span class="preview"> （条件付き）ワークスペース所有者を変更する場合は、**所有者を変更**&#x200B;をクリックして確認します。</span>
+
+
 1. 「**リンクをコピー**」をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
 1. 「**保存**」をクリックします。
@@ -254,7 +275,6 @@ Old:
 1. **保留中のアクセス要求**&#x200B;の左側にある左向き矢印をクリックし、**保存**&#x200B;をクリックします。
 
    リクエストを承認すると、ユーザーはワークスペースの共有ボックスに追加されます。 権限を要求するユーザーは、要求が承認されたことを確認する電子メールを受信します。<!--will they also get an in-app notification??-->
-
 
 ## ワークスペースに対する権限の削除
 

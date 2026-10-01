@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4037'
 ht-degree: 38%
 ---
 # テーブルビューの管理
@@ -198,12 +198,10 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-デフォルトでは500件のレコードが表示されます
 
 テーブルビューを管理するには：
 
@@ -314,6 +312,7 @@ Old:
       テーブルビューで非表示になっているフィールドに関連付けられたキーワードは使用できません。
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ Old:
 
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
 
-1. これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
+1. （条件付き）これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
 
    * **SUM**：列内のすべてのセルの合計を表示します。 これはデフォルトの選択です。
    * **MIN**：列のすべてのセルの最小値を表示します。
    * **MAX**：列内のすべてのセルの最大値を表示します。
    * **AVG**：列内のすべてのセルの平均値を表示します。
+
+   <!-- 
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+    -->
 
    アグリゲーターを使用する場合は、次の点を考慮してください。
 
@@ -338,6 +345,61 @@ Old:
    * ビューマネージャーは集計機能を選択でき、他のユーザーとビューを共有するとビューと共有されます。
    * ビューアとして、アグリゲータを変更することはできますが、ビューと共に保存されません。
    * 公開された共有ビューは、変更できない保存されたアグリゲーターと共有されます。
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### 行（またはレコード）の追加 {#add-rows-1}
 
@@ -455,10 +517,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p>
+            <td><p>が次のいずれかを含む</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p>
+            <p>が次のいずれも含まない</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>
@@ -615,7 +677,7 @@ Old:
 * グループ化は、値のアルファベット順にリストされます。
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +692,14 @@ Old:
 1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
 
    グループ化はテーブルに自動的に適用され、レコードがグループ化の区切り線の下に表示されます。
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. （オプション）「**条件を追加**」をクリックし、上記の手順を繰り返して最大3つのグループ化を追加します。
 

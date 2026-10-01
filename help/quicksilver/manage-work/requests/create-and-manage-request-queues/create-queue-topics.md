@@ -12,27 +12,37 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 972
-ht-degree: 74%
-
+source-wordcount: '1012'
+ht-degree: 71%
 ---
-
 # キュートピックを作成
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -144,7 +154,7 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>トピック グループに追加</strong> </td> 
-      <td> プロジェクトにトピックグループがない場合、プロジェクトの名前はデフォルトでトピックグループになります。<br>ここから追加のトピックグループを作成する場合は、ドロップダウンメニューから「<strong>新しいトピックグループを作成</strong>」を選択します。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> プロジェクトにトピックグループがない場合、プロジェクトの名前はデフォルトでトピックグループになります。<br>ここから追加のトピックグループを作成する場合は、ドロップダウンメニューから「<strong>新しいトピックグループを作成</strong>」を選択します。<br><img src="assets/create-new-topic-group-within-queue-topic.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>カスタムフォーム</strong> </td> 
@@ -197,6 +207,7 @@ drafted - replace table with P&P:
 1. 編集するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで「**トピックをキュー**」をクリックします。
 1. 編集するキュートピックをクリックします。
+   <span class="preview">編集するキュートピックの横にあるチェックボックスを選択し、画面下部の青いアクションバーの&#x200B;**編集**&#x200B;をクリックします。</span>
 
 使用可能な編集オプションについて詳しくは、この記事の「[&#x200B; キューのトピックを作成](#create-a-queue-topic)」を参照してください。
 
@@ -208,4 +219,5 @@ drafted - replace table with P&P:
 1. 左側のパネルで「**トピックをキュー**」をクリックします。
 1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 チェックマークがボックスに表示されます。
 1. ページ上部の&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
+   <span class="preview">画面下部のアクションバーで&#x200B;**削除**&#x200B;をクリックします。</span>
 
