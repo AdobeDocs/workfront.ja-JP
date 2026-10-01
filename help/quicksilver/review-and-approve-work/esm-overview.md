@@ -77,7 +77,7 @@ WorkfrontとFrame.ioの連携について詳しくは、[統一されたレビ�
 
 新しいドキュメント領域は、Adobe クラウドストレージ用に再設計された統合ドキュメント領域です。
 
-更新されたインターフェイスにより、ナビゲーションが簡素化され、わかりやすくなり、チームは単一の統合環境でレビューと承認を容易に管理できるようになります。 詳しくは、[ ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+更新されたインターフェイスにより、ナビゲーションが簡素化され、わかりやすくなり、チームは単一の統合環境でレビューと承認を容易に管理できるようになります。 詳しくは、[&#x200B; ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 #### 新しいドキュメント権限モデル
 
@@ -93,7 +93,7 @@ WorkfrontとFrame.ioの連携について詳しくは、[統一されたレビ�
 
 プロジェクトレベルでは、システム生成フォルダーにリンクされたオブジェクトが表示されます。 フォルダーには、属するタスクまたはイシューと自動的に同じ名前が付けられます。 リンクされたフォルダーは、フォルダーを表示するタスクまたはイシューをシステムが把握する仕組みです。
 
-詳しくは、[ ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
+詳しくは、[&#x200B; ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
 
 #### Adobe Cloud Drive
 
@@ -121,7 +121,7 @@ Workfront オブジェクトには、ポートフォリオ、プログラム、�
 
 これらの変換中に、ドキュメントとドキュメントフォルダーが従来のWorkfront ストレージからAdobe クラウドストレージに移動することはありません。
 
-詳しくは、[Adobe クラウドストレージでのWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[ オブジェクトポータビリティ ](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
+詳しくは、[Adobe クラウドストレージでのWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[&#x200B; オブジェクトポータビリティ &#x200B;](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
 
 ## Adobe クラウドストレージを有効にする
 
@@ -139,7 +139,7 @@ Adobe クラウドストレージをサポートするWorkfrontのバージョ�
 
 Adobe クラウドストレージは[!DNL Workfront] サンドボックス環境で利用できるため、実稼動環境で有効にする前にテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
 
-カスタムリフレッシュサンドボックスがある場合は、サンドボックス内のAdobe クラウドストレージ機能にアクセスするために、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 詳しくは、[ カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+カスタムリフレッシュサンドボックスがある場合は、サンドボックス内のAdobe クラウドストレージ機能にアクセスするために、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 詳しくは、[&#x200B; カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 考慮事項
 

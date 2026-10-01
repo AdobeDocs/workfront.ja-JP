@@ -68,7 +68,7 @@ Photoshop、IllustratorまたはInDesignでWorkfront プロジェクトにアク
 1. Photoshop、Illustrator、またはInDesignを開きます。
 1. アプリの左側にある&#x200B;**プロジェクト** パネルで、開くWorkfront プロジェクトを選択します。
 
-   ![ プロジェクトパネルに表示されるWorkfront プロジェクト ](assets/cc-projects.png)
+   ![&#x200B; プロジェクトパネルに表示されるWorkfront プロジェクト &#x200B;](assets/cc-projects.png)
 
 1. プロジェクトでドキュメントを開いて編集します。 変更内容を保存すると、Workfront プロジェクトに自動的に保存されます。
 
@@ -79,7 +79,7 @@ Photoshop、IllustratorまたはInDesignでWorkfront プロジェクトにアク
 
 ## 文書の承認を依頼する
 
-Workfrontでドキュメントの承認機能を追加するには、Photoshop、Illustrator、InDesignからアップロードしたドキュメント、または他のドキュメントと同じAdobe Cloud Driveからアップロードしたドキュメントを使用します。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+Workfrontでドキュメントの承認機能を追加するには、Photoshop、Illustrator、InDesignからアップロードしたドキュメント、または他のドキュメントと同じAdobe Cloud Driveからアップロードしたドキュメントを使用します。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 <!--
 need to verify
