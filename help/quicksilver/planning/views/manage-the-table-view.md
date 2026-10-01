@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
+source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
 workflow-type: tm+mt
-source-wordcount: '3630'
-ht-degree: 40%
+source-wordcount: '4233'
+ht-degree: 37%
 ---
 # テーブルビューの管理
 
@@ -53,7 +53,7 @@ Adobe Workfront プランニングのレコードタイプのページにアク�
 * [テーブルビューでの列と行の作成または編集](#manage-a-table-view)
 * [テーブルビューのリアルタイムプレゼンス指標を有効にする](#enable-the-real-time-presence-indicator)
 
-テーブルビューをExcelまたはCSV ファイルに書き出す方法について詳しくは、[&#x200B; テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
+テーブルビューをExcelまたはCSV ファイルに書き出す方法について詳しくは、[ テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
 
 ## アクセス要件
 
@@ -104,7 +104,7 @@ Adobe Workfront プランニングのレコードタイプのページにアク�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -177,7 +177,7 @@ Old:
 
 レコード情報はテーブルビューで編集できます。
 
-テーブルビューでのレコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+テーブルビューでのレコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 ## テーブルビューの管理 {#manage-a-table-view}
 
@@ -215,7 +215,7 @@ Old:
    * 中
    * 高い
 
-1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+1. （オプション）「**フルスクリーン**」アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [列（またはフィールド）](#add-columns-or-fields)
@@ -243,7 +243,7 @@ Old:
 
    追加した列は、レコードタイプにアクセスするすべてのユーザーに表示され、レコードのページに新しいフィールドとして追加されます。
 
-1. （オプション）ツールバーの&#x200B;**フィールド** アイコン ![&#x200B; フィールドアイコン &#x200B;](assets/fields-icon.png)をクリックし、フィールドを検索してから、フィールド名の右側にあるトグルを選択解除して、フィールドを非表示にします。
+1. （オプション）ツールバーの&#x200B;**フィールド** アイコン ![ フィールドアイコン ](assets/fields-icon.png)をクリックし、フィールドを検索してから、フィールド名の右側にあるトグルを選択解除して、フィールドを非表示にします。
 
 1. テーブルの列を並べ替えるには、次のいずれかの操作を行います。
 
@@ -253,7 +253,7 @@ Old:
 
      <!--update the screen shot without Thumbnail at Production release-->
 
-     ![&#x200B; テーブル表示ツールバーの設定フィールドが拡張されました](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![ テーブル表示ツールバーの設定フィールドが拡張されました](assets/fields-setting-table-view-toolbar-expanded.png)
 
      >[!TIP]
      >
@@ -267,7 +267,7 @@ Old:
 
 1. （オプション）テーブルの最初の列に表示されないフィールドの列ヘッダーにあるフィールド名の上にポインタを合わせ、フィールド名の右側にある下向き矢印をクリックして、「**プライマリフィールドとして設定**」をクリックします。
 
-   ![&#x200B; テーブルビューでプライマリフィールドオプションとして設定](assets/set-as-primary-field-option-table-view.png)
+   ![ テーブルビューでプライマリフィールドオプションとして設定](assets/set-as-primary-field-option-table-view.png)
 
 
 1. 「**フィールドを設定**」をクリックして確認します。
@@ -278,7 +278,7 @@ Old:
 
    >[!TIP]
    >
-   >列のフィールド名の右側にある&#x200B;**情報** アイコン ![情報アイコン &#x200B;](assets/info-icon.png)をクリックすると、**説明**&#x200B;が表示されます。
+   >列のフィールド名の右側にある&#x200B;**情報** アイコン ![情報アイコン ](assets/info-icon.png)をクリックすると、**説明**&#x200B;が表示されます。
 
 1. 列の区切り線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 
@@ -296,16 +296,16 @@ Old:
    >
    >非表示のフィールドの数は、ツールバーのフィールドアイコンの左側に表示されます。
    >
-   >デフォルトでは、非表示フィールドはレコードの&#x200B;**詳細** プレビューボックスに表示されません。 すべてのフィールドは、レコードの詳細ページに表示されます。 詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+   >デフォルトでは、非表示フィールドはレコードの&#x200B;**詳細** プレビューボックスに表示されません。 すべてのフィールドは、レコードの詳細ページに表示されます。 詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 
 1. **フィールド** アイコンをクリックし、テーブルの列に表示するフィールドに関連付けられている切り替えスイッチを選択します。 デフォルトでは、すべてのフィールドが表示されます。
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** ボックス ![検索アイコン &#x200B;](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
+   1. **検索** ボックス ![検索アイコン ](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
 
-      ![&#x200B; テーブルビューの結果の青いアウトラインを含む検索ボックス &#x200B;](assets/search-box-with-results-blue-outline-g-table.png)
+      ![ テーブルビューの結果の青いアウトラインを含む検索ボックス ](assets/search-box-with-results-blue-outline-g-table.png)
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -324,144 +324,145 @@ Old:
 
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
 
-1. （条件付き）これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
 
-   * **SUM**：列内のすべてのセルの合計を表示します。 これはデフォルトの選択です。
-   * **MIN**：列のすべてのセルの最小値を表示します。
-   * **MAX**：列内のすべてのセルの最大値を表示します。
-   * **AVG**：列内のすべてのセルの平均値を表示します。
+1. （条件付き）表示するフィールドのタイプに応じて、次のいずれかの操作を行います。
 
-   <!--    
-    <div class="preview"> 
+   * これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
 
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-    </div> 
-    -->
+     * **SUM**：列内のすべてのセルの合計を表示します。 これはデフォルトの選択です。
+     * **MIN**：列のすべてのセルの最小値を表示します。
+     * **MAX**：列内のすべてのセルの最大値を表示します。
+     * **AVG**：列内のすべてのセルの平均値を表示します。
+
+     <div class="preview">
+
+     * **NONE**：列の値が集計されません。これはデフォルトのオプションです。
+
+     </div>
+
+   <div class="preview">
+
+   * 日付フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
+
+     * **NONE**：列の値が集計されません。これはデフォルトのオプションです。
+     * **EMPTY**：値のないフィールドの数を表示します。
+     * **NOT EMPTY**：値を持つフィールドの数を表示します。
+     * **MIN**：最も早い日付を表示します。
+     * **MAX**：最新の日付を表示します。
+
+   * テキストの場合は、列の下部にある集計ドロップダウンメニューを選択し、次のオプションから選択します。
+
+     * **NONE**：列の値が集計されません。これはデフォルトのオプションです。
+     * **EMPTY**：値のないフィールドの数を表示します。
+     * **NOT EMPTY**：値を持つフィールドの数を表示します。
+
+   </div>
 
    アグリゲーターを使用する場合は、次の点を考慮してください。
 
-   * 列の集計器行はフリーズされ、ビュー設定の一部です。
+   * 列内の集計器行は、値を表示するときにフリーズされ、ビュー設定の一部になります。
    * ビューマネージャーは集計機能を選択でき、他のユーザーとビューを共有するとビューと共有されます。
    * ビューアとして、アグリゲータを変更することはできますが、ビューと共に保存されません。
    * 公開された共有ビューは、変更できない保存されたアグリゲーターと共有されます。
 
+   <div class="preview">
+
+   * 次のフィールドタイプにはアグリゲーターがありません。
+
+     * 作成者
+     * 最終変更者
+     * レコード ID
+   * 数式フィールドと検索フィールドには、フィールド形式に対応する集計が含まれています。
+
+   </div>
+
 <!--
-At preview release, replace the last procedure step with this:
 
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+FROM LISA: This is the old section. I commented it out vs deleting.
 
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
 
-        <div class="preview">
+    <div class="preview"> 
 
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
     
-        </div> 
-   
-    <div class="preview">
+    </div> 
 
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
+-->
 
-    * The following field types do not have an aggregator: 
+### 行（またはレコード）の追加 {#add-rows-1}
 
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+テーブルビューの行には、選択したレコードタイプの個別のレコードが表示されます。 行の追加は、レコードの作成と同じです。
 
-    </div> 
+レコードタイプには、最大50,000件のレコード（または行）を含めることができます。
 
-### Add rows (or records) {#add-rows-1}
+1. レコードタイプページに移動してテーブルビューを選択するか、**+ ビュー**&#x200B;をクリックして新しいビューを追加し、**テーブル**&#x200B;を選択します。
 
-The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
+1. [レコードの作成](/help/quicksilver/planning/records/create-records.md)の記事の説明に従って、レコード（または行）の追加を開始します。
 
-You can have up to 50,000 records (or rows) for a record type. 
+   テーブルビューで追加したレコードはすぐに保存され、ワークスペースに対する表示以上の権限を持つすべてのユーザーに表示されます。
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+   デフォルトのサムネール画像<span class="preview">とカラー</span>も新しいレコードに追加されます。
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   >[!TIP]
+   >
+   ><span class="preview"> レコードに未読のコメントがある場合、レコードのプライマリフィールドの右上隅に&#x200B;**新しいコメント** インジケーターが表示されます。</span>
+   >
+   >![ テーブルビューの新しいコメントアイコン ](assets/new-comment-icon-in-table-view-highlighted.png)
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![ ハンドルアイコン ](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
 
-    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+   >[!NOTE]
+   >
+   >少なくとも1つの並べ替えまたはグループ化をテーブルビューに適用すると、行を並べ替えることはできません。
+   >
+   >行の順序に加えた変更は、同じビューでレコードタイプにアクセスするすべてのユーザーに表示されます。
+   >
+   ><span class="preview"> ドラッグ&amp;ドロップの行に、選択したレコードの数が複数ある場合は、数値インジケーターに表示されます。</span>
 
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    
-1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+1. （オプション）レコードの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネールを編集**&#x200B;をクリックしてサムネールを編集します。
+1. 実稼動環境のテーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックします
 
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type in the same view. 
-    >
-    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+   または
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table in the Production environment
+   <span class="preview"> プライマリフィールドのヘッダー</span>にカーソルを合わせ、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
 
-    Or 
-    
-    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+   詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. <span class="preview"> テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリック </span>
 
-1. <span class="preview">Click **Fields** at the top of the table</span>
-   
-   Or 
-   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+   または
+   <span class="preview"> プライマリフィールドのヘッダーにカーソルを合わせ、**カラー** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。</span>
 
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+1. <span class="preview"> （オプションおよび条件付き） **カラー**&#x200B;設定をオンにした場合、レコードのプライマリフィールドの左側にあるカラーバーをクリックし、**スウォッチ**&#x200B;または&#x200B;**カスタム** タブからカラーを選択し、ボックスの外側をクリックして閉じます。 カラーは直ちに適用されます。</span>
 
 <div class="preview">
 
-![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+![色分けカラーピッカーボックスを記録](assets/color-picker-for-record-color-coding.png)
 
-For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 </div>
 
 
-### Add filters {#add-filters-1}
+### フィルターを追加 {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+フィルターを使用すると、画面に表示される情報の量を減らすことができます。
 
-Consider the following when working with filters in the table view: 
+テーブルビューでフィルターを使用する場合は、次の点に注意してください。
 
--->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -555,7 +556,7 @@ Consider the following when working with filters in the table view:
 
    * 選択したフィールドの値を選択します。
 
-   ![&#x200B; フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
+   ![ フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -567,7 +568,7 @@ Consider the following when working with filters in the table view:
 
    1. （オプション）複数の条件グループ間に&#x200B;**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子を追加します。
 
-      ![&#x200B; ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
+      ![ ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
 
    レコードのリストは自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -605,7 +606,7 @@ Consider the following when working with filters in the table view:
 レコードを並べ替えるには、次の操作を行います。
 
 1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
-1. テーブルの上部にある&#x200B;**並べ替え** アイコン ![並べ替えアイコン &#x200B;](assets/sort-icon.png)をクリックします
+1. テーブルの上部にある&#x200B;**並べ替え** アイコン ![並べ替えアイコン ](assets/sort-icon.png)をクリックします
 
    または
 
@@ -649,7 +650,7 @@ Consider the following when working with filters in the table view:
 
 1. 「**レコードの並べ替え基準**」ボックスの外側をクリックしてボックスを閉じます。
 
-   ![&#x200B; テーブルビューでの並べ替え](assets/sorting-in-table-view-g-list.png)
+   ![ テーブルビューでの並べ替え](assets/sorting-in-table-view-g-list.png)
 
    テーブルに表示される情報は、選択した条件に従って並べ替えられます。
 
@@ -667,7 +668,7 @@ Consider the following when working with filters in the table view:
 
 * テーブルビューとタイムラインビューの両方でグループ化を適用できます。 テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
 * ビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * APIを使用する場合、グループ化は最大4つのレベルまで適用できます。  – 今のところこれをチェックして**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * APIを使用する場合、グループ化は最大4つのレベルまで適用できます。  – 今のところこれをチェックして******************—>
 * グループは、選択したビューに固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。 同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
 * テーブルビュー用に作成したグループ化に名前を付けることはできません。
 * グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
@@ -685,10 +686,10 @@ Consider the following when working with filters in the table view:
 
 グループ化を追加するには：
 
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのテーブルビューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのテーブルビューを作成します。
 1. テーブルビューの右上隅にある「**グループ化**」をクリックします。
 
-   ![&#x200B; リンクされたフィールドを含むUI テーブル ビューのグループ化](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![ リンクされたフィールドを含むUI テーブル ビューのグループ化](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
 
@@ -706,7 +707,7 @@ Consider the following when working with filters in the table view:
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-   ![&#x200B; テーブル ビューでグループ化が適用されました](assets/grouping-applied-in-table-view.png)
+   ![ テーブル ビューでグループ化が適用されました](assets/grouping-applied-in-table-view.png)
 
 1. （オプション）「**レコードを**&#x200B;でグループ化」ボックス内で、グループ化のために選択されたフィールドの右側にある&#x200B;**x** アイコンをクリックして、グループ化を削除します。
 
@@ -715,7 +716,7 @@ Consider the following when working with filters in the table view:
 
 1. グループ化を展開または折りたたむには、**グループ化** アイコンをクリックし、**すべてを展開**&#x200B;または&#x200B;**すべてを折りたたむ**&#x200B;をクリックします。 これにより、テーブルビュー内のすべてのグループ化とサブグループ化が展開されます。
 
-   ![&#x200B; グループ化ボックス テーブル ビューのすべてのボタンを展開および折りたたむ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   ![ グループ化ボックス テーブル ビューのすべてのボタンを展開および折りたたむ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
    <!--
     ******** NOT POSSIBLE **********
@@ -740,7 +741,7 @@ Consider the following when working with filters in the table view:
 
 1. 選択した条件の左上隅にあるカラーピッカーのドロップダウンメニューをクリックして、条件のカラーを選択し、カラーピッカーボックスの外側をクリックして閉じます。
 
-   アクティブなステータスが選択され、デフォルトの色が選択された![行の色ボックス &#x200B;](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
+   アクティブなステータスが選択され、デフォルトの色が選択された![行の色ボックス ](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. （オプション）「**条件を追加**」をクリックして、最初の条件セットにフィールドと値をさらに追加します
 
@@ -750,7 +751,7 @@ Consider the following when working with filters in the table view:
 
    例えば、新しい条件セットを定義することで、キャンペーンをプランニングステータスで黄色で表示できます。
 
-   アクティブおよびプランニング状態のカスタムカラーを含む![行カラーボックス &#x200B;](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+   アクティブおよびプランニング状態のカスタムカラーを含む![行カラーボックス ](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
 
    >[!TIP]
    >
@@ -792,7 +793,7 @@ Consider the following when working with filters in the table view:
 
    アバターのハイライトカラーがグレーの場合、ユーザーは30秒以上前にレコードのアクティブな編集を停止しました。
 
-   ![&#x200B; リアルタイム インジケーターテーブル フィールドとアバター接続](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![ リアルタイム インジケーターテーブル フィールドとアバター接続](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
@@ -1266,9 +1267,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 
