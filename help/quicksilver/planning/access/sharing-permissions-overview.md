@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1529'
 ht-degree: 19%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -60,7 +60,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
   * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
+  詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
 
 * レコードタイプ
 
@@ -68,7 +68,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースに付与された権限レベルは、レコードタイプの継承された権限として表示されます。
   * ユーザーがワークスペース上で持つ権限レベルよりも高い権限レベルのレコードタイプを共有することはできません。
 
-  詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 * レコード
 
@@ -76,7 +76,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ユーザーは、ワークスペースとレコードタイプから権限をデフォルトで継承します。
   * ユーザーの権限レベルがレコードタイプの権限レベルよりも高いレコードまたは低いレコードを共有することはできません。
 
-  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+  詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 <!--
 * Fields
@@ -172,9 +172,9 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
 | 削除 | ✓ |            |       |
 | 表示 | ✓ | ✓ | ✓ |
 
-<!--
-<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
--->
+
+<span class="preview">上記の表で説明した権限に加えて、ワークスペースを共有する際にワークスペースの所有者を変更することもできます。 詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。</span>
+
 
 ### レコードタイプに対する権限
 
