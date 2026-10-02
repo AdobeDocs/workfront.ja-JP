@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 0c08d79733bc6da0ecfd41f765ce2c624e71ad0e
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '476'
+ht-degree: 2%
 ---
 # 2026年第4四半期の財務管理の強化
 
@@ -24,31 +24,27 @@ ht-degree: 3%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
-<!--
-
-## Enhancements to billing rates on templates
+## テンプレートの請求レートの機能強化
 
 >[!NOTE]
 >
->Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
 
-Multiple updates have been made to the billing rates functionality on a project template.
+プロジェクトテンプレートの請求レート機能に複数の更新が行われました。
 
-### For customers on all Workfront and Workflow packages
+### WorkfrontとWorkflowのパッケージをご利用のお客様は
 
-The Rates area on templates has been updated to an enhanced list.
+テンプレートの「レート」領域が拡張リストに更新されました。
 
-For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
 
-### For customers on the Workflow Ultimate package only
+### Workflow Ultimate パッケージをご利用のお客様のみ
 
-Rate attributes are now available to apply to job role billing rates on the template.
+レート属性をテンプレートの担当業務の請求レートに適用できるようになりました。
 
-For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
--->
+詳しくは、[ プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)および[ プロジェクトレベルでのジョブロールの請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 ## 企業の請求率の向上
 
@@ -87,4 +83,4 @@ For more information, see [Edit project templates](/help/quicksilver/manage-work
 
 以前は、1つの属性を親に、その親を祖父母にリンクした場合、元の属性も祖父母に属するものとして自動的に認識されませんでした。 これで、最下位レベルの属性を選択すると、その上のすべてのレベルが自動的に割り当てられます。
 
-属性について詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+属性について詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
