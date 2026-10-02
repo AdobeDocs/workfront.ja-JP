@@ -207,7 +207,7 @@ Workfrontでは、AI エージェンティック プラットフォーム プロ
 | 更新または削除がWorkfrontで有効になりません。 | Workfront管理者がWorkfront MCP サーバーの書き込みアクションを無効にしているか、特定の項目に対してアクションを実行する権限がありません。 | アクションが実行されたAI エージェント型プラットフォームと確認します。 次に、Workfront MCP サーバーに対する書き込みアクションが有効になっており、項目を変更する権限があることを確認します。 |
 | 別のお客様が使用できるツールが表示されません。 | お客様の組織には、その製品領域の使用権限がないか、使用権限の変更が有効になる前に接続を開始しました。 | ライセンスを取得しているWorkfront製品を確認します。 権限が最近変更された場合は、新しいMCP接続を開始し、ツールリストをもう一度確認します。 |
 
-セットアップと認証の問題について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)の「[ セットアップと認証のトラブルシューティング ](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication)」を参照してください。
+セットアップと認証の問題について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)の「[&#x200B; セットアップと認証のトラブルシューティング &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication)」を参照してください。
 
 +++
 
@@ -289,7 +289,7 @@ Workfront APIに慣れ親しんでいると、アクションは，
 
 ### Workfrontのデータは、AI エージェントプラットフォームプロバイダーに送信されるか、プロバイダーによって保存されますか？
 
-詳しくは、この「[ データとセキュリティ ](#data-and-security)」を参照してください
+詳しくは、この「[&#x200B; データとセキュリティ &#x200B;](#data-and-security)」を参照してください
 ガイド。
 
 ### Workfront MCP サーバーの新しいバージョンがリリースされたときはどうなりますか？
