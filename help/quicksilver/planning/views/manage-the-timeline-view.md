@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '5015'
+source-wordcount: '5023'
 ht-degree: 29%
 ---
 # タイムラインビューの管理
@@ -374,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>が次のいずれかを含む</p> または<span class="preview"><p>が次のいずれかである</p></span>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>が次のいずれも含まない</p> または<span class="preview"><p>が次のいずれでもない</p></span>
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>

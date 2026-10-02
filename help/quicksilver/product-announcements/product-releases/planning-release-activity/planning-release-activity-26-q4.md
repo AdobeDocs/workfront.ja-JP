@@ -18,16 +18,96 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
-ht-degree: 2%
+source-wordcount: '3139'
+ht-degree: 3%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## 複数値フィールドのフィルター演算子ラベルがより明確になる
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+すべてのプランニングビューの複数値フィルター演算子が、「次のいずれかを持つ」、「次のいずれも持たない」ではなく、「次のいずれかを持つ」および「次のいずれも持たない」に更新され、Workfront フィルタービルダー全体でより明確で一貫性のある表現が得られました。
+
+これはラベルのみの更新です。 既存のフィルターは自動的に移行され、以前とまったく同じように動作し続けます。
+
+変更内容は、すべてのプランニングビューのフィルターに表示されます。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
+## テーブルビューでの数値以外のフィールドに対するアグリゲータの追加
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+テーブルビューに追加のフィールドタイプ用のアグリゲーターを導入しました。 この機能強化の前は、数値関連のフィールドのみが列の下部に集計を表示していました。
+
+集計器は、フィールドタイプによって異なります。
+
+* 「テキスト」、「選択」、「チェックボックス」、「人物」の各フィールド：「なし」、「空」、「空でない」
+* 日付フィールド：なし、MAX、最小
+* 数式フィールド：形式に対応する集計
+
+数値に関連するフィールドタイプに「なし」を追加しました。すべてのフィールドタイプのデフォルトは「なし」です。
+
+次のシステムフィールドの集計はサポートされていません：作成者、最終変更者、レコード ID。
+
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
+## ワークスペース所有者の変更
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+現在、Workspaceの作成者はデフォルトの所有者として割り当てられています。 このアップデートにより、ワークスペース管理者は、共有ダイアログから別のStandard ライセンスユーザーに所有権を転送できます。
+
+新しい所有者は、共有リストとプランニングホームのワークスペース所有者としてハイライト表示され、前の所有者はワークスペースへの管理アクセス権を保持します。
+
+詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
+
+## タイムラインビューでのレコードとグループ化の並べ替え
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+タイムラインビューでレコードとグループ化を並べ替えることができるようになりました。 この機能強化の前は、この機能は使用できませんでした。
+
+詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
 ## Workfront Planningでのフィールドの共有
 

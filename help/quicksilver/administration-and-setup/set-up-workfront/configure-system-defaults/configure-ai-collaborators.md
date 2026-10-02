@@ -17,14 +17,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 3%
+source-wordcount: '1577'
+ht-degree: 2%
 ---
 # AI共同作業者の設定
 
-AI協力者とは、AI エージェントをプロジェクトやタスクに組み込む手法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。
+{{preview-fast-release-general}}
+
+AI協力者とは、AI エージェントをプロジェクト、タスク、イシューに組み込む方法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。
 
 例えば、ブランドガイドラインを使用してレビューアータイプのAI コラボレーターを設定し、そのコラボレーターにドキュメントのレビューを割り当てることができます。
 
@@ -34,9 +36,15 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 
   詳しくは、[Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
-* 作業エージェント：CopilotまたはWriterを使用して共同作業者を作成し、共同作業者をタスクに割り当ててタスクレベルの作業を完了します。
+* 作業エージェント：Claude、OpenAI、Copilot、Writerなどの標準AI プラットフォームを使用して共同作業者を作成し、その共同作業者をタスクや問題に割り当てて作業項目を完了させます。
 
   詳しくは、[作業担当者の使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
+
+<!--
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+
+   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+-->
 
 
 ## アクセス要件
@@ -57,7 +65,7 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>[!UICONTROL システム管理者] <span class="preview">またはグループ管理者</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -67,6 +75,9 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 +++
 
 ## 前提条件
+
+* [AI レビュー担当者向け](#for-ai-reviewers)
+* [作業担当者の場合](#for-work-agents)
 
 ### AI レビュー担当者の場合：
 
@@ -82,7 +93,11 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 
 ### 作業担当者の場合
 
-作業用エージェントとして使用する前に、Claude、Copilot Studio、またはWriterでエージェントを設定する必要があります。
+作業用エージェントとして使用する前に、Claude、Copilot Studio、Writer、OpenAI、またはIBMでエージェントを設定する必要があります。
+
+>[!NOTE]
+>
+>アドビは、あらゆるエージェントプロバイダーへの接続を目指しています。そのため、お使いのプロバイダーが現在Work Agentsと互換性がない場合は、アカウントチームにお問い合わせください。
 
 ## 新しいAI レビュアーの作成
 
@@ -104,13 +119,16 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 ## 作業エージェントの設定
 
-作業エージェントは、Workfrontでタスクに割り当てることができるエージェントです。 名前、アクセスレベルおよびその他の詳細を使用して作業エージェントを設定し、ユーザーを割り当てるようにタスクに割り当てます。
+作業エージェントは、Workfrontでタスクまたはイシューに割り当てることができるエージェントです。 名前、アクセスレベルおよびその他の詳細を使用して作業エージェントを設定し、ユーザーを割り当てるようにタスクに割り当てます。
 
-作業用エージェントはエージェントであるため、そのアクションと機能は、エージェントを設定する場所で設定されます。 現在、作業用エージェントとして使用されるエージェントは、Copilot Studio、Claude、またはWriterで作成できます。
+作業用エージェントはエージェントであるため、そのアクションと機能は、エージェントを設定する場所で設定されます。 現在、作業用エージェントとして使用されるエージェントは、Copilot Studio、Claude、またはWriter、OpenAI、およびIBMで作成できます。
 
-作業担当者はタスクにのみ割り当てることができ、現在はイシューに割り当てることはできません。
+作業担当者は、タスクまたはイシューに割り当てることができます。
 
 作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+
+* [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
+* [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Workfrontでの作業エージェントの設定
 
@@ -122,6 +140,12 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 1. 「AI共同作業者の名前」フィールドに、共同作業者の名前を入力します。 これは、タスクで使用可能な担当者のリストに表示される名前です。
 1. 「AI共同作業者の説明」フィールドに、共同作業者の目的または実行するアクションの説明を入力します。
 1. 「アクセスレベル」フィールドで、この共同作業者のアクセスレベルを選択します。 このアクセスレベルは、共同作業者の機能を制御し、アクセスレベルはユーザーの機能を制御するのと同じように制御します。
+1. （オプション）グループ フィールドで、作業エージェントが関連付けるグループを選択します。
+
+   >[!NOTE]
+   >
+   ><span class="preview"> グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。</span>
+
 1. **エージェントのオリジンを選択**&#x200B;領域で、CopilotやWriterなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
 1. （条件付き）共通プラットフォームのエージェントを使用している場合は、エージェントのプラットフォームの認証の詳細を入力します。
 
@@ -129,14 +153,21 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
    |---|---|
    | Copilot Studio | Web チャネルシークレット |
    | Claude Managed Agents | Anthropic API キー<br> エージェント ID<br>環境ID |
-   | ライター | API キー<br> アプリケーション ID |
+   | Writer エージェント | API キー<br> アプリケーション ID |
+   | <span class="preview">OpenAI Agents</span> | <span class="preview">API キー<br> エージェント ID</span> |
+   | <span class="preview">IBM watsonx Orchestrate</span> | <span class="preview"> サービス URL<br>API キー<br> エージェント ID</span> |
 
 1. 「**接続をテスト**」をクリックします。 これにより、接続が正しくセットアップされたかどうかを確認できます。
 1. **共同作業者が作業を完了した後、共同作業者が実行するアクションを切り替える**&#x200B;領域を選択できます。
+
+   * <span class="preview">通知を送信：エージェントは、更新ストリームにコメントを作成し、作業を要求したユーザー、エージェントを割り当てたユーザー、またはプロジェクトを所有するユーザーをタグ付けします。</span>
+   * <span class="preview"> ドキュメントをアップロード </span>
+   * <span class="preview"> タスク完了をマーク </span>
+   * タスクフィールドの書き込み：エージェントが書き込むことができるフォームとフィールドを選択します。
+
 1. 「**保存**」をクリックします。
 
 タスクへの割り当て方法など、作業エージェントの詳細については、[作業エージェントの使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
-
 
 ### 作業エージェント用のエージェントを作成するためのベストプラクティス
 
@@ -200,9 +231,46 @@ Writerで作業エージェントとして使用するエージェントを作�
 
 +++
 
+<div class="preview">
+
+<!--
+## Configure a Project Coordinator
+
+The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Project Coordinator**.
+1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
+   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
+   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
+   * In the **Time (MST)** field, select the time to send updates.
+   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
+   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
+   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
+   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
+1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Click **Save**.
+
+For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+-->
+
+</div>
+
 ## AI共同作業者の管理
 
 既存のAI共同作業者を編集、コピー、削除できます。
+
+>[!NOTE]
+>
+><span class="preview"> グループ管理者は、自分が管理者であるグループに関連付けられているAI共同作業者のみを表示し、操作できます。 特定のAI Collaboratorに他のグループも関連付けられている場合、グループ管理者はそれを表示できますが、編集することはできません。</span>
 
 {{step-1-to-setup}}
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1666'
 ht-degree: 1%
 ---
 # 2026年第4四半期の管理者の機能強化
@@ -23,6 +23,80 @@ ht-degree: 1%
 このページでは、2026年第4四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+## AIを活用してカスタムローカライズを生成
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+カスタム用語やフィールドラベルの翻訳にかかる時間を短縮するために、カスタムローカライゼーション用にAI翻訳を生成する機能を追加しました。 現在では、Workfrontの管理者は、AIを活用して未翻訳のカスタムテキストの翻訳を生成したり、以前のローカライズされた用語の翻訳内容を入力し、その結果を確認して調整してから保存したりすることができます。
+
+詳しくは、[&#x200B; カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+
+<!--
+
+## Grant access to MCP Tools
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
+
+* No access
+* Read
+* Create
+* Update / Delete
+
+You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
+
+For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
+
+## レイアウトテンプレートの機能強化
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+レイアウトテンプレートに対して、いくつかの機能強化が行われました。
+
+* システム管理者とグループ管理者は、レイアウトテンプレート内のメインメニューでシステム項目を非表示または表示できるようになりました。 システム項目には、「設定」ボタンと「ヘルプ」ボタンがあります。
+* デフォルトのWorkfront メニューオプションを使用して、カスタムアプリケーションを任意の順序に再配置できるようになりました。 これにより、各アプリケーションを最も関連性の高い場所に配置できます。 以前は、カスタムアプリケーションは常にレイアウトテンプレートのメインメニューオプションの最後の項目であり、再配置できませんでした。
+* 左側のナビゲーションパネルからオブジェクトの詳細ページを非表示にできるようになりました。 オブジェクトには、左側のパネルに少なくとも1つの項目が表示されている必要があります。 他のすべての項目が非表示になっている場合、最後の残りの項目を非表示にすることはできません。
+
+詳しくは、[&#x200B; レイアウトテンプレートを使用したメインメニューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)および[&#x200B; レイアウトテンプレートを使用した左パネルのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
+
+## カスタムフォームデザイナーでフィールドの選択肢を更新する際のエクスペリエンスが向上しました
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+フォームデザイナーでドロップダウンフィールド、ラジオボタン、チェックボックスを操作する際に、1つのダイアログでフィールドの選択肢を追加、編集、削除できるようになりました。 以前は、デザイナーの右側のパネルに選択肢を追加して編集していましたが、選択肢の長いリストを作成した場合は、スペースが少なくなっていました。
+
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)を参照してください。
+
+## Workfrontのインターフェイス内でイベントサブスクリプションを作成および管理できます
+
+組織のイベントサブスクリプションを簡単に作成および管理できるように、「イベントのサブスクリプション」エリアを「設定」に追加しました。 これにより、次のことが可能になります。
+
+* 既存のイベントサブスクリプションのリストを表示します。
+* 指定した条件によるフィルタリングなど、新しいイベントサブスクリプションを作成します。
+* イベント購読を削除します。
+
+<!--ADD LINK WHEN READY-->
+
 
 ## MCP統合用の承認済みリダイレクト URLの追加
 
@@ -85,22 +159,6 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
 詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
-
-## メインメニューでのカスタムアプリケーションの並べ替え
-
->[!NOTE]
->
->プレビュー：2026年9月3日（PT）
->プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
->
->この機能は、2026年9月14日（PT）にプレビュー環境から一時的に削除されました。
-
-レイアウトテンプレートで作業する際に、デフォルトのWorkfront メニューオプションを使用して、カスタムアプリケーションを任意の順序に再配置できるようになりました。 これにより、各アプリケーションを最も関連性の高い場所に配置できます。
-
-以前は、カスタムアプリケーションは常にレイアウトテンプレートのメインメニューオプションの最後の項目であり、再配置できませんでした。
-
-メインメニューにカスタムアプリケーションを追加する方法について詳しくは、[&#x200B; レイアウトテンプレートを使用したメインメニューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 ## カスタムドキュメント統合のための大きなファイルのサポート
 

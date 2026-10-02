@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4037'
-ht-degree: 38%
+source-wordcount: '4228'
+ht-degree: 37%
 ---
 # テーブルビューの管理
 
@@ -324,82 +324,78 @@ Old:
 
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
 
-1. （条件付き）これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
 
-   * **SUM**：列内のすべてのセルの合計を表示します。 これはデフォルトの選択です。
-   * **MIN**：列のすべてのセルの最小値を表示します。
-   * **MAX**：列内のすべてのセルの最大値を表示します。
-   * **AVG**：列内のすべてのセルの平均値を表示します。
+1. （条件付き）表示するフィールドのタイプに応じて、次のいずれかの操作を行います。
 
-   <!-- 
+   * これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
+
+     * **SUM**：列内のすべてのセルの合計を表示します。
+     * **MIN**：列のすべてのセルの最小値を表示します。
+     * **MAX**：列内のすべてのセルの最大値を表示します。
+     * **AVG**：列内のすべてのセルの平均値を表示します。
+     * <span class="preview">**NONE**：列の値が集計されません。 これは既定のオプションです。</span>
+
+   <div class="preview">
+
+   * 日付フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
+
+     * **NONE**：列の値が集計されません。 これはデフォルトのオプションです。
+     * **EMPTY**：値のないフィールドの数を表示します。
+     * **NOT EMPTY**：値を持つフィールドの数を表示します。
+     * **MIN**：最も早い日付を表示します。
+     * **MAX**：最新の日付を表示します。
+
+   * テキストの場合は、列の下部にある集計ドロップダウンメニューを選択し、次のオプションから選択します。
+
+     * **NONE**：列の値が集計されません。 これはデフォルトのオプションです。
+     * **EMPTY**：値のないフィールドの数を表示します。
+     * **NOT EMPTY**：値を持つフィールドの数を表示します。
+
+   </div>
+
+   アグリゲーターを使用する場合は、次の点を考慮してください。
+
+   * 列内の集計器行は、値を表示するときにフリーズされ、ビュー設定の一部になります。
+   * ビューマネージャーは集計機能を選択でき、他のユーザーとビューを共有するとビューと共有されます。
+   * ビューアとして、アグリゲータを変更することはできますが、ビューと共に保存されません。
+   * 公開された共有ビューは、変更できない保存されたアグリゲーターと共有されます。
+
+   <div class="preview">
+
+   * 次のフィールドタイプにはアグリゲーターがありません。
+
+     * 作成者
+     * 最終変更者
+     * レコード ID
+   * 数式フィールドと検索フィールドには、フィールド形式に対応する集計が含まれています。
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
     <div class="preview"> 
 
     * **NONE**: The values of the column are not aggregated. This is the default option. 
     
     </div> 
-    -->
 
-   アグリゲーターを使用する場合は、次の点を考慮してください。
-
-   * 列の集計器行はフリーズされ、ビュー設定の一部です。
-   * ビューマネージャーは集計機能を選択でき、他のユーザーとビューを共有するとビューと共有されます。
-   * ビューアとして、アグリゲータを変更することはできますが、ビューと共に保存されません。
-   * 公開された共有ビューは、変更できない保存されたアグリゲーターと共有されます。
-
-<!--
-At preview release, replace the last procedure step with this:
-
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
-
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
-
-        <div class="preview">
-
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-        </div> 
-   
-    <div class="preview">
-
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
-
-    * The following field types do not have an aggregator: 
-
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
-
-    </div>
-    -->
+-->
 
 ### 行（またはレコード）の追加 {#add-rows-1}
 
@@ -462,6 +458,7 @@ At preview release, replace the last procedure step with this:
 
 テーブルビューでフィルターを使用する場合は、次の点に注意してください。
 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * テーブルビュー用に作成したフィルターは、同じレコードタイプに適用された場合、タイムラインビューのフィルターとは独立して機能します。
@@ -517,10 +514,10 @@ At preview release, replace the last procedure step with this:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>が次のいずれかを含む</p> または<span class="preview"><p>が次のいずれかである</p></span>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>が次のいずれも含まない</p> または<span class="preview"><p>が次のいずれでもない</p></span>
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>
@@ -1265,9 +1262,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

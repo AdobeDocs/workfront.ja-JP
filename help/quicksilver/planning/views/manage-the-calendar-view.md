@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '2010'
 ht-degree: 24%
 ---
 # カレンダービューの管理
@@ -287,10 +287,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>が次のいずれかを含む</p> または<span class="preview"><p>が次のいずれかである</p></span>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <p>が次のいずれも含まない</p> または<span class="preview"><p>が次のいずれかである</p></span>
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>

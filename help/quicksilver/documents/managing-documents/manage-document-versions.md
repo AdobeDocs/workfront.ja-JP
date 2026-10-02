@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 30%
+source-wordcount: '1162'
+ht-degree: 28%
 ---
 # ドキュメントバージョンの管理
 
@@ -240,3 +240,11 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
    >バージョンを削除しても、他のバージョンの番号は変更されません。 例えば、バージョン V1 ～ V5の文書からV3を削除した場合、残りのバージョンは元の番号を保持し、その後はV3はありません。 次にアップロードするバージョンはV6になります。
 
 </div>
+
+### 承認中に現在のファイルを表示
+
+ドキュメントがCreative Cloud ファイル（例えば、Photoshop クラウドドキュメント）であり、承認中に誰かがドキュメントを編集した場合、Workfrontには、承認中のバージョンとは別に、公開中のドキュメントに新しい更新が存在することを示すバッジが付いた&#x200B;**現在のファイル** セクションが表示されます。
+
+>[!IMPORTANT]
+>
+>**質問を開く：**&#x200B;現在のファイルセクションは、最初に表示された時点で永続的に表示されますか、またはライブ文書にレビューされていない更新がある間のみ表示されますか？ 公開前に製品で確認してください。

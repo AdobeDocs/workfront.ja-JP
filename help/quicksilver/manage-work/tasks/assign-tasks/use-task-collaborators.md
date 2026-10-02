@@ -16,16 +16,24 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
+source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1072'
 ht-degree: 3%
 ---
 # 作業担当者の使用
 
-作業担当者は、ドキュメントやアセットのレビューに使用される既存のAI レビュアーに加え、Workfront タスクに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同じようにタスクに割り当てられます。
+{{preview-fast-release-general}}
 
-作業用エージェントは、Copilot Studio、Claude、またはWriterで設定したエージェントに接続します。
+作業担当者は、Workfrontのタスクやイシューに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同じようにタスクに割り当てられます。
+
+Work Agentsは、Copilot Studio、Claude、Writer、<span class="preview">OpenAIまたはIBMで設定したエージェントに接続します。</span>
+
+>[!IMPORTANT]
+>
+>ライターはエージェントの使用を非推奨にしています。 Writer エージェントを使用して設定された作業エージェントは、10月9日以降は機能しません。 2026.
+>
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -58,7 +66,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 ## 前提条件
 
-* 作業エージェントとして使用する前に、Copilot、Claude、またはWriter.aiでエージェントを設定する必要があります。
+* Workfrontで作業エージェントとして使用するには、事前にCopilot、Claude、Writer.ai、OpenAI、またはIBMでエージェントを設定する必要があります。
 
 ## 作業エージェントの概要
 
@@ -74,7 +82,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 >
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* Workfront MCP サーバーは、作業エージェントとして使用されるエージェントに追加する必要がなく、作業エージェントが機能するために接続する必要もありません。
->* 作業用エージェントは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
+>* 作業担当者は現在、Copilot Studio、Claude、Writer.ai、<span class="preview">OpenAI、IBMで作成されたエージェントをサポートしています。</span>
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
 >* Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -86,6 +94,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 * タスクの説明
 * タスクの更新ストリームのコメント
 * タスクに添付された任意のカスタムフォームの情報
+* <span class="preview">個の添付ドキュメント </span>
 
 この情報は常に読み取られ、Workfront設定として設定することはできません。
 
@@ -98,7 +107,9 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 ## 作業エージェントの開始トリガー
 
-作業エージェントがタスクに割り当てられると、次のいずれかの状況が発生したときに作業が開始されます。
+作業エージェントがタスク <span class="preview">またはイシュー</span>に割り当てられている場合、次のいずれかの状況が発生すると作業が開始されます。
+
+<!--update wording to include issues when this goes to production-->
 
 * 作業エージェントは、開始準備ができているタスクに割り当てられます。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * 作業エージェントとユーザーがタスクに割り当てられ、作業エージェントが最初に割り当てられます。
@@ -114,9 +125,9 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 * 作業エージェントは、既に作業エージェントが割り当てられているタスクに割り当てられます。 この場合、最初に割り当てられた作業担当者は既に作業を開始しており、2番目の作業担当者は何もしません。
 * 作業エージェントは、開始準備ができていないタスクに割り当てられています。 （例えば、タスクに先行タスクがある場合、先行タスクはまだ完了していません）。
 
-## タスクへの作業エージェントの割り当て
+## タスク <span class="preview">またはイシュー</span>に作業エージェントを割り当てる
 
-作業担当者は、ユーザーの割り当てと同じようにタスクに割り当てられます。
+作業担当者は、ユーザーの割り当て方法と同じように、タスク <span class="preview">またはイシュー</span>に割り当てられます。
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 

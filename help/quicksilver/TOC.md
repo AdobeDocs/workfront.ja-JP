@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14588'
-ht-degree: 92%
+source-wordcount: '14626'
+ht-degree: 91%
 ---
 # Workfront ガイド {#using}
 
@@ -1225,6 +1225,10 @@ ht-degree: 92%
     * [Adobe Cloud Driveの使用](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Adobe Cloud Driveの設定と管理](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Adobe Cloud Driveのトラブルシューティング](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Adobe Creative Cloud Projects {#adobe-creative-cloud-projects}
+    * [Adobe Creative Cloud プロジェクト：記事インデックス](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Adobe Creative Cloud プロジェクトの概要](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Creative Cloud アプリケーションでのWorkfront ドキュメントの使用](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Workfront と Experience Manager Assets の統合 {#wf-aem-integrations}
     * [Workfront と Experience Manager Assets の統合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Experience Manager 拡張コネクタの Workfront {#wf-aem-enhanced-connector}
@@ -1324,6 +1328,7 @@ ht-degree: 92%
       * [プロジェクト指標について](manage-work/projects/manage-projects/project-metrics.md)
       * [プロジェクト制限の概要](manage-work/projects/manage-projects/project-maximums.md)
       * [AI アシスタントを使用した更新の要約の作成](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[&#x200B; プロジェクト コーディネーターの共同作業者を使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [プロジェクトと関連オブジェクトのドキュメント管理の概要](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * プロジェクトテンプレートの作成と管理 {#create-and-manage-project-templates}
       * [プロジェクトテンプレートの作成と管理：記事インデックス](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1436,7 @@ ht-degree: 92%
       * [タスクを割り当て](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [タスクを割り当て](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [高度な割り当てを作成](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [タスク共同作業者の使用](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [作業担当者の使用](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [スマート割り当ての概要](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [タスクの割り当て変更の概要](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [タスクリスト内の複数のユーザー割り当ての変更](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -1949,6 +1954,9 @@ ht-degree: 92%
       * [統合承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [AI レビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [グループ化された承認の作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[&#x200B; グループ化された承認のレビュー](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[&#x200B; グループ化された承認の管理](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [アセットまたはドキュメントへのレビュアーまたは承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [アセットまたはドキュメントからの承認者またはレビュアーの削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [アセットおよびドキュメントの承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

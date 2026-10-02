@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # 統一されたレビューと承認の概要
@@ -50,16 +50,18 @@ ht-degree: 0%
 
 ## Adobeクラウドストレージ上に構築
 
-統一されたレビューと承認は、Adobe クラウドストレージ（WorkfrontやFrame.ioを含むAdobeのエンタープライズ製品全体のアセットの中央リポジトリとして機能するクラウドベースのストレージソリューション）上に構築されます。<!--, and Creative Cloud.-->
+統一されたレビューと承認は、Adobe クラウドストレージ（Workfront、Frame.io、Creative Cloudなど）上に構築されています。クラウドベースのストレージソリューションは、Adobe エンタープライズ製品全体のアセットの中央リポジトリとして機能します。
 
 Adobeクラウドストレージの主な利点は次のとおりです。
 
 * クリエイティブおよび作業管理アセット向けの統合ストレージレイヤー
 * 安全なアクセス制御のためのAdobe Identity Managementシステム（IMS）による一元的な権限
-* WorkfrontとFrame.io全体でエンドツーエンドのアセットを可視化<!--, and Creative Cloud apps -->
+* Workfront、Frame.io、Creative Cloudのアプリケーションをまたいで、エンドツーエンドのアセットを可視化
 * エンタープライズニーズに対応する拡張性の高いストレージとノルマの管理
 
 詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+
+Creative Cloud アプリケーション（Photoshop、Illustrator、InDesign）からWorkfront プロジェクトに直接アクセスすることもできます。 詳しくは、[Adobe Creative Cloud プロジェクトの概要](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)を参照してください。
 
 ## 統一されたレビューと承認
 

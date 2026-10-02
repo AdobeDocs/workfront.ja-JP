@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 8%
+source-wordcount: '1434'
+ht-degree: 5%
 ---
 # 2026年第4四半期レポートの強化
 
@@ -24,23 +24,99 @@ ht-degree: 8%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## Google Cloud PlatformおよびMicrosoft AzureでCanvas ダッシュボードを使用できるようになりました
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>プレビュー：該当なし
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+Google Cloud Platform （GCP）およびAzure上のWorkfront インスタンスは、Canvas ダッシュボードのオープンベータ版にオプトインできるようになりました。 詳しくは、[&#x200B; キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
 
-Previously, filtering on collection relationships required text mode.
+## Workfront Data Connect用のSnowflake プライベートリストの登録
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>プレビュー：該当なし
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
 
--->
+プライベートリストを登録することで、Workfront Data Connect データを組織のSnowflake アカウントと直接共有できるようになりました。 この連携方法は、Snowflakeのプライベートリスト機能を使用して、データを公開することなく、組織間で安全にデータを共有し、地域やホスティングプラットフォームをまたいで機能します。
+
+プライベートリストは、Workfront データをエンタープライズデータウェアハウス内の他のデータと結合する場合に便利です。 データは独自のSnowflakeアカウントに格納されるため、他のデータと組み合わせてクエリすることができます。
+
+詳しくは、[Workfront Data Connectの非公開リストの登録](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md)を参照してください。
+
+## レポート MCP ツールがCanvas ダッシュボードで使用できるようになりました
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+Canvas ダッシュボードを簡単に使用できるように、Workfront MCPにツールを追加しました。 チャットを通じてCanvas ダッシュボードを作成および管理できるようになり、Workfront データを使用してダッシュボードとウィジェットが作成されるようになりました。 これは、ClaudeやCursorなどのMCP クライアントから機能します。
+
+例えば、次のことができます。
+
+* 質問によるレポート作成。 ダッシュボードやグラフを手作業で作成するのではなく、自然言語で説明します。
+* 同じ場所で編集する： ウィジェットの名前の変更、フィルターの変更、グラフの種類の入れ替え、サイズ変更を要求すると、変更内容がライブダッシュボードに適用されます。
+* 既存のものを再利用。 既存のダッシュボードやウィジェットを、ゼロから再構築するのではなく、出発点として複製します。
+
+### サポート機能
+
+**ダッシュボード**
+
+* 新しいダッシュボードの作成
+* ダッシュボード（自分、自分と共有、すべて、お気に入り）を一覧表示し、タイトルで検索します
+* ダッシュボードの構造を開く/表示する
+* タイトル、説明、通貨、フィルター、プロンプトを更新
+* ダッシュボードの複製（ウィジェット、プロンプト、フィルターの有無にかかわらず）
+* ダッシュボードの削除
+
+**ウィジェット**
+
+* KPI：単一の集計数値（合計、平均、カウント、最小、最大など）
+* グラフ：棒グラフ、棒グラフ、棒グラフ、折れ線グラフおよび円グラフです。単純グラフ、複数系列グラフ、積み重ねグラフをサポートしています
+* 表：行のグループ化を含む複数列テーブル
+* ウィジェットの設定を表示し、更新、コピー、サイズ変更または再配置、または削除します
+
+**レポートオプション**
+
+* 条件およびAND/OR グループを使用したデータのフィルタリング
+* 任意のフィールドでグループ化および集計
+* KPIやチャートから、基礎となるレコードをドリルダウンします
+* カスタム列ラベル、番号、日付、通貨の書式設定、条件付きセルのスタイル設定
+* ダッシュボードレベルのプロンプトとフィルター
+
+詳しくは、[&#x200B; キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
+
+## カンバスダッシュボード間でのウィジェットのコピーまたは移動
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+ウィジェットを同じダッシュボード、編集アクセス権のある別のダッシュボード、または新しいダッシュボードにコピーできるようになりました。 編集アクセス権のある別のダッシュボードまたは新しいダッシュボードにウィジェットを移動することもできます。
+
+ウィジェットをコピーすると、コピー先ダッシュボードを選択するダイアログボックスが開き、ウィジェットをコピーするか移動するかを選択できるようになりました。 以前は、レポートビルダーがすぐに開いていました。
+
+## Canvas ダッシュボードのコレクション関係に関するフィルター
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+カンバスダッシュボードでフィルターを作成する際に、1つのレコードではなく関連するレコードのグループにリンクするフィールドであるコレクション関係でフィルターできるようになりました。 例えば、プロジェクトに属するタスクのステータスをフィルタリングして、「新規」ステータスのタスクを持つプロジェクトのリストを表示できます。
+
+以前は、コレクション関係のフィルタリングにはテキストモードが必要でした。
+
+詳しくは、「[Canvas ダッシュボードのレポートフィルターの参照](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)」を参照してください。
 
 ## Canvas ダッシュボードでのダッシュボードのコピー
 
