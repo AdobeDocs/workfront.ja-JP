@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -524,18 +524,16 @@ ht-degree: 8%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}"> テンプレートの請求率の機能強化</a>
+                <p>プロジェクトテンプレートで、請求率のリスト改善の強化とレート属性の更新がサポートされるようになりました。</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>2026年10月1日（PT）</p></td>
+            <td><p>2026年10月14日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">会社の請求率の機能強化</a>
