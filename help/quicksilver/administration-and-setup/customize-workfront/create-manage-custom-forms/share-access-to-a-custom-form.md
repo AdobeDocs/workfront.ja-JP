@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 33%
@@ -73,73 +73,14 @@ ht-degree: 33%
 * ユーザーまたはチーム、担当業務、グループ、会社、またはビジネスプロファイルとカスタムフォームを共有し、少なくとも「カスタムデータに添付」を選択して「表示」権限を付与したユーザー
 * ユーザーには標準ライセンスまたはプラン ライセンスがあり、そのアクセス レベルでは、カスタム フォームへの管理アクセスが許可されます
 
-<!--
-
-## Share a custom form from the list of forms
-
-Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access-to-custom-forms) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Custom Forms**.
-1. Select the custom form, then click ![Share icon](assets/share-icon.png).
-1. In the box that displays, under **Give custom form access to**, start typing the name of the user, team, job role, group, company, or business profile you want to share the custom form with, then press **Enter** when the name displays.
-1. To adjust access for the user, team, job role, group, company, or business profile you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">View it</td> 
-      <td> <p>This option provides the ability to view and fill out the custom form on objects. At the object level, users must also have at least Contribute access with the <strong>Edit custom form</strong> advanced setting enabled. For example, if the form is attached to a project, users must have Contribute access to that project, or they will not be able to fill out the form.</p>
-      
-      <p><b>NOTE</b>: For users with Light and Contributor licenses (or Work, Review, and Request licenses), this is the highest available option.</p>
-      
-      <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
-       <ul> 
-        <li><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
-        <li> <p><strong>Share</strong>: Ability to share the custom form with others in the system</p> <p>Users with a Light or Contributor license (or Work, Review, or Request license) can share a custom form only through the API or a custom forms report.</p> </li>
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Manage it</td> 
-      <td> <p>This option available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
-       <ul> 
-        <li> <p><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
-        <li><strong>Delete</strong>: Delete the custom form from the system</li> 
-        <li><strong>Share</strong>: Share the custom form with others in the system</li> 
-       </ul> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Optional) Repeat Steps 4-5 to add other names to the list and configure their options.
-1. (Optional) If you want to limit access to the custom form (on objects where it's attached) to those you have specified in the previous steps, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Remove system-wide access**.
-
-   If you change your mind, you can click **Make this visible system-wide** (the default option).
-
-   >[!NOTE]
-   >
-   >* When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Make this visible system-wide**. When the option is configured this way, "Visible System-Wide" displays in the dialog box:
-   >   
-   >![](assets/visible-system-wide-350x480.png)
-   >   
-   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
-
-1. Click **Save**.
-
--->
-
 ## カスタムフォームの共有
 
-カスタムフォームをデフォルトの共有状態（この記事の[&#x200B; カスタムフォームへのアクセス &#x200B;](#access-to-custom-forms)で説明）のままにするのではなく、特定のユーザー、担当業務、グループ、チーム、企業、ビジネスプロファイルに対するフォームへの特定のアクセスレベルを設定できます。
+カスタムフォームをデフォルトの共有状態（この記事の[ カスタムフォームへのアクセス ](#access-to-custom-forms)で説明）のままにするのではなく、特定のユーザー、担当業務、グループ、チーム、企業、ビジネスプロファイルに対するフォームへの特定のアクセスレベルを設定できます。
 
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. リストでカスタムフォームを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+1. リストでカスタムフォームを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
 
    または
 
@@ -185,7 +126,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >* ほとんどの組織では、作業対象のオブジェクトにフォームを添付し、そのデータをレポートに表示する際に、システム内のすべてのユーザーがカスタムフォームに必ず記入できるようにしたいと考えています。 この問題が組織に当てはまる場合は、**システム内のすべてのユーザーが**&#x200B;を表示できるようにすることをお勧めします。
    >* **システム内の全員が**&#x200B;を表示および添付することを選択した場合、すべてのユーザーがフォームを他のオブジェクトに添付できます。
    >
-   >![&#x200B; カスタムフォームを共有](assets/share-custom-forms-all-can-attach.png)
+   >![ カスタムフォームを共有](assets/share-custom-forms-all-can-attach.png)
    >   
    >特定のオブジェクトに添付された機密データをユーザーが入力する可能性のあるカスタムフォームについて懸念がある場合は、フォーム自体へのアクセスを制限するのではなく、それらの&#x200B;*オブジェクト*&#x200B;の共有を制限する方が効果的です。
 
@@ -196,7 +137,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. リストでカスタムフォームを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+1. リストでカスタムフォームを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
 1. 共有ボックスで、フォームに特別なアクセス権を付与する必要がなくなったユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の右側にあるドロップダウンメニューをクリックし、**削除**&#x200B;を選択します。
 1. （オプション）削除する他の名前について、前の手順を繰り返します。
 1. 「**保存**」をクリックします。

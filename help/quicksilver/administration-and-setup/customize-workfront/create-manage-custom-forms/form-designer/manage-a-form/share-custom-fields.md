@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 39%
@@ -35,7 +35,7 @@ ht-degree: 39%
 
 デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰もが、その項目のラベルやAPI名などのプロパティを編集できます。 これを変更するには、共有相手を制御します。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -65,59 +65,6 @@ ht-degree: 39%
 
 +++
 
-<!--
-
-## Configure sharing a custom field or widget from the list of forms
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Custom Forms**.
-1. Click **Fields** to open the Fields area.
-1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
-1. In the Custom Field Access box that displays, specify who you want to share the item with and how you want to share it:
-
-   1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
-
-      ![Custom Field Access box](assets/share-field-give-access-to.jpg)
-
-   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
-
-      ![Sharing options](assets/share-field-view-mng-options.jpg)
-
-      <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-        <tr> 
-         <td role="rowheader">View it</td> 
-         <td> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to add the item to a custom form or share it with other users.</p> </td> 
-        </tr> 
-        <tr> 
-         <td role="rowheader">Manage it</td> 
-         <td> <p>Allows access to edit the custom field and to see it in the Field Library and on the page where you build custom forms.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to delete the item from the system or share it with other users.</p> </td> 
-        </tr> 
-       </tbody> 
-      </table>   
-
-1. (Optional) Repeat the previous step to add other names to the list and configure their options.
-1. (Optional) Click the gear icon ![Settings icon](assets/gear-icon-settings.png) in the top-right corner if you want to choose a system-wide sharing option for the field.
-
-   Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
-
-   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
-
-     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
-   
-   * **Remove system-wide edit access**
-
-     Limits access to only those whom you added to the list. 
-   
-   * **Make this visible system-wide so that everyone in Workfront can see it**
-
-1. Click **Save**.
-
--->
-
 ## カスタムフィールドまたはウィジェットの共有の設定
 
 {{step-1-to-setup}}
@@ -126,7 +73,7 @@ ht-degree: 39%
 1. フォームとフィールドのリストから共有するには：
 
    1. 「**フィールド**」をクリックしてフィールドエリアを開きます。
-   1. 共有するフィールドを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+   1. 共有するフィールドを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
 
 1. フォームデザイナーから共有するには：
    1. カスタムフォームを開くか、新しいカスタムフォームを作成します。
@@ -135,8 +82,8 @@ ht-degree: 39%
 1. 共有ボックスの&#x200B;**フィールドに**&#x200B;へのアクセス権を付与の下で、アイテムを共有するユーザー、チーム、担当業務、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、名前が表示されたら&#x200B;**Enter**&#x200B;を押します。
 1. アイテムの共有方法をより具体的に説明する場合は、名前の右側にあるドロップダウンメニューをクリックし、次のいずれかのオプションを使用します。
 
-   * **表示**: **詳細設定** アイコン ![詳細設定アイコン &#x200B;](assets/configure-options-icon.png)をクリックして、ユーザーがカスタムフォームに項目を追加するか、他のユーザーと共有するかを指定します。
-   * **管理**: カスタムフィールドを編集し、フィールドライブラリとフォームデザイナーの両方で表示するためのアクセスを許可します。 **詳細設定** アイコン ![詳細設定アイコン &#x200B;](assets/configure-options-icon.png)をクリックして、ユーザーがシステムから項目を削除するか、他のユーザーと共有するかを指定します。
+   * **表示**: **詳細設定** アイコン ![詳細設定アイコン ](assets/configure-options-icon.png)をクリックして、ユーザーがカスタムフォームに項目を追加するか、他のユーザーと共有するかを指定します。
+   * **管理**: カスタムフィールドを編集し、フィールドライブラリとフォームデザイナーの両方で表示するためのアクセスを許可します。 **詳細設定** アイコン ![詳細設定アイコン ](assets/configure-options-icon.png)をクリックして、ユーザーがシステムから項目を削除するか、他のユーザーと共有するかを指定します。
 
 1. （オプション）手順5 ～ 6を繰り返して、他の名前をリストに追加し、そのオプションを設定します。
 1. （オプション）フィールドのシステム全体の共有オプションを選択します。
@@ -153,7 +100,7 @@ ht-degree: 39%
 
      リストに追加したユーザーのみにアクセスを制限します。
 
-   ![共有オプション &#x200B;](assets/share-field-in-designer.png)
+   ![共有オプション ](assets/share-field-in-designer.png)
 
 1. 「**保存**」をクリックします。
 
@@ -178,6 +125,6 @@ ht-degree: 39%
 
 ### 共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する必要がある場合は、フォームの共有を解除する必要があります。 手順については、[&#x200B; カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)の記事[&#x200B; カスタムフォームへのアクセスの削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)の節を参照してください。
+共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する必要がある場合は、フォームの共有を解除する必要があります。 手順については、[ カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)の記事[ カスタムフォームへのアクセスの削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)の節を参照してください。
 
 

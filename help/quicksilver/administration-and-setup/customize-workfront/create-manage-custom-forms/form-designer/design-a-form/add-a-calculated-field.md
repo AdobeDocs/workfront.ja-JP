@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 72%
+source-wordcount: '2735'
+ht-degree: 71%
 ---
 # フォームへの計算フィールドの追加
 
@@ -103,8 +103,8 @@ ht-degree: 72%
 >
 >計算済みの式を変更すると、オブジェクトのフィールド値が古くなる場合があります。 これらのフィールドで常に最新の計算を表示するには、以下の操作のいずれかを行います。
 >
->* 添付されたカスタムフォームでデータを編集したオブジェクトを保存した後、オブジェクトのメインページで「その他」アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、カスタム式を再計算します。
->* オブジェクトを一括編集する際に、「カスタム式を再計算」オプションを選択します。
+>* 添付されたカスタムフォームでデータを編集したオブジェクトを保存した後、オブジェクトのメインページで&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**カスタム式の再計算**&#x200B;をクリックします。
+>* オブジェクトを一括編集する場合は、「**カスタム式を再計算**」オプションを選択します。
 >* カスタムフォームで計算カスタムフィールドを編集する場合は、「以前の計算を更新」オプションを選択します。
 
 既存の計算済みカスタムフィールドを再利用するには、以下の手順を実行します。
@@ -118,7 +118,7 @@ ht-degree: 72%
 1. **新しいカスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、**続行**&#x200B;をクリックします。
 1. 画面の左上で、「**フィールドライブラリ**」をクリックします。
 
-   ![&#x200B; フィールドライブラリ &#x200B;](assets/field-library.png)
+   ![ フィールドライブラリ ](assets/field-library.png)
 
 1. 検索ボックスを使用するか、「**計算済み**」セクションを展開して必要な計算済みフィールドを見つけ、カスタムフォーム内の表示したい場所にフィールドをドラッグします。
 
@@ -334,18 +334,19 @@ ht-degree: 72%
       >
       >次のいずれかの操作を実行して、計算に関するヘルプを確認することができます。
       > 
-      >* 計算内の式にカーソルを合わせると、説明、その使用方法を示す例、および詳細を表示する&#x200B;**詳細** リンクが表示されます。詳しくは、[計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
-      >  ![式ヘルプテキスト &#x200B;](assets/hover-expression-help-text.jpg)
+      >* 計算内の式にカーソルを合わせると、説明と、その使用方法を示す例が表示されます。 <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![式ヘルプテキスト ](assets/hover-expression-help-text.png)
       >* 追加したコンポーネントを識別するには、色分けを使用します。 式は青色で表示され、フィールドは緑色で表示されます。
-      >  フィールド式![&#128279;](assets/colors-fields-expressions.jpg)の色
-      >* 計算エラーを見つけます。計算エラーはピンク色で強調表示されます。 強調表示されたエラーの上にポインタを合わせると、その原因に関する簡単な説明が表示されます。
-      >  ![&#x200B; エラーのヘルプ &#x200B;](assets/error-help.png)
+      >  フィールド式](assets/colors-fields-expressions.png)の![色
+      >* 行くときに、赤で下線が引かれた計算エラーを検索します。 強調表示されたエラーの上にポインタを合わせると、その原因に関する簡単な説明が表示されます。
+      >  ![ エラーのヘルプ ](assets/error-help.png)
       >* 計算の下のエリアで、既存の Workfront オブジェクトの結果をプレビューします。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![計算のプレビュー](assets/preview-calc.jpg)
+      >  ![計算のプレビュー](assets/preview-calc.png)
       >* 左側に表示される行番号を使用して、長い計算で式を参照します。
 
       +++
+
    1. 計算カスタムフィールドの計算を完了したら、「**最小化**」をクリックします。
 
    1. （オプション）次のいずれかのオプションを使用して、計算カスタムフィールドをさらに設定します。
@@ -356,7 +357,7 @@ ht-degree: 72%
     <tbody> 
      <tr> 
       <td role="rowheader">ロジックを追加</td> 
-      <td>表示ロジックを追加して、ユーザーがフォームに入力する際に直前の複数選択フィールド（ドロップダウン、チェックボックス、ラジオボタン）で行った少なくとも1つの選択に基づいて、計算フィールドが表示されるかどうかを判断できます。<!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>これは、フォーム上の計算カスタムフィールドの前に、1 つ以上のチェックボックス、ラジオボタンまたはドロップダウンフィールドがある場合にのみ使用できます。 </p> <p>計算カスタムフィールドにはスキップロジックを使用できません。</p> </td> 
+      <td>表示ロジックを追加して、ユーザーがフォームに入力する際に直前の複数選択フィールド（ドロップダウン、チェックボックス、ラジオボタン）で行った少なくとも1つの選択に基づいて、計算フィールドが表示されるかどうかを判断できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md"> カスタムフォームとフィールドへのロジックルールの追加</a>を参照してください。 <p>これは、フォーム上の計算カスタムフィールドの前に、1 つ以上のチェックボックス、ラジオボタンまたはドロップダウンフィールドがある場合にのみ使用できます。 </p> <p>計算されたカスタムフィールドでは、スキップロジックやその他のロジックタイプは使用できません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">以前の計算を更新</td> 
