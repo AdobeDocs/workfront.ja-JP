@@ -17,14 +17,18 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: '66'
+ht-degree: 77%
 ---
 # イベントサブスクリプション
 
 Adobe Workfront のイベントサブスクリプションに関する様々なリソースを次に示します。
+
+>[!NOTE]
+>
+>Workfront アプリケーション内でイベントサブスクリプションを操作するには、[Workfrontでのイベントサブスクリプションの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)を参照してください。
 
 * [イベントサブスクリプション API](../../wf-api/general/event-subs-api.md)
 * [イベントサブスクリプションのベストプラクティス](../../wf-api/general/event-sub-best-practice.md)
