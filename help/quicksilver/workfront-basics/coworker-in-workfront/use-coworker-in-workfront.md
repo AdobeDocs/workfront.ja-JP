@@ -32,7 +32,7 @@ WorkfrontでCoworkerを使用する場合、次のような情報とオブジェ
 
 Coworkerは大規模なAdobe CX Enterprise エコシステムの一部であるため、Coworkerを使用して他のAdobe製品（Workfrontの右側のパネル）で情報やオブジェクトを操作したり、WorkfrontからAdobe CX Coworker インターフェイスに移動したりできます。
 
-Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
+Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
 
 
 ## アクセス要件
