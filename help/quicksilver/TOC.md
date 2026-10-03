@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -694,6 +694,7 @@ ht-degree: 91%
       * [カスタム条件の削除](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Adobe Workfront の管理 {#manage-wf}
     * [Workfront の管理](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Workfrontでのイベントサブスクリプションの設定](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * プルーフ機能の設定 {#configure-proofing}
       * [プルーフの設定](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [プルーフ設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1644,7 +1645,7 @@ ht-degree: 91%
       * [Canvas ダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [キャンバスダッシュボードのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [キャンバスダッシュボードの名前または説明の変更](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-      * [カンバスダッシュボードの複製](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
+      * [Canvas ダッシュボードのコピー](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [キャンバスダッシュボードの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [レイアウトテンプレートへのキャンバスダッシュボードの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * レポートの管理 {#manage-reports}
@@ -1653,7 +1654,7 @@ ht-degree: 91%
       * [カンバスダッシュボードでのレポートのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
       * [Canvas ダッシュボードのレポートフィルター参照](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
       * [カンバスダッシュボードでのレポートデータのグループ化](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
-      * [キャンバスダッシュボードのレポートの複製](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+      * [Canvas ダッシュボードでのレポートのコピーと移動](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [キャンバスダッシュボードでのレポートの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * レポート {#reports}
     * [レポート](reports-and-dashboards/reports/reports-overview.md)

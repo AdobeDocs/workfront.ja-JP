@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
+source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1674'
 ht-degree: 1%
 ---
 # 2026年第4四半期の管理者の機能強化
@@ -95,7 +95,7 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 * 指定した条件によるフィルタリングなど、新しいイベントサブスクリプションを作成します。
 * イベント購読を削除します。
 
-<!--ADD LINK WHEN READY-->
+詳しくは、[Workfrontでのイベントサブスクリプションの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)を参照してください。
 
 
 ## MCP統合用の承認済みリダイレクト URLの追加

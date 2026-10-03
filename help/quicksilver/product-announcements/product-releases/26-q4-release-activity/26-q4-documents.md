@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 3%
 ---
 # 2026年第4四半期ドキュメントの機能強化
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >プレビュー：該当なし
->プロダクション高速リリース：2026年9月17日（PT）
 >すべての人のための制作：2026年10月15日
+>この機能は、当初の予定どおり、2026年9月17日（PT）にプロダクションの高速リリースでリリースされませんでした。 2026年10月15日にProduction for everyoneで利用できるようになりました。
 
 ドキュメントの承認時にカスタムメッセージを設定すると、そのメッセージが承認依頼メールの件名にも表示され、設定された期日までに送信されるようになりました。 これにより、レビュー担当者は電子メールを開くことなく、いつ受信トレイに届くのかを直接確認できます。
 

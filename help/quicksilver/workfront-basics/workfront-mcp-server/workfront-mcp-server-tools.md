@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 6%
 ---
 
@@ -28,6 +28,19 @@ AI エージェント プラットフォームを介してこれらのツール�
 >[!IMPORTANT]
 >
 >AI エージェント型プラットフォームは、Workfrontアカウント、アクセスレベル、オブジェクト権限を使用してWorkfrontで動作します。 ツールは、Workfrontで対応するアクセス権を持っている場合にのみ機能します。 Adobeは、AI エージェントによるWorkfront データの変更について責任を負いません。
+
+## 製品の使用権限がツールリストに与える影響
+
+AI エージェント型プラットフォームに表示されるツールは、組織のWorkfront製品の使用権限によって異なります。
+
+* Workfront Planningのライセンスを取得したお客様は、プランニングツールを参照しますが、ワークフローツールは参照しません。
+* Workfront Workflowのライセンスを取得したお客様は、Workflow ツールを参照しますが、プランニングツールは参照しません。
+* Workfront WorkflowとWorkfront Planningの両方のライセンスを取得しているお客様には、両方のツールが表示されます。
+* インサイトとコンテキストツールは、すべての顧客が利用できます。
+
+組織が製品領域に対する権限を持っていない場合、関連するツールはその接続のツールリストに表示されません。 AI エージェントプラットフォームが、使用権限に使用できないツールを呼び出そうとした場合、リクエストはブロックされます。
+
+次の表は、各ツールが属する製品領域を示しています。
 
 
 ## 読み取りと書き込みのアクション
@@ -45,6 +58,10 @@ Workfront管理者は、AI エージェンティックプラットフォーム�
 AI エージェンティックプラットフォームがWorkfront アイテムを見つけることができても、作成、更新、削除できない場合は、Workfront管理者に書き込みアクションを有効にするように依頼します。 詳しくは、*Adobe Workfront MCP サーバー*&#x200B;の設定の[管理者の前提条件](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites)を参照してください。
 
 ## 承認ツール
+
+製品要件：すべての顧客
+
+現在、承認ツールに対する使用権限の制限はありません。
 
 ### ドキュメント
 
@@ -123,6 +140,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | プロジェクトの検索 | `approvals_find_projects` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、Workfront プロジェクトを検索し、オプションで名前でフィルタリングしたり、呼び出し元ユーザーが所有するプロジェクトに限定したりしました。 | 読み取り |
 
 ## プランニングツール
+
+必要な製品：Workfront計画
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 ## ワークフローツール
 
+必要な製品：Workfront Workflow
+
 ワークフローツールは、AI エージェント基盤が、プロジェクト、タスク、イシュー、時間、割り当て、プログラム、ポートフォリオなど、あらゆるWorkfrontオブジェクトと連携するために使用する汎用的なアクションです。
 
 ### オブジェクトとフィールド
@@ -291,6 +312,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 ### インサイトツール
 
+必要な製品：Workfront WorkflowまたはWorkfront Planning
+
 インサイトツールは、Workfront オブジェクトに関する情報を取得します。
 
 >[!NOTE]
@@ -311,6 +334,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 ## フィードバックツール
 
+必要な製品：Workfront WorkflowまたはWorkfront Planning
+
 <span class="preview"> フィードバックツールを使用すると、AI エージェント型プラットフォームから直接Workfront MCP サーバーでのエクスペリエンスを報告できます。</span>
 
 | タイトル | ツール名 | 機能 | アクション |
@@ -318,6 +343,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | <span class="preview"> フィードバックを共有</span> | <span class="preview">`share_feedback`</span> | <span class="preview">報告されたセンチメントと会話中の出来事を記録します。これにより、WorkfrontのMCP ツールを改善できます。 フィードバックの共有を明示的に求める場合にのみ使用されます（例：「フィードバックの共有」や「バグの報告」）。</span> | <span class="preview">Write</span> |
 
 ## レポートツール
+
+製品要件：すべての顧客
 
 レポートツールを使用すると、チャットを通じてCanvas ダッシュボードを作成および管理できます。 希望するレポートを平易な言葉で説明します。AI エージェント型プラットフォームが、Workfrontデータを使用してダッシュボードとウィジェットを作成します。
 
@@ -336,7 +363,9 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 ## ツールの更新方法
 
-Adobeが新しいバージョンのWorkfront MCP サーバーをリリースすると、AI エージェンティックプラットフォームは、更新されたツールセットを自動的に使用します。 システムに再接続したり、変更を加えたりする必要はありません。
+Adobeが新しいバージョンのWorkfront MCP サーバーをリリースすると、AI エージェンティックプラットフォームは、更新されたツールセットを自動的に使用します。
+
+接続が開始されると、ツールリストが設定されます。 組織の製品の使用権限が変更された場合、次回Workfront MCP サーバーへの新しい接続を開始すると、更新されたツールリストが表示されます。
 
 
 

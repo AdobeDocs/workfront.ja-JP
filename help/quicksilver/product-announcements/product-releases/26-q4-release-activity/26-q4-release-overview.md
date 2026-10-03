@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
 source-wordcount: '3473'
 ht-degree: 8%
@@ -452,7 +452,7 @@ ht-degree: 8%
                 <p>ドキュメントの承認に設定されたカスタムメッセージが、承認リクエストメールの件名にも表示されるようになりました。</p>
             </td>
             <td><p>該当なし</p></td>
-            <td><p>2026年9月17日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
             <td><p>2026年10月15日（PT）</p></td>
         </tr>
         <tr>

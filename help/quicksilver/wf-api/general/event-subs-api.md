@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 88%
 ---
 # Event Subscription API
@@ -42,6 +42,10 @@ ht-degree: 88%
 イベント登録でサポートされている Adobe Workfront オブジェクトでアクションが発生した場合、目的のエンドポイントに応答を送信するように Workfront を設定できます。 つまり、サードパーティアプリケーションは、発生後すぐに、Workfront API を介して Workfront とのやり取りから更新を受け取ることができます。 一般に、ログに記録されるデータ変更から 5 秒未満で web フック通知を受信すると予想できます。 平均的に、顧客は、ログに記録されるデータ変更から 1 秒未満で web フック通知を受け取ります。
 
 イベント登録ではデータは別のサービスに送信されるため、データは Workfront アプリケーションではなく、コマンドを通じて管理されます。
+
+>[!NOTE]
+>
+>Workfront アプリケーション内でイベントサブスクリプションを操作するには、[Workfrontでのイベントサブスクリプションの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)を参照してください。
 
 ファイアウォール経由でイベント登録ペイロードを受け取るには、次の IP アドレスを許可リストに追加する必要があります。
 
