@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 6%
 ---
 
@@ -134,7 +134,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_id_by_name`を使用してください。 このツールは、システム全体で名前の一部が一致するWorkfront プロジェクトを検索しました。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_workfront_data`を使用してください。 このツールには、呼び出し元ユーザーがオーナーであるWorkfront プロジェクトが一覧表示されます。 | 読み取り |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得[&#128279;](#insights-tools)」を参照してください。 | 読み取り |
+| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得](#insights-tools)」を参照してください。[ | 読み取り |
 | 名前でユーザーを検索 | `approvals_find_user_by_name` | 非推奨（廃止予定）: 代わりに`insights_search_users`を使用してください。 このツールは、WorkfrontユーザーのIDを名前（ファジーまたは部分的に一致）で検索し、名前、ID、メール、タイトル、アバターURLを返します。 | 読み取り |
 | 名前でチームを検索 | `approvals_find_team_by_name` | 非推奨（廃止予定）: 代わりに`insights_find_id_by_name`を使用してください。 このツールは、Workfront チームのIDを名前（ファジーまたは部分一致）で検索しました。 | 読み取り |
 | プロジェクトの検索 | `approvals_find_projects` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、Workfront プロジェクトを検索し、オプションで名前でフィルタリングしたり、呼び出し元ユーザーが所有するプロジェクトに限定したりしました。 | 読み取り |
@@ -369,11 +369,15 @@ Adobeが新しいバージョンのWorkfront MCP サーバーをリリースす�
 
 
 
+## インテント遠隔測定
+
+Workfront MCP Serverは、顧客のユーザーインテントを追跡します。 収集されたインテントデータは、テレメトリ目的で汎用的なものであり、Workfront製品に関するユーザーの意図のためにのみ収集されます。 プロンプトインテントテレメトリは、より正確な応答を提供するために、既存のMCP ツールを改善するためにのみ使用されます。
+
+ユーザーは、カスタマーサポートに連絡してリクエストを提出することで、テレメトリ収集を無効にできます。
+
+
 ## その他のツールは近日リリース予定
 
 今後、Workfront MCP サーバーに次のツールを追加する予定です。
 
 * ボード
-
-
-
