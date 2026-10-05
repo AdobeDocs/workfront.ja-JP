@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 94%
+source-wordcount: '984'
+ht-degree: 92%
 ---
 # FAQ - イベント登録
 
@@ -82,7 +82,7 @@ ht-degree: 94%
 
   * 次のいずれかの条件を満たす場合、イベント登録 URL にはハードな無効化が行われます。
 
-    * 登録 URL は、配信に 7 日間失敗し、過去 72 時間に少なくとも 2,000 回連続で配信の試行に失敗しました。
+    * サブスクリプション URLは、少なくとも72時間にわたって配信に失敗し、2,000回以上の連続した配信の試行に失敗しました。
     * 登録 URL が 50,000 回連続で配信に失敗しました。
 
 ## Event Subscription API を呼び出そうとすると、500 応答ステータスが返された場合は、どうすればよいですか？
