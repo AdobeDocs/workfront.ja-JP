@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1000'
 ht-degree: 2%
 ---
 
@@ -74,7 +74,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
-アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 <!--
 No longer required or recommended, per Et:
@@ -155,7 +155,7 @@ Too much:
   * **確定する前に確認**。 AIで生成された回答は不正確である可能性があるため、レコードを確定する前に、常にカードの&#x200B;**ソース**&#x200B;を確認し、リンクされたソースと確認してください。
   * **実際のレコードでAI カードを組み合わせる**。 実際のレコードをアイデア創出スペースにドラッグ&amp;ドロップできます。
 
-## Adobe CX Coworkerのアイデア創出スペース
+## Adobe CX Coworkerで利用可能なアイデア創出スペース
 
 アイデア創出スペースでは、AdobeのCX Coworkerを通じて、対話型コミュニケーションもサポートしています。
 
@@ -200,10 +200,10 @@ Worth noting
 
 ## 追加のリソース
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront計画ドキュメント](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudioの概要](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudioの概要](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

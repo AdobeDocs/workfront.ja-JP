@@ -17,16 +17,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 9%
 ---
 # AI アシスタントを使用して計算フィールドの数式を生成または修正
 
 >[!IMPORTANT]
 >
->* 2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>* 2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 共同作業者について詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 >* AI アシスタントを使用して数式を生成する機能がAdobe Workfrontから削除されました。
 
 

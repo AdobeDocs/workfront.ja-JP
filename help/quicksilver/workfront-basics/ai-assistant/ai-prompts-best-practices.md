@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '770'
 ht-degree: 5%
 ---
 # AI アシスタントのプロンプトとベストプラクティス
 
 >[!IMPORTANT]
 >
->2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 共同作業者について詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 WorkfrontのAI アシスタントは、アカウントデータや特定のオブジェクトタイプに関する有益な情報を提供することで、より効果的に業務を遂行するのに役立つ強力なツールです。
 
@@ -64,16 +64,16 @@ AI アシスタントから最も有用な情報にアクセスするには、�
 * **時間枠を含める**: AI アシスタントにオブジェクトの特定の時間枠を指定すると、処理する必要があるデータを絞り込むのに役立ち、応答でよりターゲットを絞り込んだ情報が得られます。
 * **一度に1つのことだけを要求します**:1つのプロンプトに複数の無関係な要求が含まれている場合、AI アシスタントは適切な情報を提供できません。
 
-推奨プロンプトについて詳しくは、この記事の次の節を参照してください。[&#x200B; プロンプトの例](#prompt-examples)。
+推奨プロンプトについて詳しくは、この記事の次の節を参照してください。[ プロンプトの例](#prompt-examples)。
 
 
 ### AI アシスタントの回答を検証
 
 AI アシスタントの開発のこの段階では、Workfrontのプロセスに関する情報を求める際に、提供される情報を検証することをお勧めします。 これは、プロンプト応答の「ソース」セクションで提供されている記事リンクをクリックすることで可能です。
 
-![&#x200B; ソースセクション &#x200B;](assets/sources-section.png)
+![ ソースセクション ](assets/sources-section.png)
 
-Workfront プロセスのプロンプトについて詳しくは、この記事の「[Workfrontのアクションに関するプロンプト &#x200B;](#prompts-to-learn-about-workfront-actions)」を参照してください。
+Workfront プロセスのプロンプトについて詳しくは、この記事の「[Workfrontのアクションに関するプロンプト ](#prompts-to-learn-about-workfront-actions)」を参照してください。
 
 
 ## プロンプトの例

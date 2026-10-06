@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 63%
+source-wordcount: '1368'
+ht-degree: 64%
 ---
 # Adobe Workfront プランニングの基本を学ぶ
 
@@ -65,9 +65,9 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 >
 >この記事では、WorkfrontまたはWorkflow パッケージも購入した場合のWorkfront計画に関する一般的な情報を説明します。
 >
->Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス &#x200B;](/help/quicksilver/planning/planning-information.md)を参照してください。
+>Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス ](/help/quicksilver/planning/planning-information.md)を参照してください。
 >
->スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+>スタンドアロン製品としてのWorkfront Planningについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 
 ## Workfront計画の可用性
@@ -84,7 +84,7 @@ Workfront Planningは、次のいずれかのWorkfront パッケージを購入�
 
 * Workfront Planningは、組織内のユーザー向けのスタンドアロン製品です。 これにより、Workfront ワークフロー機能やプランニング機能にアクセスできなくなります。
 
-スタンドアロン製品としてのPlanningに含まれる機能について詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+スタンドアロン製品としてのPlanningに含まれる機能について詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ## Adobe Workfront プランニングの概要
 
@@ -180,8 +180,8 @@ Workfront プランニングにアクセスするには、次の手順に従い�
 
 ## Workfront Planning のその他のリソース
 
-* [Adobe Workfront計画に関する一般情報と記事のインデックス &#x200B;](/help/quicksilver/planning/planning-information.md): Workfront計画に関するドキュメントを含むすべての記事のインデックスで、関心のある分野ごとにグループ化されています。
-* [&#x200B; スタンドアロン製品としてAdobe Workfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：スタンドアロン製品として購入した場合のWorkfront Planningに関する一般情報。
+* [Adobe Workfront計画に関する一般情報と記事のインデックス ](/help/quicksilver/planning/planning-information.md): Workfront計画に関するドキュメントを含むすべての記事のインデックスで、関心のある分野ごとにグループ化されています。
+* [ スタンドアロン製品としてAdobe Workfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：スタンドアロン製品として購入した場合のWorkfront Planningに関する一般情報。
 * [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront プランニングの AI アシスタントを使用すると、コマンドを実行して、アシスタントに代行してもらうことによって、レコードの検索、作成、更新、削除などの作業を行うことができます。
 
 <div class="preview">

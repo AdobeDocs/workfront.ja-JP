@@ -22,16 +22,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 12%
 ---
 # AI アシスタントの有効化と無効化
 
 >[!IMPORTANT]
 >
->2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 共同作業者について詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 Workfront管理者は、組織内のどのユーザーがAI アシスタントを有効にするかを制御できます。 これはアクセスレベルで管理されます。
 
@@ -87,7 +87,7 @@ Workfront管理者は、組織内のどのユーザーがAI アシスタント�
 {{step-1-to-setup}}
 
 1. 左側のナビゲーションで「**アクセスレベル**」を選択します。
-1. 目的のアクセスレベルを選択し、リストの上にある&#x200B;**編集** ![編集アイコン &#x200B;](assets/edit-icon.png) アイコンをクリックします。
+1. 目的のアクセスレベルを選択し、リストの上にある&#x200B;**編集** ![編集アイコン ](assets/edit-icon.png) アイコンをクリックします。
 1. 「**アクセスレベルを編集**」ボックスの「**追加の制限を設定…**」領域で、「**Workfront AI アシスタントを無効にする**」チェックボックスのチェックを外します。
 1. 「**保存**」をクリックします。
 1. AI アシスタントを有効にするアクセスレベルごとに、手順3～5を繰り返します。
