@@ -68,7 +68,7 @@ Photoshop、IllustratorまたはInDesignでWorkfront プロジェクトにアク
 1. Photoshop、Illustrator、またはInDesignを開きます。
 1. アプリの左側にある&#x200B;**プロジェクト** パネルで、開くWorkfront プロジェクトを選択します。
 
-   ![ プロジェクトパネルに表示されるWorkfront プロジェクト ](assets/cc-projects.png)
+   ![&#x200B; プロジェクトパネルに表示されるWorkfront プロジェクト &#x200B;](assets/cc-projects.png)
 
 1. プロジェクトでドキュメントを開いて編集します。 変更内容を保存すると、Workfront プロジェクトに自動的に保存されます。
 
@@ -102,7 +102,7 @@ Photoshop、IllustratorまたはInDesignでWorkfront プロジェクトにアク
 
 ## 文書の承認を依頼する
 
-Workfrontでドキュメントの承認機能を追加するには、Photoshop、Illustrator、InDesignからアップロードしたドキュメント、または他のドキュメントと同じAdobe Cloud Driveからアップロードしたドキュメントを使用します。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+Workfrontでドキュメントの承認機能を追加するには、Photoshop、Illustrator、InDesignからアップロードしたドキュメント、または他のドキュメントと同じAdobe Cloud Driveからアップロードしたドキュメントを使用します。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 
 
@@ -110,9 +110,9 @@ Workfrontでドキュメントの承認機能を追加するには、Photoshop�
 
 Photoshop、Illustrator、またはInDesignからWorkfrontにドキュメントを保存すると、保存した変更内容が「バージョン」タブの「現在のファイル」に表示され、「新しい変更」バッジが付けられます。
 
-ドキュメントの新しいバージョンをアップロードするのではなく、現在のファイルに対して承認をリクエストできます。 詳しくは、[現在のファイルに対する承認のリクエスト ](#request-approval-on-the-current-file)を参照してください。
+ドキュメントの新しいバージョンをアップロードするのではなく、現在のファイルに対して承認をリクエストできます。 詳しくは、[現在のファイルに対する承認のリクエスト &#x200B;](#request-approval-on-the-current-file)を参照してください。
 
-![新しい変更バッジを含む現在のファイル ](assets/current-file.png)
+![新しい変更バッジを含む現在のファイル &#x200B;](assets/current-file.png)
 
 ### 現在のファイルに対する承認の要求
 
@@ -121,7 +121,7 @@ Workfrontで現在の文書ファイルの承認をリクエストするには�
 1. 承認を依頼するドキュメントが含まれているWorkfrontのプロジェクトに移動します。
 1. ドキュメントを開き、「**バージョン**」タブに移動します。
 1. 現在のファイルで、**詳細** メニューをクリックし、**承認依頼**&#x200B;をクリックします。
-1. **承認を依頼** ダイアログで、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)の手順に従って承認を作成します。
+1. **承認を依頼** ダイアログで、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)の手順に従って承認を作成します。
 
    ![現在のファイルの承認を依頼](assets/request-update-on-current-file.png)
 
