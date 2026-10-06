@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2237'
 ht-degree: 2%
 ---
 # CX Coworkerのプロンプトとベストプラクティス
@@ -73,7 +73,7 @@ Agent Orchestratorについて詳しくは、[Adobe Experience Platform Agent Or
 
 ## 考慮事項
 
-CX Coworkerを使用する場合は、次の制約を考慮してください。
+Coworkerを使用する際には、次の制約を考慮してください。
 
 ### 可逆性
 
@@ -87,13 +87,13 @@ CX Coworkerを使用する場合は、次の制約を考慮してください。
 
 ### インタラクション/ユーザーエクスペリエンスの制限
 
-* CX Coworkerは現在、個々のユーザーのスタイルや好みから長期的に「学習」することはありません。 あらゆるチャットでは、現在の会話と製品知識のみが使用されます。
+* 共同作業者は現在、個々のユーザーのスタイルや好みから長期的に「学習」することはありません。 あらゆるチャットでは、現在の会話と製品知識のみが使用されます。
 * 会話のコンテキストは、1つのチャットセッション内に保持されます。 新しいページを開いたり、アシスタントを閉じたりすると、会話履歴がリセットされます。
 * 承認手順がConfluenceやSharePointなどの外部アプリケーションにあり、URL フィールドのみを介してリンクされている場合、Coworkerは現在、それらのページを取得して理由を付けません。
 
 ### データ保存/顧客管理キー
 
-* CX CoworkerはAdobe Experience Platform Agent Orchestratorの一部であるため、Coworkerとのやり取りのデータはWorkfrontではなくAdobe Experience Platformに保存されます。 したがって、このデータは、Workfront Customer Managed Keys （BYOK）契約の対象ではありません。
+* CoworkerはAdobe Experience Platform Agent Orchestratorの一部であるため、Coworkerとのやり取りのデータはWorkfrontではなくAdobe Experience Platformに保存されます。 したがって、このデータは、Workfront Customer Managed Keys （BYOK）契約の対象ではありません。
 
 ## 汎用的な基本AI スキル
 
@@ -107,7 +107,7 @@ CX Coworkerを使用する場合は、次の制約を考慮してください。
 
 ### 製品知識
 
-CX Coworkerでは、Workfront ドキュメントから取得した手順や参照情報を提供できます。
+チームメンバーは、Workfrontのドキュメントから取得した手順や参照情報を提供できます。
 
 Workfront ドキュメントから情報を取得する方法について詳しくは、[AI アシスタントのヘルプを参照してください](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
@@ -115,7 +115,7 @@ Workfront ドキュメントから情報を取得する方法について詳し�
 
 ### プロジェクト、タスク、イシューの要約
 
-CX Coworkerでは、Workfrontにアップロードされたプロジェクト、タスク、またはイシュー<!--, or documents-->を要約できます。
+共同作業者は、Workfrontにアップロードされたプロジェクト、タスク、またはイシュー<!--, or documents-->を要約できます。
 
 プロジェクト、タスク、問題の概要について詳しくは、[AI アシスタントを使用した要約](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)を参照してください。
 
@@ -125,7 +125,7 @@ CX Coworkerでは、Workfrontにアップロードされたプロジェクト、
 
 ### Locate work items
 
-CX Coworker can find work items like projects, tasks, and issues
+Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -155,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## WorkfrontのCX Coworker
+## Workfrontの同僚
 
 * [プロジェクト、タスク、イシューの情報](#project-task-and-issue-information)
 * [プロジェクト管理および作業管理](#project-and-work-management)
@@ -163,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### プロジェクト、タスク、イシューの情報
 
-CX Coworkerでは、プロジェクト、タスク、問題（サマリーやプロジェクトの健全性など）に関する情報を得ることができます。
+チームメンバーは、プロジェクト、タスク、イシュー（サマリーやプロジェクトの健全性など）に関する情報を提供できます。
 
 次の領域のドキュメントとアセットの承認のサンプルプロンプトを参照してください。
 
@@ -202,7 +202,7 @@ CX Coworkerでは、プロジェクト、タスク、問題（サマリーやプ
 
 ### プロジェクト管理および作業管理
 
-CX Coworkerを使用すると、タスクや割り当てなどのプロジェクトを作成および管理できます。
+Coworkerを使用して、タスクや割り当てなどのプロジェクトを作成および管理できます。
 
 次の領域のプロジェクトと作業管理のプロンプト例を参照してください。
 
@@ -266,7 +266,7 @@ CX Coworkerを使用すると、タスクや割り当てなどのプロジェク
 
 ### コンテンツと承認
 
-CX Coworkerは、Workfrontでドキュメントとアセットの承認を管理するのに役立ちます。
+Adobe Workfrontで、ドキュメントとアセットの承認を包括的に管理できます。
 
 ドキュメントとアセットの承認を操作する際には、次の点を考慮してください。
 
@@ -313,7 +313,7 @@ CX Coworkerは、Workfrontでドキュメントとアセットの承認を管理
 * Rick Kuvecを削除し、Karen Sterlingをステージ 2に追加して、「Creative Review」テンプレートを更新します。
 
 
-## Workfront PlanningでのCX Coworker
+## Workfront Planningの同僚
 
 ### プランニングレコードの操作
 

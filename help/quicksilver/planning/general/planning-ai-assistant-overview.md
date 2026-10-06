@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '984'
 ht-degree: 11%
 ---
 # Adobe Workfront Planning の AI アシスタントの概要
@@ -55,11 +55,11 @@ AI アシスタントを使用すると、現在のページコンテキスト�
 
 >[!IMPORTANT]
 >
-><span class="preview">一部の組織では、AI アシスタントがCX Coworkerに置き換えられました。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
+><span class="preview">一部の企業では、AI アシスタントがCX Coworkerに置き換えられました。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -160,7 +160,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 >[!NOTE]
 >
-><span class="preview">組織がCX Coworkerへのアクセスを受け取った場合、CX Coworkerの場所を特定することは、AI アシスタントの場所を特定することと似ています。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
+><span class="preview">組織がCX Coworkerへのアクセス権を取得している場合、Coworkerの検索はAI アシスタントの検索と似ています。 詳しくは、[Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
 
 
 AI アシスタントは、Workfront Planningの次の領域で見つけることができます。

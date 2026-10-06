@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 8%
+source-wordcount: '1639'
+ht-degree: 9%
 ---
 # Adobe Workfront計画Designerの基本を学ぶ
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。
 
-AI アシスタントを通じて直接使用する場合でも、CX Coworker</span>を<span class="preview">使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+AI アシスタントまたは<span class="preview"> CX Coworker</span>を通じて直接使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
 
 Workfront Planningについて詳しくは、次の記事を参照してください。
 
@@ -63,7 +63,7 @@ Workfront Planningについて詳しくは、次の記事を参照してくだ�
 * [Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)
 
-PlanningのAI アシスタントとCX Coworkerについて詳しくは、次の記事を参照してください。
+PlanningのAI AssistantおよびCoworkerについて詳しくは、次の記事を参照してください。
 
 * [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
@@ -215,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Workfront管理者は、組織のPlanning Designerを有効にする必要があります。 この後、デフォルトでは、すべてのユーザーがPlanning Designerを使用できます。
-* 組織がAI契約書に署名している場合、プランニング領域でAI アシスタントまたは<span class="preview">CX Coworker</span>を使用すると、プランニング Designerで実行されるアクションも実行できます。
-* AI アシスタントまたは計画領域の<span class="preview">CX Coworker</span>によって実行されたアクション、または計画Designerによって実行されたアクションは、Workfront計画の権限とWorkfrontのアクセスレベルのコンテキストにあります。
+* 組織がAI契約書に署名している場合、Planning Designerで実行したアクションは、Planning エリアで使用する場合、AI アシスタントまたは<span class="preview"> Coworker</span>でも実行できます。
+* AI アシスタントまたは<span class="preview">同僚</span>が計画領域で実行したアクション、または計画Designerが実行したアクションは、Workfront計画の権限とWorkfrontのアクセスレベルのコンテキストにあります。
 
   詳しくは、次の記事を参照してください。
 
   * [Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI アシスタント、<span class="preview">CX Coworker</span>またはユーザーの代わりにPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
+* AI アシスタント、<span class="preview">同僚、</span>またはユーザーの代理でPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
 
 * 計画Designerによって行われたアクションは永続的であり、元に戻せない可能性があります。 例えば、フィールドの削除を元に戻すことはできません。 Designerが提案したすべての措置を承認する前に再検討する。
 
@@ -235,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## Planning Designerで現在使用できる機能
 
-Planning DesignerまたはAI アシスタント、または<span class="preview">CX Coworker</span>のいずれかを使用して、次のいずれかの操作を実行できます。
+Planning Designer、AI Assistant、または<span class="preview">Coworker、</span>のいずれかを使用して、次のいずれかの操作を実行できます。
 
 * ワークスペースの作成と設定
 
@@ -274,7 +274,7 @@ Planning DesignerまたはAI アシスタント、または<span class="preview"
 
 ## Planning Designerを使用したオブジェクトの作成または更新
 
-Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、AI アシスタント、またはCX Coworker</span>の<span class="preview">を使用します。
+Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、またはAI アシスタントまたは<span class="preview"> Coworker</span>を使用します。
 
 1. Workfrontにログインし、左上隅の&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックしてから、**計画**&#x200B;をクリックします。
 
@@ -288,7 +288,7 @@ Workfront Planningでオブジェクトを作成または更新するには、�
 
    ![Designer ウィンドウの計画](assets/planning-designer-window.png)
 
-1. 提供されたスペースで、CX Coworker</span>のAI アシスタント <span class="preview">のプロンプトを入力し始め、完了したら「Enter」をクリックします。
+1. 提供されたスペースで、AI アシスタント <span class="preview">または同僚</span>のプロンプトを入力し始め、完了したら「Enter」をクリックします。
 
    <!--add screen shot-->
 

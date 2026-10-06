@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 7%
 ---
 # CX Coworkerのスキル
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 この記事では、WorkfrontのCX Coworkerで現在利用可能なスキルを紹介します。
 
-これらのスキルでカバーされている能力は、CX Coworkerの会話型インターフェイスで利用でき、直接呼び出す必要はありません。 ただし、スキルを直接呼び出す場合は、共同作業者パネルでスラッシュ `/`を入力し、スキルの名前を入力します。
+これらのスキルでカバーされている能力は、Coworkerで会話型インターフェイスを通じて利用でき、これらのスキルを直接呼び出す必要はありません。 ただし、スキルを直接呼び出す場合は、共同作業者パネルでスラッシュ `/`を入力し、スキルの名前を入力します。
 
 プロンプトの例については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)の記事のプロンプトを参照してください。
 
