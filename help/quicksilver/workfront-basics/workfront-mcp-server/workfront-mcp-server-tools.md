@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 6%
 ---
 
@@ -369,11 +369,15 @@ Adobeが新しいバージョンのWorkfront MCP サーバーをリリースす�
 
 
 
+## インテント遠隔測定
+
+Workfront MCP Serverは、顧客のユーザーインテントを追跡します。 収集されたインテントデータは、テレメトリ目的で汎用的なものであり、Workfront製品に関するユーザーの意図のためにのみ収集されます。 プロンプトインテントテレメトリは、より正確な応答を提供するために、既存のMCP ツールを改善するためにのみ使用されます。
+
+ユーザーは、カスタマーサポートに連絡してリクエストを提出することで、テレメトリ収集を無効にできます。
+
+
 ## その他のツールは近日リリース予定
 
 今後、Workfront MCP サーバーに次のツールを追加する予定です。
 
 * ボード
-
-
-
