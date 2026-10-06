@@ -35,7 +35,7 @@ WorkfrontでのCoworkerの使用について詳しくは、[WorkfrontでのCX Co
 
 共同作業者とその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
 
-WorkfrontのCoworkerで使用できるスキルについては、[CX Coworkerのスキル ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
+WorkfrontのCoworkerで使用できるスキルについては、[CX Coworkerのスキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
 
 プロンプトの例については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)の記事のプロンプトを参照してください。
 
