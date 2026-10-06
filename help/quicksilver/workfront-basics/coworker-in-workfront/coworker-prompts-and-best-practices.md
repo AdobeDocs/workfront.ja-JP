@@ -1,5 +1,5 @@
 ---
-title: CX Coworkerのプロンプトとベストプラクティス
+title: CX Enterprise Coworkerのプロンプトとベストプラクティス
 content-type: reference
 description: WorkfrontでCoworkerを使用する際のベストプラクティスについて説明し、プロンプトの例の一覧を表示します。
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 2%
 ---
-# CX Coworkerのプロンプトとベストプラクティス
+# CX Enterprise Coworkerのプロンプトとベストプラクティス
 
 &lt;! – これを使用しないでください – 代わりにMCPのサンプル プロンプト記事にリンクし、MCPの最新リリースで更新されていることを確認します – >
 
 >[!IMPORTANT]
 >
->CX Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
+>CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。 詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)を参照してください。
 
-CX Coworkerなら、自然言語を使ってWorkfront WorkflowやWorkfront Planningを操作できます。
+CX Enterprise Coworkerなら、自然言語を使ってWorkfront WorkflowやWorkfront Planningを操作できます。
 
 Adobe Experience Cloud Agent Orchestratorに含まれているチームです。
 
@@ -101,7 +101,7 @@ Coworkerを使用する際には、次の制約を考慮してください。
 >
 >これらの一般的な機能は、署名済みのAdobe AI契約書をファイルに登録しているすべてのユーザーが使用できます。
 
-これらの一般的なスキルのベストプラクティスとプロンプトについては、[AI アシスタント プロンプトとベストプラクティス &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)を参照してください。
+これらの一般的なスキルのベストプラクティスとプロンプトについては、[AI アシスタント プロンプトとベストプラクティス ](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)を参照してください。
 
 <!--Follow up with Oznur-->
 
@@ -169,7 +169,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 * [プロジェクト、タスク、イシューに関する情報を検索](#find-information-about-projects-tasks-or-issues)
 * [プロジェクト、タスク、イシューの要約](#summarize-projects-tasks-or-issues)
-* [&#x200B; プロジェクト、プログラム、またはポートフォリオのプロジェクトの正常性を表示](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
+* [ プロジェクト、プログラム、またはポートフォリオのプロジェクトの正常性を表示](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
 
 #### プロジェクト、タスク、イシューに関する情報を検索
 
@@ -208,7 +208,7 @@ Coworkerを使用して、タスクや割り当てなどのプロジェクトを
 
 * [プロジェクトの作成、更新、削除](#create-update-or-delete-projects)
 * [ユーザープロンプトに基づいて適切なプロジェクトテンプレートを特定する](#identify-the-right-project-template-based-on-user-prompt)
-* [&#x200B; プロジェクト内のタスクを追加、編集、またはカスタマイズする](#add-edit-or-customize-tasks-in-a-project)
+* [ プロジェクト内のタスクを追加、編集、またはカスタマイズする](#add-edit-or-customize-tasks-in-a-project)
   <!--* [Create, update, or delete assignments](#create-update-or-delete-assignments)-->
   <!--* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)-->
 

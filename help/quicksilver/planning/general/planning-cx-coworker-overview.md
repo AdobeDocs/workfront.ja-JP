@@ -1,6 +1,6 @@
 ---
-title: Adobe Workfront計画CX Coworkerの概要
-description: Workfront PlanningでCX Coworkerを使用すると、通常インターフェイスで実行するPlanningのレコードや他のオブジェクトと同様のアクションを実行できます。 ユーザーのコマンドとAIによるコマンドの実行が連携して、AIによる変更が環境に正確に反映されるようにします。
+title: Adobe Workfront計画CX Enterprise Coworkerの概要
+description: Workfront PlanningでCX Enterprise Coworkerを使用すると、通常インターフェイスで実行するPlanningのレコードや他のオブジェクトと同様のアクションを実行できます。 ユーザーのコマンドとAIによるコマンドの実行が連携して、AIによる変更が環境に正確に反映されるようにします。
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
@@ -19,15 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1085'
 ht-degree: 9%
 ---
 
-# Adobe Workfront計画CX Coworkerの概要
+# Adobe Workfront計画CX Enterprise Coworkerの概要
 
-<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
+<!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-CX Coworkerは対話型のインターフェイスです。目的を平易な言葉で説明し、Workfront計画やその他の接続されたAdobeシステムをまたいで作業を計画、実行、検証してから、承認用に戻します。
+CX Enterprise Coworkerは対話型のインターフェイスです。目的を平易な言葉で説明し、Workfront計画やその他の接続されたAdobeシステムをまたいで作業を計画、実行、検証してから、承認用に戻します。
 
 Adobe Workfrontは、AI アシスタントのあらゆる機能を保持しながら、新しいフルスクリーン体験とWorkfrontの右側のパネルの両方に、より強力なエンドツーエンドの機能を追加しています。
 
@@ -99,7 +99,7 @@ Adobe Workfrontは、AI アシスタントのあらゆる機能を保持しな�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -107,11 +107,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 会社のユーザーが利用できるようにするには、組織で共同作業者を有効にする必要があります。
 
-  詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+  詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
-* WorkfrontでWorkfront インスタンスのエージェントを有効にすると、メインのWorkfront管理者がエージェントを有効にでき、組織に対してエージェントを有効にすることができます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+* WorkfrontでWorkfront インスタンスのエージェントを有効にすると、メインのWorkfront管理者がエージェントを有効にでき、組織に対してエージェントを有効にすることができます。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
-* Workfront管理者は、アクセスレベルでCoworkerを有効にする必要があります。 詳しくは、[&#x200B; アクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+* Workfront管理者は、アクセスレベルでCoworkerを有効にする必要があります。 詳しくは、[ アクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * 共同作業者は、WorkfrontまたはWorkfront Planningにあり、アクセス権を持つ情報とオブジェクトを操作します。 プランニングの右側パネルで、共同作業者パネルは、開いているワークスペース、レコードタイプ、またはレコードページのコンテキストで動作します。
 
@@ -128,7 +128,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## Coworkerで現在利用可能な機能
 
-現在、CoworkerはWorkfrontのプランニング エリアで利用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、[CX Coworker スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
+現在、CoworkerはWorkfrontのプランニング エリアで利用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、[CX Enterprise Coworker スキル ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
 
 Coworkerを使用して、次のアクションを実行できます。
 
@@ -156,7 +156,7 @@ Coworkerは、Workfront Planningの次の領域で見つけることができま
 
    計画領域が開きます。
 
-   ページの右上隅にある&#x200B;**Coworker** アイコン ![Coworker アイコン &#x200B;](assets/coworker-icon.png)を見つけるか、以下の手順に進みます。
+   ページの右上隅にある&#x200B;**Coworker** アイコン ![Coworker アイコン ](assets/coworker-icon.png)を見つけるか、以下の手順に進みます。
 
 1. **ワークスペースカード**&#x200B;をクリックします。
 
@@ -164,11 +164,11 @@ Coworkerは、Workfront Planningの次の領域で見つけることができま
 
 1. **レコード**&#x200B;をクリックしてレコードの&#x200B;**詳細** ページを開き、**新しいタブで開く** アイコン ![新しいタブで開く](assets/open-workspace-on-new-tab-icon.png)をクリックします。
 
-1. 画面の右上隅にある&#x200B;**同僚アイコン** ![同僚アイコン &#x200B;](assets/coworker-icon.png)をクリックします。
+1. 画面の右上隅にある&#x200B;**同僚アイコン** ![同僚アイコン ](assets/coworker-icon.png)をクリックします。
 
 1. 提供されたスペースで、Coworkerのコマンドを入力し始め、完了したら「Enter」をクリックします。
 
-   空のコマンドボックスを持つ![同僚パネル &#x200B;](assets/cx-coworker-right-rail.png)
+   空のコマンドボックスを持つ![同僚パネル ](assets/cx-coworker-right-rail.png)
 
    例えば、次のいずれかを入力します。
 
@@ -186,6 +186,6 @@ Coworkerは、Workfront Planningの次の領域で見つけることができま
    応答が成功した後、提供されたリンクに従うか、左側の変更に注意してください。
 
 
-1. （オプション）「**フルスクリーンを展開**」アイコン「![&#x200B; フルスクリーンアイコン「](assets/expand-full-screen-icon.png)」をクリックすると、フルブラウザータブで同僚のチャットボックスが開きます。
+1. （オプション）「**フルスクリーンを展開**」アイコン「![ フルスクリーンアイコン「](assets/expand-full-screen-icon.png)」をクリックすると、フルブラウザータブで同僚のチャットボックスが開きます。
 
 
