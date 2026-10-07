@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '14631'
+source-wordcount: '14637'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -971,11 +971,11 @@ ht-degree: 91%
     * [Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP Server Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [直接インストールに使用できるスキル](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * WorkfrontのCX Coworker {#coworker-in-workfront}
-    * [WorkfrontのCX Coworker：記事インデックス](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Coworkerのスキル](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [WorkfrontでのCX Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * WorkfrontのCX Enterprise Coworker {#coworker-in-workfront}
+    * [WorkfrontのCX Enterprise Coworker：記事インデックス](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Enterprise Coworkerのスキル](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
     * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2205,7 +2205,7 @@ ht-degree: 91%
     * [Adobe Workfront計画の導入に関する推奨事項](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API の基本](planning/general/planning-api-basics.md)
     * [Adobe Workfront プランニングの AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
-    * [Adobe Workfront計画CX Coworkerの概要](planning/general/planning-cx-coworker-overview.md)
+    * [Adobe Workfront計画CX Enterprise Coworkerの概要](planning/general/planning-cx-coworker-overview.md)
     * [Adobe Workfront計画Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning の 2024年リリースアクティビティ](planning/general/release-activity.md)
     * [Adobe Workfront プランニングの 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)

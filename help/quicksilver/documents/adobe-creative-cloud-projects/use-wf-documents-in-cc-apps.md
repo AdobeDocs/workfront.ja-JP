@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
+source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '648'
 ht-degree: 3%
 ---
 # Creative Cloud アプリケーションでのWorkfront ドキュメントの使用
@@ -79,8 +79,14 @@ Photoshop、IllustratorまたはInDesignでWorkfront プロジェクトにアク
 
 ## Creative Cloud アプリからWorkfrontに新しいドキュメントを保存する
 
+新しいファイルをWorkfrontに保存したり、既存のファイルの新しいコピーをPhotoshop、Illustrator、またはInDesignからWorkfrontに保存したりできます。
+
+新しいドキュメントをWorkfrontに保存するには：
+
 1. Photoshop、Illustrator、またはInDesignを開き、新しいファイルを作成します。
-1. 上部メニューで、**ファイル/別名で保存**&#x200B;を選択します。
+1. 新しいファイルを保存する場合は、上部メニューの「**保存**」をクリックします。
+または
+既存のファイルの新しいコピーを保存する場合は、上部メニューの「**別名で保存**」をクリックします。
 1. **別名で保存** ダイアログで、**クラウドドキュメントに保存**&#x200B;を選択し、必要なWorkfront プロジェクトを選択します。
 
    >[!NOTE]

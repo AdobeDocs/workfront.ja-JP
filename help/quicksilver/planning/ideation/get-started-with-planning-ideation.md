@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1002'
 ht-degree: 2%
 ---
 
@@ -155,9 +155,9 @@ Too much:
   * **確定する前に確認**。 AIで生成された回答は不正確である可能性があるため、レコードを確定する前に、常にカードの&#x200B;**ソース**&#x200B;を確認し、リンクされたソースと確認してください。
   * **実際のレコードでAI カードを組み合わせる**。 実際のレコードをアイデア創出スペースにドラッグ&amp;ドロップできます。
 
-## Adobe CX Coworkerで利用可能なアイデア創出スペース
+## Adobe CX Enterprise Coworkerで利用可能なアイデア創出スペース
 
-アイデア創出スペースでは、AdobeのCX Coworkerを通じて、対話型コミュニケーションもサポートしています。
+アイデア創出スペースでは、AdobeのCX Enterprise Coworkerを通じて、対話型コミュニケーションもサポートしています。
 
 利用者は、たった一発の結果を得るのではなく、フォローアップで質問し、会話で概要を絞り込むことができます。
 

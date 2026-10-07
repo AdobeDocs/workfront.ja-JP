@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3151'
 ht-degree: 3%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
@@ -190,7 +190,7 @@ AI フォーム入力では、リンクで参照されるプランニングレ�
 
 詳しくは、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
 
-## CX Coworkerは、Workfront Planningで利用できます
+## CX Enterprise Coworkerは、Workfront Planningで利用できます
 
 >[!NOTE]
 >
@@ -198,9 +198,9 @@ AI フォーム入力では、リンクで参照されるプランニングレ�
 >プロダクションの迅速リリース：2026年9月17日から段階的に展開
 >すべての人に向けた制作：2026年10月15日から段階的に展開
 
-CX Coworkerは、Workfront Planning内で利用できるようになりました。 これで、Workfront Planning全体で使用できるパネルでCX Coworkerにアクセスできます。
+CX Enterprise Coworkerは、Workfront Planning内で利用できるようになりました。 これで、Workfront Planning全体で使用できるパネルでCX Enterprise Coworkerにアクセスできます。
 
-CX Coworker Chatは、対話型のインターフェイスで作業を進めることができます。 目標を平易な言葉で説明し、Coworkerが作業を計画し、Workfront Planningと接続されたAdobeシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。
+CX Enterprise Coworker Chatは、対話型のインターフェイスで作業を進めることができます。 目標を平易な言葉で説明し、Coworkerが作業を計画し、Workfront Planningと接続されたAdobeシステムをまたいで実行し、結果を検証し、完成した作業を承認のために返します。
 
 Coworkerは、デフォルトで読み取り専用アクセスを使用する組織の既存のアクセス制御を尊重し、ユーザーが書き込みアクセスを取得する際にはシステム管理者が制御します。
 
@@ -208,11 +208,11 @@ Adobe Workfrontは、作業を完了するためのより強力な方法とし�
 
 >[!IMPORTANT]
 >
->CX Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、引き続きこれらの組織で利用可能です。
+>CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、引き続きこれらの組織で利用可能です。
 
-詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
-## CX COWORKERのローンチに備えて、レコードの詳細プレビューボックスからAI アシスタントアイコンが削除されました
+## CX ENTERPRISE COWORKERのローンチに備えて、レコードの詳細プレビューボックスからAI アシスタントアイコンが削除されました
 
 >[!NOTE]
 >
@@ -221,15 +221,15 @@ Adobe Workfrontは、作業を完了するためのより強力な方法とし�
 >すべての人に向けた制作：2026年10月15日から段階的に展開
 >[!BADGE スケジュール外]{type=Neutral}
 
-この変更は、WorkfrontにCX Coworkerを持つお客様が利用できます。
+この変更は、WorkfrontにCX Enterprise Coworkerを持つお客様が利用できます。
 
-WorkfrontでのAdobe CX Coworkerのローンチに備えて、詳細プレビューページからAI アシスタントアイコンを削除しました。 アイコンは、フルスクリーンで開いたときに、詳細ページに引き続き表示されます。 これをクリックすると、CX Coworkerが開きます。
+WorkfrontでのAdobe CX Enterprise Coworkerのローンチに備えて、詳細プレビューページからAI アシスタントアイコンを削除しました。 アイコンは、フルスクリーンで開いたときに、詳細ページに引き続き表示されます。 これをクリックすると、CX Enterprise Coworkerが開きます。
 
 >[!IMPORTANT]
 >
->CX Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、引き続きこれらの組織で利用可能です。
+>CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、引き続きこれらの組織で利用可能です。
 
-詳しくは、[WorkfrontのCX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
+詳しくは、[WorkfrontのCX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
 
 ## 1対1または1対多の接続タイプでフィールドを接続したレコードを複製する際のエクスペリエンスが向上しました
 

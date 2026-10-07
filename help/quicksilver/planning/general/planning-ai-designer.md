@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront計画Designerの基本を学ぶ
-description: AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。 Planning Designerは、直接またはAI アシスタントやCX Coworkerを通じて使用される場合でも、構造化され、連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+description: AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。 Planning Designerは、直接またはAI アシスタントやCX Enterprise Coworkerを通じて使用される場合でも、構造化され、連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1642'
 ht-degree: 9%
 ---
 # Adobe Workfront計画Designerの基本を学ぶ
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。
 
-AI アシスタントまたは<span class="preview"> CX Coworker</span>を通じて直接使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+AI アシスタントまたは<span class="preview"> CX Enterprise Coworker</span>を通じて直接使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
 
 Workfront Planningについて詳しくは、次の記事を参照してください。
 
@@ -66,7 +66,7 @@ Workfront Planningについて詳しくは、次の記事を参照してくだ�
 PlanningのAI AssistantおよびCoworkerについて詳しくは、次の記事を参照してください。
 
 * [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## アクセス要件
 

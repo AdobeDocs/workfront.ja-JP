@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3475'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -277,8 +277,8 @@ ht-degree: 8%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX CoworkerがWorkfrontで利用可能になりました</a>
-                <p>CX Coworkerは、現在のAI アシスタントに代わり、WorkfrontやコネクテッドAdobeシステムで作業を完了するための新しい会話型インターフェイスです。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Enterprise CoworkerがWorkfrontで利用可能になりました</a>
+                <p>CX Enterprise Coworkerは、現在のAI アシスタントに代わり、WorkfrontやコネクテッドAdobeシステムで作業を完了するための新しい会話型インターフェイスです。</p>
             </td>
             <td><p>2026年9月3日（PT）から段階的に展開</p></td>
             <td><p>2026年9月17日（PT）より段階的に展開</p></td>

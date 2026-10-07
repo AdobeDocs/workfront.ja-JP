@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2101'
 ht-degree: 4%
 ---
 # プロジェクトのヘルスの概要
 
 >[!IMPORTANT]
 >
->* 2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 共同作業者について詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>* 2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Enterprise Coworkerに移行中です。 共同作業者について詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 >* プロジェクトの正常性機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。
 
 Adobe Workfrontのプロジェクトヘルス機能は、AI アシスタントの機能を活用して、プロジェクトのパフォーマンス、注意が必要な分野、時間と費用がかかる可能性のある問題を回避する方法などを即座に評価します。

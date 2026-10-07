@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 667caf828abe21bd1d89ab26bfbab71a7711fe9a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1474'
 ht-degree: 1%
 ---
 # Workfront OAuth2からAdobe Developer Consoleへの移行
@@ -159,4 +159,4 @@ Adobe Developer Consoleで新しい資格情報を設定するには、そのレ
 
 **ヘルプはどこで入手できますか？**
 
-特定の連携やスケジュールについて質問がある場合は、Workfrontのアカウントチームにお問い合わせいただくか、サポートケースを開いてください。 スクリーンショットを使用した公式の最新の設定チュートリアルについては、Adobe Developer Console ドキュメントの[&#x200B; アクセスの取得](https://developer.adobe.com/workfront-apis/guides/gaining_access/)を参照してください。
+特定の連携やスケジュールについて質問がある場合は、Workfrontのアカウントチームにお問い合わせいただくか、サポートケースを開いてください。 スクリーンショットを使用した公式の最新の設定チュートリアルについては、Adobe Developer Console ドキュメントの[&#x200B; アクセスの取得](https://developer.adobe.com/workfront-apis/guides/gaining-access/)を参照してください。

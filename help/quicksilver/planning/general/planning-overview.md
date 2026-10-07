@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 64%
+source-wordcount: '1360'
+ht-degree: 63%
 ---
 # Adobe Workfront プランニングの基本を学ぶ
 
@@ -186,7 +186,7 @@ Workfront プランニングにアクセスするには、次の手順に従い�
 
 <div class="preview">
 
-* [Adobe Workfront計画CX Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)：目標を平易な言葉で説明し、Workfront計画およびその他の接続されたAdobe システム全体で作業を計画、実行、検証してから、承認用に戻す会話型インターフェイス。 CX Coworkerは、現在のAI アシスタントの機能をすべて保持しながら、新しいフルスクリーン体験とWorkfrontの右側のパネルの両方に、より強力なエンドツーエンドの機能を追加しています。
+* [Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)：目標を平易な言葉で説明し、Workfront計画およびその他の接続されたAdobe システム全体で作業を計画、実行、検証してから、承認用に戻す会話型インターフェイス。 CX Enterprise Coworkerは、現在のAI アシスタントの機能をすべて保持しながら、新しいフルスクリーン体験とWorkfrontの右側のパネルの両方に、より強力なエンドツーエンドの機能を追加しています。
 
 </div>
 
