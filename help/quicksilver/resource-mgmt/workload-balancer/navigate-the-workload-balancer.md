@@ -41,7 +41,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーは、Adobe Workfront の複数の領域で使用できます。 操作方法はすべての領域で同様です。
 
-ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
+ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
 
 ## アクセス要件
 
@@ -123,8 +123,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーを使用したリソース管理については、次の記事も参照してください。
 
-* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ワークロードバランサーでユーザー割り当ての管理する](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ワークロードバランサーでユーザー割り当ての管理する](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## リソース領域での複数のプロジェクトを対象とするワークロードバランサーのナビゲーション
 
