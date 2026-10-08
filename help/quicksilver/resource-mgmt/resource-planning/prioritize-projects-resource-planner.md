@@ -6,25 +6,29 @@ description: プロジェクトは、リソースプランナー内に優先度�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-TQID: https://experienceleague.adobe.com/M7y0pio0qMZt2zlJ7IHQ-6MaEKFyEqlKvocNzASL5go
+TQID: 'https://experienceleague.adobe.com/M7y0pio0qMZt2zlJ7IHQ-6MaEKFyEqlKvocNzASL5go'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 93%
-
 ---
-
 # リソースプランナーのプロジェクトに優先度を付ける
 
 プロジェクトは、リソースプランナー内に優先度に従ってリストされ、最も重要なプロジェクトが最上位に表示されます。
@@ -95,7 +99,7 @@ ht-degree: 93%
 
 リソースプランナーでプロジェクトを並べ替えるには、リソース管理およびプロジェクトに対する管理権限への編集アクセス権が必要です。
 
-プロジェクトに新しいを付けることで、重要度の順にランク付けできます。
+プロジェクトに新しいを付けることで、重要度の順にランキングできます。
 
 プロジェクト計画優先度を編集するには、次の手順に従います。
 
@@ -120,7 +124,7 @@ ht-degree: 93%
 >
 >Portfolio Optimizerでプロジェクトに優先順位を付けるには、Prime以降のWorkfront パッケージが必要です。
 >
->Workfront パッケージについて詳しくは、[Adobe Workfront パッケージと価格](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+>Workfront パッケージについて詳しくは、[Adobe Workfront パッケージと価格](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 >
 >ポートフォリオオプティマイザーでのプロジェクトの優先順位付けについて詳しくは、[ポートフォリオオプティマイザーでのプロジェクトの優先順位付け](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 

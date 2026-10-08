@@ -7,30 +7,39 @@ description: プロジェクトの予算人権費と予算時間の概要
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-TQID: https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw
+TQID: 'https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1140
+source-wordcount: '1140'
 ht-degree: 97%
-
 ---
-
 # プロジェクトの予算人権費と予算時間の概要
 
 <!--
@@ -93,11 +102,11 @@ Workfront は、プロジェクトでの担当業務の予算計上労力コス�
 
 * [!UICONTROL **予算計上労力コスト**]：ビジネスケースのリソース予算計上エリアでのそれぞれの役割下。
 
-  ![&#x200B; ビジネスケースの予算計上人件費](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![ ビジネスケースの予算計上人件費](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]：プロジェクトおよび役割ビューで情報をコスト別に表示する場合のリソースプランナー。
 
-  ![&#x200B; リソース計画の予算計上人件費](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![ リソース計画の予算計上人件費](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 次の要件を満たす場合、ユーザーは、ビジネスケースのリソース予算計上エリアで、それぞれの役割の下またはリソースプランナーに表示されます。
 
@@ -169,7 +178,7 @@ Workfront は、プロジェクトでの担当業務の予算計上労力コス�
 * **時間**：ビジネスケースのリソース予算計上エリア
 * **BDG**:Resource プランナーを時間単位で表示
 * **予算計上時間数**：利用状況レポート時間数ビュー
-詳しくは、[&#x200B; リソース使用率に関する情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md)を参照してください。
+詳しくは、[ リソース使用率に関する情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md)を参照してください。
 * **予算計上 時間数**：予算計上時間数レポート
 
   予算計上時間数レポートの予算計上時間数オブジェクトは、非推奨であるリソース管理ツールに関連する情報を参照します。 このレポートの「予算時間」フィールドのみが、 プロジェクトのビジネスケースのリソースプランナーまたはリソース予算計上エリアで予算計上された時間数を参照します。
@@ -177,8 +186,8 @@ Workfront は、プロジェクトでの担当業務の予算計上労力コス�
   レポートの作成について詳しくは、**カスタムレポートの作成**&#x200B;を参照してください。
 * **リソースプランナーの予算計上時間数**：次のレポート内：
 
-   * プロジェクトレポート
-   * プロジェクト（財務データ）レポート
-   * タスクレポート
-   * イシューレポート
-   * 予算計上時間数レポート
+  * プロジェクトレポート
+  * プロジェクト（財務データ）レポート
+  * タスクレポート
+  * イシューレポート
+  * 予算計上時間数レポート

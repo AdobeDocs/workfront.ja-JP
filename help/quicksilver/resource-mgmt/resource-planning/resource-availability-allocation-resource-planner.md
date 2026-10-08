@@ -6,26 +6,31 @@ description: リソースプランナーでは、リソースの空き時間と�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+TQID: 'https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 94%
-
 ---
-
 # Adobe Workfront リソースプランナーを使用してリソースの可用性と割り当てをレビューする
 
 リソースプランナーでは、リソースの空き時間と、プロジェクトの予定作業や予算計上作業の量を表示できます。 これらの値は、時間、FTE（フルタイム換算）やコストの金額で表示され、列に編成されます。
@@ -92,18 +97,18 @@ ht-degree: 94%
 
 
 
-   * 利用可能時間数、FTE またはコスト
-   * 予定時間数、FTE またはコスト
-   * 予算計上時間数、FTE またはコスト
-   * 時間数、FTE またはコスト差異
-   * 正味時間数、FTE またはコスト
+  * 利用可能時間数、FTE またはコスト
+  * 予定時間数、FTE またはコスト
+  * 予算計上時間数、FTE またはコスト
+  * 時間数、FTE またはコスト差異
+  * 正味時間数、FTE またはコスト
 
 * **ユーザー別に表示**&#x200B;ビューを適用する場合、以下の列が表示されます。
 
-   * 利用可能時間数または FTE
-   * 計画時間数または FTE
-   * 時間または FTE の差異
-   * 予定時間配分率
+  * 利用可能時間数または FTE
+  * 計画時間数または FTE
+  * 時間または FTE の差異
+  * 予定時間配分率
 
 >[!TIP]
 >
@@ -156,7 +161,7 @@ ht-degree: 94%
 
 1. （条件付き）**カスタマイズ**&#x200B;を選択した場合、**表示される指標のカスタマイズ**&#x200B;ボックスを使用してカスタムビューを設定します。
 
-   ![&#x200B; ビューボックスをカスタマイズ &#x200B;](assets/planner-customize-view-box-350x114.png)
+   ![ ビューボックスをカスタマイズ ](assets/planner-customize-view-box-350x114.png)
 
 1. 左側の&#x200B;**表示タイプ**&#x200B;列で、次のビューの 1 つを選択します。
 
@@ -197,7 +202,7 @@ ht-degree: 94%
    >
    >カスタマイズされたビューは 1 つだけ指定できます。
 
-   ![&#x200B; プランナー時間ドロップダウン &#x200B;](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![ プランナー時間ドロップダウン ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## ユーザー割り当てグラフの表示
 

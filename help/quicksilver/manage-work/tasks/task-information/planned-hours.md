@@ -7,28 +7,35 @@ description: タスク、イシュー、またはプロジェクトに関連付�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-TQID: https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow
+TQID: 'https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2815
+source-wordcount: '2815'
 ht-degree: 96%
-
 ---
-
 # 予定時間数の概要
 
 <!-- Audited: 01/2024 -->
@@ -256,7 +263,7 @@ The daily hour amount represents one of the following:
 
 詳しくは、[期間タイプの概要：シンプル](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)を参照してください。
 
-ワークロードバランサーを使用する際に、タスクに割り当てられたユーザーや担当業務の配分全体、またはユーザーの日次の配分のいずれかを更新できます。
+ワークロードバランサーを使用する際に、タスクに割り当てられたユーザーや役割の配分全体、またはユーザーの日次の配分のいずれかを更新できます。
 
 タスクの全体的なユーザーおよび担当業務の配分の管理について詳しくは、[タスクに対するユーザーと役割の時間配分を管理](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)を参照してください。
 
@@ -264,7 +271,7 @@ The daily hour amount represents one of the following:
 
 タスクのユーザーまたは担当業務の配分を手動で更新する際は、次のシナリオが存在します。
 
-* タスクの予定時間数に対する変更をトリガーするために個々のユーザーまたは役割の配分を手動で更新していない場合、タスクの割り当てを追加、削除、置換する際に、予定時間数は変更されません。 タスクに新しい割り当てを追加すると、個々の配分がすべての担当者間で再配分されます。
+* タスクの予定時間数に対する変更をトリガーするために個人ユーザーまたは役割の配分を手動で更新していない場合、タスクの割り当てを追加、削除、置換する際に、予定時間数は変更されません。 タスクに新しい割り当てを追加すると、個々の配分がすべての担当者間で再配分されます。
 * タスクの予定時間数に対する変更をトリガーするために配分を手動で更新している場合、タスクから割り当てを削除すると、予定時間数は減少します。 割り当てを置き換える場合、予定時間数は変更されません。
 * タスクの予定時間数に対する変更をトリガーするために配分を手動で更新しており、タスクに割り当てを追加する場合、新しい割り当てにはデフォルトで 0 時間が配分されます。 予定時間数に影響する可能性のあるタスクに対して、手動で割り当てを更新する必要があります。
 * タスクの予定時間数に対する変更をトリガーするために配分を手動で更新しておらず、タスクに対するすべての割り当てを削除した場合、予定時間数は変更されません。
@@ -274,7 +281,7 @@ The daily hour amount represents one of the following:
 >
 >例えば、タスクの予定時間数が 10 時間で、担当者が 2 名いる場合、デフォルトではそれぞれに 5 時間ずつ配分されます。
 >
->* ワークロードバランサーを使用して個々のユーザーへの配分や毎日の配分をアップデートせず、タスクから担当者の一部または全部を削除した場合、タスクの予定時間数は 10 時間のままです。
+>* ワークロードバランサーを使用して個人ユーザーへの配分や毎日の配分をアップデートせず、タスクから担当者の一部または全部を削除した場合、タスクの予定時間数は 10 時間のままです。
 >* 割り当ての分配をそれぞれ 4 時間から 6 時間に手動で変更し、6 時間が割り当てられたユーザーとその担当業務を削除すると、タスクの予定時間数は 4 時間にアップデートされます。 4 時間が割り当てられているユーザーも削除し、しかし削除したユーザーに関連付けられた担当業務は維持する場合、タスクの予定時間数は 4 時間のままです。 4 時間が割り当てられた最後のユーザーとその担当業務を削除し、タスクが未割り当ての場合、タスクの予定時間数は 0 になります。
 
 ## 作業量を使用してタスクの予定時間数を自動的に更新

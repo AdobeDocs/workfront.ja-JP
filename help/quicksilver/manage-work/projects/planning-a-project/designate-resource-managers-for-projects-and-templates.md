@@ -8,27 +8,33 @@ feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI
+TQID: 'https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '732'
 ht-degree: 98%
-
 ---
-
 # プロジェクトまたはテンプレートのリソース管理者の指定
 
 <!--
@@ -151,10 +157,10 @@ Old:
 * プロジェクトまたはプロジェクトテンプレートに対して、リソース管理者を指定できます。 プロジェクトテンプレートにリソース管理者を指定すると、そのプロジェクトテンプレートのリソース管理者として指定された任意のユーザーは、自動的にそのテンプレートを使用して作成された任意のプロジェクトのリソース管理者になります。
 * 次の場合に「リソース管理者」フィールドを表示できます。
 
-   * プロジェクトを編集する場合（この記事で説明）。
-   * テンプレートを編集する場合（この記事で説明）。
-   * プロジェクトまたはテンプレートレポートを作成する場合。 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
-   * リストに対してプロジェクトまたはテンプレートビューを作成またはカスタマイズする場合。 詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
+  * プロジェクトを編集する場合（この記事で説明）。
+  * テンプレートを編集する場合（この記事で説明）。
+  * プロジェクトまたはテンプレートレポートを作成する場合。 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+  * リストに対してプロジェクトまたはテンプレートビューを作成またはカスタマイズする場合。 詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
 * リストまたはプロジェクトのビューに「リソース管理者」フィールドを追加し、インライン編集を使用してこのフィールドを編集することで、複数のプロジェクトまたはテンプレートでリソース管理者を簡単に追加または削除できます。
 

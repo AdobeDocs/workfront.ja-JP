@@ -8,30 +8,33 @@ feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v548SO5dhBGPZISxnkzxrqd6toNAxvy6MPiBHML7Q1U
+TQID: 'https://experienceleague.adobe.com/v548SO5dhBGPZISxnkzxrqd6toNAxvy6MPiBHML7Q1U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: '289'
 ht-degree: 84%
-
 ---
-
 # リソースプールからのユーザーの削除
 
 リソースプールに含めることのできるユーザー数に制限はありませんが、ユーザーのリストには最初の 2000 ユーザーのみが、アルファベット順に表示されます。
 
 すべてのリソースプールで常に正確なユーザーのリストを確保できるように、非アクティブ化されたユーザー、役割や部門を移動したユーザーを削除することをお勧めします。
 
-リソースプールについて詳しくは、[&#x200B; リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
+リソースプールについて詳しくは、[ リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
 
 ## アクセス要件
 
@@ -70,7 +73,7 @@ ht-degree: 84%
 {{step1-to-resourcing}}
 
 1. 左側のパネルで「**リソースプール**」をクリックします。
-1. リソースプールを選択し、**編集**&#x200B;をクリックします。
+1. リソースプールを選択し、**編集**をクリックします。
 または\
    リソースプールの名前をクリックします。
 
@@ -78,7 +81,7 @@ ht-degree: 84%
    または\
    エンティティに関連付けられているすべてのユーザーを削除する場合は、会社、担当業務、チーム、またはグループの名前を入力します。
 
-   ![&#x200B; リソースプールからユーザーを削除](assets/remove-users-from-resource-pool.png)
+   ![ リソースプールからユーザーを削除](assets/remove-users-from-resource-pool.png)
 
 1. ユーザーレベルのX アイコンをクリックして、リソースプールからユーザーを削除します。 それらは、表示されるすべてのリストから削除されます。
    <!--

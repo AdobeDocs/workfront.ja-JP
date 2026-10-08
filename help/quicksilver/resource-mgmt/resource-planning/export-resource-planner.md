@@ -6,25 +6,29 @@ description: リソースプランナーの任意のビューから、お使い�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 85%
-
+source-wordcount: '599'
+ht-degree: 92%
 ---
-
 # リソースプランナーから情報を書き出す
 
 リソースプランナーの任意のビューから、お使いのコンピューターに保存されている Excel （.xlsx）ファイルに情報を書き出すことができます。
@@ -82,7 +86,7 @@ ht-degree: 85%
 
    エクスポートオプションダイアログボックスが表示されます。
 
-   ![書き出しオプション &#x200B;](assets/rp-export-options-box-350x421.png)
+   ![書き出しオプション ](assets/rp-export-options-box-350x421.png)
 
 1. 次の情報を指定します。\
    **開始日**：書き出しの開始日。 書き出したファイルには、ここで指定した日を含む週の最初の日から始まる、割り当てと空き時間に関する情報が含まれます。\
@@ -94,26 +98,26 @@ ht-degree: 85%
    * 36 か月
    * 12 四半期
 
-   **書き出しを選択**：選択したビューに応じて、画面に表示されているすべてのオブジェクトまたは特定のオブジェクトの可用性と予算編成情報を書き出すように選択できます。
-次の情報を書き出すように選択できます。
+   **エクスポート対象を選択**：選択したビューに応じて、空き時間と予算計上の情報を書き出す対象として、画面に表示されるすべてのオブジェクトまたは特定のオブジェクトを選択できます。
+   次の情報の書き出しを選択できます。
 
    * プロジェクトビューでは、以下の書き出しを選択できます。
 
-      * プロジェクト
-      * プロジェクトと役割
-      * すべて（これがデフォルトのオプションです）
+     * プロジェクト
+     * プロジェクトと役割
+     * すべて（これがデフォルトのオプションです）
 
    * ユーザービューでは、以下の書き出しを選択できます。
 
-      * ユーザー
-      * ユーザーとプロジェクト
-      * すべて（これがデフォルトのオプションです）
+     * ユーザー
+     * ユーザーとプロジェクト
+     * すべて（これがデフォルトのオプションです）
 
    * 役割ビューで、書き出すアイテムを選択します。
 
-      * 役割
-      * 役割とプロジェクト
-      * すべて（これがデフォルトのオプションです）
+     * 役割
+     * 役割とプロジェクト
+     * すべて（これがデフォルトのオプションです）
 
    **データフォーマット**：Excel ファイルの表示方法に応じて、次のいずれかのオプションを選択します。
 
@@ -125,7 +129,7 @@ ht-degree: 85%
 1. 「**エクスポート**」をクリックして、リソースプランナーから情報を書き出します。\
    保存した情報のみが書き出されます。
 
-1. （条件付き）役割またはプロジェクトビューに未保存の予算計上時間数がある場合は、**保存して続行**&#x200B;をクリックします。
+1. （条件付き）役割ビューやプロジェクトビューに未保存の予算計上時間数がある場合は、「**保存して続行**
 Excel （.xlsx） ファイルがコンピューターにダウンロードされます。\
    ファイルのダウンロード準備中は、リソースプランナーからの書き出しは使用できません。\
    （条件付き）大量のデータを書き出すと、ファイルをダウンロードできるリンクが記載されたメールが届きます。\
