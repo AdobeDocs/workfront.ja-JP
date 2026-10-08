@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 3%
 ---
 # Adobe Workfront Planning リクエストを送信して、レコードを作成
@@ -220,6 +220,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >**名前** フィールドは組織に固有であり、Workfront インスタンスに別のラベルが表示される場合があります。 フィールドはレコードのプライマリフィールドです。
 
 1. リクエストフォームの残りのフィールドを更新します。 赤いアスタリスクのフィールドは必須です。
+
+   >[!TIP]
+   >
+   >依存接続レコードフィールドの値は、レコード間の依存ルールによって制限されます。 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
+
+
 1. （条件付き）組織がAIによる&#x200B;**フォーム入力**&#x200B;を許可している場合、プロンプトとしてドキュメントをアップロードできます。 AIはこれらのドキュメントを使用してフォームに入力します。リクエストを送信する前に、AIの提案を承認または却下できます。
 
 

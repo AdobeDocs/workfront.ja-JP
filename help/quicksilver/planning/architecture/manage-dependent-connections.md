@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 5%
 ---
 
@@ -137,6 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 依存関係レベルは6つの接続に制限されています。 つまり、最大7つのレコードタイプを接続できます。
 
 * 依存関係チェーンを機能させるには、すべての依存フィールドが同じレコードタイプに同時に存在する必要があります。
+
+* 依存フィールドは、接続されたレコードフィールドが表示されるすべての領域（レコードまたはリクエストフォームの「詳細」領域を含む）でサポートされます。
 
 ## 依存関係の作成
 
