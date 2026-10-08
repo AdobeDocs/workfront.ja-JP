@@ -35,7 +35,7 @@ ht-degree: 90%
 
 Adobe Workfront では、ダッシュボードに外部ページとして埋め込むことのできるリソースプランナーのユーザービューに対する一意の URL を生成するか、新しいブラウザータブで別々に開くことができます。 これは、リソースプランナーの情報を、リソース領域に直接アクセスできない可能性のあるユーザーと共有する場合に役立ちます。
 
-![ リンク付きユーザービュー](assets/rp-user-view-with-link-highlight-350x49.png)
+![&#x200B; リンク付きユーザービュー](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## アクセス要件
 
@@ -99,7 +99,7 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
    フィルターの適用について詳しくは、[リソースプランナーで情報をフィルタリング](../../resource-mgmt/resource-planning/filter-resource-planner.md)を参照してください。
 
 1. **ハイパーリンク**&#x200B;アイコンをクリックします。\
-   ![ ハイパーリンクアイコンとURL](assets/rp-generate-url-from-link-icon.png)
+   ![&#x200B; ハイパーリンクアイコンとURL](assets/rp-generate-url-from-link-icon.png)
 
 1. 「**URL をコピー**」をクリックします。\
    この結果、ユーザービューにあるリソースプランナーの一意の URL がクリップボードにコピーされます。
@@ -127,4 +127,4 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
    レイアウトテンプレートへのダッシュボードの追加について詳しくは、[レイアウトテンプレートを作成および管理](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。\
    ダッシュボードの共有について詳しくは、[ダッシュボードを共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。\
    共有 URL を表示するとき、ユーザーは、最初にリソースプランナーに適用した設定で情報を確認できます。 共有 URL を表示するには、Workfront にログインする必要があります。\
-   ![ リソースプランナーが表示されたサンプルダッシュボード ](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![&#x200B; リソースプランナーが表示されたサンプルダッシュボード &#x200B;](assets/user-view-dashoard-from-unique-url-350x85.png)

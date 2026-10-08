@@ -225,11 +225,11 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 * 稼働率レポート：
 
-  詳しくは、「[ リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)」を参照してください。
+  詳しくは、「[&#x200B; リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)」を参照してください。
 
 * リソースプランナー：
 
-  詳しくは、「[ ユーザービューの使用時にリソースプランナーで利用可能、計画、および実際の時間またはFTEを表示する](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)」を参照してください。
+  詳しくは、「[&#x200B; ユーザービューの使用時にリソースプランナーで利用可能、計画、および実際の時間またはFTEを表示する](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)」を参照してください。
 
 
 ### Workfront APIの実際の時間数
@@ -253,13 +253,13 @@ API呼び出しでこれらのフィールドにアクセスする場合は、�
 >
 >従来の実際の時間を使用するすべてのカスタム式は、実際の時間に移行されました。 従来の実際の時間数または`actualWorkRequired`は、計算および数式で使用できなくなりました。
 
-API バージョンについて詳しくは、[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+API バージョンについて詳しくは、[API バージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
 >[!IMPORTANT]
 >
 >プロジェクトの実際のコストでは、従来の実際の時間数を使用して計算します。
 
-計算列またはフィールドで実際の時間を使用する方法について詳しくは、[FAQのレポート ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)を参照してください。
+計算列またはフィールドで実際の時間を使用する方法について詳しくは、[FAQのレポート &#x200B;](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)を参照してください。
 
 ## 時間を記録
 

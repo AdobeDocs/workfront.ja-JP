@@ -107,15 +107,15 @@ ht-degree: 63%
 1. 左側のパネルで、**ビジネスケース**&#x200B;をクリックします。
 1. （オプション）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。
 
-   **プロジェクト情報** セクション フィールドの編集について詳しくは、記事[ ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[ プロジェクト情報](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)の節を参照してください。
+   **プロジェクト情報** セクション フィールドの編集について詳しくは、記事[&#x200B; ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[&#x200B; プロジェクト情報](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)の節を参照してください。
 
 1. （オプション） **目標** セクションを編集するには、**目標を編集**&#x200B;をクリックします。
 
-   ビジネスケースの&#x200B;**目標** セクションの編集について詳しくは、記事[ ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)の節を参照してください。
+   ビジネスケースの&#x200B;**目標** セクションの編集について詳しくは、記事[&#x200B; ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)の節を参照してください。
 
 1. （オプション）「**費用**」セクションを編集するには、「**費用を編集**」をクリックします。
 
-   ビジネスケースの&#x200B;**費用** セクションの編集について詳しくは、記事[ ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)の節を参照してください。
+   ビジネスケースの&#x200B;**費用** セクションの編集について詳しくは、記事[&#x200B; ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)の節を参照してください。
 
 1. （オプション）「**リソース予算を編集**」をクリックして、リソースを予算し、プロジェクトの担当業務に関連付けられている予算計上労力コストを取得します。 詳しくは、[ビジネスケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
@@ -134,7 +134,7 @@ ht-degree: 63%
 
    プロジェクトに添付する前に、カスタムフォームを作成する必要があります。
 
-   カスタム Formsについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   カスタム Formsについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**送信**」をクリックします。 プロジェクトのステータスが「**リクエスト済み**」に変更されて、ビジネスケースの承認を得るために送信されます。
 
@@ -143,6 +143,6 @@ ht-degree: 63%
 
 >[!TIP]
 >
-> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルに書き出す方法について詳しくは、[ プロジェクトのビジネスケースの書き出し](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md)を参照してください。
+> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルに書き出す方法について詳しくは、[&#x200B; プロジェクトのビジネスケースの書き出し](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md)を参照してください。
 
 

@@ -90,7 +90,7 @@ Adobe Workfront Workload Balancerを使用して、作業項目を適切なユ�
 
    >[!NOTE]
    >
-   >「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては未割り当て作業領域の作業項目の下に表示されます。 詳しくは、[ ワークロードバランサーの移動](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)の「[ ビューのカスタマイズ ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)」を参照してください。
+   >「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては未割り当て作業領域の作業項目の下に表示されます。 詳しくは、[&#x200B; ワークロードバランサーの移動](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)の「[&#x200B; ビューのカスタマイズ &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)」を参照してください。
 
 1. （条件付き）プロジェクトのワークロードバランサーで、**すべてのユーザーを表示** アイコン ![すべてのユーザーを表示](assets/show-all-users-icon-project-workload-balancer.png)をクリックして、すべてのWorkfront ユーザーを表示します。
 
@@ -98,7 +98,7 @@ Adobe Workfront Workload Balancerを使用して、作業項目を適切なユ�
 
    プロジェクトチームにも属し、既にプロジェクトのアイテムに割り当てられているユーザーは、割り当てられた作業エリアで名前の右側にプロジェクトアイコンが表示されます。
 
-   ![ プロジェクトのユーザー](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![&#x200B; プロジェクトのユーザー](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
    >[!TIP]
    >
@@ -115,7 +115,7 @@ Adobe Workfront Workload Balancerを使用して、作業項目を適切なユ�
    >
    >ポインタを合わせているユーザーの予定時間数は、作業アイテムからの毎日の予定時間数でリアルタイムに更新され、新しいアイテムの追加が全体の割り当てに与える影響を示します。
 
-   ![ ユーザーに割り当てるアイテムをドロップ ](assets/wb-drag-drop-role-or-task-to-user.png)
+   ![&#x200B; ユーザーに割り当てるアイテムをドロップ &#x200B;](assets/wb-drag-drop-role-or-task-to-user.png)
 
 1. 準備ができたら、選択した作業項目または役割の割り当てを、「割り当て済み領域」のユーザー名と同じ行にドロップします。 アイテムが割り当てられ、ユーザーに割り当てられた予定時間数が、作業アイテムからの新しい時間で更新されます。
 
@@ -133,7 +133,7 @@ Adobe Workfront Workload Balancerを使用して、作業項目を適切なユ�
 
 
 1. （オプション）割り当てられた作業エリアでユーザーの名前の下にある作業アイテムのバーをクリックし、ドラッグして未割り当て作業エリアにドロップすると、割り当てが解除されます。 そのアイテムはユーザーから割り当てが解除されますが、担当業務にまだ割り当てられている場合があります。その場合は、未割り当て作業エリアに表示されます。 アイテムが別のユーザーに割り当てられている場合、そのアイテムは、割り当てられた作業エリアで、まだ割り当てられているユーザーの名前の下に引き続き表示されます。
-1. （オプション）「**割り当てを表示」アイコン** 「![割り当てを表示」アイコン ](assets/show-allocations-icon-small.png)をクリックしてから、**詳細メニュー** 「![詳細」メニュー](assets/qs-more-menu.png)/**割り当てを編集**」をクリックします。
+1. （オプション）「**割り当てを表示」アイコン** 「![割り当てを表示」アイコン &#x200B;](assets/show-allocations-icon-small.png)をクリックしてから、**詳細メニュー** 「![詳細」メニュー](assets/qs-more-menu.png)/**割り当てを編集**」をクリックします。
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

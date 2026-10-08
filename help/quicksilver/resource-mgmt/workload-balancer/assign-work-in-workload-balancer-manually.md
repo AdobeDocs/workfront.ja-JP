@@ -91,7 +91,7 @@ Adobe Workfront Workload Balancerを使用して、ユーザーと作業担当�
 
    >[!NOTE]
    >
-   >「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては未割り当て作業領域の作業項目の下に表示されます。 詳しくは、[ ワークロードバランサーの移動](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)の「[ ビューのカスタマイズ ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)」を参照してください。
+   >「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては未割り当て作業領域の作業項目の下に表示されます。 詳しくは、[&#x200B; ワークロードバランサーの移動](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)の「[&#x200B; ビューのカスタマイズ &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)」を参照してください。
 
 1. 作業項目名または役割の割り当ての左側にある&#x200B;**詳細メニュー** ![詳細メニュー](assets/qs-more-menu.png)をクリックし、「**これを**&#x200B;に割り当て」をクリックします。
 
@@ -121,7 +121,7 @@ Adobe Workfront Workload Balancerを使用して、ユーザーと作業担当�
 
    >[!TIP]
    >
-   > お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。 作業アイテムにデリゲートされたユーザーを表示するには、「デリゲーション」タブを使用します。 作業の委任について詳しくは、[ タスクと問題の委任](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+   > お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。 作業アイテムにデリゲートされたユーザーを表示するには、「デリゲーション」タブを使用します。 作業の委任について詳しくは、[&#x200B; タスクと問題の委任](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
 
 
    これにより、指定された担当者に作業アイテムが割り当てられるか、再割り当てされます。
@@ -146,7 +146,7 @@ Adobe Workfront Workload Balancerを使用して、ユーザーと作業担当�
 
      高度な割り当ての実行について詳しくは、[高度な割り当てを作成](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
-1. （オプション）「**割り当てを表示」アイコン** 「![割り当てを表示」アイコン ](assets/show-allocations-icon-small.png)をクリックしてから、**詳細メニュー** 「![詳細」メニュー](assets/qs-more-menu.png)/**割り当てを編集**」をクリックします。
+1. （オプション）「**割り当てを表示」アイコン** 「![割り当てを表示」アイコン &#x200B;](assets/show-allocations-icon-small.png)をクリックしてから、**詳細メニュー** 「![詳細」メニュー](assets/qs-more-menu.png)/**割り当てを編集**」をクリックします。
 
    または
 

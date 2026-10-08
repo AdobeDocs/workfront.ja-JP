@@ -102,11 +102,11 @@ Workfront は、プロジェクトでの担当業務の予算計上労力コス�
 
 * [!UICONTROL **予算計上労力コスト**]：ビジネスケースのリソース予算計上エリアでのそれぞれの役割下。
 
-  ![ ビジネスケースの予算計上人件費](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![&#x200B; ビジネスケースの予算計上人件費](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]：プロジェクトおよび役割ビューで情報をコスト別に表示する場合のリソースプランナー。
 
-  ![ リソース計画の予算計上人件費](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![&#x200B; リソース計画の予算計上人件費](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 次の要件を満たす場合、ユーザーは、ビジネスケースのリソース予算計上エリアで、それぞれの役割の下またはリソースプランナーに表示されます。
 
@@ -178,7 +178,7 @@ Workfront は、プロジェクトでの担当業務の予算計上労力コス�
 * **時間**：ビジネスケースのリソース予算計上エリア
 * **BDG**:Resource プランナーを時間単位で表示
 * **予算計上時間数**：利用状況レポート時間数ビュー
-詳しくは、[ リソース使用率に関する情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md)を参照してください。
+詳しくは、[&#x200B; リソース使用率に関する情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md)を参照してください。
 * **予算計上 時間数**：予算計上時間数レポート
 
   予算計上時間数レポートの予算計上時間数オブジェクトは、非推奨であるリソース管理ツールに関連する情報を参照します。 このレポートの「予算時間」フィールドのみが、 プロジェクトのビジネスケースのリソースプランナーまたはリソース予算計上エリアで予算計上された時間数を参照します。

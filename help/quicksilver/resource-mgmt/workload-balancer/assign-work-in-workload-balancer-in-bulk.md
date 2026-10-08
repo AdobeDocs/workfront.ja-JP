@@ -37,7 +37,7 @@ ht-degree: 56%
 
 Adobe Workfront Workload Balancerを使用して、複数のタスクやイシューにリソースを一括で割り当てることができます。
 
-ワークロードバランサーを使用してユーザーと作業担当者に作業を割り当てる方法について詳しくは、[ ワークロードバランサーでの作業の割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
+ワークロードバランサーを使用してユーザーと作業担当者に作業を割り当てる方法について詳しくは、[&#x200B; ワークロードバランサーでの作業の割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
 ## アクセス要件
 
@@ -122,13 +122,13 @@ Adobe Workfront Workload Balancerを使用して、複数のタスクやイシ�
    >
    >完了ステータスのタスクは選択できません。
 
-   ![一括割り当て中のタスクのステータス ](assets/task-name-status-dropdown-bulk-assignments-wb.png)
+   ![一括割り当て中のタスクのステータス &#x200B;](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
    >イシューやタスクの一括割り当てを行う場合は、この選択を空白のままにします。
 
-1. （オプション）選択した条件の1つの横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします
+1. （オプション）選択した条件の1つの横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします
 
    または
 
@@ -136,7 +136,7 @@ Adobe Workfront Workload Balancerを使用して、複数のタスクやイシ�
 
 1. 次のいずれかのオプションを選択し、下記の手順に進みます。
 
-   * [ リソースの割り当て](#replace-user)
+   * [&#x200B; リソースの割り当て](#replace-user)
    * [リソースを割り当て解除](#unassign-user)
 
    >[!TIP]
@@ -216,7 +216,7 @@ To assign a user to work items previously assigned to job roles:
 1. 前述のように、ワークロードバランサーの一括割り当て領域で作業項目を選択し、**リソースの割り当て**&#x200B;を選択します。
 1. 「**現在割り当て済みリソース**」フィールドで、ドロップダウン矢印をクリックして、リソースのリストから選択します。 指定したプロジェクト内の未完了の作業項目に現在割り当てられているリソースのみが表示されます。 必須フィールドです。
 
-   ![ リソースを置換](assets/bulk-assignments-workload-balancer-replace-selected.png)
+   ![&#x200B; リソースを置換](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
 1. 「**割り当てるリソース**」フィールドで、ドロップダウン矢印をクリックして、提案されたリソースのリストから選択するか、別の担当業務またはユーザー名を入力します。 最初にデフォルトでリストされたリソースは、スマート割り当ての基準と一致します。 詳しくは、[スマート割り当ての概要](../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
@@ -246,7 +246,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. 「**割り当て解除するユーザー**」フィールドで、ドロップダウン矢印をクリックして、ユーザーのリストから選択します。 指定したプロジェクト内で未完了の作業アイテムに現在割り当てられているユーザーのみが表示されます。 必須フィールドです。
 
-   ![ ユーザーの割り当てを解除](assets/bulk-assignments-workload-balancer-unassign-selected.png)
+   ![&#x200B; ユーザーの割り当てを解除](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront に、現在割り当てられているユーザーが割り当て解除される項目の数に関するメモが表示されます。
 

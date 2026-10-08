@@ -94,7 +94,7 @@ ht-degree: 88%
 
 「計画担当者」が、デフォルトで表示されます。  リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-![ リソースプランナーをデフォルトとして](assets/default-resource-planner.png)
+![&#x200B; リソースプランナーをデフォルトとして](assets/default-resource-planner.png)
 
 1. 左側のパネルで「**リソースプール**」をクリックします。
 リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
@@ -112,6 +112,6 @@ ht-degree: 88%
    >
    >プロジェクトにリソースプールが関連付けられていない場合にのみ、ビジネスケースのリソース予算領域にリソースプールを追加できます。<!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![ リソース予算](assets/resource-budgeting-area-on-project.png)
+   ![&#x200B; リソース予算](assets/resource-budgeting-area-on-project.png)
 
    1 つのプロジェクトのリソースの予算計上について詳しくは、[ビジネスケースのリソース予算計上](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
