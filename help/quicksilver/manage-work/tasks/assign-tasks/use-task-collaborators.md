@@ -33,7 +33,7 @@ Work Agentsは、Copilot Studio、Claude、Writer、<span class="preview">OpenAI
 >
 >ライターはエージェントの使用を非推奨にしています。 Writer エージェントを使用して設定された作業エージェントは、10月9日以降は機能しません。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -131,7 +131,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
+手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
 >[!NOTE]
 >

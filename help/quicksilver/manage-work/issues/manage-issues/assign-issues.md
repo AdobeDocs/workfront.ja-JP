@@ -145,7 +145,7 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![ ボタンに割り当て](assets/assign-to-button-in-header.png)
+   ![&#x200B; ボタンに割り当て](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -196,11 +196,11 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![ フィールドに割り当て](assets/assigned-to-field-task-list-nwe.png)
+     ![&#x200B; フィールドに割り当て](assets/assigned-to-field-task-list-nwe.png)
 
    * 「**割り当て**」フィールド内をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
 
-     ![割り当てフィールド ](assets/assignments-field-0825.png)
+     ![割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -210,7 +210,7 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
    >
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。 詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-1. （条件付き）割り当てフィールドで、リストの下部にある&#x200B;**詳細**&#x200B;をクリックするか、割り当てボックスの右上隅にある&#x200B;**人物アイコン** ![人物アイコン ](assets/teams.png)をクリックして、「詳細な割り当て」ボックスを開き、高度な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）割り当てフィールドで、リストの下部にある&#x200B;**詳細**&#x200B;をクリックするか、割り当てボックスの右上隅にある&#x200B;**人物アイコン** ![人物アイコン &#x200B;](assets/teams.png)をクリックして、「詳細な割り当て」ボックスを開き、高度な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -262,7 +262,7 @@ Assigning issues in bulk is different depending on what environment you choose t
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン** ![編集アイコン ](assets/qs-edit-icon.png)をクリックします。
+1. **編集アイコン** ![編集アイコン &#x200B;](assets/qs-edit-icon.png)をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
