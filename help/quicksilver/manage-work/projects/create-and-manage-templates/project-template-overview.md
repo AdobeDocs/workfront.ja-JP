@@ -6,29 +6,37 @@ description: プロジェクトテンプレートを使用すると、組織の�
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 85%
-
 ---
-
 # プロジェクトテンプレートの概要
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ ht-degree: 85%
 * プロジェクトのレポートを作成する場合に役立ちます。 例えば、同じテンプレートを共有するプロジェクトについてレポートを作成し、その進行状況を比較して、完成させる方法の改善点を見つけることができます。
 * 今後のプロジェクト設定を定義する以外に、テンプレートに今後のプロジェクトに関する次の情報を追加できます。
 
-   * タスク
-   * ドキュメント
-   * 承認
-   * キューの詳細
-   * キューのトピック
-   * トピックグループ
-   * ルーティングルール
-   * カスタムフォーム
-   * 会社およびグループ情報
+  * タスク
+  * ドキュメント
+  * 承認
+  * キューの詳細
+  * キューのトピック
+  * トピックグループ
+  * ルーティングルール
+  * カスタムフォーム
+  * 会社およびグループ情報
 
 ## テンプレート作成のベストプラクティス
 
@@ -71,8 +79,8 @@ ht-degree: 85%
 
   期間について詳しくは、次の記事を参照してください。
 
-   * [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [プロジェクト期間の概要](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [プロジェクト期間の概要](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   予定時間数について詳しくは、[予定時間数の概要](../../../manage-work/tasks/task-information/planned-hours.md)を参照してください。
 
@@ -89,8 +97,8 @@ ht-degree: 85%
 
 * 今後のプロジェクトに使用するドキュメントストレージを決めます。 一部の組織では、次のドキュメントストレージタイプにアクセスできます。
 
-   * 従来のWorkfront ストレージ
-   * Adobe クラウドストレージ
+  * レガシー Workfront ストレージ
+  * Adobe クラウドストレージ
 
   ドキュメントの追加は、選択するストレージの種類によって異なります。 テンプレートに対して選択するストレージのタイプは、今後のプロジェクトが継承するストレージのタイプに影響します。
 
@@ -98,8 +106,8 @@ ht-degree: 85%
 
   詳細については、次も参照してください。
 
-   * [プロジェクトテンプレートの作成](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [プロジェクトと関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [プロジェクトテンプレートの作成](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [プロジェクトと関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## テンプレートの作成方法
 

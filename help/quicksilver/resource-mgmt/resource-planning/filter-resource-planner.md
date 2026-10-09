@@ -6,27 +6,33 @@ description: フィルターを使用すると、システムに保存されて�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
-ht-degree: 97%
-
+source-wordcount: '2381'
+ht-degree: 96%
 ---
-
 # リソースプランナーで情報をフィルタリング
 
 <!--
@@ -84,9 +90,9 @@ ht-degree: 97%
 * フィルターを適用しても、プロジェクト、リソースプランナーでの役割またはユーザーの配分および空き時間のデータは変更されません。 フィルターによって変更するのは、リソースプランナーに表示されるオブジェクトの数のみです。
 * フィルタリングは、リソースプランナーに同時に表示されるすべてのオブジェクトに適用されます。 例えば、特定のユーザーに対してフィルターを適用すると、リソースプランナーには次の結果のみが表示されます。
 
-   * そのユーザーがリソースプールに属しているプロジェクト（プロジェクトビューと役割ビューの場合）、またはユーザーに割り当てがあるプロジェクト（ユーザービューの場合）
-   * これらのプロジェクトでユーザーに関連付けられた役割\
-     ユーザーが関連付けられているプロジェクト上の、その他の役割またはユーザーは表示されません。
+  * そのユーザーがリソースプールに属しているプロジェクト（プロジェクトビューと役割ビューの場合）、またはユーザーに割り当てがあるプロジェクト（ユーザービューの場合）
+  * これらのプロジェクトでユーザーに関連付けられた役割\
+    ユーザーが関連付けられているプロジェクト上の、その他の役割またはユーザーは表示されません。
 
 ## リソースプランナーのデフォルトのフィルターの概要 {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ ht-degree: 97%
 
 * デフォルトのフィルターは、次の情報を持つプロジェクトからのみ情報を取得します。
 
-   * 現在の月の最初の日付より後に発生する予定完了日
-   * 現在の日付から 4 か月目の最終日の前に発生する予定開始日
-   * 現在または計画中のステータス
+  * 現在の月の最初の日付より後に発生する予定完了日
+  * 現在の日付から 4 か月目の最終日の前に発生する予定開始日
+  * 現在または計画中のステータス
 
   >[!IMPORTANT]
   >

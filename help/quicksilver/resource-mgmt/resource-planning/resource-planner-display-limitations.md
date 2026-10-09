@@ -7,22 +7,24 @@ description: パフォーマンスを向上させるため、Adobe Workfront で
 author: Lisa
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
-TQID: https://experienceleague.adobe.com/5ztX-x5EsELkZ-BvYjQIhWEGIGt3QVMj4bSiuJTqSeE
+TQID: 'https://experienceleague.adobe.com/5ztX-x5EsELkZ-BvYjQIhWEGIGt3QVMj4bSiuJTqSeE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: '948'
 ht-degree: 99%
-
 ---
-
 # リソースプランナーの表示制限
 
 パフォーマンスを向上させるため、Adobe Workfront では表示できる情報の量と、リソースプランナーから書き出せる情報の量を制限しています。
@@ -59,9 +61,9 @@ ht-degree: 99%
 
 * 最大 30,000 行まで書き出すことができます。
 
-## ロールビューに関する制限
+## 役割ビューに関する制限
 
-適切なフィルターをすべて適用した後、ロールビューをリソースプランナーに適用する際は、次の点を考慮してください。
+適切なフィルターをすべて適用した後、役割ビューをリソースプランナーに適用する際は、次の点を考慮してください。
 
 * 管理可能なプロジェクトに関連付けられているロールのみを表示できます。
 
@@ -72,7 +74,7 @@ ht-degree: 99%
 
 * 画面のサイズに応じて、3 つまたは 4つの期間を表示できます。
 
-適切なフィルターと書き出しオプションをすべて適用した後、リソースプランナーのロールビューから情報を書き出すときは、次の点を考慮してください。
+適切なフィルターと書き出しオプションをすべて適用した後、リソースプランナーの役割ビューから情報を書き出すときは、次の点を考慮してください。
 
 * リソースプランナーですべて（ロール、プロジェクト、ユーザー）を書き出すことを選択すると、リストの一番下までスクロールして表示したかどうかに関係なく、条件に一致するすべてのオブジェクトが書き出されたファイルに表示されます。
 * 割り当て情報のない行は、書き出されたファイルに含まれます。
@@ -84,9 +86,9 @@ ht-degree: 99%
 
 * 次の条件を満たすすべてのユーザーを表示できます。
 
-   * 表示するアクセス権がある
-   * アクティブである
-   * 少なくとも 1 回ログインしている。
+  * 表示するアクセス権がある
+  * アクティブである
+  * 少なくとも 1 回ログインしている。
 
 * 各ユーザーを展開して、関連するプロジェクトを表示し、各プロジェクトを展開して、そのプロジェクトに関連するロールを表示できます。\
   最初の 50 個のプロジェクトとロールがデフォルトで表示され、「さらに読み込む」オプションを使用して追加のプロジェクトまたはロールを表示できます。

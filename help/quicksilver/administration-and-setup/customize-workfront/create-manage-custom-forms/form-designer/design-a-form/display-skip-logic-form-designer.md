@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
+source-wordcount: '3711'
 ht-degree: 27%
 ---
 # カスタムフォームおよびフィールドへの論理ルールの追加
@@ -120,6 +120,7 @@ ht-degree: 27%
   * 表示ロジックのステートメントに含まれていないカスタムフィールドは、デフォルトで、カスタムフォームに表示されます。
   * 複数フィールドの表示ロジックステートメントを作成できます。
   * セクション区切りの下のすべてのフィールドに表示ロジックが適用されていて、そのロジックの結果としてフィールドがすべて非表示になっている場合、セクション全体がカスタムフォーム上で非表示になります。
+  * 表示ロジックによって非表示になっているフィールドは、値を保持し、CONCATなどの式にまだ含まれています。
 
 ## 表示ロジックをカスタムフォームに追加
 

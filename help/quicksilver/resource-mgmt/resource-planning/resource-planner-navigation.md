@@ -7,25 +7,29 @@ description: Adobe Workfront リソースプランナーを使用すると、リ
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
-ht-degree: 51%
-
+source-wordcount: '2442'
+ht-degree: 50%
 ---
-
 # リソースプランナーのナビゲーションの概要
 
 <!-- Audited: 5/2025 -->
@@ -131,13 +135,13 @@ Adobe Workfront Resource Plannerを使用すると、リソースの可用性と
 
 * プロジェクトビューでは、次の時間、FTE またはコストの情報を表示できます。
 
-   * 利用可能
-   * 予定
-   * 予算計上
-   * 差異
-   * 純価
+  * 利用可能
+  * 予定
+  * 予算計上
+  * 差異
+  * 純価
 
-     詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
+    詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
 
 ### 役割別に表示 {#view-by-role}
 
@@ -152,13 +156,13 @@ Adobe Workfront Resource Plannerを使用すると、リソースの可用性と
 * このビューを適用すると、プロジェクト時間、FTE またはコストが、役割時間、FTE またはコストに加算されます。
 * 役割ビューでは、次の時間、FTE またはコストの情報を表示できます。
 
-   * 利用可能
-   * 予定
-   * 予算計上
-   * 差異
-   * 純価
+  * 利用可能
+  * 予定
+  * 予算計上
+  * 差異
+  * 純価
 
-     詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
+    詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
 
 ### ユーザー別に表示 {#view-by-user}
 
@@ -191,23 +195,23 @@ Adobe Workfront Resource Plannerを使用すると、リソースの可用性と
 
   次のシナリオが存在します。
 
-   * リソースプランナーに表示されるユーザーに割り当てられているプロジェクトとタスクまたはイシューを表示する権限がない場合、これらのアイテムは「アクセスできないアイテム」セクションに一覧表示されます。 この場合、これらのセクションは「プロジェクト」セクションまたは「タスク」セクションに置き換わります。
+  * リソースプランナーに表示されるユーザーに割り当てられているプロジェクトとタスクまたはイシューを表示する権限がない場合、これらのアイテムは「アクセスできないアイテム」セクションに一覧表示されます。 この場合、これらのセクションは「プロジェクト」セクションまたは「タスク」セクションに置き換わります。
 
-   * プロジェクトを表示する権限がないが、プロジェクトのタスクまたはイシューを表示するアクセス権がある場合、プロジェクト、タスク、イシューは、割り当てられたユーザーの名前の下に表示されます。
-   * プロジェクトを表示する権限があるが、プロジェクト上のタスクやイシューがない場合、プロジェクト名が表示され、タスクとイシューは「アクセスできないアイテム」セクションに一覧表示されます。
+  * プロジェクトを表示する権限がないが、プロジェクトのタスクまたはイシューを表示するアクセス権がある場合、プロジェクト、タスク、イシューは、割り当てられたユーザーの名前の下に表示されます。
+  * プロジェクトを表示する権限があるが、プロジェクト上のタスクやイシューがない場合、プロジェクト名が表示され、タスクとイシューは「アクセスできないアイテム」セクションに一覧表示されます。
 
-     詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+    詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 
 * ユーザービューでは、次の時間および FTE の情報を表示できます。
 
-   * 利用可能
-   * 予定
-   * 実際
-   * 予定と実際の差
-   * 予定配分の割合
+  * 利用可能
+  * 予定
+  * 実際
+  * 予定と実際の差
+  * 予定配分の割合
 
-     詳しくは、[ユーザービュー使用時のリソースプランナーでの利用可能な時間数、予定時間数、実際の時間数または FTE の表示](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)を参照してください。
+    詳しくは、[ユーザービュー使用時のリソースプランナーでの利用可能な時間数、予定時間数、実際の時間数または FTE の表示](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)を参照してください。
 
 ## プロジェクト名
 
@@ -259,9 +263,9 @@ Adobe Workfront Resource Plannerを使用すると、リソースの可用性と
 * ユーザーのプライマリ担当業務
 * セカンダリ担当業務は、以下のシナリオでは次のように行います。
 
-   * セカンダリジョブの役割に、ユーザープロファイルのFTEの可用性の割合に対する有効な番号がある場合。
-   * ユーザーがその役割のタスクに割り当てられている場合。
-担当業務に対するFTEの可用性の割合について詳しくは、[&#x200B; ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+  * セカンダリジョブの役割に、ユーザープロファイルのFTEの可用性の割合に対する有効な番号がある場合。
+  * ユーザーがその役割のタスクに割り当てられている場合。
+    担当業務に対するFTEの可用性の割合について詳しくは、[&#x200B; ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## 「役割なし」セクションと「ユーザーなし」セクション
 
@@ -300,12 +304,12 @@ Adobe Workfront Resource Plannerを使用すると、リソースの可用性と
 
   この設定を有効にする際は、以下の点を考慮してください。
 
-   * イシューに割り当てられたユーザーの名前は、イシューに関連付けられたジョブロールの下に表示されます。 プロジェクトおよび役割ビューで、ユーザーおよび担当業務の予算計上時間数を指定できます。
-   * ユーザーに割り当てられたイシューは、ユーザービューの担当業務名の下に表示されます。
+  * イシューに割り当てられたユーザーの名前は、イシューに関連付けられたジョブロールの下に表示されます。 プロジェクトおよび役割ビューで、ユーザーおよび担当業務の予算計上時間数を指定できます。
+  * ユーザーに割り当てられたイシューは、ユーザービューの担当業務名の下に表示されます。
 
-     >[!IMPORTANT]
-     >
-     >イシューの予定開始日と完了日がプロジェクトのタイムライン外の場合、イシューの予定時間はイシューの日付に従って表示されます。 例えば、プロジェクトのタイムラインが1月から3月の間で、問題のタイムラインが8月の場合、問題の予定時間数は8月の期間に表示されます。
+    >[!IMPORTANT]
+    >
+    >イシューの予定開始日と完了日がプロジェクトのタイムライン外の場合、イシューの予定時間はイシューの日付に従って表示されます。 例えば、プロジェクトのタイムラインが1月から3月の間で、問題のタイムラインが8月の場合、問題の予定時間数は8月の期間に表示されます。
 
 
 * **Portfolioの優先度を表示**：割り当てられたPortfolioに従って、プロジェクトの優先度を表示します。

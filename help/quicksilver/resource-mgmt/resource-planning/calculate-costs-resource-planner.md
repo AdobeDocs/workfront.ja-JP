@@ -6,25 +6,29 @@ description: Adobe Workfront リソースプランナーでリソースを予算
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 95%
-
 ---
-
 # リソースプランナーでコストを計算
 
 <!--
@@ -145,10 +149,10 @@ Adobe Workfront リソースプランナーでリソースを予算計上する�
 * タスクに対する割り当ての種類。\
   タスクを未割り当てのままにするか、タスクに次のエンティティを割り当てることができます。
 
-   * ユーザー（担当業務の有無に関わらず）
-   * 役割
-   * チーム\
-     チームに割り当てられたタスクは、リソースプランナーの観点からは、未割り当てと見なされます。
+  * ユーザー（担当業務の有無に関わらず）
+  * 役割
+  * チーム\
+    チームに割り当てられたタスクは、リソースプランナーの観点からは、未割り当てと見なされます。
 
 * プロジェクト上のタスクの&#x200B;**コストの種類**。\
   タスクのコストの種類について詳しくは、[コストの追跡](../../manage-work/projects/project-finances/track-costs.md)を参照してください。
@@ -165,99 +169,99 @@ Adobe Workfront リソースプランナーでリソースを予算計上する�
 
 * **コストタイプ**&#x200B;が&#x200B;**ユーザー時間**&#x200B;で、タスクに&#x200B;**割り当て**&#x200B;がない場合：
 
-   * **役割とユーザーの予定コスト**：
+  * **役割とユーザーの予定コスト**：
 
-     役割およびユーザーの予定コストは $0.00 です。
+    役割およびユーザーの予定コストは $0.00 です。
 
-   * **プロジェクト予定コスト**：
+  * **プロジェクト予定コスト**：
 
-     プロジェクト予定コストは $0.00 です。
+    プロジェクト予定コストは $0.00 です。
 
 * **コストの種類**&#x200B;が&#x200B;**「ユーザー（毎時）」**&#x200B;で、タスクに&#x200B;**ユーザー割り当て**&#x200B;がある場合：
 
-   * **役割とユーザーの予定コスト**：
+  * **役割とユーザーの予定コスト**：
 
-     ユーザーの予定コストは、次の式を使用して計算されます。
+    ユーザーの予定コストは、次の式を使用して計算されます。
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     ユーザーのプロファイルにコスト率が含まれている場合は、その比率を使用して予定コストが計算されます。 それ以外の場合は、プライマリ役割のシステムレベルの 1 時間あたりのコスト率が使用されます。
+    ユーザーのプロファイルにコスト率が含まれている場合は、その比率を使用して予定コストが計算されます。 それ以外の場合は、プライマリ役割のシステムレベルの 1 時間あたりのコスト率が使用されます。
 
-     >[!NOTE]
-     >
-     >ユーザーを、セカンダリ担当業務の 1 つを含むタスクに割り当てることができますが、ここでは、代わりにプライマリ担当業務の比率が使用されます。
+    >[!NOTE]
+    >
+    >ユーザーを、セカンダリ担当業務の 1 つを含むタスクに割り当てることができますが、ここでは、代わりにプライマリ担当業務の比率が使用されます。
 
-     役割の予定コストは、次の式を使用して計算されます。
+    役割の予定コストは、次の式を使用して計算されます。
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **プロジェクト予定コスト**：
+  * **プロジェクト予定コスト**：
 
-     プロジェクト予定コストは $0.00 です。
+    プロジェクト予定コストは $0.00 です。
 
 * **コストの種類**&#x200B;が&#x200B;**「ユーザー（毎時）」**&#x200B;で、タスクに&#x200B;**担当業務割り当て**&#x200B;がある場合：
 
-   * **役割とユーザーの予定コスト**：
+  * **役割とユーザーの予定コスト**：
 
-     ユーザーの予定コストは $0.00 です。
+    ユーザーの予定コストは $0.00 です。
 
-     役割の予定コストは、次の式を使用して計算されます。
+    役割の予定コストは、次の式を使用して計算されます。
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     タスクに割り当てられた担当業務のシステムレベルの 1 時間あたりのコスト率を使用して、予定コストが計算されます。
+    タスクに割り当てられた担当業務のシステムレベルの 1 時間あたりのコスト率を使用して、予定コストが計算されます。
 
-   * **プロジェクト予定コスト**：
+  * **プロジェクト予定コスト**：
 
-     プロジェクト予定コストは $0.00 です。
+    プロジェクト予定コストは $0.00 です。
 
 * **コストの種類**&#x200B;が&#x200B;**「役割（毎時）」**&#x200B;で、タスクに&#x200B;**割り当てがない**&#x200B;場合：
 
-   * **役割とユーザーの予定コスト**：
+  * **役割とユーザーの予定コスト**：
 
-     役割およびユーザーの予定コストは $0.00 です。
+    役割およびユーザーの予定コストは $0.00 です。
 
-   * **プロジェクト予定コスト**：
+  * **プロジェクト予定コスト**：
 
-     プロジェクト予定コストは $0.00 です。
+    プロジェクト予定コストは $0.00 です。
 
 * **コストタイプ**&#x200B;が&#x200B;**役割（毎時）**&#x200B;で、タスクに&#x200B;**ユーザー割り当て**&#x200B;がある場合：
 
-   * **役割とユーザーの予定コスト**：
+  * **役割とユーザーの予定コスト**：
 
-     ユーザーの予定コストは $0.00 です。
+    ユーザーの予定コストは $0.00 です。
 
-     「役割の予定コスト」は、次の式で計算されます。
+    「役割の予定コスト」は、次の式で計算されます。
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront は、ユーザーがタスクで実行する担当業務を調べて、役割の予定コストを計算します。
+    Workfront は、ユーザーがタスクで実行する担当業務を調べて、役割の予定コストを計算します。
 
-     ユーザーがタスク上の役割に関連付けられていない場合、予定コストは $0.00 になります。
+    ユーザーがタスク上の役割に関連付けられていない場合、予定コストは $0.00 になります。
 
-   * **プロジェクト予定コスト**：
+  * **プロジェクト予定コスト**：
 
-     プロジェクト予定コストは、次の式で計算されます。
+    プロジェクト予定コストは、次の式で計算されます。
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * **コストタイプ**&#x200B;が&#x200B;**役割（毎時）**&#x200B;で、タスクに&#x200B;**担当業務割り当て**&#x200B;がある場合：
 
-   * **役割とユーザーの予定コスト**：
+  * **役割とユーザーの予定コスト**：
 
-     ユーザーの予定コストは $0.00 です。
+    ユーザーの予定コストは $0.00 です。
 
-     「役割の予定コスト」は、次の式で計算されます。
+    「役割の予定コスト」は、次の式で計算されます。
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront は、ユーザーがタスクで実行する担当業務を調べて、役割の予定コストを計算します。
+    Workfront は、ユーザーがタスクで実行する担当業務を調べて、役割の予定コストを計算します。
 
-   * **プロジェクト予定コスト**：
+  * **プロジェクト予定コスト**：
 
-     プロジェクト予定コストは、次の式で計算されます。
+    プロジェクト予定コストは、次の式で計算されます。
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

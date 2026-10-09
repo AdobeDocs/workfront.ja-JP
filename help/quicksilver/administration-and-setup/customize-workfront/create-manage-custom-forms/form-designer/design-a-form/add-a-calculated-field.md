@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 71%
+source-wordcount: '2755'
+ht-degree: 70%
 ---
 # フォームへの計算フィールドの追加
 
@@ -356,7 +356,7 @@ ht-degree: 71%
     <tbody> 
      <tr> 
       <td role="rowheader">ロジックを追加</td> 
-      <td>表示ロジックを追加して、ユーザーがフォームに入力する際に直前の複数選択フィールド（ドロップダウン、チェックボックス、ラジオボタン）で行った少なくとも1つの選択に基づいて、計算フィールドが表示されるかどうかを判断できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md"> カスタムフォームとフィールドへのロジックルールの追加</a>を参照してください。 <p>これは、フォーム上の計算カスタムフィールドの前に、1 つ以上のチェックボックス、ラジオボタンまたはドロップダウンフィールドがある場合にのみ使用できます。 </p> <p>計算されたカスタムフィールドでは、スキップロジックやその他のロジックタイプは使用できません。</p> </td> 
+      <td>表示ロジックを追加して、ユーザーがフォームに入力する際に直前の複数選択フィールド（ドロップダウン、チェックボックス、ラジオボタン）で行った少なくとも1つの選択に基づいて、計算フィールドが表示されるかどうかを判断できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md"> カスタムフォームとフィールドへのロジックルールの追加</a>を参照してください。 <p>これは、フォーム上の計算カスタムフィールドの前に、1 つ以上のチェックボックス、ラジオボタンまたはドロップダウンフィールドがある場合にのみ使用できます。 </p> <p>計算されたカスタムフィールドでは、スキップロジックやその他のロジックタイプは使用できません。</p> <p><b>注：</b>表示ロジックによって非表示になっているカスタムフィールドは、値を保持し、CONCATなどの式にまだ含まれています。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">以前の計算を更新</td> 

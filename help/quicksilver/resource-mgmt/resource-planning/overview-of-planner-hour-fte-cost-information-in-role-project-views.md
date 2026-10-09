@@ -7,27 +7,33 @@ description: リソースプランナーのプロジェクトビューと役割�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 94%
-
 ---
-
 # リソースプランナーのプロジェクトビューと役割ビューの時間数、FTE およびコスト情報の概要
 
 <!--
@@ -67,11 +73,11 @@ ht-degree: 94%
 
 * リソースプランナーでのリソースの割り当ての予算計上は、次の方法で行われます。
 
-   * 手動
+  * 手動
 
-     または
+    または
 
-   * 自動（**プロジェクト別に表示**&#x200B;ビューおよび&#x200B;**役割別に表示**&#x200B;ビューのプロジェクトと役割のオプションを使用）。
+  * 自動（**プロジェクト別に表示**&#x200B;ビューおよび&#x200B;**役割別に表示**&#x200B;ビューのプロジェクトと役割のオプションを使用）。
 
   詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
 
@@ -102,7 +108,7 @@ ht-degree: 94%
 >
 >リソースプランナーでのコストの計算方法について詳しくは、[リソースプランナーでのコストの計算](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)の記事を参照してください。
 
-次の表に、プロジェクトビューまたはロールビューを適用する際にリソースプランナーに表示される割り当てと空き時間の情報を示します。 この情報は、時間別、FTE 別、またはコスト別に表示できます。
+次の表に、プロジェクトビューまたは役割ビューを適用する際にリソースプランナーに表示される割り当てと空き時間の情報を示します。 この情報は、時間別、FTE 別、またはコスト別に表示できます。
 
 * [AVL（利用可能）列](#the-avl-available-column)
 * [PLN（予定）列](#the-pln-planned-column)
@@ -190,16 +196,16 @@ ht-degree: 94%
   週末、スケジュールの例外および休暇日は、この配分から除外されます。
 * 各リソースの予定時間数の計算には、次のタスクのカテゴリが含まれます。
 
-   * リソースプール、担当業務、またはプロジェクトのチームでユーザーに割り当てられたタスク\
-     タスクがチームに割り当てられると、その割り当ては「**役割なし**」および「**ユーザーなし**」セクションに表示されます。 チームに関連付けられた予定時間数は表示できますが、タスクに関連付けられた役割やユーザーがないので、時間数を予算計上することはできません。
+  * リソースプール、担当業務、またはプロジェクトのチームでユーザーに割り当てられたタスク\
+    タスクがチームに割り当てられると、その割り当ては「**役割なし**」および「**ユーザーなし**」セクションに表示されます。 チームに関連付けられた予定時間数は表示できますが、タスクに関連付けられた役割やユーザーがないので、時間数を予算計上することはできません。
 
-   * 未割り当てタスク
+  * 未割り当てタスク
 
 * リソースプランナーの予定時間数には、次に関連する予定時間数は含まれません。
 
-   * 親タスク
-   * リソースプールを持たないユーザーに割り当てられたタスク
-   * イシュー（**イシューの時間数を含める**&#x200B;の設定が無効の場合）。
+  * 親タスク
+  * リソースプールを持たないユーザーに割り当てられたタスク
+  * イシュー（**イシューの時間数を含める**&#x200B;の設定が無効の場合）。
 
 * タスクの期間が 0 の場合、予定時間数はリソースプランナーに表示されません。
 * 非アクティブ化されたユーザーに関連付けられた予定時間数は表示されません。

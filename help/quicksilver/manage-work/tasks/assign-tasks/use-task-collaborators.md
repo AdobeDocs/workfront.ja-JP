@@ -1,7 +1,7 @@
 ---
 title: 作業担当者の使用
 content-type: reference
-description: Workfront タスクに割り当てることができる作業担当者、AI共同作業者の使用方法について説明します。
+description: Workfrontのタスク、イシュー、リクエストに割り当てることができる作業エージェント、AI共同作業者の使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 3%
 ---
 # 作業担当者の使用
 
 {{preview-fast-release-general}}
 
-作業担当者は、Workfrontのタスクやイシューに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同じようにタスクに割り当てられます。
+作業担当者は、Workfrontのタスク、イシュー、リクエストに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同様に作業項目に割り当てられます。
 
 Work Agentsは、Copilot Studio、Claude、Writer、<span class="preview">OpenAIまたはIBMで設定したエージェントに接続します。</span>
 
@@ -125,13 +125,13 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 * 作業エージェントは、既に作業エージェントが割り当てられているタスクに割り当てられます。 この場合、最初に割り当てられた作業担当者は既に作業を開始しており、2番目の作業担当者は何もしません。
 * 作業エージェントは、開始準備ができていないタスクに割り当てられています。 （例えば、タスクに先行タスクがある場合、先行タスクはまだ完了していません）。
 
-## タスク <span class="preview">またはイシュー</span>に作業エージェントを割り当てる
+## タスク、イシュー、またはリクエストに作業エージェントを割り当てる
 
-作業担当者は、ユーザーの割り当て方法と同じように、タスク <span class="preview">またはイシュー</span>に割り当てられます。
+作業担当者は、ユーザーの割り当て方法と同じように、タスク、イシュー、リクエストに割り当てられます。
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
 >[!NOTE]
 >

@@ -6,26 +6,31 @@ description: Adobe Workfront では、ダッシュボードに外部ページと
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 90%
-
 ---
-
 # リンクを使用してリソースプランナーユーザービューを共有する
 
 Adobe Workfront では、ダッシュボードに外部ページとして埋め込むことのできるリソースプランナーのユーザービューに対する一意の URL を生成するか、新しいブラウザータブで別々に開くことができます。 これは、リソースプランナーの情報を、リソース領域に直接アクセスできない可能性のあるユーザーと共有する場合に役立ちます。
@@ -67,14 +72,14 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
 
 リソースプランナのユーザービューに対する一意の URL を生成する際は、次の点を考慮してください。
 
-* 一意の URL は、ユーザービューに対してのみ取得できます。 URL を生成するオプションは、プロジェクトビューまたはロールビューにはありません。
+* 一意の URL は、ユーザービューに対してのみ取得できます。 URL を生成するオプションは、プロジェクトビューまたは役割ビューにはありません。
 * URLは、作品、投稿者、レビューのライセンス済みユーザーなど、他のユーザーと共有できます。\
   他のユーザーと共有する URL からリソースプランナーの情報を表示するには、そのユーザーが他のユーザーを表示するアクセス権を持っている必要があります。
 * URL を他のユーザーと共有する際に、次の情報が保存されます。
 
-   * 期間のタイプ（週、月、四半期）。
-   * 適用するフィルター。
-   * 表示のタイプ（時間または FTE）。
+  * 期間のタイプ（週、月、四半期）。
+  * 適用するフィルター。
+  * 表示のタイプ（時間または FTE）。
 
 リソースプランナーのユーザービューで一意の URL を取得し、他のユーザーと共有する手順は、次のとおりです。
 
@@ -112,11 +117,11 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
      </MadCap:conditionalText>   
      -->
 
-      1. **レポート**／**ダッシュボード**／**新規ダッシュボード**／**外部ページを追加**&#x200B;をクリックします。
+     1. **レポート**／**ダッシュボード**／**新規ダッシュボード**／**外部ページを追加**&#x200B;をクリックします。
 
-      1. クリップボードにコピーしたリンクを、**URL** フィールドに貼り付けます。
-      1. 「**保存**」、「**保存して閉じる**」の順にクリックします。\
-         これにより、URL がダッシュボードに埋め込まれ、リソースプランナーのユーザービューが別のダッシュボードに表示されます。
+     1. クリップボードにコピーしたリンクを、**URL** フィールドに貼り付けます。
+     1. 「**保存**」、「**保存して閉じる**」の順にクリックします。\
+        これにより、URL がダッシュボードに埋め込まれ、リソースプランナーのユーザービューが別のダッシュボードに表示されます。
 
 1. （オプション）URL をダッシュボードに埋め込んだ場合は、そのダッシュボードをレイアウトテンプレートに追加するか、リソース管理エリアにアクセスできない他のユーザーと共有することを検討します。\
    レイアウトテンプレートへのダッシュボードの追加について詳しくは、[レイアウトテンプレートを作成および管理](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。\

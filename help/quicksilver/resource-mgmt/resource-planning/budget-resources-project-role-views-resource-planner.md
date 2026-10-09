@@ -6,26 +6,31 @@ description: プロジェクトビューや役割ビューを使用して、Adob
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
-ht-degree: 94%
-
+source-wordcount: '2121'
+ht-degree: 96%
 ---
-
 # プロジェクトビューや役割ビューを使用したリソースプランナーでのリソース予算の計上
 
 <!--
@@ -130,9 +135,9 @@ ht-degree: 94%
 
    * **BDG** 列で、プロジェクトの予算計上時間数、FTE、またはコストを手動で指定します。 プロジェクトの予算計上時間数が、プロジェクト内のそれぞれの役割に配分されます。 次のシナリオが存在します。
 
-      * 指定したプロジェクトの予算計上時間数がプロジェクトの予定時間数と等しい場合、役割の予算計上時間数は役割の予定時間数と一致します。
-      * 指定したプロジェクトの予算計上時間数がプロジェクトの予定時間数と等しくない場合、役割の予算計上時間数は、それぞれの役割に必要な予定時間数の割合に従って配分されます。\
-        例えば、プロジェクトに 20 時間分の予定時間があり、2 つの担当業務に配分されていて（コンサルタントが必要な予定時間数は 12 時間、エンジニアが必要な予定時間数は 8 時間）、さらにプロジェクトに 30 時間分の予算を計上する場合、コンサルタントは 18 時間分の予算計上時間を、エンジニアは 12 時間分の予算計上時間を受け取るように配分されます。
+     * 指定したプロジェクトの予算計上時間数がプロジェクトの予定時間数と等しい場合、役割の予算計上時間数は役割の予定時間数と一致します。
+     * 指定したプロジェクトの予算計上時間数がプロジェクトの予定時間数と等しくない場合、役割の予算計上時間数は、それぞれの役割に必要な予定時間数の割合に従って配分されます。\
+       例えば、プロジェクトに 20 時間分の予定時間があり、2 つの担当業務に配分されていて（コンサルタントが必要な予定時間数は 12 時間、エンジニアが必要な予定時間数は 8 時間）、さらにプロジェクトに 30 時間分の予算を計上する場合、コンサルタントは 18 時間分の予算計上時間を、エンジニアは 12 時間分の予算計上時間を受け取るように配分されます。
 
 1. プロジェクトの予算配分を行うには、次のいずれかを実行します。
 
@@ -224,8 +229,8 @@ ht-degree: 94%
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. 「**保存**」をクリックします。\
-   リソースプランナーでリソースを予算化すると、リソースの予算計上時間数とそれに関連するコストが、各プロジェクトのビジネスケースに一覧表示されます。
-ビジネスケースのリソース予算編成領域について詳しくは、「[&#x200B; ビジネスケースの予算リソース &#x200B;](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)」の記事を参照してください。
+   リソースプランナーでリソースの予算を計上すると、リソースの予算計上時間とそれに関連するコストが、すべてのプロジェクトのビジネスケースにリストアップされます。
+   ビジネスケースのリソース予算計上エリアについて詳しくは、記事[ビジネスケースの予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
 1. （オプション）**ユーザー別表示**&#x200B;ビューを選択して、各ユーザーの利用可能時間と予定時間数の間のユーザー割り当て超過または稼働率不足を確認します。 予算計上時間は、ユーザー別表示ビューには表示されません。
 

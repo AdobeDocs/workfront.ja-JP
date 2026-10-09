@@ -6,27 +6,33 @@ description: 作業アイテムを効率的に検索し、管理するユーザ�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-TQID: https://experienceleague.adobe.com/GwsP3EbD5BOQaS-xTxmpRlmqkGXdVSoowt-KG34O75M
+TQID: 'https://experienceleague.adobe.com/GwsP3EbD5BOQaS-xTxmpRlmqkGXdVSoowt-KG34O75M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2441
-ht-degree: 49%
-
+source-wordcount: '2464'
+ht-degree: 50%
 ---
-
 # ワークロードバランサーでの情報のフィルタリング
 
 <!-- Audited: 6/2025 -->
@@ -120,8 +126,8 @@ ht-degree: 49%
 >
 >ワークロードバランサーの各エリアには、互いに独立して機能する独自のフィルターセットがあります。 両方のフィルターを設定して、各エリアに表示する情報を指定する必要があります。
 
-ワークロードバランサーには、ユーザーとその作業項目が表示されます。
-ユーザーに割り当てられた作業項目は、項目の日付が画面に表示される時間枠と一致する場合にのみ表示されます。
+ワークロードバランサーには、ユーザーとその作業アイテムが表示されます。
+ユーザーに割り当てられた作業アイテムは、アイテムの日付が画面に表示される時間枠と一致する場合にのみ表示されます。
 
 次の表に示すように、ワークロードバランサーのアクセス元に応じて、未割り当てエリアと割り当てられたエリアは、特定の基準で既にフィルタリングされています。
 
