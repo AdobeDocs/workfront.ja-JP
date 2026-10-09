@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 5%
+source-wordcount: '976'
+ht-degree: 4%
 ---
 # Snowflake のリーダーアカウントまたは接続の作成
 
@@ -74,6 +74,10 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 接続の作成を開始する前に、組織の新しいSnowflake リーダーアカウントを作成する必要があります。
 
+リーダーアカウントは、Data Connect データへの読み取り専用アクセスを提供します。このデータは、Snowflakeまたはサードパーティのビジュアライゼーションまたはデータ処理ツールからクエリできます。 Data Connectは、Snowflake ビューのみを通じてデータを共有します。 データベーステーブルは含まれていません。
+
+詳しくは、Snowflake ドキュメントの「[ リーダーアカウントの作成](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create)」を参照してください。
+
 >[!IMPORTANT]
 >
 >このプロセスは、組織ごとに1回のみ完了する必要があります。 以下の場所に「**Reader アカウントを作成**」ボタンがない場合、リーダーアカウントは既に作成されています。
@@ -88,7 +92,7 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 1. 完了すると、リーダーアカウントがアクティブになったことを示すダイアログウィンドウが表示されます。 ブラウザーページを更新して、**新しい接続を作成** ボタンにアクセスします。
 
-![Reader アカウント作成ダイアログ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![Reader アカウント作成ダイアログ ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## 接続の作成
 
@@ -118,13 +122,13 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 1. **デフォルトのパスワード**&#x200B;と、Snowflakeを通じてデータを表示できるURLが生成されます。 初めてSnowflakeにサインインする際に選択したユーザー名でパスワードを使用する必要があります。そのため、URLと同様にパスワードの記録を保持するようにしてください。 確認ボックスをオンにして、**閉じる**&#x200B;をクリックします。
 
-   ![既定のアカウント パスワード &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
+   ![既定のアカウント パスワード ](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
 1. ブラウザーを使用してSnowflakeを開き、前の手順で選択したURLに移動し、前の手順で選択したユーザー名とデフォルトのパスワードを入力してから、**ログイン**&#x200B;をクリックします。
 
 1. 初めて正常にログインすると、新しいパスワードを選択するように求められます。 **新しいパスワード**&#x200B;と&#x200B;**パスワードの確認** フィールドに任意のパスワードを入力し、**送信**&#x200B;をクリックします。
 
-   ![Snowflake パスワードのリセット &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
+   ![Snowflake パスワードのリセット ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. ユーザー名と新しいパスワードを使用して、SnowflakeのData Connect データレイクまたは任意のビジネスビジュアライゼーションツールにアクセスできるようになりました。
 
@@ -138,7 +142,7 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 1. 認証に使用できるPAT トークンが生成され、Snowflake環境のURLが提供されます。 サードパーティのビジュアライゼーションツールまたはデータプロセッサーからSnowflakeに接続するには、PATとユーザー名を使用します。 URLだけでなく、データの記録も保持するようにしてください。 確認ボックスをオンにして、**閉じる**&#x200B;をクリックします。
 
-   ![&#x200B; プログラマティック アクセス トークン ダイアログ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+   ![ プログラマティック アクセス トークン ダイアログ ](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
 
 
 ### RSA キー認証
@@ -155,7 +159,7 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 Snowflakeへのログインに選択したユーザー名でRSA キーを使用する必要があります。そのため、URLと同様にRSA キーの記録を保持するようにしてください。 確認ボックスをオンにして、**閉じる**&#x200B;をクリックします。
 
-![RSA キーダイアログ &#x200B;](assets/rsa-test.png)
+![RSA キーダイアログ ](assets/rsa-test.png)
 
 ## リーダーアカウントの失効
 
@@ -163,6 +167,6 @@ Snowflakeへのログインに選択したユーザー名でRSA キーを使用�
 
 1. 左側のパネルで、**システム**/**データアクセス**&#x200B;をクリックします。
 
-1. 取り消すアカウントの右側にあるゴミ箱アイコン ![削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
+1. 取り消すアカウントの右側にあるゴミ箱アイコン ![削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして確認し、**削除**&#x200B;をクリックします。
