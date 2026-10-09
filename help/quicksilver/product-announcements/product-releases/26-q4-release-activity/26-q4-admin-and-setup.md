@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 1%
 ---
 # 2026年第4四半期の管理者の機能強化
@@ -23,6 +23,22 @@ ht-degree: 1%
 このページでは、2026年第4四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+## ユーザーの職歴の表示
+
+>[!NOTE]
+>
+>プレビュー：2026年10月1日（PT）
+>プロダクション高速リリース：2026年10月14日（PT）
+>すべての人のための制作：2026年10月15日
+
+ユーザーの役職、代理店、コストセンター、および請求率が時間の経過とともにどのように変化したかを追跡するために、雇用履歴を追加しました。
+
+雇用履歴では、1人以上のユーザーに関するこれらの詳細の時系列ビューが表示されます。 各行は、特定の値のセットと、それらが適用された日付範囲を表します。
+
+複数のユーザーの雇用履歴を表示したり、単一ユーザーの完全な履歴を表示したりできます。 どちらのビューでも、結果のフィルタリング、表示される列のカスタマイズ、データのCSVまたはXLSX ファイルへの書き出しを行うことができます。
+
+詳しくは、[&#x200B; ユーザーの雇用履歴の表示](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)を参照してください。
 
 ## AIを活用してカスタムローカライズを生成
 
