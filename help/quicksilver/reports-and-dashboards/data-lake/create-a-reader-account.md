@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 5%
+source-wordcount: '976'
+ht-degree: 4%
 ---
 # Snowflake のリーダーアカウントまたは接続の作成
 
@@ -73,6 +73,10 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 ## リーダーアカウントの作成
 
 接続の作成を開始する前に、組織の新しいSnowflake リーダーアカウントを作成する必要があります。
+
+リーダーアカウントは、Data Connect データへの読み取り専用アクセスを提供します。このデータは、Snowflakeまたはサードパーティのビジュアライゼーションまたはデータ処理ツールからクエリできます。 Data Connectは、Snowflake ビューのみを通じてデータを共有します。 データベーステーブルは含まれていません。
+
+詳しくは、Snowflake ドキュメントの「[&#x200B; リーダーアカウントの作成](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create)」を参照してください。
 
 >[!IMPORTANT]
 >
