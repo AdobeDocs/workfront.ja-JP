@@ -22,18 +22,18 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 11%
+source-wordcount: '755'
+ht-degree: 9%
 ---
 # カスタムフィールドの財務データへのアクセス制限
 
 カスタムフィールドを作成する場合は、財務データへのアクセスを制限するオプション設定を定義できます。 これにより、アクセスレベルで特定の権限が設定されているユーザーはデータを表示でき、アクセス権を持つはずの財務データを表示することはできません。
 
-カスタムフィールドの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフィールドの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-アクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。 共有と権限について詳しくは、[&#x200B; オブジェクトに対する共有権限の概要](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+アクセス レベルと権限による財務データへのアクセスの定義について詳しくは、[財務データへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[ オブジェクトに対する財務権限の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +67,7 @@ ht-degree: 11%
 
 1. 新規カスタムフォームを作成するか、既存のフォームを開きます。
 
-   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. カスタムフィールドをフォームに追加するか、既存のフィールドを選択します。
 
@@ -89,16 +89,27 @@ ht-degree: 11%
    >
    >計算フィールドの場合は、任意の形式を使用できます。 その他のすべてのフィールドタイプでは、**通貨**&#x200B;形式を使用する必要があります。そうしないと、**財務権限タイプ** フィールドを使用できません。
 
-1. （オプション）計算フィールドの場合のみ、**自動権限** オプションをオンにして、財務権限が数式のフィールドから自動的に取得できるようにします。
+1. （オプション）計算フィールドの場合のみ、**自動権限** オプションをオンにして、数式のフィールドから財務権限を自動的に作成できるようにします。
 
 1. **財務権限タイプ**&#x200B;のオプションを選択します。
 
-   ユーザーは、フォームでこのカスタムフィールドを表示または編集する前に、この財務権限タイプを持っている必要があります。
+   この設定では、ユーザーがフォームでこのカスタムフィールドを表示または編集する前に必要なアクセス権と権限のタイプを定義します。
 
-   * **権限は必要ありません：**&#x200B;すべてのユーザーがこのフィールドを表示できます
-   * **General:** ユーザーには、General Financeを編集または表示するための権限が必要です
-   * **請求：** ユーザーには、請求レートを編集または表示するための権限が必要です
-   * **コスト：** ユーザーには、コスト率を編集または表示するための権限が必要です
+   * **権限は必要ありません：**&#x200B;すべてのユーザーは、アクセスレベルとオブジェクトの権限に関係なく、フィールドを表示できます。
+   * **一般：** ユーザーがフィールドを表示するには、次のいずれかを持っている必要があります：
+
+     * アクセスレベルには、財務データへの表示または編集アクセスが含まれ、General Financeに対するアクセスが有効になっています。
+     * カスタムフォームが添付されているオブジェクトに対する権限には、General Financeの表示または編集が含まれます。
+
+   * **請求書：** ユーザーがフィールドを表示するには、次のいずれかを持っている必要があります：
+
+     * アクセスレベルには財務データへの表示または編集アクセスが含まれ、請求料に対するアクセスは有効になっています。
+     * カスタムフォームが添付されているオブジェクトに対する権限には、請求料金の表示または編集が含まれます。
+
+   * **コスト：** ユーザーがフィールドを表示するには、次のいずれかを持っている必要があります：
+
+     * アクセスレベルには、財務データへの表示または編集アクセスが含まれ、コスト率に対してアクセスが有効になっています。
+     * カスタムフォームが添付されたオブジェクトに対する権限には、コスト率の表示または編集が含まれます。
 
    計算フィールド用：
 
