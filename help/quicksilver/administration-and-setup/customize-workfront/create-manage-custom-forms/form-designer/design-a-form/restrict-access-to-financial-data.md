@@ -31,9 +31,9 @@ ht-degree: 9%
 
 カスタムフィールドを作成する場合は、財務データへのアクセスを制限するオプション設定を定義できます。 これにより、アクセスレベルで特定の権限が設定されているユーザーはデータを表示でき、アクセス権を持つはずの財務データを表示することはできません。
 
-カスタムフィールドの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフィールドの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-アクセス レベルと権限による財務データへのアクセスの定義について詳しくは、[財務データへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[ オブジェクトに対する財務権限の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
+アクセス レベルと権限による財務データへのアクセスの定義について詳しくは、[財務データへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[&#x200B; オブジェクトに対する財務権限の共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +67,7 @@ ht-degree: 9%
 
 1. 新規カスタムフォームを作成するか、既存のフォームを開きます。
 
-   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. カスタムフィールドをフォームに追加するか、既存のフィールドを選択します。
 

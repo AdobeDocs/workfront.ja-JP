@@ -126,7 +126,7 @@ If you make changes here, make them also in the "Grant access to" articles where
 * 特定のオブジェクトに対して受信者に付与する権限
 * オブジェクトのタイプと財務データに対する受信者のアクセスレベル設定
 
-カスタム金融フィールドへのアクセスは、ユーザーの権限とアクセスレベルの設定に基づいて制限することもできます。 詳しくは、[ カスタムフィールド内の財務データへのアクセスを制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)を参照してください。
+カスタム金融フィールドへのアクセスは、ユーザーの権限とアクセスレベルの設定に基づいて制限することもできます。 詳しくは、[&#x200B; カスタムフィールド内の財務データへのアクセスを制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)を参照してください。
 
 ## ライセンスタイプ別の財務情報へのアクセス権
 
