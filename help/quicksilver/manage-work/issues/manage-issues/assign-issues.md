@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 65%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-ユーザー、役割、チーム、作業担当者にイシューを割り当てて、イシューを完了する責任を誰が負うかを示すことができます。 イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
+ユーザー、役割、チーム、<span class="preview">または作業担当者</span>に問題を割り当てて、問題を完了する担当者を指定できます。 イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
 >[!TIP]
 >
->複数のユーザー、担当業務、チーム、作業担当者を割り当てることができます。 割り当てることができるのは、アクティブなユーザー、担当業務、チーム、作業担当者のみです。
+>複数のユーザー、担当業務、チーム、<span class="preview">または作業担当者</span>を割り当てることができます。 割り当てることができるのは、アクティブ ユーザー、担当業務、チーム、<span class="preview">および作業担当者</span>のみです。
 >
->ユーザー、担当業務、チーム、または作業エージェントが非アクティブ化される前に割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、以下の操作をお勧めします。
+>ユーザー、担当業務、チーム、<span class="preview">または作業エージェント </span>が非アクティブ化される前に割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、以下の操作をお勧めします。
 >
 >* 作業アイテムをアクティブなリソースに再割り当てする。
 >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
@@ -145,11 +145,11 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![&#x200B; ボタンに割り当て](assets/assign-to-button-in-header.png)
+   ![ ボタンに割り当て](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
-   * 割り当てるユーザー、役割、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
+   * 割り当てるユーザー、役割、チーム、<span class="preview">または作業エージェント </span>の名前を入力し始め、リストに表示されたらクリックします。
 
      ![割り当て検索](assets/smart-assignments-issue-header.png)
 
@@ -196,11 +196,11 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![&#x200B; フィールドに割り当て](assets/assigned-to-field-task-list-nwe.png)
+     ![ フィールドに割り当て](assets/assigned-to-field-task-list-nwe.png)
 
-   * 「**割り当て**」フィールド内をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
+   * 「**割り当て**」フィールド内をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、チーム、<span class="preview">または作業エージェント </span>の名前を入力し始め、リストに表示されたらクリックします。
 
-     ![割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
+     ![割り当てフィールド ](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -210,7 +210,7 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
    >
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。 詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-1. （条件付き）割り当てフィールドで、リストの下部にある&#x200B;**詳細**&#x200B;をクリックするか、割り当てボックスの右上隅にある&#x200B;**人物アイコン** ![人物アイコン &#x200B;](assets/teams.png)をクリックして、「詳細な割り当て」ボックスを開き、高度な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）割り当てフィールドで、リストの下部にある&#x200B;**詳細**&#x200B;をクリックするか、割り当てボックスの右上隅にある&#x200B;**人物アイコン** ![人物アイコン ](assets/teams.png)をクリックして、「詳細な割り当て」ボックスを開き、高度な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -262,7 +262,7 @@ Assigning issues in bulk is different depending on what environment you choose t
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン** ![編集アイコン &#x200B;](assets/qs-edit-icon.png)をクリックします。
+1. **編集アイコン** ![編集アイコン ](assets/qs-edit-icon.png)をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
