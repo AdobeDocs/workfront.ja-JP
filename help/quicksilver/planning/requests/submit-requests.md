@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 3%
 ---
 # Adobe Workfront Planning リクエストを送信して、レコードを作成
@@ -223,10 +223,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   >依存接続レコードフィールドの値は、レコード間の依存ルールによって制限されます。 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
+   ><span class="preview">依存する接続されたレコード フィールドの値は、レコード間の依存関係ルールによって制限されます。 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。</span>
+
+1. （オプションおよび条件付き）「**フォームに入力**」をクリックすると、AIがフォームに入力します。 以前のリクエストの情報に基づいて、Workfrontがフォームのフィールドに入力します。
+
+   >[!TIP]
+   >
+   >組織がフォーム入力機能を使用できるようにするには、システム環境設定エリアの&#x200B;**AI フォーム入力**&#x200B;を許可する必要があります。
+   >
+   >手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
 
 
-1. （条件付き）組織がAIによる&#x200B;**フォーム入力**&#x200B;を許可している場合、プロンプトとしてドキュメントをアップロードできます。 AIはこれらのドキュメントを使用してフォームに入力します。リクエストを送信する前に、AIの提案を承認または却下できます。
+
+1. （条件付き）組織で&#x200B;**AI フォーム入力**&#x200B;が許可されている場合は、プロンプトとしてドキュメントをアップロードできます。 AIはこれらのドキュメントを使用してフォームに入力します。リクエストを送信する前に、AIの提案を承認または却下できます。
 
 
    手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
@@ -345,7 +354,15 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    リクエストフォームが開きます。
 1. 利用可能なすべてのフィールドにすべての情報を入力します
 
-   または、**フォームに入力**&#x200B;をクリックして、AIにフォームに入力してもらいます。
+   または、**フォームに入力**&#x200B;をクリックして、AIにフォームに入力してもらいます。 以前のリクエストの情報に基づいて、Workfrontがフォームのフィールドに入力します。
+
+   >[!TIP]
+   >
+   >組織がシステム環境設定エリアで&#x200B;**AI フォーム入力**&#x200B;を許可している場合は、プロンプトとしてドキュメントをアップロードできます。 AIはこれらのドキュメントを使用してフォームに入力します。リクエストを送信する前に、AIの提案を承認または却下できます。
+   >
+   >手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
+
+
 1. 「**リクエストを送信**」をクリックします。
 
    リクエストが送信されます。

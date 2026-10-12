@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 84%
+source-wordcount: '831'
+ht-degree: 75%
 ---
 # 財務データへのアクセス権の付与
 
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-別のユーザーとオブジェクトを共有する場合、そのオブジェクトに対する受信者の権限は次の 2 つ項目の組み合わせによって決まります。
+任意のオブジェクトを別のユーザーと共有する場合、そのオブジェクトに関する財務データを表示または編集する受信者の権限は、次の2つの項目の組み合わせによって決まります。
 
-* オブジェクトについて受信者に付与する権限
-* オブジェクトのタイプについての受信者のアクセスレベル設定
+* 特定のオブジェクトに対して受信者に付与する権限
+* オブジェクトのタイプと財務データに対する受信者のアクセスレベル設定
+
+カスタム金融フィールドへのアクセスは、ユーザーの権限とアクセスレベルの設定に基づいて制限することもできます。 詳しくは、[&#x200B; カスタムフィールド内の財務データへのアクセスを制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)を参照してください。
 
 ## ライセンスタイプ別の財務情報へのアクセス権
 
