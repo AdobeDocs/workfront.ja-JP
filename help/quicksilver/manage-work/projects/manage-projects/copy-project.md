@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 59%
-
 ---
-
 # プロジェクトをコピー
 
 <!--
@@ -162,76 +170,76 @@ ht-degree: 59%
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">すべて選択</td> 
       <td> <p>すべてのオプションを選択し、新しいプロジェクトから一覧表示されるすべてのフィールドとオブジェクトをクリアします。 </p>
 
    <p> このオプションの選択を解除すると、すべての項目が選択解除されます。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">割り当て</td> 
-      <td>プロジェクトとタスクのすべての割り当てを削除します。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">進捗状況</td> 
-      <td>すべてのタスクの進行状況を削除し、新規として表示します。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">カスタムデータ</td> 
-      <td> <p>プロジェクトのカスタムフォームの情報と、次の項目に関連付けられているカスタムフォームの情報を削除します。</p> 
-       <ul> 
-        <li>タスク</li> 
-        <li>費用</li> 
-        <li> ドキュメント</li> 
-       </ul> 
-      <p>カスタムフォームは、タスク、費用、ドキュメント、プロジェクトに添付されたままですが、フォームのカスタムフィールド内の情報は新しいプロジェクトにコピーされません。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">ドキュメント</td> 
-      <td> <p>ドキュメントのバージョン、リンクされたドキュメント、フォルダーなど、「ドキュメント」タブのすべての項目を削除します。</p> <p>デフォルトでは、ドキュメントのプルーフと承認は別のプロジェクトにコピーできません。 </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">割り当て</td> 
+        <td>プロジェクトとタスクのすべての割り当てを削除します。</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">進捗状況</td> 
+        <td>すべてのタスクの進行状況を削除し、新規として表示します。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">カスタムデータ</td> 
+        <td> <p>プロジェクトのカスタムフォームの情報と、次の項目に関連付けられているカスタムフォームの情報を削除します。</p> 
+        <ul> 
+          <li>タスク</li> 
+          <li>費用</li> 
+          <li> ドキュメント</li> 
+        </ul> 
+        <p>カスタムフォームは、タスク、費用、ドキュメント、プロジェクトに添付されたままですが、フォームのカスタムフィールド内の情報は新しいプロジェクトにコピーされません。 </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">ドキュメント</td> 
+        <td> <p>ドキュメントのバージョン、リンクされたドキュメント、フォルダーなど、「ドキュメント」タブのすべての項目を削除します。</p> <p>デフォルトでは、ドキュメントのプルーフと承認は別のプロジェクトにコピーできません。 </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">すべての先行タスク</td> 
       <td> <p>プロジェクト上のタスク間の先行タスク関係をすべて削除します。 </p> <p>
 
    プロジェクト間の先行タスクは、選択されているかどうかに関係なく、新しいプロジェクトに転送されることはありません。 </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">予算計上時間数</td> 
-      <td> <p>プロジェクトのビジネスケースのリソース計画エリアの予算計上時間数を、コピーしたプロジェクトから削除します。</p> 
-    <p>
-   新規プロジェクトはシナリオプランナーのイニシアチブにリンクされていないため、シナリオプランナーを使用して予算計上された時間数が新規プロジェクトにコピーされることはありません。 詳しくは、<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">シナリオプランナーを使用したビジネスケースの予算計上リソース</a>を参照してください。</p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">財務情報</td> 
-      <td> <p>以下のエリアの情報を削除します。 </p> 
-       <ul> 
-        <li>プロジェクトの「財務」サブタブ</li> 
-        <li> ビジネスケースにおける予定利益</li> 
-        <li>すべてのタスクの財務情報<br></li> 
-       </ul> <p>プロジェクトの財務サブタブについて詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> プロジェクトの財務エリアの情報の管理</a>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">承認プロセス</td> 
-      <td>タスクやプロジェクトに関連付けられているすべての承認を削除します。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">リマインダー通知</td> 
-      <td> タスクやプロジェクトに関連付けられているリマインダー通知を削除します。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">費用</td> 
-      <td>タスクやプロジェクトに関連する費用を削除します。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">権限</td> 
-      <td> タスクやプロジェクトのすべてのユーザーに対する権限を削除します。</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">予算計上時間数</td> 
+        <td> <p>プロジェクトのビジネスケースのリソース計画エリアの予算計上時間数を、コピーしたプロジェクトから削除します。</p> 
+      <p>
+    新規プロジェクトはシナリオプランナーのイニシアチブにリンクされていないため、シナリオプランナーを使用して予算計上された時間数が新規プロジェクトにコピーされることはありません。 詳しくは、<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">シナリオプランナーを使用したビジネスケースの予算計上リソース</a>を参照してください。</p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">財務情報</td> 
+        <td> <p>以下のエリアの情報を削除します。 </p> 
+        <ul> 
+          <li>プロジェクトの「財務」サブタブ</li> 
+          <li> ビジネスケースにおける予定利益</li> 
+          <li>すべてのタスクの財務情報<br></li> 
+        </ul> <p>プロジェクトの財務サブタブについて詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> プロジェクトの財務エリアの情報の管理</a>を参照してください。</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">承認プロセス</td> 
+        <td>タスクやプロジェクトに関連付けられているすべての承認を削除します。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">リマインダー通知</td> 
+        <td> タスクやプロジェクトに関連付けられているリマインダー通知を削除します。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">費用</td> 
+        <td>タスクやプロジェクトに関連する費用を削除します。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">権限</td> 
+        <td> タスクやプロジェクトのすべてのユーザーに対する権限を削除します。</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. 「**プロジェクトをコピー**」をクリックします。 コピーされたプロジェクトが作成されます。
