@@ -84,7 +84,7 @@ Workfront PlanningとGenStudio for Performance Marketingの統合を実現する
 
 * WorkfrontとGenStudio for Performance Marketingは、同じ組織で有効にする必要があります。
 
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
@@ -171,7 +171,7 @@ No longer needed to specify:
 
 Adobe Workfront計画アクセスについて詳しくは、[Adobe Workfront計画アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
-Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 <!--
 Old:
@@ -282,7 +282,7 @@ Workfront Planningの権限について詳しくは、[Adobe Workfront Planning�
 
 * GenStudio ワークスペースは、Workfront計画に視覚的なインジケーターを表示して、GenStudio for Performance Marketing ワークスペースを表すものとして識別します。
 
-  計画中の![GenStudio カード ](assets/genstudio-card-with-tag-highlighted.png)
+  計画中の![GenStudio カード &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
 
   詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
 * GenStudio Workspaceは、Workfront Planningで作成されたときにWorkfrontにアクセスできるすべてのGenStudio ユーザーと自動的に共有されます。
@@ -306,7 +306,7 @@ Workfront Planningの権限について詳しくは、[Adobe Workfront Planning�
 
 * GenStudio for Performance MarketingとPlanningの両方に表示されるレコードタイプには、Workfront PlanningのGenStudio インジケーターがあります。
 
-  ![Workfront計画のGenStudio レコードタイプ カード ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+  ![Workfront計画のGenStudio レコードタイプ カード &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * GenStudio ワークスペースのレコードタイプは、プランニングでワークスペースを作成するときにWorkfrontにもアクセスできるすべてのGenStudio ユーザーと自動的に共有されます。
 * PlanningのGenStudio Workspaceに対する管理権限がある場合は、Workfront Planningから次の操作を実行できます。
   * GenStudioのレコードタイプ情報（外観、詳細設定）を編集します。
