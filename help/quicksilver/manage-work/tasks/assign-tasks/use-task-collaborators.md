@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1080'
 ht-degree: 3%
 ---
 # 作業担当者の使用
@@ -27,13 +27,13 @@ ht-degree: 3%
 
 作業担当者は、Workfrontのタスク、イシュー、リクエストに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同様に作業項目に割り当てられます。
 
-Work Agentsは、Copilot Studio、Claude、Writer、<span class="preview">OpenAIまたはIBMで設定したエージェントに接続します。</span>
+Work Agentsは、Copilot Studio、Claude、<span class="preview">OpenAIまたはIBMで設定したエージェントに接続します。</span>
 
 >[!IMPORTANT]
 >
->ライターはエージェントの使用を非推奨にしています。 Writer エージェントを使用して設定された作業エージェントは、10月9日以降は機能しません。 2026.
+>Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -66,11 +66,11 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 ## 前提条件
 
-* Workfrontで作業エージェントとして使用するには、事前にCopilot、Claude、Writer.ai、OpenAI、またはIBMでエージェントを設定する必要があります。
+* Workfrontで作業エージェントとして使用するには、Copilot、Claude、OpenAI、またはIBMでエージェントを設定する必要があります。
 
 ## 作業エージェントの概要
 
-作業担当者：Workfrontで特定のタスクに担当者を割り当てる方法です。 Copilot Studio、Claude、Writer.aiなどのアプリでエージェントを設定し、そのエージェントをWorkfront as a Work Agentに接続します。 その後、ユーザーを割り当てるのと同じように、タスクに割り当てることができます。
+作業担当者：Workfrontで特定のタスクに担当者を割り当てる方法です。 Copilot StudioやClaude.aiなどのアプリでエージェントを設定し、そのエージェントをWorkfront as a Work Agentに接続します。 その後、ユーザーを割り当てるのと同じように、タスクに割り当てることができます。
 
 ワークフローの例には、次のようなものがあります。
 
@@ -82,7 +82,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 >
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* Workfront MCP サーバーは、作業エージェントとして使用されるエージェントに追加する必要がなく、作業エージェントが機能するために接続する必要もありません。
->* 作業担当者は現在、Copilot Studio、Claude、Writer.ai、<span class="preview">OpenAI、IBMで作成されたエージェントをサポートしています。</span>
+>* Work Agentsは現在、Copilot Studio、Claude、<span class="preview">OpenAI、およびIBMで作成されたエージェントをサポートしています。</span>
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
 >* Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -131,7 +131,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
 >[!NOTE]
 >
