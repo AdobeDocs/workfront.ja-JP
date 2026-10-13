@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 40%
+source-wordcount: '376'
+ht-degree: 37%
 ---
 # レイアウトテンプレートを使用して詳細メニューをカスタマイズする
 
@@ -75,5 +75,9 @@ ht-degree: 40%
    * **表示** ![表示アイコン &#x200B;](assets/add-secondary-nav-item.png)または&#x200B;**非表示** ![非表示アイコン &#x200B;](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルでセクションを表示または非表示にします。 **表示**&#x200B;または&#x200B;**非表示** アイコンがない項目を非表示にすることはできません。
 
    * 項目![移動アイコン &#x200B;](assets/move-icon---dots.png)をドラッグして、左側のパネルで順序を変更します。
+
+   >[!NOTE]
+   >
+   >プロジェクト、タスク、またはイシューの「その他」メニューの「**共有**」オプションを非表示にすると、「共有」ボタンはオブジェクトヘッダーに非表示になります。
 
 1. 「**完了**」をクリックします。

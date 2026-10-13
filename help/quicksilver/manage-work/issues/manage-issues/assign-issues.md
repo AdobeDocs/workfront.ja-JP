@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 65%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-ユーザー、役割、チーム、作業担当者にイシューを割り当てて、イシューを完了する責任を誰が負うかを示すことができます。 イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
+ユーザー、役割、チーム、<span class="preview">または作業担当者</span>に問題を割り当てて、問題を完了する担当者を指定できます。 イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
 >[!TIP]
 >
->複数のユーザー、担当業務、チーム、作業担当者を割り当てることができます。 割り当てることができるのは、アクティブなユーザー、担当業務、チーム、作業担当者のみです。
+>複数のユーザー、担当業務、チーム、<span class="preview">または作業担当者</span>を割り当てることができます。 割り当てることができるのは、アクティブ ユーザー、担当業務、チーム、<span class="preview">および作業担当者</span>のみです。
 >
->ユーザー、担当業務、チーム、または作業エージェントが非アクティブ化される前に割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、以下の操作をお勧めします。
+>ユーザー、担当業務、チーム、<span class="preview">または作業エージェント </span>が非アクティブ化される前に割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、以下の操作をお勧めします。
 >
 >* 作業アイテムをアクティブなリソースに再割り当てする。
 >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
@@ -149,7 +149,7 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
 
 1. 次のいずれかの操作を行います。
 
-   * 割り当てるユーザー、役割、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
+   * 割り当てるユーザー、役割、チーム、<span class="preview">または作業エージェント </span>の名前を入力し始め、リストに表示されたらクリックします。
 
      ![割り当て検索](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ Adobe Workfrontでのイシューとタスクの割り当ては似ています�
 
      ![&#x200B; フィールドに割り当て](assets/assigned-to-field-task-list-nwe.png)
 
-   * 「**割り当て**」フィールド内をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、チーム、または作業エージェントの名前を入力し始め、リストに表示されたらクリックします。
+   * 「**割り当て**」フィールド内をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、チーム、<span class="preview">または作業エージェント </span>の名前を入力し始め、リストに表示されたらクリックします。
 
      ![割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
 

@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 35%
+source-wordcount: '523'
+ht-degree: 33%
 ---
 # マイ承認ウィジェットを使用した承認の管理
 
@@ -162,3 +162,7 @@ My Approvals ウィジェットでは、次のWorkfront オブジェクトから
    </table>
 
 決定を行うと、承認はマイ承認ウィジェットから削除されます。
+
+>[!NOTE]
+>
+>プロジェクト、タスク、またはイシューが「解決済み」、「保留中」、「クローズ」、「キャンセル済み」とマークされている場合は、作業承認をマイ承認ウィジェットから削除することもできます。

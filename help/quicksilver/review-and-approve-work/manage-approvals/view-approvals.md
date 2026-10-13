@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 73%
+source-wordcount: '772'
+ht-degree: 71%
 ---
 # 承認の表示
 
@@ -97,7 +97,8 @@ Workfront の複数のエリアで承認を表示または管理できます。 
 
   * 承認待ちのすべてのプロジェクト、タスク、イシュー、タイムシート、ドキュメント、アクセス、および<span class="preview">Workfront計画リクエスト </span>は、ホーム領域のMy Approvals ウィジェットに表示されます。
   * 自分で送信した承認は、「自分で送信した承認」フィルターオプションを選択すると、ホーム領域の「自分の承認」ウィジェットにも表示されます。 詳しくは、[ホームエリアで承認用に送信する作業を確認](#review-work-you-submit-for-approval-in-the-home-area)の節を参照してください。
-  * 関連するプロジェクト、タスク、またはイシューが「解決済み」、「保留中」、「クローズ」、「キャンセル済み」とマークされている場合、ホーム領域の「マイ承認」ウィジェットから承認が削除されます。
+  * プロジェクト、タスク、またはイシューが「解決済み」、「保留中」、「クローズ」、「キャンセル済み」とマークされている場合、作業承認はマイ承認ウィジェットから削除されます。
+  * ドキュメントまたはプルーフのワークフローが完了または削除されると、統合ドキュメントとプルーフの承認がマイ承認ウィジェットから削除されます。
 
   ホームの使用については、[ホームの基本を学ぶ](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
 
