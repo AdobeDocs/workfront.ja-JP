@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 5%
@@ -84,7 +84,7 @@ Adobe Workfront Planningのレコードタイプのビジネスルールを設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -109,6 +109,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   すべてのルールを同時にチェックします。<!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
+<!--
+<div class="preview">
+
+* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+
+   The warning is visible in all areas where you are editing records, including the table view or details page. 
+
+* If multiple rules are violated, each violation issues its own toast notification. The text in the toast notification comes from the rule's message.
+
+</div>
+
+-->
+
 ## ビジネスルールの設定
 
 1. レコードタイプ ページに移動します。
@@ -121,7 +134,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビジネスルール設定フォームが開きます。
 
-   ![&#x200B; ビジネスルール設定フォーム &#x200B;](assets/business-rule-setup-form.png)
+   ![ ビジネスルール設定フォーム ](assets/business-rule-setup-form.png)
 
 1. ビジネスルール設定フォームの&#x200B;**If** セクションで、特定のルールに基づいて制限または許可するアクションを選択します。 次から選択してください：<!--check UI text-->
    * **レコード編集**：このルールで定義された条件が満たされた場合、ユーザーはレコードを編集または編集できません。
@@ -178,7 +191,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **非アクティブ化**：これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
    * **削除**: ルールに関するすべての情報が削除されます。 削除されたルールは復元できません。
 
-   ![&#x200B; ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
+   ![ ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
 
    編集されたルールまたはルールの非アクティブ化は、今後のレコードにのみ適用され、過去にさかのぼって適用されません。
 1. （オプションおよび条件付き）テーブルで非アクティブ化されたビジネスルールの名前にカーソルを合わせ、**詳細** > **アクティブ化**&#x200B;をクリックしてルールをアクティブ化します。

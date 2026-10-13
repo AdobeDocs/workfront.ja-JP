@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 65%
@@ -147,7 +147,19 @@ Depending on what objects you access the commenting experience for, you might fi
 
 「更新」セクションには、次のタブに情報が表示されます。
 
-* **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。 「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。 オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+* **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。 「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。
+
+  <!--
+  <div class="preview">
+
+  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+
+    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+
+  </div>
+  -->
+
+  オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 * **システム アクティビティ**: Workfrontがオブジェクトに特定のイベントを記録するために作成する情報メッセージであるシステム更新を表示します。 例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込むことができます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。 従来のコメントエクスペリエンスでシステムアクティビティレコードに対して行われた応答は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。 これは表示専用のタブです。 「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。 特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。 オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -186,7 +198,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * ボード領域の接続されたカード
 
-    詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+    詳しくは、[ ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * 次のオブジェクトには、「システム活動」タブに代わる「履歴」タブがあります。
 
@@ -371,4 +383,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
