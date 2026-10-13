@@ -73,17 +73,17 @@ Workfront で時間を記録する方法について詳しくは、[時間を記
 
 自分のすべてのタイムシートと、デフォルトで表示する権限のあるタイムシート。 Adobe Workfront のタイムシートレイアウトについて詳しくは、[タイムシートレイアウトの概要](../../timesheets/timesheets/timesheet-layout.md)を参照してください。
 
-![すべてのタイムシート リスト ](assets/all-timesheets-list-nwe-350x68.png)
+![すべてのタイムシート リスト &#x200B;](assets/all-timesheets-list-nwe-350x68.png)
 
 1. 右上隅の次のオプションのいずれかをクリックして、タイムシートを表示します。
 
    * 「**マイタイムシート**」をクリックして、自分のタイムシートのみを表示します。
 
-   ![自分のタイムシート リスト ](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   ![自分のタイムシート リスト &#x200B;](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
    * 「**マイタイムシート承認**」をクリックして、自分が承認するタイムシートのみを表示します。
 
-     ![ タイムシートはリストを承認します](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+     ![&#x200B; タイムシートはリストを承認します](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
 1. （オプション）タイムシートのリストの上部にあるビュー、フィルターおよびグループを更新します。 詳しくは、[レポート要素：フィルター、ビュー、グループ化](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)を参照してください。
