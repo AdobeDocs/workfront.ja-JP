@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 ---
 # AI を使用したリクエストの自動入力
 
 >[!IMPORTANT]
 >
->2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Enterprise Coworkerに移行中です。 共同作業者について詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Enterprise Coworkerに移行中です。 共同作業者について詳しくは、[WorkfrontでのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 AIはリクエストフィールドの自動入力を支援します。 以前のリクエストに基づいてフィールド値を提案したり、メールやアップロードされたドキュメントなどのテキストからフィールド値を解析したりできます。
 

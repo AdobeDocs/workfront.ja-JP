@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 2%
+source-wordcount: '1347'
+ht-degree: 3%
 ---
 # AI共同作業者の設定
 
@@ -36,7 +36,7 @@ AI協力者とは、AI エージェントをプロジェクト、タスク、イ
 
   詳しくは、[Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
-* 作業エージェント：Claude、OpenAI、Copilot、Writerなどの標準AI プラットフォームを使用して共同作業者を作成し、その共同作業者をタスクや問題に割り当てて作業項目を完了させます。
+* 作業エージェント：Claude、OpenAI、Copilotなどの標準AI プラットフォームを使用して共同作業者を作成し、その共同作業者をタスクや問題に割り当てて作業項目を完了させます。
 
   詳しくは、[作業担当者の使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
 
@@ -93,7 +93,7 @@ AI協力者とは、AI エージェントをプロジェクト、タスク、イ
 
 ### 作業担当者の場合
 
-作業用エージェントとして使用する前に、Claude、Copilot Studio、Writer、OpenAI、またはIBMでエージェントを設定する必要があります。
+作業用エージェントとして使用する前に、Claude、Copilot Studio、OpenAI、またはIBMでエージェントを設定する必要があります。
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業エージェントは、Workfrontでタスクまたはイシューに割り当てることができるエージェントです。 名前、アクセスレベルおよびその他の詳細を使用して作業エージェントを設定し、ユーザーを割り当てるようにタスクに割り当てます。
 
-作業用エージェントはエージェントであるため、そのアクションと機能は、エージェントを設定する場所で設定されます。 現在、作業用エージェントとして使用されるエージェントは、Copilot Studio、Claude、またはWriter、OpenAI、およびIBMで作成できます。
+作業用エージェントはエージェントであるため、そのアクションと機能は、エージェントを設定する場所で設定されます。 現在、作業用エージェントとして使用されるエージェントは、Copilot Studio、Claude、OpenAI、およびIBMで作成できます。
 
 作業担当者は、タスクまたはイシューに割り当てることができます。
 
@@ -146,14 +146,13 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
    >
    ><span class="preview"> グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。</span>
 
-1. **エージェントのオリジンを選択**&#x200B;領域で、CopilotやWriterなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
+1. **エージェントのオリジンを選択**&#x200B;領域で、Copilotなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
 1. （条件付き）共通プラットフォームのエージェントを使用している場合は、エージェントのプラットフォームの認証の詳細を入力します。
 
    | Platform | 必須の認証 |
    |---|---|
    | Copilot Studio | Web チャネルシークレット |
    | Claude Managed Agents | Anthropic API キー<br> エージェント ID<br>環境ID |
-   | Writer エージェント | API キー<br> アプリケーション ID |
    | <span class="preview">OpenAI Agents</span> | <span class="preview">API キー<br> エージェント ID</span> |
    | <span class="preview">IBM watsonx Orchestrate</span> | <span class="preview"> サービス URL<br>API キー<br> エージェント ID</span> |
 
@@ -173,7 +172,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 Workfrontで作業エージェントとして使用するエージェントを作成する際には、次のベストプラクティスが役立つ場合があります。 ベストプラクティスを確認するには、エージェントを作成するアプリケーションのセクションをクリックします。
 
-+++ クロード
++++ Claude
 
 1. [platform.claude.com](https://platform.claude.com/)にあるClaude Consoleに移動します。
 1. API キーを作成します。
@@ -209,25 +208,38 @@ Workfrontで作業エージェントとして使用するエージェントを�
 -->
 +++ ライター
 
+
+
+>[!IMPORTANT]
+>
+>Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
+>
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+
+
+<!--
+
 >[!NOTE]
 >
-> Writer エージェントをWork エージェントとして使用できますが、Writer プレイブックをWork エージェントとして使用することはできません。
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-Writerで作業エージェントとして使用するエージェントを作成する場合は、次のワークフローをお勧めします。
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-エージェントの作成について詳しくは、[&#x200B; ライターのドキュメント &#x200B;](https://dev.writer.com/no-code/introduction)を参照してください。
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. Writer AI Studioでノーコードアプリを作成します。
-1. 1つのテキスト入力フィールドを追加します。 デフォルト名「テキスト入力」を使用できます。
-1. プロンプトに`@TextInput`を追加します。 アプリ設定の「プロンプト」セクションで、プロンプトテンプレートが入力変数を参照していることを確認します。 これが欠ければ、モデルはタスクデータを見ることはできません。
-1. プロンプトを調整して、すぐに出力を生成します。 回答する前に、ユーザーに説明や追加のコンテキストを求める指示を削除します。 例：「入力を受け取ったら、コンテンツ生成リクエストとして扱い、出力を即座に生成します。 明確化を求めるな」
-1. API キーとアプリケーション IDをコピーします。 WorkfrontでWork Agentを設定する必要があります。
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * WriterでAPI キーを設定する方法については、Writer ドキュメントの[Quickstart](https://dev.writer.com/home/quickstart)を参照してください。
-   * Writerでアプリケーション IDを設定する方法については、Writer ドキュメントの「[API](https://dev.writer.com/home/applications)を介してノーコードエージェントを呼び出す」を参照してください。
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. WorkfrontでWork Agentを設定します。 設定の一部として、API キーとアプリケーション IDを入力し、**接続をテスト**&#x200B;をクリックして確認します。
-1. Work AgentをWorkfront タスクに割り当てます。 作業エージェントは、タスクの先行タスクがすべて完了すると作業を開始します。
+-->
 
 +++
 

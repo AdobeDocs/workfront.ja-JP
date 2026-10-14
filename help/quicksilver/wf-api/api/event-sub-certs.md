@@ -21,10 +21,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0eb975dfed34736eafa57fe9b65a63001ce60e02
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 86%
+source-wordcount: '362'
+ht-degree: 76%
 ---
 # イベント登録用のクライアント TLS の設定
 
@@ -122,12 +122,25 @@ Listen 443
 
 ## 証明書のダウンロード
 
-次のリンクをクリックして、クライアント証明書をダウンロードします。
+現在のWorkfront イベントサブスクリプションクライアント証明書を含むZIP ファイルをダウンロードします。 これらの証明書の有効期限は2027年4月25日です。
 
-* [クライアント証明書 - 本番環境](assets/prod-ES-client-cert-oct25.crt)
-* [クライアント証明書 - プレビュー環境](assets/preview-ES-client-cert-oct25.crt)
-* [クライアント証明書 - サンドボックス環境](assets/sandbox-ES-client-cert-oct25.crt)
+[クライアント証明書のダウンロード](assets/event-subscription-certificates-nov02.zip)
+
+| 環境 | 証明書ファイル |
+| -- | -- |
+| 実稼動 | event-subs-prod-cert-nov02.crt |
+| プレビュー | event-subs-preview-cert-nov02.crt |
+| サンドボックス | event-subs-sandbox-cert-nov02.crt |
+
+<!--
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
 >両方のサンドボックス環境で同じクライアント証明書を使用できます。
+
+
+

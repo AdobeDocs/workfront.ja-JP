@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '14637'
+source-wordcount: '14642'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -973,8 +973,8 @@ ht-degree: 91%
     * [直接インストールに使用できるスキル](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * WorkfrontのCX Enterprise Coworker {#coworker-in-workfront}
     * [WorkfrontのCX Enterprise Coworker：記事インデックス](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Enterprise Coworkerのスキル](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [WorkfrontにおけるCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Enterprise CoworkerでのWorkfrontのスキル](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
     * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)

@@ -17,10 +17,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 5%
+source-wordcount: '1406'
+ht-degree: 6%
 ---
 
 # 依存関係の管理
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
 1. （オプション）「**レコードフィルタリングルール**」をクリックし、接続しているレコードタイプからフィールドを選択して、そのフィールドの値のオプションを制限してから、**完了**&#x200B;をクリックします。
 
-   2つのフィールドが3番目のレコードタイプに存在する場合、接続されたフィールドレコードタイプのオプションは、ここで選択したフィルターによって制限されます。
+   詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 1. （オプションおよび推奨） 3番目のレコードタイプに移動し、最初と2番目のレコードタイプの両方を接続されたレコードフィールドとして追加します。
 
    ![3つ目のレコードタイプに依存する接続フィールドインジケーター](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 9%
+source-wordcount: '1090'
+ht-degree: 8%
 ---
 
 # Adobe Workfront計画CX Enterprise Coworkerの概要
@@ -107,7 +107,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 会社のユーザーが利用できるようにするには、組織で共同作業者を有効にする必要があります。
 
-  詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+  詳しくは、[WorkfrontでのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 * WorkfrontでWorkfront インスタンスのエージェントを有効にすると、メインのWorkfront管理者がエージェントを有効にでき、組織に対してエージェントを有効にすることができます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
@@ -128,7 +128,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## Coworkerで現在利用可能な機能
 
-現在、CoworkerはWorkfrontのプランニング エリアで利用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、[CX Enterprise Coworker スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
+現在、CoworkerはWorkfrontのプランニング エリアで利用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、「[CX Enterprise CoworkerのWorkfront スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)」を参照してください。
 
 Coworkerを使用して、次のアクションを実行できます。
 

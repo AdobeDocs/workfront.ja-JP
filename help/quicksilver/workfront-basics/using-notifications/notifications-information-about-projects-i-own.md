@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 100%
 ---
 # 通知：所有するプロジェクトに関する情報
@@ -49,7 +49,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が所有するプロジェクトに遅延が発生する</strong> </p> <p>プロジェクト所有者は、プロジェクトがスケジュールより遅れたときにメール通知を受け取ります。 プロジェクトの進捗ステータスが [!UICONTROL At Risk]、[!UICONTROL Behind]、[!UICONTROL Late] の場合、プロジェクトはスケジュールより遅れています。</p> <p>ベストプラクティスは、この通知をアクティブに保つことです。 </p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Project Progress Change]：&lt;Project Name&gt;</em></p> <p> 日刊ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Own] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が所有するプロジェクトに遅延が発生する</strong> </p> <p>プロジェクト所有者は、プロジェクトがスケジュールより遅れたときにメール通知を受け取ります。 プロジェクトの進捗ステータスが [!UICONTROL At Risk]、[!UICONTROL Behind]、[!UICONTROL Late] の場合、プロジェクトはスケジュールより遅れています。 <p>プロジェクトのステータスが [!UICONTROL 現在] か [!UICONTROL 計画] の場合にのみ通知が送信されます。</p> <p>ベストプラクティスは、この通知をアクティブに保つことです。 </p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Project Progress Change]：&lt;Project Name&gt;</em></p> <p> 日刊ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Own] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトの進捗ステータス<br>プロジェクトの [!UICONTROL Planned Start Date]<br>プロジェクトの [!UICONTROL Planned Completion Date]<br>プロジェクトの [!UICONTROL Projected Start Date]<br>プロジェクトの [!UICONTROL Projected Completion Date]<br>プロジェクトの完了率<br>プロジェクトのステータス<br>プロジェクト所有者<br>*プロジェクト名<br>*プロジェクト参照番号<br>*プロジェクトの進捗ステータス<br>*日刊ダイジェストの日付<br></p> </td> 
    <td><strong>日次</strong> </td> 
   </tr> 

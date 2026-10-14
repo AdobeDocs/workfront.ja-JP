@@ -20,16 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 15%
 ---
 # AI アシスタントの利用
 
 >[!IMPORTANT]
 >
->2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Enterprise Coworkerに移行中です。 共同作業者について詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Enterprise Coworkerに移行中です。 共同作業者について詳しくは、[WorkfrontでのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 AI アシスタントは、Workfrontのドキュメントから情報を検索できるため、必要なサポートを受けるためにAdobe Experience Leagueにアクセスする必要はありません。
 

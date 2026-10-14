@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 84%
+source-wordcount: '2185'
+ht-degree: 82%
 ---
 # グループのタスクとイシューの環境設定を行う
 
@@ -165,7 +165,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
       <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
        <ul> 
         <li><strong>元のイシューを保持し、その解決策をタスクに関連付ける</strong>：イシューを変換する際、タスクが完了するまで、イシューはイシューとして表示され続けます。 タスクが完了すると、イシューのステータスは自動的にクローズに変わります。</li> 
-        <li><strong>プライマリ連絡先にタスクへのアクセスを許す</strong>：タスクのレビュー、更新、進捗の確認ができるように、プライマリ連絡先（イシュー作成者）がタスクにアクセスできるようにします。</li> 
+        <li><strong>プライマリの連絡先にタスクへのアクセス権を付与</strong>：主要な連絡先（イシュー作成者）にタスクへのアクセス権を付与して、タスクをレビューし、進行状況を把握し、タスクの「更新」セクションにコメントを入力します。</li> 
         <li> <p><strong>変換中にこれらの設定を変更できるようにする</strong>：イシューをタスクに変換する際に、変換するユーザーがこれらのオプションを変更できるようにします。</p>
         <!--
           Screenshot when possible</p>

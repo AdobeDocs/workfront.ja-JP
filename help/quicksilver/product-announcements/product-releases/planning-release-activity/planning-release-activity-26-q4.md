@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3154'
 ht-degree: 3%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
@@ -210,7 +210,7 @@ Adobe Workfrontは、作業を完了するためのより強力な方法とし�
 >
 >CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、引き続きこれらの組織で利用可能です。
 
-詳しくは、[CX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+詳しくは、[WorkfrontでのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 ## CX ENTERPRISE COWORKERのローンチに備えて、レコードの詳細プレビューボックスからAI アシスタントアイコンが削除されました
 
