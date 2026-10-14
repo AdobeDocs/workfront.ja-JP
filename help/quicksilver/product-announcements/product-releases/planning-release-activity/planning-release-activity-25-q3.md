@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2416'
-ht-degree: 7%
+ht-degree: 6%
 ---
 # Adobe Workfront Planning の 2025年第 3 四半期リリースアクティビティ
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## レコードタイプの作成および編集時に更新された詳細設定
 
@@ -68,7 +68,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 現在、Workfront Planningのレコードコメントにチームを追加すると、チームのすべてのメンバーに、そのコメントに関するアプリ内およびメール通知の両方が送信されます。 この機能強化の前は、個別にコメントに追加されたユーザーのみが通知されていました。
 
-詳しくは、「レコードコメントを管理[&#x200B; レコードコメントを管理](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
+詳しくは、「レコードコメントを管理[ レコードコメントを管理](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
 
 ## 適用されたグループ化に基づいてフィールドを自動入力
 
@@ -98,7 +98,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 詳しくは、次の記事を参照してください。
 
-* [&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)
+* [ ビューの共有](/help/quicksilver/planning/access/share-views.md)
 
 * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## リクエストフォーム共有時のエクスペリエンスを更新しました
@@ -140,7 +141,7 @@ Workfront Planningでリクエストフォームを共有する際のエクス�
 * リクエストフォームを共有するユーザーの管理と投稿のオプションが削除されました。 追加されたユーザーはフォームを送信することしかできません。
 * 「公開リンクを作成」オプションを有効にした後、「公開共有」タブに「リンクと有効期限」フィールドが表示されるようになりました。
 
-詳しくは、[Adobe Workfront Planning](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)でのリクエストフォームの作成と管理を参照してください。
+詳しくは、[Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)でのリクエストフォームの作成と管理を参照してください。
 
 ## テーブルビュー内のすべてのグループを展開して折りたたむ
 
@@ -195,7 +196,7 @@ Workfront Planningでリクエストフォームを共有する際のエクス�
 
 Workfront Planningを購入していないお客様の場合、カスタム四半期エクスペリエンスに変更はありません。
 
-詳しくは、[プロジェクトのカスタム四半期の有効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## すべての従属式を同時に計算する
 
@@ -253,7 +254,7 @@ Workfront Planningを購入していないお客様の場合、カスタム四�
 
 * 「列」コントロールを使用して、「計画リクエスト」リストのフィールド（または列）を表示または非表示にします。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## タイムラインビューでコンパクトモードでレコードを分割する際の新しいエクスペリエンス
 
@@ -287,7 +288,7 @@ Workfront Planningを購入していないお客様の場合、カスタム四�
 
 この機能強化を行う前は、メインレコードのバーをタイムラインビューに表示する際にのみ書式設定でき、接続されているレコードのバーを書式設定できませんでした。\
  
-詳しくは、[&#x200B; タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。  
+詳しくは、[ タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。  
 
 ## テーブルビューをCSVまたはExcel ファイルに書き出す 
 
@@ -342,7 +343,7 @@ CSVまたはExcel ファイルを使用してレコードタイプにレコー�
 
 この機能強化の前は、接続ビューページのテーブルは、レコード接続に対して読み取り専用でした。
 
-詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## 標準ライセンスユーザーのメインメニューにデフォルトで表示されるプランニングエリア
 
@@ -406,6 +407,6 @@ CSVまたはExcel ファイルを使用してレコードタイプにレコー�
 * ユーザーがワークスペースで持つ権限レベルよりも高いレコードタイプを共有することはできません。
 * レコードタイプに対する継承された権限を無効にして、ワークスペース内のすべてのユーザーに対して読み取り専用にすることができます。 その後、個々のユーザー、チーム、グループ、企業、または役割を追加し、レコードタイプに対するコントリビューション権限を付与できます。
 
-詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 
