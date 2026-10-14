@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 # 2026年第4四半期リリース期間中のその他の機能強化
@@ -54,7 +54,7 @@ Workfrontのすべての拡張リストで一貫性を確保するために、�
 
 次のWorkfront リストでは、拡張リスト形式が使用されるようになりました。
 
-* 設定/電子メール/通知/イベント通知およびグループの詳細ページ/イベント通知
+* 設定/電子メール/通知/イベント通知、グループの詳細ページ/イベント通知（このアップデートは10月14日にプレビュー環境から削除され、四半期ごとのリリースには含まれません。 これらのリストは後日更新されます）。
 * 設定/ドキュメント/Experience Manager Assets
 * プロジェクトまたはテンプレート/キュートピック
 * プロジェクトまたはテンプレート/トピックグループ
@@ -151,7 +151,7 @@ Workfrontの左側のナビゲーションパネルアイコンのルックア�
 
 ナビゲーションパネルは、プロジェクト、タスク、イシューなど、Workfrontのほとんどの領域とオブジェクトの左側にあります。
 
-詳しくは、[Adobe Workfrontの左ナビゲーション &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
+詳しくは、[Adobe Workfrontの左ナビゲーション ](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 ## 強化されたリスト更新
 
