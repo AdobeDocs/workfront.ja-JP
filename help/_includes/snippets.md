@@ -1,9 +1,8 @@
 ---
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: a9e2999fd0e1f87339110ac68c81cf432d7cdf95
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2294'
 ht-degree: 61%
-
 ---
 # スニペット
 
@@ -384,8 +383,8 @@ OLD:
 
 **最新バージョン**:
 
-* Mac:2.1.54 （2025年12月11日現在）
-* Windows: 2.1.54 / 12/11/2025
+* Mac:2.2.2 2 2026年9月17日現在
+* Windows:2.2.2 （2026年9月17日現在）
 
 <!-- Release -->
 
