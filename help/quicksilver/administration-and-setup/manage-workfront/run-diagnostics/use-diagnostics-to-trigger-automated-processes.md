@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 100%
 ---
 # 診断を使用して自動プロセスをトリガー
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
 ## 診断を使用して自動プロセスをトリガー
 
-1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**セットアップ** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**&#x200B;を展開し、「**診断**」をクリックします。
 1. 次のいずれかのオプションから選択します。
