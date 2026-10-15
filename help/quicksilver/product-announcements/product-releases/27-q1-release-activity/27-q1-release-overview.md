@@ -57,8 +57,8 @@ ht-degree: 50%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ ](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview)。
+* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
