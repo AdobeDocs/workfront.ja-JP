@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >プレビュー：2026年10月1日（PT）
->プロダクション高速リリース：2026年10月14日（PT）
->すべての人のための制作：2026年10月15日
+>プロダクション高速リリース：2026年10月16日（PT）
+>すべての人のための制作：2026年10月16日
 
 プロジェクトテンプレートの請求レート機能に複数の更新が行われました。
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 レート属性をテンプレートの担当業務の請求レートに適用できるようになりました。
 
-詳しくは、[&#x200B; プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)および[&#x200B; プロジェクトレベルでのジョブロールの請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
+詳しくは、[ プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)および[ プロジェクトレベルでのジョブロールの請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 ## 企業の請求率の向上
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 >
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月16日
 
 会社の請求レート機能に複数の更新が行われました。
 
@@ -76,11 +76,11 @@ ht-degree: 2%
 >
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月16日
 >この機能は、Workflow Ultimate パッケージの組織でのみ使用できます。
 
 高度な割り当てなど、Workfrontの様々な領域でレート属性をフィルターとして使用する場合、親子フィルタリングに追加の検証が適用されるようになりました。
 
 以前は、1つの属性を親に、その親を祖父母にリンクした場合、元の属性も祖父母に属するものとして自動的に認識されませんでした。 これで、最下位レベルの属性を選択すると、その上のすべてのレベルが自動的に割り当てられます。
 
-属性について詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+属性について詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。

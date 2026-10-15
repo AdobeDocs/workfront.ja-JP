@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,10 +30,10 @@ ht-degree: 7%
 >
 >プレビュー：2026年7月30日（PT）
 >プロダクション高速リリース：2026年8月13日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月16日
 
 テンプレートに財務データが含まれている場合、ユーザーがテンプレートからプロジェクトを作成するときに、これらのフィールド値が保持されます。 プロジェクトの詳細に関する財務フィールドを表示するには、財務データへの表示アクセス権が必要です。
 
 以前は、ユーザーが値の編集アクセス権を持っていない場合、ゼロにリセットされていました。
 
-詳しくは、[&#x200B; テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)および[&#x200B; プロジェクトの財務領域での情報の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-finance-area.md)を参照してください。
+詳しくは、[ テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)および[ プロジェクトの財務領域での情報の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-finance-area.md)を参照してください。

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '3601'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ ht-degree: 8%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>26.8 （2026年8月13日（PT））</li><li>26.9 （2026年9月17日（PT））</li><li>26.10 （2026年10月14日（PT））</li></ul> | <ul><li>26.10 （2026年10月15日（PT））</li></ul> |
+>| <ul><li>26.8 （2026年8月13日（PT））</li><li>26.9 （2026年9月17日（PT））</li><li>26.10 （2026年10月14日（PT））</li></ul> | <ul><li>26.10 （2026年10月16日（PT））</li></ul> |
 >
 >* 各四半期の最終リリース（今四半期26.10）の場合、高速リリーススケジュールのユーザーは、リリースを1日早く（2026年10月14日）受け取ります。
 >
@@ -69,8 +69,8 @@ ht-degree: 8%
                 <p>Workfront管理者は、ユーザーの担当業務、代理店、コストセンター、請求率の経時的な変化を、フィルタリング可能な単一の雇用履歴ビューで追跡できるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -78,8 +78,8 @@ ht-degree: 8%
                 <p>Workfrontの管理者は、AIを利用して、カスタムローカライゼーションテキストの翻訳を生成し、保存する前に結果を確認または調整できるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -87,8 +87,8 @@ ht-degree: 8%
                 <p>レイアウトテンプレートには、メインメニューでのアイテムの非表示と表示、メインメニューでのカスタムアプリケーションの配置、左側のナビゲーションでの詳細の非表示など、いくつかの機能強化が行われました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
 <!--
         <tr>
@@ -97,8 +97,8 @@ ht-degree: 8%
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
 <!--
@@ -108,8 +108,8 @@ ht-degree: 8%
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -118,8 +118,8 @@ ht-degree: 8%
                 <p>組織のイベントサブスクリプションを簡単に作成および管理できるように、「イベントのサブスクリプション」エリアを「設定」に追加しました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -127,8 +127,8 @@ ht-degree: 8%
                 <p>フォームデザイナーでドロップダウンフィールド、ラジオボタン、チェックボックスを操作する際に、1つのダイアログでフィールドの選択肢を追加、編集、削除できるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -136,8 +136,8 @@ ht-degree: 8%
                 <p>Workfront管理者は、信頼できるOAuth コールバック URLの許可リストを管理できるようになりました。これにより、カスタム AI エージェント プラットフォームをWorkfront MCP サーバーに接続できます。</p>
             </td>
             <td><p>2026年9月22日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -146,7 +146,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -155,7 +155,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +164,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
 <!--
         <tr>
@@ -174,7 +174,7 @@ ht-degree: 8%
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -184,7 +184,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -193,7 +193,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -202,7 +202,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -211,7 +211,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -220,7 +220,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -229,7 +229,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -238,7 +238,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -247,7 +247,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
@@ -270,8 +270,8 @@ ht-degree: 8%
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -280,8 +280,8 @@ ht-degree: 8%
                 <p>AI共同作業者は、タスクや問題についてエージェントと作業し、ドキュメントのコンテキストを使用し、更新領域でリアルタイムに更新を投稿できるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -290,7 +290,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）から段階的に展開</p></td>
             <td><p>2026年9月17日（PT）より段階的に展開</p></td>
-            <td><p>2026年10月15日（PT）から段階的に展開</p></td>
+            <td><p>2026年10月16日（PT）から段階的に展開</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +326,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -335,7 +335,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -344,7 +344,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
@@ -376,8 +376,8 @@ ht-degree: 8%
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->        
          <tr>
@@ -386,8 +386,8 @@ ht-degree: 8%
                 <p>1つの承認ワークフローで複数のドキュメントをグループ化して、同じステージを進めることができるようになりました。</p>
             </td>
             <td><p>Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -395,8 +395,8 @@ ht-degree: 8%
                 <p>新しいドキュメント領域でweb サイトをAdobe Workfrontにweb リンクとして追加し、ライブ web ページで承認をリクエストできるようになりました。</p>
             </td>
             <td><p>Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -423,7 +423,7 @@ ht-degree: 8%
             </td>
             <td><p>該当なし</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +432,7 @@ ht-degree: 8%
             </td>
             <td><p>該当なし</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Adobe クラウドストレージを使用してオブジェクトの承認にチームを追加</a>
@@ -440,7 +440,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -449,7 +449,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
 <!--
         <tr>
@@ -459,7 +459,7 @@ ht-degree: 8%
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -468,8 +468,8 @@ ht-degree: 8%
                 <p>ドキュメントの承認に設定されたカスタムメッセージが、承認リクエストメールの件名にも表示されるようになりました。</p>
             </td>
             <td><p>該当なし</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -478,7 +478,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -487,7 +487,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -496,7 +496,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -514,7 +514,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
 <!--
         <tr>
@@ -524,7 +524,7 @@ ht-degree: 8%
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 16, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -547,8 +547,8 @@ ht-degree: 8%
                 <p>プロジェクトテンプレートで、請求率のリスト改善の強化とレート属性の更新がサポートされるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>    
         <tr>
             <td>
@@ -557,7 +557,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -566,7 +566,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
@@ -589,7 +589,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
@@ -611,8 +611,8 @@ ht-degree: 8%
                 <p>Google Cloud Platform （GCP）およびAzure上のWorkfront インスタンスは、Canvas ダッシュボードのオープンベータ版にオプトインできるようになりました。</p>
             </td>
             <td><p>該当なし</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
            <tr>
             <td>
@@ -620,8 +620,8 @@ ht-degree: 8%
                 <p>プライベートリストを登録することで、Workfront Data Connect データを組織のSnowflake アカウントと直接共有できるようになりました。 この連携方法は、Snowflakeのプライベートリスト機能を使用して、データを公開することなく、組織間で安全にデータを共有し、地域やホスティングプラットフォームをまたいで機能します。</p>
             </td>
             <td><p>該当なし</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -629,8 +629,8 @@ ht-degree: 8%
                 <p>ClaudeやCursorなどのMCP クライアントを通じて、自然言語プロンプトと構造化ダッシュボードアクションを使用して、Canvas ダッシュボードを構築および管理できるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -638,8 +638,8 @@ ht-degree: 8%
                 <p>ウィジェットを同じダッシュボード、編集アクセス権のある別のダッシュボード、または新しいダッシュボードにコピーできるようになりました。 編集アクセス権のある別のダッシュボードまたは新しいダッシュボードにウィジェットを移動することもできます。 </p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -647,8 +647,8 @@ ht-degree: 8%
                 <p>1つのレコードではなく、関連するレコードのグループにリンクするフィールドであるコレクション関係でフィルタリングできるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -657,7 +657,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -684,7 +684,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年8月27日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -693,7 +693,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年8月13日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -702,7 +702,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -711,7 +711,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
@@ -733,8 +733,8 @@ ht-degree: 8%
                 <p>新しいリクエストエクスペリエンスから、2025年7月までに提出されたWorkfrontの問題リクエストにアクセスできるようになりました。</p>
             </td>
             <td><p>2026年9月24日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -787,8 +787,8 @@ ht-degree: 8%
                 <p>セットアップ、プロジェクト、テンプレートおよびタスクの複数のリストで、拡張リスト形式が使用されるようになりました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -796,8 +796,8 @@ ht-degree: 8%
                 <p>強化されたリストフィルターとグループ化に対して、いくつかの機能強化が行われました。グループはデフォルトで折りたたまれ、フィルター演算子がより明確なラベルに更新されました。</p>
             </td>
             <td><p>2026年10月1日（PT）</p></td>
-            <td><p>2026年10月14日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -806,7 +806,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -815,7 +815,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
            <tr>
             <td>
@@ -842,7 +842,7 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -851,15 +851,15 @@ ht-degree: 8%
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## デスクトッププルーフビューアーのアップデート
 
@@ -876,7 +876,7 @@ ht-degree: 8%
 * トラブルシューティングを高速化するために、Workfront Proofについて画面に詳細を追加しました。
 * パフォーマンスとセキュリティの改善のために、基盤となるフレームワーク（Electron）を更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ## お知らせ
 
@@ -914,7 +914,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 
