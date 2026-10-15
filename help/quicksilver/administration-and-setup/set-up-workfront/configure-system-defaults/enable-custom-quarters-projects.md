@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: カスタム四半期を有効にする
-description: レポートの目的で、組織の四半期がカレンダーの日付（営業日や買い物日など）以外の特定の条件に基づいている場合は、カスタム四半期を作成できます。
+title: カスタム四半期と週を有効にする
+description: レポートの目的では、組織の四半期がカレンダー日以外の特定の基準（営業日や買い物日など）に基づいている場合、カスタム四半期を設定することをお勧めします。 Workfront計画パッケージを購入した場合は、カスタム週を設定することもできます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 37%
+source-wordcount: '920'
+ht-degree: 32%
 ---
-# カスタム四半期の有効化
+# カスタム四半期と週を有効にする
 
 <!--Audited: 03/2026-->
 

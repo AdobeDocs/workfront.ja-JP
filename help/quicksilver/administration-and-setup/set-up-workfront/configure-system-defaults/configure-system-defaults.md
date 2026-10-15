@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 54%
+source-wordcount: '137'
+ht-degree: 51%
 ---
 # システムのデフォルトの設定：記事インデックス
 
@@ -49,7 +49,7 @@ ht-degree: 54%
 * [カスタム費用タイプを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [スコアカードを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [プロジェクトのタイムライン再計算を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-* [カスタム四半期の有効化](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [カスタム四半期と週を有効にする](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
 * [組織の迅速リリースの有効化または無効化](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
 * [Adobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)

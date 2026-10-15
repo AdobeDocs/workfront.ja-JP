@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5027'
 ht-degree: 29%
 ---
 # タイムラインビューの管理
@@ -225,7 +225,7 @@ Old:
    >
    >カスタム四半期が正しく保存されていない場合、タイムラインビューには従来の四半期が表示されます。
    >設定領域でカスタム四半期を設定すると、タイムラインビューには従来の四半期ではなくカスタム四半期が表示されます。
-   >詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+   >詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 1. （条件付き）Workfront管理者の場合は、**設定**&#x200B;に移動して四半期を設定します。 そうでない場合は、**OK**&#x200B;をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。
 
@@ -593,7 +593,7 @@ Old:
 
 1. （条件付きとオプション）Workfront管理者の場合は、**カスタムクォーターを使用** ボックスの&#x200B;**設定**&#x200B;をクリックして、設定エリアに移動し、カスタムクォーターを設定します。 カスタム四半期を設定した後、従来の四半期ではなくタイムラインビューに表示できます。 Workfront管理者でない場合は、管理者からカスタム四半期を有効にするように依頼できます。
 
-   詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+   詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
    ![&#x200B; タイムラインビュー設定でカスタム四半期の警告を使用](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 

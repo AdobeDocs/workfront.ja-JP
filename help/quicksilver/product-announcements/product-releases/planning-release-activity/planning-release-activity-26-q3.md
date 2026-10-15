@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3226'
+source-wordcount: '3286'
 ht-degree: 6%
 ---
 # Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ
@@ -384,6 +384,17 @@ GenStudio キャンペーン情報が、AEMのコンテンツフラグメント�
 
 詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
 
+## Workfront MCP サーバーで使用可能な計画機能
+
+>[!NOTE]
+>
+>* プレビュー：2026年5月28日（PT）
+>* プロダクション高速リリース：2026年6月11日（PT）
+>* すべての人のための制作：2026年7月16日
+
+Workfront計画機能がWorkfront MCP サーバーからアクセスできるようになったため、新しいMCP コネクタツールを使用して計画コンテキストを参照し、設定と承認を実行できるようになりました。
+
+詳しくは、[Adobe Workfront MCP server tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)を参照してください。
 
 ## リスト表示の更新
 

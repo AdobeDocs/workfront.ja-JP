@@ -7,7 +7,7 @@ description: 属性、コストと請求率、スケジュールの経時的な�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,7 +66,5 @@ Karen Sterling氏は、2019年3月3日に就任して以来、エグゼクティ
 1. 結果をフィルタリングするには、**Filter**&#x200B;をクリックし、フィルタリングするフィールド、演算子、値を入力します。 結果は自動的にフィルタリングされます。
 1. 列を追加または削除するには、テーブルの右側にある追加アイコン ![追加アイコン &#x200B;](assets/add-column.png)をクリックし、追加する各列の横にあるプラス アイコンをクリックするか、ビューから削除する各列の横にあるマイナス アイコンをクリックします。
 1. 雇用履歴を書き出すには、**書き出し**&#x200B;をクリックします。 雇用履歴は、CSVまたはXLSX ファイルとして書き出すことができます。
-
-
 
 

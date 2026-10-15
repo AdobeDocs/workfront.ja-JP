@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -305,5 +305,3 @@ Workfront全体で、特定の種類のオブジェクトをトラッキング�
 標準アクセスレベルで、そのレベルを持つユーザーが変更履歴リストにアクセスできるかどうかを定義できるようになりました。 「**履歴を変更**」オプションは、アクセスレベルの「**の管理アクセスを許可する」セクションで利用できます。**
 
 詳細については、[特定の領域への管理者アクセス権をユーザーに付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)および[変更履歴を表示および管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
-
-

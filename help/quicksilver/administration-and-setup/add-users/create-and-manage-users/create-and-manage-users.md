@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 76%
+source-wordcount: '130'
+ht-degree: 74%
 ---
 # ユーザーの作成と管理：記事インデックス
 
@@ -54,6 +54,7 @@ ht-degree: 76%
 * [監査ログの表示と書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
 * [変更履歴で追跡するフィールドを設定します](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+* [ユーザーの職歴の表示](../../../administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Adobe Admin Console でのユーザー管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
 * [ビジネスプロファイル概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

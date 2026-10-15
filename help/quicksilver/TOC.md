@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14648'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -484,7 +484,7 @@ ht-degree: 91%
       * [費用タイプの作成](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [スコアカードを作成](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [プロジェクトタイムラインの再計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [カスタム四半期の有効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [カスタム四半期と週を有効にする](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [組織の迅速リリースの有効化または無効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Adobe クラウドストレージを有効にする](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [従来のポートフォリオをAdobe クラウドストレージに変換](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
@@ -547,6 +547,7 @@ ht-degree: 91%
       * [監査ログの表示と書き出し](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [変更履歴で追跡するフィールドを設定します](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [ユーザーの職歴の表示](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [ユーザーログイン情報を表示](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console でのユーザー管理](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [ビジネスプロファイル概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

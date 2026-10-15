@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2416'
-ht-degree: 7%
+ht-degree: 6%
 ---
 # Adobe Workfront Planning の 2025年第 3 四半期リリースアクティビティ
 
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## リクエストフォーム共有時のエクスペリエンスを更新しました
@@ -195,7 +196,7 @@ Workfront Planningでリクエストフォームを共有する際のエクス�
 
 Workfront Planningを購入していないお客様の場合、カスタム四半期エクスペリエンスに変更はありません。
 
-詳しくは、[プロジェクトのカスタム四半期の有効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## すべての従属式を同時に計算する
 

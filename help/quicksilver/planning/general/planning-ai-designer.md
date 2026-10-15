@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 9%
+source-wordcount: '1670'
+ht-degree: 8%
 ---
 # Adobe Workfront計画Designerの基本を学ぶ
 
@@ -274,7 +274,12 @@ Planning Designer、AI Assistant、または<span class="preview">Coworker、</s
 
 ## Planning Designerを使用したオブジェクトの作成または更新
 
-Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、またはAI アシスタントまたは<span class="preview"> Coworker</span>を使用します。
+Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、AI アシスタント、または<span class="preview"> Coworker</span>を使用します。
+
+>[!TIP]
+>
+>同じワークスペースの作成を開始する前に、既存のワークスペースを検索することをお勧めします。 ワークスペースが既に存在する場合、Planning Designerにエラーメッセージが表示されることがあります。
+
 
 1. Workfrontにログインし、左上隅の&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックしてから、**計画**&#x200B;をクリックします。
 

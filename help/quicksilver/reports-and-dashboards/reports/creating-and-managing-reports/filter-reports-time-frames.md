@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 67%
 ---
 # 期間別のレポートのフィルタリング
@@ -201,7 +201,7 @@ Adobe Workfrontには、特定の日付を定義せずに使用できるタイ�
   </tr> 
   <tr> 
    <td role="rowheader">前の四半期</td> 
-   <td> <p>入力日が現在の四半期の前の四半期の日付である時間を表示します。四半期は前述のように定義されます。</p> <p><b>メモ</b></p>  Workfront管理者がシステムのカスタム四半期を有効にして定義している場合、四半期の組み込みフィルターはカスタム四半期の情報に置き換えられます。 カスタム四半期の有効化について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> カスタム四半期の有効化</a>を参照してください。</p> </td> 
+   <td> <p>入力日が現在の四半期の前の四半期の日付である時間を表示します。四半期は前述のように定義されます。</p> <p><b>メモ</b></p>  Workfront管理者がシステムのカスタム四半期を有効にして定義している場合、四半期の組み込みフィルターはカスタム四半期の情報に置き換えられます。 カスタム四半期の有効化について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> カスタム四半期と週を有効にする</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">今年</td> 

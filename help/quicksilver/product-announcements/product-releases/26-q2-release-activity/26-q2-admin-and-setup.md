@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 8%
 ---
 # 2026年第 2 四半期の管理者の機能強化
@@ -81,7 +81,7 @@ Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準�
 * 「カスタム四半期」セクションが左側の設定パネルに追加されます。 機能は同じままです。 
 * 「カスタム四半期」セクションが、グループの「プロジェクト環境設定」セクションから削除されました。 グループ管理者は、カスタム四半期の設定を表示できなくなりました。 
 
-詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## カスタムフォームセクションをデフォルトで折りたたむ
 
