@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 73%
-
+source-wordcount: '1753'
+ht-degree: 64%
 ---
-
 # プロジェクトの財務を再計算
 
 財務は、プロジェクトで記録された時間数や、コストと収益の計算に使用される料金に変化が生じると、財務がプロジェクトに基づいて計算されます。
@@ -125,7 +129,7 @@ ht-degree: 73%
 
 #### 複数の請求レートの上書きを使用してプロジェクト収益を保持 {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-プロジェクトレベルで担当業務の請求レートが変更された場合、指定期間内にロックされた複数の請求レートの上書きを使用して、プロジェクトで既に計算済みの既存の収益を保持できます。
+プロジェクトレベルの担当業務の請求レートが変更された場合、指定した時間枠内にロックされている複数の請求レートの上書きを使用して、プロジェクトで既に計算されている既存の収益を保持できます。
 
 複数の請求レートの上書きの使用について詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
@@ -146,7 +150,7 @@ ht-degree: 73%
 * プロジェクトレベル（ユーザー向け）
 ユーザーコスト率の上書きについて詳しくは、[&#x200B; プロジェクトレベルでのユーザーコスト率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)を参照してください。
 
-請求レートが上記のレベルで変更された場合は、プロジェクトに記録された時間や古いレートを使用して請求済みステータスの請求記録に計算した時間をロックすることで、プロジェクトで計算した既存のコストを保持できます。 請求記録の作成について詳しくは、[請求記録の作成](../../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
+上記の任意のレベルでコスト率が変更された場合、プロジェクトに記録された時間をロックし、古いレートを使用して計算された既存のコストを、ステータスが「請求済み」の請求記録にロックすることで、プロジェクトで既に計算された既存のコストを保持できます。 請求記録の作成について詳しくは、[請求記録の作成](../../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
 
 [プロジェクトの財務を手動で再計算](#manually-recalculate-finances-for-a-project)の節で説明したように、請求記録を作成したくない場合は、手動での「財務を再計算」オプションも使用しないでください。
 
@@ -182,8 +186,8 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 
    プロジェクトのすべての予定コストと収益は、新しい情報で再計算されます。
 
-   プロジェクトの財務が正常に再計算されたという確認がブラウザーの上部に表示されます。
-既存のコスト値と、ロックされていない一部の収益値は、新しいレートを反映するように更新されます。
+   プロジェクトの財務が正常に再計算されたことを示す確認メッセージがブラウザーの上部に表示されます。
+   ロックされていない既存のコスト値と一部の収益値は、新しいレートを反映するように更新されます。
 
 ## 財務を手動で一括再計算{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 * タスクステータスの変更
 * 時間を含むタスクを別のプロジェクトに移動
 * プロジェクトステータスを完了からアクティブステータスに変更
+* プロジェクトまたはタスクレベルでの請求可能な費用の追加
 
 >[!NOTE]
 >
->プロジェクトのステータスを変更すると、予定された値のみが再計算されます。
+>プロジェクトのステータスを変更すると、予定値のみが再計算されます。
 
 **財務の再計算**&#x200B;をクリックすると、プロジェクトレベルの&#x200B;**詳細** メニュー![詳細メニュー](assets/qs-more-menu.png)で財務を手動で再計算することもできます。
+
+### 費用が自動的な財務再計算に与える影響
+
+プロジェクトとタスクに費用を追加する場合は、次のシナリオが存在します。
+
+* プロジェクトに請求不可の費用を追加すると、すべての財務を再計算することなく、プロジェクトのコストが更新されます。
+* タスクに請求不可の費用を追加すると、そのタスクのコストとプロジェクトのコストが再計算されます。 他のタスクは再計算されません。
+* プロジェクトレベルまたはタスクレベルで請求可能な費用を追加すると、人件費や売上など、プロジェクトに関する財務の再計算がトリガーされます。
+
+>[!NOTE]
+>
+>費用に予定金額が保存されると、予定原価が更新されます。 費用に実際の金額が保存されると、実際のコストが更新されます。
+
+費用について詳しくは、[&#x200B; プロジェクト費用の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
+
