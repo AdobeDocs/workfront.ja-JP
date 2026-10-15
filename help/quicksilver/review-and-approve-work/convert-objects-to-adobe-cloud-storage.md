@@ -64,4 +64,4 @@ Workfront管理者は、従来のWorkfront ストレージポートフォリオ�
 * **Adobe クラウドストレージポートフォリオ内**: チェックボックスが選択され、ロックされています。 新しいプロジェクトは、ポートフォリオのストレージタイプと一致する必要があります。
 * **従来のWorkfront ストレージポートフォリオ内**: チェックボックスは使用できません。 新しいプロジェクトでは、従来のWorkfront ストレージが使用されます。
 
-詳しくは、[ プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。

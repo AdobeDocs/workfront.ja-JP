@@ -51,7 +51,7 @@ Adobe クラウドストレージを導入する前に、承認を管理する�
 * [Adobe クラウドストレージの違い](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)：新しいドキュメント領域とFrame.io ビューアから命名ルール、ストレージクォータ、およびFusionに至るまで、Adobe クラウドストレージオブジェクトの主な違いは次のとおりです。
 * [Adobe クラウドストレージのロールアウトを計画](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)：ロールアウト設定を選択し、1つのグループで試験運用し、ユーザーが驚かないように作業を順序付けする方法。
 * [組織のAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)：組織全体または特定のグループのデフォルトのストレージオプションを設定する手順。
-* [ レガシーオブジェクトをAdobe クラウドストレージに変換](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)：レガシーオブジェクトをAdobe クラウドストレージに変換できる3つのケースと、各コンバージョン中に移動する内容。
+* [&#x200B; レガシーオブジェクトをAdobe クラウドストレージに変換](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)：レガシーオブジェクトをAdobe クラウドストレージに変換できる3つのケースと、各コンバージョン中に移動する内容。
 
 
 ## 関連する記事

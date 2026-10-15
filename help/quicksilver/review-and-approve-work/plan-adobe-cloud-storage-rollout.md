@@ -38,7 +38,7 @@ Adobe クラウドストレージがユーザーにリーチするタイミン�
 
 既存のオブジェクトは、作成されたストレージモデルを保持します。 デフォルトのストレージ環境設定を変更しても、既存のオブジェクトは変更されません。
 
-設定](assets/storage-preference-groups.png)の![ ストレージ環境設定
+設定![&#128279;](assets/storage-preference-groups.png)の ストレージ環境設定
 
 ## ロールアウトの計画
 
@@ -70,7 +70,7 @@ Adobe クラウドストレージでは、厳密な命名ルールが適用さ�
 
 ### レポートの変更計画
 
-統合された承認ワークフローのデータとレポートは、Canvas ダッシュボードに表示されます。 従来の承認レポートは自動的に引き継がれないので、パイロットチームが必要とする前に代替ダッシュボードを設定します。 詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+統合された承認ワークフローのデータとレポートは、Canvas ダッシュボードに表示されます。 従来の承認レポートは自動的に引き継がれないので、パイロットチームが必要とする前に代替ダッシュボードを設定します。 詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 ## 推奨シーケンス
 
