@@ -7,30 +7,28 @@ description: Adobe クラウドストレージを有効にすると、すべて�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 8%
+source-wordcount: '636'
+ht-degree: 6%
+
 ---
 # Adobe クラウドストレージを有効にする
 
-Adobeクラウドストレージは、Adobeのあらゆるアプリケーションに対応する統合ストレージソリューションです。 Adobeのクラウドベースのストレージソリューションであり、エンタープライズ製品全体のアセットの中央リポジトリとして機能します。
+Adobe クラウドストレージは、Adobe エンタープライズ製品全体のアセットの中央リポジトリとして機能する、クラウドベースの統合ストレージソリューションです。 この記事では、組織全体または特定のグループのデフォルトのストレージオプションとしてAdobe クラウドストレージを有効にする方法について説明します。
 
-Adobe クラウドストレージは、新規のお客様に対してデフォルトで有効になっており、契約更新時に既存のお客様に対して有効にすることができます。
+新しいエクスペリエンスを有効にすると、新しいプロジェクトでは、Frame.io ビューアと統合承認を含むAdobe クラウドストレージが使用されます。 Adobe クラウドストレージを有効にするまで、何も変わりません。
 
-Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+タイミングを制御することで、エクスペリエンスをテストし、Workfront Fusionのシナリオを更新し、誰かが作業する前に変更をレポートする計画を立てることができます。 何が異なるか、ロールアウトを計画する方法について詳しくは、[Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)を参照してください。
+
+## Adobe クラウドストレージでの承認機能
+
+Adobe クラウドストレージは、プロジェクトが使用する承認サービスを決定します。 Adobe クラウドストレージをサポートするバージョンのWorkfrontに移行しても、組織全体が統合承認に自動的に切り替わることはありません。 承認サービスは、各プロジェクトのストレージモデルによって異なります。
+
+* **Adobe クラウドストレージプロジェクト**&#x200B;では、Frame.io ビューアでレビューと承認が行われ、デフォルトで統合承認が使用されます。
+* **従来のWorkfront ストレージプロジェクト**&#x200B;は、既に使用している承認サービスを維持します。 組織によっては、統合承認やレガシードキュメントの承認などが考えられます。
+
+Adobe クラウドストレージでのレビューと承認のエクスペリエンスについて詳しくは、[Adobe クラウドストレージでのWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)を参照してください。
 
 ## アクセス要件
 
@@ -74,14 +72,14 @@ Adobe クラウドストレージを有効にするには：
    >
    >このオプションを有効にすると、ユーザーは新しいプロジェクトの作成時にストレージプロバイダーを選択できます。 Adobe クラウドストレージは、デフォルトのストレージプロバイダーであるため、「新しいプロジェクト」というラベルが付けられます。 従来のWorkfront ストレージは、「従来のプロジェクト」とラベル付けされます。
    >
-   >![新しいプロジェクトと従来のプロジェクトのオプション &#x200B;](assets/new-esm-project.png)
+   >![新しいプロジェクトと従来のプロジェクトのオプション ](assets/new-esm-project.png)
 
 1. 「適用先」ドロップダウンメニューで、次のいずれかのオプションを選択します。
 
-   - **組織全体**：このオプションは、デフォルトのストレージプロバイダーをWorkfront環境全体に適用します。 ユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます。
-   - **特定のグループ**：このオプションは、組織内の特定のグループにのみデフォルトのストレージプロバイダーを適用します。 指定したグループのユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます
+   * **組織全体**：このオプションは、デフォルトのストレージプロバイダーをWorkfront環境全体に適用します。 ユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます。
+   * **特定のグループ**：このオプションは、組織内の特定のグループにのみデフォルトのストレージプロバイダーを適用します。 指定したグループのユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます。
 
-   ![&#x200B; ストレージ環境設定グループ &#x200B;](assets/configure-storage-preference.png)
+     ![ ストレージ環境設定グループ ](assets/configure-storage-preference.png)
 
 1. 「**保存**」をクリックします。
 
@@ -95,4 +93,4 @@ Adobe クラウドストレージを有効にするには：
 
 Adobe クラウドストレージは、[!DNL Workfront] サンドボックス環境で利用できます。本番環境でロールアウトする前に、この記事で説明した機能をテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
 
-カスタムリフレッシュサンドボックスがある場合は、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 更新により、サンドボックスからAdobe クラウドストレージ機能にアクセスできるようになり、テストを開始できます。 詳しくは、[&#x200B; カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+カスタムリフレッシュサンドボックスがある場合は、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 更新により、サンドボックスからAdobe クラウドストレージ機能にアクセスできるようになり、テストを開始できます。 詳しくは、[ カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
