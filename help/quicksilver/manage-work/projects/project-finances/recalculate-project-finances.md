@@ -103,16 +103,16 @@ ht-degree: 64%
   システムレベルでの請求率を使用して担当業務を作成する方法について詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
 * ユーザーレベル\
-  ユーザーの請求レート情報の変更について詳しくは、[ ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+  ユーザーの請求レート情報の変更について詳しくは、[&#x200B; ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 * 会社レベル（担当業務用）\
   詳しくは、[会社レベルでの担当業務請求レートの上書き](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)を参照してください。
 
 * レートカードレベル
-レートカードについて詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+レートカードについて詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 * プロジェクトレベル（担当業務、ユーザー、レートカード向け）\
-  プロジェクトレベルでのレートの上書きについて詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+  プロジェクトレベルでのレートの上書きについて詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 例えば、プロジェクトの進行中にユーザーの請求レートが 1 時間あたり50 ドルから75 ドルに変わるが、既存のすべてのデータを古い料金（1 時間あたり50 ドル）で計算したままにしたいとします。 しかし、プロジェクトの財務が再計算されると、既に既存の財務データを持つタスクの収益は、新しい請求レート（1 時間当たり 75 ドル）を反映して更新されます。
 
@@ -131,7 +131,7 @@ ht-degree: 64%
 
 プロジェクトレベルの担当業務の請求レートが変更された場合、指定した時間枠内にロックされている複数の請求レートの上書きを使用して、プロジェクトで既に計算されている既存の収益を保持できます。
 
-複数の請求レートの上書きの使用について詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+複数の請求レートの上書きの使用について詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 >[!NOTE]
 >
@@ -145,10 +145,10 @@ ht-degree: 64%
   システムレベルでのコスト率を持つ担当業務の作成について詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
 * ユーザーレベル\
-  ユーザーのコスト率情報の変更について詳しくは、[ ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+  ユーザーのコスト率情報の変更について詳しくは、[&#x200B; ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 * プロジェクトレベル（ユーザー向け）
-ユーザーコスト率の上書きについて詳しくは、[ プロジェクトレベルでのユーザーコスト率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)を参照してください。
+ユーザーコスト率の上書きについて詳しくは、[&#x200B; プロジェクトレベルでのユーザーコスト率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)を参照してください。
 
 上記の任意のレベルでコスト率が変更された場合、プロジェクトに記録された時間をロックし、古いレートを使用して計算された既存のコストを、ステータスが「請求済み」の請求記録にロックすることで、プロジェクトで既に計算された既存のコストを保持できます。 請求記録の作成について詳しくは、[請求記録の作成](../../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
 
@@ -170,7 +170,7 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 
 1. 財務を再計算するプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/qs-more-icon-on-an-object.png)をクリックします。
 
-   ![ プロジェクトレベルの詳細ドロップダウン ](assets/project-level-more-dropdown.png)
+   ![&#x200B; プロジェクトレベルの詳細ドロップダウン &#x200B;](assets/project-level-more-dropdown.png)
 
    または
 
@@ -241,5 +241,5 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 >
 >費用に予定金額が保存されると、予定原価が更新されます。 費用に実際の金額が保存されると、実際のコストが更新されます。
 
-費用について詳しくは、[ プロジェクト費用の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
+費用について詳しくは、[&#x200B; プロジェクト費用の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
 
