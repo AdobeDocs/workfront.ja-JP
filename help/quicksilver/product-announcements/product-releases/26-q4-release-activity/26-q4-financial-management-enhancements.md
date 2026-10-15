@@ -44,7 +44,7 @@ ht-degree: 2%
 
 レート属性をテンプレートの担当業務の請求レートに適用できるようになりました。
 
-詳しくは、[ プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)および[ プロジェクトレベルでのジョブロールの請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)および[&#x200B; プロジェクトレベルでのジョブロールの請求率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 ## 企業の請求率の向上
 
@@ -83,4 +83,4 @@ ht-degree: 2%
 
 以前は、1つの属性を親に、その親を祖父母にリンクした場合、元の属性も祖父母に属するものとして自動的に認識されませんでした。 これで、最下位レベルの属性を選択すると、その上のすべてのレベルが自動的に割り当てられます。
 
-属性について詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+属性について詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
