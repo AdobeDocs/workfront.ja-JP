@@ -5,15 +5,15 @@ title: グループ化された承認のレビュー
 description: ホームまたはFrame.io ビューアのMy Approvals ウィジェットから、グループ化された承認内のすべてのドキュメントを確認して決定できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 11%
+source-wordcount: '662'
+ht-degree: 10%
 ---
 
 # グループ化された承認のレビュー
 
-{{highlighted-preview-article-level}}
+<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月22日（PT）に実稼動環境で使用できるようになります。</span>
 
 グループ化された承認に割り当てると、グループ内のすべての文書が一緒に表示されるので、それぞれの文書について決定を下すことができます。 すべてのドキュメントに対して一度に変更を承認または要求したり、各ドキュメントに対して個別に決定を下したりできます。
 
@@ -65,7 +65,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
+>マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[ ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
 1. Adobe Workfrontの左上隅にある&#x200B;**ホーム** アイコンをクリックし、**自分の承認** ウィジェットを見つけます。
 
@@ -98,7 +98,7 @@ Frame.io ビューアでは、グループ内のすべてのドキュメント�
    * **承認済み**: ドキュメントは変更が必要なく、使用する準備ができています。
    * **作業が必要**：文書は変更が必要で、使用する準備ができていません。
 
-   決定の詳細については、[&#x200B; ドキュメント決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
+   決定の詳細については、[ ドキュメント決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
    ![frame.io ビューア グループ化された承認](assets/frame-group-approval.png)
 

@@ -5,15 +5,15 @@ title: グループ化された承認の作成
 description: 複数のドキュメントを1つの承認ワークフローにバンドルして、同じステージを進めるようにすることができます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1186'
 ht-degree: 3%
 ---
 
 # グループ化された承認の作成
 
-<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月14日と15日に実稼動環境で利用できるようになります。</span>
+<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月22日（PT）に実稼動環境で使用できるようになります。</span>
 
 グループ化された承認では、単一の承認ワークフローの下に複数のドキュメントがバンドルされます。 単一ドキュメントの承認と同様に、グループ化された承認では、基本モードと詳細モード、複数ステージ、および並行パスを使用できます。
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 1. ドキュメントを選択した状態で、下部メニューの「**承認依頼**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
-   ![&#x200B; グループ化された承認の作成](assets/requeset-grouped-approval.png)
+   ![ グループ化された承認の作成](assets/requeset-grouped-approval.png)
 
 1. 次の詳細を入力します。
 
@@ -119,7 +119,7 @@ You can configure up to 30 paths and 100 stages total.
 
 1. ドキュメントを選択した状態で、下部メニューの「**承認依頼**」をクリックします。
 
-   ![&#x200B; グループ化された承認の作成](assets/requeset-grouped-approval.png)
+   ![ グループ化された承認の作成](assets/requeset-grouped-approval.png)
 
 1. **承認を依頼** ダイアログの右上にある「**詳細に移動**」をクリックします。 基本モードで入力した入力はすべて保持され、**パス 1**、**ステージ 1**&#x200B;に適用されます。
 
