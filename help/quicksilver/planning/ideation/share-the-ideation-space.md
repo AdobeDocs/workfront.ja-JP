@@ -1,6 +1,6 @@
 ---
 title: アイデア創出スペースを他のユーザーと共有する
-description: Adobe Workfront Planningでは、キャンペーンを開始する前にアイデアを立案するための機能が追加されました。 AIを活用して、アイデアを立案し、関係者と共同作業をおこなうことで、そのアイデアを記録的な速さで形にすることができます。
+description: Adobe Workfront Planningでは、キャンペーンを開始する前にアイデアを立案するための機能が追加されました。 アイデア創出スペースとそれぞれの概要を、他のユーザーと共有することで、共同作業を促進できます。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '591'
 ht-degree: 7%
 ---
 
@@ -39,15 +39,19 @@ ht-degree: 7%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Workfront計画レコードの権限は、レコードのアイデア創出スペースに転送されます。
+Adobe Workfrontのアイデア創出スペースを使用して、施策やその他のレコードタイプの概要を事前に作成できます。 ブレインストーミングを実施し、情報を収集することで、共同作業で概要を作成してから、作業を開始できます。
 
-さらに、他のユーザーにアイデア創出スペースを使用するための権限を付与し、アイデアを追加することもできます。
+アイデア創出スペースとそれぞれの概要を、他のユーザーと共有することで、共同作業を促進できます。
 
 次の点に注意してください。
 
+* Workfront計画レコードの権限は、レコードのアイデア創出スペースに転送されます。
+
+* さらに、他のユーザーにアイデア創出スペースを使用するための権限を付与し、アイデアを追加することもできます。
+
 * アイデアの作成者は、常に自分のアイデアに対する編集者の権限を持っています。
 
-* ブリーフを作成して他のアプリケーションに書き出すには、アイデア創出スペースに対する編集者権限が必要です。
+* ブリーフを作成または投稿し、他のアプリケーションに書き出すには、アイデア創出スペースの編集者権限が必要です。
 
 ## アクセス要件
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
-または
-<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> <p>レコードを追加するワークスペースおよびレコードタイプに対する権限を設定します </p>
       <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
       <p>Workfront オブジェクトに対する権限を表示して、ブリーフに追加する <!--not sure if this is available--></p>
-      <p>ブリーフを作成するためのアイデア創出スペースの編集者権限</p>
+      <p>ブリーフを作成するためのブリーフのアイデア創出スペースに対する編集者の権限</p>
    </td> 
   </tr>  
   <!--
@@ -115,7 +123,7 @@ are there additional license restrictions or packages to be purchased to have ac
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -123,21 +131,18 @@ are there additional license restrictions or packages to be purchased to have ac
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
 ## アイデア創出スペースの共有
 
-1. プランニングレコードのアイデア創出スペースにアクセスします。
+1. アイデア創出スペースへのアクセス：
 
-   詳しくは、次のいずれかの記事を参照してください。
+   詳しくは、「[ アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
 
-   * [アイデア立案スペースの概要からプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン &#x200B;](assets/setting-icon.png)をクリックします。
-1. 「誰がアクセス権を持っているか」リストで、次のいずれかを選択します。
+1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン ](assets/setting-icon.png)をクリックします。<!--should this say "document"?-->
+1. 「**アクセス権のあるユーザー**」リストで、次の中から選択します。
 
    * **招待されたユーザーのみが**&#x200B;にアクセスできます
 

@@ -11,10 +11,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 4%
 ---
 
 # アイデア立案スペースの概要からプランニングレコードを作成または編集
@@ -112,7 +112,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -120,7 +120,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -156,52 +156,42 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >
      >「**表示しない**」を選択すると、今後のプロンプトが完全に閉じられます。 閉じるアイコン **X**&#x200B;をクリックすると、このボックスは閉じますが、次回レコードをインラインに追加すると再度表示されます。
 
-   ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
+   ![ アイデア創出スペースを開くボタンを含む新しいレコードボックス ](assets/new-record-creation-picker-with-ideation.png)
 
-   アイデア創出スペースが新しいタブで開き、空のプロンプトが表示されます。
+   アイデア創出スペースが新しいタブで開きます。
 
-   レコードは、プレースホルダーテキストを使用してすぐに作成されます。
+   右側のパネルにCX Coworkerが開きます。
 
-1. （オプション）プロンプトボックスの「**既存の概要を使用**」をクリックして、アイデア創出スペースで概要と今後のレコードの作成に使用する既存の文書を参照して追加します。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   レコードはすぐにプレースホルダー名で作成されます。
 
-   ![&#x200B; アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. （オプション）プロンプトボックスの右上隅にある「**前のキャンバスを開く** <!--accurate??-->」アイコン「![既存のブリーフを開く](assets/open-existing-briefs-icon.png)」をクリックして、既存のブリーフを開きます
-
-1. **で何に取り組んでいますか？** プロンプトボックスに入力し、作成するレコードの種類を指定します。
+1. **CX Coworker** ダイアログボックスにプロンプトを追加し、Enter キーを押します。
 
    共有する詳細情報が多ければ多いほど、アイデア創出スペースから提供される情報がより有用になります。 例えば、計画しているキャンペーンの説明を「マーケティングエージェンシーの学校戻りキャンペーン」と入力します。
 
-1. 「**アイデア出しを開始**」をクリックします。
+1. 記事[ アイデア創出スペースでブリーフを作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)の説明に従って、アイデア創出ブリーフの作成を続行します。
 
-   アイデア創出スペースは、アイデアを作成する間、次の手順を実行します：<!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. 目標とコンテクストの把握
-   2. スペースと選択したマテリアルのレビュー
-   3. ドキュメント、web、データから証拠を収集します
-   4. 調査結果を調査サマリーに合成
-   5. 引用を使用したカードの作成と調整
-
-   このプロセスでは、接続されたWorkfront Planning データまたはweb上で利用可能な情報をアクティブに検索するアイデア創出スペースが表示されます。
-
-   例えば、既存のプログラム、製品、ペルソナ、地域だけでなく、オンラインで利用可能な類似の概念を検索できます。<!--check on this with Et-->
-
-   アイデア創出が完了すると、アイデア創出スペースに次のものが追加されます。
-
-   * 考慮すべき事項に関する詳細な情報が記載された、複数のカードにリンクされたAI調査結果の概要。 詳細カードが新しいセクションに表示されます。 コネクタは、どのカードセクションがどのサマリーに属するかを示します。
-
-   * アイデア創出スペースの左下隅にある&#x200B;**概要** ファイル。 概要は、今後のレコードのドラフトであり、レコードの詳細ページとして表示されます。
-
-   ![分岐を含むアイデア創出カード &#x200B;](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. アイデア創出スペースに引き続き情報を追加して、ブリーフの作成を完了します。
-
-1. （条件付き）概要が完了したら、左下隅にあるプレビュー画像をクリックし、次のいずれかをクリックします。
-
-   * **ファイルに書き出し**：ファイルを作成
-   * **Workfront Planning**&#x200B;に書き出して、プランニング レコードを作成します
-
-   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[&#x200B; アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
+1. （条件付き）概要が完了したら、左下隅にあるプレビュー画像をクリックし、**Workfront計画に書き出し**&#x200B;をクリックして、計画レコードを作成します。
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
@@ -213,7 +203,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. Workfront Planningの既存のレコードに移動し、その詳細ページを開きます。
 
-1. 「**アイデア創出スペースで開く**」をクリックします。 これにより、新しいタブでアイデア創出スペースが開きます。
+1. 「**アイデア創出スペースで開く** ![](assets/open-in-ideation-space.png)」をクリックします。 これにより、新しいタブでアイデア創出スペースが開きます。
 
    レコードのアイデアが既に存在する場合、そのスペースが開きます。
 
@@ -221,19 +211,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!TIP]
    >
-   >アイデア立案スペースを使用したレコードの一括編集は使用できません。
+   >アイデア出しスペースを使用してレコードを一括編集することはできません。
+1. この記事の「[ アイデア創出スペース ](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
-
-
-
-
 
 
 <!--
