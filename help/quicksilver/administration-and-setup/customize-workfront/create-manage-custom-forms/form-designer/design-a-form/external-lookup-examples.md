@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 42%
@@ -39,7 +39,7 @@ ht-degree: 42%
 
 この記事では、外部ルックアップフィールドを使用して、Workfrontまたはパブリック APIの同じインスタンスを呼び出す例を紹介します。 また、外部参照を使用して、Jira、Salesforce、ServiceNowなどの外部システムと通信することもできます。
 
-外部参照フィールドをカスタムフォームに追加することと、外部参照コンポーネントの追加の定義について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+外部参照フィールドをカスタムフォームに追加することと、外部参照コンポーネントの追加の定義について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -232,13 +232,13 @@ Workfront Planning APIでは、Get メソッドを使用してレコードタイ
 
 外部参照を作成する場合は、他にも多くの使用例があります。
 
-**使用例：**&#x200B;先行入力フィールドは、レポートに問題が発生する可能性があるため、置き換えます。
+**使用例：**先行入力フィールドは、レポートに問題が発生する可能性があるため、置き換えます。
 **解決策：** システム内の既存のオブジェクトにAPI呼び出しを使用します。
 
 先行入力フィールドを置換するテンプレートのベース API URLの例：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**使用例：**&#x200B;より多くの機能を持つドロップダウンフィールドを作成します（例えば、外部参照フィールドに折り返し行があります）。
+**使用例：**より多くの機能を持つドロップダウンフィールドを作成します（例えば、外部参照フィールドに折り返し行があります）。
 **解決策：** システム内の既存のオブジェクトに対するAPI呼び出しを使用するか、新しいオブジェクトを作成して、このオブジェクトに対するAPI呼び出しを使用します。
 
 **使用例：** ユーザーがカスタムフォーム領域外で独自のフィールドを維持する方法を定義します。 外部ルックアップフィールドを設定すると、そのフィールドを構成するオブジェクトにユーザーを割り当てることができます。 このオプションは、高いメンテナンスフィールドやチームに適しています。
@@ -246,4 +246,3 @@ Workfront Planning APIでは、Get メソッドを使用してレコードタイ
 
 **使用例：** Workfront以外のオブジェクトとの統合。 例えば、別のシステムにアクセスして、先行入力フィールドで制限されるのではなく、すべてのユーザーの名前を取得します。
 **解決策：** Webhook/Fusionの自動化による他のシステムへの接続。
-

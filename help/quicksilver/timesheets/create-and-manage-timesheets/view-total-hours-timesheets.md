@@ -9,23 +9,28 @@ exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 TQID: https://experienceleague.adobe.com/oh6bBQz6sfxCpodHahZXtlMMuYYT-4U7-5MP6TQeuIs
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 476
-ht-degree: 63%
-
+source-wordcount: '469'
+ht-degree: 56%
 ---
-
 # タイムシートの合計時間の表示
 
 <!--Audited: 8/2024-->
@@ -70,35 +75,33 @@ ht-degree: 63%
 
 タイムシートの合計時間数は、タイムシートのヘッダーに表示できます。
 
-![合計時間数フィールド &#x200B;](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
+![合計時間数フィールド ](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
 
 ## タイムシートリストでのタイムシート合計時間数の表示
 
 {{step1-to-timesheets}}
 
-**タイムシート**&#x200B;領域が開きます。
+表示するアクセス権のあるタイムシートはすべて、デフォルトで表示されます。
 
-1つのタイムシートが選択された![&#x200B; タイムシート リスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![ タイムシート リスト ](assets/list-of-all-timesheets.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
-   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する
+   * ページの右上隅にある「**自分のタイムシートの承認**」を選択して、承認したタイムシートのみを表示します。
 
      または
 
      「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
-     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
+     これは、**マイタイムシート承認**&#x200B;または&#x200B;**マイタイムシート** フィルターをタイムシートのリストに適用します。
 
-     ![&#x200B; タイムシート リスト ページのタイムシート フィルターのボタン &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックして、フィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
    >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからこれらのフィルターを削除した場合、タイムシートリストの上部またはフィルターのリストに「マイタイムシートの承認」オプションと「マイタイムシート」オプションが表示されません。 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
-1. （オプション）別のビューまたはグループ化を適用したり、新しいビューを作成したりするには、**ビュー** ![&#x200B; ビューのアイコン &#x200B;](assets/view-icon.png)または&#x200B;**グループ化** ![&#x200B; グループ化のアイコン &#x200B;](assets/grouping.png)をクリックします。
+1. （オプション）「**ビュー** ![ ビューのアイコン ](assets/view-icon.png)」または「**グループ化** ![ グループ化のアイコン ](assets/grouping.png)」アイコンをクリックして、ビューまたはグループ化を適用するか、新しいビューを作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -108,7 +111,7 @@ ht-degree: 63%
 
 1. 各タイムシートの合計時間数は **合計時間数**&#x200B;列に表示されます。
 
-   ![合計時間列](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
+   ![合計時間列](assets/total-hours-column.png)
 
    >[!TIP]
    >

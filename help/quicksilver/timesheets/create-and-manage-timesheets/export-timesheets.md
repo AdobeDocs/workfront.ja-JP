@@ -11,23 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-bihpKoVoPCwTpAj-SK-RPPFpaCubsyLAfnfSmpTnyI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 69%
-
+source-wordcount: '449'
+ht-degree: 63%
 ---
-
 # タイムシートのリストを書き出し
 
 <!--Audited: 8/2024-->
@@ -66,64 +71,31 @@ ht-degree: 69%
 
 +++
 
-<!--
-Old permissions:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the timesheets</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan or license type you have, contact your Workfront administrator.
--->
-
 ## タイムシートのリストを書き出し
 
 {{step1-to-timesheets}}
 
-**タイムシート**&#x200B;領域が開きます。
+表示するアクセス権のあるタイムシートはすべて、デフォルトで表示されます。
 
-![タイムシートエリア](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
-
-1. （オプション）「**検索**」アイコン「![検索アイコン &#x200B;](assets/search-icon.png)」をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの時間枠または所有者名を検索できます。
+![ タイムシート リスト ](assets/list-of-all-timesheets.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
-   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する
+   * ページの右上隅にある「**自分のタイムシートの承認**」を選択して、承認したタイムシートのみを表示します。
 
      または
 
      「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
-     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
+     これは、**マイタイムシート承認**&#x200B;または&#x200B;**マイタイムシート** フィルターをタイムシートのリストに適用します。
 
-     ![&#x200B; タイムシート リスト ページのタイムシート フィルターのボタン &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックして、フィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
    >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからこれらのフィルターを削除した場合、タイムシートリストの上部またはフィルターのリストに「マイタイムシートの承認」オプションと「マイタイムシート」オプションが表示されません。 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
-1. （オプション）別のビューまたはグループ化を適用したり、新しいビューを作成したりするには、**ビュー** ![&#x200B; ビューのアイコン &#x200B;](assets/view-icon.png)または&#x200B;**グループ化** ![&#x200B; グループ化のアイコン &#x200B;](assets/grouping.png)をクリックします。
+1. （オプション）「**ビュー** ![ ビューのアイコン ](assets/view-icon.png)」または「**グループ化** ![ グループ化のアイコン ](assets/grouping.png)」アイコンをクリックして、ビューまたはグループ化を適用するか、新しいビューを作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -131,9 +103,9 @@ Old permissions:
    * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 書き出すタイムシートを選択し、**書き出し** ![書き出しアイコン &#x200B;](assets/export-38x15.png) アイコンをクリックします。
+1. 書き出すタイムシートを選択し、**書き出し** ![書き出しアイコン ](assets/export-38x15.png) アイコンをクリックします。
 
-   ![書き出しアイコン &#x200B;](assets/export-timesheets.png)をクリックします
+   ![書き出しアイコン ](assets/export-timesheets.png)をクリックします
 
 1. タイムシートの一覧を書き出すファイルの種類を次のオプションから選択します。
 
