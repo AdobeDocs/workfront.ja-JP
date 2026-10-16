@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 9%
 ---
 # Web リンクをドキュメントとして追加
@@ -56,7 +56,7 @@ ht-degree: 9%
 
 ## Web リンクをドキュメントとして追加
 
-Web リンクとしてhtml web ページをWorkfrontにアップロードできます。 追加した後は、アップロードしたファイルの承認をリクエストするのと同じように、ライブ web ページで承認をリクエストできます。 Frame.ioでのweb リンクの処理方法について詳しくは、[Frame.io web リンク &#x200B;](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links)を参照してください。
+Web リンクとしてhtml web ページをWorkfrontにアップロードできます。 追加した後は、アップロードしたファイルの承認をリクエストするのと同じように、ライブ web ページで承認をリクエストできます。 Frame.ioでのweb リンクの処理方法について詳しくは、[Frame.io web リンク ](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)を参照してください。
 
 <!--
 >[!IMPORTANT]
@@ -72,7 +72,7 @@ Web リンクを追加するには：
 1. 「**追加**」をクリックします。
    ![Web リンクをドキュメントとして追加](assets/web-url.png)
 
-Web リンクで承認を要求するには、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+Web リンクで承認を要求するには、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 既知の制限事項
 
