@@ -125,7 +125,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業担当者は、タスクまたはイシューに割り当てることができます。
 
-作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス ](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
 * [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -214,7 +214,7 @@ Workfrontで作業エージェントとして使用するエージェントを�
 >
 >Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 
 <!--
@@ -288,4 +288,4 @@ For more information on the Project Coordinator, including how to assign it to p
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
