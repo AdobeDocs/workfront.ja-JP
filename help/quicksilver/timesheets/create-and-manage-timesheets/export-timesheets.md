@@ -77,7 +77,7 @@ ht-degree: 63%
 
 表示するアクセス権のあるタイムシートはすべて、デフォルトで表示されます。
 
-![ タイムシート リスト ](assets/list-of-all-timesheets.png)
+![&#x200B; タイムシート リスト &#x200B;](assets/list-of-all-timesheets.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -89,13 +89,13 @@ ht-degree: 63%
 
      これは、**マイタイムシート承認**&#x200B;または&#x200B;**マイタイムシート** フィルターをタイムシートのリストに適用します。
 
-   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックして、フィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックして、フィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
    >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからこれらのフィルターを削除した場合、タイムシートリストの上部またはフィルターのリストに「マイタイムシートの承認」オプションと「マイタイムシート」オプションが表示されません。 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
-1. （オプション）「**ビュー** ![ ビューのアイコン ](assets/view-icon.png)」または「**グループ化** ![ グループ化のアイコン ](assets/grouping.png)」アイコンをクリックして、ビューまたはグループ化を適用するか、新しいビューを作成します。
+1. （オプション）「**ビュー** ![&#x200B; ビューのアイコン &#x200B;](assets/view-icon.png)」または「**グループ化** ![&#x200B; グループ化のアイコン &#x200B;](assets/grouping.png)」アイコンをクリックして、ビューまたはグループ化を適用するか、新しいビューを作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -103,9 +103,9 @@ ht-degree: 63%
    * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 書き出すタイムシートを選択し、**書き出し** ![書き出しアイコン ](assets/export-38x15.png) アイコンをクリックします。
+1. 書き出すタイムシートを選択し、**書き出し** ![書き出しアイコン &#x200B;](assets/export-38x15.png) アイコンをクリックします。
 
-   ![書き出しアイコン ](assets/export-timesheets.png)をクリックします
+   ![書き出しアイコン &#x200B;](assets/export-timesheets.png)をクリックします
 
 1. タイムシートの一覧を書き出すファイルの種類を次のオプションから選択します。
 

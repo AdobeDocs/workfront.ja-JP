@@ -38,7 +38,7 @@ ht-degree: 76%
 
 Adobe Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。 これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 
-![ フィルター表示のグループ化レイアウトテンプレート ](assets/filter-view-grouping-layout-templates.png)
+![&#x200B; フィルター表示のグループ化レイアウトテンプレート &#x200B;](assets/filter-view-grouping-layout-templates.png)
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -89,19 +89,19 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 1. **ユーザーに表示される内容をカスタマイズ**&#x200B;の下の下向き矢印![下向き矢印](assets/down-arrow-blue.png)をクリックし、表示されるドロップダウンメニューの&#x200B;**リスト**&#x200B;をクリックします。
 1. 「**」の下の下向き矢印![下向き矢印](assets/down-arrow-blue.png)をクリックし、「**」をカスタマイズするリストを選択してから、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトのタイプを選択します。
 
-   ![ カスタマイズするリストを選択](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![&#x200B; カスタマイズするリストを選択](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >カスタマイズするプロジェクトをリストとして選択し、フィルタセクションにある、自分が所属するプロジェクト、または自分が所有するプロジェクトを無効にすると、ユーザーはそのフィルターを表示したり使用したりすることができなくなります。
    >
-   >* リストの上にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックすると表示されるフィルターのリストで、次の操作を行います。
+   >* リストの上にあるフィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックすると表示されるフィルターのリストで、次の操作を行います。
    >   
-   >  ![ フィルターを無効にする](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![&#x200B; フィルターを無効にする](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* プロジェクトエリアヘッダーの上にあるヘッダーで、以下のように行います。
    >   
-   >  ![ フィルターボタンを無効にする](assets/disable-filter-pills.png)
+   >  ![&#x200B; フィルターボタンを無効にする](assets/disable-filter-pills.png)
 
    <span class="preview">一部の強化リストを選択できます。 これらのリストには、リストコントロールの横に「新しいエクスペリエンス」ラベルがあります。 強化リストについて詳しくは、[強化リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。</span>
 

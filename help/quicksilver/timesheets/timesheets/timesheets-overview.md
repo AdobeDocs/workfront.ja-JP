@@ -73,7 +73,7 @@ Workfront で時間を記録する方法について詳しくは、[時間を記
 
 すべてのタイムシートとアクセス権のあるタイムシートは、デフォルトで表示されます。 Adobe Workfront のタイムシートレイアウトについて詳しくは、[タイムシートレイアウトの概要](../../timesheets/timesheets/timesheet-layout.md)を参照してください。
 
-![すべてのタイムシート リスト ](assets/list-of-all-timesheets.png)
+![すべてのタイムシート リスト &#x200B;](assets/list-of-all-timesheets.png)
 
 1. 右上隅の次のオプションのいずれかをクリックして、タイムシートを表示します。
 

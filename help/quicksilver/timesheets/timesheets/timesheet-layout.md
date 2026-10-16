@@ -174,7 +174,7 @@ You can resize the columns that display different weeks, the time frame, or the 
 
 時間エントリのコメントボックスに入力したコメントは、タイムシートの各作業項目の下に表示されます。ツールバーの「**コメントの表示**」設定が有効になっている場合は、ここから時間を記録できます。
 
-![時間のエントリコメント ](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
+![時間のエントリコメント &#x200B;](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## 時間
 
