@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '826'
 ht-degree: 2%
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planningでは、キャンペーンを開始する前にアイデアを立案するための機能が追加されました。 AIを活用して、データとインプットを具体的な計画に変換し、Adobeのアイデア創出スペースで空白ページを作成するのではなく、情報にもとづいた出発点を提供します。
+Adobe Workfront Planningでは、キャンペーンを開始する前にアイデアを立案するための機能が追加されました。
+
+アイデア創出スペースを活用すれば、Adobe Enterprise CX Coworkerの会話機能を活用して、データと直接入力を具体的な計画に変換し、空白ページではなく情報にもとづいた出発点を提供できます。
 
 ここでは、Workfront Planningからアイデア創出スペースにアクセスするために必要なアクセス権と権限について説明します。
 
@@ -42,10 +44,14 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 
 ## 必要な製品
 
-
 アイデア創出スペースは、単独のプロダクトではなく、Adobe Workfrontプランニングの機能を提供します。
 
-組織がアイデア創出スペースにアクセスでき、アイデア創出スペースにアクセスするタイミングに応じて、次のパッケージにアクセスできる場合は、アイデア創出スペースにアクセスできます。
+組織が次の製品にアクセスできる場合は、アイデア創出スペースにアクセスできます。
+
+* Adobe WorkfrontとWorkfront計画
+* Enterprise CX Coworker
+
+アイデア創出スペースにアクセスする場合は、次のパッケージにアクセスできる必要があります。
 
 * Open Betaのリリース中は、次の要件を満たしている必要があります。
 
@@ -56,11 +62,12 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
   * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
   * スタンドアロン製品としてのAdobe Workfront計画
 
-アイデア創出スペースのリリース段階について詳しくは、[Adobe Workfront計画のアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
-
 >[!NOTE]
 >
->アイデア創出スペースには、Adobe WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
+>アイデア創出スペースには、WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
+
+アイデア創出スペースのリリース段階について詳しくは、[Adobe Workfront計画のアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
+
 
 <!--
 No longer the case: 
@@ -82,23 +89,45 @@ Your organization must purchase a package for the following products to access t
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
-## Workfront Planningのアクセスレベル要件
+## システムおよびアクセスレベルの要件
 
-アイデア創出スペースへのアクセスはWorkfrontで設定されます。
+アイデア創出スペースへのアクセスは、Workfrontでシステムレベルとアクセスレベルの設定を組み合わせて有効にすることで設定されます。
 
-アイデア創出スペースにアクセスするには、Workfrontのアクセスレベルに以下を含める必要があります。
+Workfrontのアイデア創出スペースにアクセスするには、次の設定が必要です。
+
+* セットアップ <!--check the UI because Becky was going to change it-->のシステム環境設定エリアで、同僚とMCPの環境設定を有効にします
+
+  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+
+  >[!IMPORTANT]
+  >
+  >CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。 ただし、CX Coworkerをお持ちでないWorkfrontのお客様は、アイデア創出スペースを利用できません。
+
+* アクセスレベルの「追加の制限を設定」セクションで「アイデア出しスペースを無効にする」設定の選択を解除します。
+
+  >[!TIP]
+  >
+  >Workfront管理者は、アクセスレベルの「アイデア創出スペースを無効にする」設定を選択解除することで、アイデア創出スペースへのアクセスを特定のユーザーに制限できます。
+
+  詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+
+## ライセンス要件
+
+アイデア創出スペースにアクセスするには、Workfrontのアクセスレベルに次のライセンスタイプが含まれている必要があります。
 
 * 標準ワークフローライセンス。プランニングパッケージに加えてワークフローパッケージを購入した場合。
-* ワークフローとプランニングパッケージ、またはスタンドアロン製品としてのWorkfront Planningを使用して購入した場合のStandard Planning ライセンス。
-* アクセスレベルの「追加の制限を設定」セクションの「アイデア出しスペースを無効にする」設定を選択しない必要があります。<!--***********check the UI for this***********-->
+* Standard Planningのライセンスで、次のいずれかを購入した場合：
 
-## Workfront Planningの権限要件
+  * ワークフローとプランニングパッケージ（オープンベータ版）
+  * ワークフローとプランニングパッケージ、またはスタンドアロン製品としてのWorkfrontプランニング（一般公開後）。
 
-各プランニングレコードは、アイデア創出スペース内の1つの概要に接続されています。
+## Workfrontの権限要件
+
+Workfront Planningのアイデア創出スペースを使用する場合、各プランニングレコードは、アイデア創出スペース内の1つの概要に接続されます。
 
 アイデア創出スペースの概要の権限は、Workfront Planning レコードの権限から継承されます。<!--not sure if this is right, because now you can share the ideation with others??-->
 
-アイデア創出スペースでレコードを作成または編集するには、レコードを作成するには、Planningのレコードタイプに対する管理権限が必要です。
+アイデア創出スペースでレコードを作成または編集するには、レコードを作成するには、Planningのレコードタイプに対してContribute以上の権限が必要です。
 
 レコードに対する表示権限を持つプランニングユーザーは、レコードのアイデア創出スペースを表示できます。
 
@@ -106,7 +135,7 @@ Your organization must purchase a package for the following products to access t
 
 | プランニングレコードレベルの権限 | アイデア創出スペースの概要レベルの権限 |
 |---|---|
-| レコードに対する権限の管理 | レコードのアイデア創出スペースにブリーフを作成し |
+| レコードに対するアクセス許可の貢献度を上げる | レコードのアイデア創出スペースにブリーフを作成し |
 | レコードへの権限の表示 | アイデア出しスペースでそのレコードの概要を読むことができますが、変更することはできません |
 
 ## アイデア創出スペースの権限
@@ -131,7 +160,7 @@ Your organization must purchase a package for the following products to access t
 | コメンター | アイデア創出スペースの表示とコメントを行えます |
 | ビューア | アイデア創出スペースを表示できます |
 
-アイデア創出スペースの共有について詳しくは、[&#x200B; アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
+アイデア創出スペースの共有について詳しくは、[ アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
 
 <!--
 there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users

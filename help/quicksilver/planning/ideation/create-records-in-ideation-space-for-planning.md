@@ -1,5 +1,5 @@
 ---
-title: アイデア立案スペースの概要からプランニングレコードを作成
+title: アイデア立案スペースの概要からプランニングレコードを作成または編集
 description: Adobe Workfront Planningの新しい機能であるアイデア創出スペースを使用すると、ブリーフをプランニングレコードに変換できます。 書き出されたブリーフは、新しいレコードを作成したり、既存のレコードを更新したりできます。 この記事では、アイデア創出スペースを使用して、既存のプランニングレコードを作成または編集する方法について説明します。
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 3%
 ---
 
-# アイデア立案スペースの概要からプランニングレコードを作成
+# アイデア立案スペースの概要からプランニングレコードを作成または編集
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
-または
-<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -108,7 +112,7 @@ are there additional license restrictions or packages to be purchased to have ac
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -116,17 +120,17 @@ are there additional license restrictions or packages to be purchased to have ac
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
-## アイデア創出スペースを使用したレコード作成に関する考慮事項
+## アイデア立案スペースを使用してプランニングレコードを作成または編集する場合の考慮事項
 
-* アイデア創出スペースは、レコードを作成または編集する際に、Workfront計画またはWorkfrontのメインメニューからのみ起動できます。 アイデア創出スペースは、Workfront以外には存在しません。
-* アイデア創出スペースにアクセスするには、Workfront Planningにワークスペースとレコードタイプが必要です。
+* プランニングレコードを作成または編集するには、Workfront計画からアイデア創出スペースを起動する必要があります。 Workfrontのメインメニューからアイデア創出スペースにアクセスしても、アイデア創出の概要がプランニングレコードに関連付けられることはありません。
+* アイデア創出スペースを使用してレコードを作成または編集するには、Workfront Planningにワークスペースとレコードタイプが必要です。
 * 新しいレコードは、作成方法に関係なく、常にプレースホルダーコンテンツから開始されます。
-* アイデア概要にリンクされたプランニングレコードを削除すると、アイデア概要はアイデア作成スペースに残り、アイデア作成スペース内の関連するキャンバスは削除されません。
-* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。
+* アイデアの概要にリンクされているプランニングレコードを削除すると、アイデアの概要はアイデアのスペースに残り、関連するスペースは削除されません。
+* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。<!--this might change?-->
 * Workfront Planningでフィールドを作成、編集または削除する場合、次のシナリオが存在します。
 
   * アイデア立案ブリーフにリンクされたレコードに作成された新しいフィールドは、毎日ブリーフに追加されます。 新しいフィールドは、アイデアの概要では空で表示されます。
@@ -134,7 +138,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   * 名前を変更したフィールドは、ブリーフ内の名前を更新します。
 * アイデア出しスペースでは、ドキュメントをカードとして追加できます。 これには画像も含まれます。
 
-  サポートされているファイル形式は、PDF、Excel、CSV、PNG （およびその他の画像形式）、Word、PowerPointです。 ビデオはサポートされていません。
+  PDF、Excel、CSV、PNG （およびその他の画像形式）、Word、PowerPointなどのファイル形式を追加できます。 ビデオはサポートされていません。
 
   アップロードされたすべてのドキュメントは、バックエンドのPDFに変換され、処理されます。
 * レコードをWorkfront Planningから直接スペースにドラッグ&amp;ドロップすることができ、手動でアップロードしたファイルと同じように表示されます。
@@ -152,7 +156,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >
      >「**表示しない**」を選択すると、今後のプロンプトが完全に閉じられます。 閉じるアイコン **X**&#x200B;をクリックすると、このボックスは閉じますが、次回レコードをインラインに追加すると再度表示されます。
 
-   ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
+   ![ アイデア創出スペースを開くボタンを含む新しいレコードボックス ](assets/new-record-creation-picker-with-ideation.png)
 
    アイデア創出スペースが新しいタブで開き、空のプロンプトが表示されます。
 
@@ -160,7 +164,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）プロンプトボックスの「**既存の概要を使用**」をクリックして、アイデア創出スペースで概要と今後のレコードの作成に使用する既存の文書を参照して追加します。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
-   ![&#x200B; アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
+   ![ アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
 
 1. （オプション）プロンプトボックスの右上隅にある「**前のキャンバスを開く** <!--accurate??-->」アイコン「![既存のブリーフを開く](assets/open-existing-briefs-icon.png)」をクリックして、既存のブリーフを開きます
 
@@ -188,7 +192,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * アイデア創出スペースの左下隅にある&#x200B;**概要** ファイル。 概要は、今後のレコードのドラフトであり、レコードの詳細ページとして表示されます。
 
-   ![分岐を含むアイデア創出カード &#x200B;](assets/ideation-card-with-branched-off-additional-cards.png)
+   ![分岐を含むアイデア創出カード ](assets/ideation-card-with-branched-off-additional-cards.png)
 
 1. アイデア創出スペースに引き続き情報を追加して、ブリーフの作成を完了します。
 
@@ -197,11 +201,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **ファイルに書き出し**：ファイルを作成
    * **Workfront Planning**&#x200B;に書き出して、プランニング レコードを作成します
 
-   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[&#x200B; アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
+   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[ アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
-## アイデア立案スペースでの既存レコードの編集
+## アイデア立案スペースを使用した既存レコードの編集
 
 既存のレコードからアイデア創出スペースを開いて更新できます。
 
@@ -225,7 +229,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
 
-1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
+1. この記事の「[ アイデア創出スペース ](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
 
 
