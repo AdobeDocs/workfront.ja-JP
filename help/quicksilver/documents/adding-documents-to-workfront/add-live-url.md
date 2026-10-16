@@ -75,7 +75,7 @@ Web リンクを追加するには：
 1. 「**追加**」をクリックします。
    ![Web リンクをドキュメントとして追加](assets/web-url.png)
 
-Web リンクで承認を要求するには、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+Web リンクで承認を要求するには、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 既知の制限事項
 
