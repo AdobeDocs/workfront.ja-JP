@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e19eca57bfc65b561d08331c368aed92f19c05d2
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 95%
+source-wordcount: '481'
+ht-degree: 94%
 ---
 # [!DNL Workfront] ドキュメント
 
@@ -42,9 +42,16 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB 最新リリース]
 
-* [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Adobe Workfront プランニングのリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+
+>[!TAB 2027 リリース ]
+
+* [2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+* [Adobe Workfront プランニングのリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
 
 >[!TAB 2026 リリース ]
 
@@ -53,6 +60,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 * [2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [2026 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Adobe Workfront プランニングのリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
 >[!TAB 2025年リリース]

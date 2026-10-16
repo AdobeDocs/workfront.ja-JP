@@ -27,10 +27,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f3b0b9985b2056ca71ce16aa81becb4723015472
+source-git-commit: 44231a55a0431783eb63dbf7070f013e8c06d350
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 75%
+source-wordcount: '111'
+ht-degree: 71%
 ---
 # 統合承認の設定と管理：記事インデックス
 
@@ -39,10 +39,8 @@ ht-degree: 75%
 * [AI レビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [ドキュメントのレビューおよび承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [グループ化された承認の作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-<!--
-* [Review a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-* [Manage grouped approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
--->
+* [グループ化された承認のレビュー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+* [グループ化された承認の管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
 * [アセットまたはドキュメントへのレビュアーまたは承認者の追加](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [アセットまたはドキュメントからの承認者またはレビュアーの削除](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [アセットおよびドキュメントの承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

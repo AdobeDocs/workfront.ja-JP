@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 3%
@@ -55,8 +55,8 @@ Adobe Photoshop、Illustrator、InDesignから直接Workfront プロジェクト
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -72,7 +72,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >プレビュー：Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。
->プロダクション高速リリース：2026年10月14日（PT）
+>プロダクション高速リリース：2026年10月15日（PT）
 >すべての人のための制作：2026年10月15日
 
 1つの承認ワークフローで複数のドキュメントをグループ化して、同じステージを進めることができるようになりました。
@@ -88,7 +88,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >プレビュー：Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。
->プロダクション高速リリース：2026年10月14日（PT）
+>プロダクション高速リリース：2026年10月15日（PT）
 >すべての人のための制作：2026年10月15日
 >[!BADGE スケジュール外]{type=Neutral}
 
@@ -102,7 +102,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >プレビュー：2026年7月30日（PT）
 >プロダクション高速リリース：2026年8月13日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 承認テンプレートは、デフォルトで非公開になりました。 以前は、すべての承認依頼者がシステム内のあらゆるテンプレートを確認できていたため、テンプレートリストは長く、ナビゲートするのが困難でした。 テンプレートは、作成者が共有しない限り、作成したユーザーにのみ表示されます。
 
@@ -134,7 +134,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >プレビュー：該当なし
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 文書の承認ワークフローが作成されると、ユーザーはFrame.io ビューアでコメントを残したり、注釈を付けたりできます。 これらのコメントはWorkfrontのコメントパネルには表示されませんが、Frame.io ビューアで表示できます。
 
@@ -148,7 +148,7 @@ Workfrontのコメントパネルに、Frame.ioで新しいコメントが使用
 >
 >プレビュー：該当なし
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 ドキュメントにプルーフが添付されている場合、承認メールの「レビューに移動」リンクでプルーフビューアーが直接開かれるようになり、レビュー担当者と承認者はすぐにレビューを開始できるようになりました。 文書にプルーフがない場合、リンクは以前と同様に、文書の「承認」セクションを開きます。
 
@@ -158,7 +158,7 @@ Workfrontのコメントパネルに、Frame.ioで新しいコメントが使用
 >
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 Workfront チームを、各人を個別に追加するのではなく、ドキュメントの承認テンプレートまたは承認テンプレートに承認者またはレビュー担当者として追加できるようになりました。
 
@@ -178,7 +178,7 @@ Workfront チームを、各人を個別に追加するのではなく、ドキ�
 >
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 組織でAdobe クラウドストレージを使用しており、Frame.io Enterprise ライセンスをお持ちの場合は、プロジェクトテンプレートのプロジェクト詳細でFrame.io ワークスペースを選択できるようになりました。 テンプレートから作成されたプロジェクトでは、テンプレートに設定されたワークスペースが自動的に使用されるため、プロジェクトの作成時に追加のアクションを必要とせずに、目的のFrame.io ワークスペースにプロジェクトがルーティングされます。
 
@@ -198,7 +198,7 @@ Frame.io エンタープライズライセンスをお持ちでない場合、�
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -220,8 +220,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >プレビュー：該当なし
->すべての人のための制作：2026年10月15日
->この機能は、当初の予定どおり、2026年9月17日（PT）にプロダクションの高速リリースでリリースされませんでした。 2026年10月15日にProduction for everyoneで利用できるようになりました。
+>すべての人のための制作：2026年10月22日
+>この機能は、当初の予定どおり、2026年9月17日（PT）にプロダクションの高速リリースでリリースされませんでした。 2026年10月22日にProduction for everyoneで利用できるようになりました。
 
 ドキュメントの承認時にカスタムメッセージを設定すると、そのメッセージが承認依頼メールの件名にも表示され、設定された期日までに送信されるようになりました。 これにより、レビュー担当者は電子メールを開くことなく、いつ受信トレイに届くのかを直接確認できます。
 
@@ -233,7 +233,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 組織でAdobe クラウドストレージを使用している場合、新しいドキュメント領域のバージョンパネルに新しいデザインが追加されます。
 
@@ -251,7 +251,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 組織でAdobe クラウドストレージを使用している場合、新しいドキュメント領域の承認パネルに、バージョン間の承認履歴が表示されるようになりました。
 
@@ -284,7 +284,7 @@ Adobe クラウドストレージ組織では、すべてのメディアタイ�
 >
 >プレビュー：2026年7月30日（PT）
 >プロダクション高速リリース：2026年8月13日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 組織でAdobe クラウドストレージを使用している場合は、Experience Manager Assetsの個々のアセットを、ドキュメントをサポートする任意のWorkfront オブジェクトにリンクできます。 リンクされたコンテンツは自動的に同期されます。Experience Manager Assetsで行った変更はWorkfrontに表示され、Workfrontから離れることなく新しいアセットバージョンを取り込むことができます。
 
@@ -300,7 +300,7 @@ Content Advisorを利用すれば、コンテンツを選択しながら、AI �
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 

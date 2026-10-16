@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
 >
 >プレビュー：2026年7月30日（PT）
 >プロダクション高速リリース：2026年8月13日（PT）
->すべての人のための制作：2026年10月15日
+>すべての人のための制作：2026年10月22日
 
 テンプレートに財務データが含まれている場合、ユーザーがテンプレートからプロジェクトを作成するときに、これらのフィールド値が保持されます。 プロジェクトの詳細に関する財務フィールドを表示するには、財務データへの表示アクセス権が必要です。
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14687'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -17,6 +17,9 @@ ht-degree: 91%
     * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
     * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
+    * 2027年第1四半期リリース {#release-27-q1}
+      * [2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027年第1四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * 2026年第4四半期リリース {#release-26-q4}
       * [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [2026年第4四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
@@ -486,7 +489,6 @@ ht-degree: 91%
       * [プロジェクトタイムラインの再計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [カスタム四半期と週を有効にする](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [組織の迅速リリースの有効化または無効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Adobe クラウドストレージを有効にする](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [従来のポートフォリオをAdobe クラウドストレージに変換](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [ビジネスルールの作成および編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1931,14 @@ ht-degree: 91%
   * [作業のレビューと承認](review-and-approve-work/review-and-approve-work.md)
   * [統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[AI レビュアーの設定](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Adobe クラウドストレージ上のWorkfrontへの移行 {#move-to-adobe-cloud-storage}
+    * [Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Adobe クラウドストレージの違い](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Adobe クラウドストレージのロールアウト計画](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Adobe クラウドストレージを有効にする](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [従来のオブジェクトをAdobe クラウドストレージに変換](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * 作業承認 {#work-approvals}
     * [作業承認](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [承認プロセスの概要](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -1957,8 +1964,8 @@ ht-degree: 91%
       * [AI レビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [グループ化された承認の作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-      * {hide-from-toc}[&#x200B; グループ化された承認のレビュー](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-      * {hide-from-toc}[&#x200B; グループ化された承認の管理](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+      * [グループ化された承認のレビュー](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * [グループ化された承認の管理](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [アセットまたはドキュメントへのレビュアーまたは承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [アセットまたはドキュメントからの承認者またはレビュアーの削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [アセットおよびドキュメントの承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

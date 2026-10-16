@@ -5,9 +5,9 @@ title: グループ化された承認の作成
 description: 複数のドキュメントを1つの承認ワークフローにバンドルして、同じステージを進めるようにすることができます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 3%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 グループ化された承認では、単一の承認ワークフローの下に複数のドキュメントがバンドルされます。 単一ドキュメントの承認と同様に、グループ化された承認では、基本モードと詳細モード、複数ステージ、および並行パスを使用できます。
 
-グループ化された承認は、組織がAdobe クラウドストレージを使用する場合に表示される新しいドキュメント領域でのみ使用できます。 詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+>[!IMPORTANT]
+>
+>組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 グループ化された承認は、新しいドキュメント領域でのみ使用できます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+
 
 ## アクセス要件
 
