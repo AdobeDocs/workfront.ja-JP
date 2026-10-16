@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 89%
+source-wordcount: '721'
+ht-degree: 80%
 ---
 # 組織の Adobe Admin Console 導入の準備
 
@@ -70,11 +70,11 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
    >
    >シングルサインオン（SSO）や非 SSO などの認証設定について、Workfront サポートおよび組織の IT チームに伝えられるようにしておきます。
 
-   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/jp/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
+   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
 
 1. （条件付き）シングルサインオンを使用する場合は、新しい Adobe Admin Console を既存の SSO プロバイダーに接続します。
 
-   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html)を参照してください。
+   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html)を参照してください。
 
    >[!NOTE]
    >
@@ -100,13 +100,15 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
    >
    >ユーザーのメールに関するこれらの操作は、組織が Adobe Admin Console への移行を開始する前に完了する必要があります。
 
-1. （オプション）OAuth2 を使用するように、すべてのカスタム統合を更新します。
+1. （オプション）すべてのカスタム統合でAdobe Developer Console認証を使用するように更新します。
 
-   OAuth2 統合の設定手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+   従来のWorkfront OAuth2統合の移行について詳しくは、[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)を参照してください。
+
+   認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
 
    >[!NOTE]
    >
-   >この手順はオプションですが、他の形式の API 認証や承認が今後非推奨となるため、実行することを強くお勧めします。
+   >この手順はオプションですが、強くお勧めします。 Workfront カスタム OAuth2 アプリケーションは、2026年11月1日を過ぎると作成できなくなり、既存のカスタム OAuth2 アプリケーションは2027年2月1日に動作しなくなります。
 
 Workfront で Adobe Admin Console が設定されると、それを使用して Workfront システム管理者を作成できます。
 

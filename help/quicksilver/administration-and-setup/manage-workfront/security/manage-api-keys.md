@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 93%
+source-wordcount: '762'
+ht-degree: 80%
 ---
 # API キーの管理
 
@@ -46,16 +46,18 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->Workfront では、`/login` エンドポイントまたは API キーの使用を推奨していません。 代わりに、次のいずれかの認証方法を使用してください。
+>Workfrontでは、新しい統合にAPI キーを使用することはお勧めしません。 代わりに、Adobe Developer Consoleを使用して次のいずれかの認証方法を使用します。
 >
->* JWT を使用したサーバー認証
->* OAuth2 を使用したユーザー認証
+>* サーバー間認証
+>* ユーザー認証
 >
->これらの認証方法の設定手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください
+>現時点ではAPI キーは引き続き機能していますが、Adobeでは、Adobe Developer Console認証に関する新しい統合機能を計画することをお勧めします。
 >
->Workfront でのサーバー認証の使用手順については、[JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)を参照してください
+>Workfrontの従来のカスタム OAuth2 サービスも廃止されます。 新しいカスタム OAuth2 アプリケーションは2026年11月1日を過ぎると作成できなくなり、既存のカスタム OAuth2 アプリケーションは2027年2月1日に動作しなくなります。
 >
->Workfront でのユーザー認証を使用する手順については、[認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)を参照してください
+>認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
+>
+>移行の詳細については、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 
 API セキュリティ脆弱性を最小限に抑えるために、Adobe Workfront 管理者は、アプリケーションがユーザーに代わって Workfront へのアクセスに使用される API キーを管理できます。
 

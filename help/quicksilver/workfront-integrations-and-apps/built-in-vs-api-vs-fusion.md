@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 93%
+source-wordcount: '1085'
+ht-degree: 89%
 ---
 # Adobe Workfront 統合方法
 
@@ -81,7 +81,11 @@ Adobe [!DNL Workfront] 管理者は、[!DNL Workfront] のインスタンス用�
 * [!UICONTROL OAuth2] アプリケーションの設定または使用には、[!DNL Workfront] API の知識などの追加の技術知識を必要としません。
 * お客様の組織では、[!DNL Workfront] ビルトインのアプリケーションとして提供されていないソフトウェアを使用している場合があります。 ソフトウェアが組織独自のものであっても、[!UICONTROL OAuth2] アプリケーションを使用すると、このソフトウェアを [!DNL Workfront] と統合できます。
 
-詳しくは、[Workfront 統合用の OAuth2 アプリケーションを作成](../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+Workfront カスタム OAuth2 アプリケーションは廃止されます。 新しいカスタム OAuth2 アプリケーションは2026年11月1日を過ぎると作成できなくなり、既存のカスタム OAuth2 アプリケーションは2027年2月1日に動作しなくなります。
+
+移行の詳細については、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
+
+新しい統合の認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
 
 ## [!DNL Workfront] API
 

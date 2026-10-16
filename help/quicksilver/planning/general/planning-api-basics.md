@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 4%
 ---
 # Adobe Workfront Planning API の基本
@@ -49,7 +49,7 @@ She also said we need to reword how we organize the version features, after we g
 
 Adobe Workfront Planning APIの目的は、HTTP経由で動作するRESTful アーキテクチャを導入することで、Planningとの統合を構築することを簡素化することです。 このドキュメントでは、RESTおよびJSON応答に精通していることを前提としています。
 
-エンドポイントの完全なリファレンス、リクエスト/レスポンスのスキーマ、バージョン固有の詳細については、[Workfront Planning API開発者ドキュメント &#x200B;](https://developer.adobe.com/wf-planning)を参照してください。
+エンドポイントの完全なリファレンス、リクエスト/レスポンスのスキーマ、バージョン固有の詳細については、[Workfront Planning API開発者ドキュメント ](https://developer.adobe.com/wf-planning)を参照してください。
 
 ## 認証
 
@@ -59,17 +59,15 @@ Workfront Planning APIは、認証にOAuth 2.0を使用します。 資格情報
 
 * **サーバー間認証（JWT）**：ユーザー操作のない自動統合およびバックエンドサービスの場合。 OAuth サーバー間の資格情報を使用します（クライアント資格情報の付与 – アプリケーションはクライアント IDと秘密鍵を使用して直接認証を行い、ユーザーのログインや同意手順を行わずにアクセストークンを取得します）。
 
-  詳しくは、[&#x200B; サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
+  詳しくは、[ サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
 
 * **ユーザー認証（認証コードフロー）**：特定のユーザーの代理で動作する統合用。 OAuth Web アプリまたはシングルページアプリの資格情報（認証コード付与 – ユーザーがログインして同意し、その後、アプリケーションがアクセストークンと交換する認証コードを受け取ります）を使用します。
 
-  詳しくは、[&#x200B; ユーザー認証](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/)を参照してください。
+  詳しくは、[ ユーザー認証](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/)を参照してください。
 
 初めに、Adobe Developer Consoleでプロジェクトを作成し、Workfront Planning APIを追加して資格情報を取得します。
 
-資格情報を設定するには、WorkfrontでOAuth2 アプリケーションを作成します。
-
-詳しくは、[Workfront統合用のOAuth2 アプリケーションの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
 
 >[!NOTE]
 >
@@ -97,7 +95,7 @@ Planning APIは、URL パスを使用してバージョン管理されます。
 >
 >Workfront Fusion用のWorkfront Planning コネクタは、API バージョン 2に更新されておらず、追って通知されるまでバージョン 1を引き続き使用します。
 
-現在サポートされているバージョンについて詳しくは、[Workfront Planning API開発者ドキュメント &#x200B;](https://developer.adobe.com/wf-planning)を参照してください。
+現在サポートされているバージョンについて詳しくは、[Workfront Planning API開発者ドキュメント ](https://developer.adobe.com/wf-planning)を参照してください。
 
 すべての統合でバージョンを明示的にターゲットにすることをお勧めします。
 
@@ -230,7 +228,7 @@ json
 
 フィールドで修飾子とフィルターを使用して、結果で返されるデータを制御できます。
 
-例については、[Workfront Planning API開発者ドキュメント &#x200B;](https://developer.adobe.com/wf-planning/)を参照してください。
+例については、[Workfront Planning API開発者ドキュメント ](https://developer.adobe.com/wf-planning/)を参照してください。
 
 ### 検索修飾子の使用
 
@@ -449,7 +447,7 @@ Planning APIは、1回のリクエストでのレコードの一括作成、更�
 
 ## Workfront カスタムフォームでのPlanning APIの使用
 
-Workfront カスタムフォームの外部ルックアップフィールドからPlanning APIを呼び出して、Workfront オブジェクト内に直接Planning データを表示できます。 詳細については、[&#x200B; カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)を参照してください。
+Workfront カスタムフォームの外部ルックアップフィールドからPlanning APIを呼び出して、Workfront オブジェクト内に直接Planning データを表示できます。 詳細については、[ カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)を参照してください。
 
 ## 関連リソース
 
@@ -458,7 +456,7 @@ API関連の詳細なドキュメントについては、次の記事も参照�
 * [Workfront Planning API](https://developer.adobe.com/wf-planning)開発者向けドキュメントとリファレンス
 * [Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)
-* [Workfront 統合用の OAuth2 アプリケーションの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 

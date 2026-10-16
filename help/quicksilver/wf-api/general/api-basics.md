@@ -35,17 +35,17 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 83%
+source-wordcount: '4407'
+ht-degree: 80%
 ---
 # API の基本
 
 >[!NOTE]
 >
 >この記事の例には、`<supported-version>`が含まれます。 これを、使用するバージョンのWorkfront APIに置き換えます。
->Workfront APIのバージョン管理とサポートスケジュールについては、[APIのバージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+>Workfront APIのバージョン管理とサポートスケジュールについては、[APIのバージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
 Adobe Workfront API の目的は、HTTP 経由で動作する REST フルアーキテクチャを導入することで、Workfront との統合の構築を簡略化することです。 このドキュメントでは、REST および JSON の応答に精通していることを前提とし、Workfront API で採用されているアプローチについて説明します。
 
@@ -150,16 +150,18 @@ API は、Web UI でシステムに使用されるのと同じ Cookie ベース�
 
 >[!IMPORTANT]
 >
->Workfront では、`/login` エンドポイントまたは API キーの使用を推奨していません。 代わりに、次のいずれかの認証方法を使用してください。
+>Workfrontでは、新しい統合にAPI キーを使用することはお勧めしません。 代わりにAdobe Developer Console認証を使用します。
 >
->* JWT を使用したサーバー認証
->* OAuth2 を使用したユーザー認証
+>* サーバー間認証
+>* ユーザー認証
 >
->これらの認証方法の設定手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください
+>現時点ではAPI キーは引き続き機能していますが、Adobeでは、Adobe Developer Console認証に関する新しい統合機能を計画することをお勧めします。
 >
->Workfront でのサーバー認証の使用手順については、[JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-jwt-flow.md)を参照してください
+>Workfrontの従来のカスタム OAuth2 サービスは廃止されます。 新しいカスタム OAuth2 アプリケーションは2026年11月1日を過ぎると作成できなくなり、既存のカスタム OAuth2 アプリケーションは2027年2月1日に動作しなくなります。
 >
->Workfront でのユーザー認証を使用する手順については、[認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)を参照してください
+>認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
+>
+>移行の詳細については、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ API は、Web UI でシステムに使用されるのと同じ Cookie ベース�
 >
 >お客様の組織がAdobe Workfront Business Platformにオンボーディングされているかどうかに応じて異なる手順の一覧については、[AdobeとAdobe Business Platformの管理の違い](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
-有効なユーザー名とパスワードを使用すると、次のリクエストを使用してセッション ID を取得できます。
+`/login` エンドポイントとAPI キーベースのログインの従来の例は、新しい統合に使用しないでください。
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-これにより、今後のリクエストを認証する Cookie が設定され、新しく作成された sessionID、ログインしたユーザーの userID、その他のセッション属性を含む JSON 応答が返されます。
-
->[!NOTE]
->
->管理者でもある API ユーザーが指定されている場合、Workfront では、ログインに API キーを使用することを強くお勧めします。
-
-**API キーの生成**
-
-次の例に示すユーザーとしてシステムにログインすると、API キーを生成できます。
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**以前に生成した API キーの取得**
-
-また、getApiKey を実行すると、特定のユーザー用に以前に生成された API キーを取得することもできます。
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-その後、sessionID またはユーザー名とパスワードの代わりにこの値を含むリクエストパラメーターとして「apiKey」を追加することで、この結果を使用して API 呼び出しを認証できます。 これは、セキュリティの観点から有益です。
-
-次に、apiKey を使用してプロジェクトからデータを取得するリクエストの例を示します。
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**API キーの無効化**
-
-apiKey 値が侵害された場合は、次の例に示すように、「clearApiKey」を実行して、現在の API キーを無効にすることができます。
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-クリアすると、getApiKey を再度実行して新しい API キーを生成できます。
+現在の認証ガイダンスについては、Adobe Developer Console認証を使用してください。 従来のWorkfront OAuth2 アプリケーションからの移行の詳細については、[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)を参照してください。
 
 ### ログアウト
 
@@ -527,7 +485,7 @@ PUT に対する応答は GET と同じです。 どちらの場合も、サー�
 ### ネストされた更新の作成
 
 一部のオブジェクトには、非公開で所有するコレクションを更新できます。 例えば、次の例は、特定のタスクの既存の割り当てを上書きする方法を示しています。
-<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>{<br>割り当て：[<br> {<br> assignedToID: "2222...54d0, <br>割り当てパーセント：50.0 <br> },{<br> roleID: "1111...54d0"<br>} } <br> ] <br>&rbrace;</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>{<br>割り当て：[<br> {<br> assignedToID: "2222...54d0, <br>割り当てパーセント：50.0 <br> },{<br> roleID: "1111...54d0"<br>} } <br> ] <br>}</pre>
 
 >[!NOTE]
 >
