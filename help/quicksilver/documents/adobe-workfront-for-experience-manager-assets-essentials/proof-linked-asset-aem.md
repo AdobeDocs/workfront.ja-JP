@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 70%
+source-wordcount: '513'
+ht-degree: 66%
 ---
 # Experience Manager Assets や Assets Essentials 用のリンクされたアセットを証明
 
@@ -101,7 +101,7 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 
    >[!NOTE]
    >
-   >ユーザープロファイルで&#x200B;**ドキュメントのアップロード時にプルーフを自動的に生成**&#x200B;を有効にしている場合、システムはシンプルなプルーフを自動的に作成します。
+   >ドキュメントのアップロード時に&#x200B;**プルーフを自動生成**&#x200B;設定は、リンクされたフォルダー内のドキュメントには適用されません。 これらのドキュメントのプルーフを手動で作成する必要があります。
 
 1. ドロップダウンから次のいずれかを選択します。
 
@@ -132,7 +132,7 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 * レビュアーと締め切りをアップデート
 * ワークフローを編集
 
-既存のプルーフの管理方法について詳しくは、[Adobe Workfront内のプルーフの管理：記事インデックス &#x200B;](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)を参照してください。
+既存のプルーフの管理方法について詳しくは、[Adobe Workfront内のプルーフの管理：記事インデックス ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)を参照してください。
 
 ## プルーフのレビュー
 
@@ -143,4 +143,4 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 * バージョンの比較
 * プルーフの承認または却下
 
-プルーフツールで実行できる操作について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+プルーフツールで実行できる操作について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
