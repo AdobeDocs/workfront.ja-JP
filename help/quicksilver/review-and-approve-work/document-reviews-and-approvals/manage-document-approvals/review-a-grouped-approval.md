@@ -65,7 +65,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[ ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
+>マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
 1. Adobe Workfrontの左上隅にある&#x200B;**ホーム** アイコンをクリックし、**自分の承認** ウィジェットを見つけます。
 
@@ -98,7 +98,7 @@ Frame.io ビューアでは、グループ内のすべてのドキュメント�
    * **承認済み**: ドキュメントは変更が必要なく、使用する準備ができています。
    * **作業が必要**：文書は変更が必要で、使用する準備ができていません。
 
-   決定の詳細については、[ ドキュメント決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
+   決定の詳細については、[&#x200B; ドキュメント決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
    ![frame.io ビューア グループ化された承認](assets/frame-group-approval.png)
 
