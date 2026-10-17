@@ -1,5 +1,5 @@
 ---
-title: アイデア立案スペースの概要からプランニングレコードを作成
+title: アイデア立案スペースの概要からプランニングレコードを作成または編集
 description: Adobe Workfront Planningの新しい機能であるアイデア創出スペースを使用すると、ブリーフをプランニングレコードに変換できます。 書き出されたブリーフは、新しいレコードを作成したり、既存のレコードを更新したりできます。 この記事では、アイデア創出スペースを使用して、既存のプランニングレコードを作成または編集する方法について説明します。
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 4%
 ---
 
-# アイデア立案スペースの概要からプランニングレコードを作成
+# アイデア立案スペースの概要からプランニングレコードを作成または編集
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
-または
-<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -120,13 +124,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 +++   
 
-## アイデア創出スペースを使用したレコード作成に関する考慮事項
+## アイデア立案スペースを使用してプランニングレコードを作成または編集する場合の考慮事項
 
-* アイデア創出スペースは、レコードを作成または編集する際に、Workfront計画またはWorkfrontのメインメニューからのみ起動できます。 アイデア創出スペースは、Workfront以外には存在しません。
-* アイデア創出スペースにアクセスするには、Workfront Planningにワークスペースとレコードタイプが必要です。
+* プランニングレコードを作成または編集するには、Workfront計画からアイデア創出スペースを起動する必要があります。 Workfrontのメインメニューからアイデア創出スペースにアクセスしても、アイデア創出の概要がプランニングレコードに関連付けられることはありません。
+* アイデア創出スペースを使用してレコードを作成または編集するには、Workfront Planningにワークスペースとレコードタイプが必要です。
 * 新しいレコードは、作成方法に関係なく、常にプレースホルダーコンテンツから開始されます。
-* アイデア概要にリンクされたプランニングレコードを削除すると、アイデア概要はアイデア作成スペースに残り、アイデア作成スペース内の関連するキャンバスは削除されません。
-* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。
+* アイデアの概要にリンクされているプランニングレコードを削除すると、アイデアの概要はアイデアのスペースに残り、関連するスペースは削除されません。
+* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。<!--this might change?-->
 * Workfront Planningでフィールドを作成、編集または削除する場合、次のシナリオが存在します。
 
   * アイデア立案ブリーフにリンクされたレコードに作成された新しいフィールドは、毎日ブリーフに追加されます。 新しいフィールドは、アイデアの概要では空で表示されます。
@@ -134,7 +138,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   * 名前を変更したフィールドは、ブリーフ内の名前を更新します。
 * アイデア出しスペースでは、ドキュメントをカードとして追加できます。 これには画像も含まれます。
 
-  サポートされているファイル形式は、PDF、Excel、CSV、PNG （およびその他の画像形式）、Word、PowerPointです。 ビデオはサポートされていません。
+  PDF、Excel、CSV、PNG （およびその他の画像形式）、Word、PowerPointなどのファイル形式を追加できます。 ビデオはサポートされていません。
 
   アップロードされたすべてのドキュメントは、バックエンドのPDFに変換され、処理されます。
 * レコードをWorkfront Planningから直接スペースにドラッグ&amp;ドロップすることができ、手動でアップロードしたファイルと同じように表示されます。
@@ -154,54 +158,44 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
 
-   アイデア創出スペースが新しいタブで開き、空のプロンプトが表示されます。
+   アイデア創出スペースが新しいタブで開きます。
 
-   レコードは、プレースホルダーテキストを使用してすぐに作成されます。
+   右側のパネルにCX Coworkerが開きます。
 
-1. （オプション）プロンプトボックスの「**既存の概要を使用**」をクリックして、アイデア創出スペースで概要と今後のレコードの作成に使用する既存の文書を参照して追加します。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   レコードはすぐにプレースホルダー名で作成されます。
 
-   ![&#x200B; アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. （オプション）プロンプトボックスの右上隅にある「**前のキャンバスを開く** <!--accurate??-->」アイコン「![既存のブリーフを開く](assets/open-existing-briefs-icon.png)」をクリックして、既存のブリーフを開きます
-
-1. **で何に取り組んでいますか？** プロンプトボックスに入力し、作成するレコードの種類を指定します。
+1. **CX Coworker** ダイアログボックスにプロンプトを追加し、Enter キーを押します。
 
    共有する詳細情報が多ければ多いほど、アイデア創出スペースから提供される情報がより有用になります。 例えば、計画しているキャンペーンの説明を「マーケティングエージェンシーの学校戻りキャンペーン」と入力します。
 
-1. 「**アイデア出しを開始**」をクリックします。
+1. 記事[&#x200B; アイデア創出スペースでブリーフを作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)の説明に従って、アイデア創出ブリーフの作成を続行します。
 
-   アイデア創出スペースは、アイデアを作成する間、次の手順を実行します：<!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. 目標とコンテクストの把握
-   2. スペースと選択したマテリアルのレビュー
-   3. ドキュメント、web、データから証拠を収集します
-   4. 調査結果を調査サマリーに合成
-   5. 引用を使用したカードの作成と調整
-
-   このプロセスでは、接続されたWorkfront Planning データまたはweb上で利用可能な情報をアクティブに検索するアイデア創出スペースが表示されます。
-
-   例えば、既存のプログラム、製品、ペルソナ、地域だけでなく、オンラインで利用可能な類似の概念を検索できます。<!--check on this with Et-->
-
-   アイデア創出が完了すると、アイデア創出スペースに次のものが追加されます。
-
-   * 考慮すべき事項に関する詳細な情報が記載された、複数のカードにリンクされたAI調査結果の概要。 詳細カードが新しいセクションに表示されます。 コネクタは、どのカードセクションがどのサマリーに属するかを示します。
-
-   * アイデア創出スペースの左下隅にある&#x200B;**概要** ファイル。 概要は、今後のレコードのドラフトであり、レコードの詳細ページとして表示されます。
-
-   ![分岐を含むアイデア創出カード &#x200B;](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. アイデア創出スペースに引き続き情報を追加して、ブリーフの作成を完了します。
-
-1. （条件付き）概要が完了したら、左下隅にあるプレビュー画像をクリックし、次のいずれかをクリックします。
-
-   * **ファイルに書き出し**：ファイルを作成
-   * **Workfront Planning**&#x200B;に書き出して、プランニング レコードを作成します
-
-   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[&#x200B; アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
+1. （条件付き）概要が完了したら、左下隅にあるプレビュー画像をクリックし、**Workfront計画に書き出し**&#x200B;をクリックして、計画レコードを作成します。
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
-## アイデア立案スペースでの既存レコードの編集
+## アイデア立案スペースを使用した既存レコードの編集
 
 既存のレコードからアイデア創出スペースを開いて更新できます。
 
@@ -209,7 +203,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. Workfront Planningの既存のレコードに移動し、その詳細ページを開きます。
 
-1. 「**アイデア創出スペースで開く**」をクリックします。 これにより、新しいタブでアイデア創出スペースが開きます。
+1. 「**アイデア創出スペースで開く** ![](assets/open-in-ideation-space.png)」をクリックします。 これにより、新しいタブでアイデア創出スペースが開きます。
 
    レコードのアイデアが既に存在する場合、そのスペースが開きます。
 
@@ -217,19 +211,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!TIP]
    >
-   >アイデア立案スペースを使用したレコードの一括編集は使用できません。
+   >アイデア出しスペースを使用してレコードを一括編集することはできません。
+1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
-
-
-
-
 
 
 <!--

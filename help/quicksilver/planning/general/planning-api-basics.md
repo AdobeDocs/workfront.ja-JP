@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 4%
 ---
 # Adobe Workfront Planning API の基本
@@ -67,9 +67,7 @@ Workfront Planning APIは、認証にOAuth 2.0を使用します。 資格情報
 
 初めに、Adobe Developer Consoleでプロジェクトを作成し、Workfront Planning APIを追加して資格情報を取得します。
 
-資格情報を設定するには、WorkfrontでOAuth2 アプリケーションを作成します。
-
-詳しくは、[Workfront統合用のOAuth2 アプリケーションの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
 
 >[!NOTE]
 >
@@ -458,7 +456,7 @@ API関連の詳細なドキュメントについては、次の記事も参照�
 * [Workfront Planning API](https://developer.adobe.com/wf-planning)開発者向けドキュメントとリファレンス
 * [Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)
-* [Workfront 統合用の OAuth2 アプリケーションの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 

@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 76%
@@ -146,3 +146,4 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
    または
 
    カスタマイズが完了したら、**保存して閉じる**&#x200B;をクリックします。
+

@@ -5,15 +5,15 @@ title: グループ化された承認の作成
 description: 複数のドキュメントを1つの承認ワークフローにバンドルして、同じステージを進めるようにすることができます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1186'
 ht-degree: 3%
 ---
 
 # グループ化された承認の作成
 
-<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月14日と15日に実稼動環境で利用できるようになります。</span>
+<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月22日（PT）に実稼動環境で使用できるようになります。</span>
 
 グループ化された承認では、単一の承認ワークフローの下に複数のドキュメントがバンドルされます。 単一ドキュメントの承認と同様に、グループ化された承認では、基本モードと詳細モード、複数ステージ、および並行パスを使用できます。
 

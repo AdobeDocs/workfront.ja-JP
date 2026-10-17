@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '14687'
+source-wordcount: '14694'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -1195,6 +1195,7 @@ ht-degree: 91%
   * Adobe Workfront への新規ドキュメントの追加 {#add-new-documents-to-workfront}
     * [Adobe Workfront への新規ドキュメントの追加](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
     * [ファイルシステムから Adobe Workfront へのドキュメントの追加](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+    * [Web リンクをドキュメントとして追加](documents/adding-documents-to-workfront/add-live-url.md)
     * [外部アプリケーションからドキュメントをリンク](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
     * [Adobe Workfront と外部ドキュメントストレージプロバイダー間のリンクを削除する](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
     * [ドキュメントをリクエスト](documents/adding-documents-to-workfront/request-a-document.md)

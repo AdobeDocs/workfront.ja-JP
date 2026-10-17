@@ -5,13 +5,15 @@ title: グループ化された承認の管理
 description: グループの残りのワークフローを中断することなく、グループ化された承認で参加者とドキュメントを追加または削除できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1062'
 ht-degree: 5%
 ---
 
 # グループ化された承認の管理
+
+<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月22日（PT）に実稼動環境で使用できるようになります。</span>
 
 グループ化された承認では、複数のドキュメントが単一の承認ワークフローにバンドルされるため、すべてのドキュメントが同じステージを通過し、ドキュメントごとに個別の承認が必要になりません。 ワークフローを再作成しなくても、アクティブなグループ化された承認内の参加者とドキュメントを追加または削除できます。
 

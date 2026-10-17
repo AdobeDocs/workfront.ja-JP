@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 89%
+source-wordcount: '519'
+ht-degree: 87%
 ---
 # タイムシートの概要
 
@@ -71,19 +71,19 @@ Workfront で時間を記録する方法について詳しくは、[時間を記
 
 {{step1-to-timesheets}}
 
-自分のすべてのタイムシートと、デフォルトで表示する権限のあるタイムシート。 Adobe Workfront のタイムシートレイアウトについて詳しくは、[タイムシートレイアウトの概要](../../timesheets/timesheets/timesheet-layout.md)を参照してください。
+すべてのタイムシートとアクセス権のあるタイムシートは、デフォルトで表示されます。 Adobe Workfront のタイムシートレイアウトについて詳しくは、[タイムシートレイアウトの概要](../../timesheets/timesheets/timesheet-layout.md)を参照してください。
 
-![すべてのタイムシート リスト &#x200B;](assets/all-timesheets-list-nwe-350x68.png)
+![すべてのタイムシート リスト &#x200B;](assets/list-of-all-timesheets.png)
 
 1. 右上隅の次のオプションのいずれかをクリックして、タイムシートを表示します。
 
    * 「**マイタイムシート**」をクリックして、自分のタイムシートのみを表示します。
 
-   ![自分のタイムシート リスト &#x200B;](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * 「**マイタイムシート承認**」をクリックして、自分が承認するタイムシートのみを表示します。
 
-     ![&#x200B; タイムシートはリストを承認します](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. （オプション）タイムシートのリストの上部にあるビュー、フィルターおよびグループを更新します。 詳しくは、[レポート要素：フィルター、ビュー、グループ化](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)を参照してください。

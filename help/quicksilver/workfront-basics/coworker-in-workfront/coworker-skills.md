@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 7%
+source-wordcount: '270'
+ht-degree: 6%
 ---
 # CX Enterprise CoworkerでのWorkfrontのスキル
 
@@ -59,6 +59,9 @@ ht-degree: 7%
 * フィールド
 * ビュー
 * レコード
+<!--
+* Business rules
+-->
 
 ### Workfront オブジェクトの管理
 
@@ -75,13 +78,12 @@ ht-degree: 7%
 
 名前：`query-workfront-data`
 
-このスキルは、次のようなWorkfront オブジェクトに関する検索、リスト、レポートを行います。
+このスキルは、Workfront オブジェクトに関する検索、リスト、レポートを行います。 以下は、そのようなWorkfront オブジェクトの例ですが、一覧は完成していません。
 
 * プロジェクト
 * タスク
 * イシュー
 * ユーザー
 * ポートフォリオ
-* その他
 
 

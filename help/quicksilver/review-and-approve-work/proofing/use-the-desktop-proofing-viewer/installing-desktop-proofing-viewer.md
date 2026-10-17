@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 95%
+source-wordcount: '574'
+ht-degree: 96%
 ---
 # デスクトッププルーフビューアのインストール
 
@@ -79,7 +79,7 @@ Adobe Workfront 管理者または Workfront Proof 管理者がワークステ�
 1. アプリをダウンロードするには、次のいずれかを行います。
 
    * 本番環境を使用している場合は、「[デスクトッププルーフビューアの Mac 本番環境用ダウンロードファイル](https://app.proofhq.com/desktopviewer/mac)」をクリックします。
-   * プレビュー環境を使用している場合は、「[デスクトッププルーフビューアの Mac プレビュー環境用ダウンロードファイル](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)」をクリックします。
+   * プレビュー環境を使用している場合は、「[デスクトッププルーフビューアの Mac プレビュー環境用ダウンロードファイル](https://app.preview.proofhq.com/desktopviewer/mac)」をクリックします。
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、「**続行**」をクリックし、次に「**インストール**」をクリックします。

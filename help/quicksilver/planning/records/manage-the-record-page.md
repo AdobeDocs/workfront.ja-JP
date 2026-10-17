@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1791'
 ht-degree: 6%
 ---
 # レコードページのレイアウトの管理
@@ -273,6 +273,11 @@ Old:
    セクションとフィールドの順序に対するすべての変更は自動的に保存されます。
 
 1. （オプション）レコードの詳細ページ ![&#128279;](assets/export-icon-in-record-details-page.png)の&#x200B;**書き出し** メニュー書き出しアイコンをクリックして、「詳細」タブをWordまたはPDF ファイルに書き出します。 詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
+
+   >[!TIP]
+   >
+   >フィールドが非表示になっているカスタム詳細ページでは、書き出しは使用できません。
+
 
 1. （オプション）「**詳細**」タブの横にある「**接続**」タブをクリックします。 「**接続**」タブをクリックする前に、**詳細**&#x200B;をクリックする必要がある場合があります。
 

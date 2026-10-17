@@ -30,21 +30,21 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 70%
+source-wordcount: '3436'
+ht-degree: 67%
 ---
 # 作業の更新
 
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## コメントをピン留めする
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+トップレベルのコメントは、「コメント」タブの上部に固定できます。 スレッドの一部である返信はピン留めできません。
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. コメントのピン留めをサポートするオブジェクトに移動し、左側のパネルで「更新」をクリックしてから、「**コメント**」タブをクリックします。
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   詳しくは、[更新タブの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. コメントを追加するか、既存のコメントから、コメントの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**スレッドをピン留め**&#x200B;をクリックします。 コメントと既存の返信は、「コメント」タブの上部にピン留めされます。
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   新しい&#x200B;**ピン留めされたスレッド** セクションが&#x200B;**コメント** タブの上部に作成されます。
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   ピン留めされたスレッドの数は、セクション名の右側の括弧内に表示されます。
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   コメント セクション ![&#128279;](assets/pin-thread-comments-areas-and-link.png)の ピン留めされたスレッド
+
+1. （オプション）スレッドのピン留めを解除するには、ピン留めされたコメントの右上隅にある&#x200B;**ピン留めを解除** アイコン ![&#x200B; ピン留めを解除アイコン &#x200B;](assets/unpin-icon-comments.png)をクリックします。
 
 </div>
 
--->
+
 
 ## コメントまたは返信の削除
 

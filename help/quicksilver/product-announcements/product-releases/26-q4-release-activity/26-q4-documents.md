@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 419333f9f33ff06ed2ef4a8450f058ab74198587
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 3%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >プレビュー：Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。
->プロダクション高速リリース：2026年10月15日（PT）
->すべての人のための制作：2026年10月15日
+>プロダクション高速リリース：2026年10月22日（PT）
+>すべての人のための制作：2026年10月22日
 
 1つの承認ワークフローで複数のドキュメントをグループ化して、同じステージを進めることができるようになりました。
 

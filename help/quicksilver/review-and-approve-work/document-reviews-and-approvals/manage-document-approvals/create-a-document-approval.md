@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 4%
+source-wordcount: '2881'
+ht-degree: 3%
 ---
 # ドキュメント承認ワークフローの作成
 
 {{highlighted-preview}}
 
-Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
+Adobe Workfrontでは、他のユーザーやチームから、ドキュメントやライブ web サイトの承認を依頼したり、承認を必要とせずにレビューを依頼したりできます。
 
 デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[&#x200B; テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
 
@@ -359,6 +359,7 @@ preview screen
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
 
 1. 「**承認を依頼**」をクリックします。
+
 
 <div class="preview">
 

@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2033'
 ht-degree: 93%
 ---
 # [!DNL Workfront] 統合用の OAuth2 アプリケーションを作成する
@@ -51,7 +51,7 @@ ht-degree: 93%
 >   * 2026年11月1日：新しいカスタム OAuth2 アプリケーションを作成できなくなります。
 >   * 2027年2月1日：既存のカスタム OAuth2 アプリケーションが機能しなくなります。
 >
->   詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
+>   詳しくは、[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)および[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
 >
 >* OAuth2 のコンテキストでは、「アプリの作成」とは、アプリと [!DNL Workfront] などのサーバーとの間にこの種のアクセスリンクを作成するプロセスを指します。
 

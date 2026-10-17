@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 10%
 ---
 # レコードの詳細の書き出し
@@ -167,6 +167,8 @@ Old:
 * レコードのページまたはプレビュー領域の「詳細」タブのみを書き出すことができます。
 
 * 書き出されたファイルは、サムネールとカバー画像を含むレコードページのレイアウトを保持します。
+
+* 複数のフィールドが非表示になっているカスタマイズされた詳細ページを書き出すことはできません。
 
 ## レコードの詳細の書き出し
 

@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 3%
 ---
 # AI共同作業者の設定
@@ -160,7 +160,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 1. **共同作業者が作業を完了した後、共同作業者が実行するアクションを切り替える**&#x200B;領域を選択できます。
 
    * <span class="preview">通知を送信：エージェントは、更新ストリームにコメントを作成し、作業を要求したユーザー、エージェントを割り当てたユーザー、またはプロジェクトを所有するユーザーをタグ付けします。</span>
-   * <span class="preview"> ドキュメントをアップロード </span>
+   * <span class="preview"> テキストベースのドキュメントをアップロード </span>
    * <span class="preview"> タスク完了をマーク </span>
    * タスクフィールドの書き込み：エージェントが書き込むことができるフォームとフィールドを選択します。
 

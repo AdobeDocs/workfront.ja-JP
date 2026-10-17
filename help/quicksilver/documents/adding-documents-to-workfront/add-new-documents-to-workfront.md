@@ -21,16 +21,17 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 70%
+source-wordcount: '62'
+ht-degree: 62%
 ---
 # Adobe Workfrontに新しいドキュメントを追加：記事インデックス
 
 この節では、次の記事を扱います。
 
 * [ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [Web リンクをドキュメントとして追加](../../documents/adding-documents-to-workfront/add-live-url.md)
 * [外部アプリケーションからのドキュメントのリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 * [Adobe Workfront と外部ドキュメントストレージプロバイダー間のリンクの削除](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [ドキュメントをリクエスト](../../documents/adding-documents-to-workfront/request-a-document.md)

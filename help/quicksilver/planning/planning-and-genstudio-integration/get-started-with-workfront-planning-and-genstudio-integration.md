@@ -29,23 +29,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2621'
 ht-degree: 3%
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -351,7 +339,6 @@ Some commented out information here comes from glean
 
 * Workfront Planningからアクティベーションレコードを作成することはできません。
 
-
 * GenStudio プロジェクトは、1:1をWorkfront計画ワークスペースにマッピングします。アクティベーションは、そのワークスペースに保存され、そのワークスペースから参照されます。
 
 * 表示とアクションは、GenStudio プロジェクトとワークスペースへのアクセス権によって異なります。
@@ -360,18 +347,11 @@ Some commented out information here comes from glean
 
 * GenStudioからアクティベートすると、アクティベーションの詳細がWorkfront Planningに記録され、追跡されます。 GenStudioとAdobe Planningは、共有レコード（キャンペーン、製品、ペルソナ、アクティベーションなど）を連携させることができます。
 
-<!--
+* アクティベーションレコードには、次のものが含まれます。
 
-<div class="preview">
+  * トラッキング ID数式の各セグメントの解決済み値とエラーを格納するトラッキング ID フィールド。
+  * トラッキング IDの生成が進行中であることを示す「生成」ステータスの選択。 生成が終了または失敗すると、アクティベーションステータスは「ドラフト」に戻ります。 既存のアクティベーションは影響を受けません。
 
-* Activations records include the following:
-
-    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
-    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
-
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

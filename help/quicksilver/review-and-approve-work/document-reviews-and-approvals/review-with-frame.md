@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 9%
+source-wordcount: '903'
+ht-degree: 6%
 ---
 # Frame.io ビューアでのレビューと承認
 
@@ -82,6 +82,8 @@ WorkfrontとのFrame.io統合について詳しくは、[統一レビューと�
 ## 前提条件
 
 * Workfront インスタンスでWorkfrontとFrame.ioの連携を設定している必要があります。 詳しくは、[統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)を参照してください。
+* Web リンクドキュメントを確認するには、[Frame.io Chrome拡張機能](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)がインストールされている必要があります。 インストールされていない場合は、WorkfrontでWeb リンクドキュメントのFrame.io ビューアを初めて開いたときに、ダウンロードを求めるメッセージが表示されます。
+
 
 ## ドキュメントのレビュー
 
@@ -117,7 +119,6 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
    > 
    >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
-
 1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。 コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 
    >[!NOTE]
@@ -136,6 +137,27 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
 
    ![&#x200B; フレームビューアーと決定](assets/make-decision-frame.png)
 
+## Web リンクのレビュー
 
+ドキュメントがライブ web URLの場合は、Frame.io ビューアでページを確認し、ページに直接フィードバックを残すことができます。
 
-<!--is document owner the correct term?-->
+1. レビューメール通知に移動し、**レビューに移動**&#x200B;をクリックします。
+または
+Workfrontのホームページに移動し、「自分の承認」ウィジェットを見つけて、**レビューを開く**&#x200B;をクリックします。
+
+   >[!NOTE]
+   > 
+   >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
+
+1. Frame.ioでweb リンクドキュメントを開きます。 プロンプトが表示されたら、[Frame.io Chrome拡張機能](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)をインストールして、ページを表示し、URLの現在のステータスを取得します。
+
+1. ビューアを使用して、コメントや注釈などをページ上に直接追加できます。
+
+1. Web リンクドキュメントのレビューが完了したら、Frame.io ビューアで次のいずれかの決定を選択できます。
+
+   * **承認**: アセットは変更を必要とせず、使用する準備ができています。
+   * **作業が必要**: アセットは変更が必要で、使用する準備ができていません。 指定した変更が行われたら、アセットを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 詳しくは、[新しいドキュメントのバージョンをアップロードして承認をリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。<!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   決定を下すと、ドキュメント所有者にメールで通知されます。
+
+サポートされているURL、ブラウザー拡張機能の要件、コメントオプションなど、ライブ web URLの表示とレビューについて詳しくは、[Frame.ioのHTML レビュー](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)を参照してください。
