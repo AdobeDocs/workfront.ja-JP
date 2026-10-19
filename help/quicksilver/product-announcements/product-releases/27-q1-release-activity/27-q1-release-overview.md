@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 58f437f05fd68d14ac96dae0449d8e67db816406
+source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 50%
+source-wordcount: '322'
+ht-degree: 52%
 ---
 
 # 2027年第1四半期リリースの概要
@@ -57,8 +57,8 @@ ht-degree: 50%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
