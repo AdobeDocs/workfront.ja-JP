@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 5%
 ---
 
@@ -134,7 +134,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_id_by_name`を使用してください。 このツールは、システム全体で名前の一部が一致するWorkfront プロジェクトを検索しました。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_workfront_data`を使用してください。 このツールには、呼び出し元ユーザーがオーナーであるWorkfront プロジェクトが一覧表示されます。 | 読み取り |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得[&#128279;](#insights-tools)」を参照してください。 | 読み取り |
+| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得](#insights-tools)」を参照してください。[ | 読み取り |
 | 名前でユーザーを検索 | `approvals_find_user_by_name` | 非推奨（廃止予定）: 代わりに`insights_search_users`を使用してください。 このツールは、WorkfrontユーザーのIDを名前（ファジーまたは部分的に一致）で検索し、名前、ID、メール、タイトル、アバターURLを返します。 | 読み取り |
 | 名前でチームを検索 | `approvals_find_team_by_name` | 非推奨（廃止予定）: 代わりに`insights_find_id_by_name`を使用してください。 このツールは、Workfront チームのIDを名前（ファジーまたは部分一致）で検索しました。 | 読み取り |
 | プロジェクトの検索 | `approvals_find_projects` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、Workfront プロジェクトを検索し、オプションで名前でフィルタリングしたり、呼び出し元ユーザーが所有するプロジェクトに限定したりしました。 | 読み取り |
@@ -235,11 +235,11 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
-| オブジェクトを検索 | `workflow_search_any_object` | 柔軟なフィルターパラメーター、順序付け、ページネーションを使用して、Workfront オブジェクトを検索します。 | 読み取り |
+| オブジェクトを検索 | `workflow_search_any_object` | このツールは非推奨（廃止予定）です。 | 読み取り |
 | オブジェクトを作成 | `workflow_create_any_object` | プロジェクト、タスク、イシュー、時間、割り当て、プログラム、ポートフォリオなどの新しいWorkfront オブジェクトを作成します。 | 編集 |
 | オブジェクトを更新 | `workflow_update_any_object` | 既存のオブジェクトのフィールドを更新します。 また、タスクまたはイシューを別のプロジェクトに移動したり、タスクまたはイシューを新しいプロジェクト（またはイシューをタスクに変換）に変換したり、タスク先行者（依存関係）を設定したりすることもできます。 | 編集 |
 | オブジェクトを削除 | `workflow_delete_any_object` | IDでWorkfront オブジェクトを削除します。 アクションを実行する前に、明示的なユーザー確認が必要です。 | 編集 |
-| フィールド名を解決 | `workflow_resolve_field_names_any_object` | ユーザーが提供したフィールド名またはラベルを、基礎となるWorkfront API フィールド名に変換します。これにより、AI エージェント基盤は正確なリクエストを構築できます。 | 読み取り |
+| フィールド名を解決 | `workflow_resolve_field_names_any_object` | このツールは非推奨（廃止予定）です。 | 読み取り |
 | ワークフロードキュメントを読む | `workflow_read_workflow_docs` | ツール使用ガイドやオブジェクト固有の操作プレイブックなど、Workfront Workflow ドキュメントを読み込みます。 これは、ワークフローアクションを実行する前に必要な最初の手順です。 | 読み取り |
 
 ### オブジェクトツール機能の更新
