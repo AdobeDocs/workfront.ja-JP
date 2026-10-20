@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 90%
+source-wordcount: '48'
+ht-degree: 93%
 ---
 # Adobe Workfront の管理
 
 このセクションには、次のサブセクションが含まれます。
 
-* [Workfrontでのイベントサブスクリプションの設定](../../administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+* [イベントサブスクリプションの管理](../../administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
 * [プルーフ機能の設定](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
 * [レポートの設定](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [メール](../../administration-and-setup/manage-workfront/emails/emails.md)

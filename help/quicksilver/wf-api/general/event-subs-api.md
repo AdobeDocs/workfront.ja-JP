@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 88%
+source-wordcount: '3623'
+ht-degree: 85%
 ---
 # Event Subscription API
 
@@ -45,7 +45,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Workfront アプリケーション内でイベントサブスクリプションを操作するには、[Workfrontでのイベントサブスクリプションの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)を参照してください。
+>Workfront アプリケーション内でイベントサブスクリプションを操作するには、[Workfrontでのイベントサブスクリプションの設定](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)および[管理者以外のユーザーとしてイベントサブスクリプションを管理](/help/quicksilver/wf-api/general/event-subs-non-admin.md)を参照してください。
 
 ファイアウォール経由でイベント登録ペイロードを受け取るには、次の IP アドレスを許可リストに追加する必要があります。
 
@@ -118,12 +118,14 @@ ht-degree: 88%
 
 ## イベント登録の認証
 
-イベント登録を作成、クエリ、削除するには、Workfront ユーザーが次の条件を満たす必要があります。
+イベントサブスクリプションを作成、照会、または削除するには、Workfront ユーザーがイベントサブスクリプション機能に必要なアクセス権と、実行するアクションに対する適切な権限を持っている必要があります。
 
-* イベント登録を使用するには、「システム管理者」のアクセスレベルが必要です。
-* イベント登録 API を使用するには `sessionID` ヘッダーが必要です
+* 必要なアクセス権を持つユーザーは、Workfrontでイベントサブスクリプションを管理できますが、権限とシステム設定で許可されている範囲内でのみ管理できます。
+* Event Subscriptions APIを使用するには、`sessionID` ヘッダーが必要です。
 
   詳しくは、[API の基本](api-basics.md)の[認証](api-basics.md#authentication)を参照してください。
+
+Workfront管理者ではない場合にWorkfront アプリケーションでイベントサブスクリプションを管理する方法については、[管理者以外のユーザーとしてイベントサブスクリプションを管理](/help/quicksilver/wf-api/general/event-subs-non-admin.md)を参照してください。
 
 ## イベント登録の過負荷の回避
 
