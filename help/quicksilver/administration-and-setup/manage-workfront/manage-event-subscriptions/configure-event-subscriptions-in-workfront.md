@@ -24,7 +24,7 @@ Workfrontでイベントサブスクリプションを作成および削除す�
 
 必要なアクセス権を持つユーザーは、Workfrontでイベントサブスクリプションを管理できる場合がありますが、その管理は、権限とシステム設定で許可されている範囲内でのみ行うことができます。 詳しくは、[管理者以外のユーザーとしてイベントサブスクリプションを管理](/help/quicksilver/wf-api/general/event-subs-non-admin.md)を参照してください。
 
-イベントのサブスクリプションについて詳しくは、[ イベントのサブスクリプション ](/help/quicksilver/wf-api/api/event-subscriptions.md)の記事を参照してください。
+イベントのサブスクリプションについて詳しくは、[&#x200B; イベントのサブスクリプション &#x200B;](/help/quicksilver/wf-api/api/event-subscriptions.md)の記事を参照してください。
 
 ## アクセス要件
 
@@ -73,7 +73,7 @@ Workfrontでイベントサブスクリプションを作成および削除す�
 1. 必要に応じて、1つ以上のフィルターを追加して、サブスクリプションをトリガーするイベントを制限します。 使用可能なフィルターは、選択したオブジェクトに基づいています。
 1. 「**作成**」をクリックします。
 
-エンドポイントの要件について詳しくは、[ イベント サブスクリプション配信の要件](/help/quicksilver/wf-api/general/setup-event-sub-endpoint.md)を参照してください。
+エンドポイントの要件について詳しくは、[&#x200B; イベント サブスクリプション配信の要件](/help/quicksilver/wf-api/general/setup-event-sub-endpoint.md)を参照してください。
 
 ## イベント購読の表示
 

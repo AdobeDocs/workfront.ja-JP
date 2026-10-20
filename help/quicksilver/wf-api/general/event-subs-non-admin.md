@@ -22,7 +22,7 @@ Workfront アクセスで許可されている場合は、設定領域からイ�
 
 管理者が管理する設定については、[Workfrontでのイベントサブスクリプションの設定](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)を参照してください。
 
-イベント購読APIについて詳しくは、[ イベント購読API](/help/quicksilver/wf-api/general/event-subs-api.md)を参照してください。
+イベント購読APIについて詳しくは、[&#x200B; イベント購読API](/help/quicksilver/wf-api/general/event-subs-api.md)を参照してください。
 
 >[!NOTE]
 >
