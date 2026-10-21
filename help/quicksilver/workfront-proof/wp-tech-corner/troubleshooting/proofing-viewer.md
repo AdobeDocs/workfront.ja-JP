@@ -52,7 +52,7 @@ ht-degree: 100%
 <!--
 ### [!DNL Flash Player] Plugin Version
 
-To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/software/flash/about/).
+To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/jp/software/flash/about/).
 
 ![ProofView_2.png](assets/proofview-2-350x199.png)
 

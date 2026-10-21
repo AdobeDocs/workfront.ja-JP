@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '14694'
+source-wordcount: '14700'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -697,7 +697,9 @@ ht-degree: 91%
       * [カスタム条件の削除](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Adobe Workfront の管理 {#manage-wf}
     * [Workfront の管理](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [Workfrontでのイベントサブスクリプションの設定](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * イベントサブスクリプションの管理 {#manage-event-subscriptions}
+      * [イベントサブスクリプションの管理](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [Workfrontでのイベントサブスクリプションの設定](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * プルーフ機能の設定 {#configure-proofing}
       * [プルーフの設定](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [プルーフ設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 5%
 ---
 
@@ -235,11 +235,11 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
-| オブジェクトを検索 | `workflow_search_any_object` | 柔軟なフィルターパラメーター、順序付け、ページネーションを使用して、Workfront オブジェクトを検索します。 | 読み取り |
+| オブジェクトを検索 | `workflow_search_any_object` | このツールは非推奨（廃止予定）です。 | 読み取り |
 | オブジェクトを作成 | `workflow_create_any_object` | プロジェクト、タスク、イシュー、時間、割り当て、プログラム、ポートフォリオなどの新しいWorkfront オブジェクトを作成します。 | 編集 |
 | オブジェクトを更新 | `workflow_update_any_object` | 既存のオブジェクトのフィールドを更新します。 また、タスクまたはイシューを別のプロジェクトに移動したり、タスクまたはイシューを新しいプロジェクト（またはイシューをタスクに変換）に変換したり、タスク先行者（依存関係）を設定したりすることもできます。 | 編集 |
 | オブジェクトを削除 | `workflow_delete_any_object` | IDでWorkfront オブジェクトを削除します。 アクションを実行する前に、明示的なユーザー確認が必要です。 | 編集 |
-| フィールド名を解決 | `workflow_resolve_field_names_any_object` | ユーザーが提供したフィールド名またはラベルを、基礎となるWorkfront API フィールド名に変換します。これにより、AI エージェント基盤は正確なリクエストを構築できます。 | 読み取り |
+| フィールド名を解決 | `workflow_resolve_field_names_any_object` | このツールは非推奨（廃止予定）です。 | 読み取り |
 | ワークフロードキュメントを読む | `workflow_read_workflow_docs` | ツール使用ガイドやオブジェクト固有の操作プレイブックなど、Workfront Workflow ドキュメントを読み込みます。 これは、ワークフローアクションを実行する前に必要な最初の手順です。 | 読み取り |
 
 ### オブジェクトツール機能の更新

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3622'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -780,6 +780,15 @@ ht-degree: 8%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">管理者以外のユーザーがイベント サブスクリプションを作成できるようになりました<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>ターゲットサブスクリプションとIMS ユーザーアクセストークンを使用して、システム管理者のアクセス権がなくても、サポート対象のWorkfront オブジェクトに関するWebhook通知を受け取れるようになりました。</p>
+            </td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
+            <td><p>2026年10月16日（PT）</p></td>
         </tr>
         <tr>
             <td>

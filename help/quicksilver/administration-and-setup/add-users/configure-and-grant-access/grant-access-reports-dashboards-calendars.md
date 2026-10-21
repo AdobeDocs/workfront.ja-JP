@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 98%
+source-wordcount: '587'
+ht-degree: 97%
 ---
 # レポート、ダッシュボード、カレンダーへのアクセスを許可
 
@@ -80,12 +80,15 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、レポー�
 
    * **作成**
    * **削除**
-   * **ビルトインのレポートの表示**：Workfront が作成したレポートを表示するには、このオプションを選択する必要があります。
    * **共有**
+
+   デフォルトで有効になっていないオプションは次のとおりです。
+
+   * **ビルトインのレポートの表示**：Workfront が作成したレポートを表示するには、このオプションを選択する必要があります。
    * **レポートをパブリックにして共有**：レポートへの公開リンクを Workfront アカウントを持たないユーザーと共有することで、レポートを公開できます。 このレベルの共有を許可するには、このオプションを選択する必要があります。
    * **システム全体で共有**：レポートは、Workfront ライセンスを持つシステム内のすべてのユーザーと共有できます。 このレベルの共有を許可するには、このオプションを選択する必要があります。
 
-     レポート、ダッシュボード、カレンダーの共有について詳しくは、[レポート、ダッシュボード、カレンダーを共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)を参照してください。
+   レポート、ダッシュボード、カレンダーの共有について詳しくは、[レポート、ダッシュボード、カレンダーを共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)を参照してください。
 
 1. （オプション）作業中のアクセスレベルで他のオブジェクトや他の領域のアクセス権を設定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)のリストに記載されている、[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)や[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)などの記事を参照してください。
 1. 完了したら「**保存**」をクリックします。
