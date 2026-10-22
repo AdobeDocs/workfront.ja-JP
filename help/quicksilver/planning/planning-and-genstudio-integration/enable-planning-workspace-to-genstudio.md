@@ -76,7 +76,7 @@ Workfront Planningに既にワークスペースがある場合は、データ�
 
       すべてのレコードタイプについて、フィールド設定を繰り返します。
 
-      ![ ワークスペース GenStudioを有効にする – フィールド ステップ ](assets/make-workspace-genstudio-enabled-box-fields-step.png)
+      ![&#x200B; ワークスペース GenStudioを有効にする – フィールド ステップ &#x200B;](assets/make-workspace-genstudio-enabled-box-fields-step.png)
 
    1. 警告を確認して対処します。
 
@@ -90,7 +90,7 @@ Workfront Planningに既にワークスペースがある場合は、データ�
 
       GenStudioからアクセスできるようにマッピングされたレコードタイプには、カードに新しい&#x200B;**Adobe** アイコンが追加されています。
 
-      ![Adobe アイコンを含むキャンペーンのレコードタイプ ](assets/campaigns-record-type-card-with-adobe-icon.png)
+      ![Adobe アイコンを含むキャンペーンのレコードタイプ &#x200B;](assets/campaigns-record-type-card-with-adobe-icon.png)
 
 1. GenStudioを開き、「**キャンペーン**」を選択し、画面の左下隅にあるこの設定のために設定した&#x200B;**ACPC プロジェクト**&#x200B;をクリックします。 読み込んだレコードタイプとフィールドを確認します。
 
