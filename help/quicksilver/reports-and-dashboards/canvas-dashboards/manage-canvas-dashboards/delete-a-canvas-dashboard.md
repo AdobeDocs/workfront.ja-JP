@@ -34,8 +34,8 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 
 
 
@@ -86,7 +86,7 @@ Canvas ダッシュボードが不要になったら、Adobe Workfrontから削�
 
 削除する前にダッシュボードを作成する必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## ダッシュボードの削除
 
@@ -101,8 +101,8 @@ Canvas ダッシュボードが不要になったら、Adobe Workfrontから削�
 
 1. **Canvas ダッシュボード** ページで、削除するダッシュボードを選択します。
 
-1. 右上隅で、**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンを選択し、**ダッシュボードを削除**を選択します。
-   ![ ダッシュボードを削除](assets/delete-dashboard.png)
+1. 右上隅で、**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンを選択し、**ダッシュボードを削除**&#x200B;を選択します。
+   ![&#x200B; ダッシュボードを削除](assets/delete-dashboard.png)
 
 1. **ダッシュボードを削除** ダイアログボックスで、「**このダッシュボードを削除することを確認します**」チェックボックスを選択します。
 

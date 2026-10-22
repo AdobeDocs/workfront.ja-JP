@@ -34,13 +34,13 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 
 
 レイアウトテンプレートにカンバスダッシュボードを追加して、ホームランディングページに置き換えたり、オブジェクトの左側のパネルに表示したり、Adobe Workfront全体でトップバーにピン留めしたりできます。
 
-![左パネル ](assets/left-panel.png)
+![左パネル &#x200B;](assets/left-panel.png)
 
 ## アクセス要件
 
@@ -93,7 +93,7 @@ ht-degree: 13%
 
 1. テンプレートの詳細ページで、**ユーザーに表示される内容をカスタマイズ** ドロップダウンで、ダッシュボードを追加するオブジェクトを選択します。
 
-   ![ ユーザーに表示されるドロップダウンのカスタマイズ ](assets/customize-what-users-see.png)
+   ![&#x200B; ユーザーに表示されるドロップダウンのカスタマイズ &#x200B;](assets/customize-what-users-see.png)
 
 1. **左パネル** セクションの一番下までスクロールし、**ダッシュボードを追加**&#x200B;をクリックします。
 

@@ -34,8 +34,8 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 
 
 KPI、表またはグラフのレポートは、作成後にCanvas ダッシュボードで複製できます。 複製したら、必要に応じてレポートを編集して保存できます。
@@ -85,7 +85,7 @@ KPI、表またはグラフのレポートは、作成後にCanvas ダッシュ�
 
 レポートを複製する前に、ダッシュボードにレポートを追加する必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 
 ## レポートのコピーまたは移動
@@ -105,9 +105,9 @@ KPI、表またはグラフのレポートは、作成後にCanvas ダッシュ�
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. レポートを含むダッシュボードを開きます。
-1. レポートの右上隅にある&#x200B;**詳細** ![詳細ボタン ](assets/more-icon.png) アイコンをクリックし、「**レポートをコピー**」を選択します。
+1. レポートの右上隅にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-icon.png) アイコンをクリックし、「**レポートをコピー**」を選択します。
 
-   ![ レポートオプションをコピー](assets/copy-report-button.png)
+   ![&#x200B; レポートオプションをコピー](assets/copy-report-button.png)
 
 1. **レポートをコピー** ダイアログボックスで、次のいずれかのオプションを選択します。
 
@@ -132,5 +132,5 @@ KPI、表またはグラフのレポートは、作成後にCanvas ダッシュ�
 
 1. 「**保存**」をクリックします。
 
-   ![ コピーして移動](assets/copy-and-move.png)
+   ![&#x200B; コピーして移動](assets/copy-and-move.png)
 
