@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 88%
 ---
 # Adobe Admin Console でのユーザー管理
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
    ユーザーは、組織の Workfront パッケージに応じて、要求者またはコントリビューターのアクセスレベルで Workfront に作成されます。
 
-   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
+   Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合は、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
    >[!IMPORTANT]
    >
@@ -261,14 +259,14 @@ Adobe Admin Consoleでのユーザーの一括編集について詳しくは、�
 >* ユーザーがAdmin Console ユーザーグループに属しており、そのユーザーグループの1つ以上に製品プロファイルが追加されている場合、Workfrontからユーザーを非アクティブ化しても、実際には製品から削除されません。 Admin Consoleのユーザーグループからユーザーを削除する必要があります。
 >* Adobe Admin Consoleからユーザーを削除すると、Workfrontではユーザーが無効になりますが、Workfrontからは削除されません。
 
-Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[&#x200B; ディレクトリユーザーの管理](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html)を参照してください。
+Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[ ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/jp/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>

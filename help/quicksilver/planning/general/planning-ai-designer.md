@@ -30,18 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 8%
+source-wordcount: '1610'
+ht-degree: 7%
 ---
 # Adobe Workfront計画Designerの基本を学ぶ
 
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ ht-degree: 8%
 
 AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。
 
-AI アシスタントまたは<span class="preview"> CX Enterprise Coworker</span>を通じて直接使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+Planning Designerは、AI アシスタントまたはCX Enterprise Coworkerを通じて直接使用しても、構造化され、接続された情報を構築および管理するための柔軟で強力な環境を提供します。
 
 Workfront Planningについて詳しくは、次の記事を参照してください。
 
@@ -111,7 +115,7 @@ PlanningのAI AssistantおよびCoworkerについて詳しくは、次の記事�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -120,7 +124,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 システム管理者は、組織のPlanning Designer Betaを有効にできます。 この設定をオンにすると、Workfront インスタンスの全員が計画領域でDesignerの計画機能を表示できるようになります。
 
 1. Workfront管理者としてログインします。
-1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-shell.png)をクリックし、**セットアップ**&#x200B;をクリックします。
+1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-shell.png)をクリックし、**セットアップ**&#x200B;をクリックします。
 1. **システム** > **環境設定** > **AI環境設定**&#x200B;に移動します。
 1. **AIを有効にする**&#x200B;をオンにします。
 
@@ -131,7 +135,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 有効になっていない場合は、**AI ベータ版**&#x200B;へのオプトイン設定を有効にします。
 1. 「**Planning Designer**」設定が有効になっていない場合は、有効にします。
 
-   ![&#x200B; システム環境設定でDesigner設定を計画しています](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png)。
+   ![ システム環境設定でDesigner設定を計画しています](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png)。
 
    >[!TIP]
    >
@@ -188,7 +192,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
    **計画Designer** ウィンドウが開きます。
 
 1. ページの下部にある&#x200B;**フィードバックを送信**&#x200B;をクリックします。
-1. 提供されたスペースにフィードバックを追加し、**送信**&#x200B;をクリックします。
+1. 提供されたスペースにフィードバックを追加し、**送信**をクリックします。
 ご意見はエンジニアリングチームと製品チームに送信されます。
 
 ## Planning Designerに関する考慮事項
@@ -215,15 +219,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Workfront管理者は、組織のPlanning Designerを有効にする必要があります。 この後、デフォルトでは、すべてのユーザーがPlanning Designerを使用できます。
-* 組織がAI契約書に署名している場合、Planning Designerで実行したアクションは、Planning エリアで使用する場合、AI アシスタントまたは<span class="preview"> Coworker</span>でも実行できます。
-* AI アシスタントまたは<span class="preview">同僚</span>が計画領域で実行したアクション、または計画Designerが実行したアクションは、Workfront計画の権限とWorkfrontのアクセスレベルのコンテキストにあります。
+* 組織がAI契約書に署名している場合、計画領域でAI アシスタントまたは共同作業者を使用すると、計画Designerで実行されるアクションも実行できます。
+* 計画領域でAI アシスタントまたは同僚が実行するアクション、または計画Designerが実行するアクションは、Workfront計画の権限およびWorkfront アクセスレベルのコンテキストに含まれます。
 
   詳しくは、次の記事を参照してください。
 
   * [Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI アシスタント、<span class="preview">同僚、</span>またはユーザーの代理でPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
+* AI アシスタント、同僚、またはユーザーの代わりにPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
 
 * 計画Designerによって行われたアクションは永続的であり、元に戻せない可能性があります。 例えば、フィールドの削除を元に戻すことはできません。 Designerが提案したすべての措置を承認する前に再検討する。
 
@@ -235,7 +239,7 @@ Sargis and Ashot  said these are not required:
 
 ## Planning Designerで現在使用できる機能
 
-Planning Designer、AI Assistant、または<span class="preview">Coworker、</span>のいずれかを使用して、次のいずれかの操作を実行できます。
+Planning Designer、またはAI AssistantまたはCoworkerのいずれかを使用して、次のいずれかのアクションを実行できます。
 
 * ワークスペースの作成と設定
 
@@ -274,7 +278,7 @@ Planning Designer、AI Assistant、または<span class="preview">Coworker、</s
 
 ## Planning Designerを使用したオブジェクトの作成または更新
 
-Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、AI アシスタント、または<span class="preview"> Coworker</span>を使用します。
+Workfront Planningでは、特に指定がない限り、Planning Designer、AI Assistant、Coworkerのいずれかを使用してオブジェクトを作成または更新できます。
 
 >[!TIP]
 >
@@ -285,7 +289,7 @@ Workfront Planningでオブジェクトを作成または更新するには、�
 
    **計画**&#x200B;領域が開きます。<!--update screen shot when they change the name of the button-->
 
-   ![&#x200B; ワークスペースページの「AIを使用して作成」ボタン &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
+   ![ ワークスペースページの「AIを使用して作成」ボタン ](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. 「**AIを使用して作成**」または「**ワークスペースを作成**」をクリックし、上部のプロンプトウィンドウを使用して、作成するワークスペースの種類を指定します。<!--update this when they change it to Generate with AI-->
 
@@ -293,7 +297,7 @@ Workfront Planningでオブジェクトを作成または更新するには、�
 
    ![Designer ウィンドウの計画](assets/planning-designer-window.png)
 
-1. 提供されたスペースで、AI アシスタント <span class="preview">または同僚</span>のプロンプトを入力し始め、完了したら「Enter」をクリックします。
+1. 提供されたスペースで、AI アシスタントまたは同僚のプロンプトを入力し始め、完了したら「Enter」をクリックします。
 
    <!--add screen shot-->
 
@@ -330,8 +334,8 @@ Workfront Planningでオブジェクトを作成または更新するには、�
    >確認を必要とせずに、すぐに作成されるオブジェクトもあります。
 
 1. （オプション）追加のプロンプトを入力して、オブジェクトをさらに編集します。
-1. （オプション）「**プレビュー画面を表示または非表示にする**」アイコン「![&#x200B; プレビュー画面を表示または非表示にする](assets/hide-show-preview-screen-in-planning-designer.png)」をクリックして、右側のプレビュー画面を開いたり閉じたりします。
-1. **新しいタブでワークスペースを開くアイコン** ![新しいタブでワークスペースを開くアイコン &#x200B;](assets/open-workspace-on-new-tab-icon.png)をクリックして、新しいタブで更新しているワークスペースを開きます。
+1. （オプション）「**プレビュー画面を表示または非表示にする**」アイコン「![ プレビュー画面を表示または非表示にする](assets/hide-show-preview-screen-in-planning-designer.png)」をクリックして、右側のプレビュー画面を開いたり閉じたりします。
+1. **新しいタブでワークスペースを開くアイコン** ![新しいタブでワークスペースを開くアイコン ](assets/open-workspace-on-new-tab-icon.png)をクリックして、新しいタブで更新しているワークスペースを開きます。
 1. **閉じる** アイコン **X**&#x200B;をクリックして、プランニング Designerを閉じ、ワークスペース エリアを開きます。
 1. （オプション）ワークスペースを編集するには、次のいずれかの操作を行います。
 

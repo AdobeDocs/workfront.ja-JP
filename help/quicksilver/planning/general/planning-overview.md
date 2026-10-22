@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 63%
+source-wordcount: '1300'
+ht-degree: 64%
 ---
 # Adobe Workfront プランニングの基本を学ぶ
 
@@ -53,10 +53,13 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -65,9 +68,9 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 >
 >この記事では、WorkfrontまたはWorkflow パッケージも購入した場合のWorkfront計画に関する一般的な情報を説明します。
 >
->Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス &#x200B;](/help/quicksilver/planning/planning-information.md)を参照してください。
+>Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス ](/help/quicksilver/planning/planning-information.md)を参照してください。
 >
->スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+>スタンドアロン製品としてのWorkfront Planningについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 
 ## Workfront計画の可用性
@@ -84,7 +87,7 @@ Workfront Planningは、次のいずれかのWorkfront パッケージを購入�
 
 * Workfront Planningは、組織内のユーザー向けのスタンドアロン製品です。 これにより、Workfront ワークフロー機能やプランニング機能にアクセスできなくなります。
 
-スタンドアロン製品としてのPlanningに含まれる機能について詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+スタンドアロン製品としてのPlanningに含まれる機能について詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ## Adobe Workfront プランニングの概要
 
@@ -180,16 +183,10 @@ Workfront プランニングにアクセスするには、次の手順に従い�
 
 ## Workfront Planning のその他のリソース
 
-* [Adobe Workfront計画に関する一般情報と記事のインデックス &#x200B;](/help/quicksilver/planning/planning-information.md): Workfront計画に関するドキュメントを含むすべての記事のインデックスで、関心のある分野ごとにグループ化されています。
-* [&#x200B; スタンドアロン製品としてAdobe Workfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：スタンドアロン製品として購入した場合のWorkfront Planningに関する一般情報。
+* [Adobe Workfront計画に関する一般情報と記事のインデックス ](/help/quicksilver/planning/planning-information.md): Workfront計画に関するドキュメントを含むすべての記事のインデックスで、関心のある分野ごとにグループ化されています。
+* [ スタンドアロン製品としてAdobe Workfront Planningを使い始める](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：スタンドアロン製品として購入した場合のWorkfront Planningに関する一般情報。
 * [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront プランニングの AI アシスタントを使用すると、コマンドを実行して、アシスタントに代行してもらうことによって、レコードの検索、作成、更新、削除などの作業を行うことができます。
-
-<div class="preview">
-
 * [Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)：目標を平易な言葉で説明し、Workfront計画およびその他の接続されたAdobe システム全体で作業を計画、実行、検証してから、承認用に戻す会話型インターフェイス。 CX Enterprise Coworkerは、現在のAI アシスタントの機能をすべて保持しながら、新しいフルスクリーン体験とWorkfrontの右側のパネルの両方に、より強力なエンドツーエンドの機能を追加しています。
-
-</div>
-
 * [Workfront Fusion の Adobe Workfront プランニングモジュール](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：Adobe Workfront プランニングモジュールを使用すると、Workfront プランニングでイベントが発生した場合にシナリオをトリガーできます。 また、レコードの作成、読み取り、更新、削除、および Adobe Workfront プランニングのアカウントへのカスタム API 呼び出しも実行できます。 Workfront Fusionにアクセスするには、追加ライセンスを購入する必要があります。
 
 * [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)：Adobe Workfront Planning API の目的は、HTTP 上で動作する RESTful アーキテクチャを導入することで、Planning との統合の構築を簡略化することです。

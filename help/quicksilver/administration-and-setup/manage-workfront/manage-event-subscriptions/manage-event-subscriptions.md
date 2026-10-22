@@ -9,10 +9,10 @@ feature: System Setup and Administration
 role: Admin
 author: Courtney
 recommendations: noDisplay, noCatalog
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '44'
+ht-degree: 13%
 ---
 
 # イベントサブスクリプションの管理
@@ -20,4 +20,3 @@ ht-degree: 11%
 この節では、次の記事を扱います。
 
 * [Workfrontでのイベントサブスクリプションの設定](configure-event-subscriptions-in-workfront.md)
-* [管理者以外のユーザーとしてのイベント購読の管理](../../../wf-api/general/event-subs-non-admin.md)

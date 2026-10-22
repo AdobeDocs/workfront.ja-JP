@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 18%
 ---
 # カスタムローカライゼーションの設定
 
-{{highlighted-preview}}
-
-カスタムローカライゼーションを使用すると、<span class="preview">はAI</span>を使用して、様々な言語でカスタム用語とフレーズを定義できます。 次に、Workfrontでは、ユーザーのAdobe Identity Management（IMS）設定で設定された言語でこれらの用語が表示されます。
+カスタムローカライゼーションでは、AIを利用して、様々な言語でカスタム用語やフレーズを定義できます。 次に、Workfrontでは、ユーザーのAdobe Identity Management（IMS）設定で設定された言語でこれらの用語が表示されます。
 
 例えば、「Target Audience」というラベルは、ドイツ語の「Zielgruppe」にローカライズできます。 ブラウザーの主要言語としてドイツ語を選択したユーザーは、「Zielgruppe」という単語を英語の「Target Audience」というラベルが付いたフィールドのラベルとして見ることができます。
 
@@ -77,7 +75,7 @@ ht-degree: 18%
 * ローカライズは、カスタムフィールドラベル（列ヘッダーとして使用する場合を含む）とツールヒントに適用されます。
 * カスタムローカライズは、ビジネスルールから生成されたメッセージに適用できますが、ビジネスルールで有効にする必要があります。
 
-  手順については、「[&#x200B; ビジネスルールでローカライゼーションを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules)」を参照してください。
+  手順については、「[ ビジネスルールでローカライゼーションを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules)」を参照してください。
 
 ## 翻訳の設定
 
@@ -91,8 +89,6 @@ ht-degree: 18%
 1. （オプション）単語を追加の言語に翻訳するには、翻訳を適切な言語列に追加します。
 1. （オプション）言語列を並べ替えるには、移動する列のヘッダーをクリックし、目的の場所にドラッグします。
 1. （オプション）用語の翻訳を削除するには、用語の横にあるチェックボックスをクリックし、ページ下部の青いバーの&#x200B;**削除**&#x200B;をクリックします。
-
-<div class="preview">
 
 ## AIによる翻訳を使用して未翻訳のカスタムテキストをローカライズ
 
@@ -149,5 +145,3 @@ AIを活用してローカライズした用語を新しい言語に翻訳した
 1. 「**保存**」をクリックします。
 1. （オプション）用語のすべての翻訳を削除するには、用語の横にあるチェックボックスをクリックし、ページ下部の青いバーの&#x200B;**削除**&#x200B;をクリックします。
 
-
-</div>

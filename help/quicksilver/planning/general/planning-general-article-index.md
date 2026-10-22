@@ -23,7 +23,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 52%
@@ -39,13 +39,7 @@ ht-degree: 52%
 * [Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)
 * [Workfront計画の用語の概要](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-
-<div class="preview">
-
 * [Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
-
-</div>
-
 * [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning の 2024年リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)

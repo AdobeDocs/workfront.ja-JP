@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 81%
@@ -80,7 +80,8 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    既存の条件を編集するには、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**編集**」をクリックします。
 
-   ![&#x200B; カスタム条件を編集](assets/edit-conditions-082526.png)
+
+   ![ カスタム条件を編集](assets/edit-conditions-082526.png)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
 
@@ -130,11 +131,11 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    * ユーザーがプロジェクトを編集する場合：
 
-     ![&#x200B; プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
+     ![ プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
 
    * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![&#x200B; リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
+     ![ リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
 
      >[!NOTE]
      >

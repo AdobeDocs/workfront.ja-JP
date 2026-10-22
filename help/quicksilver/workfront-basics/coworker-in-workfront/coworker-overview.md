@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 ---
 # WorkfrontにおけるCX Enterprise Coworkerの概要
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -33,9 +31,9 @@ Adobe Workfrontは、Adobeのエコシステムの一部であり、Workfrontの
 
 WorkfrontでのCoworkerの使用について詳しくは、[WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)を参照してください。
 
-共同作業者とその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview)を参照してください。
+共同作業者とその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)を参照してください。
 
-WorkfrontのCoworkerで使用できるスキルについては、「[CX Enterprise CoworkerのWorkfront スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)」を参照してください。
+WorkfrontのCoworkerで使用できるスキルについては、「[CX Enterprise CoworkerのWorkfront スキル ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)」を参照してください。
 
 プロンプトの例については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)の記事のプロンプトを参照してください。
 

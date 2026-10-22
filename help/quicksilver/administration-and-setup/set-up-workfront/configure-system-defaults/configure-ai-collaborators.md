@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1362'
 ht-degree: 3%
 ---
 # AI共同作業者の設定
-
-{{preview-fast-release-general}}
 
 AI協力者とは、AI エージェントをプロジェクト、タスク、イシューに組み込む方法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。
 
@@ -65,7 +63,7 @@ AI協力者とは、AI エージェントをプロジェクト、タスク、イ
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL システム管理者] <span class="preview">またはグループ管理者</span></td> 
+   <td>[!UICONTROL システム管理者]またはグループ管理者</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -125,7 +123,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業担当者は、タスクまたはイシューに割り当てることができます。
 
-作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス ](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
 * [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -144,7 +142,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
    >[!NOTE]
    >
-   ><span class="preview"> グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。</span>
+   >グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。
 
 1. **エージェントのオリジンを選択**&#x200B;領域で、Copilotなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
 1. （条件付き）共通プラットフォームのエージェントを使用している場合は、エージェントのプラットフォームの認証の詳細を入力します。
@@ -153,16 +151,17 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
    |---|---|
    | Copilot Studio | Web チャネルシークレット |
    | Claude Managed Agents | Anthropic API キー<br> エージェント ID<br>環境ID |
-   | <span class="preview">OpenAI Agents</span> | <span class="preview">API キー<br> エージェント ID</span> |
-   | <span class="preview">IBM watsonx Orchestrate</span> | <span class="preview"> サービス URL<br>API キー<br> エージェント ID</span> |
+   | OpenAI エージェント | API キー<br> エージェント ID |
+   | IBM watsonx Orchestrate | サービス URL<br>API キー<br> エージェント ID |
 
 1. 「**接続をテスト**」をクリックします。 これにより、接続が正しくセットアップされたかどうかを確認できます。
 1. **共同作業者が作業を完了した後、共同作業者が実行するアクションを切り替える**&#x200B;領域を選択できます。
 
-   * <span class="preview">通知を送信：エージェントは、更新ストリームにコメントを作成し、作業を要求したユーザー、エージェントを割り当てたユーザー、またはプロジェクトを所有するユーザーをタグ付けします。</span>
-   * <span class="preview"> テキストベースのドキュメントをアップロード </span>
-   * <span class="preview"> タスク完了をマーク </span>
+   * 通知の送信：エージェントは、更新ストリームにコメントを作成し、作業をリクエストしたユーザー、エージェントを割り当てたユーザー、またはプロジェクトを所有するユーザーをタグ付けします。
+   * テキストベースのドキュメントのアップロード
+   * タスクを完了としてマーク
    * タスクフィールドの書き込み：エージェントが書き込むことができるフォームとフィールドを選択します。
+   * プロジェクトフィールドの書き込み：エージェントが書き込むことができるフォームとフィールドを選択します。
 
 1. 「**保存**」をクリックします。
 
@@ -214,7 +213,7 @@ Workfrontで作業エージェントとして使用するエージェントを�
 >
 >Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 
 <!--
@@ -282,10 +281,10 @@ For more information on the Project Coordinator, including how to assign it to p
 
 >[!NOTE]
 >
-><span class="preview"> グループ管理者は、自分が管理者であるグループに関連付けられているAI共同作業者のみを表示し、操作できます。 特定のAI Collaboratorに他のグループも関連付けられている場合、グループ管理者はそれを表示できますが、編集することはできません。</span>
+>グループ管理者は、自分が管理者であるグループに関連付けられたAI共同作業者のみを表示し、操作できます。 特定のAI共同作業者に他のグループも関連付けられている場合、グループ管理者はグループを表示できますが、編集することはできません。
 
 {{step-1-to-setup}}
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
