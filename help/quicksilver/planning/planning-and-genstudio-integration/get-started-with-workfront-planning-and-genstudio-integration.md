@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 3%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 3%
 
 
 # Adobe Workfront Planning と Adobe GenStudio for Performance Marketing の統合の基本を学ぶ
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -72,7 +74,7 @@ Workfront PlanningとGenStudio for Performance Marketingの統合を実現する
 
 * WorkfrontとGenStudio for Performance Marketingは、同じ組織で有効にする必要があります。
 
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
@@ -159,7 +161,7 @@ No longer needed to specify:
 
 Adobe Workfront計画アクセスについて詳しくは、[Adobe Workfront計画アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
-Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 <!--
 Old:
@@ -192,7 +194,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -270,7 +272,7 @@ Workfront Planningの権限について詳しくは、[Adobe Workfront Planning�
 
 * GenStudio ワークスペースは、Workfront計画に視覚的なインジケーターを表示して、GenStudio for Performance Marketing ワークスペースを表すものとして識別します。
 
-  計画中の![GenStudio カード &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+  計画中の![GenStudio カード ](assets/genstudio-card-with-tag-highlighted.png)
 
   詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
 * GenStudio Workspaceは、Workfront Planningで作成されたときにWorkfrontにアクセスできるすべてのGenStudio ユーザーと自動的に共有されます。
@@ -294,7 +296,7 @@ Workfront Planningの権限について詳しくは、[Adobe Workfront Planning�
 
 * GenStudio for Performance MarketingとPlanningの両方に表示されるレコードタイプには、Workfront PlanningのGenStudio インジケーターがあります。
 
-  ![Workfront計画のGenStudio レコードタイプ カード &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+  ![Workfront計画のGenStudio レコードタイプ カード ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * GenStudio ワークスペースのレコードタイプは、プランニングでワークスペースを作成するときにWorkfrontにもアクセスできるすべてのGenStudio ユーザーと自動的に共有されます。
 * PlanningのGenStudio Workspaceに対する管理権限がある場合は、Workfront Planningから次の操作を実行できます。
   * GenStudioのレコードタイプ情報（外観、詳細設定）を編集します。
@@ -350,6 +352,7 @@ Some commented out information here comes from glean
 * アクティベーションレコードには、次のものが含まれます。
 
   * トラッキング ID数式の各セグメントの解決済み値とエラーを格納するトラッキング ID フィールド。
+  * Meta Dynamic Creative オブジェクト情報を格納するDynamic Creative ImageとDynamic Creative Video アクティベーションタイプ。
   * トラッキング IDの生成が進行中であることを示す「生成」ステータスの選択。 生成が終了または失敗すると、アクティベーションステータスは「ドラフト」に戻ります。 既存のアクティベーションは影響を受けません。
 
 
