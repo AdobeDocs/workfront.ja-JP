@@ -20,10 +20,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 436e14a6c85b5b7e0dab847f7ac674abf7fb4644
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 46%
+source-wordcount: '179'
+ht-degree: 44%
 ---
 # Adobe Workfront Planning のリリースアクティビティ：記事インデックス
 
@@ -33,7 +33,7 @@ ht-degree: 46%
 
 現在のWorkfront計画リリースアクティビティについて詳しくは、次の記事を参照してください。
 
-* [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
+* [Adobe Workfront Planningの2027年第1四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
 
 
 
@@ -41,9 +41,10 @@ ht-degree: 46%
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-2026年7月16日（PT）の実稼動リリースより前にリリースされた機能について詳しくは、次の記事を参照してください。
+2026年10月22日（PT）の実稼動リリースより前にリリースされた機能について詳しくは、次の記事を参照してください。
 
 * 2026
+  * [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
   * [Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
   * [Adobe Workfront Planningの2026年第2四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
   * [Adobe Workfront Planning の 2026年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)

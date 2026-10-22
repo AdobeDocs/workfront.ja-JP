@@ -18,16 +18,42 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
-source-wordcount: '3259'
-ht-degree: 3%
+source-wordcount: '3425'
+ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## GenStudio for Performance Marketingでプランニングワークスペースを有効にする
+
+>[!NOTE]
+>
+>プレビューと制作：2026年10月21日（PT）
+>[!BADGE オフスケジュール]{type=Neutral}
+>Adobe GenStudio for Performance Marketing ライセンスをお持ちのお客様のみが利用できます
+
+既存のWorkfront計画ワークスペースをGenStudio for Performance Marketing プランで使用できるようになりました。これにより、キャンペーン、商品、ペルソナ、およびその他のレコードを再作成することなく再利用できます。
+
+GenStudio Adobe ストレージプロジェクトを使用すると、プランニングレコードタイプとフィールドをGenStudio Workspace レコードタイプとフィールドにマッピングし、プロジェクトスイッチャーからGenStudioのプランニングワークスペースの情報にアクセスできます。
+
+詳しくは、[GenStudio for Performance MarketingへのAdobe Workfront Planning Workspaceの有効化](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)を参照してください。
+
+## Metaの動的クリエイティブアクティベーションタイプ
+
+>[!NOTE]
+>
+>プレビューと制作：2026年10月21日（PT）
+>[!BADGE オフスケジュール]{type=Neutral}
+>Adobe GenStudio for Performance Marketing ライセンスをお持ちのお客様のみが利用できます
+
+Workfront Planningは、Meta Dynamic Creative オブジェクトのDynamic Creative ImageおよびDynamic Creative Video アクティベーションタイプをサポートするようになりました。 これらのオプションは、アクティベーションレコードの「タイプ」フィールドで使用でき、Meta Dynamic Creative オブジェクトのアクティベーションのブロックを解除します。
+
+詳しくは、[Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)を参照してください。
 
 <!--
 

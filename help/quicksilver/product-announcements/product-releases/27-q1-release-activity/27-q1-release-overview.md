@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
+source-git-commit: 4af92ba2774dc7fea7f91df14d8c3cdc8e865025
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '564'
+ht-degree: 28%
 ---
 
 # 2027年第1四半期リリースの概要
@@ -30,7 +30,31 @@ ht-degree: 30%
 
 ## Adobe Workfront の機能強化
 
+* [AIの機能強化](#ai-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+
+### AIの機能強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
+                <p>Workfront MCP カタログを特定のツールセットに制限し、製品の使用権限で利用可能な項目をフィルタリングできるようになりました。そのため、AI クライアントは必要な機能のみにアクセスできます。</p>
+            </td>
+            <td><p>2026年10月21日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### プロジェクトの強化
 
