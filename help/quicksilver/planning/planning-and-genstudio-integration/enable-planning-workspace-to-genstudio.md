@@ -45,7 +45,7 @@ Workfront Planningに既にワークスペースがある場合は、データ�
 * Workfront PlanningとGenStudio for Performance Marketingの両方にアクセスできる必要があります。
 * ワークスペースにリンクするには、Adobe クラウドストレージプロジェクトが必要です。 組織管理者は、Adobe Admin Consoleで組織管理者を作成できます。
 
-  詳しくは、[Adobe ストレージの管理](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)を参照してください。<!--ensure this site still works-->
+  詳しくは、[Adobe ストレージの管理](https://helpx.adobe.com/jp/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)を参照してください。<!--ensure this site still works-->
 
 
 ## GenStudioに対するWorkfront計画ワークスペースの有効化
