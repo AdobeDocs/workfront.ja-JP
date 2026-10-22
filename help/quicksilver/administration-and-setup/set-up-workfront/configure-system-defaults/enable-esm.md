@@ -7,9 +7,9 @@ description: Adobe クラウドストレージを有効にすると、すべて�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 
 Adobe クラウドストレージは、Adobe エンタープライズ製品全体のアセットの中央リポジトリとして機能する、クラウドベースの統合ストレージソリューションです。 この記事では、組織全体または特定のグループのデフォルトのストレージオプションとしてAdobe クラウドストレージを有効にする方法について説明します。
 
-新しいエクスペリエンスを有効にすると、新しいプロジェクトでは、Frame.io ビューアと統合承認を含むAdobe クラウドストレージが使用されます。 Adobe クラウドストレージを有効にするまで、何も変わりません。
+>[!IMPORTANT]
+>
+>Adobe クラウドストレージをworkfrontの「設定」エリアで有効にするまで、環境に何も変わりません。<br>
+>Adobe クラウドストレージを有効にすると、新しいプロジェクトのみがAdobe クラウドストレージを使用し、これにはFrame.io ビューアと統合承認が含まれます。 既存のプロジェクトでは、現在のストレージが引き続き使用され、変更はありません。
 
 タイミングを制御することで、エクスペリエンスをテストし、Workfront Fusionのシナリオを更新し、誰かが作業する前に変更をレポートする計画を立てることができます。 何が異なるか、ロールアウトを計画する方法について詳しくは、[Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)を参照してください。
 

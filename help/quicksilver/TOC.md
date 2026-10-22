@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14711'
 ht-degree: 91%
 ---
 # Workfront ガイド {#using}
@@ -2325,8 +2325,8 @@ ht-degree: 91%
   * Adobe Workfront プランニングと Gen Studio for Performance Marketing の統合 {#planning-and-genstudio-integration}
     * [Adobe Workfront プランニングと Adobe GenStudio for Performance Marketing の統合：記事インデックス](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Adobe Workfront プランニングと Adobe GenStudio for Performance Marketing の統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-    * [Adobe Workfront Planning での GenStudio ワークスペースの管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * {hide-from-toc}[Workfront計画ワークスペースをGenStudioに昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+    * [Adobe Workfront プランニングでの GenStudio ワークスペースの管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+    * [GenStudio for Performance Marketingに対するWorkfront計画ワークスペースの有効化](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * スタンドアロン製品としてのAdobe Workfront Planning {#planning-standalone}
     * [スタンドアロン製品としてのAdobe Workfront計画：記事インデックス](planning/planning-sta/planning-sta-article-index.md)
     * [スタンドアロン製品としてAdobe Workfront Planningを使用する](planning/planning-sta/planning-sta-overview.md)
@@ -2715,6 +2715,7 @@ ht-degree: 91%
   * イベントサブスクリプション {#event-subscriptions}
     * [イベントサブスクリプション](wf-api/api/event-subscriptions.md)
     * [Event Subscription API](wf-api/general/event-subs-api.md)
+    * [管理者以外のユーザーとしてのイベント購読の管理](wf-api/general/event-subs-non-admin.md)
     * [イベント登録のベストプラクティス](wf-api/general/event-sub-best-practice.md)
     * [イベント購読の配信要件](wf-api/general/setup-event-sub-endpoint.md)
     * [イベント登録の再試行](wf-api/api/event-sub-retries.md)

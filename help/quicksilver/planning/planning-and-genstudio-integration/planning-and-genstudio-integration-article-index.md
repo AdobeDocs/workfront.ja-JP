@@ -21,10 +21,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 12%
+source-wordcount: '126'
+ht-degree: 11%
 ---
 # Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス
 
@@ -34,4 +34,4 @@ GenStudio Workspaceは、Adobe WorkfrontとAdobe Workfrontの両方を購入し�
 
 * [Adobe Workfront Planning と Adobe GenStudio for Performance Marketing の統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 * [Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-  <!--* [Promote Adobe Workfront Planning workspace to GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)-->
+* [GenStudio for Performance Marketingに対するAdobe Workfront Planning Workspaceの有効化](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)

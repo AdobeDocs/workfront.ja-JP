@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 3%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 3%
 
 
 # Adobe Workfront Planning と Adobe GenStudio for Performance Marketing の統合の基本を学ぶ
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Some commented out information here comes from glean
 * アクティベーションレコードには、次のものが含まれます。
 
   * トラッキング ID数式の各セグメントの解決済み値とエラーを格納するトラッキング ID フィールド。
+  * Meta Dynamic Creative オブジェクト情報を格納するDynamic Creative ImageとDynamic Creative Video アクティベーションタイプ。
   * トラッキング IDの生成が進行中であることを示す「生成」ステータスの選択。 生成が終了または失敗すると、アクティベーションステータスは「ドラフト」に戻ります。 既存のアクティベーションは影響を受けません。
 
 
