@@ -17,18 +17,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 26%
+source-wordcount: '318'
+ht-degree: 33%
 ---
 # 場所を設定
 
-{{preview-fast-release-general}}
-
 レートカードの担当業務に属性として割り当てることができるデフォルトの場所を設定できます。 これにより、評価カードが各場所の市場評価を正確に反映します。
 
-評価カードを使用すると、組織でプロジェクトの請求レートを簡単に管理できます。 詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)および[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+評価カードを使用すると、組織でプロジェクトの請求レートを簡単に管理できます。 詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)および[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 ## アクセス要件
 
@@ -62,13 +60,10 @@ ht-degree: 26%
 {{step-1-to-setup}}
 
 1. 左パネルで、「[!UICONTROL **場所**]」をクリックします。
-1. 実稼動環境で、リストの下部にある「[!UICONTROL **さらに場所を追加**]」をクリックします。
-   <span class="preview"> プレビュー環境で、リストの下部にある&#x200B;[!UICONTROL **新しい行**]&#x200B;をクリックします。</span>
-
+1. リストの下部にある&#x200B;[!UICONTROL **新しい行**]&#x200B;をクリックします。
 1. 場所の名前と説明を入力します。
 1. 行の外側をクリックして、場所を保存します。
-1. 実稼動環境の場所を削除するには、リストでその場所を選択し、**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
-   <span class="preview"> プレビュー環境で場所を削除するには、リストで場所を選択し、画面下部のアクションバーの&#x200B;[!UICONTROL **削除**]&#x200B;をクリックします。</span>
+1. 場所を削除するには、リストで場所を選択し、画面下部のアクションバーの&#x200B;[!UICONTROL **削除**]&#x200B;をクリックします。
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ ht-degree: 26%
 {{step-1-to-setup}}
 
 1. 左パネルで、「[!UICONTROL **場所**]」をクリックします。
-1. 実稼動環境で、リスト内の既存の場所を選択し、[!UICONTROL **サブ場所を追加**]をクリックします。
-   <span class="preview"> プレビュー環境で、リスト内の既存の場所を選択し、画面下部のアクションバーで&#x200B;[!UICONTROL **サブ場所を追加**]&#x200B;をクリックします。</span>
-
+1. リスト内の既存の場所を選択し、画面下部のアクションバーで「[!UICONTROL **サブ場所を追加**]」をクリックします。
 1. 場所の名前と説明を入力します。
 1. 入力領域の外側をクリックして、場所を保存します。
 
    サブロケーションは、トップレベルのロケーションの下にインデントされます。
 
-   実稼動環境のサンプル画像：
-   ![場所とサブ場所](assets/locations-sublocations.png)
-
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![場所とサブ場所](assets/locations-sublocations-082526.png)
 
 

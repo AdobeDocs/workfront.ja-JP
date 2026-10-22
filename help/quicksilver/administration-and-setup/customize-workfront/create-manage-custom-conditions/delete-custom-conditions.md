@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 58%
+source-wordcount: '237'
+ht-degree: 62%
 ---
 # カスタム条件の削除
-
-{{preview-fast-release-general}}
 
 カスタム条件が不要になった場合は、その条件を削除できます。
 
@@ -67,11 +65,8 @@ ht-degree: 58%
 {{step-1-to-setup}}
 
 1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
-
 1. オブジェクトタイプのタブ（「**プロジェクト**」タブ、「**タスク**」タブ、または「**イシュー**」タブ）を選択します。ここで、削除する条件を見つけることができます。
-1. 実稼動環境で、削除する条件名の横にある&#x200B;**削除**&#x200B;をクリックします。
-   <span class="preview"> プレビュー環境で、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーの&#x200B;**削除**&#x200B;をクリックします。</span>
-
+1. 削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**削除**」をクリックします。
 1. 表示される「**条件を削除**」ボックスで、削除する条件を使用していたすべてのプロジェクト、タスク、またはイシューのドロップダウンリストで新しい条件を選択します。
 
    カスタム条件は、削除しようとしている条件と同じビルトインの条件に等しい場合にのみ、ドロップダウンリストで使用できます。 例えば、「危険あり」に等しい条件を削除する場合、「危険あり」に等しいカスタム条件のみを選択できます。
@@ -82,4 +77,4 @@ ht-degree: 58%
 >
 >「目標どおり」、「危険あり」、「トラブル発生中」のビルトインの条件は削除できません。 ただし、名前と色は変更できます。
 >
->カスタム条件の編集について詳しくは、[&#x200B; カスタム条件の作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
+>カスタム条件の編集について詳しくは、[ カスタム条件の作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。

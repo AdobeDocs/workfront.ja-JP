@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 41%
+source-wordcount: '428'
+ht-degree: 43%
 ---
 # 先行タスク領域を使用した先行タスク関係の作成
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -97,7 +95,7 @@ ht-degree: 41%
 
 1. （オプション）プロジェクト間の先行タスクを追加するには、**親プロジェクト** フィールドのプロジェクト名を別のプロジェクトに置き換えます。
 
-   詳しくは、[&#x200B; プロジェクト間の先行タスクの作成](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。
+   詳しくは、[ プロジェクト間の先行タスクの作成](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。
 
    >[!TIP]
    >
@@ -108,13 +106,13 @@ ht-degree: 41%
 
 1. **依存関係タイプ**&#x200B;を選択します。
 
-   詳しくは、[&#x200B; タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
+   詳しくは、[ タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
 
 1. **Lag**&#x200B;の金額を入力してください。
 
-   詳しくは、&#x200B;[&#x200B; ラグの種類の概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md)を参照してください。
+   詳しくは、&#x200B;[ ラグの種類の概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md)を参照してください。
 
-   ![先行タスクを追加ダイアログボックス &#x200B;](assets/add-predecessor-dialog-box.png)
+   ![先行タスクを追加ダイアログボックス ](assets/add-predecessor-dialog-box.png)
 
 1. 2つのタスク間の先行タスク関係を適用する場合は、**強制** チェックボックスを選択します。
 
@@ -122,7 +120,6 @@ ht-degree: 41%
 
 1. 「**保存**」をクリックします。
 
-1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![削除アイコン &#x200B;](assets/remove-or-delete-icon.png)をクリックします。
-   <span class="preview">先行タスクを削除するには、先行タスクのリストで先行タスクを選択し、画面下部のアクションバーで&#x200B;**削除**&#x200B;をクリックします。</span>
+1. （オプション）先行タスクを削除するには、先行タスクのリストで先行タスクを選択し、画面下部のアクションバーで「**削除**」をクリックします。
 
    リストから先行タスクが削除されます。 先行タスクがプロジェクトから削除されません。
