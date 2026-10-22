@@ -106,7 +106,7 @@ Workfront 製品プロファイル管理者（Workfront システム管理者）
 
 * **ユーザーが移行されると、Workfrontへのログイン方法の変更を通知するメールがAdobeから送信されます。** ユーザーは、既存のAdobeでログインするか、同じメールアドレスを使用して新しいAdobe IDを設定することで、初めてAdobe ID IDを使用してログインするための招待を受け入れることができます。
 
-  Adobe IDでWorkfrontにログインする方法について詳しくは、[Adobe CX Enterpriseにログイン ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise)を参照してください。
+  Adobe IDでWorkfrontにログインする方法について詳しくは、[Adobe CX Enterpriseにログイン &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise)を参照してください。
 
 ### ユーザー移行完了
 

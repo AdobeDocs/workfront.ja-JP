@@ -108,7 +108,7 @@ Old numbers - before 2/10/2025:
 
    [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-   Workfrontの学習について詳しくは、[ ヘルプセンター](https://learning.adobe.com/resources/help-center.html)を参照してください。
+   Workfrontの学習について詳しくは、[&#x200B; ヘルプセンター](https://learning.adobe.com/resources/help-center.html)を参照してください。
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
@@ -142,7 +142,7 @@ Old numbers - before 2/10/2025:
 
 1. **[!UICONTROL マイケース]** ページに移動します。 このページは、ケースを送信するときに開きます。または、左側のナビゲーションで「**[!UICONTROL マイケース]**」をクリックして開くことができます。
 
-1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL CX Enterprise] ソリューション）**&#x200B;またはケース **[!UICONTROL ステータス]** （[!UICONTROL  オープン ]または[!UICONTROL  クローズ ]）でフィルタリングします。 また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
+1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL CX Enterprise] ソリューション）**&#x200B;またはケース **[!UICONTROL ステータス]** （[!UICONTROL &#x200B; オープン &#x200B;]または[!UICONTROL &#x200B; クローズ &#x200B;]）でフィルタリングします。 また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
 
 1. （オプション）ケースの詳細を表示するには、**ケース番号**&#x200B;をクリックしてケースにアクセスします。
 
