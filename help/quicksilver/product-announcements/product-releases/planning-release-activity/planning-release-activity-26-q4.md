@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## CX Enterprise Coworkerを使用して大量のレコードをインポートする
 
@@ -97,7 +97,7 @@ CoworkerとWorkfront MCP サーバーに、Planning ビジネスルールを管�
 
 CoworkerまたはWorkfront MCPを使用して、レコードタイプのビジネスルールを作成、一覧表示、更新、削除できるようになりました。 新しいスキルは、数式エンジンが受け入れるビジネスルール式を生成するのにも役立ちます。これにより、無効な数式を減らすことができます。
 
-詳しくは、「[CX Enterprise CoworkerのWorkfront スキル」または「[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)」を参照してください。](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+詳しくは、「[&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)CX Enterprise CoworkerのWorkfront スキル」または「[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)」を参照してください。
 
 <!--
 
@@ -233,7 +233,7 @@ Workspace管理者は、各Planning リクエストフォームに対して1段�
 
 さらに、リクエストフォームからフィールドのオプションを直接編集できるようになりました。 例えば、select-field タイプの場合、リクエストフォームからフィールドの選択肢、順序、およびデフォルト値を更新できます。 以前はこの機能は利用できませんでした。
 
-詳しくは、[ リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
 ## Planning リクエストフォームの依頼者に対するデフォルトの権限の設定
 
@@ -313,7 +313,7 @@ WorkfrontでのAdobe CX Enterprise Coworkerのローンチに備えて、詳細�
 
 接続の競合解決ダイアログが更新され、この新しい動作が反映され、接続されたレコードを管理する際の柔軟性が向上しました。
 
-詳しくは、[ レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
+詳しくは、[&#x200B; レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 
 ## テーブルビューのプライマリフィールド列から、レコードのサムネールとカラーの表示を管理します
 
@@ -347,7 +347,7 @@ WorkfrontでのAdobe CX Enterprise Coworkerのローンチに備えて、詳細�
 
 グローバルレコードタイプにビジネスルールを追加することはできません。
 
-詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 >[!NOTE]
 >
@@ -370,7 +370,7 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
-詳しくは、[ カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## 接続されたレコードフィールドのフィルター
 
@@ -424,7 +424,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 カレンダーの週ビューに、表示中の週の最初の1,000件のレコードのみが表示されるようになりました。 レコードが多い場合、カレンダーの下部に次のメッセージが表示され、追加のレコードが使用可能であることを示します。「レコードが多い。 さらに読み込む&quot;。
 
-詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 依存する接続レコードフィールドの列ヘッダーを更新しました
 
@@ -465,7 +465,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## Workfront Planning Solution Architect Skillの紹介
 
@@ -483,7 +483,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 このスキルは、最初のセットアップを超えて、継続的なガバナンスをサポートしています。摩擦が生じる前に設定ドリフトを捉え、制限に近づいているときに警告を発することで、ブロッカーになる前に警告を発し、誰が設定したかに関係なく、あらゆるワークスペースに一貫性のある標準を適用し、チーム全員に専門家のサポートを待たずに正確な回答を提供します。 これは、ワークスペースを正しく設定し、使用が増えるにつれてワークスペースを維持するライフサイクル全体をカバーします。
 
-詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
