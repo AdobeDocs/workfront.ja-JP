@@ -25,22 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 23%
+source-wordcount: '349'
+ht-degree: 19%
 ---
 # キャンバスダッシュボードでのレポートの配置
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
->このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
->
->* Amazon Web Services用に独自のキーを持ち込む
->* Azure
->* Google Cloud Platform
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+
 
 
 カンバスダッシュボードにレポートを追加すると、ダッシュボードにレポートウィジェットとして表示されるので、そのデータを一目ですぐに視覚化できます。 複数のレポートを追加したら、各ウィジェットのサイズを、ダッシュボード内のレポートの内容に最適に設定し、各ウィジェットの位置を調整して、データをより効果的に表示できます。
@@ -99,9 +95,9 @@ ht-degree: 23%
 
 1. レポートウィジェットをクリックして、ページ上の新しい位置にドラッグします。
 
-   ![&#x200B; レポートウィジェットを移動](assets/moving-report-widget.png)
+   ![ レポートウィジェットを移動](assets/moving-report-widget.png)
 
-1. （オプション）レポートウィジェットの長さと幅を調整するには、ウィジェットの右下隅にある「**サイズ変更** ![&#x200B; サイズ変更アイコン &#x200B;](assets/resize-icon.png)」アイコンをクリックして長押しし、必要に応じてサイズを調整します。
+1. （オプション）レポートウィジェットの長さと幅を調整するには、ウィジェットの右下隅にある「**サイズ変更** ![ サイズ変更アイコン ](assets/resize-icon.png)」アイコンをクリックして長押しし、必要に応じてサイズを調整します。
 
 1. 並べ替えるウィジェットごとに手順4 ～ 5を繰り返します。
 
