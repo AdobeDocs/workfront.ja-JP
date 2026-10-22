@@ -18,16 +18,42 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
 workflow-type: tm+mt
-source-wordcount: '3259'
-ht-degree: 3%
+source-wordcount: '3425'
+ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## GenStudio for Performance Marketingでプランニングワークスペースを有効にする
+
+>[!NOTE]
+>
+>プレビューと制作：2026年10月21日（PT）
+>[!BADGE オフスケジュール]{type=Neutral}
+>Adobe GenStudio for Performance Marketing ライセンスをお持ちのお客様のみが利用できます
+
+既存のWorkfront計画ワークスペースをGenStudio for Performance Marketing プランで使用できるようになりました。これにより、キャンペーン、商品、ペルソナ、およびその他のレコードを再作成することなく再利用できます。
+
+GenStudio Adobe ストレージプロジェクトを使用すると、プランニングレコードタイプとフィールドをGenStudio Workspace レコードタイプとフィールドにマッピングし、プロジェクトスイッチャーからGenStudioのプランニングワークスペースの情報にアクセスできます。
+
+詳しくは、[GenStudio for Performance MarketingへのAdobe Workfront Planning Workspaceの昇格](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)を参照してください。
+
+## Metaの動的クリエイティブアクティベーションタイプ
+
+>[!NOTE]
+>
+>プレビューと制作：2026年10月21日（PT）
+>[!BADGE オフスケジュール]{type=Neutral}
+>Adobe GenStudio for Performance Marketing ライセンスをお持ちのお客様のみが利用できます
+
+Workfront Planningは、Meta Dynamic Creative オブジェクトのDynamic Creative ImageおよびDynamic Creative Video アクティベーションタイプをサポートするようになりました。 これらのオプションは、アクティベーションレコードの「タイプ」フィールドで使用でき、Meta Dynamic Creative オブジェクトのアクティベーションのブロックを解除します。
+
+詳しくは、[Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)を参照してください。
 
 <!--
 
@@ -57,7 +83,7 @@ CoworkerとWorkfront MCP サーバーに、Planning ビジネスルールを管�
 
 CoworkerまたはWorkfront MCPを使用して、レコードタイプのビジネスルールを作成、一覧表示、更新、削除できるようになりました。 新しいスキルは、数式エンジンが受け入れるビジネスルール式を生成するのにも役立ちます。これにより、無効な数式を減らすことができます。
 
-詳しくは、「[&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)CX Enterprise CoworkerのWorkfront スキル」または「[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)」を参照してください。
+詳しくは、「[CX Enterprise CoworkerのWorkfront スキル」または「[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)」を参照してください。](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
 
 <!--
 
@@ -193,7 +219,7 @@ Workspace管理者は、各Planning リクエストフォームに対して1段�
 
 さらに、リクエストフォームからフィールドのオプションを直接編集できるようになりました。 例えば、select-field タイプの場合、リクエストフォームからフィールドの選択肢、順序、およびデフォルト値を更新できます。 以前はこの機能は利用できませんでした。
 
-詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+詳しくは、[ リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
 ## Planning リクエストフォームの依頼者に対するデフォルトの権限の設定
 
@@ -273,7 +299,7 @@ WorkfrontでのAdobe CX Enterprise Coworkerのローンチに備えて、詳細�
 
 接続の競合解決ダイアログが更新され、この新しい動作が反映され、接続されたレコードを管理する際の柔軟性が向上しました。
 
-詳しくは、[&#x200B; レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
+詳しくは、[ レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 
 ## テーブルビューのプライマリフィールド列から、レコードのサムネールとカラーの表示を管理します
 
@@ -307,7 +333,7 @@ WorkfrontでのAdobe CX Enterprise Coworkerのローンチに備えて、詳細�
 
 グローバルレコードタイプにビジネスルールを追加することはできません。
 
-詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 >[!NOTE]
 >
@@ -330,7 +356,7 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
-詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## 接続されたレコードフィールドのフィルター
 
@@ -384,7 +410,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 カレンダーの週ビューに、表示中の週の最初の1,000件のレコードのみが表示されるようになりました。 レコードが多い場合、カレンダーの下部に次のメッセージが表示され、追加のレコードが使用可能であることを示します。「レコードが多い。 さらに読み込む&quot;。
 
-詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 依存する接続レコードフィールドの列ヘッダーを更新しました
 
@@ -425,7 +451,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## Workfront Planning Solution Architect Skillの紹介
 
@@ -443,7 +469,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 このスキルは、最初のセットアップを超えて、継続的なガバナンスをサポートしています。摩擦が生じる前に設定ドリフトを捉え、制限に近づいているときに警告を発することで、ブロッカーになる前に警告を発し、誰が設定したかに関係なく、あらゆるワークスペースに一貫性のある標準を適用し、チーム全員に専門家のサポートを待たずに正確な回答を提供します。 これは、ワークスペースを正しく設定し、使用が増えるにつれてワークスペースを維持するライフサイクル全体をカバーします。
 
-詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
