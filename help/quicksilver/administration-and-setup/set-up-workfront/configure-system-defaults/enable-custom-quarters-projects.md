@@ -68,7 +68,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>[!UICONTROL Workflow Standard]または[!UICONTROL Workfront プラン ] ライセンス</p>
+   <td><p>[!UICONTROL Workflow Standard]または[!UICONTROL Workfront プラン &#x200B;] ライセンス</p>
        <p></p></td>
   </tr> 
   <tr> 
@@ -223,9 +223,9 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 
 1. （オプションおよび条件付き）Workfrontでカスタム四半期を表示するには、カスタム四半期を参照するレポート要素を作成します。
 
-   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![ カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
+   ![&#x200B; カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 
