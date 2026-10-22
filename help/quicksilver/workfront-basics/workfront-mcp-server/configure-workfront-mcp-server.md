@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
 source-wordcount: '2357'
 ht-degree: 1%
@@ -40,13 +40,13 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 >[!NOTE]
 >
-><span class="preview">すべてのツールを事前に読み込むクライアントのMCP カタログのサイズを小さくするには、`toolsets` クエリパラメーターをWorkfront MCP サーバーのURLに追加します。 例：</span>
+>すべてのツールを事前に読み込むクライアントのMCP カタログのサイズを小さくするには、`toolsets` クエリパラメーターをWorkfront MCP サーバーのURLに追加します。 例：
 >
 >```
 >https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
 >```
 >
-><span class="preview"> ツールセットについて詳しくは、Workfront MCP Server Toolsの記事「[Adobe Workfront MCP Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)」の「</span> ツールセット」を参照してください。
+>ツールセットについて詳しくは、「Workfront MCP Server Tools」の「[Adobe Workfront MCP Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) ツールセット」を参照してください。
 
 ## 前提条件
 
@@ -64,11 +64,11 @@ MCP サーバーアクセスは、2人の別々の管理者によってゲート
 
 * Workfront管理者は、システム環境設定の&#x200B;**読み取り専用MCP ツール** （デフォルトで有効）と&#x200B;**書き込みMCP ツール** （デフォルトで無効）の2つのトグルを使用して、Workfront インスタンスのMCP サーバーアクセスを制御します。 AI エージェントを使用してWorkfront アイテムを見つけることができるが、作成、更新、または削除できない場合は、Workfront管理者に書き込みアクションを有効にするように依頼してください。
 
-  詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 * エンタープライズ版のAI エージェント型プラットフォームを使用する場合、そのプラットフォームの管理者は、組織の[!DNL Adobe Workfront] コネクタを有効にするか、Workfront MCP サーバーに接続するためのカスタム URL アクセス権を付与する必要があります。
 
-* <span class="preview"> カスタムアプリケーションまたはエージェント型プラットフォームを、顧客ごとに一意のOAuth コールバック URLで接続する場合、Workfront管理者は、そのURLを&#x200B;**システム環境設定/MCP環境設定**&#x200B;の&#x200B;**承認済みリダイレクト URL** リストに追加する必要があります。 これがなければ、認証は拒否されます。 詳しくは、この記事の「[OAuthとの接続](#connect-with-oauth)」を参照してください。</span>
+* カスタムアプリケーションまたはエージェント型プラットフォームを、顧客ごとに一意のOAuth コールバック URLに接続する場合、Workfront管理者は、そのURLを&#x200B;**システム環境設定/MCP環境設定**&#x200B;の&#x200B;**承認済みリダイレクト URL** リストに追加する必要があります。 これがなければ、認証は拒否されます。 詳しくは、この記事の「[OAuthとの接続](#connect-with-oauth)」を参照してください。
 
 
 ## WorkfrontとClaudeの連携
@@ -108,7 +108,7 @@ Workfrontを[!DNL Claude]に接続するには：
 >
 >この手順を実行するには、エンタープライズクラウド環境の所有者である必要があります。
 >
->所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[&#x200B; カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
+>所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[ カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
 
 URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
@@ -133,7 +133,7 @@ Workfront ログインウィンドウが表示されます。
 
 [!DNL Claude]は、スキルと呼ばれるユーザー作成の命令セットをサポートしています。 Workfrontでは、スキルを使用して[!DNL Claude]の動作をカスタマイズできます。 例えば、以前の結果に頼るのではなく、常にWorkfrontから新しいデータを取得するように[!DNL Claude]に指示するスキルを作成できます。
 
-[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント &#x200B;](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
+[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント ](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
 
 ## ChatGPTへの接続
 
@@ -193,7 +193,7 @@ Workfront MCP サーバーとChatGPTを接続する手順は、ChatGPT デスク
 
 ChatGPTは、カスタム GPTと呼ばれるユーザー作成アシスタントをサポートしています。 カスタム GPTを使用して、ChatGPTがコネクタでどのように動作するかをカスタマイズできます。 例えば、以前の結果に頼るのではなく、接続されたサービスから常に新しいデータを取得するようにChatGPTに指示するカスタム GPTを作成できます。
 
-カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント &#x200B;](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
+カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント ](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
 
 ## WorkfrontとCopilotの連携
 
@@ -202,7 +202,7 @@ ChatGPTは、カスタム GPTと呼ばれるユーザー作成アシスタント
 Workfront MCPが接続できるカスタム Copilot エージェントを構築するには、Copilot Studioを使用します。
 
 1. Copilot Studioで、**空のエージェントを作成**&#x200B;をクリックします。
-1. エージェントに名前を付け、**作成**&#x200B;をクリックします。
+1. エージェントに名前を付け、**作成**をクリックします。
 エージェントのウィンドウが開きます。
 
 1. 「**手順**」フィールドに、エージェントに対して何をさせるかを記述します。 既存のプロセスやWorkfrontの使用方法などの情報を含めます。 大量の詳細を提供することをお勧めします。
@@ -243,7 +243,7 @@ Workfront MCPが接続できるカスタム Copilot エージェントを構築�
 
 ### サービストークンへの接続
 
-1. Adobe Developer Consoleを使用してサービス資格情報を作成します。 詳しくは、[&#x200B; サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
+1. Adobe Developer Consoleを使用してサービス資格情報を作成します。 詳しくは、[ サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
 1. 次の情報を使用して、Workfront MCP サーバーに接続します。
 
    * **URL**：`https://mcp.workfront.adobe.com/mcp/v1/workfront`
@@ -253,8 +253,6 @@ Workfront MCPが接続できるカスタム Copilot エージェントを構築�
      * `wf-url: <your_subdomain>.my.workfront.com` （資格情報が複数のWorkfront インスタンス （プレビューや実稼動環境など）にアクセスできる場合は必須）。
 
 ### OAuthへの接続
-
-<div class="preview">
 
 接続しているAI エージェントプラットフォームまたはカスタムアプリケーションに、接続またはテナント IDを含むURLなど、お客様ごとに一意のOAuth コールバック（リダイレクト） URLがある場合、Workfront管理者は、認証する前に、そのURLを組織の承認済みリダイレクト URLのリストに追加する必要があります。
 
@@ -280,7 +278,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 コールバック URLがリストにない場合、認証リクエストは拒否されます。 Workfront管理者に、統合が提供するURLが正確に入力されていることを確認するように依頼します。
 
-</div>
 
 ## 接続を確認
 
