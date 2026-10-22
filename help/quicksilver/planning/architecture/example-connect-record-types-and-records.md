@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 64%
+source-wordcount: '2129'
+ht-degree: 65%
 ---
 # レコードタイプとレコードの接続例
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ ht-degree: 64%
    * **名前**：新しいフィールドに名前を付けます。 例：「製品情報」。 これは、リンクされたレコードフィールドの名前です。
    * **名前**：新しいフィールドの説明を追加します。 例：「自身のキャンペーンを関連付けたい製品です」。 フィールドの説明は、列ヘッダーのフィールドにポインタを合わせると表示されます。
 
-   <div class="preview">
-
    * **この接続を依存関係にする**：有効にすると、2つの接続されたレコードが3番目のレコードに同時に表示されるので、一方のレコードタイプの選択肢は、もう一方のレコードタイプの選択肢に依存します。
 
      詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
    * **リンクされたレコードタイプに対応するフィールドを作成**：有効にすると、接続しているレコードタイプにも接続フィールドが作成されます（製品）。
-
-   </div>
 
    * **接続タイプ**：次のオプションから選択します。
      * **多対多**: ユーザーは1つのキャンペーンを複数の製品に、1つの製品を複数のキャンペーンに接続できます。
@@ -87,19 +85,17 @@ ht-degree: 64%
      * **名前**：接続されているレコードの名前のみを表示します。
      * **画像**：接続されたレコードのサムネールまたはアイコンのみを表示します。
 
-     <div class="preview">
+     * **色と名前**：接続されているレコードの色と名前のみを表示します。
 
-     * **色と名前**：接続されているレコードの色と名前のみを表示します
+   * **ルックアップフィールド**：このオプションを展開して、接続されたレコードからルックアップフィールドも接続します。
 
-     </div>
-
-   * <span class="preview">**ルックアップフィールド**：このオプションを展開して、接続されたレコードからルックアップフィールドも接続します。 </span>次に&#x200B;**ルックアップフィールドを追加** ボックスが開き、製品フィールドをCampaign レコードタイプにリンクできます。 「**スキップ**」をクリックしてこの手順をスキップし、製品フィールドを後で追加することができます。
+     次に&#x200B;**ルックアップフィールドを追加** ボックスが開き、製品フィールドをCampaign レコードタイプにリンクできます。 「**スキップ**」をクリックしてこの手順をスキップし、製品フィールドを後で追加することができます。
 
      ![製品レコードタイプとの新しい接続](assets/new-connection-with-product-record-type.png)
 
 1. （条件付き）検索フィールドを追加&#x200B;**ボックスを開いた場合は、**&#x200B;予算&#x200B;**フィールドの**+**アイコンをクリックし、** フィールドを追加&#x200B;**をクリックします。**&#x200B;これにより、**予算（製品情報から）**&#x200B;というフィールドが作成されます。これは、リンクされたフィールドの名前です。 製品予算の情報は、キャンペーンレコードのこのフィールドに表示されます。
 
-   ![&#x200B; レコードタイプ &#x200B;](assets/add-fields-for-budget-field-for-connector-with-record-type.png)の接続用の予算フィールドのフィールドを追加
+   ![ レコードタイプ ](assets/add-fields-for-budget-field-for-connector-with-record-type.png)の接続用の予算フィールドのフィールドを追加
 
    >[!TIP]
    >
@@ -122,13 +118,13 @@ ht-degree: 64%
 
    >[!TIP]
    >
-   >    リンクされたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
+   >    リンクされたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
 
 1. **キャンペーン**&#x200B;レコードタイプテーブルビューから、「キャンペーン」レコードタイプページのテーブルに新しい行を追加して、キャンペーンを作成します。
 
 1. 新しいキャンペーンの&#x200B;**製品情報**&#x200B;列内をダブルクリックします。
 
-   ![&#x200B; テーブルビュー内の他のレコードの小さいボックスを接続](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![ テーブルビュー内の他のレコードの小さいボックスを接続](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -138,7 +134,7 @@ ht-degree: 64%
 
 1. （条件付き）前の手順で「**すべて表示**」をクリックした場合、「**オブジェクトを接続**」ボックスが表示されます。
 
-   ![&#x200B; レコードの接続されたオブジェクト テーブル &#x200B;](assets/connected-objects-table-for-records.png)
+   ![ レコードの接続されたオブジェクト テーブル ](assets/connected-objects-table-for-records.png)
 
 1. 検索ボックスに製品の名前を入力していき、リストに名前が表示されたら選択します。
 
@@ -154,7 +150,7 @@ ht-degree: 64%
    * **製品情報**&#x200B;フィールドには、選択した製品がキャンペーンレコードに入力されます。
    * **予算（製品情報から）**&#x200B;フィールドには、選択した各製品の予算値か、（アグリゲーターに「SUM」を選択した場合）選択したすべての製品の予算の合計が入力されます。
 
-   ![&#x200B; キャンペーンレコードテーブルの製品情報と予算関係フィールドの例](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![ キャンペーンレコードテーブルの製品情報と予算関係フィールドの例](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -193,7 +189,7 @@ ht-degree: 64%
    * **この条件に一致するオブジェクトのみをリンク**: **カスタムフォーム** ドロップダウンメニューからカスタムフォームを選択します。 指定されたフォームに関連付けられているプロジェクトのみが、キャンペーンに接続できます。 複数のフォームを選択できます。
    * **ルックアップフィールドを選択**：このオプションを選択したままにすると、「**ルックアップフィールドを追加**」ボックスが開き、製品フィールドをキャンペーンレコードタイプにリンクできるようになります。 「**スキップ**」をクリックしてこの手順をスキップし、製品フィールドを後で追加することができます。
 
-   ![Workfront オプションを使用した新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-option.png)
+   ![Workfront オプションを使用した新しい接続タブ ](assets/new-connection-tab-with-workfront-option.png)
 
 1. （条件付き）前の手順で&#x200B;**ルックアップフィールドを選択**」オプションを選択した場合、**プロジェクト**&#x200B;オブジェクトタイプに関連付けられたフィールドのリストから&#x200B;**予定収益**&#x200B;フィールドの **+** をクリックし、**フィールドを追加**&#x200B;をクリックします。 これにより&#x200B;**予定収益（プロジェクト情報から）**&#x200B;というフィールドが作成されます。これは、リンクされたフィールドの名前です。 プロジェクト予定収益フィールドのすべての情報は、キャンペーンレコードのこのフィールドに自動的に表示されます。
 
@@ -214,13 +210,13 @@ ht-degree: 64%
 
    >[!TIP]
    >
-   >    リンクされたオブジェクトフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
+   >    リンクされたオブジェクトフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
 
 1. **キャンペーン**&#x200B;レコードタイプテーブルビューから、テーブルに新しい行を追加してキャンペーンを作成します。
 
 1. 新しいキャンペーンのプロジェクト情報**列をダブルクリックします。
 
-   ![&#x200B; テーブル内のプロジェクトの小さいボックスを接続](assets/connect-projects-smaller-box-in-table.png)
+   ![ テーブル内のプロジェクトの小さいボックスを接続](assets/connect-projects-smaller-box-in-table.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -248,7 +244,7 @@ ht-degree: 64%
      * **プロジェクト情報**&#x200B;フィールドに、選択したプロジェクトのキャンペーンレコードが入力されます。
      * **予定収益（製品情報から）**&#x200B;フィールドに、選択した各製品の予算値が入力されます。 これは読み取り専用フィールドです。
 
-   ![&#x200B; キャンペーンテーブルのプロジェクトリンクされたフィールドと予定収益が強調表示されている](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![ キャンペーンテーブルのプロジェクトリンクされたフィールドと予定収益が強調表示されている](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

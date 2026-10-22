@@ -19,13 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 27%
 ---
 
 # レポートでのWorkfront計画の情報の表示
+
+{{planning-important-intro}}
 
 Canvas ダッシュボードを使用すると、Adobe Workfront計画に関する情報をレポートで確認できます。
 
@@ -37,7 +39,7 @@ Canvas ダッシュボードを使用すると、Adobe Workfront計画に関す�
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
 >* Google Cloud Platform
-> 詳しくは、[&#x200B; カンバスダッシュボードの管理：記事インデックス &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)を参照してください。
+> 詳しくは、[ カンバスダッシュボードの管理：記事インデックス ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)を参照してください。
 
 ## アクセス要件
 
@@ -85,7 +87,7 @@ Canvas ダッシュボードを使用すると、Adobe Workfront計画に関す�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 

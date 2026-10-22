@@ -23,22 +23,22 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 19%
+source-wordcount: '1396'
+ht-degree: 18%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
-# Adobe Workfront Planning での共有権限の概要
+# Adobe Workfront プランニングでの共有権限の概要
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -60,7 +60,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
   * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
+  詳しくは、[ ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください
 
 * レコードタイプ
 
@@ -68,7 +68,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ワークスペースに付与された権限レベルは、レコードタイプの継承された権限として表示されます。
   * ユーザーがワークスペース上で持つ権限レベルよりも高い権限レベルのレコードタイプを共有することはできません。
 
-  詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 * レコード
 
@@ -76,7 +76,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
   * ユーザーは、ワークスペースとレコードタイプから権限をデフォルトで継承します。
   * ユーザーの権限レベルがレコードタイプの権限レベルよりも高いレコードまたは低いレコードを共有することはできません。
 
-  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+  詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 <!--
 * Fields
@@ -173,7 +173,7 @@ Workfront Planningでは、次のオブジェクトを手動で共有できま�
 | 表示 | ✓ | ✓ | ✓ |
 
 
-<span class="preview">上記の表で説明した権限に加えて、ワークスペースを共有する際にワークスペースの所有者を変更することもできます。 詳しくは、[&#x200B; ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。</span>
+上記の表に記載されている権限に加えて、ワークスペースを共有する際にワークスペースの所有者を変更することもできます。 詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
 
 
 ### レコードタイプに対する権限
@@ -263,25 +263,22 @@ In the Production environment, the following are the levels of permissions for r
 
 ### レコードフィールドへの権限
 
+<!--
 
-#### 実稼動環境でフィールドを記録するための権限
+#### Permissions to record fields in the Production environment
 
 
-フィールド設定を編集するための権限は、ワークスペースとレコードタイプに権限を付与する際に、レコードタイプから継承されます。
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-次の権限は、各フィールドに関連付けられた値ではなく、フィールド設定を参照します。 フィールド値を編集するには、レコードを編集する権限が必要です。
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | 管理 | 参加 | 表示 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 作成 | ✓ |            |       |
-| 削除 | ✓ |            |       |
-| 編集 | ✓ |            |       |
-| 表示 | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### プレビュー環境でフィールドを記録する権限
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 フィールド設定への権限は、ワークスペースとレコードタイプに権限を付与する際に、レコードタイプから継承されます。
 
@@ -308,8 +305,6 @@ In the Production environment, the following are the levels of permissions for r
 | 表示 | ✓ | ✓ |
 
 フィールドにアクセスするには、少なくともレコードタイプに対する表示権限が必要です。
-
-</div>
 
 ### ビューに対する権限
 

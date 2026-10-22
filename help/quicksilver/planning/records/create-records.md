@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
-ht-degree: 15%
+source-wordcount: '3769'
+ht-degree: 14%
 ---
 # レコードの作成
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ Adobe Workfront プランニングでは、レコードはレコードタイプ�
 * [ほかのレコードから接続したり](#create-records-as-you-connect-them)
 * [レコードタイプへのリクエストフォームの送信](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSVまたはExcel ファイルから情報をインポートする](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [CX Enterprise Coworkerを使用したレコードの作成](#create-records-using-cx-enterprise-coworker)
 * [自動処理の利用](#create-records-by-using-automations)
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
@@ -111,7 +113,7 @@ Adobe Workfront プランニングでは、レコードはレコードタイプ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -185,7 +187,7 @@ Old:
 
   * グローバルレコードタイプの元のワークスペースに追加されたレコードは、元のワークスペースから表示されます。
   * グローバルレコードタイプのセカンダリワークスペースに追加されたレコードは、作成されたワークスペースとグローバルレコードタイプの元のワークスペースからのみ表示されます。
-    詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+    詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 * ワークスペースとレコードタイプに対する権限に応じて、ユーザーは次の方法でレコードを作成できます。
 
@@ -196,14 +198,9 @@ Old:
   >
   >ワークスペースマネージャーは、表示権限を持つユーザーがリクエストフォームを使用してレコードを追加するために、レコードタイプのリクエストフォームを作成する必要があります。 それ以外の場合、View-permission ユーザーはレコードを作成できません。
 
-<div class="preview">
-
 * レコードを作成する方法に関係なく、すべてのレコードは作成時に自動的に色分けされます。
 
-  詳しくは、この記事の「[&#x200B; カラーコーディングレコード &#x200B;](#color-coding-records)」の節を参照してください。
-
-</div>
-
+  詳しくは、この記事の「[ カラーコーディングレコード ](#color-coding-records)」の節を参照してください。
 
 ## 任意のレコードタイプビューから、「新規レコード」ボタンまたは「レコードを要求」ボタンを使用してレコードを作成します
 
@@ -231,9 +228,9 @@ Old:
    1. 次のいずれかの方法をクリックしてレコードを作成し、**続行**&#x200B;をクリックします。
 
       * **手動で追加**。 レコードのプレビューボックスが開きます。\
-        この記事の「[&#x200B; レコードを作成する」の説明に従って、レコードに関する情報を、手順6から始めて、レコードの種類のテーブルビュー](#create-records-by-adding-them-inline-from-the-record-type-table-view) セクションからインラインで追加します。<!--insure this stays accurate-->
+        この記事の「[ レコードを作成する」の説明に従って、レコードに関する情報を、手順6から始めて、レコードの種類のテーブルビュー](#create-records-by-adding-them-inline-from-the-record-type-table-view) セクションからインラインで追加します。<!--insure this stays accurate-->
       * **ファイルからアップロード**
-        記事[の説明に従って、レコードを追加します。手順6から始めて、CSVまたはExcel ファイル &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md)から情報を読み込んでレコードを作成します。<!--ensure this stays accurate-->
+        記事[の説明に従って、レコードを追加します。手順6から始めて、CSVまたはExcel ファイル ](/help/quicksilver/planning/records/import-file-to-create-records.md)から情報を読み込んでレコードを作成します。<!--ensure this stays accurate-->
       * **リクエストを送信**
         レコードタイプのリクエストフォームが開きます。
 
@@ -245,7 +242,7 @@ Old:
 
         記事「[Adobe Workfront計画リクエストを送信してレコードを作成する](/help/quicksilver/planning/requests/submit-requests.md)」の説明に従って、手順6から開始してレコードを追加します。<!--ensure this stays accurate-->
 
-      ![&#x200B; レコード選択モーダルを作成する3つの方法](assets/three-ways-to-create-records-choice-modal.png)
+      ![ レコード選択モーダルを作成する3つの方法](assets/three-ways-to-create-records-choice-modal.png)
 
 1. （条件付き）次の操作を行います。**レコードをリクエスト**&#x200B;をクリックした場合：
 
@@ -311,9 +308,9 @@ You can import records from other applications by linking them to existing recor
    * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。 これにより、開始するレコードの下に空の行が追加されます。
    * レコードのプライマリフィールドにカーソルを合わせ、フィールドの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次に&#x200B;**レコードを上に挿入**&#x200B;または&#x200B;**レコードを下に挿入**&#x200B;をクリックします。
 
-   ![&#x200B; テーブルの行に新しいキャンペーンを追加する](assets/adding-a-new-campaign-in-table-row.png)
+   ![ テーブルの行に新しいキャンペーンを追加する](assets/adding-a-new-campaign-in-table-row.png)
 
-   Workfrontは、新しいレコードごとにサムネールを自動的にアップロードします。 後でこれらの画像を変更できます。 詳しくは、[&#x200B; レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)を参照してください。
+   Workfrontは、新しいレコードごとにサムネールを自動的にアップロードします。 後でこれらの画像を変更できます。 詳しくは、[ レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)を参照してください。
 
    新しいレコードがテーブルに追加されます。
 
@@ -321,7 +318,7 @@ You can import records from other applications by linking them to existing recor
 
    または
 
-   レコード名の左側にある「**詳細を開く**」アイコン「![&#x200B; テーブル名フィールドで詳細を開く」アイコン「](assets/open-details-icon-in-table-name-field.png)」をクリックします。
+   レコード名の左側にある「**詳細を開く**」アイコン「![ テーブル名フィールドで詳細を開く」アイコン「](assets/open-details-icon-in-table-name-field.png)」をクリックします。
 
    プレビューボックスがテーブルで開きます。
 
@@ -329,7 +326,7 @@ You can import records from other applications by linking them to existing recor
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
+   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[ テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
@@ -337,7 +334,7 @@ You can import records from other applications by linking them to existing recor
 
    または
 
-   新しいレコードの名前または&#x200B;**詳細を開く** アイコン ![&#x200B; レコード名の左側にあるテーブル名フィールド &#x200B;](assets/open-details-icon-in-table-name-field.png)で詳細を開くアイコンをクリックして、プレビューボックスを開き、詳細領域でレコードの情報を編集します。
+   新しいレコードの名前または&#x200B;**詳細を開く** アイコン ![ レコード名の左側にあるテーブル名フィールド ](assets/open-details-icon-in-table-name-field.png)で詳細を開くアイコンをクリックして、プレビューボックスを開き、詳細領域でレコードの情報を編集します。
 
    >[!TIP]
    >
@@ -359,7 +356,7 @@ You can import records from other applications by linking them to existing recor
 
 レコードの種類ページのタイムラインビューで、タイムラインをダブルクリックしてレコードを作成できます。
 
-タイムラインビューの作成について詳しくは、[&#x200B; タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
+タイムラインビューの作成について詳しくは、[ タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
 {{step1-to-planning}}
 
@@ -406,9 +403,9 @@ You can import records from other applications by linking them to existing recor
 
 1. （オプション）次のいずれかのアイコンをクリックします。
 
-   * **展開** ![展開アイコン &#x200B;](assets/expand-icon.png)を使用して、プレビューウィンドウでレコードの詳細を開きます。
-   * **削除** ![削除アイコン &#x200B;](assets/delete-icon.png) レコードを削除します。
-   * **閉じる** ![閉じるアイコン &#x200B;](assets/close-icon.png)で、新しいレコードボックスを閉じます。
+   * **展開** ![展開アイコン ](assets/expand-icon.png)を使用して、プレビューウィンドウでレコードの詳細を開きます。
+   * **削除** ![削除アイコン ](assets/delete-icon.png) レコードを削除します。
+   * **閉じる** ![閉じるアイコン ](assets/close-icon.png)で、新しいレコードボックスを閉じます。
 
    レコードは、**削除** アイコンをクリックしない限り、タイムラインとテーブルおよびカレンダービューにすぐに追加されます。
 
@@ -430,7 +427,7 @@ You can import records from other applications by linking them to existing recor
 
 レコードの種類ページのカレンダービューで、カレンダーの任意の場所をダブルクリックしてレコードを作成できます。
 
-カレンダービューの作成について詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+カレンダービューの作成について詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 {{step1-to-planning}}
 
@@ -451,7 +448,7 @@ You can import records from other applications by linking them to existing recor
 
    **新しいレコード** ボックスが開きます。<!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-   ![名前のないレコードバーを含むカレンダー上の新しいレコードボックス &#x200B;](assets/new-record-small-box-on-calendar.png)
+   ![名前のないレコードバーを含むカレンダー上の新しいレコードボックス ](assets/new-record-small-box-on-calendar.png)
 
 1. 次の情報を更新します。
 
@@ -472,9 +469,9 @@ You can import records from other applications by linking them to existing recor
 
 1. （オプション）次のいずれかのアイコンをクリックします。
 
-   * **展開** ![展開アイコン &#x200B;](assets/expand-icon.png)を使用して、プレビューウィンドウでレコードの詳細を開きます。
-   * **削除** ![削除アイコン &#x200B;](assets/delete-icon.png) レコードを削除します。
-   * **閉じる** ![閉じるアイコン &#x200B;](assets/close-icon.png)で、新しいレコードボックスを閉じます。
+   * **展開** ![展開アイコン ](assets/expand-icon.png)を使用して、プレビューウィンドウでレコードの詳細を開きます。
+   * **削除** ![削除アイコン ](assets/delete-icon.png) レコードを削除します。
+   * **閉じる** ![閉じるアイコン ](assets/close-icon.png)で、新しいレコードボックスを閉じます。
 
    **削除** アイコンをクリックしない限り、レコードはカレンダーだけでなく、テーブルおよびタイムラインビューにすぐに追加されます。
 1. （オプションと条件付き）上隅のドロップダウンメニューから&#x200B;**月**&#x200B;を選択し、カレンダーのレコードバーの余白のいずれかにカーソルを合わせ、バーの端を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日と終了日が自動的に変更されます。
@@ -521,7 +518,7 @@ You can import records from other applications by linking them to existing recor
 
 ## レコードを複製して作成
 
-レコードの複製について詳しくは、[&#x200B; レコードの複製](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
+レコードの複製について詳しくは、[ レコードの複製](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 
 ## レコードを作成しながら
 
@@ -536,17 +533,17 @@ You can import records from other applications by linking them to existing recor
 >
 >Workfront プロジェクトとポートフォリオをWorkfront計画レコードに接続する場合の作成は、プランニングレコードを他のレコードから接続する場合と同様です。
 >
->Workfront PlanningからWorkfront オブジェクトを作成する方法について詳しくは、[&#x200B; レコードに接続する際のWorkfront PlanningからのWorkfront オブジェクトの作成](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)を参照してください。
+>Workfront PlanningからWorkfront オブジェクトを作成する方法について詳しくは、[ レコードに接続する際のWorkfront PlanningからのWorkfront オブジェクトの作成](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)を参照してください。
 
 既存のレコードから新しいレコードを接続して追加するには、次の手順を実行する必要があります。
 
 * 接続されたレコードタイプ： 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * レコード：
-* この記事の「[&#x200B; アクセス要件](#access-requirements)」の節で説明されているように、Workfront PlanningおよびWorkfrontの正しいアクセスと権限。
+* この記事の「[ アクセス要件](#access-requirements)」の節で説明されているように、Workfront PlanningおよびWorkfrontの正しいアクセスと権限。
 
 他のレコードからレコードを接続するときにレコードを作成するには、次の手順を実行します。
 
-1. 記事[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)の説明に従って、Workfront計画レコードの接続を開始します。 次の領域からレコードを接続できます。
+1. 記事[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)の説明に従って、Workfront計画レコードの接続を開始します。 次の領域からレコードを接続できます。
 
    * Workfront Planningの次の領域の接続フィールド：
 
@@ -562,7 +559,7 @@ You can import records from other applications by linking them to existing recor
    または
    名前を入力し、**+追加**&#x200B;をクリックします。 **+追加** ボタンの後には、接続先のレコードタイプの名前が続きます。 例えば、ブランドを既存のキャンペーンに追加する際に「ブランドを追加」を使用します。 入力した名前は、「追加」ボタンの後にも表示されます。
 
-   ![&#x200B; コンテクスト内のレコードを作成するボタンを強調表示](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![ コンテクスト内のレコードを作成するボタンを強調表示](assets/add-button-to-create-records-in-context-highlighted.png)
 
    レコードが作成され、接続されたレコードフィールドに追加されます。
 
@@ -588,7 +585,7 @@ Workfrontのユーザーと組織の外部のユーザーの両方が、リク�
 
 Workfrontのリクエスト領域からレコードを作成するリクエストを追加できるのは、Workfront ユーザーのみです。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## CSVまたはExcel ファイルからレコードタイプを読み込む際にレコードを作成する
 
@@ -602,6 +599,16 @@ CSVまたはExcel ファイルから情報を読み込む際に、既存のレ�
 
 詳しくは、[CSVまたはExcel ファイルから情報を読み込んでレコードを作成](/help/quicksilver/planning/records/import-file-to-create-records.md)を参照してください。
 
+## CX Enterprise Coworkerを使用したレコードの作成
+
+CX Enterprise Coworkerを使用して、AIにレコードの作成を依頼することで、レコードを作成できます。
+
+また、Workfront CX Enterprise Coworkerの&#x200B;**ファイル添付**&#x200B;機能を使用して、一度に大量のレコードをアップロードすることもできます。 この方法を使用すると、10,000以上のレコードをインポートできます。
+
+CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。
+
+詳しくは、[WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)を参照してください。
+
 ## 自動処理を使用したレコードの作成
 
 Workfront Planningで自動処理を設定し、アクティブ化すると、Planning レコードからトリガーされたときにレコードが作成されます。 作成されたレコードは、オートメーションのトリガー元のレコードに自動的に接続されます。
@@ -614,8 +621,6 @@ Workfront Planningのレコードのページで、自動処理を設定して�
 Move to its own article after production release in 10/2026:
 -->
 
-<div class="preview">
-
 ## カラーコーディングレコード
 
 レコードを作成すると、すべてのレコードが自動的にカラーに関連付けられます。
@@ -627,24 +632,24 @@ Move to its own article after production release in 10/2026:
    * バーとして、テーブル、タイムラインビューおよびカレンダービューのレコード名またはプライマリフィールドの左側に。
    * レコードの&#x200B;**Details** ページのレコード名の左側に、円で表示します。
 
-     詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+     詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 1. （条件付き）レコードのカラーを表示するには、次のいずれかの操作を行います。
 
    * テーブルビューで、レコードのリストの上部にあるツールバーの&#x200B;**フィールド** アイコンをクリックし、**カラー**&#x200B;設定をオンにします。 レコードのプライマリフィールドの左側にバーが追加されます。
 
-     ![&#x200B; テーブルビューレコードのカラーバー](assets/table-record-color-bar.png)
+     ![ テーブルビューレコードのカラーバー](assets/table-record-color-bar.png)
 
      詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
    * タイムラインビューで、**設定** > **棒スタイル**&#x200B;をクリックし、**色**&#x200B;設定をオンにします。 **レコード**&#x200B;でバーをカラーコード化することを選択すると、バーがレコードのバーの左余白に追加されます。
 
-     ![&#x200B; タイムラインビューのレコードカラーバー](assets/timeline-record-color-bar.png)
+     ![ タイムラインビューのレコードカラーバー](assets/timeline-record-color-bar.png)
 
      詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
    * カレンダービューで、**設定** > **棒スタイル**&#x200B;をクリックし、**色**&#x200B;設定をオンにします。 レコードバーの色がレコードカラーと一致し、レコードのバーの左余白に同じ色の濃い色合いが追加されます。この場合、**レコード**&#x200B;でバーを色分けします。
 
-     ![&#x200B; カレンダービューのレコードカラーバー](assets/calendar-record-color-bar.png)
+     ![ カレンダービューのレコードカラーバー](assets/calendar-record-color-bar.png)
 
-     詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+     詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
    デフォルトでは、「カラー」設定はオフになっています。
 
@@ -657,4 +662,3 @@ Move to its own article after production release in 10/2026:
 
       選択すると、新しいカラーがすぐに適用されます。
 
-</div>

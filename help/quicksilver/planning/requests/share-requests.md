@@ -19,19 +19,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '533'
+ht-degree: 6%
 ---
 # プランニングリクエストの共有
 
 <!--add to TOC, and miniTOC-->
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -76,7 +77,7 @@ ht-degree: 10%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -90,7 +91,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 管理者が別のデフォルトを設定していない限り、リクエスト者は、送信したリクエストに対する管理アクセス権を自動的に付与されます。
 
-  詳しくは、[&#x200B; リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+  詳しくは、[ リクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 
 * Workfront管理者は、すべてのリクエストにアクセスして管理できます。
 * レコードタイプへの管理アクセス権を持つユーザーは、そのレコードタイプの受注フォームとそのフォームを通じて送信されたすべてのリクエストへの管理アクセス権を継承します。
@@ -112,7 +113,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    選択したリクエストの&#x200B;**共有** ボックスが開きます。
 
-   ![&#x200B; リクエスト共有ボックス &#x200B;](assets/requests-sharing-box.png)
+   ![ リクエスト共有ボックス ](assets/requests-sharing-box.png)
 
 1. **このリクエストフィールドへのアクセス権を付与**&#x200B;で、ユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、リストに表示されたらクリックします。
 
@@ -124,7 +125,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 表示
 1. （オプション）権限レベルごとに、詳細な権限アイコンをクリックし、**編集**、**コメント**、**共有**、**削除**&#x200B;など、詳細な権限を選択または選択解除します。
 
-   ![&#x200B; リクエストに対する詳細な権限](assets/granular-permissions-on-requests.png)
+   ![ リクエストに対する詳細な権限](assets/granular-permissions-on-requests.png)
 1. （オプション）継承された権限ラインを展開して、ワークスペースとレコードタイプから権限を取得するユーザーを表示します。
 
    >[!TIP]

@@ -17,17 +17,19 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 6%
+source-wordcount: '1347'
+ht-degree: 4%
 ---
 
 # 依存関係の管理
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -79,7 +81,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
    <ul><li><p>Adobe Experience Manager Assetsライセンスと、AEM Assetsとプランニングレコードタイプを連携させるAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプをGenStudio オブジェクトやブランドに接続するためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -105,7 +107,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -155,9 +157,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    >
    >**この接続を依存にする**&#x200B;設定を有効にすると、**リンクされたレコードタイプに対応するフィールドを作成**&#x200B;が自動的に有効になります。 レコードタイプごとに500件のフィールドという制限があります。
 
-   ![依存接続が有効になっている新しい接続タブ &#x200B;](assets/dependent-connection-enabled-setting.png)
+   ![依存接続が有効になっている新しい接続タブ ](assets/dependent-connection-enabled-setting.png)
 
-1. 記事[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
+1. 記事[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
 1. 「**保存**」をクリックします。
 
    次のことが発生します。
@@ -169,7 +171,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      詳しくは、この記事の「[依存する接続レコードタイプの例](#example-of-dependent-connected-record-types)」の節を参照してください。
    * 接続されたレコードフィールドの列ヘッダーには、そのフィールドが依存関係にあることを示す表示があります。
 
-     ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
+     ![列ヘッダーの依存アイコンのツールヒント ](assets/dependent-icon-tooltip-in-column-header.png)
 1. （オプション）「**レコードフィルタリングルール**」をクリックし、接続しているレコードタイプからフィールドを選択して、そのフィールドの値のオプションを制限してから、**完了**&#x200B;をクリックします。
 
    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。

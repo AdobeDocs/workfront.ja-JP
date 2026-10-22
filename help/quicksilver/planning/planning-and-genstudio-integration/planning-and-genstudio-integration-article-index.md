@@ -21,12 +21,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 11%
 ---
 # Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス
+
+{{planning-important-intro}}
 
 GenStudio Workspaceは、Adobe WorkfrontとAdobe Workfrontの両方を購入した場合に、Adobe GenStudio for Performance Marketing Planningで利用できます。
 

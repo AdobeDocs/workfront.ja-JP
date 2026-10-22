@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 21%
+source-wordcount: '500'
+ht-degree: 20%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
@@ -67,6 +67,7 @@ Workfront プランニングで作成できるオブジェクトの数の制限�
 | レコードタイプを作成するためにインポートできるExcel ファイルのCSV サイズ | 5 MB |
 | レコードタイプを作成するためにCSVまたはExcel ファイルに読み込むことができる行数 | 25,000 |
 | レコードタイプを作成するためにCSVまたはExcel ファイルにインポートできる列の数 | 500 |
+| CX Enterprise Coworkerを使用してレコードを作成し、CSVまたはExcel ファイルに読み込むことができる行数 | 1万以上 |
 | 1つのレコードタイプの数式フィールドの数 | 20 |
 | 1つのレコードタイプの接続フィールドの数 | 30 |
 | 数式フィールド式の文字数 | 50,000 |

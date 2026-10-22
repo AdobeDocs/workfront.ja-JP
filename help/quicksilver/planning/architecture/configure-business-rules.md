@@ -19,19 +19,21 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fac1ea173c1dced72e4273dc2a30b2b25c3c4071
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 5%
+source-wordcount: '1137'
+ht-degree: 3%
 ---
 
 # レコードタイプのビジネスルールの設定
 
 {{planning-important-intro}}
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Adobe Workfront Planningのレコードタイプのビジネスルールを設定して、そのタイプのレコードに対するアクションが許可または禁止される前に、特定のフィールドが必要であることを示すことができます。
 
@@ -84,7 +86,7 @@ Adobe Workfront Planningのレコードタイプのビジネスルールを設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -134,7 +136,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビジネスルール設定フォームが開きます。
 
-   ![&#x200B; ビジネスルール設定フォーム &#x200B;](assets/business-rule-setup-form.png)
+   ![ ビジネスルール設定フォーム ](assets/business-rule-setup-form.png)
 
 1. ビジネスルール設定フォームの&#x200B;**If** セクションで、特定のルールに基づいて制限または許可するアクションを選択します。 次から選択してください：<!--check UI text-->
    * **レコード編集**：このルールで定義された条件が満たされた場合、ユーザーはレコードを編集または編集できません。
@@ -191,7 +193,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **非アクティブ化**：これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
    * **削除**: ルールに関するすべての情報が削除されます。 削除されたルールは復元できません。
 
-   ![&#x200B; ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
+   ![ ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
 
    編集されたルールまたはルールの非アクティブ化は、今後のレコードにのみ適用され、過去にさかのぼって適用されません。
 1. （オプションおよび条件付き）テーブルで非アクティブ化されたビジネスルールの名前にカーソルを合わせ、**詳細** > **アクティブ化**&#x200B;をクリックしてルールをアクティブ化します。

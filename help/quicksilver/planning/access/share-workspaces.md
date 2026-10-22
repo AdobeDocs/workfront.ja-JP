@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 27%
+source-wordcount: '1150'
+ht-degree: 26%
 ---
 # ワークスペースを共有
 
+<!--
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -98,7 +100,7 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -173,11 +175,7 @@ Old:
 * ワークスペースを共有する場合、ビューは共有されません。 ビューを個別に共有する必要があります。
 * Workspace権限は、レコードタイプに対して継承された権限として表示されます。
 
-<div class="preview">
-
 * ワークスペースの所有者を、アクティブで標準ライセンスのユーザーに変更できます。 グループ、チーム、会社、または担当業務をワークスペースの所有者にすることはできません。
-
-</div>
 
 
 &lt;!—! – 実稼動時に上記を確認します。アクティブユーザーに置き換える必要がありますか？? 非アクティブでもOKです。環境がありませんでした – >
@@ -195,7 +193,7 @@ Old:
 
 1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。 共有ボックスが開きます。
 
-   ワークスペースの右上の![共有ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ワークスペースの右上の![共有ボタン ](assets/share-button-on-workspace-top-right.png)
 
 1. （条件付き）アクセス レベルに応じて、次のいずれかの操作を行います。
 
@@ -213,7 +211,7 @@ Old:
 
 1. **このワークスペースへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。<!--update screen shot at production-->
 
-   ![&#x200B; グループとUIを共有](assets/sharing-ui-with-groups.png)
+   ![ グループとUIを共有](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
@@ -223,7 +221,7 @@ Old:
 
 1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。<!--update screen shot at preview-->
 
-   ![&#x200B; グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
+   ![ グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -232,16 +230,11 @@ Old:
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
-   <div class="preview">
-
    * 所有者
 
      別のアクティブなStandard ライセンス ユーザーをワークスペースの所有者にすることしかできません。 元の所有者は、管理権限を持つワークスペースに残ります。
 
-   </div>
-
-1. <span class="preview"> （条件付き）ワークスペース所有者を変更する場合は、**所有者を変更**&#x200B;をクリックして確認します。</span>
-
+1. （条件付き）ワークスペースの所有者を変更する場合は、**所有者を変更**&#x200B;をクリックして確定します。
 
 1. 「**リンクをコピー**」をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
@@ -256,16 +249,16 @@ Old:
 1. （条件付き）ワークスペースのマネージャーである場合、次の領域でビューにアクセスするためのリクエストを他のユーザーから受け取る可能性があります。
 
    * アプリ内通知
-     ![&#x200B; アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセス要求のメール通知](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知から、**すべての通知を表示**&#x200B;をクリックし、リスト内の通知をクリックします。
 
    「**保留中のアクセス要求**」ボックスが表示されます。
 
-   ![通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーの場合、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**

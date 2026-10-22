@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 5%
@@ -48,6 +48,8 @@ ht-degree: 5%
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
+{{planning-important-intro}}
 
 Adobe Workfront Planningで自動処理を設定して、アクティブ化すると、Workfrontでオブジェクトを作成したり、プランニングレコードからトリガーされたときにWorkfront Planningでレコードを作成したりできます。 作成されたオブジェクトまたはレコードは、オートメーションのトリガー元のレコードに自動的に接続されます。
 
@@ -105,7 +107,7 @@ Workfront Planningのレコードタイプのページで、自動処理を設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -218,7 +220,7 @@ Old:
 
       条件が満たされると、Workfront Planningはオブジェクトを自動的に作成します。
 
-      ![&#x200B; フィールド値の変更トリガーが選択されました](assets/field-value-change-trigger-selected.png)
+      ![ フィールド値の変更トリガーが選択されました](assets/field-value-change-trigger-selected.png)
 
       >[!IMPORTANT]
       >
@@ -227,7 +229,7 @@ Old:
       >
       >   制限が許す以上の条件が必要な場合は、作業を2つの異なる自動化に分割します。
       >
-      >   詳しくは、「[&#x200B; フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
+      >   詳しくは、「[ フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
 
 1. **アクション** セクションの次のフィールドを更新します：<!--submitted bugs for these fields - see if they need changing here-->
    * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 必須フィールドです。
@@ -298,7 +300,7 @@ Old:
 1. （オプションおよび条件付き）レコードを作成することを選択した場合は、**フィールドを追加**&#x200B;をクリックして、あるレコードから別のレコードに追加のルックアップフィールドをマッピングします。
 1. （条件付き）元のレコードタイプと、**レコードタイプ** フィールドで選択されたレコードタイプの間に接続フィールドがない場合は、**接続フィールドを追加**&#x200B;をクリックします。
 
-   ![&#x200B; レコードを作成するための自動設定](assets/automation-setup-create-record.png)
+   ![ レコードを作成するための自動設定](assets/automation-setup-create-record.png)
 
    次の2つのフィールドが作成されます。
 

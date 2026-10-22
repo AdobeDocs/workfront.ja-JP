@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 2%
@@ -45,13 +45,15 @@ ht-degree: 2%
 
 -->
 
+{{planning-important-intro}}
+
 Adobe Workfront Planningで自動処理を設定してアクティブ化した後、それらを使用してAdobe Workfrontでオブジェクトを作成したり、Adobe Workfront Planningでレコードを作成したりできます。
 
 例えば、既存の自動化機能を使用して、Workfront計画キャンペーンを実行し、Workfrontでプロジェクトを作成して、そのキャンペーンの進行状況を追跡できます。 プロジェクトは、キャンペーンの「接続されたプロジェクト」フィールドのWorkfront計画キャンペーンに接続されます。
 
 ここでは、既存の自動処理を使用して、Workfront Planning レコードまたはWorkfront オブジェクトを作成する方法について説明します。
 
-レコードタイプの自動処理について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
+レコードタイプの自動処理について詳しくは、[ レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
 
 自動処理を使用してレコードまたはWorkfront オブジェクトを作成すると、自動処理を実行しているレコードに自動的にリンクされます。
 
@@ -113,7 +115,7 @@ Workfront Planningの自動化機能を使用して、次の項目を作成で�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -219,7 +221,7 @@ For information, see [Configure Adobe Workfront Planning automations to create r
    テーブルの下部に、オートメーションボタンなどの追加ボタンが表示された青いバーが表示されます。
 1. 青いバーの「オートメーション」ボタンをクリックします。
 
-   ![自動化ボタン &#x200B;](assets/automation-custom-button.png)
+   ![自動化ボタン ](assets/automation-custom-button.png)
 
    次のことが発生します。
 

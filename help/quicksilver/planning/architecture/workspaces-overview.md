@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 18%
@@ -38,9 +38,9 @@ ht-degree: 18%
 
 ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront プランニングでは、ワークスペースを完全にカスタマイズできます。
 
-<!--update screenshot with production, it was broken at Preview-->
+<!--update screenshot with production whe we can search for records, it was broken at Preview-->
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -57,7 +57,7 @@ ht-degree: 18%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * ワークスペースは、プランニング領域の次のタブに表示されます。
 
   * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
@@ -69,7 +69,7 @@ ht-degree: 18%
   >サンプルのワークスペースは編集せずに、自分で作成するための参照として使用することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。
   >
   >PrimeまたはUltimate Planning パッケージを購入したお客様のみが、「サンプルワークスペース」タブを表示できます。
-  >詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。
+  >詳しくは、[ ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。
 
 <!--
 No longer the case - they match now: 
@@ -118,7 +118,7 @@ No longer the case - they match now:
 Update screen shot below
 -->
 
-![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+![ グローバル検索ボックス ](assets/global-search-box.png)
 
 グローバル検索の使用については、次の点を考慮してください。
 

@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 5%
@@ -40,6 +40,8 @@ ht-degree: 5%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+{{planning-important-intro}}
 
 Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に複数のWorkspace階層を作成できます。
 
@@ -97,7 +99,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -106,7 +108,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 {#step1-to-planning}
 
 1. ワークスペースカードをクリックします。
-1. ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**設定**&#x200B;をクリックします。
+1. ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**設定**をクリックします。
 **階層** セクションがデフォルトで開きます。
 1. **階層** ページの右上隅にある&#x200B;**新しい階層**&#x200B;をクリックします。
 1. **オブジェクトを追加**&#x200B;をクリックし、ドロップダウンメニューからオブジェクトタイプを選択します。 これは階層内の最初のオブジェクトタイプです。<!--logged bug to correct to "Add object type"-->
@@ -118,7 +120,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 「**オブジェクトを追加**」をクリックして、階層内の最初の子である2番目のオブジェクトタイプを追加し、ドロップダウンメニューで別のオブジェクトタイプを選択します。
 追加の各オブジェクトタイプは、前のオブジェクトタイプの子になります。
 
-   ![&#x200B; フィールドが選択されていない新しい階層ボックス &#x200B;](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+   ![ フィールドが選択されていない新しい階層ボックス ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 
 1. 「**接続フィールドを選択**」をクリックして、2つのオブジェクトを接続するフィールドを指定します。
 1. （条件付き）複数の接続フィールドがある場合は、リストから1つ選択し，
@@ -162,7 +164,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    1. ワークスペースの&#x200B;**設定**&#x200B;領域に戻り、**新規階層**&#x200B;をもう一度クリックしてから、手順に従って階層を作成します。
 
 1. （オプション）上記の手順に従って、最大4つのオブジェクトタイプを階層に追加し続けます。 最初にすべてのオブジェクトタイプを追加してから、それらの間に接続フィールドを追加できます。
-1. （オプション） **削除** アイコン ![削除アイコン &#x200B;](assets/minus-icon.png)をクリックして、接続を削除します。
+1. （オプション） **削除** アイコン ![削除アイコン ](assets/minus-icon.png)をクリックして、接続を削除します。
 1. **保存**&#x200B;をクリックして、階層を保存します。
 
    >[!TIP]
@@ -191,7 +193,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）階層内の最後のレコードタイプの名前をクリックし、そのレコードタイプのビューからレコードの名前をクリックします。 これにより、レコードの詳細ページが開きます。 レコードのページの上部にあるレコードのパンくずリストで、作成した階層を検索します。
 
-   詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+   詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 
 
