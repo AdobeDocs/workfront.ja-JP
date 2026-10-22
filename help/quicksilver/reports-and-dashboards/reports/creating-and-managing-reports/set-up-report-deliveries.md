@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 93%
 ---
 # レポート配信の概要
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 また、メールメッセージ内のレポートの名前はリンクです。
 
-<div class="preview">
-
 ### 有効期限に関する通知を報告 {#report-expiration-notices}
 
-プレビューでは、配信されたレポートメールにはレポートの有効期限が含まれます。
+配信されたレポートメールには、レポートの有効期限が含まれます。
 
 配信が毎日繰り返される場合、有効期限が45日以内になると、メールには各配信に有効期限に関する警告が含まれます。
 
 配信が週単位または月単位で繰り返される場合、有効期限が切れる前の最後の4回のスケジュールされた配信に、有効期限に関する警告がメールに含まれます。
-
-</div>
 
 ## スケジュールされたレポートに関するレポート
 
@@ -225,7 +219,7 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 * レポートオブジェクトの&#x200B;**フィルター**&#x200B;の場合、レポートのリストまたは&#x200B;*スケジュール済みレポート ID が空白ではない*&#x200B;のステートメントを使用して、レポート用のレポートでフィルターを作成します。\
   これにより、リストまたはレポートでスケジュールされたレポートのみが表示されます。\
-  ![&#x200B; スケジュール済みレポートフィルター](assets/qs-scheduled-report-filter-350x101.png)\
+  ![ スケジュール済みレポートフィルター](assets/qs-scheduled-report-filter-350x101.png)\
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。 レポートの作成について詳しくは、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 
 <!--

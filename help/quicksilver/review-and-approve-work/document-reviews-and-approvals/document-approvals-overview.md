@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # 統一されたレビューと承認の概要
-
-{{highlighted-preview}}
 
 「レビューと承認の統合」により、Adobe WorkfrontとAdobe Frame.ioが単一の緊密に連携されたエクスペリエンスに統合され、マーケティング管理、クリエイティブレビュー、コンテンツ配信のギャップを埋めることができます。
 プロジェクトコーディネーターがWorkfrontで作業を管理し、クリエイター、マーケター、ステークホルダーがプロフェッショナル級のFrame.io ビューアでアセットをレビューし承認します。これらのツール間でファイルを移動する必要はありません。
@@ -74,7 +72,7 @@ Creative Cloud アプリケーション（Photoshop、Illustrator、InDesign）�
 * AI レビュー担当者を活用してブランドコンプライアンスのレビューを自動化する
 * その他
 
-詳しくは、[統一ドキュメント承認：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)を参照してください。
+詳しくは、[統一ドキュメント承認：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)を参照してください。
 
 
 ### Frame.io ビューアの使用
@@ -98,7 +96,7 @@ Workfront管理者は、使用率がキャップの80%と100%に達すると、�
 
 #### Frame.io ビューアでサポートされているファイルタイプ
 
-Frame.io ビューアは、一般的なビデオ、画像、オーディオ、PDF、MS® Officeのすべてのタイプをサポートしています。 サポートされているファイルの詳細なリストについては、[Frame.ioでサポートされているファイルタイプ &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)を参照してください。
+Frame.io ビューアは、一般的なビデオ、画像、オーディオ、PDF、MS® Officeのすべてのタイプをサポートしています。 サポートされているファイルの詳細なリストについては、[Frame.ioでサポートされているファイルタイプ ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)を参照してください。
 
 #### Frame.io ビューアへのアクセスとライセンス
 
@@ -110,15 +108,15 @@ Workfront プルーフ機能は、この統合では使用できません。
 
 ## 監査記録の完全性
 
-<span class="preview">統一されたレビューと承認には、包括的な監査ログが含まれており、WorkfrontとFrame.io全体のガバナンス履歴が作成されます。 変更トラッキングログは、Frame.io ビューアおよびドキュメントのライフサイクルで行われた承認に関する意思決定を記録します。 各ログエントリには、ソースシステムのアトリビューション（WorkfrontまたはFrame.io）と、Workfrontの標準の監査フィールド（日付と時刻、ログタイプ、ユーザー名、アクション、オブジェクト名）が含まれています。 Frame.io ビューアのコメントは監査ログに含まれません。</span>
+レビューと承認の統合には、包括的な監査ログが含まれており、WorkfrontとFrame.ioの包括的なガバナンス証跡を構築できます。 変更トラッキングログは、Frame.io ビューアおよびドキュメントのライフサイクルで行われた承認に関する意思決定を記録します。 各ログエントリには、ソースシステムのアトリビューション（WorkfrontまたはFrame.io）と、Workfrontの標準の監査フィールド（日付と時刻、ログタイプ、ユーザー名、アクション、オブジェクト名）が含まれています。 Frame.io ビューアコメントは監査ログには含まれません。
 
-<span class="preview"> トラッキングログの変更は、Workfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。</span>
+変更トラッキングログはWorkfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
 
 ## Workfrontの強力なプロジェクト管理
 
 プロジェクトコーディネーターは、Workfrontの強力なプロジェクト管理機能を活用して、作業を計画、追跡、管理できます。
 
-Workfrontでのプロジェクトの管理について詳しくは、[&#x200B; プロジェクト：記事インデックス &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+Workfrontでのプロジェクトの管理について詳しくは、[ プロジェクト：記事インデックス ](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
 
 ### 構造と命名規則の適用
 
@@ -306,7 +304,7 @@ Workfront管理者は、使用率が上限の80%と100%に達すると、アプ�
 
 **承認ワークフローで並行レビューパスを設定できますか？**
 
-はい。 承認ワークフローは、連続的なステージに加えて、並行するパスもサポートしています。 各パスは独立して実行され、1つ以上のシーケンシャルステージが含まれているため、異なるパスのレビューを同時に実施することができます。 1回の承認で最大30個のパスと100個のステージを設定できます。 同じオプションを承認テンプレートで使用できます。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+はい。 承認ワークフローは、連続的なステージに加えて、並行するパスもサポートしています。 各パスは独立して実行され、1つ以上のシーケンシャルステージが含まれているため、異なるパスのレビューを同時に実施することができます。 1回の承認で最大30個のパスと100個のステージを設定できます。 同じオプションを承認テンプレートで使用できます。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -334,7 +332,7 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 はい。 承認者とレビュー担当者は、レビューや承認に割り当てられたときにメール通知を受け取ります。 また、自動リマインダーメールは、締切の72時間前、24時間前、締切そのものに送信されます。
 
-承認ワークフローの各段階にカスタムメッセージを追加できます。 このメッセージは、Workfrontの承認電子メール通知および「承認」タブに表示されます。 同じメッセージを各ステージに使用することも、1つのステージごとに異なるメッセージを使用することもできます。メッセージには最大500文字を含めることができます。 承認ワークフローの作成後にカスタムメッセージを編集すると、更新されたメール通知がすべての既存の参加者に送信されます。 後で参加者を追加すると、カスタムメッセージがメール通知に含まれます。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+承認ワークフローの各段階にカスタムメッセージを追加できます。 このメッセージは、Workfrontの承認電子メール通知および「承認」タブに表示されます。 同じメッセージを各ステージに使用することも、1つのステージごとに異なるメッセージを使用することもできます。メッセージには最大500文字を含めることができます。 承認ワークフローの作成後にカスタムメッセージを編集すると、更新されたメール通知がすべての既存の参加者に送信されます。 後で参加者を追加すると、カスタムメッセージがメール通知に含まれます。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
@@ -360,17 +358,11 @@ Frame.io ビューアには、フリーハンド描画や、円、矢印、正�
 
 コメントや注釈はFrame.ioのビューア内に残るので、タイムスタンプやビジュアルマークアップなどの完全なコンテキストを維持できます。 これは、今後のリリースで進化する可能性があります。
 
-<span class="preview">
-
-プレビューでは、Workfrontのコメントパネルに、Frame.ioで新しいコメントが利用可能になったことを知らせるメッセージが表示されます。</span>
-
-<div class="preview">
+Workfrontのコメントパネルには、Frame.ioで新しいコメントが使用可能になったことを知らせるメッセージが表示されます。
 
 **WorkfrontでFrame.io コメントインジケーターを表示できるのは誰ですか？**
 
 Frame.ioですでにコメントが表示されているユーザーのみがインジケーターを表示できます。 Frame.io エンタープライズライセンスをお持ちの場合は、文書にコメントが表示されます。 Frame.io エンタープライズライセンスをお持ちでない場合は、文書に承認が存在する場合にのみ、そのライセンスが表示されます。 承認を行うと、ドキュメントに対する以前のすべてのコメントも表示されます。
-
-</div>
 
 **ダウンロードしたバージョンのアセット（PDFなど）にコメントを追加できますか？**
 

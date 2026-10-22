@@ -25,18 +25,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 15%
+source-wordcount: '568'
+ht-degree: 16%
 ---
 # Canvas ダッシュボードでのレポートのコピーと移動
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -91,30 +89,10 @@ KPI、表またはグラフのレポートは、作成後にCanvas ダッシュ�
 
 レポートを複製する前に、ダッシュボードにレポートを追加する必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
-## 実稼動環境でのレポートの複製
 
-{{step1-to-dashboards}}
-
-1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
-1. **Canvas ダッシュボード** ページで、複製するレポートの右上隅にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-icon.png) アイコンをクリックし、**複製**&#x200B;を選択します。
-
-   ![&#x200B; ボタンを複製](assets/duplicate-button.png)
-
-1. （オプション）表示される「**設定**」ボックスで、**詳細** タブに新しいレポート **名前**&#x200B;を入力します。
-
-1. （オプション）左側のタブを使用して、必要な設定を調整します。
-
-   >[!NOTE]
-   >
-   >これらのタブは、KPI、表、またはグラフのレポートを複製したかどうかに応じて異なります。  詳しくは、「[Canvas ダッシュボードでKPI レポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)」、「[Canvas ダッシュボードでチャートレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)」、「[Canvas ダッシュボードでテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)」を参照してください。
-
-1. 「**保存**」をクリックします。 複製されたレポートがダッシュボードに表示されます。
-
-<div class="preview">
-
-## プレビューでのレポートのコピーまたは移動
+## レポートのコピーまたは移動
 
 レポートを現在のダッシュボードにコピーしたり、別のダッシュボードにコピーしたり、別のダッシュボードに移動したりできます。 コピーすると、移動先にレポートの複製が作成されます。移動すると、現在のダッシュボードから移動されます。
 
@@ -131,9 +109,9 @@ KPI、表またはグラフのレポートは、作成後にCanvas ダッシュ�
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. レポートを含むダッシュボードを開きます。
-1. レポートの右上隅にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-icon.png) アイコンをクリックし、「**レポートをコピー**」を選択します。
+1. レポートの右上隅にある&#x200B;**詳細** ![詳細ボタン ](assets/more-icon.png) アイコンをクリックし、「**レポートをコピー**」を選択します。
 
-   ![&#x200B; レポートオプションをコピー](assets/copy-report-button.png)
+   ![ レポートオプションをコピー](assets/copy-report-button.png)
 
 1. **レポートをコピー** ダイアログボックスで、次のいずれかのオプションを選択します。
 
@@ -158,6 +136,5 @@ KPI、表またはグラフのレポートは、作成後にCanvas ダッシュ�
 
 1. 「**保存**」をクリックします。
 
-   ![&#x200B; コピーして移動](assets/copy-and-move.png)
+   ![ コピーして移動](assets/copy-and-move.png)
 
-</div>

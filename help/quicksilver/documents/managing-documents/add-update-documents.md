@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 55%
 ---
 # ドキュメントに更新を追加
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -84,7 +82,7 @@ ht-degree: 55%
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く** アイコン ![概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png)をクリックしてから新しいコメントを追加するか、**返信**&#x200B;をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く** アイコン ![概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png)をクリックしてから新しいコメントを追加するか、**返信**&#x200B;をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
    * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
      オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -107,14 +105,12 @@ ht-degree: 55%
 組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
-1. 必要なドキュメントを検索し、コメントアイコン ![&#x200B; コメントアイコン &#x200B;](assets/new-doc-comment-icon.png)をクリックしてコメントパネルを開きます。
-1. テキストボックスにコメントを入力し、**送信**&#x200B;をクリックします。
-   ![新しい文書コメントパネル &#x200B;](assets/comments-new-doc.png)
+1. 必要なドキュメントを検索し、コメントアイコン ![ コメントアイコン ](assets/new-doc-comment-icon.png)をクリックしてコメントパネルを開きます。
+1. テキストボックスにコメントを入力し、**送信**をクリックします。
+   ![新しい文書コメントパネル ](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### プレビューのFrame.io コメントインジケーター
+### Frame.io コメントインジケーター
 
 文書の承認ワークフローが作成されると、ユーザーはFrame.io ビューアでコメントを残したり、注釈を付けたりできます。 これらのコメントはWorkfrontのコメントパネルには表示されませんが、Frame.io ビューアで表示できます。
 
@@ -125,5 +121,3 @@ Workfrontのコメントパネルには、Frame.ioで新しいコメントが使
 >[!NOTE]
 >
 >* Frame.io エンタープライズライセンスをお持ちの場合は、承認ワークフローを使用せずにFrame.io ビューアでコメントを表示できます。
-
-</div>
