@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 83%
+ht-degree: 81%
 ---
 # Adobe Admin Console への Workfront の移行について
 
@@ -106,7 +106,7 @@ Workfront 製品プロファイル管理者（Workfront システム管理者）
 
 * **ユーザーが移行されると、Workfrontへのログイン方法の変更を通知するメールがAdobeから送信されます。** ユーザーは、既存のAdobeでログインするか、同じメールアドレスを使用して新しいAdobe IDを設定することで、初めてAdobe ID IDを使用してログインするための招待を受け入れることができます。
 
-  Adobe ID で Workfront にログインする方法について詳しくは、[Adobe Experience Cloud にログイン](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)を参照してください。
+  Adobe IDでWorkfrontにログインする方法について詳しくは、[Adobe CX Enterpriseにログイン ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise)を参照してください。
 
 ### ユーザー移行完了
 

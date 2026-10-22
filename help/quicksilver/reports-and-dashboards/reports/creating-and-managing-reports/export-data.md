@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2171'
 ht-degree: 82%
 ---
 # データの書き出し
@@ -341,16 +341,22 @@ PDF ファイルに書き出したレポートには、タイトルが付きま�
 
 Excel 形式に書き出す場合、書き出されるファイルには Workfront 内のオブジェクトへのリンクのみが含まれ、レポート配信など、書き出した Excel ドキュメント内のリンクを許可するように選択できる場所でのみサポートされます。
 
-## ブランディング {#branding}
+<!--
+
+## Branding {#branding}
 
 >[!IMPORTANT]
 >
->ブランディングは、Adobe Experience Cloud にまだオンボーディングされていない組織にのみ適用されます。
+>Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
 >
->組織が Adobe Experience Cloud にオンボーディング済みの場合、ブランディングは利用できません。
+>If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
 
-Workfront管理者がグローバルナビゲーションバー用にWorkfront インスタンスにカスタマイズされたブランディングを追加した場合、書き出されたPDF ファイルにはパーソナライズされたロゴも含まれます。
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported PDF files also include your personalized logo.
 
-その他の形式で書き出したデータは、ロゴを使用してパーソナライズできません。
+Data that is exported in any other formats cannot be personalized with your logo.
 
-Workfront インスタンスとグローバルナビゲーションバーのブランディングについて詳しくは、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)を参照してください。
+For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

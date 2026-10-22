@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 87%
 ---
 # 特定の領域に対する管理アクセス権をユーザーに付与
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ Adobe Workfront管理者は、アクセスレベルを使用して、Standardま
       <td><p>システム全体および特定のグループで使用する承認プロセスを作成および管理します。</p><p>このアクセス権がない場合、ユーザーは、管理するアクセス権を持つ項目に対して、アドホック承認プロセスのみを作成できます。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">変更履歴</span></td> 
-      <td><p><span class="preview">設定/変更履歴/変更履歴リストでWorkfrontの変更履歴ログを表示します。</span></p>
-      <p><span class="preview">このアクセス権がなければ、ユーザーは設定領域にこのオプションを持ちません。</span></p></td> 
+      <td role="rowheader">変更履歴</td> 
+      <td><p>設定/変更履歴/変更履歴リストでWorkfrontの変更履歴ログを表示します。</p>
+      <p>このアクセス権がなければ、ユーザーは設定領域にこのオプションを持ちません。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">会社</td> 
