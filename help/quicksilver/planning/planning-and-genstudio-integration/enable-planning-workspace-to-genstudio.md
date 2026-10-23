@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!-- add to TOC and mini TOC-->
+<!-- THIS IS HIDDEN FROM TOC-->
 
 <!--
 Better metadata, at publishing:
@@ -45,7 +45,7 @@ Workfront Planningに既にワークスペースがある場合は、データ�
 * Workfront PlanningとGenStudio for Performance Marketingの両方にアクセスできる必要があります。
 * ワークスペースにリンクするには、Adobe クラウドストレージプロジェクトが必要です。 組織管理者は、Adobe Admin Consoleで組織管理者を作成できます。
 
-  詳しくは、[Adobe ストレージの管理](https://helpx.adobe.com/jp/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)を参照してください。<!--ensure this site still works-->
+  詳しくは、[Adobe ストレージの管理](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)を参照してください。<!--ensure this site still works-->
 
 
 ## GenStudioに対するWorkfront計画ワークスペースの有効化
@@ -76,7 +76,7 @@ Workfront Planningに既にワークスペースがある場合は、データ�
 
       すべてのレコードタイプについて、フィールド設定を繰り返します。
 
-      ![&#x200B; ワークスペース GenStudioを有効にする – フィールド ステップ &#x200B;](assets/make-workspace-genstudio-enabled-box-fields-step.png)
+      ![ ワークスペース GenStudioを有効にする – フィールド ステップ ](assets/make-workspace-genstudio-enabled-box-fields-step.png)
 
    1. 警告を確認して対処します。
 
@@ -90,7 +90,7 @@ Workfront Planningに既にワークスペースがある場合は、データ�
 
       GenStudioからアクセスできるようにマッピングされたレコードタイプには、カードに新しい&#x200B;**Adobe** アイコンが追加されています。
 
-      ![Adobe アイコンを含むキャンペーンのレコードタイプ &#x200B;](assets/campaigns-record-type-card-with-adobe-icon.png)
+      ![Adobe アイコンを含むキャンペーンのレコードタイプ ](assets/campaigns-record-type-card-with-adobe-icon.png)
 
 1. GenStudioを開き、「**キャンペーン**」を選択し、画面の左下隅にあるこの設定のために設定した&#x200B;**ACPC プロジェクト**&#x200B;をクリックします。 読み込んだレコードタイプとフィールドを確認します。
 

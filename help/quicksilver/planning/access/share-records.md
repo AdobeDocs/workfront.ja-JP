@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 7%
 ---
 <!--update metadata with real information at release-->
@@ -52,7 +52,7 @@ Adobe Workfront Planningのレコードタイプで、個々のレコードに�
 
 * レコードへのリンクを共有します。
 
-  詳しくは、[&#x200B; リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
+  詳しくは、[ リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
 
@@ -234,7 +234,15 @@ Lilit is checking on this, it is not working correctly
    >
    >異なるワークスペースに追加されたレコードに対して、権限を共有することはできません。 レコードを一括共有する場合、レコードはすべて同じワークスペースで作成する必要があります。
 
-1. （オプション） **アクセス権を持つユーザー**&#x200B;領域で、**ワークスペース内のすべてのユーザーが** オプションをデフォルトで表示できます。  ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、レコードに対して同じ権限を持ちます。
+1. （オプション） ワークスペース内の全員が&#x200B;**表示できる** オプションがデフォルトで選択されています。  ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、レコードに対して同じ権限を持ちます。 ワークスペースへのアクセス権を持つすべてのユーザーに対する権限を制限することはできません。
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. （オプション）「**から権限を継承」オプションの下にあるユーザーのアバターをクリックして、ワークスペースから権限を継承するユーザー、チーム、グループ、企業、またはジョブロールを表示します。<!--logged bug to move "Permissions" to lowercase-->**
 
@@ -277,6 +285,7 @@ Lilit is checking on this, it is not working correctly
       >* ユーザーがレコードタイプに対してContribute以上を持っている場合、そのレコードに対して少ない権限を付与することはできません。
       >詳しくは、[Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
       >* ワークスペース内にないユーザーに権限を付与することはできません。 ワークスペースおよびレコードタイプに対する権限を持たないユーザーは、どのレコードにもアクセスできません。
+      >* 他のユーザーと共有するには、レコードの管理権限が必要です。
 
    <!--   
    Not possible:
@@ -299,7 +308,7 @@ Lilit is checking on this, it is not working correctly
    * The workspace, if they had not had permissions to the workspace before the record was shared with them.
    -->
 
-   詳しくは、[Adobe Workfront計画通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
+   詳しくは、[Adobe Workfront計画通知：記事インデックス ](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
 
 1. （オプション）コピーしたリンクを他のユーザーと共有します。
@@ -308,7 +317,7 @@ Lilit is checking on this, it is not working correctly
 
    レコードタイプを表示するには、レコードタイプに対する権限が必要です。
 
-   詳細については、「[&#x200B; リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+   詳細については、「[ リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 
 ## レコードへの権限の削除
@@ -333,7 +342,7 @@ Lilit is checking on this, it is not working correctly
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。
 
-   ![&#x200B; レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
+   ![ レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 
