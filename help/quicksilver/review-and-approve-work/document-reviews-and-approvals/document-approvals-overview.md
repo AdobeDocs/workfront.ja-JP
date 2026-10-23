@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # 統一されたレビューと承認の概要
-
-{{highlighted-preview}}
 
 「レビューと承認の統合」により、Adobe WorkfrontとAdobe Frame.ioが単一の緊密に連携されたエクスペリエンスに統合され、マーケティング管理、クリエイティブレビュー、コンテンツ配信のギャップを埋めることができます。
 プロジェクトコーディネーターがWorkfrontで作業を管理し、クリエイター、マーケター、ステークホルダーがプロフェッショナル級のFrame.io ビューアでアセットをレビューし承認します。これらのツール間でファイルを移動する必要はありません。
@@ -110,9 +108,9 @@ Workfront プルーフ機能は、この統合では使用できません。
 
 ## 監査記録の完全性
 
-<span class="preview">統一されたレビューと承認には、包括的な監査ログが含まれており、WorkfrontとFrame.io全体のガバナンス履歴が作成されます。 変更トラッキングログは、Frame.io ビューアおよびドキュメントのライフサイクルで行われた承認に関する意思決定を記録します。 各ログエントリには、ソースシステムのアトリビューション（WorkfrontまたはFrame.io）と、Workfrontの標準の監査フィールド（日付と時刻、ログタイプ、ユーザー名、アクション、オブジェクト名）が含まれています。 Frame.io ビューアのコメントは監査ログに含まれません。</span>
+レビューと承認の統合には、包括的な監査ログが含まれており、WorkfrontとFrame.ioの包括的なガバナンス証跡を構築できます。 変更トラッキングログは、Frame.io ビューアおよびドキュメントのライフサイクルで行われた承認に関する意思決定を記録します。 各ログエントリには、ソースシステムのアトリビューション（WorkfrontまたはFrame.io）と、Workfrontの標準の監査フィールド（日付と時刻、ログタイプ、ユーザー名、アクション、オブジェクト名）が含まれています。 Frame.io ビューアコメントは監査ログには含まれません。
 
-<span class="preview"> トラッキングログの変更は、Workfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。</span>
+変更トラッキングログはWorkfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
 
 ## Workfrontの強力なプロジェクト管理
 
@@ -360,17 +358,11 @@ Frame.io ビューアには、フリーハンド描画や、円、矢印、正�
 
 コメントや注釈はFrame.ioのビューア内に残るので、タイムスタンプやビジュアルマークアップなどの完全なコンテキストを維持できます。 これは、今後のリリースで進化する可能性があります。
 
-<span class="preview">
-
-プレビューでは、Workfrontのコメントパネルに、Frame.ioで新しいコメントが利用可能になったことを知らせるメッセージが表示されます。</span>
-
-<div class="preview">
+Workfrontのコメントパネルには、Frame.ioで新しいコメントが使用可能になったことを知らせるメッセージが表示されます。
 
 **WorkfrontでFrame.io コメントインジケーターを表示できるのは誰ですか？**
 
 Frame.ioですでにコメントが表示されているユーザーのみがインジケーターを表示できます。 Frame.io エンタープライズライセンスをお持ちの場合は、文書にコメントが表示されます。 Frame.io エンタープライズライセンスをお持ちでない場合は、文書に承認が存在する場合にのみ、そのライセンスが表示されます。 承認を行うと、ドキュメントに対する以前のすべてのコメントも表示されます。
-
-</div>
 
 **ダウンロードしたバージョンのアセット（PDFなど）にコメントを追加できますか？**
 

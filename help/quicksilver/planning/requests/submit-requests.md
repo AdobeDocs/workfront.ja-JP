@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 3%
 ---
 # Adobe Workfront Planning リクエストを送信して、レコードを作成
@@ -156,31 +156,25 @@ Workfront Planning リクエストフォームにリクエストを送信する�
 
 * グローバルレコードタイプからレコードを作成するためにリクエストフォームを送信すると、新しいレコードは、送信元に応じて、プライマリレコードタイプまたはセカンダリレコードタイプのいずれかに保存されます。
 
-  リクエストの送信とレコードの作成に使用する環境に応じて、グローバルレコードタイプに関連付けられたリクエストフォームのフォームを送信する際に、次のシナリオが存在します。
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  グローバルレコードタイプに関連付けられたリクエストフォームのフォームを送信する場合、次のシナリオが存在します。
 
-  * 実稼動環境では、次の操作を行います。
+  * セカンダリグローバルレコードタイプのページからリクエストフォームを送信すると、レコードはセカンダリレコードタイプページに表示されます。 ユーザーは、セカンダリワークスペースを表示するアクセス権がある場合、プライマリレコードタイプのページに新しいレコードも表示されます。
+  * プライマリレコードタイプページから、またはこの記事に記載されているその他の方法を使用してリクエストフォームを送信すると、レコードはプライマリレコードタイプページに表示されます。
+  * **Workspace** フィールドがリクエストフォームで使用でき、ユーザーがレコードを追加する特定のワークスペースを手動で選択した場合、フォームがプライマリレコードタイプとセカンダリレコードタイプのページのどちらかから選択されたかどうかに関係なく、そのスペースにレコードが保存されます。
 
-    * この記事で説明されているメソッドを使用して、グローバルレコードタイプに関連付けられたリクエストフォームを送信すると、レコードはプライマリレコードタイプのページに表示されます。
-
-  * <span class="preview"> プレビュー環境には、次のシナリオが存在します：</span>
-
-    <div class="preview">
-
-    * セカンダリグローバルレコードタイプのページからリクエストフォームを送信すると、レコードはセカンダリレコードタイプページに表示されます。 ユーザーは、セカンダリワークスペースを表示するアクセス権がある場合、プライマリレコードタイプのページに新しいレコードも表示されます。
-    * プライマリレコードタイプページから、またはこの記事に記載されているその他の方法を使用してリクエストフォームを送信すると、レコードはプライマリレコードタイプページに表示されます。
-    * **Workspace** フィールドがリクエストフォームで使用でき、ユーザーがレコードを追加する特定のワークスペースを手動で選択した場合、フォームがプライマリレコードタイプとセカンダリレコードタイプのページのどちらかから選択されたかどうかに関係なく、そのスペースにレコードが保存されます。
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
-
-<div class="preview">
 
 * リクエストが送信された後、他のユーザーとリクエストを共有できます。
 
   詳しくは、[計画リクエストの共有](/help/quicksilver/planning/requests/share-requests.md)を参照してください。
-
-</div>
 
 
 <!--
@@ -223,15 +217,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   ><span class="preview">依存する接続されたレコード フィールドの値は、レコード間の依存関係ルールによって制限されます。 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。</span>
+   >依存接続レコードフィールドの値は、レコード間の依存関係ルールによって制限されます。 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
 
-1. （オプションおよび条件付き）「**フォームに入力**」をクリックすると、AIがフォームに入力します。 以前のリクエストの情報に基づいて、Workfrontがフォームのフィールドに入力します。
+1. （オプションおよび条件付き）「**フォームに入力**」をクリックしてファイルを添付し、AIにファイル内の情報を入力してもらいます。<!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >組織がフォーム入力機能を使用できるようにするには、システム環境設定エリアの&#x200B;**AI フォーム入力**&#x200B;を許可する必要があります。
+   >* 組織がフォーム入力機能を使用できるようにするには、システム環境設定エリアの&#x200B;**AI フォーム入力**&#x200B;を許可する必要があります。
    >
-   >手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
+   >     手順については、[AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力する](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)を参照してください。
+   >
+   >* <span class="preview"> ワークスペース マネージャーがリクエスト フォームに既定のプロンプトを追加した場合、AIは既定のプロンプトで設定されたルールに基づく情報をフォームに入力します。
+   >
+   >     詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
 
 

@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 7%
 ---
 # WorkfrontでのCX Enterprise Coworkerの使用
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -76,7 +74,10 @@ Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX
    プロンプトの例については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)の記事のプロンプトを参照してください。
 1. チャット入力ボックスのアクションのいずれかを使用します。
 
-   * **+ （添付）**：添付メニューを開いて、メッセージにファイルまたはデータオブジェクトを追加します。
+   * **+ （添付）**：次の機能の添付メニューを開きます。
+     * コマンド
+     * ファイルを添付
+     * オブジェクトの参照
    * **プランモード**：共同作業者チャットにステップバイステップのプランを提案するよう依頼し、承認のために一時停止してから実行します。 これをオフにすると、同僚チャットが直接動作します。
    * **文字起こしビュー**:Coworker Chatの内部アクティビティ（標準、フォーカス、詳細）の表示量を制御します。
    * **マイク**：音声入力でメッセージを指示します。 録音を停止するには、もう一度選択します。

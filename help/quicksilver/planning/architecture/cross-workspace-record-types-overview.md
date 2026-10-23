@@ -26,16 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1892'
-ht-degree: 3%
+source-wordcount: '1831'
+ht-degree: 2%
 ---
 # クロスワークスペースのレコードタイプの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -205,8 +208,8 @@ These two capabilities will come later - and edit some of the bullets below afte
   * 自動処理の作成と管理
   * リクエストフォームの作成と管理
 
-    <span class="preview"> セカンダリ レコード タイプ ページのリクエスト フォームを使用するか、プライマリ グローバル レコード タイプ用に作成されたリクエスト フォームに入力してWorkspace フィールドを更新する際に、レコードを保存するワークスペースを指定することで、セカンダリ レコード タイプのレコードを作成できます。
-    詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。</span>
+    セカンダリレコードタイプ ページのリクエストフォームを使用するか、プライマリグローバルレコードタイプ用に作成されたリクエストフォームに入力してWorkspace フィールドを更新する際に、レコードを保存するワークスペースを指定することで、セカンダリレコードタイプのレコードを作成できます。
+    詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 
 * セカンダリワークスペースに追加されたレコードは、これらのワークスペースに対する表示権限またはそれ以上の権限がある場合、次のワークスペースから表示されます。

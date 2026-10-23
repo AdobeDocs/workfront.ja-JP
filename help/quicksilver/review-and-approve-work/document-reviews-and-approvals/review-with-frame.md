@@ -26,22 +26,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 6%
 ---
 # Frame.io ビューアでのレビューと承認
-
-{{highlighted-preview}}
 
 Frame.io ビューアを使用して、Workfrontでドキュメントをレビューおよび承認できます。
 
 Frame.io ビューアを使用してWorkfront ドキュメントを確認すると、コメントを残したり、ドキュメント、画像、ビデオの特定のセクションにマークを付けたりして、チームと効率的に共同作業を行い、フィードバックが明確で実用的なものにすることができます。
 
 WorkfrontとのFrame.io統合について詳しくは、[統一レビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)を参照してください。
-
-
 
 ## アクセス要件
 
@@ -98,7 +94,7 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
    >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
 1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。
-コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Workfrontにはコメントは表示されません。 <span class="preview">ただし、Workfrontのドキュメントのコメントパネルには、カウントが利用可能な場合のコメントの数と、Frame.io ビューアを開いて読み取るためのリンクが表示されます。</span> Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Workfrontにはコメントは表示されません。 ただし、Workfrontのドキュメントのコメントパネルには、カウントが利用可能な場合のコメント数と、Frame.io ビューアを開いて読み取るためのリンクが表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 1. ドキュメントに問題がなければ、Workfrontのドキュメントの詳細ページに戻り、レビューを完了としてマークします。
 
    ![&#x200B; レビュー完了をマーク &#x200B;](assets/mark-review-complete.png)
@@ -123,7 +119,7 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
 
    >[!NOTE]
    >
-   > <span class="preview"> プレビューでは、Workfrontのコメントパネルに、Frame.ioで新しいコメントが利用可能になったことを知らせるメッセージが表示されます。</span>
+   >Workfrontのコメントパネルに、Frame.ioで新しいコメントが利用可能になったことを知らせるメッセージが表示されます。</span>
 
 
 1. 文書に問題がなければ、Frame.io ビューアで次のいずれかの決定を選択できます。

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 32%
+source-wordcount: '615'
+ht-degree: 26%
 ---
 # カスタム四半期と週を有効にする
 
@@ -38,10 +38,12 @@ ht-degree: 32%
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<!--
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 レポートの目的で、組織の四半期がカレンダーの日付（営業日や買い物日など）以外の特定の条件に基づいている場合は、カスタム四半期を作成できます。
 
@@ -50,11 +52,7 @@ ht-degree: 32%
 * [!DNL Workfront]のみを購入したお客様は、[!DNL Adobe Workfront] システムに対して最大8つのカスタム四半期を設定できます。
 * [!DNL Workfront]および[!DNL Workfront Planning]を購入したお客様は、ご使用の[!DNL Workfront] システムに対して最大100 クォーターを設定できます。このクォーターは[!DNL Planning]でも利用できます。
 
-<div class="preview">
-
 * [!DNL Workfront]および[!DNL Workfront Planning]を購入したお客様は、カスタム四半期ごとにカスタム週を設定できます。 カスタム週は、[!DNL Planning] タイムラインビューに表示されます。
-
-</div>
 
 ## アクセス要件
 
@@ -134,46 +132,49 @@ When we release fiscal weeks, replace the table above with this:
 
 ## [!DNL Workfront] システムのカスタム四半期を設定する
 
-カスタム四半期の設定は、使用する環境によって異なります。
+<!--
+Setting up custom quarters differs depending on which environment you use. 
 
-### 実稼動環境で[!DNL Workfront] システムのカスタム クォーターを設定する
+### Set up custom quarters for your [!DNL Workfront] system in the Production environment
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL カスタム四半期]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Custom Quarters]**.
 
-1. 「**[!UICONTROL カスタム四半期を有効にする]**」を選択します。
+1. Select **[!UICONTROL Enable Custom Quarters]**.
 
-1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
-1. カスタム四半期の開始日と終了日を選択します。
+1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
+1. Select start and end dates for the custom quarter.
 
-   ![&#x200B; カスタム四半期](assets/custom-quarters-nwe.png)
+   ![Custom quarters](assets/custom-quarters-nwe.png)
 
-1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
+1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
 
-   >[!IMPORTANT]
-   >
-   > 会社が[!DNL Workfront Planning]を購入した場合、四半期の間にギャップまたは重複がある場合は、カスタム四半期を保存できません。
-   >![重複の警告があるカスタム四半期](assets/custom-quarters-with-overlap-warning.png)
-   >四半期間のギャップと重複は、[!DNL Workfront]人のお客様に対してのみ許可されます。
+      >[!IMPORTANT]
+      >
+      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
+      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning.png)
+      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
 
-1. （オプションおよび条件付き）会社が[!DNL Workfront Planning]なしで[!DNL Workfront]のみを購入した場合は、会計四半期を参照するレポート要素を作成します。
+1. (Optional and conditional) If your company purchased only [!DNL Workfront], without [!DNL Workfront Planning], create a reporting element that refers to the fiscal quarters.
 
-   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
 
-   ![&#x200B; カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
 
-   「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
+   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
 
-   レポート要素について詳しくは、[レポート要素：フィルター、ビュー、およびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
+   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   フィルターの作成について詳しくは、[フィルターを作成または編集 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
-1. （オプションおよび条件付き）会社がWorkfront Planningを購入し、[!DNL Workfront Planning]にアクセスできる場合は、レコードタイプページに移動してタイムラインビューを開きます。 ビューには、新しいカスタム四半期が表示されます。
-詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
+   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Optional and conditional) If your company purchased Workfront Planning and you have access to [!DNL Workfront Planning], go to a record type page and open a timeline view. The view displays the new custom quarters. 
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 <div class="preview">
 
-### プレビュー環境で[!DNL Workfront] システムのカスタム クォーターを設定します
+### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+
+-->
 
 >[!NOTE]
 >
@@ -233,6 +234,6 @@ When we release fiscal weeks, replace the table above with this:
    フィルターの作成について詳しくは、[フィルターを作成または編集 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 1. （オプションおよび条件付き）Workfront Planningでカスタム四半期および週を表示するには、レコードタイプページに移動してタイムラインビューを開きます。 ビューには、新しいカスタム四半期と週が表示されます。
 
-詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
+   詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
-</div>
+

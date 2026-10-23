@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 71%
+source-wordcount: '991'
+ht-degree: 72%
 ---
 # キュートピックを作成
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ drafted - replace table with P&P:
 
 1. 編集するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで「**トピックをキュー**」をクリックします。
-1. 編集するキュートピックをクリックします。
-   <span class="preview">編集するキュートピックの横にあるチェックボックスを選択し、画面下部の青いアクションバーの&#x200B;**編集**&#x200B;をクリックします。</span>
+1. 編集するキュートピックの横にあるチェックボックスを選択し、画面下部の青いアクションバーの&#x200B;**編集**&#x200B;をクリックします。
 
 使用可能な編集オプションについて詳しくは、この記事の「[&#x200B; キューのトピックを作成](#create-a-queue-topic)」を参照してください。
 
@@ -218,6 +215,5 @@ drafted - replace table with P&P:
 1. 削除するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで「**トピックをキュー**」をクリックします。
 1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 チェックマークがボックスに表示されます。
-1. ページ上部の&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
-   <span class="preview">画面下部のアクションバーで&#x200B;**削除**&#x200B;をクリックします。</span>
+1. 画面下部のアクションバーで「**削除**」をクリックします。
 

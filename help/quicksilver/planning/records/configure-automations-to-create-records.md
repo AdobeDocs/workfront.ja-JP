@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 5%
@@ -48,6 +48,8 @@ ht-degree: 5%
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
+{{planning-important-intro}}
 
 Adobe Workfront Planningで自動処理を設定して、アクティブ化すると、Workfrontでオブジェクトを作成したり、プランニングレコードからトリガーされたときにWorkfront Planningでレコードを作成したりできます。 作成されたオブジェクトまたはレコードは、オートメーションのトリガー元のレコードに自動的に接続されます。
 

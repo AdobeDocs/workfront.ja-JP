@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 19%
 ---
 # ビジネスプロファイルの表示と管理
 
-{{highlighted-preview}}
-
 ビジネスプロファイルをユーザーに割り当てるには、グループと関連するアクセスレベルを割り当てる必要があります。
 
-Workfront管理者は、アクセスレベルとグループの組み合わせを割り当てることで、ユーザーのビジネスプロファイルを設定できます。 これは、Workfrontのユーザーのユーザーページから管理されます。 <span class="preview"> グループ管理者は、ビジネスプロファイルの作成、編集、削除も可能ですが、管理するグループに対してのみ実行できます。</span>
+Workfront管理者は、アクセスレベルとグループの組み合わせを割り当てることで、ユーザーのビジネスプロファイルを設定できます。 これは、Workfrontのユーザーのユーザーページから管理されます。 グループ管理者は、ビジネスプロファイルの作成、編集、削除も可能ですが、管理するグループに対してのみ可能です。
 
 ビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
@@ -56,7 +54,7 @@ Workfront管理者は、アクセスレベルとグループの組み合わせ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td><p>システム管理者</p><p><span class="preview">グループ管理者（管理するグループの場合）</span></p></td>
+   <td><p>システム管理者</p><p>グループ管理者（管理するグループの場合）</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ Workfront管理者は、アクセスレベルとグループの組み合わせ�
 
 ## ビジネスプロファイルの編集
 
-<div class="preview">
-
 ビジネスプロファイルを編集すると、ビジネスプロファイルの作成に使用したのと同じウィンドウが開きます。
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ Workfront管理者は、アクセスレベルとグループの組み合わせ�
 >
 >グループ管理者は、管理するグループのビジネスプロファイルのみを編集できます。
 
-</div>
-
 ## ビジネスプロファイルの削除
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ Workfront管理者は、アクセスレベルとグループの組み合わせ�
 >[!NOTE]
 >
 >グループ管理者は、管理するグループのビジネスプロファイルのみを削除できます。
-
-</div>

@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 ---
 # WorkfrontにおけるCX Enterprise Coworkerの概要
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -38,4 +36,5 @@ WorkfrontでのCoworkerの使用について詳しくは、[WorkfrontでのCX En
 WorkfrontのCoworkerで使用できるスキルについては、「[CX Enterprise CoworkerのWorkfront スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)」を参照してください。
 
 プロンプトの例については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)の記事のプロンプトを参照してください。
+
 

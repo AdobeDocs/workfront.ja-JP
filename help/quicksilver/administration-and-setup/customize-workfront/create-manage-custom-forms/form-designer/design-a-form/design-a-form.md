@@ -34,14 +34,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '8284'
+source-wordcount: '8130'
 ht-degree: 75%
 ---
 # カスタムフォームの作成
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -487,33 +485,8 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">選択肢 </td> 
-    <td> 
-    <p>次のいずれかのオプションを選択します。</p> 
-    <ul> 
-    <li><strong>値を表示</strong>：それぞれの選択値をフィールドに表示します。 それぞれの選択のラベルは、デフォルトで表示されます。</li>
-   <li><strong>A～Z で順に選択肢を並べ替える</strong>：フィールドに追加した選択肢をアルファベット順に並べ替えます。</li>
-    </ul>
-     <p>ユーザーに追加するそれぞれの選択肢に対して、「歯車」アイコン<img src="assets/gear-icon-settings.png">をクリックし、以下のオプションのいずれかを選択します。</p> 
-    <ul> 
-    <li><strong>デフォルトで選択</strong>：フィールドでデフォルトの選択肢を選択します。</li> 
-    <li> <p><strong>選択肢を非表示</strong>：フィールドで選択肢を非表示にします。 非表示された選択肢は、レポート内で引き続きアクセスできます。</p> </li> 
-    <li> <p><strong>選択肢を削除</strong>：フィールドから選択肢を削除します。</p> <p><b>警告</b>：この選択肢を使用する現在のオブジェクトがある場合は、フィールドから削除しないでください。 削除すると、履歴データが失われる可能性があります。 その代わりに、非表示にするオプションを選択します。これにより、ユーザーは今後このオプションを選択できなくなります。</p> </li> 
-    </ul>   
-    <p><b>メモ：</b>選択できる選択肢の数に制限はありません。 </p>    
-    </td> 
-    <td><ul>
-    <li>ラジオボタン</li>
-    <li>チェックボックスグループ</li>
-    <li>単一選択ドロップダウン</li>
-    <li>複数選択ドロップダウン</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">選択肢</span></td> 
+    <td role="rowheader">選択肢</td> 
     <td>
-    <div class="preview">
     <p>「<strong>選択肢を編集</strong>」をクリックして、フィールドの選択肢を追加または編集します。</p>
     <p>選択肢を編集ダイアログで新しい選択肢を追加するには：</p>
     <ol>
@@ -530,13 +503,12 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
     <li>「<strong>選択肢A ～ Zを並べ替え</strong>」をクリックして、フィールド内の選択肢をアルファベット順に並べ替えます。</li>
     </ul>
     <p>選択肢の編集が完了したら、<strong>保存</strong>をクリックします。</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">ラジオボタン</span></li>
-    <li><span class="preview">チェックボックスグループ</span></li>
-    <li><span class="preview">単一選択ドロップダウン</span></li>
-    <li><span class="preview">複数選択ドロップダウン</span></li>
+    <li>ラジオボタン</span></li>
+    <li>チェックボックスグループ</span></li>
+    <li>単一選択ドロップダウン</span></li>
+    <li>複数選択ドロップダウン</span></li>
     </ul>
     </td>
     </tr> 
@@ -576,6 +548,37 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
    または
 
    「**保存して閉じる**」をクリックします。
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 

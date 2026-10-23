@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5576'
 ht-degree: 38%
 ---
 <!--
@@ -51,14 +51,15 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # フィールドの作成
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Adobe Workfront プランニングでは、レコードタイプのカスタムフィールドを作成できます。 そしてフィールドを Workfront プランニングレコードに関連付けて、レコードの情報を強化できます。
+Adobe Workfront Planning では、レコードタイプのカスタムフィールドを作成できます。 そしてフィールドを Workfront プランニングレコードに関連付けて、レコードの情報を強化できます。
 
 レコードタイプに関連付けるフィールドを作成するには、まずレコードタイプを作成する必要があります。 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
@@ -307,15 +308,10 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
 1. （オプションおよび条件付き）フィールドを追加した後、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**削除**&#x200B;してフィールドを削除します。
 
    詳しくは、[&#x200B; フィールドの削除](/help/quicksilver/planning/fields/delete-fields.md)を参照してください。
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. （オプションおよび条件付き）フィールドを追加した後、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**フィールドを共有**&#x200B;してフィールドを共有します。
 
-1. <span class="preview"> （オプションおよび条件付き）フィールドを追加したら、テーブルビューの列ヘッダーのフィールド名にカーソルを合わせて、**詳細** ドロップダウンメニューをクリックし、**フィールドを共有**&#x200B;してフィールドを共有します。</span>
-
-   </span>詳しくは、[&#x200B; フィールドの共有](/help/quicksilver/planning/access/share-fields.md)を参照してください。</span>
+   詳しくは、[&#x200B; フィールドの共有](/help/quicksilver/planning/access/share-fields.md)を参照してください。
 
 ### 1 行テキスト {#single-line-text}
 

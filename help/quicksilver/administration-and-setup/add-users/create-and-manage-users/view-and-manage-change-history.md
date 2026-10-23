@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 6%
 ---
 # 変更履歴の表示と管理
-
-{{preview-fast-release-general}}
 
 変更履歴を使用すると、システム管理者は、Adobe Workfrontのオブジェクトと特定のフィールドに対する変更を設定および追跡できます。 柔軟な設定により、管理者は、どのオブジェクトとフィールドを追跡するかを正確に設定できます。
 
@@ -31,7 +29,7 @@ ht-degree: 6%
 * アクセスレベルや担当業務の作成や削除など、設定領域でのアクティビティ
 * プロジェクトの説明の編集やユーザーのレイアウトテンプレートの変更など、フィールドレベルの更新
 * プロジェクトのステータスの更新や、タスクへのカスタムフォームの添付など、オブジェクトの更新
-* <span class="preview">参加者と決定を含む、統一されたレビューと承認のワークフローアクティビティ </span>
+* 参加者と決定者を含む統合レビューおよび承認ワークフロー活動
 
 追跡するオブジェクトとフィールドの定義について詳しくは、[変更履歴で追跡するフィールドの設定](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)を参照してください。
 

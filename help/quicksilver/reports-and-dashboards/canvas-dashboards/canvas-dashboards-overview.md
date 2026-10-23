@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 22%
 ---
 # キャンバスダッシュボードの概要
@@ -43,11 +43,7 @@ ht-degree: 22%
 >
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
->このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
->
->* Amazon Web Services用に独自のキーを持ち込む
->* Azure
->* Google Cloud Platform
+
 
 カンバスダッシュボードを使用すると、レポートタイプをカンバスに追加して、Adobe Workfront データを簡単に視覚化できます。カンバスには、サイズ変更やドラッグ&amp;ドロップなど、様々な柔軟なレイアウトオプションが用意されています。
 

@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 30%
+source-wordcount: '1130'
+ht-degree: 29%
 ---
 # ドキュメントバージョンの管理
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Workfront では、複数のバージョンのドキュメントを管理できます。
 
@@ -162,9 +160,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
    ![&#x200B; ドキュメントのバージョンを削除](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## プレビューの新しいドキュメント エリアでドキュメント バージョンを管理する
+## 新しいドキュメント領域でのドキュメントバージョンの管理
 
 組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
@@ -239,12 +235,6 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
    >
    >バージョンを削除しても、他のバージョンの番号は変更されません。 例えば、バージョン V1 ～ V5の文書からV3を削除した場合、残りのバージョンは元の番号を保持し、その後はV3はありません。 次にアップロードするバージョンはV6になります。
 
-</div>
+### 承認中に現在のファイルを表示
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+ドキュメントがCreative Cloud ファイル（例えば、Photoshop クラウドドキュメント）であり、承認中に誰かがドキュメントを編集した場合、Workfrontには、承認中のバージョンとは別に、公開中のドキュメントに新しい更新が存在することを示すバッジが付いた&#x200B;**現在のファイル** セクションが表示されます。

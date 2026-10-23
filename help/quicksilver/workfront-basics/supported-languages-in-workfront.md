@@ -18,14 +18,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 97%
+ht-degree: 79%
 ---
 # Adobe Workfront でサポートされている言語
 
-Adobe Workfront の表示言語や Workfront から送信されるメールの表示言語は、ブラウザーの言語の環境設定（組織が Adobe Admin Console に移行していない場合）、Adobe Experience Cloud プロファイルの言語の環境設定（組織が Adobe Admin Console 上にある場合）、および Workfront 内のデフォルトのメールロケールを調整することで変更できます。
+ブラウザーの言語設定（組織がAdobe Admin Consoleに移行されていない場合）またはAdobe CX Enterprise プロファイルの言語設定（Adobe Admin Consoleの場合）とWorkfront内のデフォルトの電子メールロケールを調整することで、Adobe WorkfrontおよびWorkfrontからの電子メールを表示する言語を変更できます。
 
 Workfront の表示言語を変更するには、この記事の[言語の変更](#change-the-language)を参照してください。
 
@@ -44,7 +44,7 @@ Workfront は、次の言語をサポートしています。
 * 中国語 - 簡体字（zh-CN）
 * 中国語 - 繁体字（zh-TW）
 
-ブラウザーで Workfront を表示する際に使用する言語は、組織が Adobe Admin Console 上にない場合はブラウザーの言語設定によって、組織が Adobe Admin Console 上にある場合は Adobe Experience Cloud プロファイルの言語によって制御されます。 いずれの場合も、サポートされる言語リストに表示されている言語を選択していることを確認してください。
+お客様のブラウザーでWorkfrontを表示するために使用される言語は、お客様の組織がAdobe Admin Consoleを使用していない場合はブラウザーの言語設定によって、お客様の組織がAdobe Admin Consoleを使用している場合はAdobe CX Enterpriseのプロフィール言語によって制御されます。 いずれの場合も、サポートされる言語リストに表示されている言語を選択していることを確認してください。
 
 サポートされている言語のいずれかで送信メールを表示するには、Workfront のユーザーのメールロケールまたは顧客情報の設定を変更します。\
 顧客情報の設定を変更するには、Workfront 管理者である必要があります。\
@@ -119,10 +119,10 @@ Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](h
 | URL | Adobe Experience | 言語コントロール |
 |---|---|---|
 | (CompanyName).my.workfront.com | Adobe Admin Console に移行していません | [ブラウザーの言語の変更](#change-the-browser-language) |
-| experience.adobe.com | Adobe Admin Console に移行済み | [Adobe Experience Cloud の言語の変更](#change-the-adobe-experience-cloud-language) |
+| experience.adobe.com | Adobe Admin Console に移行済み | [Adobe CX Enterpriseの言語を変更](#change-the-adobe-cx-enterprise-language) |
 
 * [ブラウザーの言語の変更](#change-the-browser-language)
-* [Adobe Experience Cloud の言語の変更](#change-the-adobe-experience-cloud-language)
+* [Adobe CX Enterpriseの言語を変更する](#change-the-adobe-cx-enterprise-language)
 * [Workfront とユーザーのメールロケールの変更](#change-the-workfront-and-user-locales)
 
 <!--DELETE THIS SECTION MARCH 2026-->
@@ -139,11 +139,11 @@ The browser language must be changed on an individual user basis.
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 -->
 
-### Adobe Experience Cloud の言語の変更
+### Adobe CX Enterpriseの言語を変更する
 
-組織が Adobe Admin Console に移行済みである場合、Workfront に表示される言語は Adobe Experience Cloud のプロファイル言語によって決まります。
+組織がAdobe Admin Consoleに移行されている場合、Adobe CX Enterprise プロファイル言語によって、Workfrontに表示される言語が決まります。
 
-1. Adobe Experience Cloud ツールバーの右端にあるプロファイル写真をクリックし、「**環境設定**」をクリックします。 Adobe Experience Cloud ツールバーは、メインの Workfront ツールバーのすぐ上にあります。
+1. Adobe CX Enterprise ツールバーの右端にあるプロフィール写真をクリックし、**環境設定**&#x200B;をクリックします。 Adobe CX Enterprise ツールバーは、メインのWorkfront ツールバーのすぐ上にあります。
 
 1. 自分の名前とメールアドレスの下の&#x200B;**プロファイル**&#x200B;で、現在選択されている言語の名前をクリックします。
 
@@ -178,7 +178,7 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 >[!NOTE]
 >
->言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 詳しくは、この記事の [Adobe Experience Cloud の言語の変更](#change-the-adobe-experience-cloud-language)を参照してください。
+>言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 この記事の「[Adobe CX Enterprise言語を変更](#change-the-adobe-cx-enterprise-language)」を参照してください。
 
 <!--
 To change your User Email Locale:

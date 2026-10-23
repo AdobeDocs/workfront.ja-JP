@@ -30,18 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 97ceae994929577acf1f7931df494b8b45b50e13
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 8%
+source-wordcount: '1631'
+ht-degree: 7%
 ---
 # Adobe Workfront計画Designerの基本を学ぶ
 
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
+
+-->
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ ht-degree: 8%
 
 AIを活用したAdobe Planning Designerを使用すると、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と設定、フィールドと式の定義、レコードの管理、変更履歴の確認、カスタムビューの構築など、あらゆることをサポートしています。
 
-AI アシスタントまたは<span class="preview"> CX Enterprise Coworker</span>を通じて直接使用する場合でも、Planning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
+直接使用する場合でも、AI アシスタントやCX Enterprise Coworkerを通じてその機能にアクセスする場合でも、Workfront PlanningのPlanning Designerは、構造化された連続性のある情報を構築および管理するための柔軟で強力な環境を提供します。
 
 Workfront Planningについて詳しくは、次の記事を参照してください。
 
@@ -215,15 +219,16 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Workfront管理者は、組織のPlanning Designerを有効にする必要があります。 この後、デフォルトでは、すべてのユーザーがPlanning Designerを使用できます。
-* 組織がAI契約書に署名している場合、Planning Designerで実行したアクションは、Planning エリアで使用する場合、AI アシスタントまたは<span class="preview"> Coworker</span>でも実行できます。
-* AI アシスタントまたは<span class="preview">同僚</span>が計画領域で実行したアクション、または計画Designerが実行したアクションは、Workfront計画の権限とWorkfrontのアクセスレベルのコンテキストにあります。
+* 組織がAI契約書に署名している場合、計画領域でAI アシスタントを使用すると、計画Designerで実行されたアクションもAI アシスタントで実行できます。
+* また、CX Enterprise Coworkerを使用して同様の機能にアクセスすることもできます。
+* 計画領域でAI アシスタントまたは同僚が実行するアクション、または計画Designerが実行するアクションは、Workfront計画の権限およびWorkfront アクセスレベルのコンテキストに含まれます。
 
   詳しくは、次の記事を参照してください。
 
   * [Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Adobe Workfront プランニング使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI アシスタント、<span class="preview">同僚、</span>またはユーザーの代理でPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
+* AI アシスタント、同僚、またはユーザーの代わりにPlanning Designerによって行われた変更は、レコードの履歴パネルで追跡されます。
 
 * 計画Designerによって行われたアクションは永続的であり、元に戻せない可能性があります。 例えば、フィールドの削除を元に戻すことはできません。 Designerが提案したすべての措置を承認する前に再検討する。
 
@@ -235,7 +240,7 @@ Sargis and Ashot  said these are not required:
 
 ## Planning Designerで現在使用できる機能
 
-Planning Designer、AI Assistant、または<span class="preview">Coworker、</span>のいずれかを使用して、次のいずれかの操作を実行できます。
+Planning Designer、またはAI AssistantまたはCoworkerのいずれかを使用して、次のいずれかのアクションを実行できます。
 
 * ワークスペースの作成と設定
 
@@ -274,7 +279,7 @@ Planning Designer、AI Assistant、または<span class="preview">Coworker、</s
 
 ## Planning Designerを使用したオブジェクトの作成または更新
 
-Workfront Planningでオブジェクトを作成または更新するには、特に指定がない限り、Planning Designer、AI アシスタント、または<span class="preview"> Coworker</span>を使用します。
+Workfront Planningでは、特に指定がない限り、Planning Designer、AI Assistant、Coworkerのいずれかを使用してオブジェクトを作成または更新できます。
 
 >[!TIP]
 >
@@ -293,7 +298,7 @@ Workfront Planningでオブジェクトを作成または更新するには、�
 
    ![Designer ウィンドウの計画](assets/planning-designer-window.png)
 
-1. 提供されたスペースで、AI アシスタント <span class="preview">または同僚</span>のプロンプトを入力し始め、完了したら「Enter」をクリックします。
+1. 提供されたスペースで、Planning Designer AI アシスタントのプロンプトを入力し始め、完了したら「Enter」をクリックします。
 
    <!--add screen shot-->
 

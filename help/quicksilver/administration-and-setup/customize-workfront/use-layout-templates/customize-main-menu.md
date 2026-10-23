@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 54%
+source-wordcount: '700'
+ht-degree: 56%
 ---
 # レイアウトテンプレートを使用したメインメニューのカスタマイズ
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
    * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
    * ![&#x200B; アイコン &#x200B;](assets/move-icon---dots.png)項目をドラッグして、メインメニューでの表示順序を変更します。
 
-     >[!NOTE]
-     >
-     >システム項目の順序は変更できません。 これらの項目は、アクティブな場合は常にメインメニューの下部に表示されます。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. **システム**&#x200B;項目について、次のいずれかの操作を行います。
 
    * メインメニューに表示しない![非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)項目を非表示にします。
    * メインメニューに表示する![表示アイコン &#x200B;](assets/add-icon-plus-in-circle.png)項目を表示します。
-
-</div>
 
 1. 「**完了**」をクリックします。
 

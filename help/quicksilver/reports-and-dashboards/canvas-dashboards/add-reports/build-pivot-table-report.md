@@ -5,24 +5,18 @@ title: Canvas ダッシュボードでのピボットテーブルレポートの
 description: ピボットテーブルレポートをCanvas ダッシュボードに追加すると、データの集計合計を表形式で表示できます。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 9%
+source-wordcount: '1481'
+ht-degree: 8%
 ---
 # Canvas ダッシュボードでのピボットテーブルレポートの作成
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
 >Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
->このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
->
->* Amazon Web Services用に独自のキーを持ち込む
->* Azure
->* Google Cloud Platform
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+
 
 ピボットテーブルレポートをCanvas ダッシュボードに追加すると、合計、数、平均などのデータの集計合計を表形式で表示できます。 ピボットテーブルは、複数の集計値を比較したり、複数のディメンションに対してカウントを比較したりする場合に便利です。
 

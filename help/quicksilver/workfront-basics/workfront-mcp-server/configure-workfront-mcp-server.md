@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2357'
 ht-degree: 1%
 ---
 
@@ -38,6 +38,16 @@ Workfront MCP サーバーは、Model Context Protocol （MCP）をサポート�
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
 
+>[!NOTE]
+>
+>すべてのツールを事前に読み込むクライアントのMCP カタログのサイズを小さくするには、`toolsets` クエリパラメーターをWorkfront MCP サーバーのURLに追加します。 例：
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>```
+>
+>ツールセットについて詳しくは、「Workfront MCP Server Tools」の「[Adobe Workfront MCP Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) ツールセット」を参照してください。
+
 ## 前提条件
 
 WorkfrontをAI エージェント型プラットフォームに接続する前に、次の手順を実行する必要があります。
@@ -58,7 +68,7 @@ MCP サーバーアクセスは、2人の別々の管理者によってゲート
 
 * エンタープライズ版のAI エージェント型プラットフォームを使用する場合、そのプラットフォームの管理者は、組織の[!DNL Adobe Workfront] コネクタを有効にするか、Workfront MCP サーバーに接続するためのカスタム URL アクセス権を付与する必要があります。
 
-* <span class="preview"> カスタムアプリケーションまたはエージェント型プラットフォームを、顧客ごとに一意のOAuth コールバック URLで接続する場合、Workfront管理者は、そのURLを&#x200B;**システム環境設定/MCP環境設定**&#x200B;の&#x200B;**承認済みリダイレクト URL** リストに追加する必要があります。 これがなければ、認証は拒否されます。 詳しくは、この記事の「[OAuthとの接続](#connect-with-oauth)」を参照してください。</span>
+* カスタムアプリケーションまたはエージェント型プラットフォームを、顧客ごとに一意のOAuth コールバック URLに接続する場合、Workfront管理者は、そのURLを&#x200B;**システム環境設定/MCP環境設定**&#x200B;の&#x200B;**承認済みリダイレクト URL** リストに追加する必要があります。 これがなければ、認証は拒否されます。 詳しくは、この記事の「[OAuthとの接続](#connect-with-oauth)」を参照してください。
 
 
 ## WorkfrontとClaudeの連携
@@ -244,8 +254,6 @@ Workfront MCPが接続できるカスタム Copilot エージェントを構築�
 
 ### OAuthへの接続
 
-<div class="preview">
-
 接続しているAI エージェントプラットフォームまたはカスタムアプリケーションに、接続またはテナント IDを含むURLなど、お客様ごとに一意のOAuth コールバック（リダイレクト） URLがある場合、Workfront管理者は、認証する前に、そのURLを組織の承認済みリダイレクト URLのリストに追加する必要があります。
 
 >[!NOTE]
@@ -270,7 +278,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 コールバック URLがリストにない場合、認証リクエストは拒否されます。 Workfront管理者に、統合が提供するURLが正確に入力されていることを確認するように依頼します。
 
-</div>
 
 ## 接続を確認
 

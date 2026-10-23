@@ -16,14 +16,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%
 ---
 # AI 共同作業者
-
-{{preview-fast-release-general}}
 
 AI共同作業者は、個人を割り当てるのと同じようにタスクに割り当てることができるAI エージェントです。 AI コラボレーターを既存のワークフローに適合させ、チームを最も重要なことに集中させることができます。
 

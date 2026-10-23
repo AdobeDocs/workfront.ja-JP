@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 78%
+source-wordcount: '1345'
+ht-degree: 80%
 ---
 # フォームの整理とプレビュー
-
-{{preview-fast-release-general}}
 
 フォーム designer でカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
 
@@ -197,11 +195,4 @@ ht-degree: 78%
 1. [&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
 
 1. 左上隅にある「**プレビュー**」をクリックして、フォームが使用されたときにどのように表示されるかを確認するには、「**プレビューを閉じる**」をクリックして、フォームの編集に戻ります。
-
-   >[!NOTE]
-   >
-   >実稼動環境では、フォームデザイナーのプレビューモードでは高度なロジックはサポートされていません。
-   >
-   ><span class="preview"> プレビュー環境では、すべてのロジックの種類をプレビューモードで使用できます。</span>
-
 

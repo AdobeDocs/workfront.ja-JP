@@ -32,20 +32,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 11%
+source-wordcount: '928'
+ht-degree: 9%
 ---
 # Adobe Workfront Planning の AI アシスタントの概要
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -55,7 +53,7 @@ AI アシスタントを使用すると、現在のページコンテキスト�
 
 >[!IMPORTANT]
 >
-><span class="preview">一部の企業では、AI アシスタントがCX Enterprise Coworkerに置き換えられました。 詳しくは、[Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
+>一部の企業では、AI アシスタントがCX Enterprise Coworkerに置き換わりました。 詳しくは、[Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -160,7 +158,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 >[!NOTE]
 >
-><span class="preview">組織がCX Enterprise Coworkerへのアクセス権を取得している場合、Coworkerの検索はAI アシスタントの検索と似ています。 詳しくは、[Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。</span>
+>組織がCX Enterprise Coworkerへのアクセス権を持っている場合、Coworkerの検索はAI アシスタントの検索と似ています。 詳しくは、[Adobe Workfront計画CX Enterprise Coworkerの概要](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)を参照してください。
 
 
 AI アシスタントは、Workfront Planningの次の領域で見つけることができます。

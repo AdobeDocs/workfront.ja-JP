@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 52%
+source-wordcount: '638'
+ht-degree: 43%
 ---
 # 会社レベルでの担当業務請求率の上書き
-
-{{preview-fast-release-general}}
 
 担当業務を作成する際に、その役割の時間単位の請求率を選択するオプションがあります。 1 つの会社に固有の複数の時間単位の請求レートを作成できます。 各請求レートは、特定の日付範囲に対して有効です。
 
@@ -74,38 +72,8 @@ ht-degree: 52%
 1. 担当業務が割り当てられている会社を見つけます。
 1. リストで会社名をクリックします。
 1. 左側のパネルで「**[!UICONTROL 請求料金]**」をクリックします。
-1. 「**[!UICONTROL 請求レートを追加] > [!UICONTROL 新しい請求レート]**」または「<span class="preview">**請求レートを追加**</span>」をクリックします。
+1. 「**[!UICONTROL 請求率を追加]**」をクリックします。
 1. [!UICONTROL 新規請求料金]ダイアログで、請求レートを定義する&#x200B;[!UICONTROL **担当業務**]&#x200B;を選択します。
-
-### 実稼動環境では、次の操作を行います。
-
-[!UICONTROL **既定の請求レート**]&#x200B;には、この担当業務のシステムレベルのレートが表示されます。
-
-![新しい請求レートダイアログ](assets/date-effective-billing-rates-for-company.png)
-
-1. 「[!DNL **請求レート 1**]」フィールドに請求レートを入力します。 次に、「[!UICONTROL **保存**]」をクリックして、請求レートを 1 回だけ上書きします。
-
-   または
-
-   「[!UICONTROL **レートを追加**]」をクリックして、有効な日付と請求レートをさらに追加します。
-
-1. （条件付き）複数の請求レートを追加する場合は、次の情報を入力します。
-
-   * **[!UICONTROL 請求レート 1]、2、など**：期間の請求レートの値。
-   * **[!UICONTROL 開始日]**：レートが有効になる日付。
-   * **[!UICONTROL 終了日]**：レートが終了する日付。
-
-     請求レート 1 には開始日が設定されず、最後の請求レートには終了日が設定されません。 一部の日付は自動的に追加されます。 例えば、請求レート 1 に終了日がなく、開始日が 2023年5月1日の請求レート 2 を追加すると、ギャップが生じないように、請求レート 1 の終了日に 2023年4月30日が追加されます。
-
-1. 「[!UICONTROL **保存**]」をクリックします。
-
-   >[!NOTE]
-   >
-   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。 会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。 詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
-
-<div class="preview">
-
-### プレビュー環境では、次の操作を行います。
 
 1. 代理店、場所、コストセンターなどのレートの属性を選択します。
 
@@ -145,5 +113,35 @@ ht-degree: 52%
    >
    >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。 会社レベルで変更されたレートは、会社が割り当てられたすべてのプロジェクトに影響します。 詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 

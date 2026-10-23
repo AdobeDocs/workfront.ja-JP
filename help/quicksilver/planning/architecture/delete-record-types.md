@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 20%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -287,6 +287,8 @@ Old:
    * グローバルレコードタイプから作成されたレコードタイプは、選択したセカンダリワークスペースから削除されます。
    * フィールドを含む元のレコードタイプは、元のワークスペースに残ります。
    * レコードタイプは、追加された他のすべてのワークスペースに残ります。
-   * セカンダリワークスペースからレコードタイプに追加されたレコード <!--and fields-->が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加されたその他すべてのレコードは、それぞれのワークスペースと元のワークスペースに保存されます。 &lt;!—! – フィールドは、追加されたワークスペースに保存されます。
+   * セカンダリワークスペースからレコードタイプに追加されたレコード <!--and fields-->が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加されたその他すべてのレコードは、それぞれのワークスペースと元のワークスペースに保存されます。
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

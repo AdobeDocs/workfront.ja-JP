@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 2%
 ---
 # 拡張リストの使用
-
-{{preview-fast-release-general}}
 
 強化されたリストは、Adobe Workfrontの一部の領域で利用できます。 これらのリストは、リスト項目を表示するための表形式を使用し、標準のリストとは異なるルックアンドフィールを備えています。 ビューの管理も強化され、フィルタリング、グループ化、列の管理、検索が行われます。
 
@@ -84,20 +82,20 @@ ht-degree: 2%
 | <span class="preview"> スコアカードのリスト </span> | <span class="preview">設定/ スコアカード </span> |
 | <span class="preview"> リスクタイプのリスト </span> | <span class="preview">設定/リスクの種類</span> |
 | レートカードの担当業務と料金のリスト | 設定/レート・カード/レート・カードの選択/担当業務とレート |
-| <span class="preview">場所のリスト </span> | <span class="preview">設定/場所</span> |
+| 場所のリスト | 設定/場所 |
 | 翻訳のリスト | 設定/ローカライズ |
-| <span class="preview">統合のリスト </span> | <ul><li><span class="preview">設定/ドキュメント/SharePoint統合</span></li><li><span class="preview"> セットアップ/ドキュメント/カスタム統合</span></li><li><span class="preview">設定/ドキュメント/Experience Manager Assets</span></li></ul> |
+| 統合のリスト | <ul><li>設定/ドキュメント/SharePointとの連携</li><li>設定/ドキュメント/カスタム統合</li><li>設定/ドキュメント/Experience Manager Assets</li></ul> |
 | レポートのリスト | メインメニュー/レポート（**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
-| <span class="preview"> キューのトピック、トピックグループ、ルーティングルールのリスト </span> | <ul><li><span class="preview"> プロジェクトまたはテンプレート/キューのトピック </span></li><li><span class="preview"> プロジェクトまたはテンプレート/トピックグループ </span></li><li><span class="preview"> プロジェクトまたはテンプレート/ルーティングルール </span></li></ul> |
+| キューのトピック、トピックグループ、ルーティングルールのリスト | <ul><li>プロジェクトまたはテンプレート/キュートピック</li><li>プロジェクトまたはテンプレート/トピックグループ</li><li>プロジェクトまたはテンプレート/ルーティングルール</li></ul> |
 | スナップショットのリスト | プロジェクト/スナップショット |
 | 請求用リソースのリスト | プロジェクト/請求用リソース |
-| <span class="preview">先行タスクのリスト </span> | <span class="preview">設定/ タスクまたはテンプレート タスク / 先行タスク </span> |
+| 先行タスクのリスト | 設定/タスクまたはテンプレートのタスク/先行タスク |
 | タスクの新しい高度な割り当て | タスク/割り当て/詳細 |
-| <span class="preview"> ドキュメントのすべてのバージョン表示</span> | <span class="preview"> プロジェクト/ドキュメント/ドキュメントの詳細/すべてのバージョン </span> |
+| ドキュメントのすべてのバージョン表示 | プロジェクト/ドキュメント/ドキュメント詳細/すべてのバージョン |
 | ボード管理者ビュー | ボード/管理者ビュー |
 | Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
-| <span class="preview"> シナリオプランとイニシアチブのリスト </span> | <span class="preview"> メインメニュー/シナリオ </span> |
-| <span class="preview">目標と進捗状況インジケーターのリスト </span> | <ul><li><span class="preview"> メインメニュー/目標</span></li><li><span class="preview"> メインメニュー/目標/進行状況インジケーター</span></li></ul> |
+| シナリオプランとイニシアチブのリスト | メインメニュー/シナリオ |
+| 目標と進捗状況インジケーターのリスト | <ul><li>メインメニュー/目標</li><li>メインメニュー/目標/進行状況インジケーター</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ Last, under Scenario Planner
 
 1. リストの上の&#x200B;**列**&#x200B;をクリックします。
 
-   実稼動環境のサンプル画像：
-   ![列の表示例](assets/glist-display-move-columns.png)
-
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![列の表示例](assets/display-columns-090126.png)
 
 1. 切り替えスイッチを使用して、リストの列を表示または非表示にします。
 
-   <span class="preview">検索ボックスで列を検索できます。</span>
+   検索ボックスで列を検索できます。
 
 1. 列を並べ替えるには、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックし、列を目的の場所に移動します。 列を移動すると、リストが自動的に変更されます。
 
@@ -242,7 +236,7 @@ Last, under Scenario Planner
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview"> （オプション）列を並べ替えるには、**Selected** セクションの列名にカーソルを合わせ、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックします。 列を垂直方向に移動して、列を順番に配置します。</span>
+1. （オプション）列を並べ替えるには、**Selected** セクションの列名にカーソルを合わせ、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックします。 列を垂直方向に移動して、列を順番に配置します。
 1. 「**保存**」をクリックします。
 
    ![列マネージャー](assets/glist-column-manager.png)

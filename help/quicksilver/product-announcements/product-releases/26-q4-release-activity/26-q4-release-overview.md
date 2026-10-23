@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '3622'
+source-wordcount: '3661'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -274,6 +274,15 @@ ht-degree: 8%
             <td><p>October 22, 2026</p></td>
         </tr>
 -->        
+       <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
+                <p>Workfront MCP カタログを特定のツールセットに制限し、製品の使用権限で利用可能な項目をフィルタリングできるようになりました。そのため、AI クライアントは必要な機能のみにアクセスできます。</p>
+            </td>
+            <td><p>2026年10月22日（PT）</p></td>
+            <td><p>2026年10月22日（PT）</p></td>
+            <td><p>2026年10月22日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">AI共同作業者に関する更新</a>

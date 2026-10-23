@@ -7,24 +7,26 @@ exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: '1301'
 ht-degree: 3%
-
 ---
-
 # Adobe Exchange からのアプリの取得とインストール
 
 Workfront用のパートナー構築アプリをAdobe Exchangeから直接インストールできるようになりました。 この機能は、生産性を向上させ、オペレーションを合理化し、Workfrontの機能を拡張する専用ツールを提供する、成長を続けるAdobeパートナーのエコシステムと、顧客を結びつけます。 Adobe Exchangeでは、UI拡張機能を利用して、Workfrontにシームレスに統合されるアプリを検索してインストールできます。
 
-Adobe Exchangeは、Adobe Workfrontを含むAdobe Experience Cloudのあらゆるアプリケーションや拡張機能を統合できる、マーケットプレイスです。 Workfrontのお客様は、機能を強化し、ワークフローを合理化し、外部システムと統合するアプリを検索してインストールすることができます。
+Adobe Exchangeは、Adobe Workfrontを含むAdobe CX Enterprise全体における、サードパーティアプリケーション、拡張機能、統合機能の中心的なマーケットプレイスです。 Workfrontのお客様は、機能を強化し、ワークフローを合理化し、外部システムと統合するアプリを検索してインストールすることができます。
 
 ## Adobe パートナーアプリ
 

@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 90%
 ---
 # [!DNL SharePoint] 統合の設定
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ ht-degree: 90%
 
    組織の[!DNL SharePoint]統合のリストが表示されます。
 
-1. （オプション） [!DNL SharePoint]統合を編集するには、その横にあるチェックボックスを選択し、画面下部の青いバーの&#x200B;**[!UICONTROL 編集]** <span class="preview">をクリックします</span>。
-1. <span class="preview"> （オプション） [!DNL SharePoint]統合を無効にするには、その横にあるチェックボックスを選択し、画面下部の青いバーの&#x200B;**[!UICONTROL 無効化]**&#x200B;をクリックします。</span>
+1. （オプション） [!DNL SharePoint]統合を編集するには、その横にあるチェックボックスを選択し、画面下部の青いバーの&#x200B;**[!UICONTROL 編集]**&#x200B;をクリックします。
+1. （オプション） [!DNL SharePoint]統合を無効にするには、その横にあるチェックボックスを選択し、画面下部の青いバーの&#x200B;**[!UICONTROL 無効]**&#x200B;をクリックします。
 
 ## [!DNL SharePoint] 統合のセキュリティ、アクセス、および認証情報
 

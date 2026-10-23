@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 6%
+source-wordcount: '2479'
+ht-degree: 5%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 接続されたレコードタイプの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -210,18 +211,12 @@ ht-degree: 6%
     * GenStudio ブランドは、GenStudio レコードタイプとプランニングレコードタイプから接続できます。
     * GenStudio ブランドを階層に含めることはできません。
 
-  <div class="preview">
-
   * 接続フィールドは、接続されたレコードタイプから、対応する接続フィールドに依存させることができます。 2つのフィールドが3番目のレコードタイプに表示される場合、一方のフィールドで使用できる選択範囲は、もう一方のフィールドの選択範囲によって異なります。
 
     詳細と追加の考慮事項については、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
 
-  </div>
 
-* 1対1または1対多の接続タイプで、接続されたレコードを持つレコードを複製する場合、次のシナリオが存在します。
-
-  * 実稼動環境では、接続されたレコードが複製されたレコードに移動します。または、レコードを複製する前に元のレコードから手動で削除してから、再度追加する必要があります。
-  * <span class="preview"> プレビュー環境では、接続されたレコードが元のレコードに残るか、複製されたレコードに移動するかを選択できます。</span>
+* 1対1または1対多の接続タイプで接続されたレコードを持つレコードを複製する場合、接続されたレコードが元のレコードに留まるか、複製されたレコードに移動するかを選択できます。
 
   詳しくは、[&#x200B; レコードの重複](/help/quicksilver/planning/records/copy-or-duplicate-records.md)を参照してください。
 

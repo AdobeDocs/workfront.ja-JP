@@ -34,26 +34,26 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 6%
+source-wordcount: '1141'
+ht-degree: 4%
 ---
 # Adobe Workfront Planning でリクエストフォームへの承認の追加
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Adobe Workfront Planning リクエストフォームに承認プロセスを追加して、レコードを作成する前に、送信されたすべてのリクエストの承認を開始できます。
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+承認プロセスでは、複数の段階に対応しています。 ステージで必要なすべての意思決定が行われると、次のステージが開始され、新しいステージの承認者にメール通知が送信されます。
 
 この記事では、ワークスペース管理者が、レコードタイプに関連付けられたリクエストフォームに承認を追加する方法について説明します。
 
@@ -116,7 +116,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * 複数の承認者が必要な場合は、「1つの決定のみが必要」オプションが有効になっていない限り、すべての承認者がリクエストを承認または却下する前に決定を下す必要があります。
 * チームが承認者として設定されている場合、そのチームのひとりのメンバーから必要な決定はひとつだけです。
 * 承認はオプションです。リクエストフォームに承認が添付されていない場合、Workfront Planningは送信時にすぐにレコードを作成します。
-* <span class="preview">承認に1つ以上のステージを追加できます。</span>
+* 承認には、1つ以上のステージを追加できます。
 
 ## リクエストフォームへの承認ルールの追加
 
@@ -156,29 +156,29 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >   * カスタムルールが満たされた場合、デフォルトはリクエスト承認ワークフローに適用されません。 一致したカスタムルールのみが承認に適用され、デフォルトのルールは無視されます。
    >   * 複数のカスタムルールが満たされた場合、順序の最初のルールが適用されます。 この場合、デフォルトの承認は適用されません（存在する場合）。
 
-1. <span class="preview"> （オプション）「**ステージを追加**」をクリックして、承認に別のステージを追加します。</span>
+1. （オプション）「**ステージを追加**」をクリックして、承認に別のステージを追加します。
 
 1. **保存**&#x200B;をクリックして、承認ルールを保存します。
 
-1. <span class="preview"> （オプション）承認にさらにステージを追加するには、次の操作を行います。</span>
+1. （オプション）承認にさらにステージを追加するには、次の操作を行います。
 
-   1. <span class="preview"> クリック **ステージを追加**.</span>
+   1. 「**ステージを追加**」をクリックします。
 
-      <span class="preview">複数段階の承認&#x200B;**ボックスが表示されます。**&#x200B;既に既定の承認アクションを作成している場合、これらの承認者は自動的にステージ 1に追加されます。</span>
+      「**複数段階の承認**」ボックスが表示されます。 既にデフォルトの承認アクションを作成している場合、これらの承認者は自動的にステージ 1に追加されます。
 
-   1. <span class="preview"> 「**ユーザーまたはチームを追加**」フィールドに、少なくとも1人のユーザーまたはチームを追加して、ステージの承認者として設定します。</span>
-   1. <span class="preview"> （条件付き、オプション）承認者のいずれかがレコードを承認した後、レコードを次のステージに進める場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。 そうでない場合、すべての承認者は、リクエストが次のステージに移動する前に、承認を決定する必要があります。</span>
-   1. <span class="preview"> 「**ステージを追加**」をクリックし、手順Bから繰り返して、承認にステージを追加します。</span>
+   1. 「**ユーザーまたはチームを追加**」フィールドに、ステージの承認者として設定するユーザーまたはチームを少なくとも1つ追加します。
+   1. （条件付き、オプション）承認者のいずれかがレコードを承認した後、レコードを次のステージに進める場合は、「**1つの決定のみが必要です**」チェックボックスをオンにします。 そうでない場合、リクエストが次のステージに移動する前に、すべての承認者が承認を決定する必要があります。
+   1. 「**ステージを追加**」をクリックし、手順Bから繰り返して、さらにステージを承認に追加します。
 
-      <span class="preview">2つ以上のステージが存在する場合は、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックして、順番にドラッグ&amp;ドロップできます。</span>
+      2つ以上のステージが存在する場合は、**ドラッグ** アイコン ![&#x200B; ドラッグアイコン &#x200B;](assets/drag-icon.png)をクリックして、順番にドラッグ&amp;ドロップできます。
 
-      <span class="preview">このステージを削除&#x200B;**をクリックして承認からステージを削除するか、承認者の横にある**&#x200B;削除&#x200B;**アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、ステージの承認者リストからユーザーまたはチームを削除します。</span>**
+      **このステージを削除**&#x200B;をクリックして承認からステージを削除するか、承認者の横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、ステージの承認者リストからユーザーまたはチームを削除します。
 
       ![複数段階の承認ボックス &#x200B;](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">承認ワークフローの作成が完了したら、**保存**&#x200B;をクリックします。</span>
+   1. 承認ワークフローの作成が完了したら、**保存**&#x200B;をクリックします。
 
-      <span class="preview">複数段階の承認は、承認ページから編集または削除できます。</span>
+      複数段階の承認は、「承認」ページで編集または削除できます。
 
 1. （オプション） リクエストフォームを一度も共有したことがない場合は、**公開**&#x200B;をクリックします。
 

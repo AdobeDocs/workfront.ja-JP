@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 97%
+source-wordcount: '217'
+ht-degree: 96%
 ---
 # Adobe Workfront の基本：記事インデックス
 
@@ -58,5 +58,5 @@ ht-degree: 97%
 * [モバイルアプリ](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront の AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Workfront MCP サーバー](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-* [Workfrontの同僚](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+* [WorkfrontのCX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
 * [Adobe Workfront Basics に関するヒント、テクニックおよびトラブルシューティング](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

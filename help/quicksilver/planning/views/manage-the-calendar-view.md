@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1898'
 ht-degree: 24%
 ---
 # カレンダービューの管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Old:
        * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
        * 1日以下の期間のレコードは、カレンダービューの下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは発生した日内の適切な時間に表示されます。
 
-         <span class="preview"> カレンダーには、週次ビューの両方の領域について、前、現在、および今後数週間に最大1,000件のレコードが表示されます。</span>
+         カレンダーには、週次ビューの両方の領域について、前、現在、および次の週に最大1,000件のレコードが表示されます。
 
-1. <span class="preview"> （オプションおよび条件付き） 1,000件を超えるレコードがあり、その一部が週ごとにカレンダーを表示する際にデフォルトで表示されない場合は、カレンダーの下部にある&#x200B;**さらに**&#x200B;を読み込む</span>をクリックします。
+1. （オプションおよび条件付き） 1,000件を超えるレコードがあり、その一部が週ごとにカレンダーを表示する際にデフォルトで表示されない場合は、カレンダーの下部にある&#x200B;**Load more**&#x200B;をクリックします。
 
 1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
@@ -287,10 +289,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p> または<span class="preview"><p>が次のいずれかである</p></span>
+            <td><p>が次のいずれかである</p>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p> または<span class="preview"><p>が次のいずれかである</p></span>
+            <p>が次のいずれかである</p>
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>
@@ -459,7 +461,11 @@ Old:
 
    * **レコードタイプ**：カレンダーのレコードバーの色は、選択したレコードタイプの色と一致します。 これはデフォルトのオプションです。
    * **フィールド値**：レコードの色を、指定したフィールドの色と一致させます。
-   * **なし**：レコードは白いバーで表示されます。 <span class="preview"> プレビュー環境から&#x200B;**None** オプションが削除されました。</span>
+   * **レコード**：色がレコードの色と一致します。
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Old:
    >[!NOTE]
    >
    >* カラーは、色分けされたオプションを含むフィールドにのみ一致させることができます。 例えば、色をステータス フィールドに一致させたり、色に関連するオプションを持つフィールドを一致させたりできます。
-   >    
-   >* 実稼動環境では、カラーを接続されたレコードやその参照フィールドに一致させることはできません。 <span class="preview"> プレビュー環境では、接続されているレコードと色を一致させることはできますが、ルックアップフィールドには色を一致させることはできません。</span>
-
+   >            
 
 1. 「**保存**」をクリックします。
 

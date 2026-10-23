@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 64%
+source-wordcount: '2129'
+ht-degree: 65%
 ---
 # レコードタイプとレコードの接続例
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ ht-degree: 64%
    * **名前**：新しいフィールドに名前を付けます。 例：「製品情報」。 これは、リンクされたレコードフィールドの名前です。
    * **名前**：新しいフィールドの説明を追加します。 例：「自身のキャンペーンを関連付けたい製品です」。 フィールドの説明は、列ヘッダーのフィールドにポインタを合わせると表示されます。
 
-   <div class="preview">
-
    * **この接続を依存関係にする**：有効にすると、2つの接続されたレコードが3番目のレコードに同時に表示されるので、一方のレコードタイプの選択肢は、もう一方のレコードタイプの選択肢に依存します。
 
      詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
    * **リンクされたレコードタイプに対応するフィールドを作成**：有効にすると、接続しているレコードタイプにも接続フィールドが作成されます（製品）。
-
-   </div>
 
    * **接続タイプ**：次のオプションから選択します。
      * **多対多**: ユーザーは1つのキャンペーンを複数の製品に、1つの製品を複数のキャンペーンに接続できます。
@@ -87,13 +85,11 @@ ht-degree: 64%
      * **名前**：接続されているレコードの名前のみを表示します。
      * **画像**：接続されたレコードのサムネールまたはアイコンのみを表示します。
 
-     <div class="preview">
+     * **色と名前**：接続されているレコードの色と名前のみを表示します。
 
-     * **色と名前**：接続されているレコードの色と名前のみを表示します
+   * **ルックアップフィールド**：このオプションを展開して、接続されたレコードからルックアップフィールドも接続します。
 
-     </div>
-
-   * <span class="preview">**ルックアップフィールド**：このオプションを展開して、接続されたレコードからルックアップフィールドも接続します。 </span>次に&#x200B;**ルックアップフィールドを追加** ボックスが開き、製品フィールドをCampaign レコードタイプにリンクできます。 「**スキップ**」をクリックしてこの手順をスキップし、製品フィールドを後で追加することができます。
+     次に&#x200B;**ルックアップフィールドを追加** ボックスが開き、製品フィールドをCampaign レコードタイプにリンクできます。 「**スキップ**」をクリックしてこの手順をスキップし、製品フィールドを後で追加することができます。
 
      ![製品レコードタイプとの新しい接続](assets/new-connection-with-product-record-type.png)
 

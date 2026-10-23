@@ -38,14 +38,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
+source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 32%
 ---
 # システム環境設定を指定
-
-{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -164,8 +162,8 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
       <td><p>オブジェクトを一括編集する際に、必須フィールドに情報を強制的に入力するかどうかを選択できます。</p> <p>このオプションを選択した場合、一括編集モードで保存する前に、必須フィールドに値を指定する必要があります。 必須フィールドに選択した1つ以上の一括オブジェクトの値がない場合、保存は許可されません。</p> <p>このオプションを選択しない場合、必須フィールドは、ユーザーがフィールドを変更した場合にのみ適用されます。 フィールドが変更されない場合、そのフィールドはオプションとして扱われ、検証されません。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Admin Console で作成されたユーザーのアクセスレベル</span></td>
-      <td><span class="preview">Adobe Admin Consoleを通じてWorkfrontで作成されたユーザーに自動的に割り当てるデフォルトのアクセスレベルを選択できます。 デフォルトを設定しない場合、これらのユーザーは引き続きコントリビューターまたはリクエスターのアクセスレベルを受け取ります。 システム管理者と外部ユーザーのアクセスレベルはデフォルトでは使用できません。この設定は、Workfront Planningをスタンドアロン製品として持つ組織では使用できません。<p><b> メモ </b>: アクセス レベルがこの既定に設定されている間は、削除できません。 デフォルトのアクセスレベルを削除するには、まず別のデフォルトのアクセスレベルを選択します。</p></span></td>
+      <td role="rowheader">Admin Console で作成されたユーザーのアクセスレベル</td>
+      <td>Adobe Admin Consoleを通じてWorkfrontで作成されたユーザーに自動的に割り当てるデフォルトのアクセスレベルを選択できます。 デフォルトを設定しない場合、これらのユーザーは引き続きコントリビューターまたはリクエスターのアクセスレベルを受け取ります。 システム管理者と外部ユーザーのアクセスレベルはデフォルトでは使用できません。この設定は、Workfront Planningをスタンドアロン製品として持つ組織では使用できません。<p><b> メモ </b>: アクセス レベルがこの既定に設定されている間は、削除できません。 デフォルトのアクセスレベルを削除するには、まず別のデフォルトのアクセスレベルを選択します。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">ストレージの環境設定 </td> 
@@ -201,16 +199,16 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">読み取り専用 MCP ツール</span></td> 
-      <td><span class="preview">Workfront MCP サーバーは、Workfront データに対して、プロジェクト、タスク、その他の項目の検索や一覧表示などの読み取りアクションを実行できます。 このオプションは、デフォルトで有効になっています。<p>Workfront MCP サーバーについて詳しくは、<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP サーバーの設定</a>を参照してください。</p></span></td> 
+      <td role="rowheader">読み取り専用 MCP ツール</td> 
+      <td>Workfront MCP サーバーは、Workfront データに対して、プロジェクト、タスク、その他の項目の検索や一覧表示などの読み取りアクションを実行できます。 このオプションは、デフォルトで有効になっています。<p>Workfront MCP サーバーについて詳しくは、<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP サーバーの設定</a>を参照してください。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">MCP ツールを書き込む</span></td> 
-      <td><span class="preview">Workfront MCP サーバーがWorkfront データに対して作成、更新、および削除アクションを実行できるようにします。 このオプションはデフォルトでは無効になっています。<p>Workfront MCP サーバーについて詳しくは、<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP サーバーの設定</a>を参照してください。</p></span></td> 
+      <td role="rowheader">MCP ツールを書き込む</td> 
+      <td>Workfront MCP サーバーがWorkfront データに対して作成、更新、および削除アクションを実行できるようにします。 このオプションはデフォルトでは無効になっています。<p>Workfront MCP サーバーについて詳しくは、<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP サーバーの設定</a>を参照してください。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">認証済みのリダイレクト URL</span></td> 
-      <td><span class="preview">カスタム AI エージェント プラットフォームを介して接続する、組織のMCP エージェントのログインを完了できるコールバック（リダイレクト） URLを制御します。<p>MCP サーバーのリダイレクト URLを追加する方法については、この記事の「<a href="#add-or-remove-an-authorized-redirect-url">許可されたリダイレクト URLを追加または削除する</a>」を参照してください。</p></span></td> 
+      <td role="rowheader">認証済みのリダイレクト URL</td> 
+      <td>カスタム AI エージェント プラットフォームを介して接続する、組織のMCP エージェントのログインを完了できるコールバック（リダイレクト） URLを制御します。<p>MCP サーバーのリダイレクト URLを追加する方法については、この記事の「<a href="#add-or-remove-an-authorized-redirect-url">許可されたリダイレクト URLを追加または削除する</a>」を参照してください。</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">テスト環境</td> 
@@ -223,8 +221,6 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
    ここに保存した変更は、Workfrontのすべてのユーザーと、システムを外部ユーザーとして操作するユーザーのエクスペリエンスに影響します。
 
 ## 承認済みリダイレクト URLの追加または削除
-
-<div class="preview">
 
 許可されたリダイレクト URLを使用すると、OAuth コールバック URLが組織に固有のカスタム AI エージェント型プラットフォーム（接続またはテナント IDを含むURLなど）を接続できます。
 
@@ -248,4 +244,3 @@ URLを追加するには：
 
 +++
 
-</div>

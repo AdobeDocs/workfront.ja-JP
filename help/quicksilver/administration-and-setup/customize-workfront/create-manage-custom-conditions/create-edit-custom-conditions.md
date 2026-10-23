@@ -29,14 +29,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 77%
+source-wordcount: '646'
+ht-degree: 81%
 ---
 # カスタム条件の作成または編集
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェクト、タスクおよびイシューのカスタム条件を作成または編集できます。
 
@@ -80,15 +78,9 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    または
 
-   既存の条件を編集するには：
+   既存の条件を編集するには、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**編集**」をクリックします。
 
-   * 実稼動環境で、条件名の横にある&#x200B;**編集**&#x200B;をクリックします。
-   * <span class="preview"> プレビュー環境で、削除する条件名の横にあるチェックボックスを選択し、画面下部のアクションバーの&#x200B;**編集**&#x200B;をクリックします。</span>
 
-   実稼動環境のサンプル画像：
-   ![&#x200B; カスタム条件を編集](assets/custom-conditions-0825.png)
-
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![&#x200B; カスタム条件を編集](assets/edit-conditions-082526.png)
 
 1. 次のオプションを使用して、カスタム条件を設定します。

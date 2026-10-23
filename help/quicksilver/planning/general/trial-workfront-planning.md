@@ -3,6 +3,7 @@ title: Adobe Workfront計画の無料体験版を始める
 description: Adobe Workfrontでは、Adobe Workfront計画の60日間の無料トライアルを提供しています。 このトライアルでは、プランニングが、大局的な戦略とそれを実現する日々の作業をどのように結びつけるのかを確認できます。 プランニングにより、マーケティングライフサイクルを一元的に可視化し、部門間の優れたコラボレーション、キャンペーンのリアルタイムの追跡、自動化されたワークフローを実現できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーで作業を視覚化することができます。 このトライアルでは、プランニングが、日々の作業を戦略目標に合わせて合理化し、組織に測定可能な成果をもたらすのにどのように役立つのかを実感できます。
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
@@ -29,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 4%

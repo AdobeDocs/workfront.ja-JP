@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 88%
 ---
 # Adobe Admin Console でのユーザー管理
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
    ユーザーは、組織の Workfront パッケージに応じて、要求者またはコントリビューターのアクセスレベルで Workfront に作成されます。
 
-   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
+   Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合は、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
    >[!IMPORTANT]
    >

@@ -5,15 +5,13 @@ title: グループ化された承認のレビュー
 description: ホームまたはFrame.io ビューアのMy Approvals ウィジェットから、グループ化された承認内のすべてのドキュメントを確認して決定できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 10%
+source-wordcount: '630'
+ht-degree: 11%
 ---
 
 # グループ化された承認のレビュー
-
-<span class="preview">このページの情報は、Frame.io統合が使用できないため、プレビューサンドボックス環境では使用できません。 この機能は、2026年10月22日（PT）に実稼動環境で使用できるようになります。</span>
 
 グループ化された承認に割り当てると、グループ内のすべての文書が一緒に表示されるので、それぞれの文書について決定を下すことができます。 すべてのドキュメントに対して一度に変更を承認または要求したり、各ドキュメントに対して個別に決定を下したりできます。
 

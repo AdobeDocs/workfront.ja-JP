@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 27%
+source-wordcount: '1150'
+ht-degree: 26%
 ---
 # ワークスペースを共有
 
+<!--
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -173,11 +175,7 @@ Old:
 * ワークスペースを共有する場合、ビューは共有されません。 ビューを個別に共有する必要があります。
 * Workspace権限は、レコードタイプに対して継承された権限として表示されます。
 
-<div class="preview">
-
 * ワークスペースの所有者を、アクティブで標準ライセンスのユーザーに変更できます。 グループ、チーム、会社、または担当業務をワークスペースの所有者にすることはできません。
-
-</div>
 
 
 &lt;!—! – 実稼動時に上記を確認します。アクティブユーザーに置き換える必要がありますか？? 非アクティブでもOKです。環境がありませんでした – >
@@ -232,16 +230,11 @@ Old:
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
-   <div class="preview">
-
    * 所有者
 
      別のアクティブなStandard ライセンス ユーザーをワークスペースの所有者にすることしかできません。 元の所有者は、管理権限を持つワークスペースに残ります。
 
-   </div>
-
-1. <span class="preview"> （条件付き）ワークスペース所有者を変更する場合は、**所有者を変更**&#x200B;をクリックして確認します。</span>
-
+1. （条件付き）ワークスペースの所有者を変更する場合は、**所有者を変更**&#x200B;をクリックして確定します。
 
 1. 「**リンクをコピー**」をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。

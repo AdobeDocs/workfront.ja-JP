@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '647'
 ht-degree: 8%
 ---
 # キャンバスダッシュボードの使用
@@ -34,12 +34,7 @@ ht-degree: 8%
 >Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
 >
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
->
->このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
->
->* Amazon Web Services用に独自のキーを持ち込む
->* Azure
->* Google Cloud Platform
+
 
 カンバスダッシュボードを使用すると、柔軟なカンバスレイアウトにさまざまなレポートタイプを追加することで、Adobe Workfront データを視覚化できます。 この記事では、Canvas ダッシュボードを効果的に使用する方法の概要を説明します。
 
@@ -110,9 +105,9 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >これらの変更は、現在のセッションにのみ適用され、元のレポート設定には影響しません。 これらの変更を永続的に行うには、レポートを編集する必要があります。
 
-<div class="preview">
 
-### プレビューでピボットテーブルデータにドリルダウンする
+
+### ピボットテーブルデータをドリルダウンする
 
 ピボットテーブルレポートの値をクリックすると、ドリルダウンして、その集計値を構成する個々のレコードを表示できます。
 
@@ -126,7 +121,7 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
    ドリルダウン表には、レポート作成者がドリルダウン列設定で設定した列が表示されます。 詳しくは、「[&#x200B; キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
 
-</div>
+
 
 
 <!--

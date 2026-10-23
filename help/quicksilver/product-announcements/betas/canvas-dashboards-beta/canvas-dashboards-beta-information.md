@@ -26,22 +26,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 25%
+source-wordcount: '561'
+ht-degree: 23%
 ---
 # キャンバスダッシュボードベータ版の情報
 
 >[!IMPORTANT]
 >
 >Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご自身の体験に関するフィードバックは、以下の「[&#x200B; フィードバックを提供](#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
->このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
->
->* Amazon Web Services用に独自のキーを持ち込む
->* Azure
->* Google Cloud Platform
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+
 
 Canvas Dashboardsは現在開発中の機能で、キャンバスに様々なレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。これには、サイズ変更やドラッグ&amp;ドロップなど、様々なレイアウトオプションが用意されています。
 

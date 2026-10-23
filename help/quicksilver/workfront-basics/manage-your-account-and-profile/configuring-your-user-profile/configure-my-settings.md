@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '3379'
 ht-degree: 89%
@@ -370,7 +370,7 @@ ht-degree: 89%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>ここで目的の言語を指定します。 これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
-   <p><strong> メモ：</strong>組織がAdobe Unified Experienceを利用している場合、言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 詳しくは、<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Adobe Workfrontでサポートされている言語</a>の記事の<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud言語の変更</a>を参照してください。</p></td> 
+   <p><strong> メモ：</strong>組織がAdobe Unified Experienceを利用している場合、言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 詳しくは、<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfrontでサポートされている言語</a>の記事の<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">Adobe CX Enterprise言語の変更</a>を参照してください。</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL タスクが自己割り当てされると、タスクのステータスを自動的に「進行中」に設定します]</strong> </td>
   <td>自分に割り当てた作業のステータスを「新規」ではなく「進行中」に自動的に設定する場合は、このオプションを選択します。</td>

@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
+source-wordcount: '4138'
 ht-degree: 37%
 ---
 # テーブルビューの管理
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Old:
 
 1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
 
-   ![テーブルビューの例](assets/table-view-example-g-list.png)
+   ![テーブルビューの例](assets/table-view-example.png)
 
 1. （オプション）「**行の高さ**」をクリックし、次のオプションから選択して、テーブルの行の高さを変更します。
    * 低い
@@ -333,9 +335,7 @@ Old:
      * **MIN**：列のすべてのセルの最小値を表示します。
      * **MAX**：列内のすべてのセルの最大値を表示します。
      * **AVG**：列内のすべてのセルの平均値を表示します。
-     * <span class="preview">**NONE**：列の値が集計されません。 これは既定のオプションです。</span>
-
-   <div class="preview">
+     * **NONE**：列の値が集計されません。 これはデフォルトのオプションです。
 
    * 日付フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
 
@@ -351,17 +351,12 @@ Old:
      * **EMPTY**：値のないフィールドの数を表示します。
      * **NOT EMPTY**：値を持つフィールドの数を表示します。
 
-   </div>
-
    アグリゲーターを使用する場合は、次の点を考慮してください。
 
    * 列内の集計器行は、値を表示するときにフリーズされ、ビュー設定の一部になります。
    * ビューマネージャーは集計機能を選択でき、他のユーザーとビューを共有するとビューと共有されます。
    * ビューアとして、アグリゲータを変更することはできますが、ビューと共に保存されません。
    * 公開された共有ビューは、変更できない保存されたアグリゲーターと共有されます。
-
-   <div class="preview">
-
    * 次のフィールドタイプにはアグリゲーターがありません。
 
      * 作成者
@@ -369,7 +364,7 @@ Old:
      * レコード ID
    * 数式フィールドと検索フィールドには、フィールド形式に対応する集計が含まれています。
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    テーブルビューで追加したレコードはすぐに保存され、ワークスペースに対する表示以上の権限を持つすべてのユーザーに表示されます。
 
-   デフォルトのサムネール画像<span class="preview">とカラー</span>も新しいレコードに追加されます。
+   デフォルトのサムネール画像とカラーも新しいレコードに追加されます。
 
    >[!TIP]
    >
-   ><span class="preview"> レコードに未読のコメントがある場合、レコードのプライマリフィールドの右上隅に&#x200B;**新しいコメント** インジケーターが表示されます。</span>
+   >レコードに未読のコメントがある場合、レコードのプライマリフィールドの右上隅に&#x200B;**新規コメント** インジケーターが表示されます。
    >
    >![&#x200B; テーブルビューの新しいコメントアイコン &#x200B;](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >行の順序に加えた変更は、同じビューでレコードタイプにアクセスするすべてのユーザーに表示されます。
    >
-   ><span class="preview"> ドラッグ&amp;ドロップの行に、選択したレコードの数が複数ある場合は、数値インジケーターに表示されます。</span>
+   >ドラッグ&amp;ドロップの行に、選択したレコードの数が複数の場合は、数値インジケーターに表示されます。
 
 1. （オプション）レコードの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネールを編集**&#x200B;をクリックしてサムネールを編集します。
-1. 実稼動環境のテーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックします
-
-   または
-
-   <span class="preview"> プライマリフィールドのヘッダー</span>にカーソルを合わせ、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
+1. プライマリフィールドのヘッダーにカーソルを合わせ、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
 
    詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
-1. <span class="preview"> テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリック </span>
+1. プライマリフィールドのヘッダーにカーソルを合わせ、**カラー** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
 
-   または
-   <span class="preview"> プライマリフィールドのヘッダーにカーソルを合わせ、**カラー** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。</span>
-
-1. <span class="preview"> （オプションおよび条件付き） **カラー**&#x200B;設定をオンにした場合、レコードのプライマリフィールドの左側にあるカラーバーをクリックし、**スウォッチ**&#x200B;または&#x200B;**カスタム** タブからカラーを選択し、ボックスの外側をクリックして閉じます。 カラーは直ちに適用されます。</span>
-
-<div class="preview">
+1. （オプションおよび条件付き）「**カラー**」設定をオンにした場合、レコードのプライマリフィールドの左側にあるカラーバーをクリックし、**スウォッチ**&#x200B;または&#x200B;**カスタム** タブからカラーを選択し、ボックスの外側をクリックして閉じます。 色はすぐに適用されます。
 
 ![色分けカラーピッカーボックスを記録](assets/color-picker-for-record-color-coding.png)
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-
-</div>
-
 
 ### フィルターを追加 {#add-filters-1}
 
@@ -514,10 +497,10 @@ FROM LISA: This is the old section. I commented it out vs deleting.
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p> または<span class="preview"><p>が次のいずれかである</p></span>
+            <td><p>が次のいずれかである</p>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p> または<span class="preview"><p>が次のいずれでもない</p></span>
+            <p>が次のいずれでもない</p>
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>

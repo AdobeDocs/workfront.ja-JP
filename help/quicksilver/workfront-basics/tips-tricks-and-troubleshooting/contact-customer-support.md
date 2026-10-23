@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 78%
+ht-degree: 74%
 ---
 # カスタマーサポートに連絡
 
@@ -142,7 +142,7 @@ Old numbers - before 2/10/2025:
 
 1. **[!UICONTROL マイケース]** ページに移動します。 このページは、ケースを送信するときに開きます。または、左側のナビゲーションで「**[!UICONTROL マイケース]**」をクリックして開くことができます。
 
-1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL Experience Cloud] ソリューション）**&#x200B;またはケースの&#x200B;**[!UICONTROL ステータス]**（[!UICONTROL オープン]またはクローズ）でフィルタリングします。 また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
+1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL CX Enterprise] ソリューション）**&#x200B;またはケース **[!UICONTROL ステータス]** （[!UICONTROL &#x200B; オープン &#x200B;]または[!UICONTROL &#x200B; クローズ &#x200B;]）でフィルタリングします。 また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
 
 1. （オプション）ケースの詳細を表示するには、**ケース番号**&#x200B;をクリックしてケースにアクセスします。
 

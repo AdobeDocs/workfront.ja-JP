@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 55%
 ---
 # ドキュメントに更新を追加
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ ht-degree: 55%
    ![新しい文書コメントパネル &#x200B;](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### プレビューのFrame.io コメントインジケーター
+### Frame.io コメントインジケーター
 
 文書の承認ワークフローが作成されると、ユーザーはFrame.io ビューアでコメントを残したり、注釈を付けたりできます。 これらのコメントはWorkfrontのコメントパネルには表示されませんが、Frame.io ビューアで表示できます。
 
@@ -125,5 +121,3 @@ Workfrontのコメントパネルには、Frame.ioで新しいコメントが使
 >[!NOTE]
 >
 >* Frame.io エンタープライズライセンスをお持ちの場合は、承認ワークフローを使用せずにFrame.io ビューアでコメントを表示できます。
-
-</div>

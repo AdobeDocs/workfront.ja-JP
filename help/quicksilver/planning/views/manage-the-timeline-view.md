@@ -28,23 +28,24 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 29%
 ---
 # タイムラインビューの管理
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning でレコードタイプのページにアクセスする際、レコードをタイムラインビューで表示できます。
+Adobe Workfront プランニングでレコードタイプのページにアクセスする際、レコードをタイムラインビューで表示できます。
 
 レコードビューについて詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
@@ -245,14 +246,10 @@ Old:
      * **四半期**：四半期が表示された月と週を表示します。
      * **月**：週と日を表示します。
 
-     >[!TIP]
-     >
-     >タイムラインビューにアクセスするために使用する環境に応じて、次のシナリオが存在します。
-     >
-     >* 実稼動環境では、タイムラインビューには、従来の四半期に応じたカスタム週のみが表示されます。 Workfront管理者が「設定」エリアで「四半期のカスタマイズ」をオンにしている場合、週情報はタイムラインビューに表示されません。
-     >
-     >* <span class="preview"> プレビュー環境では、タイムラインビューには、デフォルトで、従来の四半期に従ってカスタム週が表示されます。 Workfront管理者が「設定」領域で「四半期のカスタム」と「週のカスタム」をオンにすると、タイムラインビューには「四半期と月」に四半期と週が表示されます。</span>
-     >
+     タイムラインビューには、デフォルトで、従来の四半期に応じたカスタム週が表示されます。 Workfront管理者が「設定」エリアで「四半期のカスタム」と「週のカスタム」をオンにすると、タイムラインビューには「四半期と月」モードで四半期と週のカスタムが表示されます。
+
+     詳しくは、[&#x200B; カスタム四半期と週を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+
 
 
 1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が同じ行で交差しないレコードを表示します。<!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Old:
         </tr>
         <tr>
             <td>複数選択、人物</td>
-            <td><p>が次のいずれかを含む</p> または<span class="preview"><p>が次のいずれかである</p></span>
+            <td><p>が次のいずれかである</p>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
-            <p>が次のいずれも含まない</p> または<span class="preview"><p>が次のいずれでもない</p></span>
+            <p><p>が次のいずれでもない</p>
             <p>が空である</p>
             <p>が空ではない</p></td>
         </tr>
@@ -509,9 +506,9 @@ Old:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview"> （オプション）ツールバーの&#x200B;**グループ化** アイコン ![&#x200B; グループ化アイコン &#x200B;](assets/grouping-icon.png)をクリックして、**レコードを**&#x200B;でグループ化ボックスを開き、**すべての**&#x200B;を展開してすべてのグループ化を展開するか、**すべてを折りたたむ**&#x200B;をクリックしてすべてのグループ化を折りたたみ、必要なグループのみを手動で折りたたみます。</span>
-1. <span class="preview"> （オプションおよび条件付き）スイムレーン表示で、左パネルの区切り記号をドラッグ&amp;ドロップして、幅を調整します。 各ユーザーのパネル幅は、セッション間で保存され、初回ユーザーのデフォルト幅は</span>です。
-1. <span class="preview"> （オプション）長いグループ化名の場合、グループ化の行にカーソルを合わせると、グループ化のフルネームがツールチップに表示されます。</span>
+1. （オプション）ツールバーの&#x200B;**グループ化** アイコン ![&#x200B; グループ化アイコン &#x200B;](assets/grouping-icon.png)をクリックして&#x200B;**レコードを**&#x200B;でグループ化ボックスを開き、**すべてを展開**&#x200B;してすべてのグループ化を展開するか、**すべてを折りたたむ**&#x200B;をクリックしてすべてのグループ化を折りたたみ、必要なグループのみを手動で折りたたみます。
+1. （オプションおよび条件付き）スイムレーン表示で、左パネルの区切り記号をドラッグ&amp;ドロップして、幅を調整します。 各ユーザーのパネルの幅は、セッション間で保存され、初回ユーザーのデフォルトの幅になります。
+1. （オプション）長いグループ名の場合は、グループ化の行にカーソルを合わせると、グループ化のフルネームがツールチップに表示されます。
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -527,7 +524,6 @@ Old:
    >あるグループから別のグループにレコードをドラッグ&amp;ドロップすると、グループ内で選択されているフィールドによって、移動したレコードの値が自動的に更新されます。
 1. （オプション）「**設定**」、「**カラー**」の順にクリックすると、グループ化をカラーコーディングできます。 詳しくは、この記事の[タイムラインビュー設定の編集](#edit-the-timeline-view-settings)の節を参照してください。
 
-<div class="preview">
 
 ### 並べ替えを追加
 
@@ -568,12 +564,6 @@ Old:
 
    ソートは直ちに適用されます。
 1. ページ上の任意の場所をクリックして、並べ替えボックスを閉じます。
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### タイムラインビュー設定の編集 {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Old:
    >
    >* カラーは、色分けされたオプションを含むフィールドにのみ一致させることができます。 例えば、色をステータス フィールドに一致させたり、色に関連するオプションを持つフィールドを一致させたりできます。
    >    
-   >* 実稼動環境では、カラーを接続されたレコードやその参照フィールドに一致させることはできません。 <span class="preview"> プレビュー環境では、接続されているレコードと色を一致させることはできますが、ルックアップフィールドには色を一致させることはできません。</span>
+   >* 接続されているレコードに色を一致させることはできますが、ルックアップフィールドには色を一致させることはできません。
 
-
-   例えば、複数選択フィールドや単一選択フィールドには、色分けされたオプションを含めることができます。
 
    色分けされたオプションを使用しないフィールドでグループ化した場合、グループ化の色はグレーのままになります。
 
@@ -667,8 +655,8 @@ Old:
 
    * **レコードタイプ**：レコードの色を、選択したレコードタイプの色と一致させます。 これはデフォルトのオプションです。
    * **フィールド値**：レコードの色を、指定したフィールドの色と一致させます。 手順 10 に進みます。<!--ensure this stays accurate-->
+   * **レコード**：色がレコードの色と一致します。
    * **グループ化**：レコードの色を、グループ化で指定した色と一致させます。 タイムラインビューにグループ化が適用されていない場合、このオプションは淡色表示になります。
-   * **なし**：レコードは白いバーで表示されます。 <span class="preview"> 「なし」オプションがプレビュー環境から削除されました。</span>
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 

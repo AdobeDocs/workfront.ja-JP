@@ -16,18 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 2%
 ---
 # 作業担当者の使用
 
-{{preview-fast-release-general}}
-
 作業担当者は、Workfrontのタスク、イシュー、リクエストに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同様に作業項目に割り当てられます。
 
-Work Agentsは、Copilot Studio、Claude、<span class="preview">OpenAIまたはIBMで設定したエージェントに接続します。</span>
+作業用エージェントは、Copilot Studio、Claude、OpenAI、またはIBMで設定したエージェントに接続されます。
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 >
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* Workfront MCP サーバーは、作業エージェントとして使用されるエージェントに追加する必要がなく、作業エージェントが機能するために接続する必要もありません。
->* Work Agentsは現在、Copilot Studio、Claude、<span class="preview">OpenAI、およびIBMで作成されたエージェントをサポートしています。</span>
+>* 現在、Work Agentsは、Copilot Studio、Claude、OpenAI、IBMで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
 >* Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -94,8 +92,8 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 * タスクの説明
 * タスクの更新ストリームのコメント
 * タスクに添付された任意のカスタムフォームの情報
-* <span class="preview">DOC ファイルやPDF ファイルなどの添付されたテキストベースのドキュメント </span>
-* <span class="preview"> プロジェクトフィールドが作業エージェント設定で設定されている場合</span>
+* DOC ファイルやPDF ファイルなどの添付されたテキストベースのドキュメント
+* プロジェクトフィールドが作業エージェント設定で設定されている場合
 
 この情報は常に読み取られ、Workfront設定として設定することはできません。
 
@@ -116,7 +114,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 ## 作業エージェントの開始トリガー
 
-作業エージェントがタスク <span class="preview">またはイシュー</span>に割り当てられている場合、次のいずれかの状況が発生すると作業が開始されます。
+作業エージェントがタスクまたは問題に割り当てられている場合、次のいずれかの状況が発生すると作業が開始されます。
 
 <!--update wording to include issues when this goes to production-->
 

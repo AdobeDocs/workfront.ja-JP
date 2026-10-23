@@ -28,20 +28,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 50%
+source-wordcount: '884'
+ht-degree: 51%
 ---
 # レコードのコメントの管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
+レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront プランニングレコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
 
 レコードの右側のパネルには、次のセクションが表示されます。
 
@@ -232,13 +234,9 @@ Old:
 
    メッセージでタグ付けしたユーザーには、新しいメッセージが送信されます。
 
-   <div class="preview">
-
    レコードタイプに対する表示権限を持つすべてのユーザーは、コメントを追加したレコードのテーブルビューに&#x200B;**新しいコメント** インジケーターを表示できます。
 
    ![&#x200B; テーブルビューの新しいコメントアイコン &#x200B;](assets/new-comment-icon-in-table-view-highlighted.png)
-
-   </div>
 
 1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
 1. （オプション）「**コメントを非表示**」アイコン「![&#x200B; コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。

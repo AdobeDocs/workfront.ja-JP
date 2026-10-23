@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
-ht-degree: 15%
+source-wordcount: '3769'
+ht-degree: 14%
 ---
 # レコードの作成
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ Adobe Workfront プランニングでは、レコードはレコードタイプ�
 * [ほかのレコードから接続したり](#create-records-as-you-connect-them)
 * [レコードタイプへのリクエストフォームの送信](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSVまたはExcel ファイルから情報をインポートする](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [CX Enterprise Coworkerを使用したレコードの作成](#create-records-using-cx-enterprise-coworker)
 * [自動処理の利用](#create-records-by-using-automations)
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
@@ -196,14 +198,9 @@ Old:
   >
   >ワークスペースマネージャーは、表示権限を持つユーザーがリクエストフォームを使用してレコードを追加するために、レコードタイプのリクエストフォームを作成する必要があります。 それ以外の場合、View-permission ユーザーはレコードを作成できません。
 
-<div class="preview">
-
 * レコードを作成する方法に関係なく、すべてのレコードは作成時に自動的に色分けされます。
 
   詳しくは、この記事の「[&#x200B; カラーコーディングレコード &#x200B;](#color-coding-records)」の節を参照してください。
-
-</div>
-
 
 ## 任意のレコードタイプビューから、「新規レコード」ボタンまたは「レコードを要求」ボタンを使用してレコードを作成します
 
@@ -602,6 +599,16 @@ CSVまたはExcel ファイルから情報を読み込む際に、既存のレ�
 
 詳しくは、[CSVまたはExcel ファイルから情報を読み込んでレコードを作成](/help/quicksilver/planning/records/import-file-to-create-records.md)を参照してください。
 
+## CX Enterprise Coworkerを使用したレコードの作成
+
+CX Enterprise Coworkerを使用して、AIにレコードの作成を依頼することで、レコードを作成できます。
+
+また、Workfront CX Enterprise Coworkerの&#x200B;**ファイル添付**&#x200B;機能を使用して、一度に大量のレコードをアップロードすることもできます。 この方法を使用すると、10,000以上のレコードをインポートできます。
+
+CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 AI アシスタントは、これらの組織で利用できます。
+
+詳しくは、[WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)を参照してください。
+
 ## 自動処理を使用したレコードの作成
 
 Workfront Planningで自動処理を設定し、アクティブ化すると、Planning レコードからトリガーされたときにレコードが作成されます。 作成されたレコードは、オートメーションのトリガー元のレコードに自動的に接続されます。
@@ -613,8 +620,6 @@ Workfront Planningのレコードのページで、自動処理を設定して�
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## カラーコーディングレコード
 
@@ -657,4 +662,3 @@ Move to its own article after production release in 10/2026:
 
       選択すると、新しいカラーがすぐに適用されます。
 
-</div>
