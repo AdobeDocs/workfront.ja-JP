@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3413'
 ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
@@ -43,19 +43,23 @@ Coworkerでファイルを添付するための既存の機能を使用して、
 
 詳しくは、[WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)を参照してください。
 
-## GenStudio for Performance Marketingでプランニングワークスペースを有効にする
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->プレビューと制作：2026年10月21日（PT）
->[!BADGE オフスケジュール]{type=Neutral}
->Adobe GenStudio for Performance Marketing ライセンスをお持ちのお客様のみが利用できます
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-既存のWorkfront計画ワークスペースをGenStudio for Performance Marketing プランで使用できるようになりました。これにより、キャンペーン、商品、ペルソナ、およびその他のレコードを再作成することなく再利用できます。
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-GenStudio Adobe ストレージプロジェクトを使用すると、プランニングレコードタイプとフィールドをGenStudio Workspace レコードタイプとフィールドにマッピングし、プロジェクトスイッチャーからGenStudioのプランニングワークスペースの情報にアクセスできます。
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-詳しくは、[GenStudio for Performance MarketingへのAdobe Workfront Planning Workspaceの有効化](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)を参照してください。
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Metaの動的クリエイティブアクティベーションタイプ
 

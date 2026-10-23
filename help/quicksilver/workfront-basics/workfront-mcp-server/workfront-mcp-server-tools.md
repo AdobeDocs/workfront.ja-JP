@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
+source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3777'
 ht-degree: 5%
 ---
 
@@ -67,10 +67,11 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 使用可能なツールセットは次のとおりです。
 
-* `core` — ツールセットのサブセットを選択すると自動的に含まれるベース Workfront ツールセット。
-* `comment-stream` — コメントとディスカッションのワークフロー用ツール。
-* `planning` — Workfront プランニング機能のツール。
-* `approvals` – 承認ワークフロー用のツール。
+* `core`: ツールセットのサブセットを選択すると自動的に含まれるベース Workfront ツールセット。
+* `comment-stream`: コメントとディスカッションのワークフロー用のツール。
+* `planning`: Workfront プランニング機能のツール。
+* `approvals`：承認ワークフロー用のツール。
+* `reporting`: レポート用ツール。
 
 承認済みカタログ全体を公開するには、パラメーターを省略するか、`toolsets=all`を使用します。
 
