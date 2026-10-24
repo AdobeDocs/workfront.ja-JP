@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 91%
@@ -2328,7 +2328,7 @@ ht-degree: 91%
     * [Adobe Workfront プランニングと Adobe GenStudio for Performance Marketing の統合：記事インデックス](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Adobe Workfront プランニングと Adobe GenStudio for Performance Marketing の統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Adobe Workfront プランニングでの GenStudio ワークスペースの管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * [GenStudio for Performance Marketingに対するWorkfront計画ワークスペースの有効化](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
+    * {hide-from-toc}[GenStudio for Performance Marketingに対するWorkfront計画ワークスペースの有効化](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * スタンドアロン製品としてのAdobe Workfront Planning {#planning-standalone}
     * [スタンドアロン製品としてのAdobe Workfront計画：記事インデックス](planning/planning-sta/planning-sta-article-index.md)
     * [スタンドアロン製品としてAdobe Workfront Planningを使用する](planning/planning-sta/planning-sta-overview.md)

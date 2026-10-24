@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 29%
 ---
 # タイムラインビューの管理
@@ -484,7 +484,6 @@ Old:
 
 1. 「**レコードを**&#x200B;でグループ化」ボックスで、グループ化を正しい順序でドラッグ&amp;ドロップします。
 
-
 1. **レコードを**&#x200B;でグループ化ボックスの&#x200B;**レイアウト**&#x200B;領域で、次のいずれかのオプションを選択します。
 
    * **積み重ね**: グループ化は、固定された左列なしで表示され、アイテムのタイムラインの幅に合わせて表示されます。
@@ -524,6 +523,11 @@ Old:
    >あるグループから別のグループにレコードをドラッグ&amp;ドロップすると、グループ内で選択されているフィールドによって、移動したレコードの値が自動的に更新されます。
 1. （オプション）「**設定**」、「**カラー**」の順にクリックすると、グループ化をカラーコーディングできます。 詳しくは、この記事の[タイムラインビュー設定の編集](#edit-the-timeline-view-settings)の節を参照してください。
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### 並べ替えを追加
 
@@ -549,7 +553,17 @@ Old:
 
    ![&#x200B; グループ化された並べ替えでタイムラインで並べ替え](assets/sort-in-timeline.png)
 1. ドロップダウンメニューから「**レコードを並べ替え**」を選択し、**候補フィールドから開始** リストに表示されているフィールドをクリックするか、**別のフィールドを選択**&#x200B;をクリックしてから、フィールドを検索してリストに表示されたらクリックします。
-1. レコードの並べ替えを適用する方向（アルファベット順、逆順など）を選択します。 並べ替えの適用方向は、選択したフィールドの形式によって異なります。
+1. レコードの並べ替えを適用する方向（アルファベット順、逆順など）を選択します。
+
+   例えば、テキストフィールドの並べ替えは、A -> ZまたはZ -> Aです。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   並べ替えの適用方向は、選択したフィールドの形式によって異なります。
 1. （オプション）「**条件を追加**」をクリックして、最大10件の条件を追加します。
 1. （オプション）すべての条件を削除するには、**すべてをクリア**&#x200B;をクリックします。
 1. 並べ替えボックスの左上隅にあるドロップダウンメニューから、「**グループ化を並べ替え**」を選択します。

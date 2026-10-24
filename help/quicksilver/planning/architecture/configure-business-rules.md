@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 3%
@@ -101,7 +101,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * ルールはレコードの作成をブロックしません。 ユーザーは引き続きレコードを作成できますが、必須フィールドが空でないか、指定された値が含まれていることを確認する必要があります。
 * ルールは、レコードを自動的に編集または削除しません。 変更は、ユーザーが故意にトリガーする必要があります。
 * ルールは過去にさかのぼって適用されません。古いレコードは影響を受けません。 ルールチェックは、ユーザーがレコードを次に編集または削除しようとしたときにのみ実行されます。
-* プライマリワークスペースまたはセカンダリワークスペースのグローバルレコードタイプにビジネスルールを追加することはできません。
+* &#x200B;<!--In the Production environment,--> プライマリワークスペースまたはセカンダリワークスペースのグローバルレコードタイプにビジネスルールを追加することはできません。
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * 次の以外のすべてのフィールドタイプを参照するビジネスルールの条件を作成できます。
   * 数式フィールド
   * ルックアップフィールド

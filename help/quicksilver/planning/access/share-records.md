@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 7%
 ---
 <!--update metadata with real information at release-->
@@ -234,7 +234,15 @@ Lilit is checking on this, it is not working correctly
    >
    >異なるワークスペースに追加されたレコードに対して、権限を共有することはできません。 レコードを一括共有する場合、レコードはすべて同じワークスペースで作成する必要があります。
 
-1. （オプション） **アクセス権を持つユーザー**&#x200B;領域で、**ワークスペース内のすべてのユーザーが** オプションをデフォルトで表示できます。  ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、レコードに対して同じ権限を持ちます。
+1. （オプション） ワークスペース内の全員が&#x200B;**表示できる** オプションがデフォルトで選択されています。  ワークスペースおよびレコードタイプに対する&#x200B;**ビュー**&#x200B;以上の権限を持つユーザーはすべて、レコードに対して同じ権限を持ちます。 ワークスペースへのアクセス権を持つすべてのユーザーに対する権限を制限することはできません。
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. （オプション）「**から権限を継承」オプションの下にあるユーザーのアバターをクリックして、ワークスペースから権限を継承するユーザー、チーム、グループ、企業、またはジョブロールを表示します。<!--logged bug to move "Permissions" to lowercase-->**
 
@@ -277,6 +285,7 @@ Lilit is checking on this, it is not working correctly
       >* ユーザーがレコードタイプに対してContribute以上を持っている場合、そのレコードに対して少ない権限を付与することはできません。
       >詳しくは、[Adobe Workfront プランニングでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
       >* ワークスペース内にないユーザーに権限を付与することはできません。 ワークスペースおよびレコードタイプに対する権限を持たないユーザーは、どのレコードにもアクセスできません。
+      >* 他のユーザーと共有するには、レコードの管理権限が必要です。
 
    <!--   
    Not possible:

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 5%
 ---
 # Adobe Workfront Planning でのリクエストフォームの作成と管理
@@ -296,14 +296,14 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
 1. （条件付き）要求されたオブジェクトが完了したときに要求が「完了」とマークされるように選択した場合は、フィールドと、オブジェクトがいつ完了したかを示す値を選択します。 例えば、作成したオブジェクトのステータスが「完了」に設定されている場合、「ステータス」フィールドと「完了」の値を選択して、リクエストを完了できます。
 
-1. 左側のパネルで「**権限**」をクリックします。
-1. このフォームを通じてリクエストを送信するユーザーの権限レベルを選択します。
+1. 左側のパネルの&#x200B;**権限**&#x200B;をクリックして、このフォームを使用して送信されたリクエストに対してユーザーが持つ権限をデフォルトで設定します。 ここで付与した権限は、今後のリクエストに対してすぐに有効になり、既存のリクエストには影響しません。
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> このフォームを使用して要求を送信するユーザーについて、このフォームに送信する要求の権限レベルを選択します。
 
    * **表示**：すべての依頼者がフォームにコメントし、共有できます。
    * **Contribute**：すべての依頼者は、フォームにコメント、共有、編集できます。
-   * **管理**：すべての依頼者は、フォームにコメント、共有、編集、削除できます。
+   * **管理**：すべての依頼者は、フォームにコメント、共有、編集、削除できます。 これはデフォルトの権限です。
 
-1. （オプション）各権限レベルの詳細な権限の選択を解除して、依頼者が次のアクションを実行できないようにします。
+1. （オプション） <!--<span class="preview">In the **Requestor access** section,</span>-->要求者が次の操作を実行できないように、各権限レベルの詳細な権限の選択を解除します。
 
    * コメント
    * 共有
@@ -313,6 +313,28 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
    >[!TIP]
    >
    >ここで選択解除した詳細な権限は、リクエストページからユーザーとリクエストを共有する際にグレー表示されます。
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">要求を送信する際に&#x200B;**フォームに入力**&#x200B;機能を使用する場合、**AI フォーム入力**&#x200B;をクリックしてカスタムプロンプトを設定します。</span>
 

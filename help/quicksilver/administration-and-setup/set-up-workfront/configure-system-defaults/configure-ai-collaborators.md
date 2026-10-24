@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # AI共同作業者の設定
@@ -37,6 +37,8 @@ AI協力者とは、AI エージェントをプロジェクト、タスク、イ
 * 作業エージェント：Claude、OpenAI、Copilotなどの標準AI プラットフォームを使用して共同作業者を作成し、その共同作業者をタスクや問題に割り当てて作業項目を完了させます。
 
   詳しくは、[作業担当者の使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
+
+AI共同作業者が使用するライセンスには請求されません。 組織に200 Workfront ライセンスがあり、AI Collaboratorを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -123,6 +125,8 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業担当者は、タスクまたはイシューに割り当てることができます。
 
+作業担当者が使用するライセンスには料金は請求されません。 組織に200 Workfront ライセンスがあり、Work Agentを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
+
 作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
@@ -200,7 +204,6 @@ Workfrontで作業エージェントとして使用するエージェントを�
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++

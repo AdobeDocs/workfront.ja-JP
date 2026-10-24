@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 1%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-Workfront Planningの次の領域では、リストビューでオブジェクトを表示できます。
+Adobe Workfront Planningのリストビューでは、次の領域でオブジェクトを表示できます。
 
 * レコードの詳細領域にあるプロジェクトの接続されたレコードページ
 
@@ -53,6 +53,8 @@ Workfront Planningの次の領域では、リストビューでオブジェク�
   ![&#x200B; リストビューのリクエストフォーム &#x200B;](assets/request-forms-in-list-view.png)
 
 ここでは、Workfront Planningでリスト表示を操作、作成または編集する方法について説明します。
+
+Workfront Planningで使用できるその他すべてのビューについて詳しくは、[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
 ## アクセス要件
 
