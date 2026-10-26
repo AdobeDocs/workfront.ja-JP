@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # 2027年第1四半期リリースの概要
@@ -58,14 +58,31 @@ ht-degree: 30%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
 * シナリオプランナー
 * プルーフ
-* Goals
+* 目標
+
+## デスクトッププルーフビューアーのアップデート
+
+### バージョン 2.3.0
+
+>[!NOTE]
+>
+>プレビュー：2026年10月27日（PT）
+>すべてのユーザー向けの実稼動リリース：2026年10月28日（PT）
+
+デスクトップ校正ビューアがバージョン 2.3.0に更新されました。 このアップデートには、次の変更が含まれます。
+
+* 複数のバージョンを移動中にスクリーンショットの下のリンクをクリックすると、複数のタブでページが開くインタラクティブプルーフの問題を解決しました。 リンクが1つのタブでページを開くようになりました。
+
+* パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
+
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 
@@ -99,7 +116,7 @@ ht-degree: 30%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
