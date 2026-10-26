@@ -45,7 +45,7 @@ ht-degree: 58%
 >
 >すべての組織がAdobe Admin Consoleにオンボーディングされたため、この機能は廃止されました。
 >
->Adobe Admin ConsoleでSAML証明書を更新する手順については、「SAML応答のデジタル署名が検証されませんでした…」の節を参照してください。 [Federated IDのトラブルシューティング &#x200B;](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp)で発生しました。
+>Adobe Admin ConsoleでSAML証明書を更新する手順については、「SAML応答のデジタル署名が検証されませんでした…」の節を参照してください。 [Federated IDのトラブルシューティング &#x200B;](https://helpx.adobe.com/jp/enterprise/kb/tshoot-fed-id.html?lang=jp)で発生しました。
 
 <!--
 
