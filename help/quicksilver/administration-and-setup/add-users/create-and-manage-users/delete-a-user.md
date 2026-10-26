@@ -38,11 +38,11 @@ ht-degree: 77%
 >
 >このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 組織はAdobe Admin Consoleにオンボーディングされているため、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
 >
->  Adobe Admin Consoleでユーザーを削除する手順については、[ ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)する記事の「ユーザーを完全に削除する」セクションを参照するか、Adobe Admin Console管理者にお問い合わせください。
+>  Adobe Admin Consoleでユーザーを削除する手順については、[&#x200B; ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)する記事の「ユーザーを完全に削除する」セクションを参照するか、Adobe Admin Console管理者にお問い合わせください。
 
 組織を離れたユーザーは、Adobe Workfront から削除することができます。
 
-ユーザーの削除は、Adobe Admin Consoleを通じて実行する必要があります。 手順については、[ ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事の「ユーザーを完全に削除する」の節を参照するか、Adobe Admin Console管理者にお問い合わせください。
+ユーザーの削除は、Adobe Admin Consoleを通じて実行する必要があります。 手順については、[&#x200B; ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事の「ユーザーを完全に削除する」の節を参照するか、Adobe Admin Console管理者にお問い合わせください。
 
 >[!IMPORTANT]
 >
@@ -93,7 +93,7 @@ ht-degree: 77%
     >[!NOTE]
     >
     >ユーザーをディアクティベートし、そのユーザーに関連付けられているレポートやダッシュボードを表示できなくなった場合は、「**このレポートを次のアクセス権で実行：**」フィールドを更新する必要がある場合があります。\
-    >詳しくは、[ アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [ レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
+    >詳しくは、[&#x200B; アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [&#x200B; レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
 
   * ドキュメント
   * アップデート

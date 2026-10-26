@@ -182,7 +182,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
 
 ## SAML 証明書の更新
 
-Adobe Admin ConsoleでSAML証明書を更新する手順については、「SAML応答のデジタル署名が検証されませんでした…」の節を参照してください。 [Federated IDのトラブルシューティング ](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp)で発生しました。
+Adobe Admin ConsoleでSAML証明書を更新する手順については、「SAML応答のデジタル署名が検証されませんでした…」の節を参照してください。 [Federated IDのトラブルシューティング &#x200B;](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp)で発生しました。
 
 <!--
 
