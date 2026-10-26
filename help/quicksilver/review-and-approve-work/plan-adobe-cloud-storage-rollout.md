@@ -9,7 +9,7 @@ feature: System Setup and Administration, Work Management, Digital Content and D
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b4413742-c250-4110-9097-6d38842355a4
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Adobe クラウドストレージがユーザーにリーチするタイミン�
 
 既存のオブジェクトは、作成されたストレージモデルを保持します。 デフォルトのストレージ環境設定を変更しても、既存のオブジェクトは変更されません。
 
-設定![&#128279;](assets/storage-preference-groups.png)の ストレージ環境設定
+設定](assets/storage-preference-groups.png)の![ ストレージ環境設定
 
 ## ロールアウトの計画
 
@@ -47,6 +47,12 @@ Workfrontの環境は、それぞれ異なります。 Adobe クラウドスト�
 ### パイロットグループの選定
 
 グループスコープのロールアウトでは、Adobeクラウドストレージをより小さなチームの前に置き、フィードバックを集め、より広範なロールアウトの前に調整することができます。 作業パターンが、早い段階で把握したい課題を表面化するのに十分な代表性を有するグループを選択します。
+
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
 
 ### 本番稼働前にテストする
 
@@ -70,7 +76,7 @@ Adobe クラウドストレージでは、厳密な命名ルールが適用さ�
 
 ### レポートの変更計画
 
-統合された承認ワークフローのデータとレポートは、Canvas ダッシュボードに表示されます。 従来の承認レポートは自動的に引き継がれないので、パイロットチームが必要とする前に代替ダッシュボードを設定します。 詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+統合された承認ワークフローのデータとレポートは、Canvas ダッシュボードに表示されます。 従来の承認レポートは自動的に引き継がれないので、パイロットチームが必要とする前に代替ダッシュボードを設定します。 詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 ## 推奨シーケンス
 
