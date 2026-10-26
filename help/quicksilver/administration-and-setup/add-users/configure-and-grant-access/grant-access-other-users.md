@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 60%
+source-wordcount: '936'
+ht-degree: 58%
 ---
 # ユーザーへのアクセスを許可
 
@@ -63,7 +63,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 * Workfront 管理者。
 
-  詳しくは、[ユーザーに完全な管理アクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)を参照してください。
+  Workfront管理者は、Adobe Admin Consoleで設定されます。 手順については、「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)」の節を参照してください。 Adobe Admin Consoleでユーザーを管理するを参照してください。
 
 * この記事で説明されているように、デフォルトの標準またはプランのライセンスを持つユーザー。ユーザーにもアクセスできます。
 
@@ -103,9 +103,9 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
     </tbody> 
    </table>
 
-   ![&#x200B; ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
+   ![ ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
 
-1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、**ユーザー**&#x200B;の右側にある&#x200B;**編集** ボタンの歯車アイコン ![歯車アイコン &#x200B;](assets/gear-icon-settings.png)をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
+1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、**ユーザー**&#x200B;の右側にある&#x200B;**編集** ボタンの歯車アイコン ![歯車アイコン ](assets/gear-icon-settings.png)をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 

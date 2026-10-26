@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '872'
 ht-degree: 93%
 ---
 # Workfront の AI アシスタント
@@ -69,10 +69,6 @@ Workfront の AI アシスタントは、アプリ内の情報やおすすめを
 
 組織の AI アシスタントを有効にするには、次の&#x200B;**すべて**&#x200B;の条件を満たす必要があります。
 
-<!--Remove me October 2026-->
-
-* 組織が Adobe IMS（ID 管理システム）に移行している必要があります。
-* Adobe Unified Experience を有効にする必要があります。
 * 組織が Select、Prime、または Ultimate の Workfront プランを導入している必要があります。
 * アドビが署名済みの Adobe 生成 AI 契約を保存している必要があります。
 

@@ -29,59 +29,59 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 68%
+source-wordcount: '76'
+ht-degree: 40%
 ---
 # Adobe Workfront ドメインを変更
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
 >このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 すべての組織がAdobe Admin Consoleにオンボーディングされたため、**Workfront ドメインを変更できません**。
->
->お客様の組織がAdobe Workfrontにオンボーディングされているかどうかに応じて異なる手順の一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
->
->この記事は近々削除される予定です。
 
-Adobe Workfront の管理者であり、認定 Workfront サポート担当者である場合は、組織の Workfront ドメインを変更するために、Workfront サポートチームにヘルプをリクエストできます。
+<!--
 
-## アクセス要件
+As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td><p>任意</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>標準</p><p>プラン</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## ドメインの変更をリクエスト
+## Request a domain change
 
-1. Experience League でサポートチケットを作成し始めます。
-1. 「**説明**」ボックスに、必要な新しいドメインと、新しいドメインを稼動させる時期を記入します。
-1. サポートケースのボックスへの記入を完了したら、「**送信**」をクリックします。
+1. Begin creating a support ticket on Experience League.
+1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
+1. Finish filling out the boxes for the support case, then click **Submit**.
 
-また、Workfront サポートに連絡して、ドメインの変更に関するヘルプを受けることもできます。
+You can also call Workfront Support to get help changing your domain.
+
+-->
 
 <!--
 

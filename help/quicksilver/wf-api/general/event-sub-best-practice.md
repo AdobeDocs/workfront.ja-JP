@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 86%
+source-wordcount: '412'
+ht-degree: 74%
 ---
 # イベント登録のベストプラクティス
 
@@ -62,7 +62,9 @@ ht-degree: 86%
 
 イベント登録を作成、クエリ、または削除するには、Workfront ユーザーが次の条件を満たす必要があります。
 
-* **システム管理者のアクセス レベル**
-詳しくは、[&#x200B; ユーザーに完全な管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域へのユーザーの管理アクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
+* アクセス レベル **システム管理者**
+
+  システム管理者は、Adobe Admin Consoleで作成されます。
+  詳しくは、「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)」の節を参照してください。 Adobe Admin Consoleでユーザーを管理するを参照してください。 または[特定の領域への管理アクセス権をユーザーに付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 組織でAdobe IMS（Identity Management System）を使用している場合は、`X-User-Token` ヘッダーに渡されたIMS ユーザートークンを含めます。

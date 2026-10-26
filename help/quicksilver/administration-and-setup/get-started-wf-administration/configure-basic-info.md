@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 90%
@@ -87,12 +87,12 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
    顧客情報エリアには、次のセクションがあります。
 
    | セクション | 詳細情報 |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **基本情報** | Workfront での基本情報の設定について詳しくは、[基本情報の設定](#configure-basic-info)を参照してください。 |
-   | **ストレージの概要** | ドキュメントのストレージの使用状況と割り当て量の確認について詳しくは、[&#x200B; ドキュメントのストレージの制限の確認](../../documents/managing-documents/check-document-storage.md)を参照してください。 |
+   | **ストレージの概要** | ドキュメントのストレージの使用状況と割り当て量の確認について詳しくは、[ ドキュメントのストレージの制限の確認](../../documents/managing-documents/check-document-storage.md)を参照してください。 |
    | **API キー設定** | API キーの設定について詳しくは、[API キーの管理](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)を参照してください。 |
    | **IP 許可リスト** | ユーザーが Workfront にアクセスするために許可リストに IP アドレスを追加する方法については、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。 |
-   | **メール許可リスト** | メールをメール許可リストに追加する方法について詳しくは、[&#x200B; メールを設定するを参照してください](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |
+   | **メール許可リスト** | メールをメール許可リストに追加する方法について詳しくは、[ メールを設定するを参照してください](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |
 
    <!--
    * **License**

@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 96%
+source-wordcount: '1803'
+ht-degree: 94%
 ---
 # アクセスレベルの概要
 
@@ -93,7 +93,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 
 また、システムレベルで設定を変更できる完全な設定領域にもアクセスでき、メインメニューのすべての領域にアクセスできます。
 
-詳しくは、[ユーザーへの完全な管理アクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)を参照してください。
+ユーザー管理者のアクセス権の付与は、Adobe Admin Consoleを通じて行われます。 手順については、「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)」の節を参照してください。 Adobe Admin Consoleでのユーザーの管理の記事を参照してください。
 
 ### 標準アクセスレベル
 

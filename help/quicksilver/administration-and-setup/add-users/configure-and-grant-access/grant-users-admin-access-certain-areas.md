@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 87%
+source-wordcount: '751'
+ht-degree: 80%
 ---
 # 特定の領域に対する管理アクセス権をユーザーに付与
 
@@ -40,7 +40,8 @@ Adobe Workfront管理者は、アクセスレベルを使用して、Standardま
 
 >[!NOTE]
 >
->これは、[ユーザーに完全な管理アクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)で説明されている、Workfront に対する完全な管理アクセス権をユーザーに付与することとは異なります。
+>これは、ユーザーにWorkfrontへの完全な管理アクセス権を付与することとは異なります。 ユーザー管理者のアクセス権の付与は、Adobe Admin Consoleを通じて行われます。 Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)」の節を参照してください。 Adobe Admin Consoleでのユーザーの管理の記事を参照してください。
+
 
 ## アクセス要件
 

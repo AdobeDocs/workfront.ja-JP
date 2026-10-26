@@ -27,168 +27,175 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 98%
+source-wordcount: '45'
+ht-degree: 37%
 ---
 # ADFS を使用した Adobe Workfront と SAML 2.0 の連携の設定
 
+>[!IMPORTANT]
+>
+>サインオンはAdobe IMS（Identity Management System）を通じて処理されるようになったため、この記事に記載されている情報は削除されました。
+
+<!--
 {{important-admin-console-onboard}}
 
-Adobe Workfront の管理者は、Active Directory Federation Services（ADFS）の使用中に、Workfront を、シングルサインオン用の Security Assertion Markup Language（SAML）2.0 ソリューションと統合できます。
+As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
 
-このガイドでは、自動プロビジョニングまたは属性マッピングを使用しない ADFS の設定に焦点を当てています。 自動プロビジョニングを設定する前に、設定を完了してテストすることをお勧めします。
+This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
 
-## アクセス要件
+## Access requirements
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td><p>任意</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>標準</p><p>プラン</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## SAML 2.0 と連携する Workfront に対する認証の有効化
+## Enable authentication to Workfront with SAML 2.0
 
-SAML 2.0 を使用してWorkfront web アプリケーションと Workfront モバイルアプリケーションに対する認証を有効にするには、次の節を完了します。
+To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
 
-* [Workfront SSO メタデータファイルの取得](#retrieve-the-workfront-sso-metadata-file)
-* [証明書利用者信頼の設定](#configure-relying-party-trusts)
-* [要求ルールの設定](#configure-claim-rules)
-* [メタデータファイルのアップロードと接続テスト](#upload-the-metadata-file-and-test-the-connection)
+* [Retrieve the Workfront SSO metadata file](#retrieve-the-workfront-sso-metadata-file) 
+* [Configure Relying Party Trusts](#configure-relying-party-trusts) 
+* [Configure Claim Rules](#configure-claim-rules) 
+* [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection)
 
-### Workfront SSO メタデータファイルの取得 {#retrieve-the-workfront-sso-metadata-file}
+### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
-1. **タイプ**&#x200B;ドロップダウンメニューで「**SAML 2.0**」をクリックすると、追加の情報とオプションが表示されます。
-1. **メタデータ URL** の後に表示される URL をコピーします。
-1. [証明書利用者信頼の設定](#configure-relying-party-trusts)の節に進みます。
+1. In the left panel, click **System** > **Single Sign-On (SSO)**.
+1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
+1. Copy the URL that displays after **Metadata URL**. 
+1. Continue to the following section, [Configure Relying Party Trusts](#configure-relying-party-trusts).
 
-### 証明書利用者信頼の設定 {#configure-relying-party-trusts}
+### Configure Relying Party Trusts {#configure-relying-party-trusts}
 
-1. Windows Server 2008 R2（バージョンは異なる場合があります）を使用して、**ADFS マネージャー**&#x200B;を開きます。
-1. **開始**&#x200B;に移動します。
-1. **管理ツール**&#x200B;をクリックします。
-1. **ADFS 2.0 管理**&#x200B;をクリックします。
-1. **ADFS**&#x200B;を選択して、**信頼関係**&#x200B;を展開します。
-1. **証明書利用者信頼**&#x200B;を右クリックし、「**証明書利用者信頼を追加**」をクリックして、証明書利用者信頼を追加ウィザードを開始します。
-1. **ようこそページ**&#x200B;から、「**開始**」を選択します。
-1. 「**日付のソースを選択**」セクションで、Workfront からメタデータ URL をペーストします。
-1. 「**次へ**」をクリックします。
-1. 「**OK**」をクリックして、警告メッセージを確認します。
-1. 「**表示名を指定**」セクションに、**表示名**&#x200B;および&#x200B;**メモ**&#x200B;を追加して、信頼を区別し、「**次へ**」をクリックします。
-1. 「**すべてのユーザーがこの証明書利用者にアクセスすることを許可**」（または、後で設定する場合は「**なし**」）を選択します。
-1. 「**次へ**」をクリックします。
+1. Open the **ADFS Manager** using the Windows server 2008 R2 (version may vary).
+1. Go to **Start.**
+1. Click **Administration Tools.**
+1. Click **ADFS 2.0 Management.**
+1. Select **ADFS** and expand **Trust Relationships**.
+1. Right-click **Relying Party Trusts**, then select **Add Relying Party Trust** to launch the Add Relying Party Trust Wizard.
+1. From the **Welcome Page**, select **Start**. 
+1. In the **Select Date Source** section, paste the metadata URL from Workfront.
+1. Click **Next**.
+1. Click **OK** to acknowledge the warning message.
+1. In the **Specify Display Name** section, add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
+1. Select **Permit all user to access this relying party** (Or **None** if you want to configure this later).
+1. Click **Next**.
 
-   これにより、「**信頼の追加準備完了**」セクションに移動します。
+   This takes you to the **Ready to Add Trust** section.
 
-1. 次の[要求ルールの設定](#configure-claim-rules)の節に進みます。
+1. Continue to the following section [Configure Claim Rules](#configure-claim-rules).
 
-### 要求ルールの設定 {#configure-claim-rules}
+### Configure Claim Rules {#configure-claim-rules}
 
-1. 「**信頼の追加準備完了**」セクションで「**次へ**」をクリックして、「**要求ルールを編集ダイアログボックスを開く**」オプションが選択されていることを確認します。
-
-   これにより、後のステップで要求ルールを編集できます。
-
-1. 「**閉じる**」をクリックします。
-1. 「**ルールを追加**」をクリックします。
-1. 「**LDAP 属性を要求として送信**」を選択します。
-1. 「**次へ**」をクリックし、**要求ルールの構成**&#x200B;手順を表示します。
-1. 要求ルールを構成するには、以下の最小要件を指定します（このルールは、ユーザー設定の&#x200B;**連合 ID** に入って、ログインしているユーザーの区別に使用します）。
-
+1. Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
+    
+    This will allow you to edit Claim Rules in a future step.
+    
+1. Click **Close**.
+1. Click **Add Rule.**
+1. Select **Send LDAP Attribute as Claims**.    
+1. Click **Next** to display the **Configure Claim Rule** step.  
+1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
+    
 
    <table >                
       <tbody>
             <tr>
-               <td>要求ルール名
+               <td>Claim rule name
                </td>
-               <td>要求ルールの名前を指定します。 例えば「Workfront」。</td>
+               <td>Specify a name for the claim rule. For example, "Workfront."</td>
             </tr>
             <tr>
-               <td>属性ストア</td>
-               <td >ドロップダウンメニューから <b>Active Directory</b> を選択します。</td>
+               <td>Attribute store</td>
+               <td >Select <b>Active Directory</b> from the drop-down menu.</td>
             </tr>
             <tr>
-               <td>LDAP 属性</td>
-               <td>任意のタイプの属性を指定できます。 この属性には <b>SAM-Account-Name</b> を使用することをお勧めします。</td>
+               <td>LDAP Attribute</td>
+               <td>This can be any type of attribute. We recommend using <b>SAM-Account-Name</b> for this attribute.</td>
             </tr>
             <tr>
-               <td>発信する要求のタイプ</td>
-               <td>発信する要求のタイプとして<b>名前 ID</b> を選択する必要があります。</td>
+               <td>Outgoing Claim Type</td>
+               <td>You must select <b>Name ID</b> as the outgoing claim type</td>
             </tr>
       </tbody>
    </table>
 
-1. （オプション）自動プロビジョニングを確立するには、LDAP 属性と発信する要求のタイプの両方で次の要求を追加します。
+1. (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:
+    
+    * Given Name
+    * Surname
+    * E-Mail Address
 
-   * 名
-   * 姓
-   * メールアドレス
-
-1. 「**完了**」をクリックし、次の画面で「**OK**」をクリックします。
-1. 新しい&#x200B;**証明書利用者の信頼**&#x200B;を右クリックし、「**プロパティ**」を選択します。
-1. **「詳細」タブ**&#x200B;を選択します。 そして「**セキュア ハッシュ アルゴリズム**」で「SHA-1」または「SHA-256」を選択します。
-
-   >[!NOTE]
-   >
-   >「セキュア ハッシュ アルゴリズム」で選択するオプションは、設定／システム／シングルサインオン (SSO) にある「Workfront」の「セキュア ハッシュ アルゴリズム」フィールドと一致する必要があります。
-
-1. 次の節[メタデータファイルをアップロードして接続をテスト](#upload-the-metadata-file-and-test-the-connection)に続きます。
-
-### メタデータファイルのアップロードと接続テスト {#upload-the-metadata-file-and-test-the-connection}
-
-1. ブラウザーを開き、`https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` にアクセスします。
-
-   メタデータファイルの FederationMetadata.xml ファイルをダウンロードしてください。
-
-1. **IDプロバイダメタデータからフィールドを入力する**&#x200B;の「**ファイルを選択**」をクリックし、**FederationMetadata.xml** ファイルを選択します。
-
-1. （オプション）証明書の情報にメタデータファイルが入力されていない場合は、ファイルを個別にアップロードすることができます。 「**証明書**」セクションの「**ファイルを選択**」を選択します。
-
-1. 「**テスト接続**」をクリックします。 正しく設定されていると、次のようなページが表示されます。
-
-   ![SAML 2成功メッセージ &#x200B;](assets/success-saml-2.png)
+1. Click **Finish**, then click **OK** on the next screen.
+1. Right-click the new **Relying Party Trust**, then select **Properties**.    
+1. Select the**Advanced Tab**. And under **Secure Hash Algorithm** select SHA-1 or SHA-256.
 
    >[!NOTE]
    >
-   >属性マッピングを設定する場合は、テスト接続からディレクトリ属性に属性をコピーします。 詳しくは、ユーザー属性のマッピングを参照してください。
+   >The option that you select under Secure Hash Algorithm must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
 
-1. 「**管理の免除**」を選択し、Workfront 管理者がバイパス URL のある Workfront 資格情報を使用してログインできるようにします。
+1. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
 
-   `<yourdomain>`.my.workfront.com/login を指すブックマークがリダイレクトをバイパスします。
+### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
 
-1. 「**有効にする**」ボックスを選択して設定を有効にします。
-1. 「**保存**」をクリックします。
+1. Open a browser and navigate to `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
 
-## SSO のユーザーの更新について
+   This should download a Metadata file FederationMetadata.xml file.
 
-このガイドに従うと、**SSO ユーザー名**&#x200B;は対応する **Active Directory ユーザー名**&#x200B;になります。
+1. Click **Choose File** under **Populate fields from Identity Provider Metadata**, and select the **FederationMetadata.xml** file.
 
-Workfront 管理者は、SSO のユーザーを一括更新できます。 SSO のユーザーの更新について詳しくは、[シングルサインオンのユーザーを更新](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)を参照してください。
+1. (Optional) If the certificate information did not populate with the metadata file, you can upload a file separately. Select **Choose File** in the **Certificate** section.
 
-Workfront 管理者は、ユーザーのプロファイルを編集したり、「連合 ID」フィールドに入力したりして、連合 ID を手動で割り当てることもできます。 ユーザーの編集について詳しくは、 [ユーザーのプロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
+
+   ![SAML 2 success message](assets/success-saml-2.png)
+
+   >[!NOTE]
+   >
+   >If you want to set up attribute mapping, ensure that you copy the attributes from the Test Connection into the Directory Attribute. For more information, see Mapping User Attributes.
+
+1. Select **Admin Exemption** to allow Workfront administrators to log in using Workfront credentials with the bypass url.
+
+   Bookmarks pointing to `<yourdomain>`.my.workfront.com/login bypass the redirect.
+
+1. Select the **Enable** box to enable the configuration.
+1. Click **Save**.
+
+## About updating users for SSO
+
+Following this guide, the **SSO Username** will be their **Active Directory Username**.
+
+As a Workfront administrator, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+
+As a Workfront administrator, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 >[!NOTE]
 >
->ユーザーのプロファイルを編集して連合 ID を入れる場合に、**SAML 2.0 認証のみを許可**&#x200B;を選択すると、バイパス URL（`<yourdomain>`.my.workfront.com/login）を使用して Workfront にログインできなくなります。
+>When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).
+
+-->

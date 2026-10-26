@@ -26,23 +26,31 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 76%
+source-wordcount: '77'
+ht-degree: 28%
 ---
 # ログインエラー：次のフィールドは無効です：emailAddr を null にすることはできません
 
-## 問題
+>[!IMPORTANT]
+>
+>サインオンはAdobe IMS（Identity Management System）を通じて処理されるようになったため、この記事に記載されている情報は削除されました。
 
-URL（https://customerdomain.my.workfront.com）で [!DNL Adobe Workfront] にログインしようとすると、SAML ログインポータルにリダイレクトされ、次のエラーが表示されて [!DNL Workfront] にリダイレクトされます。
+<!--
 
-「もう一度試してください。 次のフィールドは無効です：emailAddr を null にすることはできません。」
+## Problem
 
-## 原因
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
 
-このエラーは、SAML 2.0 設定におけるユーザー属性のマッピングエリアの誤った項目が原因で発生します。 SAML 2.0 のユーザー属性のマッピングについて詳しくは、[SAML 2.0 で Adobe Workfront を設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)を参照してください。
+"Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
-## ソリューション
+## Cause
 
-メールアドレスの属性マッピングを更新し、「**[!UICONTROL 保存]**」をクリックします。
+This error is caused by an incorrect item in the Map User Attributes area of the SAML 2.0 configuration. For more information about mapping user attributes for SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+## Solution
+
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 91%
+source-wordcount: '98'
+ht-degree: 29%
 ---
 # 新規ユーザーへのメール招待の管理
 
@@ -38,120 +38,124 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
+>このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 すべての組織がAdobe Admin Consoleにオンボーディングされているため、Adobe Admin Consoleを通じてユーザーが追加されます。
 >
->お客様の組織がAdobe Workfrontにオンボーディングされているかどうかに応じて異なる手順の一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>詳しくは、「[Adobe Admin Consoleを使用してWorkfrontでユーザーを作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)」を参照してください。Adobe Admin Consoleでユーザーを管理する記事を参照してください。
 
-Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
+<!--
 
-メールの招待状を使用すると、新規ユーザーはリンクをたどって Workfront アカウントのパスワードを選択できます。 そうした後、アカウントの設定を完了できます。
+As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 
-新規アカウントのセキュリティを確保するために、新規ユーザーは自分のパスワードを選択できるよう、メールの招待状を使用することをお勧めします。 あるいは、新規ユーザーのアカウントを作成するときに、新しいパスワードを選択することもできます。 Workfront に新しいユーザーを追加する方法について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
+The email invitation allows new users to follow a link where they can choose a password for their Workfront account. They can then finish setting up their account.
 
-以下の新しいユーザーメールを設定できます。
+To ensure the security of the new accounts, we recommend that you use email invitations for your new users, so they can choose their own password. Alternatively, you can also select a password for a new user when creating their account. For more information about adding new users to Workfront, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* Workfront に追加された新規ユーザー
-* Workfront に追加された、依頼者のライセンスを持つユーザー
+You can configure the new user emails for:
 
-メールの招待状が送信されると、すべての新規ユーザーに同じメールが表示されます。
+* Any new user added to Workfront
+* Users added to Workfront with a Requestor license
 
-メールの招待状の受信について詳しくは、[メールの招待状を受信し、Adobe Workfront 用のパスワードを作成](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)を参照してください。
+All new users see the same email when an email invitation is sent.
 
-## アクセス要件
+For information about receiving email invitations, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+## Access requirements
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>標準</p>
-   <p>プラン</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 既存の未登録ユーザーへのメール招待状の再送信
+## Resend email invitations to existing unregistered users
 
-メールの招待状は、以下のシナリオで生成されます。
+Email invitations are generated in the following scenarios:
 
-* 新規ユーザーを作成し、**新規ユーザー**&#x200B;フォームにある&#x200B;**このユーザーに招待メールを送信**&#x200B;を選択します。 新規ユーザーの作成について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
-* 複数の新規ユーザーを読み込み、「**このユーザーに招待メールを送信**」オプションを選択します。 複数の新規ユーザーの読み込みについて詳しくは、[ユーザーの読み込み](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)を参照してください。
-* ユーザーを作成した後は、Workfront にアカウントをまだ登録しておらず、Workfront パスワードが確定していないユーザーに対して、招待状を手動で生成できます。\
-  アカウントを作成済みだが、まだ登録していないユーザーは、Workfront で&#x200B;**未登録**&#x200B;とマークされます。
+* When you create a new user and you select the **Send an invite email to this person** on the **New User** form. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* When you import multiple new users and you select the **Send invite emails to these people** option. For more information about importing several new users, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* After the users are created, you can manually generate the invitations to users who have not yet registered their account with Workfront, and they have not established a Workfront password.  
+  Users who have an account created but have not yet registered their account are marked as **Unregistered** in Workfront.
 
   >[!NOTE]
   >
-  >ユーザー作成時に&#x200B;**このユーザー招待メールを送信**&#x200B;ボックスを選択解除すると、メールの招待状を手動で生成することはできません。 メールの招待状を手動で再送信できるのは、アカウントの作成時に元のメールの招待状を受信したユーザーのみです。 新規ユーザーの作成について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
+  >If you deselect the **Send an email invite to this person** box when you create the user, the email invitation cannot be generated manually. Resending the email invitations manually is only possible for users who have been sent the original email invitation when their account was created. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-既存の未登録ユーザーにメール招待状を手動で再送信するには：
+To manually resend email invitations to existing unregistered users:
 
-{{step-1-to-users}}
+{{step-1-to-users}} 
 
-1. 名前の後に「**未登録**」ラベルが表示されているユーザーを選択します。
+1. Select the user who shows the **Unregistered** label after their name.
 
-   ![登録解除](assets/unreg-user-qs-350x221.png)
+   ![Unregistered](assets/unreg-user-qs-350x221.png)
 
-1. 詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**ユーザーに登録を促す**&#x200B;をクリックします。
+1. Click the More icon ![More icon](assets/more-icon.png), then click **Remind user to register**.
 
-   新規ユーザーに、Workfront パスワードの作成に使用できる新しいリンクを含む招待メールが送信されます。
+   An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 
    >[!NOTE]
    >
-   >組織が Admin Console にオンボードされていて、Workfront からユーザーを追加する場合は、新規ユーザーにメールの招待状を送信するオプションはありません。
+   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation to new users.
    >
-   >新規アドビユーザーが Admin Console に追加され、登録プロセスを完了するように勧めるメールが Admin Console から送信されます。 どのアドビシステムにアクセスするにも、すべてのユーザーが登録プロセスを完了する必要があります。
+   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
    >
-   >既存のアドビユーザーの場合、Workfront が使用可能になっていることを知らせるメールがユーザーに届く場合と届かない場合があります。 これは、製品のアドビ管理者が制御する環境設定です。
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
-## メールの招待状を設定 {#configure-email-invitations}
+## Configure email invitations {#configure-email-invitations}
 
-Workfront 管理者は、新規ユーザーへの招待メールに含めるメッセージを設定できます。
+As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
 {{step-1-to-setup}}
 
-1. 左側のリストで、**メール**／**招待状**&#x200B;とクリックします。
+1. In the list on the left, click **Email** > **Invitations**.
 
-1. **一般のオプション**&#x200B;セクションで、以下の変更のいずれかを行います。
+1. In the **General Options** section, make any of the following modifications:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>＿日後に招待リンクを非アクティブ化</strong> </td> 
-      <td> <p>招待メールに Workfront への有効なリンクが含まれなくなるまでの時間を選択します。 デフォルトは 45 日です。</p> </td> 
+      <td role="rowheader"><strong>Deactivate invitation links after ... days</strong> </td> 
+      <td> <p>Choose the amount of time after which the email invitations no longer contain a valid link to Workfront. The default amount of days is 45.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>メッセージや利用規約を含める</strong> </td> 
-      <td> <p>Workfront に追加されたすべての新規ユーザーの招待メールを変更する場合は、このオプションを選択します。 これには、依頼者のライセンスを持つユーザーは含まれません。</p> 
+      <td role="rowheader"><strong>Include a message and/ or term of service</strong> </td> 
+      <td> <p>Select this option if you want to modify the email invitation for all new users added to Workfront. This does not include users with a Requestor license.</p> 
        <ul> 
-        <li><strong>メッセージ</strong>：すべての新規ユーザーに対するメールの招待状の変更を選択する場合は、メールの本文としてメールの招待状に含めるテキストを指定します。</li> 
-        <li><strong>利用条件</strong>：すべての新規ユーザーに対するメールの招待状の変更を選択する場合は、メールの招待状に含めるテキストを利用条件として指定します。<br></li> 
-        <li><strong>ヘルプデスクユーザー向けのメッセージや利用規約を含める</strong>：Workfront に追加された、依頼者のライセンスを持つすべての新規ユーザーに対してメールの招待状を変更する場合は、このオプションを選択します。</li> 
-        <li><strong>メッセージ</strong>：要求者ライセンスを持つすべての新規ユーザーへのメールの招待状を変更する場合は、メールの本文としてメールの招待状に含めるテキストを指定します。</li> 
-        <li><strong>条件</strong>：要求者のライセンスを持つすべての新規ユーザーへのメールの招待状を変更する場合は、メールの招待状に含めるテキストを条件として指定します。<br></li> 
-        <li> <p>「<strong>招待状のプレビュー</strong>」セクションに、メールの招待状のプレビューを表示できます。 カスタマイズしたメッセージをメールの招待状に含めるよう選択した場合は、カスタマイズしたメッセージがこの領域に表示されます。</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li><strong>Include a message and/or term of service for helpdesk users</strong>: Select this option if you want to modify the email invitation for all new users added to Workfront that have a Requestor license.</li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li> <p>In the <strong>Invitation Preview</strong> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 「**保存**」をクリックします。
+1. Click **Save**.
+-->
+
