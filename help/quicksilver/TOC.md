@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
+source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
 workflow-type: tm+mt
-source-wordcount: '14725'
+source-wordcount: '14736'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -271,9 +271,10 @@ ht-degree: 90%
       * [Adobe Workfront プランニングの 2024年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront の限定提供リリースのアクティビティ{#limited-availability-release-activity}
       * {hide-from-toc}[Adobe Workfrontの制限付き利用可能機能のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-      * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第1四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-      * {hide-from-toc}[Adobe Workfrontの制限付き可用性の機能に関する2026年第2四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[2027年第1四半期のAdobe Workfrontの制限付き機能のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
       * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第4四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+      * {hide-from-toc}[Adobe Workfrontの制限付き可用性の機能に関する2026年第2四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第1四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
     * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
       * [Adobe Workfront シナリオプランナーのリリースアクティビティ](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [21.3 リリースに伴う Adobe Workfront シナリオプランナー](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
