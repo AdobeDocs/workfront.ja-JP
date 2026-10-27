@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 80%
+source-wordcount: '1246'
+ht-degree: 82%
 ---
 # ユーザーを追加
 
@@ -42,8 +42,6 @@ ht-degree: 80%
 >   Adobe Admin Consoleでシステム管理者を作成する方法については、[Adobe Admin Consoleでユーザーを管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 >
 >   Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
->
->   お客様の組織がAdobe Workfrontにオンボーディングされているかどうかに応じて異なる手順の一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 >
 >* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Console でユーザーを作成して Workfront に割り当てることをお勧めします。 これらのユーザーを Workfront で作成できますが、組織の Admin Console の設定によっては、情報を Adobe Admin Console に転送する際に問題が生じる場合があります。
 >   Adobe Admin Console でユーザーを作成したら、Workfront でユーザーの情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
@@ -116,7 +114,7 @@ Adobe管理者は、Adobe Admin ConsoleのWorkfront製品プロファイルに�
 
   ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。 カスタムフォームについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-## プロジェクトをゼロから作成
+## ユーザーをゼロから作成
 
 {{step-1-to-users}}
 

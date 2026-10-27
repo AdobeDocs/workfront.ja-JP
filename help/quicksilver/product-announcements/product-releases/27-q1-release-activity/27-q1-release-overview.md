@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # 2027年第1四半期リリースの概要
@@ -65,7 +65,24 @@ ht-degree: 30%
 
 * シナリオプランナー
 * プルーフ
-* Goals
+* 目標
+
+## デスクトッププルーフビューアーのアップデート
+
+### バージョン 2.3.0
+
+>[!NOTE]
+>
+>プレビュー：2026年10月27日（PT）
+>すべてのユーザー向けの実稼動リリース：2026年10月28日（PT）
+
+デスクトップ校正ビューアがバージョン 2.3.0に更新されました。 このアップデートには、次の変更が含まれます。
+
+* 複数のバージョンを移動中にスクリーンショットの下のリンクをクリックすると、複数のタブでページが開くインタラクティブプルーフの問題を解決しました。 リンクが1つのタブでページを開くようになりました。
+
+* パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
+
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 

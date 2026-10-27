@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 76%
 ---
 # ファイアウォールの許可リストの設定
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -406,12 +406,7 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
 
 Workfront Fusionの場合は、次のドメインを追加します。
 
-<!--Remove me October 2026-->
-
-* Adobe Unified Experienceを利用していない場合：
-  * app.workfrontfusion.com （米国AWS）
-  * app-eu.workfrontfusion.com （EU AWS）
-  * app-az.workfrontfusion.com （米国Azure）
+<!--Remove me January 2027-->
 
 * Adobe Unified Experience Managerの導入について
 （これらのドメインは`*.adobe.com`でカバーされていますが、必要に応じて追加できます）。
@@ -419,6 +414,14 @@ Workfront Fusionの場合は、次のドメインを追加します。
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >すべての組織がAdobe統合エクスペリエンスを利用できるようになったため、次のドメインは不要になりました。
+  >
+  >* app.workfrontfusion.com （米国AWS）
+  >* app-eu.workfrontfusion.com （EU AWS）
+  >* app-az.workfrontfusion.com （米国Azure）
 
 
 

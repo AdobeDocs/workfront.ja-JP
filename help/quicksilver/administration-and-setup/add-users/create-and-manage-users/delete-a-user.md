@@ -27,38 +27,26 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6275fff5d615a8db678f16d99c38c96319a57155
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 80%
+source-wordcount: '608'
+ht-degree: 77%
 ---
 # ユーザーの削除
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->このページで説明する手順は、Adobe Business Platformにまだオンボーディングされていない組織にのみ適用されます。 Adobe Business Platformにオンボーディングされている場合は、Adobe Admin Consoleでユーザーを削除する必要があります。
+>このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 組織はAdobe Admin Consoleにオンボーディングされているため、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
 >
->**現在、すべての組織がAdobe Admin Consoleにオンボーディングされているため、このページの情報は近い将来に削除されます。**
->
->お客様の組織がAdobe Workfront Business Platformにオンボーディングされているかどうかに応じて異なる手順の一覧については、[AdobeとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>  Adobe Admin Consoleでユーザーを削除する手順については、[&#x200B; ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)する記事の「ユーザーを完全に削除する」セクションを参照するか、Adobe Admin Console管理者にお問い合わせください。
 
 組織を離れたユーザーは、Adobe Workfront から削除することができます。
 
+ユーザーの削除は、Adobe Admin Consoleを通じて実行する必要があります。 手順については、[&#x200B; ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事の「ユーザーを完全に削除する」の節を参照するか、Adobe Admin Console管理者にお問い合わせください。
+
 >[!IMPORTANT]
 >
->システムからユーザを削除すると、そのユーザに関連付けられていて、今後も保持したい情報も削除されます。 ユーザーを削除する代わりに非アクティブ化することをお勧めします。 詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
+>システムからユーザーを削除すると、そのユーザーに関連付けられていて、今後も保持したい情報も削除されます。 ユーザーを削除する代わりに非アクティブ化することをお勧めします。 詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
 ## アクセス要件
 
@@ -78,11 +66,8 @@ ht-degree: 80%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td> <p>次のいずれかが必要です。</p> 
-    <ul> 
-     <li> <p>システム管理者のアクセスレベル。 </li> 
-     <li> <p><b>編集</b>アクセスに設定されたアクセスレベルでの<b>ユーザー</b>設定には、<b>作成</b>および<b>設定を微調整</b> <img src="assets/gear-icon-in-access-levels.png">の下で有効となる少なくとも 2 つのうち 1 つの<b>ユーザー管理者</b>オプションがあります。 </p> <p>これらの2つのオプションのうち、<b> ユーザー管理者（グループユーザー） </b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
-    </ul> </td> 
+   <td> <p>あなたはAdobe Admin Consoleの管理者でなければなりません。</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +113,7 @@ ht-degree: 80%
   * タスク、イシュー、プロジェクト、ポートフォリオ
   * ダッシュボード
 
-  <!--
+<!--
 
      >[!NOTE]
      >
@@ -136,33 +121,35 @@ ht-degree: 80%
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
+-->
+* アップデート
+* 時間
 
-  * アップデート
-  * 時間
-
-    >[!NOTE]
-    >
-    >これらのオブジェクトは Workfront に残りますが、オブジェクトの所有者は空になります。
+  >[!NOTE]
+  >
+  >これらのオブジェクトは Workfront に残りますが、オブジェクトの所有者は空になります。
 
 * ユーザーがグローバルナビゲーションバーのドキュメントエリアでドキュメントをアップロードした場合、そのドキュメントも削除されます。
 * ユーザーが自分の所有するドキュメントをチェックアウトし、（メインメニューからアクセスする）メインのドキュメントエリアにドキュメントがアップロードされた場合、そのドキュメントはユーザーと共に削除されます。 ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
 ユーザーの非アクティブ化について詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-一度に 1 人のユーザーを完全に削除することも、複数のユーザーを同時に完全に削除することもできます。 個人ユーザーを削除する場合は、削除プロセスが完了するのを待ってから、Workfront の他のアクティビティに移動する必要があります。 複数のユーザーを削除するプロセスは、バックグラウンドプロセスとして同時に実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
 
-## 1 人以上のユーザーを削除
+<!--
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
-1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   削除するユーザーの数によっては、処理に数分かかる場合も、数時間かかる場合もあります。
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   Workfront でユーザーが削除されたことを示す確認メッセージが表示されてから、削除プロセスがバックグラウンドで完了するまで、システム内で引き続き表示される場合があります。
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   後で、1 人または複数のユーザーが正常に削除されなかったことが判明した場合は、1 人ずつ削除してみてください。
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->

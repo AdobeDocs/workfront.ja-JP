@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 4%
 ---
 # プロジェクトのヘルスの概要
@@ -93,9 +93,6 @@ AI アシスタントについて詳しくは、[AI アシスタントの概要]
 
 組織でAI アシスタントとプロジェクトの正常性を有効にするには、次のすべてを適用する必要があります。
 
-<!--Remove me October 2026-->
-
-* お客様の組織は、Adobe Identity Management システム（IMS）に移行している必要があります。
 * 組織には、WorkfrontまたはWorkflow Select、Prime、またはUltimate パッケージが必要です。
 * Adobe Unified Experienceを有効にする必要があります。
 * Adobeには、署名済みのAdobe Gen AI契約書がファイルに登録されている必要があります。

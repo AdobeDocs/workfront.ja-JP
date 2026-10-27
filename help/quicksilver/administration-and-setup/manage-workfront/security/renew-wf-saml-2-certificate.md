@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 67%
+source-wordcount: '174'
+ht-degree: 58%
 ---
 # Adobe Workfront SAML 2.0 メタデータ証明書の更新
 
@@ -44,10 +44,12 @@ ht-degree: 67%
 >このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 組織が Adobe Admin Console にオンボーディングされている場合、アクションは必要ありません。
 >
 >すべての組織がAdobe Admin Consoleにオンボーディングされたため、この機能は廃止されました。
+>
+>Adobe Admin ConsoleでSAML証明書を更新する手順については、「SAML応答のデジタル署名が検証されませんでした…」の節を参照してください。 [Federated IDのトラブルシューティング &#x200B;](https://helpx.adobe.com/jp/enterprise/kb/tshoot-fed-id.html?lang=jp)で発生しました。
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
 

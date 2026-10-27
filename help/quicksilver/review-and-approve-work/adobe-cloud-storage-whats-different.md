@@ -6,7 +6,7 @@ description: 新しいドキュメント領域、Frame.io ビューア、ドキ�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Adobe クラウドストレージプロジェクトには、次のルールが�
 ## オブジェクトの持ち運び性
 
 多くの場合、Workfront オブジェクトは、ストレージモデルと同様にストレージモデル間でのみ移動、コピー、変換できます。 例えば、タスクを1つのAdobe クラウドストレージプロジェクトから別のAdobe クラウドストレージプロジェクトに移動できます。 具体的には、従来のWorkfront ストレージオブジェクトをAdobe クラウドストレージに変換できます。
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 詳しくは、[従来のオブジェクトをAdobe クラウドストレージに変換](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)を参照してください。
 

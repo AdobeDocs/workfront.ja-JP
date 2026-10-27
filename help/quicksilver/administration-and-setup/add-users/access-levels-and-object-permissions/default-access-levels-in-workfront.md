@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 89%
+source-wordcount: '1690'
+ht-degree: 87%
 ---
 # 組み込みのアクセス レベル （レガシー）
 
@@ -104,7 +104,7 @@ Plan ライセンスに付属しているビルトインのシステム管理者
 
 また、設定エリアへのフルアクセス権を持ち、システムレベルの設定を変更することもできます。 また、メインメニュー![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)またはメインメニュー![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)の領域にアクセスできます（使用可能な場合）。
 
-詳しくは、[ユーザーに完全な管理アクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)を参照してください。
+ユーザー管理者のアクセス権の付与は、Adobe Admin Consoleを通じて行われます。 手順については、「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)」の節を参照してください。 Adobe Admin Consoleでのユーザーの管理の記事を参照してください。
 
 ## 計画担当者のアクセスレベル
 

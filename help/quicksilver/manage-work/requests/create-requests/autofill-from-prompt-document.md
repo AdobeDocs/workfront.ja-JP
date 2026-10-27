@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1764'
 ht-degree: 8%
@@ -84,11 +84,6 @@ AIを活用して、入力したプロンプトに基づいてリクエストフ
 
 AIを活用したフォーム入力を使用して、プロンプトまたはドキュメントを使用してリクエストを入力するには、次のうち&#x200B;**すべてを**&#x200B;適用する必要があります。
 
-<!--
-Remove me October 2026
-* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled
--->
 * 組織には、Select、Prime、Ultimate WorkfrontまたはWorkflow パッケージが必要です
 * アドビが署名済みの Adobe 生成 AI 契約を保存している必要があります。
 

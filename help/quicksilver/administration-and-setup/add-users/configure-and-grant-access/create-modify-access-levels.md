@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 79%
+source-wordcount: '1584'
+ht-degree: 77%
 ---
 # カスタムアクセスレベルの作成と変更
 
@@ -265,7 +265,8 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 
    詳しくは、[ユーザープロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-   アドビ管理者がユーザーにシステム管理者のアクセスレベルを割り当てる方法について詳しくは、[ユーザーへの完全な管理アクセスの付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)を参照してください。
+   Adobe管理者がSystem Administratorのアクセス レベルをユーザーに割り当てる方法について詳しくは、「[Adobe Admin Consoleを使用してWorkfrontでsystem administratorsを作成する](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)」を参照してください。 Adobe Admin Consoleでユーザーを管理するを参照してください。
+
 
 <!--
 

@@ -31,87 +31,91 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 80%
+source-wordcount: '73'
+ht-degree: 63%
 ---
 # 組織の Adobe Admin Console 導入の準備
 
 <!-- Audited: 12/2023 -->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
->現在はAdobe Admin Consoleに移っているため、この記事は近い将来に削除される予定です。
+>Adobe Admin Consoleへの移行が完了したので、この記事は削除されました。
 
-Adobe Workfront は Adobe 製品なので、Adobe Admin Console からアクセスできます。 これにより、ユーザーのための他の Adobe アカウントや製品と Workfront を一か所で管理できます。
+<!--
 
-Workfrontのお客様は、まもなくAdobe Admin Consoleに移動します。 組織が Adobe Admin Console に移行すると、Workfront 認証は Console で管理されるようになります。 この移行をより早く準備して実行することで、作業管理の効率化の基礎が築かれ、将来の迅速なイノベーションに備えることができます。
+Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.
 
-Adobe Admin Console の概要については、[Admin Console の概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を参照してください。
+All Workfront customers will soon be moved to the Adobe Admin Console. After your organization moves to the Adobe Admin Console, Workfront authentication is managed by the Console. Preparing and making this move sooner lays the groundwork for efficiency in work management and positions your organization for faster innovation in the future 
 
-## 移行チェックリスト
+For an overview of the Adobe Admin Console, see [Admin Console Overview](https://helpx.adobe.com/jp/enterprise/using/admin-console.html).
 
-組織が Adobe Admin Console に移行するには、次の操作を実行する必要があります。
+## Migration checklist
 
-1. Workfront を追加する Adobe Admin Console を指定します。
+To ensure that your organization can migrate to the Adobe Admin Console, you must perform the following actions.
 
-   * 組織に既存の Adobe Admin Console がない場合や既存の Adobe Admin Console を使用しない場合は、Workfront サポートが新しい Adobe Admin Console の作成をサポートします。
+1. Identify the desired Adobe Admin Console where you would like to add Workfront.
+    
+   * If your organization does not have an existing Adobe Admin Console, or if you do not want to use an existing Adobe Admin Console, Workfront Support can assist you in creating a new one.
+        
+   * If you have multiple Adobe Admin Consoles and you are unsure which one is most appropriate to add Workfront to, contact Workfront Support.
 
-   * 複数の Adobe Admin Console があり、Workfront の追加先としてどれが最適か不明な場合は、Workfront サポートにお問い合わせください。
-
-1. 既存の Adobe Admin Console を使用するか、新しい Adobe Admin Console を作成するかについて、Workfront サポートと一緒に決定できます。
-
-1. Adobe Admin Console で Identity Management を設定します。
-
+1. Confirm with Workfront Support that you want to use an existing Adobe Admin Console, or have a new one created.
+    
+1. Set up identity management on the Adobe Admin Console.
+    
    >[!IMPORTANT]
    >
-   >シングルサインオン（SSO）や非 SSO などの認証設定について、Workfront サポートおよび組織の IT チームに伝えられるようにしておきます。
+   >Be prepared to speak with Workfront Support and your IT team regarding authentication preferences such as Single Sign-on (SSO) or non-SSO.
+    
+   For instructions, see the Identity Management section of the [Deployment Guide for the Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/deployment-planning.html).
 
-   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/jp/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
+1. (Conditional) If using Single Sign-on, connect the new Adobe Admin Console to your existing SSO provider.
 
-1. （条件付き）シングルサインオンを使用する場合は、新しい Adobe Admin Console を既存の SSO プロバイダーに接続します。
-
-   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html)を参照してください。
+   For more information and instructions, see [Set up identity](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
-   >組織がシングルサインオンを使用していない場合、Adobe Admin Console に移行したユーザーには、自分のアカウントとパスワードを作成するためのメールが送信されます。
+   >If your organization does not use Single Sign-on, any users migrated to the Adobe Admin Console will receive an email to create their account and password.
 
-1. ユーザーのメールアドレスを移行する準備ができていることを、次の手順で確認します。
-
-   1. Workfront から重複メールを削除します。
-
-      手順については、[重複ユーザーの防止](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)の [Workfront インスタンスの既存ユーザーのメールアドレスの更新](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)を参照してください。
-
-      組織内に重複するメールアドレスがある場合は、最新の `lastLoginDate` を持つメールアドレスで表されるユーザーが、Adobe Admin Console の組織に移動されます。 そのメールアドレスを持つ他のユーザーは、ディアクティベートされます。
-
+1. Ensure that user email addresses are ready for migration:
+    
+   1. Remove duplicate emails from Workfront.
+        
+      For instructions, see [Update email addresses of existing users in your Workfront instance](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Prevent duplicate users](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+        
+      If there are duplicate email address in your organization, the user represented by the email address with the most recent `lastLoginDate` will be moved to the Adobe Admin Console organization. Any other users with that email address will be deactivated.
+        
       >[!NOTE]
       >
-      >所定のメールアドレスを持つユーザーは、所定の時間に 1 人のみアクティブ化できます。そのため、現在アクティブなユーザーと同じメールアドレスを持つ別のユーザーをアクティブ化する必要がある場合は、アクティブ化を解除されたユーザーをアクティブ化する前に、現在アクティブなユーザーを非アクティブ化する必要があります。
-
-   1. （条件付き）カスタム API 統合を利用している場合は、アクセスできる有効なメールアドレスをそれらのユーザーが持っていることを確認します。
-
-   1. （オプション）Workfront へのアクセスが不要になったユーザーはディアクティベートして、Adobe Admin Console に追加されないようにすることをお勧めします。
-
+      >Because only one user with a given email address can be active at a given time, if you need to activate another user with the same email address as a currently active user, you must first deactivate the currently active user before activating the deactivated user.
+        
+   1. (Conditional) If you are utilizing custom API integrations, confirm those users have a valid email address that they can access.
+        
+   1. (Optional) We recommend deactivating any users who no longer need access to Workfront, so they are not added to the Adobe Admin Console.
+    
    >[!IMPORTANT]
    >
-   >ユーザーのメールに関するこれらの操作は、組織が Adobe Admin Console への移行を開始する前に完了する必要があります。
+   >These actions regarding user emails must be complete before your organization begins moving to the Adobe Admin Console.
+    
+1. (Optional) Update all custom integrations to use Adobe Developer Console authentication.
 
-1. （オプション）すべてのカスタム統合でAdobe Developer Console認証を使用するように更新します。
+    For information about migrating legacy Workfront OAuth2 integrations, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-   従来のWorkfront OAuth2統合の移行について詳しくは、[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)を参照してください。
+    For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
-   認証ガイダンスについては、[Adobe Developer Console認証の概要](https://developer.adobe.com/developer-console/docs/guides/authentication/)を参照してください。
+    >[!NOTE]
+    >
+    >This step is optional, but highly recommended. Workfront custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027. 
 
-   >[!NOTE]
-   >
-   >この手順はオプションですが、強くお勧めします。 Workfront カスタム OAuth2 アプリケーションは、2026年11月1日を過ぎると作成できなくなり、既存のカスタム OAuth2 アプリケーションは2027年2月1日に動作しなくなります。
+After your Adobe Admin Console is configured with Workfront, you can use it to create your Workfront system administrators.
 
-Workfront で Adobe Admin Console が設定されると、それを使用して Workfront システム管理者を作成できます。
+For more information, see [Manage users in the Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-詳しくは、[Adobe Admin Console でのユーザーの管理](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
+For a list of other actions that are different based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-組織がAdobe Workfrontにオンボーディングされているかどうかに基づいて異なるその他のアクションの一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+-->

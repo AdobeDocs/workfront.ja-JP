@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 80%
@@ -129,7 +129,7 @@ Workfront 管理者には一意の API キーが割り当てられています�
 
 <!--
 
-   Remove me October 2026
+   Remove me January 2027
 
 ## Generate an API Key for Non-Admin Users
 
@@ -204,7 +204,7 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 ## Restricting API logins with an X.509 certificate
 

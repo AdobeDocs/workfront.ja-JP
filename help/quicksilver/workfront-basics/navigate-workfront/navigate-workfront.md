@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 93%
+source-wordcount: '120'
+ht-degree: 92%
 ---
 # [!DNL Adobe Workfront] の操作：記事インデックス
 
@@ -32,8 +32,8 @@ Adobe Workfront の操作方法を理解し、Workfront の用語を確認する
 
 * [&#x200B; [!DNL Adobe Workfront] のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [&#x200B; [!DNL Adobe Workfront]  の用語集](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [&#x200B; [!DNL Workfront] の[!DNL Adobe Unified Experience]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-* [[!DNL Adobe Unified Experience] のよくある質問](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+* [[!DNL Adobe Unified Experience] 件 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+  <!--* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)-->
 * [[!DNL Adobe Workfront] の検索](../../workfront-basics/navigate-workfront/search/search.md)
 * [&#x200B; [!DNL Adobe Workfront] で最近使用したもののとお気に入り](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [上部のナビゲーションバーの概要](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)

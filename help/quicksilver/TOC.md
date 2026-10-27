@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
-ht-degree: 91%
+ht-degree: 90%
 ---
 # Workfront ガイド {#using}
 
@@ -599,14 +599,14 @@ ht-degree: 91%
       * [Workfront Goals へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [ブランド権限へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Workfront でのシングルサインオン {#sso}
-      * [シングルサインオン：記事インデックス](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [シングルサインオンの概要](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [シングルサインオンに対応するためのユーザーの更新](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Workfront と SAML 2.0 の連携の設定](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [ID プロバイダーの SAML 2.0 メタデータの更新](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [ADFS を使用した Adobe Workfront と SAML 2.0 の連携の設定](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Workfront と SAML 2.0 の連携での Outlook の使用](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [シングルサインオンの非アクティブ化](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[&#x200B; シングルサインオン：記事インデックス &#x200B;](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[&#x200B; シングルサインオンの概要](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[シングルサインオンのユーザーを更新](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[WorkfrontとSAML 2.0の設定](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[ID プロバイダーのSAML 2.0 メタデータの更新](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[ADFS を使用した SAML 2.0 で Adobe Workfront を設定](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[Outlook for WorkfrontとSAML 2.0を有効にする](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[&#x200B; シングルサインオンを無効にする](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * チームの作成と管理 {#create-manage-teams}
       * [チームの管理](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [チームの作成](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -859,9 +859,9 @@ ht-degree: 91%
     * [ブループリントのインストール後に実行するアクション](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [使用可能なブループリントのリスト](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console での管理 {#admin-in-admin-console}
-    * [Adobe Admin Console での Workfront 管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [Adobe Admin Console の準備](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [Adobe Admin Console への Workfront の移行について](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * {hide-from-toc}[Adobe Admin ConsoleのWorkfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[Adobe Admin Console の準備](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[Adobe Admin Console への Workfront の移行について](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理と設定に関するヒント、テクニックおよびトラブルシューティング {#admin-setup-tips}
     * [ヒント、テクニックおよびトラブルシューティング](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [グループ管理者には管理対象のユーザーより高いアクセス権が必要](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)

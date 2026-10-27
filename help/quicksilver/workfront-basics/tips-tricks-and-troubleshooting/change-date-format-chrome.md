@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 17%
+source-wordcount: '92'
+ht-degree: 13%
 ---
 # [!DNL Adobe Workfront] で日付の形式を変更する
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decided to make it more generic and hide the steps. Also see drafted content below-->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
@@ -47,4 +47,3 @@ ht-degree: 17%
 
 日付設定は、Adobe Unified Shellの言語設定によって制御されます。 既定の言語設定、つまり既定の日付設定は`en-US`です。
 
-詳しくは、[[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences) を参照してください。

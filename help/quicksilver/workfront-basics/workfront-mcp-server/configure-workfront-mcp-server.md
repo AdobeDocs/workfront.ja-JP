@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2423'
 ht-degree: 1%
 ---
 
@@ -197,7 +197,13 @@ ChatGPTは、カスタム GPTと呼ばれるユーザー作成アシスタント
 
 ## WorkfrontとCopilotの連携
 
-+++ 展開すると、WorkfrontをCopilotに接続するための手順が表示されます。
+
+* [Copilot StudioでWorkfrontをCopilotに接続する](#connect-workfront-to-copilot-with-copilot-studio)
+* [WorkfrontをGitHub Copilotに接続する](#connect-workfront-to-github-copilot)
+
+### Copilot StudioでWorkfrontをCopilotに接続する
+
++++ 展開すると、Copilot StudioでWorkfrontをCopilotに接続するための手順が表示されます。
 
 Workfront MCPが接続できるカスタム Copilot エージェントを構築するには、Copilot Studioを使用します。
 
@@ -229,6 +235,20 @@ Workfront MCPが接続できるカスタム Copilot エージェントを構築�
 1. ツールを設定してテストする場合は、**公開**&#x200B;をクリックします。
 
    公開する権限がない可能性があります。 そのような場合は、Copilotの管理者にお問い合わせください。
+
++++
+
+
+### WorkfrontをGitHub Copilotに接続する
+
++++ 展開すると、WorkfrontをGitHub Copilotに接続するための手順が表示されます。
+
+
+1. GitHub コパイロットで、**カスタマイズ**&#x200B;に移動します。
+1. **Add** > **MCP Server**&#x200B;をクリックします。
+1. 「Workfront」のような名前に設定します。
+1. **Server Type**&#x200B;を`HTTP`に設定します。
+1. URLを`https://mcp.workfront.adobe.com/mcp/v1/workfront`に設定します。
 
 +++
 
