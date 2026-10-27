@@ -19,18 +19,18 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
 ---
 # 2026年第4四半期のAdobe Workfrontの制限付き機能のリリースアクティビティ
 
-この記事では、2026年第3四半期中にリリースされるWorkfront機能の限定提供について説明します。
+この記事では、2026年第4四半期中にリリースされるWorkfront機能の限定提供について説明します。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
+Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
 
 ## 制限付き機能のリリースノート
 
