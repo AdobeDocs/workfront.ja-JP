@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 1%
 ---
 
@@ -43,10 +43,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >すべてのツールを事前に読み込むクライアントのMCP カタログのサイズを小さくするには、`toolsets` クエリパラメーターをWorkfront MCP サーバーのURLに追加します。 例：
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->ツールセットについて詳しくは、「Workfront MCP Server Tools」の「[Adobe Workfront MCP Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) ツールセット」を参照してください。
+>ツールセットについて詳しくは、「Workfront MCP サーバー[&#128279;](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)の ツールセット」を参照してください。Adobe Workfront MCP サーバーツール
 
 ## 前提条件
 
@@ -243,6 +243,30 @@ Workfront MCPが接続できるカスタム Copilot エージェントを構築�
 
 +++ 展開すると、WorkfrontをGitHub Copilotに接続するための手順が表示されます。
 
+>[!NOTE]
+>
+>GitHub CopilotでDynamic Client Registrationがサポートされていないと表示される場合、またはOAuth Client IDを要求する場合は、標準のHTTP設定の代わりに以下の回避策を使用してください。 GitHub Copilot MCP クライアントの中には、デフォルト設定で使用される動的検出フローをサポートしていないものもあります。
+>
+>これを回避するには、GitHub Copilotを設定して、`mcp-remote`を通じてWorkfront MCP サーバーを起動し、`NODE_OPTIONS=--use-system-ca`を設定します。
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. GitHub コパイロットで、**カスタマイズ**&#x200B;に移動します。
 1. **Add** > **MCP Server**&#x200B;をクリックします。
