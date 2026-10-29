@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 87%
+source-wordcount: '1379'
+ht-degree: 86%
 ---
 # [!DNL Adobe Workfront] プレビューサンドボックス環境
 
@@ -45,7 +45,7 @@ ht-degree: 87%
 
 * カスタム更新サンドボックス
 
-  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[&#x200B; [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
+  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[ [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,13 +84,17 @@ ht-degree: 87%
 
 プレビュー環境は、トレーニングの実行、新機能のテストおよび設定機能の決定に最適です。
 
+>[!IMPORTANT]
+>
+>Canvas ダッシュボードのプランニングデータは、サンドボックス環境の[!DNL Workfront]人の管理者にのみ表示されます。
+
 >[!NOTE]
 >
 >プレビューサンドボックスにアクセスすると、画面の上部に青いバナーが表示されます。 この環境で作業している間は、このバナーを削除できません。
 >
 >アクセスしている環境の名前（プレビュー）とコードのリリースバージョンがバナーに表示されます。 そのリリースについては、「**[!UICONTROL XXの新機能]**」をクリックしてください。
 >
->![&#x200B; バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
+>![ バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
 
 ## プレビューサンドボックスへのアクセス
 
@@ -192,7 +196,7 @@ SSO を使用している場合はカスタマーサポートチームと協力�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動的に再計算するタイミングを設定できます。 Workfrontでは、毎晩、プロジェクトスコープが変更されたタイミング、またはその両方で、プロジェクトタイムラインを再計算できます。
 
-詳しくは、[&#x200B; プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
+詳しくは、[ プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
 プレビュー環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的に再計算されません。 プレビュー環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
