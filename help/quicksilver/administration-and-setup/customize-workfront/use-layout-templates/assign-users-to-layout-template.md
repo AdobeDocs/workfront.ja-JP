@@ -47,7 +47,7 @@ ht-degree: 60%
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートとビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+レイアウトテンプレートとビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
 ## アクセス要件
 
@@ -85,14 +85,14 @@ ht-degree: 60%
 
    >[!TIP]
    >
-   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
+   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
 
 1. ページの上位のセクションで「**割り当て先:**」をクリックします。
 1. 表示されるボックスで、**ユーザー、担当業務、チーム、グループ、またはアクセス レベルを追加**&#x200B;をクリックし、ユーザー、担当業務、チーム、グループ、またはアクセス レベルの名前を入力し始め、ドロップダウンに表示されたら名前をクリックします。
 
    最近追加された名前には、青色の背景が表示されます。 これは、追加したばかりの名前とリストに既に存在する名前を区別できるため、既存のレイアウトテンプレートを編集する際に役立ちます。
 
-   情報アイコン ![情報アイコン ](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、またはアクセスレベルの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
+   情報アイコン ![情報アイコン &#x200B;](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、またはアクセスレベルの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
 
 1. 前の2つの手順を繰り返して、必要に応じてレイアウトテンプレートを他のユーザー、担当業務、チーム、グループ、またはアクセスレベルに割り当てます。
 
@@ -123,7 +123,7 @@ ht-degree: 60%
   >
   >ビジネスプロファイルは、Workflow Ultimate パッケージを持つ組織でのみ使用できます。
 
-  詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください
+  詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください
 
 * **個人ユーザー**：個人ユーザーとして個人に割り当てられたレイアウトテンプレートは、ビジネスプロファイルから取得されたレイアウトテンプレートを除き、他のすべてのテンプレートよりも優先されます。 新しい割り当てをおこなうことで、個々のユーザーに対して行われた前の割り当てを上書きできます。最も新しい割り当てが優先されます。
 * **プライマリ担当業務**：ユーザーにレイアウトテンプレートが 1 人のユーザーとして割り当てられていない場合は、プライマリ担当業務に割り当てられたテンプレートが表示されます。
