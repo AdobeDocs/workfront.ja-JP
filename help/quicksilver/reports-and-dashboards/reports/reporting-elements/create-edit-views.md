@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 64%
+source-wordcount: '908'
+ht-degree: 63%
 ---
 # Adobe Workfront でのビューの作成または編集
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -87,13 +89,18 @@ ht-degree: 64%
 
 1. 「**+ New View**」ボタンをクリックして、新しいビューを作成します。
 または
-編集する既存のビューの右側のマウスオーバーに表示される&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+編集する既存のビューの右側のマウスオーバーに表示される**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
 
    * 列のタイトルをクリックし、新しいフィールドを選択して、列の値を変更します。
    * 「**列を追加**」をクリックして列を追加し、追加する列の名前を入力し、ドロップダウンリストに表示されたらクリックします。
+
+   >[!TIP]
+   >
+   ><span class="preview">お気に入りとしてマークされたカスタムフィールドは、検索結果の上部の&#x200B;**推奨** セクションに表示されます。</span>
+
    * 列のタイトルを新しい場所にドラッグして、列の表示順序を調整します。
 
    * **列設定**&#x200B;領域で、**この列を**&#x200B;で要約をクリックし、列にデータを表示する方法を選択します。 このオプションは、次の列タイプで使用できます。
@@ -183,7 +190,7 @@ ht-degree: 64%
 
 事前に設定されていますが、特定の設定を変更することもできます。
 
-アジャイルビューまたはボードビューについて詳しくは、[&#x200B; ボードビューでのアジャイルプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
+アジャイルビューまたはボードビューについて詳しくは、[ ボードビューでのアジャイルプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
 <!--
  Legacy Agile views were deprecated with 25.3. This is old: 
