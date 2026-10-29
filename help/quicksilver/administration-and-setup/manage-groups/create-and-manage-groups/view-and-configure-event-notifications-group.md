@@ -81,7 +81,7 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. 最上位グループの名前をクリックします。
 1. 左側のメニューで、「**イベント通知**」をクリックします。
@@ -121,7 +121,7 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. 最上位グループの名前をクリックします。
 1. 左側のメニューで、「**イベント通知**」をクリックします。
