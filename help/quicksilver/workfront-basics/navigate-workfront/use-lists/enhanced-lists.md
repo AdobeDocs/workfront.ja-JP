@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 2%
 ---
 # 拡張リストの使用
+
+{{preview-fast-release-general}}
 
 強化されたリストは、Adobe Workfrontの一部の領域で利用できます。 これらのリストは、リスト項目を表示するための表形式を使用し、標準のリストとは異なるルックアンドフィールを備えています。 ビューの管理も強化され、フィルタリング、グループ化、列の管理、検索が行われます。
 
@@ -77,14 +79,16 @@ ht-degree: 2%
 | --- | --- |
 | 優先度 | <ul><li>ホーム >左側のメニューで「優先度」アイコンを選択します</li><li>メインメニュー/優先度</li></ul> |
 | リクエストのリスト | <ul><li>メインメニュー/リクエスト（新しいエクスペリエンスのみ）</li><li>ホームのマイリクエストウィジェット</li></ul> |
-| 設定のステータス、優先順位、重要度、<span class="preview">条件</span>、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li><span class="preview">設定/ プロジェクト環境設定/条件</span></li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
-| <span class="preview">更新フィードのアクションと追跡フィールドのリスト </span> | <ul><li><span class="preview">設定/ インターフェイス / フィードの更新/「トラッキングフィールド」タブ </span></li> <li><span class="preview">設定/ インターフェイス / フィードの更新/「アクション」タブ </span></li></ul> |
-| <span class="preview"> スコアカードのリスト </span> | <span class="preview">設定/ スコアカード </span> |
-| <span class="preview"> リスクタイプのリスト </span> | <span class="preview">設定/リスクの種類</span> |
+| 設定のステータス、優先順位、重大度、条件、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li>設定/プロジェクト環境設定/条件</li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
+| 更新フィードのアクションと追跡フィールドのリスト | <ul><li>設定/インターフェイス/フィードの更新/トラッキングされたフィールド タブ</li> <li>設定/インターフェイス/フィードの更新/「アクション」タブ</li></ul> |
+| スコアカードのリスト | 設定/スコアカード |
+| リスクタイプのリスト | 設定/リスクタイプ |
 | レートカードの担当業務と料金のリスト | 設定/レート・カード/レート・カードの選択/担当業務とレート |
 | 場所のリスト | 設定/場所 |
 | 翻訳のリスト | 設定/ローカライズ |
 | 統合のリスト | <ul><li>設定/ドキュメント/SharePointとの連携</li><li>設定/ドキュメント/カスタム統合</li><li>設定/ドキュメント/Experience Manager Assets</li></ul> |
+| <span class="preview"> レイアウトテンプレートのリスト </span> | <span class="preview">設定/ インターフェイス / レイアウトテンプレート </span> |
+| <span class="preview"> イベント通知のリスト </span> | <ul><li><span class="preview">設定/電子メール/通知/イベント通知</span></li><li><span class="preview"> グループの詳細ページ/イベント通知</span></li></ul> |
 | レポートのリスト | メインメニュー/レポート（**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
 | キューのトピック、トピックグループ、ルーティングルールのリスト | <ul><li>プロジェクトまたはテンプレート/キュートピック</li><li>プロジェクトまたはテンプレート/トピックグループ</li><li>プロジェクトまたはテンプレート/ルーティングルール</li></ul> |
 | スナップショットのリスト | プロジェクト/スナップショット |
@@ -99,10 +103,7 @@ ht-degree: 2%
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -172,9 +173,9 @@ Last, under Scenario Planner
 
    選択した項目に使用できるアクションがない場合、アクションバーに「使用できるアクションはありません」と表示されます。
 
-   ![&#x200B; アクションバーの例](assets/glist-action-bar-statuses.png)
+   ![ アクションバーの例](assets/glist-action-bar-statuses.png)
 
-1. リスト項目のプライマリフィールドにカーソルを合わせ、**詳細** メニュー![詳細メニューアイコン &#x200B;](assets/more-icon.png)をクリックすると、追加のアクションが表示されます。 行動によっては、そのリストに固有のものもあります。
+1. リスト項目のプライマリフィールドにカーソルを合わせ、**詳細** メニュー![詳細メニューアイコン ](assets/more-icon.png)をクリックすると、追加のアクションが表示されます。 行動によっては、そのリストに固有のものもあります。
 
    >[!TIP]
    >
@@ -194,7 +195,7 @@ Last, under Scenario Planner
 
    検索ボックスで列を検索できます。
 
-1. 列を並べ替えるには、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックし、列を目的の場所に移動します。 列を移動すると、リストが自動的に変更されます。
+1. 列を並べ替えるには、**ドラッグ** アイコン ![ ドラッグ アイコン ](assets/drag-icon.png)をクリックし、列を目的の場所に移動します。 列を移動すると、リストが自動的に変更されます。
 
    >[!NOTE]
    >
@@ -236,7 +237,7 @@ Last, under Scenario Planner
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. （オプション）列を並べ替えるには、**Selected** セクションの列名にカーソルを合わせ、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックします。 列を垂直方向に移動して、列を順番に配置します。
+1. （オプション）列を並べ替えるには、**Selected** セクションの列名にカーソルを合わせ、**ドラッグ** アイコン ![ ドラッグ アイコン ](assets/drag-icon.png)をクリックします。 列を垂直方向に移動して、列を順番に配置します。
 1. 「**保存**」をクリックします。
 
    ![列マネージャー](assets/glist-column-manager.png)
@@ -251,7 +252,7 @@ Last, under Scenario Planner
 
 ビューの行の高さを変更するには：
 
-1. 拡張リストの&#x200B;**行の高さ** アイコン ![行の高さアイコン &#x200B;](assets/row-height-icon.png)をクリックします。
+1. 拡張リストの&#x200B;**行の高さ** アイコン ![行の高さアイコン ](assets/row-height-icon.png)をクリックします。
 
    これにより、行の垂直方向の長さが更新されます。 次のオプションから選択します。
    * 低い
@@ -292,8 +293,8 @@ Last, under Scenario Planner
    「**新しいビュー**」をクリックして、ビューを作成します。
 
 1. （条件付き）新しいビューを追加するには、ビューの名前を入力し、**作成**&#x200B;をクリックします。
-1. （オプション）列を非表示、表示、または並べ替えます。 詳細については、[拡張リストの列のカスタマイズ &#x200B;](#customize-columns-in-an-enhanced-list)を参照してください。
-1. （オプション）リストをフィルタリングします。 詳細については、[拡張リスト内のアイテムのフィルタリング &#x200B;](#filter-items-in-an-enhanced-list)を参照してください。
+1. （オプション）列を非表示、表示、または並べ替えます。 詳細については、[拡張リストの列のカスタマイズ ](#customize-columns-in-an-enhanced-list)を参照してください。
+1. （オプション）リストをフィルタリングします。 詳細については、[拡張リスト内のアイテムのフィルタリング ](#filter-items-in-an-enhanced-list)を参照してください。
 1. （オプション）リスト内の項目をグループ化します。 詳細については、[拡張リスト内のアイテムのグループ化](#group-items-in-an-enhanced-list)を参照してください。
 
    ビューの変更は自動的に保存されます。 このビューを次回に適用しても、列とフィルターの設定は設定した方法のまま維持されます。
@@ -365,7 +366,7 @@ Last, under Scenario Planner
    >
    >**既定にリセット** オプションは、共有されたビューに変更を加えた場合にのみ使用できます。
 
-   ![&#x200B; ビューオプションのコピーとリセット &#x200B;](assets/glist-copy-view-shared-with-you.png)
+   ![ ビューオプションのコピーとリセット ](assets/glist-copy-view-shared-with-you.png)
 
 ### ビューでの条件付き書式の適用
 
@@ -375,7 +376,7 @@ Last, under Scenario Planner
 
 条件付き書式設定を使用すると、共通の基準に基づいてビュー内の重要な情報を強調表示できます。
 
-1. **セルの書式設定** アイコン ![&#x200B; セルの書式設定アイコン &#x200B;](assets/format-cells-icon.png)をクリックします。 **形式** ボックスが開きます。
+1. **セルの書式設定** アイコン ![ セルの書式設定アイコン ](assets/format-cells-icon.png)をクリックします。 **形式** ボックスが開きます。
 
 1. 「**条件を追加**」をクリックします。
 1. **If**&#x200B;行で、フィールドを選択し、フィールド値を選択して修飾子を追加します。 選択したフィールドタイプによって修飾子が変更されます。
@@ -398,8 +399,8 @@ Last, under Scenario Planner
 
 1. 条件間の&#x200B;**または** コネクタをクリックして&#x200B;**および**&#x200B;に変更し、複数の条件を同時に満たす必要があることを示します。 **または**&#x200B;が既定のコネクタです。
 1. **形式**&#x200B;行で、書式設定する列を示すフィールドを選択します。
-1. （オプション）選択したフィールドの横にある&#x200B;**カラーサークル** アイコン ![&#x200B; カラーフォーマットアイコン &#x200B;](assets/color-format-icon.png)をクリックして展開し、**セルの塗りつぶし**&#x200B;領域で別の色を選択して、セルの背景の色を変更するか、**テキストの色**&#x200B;領域から色を選択して、セルのテキストの色を変更します。
-1. **テキスト形式** アイコン ![&#x200B; テキスト形式アイコン &#x200B;](assets/text-format-icon.png)をクリックし、次のオプションから選択してセル内のテキストを書式設定します。
+1. （オプション）選択したフィールドの横にある&#x200B;**カラーサークル** アイコン ![ カラーフォーマットアイコン ](assets/color-format-icon.png)をクリックして展開し、**セルの塗りつぶし**&#x200B;領域で別の色を選択して、セルの背景の色を変更するか、**テキストの色**&#x200B;領域から色を選択して、セルのテキストの色を変更します。
+1. **テキスト形式** アイコン ![ テキスト形式アイコン ](assets/text-format-icon.png)をクリックし、次のオプションから選択してセル内のテキストを書式設定します。
    * 太字
    * 斜体
 
@@ -453,7 +454,7 @@ Last, under Scenario Planner
 
    フィルターがリストに適用されると、**フィルター** ボタンにインジケーターが表示されます。
 
-   ![&#x200B; フィルターが適用されたインジケーター](assets/glist-filter-applied-indicator.png)
+   ![ フィルターが適用されたインジケーター](assets/glist-filter-applied-indicator.png)
 
 ### 拡張リスト内のグループ項目
 
@@ -468,16 +469,20 @@ Workfrontでは、事前に定義されたグループ化の数が限られて�
 1. リストの上にある「**グループ化**」をクリックします。
 1. グループ化を選択してリストを整理します。
 
-   ![&#x200B; グループ化を選択](assets/glist-grouping-choose-a-group-by.png)
+   ![ グループ化を選択](assets/glist-grouping-choose-a-group-by.png)
 
-1. 「**すべてを折りたたむ**」をクリックすると、すべてのグループが折りたたまれたリストが表示されます。 デフォルトのオプションは、すべてのグループ化が展開されたリストを表示することです。
+1. 「**すべてを折りたたむ**」をクリックすると、すべてのグループが折りたたまれたリストが表示されます。 既定のオプションは、すべてのグループが展開されたリストを表示することです。<!--Delete this line at January release-->
 1. グループ化を適用すると、「グループ化」オプションをもう一度開いて、すべてのグループ化を一度に折りたたんだり展開したり、グループ化を変更して別のフィールドでグループ化したり、すべてのグループ化をクリアしたりできます。
 
-   ![拡張リストでのグループ化](assets/glist-group-by-due-date-priorities.png)
+   ![拡張リストでのグループ化](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    グループ化がリストに適用されると、**グループ化** ボタンにインジケーターが表示されます。
 
    ![適用されたインジケーターのグループ化](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview"> リスト内のすべてのグループを折りたたんだり展開したりするには、最初の列の見出しの横にある矢印をクリックします。</span>
+
+   <span class="preview">![すべてのグループを折りたたむ](assets/collapse-expand-all-groupings.png)</span>
 
 ### 拡張リストで並べ替え
 
@@ -499,7 +504,7 @@ Workfrontでは、事前に定義されたグループ化の数が限られて�
 
 1. （オプション）グループ化で作業を並べ替えるには、**グループ化**&#x200B;をクリックし、適用されたグループ化の行に移動し、並べ替えドロップダウンをクリックして、昇順または降順を選択します。
 
-   ![&#x200B; グループ化で並べ替え](assets/sort-in-groups.png)
+   ![ グループ化で並べ替え](assets/sort-in-groups.png)
 
    >[!TIP]
    >
