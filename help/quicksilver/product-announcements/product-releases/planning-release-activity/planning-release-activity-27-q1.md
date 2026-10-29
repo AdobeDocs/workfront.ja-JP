@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 3%
 ---
 # Adobe Workfront Planningの2027年第1四半期のリリースアクティビティ
 
 この記事では、2027年第1四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## テーブルビューでのクイック検索の結果の可視性を向上
 
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >プロダクション高速リリース：2026年11月12日（PT）
 >すべての人のための制作：2027年1月21日
 
-2つの接続されたグローバルレコードタイプがセカンダリワークスペースに追加された場合、クロスワークスペース接続をオフにして、レコードをローカルにリンクできるようになりました。 各セカンダリワークスペースには、両方のレコードタイプに対して独自のレコードのみが表示され、それらを互いに接続できます。 グローバルワークスペースおよびその他のセカンダリワークスペースのレコードは表示されなくなりました。
+2つの接続されたグローバルレコードタイプがセカンダリワークスペースに追加された場合、クロスワークスペース接続をオフにしながら、レコードをローカルにリンクできます。
+
+各セカンダリレコードタイプは、両方のレコードタイプに対して独自のレコードのみを表示し、それらを互いに接続できます。 グローバルワークスペースおよびその他のセカンダリワークスペースのレコードは表示されなくなりました。
 
 この機能強化の前は、接続されたグローバルレコードタイプでワークスペース間の接続がオフになっていると、セカンダリワークスペースで自分のレコードを互いにリンクさせることができませんでした。 このオプションがオンになっている場合、ユーザーはグローバル ワークスペースおよびその他のすべてのセカンダリ ワークスペースからレコードを表示およびリンクできます。
 
-詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
-## テーブルビューでの合計レコード数の確認
+## テーブル、タイムラインおよびリストビューでの合計レコード数の表示
 
 >[!NOTE]
 >
@@ -79,7 +81,9 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >プロダクション高速リリース：2026年11月12日（PT）
 >すべての人のための制作：2027年1月21日
 
-テーブルビューにレコードの合計数が表示され、フィルターの適用、検索、またはビューの変更に伴ってカウントが自動的に更新されるようになりました。 レコード数は、常にフルフィルターされた結果を反映し、権限を尊重します。
+テーブル、タイムライン、リストビューにレコードの合計数が表示され、フィルターの適用、検索、またはビューの変更に伴ってカウントが自動的に更新されるようになりました。 レコード数は、常にフルフィルターされた結果を反映し、権限を尊重します。
+
+レコード数は、クイック検索ボックスの左側、テーブル、タイムライン、またはリストビューの右上隅に表示されます。
 
 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
@@ -175,7 +179,7 @@ For information, see [Connect record types](/help/quicksilver/planning/architect
 
 以前は、「すべてのフィールド」ビューが選択されている場合にのみ、「書き出し」オプションを使用していました。
 
-詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
+詳しくは、[ レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
 
 <!--
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## テーブルビューとタイムラインビューでの増分データの読み込みによるパフォーマンスの向上
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >プレビュー：2026年10月29日（PT）
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 多数のレコードのパフォーマンスを向上させるために、テーブルとタイムラインビューに次の改善を加えました。
 
-* ビューでは、最初に最初の500 レコードが読み込まれるようになり、500のバッチでスクロールすると、追加のレコードが自動的に読み込まれるようになりました。
-* クイック検索とグループ化は、現在ビューに読み込まれているレコードにのみ影響します。
+* テーブルビューでは、最初に最初の500件のレコードが読み込まれ、500件のバッチでスクロールすると、追加のレコードが自動的に読み込まれるようになりました。
+* タイムラインビューは同様の動作を持ちますが、スクロールしながら次の1000が読み込まれると、一度に1000件のレコードが読み込まれます。
+* クイック検索は、現在のビューに表示されるレコードだけでなく、すべてのレコードに適用されます。 タイムラインビューとテーブルビューの両方でスクロールすると、より多くのレコードが読み込まれます。
+* タイムラインビューにクイック検索を適用すると、1000以上の項目が見つかり、タイムラインの下部にある「さらに読み込む」をクリックすると、検索に一致するレコードをさらに表示できます。
 
 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
@@ -260,7 +264,7 @@ Workspace マネージャーは、プライマリワークスペースとセカ�
 
 グローバルワークスペースに追加されたビジネスルールは、レコードタイプが読み込まれたセカンダリワークスペースに読み取り専用として表示されます。 セカンダリワークスペースに追加されたビジネスルールは、レコードタイプが最初に作成されたプライマリワークスペースに読み取り専用として表示されます。 ルールは、作成されたワークスペースでのみ編集できます。
 
-詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 ## Planning リクエストの入力フォーム機能のデフォルトのプロンプト設定を設定します
 

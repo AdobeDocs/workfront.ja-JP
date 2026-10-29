@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 9%
+source-wordcount: '518'
+ht-degree: 17%
 ---
 # レコードの詳細の書き出し
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の本番環境でのみ使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -93,7 +91,7 @@ Workfront アカウントを持っていない可能性がある他のユーザ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -171,7 +169,13 @@ Old:
 
 * 書き出されたファイルは、サムネールとカバー画像を含むレコードページのレイアウトを保持します。
 
-* 複数のフィールドが非表示になっているカスタマイズされた詳細ページを書き出すことはできません。
+* 実稼動環境では、カスタマイズされた詳細ページを書き出すことはできません。複数のフィールドが非表示になっています。
+
+<div class="preview">
+
+* プレビュー環境では、カスタマイズされた詳細ページを書き出すことができます。このページでは、複数のフィールドが非表示になっています。
+
+</div>
 
 ## レコードの詳細の書き出し
 
@@ -192,7 +196,7 @@ Old:
 
 1. 「**詳細**」タブを選択します。 「詳細」タブはデフォルトで開きます。
 
-1. プレビューまたはレコードのページで&#x200B;**書き出し** メニュー![&#x200B; レコードの詳細ページ &#x200B;](assets/export-icon-in-record-details-page.png)の書き出しアイコンをクリックし、次のいずれかをクリックします。
+1. プレビューまたはレコードのページで&#x200B;**書き出し** メニュー![ レコードの詳細ページ ](assets/export-icon-in-record-details-page.png)の書き出しアイコンをクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -201,12 +205,11 @@ Old:
 
    書き出されたファイルの名前は、レコードのプライマリフィールドです。
 
-   ![書き出されたword ファイル &#x200B;](assets/exported-word-file.png)
+   ![書き出されたword ファイル ](assets/exported-word-file.png)
 
    >[!NOTE]
    >
    >    ページに表示されず、レコードの詳細領域で「詳細を表示」をクリックした後にのみ表示される追加情報は、書き出されたPDF ファイルには表示されません。 ページに表示される情報のみが、書き出されたファイルに表示されます。
-
 
 1. （オプション）ダウンロードしたファイルに移動し、開いて編集するか（Word ファイルの場合）、他のユーザーと共有します。
 

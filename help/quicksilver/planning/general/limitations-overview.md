@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 20%
+source-wordcount: '538'
+ht-degree: 19%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
@@ -77,6 +77,9 @@ Workfront プランニングで作成できるオブジェクトの数の制限�
 | ワークスペース内の階層数 | 5 |
 | 階層内の、子レコードタイプの1つのレコードに接続された親レコードタイプのレコード数 | 10 |
 | 複数選択接続タイプの1つのレコードに接続されたレコードの数（レコード間に階層が設定されていない） | 500 |
+| <span class="preview"> レコードタイプごとのルックアップフィールドの数</span> | 40 |
+| <span class="preview"> レコードタイプごとの長テキスト検索フィールドの数</span> | 5 |
+| <span class="preview">1つの長テキスト検索フィールド セル （テーブル ビュー内）の値の文字数</span> | 5万文字 |
 
 * 管理が困難になったり、ワークフローが断片化しすぎたりする可能性があるため、ワークスペースを過剰に多く用意しないことをお勧めします。
 
