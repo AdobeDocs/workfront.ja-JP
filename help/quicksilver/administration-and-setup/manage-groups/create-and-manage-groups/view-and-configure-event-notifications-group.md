@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 84%
+source-wordcount: '669'
+ht-degree: 70%
 ---
 # グループのイベント通知を表示および設定
 
@@ -73,7 +73,7 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 
 +++
 
-## グループのイベント通知の表示と設定
+## 実稼動環境でのグループのイベント通知の表示と設定
 
 >[!TIP]
 >
@@ -81,7 +81,7 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
 
 1. 最上位グループの名前をクリックします。
 1. 左側のメニューで、「**イベント通知**」をクリックします。
@@ -108,3 +108,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## プレビューでのグループのイベント通知の表示と設定
+
+>[!TIP]
+>
+>Workfront管理者で、既にメール通知ページ（設定/メール/通知）を開いている場合は、次の手順を実行し、手順6に進むことができます。リストの上のボックスで「**システムイベント通知**」を削除し、ボックスにグループ名を入力し始め、表示されたらクリックします。
+
+{{step-1-to-setup}}
+
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+
+1. 最上位グループの名前をクリックします。
+1. 左側のメニューで、「**イベント通知**」をクリックします。
+1. イベントの&#x200B;**アクティブ**&#x200B;列をクリックし、**アクティブ**&#x200B;を選択して有効にするか、**非アクティブ**&#x200B;を選択して無効にします。
+
+   >[!IMPORTANT]
+   >
+   >ロックアイコンを持つアイテムは、グループに対して編集または設定できません。
+
+   ![設定メールの下の通知領域](assets/group-event-notifications-g.png)
+
+   イベントのデフォルトの通知ステータスを確認するには、[イベント通知](../../../workfront-basics/using-notifications/event-notifications.md)を参照してください。
+
+</div>
