@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '559'
+ht-degree: 75%
 ---
 # レイアウトテンプレートの作成と管理
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 1. 「**新規レイアウトテンプレート**」をクリックします。
 
-   または
+   レイアウトテンプレートを編集するには：
 
-   変更するレイアウトテンプレートの名前をクリックします。
+   * 変更するレイアウトテンプレートの名前をクリックするか、
+   * <span class="preview"> リストのレイアウトテンプレートの横にあるチェックボックスを選択し、画面下部のアクションバーで&#x200B;**編集**&#x200B;をクリックします。</span>
+
+     アクションバーと強化リストのその他の機能について詳しくは、[強化リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
 
 1. 新しいレイアウトテンプレートを作成する場合は、**レイアウトテンプレート名**&#x200B;および（オプション）**説明**&#x200B;を入力します。
 

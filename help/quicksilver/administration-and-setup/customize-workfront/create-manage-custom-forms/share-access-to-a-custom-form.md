@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 33%
 ---
 # カスタムフォームの共有
+
+{{preview-fast-release-general}}
 
 カスタムフォームへのアクセスを設定して、誰（人物、役割、グループ、チーム、企業、ビジネスプロファイル）が表示、共有、編集できるかを制御できます。
 
@@ -108,7 +110,8 @@ ht-degree: 33%
       <td> <p>このオプションは、StandardまたはPlan ライセンスを持つユーザーのみが使用できます。 </p> <p>ユーザーは、編集権限を持つオブジェクトにフォームを追加できるだけでなく、フィールドの追加、編集、削除など、カスタムフォームを完全に編集することもできます。</p> <p>「<strong>詳細設定</strong>」をクリックして、次のことを許可するかどうかを指定します。</p> 
        <ul> 
         <li> <p><strong>カスタムデータに添付</strong>：アクセスを管理できるプロジェクト、タスクおよびイシューにカスタムフォームを添付する機能</p> </li> 
-        <li><strong>削除</strong>：カスタムフォームをシステムから削除します</li> 
+        <li><strong>削除</strong>：カスタムフォームをシステムから削除します</li>
+        <li> <p><span class="preview"><strong> カスタムデータの削除</strong>：管理アクセス権を持つプロジェクト、タスク、およびイシューからカスタムフォームを削除する機能</span></p> </li> 
         <li><strong>共有</strong>：カスタムフォームをシステム内の他のユーザーと共有します</li> 
        </ul> </td> 
      </tr> 

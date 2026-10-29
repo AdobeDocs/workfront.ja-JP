@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
-ht-degree: 70%
+source-wordcount: '2792'
+ht-degree: 69%
 ---
 # フォームへの計算フィールドの追加
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ ht-degree: 70%
       <td> <p>フィールドの結果を保存および表示する形式です。</p> <p>フィールドを数学計算で使用する場合は、常に<strong>数字</strong>または<strong>通貨</strong>形式を使用します。 <strong>数値</strong>または<strong>通貨</strong>を選択すると、0で始まる数値が自動的に切り捨てられます。</p> 
       <p><b>重要</b>：形式を選択する前に、新しいフィールドに適した形式を検討してください。 カスタムフォームを保存した後は、書式フィールドを編集できません。 また、誤った形式を選択すると、今後の計算や集計値がレポートやリストのグループ化に影響を受ける可能性があります。</p>
       <p><strong> メモ </strong>: <strong>通貨</strong>形式の計算フィールドには、引用符を含めないでください。 例えば、"800.00" ではなく、800.00 を使用してください。 引用符を使用すると、通貨タイプの言語形式の微妙な違いにより、予期しない結果が生じる可能性があります。</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>お気に入りに登録</td>
+      <td><span class="preview">リストやレポートでフィルター、ビュー、グループ化を作成する場合や、フォームデザイナーのフィールドライブラリの上部にフィールドを「推奨」フィールドとして表示するには、このオプションを選択します。</span></td>
+     </tr>
      <tr>
       <td>アクティブ</td>
       <td><p>このオプションは、デフォルトでオンになっています。<p><p>フィールドを非アクティブに設定すると、そのフィールドはレポート、フィルター、ビューから除外され、カスタムフォームフィールドライブラリでは使用できなくなります。</p></td>

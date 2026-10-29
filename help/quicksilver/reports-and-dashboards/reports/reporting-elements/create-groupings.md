@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 91%
+source-wordcount: '464'
+ht-degree: 88%
 ---
 # Adobe Workfront でのグループ化の作成
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ ht-degree: 91%
 1. **グループ化プレビュー**&#x200B;領域で、**グループ化を追加**&#x200B;をクリックして、レポート内の情報の整理方法を定義します。 レポート内のグループ化の表示についてプレビューを次に示します。
 
 1. レポート内の情報を整理する方法を表すフィールドの名前を入力し、ドロップダウンリストに表示されたらクリックします。
+
+   >[!TIP]
+   >
+   ><span class="preview">お気に入りとしてマークされたカスタムフィールドは、検索結果の上部の&#x200B;**推奨** セクションに表示されます。</span>
+
 1. （オプションおよび条件付き）更新されたリストでグループ化を作成する場合、グループ化の結果を展開された状態ではなく折りたたまれた状態で表示するには、「**既定としてこのグループ化を折りたたむ**」を選択します。 この設定はデフォルトでは無効になっており、グループ化の結果は常に展開されたリストで表示されます。
 
    更新されたリストと従来のリストについては、[Adobe Workfront のリストの基本を学ぶ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。

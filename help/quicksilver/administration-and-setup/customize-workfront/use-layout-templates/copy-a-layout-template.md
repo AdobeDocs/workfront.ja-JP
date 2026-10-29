@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 94%
+source-wordcount: '337'
+ht-degree: 77%
 ---
 # レイアウトテンプレートのコピー
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,12 +76,14 @@ ht-degree: 94%
 
 1. 左側のパネルで、**インターフェイス**／**レイアウトテンプレート**&#x200B;をクリックします。
 
-1. 変更するレイアウトテンプレートの名前をクリックします。
-1. **コピー** アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)をクリックします。
+1. 変更するレイアウトテンプレートの横にあるチェックボックスをオンにします。
+1. **コピー** アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)、<span class="preview">をクリックするか、画面下部のアクションバーの&#x200B;**コピー**&#x200B;をクリックします。</span>
 
    既存のレイアウトテンプレート内の名前、説明、ユーザー割り当てを除くすべての設定が、新しいテンプレートにコピーされます。
 
-1. 表示される画面に、新しい&#x200B;**レイアウトテンプレート名**&#x200B;および（オプション）**説明**&#x200B;を入力します。
+   アクションバーと強化リストのその他の機能について詳しくは、[強化リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
+
+1. 表示される画面で、新しい&#x200B;**レイアウトテンプレート名**&#x200B;と（オプション）それに&#x200B;**説明**&#x200B;を入力します。
 
 1. テンプレートを必要とするユーザーに割り当てます。詳しくは、[レイアウトテンプレートへのユーザーの割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 1. （オプション）次の記事の説明に従って、テンプレートをカスタマイズします。
@@ -92,3 +96,6 @@ ht-degree: 94%
    * [レイアウトテンプレートを使用したランディングページのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. 「**作成**」をクリックします。
+

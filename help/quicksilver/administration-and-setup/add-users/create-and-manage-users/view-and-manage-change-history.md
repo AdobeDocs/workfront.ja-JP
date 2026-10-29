@@ -15,10 +15,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 6%
+source-wordcount: '545'
+ht-degree: 5%
 ---
 # 変更履歴の表示と管理
 
@@ -30,6 +30,7 @@ ht-degree: 6%
 * プロジェクトの説明の編集やユーザーのレイアウトテンプレートの変更など、フィールドレベルの更新
 * プロジェクトのステータスの更新や、タスクへのカスタムフォームの添付など、オブジェクトの更新
 * 参加者と決定者を含む統合レビューおよび承認ワークフロー活動
+* ダッシュボードまたはレポートの作成者、更新者、削除者、更新日時、変更内容などのCanvas ダッシュボードアクティビティ
 
 追跡するオブジェクトとフィールドの定義について詳しくは、[変更履歴で追跡するフィールドの設定](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)を参照してください。
 

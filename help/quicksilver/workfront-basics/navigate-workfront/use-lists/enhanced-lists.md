@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 2%
 ---
 # 拡張リストの使用
+
+{{preview-fast-release-general}}
 
 強化されたリストは、Adobe Workfrontの一部の領域で利用できます。 これらのリストは、リスト項目を表示するための表形式を使用し、標準のリストとは異なるルックアンドフィールを備えています。 ビューの管理も強化され、フィルタリング、グループ化、列の管理、検索が行われます。
 
@@ -77,14 +79,16 @@ ht-degree: 2%
 | --- | --- |
 | 優先度 | <ul><li>ホーム >左側のメニューで「優先度」アイコンを選択します</li><li>メインメニュー/優先度</li></ul> |
 | リクエストのリスト | <ul><li>メインメニュー/リクエスト（新しいエクスペリエンスのみ）</li><li>ホームのマイリクエストウィジェット</li></ul> |
-| 設定のステータス、優先順位、重要度、<span class="preview">条件</span>、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li><span class="preview">設定/ プロジェクト環境設定/条件</span></li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
-| <span class="preview">更新フィードのアクションと追跡フィールドのリスト </span> | <ul><li><span class="preview">設定/ インターフェイス / フィードの更新/「トラッキングフィールド」タブ </span></li> <li><span class="preview">設定/ インターフェイス / フィードの更新/「アクション」タブ </span></li></ul> |
-| <span class="preview"> スコアカードのリスト </span> | <span class="preview">設定/ スコアカード </span> |
-| <span class="preview"> リスクタイプのリスト </span> | <span class="preview">設定/リスクの種類</span> |
+| 設定のステータス、優先順位、重大度、条件、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li>設定/プロジェクト環境設定/条件</li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
+| 更新フィードのアクションと追跡フィールドのリスト | <ul><li>設定/インターフェイス/フィードの更新/トラッキングされたフィールド タブ</li> <li>設定/インターフェイス/フィードの更新/「アクション」タブ</li></ul> |
+| スコアカードのリスト | 設定/スコアカード |
+| リスクタイプのリスト | 設定/リスクタイプ |
 | レートカードの担当業務と料金のリスト | 設定/レート・カード/レート・カードの選択/担当業務とレート |
 | 場所のリスト | 設定/場所 |
 | 翻訳のリスト | 設定/ローカライズ |
 | 統合のリスト | <ul><li>設定/ドキュメント/SharePointとの連携</li><li>設定/ドキュメント/カスタム統合</li><li>設定/ドキュメント/Experience Manager Assets</li></ul> |
+| <span class="preview"> レイアウトテンプレートのリスト </span> | <span class="preview">設定/ インターフェイス / レイアウトテンプレート </span> |
+| <span class="preview"> イベント通知のリスト </span> | <ul><li><span class="preview">設定/電子メール/通知/イベント通知</span></li><li><span class="preview"> グループの詳細ページ/イベント通知</span></li></ul> |
 | レポートのリスト | メインメニュー/レポート（**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
 | キューのトピック、トピックグループ、ルーティングルールのリスト | <ul><li>プロジェクトまたはテンプレート/キュートピック</li><li>プロジェクトまたはテンプレート/トピックグループ</li><li>プロジェクトまたはテンプレート/ルーティングルール</li></ul> |
 | スナップショットのリスト | プロジェクト/スナップショット |
@@ -99,10 +103,7 @@ ht-degree: 2%
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfrontでは、事前に定義されたグループ化の数が限られて�
 
    ![&#x200B; グループ化を選択](assets/glist-grouping-choose-a-group-by.png)
 
-1. 「**すべてを折りたたむ**」をクリックすると、すべてのグループが折りたたまれたリストが表示されます。 デフォルトのオプションは、すべてのグループ化が展開されたリストを表示することです。
+1. 「**すべてを折りたたむ**」をクリックすると、すべてのグループが折りたたまれたリストが表示されます。 既定のオプションは、すべてのグループが展開されたリストを表示することです。<!--Delete this line at January release-->
 1. グループ化を適用すると、「グループ化」オプションをもう一度開いて、すべてのグループ化を一度に折りたたんだり展開したり、グループ化を変更して別のフィールドでグループ化したり、すべてのグループ化をクリアしたりできます。
 
-   ![拡張リストでのグループ化](assets/glist-group-by-due-date-priorities.png)
+   ![拡張リストでのグループ化](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    グループ化がリストに適用されると、**グループ化** ボタンにインジケーターが表示されます。
 
    ![適用されたインジケーターのグループ化](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview"> リスト内のすべてのグループを折りたたんだり展開したりするには、最初の列の見出しの横にある矢印をクリックします。</span>
+
+   <span class="preview">![すべてのグループを折りたたむ](assets/collapse-expand-all-groupings.png)</span>
 
 ### 拡張リストで並べ替え
 

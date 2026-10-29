@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 64%
+source-wordcount: '908'
+ht-degree: 63%
 ---
 # Adobe Workfront でのビューの作成または編集
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ ht-degree: 64%
 
    * 列のタイトルをクリックし、新しいフィールドを選択して、列の値を変更します。
    * 「**列を追加**」をクリックして列を追加し、追加する列の名前を入力し、ドロップダウンリストに表示されたらクリックします。
+
+   >[!TIP]
+   >
+   ><span class="preview">お気に入りとしてマークされたカスタムフィールドは、検索結果の上部の&#x200B;**推奨** セクションに表示されます。</span>
+
    * 列のタイトルを新しい場所にドラッグして、列の表示順序を調整します。
 
    * **列設定**&#x200B;領域で、**この列を**&#x200B;で要約をクリックし、列にデータを表示する方法を選択します。 このオプションは、次の列タイプで使用できます。

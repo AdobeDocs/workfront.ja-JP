@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 97%
+source-wordcount: '2420'
+ht-degree: 95%
 ---
 # Adobe Workfront でフィルターを作成または編集する
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 
 1. フィールドドロップダウンメニューをクリックして、最近使用したフィールドと、フィルターに使用する推奨フィールドのリストを表示します。 フィールド候補は、現在、フィルタリング対象のリストに表示されます。
 
+   >[!TIP]
+   >
+   ><span class="preview">お気に入りとしてマークされたカスタムフィールドは、検索結果の上部の&#x200B;**推奨** セクションに表示されます。</span>
+
    また、「**フィールドを参照**」をクリックすると、フィルタリングに使用できるすべてのフィールドの一覧が表示されます。 詳細検索のフィールドは、オブジェクトカテゴリ別にグループ化されます。
 
    ![&#x200B; フィルターに使用するフィールドを検索 &#x200B;](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
    * 「**別のフィルター規則を追加**」をクリックしてフィルタールールを追加し、「**フィールド名を入力**」ボックスにルールを追加するオプションの名前を入力し、ドロップダウンリストに表示されたら、それをクリックします。
 
      フィルターのオブジェクトに関連するフィールドが、「**フィールド名を入力**」ボックスに一覧表示されます。
+
+     >[!TIP]
+     >
+     ><span class="preview">お気に入りとしてマークされたカスタムフィールドは、検索結果の上部の&#x200B;**推奨** セクションに表示されます。</span>
 
    * フィルタールールを追加する場合は、「**AND**」または「**OR**」をクリックします。\
      フィルタールールを追加する場合は、フィルター修飾子を使用して、フィルターの条件を設定します。 フィルター修飾子について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。

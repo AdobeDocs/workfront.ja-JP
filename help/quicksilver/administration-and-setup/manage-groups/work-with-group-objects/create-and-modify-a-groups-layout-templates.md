@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 72%
+source-wordcount: '377'
+ht-degree: 68%
 ---
 # グループのレイアウトテンプレートの作成と変更
 
@@ -88,9 +88,12 @@ ht-degree: 72%
 
      レイアウトテンプレートをコピーして新規レイアウトテンプレートを作成する方法については、[レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)を参照してください。
 
+     アクションバーと強化リストのその他の機能について詳しくは、[強化リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
+
    * 既存のグループレイアウトテンプレートを編集するには、そのテンプレートを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
      レイアウトテンプレートの編集については、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
    * 1つ以上のレイアウトテンプレートを削除するには、テンプレートを選択し、**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
    * レイアウトテンプレートのリストを書き出すには、**書き出し** アイコン ![書き出しアイコン &#x200B;](assets/export-icon.png)をクリックします。
+
