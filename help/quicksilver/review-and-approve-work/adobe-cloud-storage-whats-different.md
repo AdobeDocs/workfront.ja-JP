@@ -6,9 +6,9 @@ description: 新しいドキュメント領域、Frame.io ビューア、ドキ�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Adobe クラウドストレージの違い
@@ -94,7 +94,7 @@ Frame.io ビューアには次の機能があります。
 * フリーハンド描画や、円、矢印、正方形などの標準シェイプなどのマークアップおよびコメントツール
 * ビデオレビュー用のフレーム精度のタイムスタンプ付きコメント
 * バージョン履歴とバージョン比較
-* 外出先でのレビューと承認のためのモバイルアクセス
+* [Frame.io iOS アプリ &#x200B;](https://help.frame.io/en/collections/9679120-ios-app)による外出先でのレビューと承認のためのモバイルアクセス
 * ProRes、H.265、DNxHDなどのプロ向けビデオ形式のネイティブ再生、最大500 GBのファイルのサポートにより、一般的なビデオ、画像、オーディオ、PDF、Microsoft Officeなど、40種類以上のファイル形式をサポートします
 
 ## オブジェクト命名ルール

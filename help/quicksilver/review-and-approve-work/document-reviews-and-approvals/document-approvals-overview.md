@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # 統一されたレビューと承認の概要
@@ -82,7 +82,7 @@ Frame.io ビューアを使用したアセットのレビューと承認 Frame.i
 * マークアップツールとコメントツール
 * バージョン履歴と比較
 * ビデオレビュー用のタイムスタンプ付きコメント
-* 外出先でのレビューと承認のためのモバイルアクセス
+* [Frame.io iOS アプリ &#x200B;](https://help.frame.io/en/collections/9679120-ios-app)による外出先でのレビューと承認のためのモバイルアクセス
 
 詳しくは、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。
 
