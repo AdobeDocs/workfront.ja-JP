@@ -4,9 +4,9 @@ description: 2027年第1四半期ドキュメントの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 11%
 ---
 
@@ -36,11 +36,19 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 ## 統一されたレビューと承認のメール通知を設定
 
+>[!IMPORTANT]
+>
+>この機能は、プレビュー環境では一時的に利用できません。
+
+
+<!--
 >[!NOTE]
 >
->プレビュー：2026年10月29日（PT）
->プロダクション高速リリース：2026年11月12日（PT）
->すべての人のための制作：2027年1月21日
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
 
 統合レビューと承認のメール通知を設定できるようになりました。 Workfrontはこれまでも電子メールを送信してきましたが、これまでは設定できていませんでした。 統合承認としてグループ化され、デフォルトでアクティブになっている通知が18件あります。 Workfront管理者は、設定の全員に対して有効化または無効化でき、ユーザーは自分のプロファイルで管理できます。
 
