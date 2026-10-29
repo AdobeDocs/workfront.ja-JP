@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
+source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 25%
+source-wordcount: '1093'
+ht-degree: 17%
 ---
 
 # 2027年第1四半期リリースの概要
@@ -30,8 +30,147 @@ ht-degree: 25%
 
 ## Adobe Workfront の機能強化
 
+* [管理者機能の強化](#administrator-enhancements)
+* [AIの機能強化](#ai-enhancements)
+* [ドキュメントの機能強化](#documents-enhancements)
+<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [プロジェクトの強化](#project-enhancements)
+* [その他の機能強化](#other-enhancements)
 
+### 管理者機能の強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">添付されたカスタムフォームを削除するための権限</a></p>
+                <p>カスタムフォームを共有する際に、管理アクセス権を持つユーザーに対して、フォームが添付されているオブジェクトからフォームを削除する権限を設定できるようになりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">カスタムフィールドをお気に入りにマーク</a></p>
+                <p>カスタムフィールドをお気に入りとしてマークできるようになりました。これにより、フィルター、ビュー、グループ化を作成する際や、フォームデザイナーのフィールドライブラリで、使用可能なフィールドの上部に表示されます。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">変更履歴がCanvas ダッシュボードオブジェクトを追跡するようになりました</a></p>
+                <p>変更履歴では、Canvas ダッシュボードまたはレポートを作成、更新、または削除したユーザー、いつから、何が変更されたかを記録できるようになりました。</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年10月29日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### AIの機能強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Work Agents:Adobe ネイティブサポート</a></p>
+                <p>外部プラットフォームを設定したり、外部資格情報を入力したりすることなく、Adobe CX Coworkerを使用する作業エージェントを作成できるようになりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">WorkfrontのAdobe CX Enterprise Coworkerから削除された一部のアイコン</a></p>
+                <p>WorkfrontのAdobe CX Enterprise Coworkerを簡略化するために、「設定」アイコンと「成果物」アイコンが削除されました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### ドキュメントの機能強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">統一されたレビューと承認のメール通知を設定</a></p>
+                <p>これで、18件の統一されたレビューと承認のメール通知を設定できるようになりました。件名は少し変更されています。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md">Deactivate exchange rates</a></p>
+                <p>System administrators can now deactivate currencies from the list of exchange rates and activate them again later.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
 
 ### プロジェクトの強化
 
@@ -56,10 +195,80 @@ ht-degree: 25%
     </tbody>
 </table>
 
+### その他の機能強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">強化リストの合計レコード数を確認する</a></p>
+                <p>拡張ビューにアイテムの合計数が表示され、ビューのフィルタリング、検索、変更に伴ってカウントが更新されるようになりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">強化されたリストでのクイック検索の結果の可視性の向上</a></p>
+                <p>強化されたリストのクイック検索では、すべてのアイテム間で一致する項目を強調表示するのではなく、一致する項目のみを表示するようになりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
+                <p>You can now create sections in the View dropdown menu of an enhanced list to organize related views.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">拡張リストの更新</a></p>
+                <p>拡張リスト内のすべてのグループを展開または折りたたむことができるようになり、使用可能なビュータイプが1つしかない場合にビュータイプを選択する必要がなくなりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">複数の画面を拡張リストに更新</a></p>
+                <p>レイアウトテンプレートとイベント通知リストで、拡張リスト形式が使用されるようになりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">カレンダーレポートの週ビューでの時間の表示と非表示の切り替え</a></p>
+                <p>カレンダーレポートの週表示で、その日の時間を表示または非表示にできるようになりました。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
@@ -82,7 +291,7 @@ ht-degree: 25%
 
 * パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 
@@ -116,7 +325,7 @@ ht-degree: 25%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
