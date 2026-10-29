@@ -118,4 +118,4 @@ For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/
 
 カレンダーレポートの週表示で、その日の時間を表示または非表示にできるようになりました。 時間を非表示にすることで、週の表示をよりシンプルに、より合理的に表示したり、時間帯区分が必要な場合に表示したりできます。 カレンダーの右上隅にある切り替えスイッチを使用して、2つを切り替えます。
 
-詳しくは、[ カレンダーレポートとイベントの詳細の表示](/help/quicksilver/reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)を参照してください。
+詳しくは、[&#x200B; カレンダーレポートとイベントの詳細の表示](/help/quicksilver/reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)を参照してください。

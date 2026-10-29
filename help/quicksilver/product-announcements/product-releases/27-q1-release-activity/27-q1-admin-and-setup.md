@@ -40,7 +40,7 @@ ht-degree: 7%
 
 お気に入りとしてマークされたフィールドは、フォームデザイナーのフィールドライブラリの上部にも表示されます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 変更履歴がCanvas ダッシュボードオブジェクトを追跡するようになりました
 
