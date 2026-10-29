@@ -16,22 +16,26 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: '1230'
+ht-degree: 3%
 ---
 # 作業担当者の使用
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべての顧客のプレビュー環境でのみ使用できます。</span>
+
 作業担当者は、Workfrontのタスク、イシュー、リクエストに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同様に作業項目に割り当てられます。
 
-作業用エージェントは、Copilot Studio、Claude、OpenAI、またはIBMで設定したエージェントに接続されます。
+<span class="preview">Adobe CX Coworkerを活用した、すぐに使用できるAdobe Native Work Agent、</span>または外部プラットフォームに接続されたWork Agentを使用できます。 使用可能な機能と設定の要件は、エージェントのオリジンによって異なります。
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
 >Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -64,7 +68,9 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 ## 前提条件
 
-* Workfrontで作業エージェントとして使用するには、Copilot、Claude、OpenAI、またはIBMでエージェントを設定する必要があります。
+* 管理者は、Workfrontで作業エージェントを設定してから、それを使用できるようにする必要があります。
+* <span class="preview">Adobe Native Work Agentの場合、Adobe CX Coworkerが有効になっている必要があります。</span>
+* 外部プラットフォームに接続された作業エージェントの場合は、そのプラットフォームでエージェントも設定する必要があります。
 
 ## 作業エージェントの概要
 
@@ -116,21 +122,22 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 作業エージェントがタスクまたは問題に割り当てられている場合、次のいずれかの状況が発生すると作業が開始されます。
 
-<!--update wording to include issues when this goes to production-->
-
 * 作業エージェントは、開始準備ができているタスクに割り当てられます。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * 作業エージェントとユーザーがタスクに割り当てられ、作業エージェントが最初に割り当てられます。
 * 作業エージェントが既に割り当てられているタスクは開始準備が整い、作業エージェントが唯一または主な担当者となります。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * 作業エージェントとユーザーが既に割り当てられているタスクは開始準備が整い、作業エージェントが最初に割り当てられたか、または主な担当者です。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * ユーザーと作業エージェントがタスクに割り当てられ、ユーザーが削除されます。
 * ユーザーと作業エージェントがタスクに割り当てられ、作業エージェントがタスクのプライマリ担当者として設定されます。
+* <span class="preview">Workfront ネイティブのWork Agentがタスクに@mentionedり込まれています。
 
 次の状況では、作業エージェントはタスクの作業を開始しません。
 
 * 作業エージェントは、既にユーザーが割り当てられているタスクに割り当てられています。
-* 作業エージェントがタスクに@mentionedり込まれています。
+* <span class="preview">開始トリガーをサポートしていないプロバイダーのタスクに作業エージェントが@mentionedり込まれています。</span>
 * 作業エージェントは、既に作業エージェントが割り当てられているタスクに割り当てられます。 この場合、最初に割り当てられた作業担当者は既に作業を開始しており、2番目の作業担当者は何もしません。
 * 作業エージェントは、開始準備ができていないタスクに割り当てられています。 （例えば、タスクに先行タスクがある場合、先行タスクはまだ完了していません）。
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## タスク、イシュー、またはリクエストに作業エージェントを割り当てる
 
@@ -138,7 +145,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
 >[!NOTE]
 >
