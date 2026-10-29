@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 70%
 ---
 # グループのイベント通知を表示および設定
+
+{{highlighted-preview}}
 
 グループ管理者は、管理対象のグループに対してアクティブ化されているイベント通知を表示できます。
 
@@ -81,7 +83,7 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
 
 1. 最上位グループの名前をクリックします。
 1. 左側のメニューで、「**イベント通知**」をクリックします。
@@ -121,7 +123,7 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
 
 1. 最上位グループの名前をクリックします。
 1. 左側のメニューで、「**イベント通知**」をクリックします。

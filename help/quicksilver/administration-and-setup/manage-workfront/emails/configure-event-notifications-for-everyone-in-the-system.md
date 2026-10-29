@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 61%
 ---
 # システムの全員へのイベント通知を設定
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -103,7 +105,7 @@ ht-degree: 61%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![&#x200B; ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![&#x200B; ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
+1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![ ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![ ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 
@@ -135,14 +137,14 @@ ht-degree: 61%
 
 1. （オプション）メール通知の件名をカスタマイズするには、次の操作を行います。
 
-   * 通知の右側にあるロックアイコン ![&#x200B; ロックアイコン &#x200B;](assets/lock-icon-100626.png)または&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集**&#x200B;を選択します。
+   * 通知の右側にあるロックアイコン ![ ロックアイコン ](assets/lock-icon-100626.png)または&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集**&#x200B;を選択します。
    * 通知の横にあるチェックボックスを選択し、画面下部のアクションバーで「**編集**」をクリックします。
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
 1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、次の操作を行います。
 
-   * 通知の右側にあるロックアイコン ![&#x200B; ロックアイコン &#x200B;](assets/lock-icon-100626.png)をクリックし、**グループアクセスのロックを解除**&#x200B;を選択します。 通知のロックを解除すると、ロックアイコンは表示されなくなります。
+   * 通知の右側にあるロックアイコン ![ ロックアイコン ](assets/lock-icon-100626.png)をクリックし、**グループアクセスのロックを解除**&#x200B;を選択します。 通知のロックを解除すると、ロックアイコンは表示されなくなります。
    * 通知の横にあるチェックボックスを選択し、画面下部のアクションバーで「**グループアクセスのロックを解除**」をクリックします。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
