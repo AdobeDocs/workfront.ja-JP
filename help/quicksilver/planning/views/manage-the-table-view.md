@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4138'
-ht-degree: 37%
+source-wordcount: '4357'
+ht-degree: 36%
 ---
 # テーブルビューの管理
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ Old:
 
 デフォルトでは、次の表示がテーブルビューに表示されます。
 
-* 選択したレコードタイプのすべてのフィールドとすべてのレコード。
+* 実稼動環境では、選択したレコードタイプのすべてのフィールドとすべてのレコード。
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* プレビュー環境では、デフォルトで500 レコードが表示されます。 ページをスクロールすると、追加のレコードが表示されます。
 
 </div>
--->
 
 テーブルビューを管理するには：
 
@@ -244,6 +241,10 @@ Old:
 1. [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の説明に従って、フィールド（または列）の追加を開始します。
 
    追加した列は、レコードタイプにアクセスするすべてのユーザーに表示され、レコードのページに新しいフィールドとして追加されます。
+
+   実稼動環境では、新しく追加されたフィールドが追加され、すべてのビューから表示されます。
+
+   <span class="preview"> プレビュー環境では、新しく追加されたフィールドは、追加するビューを除くすべてのビューで非表示フィールドとして追加されます。</span>
 
 1. （オプション）ツールバーの&#x200B;**フィールド** アイコン ![&#x200B; フィールドアイコン &#x200B;](assets/fields-icon.png)をクリックし、フィールドを検索してから、フィールド名の右側にあるトグルを選択解除して、フィールドを非表示にします。
 
@@ -301,11 +302,11 @@ Old:
    >デフォルトでは、非表示フィールドはレコードの&#x200B;**詳細** プレビューボックスに表示されません。 すべてのフィールドは、レコードの詳細ページに表示されます。 詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 
-1. **フィールド** アイコンをクリックし、テーブルの列に表示するフィールドに関連付けられている切り替えスイッチを選択します。 デフォルトでは、すべてのフィールドが表示されます。
+1. **フィールド** アイコンをクリックし、テーブルの列に表示するフィールドに関連付けられている切り替えスイッチをオンにします。 デフォルトでは、すべてのフィールドが表示されます。
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** ボックス ![検索アイコン &#x200B;](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
+   1. **検索** ボックス ![検索アイコン &#x200B;](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。 <span class="preview">検索ボックスの左側に表示されるレコードの合計数は、検索で見つかったレコード数に置き換えられます。 検索に一致する項目のみが表示されるように、テーブルがフィルタリングされます。</span>
 
       ![&#x200B; テーブルビューの結果の青いアウトラインを含む検索ボックス &#x200B;](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Old:
 
       テーブルビューで非表示になっているフィールドに関連付けられたキーワードは使用できません。
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview"> クイック検索は、現在のビューに表示されているレコードだけでなく、すべてのレコードに対して機能します。 スクロールすると、より多くのレコードが読み込まれます。</span>
+
 
    1. キーボードの **Enter** キーを押して、次に見つかったフィールドに移動します。
 
@@ -396,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 テーブルビューの行には、選択したレコードタイプの個別のレコードが表示されます。 行の追加は、レコードの作成と同じです。
 
-レコードタイプには、最大50,000件のレコード（または行）を含めることができます。
+レコードタイプには、最大50,000件のレコード（または行）を含めることができます。 <span class="preview">既定では500行のみが表示されます。 ページをスクロールすると、ページの読み込みが増加します。</span>
+<span class="preview"> レコードの合計数は、クイック検索ボックスの左側、テーブルの右上隅に表示されます。</span>
 
 1. レコードタイプページに移動してテーブルビューを選択するか、**+ ビュー**&#x200B;をクリックして新しいビューを追加し、**テーブル**&#x200B;を選択します。
 
@@ -411,6 +411,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >レコードに未読のコメントがある場合、レコードのプライマリフィールドの右上隅に&#x200B;**新規コメント** インジケーターが表示されます。
    >
    >![&#x200B; テーブルビューの新しいコメントアイコン &#x200B;](assets/new-comment-icon-in-table-view-highlighted.png)
+
 
 1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![&#x200B; ハンドルアイコン &#x200B;](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
 

@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 3%
+source-wordcount: '1564'
+ht-degree: 4%
 ---
 # AI共同作業者の設定
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべての顧客のプレビュー環境でのみ使用できます。</span>
 
 AI協力者とは、AI エージェントをプロジェクト、タスク、イシューに組み込む方法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。
 
@@ -34,9 +36,13 @@ AI協力者とは、AI エージェントをプロジェクト、タスク、イ
 
   詳しくは、[Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
-* 作業エージェント：Claude、OpenAI、Copilotなどの標準AI プラットフォームを使用して共同作業者を作成し、その共同作業者をタスクや問題に割り当てて作業項目を完了させます。
+* 作業エージェント：Adobe CX Coworkerを活用した共同作業者<span class="preview">を作成するか、サポートされている外部プラットフォームから担当者を接続し、共同作業者をタスクまたは問題に割り当てて作業項目を完了します。</span>
 
   詳しくは、[作業担当者の使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
+
+  Adobe CX Enterprise Coworkerについて詳しくは、[WorkfrontでのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+
+<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
 
 AI共同作業者が使用するライセンスには請求されません。 組織に200 Workfront ライセンスがあり、AI Collaboratorを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
@@ -93,11 +99,16 @@ AI共同作業者が使用するライセンスには請求されません。 �
 
 ### 作業担当者の場合
 
-作業用エージェントとして使用する前に、Claude、Copilot Studio、OpenAI、またはIBMでエージェントを設定する必要があります。
+<span class="preview">前提条件は、エージェントの出所によって異なります：</span>
+
+* <span class="preview">Adobe ネイティブ：組織でAdobe CX Coworkerを有効にする必要があります。 外部プラットフォームでエージェントを設定したり、外部プラットフォームの資格情報を指定したりする必要はありません。</span>
+* 外部プラットフォームまたはカスタムエージェント：Workfrontで作業エージェントを作成する前に、接続する予定のプラットフォームでエージェントを設定します。
 
 >[!NOTE]
 >
 >アドビは、あらゆるエージェントプロバイダーへの接続を目指しています。そのため、お使いのプロバイダーが現在Work Agentsと互換性がない場合は、アカウントチームにお問い合わせください。
+
+<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
 
 ## 新しいAI レビュアーの作成
 
@@ -119,11 +130,15 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 ## 作業エージェントの設定
 
+<span class="preview">次の設定ガイダンスは、Adobe ネイティブのサポートと、まだプレビュー中のオリジンベースの設定モデルを反映しています。</span>
+
 作業エージェントは、Workfrontでタスクまたはイシューに割り当てることができるエージェントです。 名前、アクセスレベルおよびその他の詳細を使用して作業エージェントを設定し、ユーザーを割り当てるようにタスクに割り当てます。
 
-作業用エージェントはエージェントであるため、そのアクションと機能は、エージェントを設定する場所で設定されます。 現在、作業用エージェントとして使用されるエージェントは、Copilot Studio、Claude、OpenAI、およびIBMで作成できます。
+作業用エージェントはエージェントであるため、そのアクションと機能は、エージェントを設定する場所で設定されます。 Work Agentsは、<span class="preview">Coworker、</span>を使用するネイティブ Work Agentsにするか、サポートされている外部プラットフォーム（Copilot Studio、Claude、OpenAI、IBMなど）から取得できます。
 
-作業担当者は、タスクまたはイシューに割り当てることができます。
+>作業担当者は、タスクまたはイシューに割り当てることができます。
+
+<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 作業担当者が使用するライセンスには料金は請求されません。 組織に200 Workfront ライセンスがあり、Work Agentを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
@@ -148,7 +163,8 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
    >
    >グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。
 
-1. **エージェントのオリジンを選択**&#x200B;領域で、Copilotなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
+1. **エージェントの生成元を選択**&#x200B;領域で、<span class="preview">Adobe Native</span>を使用するか、Copilotなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
+1. <span class="preview"> （条件付き）Adobe Nativeを選択した場合は、Adobe CX Coworkerが有効になっており、すぐに使用できるAdobe Native Agentを使用することを確認します。</span>
 1. （条件付き）共通プラットフォームのエージェントを使用している場合は、エージェントのプラットフォームの認証の詳細を入力します。
 
    | Platform | 必須の認証 |

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 5%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -201,6 +201,22 @@ ht-degree: 5%
       >Workfront オブジェクトの日付フィールド情報は、Workfrontでの表示方法に関係なく、Workfront Planningでは24時間形式で表示されます。
       >
       >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドでは、Workfront Planningで15:00と表示されます。
+
+  <div class="preview">
+
+  * ルックアップフィールドを追加する際には、次の制限があります。
+
+    * 1つのレコードタイプにつき、最大40個のルックアップフィールドを設定できます。
+
+    * レコードタイプごとに最大5つの長いテキストルックアップフィールドを設定できます。 接続されたルックアップフィールドは、元のフィールドの制限に対してカウントされます。
+
+    * 1つの長いテキストルックアップセルの値には、最大50,000文字を指定できます。
+
+      検索値の結合コンテンツがこれを超えた場合、値は制限に達するまで接続順に表示されます。
+
+      それを超える最初の値と、その後のすべての値は省略されます。 元の接続されたオブジェクトフィールドは変更されません。
+
+  </div>
 
   * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 

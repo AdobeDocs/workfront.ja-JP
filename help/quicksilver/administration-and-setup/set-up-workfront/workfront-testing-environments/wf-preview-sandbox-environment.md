@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 87%
+source-wordcount: '1379'
+ht-degree: 86%
 ---
 # [!DNL Adobe Workfront] プレビューサンドボックス環境
 
@@ -83,6 +83,10 @@ ht-degree: 87%
 また、プレビューサンドボックスでは、[!DNL Workfront] で新しい機能を安全な環境にデプロイしてから、実稼動環境にデプロイする準備が整います。 プレビューサンドボックスにアクセスすることで、新機能をテストし、その機能についてのフィードバックを [!DNL Workfront] に返すことができます。 このため、データは週に 1 回更新されるものの、プレビューサンドボックスのコードは実稼動コードよりも常に進んでいます。
 
 プレビュー環境は、トレーニングの実行、新機能のテストおよび設定機能の決定に最適です。
+
+>[!IMPORTANT]
+>
+>Canvas ダッシュボードのプランニングデータは、サンドボックス環境の[!DNL Workfront]人の管理者にのみ表示されます。
 
 >[!NOTE]
 >

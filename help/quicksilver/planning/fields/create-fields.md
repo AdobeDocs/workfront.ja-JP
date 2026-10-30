@@ -32,10 +32,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5576'
-ht-degree: 38%
+source-wordcount: '5676'
+ht-degree: 37%
 ---
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??
@@ -51,15 +51,15 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # フィールドの作成
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、レコードタイプのカスタムフィールドを作成できます。 そしてフィールドを Workfront プランニングレコードに関連付けて、レコードの情報を強化できます。
+Adobe Workfront プランニングでは、レコードタイプのカスタムフィールドを作成できます。 そしてフィールドを Workfront プランニングレコードに関連付けて、レコードの情報を強化できます。
 
 レコードタイプに関連付けるフィールドを作成するには、まずレコードタイプを作成する必要があります。 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
@@ -181,6 +181,14 @@ Old:
 </tbody> 
 </table>
 -->
+
+
+## レコードフィールドに関する考慮事項
+
+* フィールドは、テーブルビューからのみ作成できます。
+* 実稼動環境では、新しく追加されたフィールドが追加され、すべてのテーブルビューから表示されます。
+
+  <span class="preview"> プレビュー環境では、新しく追加されたフィールドは、それらを含むすべてのテーブルビューで非表示フィールドとして追加されます。 新しいフィールドは、追加に使用するビューに表示されます。</span>
 
 ## レコードタイプを連結してフィールドを作成する
 

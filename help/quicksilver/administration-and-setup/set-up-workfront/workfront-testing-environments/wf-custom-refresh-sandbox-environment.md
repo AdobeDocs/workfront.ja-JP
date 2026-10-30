@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 78%
 ---
 # [!DNL Adobe Workfront] カスタム更新サンドボックス環境
 
 カスタム更新サンドボックスは、本番環境のデータを使用してテストし作業できる環境です。 トレーニングの実行、セットアップ機能の決定に最適です。
+
+
 
 >[!NOTE]
 >
@@ -132,6 +134,10 @@ Adobe クラウドストレージをサポートするWorkfrontのバージョ�
    カスタム更新サンドボックスの資格情報は、カスタム更新サンドボックスが最後に更新されてから実稼動環境の資格情報を変更しない限り、実稼動環境の資格情報と同じです。 ログインは、アップデートが発生した場合にのみ同期されます。 自動的には同期されません。
 
    カスタム更新サンドボックスには、バージョンと最終更新日が画面の上部のバナーに表示されます。 実稼動からのすべての情報は使用可能で、更新が完了した後で操作できる状態になっています。
+
+>[!IMPORTANT]
+>
+>Canvas ダッシュボードのプランニングデータは、サンドボックス環境の[!DNL Workfront]人の管理者にのみ表示されます。
 
 ## URL を使用したカスタム更新サンドボックスにアクセス {#access-the-custom-refresh-sandbox-using-a-url}
 

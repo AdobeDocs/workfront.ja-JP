@@ -20,10 +20,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 1%
+source-wordcount: '2017'
+ht-degree: 2%
 ---
 
 # Adobe Workfront Planningでのリストビューの管理
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * レコードの詳細領域にあるプロジェクトの接続されたレコードページ
    * レコードタイプのリクエストフォームページ
 
+   >[!TIP]
+   >
+   ><span class="preview"> リスト内の項目数は、リストの右上隅にあるクイック検索ボックスの左側に表示されます。 この数値は、リストに適用されたフィルターで表示される項目の数を反映します。 表示する権限がない項目はカウントされません。</span>
+
+
 1. （条件付き）使用可能な場合は、次のいずれかの操作を行ってリスト表示を変更します。
 
    1. リストの左上隅にあるドロップダウンビューメニューを展開して別のビューを選択するか、**新しいビュー**&#x200B;をクリックして別のビューを作成します。
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. （オプション）リストの右上隅にある検索ボックスにキーワードを追加して、項目を検索します。
 
    検索語に一致する項目がリストで強調表示されます。
+
+   <span class="preview">検索に一致する項目のみを表示するように、リストがフィルタリングされます。</span>
 
 1. （オプションおよび条件付き）接続されたプロジェクト <!--change projects to items here when more items will display in the Glist-->のページで、リストにさらに項目を追加し、選択したレコードに自動的に接続するには、次のいずれかの操作を行います。
 

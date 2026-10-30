@@ -28,24 +28,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
-ht-degree: 29%
+source-wordcount: '5111'
+ht-degree: 28%
 ---
 # タイムラインビューの管理
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
-Adobe Workfront プランニングでレコードタイプのページにアクセスする際、レコードをタイムラインビューで表示できます。
+Adobe Workfront Planning でレコードタイプのページにアクセスする際、レコードをタイムラインビューで表示できます。
 
 レコードビューについて詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
@@ -195,9 +193,10 @@ Old:
 
    選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で自動的に並べ替えられます。
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">最初の1000 レコードはデフォルトで表示されます。 ページをスクロールしても、追加のレコードが1000単位で表示され続けます。</span>
+
+   <span class="preview"> レコードの合計数は、クイック検索ボックスの左側、テーブルの右上隅に表示されます。</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Old:
 1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が同じ行で交差しないレコードを表示します。<!--check to see if they updated the name of the setting here-->
 1. （条件付き）モードを&#x200B;**コンパクト**&#x200B;に変更した場合は、**標準**&#x200B;表示に切り替えをクリックして、レコードを別々の行に表示します。 **Standard** オプションがデフォルトです。 <!--check to see if they updated the name of the setting here-->
 
-
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+   1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。
+
+      正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+
+      <span class="preview">検索ボックスの左側に表示されるレコードの合計数は、検索で見つかったレコード数に置き換えられます。</span>
 
       ![検索ボックスと結果タイムラインビュー](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Old:
 
       タイムラインビューに表示されないフィールドに関連付けられたキーワードは使用できません。
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview"> クイック検索は、現在ページに表示されているレコードだけでなく、すべてのレコードに対して機能します。 デフォルトでは1000件のレコードが表示されます。 「**さらに読み込む**」をクリックして、クイック検索で見つかったレコードをさらに表示します。</span>
 
    1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
 
-   1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. （オプション）「**分類**」をクリックして、タイムラインに接続されたレコードを表示します。
 
@@ -523,11 +521,9 @@ Old:
    >あるグループから別のグループにレコードをドラッグ&amp;ドロップすると、グループ内で選択されているフィールドによって、移動したレコードの値が自動的に更新されます。
 1. （オプション）「**設定**」、「**カラー**」の順にクリックすると、グループ化をカラーコーディングできます。 詳しくは、この記事の[タイムラインビュー設定の編集](#edit-the-timeline-view-settings)の節を参照してください。
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview"> （オプション） **スイムレーン**&#x200B;または&#x200B;**積み重ね**&#x200B;の配置から、タイムラインビューでグループ化を取得し、別の位置にドロップします。</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">これにより、グループ化の順序が変更され、グループ化の並べ替えが&#x200B;**カスタム**&#x200B;に変更されます。 詳しくは、この記事の「[並べ替えを追加](#add-sort)」の節を参照してください。</span>
 
 ### 並べ替えを追加
 
@@ -557,11 +553,9 @@ Old:
 
    例えば、テキストフィールドの並べ替えは、A -> ZまたはZ -> Aです。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview"> タイムラインビューにグループ化があり、グループ化の順序を手動で並べ替えた場合、並べ替えの方向は&#x200B;**カスタム**&#x200B;と表示されます。</span>
 
    並べ替えの適用方向は、選択したフィールドの形式によって異なります。
 1. （オプション）「**条件を追加**」をクリックして、最大10件の条件を追加します。

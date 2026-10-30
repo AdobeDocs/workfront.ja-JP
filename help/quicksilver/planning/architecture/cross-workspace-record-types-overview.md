@@ -26,19 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 2%
+source-wordcount: '1948'
+ht-degree: 3%
 ---
 # クロスワークスペースのレコードタイプの概要
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -228,7 +228,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### グローバルレコードタイプの接続へのアクセス
 
-元のワークスペース内のグローバルレコードタイプに接続されたレコードタイプは、グローバルレコードタイプが追加された他のワークスペースから表示され、グローバルレコードタイプが追加されたセカンダリワークスペースからの接続に使用できます。
+* 元のワークスペース内のグローバルレコードタイプに接続されたレコードタイプは、グローバルレコードタイプが追加された他のワークスペースから表示され、グローバルレコードタイプが追加されたセカンダリワークスペースからの接続に使用できます。
+
+<div class="preview">
+
+* 2つの接続されたグローバルレコードタイプがセカンダリワークスペースに追加された場合、クロスワークスペース接続をオフにしながら、レコードをローカルにリンクできます。
+
+  各セカンダリレコードタイプは、両方のレコードタイプに対して独自のレコードのみを表示し、それらを互いに接続できます。 グローバルワークスペースおよびその他のセカンダリワークスペースのレコードは表示されなくなりました。
+
+</div>
 
 ### グローバルレコードタイプのAPI アクセス
 

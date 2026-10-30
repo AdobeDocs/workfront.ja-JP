@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 72%
+source-wordcount: '648'
+ht-degree: 62%
 ---
 # カレンダーレポートとイベントの詳細を表示
+
+{{highlighted-preview}}
 
 Adobe Workfront で作成または共有したカレンダーレポートおよびイベントの詳細を表示できます。
 
@@ -108,20 +110,26 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
 1. （オプション）カレンダーを&#x200B;**月**&#x200B;のビューまたは&#x200B;**週**&#x200B;のビューで表示する場合、次のオプションを使用してカレンダー表示を変更できます。
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * 表示される日付をすばやく変更するには、次の手順に従います。
-
-     1. **[!UICONTROL カレンダー]** ツールバーで、日付インジケーターの左矢印をクリックしてカレンダーに戻るか、右矢印をクリックして先に進みます。
-
-        ![矢印をクリックして日付を変更](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        表示される日付は、現在のカレンダービューに基づく間隔で調整されます。 例えば、**週**&#x200B;のビューでカレンダーを表示している場合、選択した矢印に応じて、1 週間後に進むかまたは 1 週間前に戻った表示になります。
-
-     1. （オプション）現在の日付に戻すには、[!UICONTROL **今日**]&#x200B;をクリックします。
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">月ビューでカレンダーを表示する場合の週末の除外</td> 
+      <td>カレンダーの右上隅にある「<b>週末を表示</b>」のオンとオフを切り替えます。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview"><b>[!UICONTROL Week]</b> ビューでカレンダーを表示する場合の時刻の表示と非表示の切り替え</span></td> 
+      <td><span class="preview">カレンダーの右上隅で、<b>時間を表示</b>のオンとオフを切り替えます。</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">表示日をすばやく変更するには</td> 
+      <td> <p><b>[!UICONTROL カレンダー]</b> ツールバーで、日付インジケーターの左矢印をクリックしてカレンダーに戻るか、右矢印をクリックして先に進みます。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="矢印をクリックして日付を変更"></p> <p>表示される日付は、現在のカレンダービューに基づいて間隔で調整されます。 例えば、<b>週</b>のビューでカレンダーを表示している場合、選択した矢印に応じて、1 週間後に進むかまたは 1 週間前に戻った表示になります。</p> <p>（オプション）現在の日付に戻すには、<b>[!UICONTROL Today]</b>をクリックします。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. （オプション）カレンダーにリンクされたプロジェクトまたはカレンダーのグループ化のイベントを非表示にするには、プロジェクトリストのプロジェクトまたはカレンダーのグループ化をオフにします。
    ![&#x200B; イベントを非表示](assets/hide-events-for-project-or-cal-grouping.png)

@@ -26,20 +26,18 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 20%
+source-wordcount: '598'
+ht-degree: 21%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Adobe Workfront Planning オブジェクトの制限事項の概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 プレビューへのリリース後、高速リリースを有効にしたユーザーの実稼動環境では、同じ機能を毎月使用することもできます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -77,6 +75,9 @@ Workfront プランニングで作成できるオブジェクトの数の制限�
 | ワークスペース内の階層数 | 5 |
 | 階層内の、子レコードタイプの1つのレコードに接続された親レコードタイプのレコード数 | 10 |
 | 複数選択接続タイプの1つのレコードに接続されたレコードの数（レコード間に階層が設定されていない） | 500 |
+| <span class="preview"> レコードタイプごとのルックアップフィールドの数</span> | 40 |
+| <span class="preview"> レコードタイプごとの長テキスト検索フィールドの数</span> | 5 |
+| <span class="preview">1つの長テキスト検索フィールド セル （テーブル ビュー内）の値の文字数</span> | 5万文字 |
 
 * 管理が困難になったり、ワークフローが断片化しすぎたりする可能性があるため、ワークスペースを過剰に多く用意しないことをお勧めします。
 

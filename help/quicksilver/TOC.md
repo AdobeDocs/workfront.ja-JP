@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
+source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
 workflow-type: tm+mt
-source-wordcount: '14736'
+source-wordcount: '14757'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -19,8 +19,12 @@ ht-degree: 90%
     * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
     * 2027年第1四半期リリース {#release-27-q1}
       * [2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027年第1四半期：管理者の機能強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
       * [2027年第1四半期：AIの強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
+      * [2027年第1四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
+      * {hide-from-toc}[2027年第1四半期の財務管理の機能強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
       * [2027年第1四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
+      * [2027年第1四半期その他の機能強化](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md)
     * 2026年第4四半期リリース {#release-26-q4}
       * [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [2026年第4四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)

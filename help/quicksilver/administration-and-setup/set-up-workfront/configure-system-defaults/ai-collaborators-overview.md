@@ -16,16 +16,22 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
+source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '165'
+ht-degree: 10%
 ---
 # AI 共同作業者
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべての顧客のプレビュー環境でのみ使用できます。</span>
+
 AI共同作業者は、個人を割り当てるのと同じようにタスクに割り当てることができるAI エージェントです。 AI コラボレーターを既存のワークフローに適合させ、チームを最も重要なことに集中させることができます。
 
-使用可能なAI コラボレーターの種類には、AI レビューアーと作業担当者が含まれます。<!--<span class="preview">and Project Coordinators.</span>-->
+使用可能なAI コラボレーターの種類には、AI レビュアーと作業担当者が含まれます。<!--<span class="preview">and Project Coordinators.</span>-->
+
+<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+
+Work Agentsの場合は、サポートされている外部プラットフォーム <span class="preview">からエージェントを接続できます。または、Adobe CX Coworkerが有効になっている場合は、「Adobe Native」を選択して、Adobe CX Coworkerを活用した、すぐに使用できるエージェントを使用できます。 Adobe Native オプションには、外部プラットフォームの資格情報は必要ありません。</span>
 
 ## 職場でのAI協力者
 
