@@ -4,10 +4,10 @@ description: 2027年第1四半期：管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 7%
+source-wordcount: '413'
+ht-degree: 5%
 ---
 
 # 2027年第1四半期：管理者の機能強化
@@ -40,7 +40,21 @@ ht-degree: 7%
 
 お気に入りとしてマークされたフィールドは、フォームデザイナーのフィールドライブラリの上部にも表示されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+
+## 形式を変更する際にカスタムフィールドで検証された値
+
+>[!NOTE]
+>
+>プレビュー：2026年10月29日（PT）
+>プロダクション高速リリース：2026年11月12日（PT）
+>すべての人のための制作：2027年1月21日
+
+既存のテキストカスタムフィールド形式を数値または通貨に変更すると、システムが互換性のない値をチェックするようになりました。
+
+フィールドの既存の値がすべて数値の場合、フィールド形式が更新されます。 ただし、既存の値のいずれかが数値以外の場合は、フィールドを保存すると互換性のない値がクリアされるという警告メッセージが表示されます。
+
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 変更履歴がCanvas ダッシュボードオブジェクトを追跡するようになりました
 
