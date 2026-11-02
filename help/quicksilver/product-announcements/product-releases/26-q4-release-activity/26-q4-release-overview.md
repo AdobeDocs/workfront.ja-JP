@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3631'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -276,7 +276,7 @@ ht-degree: 8%
 -->        
        <tr>
             <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP server toolsets</a></p>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP server toolsets</a></p>
                 <p>Workfront MCP カタログを特定のツールセットに制限し、製品の使用権限で利用可能な項目をフィルタリングできるようになりました。そのため、AI クライアントは必要な機能のみにアクセスできます。</p>
             </td>
             <td><p>2026年10月22日（PT）</p></td>
@@ -406,15 +406,6 @@ ht-degree: 8%
             <td><p>Frame.io統合はサンドボックス環境では使用できないため、この機能はサンドボックス環境のプレビューでは使用できません。</p></td>
             <td><p>2026年10月15日（PT）</p></td>
             <td><p>2026年10月15日（PT）</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud アプリケーションでのWorkfront プロジェクトへのアクセス </a>
-                <p>プロジェクトパネルを使用して、Adobe Photoshop、Illustrator、InDesignからWorkfront プロジェクトに直接アクセスできるようになりました。</p>
-            </td>
-            <td><p>該当なし</p></td>
-            <td><p>[日付]</p></td>
-            <td><p>[日付]</p></td>
         </tr>
         <tr>
             <td>
@@ -792,7 +783,7 @@ ht-degree: 8%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">管理者以外のユーザーがイベント サブスクリプションを作成できるようになりました<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">管理者以外のユーザーがイベント サブスクリプションを作成できるようになりました<p>[!BADGE Off schedule]{type=Neutral}</p></a>
                 <p>ターゲットサブスクリプションとIMS ユーザーアクセストークンを使用して、システム管理者のアクセス権がなくても、サポート対象のWorkfront オブジェクトに関するWebhook通知を受け取れるようになりました。</p>
             </td>
             <td><p>2026年10月16日（PT）</p></td>
@@ -876,8 +867,8 @@ ht-degree: 8%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## デスクトッププルーフビューアーのアップデート
 
@@ -894,7 +885,7 @@ ht-degree: 8%
 * トラブルシューティングを高速化するために、Workfront Proofについて画面に詳細を追加しました。
 * パフォーマンスとセキュリティの改善のために、基盤となるフレームワーク（Electron）を更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ## お知らせ
 
@@ -932,7 +923,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 
