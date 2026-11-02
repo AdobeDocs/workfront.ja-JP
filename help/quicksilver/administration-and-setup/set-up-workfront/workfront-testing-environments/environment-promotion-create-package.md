@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 14%
@@ -51,7 +51,7 @@ ht-degree: 14%
   <tr>
    <td><strong>Workfront ライセンス </strong>
    </td>
-   <td> <p>標準</p>&gt;
+   <td> <p>標準</p>
    </td>
   </tr>
    <tr>
@@ -117,7 +117,7 @@ ht-degree: 14%
 パッケージを編集するには、`DRAFT` ステータスである必要があります。 パッケージを`DRAFT` ステータスに移動するには、**ステータス** フィールドで「`Draft`」を選択します。 その後、パッケージの編集を続行できます。
 1. パッケージをインストールするには、画面の右上にある「**インストール**」をクリックします。
 
-   パッケージのインストール手順については、[環境プロモーションパッケージのインストール &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。
+   パッケージのインストール手順については、[環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。
 
 ## オブジェクトの比較からパッケージを作成する
 
