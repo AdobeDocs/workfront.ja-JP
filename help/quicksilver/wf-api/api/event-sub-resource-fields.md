@@ -26,16 +26,16 @@ topic_v2:
     internal-label: Security
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0cedd58bb89825150b201e3aefd17bee12ff85e6
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1196'
 ht-degree: 76%
 ---
 # イベントサブスクリプションリソースフィールド
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。 リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、「イベント購読API」の「[&#x200B; ネストされたフィルターの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)」を参照してください。
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、「イベント購読API」の「[ ネストされたフィルターの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)」を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
@@ -77,18 +77,15 @@ ht-degree: 76%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -135,12 +132,10 @@ ht-degree: 76%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -151,7 +146,6 @@ ht-degree: 76%
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -198,13 +192,10 @@ ht-degree: 76%
    <td> decisionUserID </td> 
   </tr> 
   <tr> 
-  <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -381,7 +372,6 @@ ht-degree: 76%
    <td> securityRootID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td>ステータス</td> 
@@ -477,18 +467,15 @@ ht-degree: 76%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> extRefID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> groupID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -509,7 +496,6 @@ ht-degree: 76%
    <td> </td> 
    <td> objCode </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -1866,6 +1852,16 @@ ht-degree: 76%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>isPrivate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>noteObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>noteText</td> 
   </tr> 
   <tr> 
@@ -1931,6 +1927,11 @@ ht-degree: 76%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>proofID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofActionID</td> 
   </tr> 
   <tr> 
@@ -1977,6 +1978,11 @@ ht-degree: 76%
    <td> </td> 
    <td> </td> 
    <td>timesheetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>topNoteObjCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2192,6 +2198,11 @@ ht-degree: 76%
    <td> </td> 
    <td> </td> 
    <td>companyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>条件</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2764,18 +2775,15 @@ ht-degree: 76%
    <td> companyID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 通貨 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2897,18 +2905,15 @@ ht-degree: 76%
    <td> numberVal </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2955,18 +2960,15 @@ ht-degree: 76%
    <td> categoryID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> entryDate </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3043,18 +3045,15 @@ ht-degree: 76%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> rateAttributeID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3091,12 +3090,10 @@ ht-degree: 76%
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> systemGenerated </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td>人材の配置プランのリソースパラメーター値 <p>（イベントサブ v2）</p></td> 
    <td>SRPVAL</td> 
@@ -3118,18 +3115,15 @@ ht-degree: 76%
    <td> numberVal </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> objID</td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3219,11 +3213,6 @@ ht-degree: 76%
    <td> </td> 
    <td> </td> 
    <td>entryDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
