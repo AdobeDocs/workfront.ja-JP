@@ -105,7 +105,7 @@ PlanningでのEnvironment Promotionの使用は、Workfrontでの使用と同様
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -113,7 +113,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 次の手順は、プランニング設定を別の環境に昇格させる主な手順です。
 
-* [ ソース環境でパッケージを作成](#create-a-package-in-the-source-environment)
+* [&#x200B; ソース環境でパッケージを作成](#create-a-package-in-the-source-environment)
 * [パッケージをインストールする準備をしてください](#make-the-package-ready-to-install)
 * [パッケージをターゲット環境にインストールします](#install-the-package-in-the-target-environment)
 * [結果の検証](#verify-the-results)
@@ -123,7 +123,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ### ソース環境でのパッケージの作成
 
 1. 必要な設定が配置されているソース環境を用意します。
-1. ソース環境で、**メインメニュー** ![ メインメニュー](assets/main-menu-shell.png)をクリックし、**セットアップ** > **システム** > **環境プロモーション**に移動します。
+1. ソース環境で、**メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-shell.png)をクリックし、**セットアップ** > **システム** > **環境プロモーション**&#x200B;に移動します。
 **構成パッケージ**&#x200B;のリストには、ステータス、ソース環境、デプロイされた場所が含まれている既存のパッケージが表示されます。
 1. 「**パッケージを作成**」をクリックします。
 

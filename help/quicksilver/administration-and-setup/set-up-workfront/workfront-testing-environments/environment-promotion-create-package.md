@@ -117,7 +117,7 @@ ht-degree: 14%
 パッケージを編集するには、`DRAFT` ステータスである必要があります。 パッケージを`DRAFT` ステータスに移動するには、**ステータス** フィールドで「`Draft`」を選択します。 その後、パッケージの編集を続行できます。
 1. パッケージをインストールするには、画面の右上にある「**インストール**」をクリックします。
 
-   パッケージのインストール手順については、[環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。
+   パッケージのインストール手順については、[環境プロモーションパッケージのインストール &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)を参照してください。
 
 ## オブジェクトの比較からパッケージを作成する
 
