@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 環境プロモーション機能を使用して、Workfront計画ワークスペース、レコードタイプ、フィールド、ビューを1つのWorkfront環境から別の環境にコピーできます。
 
@@ -46,7 +46,7 @@ PlanningでのEnvironment Promotionの使用は、Workfrontでの使用と同様
   * ビュー
   * 階層
   * すべてのオブジェクトの設定の共有
-  * 自動化
+  * 自動処理<!--this might not be part of it; Lilit is checking-->
   * リクエストフォーム
   * ビジネスルール
   * 接続オブジェクト
@@ -105,7 +105,7 @@ PlanningでのEnvironment Promotionの使用は、Workfrontでの使用と同様
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -113,7 +113,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 次の手順は、プランニング設定を別の環境に昇格させる主な手順です。
 
-* [&#x200B; ソース環境でパッケージを作成](#create-a-package-in-the-source-environment)
+* [ ソース環境でパッケージを作成](#create-a-package-in-the-source-environment)
 * [パッケージをインストールする準備をしてください](#make-the-package-ready-to-install)
 * [パッケージをターゲット環境にインストールします](#install-the-package-in-the-target-environment)
 * [結果の検証](#verify-the-results)
@@ -123,7 +123,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ### ソース環境でのパッケージの作成
 
 1. 必要な設定が配置されているソース環境を用意します。
-1. ソース環境で、**メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-shell.png)をクリックし、**セットアップ** > **システム** > **環境プロモーション**&#x200B;に移動します。
+1. ソース環境で、**メインメニュー** ![ メインメニュー](assets/main-menu-shell.png)をクリックし、**セットアップ** > **システム** > **環境プロモーション**に移動します。
 **構成パッケージ**&#x200B;のリストには、ステータス、ソース環境、デプロイされた場所が含まれている既存のパッケージが表示されます。
 1. 「**パッケージを作成**」をクリックします。
 

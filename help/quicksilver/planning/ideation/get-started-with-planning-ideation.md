@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 1%
 ---
 
@@ -52,8 +52,8 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 変更される可能性のあるアイデア立案スペースのリリース予定タイムラインには、次のマイルストーンが含まれます。
 
 * **閉じたBeta:** 2026年7月に、少数のお客様向けにリリースされました。
-* **Betaを開く：** 2026年11月を目標としています。 これはオプトインオファーであり、顧客はオプションを積極的にオプトアウトするのではなく、オプションをオンにして設定する必要があります。
-* **一般公開：** 2027年を目標としています。
+* **Betaを開く：** 2026年11月12日を目標としています。 これはオプトインオファーであり、オプションを積極的にオプトアウトするのではなく、オプションを積極的にオンにする必要があります。
+* **一般提供：** 2027年2月1日を目標としています。
 
 ## 必要な製品
 
@@ -81,7 +81,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 >
 >アイデア創出スペースには、WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
 
-アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -172,14 +172,14 @@ Too much:
 
 * Workfront Planningで新しいレコードを手動で追加する場合
 
-  ![計画中のアイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
+  ![計画中のアイデア創出スペース ](assets/ideation-space-in-planning-new-record.png)
 * Workfrontのメインメニューで、アイデア創出スペース領域を開きます
 
-  ![&#x200B; メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
+  ![ メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
 
   >[!TIP]
   >
-  >レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーにアイデア創出スペースへのアクセス権を付与しない場合は、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス権](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」の説明に従って、ユーザーのアクセスレベルで「アイデア創出スペースを無効にする」設定をオンにする必要があります。
+  >レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーにアイデア創出スペースへのアクセス権を付与しない場合は、「[ アイデア創出スペースを使用するために必要なアクセス権](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」の説明に従って、ユーザーのアクセスレベルで「アイデア創出スペースを無効にする」設定をオンにする必要があります。
 
 ## アイデア創出スペースで生成されたオブジェクト
 
@@ -237,10 +237,10 @@ Worth noting
 
 ## 追加のリソース
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront計画ドキュメント](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudioの概要](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudioの概要](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

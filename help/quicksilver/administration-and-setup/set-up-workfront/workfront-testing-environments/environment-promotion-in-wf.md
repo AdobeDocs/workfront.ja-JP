@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 41%
@@ -49,7 +49,7 @@ ht-degree: 41%
   * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
   * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Workfront APIを使用してこのプロセスを実行する手順については、 [!DNL Workfront] API[&#128279;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)を使用して [!DNL Workfront] 環境間でオブジェクトを移動するを参照してください。
+* Workfront APIを使用してこのプロセスを実行する手順については、 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)を使用して [!DNL Workfront] 環境間でオブジェクトを移動するを参照してください。[
 
 [この機能のデモ動画を見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -140,6 +140,10 @@ ht-degree: 41%
 -->
 
 <!--
+
+**** Automations might not be part of this
+**** Planning STA might not be supported - Lilit is checking on this
+
 ## Workfront Planning objects
 
 >[!IMPORTANT]
@@ -191,7 +195,7 @@ ht-degree: 41%
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集の記事<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">既存のパッケージの編集またはアセンブリ </a>を参照してください。</td> 
+   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集の記事<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">既存のパッケージの編集またはアセンブリ </a>を参照してください。</td> 
   </tr> 
   </tbody> 
 </table>
@@ -199,6 +203,6 @@ ht-degree: 41%
 ## リソース
 
 * 環境プロモーションに関するFAQについては、[環境プロモーション FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)を参照してください
-* トラブルシューティングの推奨事項については、[環境プロモーションのトラブルシューティング &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)を参照してください
+* トラブルシューティングの推奨事項については、[環境プロモーションのトラブルシューティング ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)を参照してください
 
 
