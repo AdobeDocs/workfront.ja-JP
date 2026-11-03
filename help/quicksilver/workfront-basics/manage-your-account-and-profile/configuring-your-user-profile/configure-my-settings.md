@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3290'
 ht-degree: 89%
 ---
 # 「個人設定」の指定
@@ -421,15 +421,17 @@ ht-degree: 89%
     &lt;/p> &lt;/td>
 </tr>
   --&gt; 
+  <!--
   <tr> 
-   <td role="rowheader"><strong>（条件付き）[!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
-   <td>このフィールドは、会社が従来の[!DNL Workfront] パッケージを使用しており、[!DNL Workfront Proof] コンポーネントを購入した場合にのみ使用できます。 このオプションを選択すると、プルーフユーザーとして有効になります。 購入したプルーフライセンスの合計数の中で、システムで使用されているプルーフライセンスの数も表示されます。 このフィールドは、[!DNL Workfront] 管理者でもあるユーザーのみが表示および編集できます。 [!DNL Workfront] でのプルーフのためのプランオプションについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">[!DNL Workfront]</a> のプルーフ機能へのアクセスを参照してください。</td>
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>（条件付き）[!UICONTROL Permission Profile]</strong></td> 
    <td> <p>このフィールドには、[!DNL Workfront Proof] で持つアクセスレベルが表示されます。 次の場合にのみ使用できます。</p> 
     <ul> 
-     <li>会社が従来の[!DNL Workfront] パッケージを使用しており、[!DNL Workfront Proof] コンポーネントを購入しているか、新しい[!DNL Workfront] パッケージで[!UICONTROL Standard]、[!UICONTROL Work]または[!UICONTROL プラン &#x200B;] ライセンスを所有しています。</li> 
+     <li>会社が従来の[!DNL Workfront] パッケージを使用しており、[!DNL Workfront Proof] コンポーネントを購入しているか、新しい[!DNL Workfront] パッケージで[!UICONTROL Standard]、[!UICONTROL Work]または[!UICONTROL プラン ] ライセンスを所有しています。</li> 
      <li>プルーフユーザーとして有効になっています。</li> 
     </ul> <p>[!DNL Workfront] 管理者は、自分を除くすべてのユーザーのフィールドを編集できるので、すべてのユーザーは、自分のプロファイルでこのフィールドを表示のみとして表示できます。 権限プロファイルについて詳しくは、<a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">プルーフ権限プロファイルの概要</a>を参照してください。</p> </td> 
   </tr> 
@@ -553,7 +555,7 @@ ht-degree: 89%
 
 すべてのユーザーが、プロファイルに関連付けられたカスタムフォームを表示できます。
 
-ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。 カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。 カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ### [!UICONTROL コメント]
 
