@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 41%
+source-wordcount: '938'
+ht-degree: 37%
 ---
 # 為替レートの設定
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 Adobe Workfront 管理者は、Workfront で為替レートを設定できます。 これには次が含まれます。
 
@@ -109,6 +110,14 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 ## 通貨の為替レートに有効な日付を設定する
 
 通貨の為替レートの適用日は、レート値が特定の日付で終了し、別のレートが開始されるように設定されます。 正しい日付の為替レートは、財務計算に使用されます。
+
+>[!NOTE]
+>
+>日付有効な為替レートを設定すると、特定の日付に適用されるシステム為替レートが定義されます。 すべてのプロジェクト財務計算で毎日異なる為替レートが使用されるわけではありません。
+>
+>プロジェクトで「**システムから日付有効な為替レートを使用」設定がオンになっている場合、プロジェクトの**&#x200B;為替レート日&#x200B;**に有効なシステム為替レートを計画コストと収益で使用します。**&#x200B;計画された作業の各日に効果的な率を自動的に使用しません。
+>
+>システムレベルの日付有効為替レートを使用するようにプロジェクトを設定する方法について詳しくは、[&#x200B; プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance)を参照してください。
 
 {{step-1-to-setup}}
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 99%
+source-wordcount: '552'
+ht-degree: 98%
 ---
 # ユーザーのプルーフアクセスの設定
 
@@ -70,61 +70,65 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、Workfront と 
 
 +++
 
-## ユーザーのプルーフ権限プロファイルを設定
+<!--
 
-選択した権限プロファイルは、組織内に存在する各プルーフユーザーに付与されます。
+## Configure a user's proof permission profile
+
+The permission profile you select is granted to the users for each proof that exists within your organization.
 
 {{step-1-to-users}}
+ 
+1. Select one or more users, then click **Edit**.  
 
-1. 1 人または複数のユーザーを選択し、「**編集**」をクリックします。
-
-1. 「**アクセス**」セクションで、**プルーフ権限プロファイル**&#x200B;ドロップダウンメニューで次のいずれかの Workfront Proof 権限オプションをクリックします。
+1. In the **Access** section, click one of the following Workfront Proof permission options in the **Proof Permission Profile** drop-down menu:
 
    >[!NOTE]
    >
-   >従来の Workfront プランの場合は、前述の[ユーザーのプルーフ機能を有効または無効にする（従来プランのみ）](#enable-and-disable-proofing-for-a-user-legacy-plans-only)の節の説明に従って、「**プルーフユーザー**」オプションが有効になっていることを確認します。
+   >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only). 
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>スーパーバイザ－</strong> </td> 
-      <td>ユーザーは、組織のアカウントで作成されたすべてのプルーフを管理および表示できます。 また、プルーフに追加されたレビュアーを編集することもできます。 この権限プロファイルを持つユーザーは、ユーザーの管理や Workfront Proof 設定の編集を行うことはできません。</td> 
+      <td role="rowheader"><strong>Supervisor</strong> </td> 
+      <td>Users can manage and view all proofs created on your organization's account. They can also edit reviewers added to these proofs. Users with this permission profile can't manage users or edit Workfront Proof settings.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>マネージャー</strong> </td> 
-      <td> <p> ユーザーは、組織のアカウントで作成された、または所有するプルーフを管理および表示できます。 レビュアーとして追加された場合にのみ、他のユーザーのプルーフを表示できます。 これはデフォルト設定です。 </p> </td> 
+      <td role="rowheader"><strong>Manager</strong> </td> 
+      <td> <p> Users can manage and view proofs created or owned on your organization's account. They can view other users' proofs only when added as a reviewer. This is a default setting. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>管理者</strong> </td> 
-      <td> ユーザーには、Workfront Proof 管理者権限が付与され、アカウント設定を編集できます。 ユーザーは、組織のアカウントで作成されたすべてのプルーフを管理および表示できます。 これには、レビュアー、プルーフおよびコメントの追加と削除が含まれます。</td> 
+      <td role="rowheader"><strong>Administrator</strong> </td> 
+      <td> Users are given Administrator permissions in Workfront Proof and can edit account settings. Users can manage and view all proofs created on your organization's account. This includes adding and removing reviewers, proofs, and comments.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>カスタム</strong> </td> 
-      <td> <p>Workfront Proof でカスタム権限プロファイルを設定している場合にのみ使用できます。</p> <p><b>メモ</b>：  <p>ここで付与する権限プロファイルが、Workfront でのユーザーのアクセスレベル設定よりも高いアクセス権でないことを確認します（<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照）。 アクセス権が高い場合、ユーザーは Workfront Proof において Workfront ではアクセスできないプルーフにアクセスできるようになります。</p> <p>これは、<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Adobe Workfront から Workfront Proof へのアクセス</a>で説明されるように、すべての Workfront ユーザーが Workfront から直接 Workfront Proof にアクセスできるようにする予定がある場合に特に重要です。</p> <p>デフォルトでは、Workfront 管理者のみが、Workfront グローバルナビゲーションバーから Workfront Proof サイトへの直接リンクにアクセスできます。</p> </p> </td> 
+      <td role="rowheader"><strong>Custom</strong> </td> 
+      <td> <p>Available only if you have configured a custom permission profile within Workfront Proof.</p> <p><b>NOTE</b>:  <p>Ensure that the permission profile you grant here does not provide higher access than the user's Access Level setting in Workfront (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher access, the user can access proofs within Workfront Proof that he or she cannot access within Workfront.</p> <p>This is especially important if you plan to allow all Workfront users to access Workfront Proof directly from the Workfront as described in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> <p>By default, only Workfront administrators have access to a direct link to the Workfront Proof site from the Workfront Global Navigation Bar.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   選択した権限プロファイルは、組織内に存在する各プルーフユーザーに付与されます。
+   The permission profile you select is granted to the users for each proof that exists within your organization.
 
-1. 「**変更を保存**」をクリックして、ユーザー設定の更新を完了します。
+1. Click **Save Changes** to complete the update to the user settings.
 
    >[!NOTE]
    >
-   >Workfront でユーザーを作成または更新し、そのユーザーの Workfront メールアドレスが Workfront Proof のライセンスユーザーのものと一致すると、システムは Workfront 内でユーザーに対するプルーフを有効にします。 詳しくは、[Adobe Workfront と Workfront Proof 間のユーザー同期](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)を参照してください。
+   >When you create or update a user in Workfront and the user's Workfront email address matches that of a licensed Workfront Proof user, the system enables proofing for the user within Workfront. For more information, see [User synchronization between Adobe Workfront and Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
-### 考慮事項
+### Considerations
 
-権限を設定する際は、次の点を考慮してください。
+Consider the following information when setting permissions:
 
-* ユーザーの権限プロファイルを権限の少ないプロファイルに変更すると、Workfront 内の既存のプルーフを表示できなくなる場合があります。 これは、ユーザーが Workfront 内の別のユーザーとタスクを共有する際に、タスクに関連付けられたプルーフを共有しないと発生する可能性があります（[Adobe Workfront 内でのプルーフの共有](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)の [Adobe Workfront 内でのプルーフの共有](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)を参照）。
-* Workfront 環境が Workfront Proof Premium アカウントと統合されている場合にのみ、Workfront から Workfront Proof 権限を設定できます。 この節で説明したように、プルーフを使できない場合は、Workfront 管理者に問い合わせてください。
-* Workfront 環境の少なくとも 1 人のユーザーにプルーフの管理者権限が必要となります。 すべてのユーザーからプルーフの管理者権限を削除しようとすると、エラーメッセージが表示されます。
-* ユーザーの Workfront アクセスレベルをシステム管理者以外のレベルに変更すると、そのユーザーの Workfront Proof 権限プロファイルはデフォルトでマネージャーに設定されます。
+* If you change a user's permission profile to a profile with fewer permissions, the user might lose visibility to existing proofs within Workfront. This can occur when someone shares a task with a user within Workfront, but doesn't share the proof attached to the task (see [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
+* You can set Workfront Proof permissions from Workfront only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed in this section, contact your Workfront administrator.
+* At least one user in your Workfront environment must have Administrator permissions for proofing. An error message appears if you try to attempt to remove Administrator permissions for proofing from all users.
+* When you change a user's Workfront Access level to any level other than System Administrator, the user's Workfront Proof permission profile defaults to Manager.   
 
-* Workfront のアクセスレベルをシステム管理者に変更すると、プルーフ権限プロファイルが管理者に変わります。
+* When you change the Workfront Access level to System Administrator, the Proof Permission profile changes to Administrator.
+
+-->
 
 ## Workfront のメインメニューから Workfront Proof へのアクセスをすべてのユーザーに設定 {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
