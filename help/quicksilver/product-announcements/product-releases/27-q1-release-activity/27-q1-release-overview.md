@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 17%
 ---
 
@@ -61,6 +61,15 @@ ht-degree: 17%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">カスタムフィールドをお気に入りにマーク</a></p>
                 <p>カスタムフィールドをお気に入りとしてマークできるようになりました。これにより、フィルター、ビュー、グループ化を作成する際や、フォームデザイナーのフィールドライブラリで、使用可能なフィールドの上部に表示されます。</p>
+            </td>
+            <td><p>2026年10月29日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">形式を変更する際にカスタムフィールドで検証された値</a></p>
+                <p>既存のテキストカスタムフィールド形式を数値または通貨に変更すると、システムが互換性のない値をチェックするようになりました。</p>
             </td>
             <td><p>2026年10月29日（PT）</p></td>
             <td><p>2026年11月12日（PT）</p></td>
