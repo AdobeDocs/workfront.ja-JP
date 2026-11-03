@@ -126,7 +126,7 @@ ALSO: see in the steps below for more commented out text.
 1. ステータスを更新するプロジェクトに移動します。
 1. プロジェクトヘッダーの「**ステータス**」フィールドでステータスの名前をクリックし、新しいステータスを選択します。
 
-   ![ プロジェクトの状態を変更](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![&#x200B; プロジェクトの状態を変更](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    または
 
