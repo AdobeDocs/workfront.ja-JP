@@ -97,7 +97,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -161,7 +161,7 @@ Old:
 
 1. （オプション）右上隅の「**自分が参加するプロジェクト**」または「**自分が所有するプロジェクト**」をクリックして、自分が所有者であるプロジェクト、またはプロジェクトチームの一員であるプロジェクトを表示します。
 
-   ![自分のボタンでのプロジェクト ](assets/projects-on-my-own-buttons-350x302.png)
+   ![自分のボタンでのプロジェクト &#x200B;](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -171,7 +171,7 @@ Old:
 
 1. （オプション）プロジェクトに関する限定的な情報を編集するには、左パネルの「**プロジェクト詳細**」をクリックします。 プロジェクトに関するすべての情報を編集する場合は、手順 5 に進みます。<!--accurate?!-->
 
-   ![ プロジェクトの詳細が拡張されました](assets/nwe-project-details-expanded-350x298.png)
+   ![&#x200B; プロジェクトの詳細が拡張されました](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -188,7 +188,7 @@ Old:
       * [プロジェクトの財務エリアでの情報の管理](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. （オプション）カスタムフォームを添付するには、「**カスタムフォームを追加**」フィールドにフォームの名前の入力を開始し、リストに表示されたらフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション）「**書き出し**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、概要およびカスタムフォーム情報をPDF ファイルに書き出してから、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション）「**書き出し**」アイコン「![書き出しアイコン &#x200B;](assets/export.png)」をクリックして、概要およびカスタムフォーム情報をPDF ファイルに書き出してから、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -196,7 +196,7 @@ Old:
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![書き出しボタン付き問題の詳細の選択ボックス ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![書き出しボタン付き問題の詳細の選択ボックス &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細を書き出す](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
@@ -205,7 +205,7 @@ Old:
 
    または
 
-   プロジェクトのリストから、1つまたは複数のプロジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+   プロジェクトのリストから、1つまたは複数のプロジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    プロジェクトを一括編集する方法について詳しくは、この記事の[プロジェクトの一括編集](#edit-projects-in-bulk)の節を参照してください。
 
@@ -243,7 +243,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルの「**プロジェクト名**」をクリックします。
 
-   ![ プロジェクトを編集ボックス内のプロジェクト名領域](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![&#x200B; プロジェクトを編集ボックス内のプロジェクト名領域](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. プロジェクトの名前を更新します。
 
@@ -254,7 +254,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルにある「**承認**」をクリックします。
 
-   ![ プロジェクト編集ボックスの概要エリア ](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![&#x200B; プロジェクト編集ボックスの概要エリア &#x200B;](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. プロジェクトに関する次の情報を更新します。
 
@@ -410,13 +410,13 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左パネルで「**カスタムフォーム**」をクリックします。
 
-   ![ プロジェクトを編集ボックス内のカスタムフォーム ](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![&#x200B; プロジェクトを編集ボックス内のカスタムフォーム &#x200B;](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. 「**カスタムフォームを追加**」ボックスをクリックし、リストからフォームを選択してプロジェクトに添付します。 デフォルトでは、最初の 40 個のフォームがアルファベット順に表示されます。 リストにフォームが表示されない場合は、名前の入力を開始し、リストに表示されたら選択します。
 
    >[!NOTE]
    >
-   >このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのプロジェクトには、最大 10 個のカスタムフォームを追加できます。
+   >このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのプロジェクトには、最大 10 個のカスタムフォームを追加できます。
 
 
 1. （条件付き）カスタムフォームをプロジェクトに添付した場合は、フォーム上の任意のフィールドを編集します。 プロジェクトを保存する前に、すべての必須フィールドを指定する必要があります。
@@ -444,7 +444,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルで「**財務**」をクリックします。
 
-   ![ プロジェクト編集ボックス内の財務領域](assets/edit-project-finance-section.png)
+   ![&#x200B; プロジェクト編集ボックス内の財務領域](assets/edit-project-finance-section.png)
 
 1. プロジェクトの次の財務情報を更新します。
 
@@ -513,7 +513,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルで「**プロジェクト設定**」をクリックします。
 
-   ![ プロジェクト編集ボックスのプロジェクト設定領域](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![&#x200B; プロジェクト編集ボックスのプロジェクト設定領域](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 次の情報を更新します。
 
@@ -637,7 +637,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左パネルの「**タスク設定**」をクリックします。
 
-   ![ プロジェクトを編集ボックスのタスク設定](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![&#x200B; プロジェクトを編集ボックスのタスク設定](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. 「**タスク既定の承認プロセス**」フィールドで、プロジェクトに追加する際にすべての新規タスクに関連付けるタスク承認プロセスを選択します。
 
@@ -648,10 +648,10 @@ Old:
    * 同じグループから複数のプロジェクトを選択すると、システムレベルとグループ固有の両方のタスク承認プロセスがこのフィールドに表示されます。
    * 異なるグループから複数のプロジェクトを選択すると、このフィールドにはシステムレベルのタスク承認プロセスのみが表示されます。
 
-1. すべての新しいタスクをプロジェクトに追加する際に、それらに関連付けるカスタムフォーム（複数可）を、「**タスク既定のカスタム フォーム**」フィールドで選択します。 このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
+1. すべての新しいタスクをプロジェクトに追加する際に、それらに関連付けるカスタムフォーム（複数可）を、「**タスク既定のカスタム フォーム**」フィールドで選択します。 このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
 1. （オプション）予定時間数ではなく作業量を使用したタスク作業量の管理を有効にする場合は、「**作業量を使うとタスクの予定時間数を自動的に計算できます**」を選択します。
 
-   ![ プロジェクト編集ボックスでの作業量](assets/nwe-work-effort-on-projects-350x182.png)
+   ![&#x200B; プロジェクト編集ボックスでの作業量](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. （条件付きおよびオプション）「作業量を使うとタスクの予定時間数を自動的に計算できます」を選択した場合、各作業量レベルのドロップダウンメニューをクリックし、各レベルのパーセンテージを選択します。 次のパーセンテージ値がデフォルトです。
 
@@ -676,7 +676,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左パネルの「**問題設定**」をクリックします。
 
-   ![ プロジェクトを編集ボックスのイシュー設定](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![&#x200B; プロジェクトを編集ボックスのイシュー設定](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. （オプション）「**ユーザーがインラインで問題を追加できるようにする**」オプションの選択を解除します。 デフォルトで選択されています。
 
@@ -717,7 +717,7 @@ Old:
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルで「**アクセス**」をクリックします。
 
-   ![ プロジェクトを編集ボックス内のアクセス領域](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![&#x200B; プロジェクトを編集ボックス内のアクセス領域](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. プロジェクトに関する以下の&#x200B;**アクセス**&#x200B;情報を指定します。
 
@@ -776,7 +776,7 @@ Old:
 
 システム管理者またはグループ管理者は、プロジェクトヘッダーに表示されるフィールドをカスタマイズできます。
 
-![ プロジェクトヘッダー](assets/project-header-350x18.png)
+![&#x200B; プロジェクトヘッダー](assets/project-header-350x18.png)
 
 デフォルトでは、次のフィールドがプロジェクトヘッダーに含まれています。
 
@@ -816,7 +816,7 @@ Old:
 
   * チェックボックスフィールドには、選択したプロジェクトの一部ではチェックされているが、すべてではチェックされていないオプションにチェックボックスの代わりに、線が表示されます。
 
-    ![一括編集プロジェクトボックスの「複数の値インジケーター」チェックボックス ](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![一括編集プロジェクトボックスの「複数の値インジケーター」チェックボックス &#x200B;](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
   * 切替スイッチタイプのフィールドはグレー表示になり、選択した一部のプロジェクトで有効になっているが、すべてのプロジェクトで有効になっていないオプションが中央に表示されます。
 
@@ -824,7 +824,7 @@ Old:
 
   * 一部のオプションが選択されているが、すべてではないラジオボタンタイプのフィールドは、すべてのラジオボタンが空として表示されます。
 
-    ![複数の値インジケーターラジオボタン一括編集プロジェクトボックス ](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![複数の値インジケーターラジオボタン一括編集プロジェクトボックス &#x200B;](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 複数オプションフィールドで 1 つのオプションを更新する場合（切替スイッチまたはチェックボックスのセットとして表示されるフィールドなど）、他のすべてのオプションは選択したプロジェクト間で一致する必要があります。
 
@@ -843,7 +843,7 @@ Old:
 {{step1-to-projects}}
 
 1. リスト内の複数のプロジェクトを選択します。
-1. リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 **プロジェクトを編集**&#x200B;ダイアログボックスが開きます。
 
    ![一括モーダルでプロジェクトを編集](assets/edit-projects-in-bulk-modal-unshimmed.png)
@@ -860,7 +860,7 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 
    選択したすべてのプロジェクトに添付されるカスタムフォームは、**カスタムフォーム**&#x200B;領域の共通の&#x200B;**サブセクションの**&#x200B;カスタムフォームで表示されます。
 
-   ![ プロジェクトの一括編集で共通のカスタムフォーム ](assets/custom-forms-in-common-unshimmed.png)
+   ![&#x200B; プロジェクトの一括編集で共通のカスタムフォーム &#x200B;](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -900,7 +900,7 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 1. 「**コメント**」をクリックし、指定されたスペースにコメントを追加します。 Workfrontは、各プロジェクトの&#x200B;**更新**&#x200B;領域にコメントを追加します。 作業の更新について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. （オプション）「プロジェクトを編集」ボックスに追加した情報を削除するには、編集したフィールドの上にポインタを合わせて、フィールドの右上にある「**x**」破棄アイコンをクリックします。
 
-   ![ フィールド編集プロジェクトの一括破棄アイコン ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![&#x200B; フィールド編集プロジェクトの一括破棄アイコン &#x200B;](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. （オプション）**プロジェクトを編集**&#x200B;ページの最下部で「**キャンセル**」をクリックして、すべてのプロジェクトに対して行われたすべての変更を削除します。
 1. 「**保存**」をクリックします。
