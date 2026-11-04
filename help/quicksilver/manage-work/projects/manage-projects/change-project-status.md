@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 358
+source-wordcount: '358'
 ht-degree: 85%
-
 ---
-
 # プロジェクトのステータスの変更
 
 <!--Audited: 02/2024-->
@@ -114,6 +112,15 @@ Old:
 * **プロジェクトを完了に更新する場合：**&#x200B;プロジェクトですべてのタスクとイシューが完了していることを確認します。 プロジェクトに完了していないタスクやイシューがある場合は、プロジェクトの「完了」のステータス、または「完了」と同等のステータスは選択できません。 これには、「完了 - 保留中の承認」ステータスのタスクまたはイシューを承認する場合も含まれます。
 * **プロジェクトを「完了」から「現在」に更新する場合：**&#x200B;プロジェクトのすべてのタスクとイシューが完了した場合は、プロジェクトの完了モードが「手動」に設定されていることを確認します。 プロジェクトの完了モードが「自動」の場合、プロジェクトのステータスは「完了」のままになります。
 
+<!--
+* If a project status is deleted or becomes unavailable, the Status of the project displays as Not applicable.  As a user with Manage permissions to the project, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
 ## プロジェクトステータスを変更する
 
 1. ステータスを更新するプロジェクトに移動します。
@@ -126,3 +133,9 @@ Old:
    プロジェクト名の横にある&#x200B;**詳細** メニュー![詳細メニュー](assets/qs-more-menu.png)をクリックし、**編集**&#x200B;をクリックして、**ステータス** フィールドで新しいステータスを選択し、**保存**&#x200B;をクリックします。
 
    プロジェクトのステータスは、選択したステータスに更新されます。
+
+<!--
+1. (Conditional) When the status of the project is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->

@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 3%
@@ -218,6 +218,8 @@ Not sure how to change the request status, but dev also said: Changing the names
    >[!TIP]
    >
    >依存接続レコードフィールドの値は、レコード間の依存関係ルールによって制限されます。 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
+   >
+   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
 
 1. （オプションおよび条件付き）「**フォームに入力**」をクリックしてファイルを添付し、AIにファイル内の情報を入力してもらいます。<!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -292,6 +294,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* リクエストの編集は、レコードがまだ作成されておらず、リクエストが承認待ちの場合にのみ可能です。
    >* 一部のフィールドは読み取り専用で、編集できません。
    >* レコードを作成した後は、リクエストを編集できなくなります。
+   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
 
 1. （オプション）リクエストを編集したら、**変更を送信**&#x200B;をクリックします。
 1. （条件付き）要求フォームが承認に関連付けられていない場合、または要求が承認されている場合は、要求の名前をクリックし、**作成済みオブジェクト** フィールドのレコード名をクリックします。

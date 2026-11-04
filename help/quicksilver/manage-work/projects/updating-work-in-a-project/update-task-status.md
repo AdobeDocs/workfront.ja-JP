@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 68%
-
 ---
-
 # タスクステータスの更新
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * タスクを完了としてマークすると、タスクの完了率は 100％に更新されます。
 * 親タスクには、次のシナリオが存在します。
-   * プロジェクトのサマリー完了モードが「自動」に設定され、サブタスクが完了していない場合、親タスクのステータスを「完了」に更新することはできません。
-   * プロジェクトの概要完了モードを「手動」に設定し、サブタスクが完了または未完了の場合、親タスクのステータスを「完了」に更新できます。
+  * プロジェクトのサマリー完了モードが「自動」に設定され、サブタスクが完了していない場合、親タスクのステータスを「完了」に更新することはできません。
+  * プロジェクトの概要完了モードを「手動」に設定し、サブタスクが完了または未完了の場合、親タスクのステータスを「完了」に更新できます。
 
   詳しくは、[プロジェクトの編集](../manage-projects/edit-projects.md)を参照してください。
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## タスクのステータスを手動で更新
 
@@ -152,6 +159,12 @@ Old:
    >[!IMPORTANT]
    >
    >  コミット日を更新できるのは、タスクの担当者のみです。
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 
