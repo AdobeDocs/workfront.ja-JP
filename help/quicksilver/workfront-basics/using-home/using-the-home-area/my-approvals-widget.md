@@ -85,7 +85,7 @@ My Approvals ウィジェットでは、次のWorkfront オブジェクトから
 ## 自分の承認ウィジェットからの作業の承認
 
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、**自分の承認** ウィジェットを追加します。
 1. （オプション）自分の承認ウィジェットのフィルターオプションを調整して、表示する承認を選択します。 次のフィルターオプションを使用できます。
 
@@ -104,11 +104,11 @@ My Approvals ウィジェットでは、次のWorkfront オブジェクトから
 1. （条件付き）「**並べ替え**」ドロップダウンメニューをクリックし、**最新の最初の**」を選択して、最近追加された承認を表示します。
 
 
-1. （オプション）全画面表示アイコン ![全画面表示アイコン ](assets/full-screen.png)をクリックして、自分の承認ウィジェットを全画面表示で開きます。
+1. （オプション）全画面表示アイコン ![全画面表示アイコン &#x200B;](assets/full-screen.png)をクリックして、自分の承認ウィジェットを全画面表示で開きます。
 
 1. 承認する項目を選択します。
 
-   ![自分の承認ウィジェット ](assets/my-approvals-widget.png)
+   ![自分の承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
 
    <!--update screenshot after production release-->
 
@@ -187,4 +187,4 @@ My Approvals ウィジェットでは、次のWorkfront オブジェクトから
 
 * **統合承認**：統合承認は、プロジェクト、タスク、イシューのステータスに関係なく、ウィジェットに残ります。 その表示は承認ワークフローと保留中の承認責任によって制御されるため、ワークフロー全体が完了する前に承認をウィジェットから削除できます。
 
-カスタムステータスはEquates With マッピングに従うため、上記のいずれかのステータスと等しいステータスは同じ結果になります。 オブジェクトがウィジェットから削除された場合でも、そのオブジェクトに対して承認が保留中のままになる可能性があります。 カスタムステータスについて詳しくは、[ ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+カスタムステータスはEquates With マッピングに従うため、上記のいずれかのステータスと等しいステータスは同じ結果になります。 オブジェクトがウィジェットから削除された場合でも、そのオブジェクトに対して承認が保留中のままになる可能性があります。 カスタムステータスについて詳しくは、[&#x200B; ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
