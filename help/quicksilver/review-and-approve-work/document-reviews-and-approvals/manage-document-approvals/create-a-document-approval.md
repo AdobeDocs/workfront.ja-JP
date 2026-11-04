@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 5%
 ---
 # ドキュメント承認ワークフローの作成
 
 Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
 
-デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[&#x200B; テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
+デフォルトでは、承認テンプレートは作成者にのみ表示されます。 この記事では、作成したテンプレートまたは共有したテンプレートのみを選択できます。 詳細については、「承認テンプレートの管理」の「[ テンプレートを共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)」を参照してください。
 
 >[!IMPORTANT]
 >
@@ -196,7 +196,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/parallel-path-v2.png)
+   ![並列パスを使用した詳細設定モード ](assets/parallel-path-v2.png)
 
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
 
@@ -206,6 +206,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 ## 新しいドキュメント領域での承認ワークフローの作成
 
 組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+
+>[!NOTE]
+>
+>承認者またはレビュー担当者は、ドキュメントを含むプロジェクトを共有する必要があります。そうしないと、承認が自分の承認ウィジェットに表示されません。
 
 **承認依頼** ダイアログは、デフォルトで&#x200B;**基本** モードで開きます。 基本モードは、承認者またはレビュー担当者のセットを持つ単一のステージです。 **詳細** モードに切り替えて、多段階の承認または並列パスを設定します。
 
@@ -217,7 +221,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
@@ -274,7 +278,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。
 
@@ -325,7 +329,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/parallel-path-v2.png)
+   ![並列パスを使用した詳細設定モード ](assets/parallel-path-v2.png)
 
 
 
@@ -346,7 +350,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. バージョンをクリックして展開します。 そのステージ、各承認者の決定、ステージの決定ルール（ステージを完了するために1つの決定のみが必要かどうかなど）、期日を表示できます。
 1. 別のバージョンをクリックして、パネルを離れずに承認ワークフローを展開します。
