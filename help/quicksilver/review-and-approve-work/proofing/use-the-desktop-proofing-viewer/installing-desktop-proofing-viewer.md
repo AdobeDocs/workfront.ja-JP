@@ -79,7 +79,7 @@ Adobe Workfront 管理者または Workfront Proof 管理者がワークステ�
 1. アプリをダウンロードするには、次のいずれかを行います。
 
    * 実稼動環境を使用している場合は、デスクトッププルーフビューアの「[実稼動ダウンロード」をクリックします。](https://us.my.workfront.com/proof/desktopviewer)
-   * プレビュー環境を使用している場合は、「[ デスクトップ校正ビューアのダウンロードをプレビュー」をクリックします。](https://us.preview.workfront.com/proof/desktopviewer)
+   * プレビュー環境を使用している場合は、「[&#x200B; デスクトップ校正ビューアのダウンロードをプレビュー」をクリックします。](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、「**続行**」をクリックし、次に「**インストール**」をクリックします。
@@ -103,7 +103,7 @@ Workfront または Workfront Proof 管理者がワークステーションに�
 1. アプリをダウンロードするには、次のいずれかを行います。
 
 * 実稼動環境を使用している場合は、デスクトッププルーフビューアの「[実稼動ダウンロード」をクリックします。](https://us.my.workfront.com/proof/desktopviewer)
-* プレビュー環境を使用している場合は、「[ デスクトップ校正ビューアのダウンロードをプレビュー」をクリックします。](https://us.preview.workfront.com/proof/desktopviewer)
+* プレビュー環境を使用している場合は、「[&#x200B; デスクトップ校正ビューアのダウンロードをプレビュー」をクリックします。](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、ダウンロードしたファイルを開いてインストールを開始します。
