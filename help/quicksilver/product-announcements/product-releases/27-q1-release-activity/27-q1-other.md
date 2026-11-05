@@ -4,7 +4,7 @@ description: 2027年第1四半期のリリース期間におけるその他の�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 1%
@@ -15,6 +15,22 @@ ht-degree: 1%
 このページでは、2027年第1四半期リリースのプレビュー環境に対する機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+<!--
+
+## Enhanced list button and icon improvements
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+Button text and icons in all enhanced lists have been adjusted to match, to achieve a more consistent user interface across Workfront.
+
+For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+-->
 
 ## 強化リストの合計レコード数を確認する
 
@@ -58,7 +74,7 @@ You can now create sections in the View dropdown menu of an enhanced list to org
 
 This enhancement is available in the following areas: Requests, Home, Priorities in the Main Menu.
 
-For information, see [Use enhanced lists](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
+For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
 
 -->
 
@@ -118,4 +134,4 @@ For information, see [Use enhanced lists](https://experienceleague.adobe.com/ja/
 
 カレンダーレポートの週表示で、その日の時間を表示または非表示にできるようになりました。 時間を非表示にすることで、週の表示をよりシンプルに、より合理的に表示したり、時間帯区分が必要な場合に表示したりできます。 カレンダーの右上隅にある切り替えスイッチを使用して、2つを切り替えます。
 
-詳しくは、[&#x200B; カレンダーレポートとイベントの詳細の表示](/help/quicksilver/reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)を参照してください。
+詳しくは、[ カレンダーレポートとイベントの詳細の表示](/help/quicksilver/reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)を参照してください。

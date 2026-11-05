@@ -4,10 +4,10 @@ description: 2027年第1四半期プロジェクトの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b15349a7451b15009bce3902d874a97de1e6021a
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '251'
+ht-degree: 8%
 ---
 
 # 2027年第1四半期プロジェクトの機能強化
@@ -15,6 +15,19 @@ ht-degree: 10%
 このページでは、2027年第1四半期リリースでプレビュー環境に加えられたプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+## 使用できないステータスガイダンス
+
+>[!NOTE]
+>
+>プレビュー：2026年11月4日（PT）
+>プロダクション高速リリース：2026年11月4日（PT）
+>すべての人のための制作：2026年11月4日
+>[!BADGE スケジュール外]{type=Neutral}
+
+現在のオブジェクトで保存されたイシュー、タスク、またはプロジェクトのステータスが利用できない場合、その理由を警告で説明し、保存されたステータスコードが表示されるようになりました。 「利用不可」は、置き換えステータスではなく、表示テキストとしてのみ表示されます。 オブジェクトに対する管理権限を持つユーザーは、別のステータスを選択できます。 管理者は別のステータスを作成できます。
+
+詳しくは、[問題のステータスの更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-issue-status.md)を参照してください。 プロジェクトとタスクのステータスの更新は、イシューのステータスの更新と同様です。
 
 ## 重要なスレッドを更新の先頭にピン留めする
 

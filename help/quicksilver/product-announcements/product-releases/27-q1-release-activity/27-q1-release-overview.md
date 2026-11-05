@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1168'
 ht-degree: 17%
 ---
 
@@ -134,6 +134,28 @@ ht-degree: 17%
 <!--
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Consistent review and approval buttons across documents</a></p>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->     
+<!--   
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Turn the Approved with changes decision on or off</a></p>
+                <p>System Administrators can now turn the "Approved with changes" decision on or off for document approvals.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
             </td>
@@ -147,7 +169,7 @@ ht-degree: 17%
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">統一されたレビューと承認のメール通知を設定</a></p>
                 <p>これで、18件の統一されたレビューと承認のメール通知を設定できるようになりました。件名は少し変更されています。</p>
             </td>
-            <td> <p>この機能は、プレビュー環境では一時的に利用できません。</p></td>
+            <td> <p>11月5日（PT）。</p></td>
             <td><p>2026年11月12日（PT）</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
@@ -194,6 +216,16 @@ ht-degree: 17%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">使用できないステータスガイダンス</a></p>
+                <p>保存されたイシュー、タスク、またはプロジェクトのステータスが利用できない場合、その理由を警告で説明し、保存されたステータスコードが表示されるようになりました。</p>
+                <p>[!BADGE Off schedule]{type=Neutral}</p>
+            </td>
+            <td><p>2026年11月4日（PT）</p></td>
+            <td><p>2026年11月4日（PT）</p></td>
+            <td><p>2026年11月4日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">更新の先頭にスレッドをピン留めする</a></p>
                 <p>プロジェクト、タスク、イシュー、またはリクエストの更新領域の上部に最も重要なスレッドを固定して、チームに主要な情報を表示できるようにできるようになりました。</p>
             </td>
@@ -215,6 +247,17 @@ ht-degree: 17%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Enhanced list button and icon improvements</a></p>
+                <p>Button text and icons in all enhanced lists now match for a more consistent interface across Workfront.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">強化リストの合計レコード数を確認する</a></p>
@@ -276,8 +319,8 @@ ht-degree: 17%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
@@ -300,7 +343,7 @@ ht-degree: 17%
 
 * パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 
@@ -334,7 +377,7 @@ ht-degree: 17%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
