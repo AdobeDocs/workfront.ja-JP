@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 98%
+source-wordcount: '732'
+ht-degree: 86%
 ---
 # イシューのステータスの更新
 
@@ -124,16 +124,9 @@ Adobe Workfront 管理者は、組織のイシューに対してカスタムス�
 * [ステータスを作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)
 
-<!--
-
 >[!NOTE]
 >
->If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+>イシューのステータスが削除されたり、利用できなくなったりした場合、イシューのステータスは「利用できません」と表示されます。  問題に対する管理権限を持つユーザーは、ステータスを別のステータスに更新するか、Workfront管理者にステータスの再作成または新しいステータスの追加を依頼できます。
 
 
 イシューのステータスは、手動で更新することも、特定のアクションが実行されたときに Workfront で自動的に更新することもできます。
@@ -174,11 +167,10 @@ Workfront の次のエリアでイシューのステータスを更新できま�
    >
    >  コミット日を更新できるのはイシューの担当者のみです。
 
-<!--
-1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. （条件付き）問題のステータスが&#x200B;**_利用不可_**&#x200B;の場合、「**ステータス**」フィールドの警告記号をクリックし、リストから新しいステータスを選択して、**保存**」をクリックします。
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+許容できるステータスが表示されない場合は、管理者にステータスの作成を依頼します。
+
 
 <!--
 Old instructions, in old commenting: 

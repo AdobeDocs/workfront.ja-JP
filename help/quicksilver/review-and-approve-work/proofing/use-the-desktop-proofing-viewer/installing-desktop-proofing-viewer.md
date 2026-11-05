@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: '570'
+ht-degree: 86%
 ---
 # デスクトッププルーフビューアのインストール
 
@@ -78,8 +78,8 @@ Adobe Workfront 管理者または Workfront Proof 管理者がワークステ�
 
 1. アプリをダウンロードするには、次のいずれかを行います。
 
-   * 本番環境を使用している場合は、「[デスクトッププルーフビューアの Mac 本番環境用ダウンロードファイル](https://app.proofhq.com/desktopviewer/mac)」をクリックします。
-   * プレビュー環境を使用している場合は、「[デスクトッププルーフビューアの Mac プレビュー環境用ダウンロードファイル](https://app.preview.proofhq.com/desktopviewer/mac)」をクリックします。
+   * 実稼動環境を使用している場合は、デスクトッププルーフビューアの「[実稼動ダウンロード」をクリックします。](https://us.my.workfront.com/proof/desktopviewer)
+   * プレビュー環境を使用している場合は、「[&#x200B; デスクトップ校正ビューアのダウンロードをプレビュー」をクリックします。](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、「**続行**」をクリックし、次に「**インストール**」をクリックします。
@@ -102,8 +102,8 @@ Workfront または Workfront Proof 管理者がワークステーションに�
 
 1. アプリをダウンロードするには、次のいずれかを行います。
 
-   * 本番環境で、「[デスクトッププルーフビューアの Windows 本番環境用ダウンロードファイル](https://app.proofhq.com/desktopviewer/windows)」をクリックします。
-   * プレビュー環境で、「[デスクトッププルーフビューアの Windows プレビュー環境用ダウンロードファイル](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)」をクリックします。
+* 実稼動環境を使用している場合は、デスクトッププルーフビューアの「[実稼動ダウンロード」をクリックします。](https://us.my.workfront.com/proof/desktopviewer)
+* プレビュー環境を使用している場合は、「[&#x200B; デスクトップ校正ビューアのダウンロードをプレビュー」をクリックします。](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、ダウンロードしたファイルを開いてインストールを開始します。

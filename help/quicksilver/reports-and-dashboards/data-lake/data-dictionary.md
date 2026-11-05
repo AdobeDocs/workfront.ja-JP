@@ -16,7 +16,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 ## 表示タイプ
 
-Data Connectには、insightを最も多く提供する方法でWorkfront データを表示するためのビューの種類がいくつかあります。
+Data Connectでは、insightを最も多く提供する方法でWorkfront データを表示するために、さまざまなビューの種類を利用できます。
 
 * **現在のビュー**
 
@@ -49,9 +49,9 @@ Data Connectには、insightを最も多く提供する方法でWorkfront デー
 
 ## エンティティ関係図
 
-Workfrontのオブジェクト（したがって、Data Connect データレイク内）は、個々の値だけでなく、他のオブジェクトとの関係によって定義されます。
+Workfront内のオブジェクト（したがって、Data Connect データレイク内のオブジェクト）は、個々の値だけでなく、他のオブジェクトとの関係によって定義されます。
 
-以下のエンティティ関係図（ERD）は、コア Workfront オブジェクトのData Connectのオブジェクト関係の高レベルのマッピングを提供します。
+以下のエンティティ関係図（ERD）は、コア Workfront オブジェクトに対するData Connectのオブジェクト関係の高レベルのマッピングを提供します。
 
 >[!IMPORTANT]
 >
@@ -116,7 +116,7 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 
 >[!NOTE]
 >
->Workfront アプリケーションのデータ要求の変化をサポートするために、事前の通知なしで新しいフィールドをオブジェクトビューに追加できます。 ダウンストリームデータ受信者が追加された列を処理する準備ができていない場合は、「SELECT」クエリを使用しないでください。<br>
+>Workfront アプリケーションのデータ要求の変化をサポートするために、事前の通知なしで新しいフィールドをオブジェクトビューに追加できます。 ダウンストリームデータの受信者が追加された列を処理する準備ができていない場合は、「SELECT *」クエリを使用しないように注意してください。<br>
 >列の名前の変更または削除が必要な場合は、これらの変更を事前にお知らせします。
 
 ### アクセスレベル
@@ -6659,7 +6659,7 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 >[!NOTE]
 >
 >チームオブジェクトテーブルには、PROJECT、TEMPLATE、ADHOCの3つのチームタイプが保存されています。 <br>
->これらの各チームのタイプは、Data Connect データレイクビューで一緒に表されます。 返す特定のタイプのチームを分離するには、`teamtype`列でフィルタリングする必要があります。 例えば、組織構造の一部である従来のチームのみをアプリケーションのTeams領域に設定する場合、次のようなクエリが表示されます。<code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
+>これらのチームの種類は、Data Connectのデータレイクビューで一緒に表示されます。 返す特定のタイプのチームを分離するには、`teamtype`列でフィルタリングする必要があります。 例えば、組織構造の一部である従来のチームのみをアプリケーションのTeams領域に設定する場合、次のようなクエリが表示されます。<code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### チームメンバー
 

@@ -17,19 +17,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 4%
+source-wordcount: '1442'
+ht-degree: 6%
 ---
 
 # 依存関係の管理
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -142,9 +141,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * 依存フィールドは、接続されたレコードフィールドが表示されるすべての領域（レコードまたはリクエストフォームの「詳細」領域を含む）でサポートされます。
 
-<!--
-* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
--->
+* <span class="preview"> リクエストフォームまたは送信されたリクエストに依存するフィールドの選択した値に競合がある場合、フォームまたはリクエストを保存する前に、競合を解決する必要があります。</span>
+
 
 ## 依存関係の作成
 

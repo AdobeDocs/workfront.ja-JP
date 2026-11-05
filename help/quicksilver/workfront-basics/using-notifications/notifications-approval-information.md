@@ -5,10 +5,6 @@ title: 通知：承認情報
 description: 以下の通知は、自分が関係する作業アイテムで承認アクティビティが発生したことを知らせるものです。 受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 93%
 ---
 # 通知：承認情報
@@ -29,8 +25,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->これらの通知は、レガシードキュメントの承認にのみ適用されます。 統合ドキュメント承認の通知コントロールは現在使用できません。
-
+>これらの通知は、レガシードキュメントの承認にのみ適用されます。 統合承認通知については、[通知：統合承認](notifications-unified-approvals.md)を参照してください。
 
 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 
@@ -78,3 +73,4 @@ ht-degree: 93%
   </tr> 
  </tbody> 
 </table>
+

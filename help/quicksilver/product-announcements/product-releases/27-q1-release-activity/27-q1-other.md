@@ -4,7 +4,7 @@ description: 2027年第1四半期のリリース期間におけるその他の�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 1%
@@ -15,6 +15,22 @@ ht-degree: 1%
 このページでは、2027年第1四半期リリースのプレビュー環境に対する機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+<!--
+
+## Enhanced list button and icon improvements
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+Button text and icons in all enhanced lists have been adjusted to match, to achieve a more consistent user interface across Workfront.
+
+For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+-->
 
 ## 強化リストの合計レコード数を確認する
 

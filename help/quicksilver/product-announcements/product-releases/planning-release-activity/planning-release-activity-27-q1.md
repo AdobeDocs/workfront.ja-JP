@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 3%
 ---
 # Adobe Workfront Planningの2027年第1四半期のリリースアクティビティ
@@ -28,6 +28,18 @@ ht-degree: 3%
 この記事では、2027年第1四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## リクエスト送信時の依存フィールドでの競合の検出を改善しました
+
+>[!NOTE]
+>
+>プレビュー：2026年11月5日（PT）
+>プロダクション高速リリース：2026年12月17日（PT）
+>すべての人のための制作：2027年1月21日
+
+依存関係の接続フィールドに依存関係の競合があるリクエストを送信すると、システムはエラーを表示し、競合が解決されるまでリクエストを送信できなくなります。 まだ承認されていないリクエストは、後でルール設定の依存フィールドに変更されたことで発生する競合も表示されます。これは、リクエストを表示する場合と編集する場合の両方です。
+
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## テーブルビューでのクイック検索の結果の可視性を向上
 
