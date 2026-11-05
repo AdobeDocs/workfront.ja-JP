@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 5%
 ---
 # ドキュメント承認ワークフローの作成
@@ -206,6 +206,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 ## 新しいドキュメント領域での承認ワークフローの作成
 
 組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+
+>[!NOTE]
+>
+>承認者またはレビュー担当者は、ドキュメントを含むプロジェクトを共有する必要があります。そうしないと、承認が自分の承認ウィジェットに表示されません。
 
 **承認依頼** ダイアログは、デフォルトで&#x200B;**基本** モードで開きます。 基本モードは、承認者またはレビュー担当者のセットを持つ単一のステージです。 **詳細** モードに切り替えて、多段階の承認または並列パスを設定します。
 
