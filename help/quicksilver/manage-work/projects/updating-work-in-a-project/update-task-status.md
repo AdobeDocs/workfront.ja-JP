@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 68%
+source-wordcount: '728'
+ht-degree: 59%
 ---
 # タスクステータスの更新
 
@@ -115,14 +115,7 @@ Old:
 
   詳しくは、[プロジェクトの編集](../manage-projects/edit-projects.md)を参照してください。
 
-<!--
-* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* タスクのステータスが削除されたり、利用できなくなった場合、タスクのステータスは「利用不可」と表示されます。  タスクに対する管理権限を持つユーザーは、ステータスを別のステータスに更新するか、Workfront管理者にステータスの再作成または新しいステータスの追加を依頼できます。
 
 ## タスクのステータスを手動で更新
 
@@ -150,7 +143,7 @@ ALSO: see in the steps below for more commented out text.
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![&#x200B; タスクへの更新の追加](assets/add-update-to-task.png)
+     ![ タスクへの更新の追加](assets/add-update-to-task.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。 詳しくは、[更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
    * タスクのコミット日を更新するには、**タスクの詳細**&#x200B;をクリックし、**コミット日** フィールドを編集します。 詳しくは、[タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
@@ -160,11 +153,10 @@ ALSO: see in the steps below for more commented out text.
    >
    >  コミット日を更新できるのは、タスクの担当者のみです。
 
-<!--
-1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. （条件付き）タスクのステータスが&#x200B;**_利用不可_**&#x200B;の場合、「**ステータス**」フィールドの横にある警告記号をクリックし、リストから新しいステータスを選択して、**保存**」をクリックします。
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+許容できるステータスが表示されない場合は、管理者にステータスの作成を依頼します。
+
 
 <!--
 old functionality in old commenting: 
