@@ -27,7 +27,7 @@ ht-degree: 3%
 
 この記事では、2027年第1四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## リクエスト送信時の依存フィールドでの競合の検出を改善しました
 
@@ -39,7 +39,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 依存関係の接続フィールドに依存関係の競合があるリクエストを送信すると、システムはエラーを表示し、競合が解決されるまでリクエストを送信できなくなります。 まだ承認されていないリクエストは、後でルール設定の依存フィールドに変更されたことで発生する競合も表示されます。これは、リクエストを表示する場合と編集する場合の両方です。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## テーブルビューでのクイック検索の結果の可視性を向上
 
@@ -83,7 +83,7 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 
 この機能強化の前は、接続されたグローバルレコードタイプでワークスペース間の接続がオフになっていると、セカンダリワークスペースで自分のレコードを互いにリンクさせることができませんでした。 このオプションがオンになっている場合、ユーザーはグローバル ワークスペースおよびその他のすべてのセカンダリ ワークスペースからレコードを表示およびリンクできます。
 
-詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 ## テーブル、タイムラインおよびリストビューでの合計レコード数の表示
 
@@ -191,7 +191,7 @@ For information, see [Connect record types](/help/quicksilver/planning/architect
 
 以前は、「すべてのフィールド」ビューが選択されている場合にのみ、「書き出し」オプションを使用していました。
 
-詳しくは、[ レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
 
 <!--
 
@@ -276,7 +276,7 @@ Workspace マネージャーは、プライマリワークスペースとセカ�
 
 グローバルワークスペースに追加されたビジネスルールは、レコードタイプが読み込まれたセカンダリワークスペースに読み取り専用として表示されます。 セカンダリワークスペースに追加されたビジネスルールは、レコードタイプが最初に作成されたプライマリワークスペースに読み取り専用として表示されます。 ルールは、作成されたワークスペースでのみ編集できます。
 
-詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 ## Planning リクエストの入力フォーム機能のデフォルトのプロンプト設定を設定します
 
