@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 7%
+source-wordcount: '666'
+ht-degree: 8%
 ---
 
 # アイデア創出スペースを他のユーザーと共有する
@@ -33,7 +33,33 @@ ht-degree: 7%
 
 <span class="preview">詳細については、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。</span>
 
-{{planning-important-intro}}
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>\
+</span>
+
+>[!IMPORTANT]
+>
+>ここでは、Adobe Workfront計画について説明します。 Workfront Planningにアクセスするには、追加のPlanning パッケージを購入する必要があります。
+>
+>ここで説明する機能は、組織がスタンドアロン製品としてWorkfront Planningを購入した場合は使用できません。
+>
+>Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 <!--
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
@@ -123,7 +149,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -131,7 +157,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -139,9 +165,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. アイデア創出スペースへのアクセス：
 
-   詳しくは、「[&#x200B; アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
+   詳しくは、「[ アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
 
-1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン &#x200B;](assets/setting-icon.png)をクリックします。<!--should this say "document"?-->
+1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン ](assets/setting-icon.png)をクリックします。<!--should this say "document"?-->
 1. 「**アクセス権のあるユーザー**」リストで、次の中から選択します。
 
    * **招待されたユーザーのみが**&#x200B;にアクセスできます

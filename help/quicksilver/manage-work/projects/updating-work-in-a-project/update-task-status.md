@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 59%
@@ -143,7 +143,7 @@ Old:
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![&#x200B; タスクへの更新の追加](assets/add-update-to-task.png)
+     ![ タスクへの更新の追加](assets/add-update-to-task.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。 詳しくは、[更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
    * タスクのコミット日を更新するには、**タスクの詳細**&#x200B;をクリックし、**コミット日** フィールドを編集します。 詳しくは、[タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
@@ -155,7 +155,7 @@ Old:
 
 1. （条件付き）タスクのステータスが&#x200B;**_利用不可_**&#x200B;の場合、「**ステータス**」フィールドの横にある警告記号をクリックし、リストから新しいステータスを選択して、**保存**」をクリックします。
 
-許容できるステータスが表示されない場合は、管理者にステータスの作成を依頼します。
+   許容できるステータスが表示されない場合は、管理者にステータスの作成を依頼します。
 
 
 <!--
