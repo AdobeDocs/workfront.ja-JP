@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 2%
+source-wordcount: '899'
+ht-degree: 3%
 ---
 
 # アイデア創出スペースの利用に必要なアクセス
@@ -32,7 +32,33 @@ ht-degree: 2%
 <span class="preview">詳細については、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。</span>
 
 
-{{planning-important-intro}}
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>\
+</span>
+
+>[!IMPORTANT]
+>
+>ここでは、Adobe Workfront計画について説明します。 Workfront Planningにアクセスするには、追加のPlanning パッケージを購入する必要があります。
+>
+>ここで説明する機能は、組織がスタンドアロン製品としてWorkfront Planningを購入した場合は使用できません。
+>
+>Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Adobe Workfront Planningでは、キャンペーンを開始する前にアイデアを立案するための機能が追加されました。
 
@@ -66,7 +92,7 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 >
 >アイデア創出スペースには、WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
 
-アイデア創出スペースのリリース段階について詳しくは、[Adobe Workfront計画のアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
+アイデア創出スペースのリリース段階について詳しくは、[Adobe Workfront Planningのアイデア創出スペースの概要](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
 
 
 <!--

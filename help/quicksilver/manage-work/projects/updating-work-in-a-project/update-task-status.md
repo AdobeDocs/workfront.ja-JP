@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 59%
@@ -155,7 +155,7 @@ Old:
 
 1. （条件付き）タスクのステータスが&#x200B;**_利用不可_**&#x200B;の場合、「**ステータス**」フィールドの横にある警告記号をクリックし、リストから新しいステータスを選択して、**保存**」をクリックします。
 
-許容できるステータスが表示されない場合は、管理者にステータスの作成を依頼します。
+   許容できるステータスが表示されない場合は、管理者にステータスの作成を依頼します。
 
 
 <!--
