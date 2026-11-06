@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 2%
 ---
 # 拡張リストの使用
@@ -149,6 +149,19 @@ Last, under Scenario Planner
    >すべてのリストがすべてのフィールドタイプをサポートしているわけではないことに注意してください。
 
 ![強化リストの例](assets/glist-exchange-rates.png)
+
+## インラインでの項目の編集
+
+一部の拡張リストでは、オブジェクトをインラインで編集できます。 リストに表示されているオブジェクトに関する情報を編集すると、オブジェクトはすぐに更新されます。
+
+リストの内容：
+
+1. 編集する項目を見つけ、リスト内の任意のフィールド内をクリックします。
+1. このセル内の情報を編集し、Enter キーを押します。
+1. Tab キーを押して、次の編集可能なセルに移動します。
+1. すべてのセルの変更が完了したら、Enter キーを押して変更を保存します。
+
+![強化リストをインラインで編集](assets/edit-enhanced-list-inline.png)
 
 ## アクションバーを使用したアイテムの編集
 
