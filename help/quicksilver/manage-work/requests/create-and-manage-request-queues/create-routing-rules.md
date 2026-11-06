@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 86%
+source-wordcount: '553'
+ht-degree: 76%
 ---
 # ルーティングルールの作成
 
@@ -132,6 +132,10 @@ ht-degree: 86%
 
    このプロセスは、ルーティングルールのみを定義します。 イシューがリクエストキューに送信されたときに確実にルーティングされるようにするには、**デフォルトのルート**&#x200B;の下にある「**キューの詳細**」タブでルーティングルールを選択する必要があります。
 
+   既存のルーティングルールを編集するには、任意のセルをクリックして情報を追加または変更します。 ルーティングルールは自動的に更新されます。
+   ルーティングルールのリストは強化されたリストであり、Workfrontの他のリストとは機能が異なる場合があります。 強化リストについて詳しくは、[強化リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
+
    リクエストキューへのデフォルトルートの追加について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
    複数のルーティングルールをリクエストキューに関連付ける場合は、複数のキューのトピックを作成し、それぞれのトピックを個別のルーティングルールに関連付ける必要があります。 キューのトピックの作成について詳しくは、[キュートのピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
+
