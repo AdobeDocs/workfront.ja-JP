@@ -1,17 +1,17 @@
 ---
 product-area: betas
-title: コネクテッドオーガナイゼーション機能を使い始める
+title: Connected Organizations Capability Beta Program
 description:
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1424'
 ht-degree: 0%
 ---
-# 連続性のある組織に関する基本を学ぶ
+# Connected Organizations機能ベータプログラム
 
 >[!IMPORTANT]
 >
