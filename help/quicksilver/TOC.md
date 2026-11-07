@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14762'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -457,6 +457,7 @@ ht-degree: 90%
       * [カスタム SMTP を送信メールオプションとして削除する](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * ベータ版プログラム {#beta}
     * [ベータ版プログラム](product-announcements/betas/betas.md)
+    * {hide-from-toc}[連続組織の機能ベータプログラム &#x200B;](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * キャンバスダッシュボードのベータ版 {#canvas-dashboards-beta}
       * [キャンバスダッシュボードベータ版の情報](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc}[&#x200B; レポート Canvas ベータ版の概要](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)

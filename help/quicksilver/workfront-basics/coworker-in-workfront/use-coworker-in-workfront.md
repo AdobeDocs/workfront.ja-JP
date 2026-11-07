@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 4ce90527f9255cab318f64d6a489d0e81822bf4b
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 7%
+source-wordcount: '552'
+ht-degree: 8%
 ---
 # WorkfrontでのCX Enterprise Coworkerの使用
 
@@ -88,9 +88,6 @@ Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX
 1. 以前のチャットを表示および管理するには、同僚パネルのチャットアイコン ![&#x200B; チャットアイコン &#x200B;](assets/ai-icon.png)をクリックします。
 
    チャットについて詳しくは、Adobe CX Enterprise Coworker ドキュメントの[&#x200B; チャットの管理](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)を参照してください。
-1. 出力リストなどのチャットアーティファクトを表示および管理するには、アーティファクトアイコン ![&#x200B; アーティファクトアイコン &#x200B;](assets/artifacts-icon.png)をクリックします。
-
-   Coworkerのアーティファクトについて詳しくは、Adobe CX Enterprise Coworker ドキュメントの[&#x200B; アーティファクト &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)を参照してください。
-1. 同僚の設定を管理するには、設定アイコン ![設定](assets/coworker-settings-icon.png)をクリックします。
 1. 同僚パネルを展開するには、展開アイコン ![展開アイコン &#x200B;](assets/coworker-expand-icon.png)をクリックします。
 1. Adobe CX Enterprise Coworker インターフェイスに移動するには、ページの右上隅にあるアプリアイコン ![&#x200B; アプリアイコン &#x200B;](assets/apps-icon.png)をクリックし、使用可能なアプリケーションのリストから「同僚」を選択します。
+
