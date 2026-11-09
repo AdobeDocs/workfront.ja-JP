@@ -51,7 +51,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-プルーフは、別の承認プロセスに従います。 作業アイテムまたはドキュメントの承認からプルーフを承認することはできません。 プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定するを参照してください。
+プルーフは、別の承認プロセスに従います。 作業アイテムまたはドキュメントの承認からプルーフを承認することはできません。 プルーフのレビューと承認について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定するを参照してください。
 
 ## 承認のレビュー
 
