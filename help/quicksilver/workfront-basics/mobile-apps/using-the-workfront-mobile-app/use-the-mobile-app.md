@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 94%
 ---
 # [!DNL Adobe Workfront] モバイルアプリの使用：記事インデックス
+
+{{mobile-maintenance-mode}}
 
 <!-- Audited: 2/2024 -->
 
@@ -56,18 +58,18 @@ iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] �
 
 [!DNL Adobe Workfront] モバイルアプリについて詳しくは、以下の記事を参照ください。
 
-* [&#x200B; [!DNL Android] 版 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-* [&#x200B; [!DNL Android] ベータ版テスターになるには](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-* [&#x200B; [!DNL iOS] 版 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [&#x200B; [!DNL iOS] ベータ版テスターになるには](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [ [!DNL Android] 版 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [ [!DNL Android] ベータ版テスターになるには](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [ [!DNL iOS] 版 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [ [!DNL iOS] ベータ版テスターになるには](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL ホーム]領域ウィジェット](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [モバイルアプリの「[!UICONTROL 担当作業]」セクション](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
 * [モバイル版 [!DNL Adobe Workfront] [!UICONTROL ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
-* [&#x200B; [!DNL Adobe Workfront] モバイルアプリでのプルーフのレビューと承認に関する判断](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
-* [&#x200B; [!DNL iOS] でのプルーフへのコメント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
-* [&#x200B; [!DNL Android] でのプルーフへのコメント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
-* [&#x200B; [!DNL Adobe Workfront] モバイルアプリでのプルーフの共有とダウンロード](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-* [&#x200B; [!DNL Adobe Workfront] モバイルアプリでの承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-* [&#x200B; [!DNL Mobile Device Management] （MDM）用 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-* [&#x200B; [!DNL MobileIron] 用 [!DNL Adobe Workfront] の設定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
+* [ [!DNL Adobe Workfront] モバイルアプリでのプルーフのレビューと承認に関する判断](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+* [ [!DNL iOS] でのプルーフへのコメント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
+* [ [!DNL Android] でのプルーフへのコメント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+* [ [!DNL Adobe Workfront] モバイルアプリでのプルーフの共有とダウンロード](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
+* [ [!DNL Adobe Workfront] モバイルアプリでの承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
+* [ [!DNL Mobile Device Management] （MDM）用 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
+* [ [!DNL MobileIron] 用 [!DNL Adobe Workfront] の設定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

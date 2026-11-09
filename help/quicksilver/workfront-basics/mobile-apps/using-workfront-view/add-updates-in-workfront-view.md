@@ -24,12 +24,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 89%
 ---
 # [!DNL Adobe Workfront View] でアップデートを追加
+
+{{mobile-maintenance-mode}}
 
 レビュー中のプロジェクトのアップデートを、[!DNL Adobe Workfront View] アプリでレビューおよび追加できます。
 
@@ -73,7 +75,7 @@ ht-degree: 89%
 
 1. アップデートと入力します。
 1. （オプション）他の項目をアップデートに含めるには、[!UICONTROL 人物]アイコンをタップし、別のユーザーの名前を指定します。\
-   ![&#x200B; モバイルアプリの更新](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![ モバイルアプリの更新](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. 「**[!UICONTROL 投稿]**」をタップ\
    アップデートは、プロジェクトの、**[!UICONTROL アップデート]**&#x200B;ウィジェットに表示されます。

@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 94%
 ---
 # [!UICONTROL iOS] ベータ版テスターになる
+
+{{mobile-maintenance-mode}}
 
 ## ベータ版アプリをダウンロードする
 
@@ -66,7 +68,7 @@ iOS デバイスでベータ版テスターになる前に、[!DNL Workfront] �
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![iOS QR コード &#x200B;](assets/ios-qr-code-350x397.png)
+![iOS QR コード ](assets/ios-qr-code-350x397.png)
 
 ## 現在の状況をお知らせください
 

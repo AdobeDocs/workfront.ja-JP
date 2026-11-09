@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 91%
 ---
 # [!UICONTROL Adobe Workfront ビュー]にプロジェクトを表示
+
+{{mobile-maintenance-mode}}
 
 デフォルトでは、[!DNL Adobe Workfront View] に表示されるプロジェクトのリストには、最新 100 個のアクティブなプロジェクトが表示されます。 プロジェクトのリストは、どの条件でもグループ化されません。
 
@@ -83,13 +85,13 @@ ht-degree: 91%
 1. [!DNL Workfront] ビューのホームページから、リスト内の任意のプロジェクトをタップして、プロジェクトの詳細を表示します。\
    プロジェクト情報が、画面で使用可能なウィジェットに表示されます。\
    一度に 4 つまでのウィジェットを表示でき、各プロジェクトにウィジェットを削除して追加し、プロジェクトに関する異なる情報を表示できます。\
-   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)でウィジェットを更新を参照してください。
+   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)[でウィジェットを更新を参照してください。
 
 ## [!DNL Workfront View] でのプロジェクト間の移動
 
 1. [!DNL Workfront View] アプリのプロジェクトのリストで、プロジェクトの名前をタップします。\
    プロジェクトに関する情報は、画面にアップロードされたウィジェットに表示されます。\
-   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)でウィジェットを更新を参照してください。
+   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)[でウィジェットを更新を参照してください。
 
 1. 右から左にスワイプして、リストに次のプロジェクトを表示します。\
    各プロジェクトをスクロールすると、同じウィジェットがプロジェクトごとに表示されます。\
