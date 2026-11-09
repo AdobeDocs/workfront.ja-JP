@@ -17,16 +17,22 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 33%
+source-wordcount: '855'
+ht-degree: 30%
 ---
 # Adobe Workfront API のリッチテキストフィールド
 
 <!-- Audited: 5/2025 -->
 
 Adobe Workfront の一部のオブジェクトでは、リッチテキスト形式のテキストを格納できます。 Workfront APIでは、オープンソースフレームワークのDraft.jsを使用して、リッチテキストがJSONとして保存されます。
+
+>[!NOTE]
+>
+>この記事で説明するリッチテキストフィールドは、「書式付きテキスト」フィールドです。 このフィールドタイプは新しいフィールドに追加できなくなりました。既存のフィールドは「リッチテキスト」フィールドタイプに変換する必要があります。
+> 
+>新しいリッチテキストフィールドにはHTMLとしてコンテンツが保存されますが、フィールドエディターに適用されたスタイルは保存されません。 ストレージからスタイル情報を削除すると、UIの予期しない問題やセキュリティの脆弱性を防ぐことができます。
 
 ## 概要の例
 
