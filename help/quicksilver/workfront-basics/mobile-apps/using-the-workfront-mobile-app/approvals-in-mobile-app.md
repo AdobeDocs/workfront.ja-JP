@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 91%
 ---
 # [!DNL Adobe Workfront] モバイルアプリでの承認
+
+>[!IMPORTANT]
+>
+>Workfront モバイルアプリはメンテナンスモードで、新しい開発は行われていません。
+> 
+>統合承認は、Workfront モバイルアプリではサポートされていません。
 
 自分に割り当てられた承認またはデリゲートされた承認は、[!DNL Adobe Workfront] モバイルアプリの[!UICONTROL 承認]エリアから管理できます。 [!UICONTROL 承認]エリアから、以下を承認できます。
 
@@ -45,7 +51,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-プルーフは、別の承認プロセスに従います。 作業アイテムまたはドキュメントの承認からプルーフを承認することはできません。 プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定するを参照してください。
+プルーフは、別の承認プロセスに従います。 作業アイテムまたはドキュメントの承認からプルーフを承認することはできません。 プルーフのレビューと承認について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定するを参照してください。
 
 ## 承認のレビュー
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 61%
 ---
 # スニペット
@@ -361,7 +361,13 @@ OLD:
 
 ## モバイルプルーフ - その他メニュー {#mobile-proof-more-menu}
 
-1. ドキュメントのプルーフを開き、ドキュメントの右上にある&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![その他メニュー](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) を選択します。 次に、「**[!UICONTROL その他]**」を選択します。
+1. ドキュメントのプルーフを開き、ドキュメントの右上にある&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![その他メニュー](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) を選択します。 次に、「**[!UICONTROL 詳細]**」を選択します。
+
+## モバイル – 新規開発なし {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront モバイルアプリはメンテナンスモードで、新しい開発は行われていません。
 
 <!-- My Updates -->
 

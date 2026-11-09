@@ -26,12 +26,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 92%
 ---
 # [!DNL Adobe Workfront View] の基本を学ぶ
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront View] モバイルアプリを使用すると、外出中でもプロジェクトの進捗状況を把握できます。
 

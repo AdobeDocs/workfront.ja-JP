@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 97%
 ---
 # [!DNL Adobe Workfront]モバイルアプリでのプルーフのレビューと承認に関する判断
+
+{{mobile-maintenance-mode}}
 
 プルーフの承認を割り当てられると、そのプルーフがモバイルアプリの承認リストに表示されます。 プルーフをアプリで直接レビューし、承認の是非を判断することができます。 [!DNL Adobe Workfront] でのプルーフのレビューと承認については、[プルーフのレビュー： [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 

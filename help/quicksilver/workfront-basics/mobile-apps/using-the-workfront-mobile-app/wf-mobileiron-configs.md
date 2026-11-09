@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 98%
 ---
 # [!DNL MobileIron] 用に [!DNL Adobe Workfront] を設定
+
+{{mobile-maintenance-mode}}
 
 [!DNL MobileIron] アプリ向け Adobe Workfront では、[!DNL Android] と [!DNL iOS] の両方で [!DNL MobileIron] が提供するデフォルト設定をサポートしています。
 

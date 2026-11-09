@@ -20,12 +20,14 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 52%
 ---
 # [!DNL Adobe Workfront] for [!DNL Mobile Device Management]（MDM）
+
+{{mobile-maintenance-mode}}
 
 Adobe [!DNL Workfront] は、複数の [!DNL Mobile Device Management]（MDM）プラットフォームと提携し、安全で制御可能なモバイルエクスペリエンスを組織に提供しています。 [!DNL Workfront] モバイルアプリは、次のモバイルデバイス管理プラットフォームで使用できます。
 
