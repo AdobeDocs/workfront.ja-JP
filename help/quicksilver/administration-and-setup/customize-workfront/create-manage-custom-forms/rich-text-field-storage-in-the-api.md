@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 95%
+source-wordcount: '252'
+ht-degree: 66%
 ---
 # API のリッチテキストフィールドストレージ
+
+>[!NOTE]
+>
+>この記事で説明するリッチテキストフィールドは、「書式付きテキスト」フィールドです。 このフィールドタイプは新しいフィールドに追加できなくなりました。既存のフィールドは「リッチテキスト」フィールドタイプに変換する必要があります。
+> 
+>新しいリッチテキストフィールドにはHTMLとしてコンテンツが保存されますが、フィールドエディターに適用されたスタイルは保存されません。 ストレージからスタイル情報を削除すると、UIの予期しない問題やセキュリティの脆弱性を防ぐことができます。
 
 プロジェクト、イシュー、タスクなどのオブジェクトにリッチテキストが含まれている場合は、Workfront API を通じてパラメーター値として保存されアクセスできます。
 
