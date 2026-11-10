@@ -47,11 +47,11 @@ ht-degree: 7%
 
 * Workfront管理者は、組織のライセンスを検索できます。
 
-  1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![ セットアップアイコン ](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+  1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
   1. 左側のパネルで、「**システム**」をクリックします。
   1. Workfront プランを表示するには、「**ライセンス**」を選択します。
 プランがページの右上隅付近に表示されます。
-     ![ プランの検索](assets/locate-plan.png)
+     ![&#x200B; プランの検索](assets/locate-plan.png)
 
   または
 * Workfrontの担当者にお問い合わせください。
