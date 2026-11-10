@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
 workflow-type: tm+mt
-source-wordcount: '14762'
+source-wordcount: '14769'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -2345,6 +2345,7 @@ ht-degree: 90%
   * {hide-from-toc}Workfront計画のアイデア創出スペース {#ideation}
     * {hide-from-toc}[Adobe Workfront計画のアイデア創出スペース：記事インデックス &#x200B;](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[&#x200B; アイデア創出スペースで概要を作成](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[&#x200B; アイデア創出スペースブリーフからプランニングレコードを作成](planning/ideation/create-records-in-ideation-space-for-planning.md)
     * {hide-from-toc}[&#x200B; アイデア創出スペースを他のユーザーと共有する](planning/ideation/share-the-ideation-space.md)
