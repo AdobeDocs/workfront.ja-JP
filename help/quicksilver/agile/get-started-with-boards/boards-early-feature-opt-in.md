@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 97%
 ---
 # [!DNL Workfront] [!UICONTROL Boards] の初期の機能オプトイン
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] の早期機能オプトインが 2022年7月に開始されました。
 
@@ -232,7 +234,7 @@ ht-degree: 97%
 
 [!DNL Workfront] 管理者がボードの早期機能を有効にすると、組織内のすべてのユーザーがオプトインします。
 
-ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個人ユーザーまたはグループに対し、[!UICONTROL &#x200B; メインメニュー]で「ボード」オプションを非表示にできます。 詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個人ユーザーまたはグループに対し、[!UICONTROL  メインメニュー]で「ボード」オプションを非表示にできます。 詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 >[!NOTE]
 >

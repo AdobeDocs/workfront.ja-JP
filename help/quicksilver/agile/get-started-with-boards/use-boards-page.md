@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 99%
 ---
 # ボードのダッシュボードの使用
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->ワークストリームは、特定の顧客グループのみが使用できます。
+{{boards-workstreams}}
 
 ボードダッシュボードには、自分が作成したボードや追加したボードなど、アクセス権のあるボードとワークストリームのリストが表示されます。 アクセス権を持つワークストリームの一部ではない個々のボードが最初に表示されます。
 

@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 99%
 ---
 # ワークストリームの管理
 
->[!IMPORTANT]
->
->ワークストリームは、特定の顧客グループのみが使用できます。
+{{boards-workstreams}}
 
 ワークストリームは、作業時の共同作業用に設定可能なボードとカードのグループです。 ワークストリームには、テンプレートから作成された様々なタイプのボードと作業アイテムのカードリストを含めることができます。 ワークストリームでは、イテレーションまたはスプリントで作業を追跡できます。
 

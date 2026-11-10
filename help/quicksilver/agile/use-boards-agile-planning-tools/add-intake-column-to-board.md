@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 59%
@@ -39,6 +39,8 @@ ht-degree: 59%
 # ボードへの取り込み列の追加
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 オプションとして、タスクとイシューを定義したフィルターに基づいて[!DNL Workfront]に追加するときに、タスクとイシューを接続されたカードとして自動的に取り込む取り込み列をボードに追加できます。 取り込み列は、かんばんチームのバックログ列として、サポートチームがリクエストキューに追加されたイシューを確認するための取り込み場所として、またはその他の必要な目的として機能します。
 
@@ -146,7 +148,7 @@ ht-degree: 59%
    >
    >ログインユーザーのタスクやイシューが常に表示されるとは限らないので、ボードフィルターでは「自分」（ログインユーザー）ワイルドカードを使用しないことをお勧めします。 ボードに正しいタスクとイシューを設定したら、ボードをフィルタリングして特定の割り当て先のアイテムを表示できます。 詳しくは、[フィルタリングおよびボード内で検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
-   フィルターの作成について詳しくは、[&#x200B; フィルターの作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)の記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください。
+   フィルターの作成について詳しくは、[ フィルターの作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)の記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください。
 
 1. フィルターに名前を付け、**[!UICONTROL 保存]**&#x200B;をクリックします。 フィルターは、保存されたフィルターのリストに表示され、自動的に取り込み列に適用されます。
 

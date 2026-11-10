@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 95%
@@ -30,6 +30,8 @@ ht-degree: 95%
 # ボードの基本を学ぶ：記事インデックス
 
 <!-- Audited: 12/2023 -->
+
+{{boards-maintenance-mode}}
 
 この節では、次の記事を扱います。
 

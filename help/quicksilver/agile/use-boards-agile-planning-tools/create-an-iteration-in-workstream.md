@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '382'
 ht-degree: 92%
 ---
 # ワークストリームでイテレーションを作成
 
->[!IMPORTANT]
->
->ワークストリームは、特定の顧客グループのみが使用できます。
+{{boards-workstreams}}
 
 イテレーションとは、作業の完了のために予約された一定時間のことです。 アジャイルチームの中には、イテレーションをスプリントと呼ぶものもあります。
 

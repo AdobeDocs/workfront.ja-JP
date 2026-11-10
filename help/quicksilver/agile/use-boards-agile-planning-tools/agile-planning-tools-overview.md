@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 64%
+source-wordcount: '179'
+ht-degree: 62%
 ---
 # アジャイル計画ツールの概要：記事インデックス
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 アドホックカードとコネクテッドカードを使用してボードを作成する場合は、追加のアジャイルプランニングツールを活用できます。
 
@@ -44,10 +46,6 @@ ht-degree: 64%
 * ワークストリームとイテレーションボード
 * カードリストやバックログ
 * イテレーション指標
-
->[!IMPORTANT]
->
->ワークストリームとその関連ツールは、特定の顧客グループでのみ使用できます。
 
 特定のアジャイル手法を採用することなく、自社やチームに最適な方法で、これらのツールを使用できます。
 

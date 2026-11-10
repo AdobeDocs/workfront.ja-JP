@@ -26,18 +26,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 70%
 ---
 # ボードからカードを削除またはアーカイブする
 
+{{boards-maintenance-mode}}
+
 ボードからアドホックカードを削除すると、そのカードは完全に削除され、復元できません。 接続されたカードは、削除された後にボードに手動で追加できます。
 
 ダイナミックボードから接続されたカードを削除すると、このボードタイプは特定のプロジェクトからすべてのタスクとイシューを取り込むため、ボードを更新するとカードが再表示されます。 カードを削除するには、接続されているタスクまたはイシューをWorkfront プロジェクトから削除する必要があります。
 
-取り込み列を持つ他のボードタイプから接続されたカードを削除すると、接続されたタスクまたは問題がまだ「完了」とマークされていない場合、ボードを更新すると、カードが取り込み列に再び表示されます。 取り込み列について詳しくは、[&#x200B; ボードへの取り込み列の追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
+取り込み列を持つ他のボードタイプから接続されたカードを削除すると、接続されたタスクまたは問題がまだ「完了」とマークされていない場合、ボードを更新すると、カードが取り込み列に再び表示されます。 取り込み列について詳しくは、[ ボードへの取り込み列の追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
 
 カードをアーカイブすると、アーカイブに送信され、後でボードに復元できます。
 
@@ -84,9 +86,9 @@ ht-degree: 70%
 
    アーカイブしたカードは、表示するフィルターを適用しない限り、ボードに表示されません。 詳しくは、[ボードをフィルタリングしてアーカイブされたカードを表示](#filter-a-board-to-show-archived-cards)を参照してください。
 
-   [!UICONTROL アーカイブ]アイコン ![&#x200B; アーカイブ &#x200B;](assets/archive-icon-spectrum-25x20.png) は、アーカイブされたカードに表示されます。 アーカイブしたカードは編集できませんが、削除したり、別の列に移動したりすることはできます。
+   [!UICONTROL アーカイブ]アイコン ![ アーカイブ ](assets/archive-icon-spectrum-25x20.png) は、アーカイブされたカードに表示されます。 アーカイブしたカードは編集できませんが、削除したり、別の列に移動したりすることはできます。
 
-1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
+1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![ その他のメニュー ](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
 
 ## ボードをフィルタリングしてアーカイブされたカードを表示する
 
