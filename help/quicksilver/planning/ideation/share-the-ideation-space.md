@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 8%
+source-wordcount: '667'
+ht-degree: 6%
 ---
 
 # アイデア創出スペースを他のユーザーと共有する
@@ -33,12 +33,10 @@ ht-degree: 8%
 
 <span class="preview">詳細については、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。</span>
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->ここでは、Adobe Workfront計画について説明します。 Workfront Planningにアクセスするには、追加のPlanning パッケージを購入する必要があります。
+>この記事では、Adobe Workfront Planningを持つWorkfrontのお客様のみが使用できる機能について説明します。 会社は、追加のプランニングパッケージを購入する必要があります。
 >
 >ここで説明する機能は、組織がスタンドアロン製品としてWorkfront Planningを購入した場合は使用できません。
 >
@@ -95,29 +93,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>クラウドプロバイダーの要件</p></td> 
+   <td><p>AWS</p>
+   <p><b>メモ：</b></p>
+   <p>サポートされているクラウドプロバイダーはありません</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+<li><p>プランニングパッケージを含むあらゆるワークフロー</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>必要システム構成</p></td> 
+   <td><p>設定エリアのシステム環境設定の同僚とMCP環境設定をオンにする必要があります</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow ライセンス</p></td> 
    <td><p>標準</p>
@@ -127,24 +137,28 @@ Or
    <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
    <td><p>標準</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> 
    <ul>
-   <li><p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   </li>
+   <li><p>アクセス レベルには、ワークフローとプランニング ライセンス タイプの両方を追加する必要があります <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>アクセスレベルの「アイデア創出スペースを無効にする」設定を選択解除する必要があります</p></li>
+   <li><p>アクセスレベルの「WorkfrontでCX Coworker パネルを無効にする」設定を選択解除する必要があります</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td> <p>レコードを追加するワークスペースおよびレコードタイプに対する権限を設定します </p>
       <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
-      <p>Workfront オブジェクトに対する権限を表示して、ブリーフに追加する <!--not sure if this is available--></p>
-      <p>ブリーフを作成するためのブリーフのアイデア創出スペースに対する編集者の権限</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>ブリーフを作成するためのアイデア創出スペースの編集者権限</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>

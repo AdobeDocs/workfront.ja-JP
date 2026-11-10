@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 10%
+source-wordcount: '169'
+ht-degree: 11%
 ---
 # Beta のプログラム
 
@@ -49,13 +49,13 @@ ht-degree: 10%
 
   詳しくは、[Workfront Content Reviewerの使用を開始する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
-* Adobe Workfront Planning Designerは、すべてのお客様がベータ版で利用できます。
+* Adobe Workfront計画Designer
 
   詳しくは、「[Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)」を参照してください。
 
 <!--
 
-* Ideation space for Adobe Workfront Planning is available in Open beta.
+* Ideation space for Adobe Workfront Planning 
 
     For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 -->

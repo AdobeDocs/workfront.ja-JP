@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1899'
 ht-degree: 3%
 ---
 
@@ -32,12 +32,10 @@ ht-degree: 3%
 
 <span class="preview">詳細については、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。</span>
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->ここでは、Adobe Workfront計画について説明します。 Workfront Planningにアクセスするには、追加のPlanning パッケージを購入する必要があります。
+>この記事では、Adobe Workfront Planningを持つWorkfrontのお客様のみが使用できる機能について説明します。 会社は、追加のプランニングパッケージを購入する必要があります。
 >
 >ここで説明する機能は、組織がスタンドアロン製品としてWorkfront Planningを購入した場合は使用できません。
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>クラウドプロバイダーの要件</p></td> 
+   <td><p>AWS</p>
+   <p><b>メモ：</b></p>
+   <p>サポートされているクラウドプロバイダーはありません</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+<li><p>プランニングパッケージを含むあらゆるワークフロー</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>必要システム構成</p></td> 
+   <td><p>設定エリアのシステム環境設定の同僚とMCP環境設定をオンにする必要があります</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow ライセンス</p></td> 
    <td><p>標準</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> 
    <ul>
-   <li><p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   </li>
+   <li><p>アクセス レベルには、ワークフローとプランニング ライセンス タイプの両方を追加する必要があります <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>アクセスレベルの「アイデア創出スペースを無効にする」設定を選択解除する必要があります</p></li>
+   <li><p>アクセスレベルの「WorkfrontでCX Coworker パネルを無効にする」設定を選択解除する必要があります</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     -->
 1. 「**保存**」をクリックします。
 
-1. 「**ヘルプ**」アイコンの左側にある「**ズームレベル**」ドロップダウンアイコンまたは「**ヘルプ**」アイコン「![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)」をクリックして、オプションを選択するか、キーボードショートカットを確認して、アイデア出しスペースをナビゲートしたり、別のズーム値を選択したりします。
+1. **ヘルプ** アイコン ![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)の左側にある&#x200B;**ズームレベル** ドロップダウンメニューをクリックして、オプションを選択します。
 
-   次のズームレベルから選択します。
+   次のオプションから選択します。
 
-   * 100％表示
-   * 200%にズーム
-   * 全体表示
+   * **全体表示**
+   * **ズームイン**
+   * **ズームアウト**
+   * **50**、**100**、**150**&#x200B;または&#x200B;**200%**&#x200B;にズームします
+   * **ドットグリッドを表示**：選択範囲をオンにしてドットグリッドを表示します。
+   * **製品ツアー**：アイデア創出スペースの使用中にガイドのヒントをオプトアウトするには、選択範囲をオフにします。
 
-   または、次のいずれかのショートカットを使用してページを移動します。
+1. **ヘルプ** アイコン ![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)をクリックして、アイデア出しスペースのナビゲーションまたは別のズーム値の選択に使用できるキーボードショートカットを確認します。
 
-   | アクション | ショートカット |
-   | --- | --- |
-   | ズームイン/ズームアウト | Ctrl/⌘ + / − |
-   | 選択範囲に合わせてズーム/選択範囲に合わせる | — |
-   | カーソルにズーム | Ctrl/⌘ + スクロール |
-   | カンバスのパン | スペースを押しながらドラッグ |
-   | ドットグリッドを表示・非表示 | G |
-
-
+| アクション | ショートカット |
+| --- | --- |
+| ズームイン/ズームアウト | Ctrl/⌘ + / − |
+| 100%にズーム / | Ctrl/⌘ 1 / 1 |
+| 200%にズーム / | Ctrl/⌘ 2 / 2 |
+| 全体表示 | Ctrl/⌘ 0 / 0 |
+| 選択範囲に合わせてズーム | Alt Ctrl 0 |
+| カーソルにズーム | Ctrl/⌘ スクロール |
+| パン | スペースを押しながらドラッグ |
+| ドットグリッドを表示・非表示 | G |
 
 <!--
 

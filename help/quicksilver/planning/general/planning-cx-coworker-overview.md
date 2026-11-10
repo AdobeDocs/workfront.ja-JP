@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 7%
 ---
 
@@ -129,7 +129,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * Coworkerを通じてオブジェクトを作成、更新、または削除する場合、Coworkerは意図されたアクションを表示し、確認を求めます。 その後、アクションを確認またはキャンセルできます。
 
-## Coworkerで現在利用可能な機能
+## 現在、Workfront Planningの共同作業者で使用できる機能
 
 現在、CoworkerはWorkfrontのプランニング エリアで利用でき、プランニング オブジェクトの情報にアクセスして操作するための一連のスキルを使用します。 詳しくは、「[CX Enterprise CoworkerのWorkfront スキル &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)」を参照してください。
 
@@ -137,14 +137,16 @@ Coworkerを使用して、次のアクションを実行できます。
 
 * レコードの検索： 任意のレコードフィールドに含まれる情報で検索できます。
 * レコードを作成します。 新しいレコードへのリンクを含むIDは、レコードの作成後に表示されます。 日付や説明など、作成プロセス中に更新するフィールドを指定できます。
-* アップロードしたドキュメントに基づいてレコードを作成します。 Workfrontでは、次のドキュメントフォーマットをサポートしています。
+* アップロードしたドキュメントに基づいてレコードを作成します。 Workfrontでは、Coworkerに添付する次のドキュメントフォーマットをサポートしています。
 
   PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT、およびほとんどの画像フォーマット
 * 画面に表示されるレコードのフィールドを更新する
 * レコードの削除、複製、復元
 * レコードを他のレコードにリンク
 * レコードの変更履歴の表示
-* Excel ファイルをCoworkerに添付して、10,000以上のレコードを読み込みます。
+* Excel ファイルをCoworkerに添付して、10,000以上のレコードをインポートする
+* ビジネスルールの作成および管理
+
 
 ## Workfront Planningで「同僚」を探す
 
