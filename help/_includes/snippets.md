@@ -1,8 +1,8 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 61%
+source-wordcount: '2437'
+ht-degree: 58%
 ---
 # スニペット
 
@@ -131,6 +131,24 @@ Add snippets within the section that the snippet is used. Snippets that are used
 ## 手順 1 - ボードに進む - {#step1-to-boards}
 
 1. Adobe Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL 掲示板]**&#x200B;をクリックします。
+
+## ボード – メンテナンスモード {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront Boardsは現在、新しい開発を行っていません。
+
+## ボード – ワークストリームは利用できません {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boardsは現在、新しい開発を行っていません。
+> 
+>ボードのワークストリーム機能は廃止されましたが、既に使用していたユーザーは引き続き使用できます。
+>
+>* ワークストリームはサポートされなくなったため、使用を終了することをお勧めします。
+>* ボードダッシュボードに「ワークストリーム」タブがない場合は、ワークストリームを追加できません。
+>* ワークストリームにアクセスできる場合は、新しいワークストリームを追加し、既存のワークストリームを管理できます。 ワークストリームをアーカイブまたは削除した場合は、そのワークストリームを復元できません。 残りのワークストリームが1つあり、それをアーカイブまたは削除する場合、Workfront インスタンスのワークストリームは完全に非推奨となり、新しいワークストリームを追加することはできません。
 
 <!-- Blueprints -->
 

@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e19eca57bfc65b561d08331c368aed92f19c05d2
+source-git-commit: 260299ae364ca925a9b3e95e93dd64ff2a2dc2d1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 94%
@@ -157,3 +157,5 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 ### コミュニティフォーラムで回答を検索
 
 * **質問する**：ドキュメントで質問の答えが見つからない場合は、[Workfront コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)に投稿して、他のユーザーや専門家に支援を求めてください。
+
+

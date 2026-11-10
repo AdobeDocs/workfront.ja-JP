@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1093'
 ht-degree: 52%
 ---
 # ユーザーの非アクティブ化または再アクティブ化 {#deactivate-or-reactivate-a-user}
@@ -137,7 +137,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 1. **ユーザーの編集** ボックスの左側のパネルで、**リソース計画**&#x200B;をクリックします。
 1. 「**アクティベーション解除日を設定**」をクリックします。
 
-1. 「**アクティベーション解除日**」の日付を選択します。
+1. **無効化の日付**&#x200B;を選択します。
 
    >[!NOTE]
    >

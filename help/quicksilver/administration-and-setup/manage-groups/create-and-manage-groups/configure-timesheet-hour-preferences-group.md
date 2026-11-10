@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 97%
 ---
 # グループのタイムシートおよび時間環境設定の指定
@@ -107,7 +107,7 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
 1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. タイムシートまたは時間環境設定を指定するグループの名前をクリックします。
-1. 左パネルで、「**タイムシートと時間**」をクリックします。
+1. 表示されるページの左側で、**タイムシートと時間**&#x200B;をクリックします。
 
 1. 表示されるページの「**一般的な環境設定**」セクションで、次のオプションのいずれかを設定します。
 

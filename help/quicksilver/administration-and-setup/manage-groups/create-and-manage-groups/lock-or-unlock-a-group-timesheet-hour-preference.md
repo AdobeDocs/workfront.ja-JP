@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 88%
+source-wordcount: '599'
+ht-degree: 86%
 ---
 # グループのタイムシートと時間の優先順位をロックまたはロック解除
 
@@ -100,7 +100,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 1. 左側のパネルで、「**グループ**」をクリックします。
 1. タイムシートと時間設定をロックまたはロック解除するグループの名前をクリックします。
-1. 左側のパネルで、「**タイムシートと時間の設定**」をクリックします。
+1. 左側で、**タイムシートと時間設定**&#x200B;をクリックします。
 
 1. 表示されるページで、次のいずれかの操作を行います。
 

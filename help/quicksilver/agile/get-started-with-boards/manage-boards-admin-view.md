@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 10%
 ---
 # ボードの管理者ビューの管理
+
+{{boards-maintenance-mode}}
 
 ボード管理者ビューには、アカウント内のすべてのボードのリストが含まれており、システム管理者はボード全体の詳細を簡単にスナップショットで確認することができます。これには、前回の更新日時、各ボードのカード数などが含まれます。
 

@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 97%
 ---
 # システムレベルとグループのステータスの並べ替え
 
@@ -145,7 +145,7 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 ## イシューのステータスを並べ替える
 
-1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**セットアップ** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+{#step-1-to-setup}
 
 1. **プロジェクト環境設定／ステータス**&#x200B;をクリックします。
 1. （条件付き）グループのステータスを並べ替える場合は、右上隅のボックスにグループの名前を入力し、表示される名前をクリックします。

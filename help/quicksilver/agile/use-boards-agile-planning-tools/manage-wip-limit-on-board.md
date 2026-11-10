@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 95%
 ---
 # ボードでの[!UICONTROL 進行中の作業]（WIP）の制限の管理
+
+{{boards-maintenance-mode}}
 
 ボード上の各列に対して[!UICONTROL 進行中の作業]（WIP）の制限を設定できます。
 
