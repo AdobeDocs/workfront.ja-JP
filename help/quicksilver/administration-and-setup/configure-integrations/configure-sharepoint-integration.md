@@ -146,7 +146,7 @@ ht-degree: 86%
 
 組織の[!DNL SharePoint]統合を表示および管理するには：
 
-1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![ セットアップアイコン ](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;を選択します。
 
    組織の[!DNL SharePoint]統合のリストが表示されます。
@@ -209,9 +209,9 @@ ht-degree: 86%
 > * 従来の [!DNL SharePoint] 統合には「[!DNL SharePoint]」というラベルが付きます。
 > * 新しい [!DNL SharePoint] 統合には「[!UICONTROL [!DNL SharePoint] (Graph API)]」というラベルが付きます。
 
-1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![ セットアップアイコン ](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL クラウドプロバイダー]**&#x200B;を選択します。
-1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
+1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;を選択します。
 1. 既存のすべての統合のリストの左側にあるチェックマークを選択したあと、「**[!UICONTROL 無効にする]**」を選択します。
@@ -232,10 +232,10 @@ ht-degree: 86%
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
 -->
 
-1. [ [!DNL SharePoint]  アドインで期限が切れたクライアントシークレットの置換](https://docs.microsoft.com/ja-jp/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)の説明に従って、新しいクライアントシークレットを生成します。
+1. [&#x200B; [!DNL SharePoint]  アドインで期限が切れたクライアントシークレットの置換](https://docs.microsoft.com/ja-jp/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)の説明に従って、新しいクライアントシークレットを生成します。
 1. このクライアントシークレットを安全な場所にコピーします。
 1. [!DNL Workfront] に管理者としてログインします。
-1. Workfrontで、左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![ セットアップアイコン ](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+1. Workfrontで、左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
 1. 左パネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;をクリックします。
 1. 更新する [!DNL SharePoint] 統合をクリックしたあと、「**[!UICONTROL 編集]**」をクリックします。
 1. 編集中のウィンドウの「**接続情報**」セクションに移動し、新しいクライアントシークレットを「**[!UICONTROL SharePoint クライアント機密]**」フィールドに入力します。
