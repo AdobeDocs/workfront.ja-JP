@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 77%
+source-wordcount: '1625'
+ht-degree: 76%
 ---
 # カスタムアクセスレベルの作成と変更
 
@@ -85,11 +85,11 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**アクセスレベル**」をクリックします。
-1. コピーしてカスタマイズするアクセスレベルを選択し、**コピー** アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)をクリックします。
+1. コピーしてカスタマイズするアクセスレベルを選択し、**コピー** アイコン ![ コピーアイコン ](assets/copy-icon.png)をクリックします。
 
    または
 
-   既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+   既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
 1. 表示されるボックスで、次のいずれかの操作を行って、カスタムアクセスレベルの設定を開始します。
 
@@ -233,11 +233,35 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
      <tr> 
       <td role="rowheader">絶対にユーザーによるお知らせの削除を許可しない</td> 
       <td>ユーザーがお知らせセンターの通知を削除できないようにします。 詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">通知の送信</a>を参照してください</td> 
-     </tr> 
-     <tr>
+     </tr>
+
+   <tr>
+      <td role="rowheader">Workfrontの CX Coworker パネルを無効にする</td> 
+      <td>
+      <p>この設定を選択すると、ユーザーが共同作業者パネルにアクセスできるようになります。</p> 
+      <p>これはデフォルトで選択されています。</p>
+      <p>詳しくは、<a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">WorkfrontでのCX Enterprise Coworkerの使用</a>を参照してください。</p>
+      <p><b>メモ：</b></p>
+      <p>すべてのお客様がCoworkereにアクセスできるわけではありません。</p>
+      </td> 
+     </tr>
+
+   <tr>
       <td role="rowheader">ユーザーにブランドへのアクセスを許可</td> 
       <td>WorkfrontでGenStudio ブランドにアクセスして管理できます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref"> ブランド権限へのアクセス権の付与</a>を参照してください。</td> 
      </tr>
+    <!--
+    <tr>
+      <td role="rowheader">Disable Ideation space</td> 
+      <td>
+      <p>Select this setting to allow users to access Ideation space.</p> 
+      <p>This is selected by default.</p>
+      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
+      <p><b>NOTE:</b></p>
+      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      </td> 
+     </tr>
+    -->
     </tbody> 
    </table>
 
@@ -246,7 +270,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 
    このセクションでは、ネイティブフィールドとカスタムフィールドの両方を検索できます。 制限フィールドは20個までです。
 
-   アクセスレベルがユーザーにプライマリアクセスレベルとして割り当てられている場合、またはビジネスプロファイルを介してユーザーに割り当てられている場合、フィールドは制限されます。 ビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+   アクセスレベルがユーザーにプライマリアクセスレベルとして割り当てられている場合、またはビジネスプロファイルを介してユーザーに割り当てられている場合、フィールドは制限されます。 ビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
    制限付きフィールドは、引き続きシステム内のユーザーに表示されますが、空白として表示されるか、実際のデータではなくN/Aが表示されます。
 

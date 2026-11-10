@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 1%
+source-wordcount: '1311'
+ht-degree: 0%
 ---
 
 # Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ
@@ -68,43 +68,61 @@ Adobeのアイデア創出スペースは、Workfront Planningに直接ビルト
 
 WorkfrontプランニングまたはWorkfrontメインメニューからのみアクセスできるアイデア創出スペースは、キャンペーンのライフサイクルの最前線に位置し、プランニング、プロダクション、デリバリーの前に構築され、チームが作業を計画および実行するWorkfrontプランニングワークスペースに直接送られます。
 
-アイデア創出スペースでは、Enterprise CX Coworkerを利用してブリーフを生成し、後でプランニングレコードに変換したり、PDFとしてダウンロードしたりできます。
+アイデア創出スペースでは、Adobe Enterprise CX Coworkerを利用してブリーフを生成し、後でプランニングレコードに変換したり、PDFとしてダウンロードしたりできます。
 
 ## 製品の可用性
 
 変更される可能性のあるアイデア立案スペースのリリース予定タイムラインには、次のマイルストーンが含まれます。
 
 * **閉じたBeta:** 2026年7月に、少数のお客様向けにリリースされました。
+
+  アイデア創出スペースは、参加のお客様の本番環境で利用できます。
 * **Betaを開く：** 2026年11月12日を目標としています。 これはオプトインオファーであり、オプションを積極的にオプトアウトするのではなく、オプションを積極的にオンにする必要があります。
+
+  アイデア創出スペースは、実稼動環境、プレビュー環境、およびサンドボックス環境で、他のすべての要件を満たすすべてのユーザーが利用できます。
+
 * **一般提供：** 2027年2月1日を目標としています。
 
 ## 必要な製品
 
-組織が次の製品にアクセスできる場合は、アイデア創出スペースにアクセスできます。
-
-* Adobe WorkfrontとWorkfront計画
-* Enterprise CX Coworker
-
-  >[!IMPORTANT]
-  >
-  >CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 CX COWORKERを導入していないWorkfrontのお客様は、AI アシスタントを利用できますが、アイデア創出スペースは利用できません。
-
-アイデア創出スペースにアクセスする場合は、次のパッケージにアクセスできる必要があります。
-
-* Open Betaのリリース中は、次の要件を満たしている必要があります。
-
-  * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
-
-* 一般提供リリースの後、次のいずれかを実行できます。
-
-  * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
-  * スタンドアロン製品としてのAdobe Workfront計画
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
 >[!NOTE]
 >
->アイデア創出スペースには、WorkfrontのメインメニューまたはWorkfront計画からのみアクセスできます。 アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfrontにログインできる場合は、すぐに利用できます。
+>アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningをお持ちの場合は、Workfrontにログインするとすぐに利用できます。
+>
+>アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
-アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+組織が次のアクセス権を持っている場合は、アイデア創出スペースにアクセスできます。
+
+* クラウドプロバイダー：
+
+  * AWS
+
+    AzureおよびGCP プロバイダーはサポートされていません。
+
+* 導入製品：
+
+  * Adobe WorkfrontとWorkfront計画
+  * Adobe Enterprise CX Coworker for Workfront
+
+    >[!IMPORTANT]
+    >
+    >Adobe CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 これらの企業ではAI アシスタントを利用できますが、Coworkerを導入していないWorkfrontのお客様はアイデア創出スペースを利用できません。
+
+* Adobe パッケージ：
+
+  * Open Beta リリース（2026年11月12日以降）では、次の要件が満たされている必要があります。
+
+    * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+
+  * 一般提供リリース（2027年2月1日を対象）の後、次のいずれかになる可能性があります。
+
+    * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+    * スタンドアロン製品としてのAdobe Workfront計画
+
+
+
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -154,13 +172,24 @@ Too much:
   * 例えば、キャンペーン履歴を直接示すことなく、新しい製品、セグメント、イニシアチブを立ち上げる際にキャンペーンを作成できます。
   * これにより、ガイド付きのアイデア出し、推奨されるチャネルミックス、初期のコンセプトやメッセージの方向性を通じて、まったく新しいブリーフを作成できます。
 
-## アイデア創出スペースの概要
+## アイデア創出スペースとAdobe CX Enterprise Coworker
 
-アイデア創出スペースは、ブランドと製品のマーケターが協力して、より強力なキャンペーンをより迅速に、より緊密に連携して構築できる、戦略的なマーケティングのアイデア創出ツールです。 過去のブリーフ、パフォーマンスデータ、オーディエンスインサイト、ブランドガイドライン、既存のキャンペーンアセットなど、リアルタイムのマーケティングのコンテキストにAIの提案を基にして、結果は汎用的なものではなく、関連性のあるものです。
+アイデア創出スペースでは、Adobe CX Enterprise Coworkerをプロンプトインターフェイスとして使用しています。
 
-ブリーフを作成する際に、アイデア出しを最大限に活用する方法の例を以下に示します。
+利用者は、たった一発の結果を得るのではなく、フォローアップで質問し、会話で概要を絞り込むことができます。
 
-* ドキュメントやソーシャルリスニングインサイトのアップロード
+ブリーフがAdobe Workfrontプランニングのレコードに関連付けられている場合、基礎となるプランが維持されるように、Coworkerはブリーフの上書きを控えます。 レコードは、Workfront Planningに概要を書き出すときにのみ上書きされます。
+
+<!--
+Previous intro but oped for the more direct one above: 
+The Ideation space is a collaborative strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
+
+Ideation space works exclusively with the CX Enterprise Coworker for Workfront as the prompting agent for all its capabilities. 
+-->
+
+アイデア出しスペースで使用する場合のCoworkerの機能の一部を次に示します。
+
+* ドキュメントやソーシャルインサイトのアップロード
 * 作成する概要に関連するweb コンテンツにアクセスします
 * キャンペーン目標の定義
 * オーディエンスインサイトの概要を取得
@@ -169,7 +198,7 @@ Too much:
 * AI プロンプトを使用して、テキスト、画像、ファイル、チャート、insightカードを生成し、大規模なビジュアルキャンバスで作業できます
 * カードを整理、修正、拡張し、最終的にキャンペーンブリーフに変換します
 * ブリーフが完成する前に、アイデアを追加したり、特定のキャンバス項目にコメントを残したり、付箋を使ってフリーフォームのアイデアを書き出したりできる、複数のユーザーと共同作業を行うことができます
-* アイデア出しスペースを使用する場合は、次のベストプラクティスをお勧めします。
+* アイデア出しスペースでCoworkerを使用する場合は、次のベストプラクティスをお勧めします。
 
   * **具体的であること**。 より豊富なキャンペーン説明により、より関連性が高く、より根拠のあるカードを生み出すことができます。
   * **確定する前に確認**。 AIで生成された回答は不正確である可能性があるため、レコードを確定する前に、常にカードの&#x200B;**ソース**&#x200B;を確認し、リンクされたソースと確認してください。
@@ -181,6 +210,8 @@ Too much:
 
 1. この記事の「[製品要件](#product-requirements)」の節で説明されているように、製品要件を満たしていることを確認してください。
 1. Adobeのアカウント担当者に連絡して、クローズドBetaへの参加に関心を示すか、利用可能になった時点でOpen Betaに参加します。
+
+   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 ほかのユーザーにもオンにすることができます。
 1. （推奨）最初のキャンペーンを特定：更新する最近のキャンペーン、またはゼロから作成する新しいキャンペーン。
 
 アイデア出しスペースの使用について詳しくは、次の記事も参照してください。
@@ -195,14 +226,15 @@ Too much:
 
 * Workfront Planningで新しいレコードを手動で追加する場合
 
-  ![計画中のアイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
+  ![計画中のアイデア創出スペース ](assets/ideation-space-in-planning-new-record.png)
 * Workfrontのメインメニューで、アイデア創出スペース領域を開きます
 
-  ![&#x200B; メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
+  ![ メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
 
-  >[!TIP]
-  >
-  >レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーにアイデア創出スペースへのアクセス権を付与しない場合は、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス権](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」の説明に従って、ユーザーのアクセスレベルで「アイデア創出スペースを無効にする」設定をオンにする必要があります。
+>[!TIP]
+>
+>レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>
 
 ## アイデア創出スペースで生成されたオブジェクト
 
@@ -214,14 +246,6 @@ Too much:
 * 計画レコード
 
   概要を計画レコードに書き出すことができるのは、Workfront Planningからアイデア創出スペースにアクセスしたときか、以前に計画レコードをアイデア創出レコードに接続したときだけです。
-
-## アイデア創出スペースとAdobe CX Enterprise Coworker
-
-アイデア創出スペースでは、AdobeのCX Enterprise Coworkerをプロンプトインターフェイスとして使用しています。
-
-利用者は、たった一発の結果を得るのではなく、フォローアップで質問し、会話で概要を絞り込むことができます。
-
-ブリーフがWorkfront Planningのライブ接続に関連付けられている場合、Coworkerはブリーフの上書きを控え、基礎となるプランを維持します。<!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -258,13 +282,15 @@ Worth noting
 *************************************
 -->
 
-## 追加のリソース
+<!--
+## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
-* [Adobe Workfront計画ドキュメント](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudioの概要](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
+-->
 
 <!--
 

@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 9%
+source-wordcount: '229'
+ht-degree: 5%
 ---
 
 # Adobe Workfront計画のためのアイデア創出スペース：記事インデックス
@@ -31,12 +31,10 @@ ht-degree: 9%
 
 <span class="preview">詳細については、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。</span>
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->ここでは、Adobe Workfront計画について説明します。 Workfront Planningにアクセスするには、追加のPlanning パッケージを購入する必要があります。
+>この記事では、Adobe Workfront Planningを持つWorkfrontのお客様のみが使用できる機能について説明します。 会社は、追加のプランニングパッケージを購入する必要があります。
 >
 >ここで説明する機能は、組織がスタンドアロン製品としてWorkfront Planningを購入した場合は使用できません。
 >
@@ -64,6 +62,6 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 * [Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 * [アイデア創出スペースの利用に必要なアクセス](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [&#x200B; アイデア創出スペースブリーフからのプランニングレコードの作成または編集](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [ アイデア創出スペースブリーフからのプランニングレコードの作成または編集](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
 * [アイデア創出スペースを他のユーザーと共有する](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 

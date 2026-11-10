@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1899'
 ht-degree: 3%
 ---
 
@@ -32,12 +32,10 @@ ht-degree: 3%
 
 <span class="preview">詳細については、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。</span>
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->ここでは、Adobe Workfront計画について説明します。 Workfront Planningにアクセスするには、追加のPlanning パッケージを購入する必要があります。
+>この記事では、Adobe Workfront Planningを持つWorkfrontのお客様のみが使用できる機能について説明します。 会社は、追加のプランニングパッケージを購入する必要があります。
 >
 >ここで説明する機能は、組織がスタンドアロン製品としてWorkfront Planningを購入した場合は使用できません。
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>クラウドプロバイダーの要件</p></td> 
+   <td><p>AWS</p>
+   <p><b>メモ：</b></p>
+   <p>サポートされているクラウドプロバイダーはありません</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+<li><p>プランニングパッケージを含むあらゆるワークフロー</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>必要システム構成</p></td> 
+   <td><p>設定エリアのシステム環境設定の同僚とMCP環境設定をオンにする必要があります</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow ライセンス</p></td> 
    <td><p>標準</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> 
    <ul>
-   <li><p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   </li>
+   <li><p>アクセス レベルには、ワークフローとプランニング ライセンス タイプの両方を追加する必要があります <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>アクセスレベルの「アイデア創出スペースを無効にする」設定を選択解除する必要があります</p></li>
+   <li><p>アクセスレベルの「WorkfrontでCX Coworker パネルを無効にする」設定を選択解除する必要があります</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -148,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -156,7 +167,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -166,18 +177,18 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 共同作業者がオンになっているPlanningでWorkfrontにログインし、次のいずれかの操作を行ってアイデア創出スペースを初めて開き、ブリーフを作成します。
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **アイデア創出スペース**&#x200B;に移動します
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **計画** > ワークスペースをクリック > レコードタイプをクリック > **新しいレコード** > **アイデア創出スペースを開始**&#x200B;に移動
+   * **メインメニュー** ![ メインメニュー](assets/main-menu-lines.png) > **アイデア創出スペース**&#x200B;に移動します
+   * **メインメニュー** ![ メインメニュー](assets/main-menu-lines.png) > **計画** > ワークスペースをクリック > レコードタイプをクリック > **新しいレコード** > **アイデア創出スペースを開始**&#x200B;に移動
 
    アイデア創出スペースが開き、新しいアイデア創出のタイトルがデフォルトで次の形式で付けられます。
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   アイデア創出スペースを使用してレコードを作成する方法の詳細については、[&#x200B; アイデア創出スペースの概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
+   アイデア創出スペースを使用してレコードを作成する方法の詳細については、[ アイデア創出スペースの概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
 
 1. （条件付き）アイデア創出スペースで既存の概要を開くには、共同作業者がオンになっているPlanningでWorkfrontにログインし、次のいずれかの操作を行います。
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **計画**&#x200B;に移動> ワークスペースをクリック > レコードタイプをクリック >既存のレコードをクリック > **アイデア創出スペースで開く**
+   * **メインメニュー** ![ メインメニュー](assets/main-menu-lines.png) > **計画**&#x200B;に移動> ワークスペースをクリック > レコードタイプをクリック >既存のレコードをクリック > **アイデア創出スペースで開く**
 
      アイデアの名前は、レコードの名前と一致します。
 
@@ -212,14 +223,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >概要にファイルを直接追加することはできません。 最初に、ファイル情報をカードに転送して、ブリーフに送信する必要があります。
 
 
-1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、アイデア創出スペース内のアイテムを検索し、リストに表示されたらクリックしてリストに移動します。
+1. **検索** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、アイデア創出スペース内のアイテムを検索し、リストに表示されたらクリックしてリストに移動します。
 
 1. （オプション）各カードの下部にある「**ソース**」をクリックして、情報の収集元を確認します。
 
    Workfront PlanningまたはWebから情報をインポートできます。
 
-   スペースの右上隅にある&#x200B;**ソース** アイコン ![&#x200B; ソースアイコン &#x200B;](assets/sources-icon.png)をクリックして、スペース内のすべてのカードのソースのリストを表示することもできます。
-1. （オプション）スペースの右上隅にある&#x200B;**コメント** ![&#x200B; コメントアイコン &#x200B;](assets/comments-icon.png)をクリックし、他のユーザーに&#x200B;**@** タグを付けて、スペース内でブレインストーミングを開始します。
+   スペースの右上隅にある&#x200B;**ソース** アイコン ![ ソースアイコン ](assets/sources-icon.png)をクリックして、スペース内のすべてのカードのソースのリストを表示することもできます。
+1. （オプション）スペースの右上隅にある&#x200B;**コメント** ![ コメントアイコン ](assets/comments-icon.png)をクリックし、他のユーザーに&#x200B;**@** タグを付けて、スペース内でブレインストーミングを開始します。
 
    ユーザーには、タグに関する通知メールが送信されます。
 1. （オプション）コメントカード内の&#x200B;**フィルター** アイコン ![](assets/filter-comments-icon.png)をクリックして、次の条件でコメントをフィルタリングします。
@@ -228,7 +239,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * コメントが追加された時間
    * ステータス（コメントが解決された箇所、または未解決の箇所）
    * 未読（未読コメントのみを表示）
-1. （オプション）カードの&#x200B;**親指の上下**&#x200B;または&#x200B;**親指の下下** アイコンを使用して、カードの情報の正確性に関するフィードバックを提供します![親指の上下アイコン &#x200B;](assets/thumbs-up-and-down-icons.png)。
+1. （オプション）カードの&#x200B;**親指の上下**&#x200B;または&#x200B;**親指の下下** アイコンを使用して、カードの情報の正確性に関するフィードバックを提供します![親指の上下アイコン ](assets/thumbs-up-and-down-icons.png)。
 1. カードをクリックするか、すべてのカードを含むフレームをクリックし、**概要に追加**&#x200B;をクリックして、情報を概要に追加します。
 
    Workfrontは、各情報と、データを保存する可能性が最も高いフィールドを一致させます。
@@ -236,12 +247,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    例えば、タイムラインは日付型フィールドに追加され、説明は段落型フィールドに追加されます。
 
 1. （条件付き）カードをクリックし、「**AIに質問…**」をクリックして、情報を概要に追加する前に、次のステップのアイデアを得ます。 答えは、各カードの情報のコンテキストにあります。
-1. アイデア出しスペースの左上隅にある「**ドキュメントを追加**」アイコン「![&#x200B; ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、ドキュメントをスペースにアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
+1. アイデア出しスペースの左上隅にある「**ドキュメントを追加**」アイコン「![ ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、ドキュメントをスペースにアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
 
    >[!TIP]
    >
    >ドキュメントにアクセスしてスペースにアップロードするには、「ドキュメント」設定をオンにする必要があります。
-   >詳しくは、この記事の「[&#x200B; アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
+   >詳しくは、この記事の「[ アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
    > 
 1. **WF タクソノミーカードを追加** アイコン ![Workfront計画から追加](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip-->をクリックし、接続されたレコードタイプを選択してから、各タイプのレコードを選択して、選択したレコードタイプにそのレコードの情報を追加します。
 
@@ -264,7 +275,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）任意のアイデア カード セットから紫色のコネクタのいずれかをクリックし、**完全なプロンプトをコピー** アイコンをクリックして、カードを生成したプロンプトをクリップボードにコピーし、Coworker プロンプト ボックスに貼り付けます。
 
-   ![&#x200B; プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
+   ![ プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
 
 1. （オプション）アイデア創出スペースの上部にある&#x200B;**取り消し**&#x200B;または&#x200B;**やり直し** アイコン ![取り消しとやり直し](assets/undo-redo-icons.png)をクリックして、アクションをキャンセルまたは取り消します。
 1. 元のキャンペーン目標、AIが生成した引用を含むあらゆるコンセプトカード、追加のドキュメント、取り込んだ実際のWorkfrontプランニングレコード（商品、ペルソナなど）の全体像を確認できます。 左下隅の&#x200B;**概要**&#x200B;概要カードを使用すると、すべての概要をまとめて表示できます。
@@ -284,7 +295,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    これにより、レコードまたは追加情報を含むファイルの作成が完了します。 既存のレコードから開始した場合、概要の情報がレコードに追加されます。 新しいレコードで開始した場合は、ブリーフの情報を使用してレコードが作成されます。
 
-   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[&#x200B; アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
+   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[ アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
 
 
 ## アイデア創出スペースの設定
@@ -300,25 +311,29 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     -->
 1. 「**保存**」をクリックします。
 
-1. 「**ヘルプ**」アイコンの左側にある「**ズームレベル**」ドロップダウンアイコンまたは「**ヘルプ**」アイコン「![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)」をクリックして、オプションを選択するか、キーボードショートカットを確認して、アイデア出しスペースをナビゲートしたり、別のズーム値を選択したりします。
+1. **ヘルプ** アイコン ![ ヘルプアイコン ](assets/more-information-icon.png)の左側にある&#x200B;**ズームレベル** ドロップダウンメニューをクリックして、オプションを選択します。
 
-   次のズームレベルから選択します。
+   次のオプションから選択します。
 
-   * 100％表示
-   * 200%にズーム
-   * 全体表示
+   * **全体表示**
+   * **ズームイン**
+   * **ズームアウト**
+   * **50**、**100**、**150**&#x200B;または&#x200B;**200%**&#x200B;にズームします
+   * **ドットグリッドを表示**：選択範囲をオンにしてドットグリッドを表示します。
+   * **製品ツアー**：アイデア創出スペースの使用中にガイドのヒントをオプトアウトするには、選択範囲をオフにします。
 
-   または、次のいずれかのショートカットを使用してページを移動します。
+1. **ヘルプ** アイコン ![ ヘルプアイコン ](assets/more-information-icon.png)をクリックして、アイデア出しスペースのナビゲーションまたは別のズーム値の選択に使用できるキーボードショートカットを確認します。
 
-   | アクション | ショートカット |
-   | --- | --- |
-   | ズームイン/ズームアウト | Ctrl/⌘ + / − |
-   | 選択範囲に合わせてズーム/選択範囲に合わせる | — |
-   | カーソルにズーム | Ctrl/⌘ + スクロール |
-   | カンバスのパン | スペースを押しながらドラッグ |
-   | ドットグリッドを表示・非表示 | G |
-
-
+| アクション | ショートカット |
+| --- | --- |
+| ズームイン/ズームアウト | Ctrl/⌘ + / − |
+| 100%にズーム / | Ctrl/⌘ 1 / 1 |
+| 200%にズーム / | Ctrl/⌘ 2 / 2 |
+| 全体表示 | Ctrl/⌘ 0 / 0 |
+| 選択範囲に合わせてズーム | Alt Ctrl 0 |
+| カーソルにズーム | Ctrl/⌘ スクロール |
+| パン | スペースを押しながらドラッグ |
+| ドットグリッドを表示・非表示 | G |
 
 <!--
 
