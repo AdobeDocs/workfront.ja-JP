@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
+source-git-commit: 260299ae364ca925a9b3e95e93dd64ff2a2dc2d1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 94%
@@ -80,7 +80,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -157,4 +157,5 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 ### コミュニティフォーラムで回答を検索
 
 * **質問する**：ドキュメントで質問の答えが見つからない場合は、[Workfront コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)に投稿して、他のユーザーや専門家に支援を求めてください。
+
 
