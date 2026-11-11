@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 1%
 ---
 
 # Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ
@@ -91,35 +91,37 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 >
 >アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningをお持ちの場合は、Workfrontにログインするとすぐに利用できます。
 >
->アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 組織が次のアクセス権を持っている場合は、アイデア創出スペースにアクセスできます。
 
 * クラウドプロバイダー：
 
-  * AWS
+  * Amazon Web Services（AWS）
 
     AzureおよびGCP プロバイダーはサポートされていません。
 
 * 導入製品：
 
   * Adobe WorkfrontとWorkfront計画
-  * Adobe Enterprise CX Coworker for Workfront
+  * WorkfrontのCX Enterprise Coworker
 
     >[!IMPORTANT]
     >
-    >Adobe CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 これらの企業ではAI アシスタントを利用できますが、Coworkerを導入していないWorkfrontのお客様はアイデア創出スペースを利用できません。
+    >CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 これらの企業ではAI アシスタントを利用できますが、Coworkerを導入していないWorkfrontのお客様はアイデア創出スペースを利用できません。
 
-* Adobe パッケージ：
+* Adobe パッケージ：<!--Et wanted the Coworker added to these-->
 
   * Open Beta リリース（2026年11月12日以降）では、次の要件が満たされている必要があります。
 
-    * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+    * Adobe CX Enterprise Coworkerがアクティブ化されたWorkfront計画パッケージを含むAdobe Workfront Workflow パッケージ
 
   * 一般提供リリース（2027年2月1日を対象）の後、次のいずれかになる可能性があります。
 
     * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
     * スタンドアロン製品としてのAdobe Workfront計画
+
+    両方のパッケージでAdobe CX Enterprise Coworkerがアクティブ化されている必要があります
 
 
 
@@ -189,6 +191,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 アイデア出しスペースで使用する場合のCoworkerの機能の一部を次に示します。
 
+* What-if分析を実施して、様々なキャンペーンテーマやメッセージを比較したり、戦略的方向性をテストしたりします
 * ドキュメントやソーシャルインサイトのアップロード
 * 作成する概要に関連するweb コンテンツにアクセスします
 * キャンペーン目標の定義
@@ -211,7 +214,12 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 1. この記事の「[製品要件](#product-requirements)」の節で説明されているように、製品要件を満たしていることを確認してください。
 1. Adobeのアカウント担当者に連絡して、クローズドBetaへの参加に関心を示すか、利用可能になった時点でOpen Betaに参加します。
 
-   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 ほかのユーザーにもオンにすることができます。
+   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 次のいずれかの環境で、他のすべてのユーザーに対してオンにすることができます。
+
+   * 実稼動
+   * プレビュー
+   * カスタムサンドボックス
+
 1. （推奨）最初のキャンペーンを特定：更新する最近のキャンペーン、またはゼロから作成する新しいキャンペーン。
 
 アイデア出しスペースの使用について詳しくは、次の記事も参照してください。
@@ -226,14 +234,14 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 * Workfront Planningで新しいレコードを手動で追加する場合
 
-  ![計画中のアイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
+  ![計画中のアイデア創出スペース ](assets/ideation-space-in-planning-new-record.png)
 * Workfrontのメインメニューで、アイデア創出スペース領域を開きます
 
-  ![&#x200B; メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
+  ![ メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
 
 >[!TIP]
 >
->レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 >
 
 ## アイデア創出スペースで生成されたオブジェクト
@@ -285,10 +293,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

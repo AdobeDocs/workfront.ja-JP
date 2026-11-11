@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 4%
 ---
 # Adobe Workfront Planning の無料体験版の使用を開始
@@ -159,7 +159,7 @@ Lauren wanted this out:
 
 Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
-Workfront計画の導入方法に関するベストプラクティスについては、[Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)を参照してください。
+Workfront計画の導入方法に関するベストプラクティスについては、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)を参照してください。
 
 <!--
 
@@ -231,7 +231,7 @@ Workfront管理者は、組織内の全員がWorkfront Planningの無料体験�
 
 Workfront Planningの使用について詳しくは、[Adobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
-Workfront計画の導入方法に関するベストプラクティスについては、[Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)を参照してください。
+Workfront計画の導入方法に関するベストプラクティスについては、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)を参照してください。
 
 ## 計画に関するフィードバックを送信
 
@@ -240,7 +240,7 @@ Workfront Planningでの経験に関するフィードバックを送信する�
 1. Workfrontにログインし、任意のページを開きます。
 1. Workfront ページの右下隅にある簡単なアンケートを見つけて質問に答え、**次へ**&#x200B;をクリックします。
 
-   ![&#x200B; プロモ – ション体験版アンケート &#x200B;](assets/promo-trial-survey.png)
+   ![ プロモ – ション体験版アンケート ](assets/promo-trial-survey.png)
 
 1. 2番目のスライドで、質問に答え、**送信**&#x200B;をクリックします。
 
@@ -254,7 +254,7 @@ Workfront Planningでの経験に関するフィードバックを送信する�
 1. （条件付き、必須）Workfront管理者は、無料体験版契約書に署名します。
 
    詳しくは、この記事の「[Adobe Workfront計画の無料体験版に登録する](#enroll-in-the-adobe-workfront-planning-free-trial)」の節を参照してください。
-1. （条件付き）体験版の契約書がWorkfront管理者によって署名された後、**メインメニュー** アイコン ![](assets/main-menu-shell.png)をクリックし、次のいずれかをクリックして&#x200B;**計画** エリアにアクセスします。
+1. （条件付き）体験版の契約書がWorkfront管理者によって署名された後、**メインメニュー** アイコン ![ メインメニュー](assets/main-menu-shell.png)をクリックし、次のいずれかをクリックして&#x200B;**計画** エリアにアクセスします。
 
    * **計画**。 アイコンの横に&#x200B;**体験版** ラベルが表示されます。
    * **プロジェクト**、**リクエスト**、**カレンダー**&#x200B;をクリックし、**キャンペーンカレンダーを探索**&#x200B;をクリックします
@@ -265,9 +265,9 @@ Workfront Planningでの経験に関するフィードバックを送信する�
 
    * **グローバル分類と分類**: マーケティング記録システムの基盤となるサンプル プランニング オブジェクトの種類が含まれています。
 
-     このワークスペース内のすべてのレコードタイプは、Workfront Planning構造の非構築ブロックを構成できます。 すべてのレコードタイプはグローバルであり、他のすべてのワークスペースから追加または接続できます。 詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+     このワークスペース内のすべてのレコードタイプは、Workfront Planning構造の非構築ブロックを構成できます。 すべてのレコードタイプはグローバルであり、他のすべてのワークスペースから追加または接続できます。 詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
-     グローバル分類ワークスペースの使用方法に関する推奨事項については、[最初の成果を持続可能な勢いに変える：管理された拡張のためのプレイブック &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)を参照してください。
+     グローバル分類ワークスペースの使用方法に関する推奨事項については、[最初の成果を持続可能な勢いに変える：管理された拡張のためのプレイブック ](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)を参照してください。
    * 追加のサンプルワークスペース：次のワークスペースは、サンプル企業（Fréscopa）が特定のワークスペース、レコードタイプ、フィールド、および組織構造と作業構造のアーキテクチャに対するビューとして必要なワークスペースの例として機能します。
 
      * **Fréscopa グローバルマーケティング**
@@ -324,10 +324,10 @@ Workfront Planningでの経験に関するフィードバックを送信する�
      詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
    * レコードタイプ
 
-     詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+     詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
    * ビュー
 
-     詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+     詳しくは、[ ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
    Workfront Planningの導入方法と、そのガバナンスの中心を構築する方法について詳しくは、この記事の「[Workfront Planning](#additional-information-about-workfront-planning)」の節を参照してください。
 1. （オプション）作成したワークスペースを編集するには、次のいずれかの操作を行います。
@@ -340,7 +340,7 @@ Workfront Planningでの経験に関するフィードバックを送信する�
      詳しくは、「[Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)」を参照してください。
 1. （オプション）ユーザーの&#x200B;**メインメニュー**&#x200B;からプランニング領域を削除するには、ユーザーに割り当てられた&#x200B;**レイアウトテンプレート**&#x200B;をカスタマイズし、レイアウトテンプレートの&#x200B;**メインメニューの設定**&#x200B;領域から削除します。
 
-   詳しくは、[&#x200B; レイアウトテンプレートを使用したメインメニューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+   詳しくは、[ レイアウトテンプレートを使用したメインメニューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
    >[!TIP]
    >

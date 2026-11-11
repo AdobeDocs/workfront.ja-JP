@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 4%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>クラウドプロバイダーの要件</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services（AWS）</p>
    <p><b>メモ：</b></p>
-   <p>サポートされているクラウドプロバイダーはありません</p>
+   <p>他のクラウドプロバイダーはサポートしていません。</p>
    </td> 
   </tr>
 <tr> 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -160,7 +160,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -170,7 +170,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * アイデア創出スペースを使用してレコードを作成または編集するには、Workfront Planningにワークスペースとレコードタイプが必要です。
 * 新しいレコードは、作成方法に関係なく、常にプレースホルダーコンテンツから開始されます。
 * アイデアの概要にリンクされているプランニングレコードを削除すると、アイデアの概要はアイデアのスペースに残り、関連するスペースは削除されません。
-* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。<!--this might change?-->
+* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。<!--this might change after beta?-->
 * Workfront Planningでフィールドを作成、編集または削除する場合、次のシナリオが存在します。
 
   * アイデア立案ブリーフにリンクされたレコードに作成された新しいフィールドは、毎日ブリーフに追加されます。 新しいフィールドは、アイデアの概要では空で表示されます。
@@ -189,20 +189,24 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. レコードを追加できるレコードタイプのカードをクリックします。
 1. レコードを作成するには、次のいずれかの操作を行います。
 
-   * レコードタイプページの任意のビューで、ページの右上隅にある&#x200B;**新しいレコード**&#x200B;をクリックし、**レコードを追加する方法を選択** ボックスで、**アイデア創出スペースを開く**&#x200B;をクリックし、**続行**&#x200B;をクリックします。
-   * レコードテーブルの一番下までスクロールして&#x200B;**新しい行**&#x200B;をクリックし、**アイデア創出スペースを開く**&#x200B;をクリックします。
+   * レコードタイプページの任意のビューで、ページの右上隅にある&#x200B;**新しいレコード**&#x200B;をクリックし、**レコードを追加する方法を選択** ボックスで、**アイデア創出スペースを開始**&#x200B;をクリックし、**続行**&#x200B;をクリックします。
+   * レコードテーブルの一番下までスクロールし、**新しい行**&#x200B;をクリックしてから、**アイデア創出スペースの開始**&#x200B;をクリックします。
 
      >[!TIP]
      >
      >「**表示しない**」を選択すると、今後のプロンプトが完全に閉じられます。 閉じるアイコン **X**&#x200B;をクリックすると、このボックスは閉じますが、次回レコードをインラインに追加すると再度表示されます。
 
-   ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
+   ![ アイデア創出スペースを開くボタンを含む新しいレコードボックス ](assets/new-record-creation-picker-with-ideation.png)
 
-   アイデア創出スペースが新しいタブで開きます。
+1. ベータ版の契約書を読み、**同意**&#x200B;をクリックします。 アイデア創出スペースを使用するには、契約書に署名する必要があります。
 
-   右側のパネルが開きます。
+   次のことが発生します。
 
-   レコードはすぐにプレースホルダー名で作成されます。
+   * アイデア立案スペースキャンバスが新しいタブで開きます。
+
+   * 右側のパネルが開きます。
+
+   * レコードはすぐにプレースホルダー名で作成されます。
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -212,7 +216,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    共有する詳細情報が多ければ多いほど、アイデア創出スペースから提供される情報がより有用になります。 例えば、計画しているキャンペーンの説明を「マーケティングエージェンシーの学校戻りキャンペーン」と入力します。
 
-1. 記事[&#x200B; アイデア創出スペースでブリーフを作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)の説明に従って、アイデア創出ブリーフの作成を続行します。
+1. 記事[ アイデア創出スペースでブリーフを作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)の説明に従って、アイデア創出ブリーフの作成を続行します。
 
    <!--
     1. Click **Start ideating**.
@@ -243,7 +247,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. Workfront Planningの既存のレコードに移動し、その詳細ページを開きます。
 
-1. 「**アイデア創出スペースで開く** ![](assets/open-in-ideation-space.png)」をクリックします。 これにより、新しいタブでアイデア創出スペースが開きます。
+1. 詳細ページの右上隅にある「**アイデア創出スペースで開く**」をクリックします。 これにより、新しいタブでアイデア創出スペースが開きます。
 
    レコードのアイデアが既に存在する場合、そのスペースが開きます。
 
@@ -252,7 +256,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >[!TIP]
    >
    >アイデア出しスペースを使用してレコードを一括編集することはできません。
-1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
+1. この記事の「[ アイデア創出スペース ](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 

@@ -1,5 +1,5 @@
 ---
-title: アイデア創出スペースの使用に必要なアクセス
+title: アイデア出しスペースの使用に必要なアクセス
 description: Adobe Workfront Planningでは、キャンペーンを開始する前にアイデアを立案するための機能が追加されました。 AIを活用して、データとインプットを具体的な計画に変換し、Adobeのアイデア創出スペースで空白ページを作成するのではなく、情報にもとづいた出発点を提供します。
 author: Alina
 feature: Workfront Planning
@@ -19,13 +19,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '969'
 ht-degree: 3%
 ---
 
-# アイデア創出スペースの利用に必要なアクセス
+# アイデア創出スペースの使用に必要なアクセス
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 これは、**アイデア創出スペース Beta** プログラムの一部としてのみ使用できます。</span>
 
@@ -71,17 +71,17 @@ Workfrontのアイデア創出スペースでは、WorkfrontのAdobe Enterprise 
 
 >[!NOTE]
 >
->アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningをお持ちの場合は、Workfrontにログインするとすぐに利用できます。
+>アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningがある場合にWorkfrontにログインできる場合は、すぐに利用できます。
 >
->アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 組織が次のアクセス権を持っている場合は、アイデア創出スペースにアクセスできます。
 
 * クラウドプロバイダー：
 
-  * AWS
+  * Amazon Web Services（AWS）
 
-    AzureおよびGCP プロバイダーはサポートされていません。
+    AzureおよびGCP プロバイダーは、アイデア創出スペースではサポートされていません。
 
 * 導入製品：
 
@@ -92,16 +92,20 @@ Workfrontのアイデア創出スペースでは、WorkfrontのAdobe Enterprise 
     >
     >CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 これらの企業ではAI アシスタントを利用できますが、Coworkerを導入していないWorkfrontのお客様はアイデア創出スペースを利用できません。
 
-* Adobe パッケージ：
+* Adobe パッケージ：<!--Et wanted the Coworker added to these-->
 
   * Open Beta リリース（2026年11月12日以降）では、次の要件が満たされている必要があります。
 
-    * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+    * Adobe CX Enterprise Coworkerがアクティブ化されたWorkfront計画パッケージを含むAdobe Workfront Workflow パッケージ
 
   * 一般提供リリース（2027年2月1日を対象）の後、次のいずれかになる可能性があります。
 
     * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
     * スタンドアロン製品としてのAdobe Workfront計画
+
+    両方のパッケージでAdobe CX Enterprise Coworkerがアクティブ化されている必要があります
+
+
 
 
 <!--
@@ -132,7 +136,7 @@ Workfrontのアイデア創出スペースにアクセスするには、次の�
 
 * セットアップ <!--check the UI because Becky was going to change it-->のシステム環境設定エリアで、同僚とMCPの環境設定を有効にします
 
-  詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
   >[!IMPORTANT]
   >
@@ -153,7 +157,7 @@ Workfrontのアイデア創出スペースにアクセスするには、次の�
     >
     > システム管理者は常にアイデア創出スペースにアクセスできます。
     >
-    >詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+    >詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 
 
@@ -171,7 +175,7 @@ Workfrontのアイデア創出スペースにアクセスするには、次の�
 
 Workfront Planningのアイデア創出スペースを使用する場合、各プランニングレコードは、アイデア創出スペース内の1つの概要に接続されます。
 
-アイデア創出スペースの概要の権限は、Workfront Planning レコードの権限から継承されます。<!--not sure if this is right, because now you can share the ideation with others??-->
+アイデア創出スペースの概要の権限は、Workfront Planning レコードの権限から継承されます。
 
 アイデア創出スペースでレコードを作成または編集するには、Planningのレコードタイプに対してContribute以上の権限が必要です。
 
@@ -183,6 +187,8 @@ Workfront Planningのアイデア創出スペースを使用する場合、各�
 |---|---|
 | レコードに対するアクセス許可の貢献度を上げる | レコードのアイデア創出スペースにブリーフを作成し |
 | レコードへの権限の表示 | アイデア出しスペース内のレコードの概要を読み取ることはできますが、変更することはできません |
+
+また、アイデア出しキャンバスを他のユーザーと共有することもできます。 詳しくは、この記事の次の節を参照してください。
 
 ## アイデア創出スペースの権限
 
@@ -206,7 +212,7 @@ Workfront Planningのアイデア創出スペースを使用する場合、各�
 | コメンター | アイデア出しスペースの表示とコメントができます |
 | ビューア | アイデア創出スペースを表示できます |
 
-アイデア創出スペースの共有について詳しくは、[&#x200B; アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
+アイデア創出スペースの共有について詳しくは、[ アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
 
 <!--
 there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users

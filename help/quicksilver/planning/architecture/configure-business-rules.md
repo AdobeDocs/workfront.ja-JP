@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 5%
 ---
 
@@ -85,7 +85,7 @@ Adobe Workfront Planningのレコードタイプのビジネスルールを設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -147,7 +147,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビジネスルール設定フォームが開きます。
 
-   ![&#x200B; ビジネスルール設定フォーム &#x200B;](assets/business-rule-setup-form.png)
+   ![ ビジネスルール設定フォーム ](assets/business-rule-setup-form.png)
 
 1. ビジネスルール設定フォームの&#x200B;**If** セクションで、特定のルールに基づいて制限または許可するアクションを選択します。 次から選択してください：<!--check UI text-->
    * **レコード編集**：このルールで定義された条件が満たされた場合、ユーザーはレコードを編集または編集できません。
@@ -187,7 +187,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 「**アクティブ化**」をクリックして、このレコードタイプのルールをアクティブにし、「**保存**」をクリックします。
 
    ルールは、アクティベートした直後に適用されます。選択したレコードタイプのレコードを編集または削除する権限を持つすべてのユーザーは、ルールに従う必要があります。
-1. （オプション）ページヘッダーのビジネスルールの名前に&#x200B;**詳細** メニュー![](assets/more-menu.png)をクリックして、**ルールの詳細** ボックスを開き、ビジネスルールに関する情報を更新します。
+1. （オプション）ページヘッダーのビジネスルールの名前に&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックして、**ルールの詳細** ボックスを開き、ビジネスルールに関する情報を更新します。
 1. （オプションおよび推奨）ページヘッダーの&#x200B;**ビジネスルール**&#x200B;の左側にある後方矢印をクリックして、レコードタイプページを表示し、テーブルビューに移動するか、レコードのページを開いて、レコードの編集または削除を試して、作成したルールをテストします。
 
 ## ビジネスルールの管理
@@ -204,7 +204,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **非アクティブ化**：これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
    * **削除**: ルールに関するすべての情報が削除されます。 削除されたルールは復元できません。
 
-   ![&#x200B; ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
+   ![ ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
 
    編集されたルールまたはルールの非アクティブ化は、今後のレコードにのみ適用され、過去にさかのぼって適用されません。
 1. （オプションおよび条件付き）テーブルで非アクティブ化されたビジネスルールの名前にカーソルを合わせ、**詳細** > **アクティブ化**&#x200B;をクリックしてルールをアクティブ化します。
