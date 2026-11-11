@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 32%
@@ -102,26 +102,26 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>迅速リリースプロセスを有効にする</p> </td> 
-      <td>四半期ごとのリリースの代わりに、組織の毎月の Workfront リリースを有効にできます。</p><p>迅速リリースプロセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">組織での迅速リリースを有効化または無効化</a>を参照してください。</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>iframeへのWorkfrontの埋め込みを許可</p> </td> 
-      <td>Iframe に Workfront を埋め込むことができます。<p>このオプションはデフォルトでは無効になっています。</p><p><b>重要</b>：Iframe で web ベースのアプリケーションを表示すると、アプリケーションでクリックジャックのセキュリティの脆弱性の問題が生じやすくなります。</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Office 365 アドインで SAML 2.0 認証を許可する</td> 
-      <td> <p>Workfrontが SAML 2.0 シングルサインオンソリューションと統合されている場合、Workfront を Office 365 アドイン用にのみ Iframe に埋め込むことができます。 </p> <p>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：上記のオプション「<strong>Iframe への Workfront の埋め込みを許可</strong>」を有効にする場合、オプション「<strong>Office 365 アドインでの SAML 2.0 認証を許可</strong>」が有効になり、グレー表示になります。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">外部ページ URL を作成する際に、セッション情報の使用を有効にします。</td> 
-      <td> <p>ユーザーがダッシュボードに外部ページを追加する際に、ユーザーがサイトのセッション ID 情報を使用できるようにします。</p> <p>このオプションは安全ではなく、デフォルトでオフになっています。 統合には、代わりに OAuth を使用することをお勧めします。</p> <p>ダッシュボードへの外部ページの追加について詳しくは、<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">外部 web ページをダッシュボードに埋め込み</a>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Workfrontのモバイルアプリケーションを使用して</td> 
-      <td> <p>モバイルアプリへのアクセスを許可します（iPadおよびモバイルアプリの場合はWorkfront ビュー）</p> <p>このオプションは、デフォルトで有効になっています。 </p> <p>Workfront View について詳しくは、<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront View を使用</a>を参照してください。 モバイルアプリについて詳しくは、<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront モバイルアプリの使用：記事インデックス </a>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>迅速リリースプロセスを有効にする</p> </td> 
+         <td>四半期ごとのリリースの代わりに、組織の毎月の Workfront リリースを有効にできます。</p><p>迅速リリースプロセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">組織での迅速リリースを有効化または無効化</a>を参照してください。</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>iframeへのWorkfrontの埋め込みを許可</p> </td> 
+         <td>Iframe に Workfront を埋め込むことができます。<p>このオプションはデフォルトでは無効になっています。</p><p><b>重要</b>：Iframe で web ベースのアプリケーションを表示すると、アプリケーションでクリックジャックのセキュリティの脆弱性の問題が生じやすくなります。</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Office 365 アドインで SAML 2.0 認証を許可する</td> 
+         <td> <p>Workfrontが SAML 2.0 シングルサインオンソリューションと統合されている場合、Workfront を Office 365 アドイン用にのみ Iframe に埋め込むことができます。 </p> <p>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：上記のオプション「<strong>Iframe への Workfront の埋め込みを許可</strong>」を有効にする場合、オプション「<strong>Office 365 アドインでの SAML 2.0 認証を許可</strong>」が有効になり、グレー表示になります。</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">外部ページ URL を作成する際に、セッション情報の使用を有効にします。</td> 
+         <td> <p>ユーザーがダッシュボードに外部ページを追加する際に、ユーザーがサイトのセッション ID 情報を使用できるようにします。</p> <p>このオプションは安全ではなく、デフォルトでオフになっています。 統合には、代わりに OAuth を使用することをお勧めします。</p> <p>ダッシュボードへの外部ページの追加について詳しくは、<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">外部 web ページをダッシュボードに埋め込み</a>を参照してください。</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Workfrontのモバイルアプリケーションを使用して</td> 
+         <td> <p>モバイルアプリへのアクセスを許可します（iPadおよびモバイルアプリの場合はWorkfront ビュー）</p> <p>このオプションは、デフォルトで有効になっています。 </p> <p>Workfront View について詳しくは、<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront View を使用</a>を参照してください。 モバイルアプリについて詳しくは、<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront モバイルアプリの使用：記事インデックス </a>を参照してください。</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>メールアドレスを使用して、Workfront アカウントを持たないユーザーと共同作業</p> </td> 
       <td>Workfront ユーザーは、名前の代わりにメールアドレスを含めることにより、Workfront アカウントを持たないユーザーと特定の項目を共有できます。 ユーザーは、メールアドレスを使用して、以下の項目を外部ユーザーと共有できます。
        <ul>
@@ -196,7 +196,6 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
     <tr> 
       <td role="rowheader">Planning デザイナー</td> 
       <td>これは、Workfront Planning パッケージを購入したお客様のみが使用できます。 この設定を有効にすると、Planning Designerを使用してワークスペースを作成および編集できるようになります。 詳しくは、「<a href="/help/quicksilver/planning/general/planning-ai-designer.md">Adobe Workfront計画Designerの基本を学ぶ</a>」を参照してください。</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">読み取り専用 MCP ツール</td> 

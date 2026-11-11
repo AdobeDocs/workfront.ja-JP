@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 93%
@@ -99,8 +99,8 @@ You must have at least one request type selected. You can select multiple reques
 
 1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL ステータス]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL イシュー]**」タブをクリックします。
-1. 「**[!UICONTROL 問題]**」タブの上部で、ドロップダウンをクリックし、要求タイプを選択してから、表示される「**[!UICONTROL 編集]**」アイコンをクリックします。
+1. 「**[!UICONTROL イシュー]**」タブを選択します。
+1. 「**[!UICONTROL 問題]**」タブの上部で、ドロップダウンをクリックし、リクエストタイプを選択してから、表示される「**[!UICONTROL 編集]**」アイコンをクリックします。
 
    ![要求タイプ名を編集](assets/edit-request-type-name-nwe.png)
 

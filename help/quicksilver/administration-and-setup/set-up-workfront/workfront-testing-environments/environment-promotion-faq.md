@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 19%
+source-wordcount: '260'
+ht-degree: 7%
 ---
 # 環境のプロモーションに関するよくある質問
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 
 * Workfront管理者は、組織のライセンスを検索できます。
 
-  1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
+  1. Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
   1. 左側のパネルで、「**システム**」をクリックします。
   1. Workfront プランを表示するには、「**ライセンス**」を選択します。
 プランがページの右上隅付近に表示されます。
