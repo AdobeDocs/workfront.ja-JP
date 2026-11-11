@@ -168,7 +168,7 @@ Depending on what objects you access the commenting experience for, you might fi
   >
   >「**コメントを要約**」タブを使用するには、AI アシスタント契約書に署名するか、設定エリアで同僚とMCPの環境設定を有効にする必要があります。 企業には、AI アシスタントやCX Enterprise Coworker for Workfrontがあります。
   >
-  >詳しくは、[WorkfrontのAI アシスタント ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
+  >詳しくは、[WorkfrontのAI アシスタント &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
 
 
 ### 異なるオブジェクトの更新領域の類似点と相違点
@@ -202,7 +202,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * ボード領域の接続されたカード
 
-    詳しくは、[ ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+    詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * 次のオブジェクトには、「システム活動」タブに代わる「履歴」タブがあります。
 
@@ -387,4 +387,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
