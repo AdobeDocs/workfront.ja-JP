@@ -62,8 +62,8 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 次の記事には、アイデア出しスペースに関する情報が含まれており、その機能のガイドを提供します。
 
 * ここでは、Workfrontのアイデア創出スペースの一般的な理解を得るために次の手順を実行します。[Adobe Workfront計画のアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
-* システム管理者は、組織でアイデア創出スペースを利用できるようにする方法を理解していることを確認します。[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* 最初のキャンペーン戦略を作成する準備ができたら、アイデア出しスペースを使用してブリーフを作成する方法を確認します。[ アイデア出しスペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* Workfront計画から作業している場合は、アイデア創出スペースを使用してレコードを作成する方法を確認します。[ アイデア創出スペース概要から計画レコードを作成または編集](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* アイデア出しスペースで他のユーザーと共同作業：[ アイデア出しスペースを他のユーザーと共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
+* システム管理者は、組織でアイデア創出スペースを利用できるようにする方法を理解していることを確認します。[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* 最初のキャンペーン戦略を作成する準備ができたら、アイデア出しスペースを使用してブリーフを作成する方法を確認します。[&#x200B; アイデア出しスペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* Workfront計画から作業している場合は、アイデア創出スペースを使用してレコードを作成する方法を確認します。[&#x200B; アイデア創出スペース概要から計画レコードを作成または編集](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* アイデア出しスペースで他のユーザーと共同作業：[&#x200B; アイデア出しスペースを他のユーザーと共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 
