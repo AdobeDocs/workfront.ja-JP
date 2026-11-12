@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '14769'
+source-wordcount: '14776'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -2225,6 +2225,7 @@ ht-degree: 90%
     * [Adobe Workfront Planning API の基本](planning/general/planning-api-basics.md)
     * [Adobe Workfront プランニングの AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront計画CX Enterprise Coworkerの概要](planning/general/planning-cx-coworker-overview.md)
+    * {hide-from-toc}[Adobe Workfront計画に環境プロモーションを使用](planning/general/planning-environment-promotion.md)
     * [Adobe Workfront計画Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning の 2024年リリースアクティビティ](planning/general/release-activity.md)
     * [Adobe Workfront プランニングの 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)

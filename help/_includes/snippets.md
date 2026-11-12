@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
+source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
 workflow-type: tm+mt
 source-wordcount: '2437'
 ht-degree: 58%
@@ -407,8 +407,8 @@ OLD:
 
 **最新バージョン**:
 
-* Mac:2.3.0 （2026年10月28日現在）
-* Windows:2026年10月28日現在の2.3.0
+* Mac:2.4.0 （2026年11月11日現在）
+* Windows:2.4.0 （2026年11月11日現在）
 
 <!-- Release -->
 

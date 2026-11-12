@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 1%
 ---
 
 # Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ
@@ -97,29 +97,31 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 
 * クラウドプロバイダー：
 
-  * AWS
+  * Amazon Web Services（AWS）
 
     AzureおよびGCP プロバイダーはサポートされていません。
 
 * 導入製品：
 
   * Adobe WorkfrontとWorkfront計画
-  * Adobe Enterprise CX Coworker for Workfront
+  * WorkfrontのCX Enterprise Coworker
 
     >[!IMPORTANT]
     >
-    >Adobe CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 これらの企業ではAI アシスタントを利用できますが、Coworkerを導入していないWorkfrontのお客様はアイデア創出スペースを利用できません。
+    >CX Enterprise Coworkerは現在、ヘルスケアや金融などの機密性の高いデータを扱う企業では利用できません。 これらの企業ではAI アシスタントを利用できますが、Coworkerを導入していないWorkfrontのお客様はアイデア創出スペースを利用できません。
 
-* Adobe パッケージ：
+* Adobe パッケージ：<!--Et wanted the Coworker added to these-->
 
   * Open Beta リリース（2026年11月12日以降）では、次の要件が満たされている必要があります。
 
-    * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
+    * Adobe CX Enterprise Coworkerがアクティブ化されたWorkfront計画パッケージを含むAdobe Workfront Workflow パッケージ
 
   * 一般提供リリース（2027年2月1日を対象）の後、次のいずれかになる可能性があります。
 
     * Workfront計画パッケージを含むAdobe Workfront Workflow パッケージ
     * スタンドアロン製品としてのAdobe Workfront計画
+
+    両方のパッケージでAdobe CX Enterprise Coworkerがアクティブ化されている必要があります
 
 
 
@@ -189,6 +191,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 アイデア出しスペースで使用する場合のCoworkerの機能の一部を次に示します。
 
+* What-if分析を実施して、様々なキャンペーンテーマやメッセージを比較したり、戦略的方向性をテストしたりします
 * ドキュメントやソーシャルインサイトのアップロード
 * 作成する概要に関連するweb コンテンツにアクセスします
 * キャンペーン目標の定義
@@ -211,7 +214,12 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 1. この記事の「[製品要件](#product-requirements)」の節で説明されているように、製品要件を満たしていることを確認してください。
 1. Adobeのアカウント担当者に連絡して、クローズドBetaへの参加に関心を示すか、利用可能になった時点でOpen Betaに参加します。
 
-   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 ほかのユーザーにもオンにすることができます。
+   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 次のいずれかの環境で、他のすべてのユーザーに対してオンにすることができます。
+
+   * 実稼動
+   * プレビュー
+   * カスタムサンドボックス
+
 1. （推奨）最初のキャンペーンを特定：更新する最近のキャンペーン、またはゼロから作成する新しいキャンペーン。
 
 アイデア出しスペースの使用について詳しくは、次の記事も参照してください。

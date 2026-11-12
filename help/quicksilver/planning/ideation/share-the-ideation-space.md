@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 6%
+source-wordcount: '675'
+ht-degree: 7%
 ---
 
 # アイデア創出スペースを他のユーザーと共有する
@@ -63,7 +63,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Adobe Workfrontのアイデア創出スペースを使用して、施策やその他のレコードタイプの概要を事前に作成できます。 ブレインストーミングを実施し、情報を収集することで、共同作業で概要を作成してから、作業を開始できます。
+Adobe Workfrontのアイデア創出スペースを使用して、キャンペーンや他のレコードタイプのブリーフを作成し、配信することができます。 ブレインストーミングを実施し、情報を収集することで、共同作業で概要を作成してから、作業を開始できます。
 
 アイデア創出スペースとそれぞれの概要を、他のユーザーと共有することで、共同作業を促進できます。
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>クラウドプロバイダーの要件</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services（AWS）</p>
    <p><b>メモ：</b></p>
-   <p>サポートされているクラウドプロバイダーはありません</p>
+   <p>他のクラウドプロバイダーはサポートしていません。</p>
    </td> 
   </tr>
 <tr> 
@@ -192,7 +192,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      ワークフローとプランニングライセンスをアクセスレベルに持つ組織内の全員が、アイデアに関する情報を見つけてコメントできます。
    * **リンクを知っているすべてのユーザーがコメントできます**
 
-     アイデア出しリンクを共有したユーザーは、組織外のユーザーを含め、誰でもコメントできます。
+     アイデア出しキャンバスへのリンクを共有したユーザーは、組織外のユーザーを含め、そのリンクにコメントできます。
 
 1. 「**リンクをコピー**」をクリックして、アイデアのリンクを生成し、他のユーザーと共有します。 リンクがクリップボードに追加されます。
 1. 設定ボックスの戻る矢印をクリックして、共有に戻ります。
@@ -200,11 +200,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    | アイデア創出スペースの権限 | 機能 |
    |---|---|
-   | **編集者** | アイデア創出スペースの編集、ダウンロード、共有が可能 |
-   | **コメント** | アイデア創出スペースの表示とコメントを行えます |
-   | **ビューアー** | アイデア創出スペースを表示できます |
+   | **編集者** | アイデア出しキャンバスを編集、ダウンロード、共有できます |
+   | **コメント** | アイデア出しキャンバスを表示してコメントできます |
+   | **ビューアー** | アイデア出しキャンバスを表示できます |
 
-1. （オプション）割り当てにメッセージを含め、**招待**&#x200B;をクリックします。
+1. （オプション）共有の招待にメッセージを含め、**招待**&#x200B;をクリックします。
 
    招待されたユーザーには、権限の割り当てに関するメール通知が送信されます。
 

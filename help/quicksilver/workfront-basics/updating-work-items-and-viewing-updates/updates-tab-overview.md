@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 61%
+source-wordcount: '1391'
+ht-degree: 58%
 ---
 # 「更新」セクションの概要
 
@@ -154,12 +154,22 @@ Depending on what objects you access the commenting experience for, you might fi
 
   オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **システム アクティビティ**: Workfrontがオブジェクトに特定のイベントを記録するために作成する情報メッセージであるシステム更新を表示します。 例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込むことができます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。 従来のコメントエクスペリエンスでシステムアクティビティレコードに対して行われた応答は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。 これは表示専用のタブです。 「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。 特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。 オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
   >[!NOTE]
   >
   >「コメント」タブと「システム」アクティビティのタブは、リアルタイムで更新されます。 最新の更新を表示するには、「すべて」タブを更新する必要があります。
+* **コメントの要約**：右側のAI アシスタントまたは同僚パネルが開き、AIが生成したオブジェクトのすべての更新履歴の概要が表示されます。
+
+  >[!NOTE]
+  >
+  >「**コメントを要約**」タブを使用するには、AI アシスタント契約書に署名するか、設定エリアで同僚とMCPの環境設定を有効にする必要があります。 企業には、AI アシスタントやCX Enterprise Coworker for Workfrontがあります。
+  >
+  >詳しくは、[WorkfrontのAI アシスタント &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
+
 
 ### 異なるオブジェクトの更新領域の類似点と相違点
 

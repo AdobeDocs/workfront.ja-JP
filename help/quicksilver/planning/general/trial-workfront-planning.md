@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 4%
 ---
 # Adobe Workfront Planning の無料体験版の使用を開始
@@ -254,7 +254,7 @@ Workfront Planningでの経験に関するフィードバックを送信する�
 1. （条件付き、必須）Workfront管理者は、無料体験版契約書に署名します。
 
    詳しくは、この記事の「[Adobe Workfront計画の無料体験版に登録する](#enroll-in-the-adobe-workfront-planning-free-trial)」の節を参照してください。
-1. （条件付き）体験版の契約書がWorkfront管理者によって署名された後、**メインメニュー** アイコン ![](assets/main-menu-shell.png)をクリックし、次のいずれかをクリックして&#x200B;**計画** エリアにアクセスします。
+1. （条件付き）体験版の契約書がWorkfront管理者によって署名された後、**メインメニュー** アイコン ![&#x200B; メインメニュー](assets/main-menu-shell.png)をクリックし、次のいずれかをクリックして&#x200B;**計画** エリアにアクセスします。
 
    * **計画**。 アイコンの横に&#x200B;**体験版** ラベルが表示されます。
    * **プロジェクト**、**リクエスト**、**カレンダー**&#x200B;をクリックし、**キャンペーンカレンダーを探索**&#x200B;をクリックします
