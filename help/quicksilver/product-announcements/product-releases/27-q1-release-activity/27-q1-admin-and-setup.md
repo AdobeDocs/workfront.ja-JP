@@ -23,7 +23,7 @@ ht-degree: 4%
 >プレビュー：2026年11月12日（PT）
 >プロダクション高速リリース：2026年11月12日（PT）
 >すべての人のための制作：2026年11月12日
->[!BADGE 同時リリース ]{type=Neutral}
+>[!BADGE 同時リリース &#x200B;]{type=Neutral}
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Workfront管理者は、Workfront Planning ワークスペースとそのオブ�
 
 お気に入りとしてマークされたフィールドは、フォームデザイナーのフィールドライブラリの上部にも表示されます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 形式を変更する際にカスタムフィールドで検証された値
 
@@ -75,7 +75,7 @@ Workfront管理者は、Workfront Planning ワークスペースとそのオブ�
 
 フィールドの既存の値がすべて数値の場合、フィールド形式が更新されます。 ただし、既存の値のいずれかが数値以外の場合は、フィールドを保存すると互換性のない値がクリアされるという警告メッセージが表示されます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 変更履歴がCanvas ダッシュボードオブジェクトを追跡するようになりました
 
