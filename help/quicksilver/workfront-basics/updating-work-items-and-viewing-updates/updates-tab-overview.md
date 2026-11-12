@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 58%
+source-wordcount: '1409'
+ht-degree: 57%
 ---
 # 「更新」セクションの概要
 
@@ -154,7 +154,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
   オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+  <span class="preview">解決されたコメントを非表示または表示するフィルターが、**コメント** タブに含まれています。 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。</span>
 
 * **システム アクティビティ**: Workfrontがオブジェクトに特定のイベントを記録するために作成する情報メッセージであるシステム更新を表示します。 例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込むことができます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。 従来のコメントエクスペリエンスでシステムアクティビティレコードに対して行われた応答は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。 これは表示専用のタブです。 「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。 特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。 オブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
@@ -168,7 +168,7 @@ Depending on what objects you access the commenting experience for, you might fi
   >
   >「**コメントを要約**」タブを使用するには、AI アシスタント契約書に署名するか、設定エリアで同僚とMCPの環境設定を有効にする必要があります。 企業には、AI アシスタントやCX Enterprise Coworker for Workfrontがあります。
   >
-  >詳しくは、[WorkfrontのAI アシスタント &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
+  >詳しくは、[WorkfrontのAI アシスタント ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
 
 
 ### 異なるオブジェクトの更新領域の類似点と相違点
@@ -202,7 +202,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * ボード領域の接続されたカード
 
-    詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+    詳しくは、[ ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * 次のオブジェクトには、「システム活動」タブに代わる「履歴」タブがあります。
 
@@ -387,4 +387,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
