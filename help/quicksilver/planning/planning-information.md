@@ -120,15 +120,15 @@ Adobe Workfront プランニングの一般情報と用語について詳しく�
 
 * [Adobe Workfront プランニングの AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront プランニングの AI アシスタントを使用すると、コマンドを実行して、アシスタントに代行してもらうことによって、レコードの検索、作成、更新、削除などの作業を行うことができます。
 
-* [ プランニング オブジェクトにWorkfront MCP サーバーを使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): Adobe Workfront MCP サーバーでは、AI エージェント型プラットフォームに自然言語で質問することで、Workfront アイテムを検索、作成、更新、管理できます。 プラットフォームは、呼び出すWorkfront アクションを決定し、Workfrontとの会話を処理します。
+* [&#x200B; プランニング オブジェクトにWorkfront MCP サーバーを使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): Adobe Workfront MCP サーバーでは、AI エージェント型プラットフォームに自然言語で質問することで、Workfront アイテムを検索、作成、更新、管理できます。 プラットフォームは、呼び出すWorkfront アクションを決定し、Workfrontとの会話を処理します。
 
 * [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
+* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
 
-* **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用してレポート内のWorkfront計画情報を表示したり、Snowflake テクノロジを使用するWorkfront Data Connectでレポート内の情報を表示したりできます。 詳しくは、[Adobe Workfront計画レポート：記事インデックス ](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md)を参照してください。
+* **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用してレポート内のWorkfront計画情報を表示したり、Snowflake テクノロジを使用するWorkfront Data Connectでレポート内の情報を表示したりできます。 詳しくは、[Adobe Workfront計画レポート：記事インデックス &#x200B;](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md)を参照してください。
 
-* [Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
+* [Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
 
 ## Workfront Planning のリリースアクティビティ
 
@@ -140,7 +140,7 @@ Adobe Workfront プランニングの一般情報と用語について詳しく�
 
 ## スタンドアロン製品としてのWorkfront Planning
 
-お客様は、Workflow ライセンスを購入せずにWorkfront Planningを購入できます。 詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+お客様は、Workflow ライセンスを購入せずにWorkfront Planningを購入できます。 詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ## Workfront Planning and Ideation space （Beta）
 
