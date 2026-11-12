@@ -4,10 +4,10 @@ description: 2027年第1四半期：管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 5%
 ---
 
 # 2027年第1四半期：管理者の機能強化
@@ -20,10 +20,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->プレビュー：2026年11月12日（PT）
->プロダクション高速リリース：2026年11月12日（PT）
->すべての人のための制作：2026年11月12日
->[!BADGE 同時リリース &#x200B;]{type=Neutral}
+>実稼動およびサンドボックスの高速リリース：2026年11月12日（PT）
+>制作、プレビュー、サンドボックス：近日お知らせします
+>[!BADGE スケジュール外]{type=Neutral}
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ Workfront管理者は、Workfront Planning ワークスペースとそのオブ�
 
 お気に入りとしてマークされたフィールドは、フォームデザイナーのフィールドライブラリの上部にも表示されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 形式を変更する際にカスタムフィールドで検証された値
 
@@ -75,7 +74,7 @@ Workfront管理者は、Workfront Planning ワークスペースとそのオブ�
 
 フィールドの既存の値がすべて数値の場合、フィールド形式が更新されます。 ただし、既存の値のいずれかが数値以外の場合は、フィールドを保存すると互換性のない値がクリアされるという警告メッセージが表示されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 変更履歴がCanvas ダッシュボードオブジェクトを追跡するようになりました
 
