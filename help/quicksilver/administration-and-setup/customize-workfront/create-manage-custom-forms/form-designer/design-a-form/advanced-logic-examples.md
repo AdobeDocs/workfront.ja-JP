@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 6%
+source-wordcount: '900'
+ht-degree: 5%
 ---
 # カスタムフォームの高度なロジックの例
 
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 この記事では、カスタムフィールドで高度なロジックを構築するために使用される式の例を示します。
 
-カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
 ## アクセス要件
 
@@ -87,7 +87,7 @@ IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{own
 
 プロジェクト所有者（システム管理者を含む）でないユーザーが&#x200B;**X Rush**&#x200B;を選択しようとすると、エラーが表示されます。
 
-![&#x200B; プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
+![ プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
 
 ### 前のフィールドの選択に基づく日付の検証
 
@@ -119,7 +119,7 @@ IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7
 
 検証の適用は、次のチェックボックスを選択して上書きできます。
 
-![検証を無効にするチェックボックス &#x200B;](assets/disable-validation-checkbox.png)
+![検証を無効にするチェックボックス ](assets/disable-validation-checkbox.png)
 
 テキストフィールドには、実行中の文字数が含まれます。
 
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 ユーザーが正しい数のオプションを選択しない場合、検証エラーが表示されます。
 
 ![検証エラーの例](assets/min-max-selections.png)
+
+## フィールドが表示されている場合にのみ、数式からトリガーへの検証
+
+検証ロジックは、フィールドが表示されない場合でも常にチェックされます。 ユーザーが検証ロジックを含むフィールドを操作し、後で表示ロジックによってフィールドが非表示になった場合、フィールドが非表示になる前にフィールドの値がクリアされていても、検証エラーが発生します。
+
+回避策：検証式の表示ルールと同じ条件を使用して、フィールドが表示されている場合にのみ検証がトリガーされるようにします。
+
+例えば、AとBの2つのフィールドがあります。
+フィールド Bには、フィールド Aの値が`"show"`の場合にのみ表示される表示ルールがあります。
+
+フィールド Bには、次の検証式もあります。
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+フィールド Bが表示されている場合にのみフィールド Bを検証するには、検証式に表示条件を含めることができます。
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+この方法では、フィールド Aが`"show"`に設定され、他の検証条件が満たされた場合にのみ、検証エラーが表示されます。
+

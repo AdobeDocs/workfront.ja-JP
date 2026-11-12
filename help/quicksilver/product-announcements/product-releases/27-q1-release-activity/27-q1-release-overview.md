@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 >
 >* [!BADGE 同時リリース]{type=Neutral}
 >   これらの機能は、機能の一部である他のAdobe製品のリリーススケジュールなどの技術的な状況により、プレビュー環境と実稼動環境で同時にリリースされます。
->* [!BADGE &#x200B; オフスケジュール]{type=Neutral}
+>* [!BADGE  オフスケジュール]{type=Neutral}
 >   これらの機能は、標準のWorkfront リリーススケジュール外でリリースされます。
 
 ## Adobe Workfront の機能強化
@@ -344,8 +344,8 @@ ht-degree: 13%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
@@ -365,7 +365,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 
 このアップデートは、Mac と Windows の両方に対応しています。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ### バージョン 2.3.0
 
@@ -380,7 +380,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 
 * パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 
@@ -391,7 +391,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 >プレビュー：2026年11月12日（PT）
 >プロダクション高速リリース：2026年11月12日（PT）
 >すべての人のための制作：2026年11月12日
->[!BADGE 同時リリース &#x200B;]{type=Neutral}
+>[!BADGE 同時リリース ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -415,6 +415,11 @@ CX Enterprise Coworkerを使用して、アイデア創出ブリーフを作成�
 
 2027年1月のリリースでは、従来のフィールド **Billing Per Hour**&#x200B;および&#x200B;**Cost Per Hour**&#x200B;は、Workfront APIまたはフィルター/ビュー/グループ化の設定（ダイレクト参照とテキストモードの計算列の両方）を含むジョブロールリストビューでは使用できなくなります。
 
+これらのフィールドは1月まで使用できますが、正しく機能しない可能性があります。 担当業務リストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、ワークフローを更新して、推奨される料金管理エクスペリエンスを使用して担当業務の料金を管理およびレビューする必要があります。
+
+* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
+* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
+
 レポートの代わりに、推奨されるテキストモードコードを使用できます（必要に応じて`costRates`または`billingRates`を使用してください）。
 
     &quot;&#39;
@@ -426,20 +431,13 @@ CX Enterprise Coworkerを使用して、アイデア創出ブリーフを作成�
     valueformat=HTML
     &quot;&#39;
 
-担当業務率を管理およびレビューするには、専用の率管理エクスペリエンスを使用します。
-
-* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
-* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
-
-変更に備えるためのアクションは必要ありません。 ただし、ジョブロールのリストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、上記の推奨レート管理エクスペリエンスを使用するようにワークフローを更新する必要があります。
-
 担当業務率について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

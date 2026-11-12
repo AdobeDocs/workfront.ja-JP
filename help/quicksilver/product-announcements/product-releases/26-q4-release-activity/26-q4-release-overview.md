@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
 workflow-type: tm+mt
-source-wordcount: '3631'
+source-wordcount: '3626'
 ht-degree: 8%
 ---
 # 2026年第4四半期リリースの概要
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -867,8 +867,8 @@ ht-degree: 8%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## デスクトッププルーフビューアーのアップデート
 
@@ -885,7 +885,7 @@ ht-degree: 8%
 * トラブルシューティングを高速化するために、Workfront Proofについて画面に詳細を追加しました。
 * パフォーマンスとセキュリティの改善のために、基盤となるフレームワーク（Electron）を更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ## お知らせ
 
@@ -894,6 +894,11 @@ ht-degree: 8%
 時間の経過とともに、レート情報を維持するためのより包括的でスケーラブルなアプローチを提供する、強化されたレート管理機能と専用のジョブロール体験が導入されました。 そのため、料金管理は、リストベースの管理ワークフローではなく、専用のエクスペリエンスに移行しています。
 
 2027年1月のリリースでは、従来のフィールド **Billing Per Hour**&#x200B;および&#x200B;**Cost Per Hour**&#x200B;は、Workfront APIまたはフィルター/ビュー/グループ化の設定（ダイレクト参照とテキストモードの計算列の両方）を含むジョブロールリストビューでは使用できなくなります。
+
+これらのフィールドは1月まで使用できますが、正しく機能しない可能性があります。 担当業務リストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、ワークフローを更新して、推奨される料金管理エクスペリエンスを使用して担当業務の料金を管理およびレビューする必要があります。
+
+* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
+* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
 
 レポートの代わりに、推奨されるテキストモードコードを使用できます（必要に応じて`costRates`または`billingRates`を使用してください）。
 
@@ -906,13 +911,6 @@ ht-degree: 8%
     valueformat=HTML
     &quot;&#39;
 
-担当業務率を管理およびレビューするには、専用の率管理エクスペリエンスを使用します。
-
-* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
-* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
-
-変更に備えるためのアクションは必要ありません。 ただし、ジョブロールのリストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、上記の推奨レート管理エクスペリエンスを使用するようにワークフローを更新する必要があります。
-
 担当業務率について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
 ### Data Connect リーダーユーザーのパスワードのみの認証は2026年8月8日に終了します
@@ -923,7 +921,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 
