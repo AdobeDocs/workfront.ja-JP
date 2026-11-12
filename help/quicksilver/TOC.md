@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 90%
@@ -2225,7 +2225,7 @@ ht-degree: 90%
     * [Adobe Workfront Planning API の基本](planning/general/planning-api-basics.md)
     * [Adobe Workfront プランニングの AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront計画CX Enterprise Coworkerの概要](planning/general/planning-cx-coworker-overview.md)
-    * {hide-from-toc}[Adobe Workfront計画に環境プロモーションを使用](planning/general/planning-environment-promotion.md)
+    * [Adobe Workfront計画の環境推進](planning/general/planning-environment-promotion.md)
     * [Adobe Workfront計画Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning の 2024年リリースアクティビティ](planning/general/release-activity.md)
     * [Adobe Workfront プランニングの 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)
@@ -2343,13 +2343,13 @@ ht-degree: 90%
     * [Adobe Workfront Planningのインスタンスをスタンドアロン製品として管理する](planning/planning-sta/manage-planning-sta-instance.md)
     * [Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する](planning/planning-sta/manage-users-in-planning-sta.md)
     * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Workfront計画のアイデア創出スペース {#ideation}
-    * {hide-from-toc}[Adobe Workfront計画のアイデア創出スペース：記事インデックス &#x200B;](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[&#x200B; アイデア創出スペースで概要を作成](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[&#x200B; アイデア創出スペースブリーフからプランニングレコードを作成](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[&#x200B; アイデア創出スペースを他のユーザーと共有する](planning/ideation/share-the-ideation-space.md)
+  * Workfront Planningのアイデア創出スペースは {#ideation}
+    * [Adobe Workfront計画のためのアイデア創出スペース：記事インデックス](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](planning/ideation/get-started-with-planning-ideation.md)
+    * [アイデア創出スペースの利用に必要なアクセス](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [アイデア創出スペースでブリーフを作成する](planning/ideation/create-briefs-in-ideation-space.md)
+    * [アイデア立案スペースの概要からプランニングレコードを作成](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [アイデア創出スペースを他のユーザーと共有する](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront の統合 {#adobe-workfront-integrations}
   * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)

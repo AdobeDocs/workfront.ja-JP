@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 52%
+source-wordcount: '205'
+ht-degree: 50%
 ---
 # Adobe Workfront Planning に関する一般情報：記事インデックス
 
@@ -48,6 +48,7 @@ ht-degree: 52%
 * [Adobe Workfront計画の導入に関する推奨事項](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Adobe Workfront Planning の無料体験版の使用を開始](/help/quicksilver/planning/general/trial-workfront-planning.md)
+* [Adobe Workfront計画の環境推進](/help/quicksilver/planning/general/planning-environment-promotion.md)
 
 
 

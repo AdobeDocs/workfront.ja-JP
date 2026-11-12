@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 3%
 ---
 
@@ -177,8 +177,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 共同作業者がオンになっているPlanningでWorkfrontにログインし、次のいずれかの操作を行ってアイデア創出スペースを初めて開き、ブリーフを作成します。
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **アイデア創出スペース**&#x200B;に移動します
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **計画** > ワークスペースをクリック > レコードタイプをクリック > **新しいレコード** > **アイデア創出スペースを開始**&#x200B;に移動
+   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png)に移動し、**アイデア創出スペース**&#x200B;をクリックします
+
+     ![&#x200B; メインメニューのアイデア創出スペース &#x200B;](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **計画** > ワークスペースをクリック > レコードタイプをクリック > **新しいレコード**&#x200B;をクリック > **アイデア創出スペース**&#x200B;をクリック
+
+     ![新しいレコードのアイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
+
+   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **プランニング**&#x200B;に移動し、ワークスペースをクリックし、レコードタイプをクリックし、既存のレコードをクリックし、**アイデア創出スペースで開く**&#x200B;をクリックします
+
+     レコード詳細![&#128279;](assets/ideation-space-button-in-details-page.png)の アイデア創出スペース
 
 1. ベータ版の契約書を読み、**同意**&#x200B;をクリックします。 アイデア創出スペースを使用するには、契約書に署名する必要があります。
 
