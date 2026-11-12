@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1442'
 ht-degree: 1%
 ---
 
@@ -83,7 +83,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 
 * **一般提供：** 2027年2月1日を目標としています。
 
-## 必要な製品
+## 製品の適格性の要件
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -91,7 +91,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 >
 >アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningをお持ちの場合は、Workfrontにログインするとすぐに利用できます。
 >
->アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 組織が次のアクセス権を持っている場合は、アイデア創出スペースにアクセスできます。
 
@@ -123,8 +123,11 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 
     両方のパッケージでAdobe CX Enterprise Coworkerがアクティブ化されている必要があります
 
+* Adobe Workfront ライセンス：
 
+  * ワークフローおよびプランニング システム管理者または標準ライセンス ユーザー
 
+詳しくは、「[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## オーディエンスとユースケース
+## アイデア創出スペースへのアクセス
 
-アイデア創出スペースは、キャンペーン戦略の策定とキャンペーンブリーフの作成を担当する、製品マーケターやブランドマーケター向けに設計されています。
+アイデア創出スペースにアクセスするには：
 
-<!--
-Too much: 
+1. この記事の「[製品要件](#product-requirements)」の節で説明されているように、製品要件を満たしていることを確認してください。
+1. Adobeのアカウント担当者に連絡して、クローズドBetaへの参加に関心を示すか、利用可能になった時点でOpen Betaに参加します。
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 次のいずれかの環境で、他のすべてのユーザーに対してオンにすることができます。
 
-ワークスペース管理者は、次の手順に従って、アイデア創出スペースを使用してWorkfront Planningでレコードを作成できます。
+   * 実稼動
+   * プレビュー
+   * カスタムサンドボックス
 
-* レコードの作成または編集を開始する際に、Planningからアイデア創出スペースでブリーフを作成します。
-* AI プロンプトを使用して、システム内またはweb上の他のレコードから詳細を収集し、アイデア創出の概要を作成できます。
-* ブリーフからプランニングレコードタイプを作成します。
-* アイデア創出の概要を改善し、Planningの既存のレコードタイプを更新できます。
+1. システム管理者は、次の操作を行います。
 
-アイデア出しスペースの使用例を次に示します。
+   * システム環境設定の「同僚とMCP ツール」設定をオンにして、会社全体で同僚にアクセスできるようにします。
+   * アクセスレベルのStandard ライセンスユーザーに対して、次の設定をオフにします。
+     * Workfrontの CX Coworker パネルを無効にする
+     * アイディエーションスペースを無効にする
 
-* **過去のパフォーマンスを使用して以前のキャンペーンを更新する**
+   アイデア出しスペースの使用について詳しくは、次の記事も参照してください。
 
-  * 例えば、新しい四半期、シーズン、または製品のモーメントの既存のキャンペーンを更新できます。
-  * これにより、過去の実績に基づいて、何が残るのか、何が変化するのか、そしてその理由を説明した「デルタブリーフ」を作成します。
+   * [アイデア創出スペースの利用に必要なアクセス](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [アイデア立案スペースの概要からプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **過去のパフォーマンスを使用して最新のキャンペーンを作成**
+1. （推奨）最初のキャンペーンを特定：更新する最近のキャンペーン、またはゼロから作成する新しいキャンペーン。
 
-  * 例えば、キャンペーン履歴を直接示すことなく、新しい製品、セグメント、イニシアチブを立ち上げる際にキャンペーンを作成できます。
-  * これにより、ガイド付きのアイデア出し、推奨されるチャネルミックス、初期のコンセプトやメッセージの方向性を通じて、まったく新しいブリーフを作成できます。
+## アイデア創出スペースを探す
+
+適切な製品、パッケージ、およびシステムとアクセスレベルが設定されていることを確認したら、Workfrontの次の領域にアイデア創出スペースを配置できます。
+
+* Workfrontのメインメニューで、アイデア創出スペース領域を開きます
+
+  ![ メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
+
+* Workfront Planningで、新しいレコードを手動で追加する場合
+
+  新しいレコードを追加する![ アイデア創出スペース ](assets/ideation-space-in-planning-new-record.png)
+
+* Workfront Planningで、既存のレコードを編集する際に
+
+  ![ レコード詳細ページのアイデア創出スペース ](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>
 
 ## アイデア創出スペースとAdobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
   * **確定する前に確認**。 AIで生成された回答は不正確である可能性があるため、レコードを確定する前に、常にカードの&#x200B;**ソース**&#x200B;を確認し、リンクされたソースと確認してください。
   * **実際のレコードでAI カードを組み合わせる**。 実際のレコードをアイデア創出スペースにドラッグ&amp;ドロップできます。
 
-## アイデア創出スペースへのアクセス
+## オーディエンスとユースケース
 
-アイデア創出スペースにアクセスするには：
+アイデア創出スペースは、キャンペーン戦略の策定とキャンペーンブリーフの作成を担当する、製品マーケターやブランドマーケター向けに設計されています。
 
-1. この記事の「[製品要件](#product-requirements)」の節で説明されているように、製品要件を満たしていることを確認してください。
-1. Adobeのアカウント担当者に連絡して、クローズドBetaへの参加に関心を示すか、利用可能になった時点でOpen Betaに参加します。
+<!--
+Too much: 
 
-   システム管理者はデフォルトでアイデア創出スペースにアクセスでき、Open Betaでアイデア創出スペースが使用可能になったときにアイデア創出スペースを削除することはできません。 次のいずれかの環境で、他のすべてのユーザーに対してオンにすることができます。
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * 実稼動
-   * プレビュー
-   * カスタムサンドボックス
+ワークスペース管理者は、次の手順に従って、アイデア創出スペースを使用してWorkfront Planningでレコードを作成できます。
 
-1. （推奨）最初のキャンペーンを特定：更新する最近のキャンペーン、またはゼロから作成する新しいキャンペーン。
+* レコードの作成または編集を開始する際に、Planningからアイデア創出スペースでブリーフを作成します。
+* AI プロンプトを使用して、システム内またはweb上の他のレコードから詳細を収集し、アイデア創出の概要を作成できます。
+* ブリーフからプランニングレコードタイプを作成します。
+* アイデア創出の概要を改善し、Planningの既存のレコードタイプを更新できます。
 
-アイデア出しスペースの使用について詳しくは、次の記事も参照してください。
+アイデア出しスペースの使用例を次に示します。
 
-* [アイデア創出スペースの利用に必要なアクセス](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [アイデア立案スペースの概要からプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **過去のパフォーマンスを使用して以前のキャンペーンを更新する**
 
-## アイデア創出スペースを探す
+  * 例えば、新しい四半期、シーズン、または製品のモーメントの既存のキャンペーンを更新できます。
+  * これにより、過去の実績に基づいて、何が残るのか、何が変化するのか、そしてその理由を説明した「デルタブリーフ」を作成します。
 
-適切な製品、パッケージ、およびシステムとアクセスレベルが設定されていることを確認したら、Workfrontの次の領域にアイデア創出スペースを配置できます。
+* **過去のパフォーマンスを使用して最新のキャンペーンを作成**
 
-* Workfront Planningで新しいレコードを手動で追加する場合
-
-  ![計画中のアイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
-* Workfrontのメインメニューで、アイデア創出スペース領域を開きます
-
-  ![&#x200B; メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
->
+  * 例えば、キャンペーン履歴を直接示すことなく、新しい製品、セグメント、イニシアチブを立ち上げる際にキャンペーンを作成できます。
+  * これにより、ガイド付きのアイデア出し、推奨されるチャネルミックス、初期のコンセプトやメッセージの方向性を通じて、まったく新しいブリーフを作成できます。
 
 ## アイデア創出スペースで生成されたオブジェクト
 
@@ -293,10 +309,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 
