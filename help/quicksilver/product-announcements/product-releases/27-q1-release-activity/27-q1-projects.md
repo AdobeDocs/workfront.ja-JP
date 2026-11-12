@@ -4,10 +4,10 @@ description: 2027年第1四半期プロジェクトの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 8%
+source-wordcount: '355'
+ht-degree: 7%
 ---
 
 # 2027年第1四半期プロジェクトの機能強化
@@ -15,6 +15,22 @@ ht-degree: 8%
 このページでは、2027年第1四半期リリースでプレビュー環境に加えられたプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+## コメントスレッドを解決
+
+>[!NOTE]
+>
+>プレビュー：2026年11月12日（PT）
+>プロダクション高速リリース：2026年12月17日（PT）
+>すべての人のための制作：2027年1月21日
+
+「更新」領域の上位メッセージの「その他」メニューから、表示にアクセスできるオブジェクトのコメントスレッドを解決できるようになりました。 これにより、すべてのビューアのコメントストリームから非表示になります。 後で解決を解除して元に戻すことができます。
+
+解決されたスレッドは読み取り専用なので、解決されるまで編集、削除、返信、反応、固定することはできません。
+
+フィルターを使用して、「更新」タブに解決されたスレッドを表示できます。
+
+詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## 使用できないステータスガイダンス
 
