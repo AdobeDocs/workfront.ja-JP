@@ -380,7 +380,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 
 * パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 
@@ -439,7 +439,7 @@ CX Enterprise Coworkerを使用して、アイデア創出ブリーフを作成�
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
 
 -->
 
