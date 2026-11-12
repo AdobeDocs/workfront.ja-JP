@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
 workflow-type: tm+mt
 source-wordcount: '3631'
 ht-degree: 8%
@@ -180,6 +180,7 @@ ht-degree: 8%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> グループ管理者はビジネスプロファイルを管理できます</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。</p>
             </td>
             <td><p>2026年7月30日（PT）</p></td>
@@ -895,6 +896,11 @@ ht-degree: 8%
 
 2027年1月のリリースでは、従来のフィールド **Billing Per Hour**&#x200B;および&#x200B;**Cost Per Hour**&#x200B;は、Workfront APIまたはフィルター/ビュー/グループ化の設定（ダイレクト参照とテキストモードの計算列の両方）を含むジョブロールリストビューでは使用できなくなります。
 
+これらのフィールドは1月まで使用できますが、正しく機能しない可能性があります。 担当業務リストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、ワークフローを更新して、推奨される料金管理エクスペリエンスを使用して担当業務の料金を管理およびレビューする必要があります。
+
+* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
+* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
+
 レポートの代わりに、推奨されるテキストモードコードを使用できます（必要に応じて`costRates`または`billingRates`を使用してください）。
 
     &quot;&#39;
@@ -905,13 +911,6 @@ ht-degree: 8%
     valueexpression=CONCAT （{startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value}） 
     valueformat=HTML
     &quot;&#39;
-
-担当業務率を管理およびレビューするには、専用の率管理エクスペリエンスを使用します。
-
-* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
-* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
-
-変更に備えるためのアクションは必要ありません。 ただし、ジョブロールのリストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、上記の推奨レート管理エクスペリエンスを使用するようにワークフローを更新する必要があります。
 
 担当業務率について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 

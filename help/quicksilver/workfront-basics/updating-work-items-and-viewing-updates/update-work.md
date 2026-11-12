@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
-ht-degree: 65%
+source-wordcount: '3799'
+ht-degree: 60%
 ---
 # 作業の更新
 
@@ -653,41 +653,39 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## コメントスレッドを解決
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+スペースを節約し、「コメント」タブを操作しやすくするために、更新ストリームから非表示にするコメントスレッドを解決できます。
 
-Consider the following when resolving comments: 
+コメントを解決する際には、次の点を考慮してください。
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* 個別のコメントではなく、コメントスレッドを解決できます。 この機能は、スレッド内の最初のコメントに対してのみ存在します。
+* 解決済みスレッドの一部であるコメントは読み取り専用です。
+* 解決済みスレッドの一部であるコメントを編集、削除、返信、いいね、固定することはできません。
+* 解決されたコメントを表示したり、自分で非表示にしたりできます。
+* すべての機能を使用してスレッドを未解決にして、更新ストリームに戻すことができます。
 
-To resolve comment threads: 
+コメントスレッドを解決するには：
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. 「**更新**」タブがあるオブジェクトに移動し、左側のパネルで「**更新**」をクリックしてから、「**コメント**」タブをクリックします。
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   詳しくは、[更新タブの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. 既存のスレッドの上のコメントから、コメントの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**解決**&#x200B;をクリックします。
 
-   ************add a screen shot***************
+   ![&#x200B; ピン留めと解決のオプションを含むその他のメニューへのコメント &#x200B;](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   「**コメントを解決**」ボックスが開き、コメントが更新領域から非表示になり、操作できなくなったことを知らせます。
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. （オプション）コメントを解決するたびに警告を表示したくない場合は、**これを再度表示しない**&#x200B;設定を選択します。 この設定を選択すると、**コメント解決** ボックスを再度表示することはできません。
+1. 「**解決**」をクリックします。
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   スレッドが解決され、スレッド内のすべてのコメントが&#x200B;**更新** タブから非表示になります。
+1. （オプション）更新タブの右上隅にあるフィルターをクリックし、**解決済みコメントを非表示**&#x200B;設定をオフにします。 解決されたスレッドは、「更新」タブに表示されます。 この設定は、表示する内容にのみ影響します。 他のユーザーは、解決されたコメントを非表示にすることができます。
 
 </div>
--->
 
 ## コメントまたは返信の削除
 
@@ -700,7 +698,7 @@ Workfront ユーザー（Workfront 管理者を含む）は、別のユーザー
 1. 削除するコメントまたは返信に移動します。
 1. 削除するコメントまたは返信の横にある&#x200B;**詳細** メニューをクリックし、**削除**&#x200B;をクリックします。
 
-   ![&#x200B; ストリームコメントを更新その他のメニュー](assets/update-stream-comment-menu-marked-350x152.png)
+   ![&#x200B; ピン留めと解決のオプションを含むその他のメニューへのコメント &#x200B;](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. 表示されるメッセージで、「**削除**」をクリックします。
 

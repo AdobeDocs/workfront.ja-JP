@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 5%
 ---
 
@@ -387,10 +387,28 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 製品要件：すべての顧客
 
-レポートツールを使用すると、チャットを通じてCanvas ダッシュボードを作成および管理できます。 希望するレポートを平易な言葉で説明します。AI エージェント型プラットフォームが、Workfrontデータを使用してダッシュボードとウィジェットを作成します。
+### ボード
+
+| タイトル | ツール名 | 機能 | アクション |
+| --- | --- | --- | --- |
+| ボードを取得 | `boards_get_board` | 様々な詳細レベルでボードデータを取得します。 | 読み取り |
+| Get card | `boards_get_card` | ボード IDとカード IDで1枚のカードを取得します。 | 読み取り |
+| Create card | `boards_create_card` | 特定の列のボードに新しいカードを作成します。 | 編集 |
+| カードを更新 | `boards_update_card` | スカラーのフィールド、ムーブ、アーカイブ状態、タグ、メンバー、またはWorkfrontからの接続の解除を含むカードを更新します。 | 編集 |
+| カードを接続 | `boards_connect_card` | Workfront タスクまたはイシューを作成し、それをカードにリンクします。 | 編集 |
+| ボードタグを作成 | `boards_create_board_tag` | ボードのタグカタログに新しいタグを作成します。 | 編集 |
+| チェックリスト項目を作成 | `boards_create_checklist_item` | チェックリスト項目またはサブタスクをカードに追加します。 | 編集 |
+| チェックリスト項目を更新 | `boards_update_checklist_item` | チェックリスト項目の名前、説明、期日、ステータス、見積もりを更新します。 | 編集 |
+| チェックリスト項目を削除 | `boards_delete_checklist_item` | 親カードからチェックリスト項目を削除します。 | 編集 |
+| 列を作成 | `boards_create_column` | 新しいプレーン列をボードに追加します。 | 編集 |
+| 列を更新 | `boards_update_column` | ボード列の名前を変更します。 | 編集 |
+| 列を削除 | `boards_delete_column` | ボード列を削除し、必要に応じてカードを最初に移動します。 | 編集 |
+| ボードを作成 | `boards_create_board` | オプションでワークスペース内に新しい基本ボードを作成します。 | 編集 |
 
 
 ### キャンバスダッシュボード
+
+Canvas ダッシュボードツールを使用すると、チャットを通じてCanvas ダッシュボードを作成および管理できます。 希望するレポートを平易な言葉で説明します。AI エージェント型プラットフォームが、Workfrontデータを使用してダッシュボードとウィジェットを作成します。
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ Workfront MCP Serverは、顧客のユーザーインテントを追跡します
 ユーザーは、カスタマーサポートに連絡してリクエストを提出することで、テレメトリ収集を無効にできます。
 
 
-## その他のツールは近日リリース予定
-
-今後、Workfront MCP サーバーに次のツールを追加する予定です。
-
-* ボード

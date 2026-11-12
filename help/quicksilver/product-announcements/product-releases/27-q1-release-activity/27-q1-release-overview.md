@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 17%
+source-wordcount: '1537'
+ht-degree: 13%
 ---
 
 # 2027年第1四半期リリースの概要
@@ -27,13 +27,19 @@ ht-degree: 17%
 >| <ul><li>2026.11 （2026年11月12日（PT））</li><li>2026.12 （2026年12月17日（PT））</li><li>2027.01 （2027年1月21日（PT））</li></ul> | <ul><li>2027.01 （2027年1月21日（PT））</li></ul> |
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
+>
+>このスケジュールに従わない機能には、次のいずれかのバッジが表示されます。
+>
+>* [!BADGE 同時リリース]{type=Neutral}
+>   これらの機能は、機能の一部である他のAdobe製品のリリーススケジュールなどの技術的な状況により、プレビュー環境と実稼動環境で同時にリリースされます。
+>* [!BADGE &#x200B; オフスケジュール]{type=Neutral}
+>   これらの機能は、標準のWorkfront リリーススケジュール外でリリースされます。
 
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
 * [AIの機能強化](#ai-enhancements)
 * [ドキュメントの機能強化](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -50,6 +56,16 @@ ht-degree: 17%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Workfront計画で利用可能な環境プロモーション</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Workfront管理者は、ある環境から別の環境にWorkfront Planning ワークスペースとそのオブジェクトを昇格できるようになりました。</p>
+            </td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">添付されたカスタムフォームを削除するための権限</a></p>
                 <p>カスタムフォームを共有する際に、管理アクセス権を持つユーザーに対して、フォームが添付されているオブジェクトからフォームを削除する権限を設定できるようになりました。</p>
             </td>
@@ -63,7 +79,7 @@ ht-degree: 17%
                 <p>カスタムフィールドをお気に入りとしてマークできるようになりました。これにより、フィルター、ビュー、グループ化を作成する際や、フォームデザイナーのフィールドライブラリで、使用可能なフィールドの上部に表示されます。</p>
             </td>
             <td><p>2026年10月29日（PT）</p></td>
-            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年12月17日（PT）</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ ht-degree: 17%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">変更履歴がCanvas ダッシュボードオブジェクトを追跡するようになりました</a></p>
-                <p>変更履歴では、Canvas ダッシュボードまたはレポートを作成、更新、または削除したユーザー、いつから、何が変更されたかを記録できるようになりました。</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>変更履歴では、Canvas ダッシュボードまたはレポートを作成、更新、または削除したユーザー、いつから、何が変更されたかを記録できるようになりました。</p>
             </td>
             <td><p>2026年10月29日（PT）</p></td>
             <td><p>2026年10月29日（PT）</p></td>
@@ -216,9 +232,18 @@ ht-degree: 17%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">コメントスレッドを解決</a></p>
+                <p>すべてのビューアのコメントストリームからコメントスレッドを非表示にするようにコメントスレッドを解決し、後で解決を解除して元に戻すことができるようになりました。</p>
+            </td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年12月17日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">使用できないステータスガイダンス</a></p>
-                <p>保存されたイシュー、タスク、またはプロジェクトのステータスが利用できない場合、その理由を警告で説明し、保存されたステータスコードが表示されるようになりました。</p>
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>保存されたイシュー、タスク、またはプロジェクトのステータスが利用できない場合、その理由を警告で説明し、保存されたステータスコードが表示されるようになりました。</p>
             </td>
             <td><p>2026年11月4日（PT）</p></td>
             <td><p>2026年11月4日（PT）</p></td>
@@ -330,6 +355,18 @@ ht-degree: 17%
 
 ## デスクトッププルーフビューアーのアップデート
 
+### バージョン 2.4.0
+
+>[!NOTE]
+>
+>すべてのユーザー向けの実稼動リリース：2026年11月11日（PT）
+
+Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更新されました。 このアップデートには内部ツールのアップデートが含まれており、エンドユーザーの機能には影響しません。
+
+このアップデートは、Mac と Windows の両方に対応しています。
+
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+
 ### バージョン 2.3.0
 
 >[!NOTE]
@@ -347,11 +384,41 @@ ht-degree: 17%
 
 ## お知らせ
 
+### Workfront Planningのアイデア創出スペースがOpen Betaで利用可能に
+
+>[!NOTE]
+>
+>プレビュー：2026年11月12日（PT）
+>プロダクション高速リリース：2026年11月12日（PT）
+>すべての人のための制作：2026年11月12日
+>[!BADGE 同時リリース &#x200B;]{type=Neutral}
+
+>[!NOTE]
+>
+>この機能は、オープンベータプログラムとして利用できます。 アイデア創出スペースは、ワークフローパッケージに加えて、Workfront計画パッケージを購入したお客様のみが利用できます。 Workfront Planningをスタンドアロン製品として購入したお客様は使用できません。
+
+Workfront計画には現在、アイデア創出スペースが含まれています。このスペースでは、アイデアをキャプチャ、整理、調整、評価して、それらを実行可能な作業に変えることができます。 アイデア創出スペースは、関係者がブレインストーミングを一元化し、優先順位を調整して、承認されたコンセプトをプランニングワークフローにシームレスに移行するのに役立ちます。
+
+CX Enterprise Coworkerを使用して、アイデア創出ブリーフを作成し、ファイルまたはWorkfront Planning レコードに書き出せるようになりました。
+
+アイデア創出スペースを活用すると、次のことが可能になります。
+
+* チームや関係者とアイデアを出し合い、共同作業をおこないます。
+* 受け入れプロセスを可視化することで、アイデアを整理、評価、優先順位付けできます。
+* 承認されたアイデアをプランニングのレコードやワークフローに変換。
+
+詳しくは、[Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
+
 ### 担当業務リストビューの従来の請求および原価率フィールドの廃止
 
 時間の経過とともに、レート情報を維持するためのより包括的でスケーラブルなアプローチを提供する、強化されたレート管理機能と専用のジョブロール体験が導入されました。 そのため、料金管理は、リストベースの管理ワークフローではなく、専用のエクスペリエンスに移行しています。
 
 2027年1月のリリースでは、従来のフィールド **Billing Per Hour**&#x200B;および&#x200B;**Cost Per Hour**&#x200B;は、Workfront APIまたはフィルター/ビュー/グループ化の設定（ダイレクト参照とテキストモードの計算列の両方）を含むジョブロールリストビューでは使用できなくなります。
+
+これらのフィールドは1月まで使用できますが、正しく機能しない可能性があります。 担当業務リストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、ワークフローを更新して、推奨される料金管理エクスペリエンスを使用して担当業務の料金を管理およびレビューする必要があります。
+
+* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
+* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
 
 レポートの代わりに、推奨されるテキストモードコードを使用できます（必要に応じて`costRates`または`billingRates`を使用してください）。
 
@@ -363,13 +430,6 @@ ht-degree: 17%
     valueexpression=CONCAT （{startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value}） 
     valueformat=HTML
     &quot;&#39;
-
-担当業務率を管理およびレビューするには、専用の率管理エクスペリエンスを使用します。
-
-* 担当業務/料金ページから担当業務の料金に直接アクセスして管理できます。
-* レートレポートを使用して、役職をまたいでレート情報をレビュー、分析、レポートします。
-
-変更に備えるためのアクションは必要ありません。 ただし、ジョブロールのリストビューに現在&#x200B;**時間当たりの請求**&#x200B;および&#x200B;**時間当たりのコスト** フィールドを表示している管理者は、上記の推奨レート管理エクスペリエンスを使用するようにワークフローを更新する必要があります。
 
 担当業務率について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 

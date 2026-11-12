@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 6%
+source-wordcount: '900'
+ht-degree: 5%
 ---
 # カスタムフォームの高度なロジックの例
 
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 ユーザーが正しい数のオプションを選択しない場合、検証エラーが表示されます。
 
 ![検証エラーの例](assets/min-max-selections.png)
+
+### フィールドが表示されている場合にのみ、数式からトリガーへの検証
+
+検証ロジックは、フィールドが表示されない場合でも常にチェックされます。 ユーザーが検証ロジックを含むフィールドを操作し、後で表示ロジックによってフィールドが非表示になった場合、フィールドが非表示になる前にフィールドの値がクリアされていても、検証エラーが発生します。
+
+回避策：検証式の表示ルールと同じ条件を使用して、フィールドが表示されている場合にのみ検証がトリガーされるようにします。
+
+例えば、AとBの2つのフィールドがあります。
+フィールド Bには、フィールド Aの値が`"show"`の場合にのみ表示される表示ルールがあります。
+
+フィールド Bには、次の検証式もあります。
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+フィールド Bが表示されている場合にのみフィールド Bを検証するには、検証式に表示条件を含めることができます。
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+この方法では、フィールド Aが`"show"`に設定され、他の検証条件が満たされた場合にのみ、検証エラーが表示されます。
+

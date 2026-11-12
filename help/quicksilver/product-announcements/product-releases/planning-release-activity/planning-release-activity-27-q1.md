@@ -18,16 +18,62 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
+source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 3%
+source-wordcount: '1614'
+ht-degree: 2%
 ---
 # Adobe Workfront Planningの2027年第1四半期のリリースアクティビティ
 
 この記事では、2027年第1四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## Workfront計画で利用可能な環境プロモーション
+
+>[!NOTE]
+>
+>プレビュー：2026年11月12日（PT）
+>プロダクション高速リリース：2026年11月12日（PT）
+>すべての人のための制作：2026年11月12日
+>[!BADGE 同時リリース &#x200B;]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planningの環境プロモーションは、ワークフローパッケージに加えてWorkfront Planning パッケージを購入したお客様のみが利用できます。 Workfront Planningをスタンドアロン製品として購入したお客様は使用できません。
+
+Workfront管理者は、Workfront Planning ワークスペースとそのオブジェクトを環境から別の環境に昇格できるようになったため、手動で設定を再構築する必要がなくなりました。 これにより、時間を節約し、手作業による設定ミスを減らすことができます。
+
+書き出されたワークスペースに属していないレコード、オートメーション、フィールドは昇格できません。
+
+この機能を使用するには、PrimeまたはUltimate Workflow and Planning パッケージ、標準ライセンス、Workfront管理者アクセス権が必要です。
+
+詳しくは、[Workfront Planningの環境プロモーションの使用](/help/quicksilver/planning/general/planning-environment-promotion.md)を参照してください。
+
+## Workfront Planningのアイデア創出スペースがOpen Betaで利用可能に
+
+>[!NOTE]
+>
+>プレビュー：2026年11月12日（PT）
+>プロダクション高速リリース：2026年11月12日（PT）
+>すべての人のための制作：2026年11月12日
+>[!BADGE 同時リリース &#x200B;]{type=Neutral}
+
+>[!NOTE]
+>
+>この機能は、オープンベータプログラムとして利用できます。 アイデア創出スペースは、ワークフローパッケージに加えて、Workfront計画パッケージを購入したお客様のみが利用できます。 Workfront Planningをスタンドアロン製品として購入したお客様は使用できません。
+
+Workfront計画には現在、アイデア創出スペースが含まれています。このスペースでは、アイデアをキャプチャ、整理、調整、評価して、それらを実行可能な作業に変えることができます。 アイデア創出スペースは、関係者がブレインストーミングを一元化し、優先順位を調整して、承認されたコンセプトをプランニングワークフローにシームレスに移行するのに役立ちます。
+
+CX Enterprise Coworkerを使用して、アイデア創出ブリーフを作成し、ファイルまたはWorkfront Planning レコードに書き出せるようになりました。
+
+アイデア創出スペースを活用すると、次のことが可能になります。
+
+* チームや関係者とアイデアを出し合い、共同作業をおこないます。
+* 受け入れプロセスを可視化することで、アイデアを整理、評価、優先順位付けできます。
+* 承認されたアイデアをプランニングのレコードやワークフローに変換。
+
+詳しくは、[Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
 
 ## リクエスト送信時の依存フィールドでの競合の検出を改善しました
 

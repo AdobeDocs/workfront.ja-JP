@@ -4,10 +4,10 @@ description: 2027年第1四半期：管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 5%
+source-wordcount: '554'
+ht-degree: 4%
 ---
 
 # 2027年第1四半期：管理者の機能強化
@@ -15,6 +15,27 @@ ht-degree: 5%
 このページでは、2027年第1四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+## Workfront計画で利用可能な環境プロモーション
+
+>[!NOTE]
+>
+>プレビュー：2026年11月12日（PT）
+>プロダクション高速リリース：2026年11月12日（PT）
+>すべての人のための制作：2026年11月12日
+>[!BADGE 同時リリース &#x200B;]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planningの環境プロモーションは、ワークフローパッケージに加えてWorkfront Planning パッケージを購入したお客様のみが利用できます。 Workfront Planningをスタンドアロン製品として購入したお客様は使用できません。
+
+Workfront管理者は、Workfront Planning ワークスペースとそのオブジェクトを環境から別の環境に昇格できるようになったため、手動で設定を再構築する必要がなくなりました。 これにより、時間を節約し、手作業による設定ミスを減らすことができます。
+
+書き出されたワークスペースに属していないレコード、オートメーション、フィールドは昇格できません。
+
+この機能を使用するには、PrimeまたはUltimate Workflow and Planning パッケージ、標準ライセンス、Workfront管理者アクセス権が必要です。
+
+詳しくは、[Workfront Planningの環境プロモーションの使用](/help/quicksilver/planning/general/planning-environment-promotion.md)を参照してください。
 
 ## 添付されたカスタムフォームを削除するための権限
 
@@ -33,7 +54,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >プレビュー：2026年10月29日（PT）
->プロダクション高速リリース：2026年11月12日（PT）
+>プロダクション高速リリース：2026年12月17日（PT）
 >すべての人のための制作：2027年1月21日
 
 フィールドリストまたはカスタムフォームデザイナーで、カスタムフィールドをお気に入りとしてマークできるようになりました。 特定のリストやレポート（プロジェクト、タスク、イシューリストなど）で作業し、フィルター、ビュー、グループ化を構築すると、お気に入りのフィールドが「候補」セクションの使用可能なフィールドのリストの上部に表示されます。
