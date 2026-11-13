@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 41%
+source-wordcount: '1041'
+ht-degree: 38%
 ---
 # Workfront環境間でのオブジェクトの移動の概要（環境プロモーション）
 
@@ -64,9 +64,8 @@ ht-degree: 41%
 * [カスタムデータオブジェクト](#custom-data-objects)
 * [組織オブジェクト](#organization-objects)
 * [その他の設定オブジェクト](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Workfront計画オブジェクト](#workfront-planning-objects)
+
 
 ### 作業オブジェクト
 
@@ -139,25 +138,24 @@ ht-degree: 41%
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Workfront計画オブジェクト
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Workfront Planning オブジェクトは、Workfront パッケージに加えてPlanning パッケージを購入したお客様のみが使用できます。
+>
+>Workfront Planningをスタンドアロン製品として購入したお客様は、環境プロモーションを利用できません。
 
-| Promotable object | Included promotable linked objects |
+| 昇格可能なオブジェクト | 含まれているプロモート可能なリンクされたオブジェクト |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| ワークスペース | Workspace セクション |
+| レコードタイプ | 接続されたレコードタイプ* <br> フィールド <br> ビュー<br>階層<br> リクエストフォーム |
+| すべてのオブジェクトの共有 | グループ <br> チーム <br>の担当業務<br> ユーザー<br>会社 |
 
+* 読み込まれたワークスペースに属する接続されたレコードタイプのみが、ターゲット環境に転送されます。
+
+詳しくは、[Adobe Workfront Planningの環境プロモーションの使用](/help/quicksilver/planning/general/planning-environment-promotion.md)を参照してください。
 
 ## 環境プロモーションのステータス
 

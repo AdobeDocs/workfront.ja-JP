@@ -4,10 +4,10 @@ description: 2027年第1四半期：管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 5%
 ---
 
 # 2027年第1四半期：管理者の機能強化
@@ -20,10 +20,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->プレビュー：2026年11月12日（PT）
->プロダクション高速リリース：2026年11月12日（PT）
->すべての人のための制作：2026年11月12日
->[!BADGE 同時リリース &#x200B;]{type=Neutral}
+>実稼動およびサンドボックスの高速リリース：2026年11月12日（PT）
+>制作、プレビュー、サンドボックス：近日お知らせします
+>[!BADGE スケジュール外]{type=Neutral}
 
 >[!NOTE]
 >

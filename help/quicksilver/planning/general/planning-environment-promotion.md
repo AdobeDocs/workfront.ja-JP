@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1433'
 ht-degree: 4%
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 4%
 <!--add to TOC-->
 <!--add to miniTOC-->
 
-<!--
-Not sure if this bit will ever be needed because this only exists when both Preview and Prod have the features in parity. Features released here always come to both environments at the same time: 
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 2026年11月12日以降、実稼動環境およびサンドボックス環境の一部のお客様のみが利用できます。 後日、実稼動環境、プレビュー環境、サンドボックス環境でも、すべてのユーザーに同じ機能を使用できるようになります。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview"> リリースについて詳しくは、[製品リリース &#x200B;](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。</span>
+
 
 >[!IMPORTANT]
 >

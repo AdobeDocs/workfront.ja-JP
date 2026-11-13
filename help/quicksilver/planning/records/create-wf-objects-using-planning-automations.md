@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '853'
 ht-degree: 2%
 ---
 # Adobe Workfront計画レコードの自動処理を使用したオブジェクトの作成
@@ -110,6 +110,8 @@ Workfront Planningの自動化機能を使用して、次の項目を作成で�
    <p>自動処理を実行しているレコードに対する権限を管理します。</p>
    <p>子オブジェクト（プログラムまたはプロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）に対する権限を管理します。</p>
    <p>システム管理者は、作成しなかったワークスペースを含め、すべてのワークスペースに対して管理権限を持っています</p>
+   <p>自動作成者には、自分の自動処理に対する管理権限があります</p>
+   <p>オートメーションを編集するには編集権限またはそれ以上の権限が必要で、実行するには実行権限が必要です</p>
    </td> 
   </tr> 
 </tbody> 
@@ -198,6 +200,8 @@ Old:
 * 組織で従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、Planningから自動的に作成されたアイテムは、設定領域でWorkfront管理者が選択したデフォルトストレージを使用して作成されます。
 
   お客様の環境でAdobe クラウドストレージを有効にする方法については、[お客様の組織でAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
+
+* 自動処理を実行するには、少なくとも自動処理の実行権限が必要です。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

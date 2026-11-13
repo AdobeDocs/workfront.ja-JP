@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # CX Enterprise CoworkerでのWorkfrontのスキル
 
@@ -59,19 +59,27 @@ ht-degree: 6%
 * レコード
 * ビジネスルール
 
-<!--
+### アイデア創出スペース（ベータ版）スキル
 
-### Ideation space skills
+>[!NOTE]
+>
+>アイデア創出スペースは、現在、Workfront Planningの追加機能としてベータ版で利用可能です。
+>
+>アイデア創出スペースについて詳しくは、[Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)を参照してください。
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+アイデア創出スペースは、AdobeのAIを活用した戦略的アイデア出し機能で、Workfront Planningに直接組み込まれています。 これにより、マーケティング部門は、データにもとづいた体系化されたキャンペーン戦略の出発点を得ることができます。手作業による調査や推測は、組織の実際のパフォーマンス履歴にもとづいてAIが生成したブリーフに置き換えることができます。
 
-* Thing 1
-* Thing 2
-* Other thing
+共同作業者は、Workfront計画アイデア立案スペースで作業するための様々なスキルを持っています。 例えば、次のようなアクションを実行できます。
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* キャンペーンのアイデア創出：添付のソースドキュメントやその他のソースを使用して、キャンペーンやその他のトピックのアイデアをカンバス上でブレインストーミングし、生成できます。 これがアイデア出しの主な出発点となります。
+* キャンペーンに関する会話 – アイデア創出スペースアプリ内で、キャンペーンのアイデアを対話的に操作できます。
+* キャンペーン概要：構造化されたキャンペーン概要を作成および調整し、完全かつ軌道に乗せるためのガードレールを提供します
+* ドキュメントのQ&amp;A - アイデア出しセッションに添付したドキュメントに対して質問します。
+* 調査：キャンバスでアイデアを創出するために、リサーチを実施します
+* スタータープロンプト – アイデアの立案やアイデアの拡張に役立つプロンプトを提案できます。
+* Open canvas — Ideation Space キャンバスを起動またはジャンプします（アプリ外の通常のチャットから開始する場合に使用します）。
 
 ## Workfrontのスキル
 

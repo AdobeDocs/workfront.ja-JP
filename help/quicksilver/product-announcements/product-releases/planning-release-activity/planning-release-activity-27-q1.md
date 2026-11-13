@@ -18,10 +18,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 2%
+source-wordcount: '1716'
+ht-degree: 3%
 ---
 # Adobe Workfront Planningの2027年第1四半期のリリースアクティビティ
 
@@ -29,14 +29,26 @@ ht-degree: 2%
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
-## Workfront計画で利用可能な環境プロモーション
+## プランニングの自動化の共有
 
 >[!NOTE]
 >
 >プレビュー：2026年11月12日（PT）
 >プロダクション高速リリース：2026年11月12日（PT）
 >すべての人のための制作：2026年11月12日
->[!BADGE 同時リリース &#x200B;]{type=Neutral}
+>[!BADGE スケジュール外]{type=Neutral}
+
+新しいWorkfront Planningの自動化機能は、ワークスペース内の全員と自動的に共有されるのではなく、デフォルトで所有者のみが利用できるようになりました。 所有者は、オートメーションを他のユーザーと共有することで、誰にアクセスするかを選択できます。 他のユーザーに&#x200B;**管理**、**編集**、または&#x200B;**実行** アクセス レベルを付与できます。 既存の自動化機能は、ワークスペースユーザーと引き続き共有されるため、現在のアクセスは影響を受けません。
+
+詳しくは、[Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
+
+## Workfront計画で利用可能な環境プロモーション
+
+>[!NOTE]
+>
+>実稼動およびサンドボックスの高速リリース：2026年11月12日（PT）
+>制作、プレビュー、サンドボックス：近日お知らせします
+>[!BADGE スケジュール外]{type=Neutral}
 
 >[!NOTE]
 >

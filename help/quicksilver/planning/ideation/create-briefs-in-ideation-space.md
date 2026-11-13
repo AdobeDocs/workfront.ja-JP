@@ -18,10 +18,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 3%
+source-wordcount: '2125'
+ht-degree: 2%
 ---
 
 # アイデア創出スペースでブリーフを作成する
@@ -233,6 +233,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >概要にファイルを直接追加することはできません。 最初に、ファイル情報をカードに転送して、ブリーフに送信する必要があります。
 
+1. （オプション）同僚パネルの右上隅にある&#x200B;**チャット** アイコン ![&#x200B; チャットアイコン &#x200B;](assets/chats-icon-coworker.png)をクリックし、**新しいチャット**&#x200B;をクリックして新しいプロンプトを開くか、リスト内の以前のチャットのいずれかをクリックして古いチャットに戻ります。
+
+   チャットについて詳しくは、Adobe CX Enterprise Coworker ドキュメントの[&#x200B; チャットの管理](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)を参照してください。
 
 1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、アイデア創出キャンバス内のアイテムを検索し、リストに表示されたらクリックしてリストに移動します。
 
