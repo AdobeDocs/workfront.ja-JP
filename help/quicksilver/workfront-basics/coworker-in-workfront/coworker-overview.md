@@ -29,7 +29,7 @@ Coworkerは、組織の既存のWorkfront レベルのアクセス制御を尊�
 
 Adobe Workfrontは、Adobeのエコシステムの一部であり、Workfrontのみに限定されません。
 
-共同作業者とその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)を参照してください。
+共同作業者とその機能について詳しくは、[Adobe CX Enterprise Coworker チャットの概要](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview)を参照してください。
 
 WorkfrontでのCoworkerの使用について詳しくは、[WorkfrontでのCX Enterprise Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)を参照してください。
 
