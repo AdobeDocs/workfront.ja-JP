@@ -41,8 +41,8 @@ ht-degree: 66%
 
 ## テスト環境
 
-* [ [!DNL Adobe Workfront]  サンドボックス環境をプレビュー](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [ [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [&#x200B; [!DNL Adobe Workfront]  サンドボックス環境をプレビュー](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [&#x200B; [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 環境の昇格
 
@@ -51,7 +51,7 @@ ht-degree: 66%
 * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 * [環境プロモーションパッケージのロールバック](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
 * [環境間のオブジェクトの比較](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
-* [ [!DNL Workfront] 環境プロモーション APIを使用して [!DNL Workfront] 環境間でオブジェクトを移動](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+* [&#x200B; [!DNL Workfront] 環境プロモーション APIを使用して [!DNL Workfront] 環境間でオブジェクトを移動](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 * [環境のプロモーションに関するよくある質問](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * [環境のプロモーションに関するトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 * [Adobe Workfront計画の環境推進](/help/quicksilver/planning/general/planning-environment-promotion.md)

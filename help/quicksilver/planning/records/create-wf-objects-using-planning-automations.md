@@ -53,7 +53,7 @@ Adobe Workfront Planningで自動処理を設定してアクティブ化した�
 
 ここでは、既存の自動処理を使用して、Workfront Planning レコードまたはWorkfront オブジェクトを作成する方法について説明します。
 
-レコードタイプの自動処理について詳しくは、[ レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
+レコードタイプの自動処理について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
 
 自動処理を使用してレコードまたはWorkfront オブジェクトを作成すると、自動処理を実行しているレコードに自動的にリンクされます。
 
@@ -117,7 +117,7 @@ Workfront Planningの自動化機能を使用して、次の項目を作成で�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -201,7 +201,7 @@ Old:
 
   お客様の環境でAdobe クラウドストレージを有効にする方法については、[お客様の組織でAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
 
-* 自動処理を実行するには、少なくとも自動処理の実行権限が必要です。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
+* 自動処理を実行するには、少なくとも自動処理の実行権限が必要です。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
@@ -225,7 +225,7 @@ For information, see [Configure Adobe Workfront Planning automations to create r
    テーブルの下部に、オートメーションボタンなどの追加ボタンが表示された青いバーが表示されます。
 1. 青いバーの「オートメーション」ボタンをクリックします。
 
-   ![自動化ボタン ](assets/automation-custom-button.png)
+   ![自動化ボタン &#x200B;](assets/automation-custom-button.png)
 
    次のことが発生します。
 
