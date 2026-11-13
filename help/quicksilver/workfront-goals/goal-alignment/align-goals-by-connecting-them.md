@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '729'
 ht-degree: 88%
-
 ---
-
 # 目標を Adobe Workfront Goals で相互に関連付けて整合させる方法
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ ht-degree: 88%
 
 Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つのアプローチがあります。
 
-* 目標を相互に関連付けることで、目標間の整合性を実現できます。
+* 目標を相互に関連付けることで、目標間の整合性を実現できます。 この記事では、このアプローチについて説明します。
 
-* 2 つの目標を手動で整合させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。 変換された結果やアクティビティは、元の目標の子目標になります。
+* また、既存の目標の結果と活動を別の目標に変換することで、2つの目標を整合させることもできます。 変換された結果やアクティビティは、元の目標の子目標になります。
+
+  結果とアクティビティを目標に変換して目標を整合させる方法について詳しくは、[結果とアクティビティを目標に変換して目標を整合させる方法](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)を参照してください。
 
 >[!IMPORTANT]
 >
 >目標には、合計 1000 個の進捗状況インジケーターを設定できます。
 
-この記事では、目標を相互に関連付けることで、目標を整合させる方法について説明します。 結果とアクティビティを目標に変換して目標を整合させる方法について詳しくは、[結果とアクティビティを目標に変換して目標を整合させる方法](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)を参照してください。
 
 ## アクセス要件
 
@@ -214,10 +213,10 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. 「**変更を保存**」をクリックします。
 
    （目標 2）から始めた目標は、（目標 1）と整合させた親目標の子目標になります。\
-   調整された目標は、「目標の調整」セクションに表示され、「目標1」に続く「目標2」に関連付けられます。
-子の目標は、親の目標の進捗状況が更新されるので、親の目標の進捗状況インジケーターセクションに表示されます。
+   「目標の整合性」セクションで目標 2 を目標 1 のサブとして関連付けた調整された目標が表示されます。
+   子目標は、その進捗状況により親目標の進捗状況が更新されると、親目標の「進捗状況インジケーター」セクションに表示されます。
 
-   ![整列されたカード &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![整列されたカード ](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. （オプション）「目標の整合性」セクションで目標を確認するには、Workfront の Goals 領域に移動したあと、左パネルの「**目標の整合性**」セクションをクリックします。 「目標の整合性」セクションについては、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 
