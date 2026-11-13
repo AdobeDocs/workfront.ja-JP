@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1433'
 ht-degree: 4%
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 4%
 <!--add to TOC-->
 <!--add to miniTOC-->
 
-<!--
-Not sure if this bit will ever be needed because this only exists when both Preview and Prod have the features in parity. Features released here always come to both environments at the same time: 
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 2026年11月12日以降、実稼動環境およびサンドボックス環境の一部のお客様のみが利用できます。 後日、実稼動環境、プレビュー環境、サンドボックス環境でも、すべてのユーザーに同じ機能を使用できるようになります。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview"> リリースについて詳しくは、[製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。</span>
+
 
 >[!IMPORTANT]
 >
@@ -137,7 +135,7 @@ PlanningでのEnvironment Promotionの使用は、Workfrontでの使用と同様
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -145,7 +143,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 次の手順は、プランニング設定を別の環境に昇格させる主な手順です。
 
-* [&#x200B; ソース環境でパッケージを作成](#create-a-package-in-the-source-environment)
+* [ ソース環境でパッケージを作成](#create-a-package-in-the-source-environment)
 * [パッケージをインストールする準備をしてください](#make-the-package-ready-to-install)
 * [パッケージをターゲット環境にインストールします](#install-the-package-in-the-target-environment)
 * [結果の検証](#verify-the-results)
@@ -155,7 +153,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ### ソース環境でのパッケージの作成
 
 1. 目的の設定が配置されているソース環境に移動します。
-1. ソース環境で、**メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-shell.png)をクリックし、**セットアップ** > **システム** > **環境プロモーション**&#x200B;に移動します。
+1. ソース環境で、**メインメニュー** ![ メインメニュー](assets/main-menu-shell.png)をクリックし、**セットアップ** > **システム** > **環境プロモーション**に移動します。
 **構成パッケージ**&#x200B;のリストには、ステータス、ソース環境、デプロイされた場所が含まれている既存のパッケージが表示されます。
 1. 「**パッケージを作成**」をクリックします。
 

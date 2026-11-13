@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 70%
+source-wordcount: '145'
+ht-degree: 66%
 ---
 # [!DNL Adobe Workfront] テスト環境
 
@@ -41,8 +41,8 @@ ht-degree: 70%
 
 ## テスト環境
 
-* [&#x200B; [!DNL Adobe Workfront]  サンドボックス環境をプレビュー](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [&#x200B; [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [ [!DNL Adobe Workfront]  サンドボックス環境をプレビュー](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [ [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 環境の昇格
 
@@ -51,6 +51,7 @@ ht-degree: 70%
 * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 * [環境プロモーションパッケージのロールバック](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
 * [環境間のオブジェクトの比較](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
-* [&#x200B; [!DNL Workfront] 環境プロモーション APIを使用して [!DNL Workfront] 環境間でオブジェクトを移動](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+* [ [!DNL Workfront] 環境プロモーション APIを使用して [!DNL Workfront] 環境間でオブジェクトを移動](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 * [環境のプロモーションに関するよくある質問](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * [環境のプロモーションに関するトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* [Adobe Workfront計画の環境推進](/help/quicksilver/planning/general/planning-environment-promotion.md)

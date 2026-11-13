@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 2%
 ---
 # CX Enterprise Coworkerのプロンプトとベストプラクティス
@@ -101,7 +101,7 @@ Coworkerを使用する際には、次の制約を考慮してください。
 >
 >これらの一般的な機能は、署名済みのAdobe AI契約書をファイルに登録しているすべてのユーザーが使用できます。
 
-これらの一般的なスキルのベストプラクティスとプロンプトについては、[AI アシスタント プロンプトとベストプラクティス &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)を参照してください。
+これらの一般的なスキルのベストプラクティスとプロンプトについては、[AI アシスタント プロンプトとベストプラクティス ](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)を参照してください。
 
 <!--Follow up with Oznur-->
 
@@ -169,7 +169,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 * [プロジェクト、タスク、イシューに関する情報を検索](#find-information-about-projects-tasks-or-issues)
 * [プロジェクト、タスク、イシューの要約](#summarize-projects-tasks-or-issues)
-* [&#x200B; プロジェクト、プログラム、またはポートフォリオのプロジェクトの正常性を表示](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
+* [ プロジェクト、プログラム、またはポートフォリオのプロジェクトの正常性を表示](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
 
 #### プロジェクト、タスク、イシューに関する情報を検索
 
@@ -208,7 +208,7 @@ Coworkerを使用して、タスクや割り当てなどのプロジェクトを
 
 * [プロジェクトの作成、更新、削除](#create-update-or-delete-projects)
 * [ユーザープロンプトに基づいて適切なプロジェクトテンプレートを特定する](#identify-the-right-project-template-based-on-user-prompt)
-* [&#x200B; プロジェクト内のタスクを追加、編集、またはカスタマイズする](#add-edit-or-customize-tasks-in-a-project)
+* [ プロジェクト内のタスクを追加、編集、またはカスタマイズする](#add-edit-or-customize-tasks-in-a-project)
   <!--* [Create, update, or delete assignments](#create-update-or-delete-assignments)-->
   <!--* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)-->
 
@@ -355,7 +355,7 @@ Adobe Workfrontで、ドキュメントとアセットの承認を包括的に�
 * 誰がこのプロジェクトを変更し、何を変更したかを表示できますか？
 * 先週このレコードでおこなわれたすべての更新を確認する必要があります
 
-### Workfront計画でのSystem Designerの使用
+### Workfront PlanningでのPlanning Designerの使用
 
 * [ワークスペースの作成と設定](#create-and-configure-workspaces)
 * [レコードタイプの定義](#define-record-types)
@@ -386,3 +386,15 @@ Adobe Workfrontで、ドキュメントとアセットの承認を包括的に�
 * プランニングでタイムラインビューを作成し、開始日と終了日でキャンペーンスケジュールを確認する
 * アクティブなステータスのみをフィルタリングする新しいテーブルビューをプランニングイニシアチブに追加
 * プランニングのアクティブなキャンペーン表示を複製し、並べ替えを変更します。
+
+### Workfrontプランニングのアイデア創出スペースの同僚（ベータ版）
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* キャンペーンのアイデア創出：添付のソースドキュメントやその他のソースを使用して、キャンペーンやその他のトピックのアイデアをカンバス上でブレインストーミングし、生成できます。 これがアイデア出しの主な出発点となります。
+* キャンペーンに関する会話 – アイデア創出スペースアプリ内で、キャンペーンのアイデアを対話的に操作できます。
+* キャンペーン概要：構造化されたキャンペーン概要を作成および調整し、完全かつ軌道に乗せるためのガードレールを提供します
+* ドキュメントのQ&amp;A - アイデア出しセッションに添付したドキュメントに対して質問します。
+* 調査：キャンバスでアイデアを創出するために、リサーチを実施します
+* スタータープロンプト – アイデアの立案やアイデアの拡張に役立つプロンプトを提案できます。
+* Open canvas — Ideation Space キャンバスを起動またはジャンプします（アプリ外の通常のチャットから開始する場合に使用します）。
