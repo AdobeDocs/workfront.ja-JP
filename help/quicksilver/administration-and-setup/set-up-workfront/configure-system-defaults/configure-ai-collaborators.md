@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 4%
+source-wordcount: '1993'
+ht-degree: 3%
 ---
 # AI共同作業者の設定
 
@@ -42,15 +42,11 @@ AI協力者とは、AI エージェントをプロジェクト、タスク、イ
 
   Adobe CX Enterprise Coworkerについて詳しくは、[WorkfrontでのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 AI共同作業者が使用するライセンスには請求されません。 組織に200 Workfront ライセンスがあり、AI Collaboratorを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview"> プロジェクトコーディネーター：外部エージェントを設定することなく、プロジェクトのステータスを監視し、プロジェクトの更新を送信する、すぐに使用できる共同作業者。</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">詳細については、[ プロジェクト コーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。</span>
 
 
 ## アクセス要件
@@ -108,8 +104,6 @@ AI共同作業者が使用するライセンスには請求されません。 �
 >
 >アドビは、あらゆるエージェントプロバイダーへの接続を目指しています。そのため、お使いのプロバイダーが現在Work Agentsと互換性がない場合は、アカウントチームにお問い合わせください。
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## 新しいAI レビュアーの作成
 
 AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intelligenceを使用するように設定できます。
@@ -138,11 +132,9 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 >作業担当者は、タスクまたはイシューに割り当てることができます。
 
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
-
 作業担当者が使用するライセンスには料金は請求されません。 組織に200 Workfront ライセンスがあり、Work Agentを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
-作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス ](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
 * [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -232,7 +224,7 @@ Workfrontで作業エージェントとして使用するエージェントを�
 >
 >Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 
 <!--
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## プロジェクトコーディネーターの設定
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+プロジェクトコーディネーターは、プロジェクトの状況を監視し、作業を軌道に乗せるのに役立つ、すぐに利用できる共同作業者です。 作業エージェントとは異なり、プロジェクトコーディネーターは外部エージェントを設定する必要がありません。
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
+1. 画面の右上隅にある「**新しい共同作業者**」をクリックします。
+1. **プロジェクトコーディネーター**&#x200B;を選択し、**続行**&#x200B;をクリックします。
+1. 「**AI Collaborator Name**」フィールドに、プロジェクトコーディネーターの名前を入力します。 これは、プロジェクトの共同作業者として表示される名前です。
+1. （オプション）「**AI Collaborator Description**」フィールドに、プロジェクトコーディネーターの役割や目的の説明を入力します。
+1. 「**アクセスレベル**」フィールドで、プロジェクトコーディネーターのアクセスレベルを選択します。 このアクセスレベルは、共同作業者がプロジェクトで実行できる操作を制御します。アクセスレベルは、ユーザーが実行できる操作を制御するのと同じ方法です。
+1. （オプション）「**グループ**」フィールドで、プロジェクトコーディネーターが関連付けるグループを選択します。
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。
+
+1. **コーディネーターのアクション**&#x200B;領域で、プロジェクト コーディネーターがプロジェクトの更新を送信する方法を指定します。 プロジェクトコーディネーターは、これらのアクションを実行するための権限を持っている必要があります。 また、プロジェクトコーディネーターは、プロジェクトとそのタスクに関するコメントを追加できます。
+
+   プロジェクトの更新には、進捗状況、プロジェクトの健全性、期限切れまたはリスクのあるタスクや承認、欠けているフィールドや割り当てなどが含まれます。
+
+   * 「**ケイデンス**」フィールドで、プロジェクトコーディネーターが毎日または毎週アップデートを送信するかどうかを選択します。
+   * （条件付き）週単位を選択した場合、**日** フィールドで、更新が送信される曜日を選択します。
+   * 「**時間**」フィールドで、更新を送信する時間を選択します。
+   * 「**タイムゾーン**」フィールドで、更新時間のタイムゾーンを選択します。
+   * 「**誰が更新プログラムを取得するか**」フィールドで、更新プログラムをプロジェクト所有者またはプロジェクト関係者に送信するかどうかを選択します。 デフォルトはプロジェクトオーナーです。
+
+1. 「**保存**」をクリックします。
+
+プロジェクトコーディネーターを保存したら、ユーザーが使用するレイアウトテンプレートのプロジェクトヘッダーに「**プロジェクトコーディネーター**」フィールドを追加します。 フィールドがヘッダーで使用可能になるまで、ユーザーはプロジェクトにプロジェクトコーディネーターを割り当てることはできません。
+
+手順については、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
+
+プロジェクトに割り当てる方法など、プロジェクトコーディネーターについて詳しくは、[ プロジェクトコーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。
 
 </div>
 
@@ -306,4 +305,4 @@ For more information on the Project Coordinator, including how to assign it to p
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
