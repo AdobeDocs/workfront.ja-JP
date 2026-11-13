@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 13%
                 <p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Workfront管理者は、ある環境から別の環境にWorkfront Planning ワークスペースとそのオブジェクトを昇格できるようになりました。</p>
             </td>
-            <td><p>近々お知らせします</p></td>
+            <td><p>2026年12月17日（PT）</p></td>
             <td><p>2026年11月12日（PT）</p></td>
-            <td><p>近々お知らせします</p></td>
+            <td><p>2026年12月17日（PT）</p></td>
         </tr>
         <tr>
             <td>
