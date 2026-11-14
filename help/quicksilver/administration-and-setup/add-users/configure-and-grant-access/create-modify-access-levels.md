@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 76%
+source-wordcount: '1673'
+ht-degree: 74%
 ---
 # カスタムアクセスレベルの作成と変更
 
@@ -250,19 +250,18 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
       <td role="rowheader">ユーザーにブランドへのアクセスを許可</td> 
       <td>WorkfrontでGenStudio ブランドにアクセスして管理できます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref"> ブランド権限へのアクセス権の付与</a>を参照してください。</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">アイディエーションスペースを無効にする</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>ユーザーがアイデア創出スペースにアクセスできるようにするには、この設定を選択します。</p> 
+      <p>これはデフォルトで選択されています。</p>
+      <p>詳しくは、「<a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Adobe Workfront計画</a>のアイデア創出スペースの基本を学ぶ」を参照してください。</p>
+      <p><b>メモ：</b></p>
+      <p>アイデア創出スペースは、BetaのWorkfront計画パッケージを持つお客様のみが利用できます。</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 
