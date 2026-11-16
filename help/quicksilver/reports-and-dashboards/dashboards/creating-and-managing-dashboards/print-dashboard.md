@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '431'
 ht-degree: 98%
 ---
 # ダッシュボードの印刷
@@ -95,7 +95,7 @@ ht-degree: 98%
 * レポートのタイトル
 * レポートが前回生成されたときのタイムスタンプ
 * リスト表示、外部 web ページ、レポート、カレンダーなど、ダッシュボード上のすべてのオブジェクト
-* 会社のロゴ（Workfront 管理者がグローバルナビゲーションバーでカスタマイズしてある場合）。 Workfront サイトのブランディングについて詳しくは、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)を参照してください。
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### 表示されない情報 {#what-is-not-displayed}
 

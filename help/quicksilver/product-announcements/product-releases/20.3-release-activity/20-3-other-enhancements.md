@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 100%
 ---
 # 20.3 その他の機能強化
@@ -129,7 +129,7 @@ Workfront でのカレンダーの共有の負担を軽減するために、ユ�
 
 レイアウトテンプレートを使用して、独自のブランディング要素を使用する特定のグループ、チーム、担当業務、ユーザー向けに、上部のナビゲーションエリアとメインメニューのロゴを変更できるようになりました。
 
-詳しくは、[Adobe Workfront インスタンスをブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)を参照してください。
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## グループ管理者は、承認プロセスを作成および管理できます
 
