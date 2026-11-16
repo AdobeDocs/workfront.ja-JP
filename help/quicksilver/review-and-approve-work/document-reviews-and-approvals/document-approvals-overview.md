@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # 統一されたレビューと承認の概要
@@ -72,7 +72,7 @@ Creative Cloud アプリケーション（Photoshop、Illustrator、InDesign）�
 * AI レビュー担当者を活用してブランドコンプライアンスのレビューを自動化する
 * その他
 
-詳しくは、[統一ドキュメント承認：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)を参照してください。
+詳しくは、[統一ドキュメント承認：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)を参照してください。
 
 
 ### Frame.io ビューアの使用
@@ -82,7 +82,7 @@ Frame.io ビューアを使用したアセットのレビューと承認 Frame.i
 * マークアップツールとコメントツール
 * バージョン履歴と比較
 * ビデオレビュー用のタイムスタンプ付きコメント
-* [Frame.io iOS アプリ &#x200B;](https://help.frame.io/en/collections/9679120-ios-app)による外出先でのレビューと承認のためのモバイルアクセス
+* [Frame.io iOS アプリ ](https://help.frame.io/en/collections/9679120-ios-app)による外出先でのレビューと承認のためのモバイルアクセス
 
 詳しくは、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。
 
@@ -96,7 +96,7 @@ Workfront管理者は、使用率がキャップの80%と100%に達すると、�
 
 #### Frame.io ビューアでサポートされているファイルタイプ
 
-Frame.io ビューアは、一般的なビデオ、画像、オーディオ、PDF、MS® Officeのすべてのタイプをサポートしています。 サポートされているファイルの詳細なリストについては、[Frame.ioでサポートされているファイルタイプ &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)を参照してください。
+Frame.io ビューアは、一般的なビデオ、画像、オーディオ、PDF、MS® Officeのすべてのタイプをサポートしています。 サポートされているファイルの詳細なリストについては、[Frame.ioでサポートされているファイルタイプ ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)を参照してください。
 
 #### Frame.io ビューアへのアクセスとライセンス
 
@@ -116,7 +116,7 @@ Workfront プルーフ機能は、この統合では使用できません。
 
 プロジェクトコーディネーターは、Workfrontの強力なプロジェクト管理機能を活用して、作業を計画、追跡、管理できます。
 
-Workfrontでのプロジェクトの管理について詳しくは、[&#x200B; プロジェクト：記事インデックス &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+Workfrontでのプロジェクトの管理について詳しくは、[ プロジェクト：記事インデックス ](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
 
 ### 構造と命名規則の適用
 
@@ -304,7 +304,7 @@ Workfront管理者は、使用率が上限の80%と100%に達すると、アプ�
 
 **承認ワークフローで並行レビューパスを設定できますか？**
 
-はい。 承認ワークフローは、連続的なステージに加えて、並行するパスもサポートしています。 各パスは独立して実行され、1つ以上のシーケンシャルステージが含まれているため、異なるパスのレビューを同時に実施することができます。 1回の承認で最大30個のパスと100個のステージを設定できます。 同じオプションを承認テンプレートで使用できます。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+はい。 承認ワークフローは、連続的なステージに加えて、並行するパスもサポートしています。 各パスは独立して実行され、1つ以上のシーケンシャルステージが含まれているため、異なるパスのレビューを同時に実施することができます。 1回の承認で最大30個のパスと100個のステージを設定できます。 同じオプションを承認テンプレートで使用できます。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -332,7 +332,7 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 はい。 承認者とレビュー担当者は、レビューや承認に割り当てられたときにメール通知を受け取ります。 また、自動リマインダーメールは、締切の72時間前、24時間前、締切そのものに送信されます。
 
-承認ワークフローの各段階にカスタムメッセージを追加できます。 このメッセージは、Workfrontの承認電子メール通知および「承認」タブに表示されます。 同じメッセージを各ステージに使用することも、1つのステージごとに異なるメッセージを使用することもできます。メッセージには最大500文字を含めることができます。 承認ワークフローの作成後にカスタムメッセージを編集すると、更新されたメール通知がすべての既存の参加者に送信されます。 後で参加者を追加すると、カスタムメッセージがメール通知に含まれます。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+承認ワークフローの各段階にカスタムメッセージを追加できます。 このメッセージは、Workfrontの承認電子メール通知および「承認」タブに表示されます。 同じメッセージを各ステージに使用することも、1つのステージごとに異なるメッセージを使用することもできます。メッセージには最大500文字を含めることができます。 承認ワークフローの作成後にカスタムメッセージを編集すると、更新されたメール通知がすべての既存の参加者に送信されます。 後で参加者を追加すると、カスタムメッセージがメール通知に含まれます。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
@@ -580,6 +580,10 @@ Adobe アカウントチームと協力して、適切な数のFrame.io Enterpri
 部分的に。 承認ワークフローは、Workfront サンドボックス環境でテストできます。 ただし、Frame.io ビューアエクスペリエンスはサンドボックスでは使用できません。 レビューサーフェス自体をテストするには、実稼動環境が必要です。
 
 ロールアウト中の公開を制限するには、Workfront実稼動環境内の特定のグループに対して、統一されたレビューと承認を有効にします。 これにより、少数のユーザーでターゲットを絞った試験運用をおこない、より広範な展開が可能になります。
+
+**更新後にAdobe クラウドストレージプロジェクトとドキュメントがサンドボックスに表示されないのはなぜですか？**
+
+これは予期される動作です。 サンドボックスが実稼動環境から更新された場合、Adobe クラウドストレージデータはサンドボックスにコピーされません。 Adobe クラウドストレージプロジェクト、そのドキュメント、および関連するデータは、更新に含まれません。 従来のWorkfront ストレージプロジェクトおよびドキュメントは、通常どおり引き続きサンドボックスにコピーされます。 サンドボックスでAdobe クラウドストレージをテストするには、新しいAdobe クラウドストレージプロジェクトを作成し、その環境に直接ドキュメントをアップロードします。 詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**

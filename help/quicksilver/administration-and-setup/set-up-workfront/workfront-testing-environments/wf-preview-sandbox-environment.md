@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 86%
+source-wordcount: '1509'
+ht-degree: 79%
 ---
 # [!DNL Adobe Workfront] プレビューサンドボックス環境
 
@@ -45,7 +45,7 @@ ht-degree: 86%
 
 * カスタム更新サンドボックス
 
-  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[&#x200B; [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
+  カスタム更新サンドボックスは、個別のテスト環境で、ユーザーが手動で更新します。 カスタム更新サンドボックスを取得するには、追加の費用がかかります。 この環境について詳しくは、[ [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,6 +84,18 @@ ht-degree: 86%
 
 プレビュー環境は、トレーニングの実行、新機能のテストおよび設定機能の決定に最適です。
 
+## プレビューサンドボックスでのAdobe クラウドストレージ
+
+Adobe クラウドストレージはプレビューサンドボックスで利用できるため、本番環境で有効にする前にテストすることができます。 ただし、Frame.io ビューアはサンドボックス環境では使用できないため、完全な統一されたレビューと承認エクスペリエンスは実稼動環境で検証する必要があります。
+
+>[!IMPORTANT]
+>
+>プレビューサンドボックスが実稼動環境から更新されると、Adobe クラウドストレージデータはサンドボックスにコピーされません。 Adobe クラウドストレージプロジェクト、そのドキュメント、および関連するデータは、更新に含まれません。 これは予期される動作です。 従来のWorkfront ストレージプロジェクトおよびドキュメントは、通常どおり引き続きサンドボックスにコピーされます。
+>
+>プレビューサンドボックスでAdobe クラウドストレージをテストするには、新しいAdobe クラウドストレージプロジェクトを作成し、その環境に直接ドキュメントをアップロードします。
+
+詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+
 >[!IMPORTANT]
 >
 >Canvas ダッシュボードのプランニングデータは、サンドボックス環境の[!DNL Workfront]人の管理者にのみ表示されます。
@@ -94,7 +106,7 @@ ht-degree: 86%
 >
 >アクセスしている環境の名前（プレビュー）とコードのリリースバージョンがバナーに表示されます。 そのリリースについては、「**[!UICONTROL XXの新機能]**」をクリックしてください。
 >
->![&#x200B; バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
+>![ バナーをプレビュー](assets/preview-banner-nwe-350x161.png)
 
 ## プレビューサンドボックスへのアクセス
 
@@ -196,7 +208,7 @@ SSO を使用している場合はカスタマーサポートチームと協力�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動的に再計算するタイミングを設定できます。 Workfrontでは、毎晩、プロジェクトスコープが変更されたタイミング、またはその両方で、プロジェクトタイムラインを再計算できます。
 
-詳しくは、[&#x200B; プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
+詳しくは、[ プロジェクトのタイムライン再計算の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
 プレビュー環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的に再計算されません。 プレビュー環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
