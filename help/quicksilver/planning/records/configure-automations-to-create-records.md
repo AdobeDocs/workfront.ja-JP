@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 4%
 ---
 # Adobe Workfront Planning の自動処理の設定
@@ -109,7 +109,7 @@ Workfront Planningのレコードタイプのページで、自動処理を設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -222,7 +222,7 @@ Old:
 
       条件が満たされると、Workfront Planningはオブジェクトを自動的に作成します。
 
-      ![&#x200B; フィールド値の変更トリガーが選択されました](assets/field-value-change-trigger-selected.png)
+      ![ フィールド値の変更トリガーが選択されました](assets/field-value-change-trigger-selected.png)
 
       >[!IMPORTANT]
       >
@@ -231,7 +231,7 @@ Old:
       >
       >   制限が許す以上の条件が必要な場合は、作業を2つの異なる自動化に分割します。
       >
-      >   詳しくは、「[&#x200B; フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
+      >   詳しくは、「[ フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
 
 1. **アクション** セクションの次のフィールドを更新します：<!--submitted bugs for these fields - see if they need changing here-->
    * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 必須フィールドです。
@@ -338,7 +338,7 @@ Old:
 1. （オプションおよび条件付き）レコードを作成することを選択した場合は、**フィールドを追加**&#x200B;をクリックして、あるレコードから別のレコードに追加のルックアップフィールドをマッピングします。
 1. （条件付き）元のレコードタイプと、**レコードタイプ** フィールドで選択されたレコードタイプの間に接続フィールドがない場合は、**接続フィールドを追加**&#x200B;をクリックします。
 
-   ![&#x200B; レコードを作成するための自動設定](assets/automation-setup-create-record.png)
+   ![ レコードを作成するための自動設定](assets/automation-setup-create-record.png)
 
    次の2つのフィールドが作成されます。
 
@@ -402,6 +402,10 @@ Old:
 
 ## 自動化の共有
 
+>[!NOTE]
+>
+>この機能は、2026年11月16日（PT）にすべての環境から一時的に削除され、将来の日付で有効になります。
+
 オートメーションの作成者は、デフォルトでオートメーションに対する管理権限を持っています。
 
 さらに、他のユーザーやチームと共有することもできます。
@@ -432,7 +436,7 @@ Old:
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
