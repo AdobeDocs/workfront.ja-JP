@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 74%
+source-wordcount: '197'
+ht-degree: 73%
 ---
 # レイアウトテンプレート：記事インデックス
 
@@ -40,7 +40,6 @@ Workfrontのインターフェイスで確認できます。
 次の記事では、レイアウトテンプレートを使用してWorkfront インターフェイスをカスタマイズする方法について説明します。
 
 * [デフォルトの Adobe Workfront レイアウトについて](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [レイアウトテンプレートを使用した Adobe Workfront のブランディング](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [レイアウトテンプレートを使用したメインメニューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [レイアウトテンプレートを使用した左パネルのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)

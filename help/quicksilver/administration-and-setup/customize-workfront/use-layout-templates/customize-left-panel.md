@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 43%
 ---
 # レイアウトテンプレートを使用した左パネルのカスタマイズ
@@ -247,14 +247,12 @@ ht-degree: 43%
    >* [!UICONTROL リスト]
    >* [!UICONTROL 概要パネル]
    >* [!UICONTROL ホーム]
-   >* [!UICONTROL ブランディング]
    > 
    >これらの追加領域をカスタマイズする方法については、次の記事を参照してください。
    >
    >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [&#x200B; レイアウトテンプレートを使用して[!UICONTROL 概要パネル &#x200B;]をカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [&#x200B; レイアウトテンプレートを使用したホームのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （オプション）組織のダッシュボードのいずれかにリンクする左側のパネルアイテムを追加する場合は、**[!UICONTROL ダッシュボードを追加]**&#x200B;をクリックし、そのアイテムに&#x200B;**[!UICONTROL クイックリンク名]**&#x200B;を入力してから、ダッシュボードを選択します。

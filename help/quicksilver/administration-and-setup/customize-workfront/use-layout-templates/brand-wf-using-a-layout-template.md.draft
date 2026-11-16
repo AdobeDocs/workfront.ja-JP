@@ -1,11 +1,12 @@
 ---
-title: レイアウトテンプレートを使用したAdobe Workfrontのブランド設定
+title: Brand Adobe Workfront Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Adobe Workfrontではブランディングを使用できなくなりました。 この機能は、WorkfrontのAdobe Experience Cloudへのオンボーディングの一部として廃止されました。
+description: Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
+hide: true
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 TQID: 'https://experienceleague.adobe.com/MhQmqpwdvtCfxXlktomHlIukgbq7sJKXwxTwRJgDSO8'
@@ -23,18 +24,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
-workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
 ---
-# レイアウトテンプレートを使用した Adobe Workfront のブランディング
+# Brand Adobe Workfront using a layout template
 
 <!--Audited: 09/2024-->
 
 >[!IMPORTANT]
 >
->Adobe Workfrontではブランディングを使用できなくなりました。 この機能は、WorkfrontのAdobe Experience Cloudへのオンボーディングの一部として廃止されました。
+>Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 
 <!-- 
 

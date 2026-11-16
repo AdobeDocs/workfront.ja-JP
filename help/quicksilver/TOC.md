@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
+source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
 workflow-type: tm+mt
-source-wordcount: '14776'
+source-wordcount: '14764'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -619,10 +619,7 @@ ht-degree: 90%
       * [チームの設定を編集](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Adobe Workfront のカスタマイズ {#customize}
     * [Workfront のカスタマイズ](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Adobe Workfront でのカスタムブランディング {#custom-branding}
-      * [カスタムブランディング](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [インスタンスのブランディング](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [カスタムヘルプ URL の設定](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [カスタムヘルプ URL の設定](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * レイアウトテンプレート {#layout-templates}
       * [レイアウトテンプレート](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [デフォルトの Workfront レイアウト](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -638,7 +635,6 @@ ht-degree: 90%
       * [フィルター、表示、グループ化のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [ユーザーインターフェイスの用語のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [ランディングページのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [Workfront のブランディング](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [レイアウトテンプレートのテスト](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [レイアウトテンプレートへの管理アクセス](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [ユーザーのレイアウトテンプレートへの割り当て](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)

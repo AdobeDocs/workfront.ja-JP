@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 1%
 ---
 # Adobe クラウドストレージの概要
@@ -138,6 +138,12 @@ Adobe クラウドストレージをサポートするWorkfrontのバージョ�
 ## サンドボックス環境でのAdobe クラウドストレージ
 
 Adobe クラウドストレージは[!DNL Workfront] サンドボックス環境で利用できるため、実稼動環境で有効にする前にテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
+
+>[!IMPORTANT]
+>
+>サンドボックスが実稼動環境から更新された場合、Adobe クラウドストレージデータはサンドボックスにコピーされません。 Adobe クラウドストレージプロジェクト、そのドキュメント、および関連するデータは、更新に含まれません。 これは、Adobe クラウドストレージのアーキテクチャの結果として期待される動作です。 従来のWorkfront ストレージプロジェクトおよびドキュメントは、通常どおり引き続きサンドボックスにコピーされます。
+>
+>サンドボックスでAdobe クラウドストレージをテストするには、新しいAdobe クラウドストレージプロジェクトを作成し、その環境に直接ドキュメントをアップロードします。
 
 カスタムリフレッシュサンドボックスがある場合は、サンドボックス内のAdobe クラウドストレージ機能にアクセスするために、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 詳しくは、[&#x200B; カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 

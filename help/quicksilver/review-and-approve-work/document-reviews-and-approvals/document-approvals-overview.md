@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # 統一されたレビューと承認の概要
@@ -580,6 +580,10 @@ Adobe アカウントチームと協力して、適切な数のFrame.io Enterpri
 部分的に。 承認ワークフローは、Workfront サンドボックス環境でテストできます。 ただし、Frame.io ビューアエクスペリエンスはサンドボックスでは使用できません。 レビューサーフェス自体をテストするには、実稼動環境が必要です。
 
 ロールアウト中の公開を制限するには、Workfront実稼動環境内の特定のグループに対して、統一されたレビューと承認を有効にします。 これにより、少数のユーザーでターゲットを絞った試験運用をおこない、より広範な展開が可能になります。
+
+**更新後にAdobe クラウドストレージプロジェクトとドキュメントがサンドボックスに表示されないのはなぜですか？**
+
+これは予期される動作です。 サンドボックスが実稼動環境から更新された場合、Adobe クラウドストレージデータはサンドボックスにコピーされません。 Adobe クラウドストレージプロジェクト、そのドキュメント、および関連するデータは、更新に含まれません。 従来のWorkfront ストレージプロジェクトおよびドキュメントは、通常どおり引き続きサンドボックスにコピーされます。 サンドボックスでAdobe クラウドストレージをテストするには、新しいAdobe クラウドストレージプロジェクトを作成し、その環境に直接ドキュメントをアップロードします。 詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**

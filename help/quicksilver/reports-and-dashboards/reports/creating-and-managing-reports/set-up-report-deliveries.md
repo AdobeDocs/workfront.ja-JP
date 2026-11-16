@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 93%
 ---
 # レポート配信の概要
@@ -175,13 +175,15 @@ Excel、Excel（.xlsx）または TSV 形式で配信される予定のレポー
 * 時間
 * レポートが送信されたタイムゾーン
 
-### ブランディング {#branding}
+<!--
+### Branding {#branding}
 
-Workfront 管理者がカスタマイズしたブランディングを Workfront インスタンスに追加した場合、PDF 形式で送信されるレポートには、パーソナライズしたロゴも含まれます。
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-その他の形式で送信されるレポートは、ロゴでパーソナライズすることはできません。
+Reports sent in all other formats cannot be personalized with your logo.
 
-Workfront インスタンスのブランディングについて詳しくは、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)の記事を参照してください。
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### 書式 {#formatting}
 
