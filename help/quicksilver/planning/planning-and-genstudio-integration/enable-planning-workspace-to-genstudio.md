@@ -128,7 +128,7 @@ Workfront Planningにプランニングワークスペースが既にある場�
 
 Adobe Workfront計画アクセスについて詳しくは、[Adobe Workfront計画アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
-Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 +++ 
 
@@ -160,7 +160,7 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
 
       すべてのレコードタイプについて、フィールド設定を繰り返します。
 
-      ![ ワークスペース GenStudioを有効にする – フィールド ステップ ](assets/make-workspace-genstudio-enabled-box-fields-step.png)
+      ![&#x200B; ワークスペース GenStudioを有効にする – フィールド ステップ &#x200B;](assets/make-workspace-genstudio-enabled-box-fields-step.png)
 
    1. 警告を確認して対処します。
 
@@ -174,7 +174,7 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
 
       GenStudioからアクセスできるようにマッピングされたレコードタイプには、カードに新しい&#x200B;**Adobe** アイコンが追加されています。
 
-      ![Adobe アイコンを含むキャンペーンのレコードタイプ ](assets/campaigns-record-type-card-with-adobe-icon.png)
+      ![Adobe アイコンを含むキャンペーンのレコードタイプ &#x200B;](assets/campaigns-record-type-card-with-adobe-icon.png)
 
 1. GenStudioを開き、「**キャンペーン**」を選択し、画面の左下隅にあるこの設定のために設定した&#x200B;**ACPC プロジェクト**&#x200B;をクリックします。 読み込んだレコードタイプとフィールドを確認します。
 
