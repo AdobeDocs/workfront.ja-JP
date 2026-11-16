@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 5%
+source-wordcount: '2454'
+ht-degree: 4%
 ---
 # Adobe Workfront Planning の自動処理の設定
 
@@ -109,7 +109,7 @@ Workfront Planningのレコードタイプのページで、自動処理を設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -222,7 +222,7 @@ Old:
 
       条件が満たされると、Workfront Planningはオブジェクトを自動的に作成します。
 
-      ![&#x200B; フィールド値の変更トリガーが選択されました](assets/field-value-change-trigger-selected.png)
+      ![ フィールド値の変更トリガーが選択されました](assets/field-value-change-trigger-selected.png)
 
       >[!IMPORTANT]
       >
@@ -231,15 +231,16 @@ Old:
       >
       >   制限が許す以上の条件が必要な場合は、作業を2つの異なる自動化に分割します。
       >
-      >   詳しくは、「[&#x200B; フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
+      >   詳しくは、「[ フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
 
 1. **アクション** セクションの次のフィールドを更新します：<!--submitted bugs for these fields - see if they need changing here-->
    * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 必須フィールドです。
      次のいずれかのアクションを選択します。
 
-     * 複数のプロジェクトの作成
+     * AEM ワークフローによるプロジェクトの作成
      * 単一のプロジェクトを作成
-     * プロジェクトを作成
+     * 複数のプロジェクトの作成
+     * 複数のレコードを作成
      * レコードを作成
      * プログラムを作成
      * ポートフォリオを作成
@@ -250,6 +251,12 @@ Old:
      >自動処理を保存した後、このフィールドで選択したアクションを変更できなくなります。
 
 1. （条件付き）選択したアクションに応じて、次のフィールドを更新します。
+
+   * **AEM ワークフローを使用してプロジェクトを作成**:
+     * **プロジェクトが作成される接続フィールド**：これは、新しいプロジェクトが表示される接続フィールドです。 必須フィールドです。
+     * **プロジェクトテンプレート**: Workfrontがプロジェクトの作成に使用するプロジェクトテンプレートを選択します。
+     * **リンクされたフォルダーを作成**: プロジェクトにリンクされたフォルダーを作成する場合は、このオプションを有効にします。
+
 
    * **単一のプロジェクトを作成**: <!--replace to the left: Create a single project-->
      * **プロジェクトが作成される接続フィールド**：これは、新しいプロジェクトが表示される接続フィールドです。 必須フィールドです。
@@ -284,9 +291,38 @@ Old:
 
        * 現在のレコードが表示される接続レコードタイプの&#x200B;**フィールド**：これは、現在のレコードが表示されるアクションに選択されたレコードタイプの接続フィールドです。
 
-       例えば、製品レコードを接続するキャンペーンのオートメーションを作成する場合、オートメーションを使用して製品を作成した後、キャンペーンが表示される製品レコードタイプの「接続」フィールドです。
+         例えば、製品レコードを接続するキャンペーンのオートメーションを作成する場合、オートメーションを使用して製品を作成した後、キャンペーンが表示される製品レコードタイプの「接続」フィールドです。
 
-       必須フィールドです。
+         必須フィールドです。
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 **マップフィールド**&#x200B;領域で、次の情報を更新します。
+
+       * **移動元**：自動処理が作成されるレコードタイプからフィールドを選択して、接続されたレコードタイプのフィールドにマッピングします。
+       * **移動先**：新しく作成したレコードから、自動処理を実行しているレコードの情報を入力するフィールドを選択します。
+
+       >[!TIP]
+       >
+       >* 元のレコードタイプのフィールドタイプは、新しく作成されたレコードタイプのフィールドタイプと一致する必要があります。
+       >* フィールドを選択しない場合、新しいレコードの名前は&#x200B;**名称未設定レコード**&#x200B;になります。
+
+
+   * **複数のレコードを作成**:
+     * **レコードタイプ**：作成するレコードタイプを選択します。
+
+       **設定** サブセクションが表示されます。 **設定** サブセクションの次のフィールドを更新します。
+
+       * 現在のレコードが表示される接続レコードタイプの&#x200B;**フィールド**：これは、現在のレコードが表示されるアクションに選択されたレコードタイプの接続フィールドです。
+
+         例えば、製品レコードを接続するキャンペーンのオートメーションを作成する場合、オートメーションを使用して製品を作成した後、キャンペーンが表示される製品レコードタイプの「接続」フィールドです。
+
+         必須フィールドです。
+
+       * **新しいレコードを作成するフィールド：**
+
+         新しいレコードの作成元となるフィールドです。
+
+         例えば、計画レコードにUK、EU、USなどの3つの地域を表すフィールドがある場合、そのフィールドを選択すると、各オプションに1つずつ、3つの新しいレコードが作成されます。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
                                                                                  **マップフィールド**&#x200B;領域で、次の情報を更新します。
@@ -302,7 +338,7 @@ Old:
 1. （オプションおよび条件付き）レコードを作成することを選択した場合は、**フィールドを追加**&#x200B;をクリックして、あるレコードから別のレコードに追加のルックアップフィールドをマッピングします。
 1. （条件付き）元のレコードタイプと、**レコードタイプ** フィールドで選択されたレコードタイプの間に接続フィールドがない場合は、**接続フィールドを追加**&#x200B;をクリックします。
 
-   ![&#x200B; レコードを作成するための自動設定](assets/automation-setup-create-record.png)
+   ![ レコードを作成するための自動設定](assets/automation-setup-create-record.png)
 
    次の2つのフィールドが作成されます。
 
@@ -396,7 +432,7 @@ Old:
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
