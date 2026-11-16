@@ -37,7 +37,7 @@ Workfront Planningにプランニングワークスペースが既にある場�
 * Workfront PlanningとGenStudio for Performance Marketingの両方にアクセスできます。
 * Adobe Cloud Storage プロジェクトをワークスペースにリンクします。 組織管理者は、Adobe Admin Consoleで組織管理者を作成できます。
 
-  詳しくは、[Adobe ストレージの管理](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)を参照してください。<!--ensure this site still works-->
+  詳しくは、[Adobe ストレージの管理](https://helpx.adobe.com/jp/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)を参照してください。<!--ensure this site still works-->
 
 ## アクセス要件
 
@@ -73,7 +73,7 @@ Workfront Planningにプランニングワークスペースが既にある場�
    <td> 
    <p> Adobe Admin ConsoleでAdobe Storage Cloud プロジェクトを作成する必要があります </p>
 
-<p>詳しくは、<a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies"> プロジェクトの管理</a>を参照してください
+<p>詳しくは、<a href="https://helpx.adobe.com/jp/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies"> プロジェクトの管理</a>を参照してください
 
 </td> 
   </tr>
