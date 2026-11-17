@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1956'
 ht-degree: 3%
 ---
 # AI共同作業者の設定
@@ -46,7 +46,7 @@ AI共同作業者が使用するライセンスには請求されません。 �
 
 * <span class="preview"> プロジェクトコーディネーター：外部エージェントを設定することなく、プロジェクトのステータスを監視し、プロジェクトの更新を送信する、すぐに使用できる共同作業者。</span>
 
-  <span class="preview">詳細については、[&#x200B; プロジェクト コーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。</span>
+  <span class="preview">詳細については、[ プロジェクト コーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。</span>
 
 
 ## アクセス要件
@@ -134,7 +134,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業担当者が使用するライセンスには料金は請求されません。 組織に200 Workfront ライセンスがあり、Work Agentを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
-作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス ](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
 * [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -161,10 +161,11 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
    | Platform | 必須の認証 |
    |---|---|
-   | Copilot Studio | Web チャネルシークレット |
    | Claude Managed Agents | Anthropic API キー<br> エージェント ID<br>環境ID |
-   | OpenAI エージェント | API キー<br> エージェント ID |
+   | Copilot Studio | Web チャネルシークレット |
    | IBM watsonx Orchestrate | サービス URL<br>API キー<br> エージェント ID |
+   | OpenAI エージェント | API キー<br> エージェント ID |
+   | ライタープレイブック | API キー</br>Playbook ID |
 
 1. 「**接続をテスト**」をクリックします。 これにより、接続が正しくセットアップされたかどうかを確認できます。
 1. **共同作業者が作業を完了した後、共同作業者が実行するアクションを切り替える**&#x200B;領域を選択できます。
@@ -216,42 +217,6 @@ Workfrontで作業エージェントとして使用するエージェントを�
 
 +++
 -->
-+++ ライター
-
-
-
->[!IMPORTANT]
->
->Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
->
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
-
-
-<!--
-
->[!NOTE]
->
-> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
-
-When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
-
-More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
-
-1. Create a no-code app in Writer AI Studio. 
-1. Add a single Text input field. You can use the default name "Text input."
-1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
-1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
-
-   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
-   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
- 
-1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
-1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
-
--->
-
-+++
 
 <div class="preview">
 
@@ -287,9 +252,9 @@ More detailed information about creating agents can be found in the [Writer docu
 
 プロジェクトコーディネーターを保存したら、ユーザーが使用するレイアウトテンプレートのプロジェクトヘッダーに「**プロジェクトコーディネーター**」フィールドを追加します。 フィールドがヘッダーで使用可能になるまで、ユーザーはプロジェクトにプロジェクトコーディネーターを割り当てることはできません。
 
-手順については、[&#x200B; レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
+手順については、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
-プロジェクトに割り当てる方法など、プロジェクトコーディネーターについて詳しくは、[&#x200B; プロジェクトコーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。
+プロジェクトに割り当てる方法など、プロジェクトコーディネーターについて詳しくは、[ プロジェクトコーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。
 
 </div>
 
@@ -305,4 +270,4 @@ More detailed information about creating agents can be found in the [Writer docu
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。

@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 13%
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 >
 >* [!BADGE 同時リリース]{type=Neutral}
 >   これらの機能は、機能の一部である他のAdobe製品のリリーススケジュールなどの技術的な状況により、プレビュー環境と実稼動環境で同時にリリースされます。
->* [!BADGE &#x200B; オフスケジュール]{type=Neutral}
+>* [!BADGE  オフスケジュール]{type=Neutral}
 >   これらの機能は、標準のWorkfront リリーススケジュール外でリリースされます。
 
 ## Adobe Workfront の機能強化
@@ -114,6 +114,16 @@ ht-degree: 13%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">ライターのプレイブックを使用した作業エージェントの作成</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Writer Playbooksを使用して作業エージェントを作成できるようになりました。</p>
+            </td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -344,8 +354,8 @@ ht-degree: 13%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画リリース アクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画リリース アクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
@@ -365,7 +375,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 
 このアップデートは、Mac と Windows の両方に対応しています。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ### バージョン 2.3.0
 
@@ -380,7 +390,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 
 * パフォーマンスとセキュリティを向上させるために、基盤となるフレームワーク（Electron）をChrome バージョン 156で実行される最新バージョンに更新しました。
 
-デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[ デスクトップ校正ビューアの更新](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)を参照してください。
 
 ## お知らせ
 
@@ -391,7 +401,7 @@ Desktop Proofing Viewerがバージョン 2.3.0からバージョン 2.4.0に更
 >プレビュー：2026年11月12日（PT）
 >プロダクション高速リリース：2026年11月12日（PT）
 >すべての人のための制作：2026年11月12日
->[!BADGE 同時リリース &#x200B;]{type=Neutral}
+>[!BADGE 同時リリース ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -437,7 +447,7 @@ CX Enterprise Coworkerを使用して、アイデア創出ブリーフを作成�
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
