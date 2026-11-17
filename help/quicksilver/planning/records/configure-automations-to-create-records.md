@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 4%
 ---
 # Adobe Workfront Planning の自動処理の設定
@@ -401,6 +401,10 @@ Old:
      削除されたオートメーションを使用して作成されたレコードは、最初に選択したレコードに接続されたままになります。
 
 ## 自動化の共有
+
+>[!NOTE]
+>
+>この機能は、2026年11月16日（PT）にすべての環境から一時的に削除され、将来の日付で有効になります。
 
 オートメーションの作成者は、デフォルトでオートメーションに対する管理権限を持っています。
 
