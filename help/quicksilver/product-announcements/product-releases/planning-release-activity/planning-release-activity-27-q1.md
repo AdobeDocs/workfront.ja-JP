@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: bcd87200467aa7f62af4c4c54f692b174ab3e517
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1852'
 ht-degree: 3%
 ---
 # Adobe Workfront Planningの2027年第1四半期のリリースアクティビティ
@@ -61,7 +61,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 >[!NOTE]
 >
 >実稼動およびサンドボックスの高速リリース：2026年11月12日（PT）
->制作、プレビュー、サンドボックス：近日お知らせします
+>Production, Preview, Sandbox for everyone: 2026年12月17日
 >[!BADGE スケジュール外]{type=Neutral}
 
 >[!NOTE]

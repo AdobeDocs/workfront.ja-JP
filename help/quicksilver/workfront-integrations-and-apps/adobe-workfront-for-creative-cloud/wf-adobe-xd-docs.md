@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 95%
 ---
 # [!DNL XD] アートボードをドキュメントとして [!DNL Workfront] にアップロード
+
+{{cc-plugin-legacy-only}}
 
 アートボードをドキュメントとしてアップロードすると、素早くレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりすることができます。
 

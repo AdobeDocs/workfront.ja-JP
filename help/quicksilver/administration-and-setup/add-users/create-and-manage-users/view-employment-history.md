@@ -7,9 +7,9 @@ description: 属性、コストと請求率、スケジュールの経時的な�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # ユーザーの職歴の表示
@@ -37,6 +37,10 @@ Karen Sterling氏は、2019年3月3日に就任して以来、エグゼクティ
 ## 職歴の表示
 
 ユーザーリストから雇用履歴を表示したり、ユーザーページで1人のユーザーの合計履歴を表示したりできます。
+
+>[!NOTE]
+>
+>ユーザーの雇用履歴では、現在、ユーザーの開始日は考慮されていません。
 
 ### ユーザーリストから雇用履歴を表示する
 

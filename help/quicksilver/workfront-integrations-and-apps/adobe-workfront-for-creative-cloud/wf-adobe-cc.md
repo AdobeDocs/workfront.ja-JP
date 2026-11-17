@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b2e4857478a0604bc83ef570c4e47576e2369907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 90%
@@ -38,6 +38,8 @@ ht-degree: 90%
 # [!DNL Creative Cloud] アプリ用 [!DNL Adobe Workfront] プラグイン
 
 <!--Audited: 12/2023-->
+
+{{cc-plugin-legacy-only}}
 
 [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインを使用すると、以下が可能になります。
 

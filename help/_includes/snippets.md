@@ -1,8 +1,8 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 58%
+source-wordcount: '2461'
+ht-degree: 57%
 ---
 # スニペット
 
@@ -233,6 +233,12 @@ Add snippets within the section that the snippet is used. Snippets that are used
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## CC プラグインのレガシーストレージのみ {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>[!DNL Creative Cloud]用の[!DNL Adobe Workfront] プラグインは、従来のWorkfront ストレージ上のプロジェクトでのみ機能します。 Adobe クラウドストレージ上のプロジェクトはサポートされていません。
 
 ## 自動プルーフ設定の調整 {#adjust-proof-settings}
 

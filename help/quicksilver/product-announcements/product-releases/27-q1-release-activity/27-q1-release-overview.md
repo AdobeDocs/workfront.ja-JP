@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 13%
 ---
 
@@ -114,6 +114,16 @@ ht-degree: 13%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">ライターのプレイブックを使用した作業エージェントの作成</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Writer Playbooksを使用して作業エージェントを作成できるようになりました。</p>
+            </td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
         </tr>
         <tr>
             <td>

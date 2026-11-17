@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 97%
 ---
 # [!DNL Adobe Creative Cloud] から [!DNL Adobe Workfront] 通知を表示および管理
+
+{{cc-plugin-legacy-only}}
 
 承認が必要なアイテム、与えられた割り当て、または関連付けられているアイテムに対するコメントや変更に関する [!DNL Adobe Workfront] からの通知を、Adobe Creative Cloud で受け取ることができます。
 
