@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 84%
 ---
 # [!DNL Photoshop] からプルーフをアップロード
 
+{{cc-plugin-legacy-only}}
+
 特定のPhotoshop ドキュメントプリセットタイプをプルーフとして[!DNL Adobe Workfront]に直接アップロードして、詳細なレビューと承認を行うことができます。
 
 >[!IMPORTANT]
 >
->ファイルは、[Photoshopのテンプレートとプリセット &#x200B;](https://helpx.adobe.com/jp/photoshop/using/create-documents.html)で説明されているように、フォトドキュメントプリセットである必要があります。
+>ファイルは、[Photoshopのテンプレートとプリセット ](https://helpx.adobe.com/photoshop/using/create-documents.html)で説明されているように、フォトドキュメントプリセットである必要があります。
 
 
 
@@ -95,7 +97,7 @@ ht-degree: 84%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 1. （オプション）**[!UICONTROL プルーフ名]**&#x200B;テキストボックスにプルーフ名を入力します。
@@ -103,14 +105,14 @@ ht-degree: 84%
 1. （オプション）承認者を追加します。
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![&#x200B; コメントを追加](assets/add-comment.png)
+   ![ コメントを追加](assets/add-comment.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
-   ![&#x200B; プラグイン内のファイル &#x200B;](assets/plugin-files-350x307.png)\
+   ![ プラグイン内のファイル ](assets/plugin-files-350x307.png)\
    ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
 
 
@@ -121,7 +123,7 @@ ht-degree: 84%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
@@ -138,7 +140,7 @@ ht-degree: 84%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![&#x200B; コメント自動承認を追加](assets/add-comment-automated-approval.png)
+   ![ コメント自動承認を追加](assets/add-comment-automated-approval.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
@@ -154,7 +156,7 @@ ht-degree: 84%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規バージョン]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。

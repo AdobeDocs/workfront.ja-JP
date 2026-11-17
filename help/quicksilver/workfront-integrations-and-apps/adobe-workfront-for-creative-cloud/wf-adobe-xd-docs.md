@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 95%
 ---
 # [!DNL XD] アートボードをドキュメントとして [!DNL Workfront] にアップロード
+
+{{cc-plugin-legacy-only}}
 
 アートボードをドキュメントとしてアップロードすると、素早くレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりすることができます。
 
@@ -88,10 +90,10 @@ ht-degree: 95%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. アップロードするアートボードを選択します。
@@ -136,10 +138,10 @@ ht-degree: 95%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. 新しいバージョンを追加するドキュメントをクリックします。
 1. プラグインの下部近くにある「**[!UICONTROL 新しいバージョン]**」をクリックします。

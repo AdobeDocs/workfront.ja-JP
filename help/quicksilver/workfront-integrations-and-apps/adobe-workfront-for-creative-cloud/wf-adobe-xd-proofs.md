@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 93%
 ---
 # [!DNL XD] アートボードをプルーフとして [!DNL Workfront] にアップロード
+
+{{cc-plugin-legacy-only}}
 
 アートボードをプルーフとして [!DNL Adobe Workfront] に直接アップロードすると、詳細なレビューと承認ができます。
 
@@ -81,16 +83,16 @@ ht-degree: 93%
 
 * [!DNL Adobe XD] からプルーフをアップロードする前に、[!DNL Adobe Workfront for XD] プラグインをインストールする必要があります。
 
-  手順については、[&#x200B; [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
+  手順については、[ [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
 
 ## 静的プルーフのアップロード
 
 1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. 静的プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部付近にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. アップロードするアートボードを選択します。
@@ -140,7 +142,7 @@ ht-degree: 93%
 
 1. （オプション）PDF に名前を付けます。
 
-   ![PDF オプション &#x200B;](assets/pdf-options.png)
+   ![PDF オプション ](assets/pdf-options.png)
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。\
    ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
@@ -172,10 +174,10 @@ ht-degree: 93%
 
 1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、**[!UICONTROL 作業リスト]**&#x200B;を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. インタラクティブなプルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. 「**[!UICONTROL プルーフを作成]**」を有効にします。
@@ -226,10 +228,10 @@ ht-degree: 93%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;を有効にします。

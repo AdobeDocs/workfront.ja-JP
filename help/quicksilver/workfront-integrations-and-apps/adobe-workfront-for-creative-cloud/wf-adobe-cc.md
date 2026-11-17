@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b2e4857478a0604bc83ef570c4e47576e2369907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 90%
@@ -38,6 +38,8 @@ ht-degree: 90%
 # [!DNL Creative Cloud] アプリ用 [!DNL Adobe Workfront] プラグイン
 
 <!--Audited: 12/2023-->
+
+{{cc-plugin-legacy-only}}
 
 [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインを使用すると、以下が可能になります。
 
@@ -47,7 +49,7 @@ ht-degree: 90%
 * プロジェクトやタスクの表示
 * その他
 
-[&#x200B; [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインで利用できる機能の概要ビデオを見る](https://video.tv.adobe.com/v/3418801/){target=_blank}
+[ [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインで利用できる機能の概要ビデオを見る](https://video.tv.adobe.com/v/3418801/){target=_blank}
 
 ## プラグインのインストールと使用
 
@@ -57,9 +59,9 @@ ht-degree: 90%
 
 プラグインの使用およびインストール方法については、次のリソースを参照してください。
 
-* [&#x200B; [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [&#x200B; [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [&#x200B; [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [ビデオチュートリアル： [!DNL Creative Cloud]の [!DNL Adobe Workfront]  プラグインを使用](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [ビデオチュートリアル：パッケージの作成と管理、アップデートのデプロイ、インストールエラーのトラブルシューティング](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 

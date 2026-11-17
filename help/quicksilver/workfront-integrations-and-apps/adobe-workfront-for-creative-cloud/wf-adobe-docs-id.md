@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 93%
 ---
 # [!DNL InDesign] からドキュメントをアップロード
+
+{{cc-plugin-legacy-only}}
 
 アートボードをドキュメントとしてアップロードすると、すばやくレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりすることができます。
 
@@ -93,13 +95,13 @@ ht-degree: 93%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. （オプション）**[!UICONTROL 更新]**&#x200B;エリアにコメントを入力します。
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. 「**[!UICONTROL 設定書き出しファイルの設定]**」ダイアログボックスを開き、上で選択したアセットタイプに基づいて必要な書き出しオプションを設定します。
 
-   ![&#x200B; ファイル書き出し設定](assets/file-export-settings.png)
+   ![ ファイル書き出し設定](assets/file-export-settings.png)
 1. 「**[!UICONTROL アップロード]**」をクリックします。
 ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。

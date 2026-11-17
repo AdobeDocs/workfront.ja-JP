@@ -25,12 +25,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 98%
 ---
 # ドキュメントおよびプルーフを [!DNL Adobe Workfront plugin] から [!DNL Creative Cloud] にアップロード
+
+{{cc-plugin-legacy-only}}
 
 プロジェクトをドキュメントとしてアップロードすると、すばやくレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりできます。
 
@@ -57,7 +59,7 @@ ht-degree: 98%
 
 1. **書き出しファイル設定を指定**&#x200B;ダイアログボックスを開きます。
 
-   ![&#x200B; ファイル書き出し設定](assets/file-export-settings.png)
+   ![ ファイル書き出し設定](assets/file-export-settings.png)
 
 1. 書き出すアセットタイプを見つけ、以下のように設定を調整します。
 

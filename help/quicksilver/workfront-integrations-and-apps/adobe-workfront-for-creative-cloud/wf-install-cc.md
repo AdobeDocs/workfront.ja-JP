@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 77%
 ---
 # [!DNL Adobe Workfront for design and video] をインストールして開く
+
+{{cc-plugin-legacy-only}}
 
 [!DNL Adobe Workfront for design and video] は、[!DNL Adobe Marketplace] からインストールできます。 このプラグインは、次の Creative Cloud アプリケーションをサポートしています。
 
@@ -60,7 +62,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。 詳しくは、[&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
+>[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。 詳しくは、[ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
 
 
 ## アクセス要件
@@ -104,7 +106,7 @@ ht-degree: 77%
 
 [!DNL Adobe Admin Console] 管理者は、[!DNL Creative Cloud] 展開パッケージに [!DNL Adobe Workfront for design and video] を含めることができます。 詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; ビデオチュートリアルをここで表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ ビデオチュートリアルをここで表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。 詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -152,7 +154,7 @@ ht-degree: 77%
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。
    >
-   >![&#x200B; ドメインの検索](assets/domain-350x50.png)
+   >![ ドメインの検索](assets/domain-350x50.png)
    >
    >* Workfront インスタンスがExperience Cloudと統合され、ドメインが`experience.adobe.com`で始まる場合は、管理者に対して、Admin ConsoleのProduct > WorkfrontにあるWorkfront ドメインを提供するように依頼します。
 
@@ -178,7 +180,7 @@ ht-degree: 77%
 
 `experience.adobe.com`で始まるURLを使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー](assets/plugin-log-in-error.png) ![&#x200B; ドメイン &#x200B;](assets/incorrect-domain.png)
+![ ログインエラー](assets/plugin-log-in-error.png) ![ ドメイン ](assets/incorrect-domain.png)
 
 
 この問題を修正するには，
