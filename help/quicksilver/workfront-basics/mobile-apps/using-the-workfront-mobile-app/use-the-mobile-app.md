@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 94%
 ---
 # [!DNL Adobe Workfront] モバイルアプリの使用：記事インデックス
@@ -71,5 +71,4 @@ iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] �
 * [&#x200B; [!DNL Adobe Workfront] モバイルアプリでのプルーフの共有とダウンロード](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
 * [&#x200B; [!DNL Adobe Workfront] モバイルアプリでの承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [&#x200B; [!DNL Mobile Device Management] （MDM）用 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-* [&#x200B; [!DNL MobileIron] 用 [!DNL Adobe Workfront] の設定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

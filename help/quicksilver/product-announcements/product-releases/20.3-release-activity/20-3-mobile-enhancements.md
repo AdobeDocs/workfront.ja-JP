@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 84%
+source-wordcount: '317'
+ht-degree: 83%
 ---
 # 20.3 統合およびモバイルの機能強化
 
@@ -52,7 +52,7 @@ Workfrontは、モバイルデバイス管理（MDM）プラットフォーム�
 
 Workfront for MobileIron を使用すると、管理者は、コピー＆ペースト機能や画面キャプチャなどの制限を行うことができます。 MobileIron 用 Workfront アプリは、[https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront) でダウンロードできます。
 
-アプリの設定について詳しくは、[MobileIron 用の Adobe Workfront の設定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)を参照してください。
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## 新しいモバイル仮想アシスタント
 
