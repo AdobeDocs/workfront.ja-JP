@@ -20,25 +20,27 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 52%
+source-wordcount: '95'
+ht-degree: 24%
 ---
 # [!DNL Adobe Workfront] for [!DNL Mobile Device Management]（MDM）
 
 {{mobile-maintenance-mode}}
 
-Adobe [!DNL Workfront] は、複数の [!DNL Mobile Device Management]（MDM）プラットフォームと提携し、安全で制御可能なモバイルエクスペリエンスを組織に提供しています。 [!DNL Workfront] モバイルアプリは、次のモバイルデバイス管理プラットフォームで使用できます。
+Adobe [!DNL Workfront]は[!DNL Mobile Device Management] （MDM）のプラットフォームと提携して、より安全で管理されたモバイル体験を企業に提供しています。 [!DNL Workfront] モバイルアプリは、次のモバイルデバイス管理プラットフォームで使用できます。
 
+<!--
 ## MobileIron
 
-プラットフォームから [!DNL Workfront] モバイルアプリをインストールするための [!DNL MobileIron] のヘルプドキュメントを参照：
+See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
 
 * iOS
 * Android
 
-[!DNL Workfront] for [!DNL MobileIron] の設定について詳しくは、[&#x200B; [!DNL Adobe Workfront]  for  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) の設定を参照してください。
+For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+-->
 
 ## Intune
 
@@ -48,5 +50,3 @@ Workfront モバイルアプリが[!DNL Microsoft Intune] アプリストアで�
 * Android
 
 Workfront インスタンスは、Adobe Identity Management システム（IMS）上にある必要があります。
-
-<!--remove this note October 2026-->
