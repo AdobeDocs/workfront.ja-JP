@@ -119,7 +119,7 @@ Old:
 > 複雑なプロジェクトの例として、複数の依存関係、多数のタスク、複数のクロスプロジェクト先行者、複数のタスクインデントがあるプロジェクトが挙げられます。
 > Workfrontでは、プロジェクトページのプロジェクト名の右側に警告を表示し、プロジェクトのタイムラインを手動で再計算する必要があることをユーザーに通知します。 プロジェクトに対する管理権限を持つユーザーのみが、タイムラインを手動で再計算できます。
 >
->   ![ タイムラインを再計算するプロジェクトの警告](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![&#x200B; タイムラインを再計算するプロジェクトの警告](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [プロジェクトタイムラインの自動再計算](#automatic-recalculation-of-project-timelines)
@@ -134,7 +134,7 @@ Workfrontでは、次のすべての条件が満たされたプロジェクト�
 * 現在のステータス。
 * プロジェクトの更新タイプは「自動」または「自動」および「変更時」に設定されています。
 
-  詳しくは、[ プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
+  詳しくは、[&#x200B; プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
 
 * 過去3か月以内に最終更新日を設定している。 Workfront管理者は、このデフォルト機能を変更できます。 詳しくは、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
@@ -236,7 +236,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 Workfront の管理者は、「タイムラインを再計算」の診断を実行して、Workfront システム内のすべてのタイムラインを直ちに再計算できます。 これにより、すべてのプロジェクトマネージャーは、予定日と見込み日の両方に対する外部の変更の影響を即座に確認できます。
 
-Workfront サイト全体のタイムラインの再計算について詳しくは、「[ プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)」の「Workfront インスタンス全体のタイムラインの再計算」の節を参照してください。
+Workfront サイト全体のタイムラインの再計算について詳しくは、「[&#x200B; プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)」の「Workfront インスタンス全体のタイムラインの再計算」の節を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
