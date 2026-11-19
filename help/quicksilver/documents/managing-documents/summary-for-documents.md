@@ -114,7 +114,7 @@ ht-degree: 37%
 
 「概要」セクションを展開して、画像のサムネールを表示またはダウンロードし、プルーフを開き、基本的な説明を更新し、ドキュメントを確認します。
 
-![ ドキュメントの概要](assets/details-section.png)
+![&#x200B; ドキュメントの概要](assets/details-section.png)
 
 <span class="preview"> プレビュー中：
 ![概要の詳細](assets/document-details-summary-legacy.png)
@@ -124,10 +124,10 @@ ht-degree: 37%
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。 カスタムフォームの名前を入力し、ドキュメントに追加します。 詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![ ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
+![&#x200B; ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
 
 <span class="preview"> プレビュー中：
-![ ドキュメントの概要にカスタムフォームを追加](assets/custom-form-summary-legacy.png)
+![&#x200B; ドキュメントの概要にカスタムフォームを追加](assets/custom-form-summary-legacy.png)
 </span>
 
 ### 更新
@@ -149,15 +149,15 @@ ht-degree: 37%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![ ドキュメントの概要の承認](assets/approvals-section.png)
+![&#x200B; ドキュメントの概要の承認](assets/approvals-section.png)
 
 <span class="preview"> プレビュー中：
-![ ドキュメントの概要の承認](assets/document-approvals-summary-legacy.png)
+![&#x200B; ドキュメントの概要の承認](assets/document-approvals-summary-legacy.png)
 </span>
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、次の操作を行います。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、次の操作を行います。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -165,10 +165,10 @@ ht-degree: 37%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントを削除します。
 
-![ ドキュメント概要のバージョン ](assets/versions-section.png)
+![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
 
 <span class="preview"> プレビュー中：
-![ ドキュメントの概要バージョン](assets/document-versions-summary-legacy.png)
+![&#x200B; ドキュメントの概要バージョン](assets/document-versions-summary-legacy.png)
 </span>
 
 ## 新しい文書エクスペリエンスの文書の概要
@@ -190,7 +190,7 @@ ht-degree: 37%
 承認とFrame.ioについて詳しくは、「
 
 * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [ ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+* [&#x200B; ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ![新しいドキュメント エクスペリエンスでのドキュメントの概要の承認](assets/summary-approvals.png)
 
@@ -210,7 +210,7 @@ ht-degree: 37%
 * バージョンを共有
 * バージョンを削除
 
-![新しいドキュメント エクスペリエンスのドキュメント概要バージョン ](assets/summary-versions.png)
+![新しいドキュメント エクスペリエンスのドキュメント概要バージョン &#x200B;](assets/summary-versions.png)
 
 ### 履歴
 

@@ -113,7 +113,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
 1. タスクまたはイシューに移動し、リストからアイテムを選択します。
-1. 新しいツールバー](assets/qs-summary-in-new-toolbar-small.png)で&#x200B;**[!UICONTROL 概要を開く]** アイコン ![概要をクリックします。 概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
+1. 新しいツールバー![&#128279;](assets/qs-summary-in-new-toolbar-small.png)で&#x200B;**[!UICONTROL 概要を開く]** アイコン 概要をクリックします。 概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
    >[!TIP]
    >
@@ -125,13 +125,13 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
-   * タスクまたは問題リストで、**[!UICONTROL 概要を開く]** アイコン ![概要パネルアイコン ](assets/summary-panel-icon.png)をクリックします
+   * タスクまたは問題リストで、**[!UICONTROL 概要を開く]** アイコン ![概要パネルアイコン &#x200B;](assets/summary-panel-icon.png)をクリックします
 
      または
 
      [!UICONTROL 概要]パネルの右上隅にある **X** アイコンをクリックします。
 
-   * [!UICONTROL  リクエスト ]領域の[!UICONTROL 送信済み] セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![概要をテキストで閉じる](assets/close-summary-with-text-nwe.png)をクリックします
+   * [!UICONTROL &#x200B; リクエスト &#x200B;]領域の[!UICONTROL 送信済み] セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![概要をテキストで閉じる](assets/close-summary-with-text-nwe.png)をクリックします
 
      または
 
@@ -146,7 +146,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ![概要パネルでの完了率](assets/summary-overview-percent-complete.png)
 
 <span class="preview"> プレビュー中：
-概要パネルで![ パーセント完了](assets/percent-complete.png)
+概要パネルで![&#x200B; パーセント完了](assets/percent-complete.png)
 </span>
 
 ## [!UICONTROL アップデート]
@@ -161,7 +161,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ## [!UICONTROL ドキュメント]
 
-[!UICONTROL 概要]の「[!UICONTROL  ドキュメント ]」タブを使用して、選択したタスクまたは問題に添付されたドキュメントを表示します。 サムネールをクリックすると、ドキュメントのプレビューが開きます。 タスクまたはイシューの「[!UICONTROL ドキュメント]」タブに直接移動するには、「**[!UICONTROL ドキュメント]**」タイトルをクリックします。
+[!UICONTROL 概要]の「[!UICONTROL &#x200B; ドキュメント &#x200B;]」タブを使用して、選択したタスクまたは問題に添付されたドキュメントを表示します。 サムネールをクリックすると、ドキュメントのプレビューが開きます。 タスクまたはイシューの「[!UICONTROL ドキュメント]」タブに直接移動するには、「**[!UICONTROL ドキュメント]**」タイトルをクリックします。
 
 ![概要パネルの「ドキュメント」セクション](assets/summary-documents-section.png)
 
@@ -182,7 +182,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ## [!UICONTROL サブタスク]
 
-このセクションは、タスクに対してのみ使用できます。 [!UICONTROL 概要]の「[!UICONTROL  サブタスク ]」タブを使用して、選択したタスクの[!UICONTROL 新規]、[!UICONTROL 進行中]、[!UICONTROL 終了] サブタスクを表示します。 **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューをクリックすると、ステータスを切り替えることができます。 タスクの「[!UICONTROL サブタスク]」タブに直接移動するには、「**[!UICONTROL サブタスク]**」タイトルをクリックします。
+このセクションは、タスクに対してのみ使用できます。 [!UICONTROL 概要]の「[!UICONTROL &#x200B; サブタスク &#x200B;]」タブを使用して、選択したタスクの[!UICONTROL 新規]、[!UICONTROL 進行中]、[!UICONTROL 終了] サブタスクを表示します。 **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューをクリックすると、ステータスを切り替えることができます。 タスクの「[!UICONTROL サブタスク]」タブに直接移動するには、「**[!UICONTROL サブタスク]**」タイトルをクリックします。
 
 タスクにサブタスクを追加していない場合は、「**[!UICONTROL ここに追加してください。]**」をクリックして、タスクの「[!UICONTROL サブタスク]」タブに直接に移動します。
 

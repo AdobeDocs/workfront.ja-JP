@@ -87,7 +87,7 @@ ht-degree: 87%
 1. タイムシートの右上隅にある「**コメントの表示**」をクリックします。
 時間エントリとコメントが記録された項目の下にコメントが表示されます。
 
-   ![ タスクのリニューアルされたタイムシート ](assets/comments-expanded-under-tasks-redesigned-timesheet.png)の下に展開されたコメント
+   ![&#x200B; タスクのリニューアルされたタイムシート &#x200B;](assets/comments-expanded-under-tasks-redesigned-timesheet.png)の下に展開されたコメント
 
 
 ## タイムシートにコメントする {#make-comments-on-a-timesheet}
@@ -145,11 +145,11 @@ ht-degree: 87%
 
    * 新しいコメントを入力し、「**完了**」をクリックします。
    * 既存のコメントを編集して「**完了**」をクリックするか、「**キャンセル**」をクリックして変更を破棄します。
-   * **削除** アイコン ![削除アイコン ](assets/delete.png)をクリックして、保存したコメントを削除します。
+   * **削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、保存したコメントを削除します。
 
      時間エントリボックスの右上隅に、時間エントリで記録されたコメントがあることを示す青いマーカーが表示されます。
 
-   時間ログの![ コメント ボタンがタイムシートを再設計しました](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   時間ログの![&#x200B; コメント ボタンがタイムシートを再設計しました](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
