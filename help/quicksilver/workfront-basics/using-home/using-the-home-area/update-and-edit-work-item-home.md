@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '818'
+ht-degree: 28%
 ---
 # [!UICONTROL ホーム]エリア内の作業アイテムを更新または編集する
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -125,15 +127,15 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 ## マイワークウィジェットの作業項目にコメントを追加する
 
-[!UICONTROL &#x200B; マイワーク &#x200B;] ウィジェットの任意の作業項目に関する更新を提供できます。
+[!UICONTROL  マイワーク ] ウィジェットの任意の作業項目に関する更新を提供できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![&#x200B; メインメニューライン アイコン &#x200B;](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![ メインメニューライン アイコン ](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、[!UICONTROL **マイワーク**] ウィジェットを追加します。
 
 1. 更新する作業項目を&#x200B;[!UICONTROL **マイワーク**] ウィジェットで探します。
 1. 名前にカーソルを合わせ、**新しい更新プログラムを追加** アイコンをクリックします。
 
-   ![&#x200B; ウィジェットの更新を追加](assets/add-update-on-widget.png)
+   ![ ウィジェットの更新を追加](assets/add-update-on-widget.png)
 
 1. コメントの入力を開始します。
 1. （オプション）「**ユーザーまたはチームにタグ付け**」ボックスで、ユーザーの名前または電子メール、またはこのコメントに含めるチームを入力し始め、リストに表示されたら選択します。
@@ -155,7 +157,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 「**返信**」をクリックします。
 
-   ![&#x200B; コメントへの返信](assets/reply-to-comment-in-mentions-widget.png)
+   ![ コメントへの返信](assets/reply-to-comment-in-mentions-widget.png)
 
 1. コメントの入力を開始します。
 1. （オプション）「**ユーザーをタグ付け**」ボックスで、このコメントに含めるユーザーまたはチームの名前を入力し始め、リストに表示されたら選択します。
@@ -172,13 +174,11 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 編集にアクセスできる任意の作業アイテムの任意のフィールドを編集できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![&#x200B; メインメニューライン アイコン &#x200B;](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![ メインメニューライン アイコン ](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、**マイワーク** ウィジェットを追加します。
 
 1. 作業項目にカーソルを合わせて、**概要** アイコンをクリックします。
    ![概要を開く](assets/open-summary-new-home.png)
 
-1. 概要パネルで、編集するフィールドにカーソルを合わせます。
-フィールドの編集権限がある場合は、フィールドにカーソルを合わせると、そのフィールドがハイライト表示されます。
-1. 編集するフィールドをクリックし、目的の更新を行います。
+1. 概要パネルで、編集するフィールドをクリックし、目的の更新を行います。
 1. フィールドの外側をクリックして、変更を保存します。

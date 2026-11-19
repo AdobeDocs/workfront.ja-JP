@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 55%
@@ -100,8 +100,7 @@ ht-degree: 55%
      <tr> 
       <td role="rowheader">タスク</td> 
       <td> <p>タスクのリストでは、この設定は、ユーザーがタスクを選択してから「概要を開く」アイコン <img src="assets/summary-panel-icon.png">をクリックすると、ページの右側に表示される概要パネルに影響します。</p>
-
-   <p> <img src="assets/summary-area.png"> </p> </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">イシュー</td> 
@@ -116,15 +115,15 @@ ht-degree: 55%
 
 1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
-   ![&#x200B; カスタマイズするカテゴリを選択](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![ カスタマイズするカテゴリを選択](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （条件付き）「**プライマリアクションを設定」ボタン** ドロップダウンメニューが表示された場合（左側のリストで&#x200B;**タスク**&#x200B;または&#x200B;**イシュー**&#x200B;を選択した場合）、ユーザーがタスクまたはイシューを表示するときに概要パネルで使用したいプライマリアクション （**完了**&#x200B;または&#x200B;**ステータス**）をクリックします。
 
-   ![&#x200B; プライマリアクションを設定](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![ プライマリアクションを設定](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. 選択したオブジェクトタイプの![項目を追加](assets/add-item-plus-in-circle-blue.png)するか、![項目を非表示](assets/close-or-hide---x.png) フィールドを非表示にします。
 
-   ![&#x200B; フィールドの追加と非表示](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![ フィールドの追加と非表示](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 手順3 ～ 6を繰り返して、その他のオブジェクトタイプの概要パネルをカスタマイズします。
 1. 左下隅付近の「**グローバル設定**」をクリックし、「概要」でAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。

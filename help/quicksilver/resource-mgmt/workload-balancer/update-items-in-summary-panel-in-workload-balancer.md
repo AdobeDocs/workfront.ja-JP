@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 51%
+source-wordcount: '427'
+ht-degree: 50%
 ---
 # 概要を使用してワークロードバランサーの作業アイテムを更新
 
@@ -94,11 +94,15 @@ ht-degree: 51%
 
    または
 
-   タスクまたは問題の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**概要を開く**&#x200B;をクリックします。
+   タスクまたは問題の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**概要を開く**&#x200B;をクリックします。
 
    右側に概要パネルが開きます。
 
    ![概要パネル](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview"> プレビュー中：
+   ![概要パネル](assets/summary-panel.png)
+   </span>
 
 1. 作業項目のフィールド数を変更したり、更新を入力したり、ここからWorkfrontの他の領域に移動したりして、文書やその他の情報を作業項目に追加します。
 
@@ -112,7 +116,7 @@ ht-degree: 51%
    >
    >組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージの作業項目にドキュメントを追加することはできません。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. （条件付き）作業項目のセクションを開いた場合、ブラウザーの「**戻る**」ボタンをクリックして、ワークロードバランサーに戻ります。
-1. 概要の右上隅にある&#x200B;**閉じるアイコン** ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして閉じます。
+1. 概要の右上隅にある&#x200B;**閉じるアイコン** ![閉じるアイコン ](assets/close-icon.png)をクリックして閉じます。

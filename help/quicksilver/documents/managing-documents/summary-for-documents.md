@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 39%
+source-wordcount: '759'
+ht-degree: 37%
 ---
 # ドキュメントの概要
 
@@ -96,7 +96,11 @@ ht-degree: 39%
 
    ![概要の詳細](assets/document-summary-panel.png)
 
-   概要を開いた後、手動で閉じるまで、このページで（他のドキュメントをクリックしても）開いたままになります。
+<span class="preview"> プレビュー中：
+![概要の詳細](assets/document-details-summary-legacy.png)
+</span>
+
+概要を開いた後、手動で閉じるまで、このページで（他のドキュメントをクリックしても）開いたままになります。
 
 
 ### 詳細
@@ -110,19 +114,31 @@ ht-degree: 39%
 
 「概要」セクションを展開して、画像のサムネールを表示またはダウンロードし、プルーフを開き、基本的な説明を更新し、ドキュメントを確認します。
 
-![&#x200B; ドキュメントの概要](assets/details-section.png)
+![ ドキュメントの概要](assets/details-section.png)
+
+<span class="preview"> プレビュー中：
+![概要の詳細](assets/document-details-summary-legacy.png)
+</span>
 
 #### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。 カスタムフォームの名前を入力し、ドキュメントに追加します。 詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![&#x200B; ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
+![ ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
+
+<span class="preview"> プレビュー中：
+![ ドキュメントの概要にカスタムフォームを追加](assets/custom-form-summary-legacy.png)
+</span>
 
 ### 更新
 
 「更新」セクションを使用して、ドキュメントまたはプルーフで行われた更新を表示します。 概要には、最初に作成された 2 つのコメントが表示されます。 更新について詳しくは、 [プルーフに対するコメント](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
 
 ![概要パネルの「更新」セクション](assets/updates-section.png)
+
+<span class="preview"> プレビュー中：
+概要パネルの「![更新」セクション](assets/updates-summary-legacy.png)
+</span>
 
 ### 承認
 
@@ -133,11 +149,15 @@ ht-degree: 39%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![&#x200B; ドキュメントの概要の承認](assets/approvals-section.png)
+![ ドキュメントの概要の承認](assets/approvals-section.png)
+
+<span class="preview"> プレビュー中：
+![ ドキュメントの概要の承認](assets/document-approvals-summary-legacy.png)
+</span>
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、次の操作を行います。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、次の操作を行います。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -145,7 +165,11 @@ ht-degree: 39%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントを削除します。
 
-![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
+![ ドキュメント概要のバージョン ](assets/versions-section.png)
+
+<span class="preview"> プレビュー中：
+![ ドキュメントの概要バージョン](assets/document-versions-summary-legacy.png)
+</span>
 
 ## 新しい文書エクスペリエンスの文書の概要
 
@@ -166,7 +190,7 @@ ht-degree: 39%
 承認とFrame.ioについて詳しくは、「
 
 * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [&#x200B; ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+* [ ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ![新しいドキュメント エクスペリエンスでのドキュメントの概要の承認](assets/summary-approvals.png)
 
@@ -186,7 +210,7 @@ ht-degree: 39%
 * バージョンを共有
 * バージョンを削除
 
-![新しいドキュメント エクスペリエンスのドキュメント概要バージョン &#x200B;](assets/summary-versions.png)
+![新しいドキュメント エクスペリエンスのドキュメント概要バージョン ](assets/summary-versions.png)
 
 ### 履歴
 
