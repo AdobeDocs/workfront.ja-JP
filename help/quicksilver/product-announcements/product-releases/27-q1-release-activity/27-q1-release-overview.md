@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 13%
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [アジャイルの機能強化](#agile-enhancements)
 * [AIの機能強化](#ai-enhancements)
 * [ドキュメントの機能強化](#documents-enhancements)
 * [プロジェクトの強化](#project-enhancements)
@@ -100,6 +101,29 @@ ht-degree: 13%
             <td><p>2026年10月29日（PT）</p></td>
             <td><p>2026年10月29日（PT）</p></td>
             <td><p>2026年10月29日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### アジャイルの機能強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">アジャイルカードのフィールドを編集するためのルックアンドフィールを更新しました</a></p>
+                <p>アジャイルカードの編集に使用するフィールドのルックアンドフィールが、Workfrontの他のスタイルに合わせて更新されました。</p>
+            </td>
+            <td><p>2026年11月19日（PT）</p></td>
+            <td><p>2026年12月17日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
     </tbody>
 </table>
@@ -281,6 +305,15 @@ ht-degree: 13%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">タスク、問題、ドキュメントの概要パネルのルックアンドフィールを更新しました</a></p>
+                <p>概要パネルのルックアンドフィールが更新され、情報とフィールドが別々のタブに整理されます。</p>
+            </td>
+            <td><p>2026年11月19日（PT）</p></td>
+            <td><p>2026年12月17日（PT）</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
 <!--
         <tr>

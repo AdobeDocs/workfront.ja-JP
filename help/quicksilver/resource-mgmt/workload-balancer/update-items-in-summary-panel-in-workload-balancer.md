@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 51%
+source-wordcount: '427'
+ht-degree: 50%
 ---
 # 概要を使用してワークロードバランサーの作業アイテムを更新
 
@@ -99,6 +99,10 @@ ht-degree: 51%
    右側に概要パネルが開きます。
 
    ![概要パネル](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview"> プレビュー中：
+   ![概要パネル](assets/summary-panel.png)
+   </span>
 
 1. 作業項目のフィールド数を変更したり、更新を入力したり、ここからWorkfrontの他の領域に移動したりして、文書やその他の情報を作業項目に追加します。
 

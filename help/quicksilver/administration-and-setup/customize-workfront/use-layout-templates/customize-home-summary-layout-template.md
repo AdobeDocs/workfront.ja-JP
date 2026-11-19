@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 55%
@@ -100,8 +100,7 @@ ht-degree: 55%
      <tr> 
       <td role="rowheader">タスク</td> 
       <td> <p>タスクのリストでは、この設定は、ユーザーがタスクを選択してから「概要を開く」アイコン <img src="assets/summary-panel-icon.png">をクリックすると、ページの右側に表示される概要パネルに影響します。</p>
-
-   <p> <img src="assets/summary-area.png"> </p> </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">イシュー</td> 

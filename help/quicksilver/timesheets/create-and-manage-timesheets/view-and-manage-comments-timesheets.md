@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 89%
-
+source-wordcount: '831'
+ht-degree: 87%
 ---
-
 # タイムシートのコメントの表示および管理
 
 <!-- Audited: April, 2024-->
@@ -175,7 +173,7 @@ ht-degree: 89%
 
 1. コメントを追加するタイムシートに移動し、左側のパネルで「[!UICONTROL **タイムシート**]」をクリックします。
 1. タスクまたはイシューの行をクリックし、「[!UICONTROL **概要を開く**]」をクリックします。
-1. 概要パネルの&#x200B;[!UICONTROL **更新**]&#x200B;エリアで更新の入力を開始して、「[!UICONTROL **送信**]」をクリックします。
+1. 概要パネルの「[!UICONTROL **更新**]」タブで更新プログラムを入力し、[!UICONTROL **送信**]をクリックします。
 更新は、タスクとイシューの「更新」セクションに表示されます。
 1. （オプション）「[!UICONTROL **概要を閉じる**]」をクリックして概要パネルを閉じます。
 

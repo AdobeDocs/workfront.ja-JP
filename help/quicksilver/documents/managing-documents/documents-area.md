@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 28%
 ---
 # ドキュメントエリア
@@ -65,6 +65,11 @@ Workfront へのドキュメントのアップロードについては、[ファ
 ドキュメントに関するすべての情報が必要な場合は、「詳細」見出しをクリックして、完全なドキュメントの詳細エリアに移動できます。
 
 ![&#x200B; ドキュメント領域](assets/documents-area-v2-350x199.png)
+
+<span class="preview"> プレビュー中：
+![&#x200B; ドキュメント領域の概要パネル](assets/legacy-document-summary.png)
+</span>
+
 
 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
 

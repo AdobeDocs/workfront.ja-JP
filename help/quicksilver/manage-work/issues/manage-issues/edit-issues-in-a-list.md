@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '910'
 ht-degree: 77%
-
 ---
-
 # リスト内のイシューの編集
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Old:
 * リストに表示され、更新する権限を持つイシューフィールドを編集できます。
 * 以下のリスト内にあるイシューを編集できます。
 
-   * プロジェクトまたはタスクの「イシュー」セクション
-   * イシューレポート
+  * プロジェクトまたはタスクの「イシュー」セクション
+  * イシューレポート
 
 イシューをインライン編集するには：
 
@@ -181,9 +179,22 @@ Old:
    | 時間![時間を記録](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
    | 承認![承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
-   * 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージの問題にドキュメントを追加することはできません。
+<!--
+uncomment for prod
 
-   詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+* 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージの問題にドキュメントを追加することはできません。
+
+詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。

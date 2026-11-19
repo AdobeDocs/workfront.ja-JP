@@ -17,20 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 83%
+source-wordcount: '947'
+ht-degree: 70%
 ---
 # [!UICONTROL 概要]パネルについて
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+{{highlighted-preview}}
 
 [!UICONTROL 概要]パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する [!DNL Adobe Workfront] の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 
@@ -119,19 +113,15 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
 1. タスクまたはイシューに移動し、リストからアイテムを選択します。
-1. 新しいツールバー![&#128279;](assets/qs-summary-in-new-toolbar-small.png)の&#x200B;**[!UICONTROL 概要]** アイコン 概要をクリックします
-
-   または
-
-   [!UICONTROL &#x200B; リクエスト &#x200B;] エリアの「[!UICONTROL 送信済み]」セクションにある「**[!UICONTROL 概要を開く]**」アイコン「![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)」をクリックします。
-
-   概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
+1. 新しいツールバー![&#128279;](assets/qs-summary-in-new-toolbar-small.png)で&#x200B;**[!UICONTROL 概要を開く]** アイコン 概要をクリックします。 概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
    >[!TIP]
    >
    >[!UICONTROL 概要]パネルで詳細を表示するとき、選択できるタスクまたはイシューは一度に 1 つだけです。
 
    ![概要パネル](assets/summary-panel-for-task-new-comments.png)
+
+   <!--![Summary panel](assets/summary-panel.png)-->
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
@@ -155,37 +145,58 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ![概要パネルでの完了率](assets/summary-overview-percent-complete.png)
 
-## [!UICONTROL 更新]
+<span class="preview"> プレビュー中：
+概要パネルで![&#x200B; パーセント完了](assets/percent-complete.png)
+</span>
 
-[!UICONTROL 概要]の「[!UICONTROL 更新]」セクションを使用すると、最近の更新を表示したり、選択したタスクまたはイシューを更新したりできます。 「**[!UICONTROL すべて表示]**」をクリックすると、タスクの「[!UICONTROL 更新]」タブに直接移動できます。
+## [!UICONTROL アップデート]
+
+[!UICONTROL 概要]の「[!UICONTROL 更新]」タブを使用して、最近の更新を表示し、選択したタスクまたは問題を更新します。 「**[!UICONTROL すべて表示]**」をクリックすると、タスクの「[!UICONTROL 更新]」タブに直接移動できます。
 
 ![概要パネルの「更新」セクション](assets/summary-updates-section.png)
 
+<span class="preview"> プレビュー中：
+概要パネルの「![更新」セクション](assets/updates.png)
+</span>
+
 ## [!UICONTROL ドキュメント]
 
-[!UICONTROL 概要]の「[!UICONTROL ドキュメント]」セクションを使用すると、選択したタスクまたはイシューに添付されているドキュメントを表示できます。 サムネールをクリックすると、ドキュメントのプレビューが開きます。 タスクまたはイシューの「[!UICONTROL ドキュメント]」タブに直接移動するには、「**[!UICONTROL ドキュメント]**」タイトルをクリックします。
+[!UICONTROL 概要]の「[!UICONTROL &#x200B; ドキュメント &#x200B;]」タブを使用して、選択したタスクまたは問題に添付されたドキュメントを表示します。 サムネールをクリックすると、ドキュメントのプレビューが開きます。 タスクまたはイシューの「[!UICONTROL ドキュメント]」タブに直接移動するには、「**[!UICONTROL ドキュメント]**」タイトルをクリックします。
 
 ![概要パネルの「ドキュメント」セクション](assets/summary-documents-section.png)
 
+<span class="preview"> プレビュー中：
+概要パネルの![文書セクション](assets/documents.png)
+</span>
+
+
 ## [!UICONTROL 詳細]
 
-[!UICONTROL 概要]の「[!UICONTROL 詳細]」セクションを使用すると、作業項目の概要レベルの詳細を表示したり、割り当てを行ったり、開始日を追加したりできます。 「**[!UICONTROL すべて表示]**」をクリックすると、タスクまたはイシューの「[!UICONTROL 詳細]」タブに直接移動できます。
-
-
+[!UICONTROL 概要]の「[!UICONTROL 詳細]」タブを使用して、上位レベルの作業項目の詳細を表示したり、割り当てたり、開始日を追加したりできます。 「**[!UICONTROL すべて表示]**」をクリックすると、タスクまたはイシューの「[!UICONTROL 詳細]」タブに直接移動できます。
 
 ![概要パネルの「詳細」セクション](assets/summary-details-section.png)
 
+<span class="preview"> プレビュー中：
+概要パネルの![詳細セクション](assets/details.png)
+</span>
+
 ## [!UICONTROL サブタスク]
 
-このセクションは、タスクに対してのみ使用できます。 [!UICONTROL 概要]の「[!UICONTROL サブタスク]」セクションすると、選択したタスクの[!UICONTROL 新規]、[!UICONTROL 処理中]、[!UICONTROL クローズ]のサブタスクを表示できます。 **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューをクリックすると、ステータスを切り替えることができます。 タスクの「[!UICONTROL サブタスク]」タブに直接移動するには、「**[!UICONTROL サブタスク]**」タイトルをクリックします。
+このセクションは、タスクに対してのみ使用できます。 [!UICONTROL 概要]の「[!UICONTROL &#x200B; サブタスク &#x200B;]」タブを使用して、選択したタスクの[!UICONTROL 新規]、[!UICONTROL 進行中]、[!UICONTROL 終了] サブタスクを表示します。 **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューをクリックすると、ステータスを切り替えることができます。 タスクの「[!UICONTROL サブタスク]」タブに直接移動するには、「**[!UICONTROL サブタスク]**」タイトルをクリックします。
 
 タスクにサブタスクを追加していない場合は、「**[!UICONTROL ここに追加してください。]**」をクリックして、タスクの「[!UICONTROL サブタスク]」タブに直接に移動します。
 
 ![概要パネルの「サブタスク」セクション](assets/summary-subtasks-section.png)
 
+<span class="preview"> プレビュー中：
+
+![概要パネルの「サブタスク」セクション](assets/subtask.png)
+
+</span>
+
 ## [!UICONTROL 時間数]
 
-[!UICONTROL 概要]の「[!UICONTROL 時間数]」セクションを使用すると、選択したタスクまたはイシューに関する時間を記録できます。 「**[!UICONTROL 時間を記録]**」をクリックし、時間を入力します。 タスクまたはイシューの「時間数」タブに直接移動するには、「**[!UICONTROL 時間数]**」タイトルをクリックします。
+[!UICONTROL 概要]の「[!UICONTROL 時間]」タブを使用して、選択したタスクまたは問題の時間をログに記録します。 「**[!UICONTROL 時間を記録]**」をクリックし、時間を入力します。 タスクまたはイシューの「時間数」タブに直接移動するには、「**[!UICONTROL 時間数]**」タイトルをクリックします。
 
 [!UICONTROL 概要]の時間数には、ログに記録した時間が表示されます。 [!UICONTROL 概要]で他のユーザーに表示される時間合計は、それらのユーザーがタスクに関して記録した時間によって異なります。
 
@@ -193,10 +204,20 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ![概要パネルの「時間数」セクション](assets/summary-hours-section.png)
 
+<span class="preview"> プレビュー中：
+
+![概要パネルの「時間数」セクション](assets/hours.png)
+
+</span>
+
 ## 承認
 
-[!UICONTROL 概要]の「[!UICONTROL 承認]」セクションを使用すると、選択したタスクまたはイシューに添付された承認を表示できます。 まだ承認を追加していない場合は、ドロップダウンメニューから既存の承認を選択するか、「**[!UICONTROL 単一使用承認プロセスを作成]**」をクリックして、タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動します。
+[!UICONTROL 概要]の「[!UICONTROL 承認]」タブを使用して、選択したタスクまたは問題に添付された承認を表示します。 まだ承認を追加していない場合は、ドロップダウンメニューから既存の承認を選択するか、「**[!UICONTROL 単一使用承認プロセスを作成]**」をクリックして、タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動します。
 
 タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動するには、「**[!UICONTROL 承認]**」タイトルをクリックします。
 
 ![概要パネルの「承認」セクション](assets/summary-approvals-section.png)
+
+<span class="preview"> プレビュー中：
+概要パネルの![承認セクション](assets/approval.png)
+</span>

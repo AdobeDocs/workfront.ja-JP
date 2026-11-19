@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
-ht-degree: 71%
-
+source-wordcount: '4301'
+ht-degree: 70%
 ---
-
 # 時間を記録
 
 <!--Audited: 5/2025-->
@@ -282,7 +280,13 @@ Workfront の次の領域で時間を記録できます。
 
    ![summary-panel-for-task-opened-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   更新内容は、ログに記録された時間に関連付けられた作業アイテムの更新エリアに表示されます。
+   <span class="preview"> プレビュー中：
+
+   ![summary-panel-for-task-opened-in-timesheet](assets/summary-timesheet.png)
+
+   </span>
+
+   更新は、ログに記録された時間に関連付けられている作業項目の「更新」タブに表示されます。
 
    >[!TIP]
    >

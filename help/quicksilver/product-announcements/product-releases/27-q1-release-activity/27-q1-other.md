@@ -4,10 +4,10 @@ description: 2027年第1四半期のリリース期間におけるその他の�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 3%
 ---
 
 # 2027年第1四半期リリース期間中のその他の機能強化
@@ -15,6 +15,21 @@ ht-degree: 1%
 このページでは、2027年第1四半期リリースのプレビュー環境に対する機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+## タスク、問題、ドキュメントの概要パネルのルックアンドフィールを更新しました
+
+>[!NOTE]
+>
+>プレビュー：2026年11月19日（PT）
+>プロダクション高速リリース：2026年12月17日（PT）
+>すべての人のための制作：2027年1月21日
+
+タスク、イシュー、ドキュメントの概要パネルのルックアンドフィールが更新され、Workfrontの他のスタイルに一致するようになりました。 情報とフィールドは、概要パネル内で別々のタブに整理されるようになりました。
+
+詳しくは、以下を参照してください。
+
+* [概要パネルについて](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [ドキュメントの概要](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 

@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '818'
+ht-degree: 28%
 ---
 # [!UICONTROL ホーム]エリア内の作業アイテムを更新または編集する
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 作業項目にカーソルを合わせて、**概要** アイコンをクリックします。
    ![概要を開く](assets/open-summary-new-home.png)
 
-1. 概要パネルで、編集するフィールドにカーソルを合わせます。
-フィールドの編集権限がある場合は、フィールドにカーソルを合わせると、そのフィールドがハイライト表示されます。
-1. 編集するフィールドをクリックし、目的の更新を行います。
+1. 概要パネルで、編集するフィールドをクリックし、目的の更新を行います。
 1. フィールドの外側をクリックして、変更を保存します。

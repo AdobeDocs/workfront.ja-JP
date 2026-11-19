@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 37%
-
 ---
-
 # タスクの完了率の表示と更新
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Old:
 
 * **タスクの概要パネル内**：次のエリアでタスクを表示する際に、概要パネルの上部でタスクの完了率を更新できます。
 
-   * タスクリストまたはレポート
-   * タイムシート
-   * ワークロードバランサー
+  * タスクリストまたはレポート
+  * タイムシート
+  * ワークロードバランサー
 
   ![&#x200B; タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  <span class="preview"> プレビュー中：
+  ハイライト表示されたタスク概要の![更新率](assets/percent-complete-summary.png)
+  </span>
 
   詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください
 
@@ -147,8 +151,8 @@ Old:
 * タスクを100%完了とマークすると、タスクのステータスが「完了」に更新されます。 イシューのステータスが「クローズ」に更新されます。
 * タスクを完了すると、親とプロジェクトの完了率も更新されます。
 * 親タスクとプロジェクトには、次のシナリオが存在します。
-   * プロジェクトの「概要完了モード」が「自動」に設定され、サブタスクが完了していない場合、親タスクの完了率を 100％に更新できません。
-   * プロジェクトの概要完了モードが「手動」に設定され、サブタスクが完了または未完了の場合、親タスクまたはプロジェクトの完了率を100%に更新できます。
+  * プロジェクトの「概要完了モード」が「自動」に設定され、サブタスクが完了していない場合、親タスクの完了率を 100％に更新できません。
+  * プロジェクトの概要完了モードが「手動」に設定され、サブタスクが完了または未完了の場合、親タスクまたはプロジェクトの完了率を100%に更新できます。
 
   詳しくは、[プロジェクトの編集](../manage-projects/edit-projects.md)を参照してください。
 

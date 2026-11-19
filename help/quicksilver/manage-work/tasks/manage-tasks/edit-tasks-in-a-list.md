@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 2861
+source-wordcount: '2861'
 ht-degree: 61%
-
 ---
-
 # リスト内のタスクを編集 {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
@@ -483,6 +481,7 @@ Old:
     </tbody> 
    </table>
 
+
 1. Workfront は、タスクのタイムラインに変更を加えると、プロジェクト内およびプロジェクト間のすべての依存関係を更新します。
 1. タスクの変更を完全に保持し、プロジェクトのタイムラインを保存する場合は、「**保存**」をクリックします。
 
@@ -526,6 +525,19 @@ Old:
       <tr> 
       </tbody> 
       </table>
+
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
 
 1. パネルの右上隅にある&#x200B;**X**&#x200B;をクリックして閉じます。
 
