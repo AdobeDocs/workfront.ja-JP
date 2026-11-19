@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 7%
 ---
 
@@ -76,6 +76,9 @@ Adobe Workfrontのアイデア創出スペースを使用して、キャンペ�
 * アイデアの作成者は、常に自分のアイデアに対する編集者の権限を持っています。
 
 * ブリーフを作成または投稿し、他のアプリケーションに書き出すには、アイデア創出スペースの編集者権限が必要です。
+
+* 
+  * 共有は、アイデア出しキャンバスでアクセスして共同作業できるユーザーのみを制御します。 誰かが概要をWorkfront Planningに書き出した場合にのみ、レコードの更新が引き続き行われます。
 
 ## アクセス要件
 
@@ -163,7 +166,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -171,7 +174,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -179,9 +182,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. アイデア創出スペースへのアクセス：
 
-   詳しくは、「[&#x200B; アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
+   詳しくは、「[ アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
 
-1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン &#x200B;](assets/setting-icon.png)をクリックします。<!--should this say "document"?-->
+1. 右上隅の&#x200B;**共有**&#x200B;をクリックし、**ドキュメントを共有** ボックスの右上隅にある&#x200B;**設定** アイコン ![設定アイコン ](assets/setting-icon.png)をクリックします。<!--should this say "document"?-->
 1. 「**アクセス権のあるユーザー**」リストで、次の中から選択します。
 
    * **招待されたユーザーのみが**&#x200B;にアクセスできます

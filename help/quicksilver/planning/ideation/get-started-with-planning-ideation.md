@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 1%
+source-wordcount: '1540'
+ht-degree: 2%
 ---
 
 # Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ
@@ -91,7 +91,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 >
 >アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningをお持ちの場合は、Workfrontにログインするとすぐに利用できます。
 >
->アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 組織が次のアクセス権を持っている場合は、アイデア創出スペースにアクセスできます。
 
@@ -127,7 +127,7 @@ WorkfrontプランニングまたはWorkfrontメインメニューからのみ�
 
   * ワークフローおよびプランニング システム管理者または標準ライセンス ユーザー
 
-詳しくは、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+詳しくは、「[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -174,25 +174,39 @@ In addition to above requirements, you must also meet the following criteria to 
 
 ## アイデア創出スペースを探す
 
-適切な製品、パッケージ、およびシステムとアクセスレベルが設定されていることを確認したら、Workfrontの次の領域にアイデア創出スペースを配置できます。
-
-* Workfrontのメインメニューで、アイデア創出スペース領域を開きます
-
-  ![&#x200B; メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
-
-* Workfront Planningで、新しいレコードを手動で追加する場合
-
-  新しいレコードを追加する![&#x200B; アイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
-
-* Workfront Planningで、既存のレコードを編集する際に
-
-  ![&#x200B; レコード詳細ページのアイデア創出スペース &#x200B;](assets/ideation-space-button-in-details-page.png)
-
+適切な製品、パッケージ、およびシステムとアクセスレベルが設定されていることを確認したら、WorkfrontとWorkfront計画の複数の領域にアイデア創出スペースを配置できます。
 
 >[!TIP]
 >
->レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。
 >
+>ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[ アイデア創出スペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>
+
+Workfrontの次の領域にあるアイデア創出スペースにアクセスします。
+
+* Workfrontのメインメニューで、アイデア創出スペース領域を開きます
+
+  ![ メインメニューのアイデア創出スペース領域](assets/ideation-space-area-icon-in-main-menu.png)
+
+* Workfront Planningで、新しいレコードを手動で追加する場合
+
+  新しいレコードを追加する![ アイデア創出スペース ](assets/ideation-space-in-planning-new-record.png)
+
+* Workfront Planningで、既存のレコードを編集する際に
+
+  ![ レコード詳細ページのアイデア創出スペース ](assets/ideation-space-button-in-details-page.png)
+
+>[!IMPORTANT]
+>
+>アイデア創出スペースを起動するポイントによって、ブリーフの構造が決まります。 次のシナリオが存在します。
+>
+>* Planningの「新規レコード」ボタンから起動すると、概要には、最初のレコードタイプと同じフィールドが含まれます。
+>
+>* 計画既存レコードから起動すると、レコードと同じ値を持つ同じフィールドが概要に含まれます。
+>
+>* Workfrontのメインメニューから起動すると、カンバスにアップロードしたファイルのフィールドと情報が概要に含まれます。
+
 
 ## アイデア創出スペースとAdobe CX Enterprise Coworker
 
@@ -309,10 +323,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/jp/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/jp/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/jp/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

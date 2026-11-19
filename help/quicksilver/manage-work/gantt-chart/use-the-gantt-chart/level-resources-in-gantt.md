@@ -27,13 +27,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 86%
-
+source-wordcount: '641'
+ht-degree: 84%
 ---
-
 # [!UICONTROL ガントチャート]でのリソースの標準化
 
 <!--Audited: 08/2025-->
@@ -119,9 +117,10 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 * 先行タスク関係は、リソースの標準化よりも優先されます。
 * [!UICONTROL ガントチャート]で標準化を調整するには、プロジェクトの「**[!UICONTROL リソースの標準化]**」を「**[!UICONTROL 手動]**」に設定する必要があります。 プロジェクトに対する管理権限がある場合は、プロジェクトでこの設定を調整し、**[!UICONTROL プロジェクトの編集]**&#x200B;ボックスで「**[!UICONTROL 手動]**」ではなく「**[!UICONTROL 自動]**」を選択することで、システムに自動的にリソースを標準化させることができます。
 
-  ![&#x200B; リソースの平準化モード &#x200B;](assets/resource-leveling-mode-350x177.png)
+  ![ リソースの平準化モード ](assets/resource-leveling-mode-350x177.png)
 
 * プロジェクト所有者またはタスク担当者は、タスクに標準化の遅延を導入して、タスクに追加の時間が必要になる可能性が高いことを示すことができます。 タスクに標準化の遅延を追加する方法については、[タスク標準化の遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)を参照してください。
+* 最適なパフォーマンスを確保するために、リソースの平準化は、期間が1000日を超えるタスクでは機能しません。
 
 ## [!UICONTROL ガントチャート]でのリソース標準化の適用
 

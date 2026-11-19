@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 74%
@@ -85,11 +85,11 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**アクセスレベル**」をクリックします。
-1. コピーしてカスタマイズするアクセスレベルを選択し、**コピー** アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)をクリックします。
+1. コピーしてカスタマイズするアクセスレベルを選択し、**コピー** アイコン ![ コピーアイコン ](assets/copy-icon.png)をクリックします。
 
    または
 
-   既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+   既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
 1. 表示されるボックスで、次のいずれかの操作を行って、カスタムアクセスレベルの設定を開始します。
 
@@ -242,7 +242,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
       <p>これはデフォルトで選択されています。</p>
       <p>詳しくは、<a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">WorkfrontでのCX Enterprise Coworkerの使用</a>を参照してください。</p>
       <p><b>メモ：</b></p>
-      <p>すべてのお客様がCoworkereにアクセスできるわけではありません。</p>
+      <p>すべての顧客がCoworkerにアクセスできるわけではありません。</p>
       </td> 
      </tr>
 
@@ -269,7 +269,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 
    このセクションでは、ネイティブフィールドとカスタムフィールドの両方を検索できます。 制限フィールドは20個までです。
 
-   アクセスレベルがユーザーにプライマリアクセスレベルとして割り当てられている場合、またはビジネスプロファイルを介してユーザーに割り当てられている場合、フィールドは制限されます。 ビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+   アクセスレベルがユーザーにプライマリアクセスレベルとして割り当てられている場合、またはビジネスプロファイルを介してユーザーに割り当てられている場合、フィールドは制限されます。 ビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
    制限付きフィールドは、引き続きシステム内のユーザーに表示されますが、空白として表示されるか、実際のデータではなくN/Aが表示されます。
 

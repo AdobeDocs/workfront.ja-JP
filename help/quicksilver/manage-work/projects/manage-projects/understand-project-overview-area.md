@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 81%
-
+source-wordcount: '1466'
+ht-degree: 79%
 ---
-
 # プロジェクトの概要エリアで情報を管理する
 
 {{highlighted-preview}}
@@ -120,13 +118,13 @@ Old:
 
    または
 
-   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。 概要エリアが開き、編集できます。
+   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。 概要エリアが開き、編集できます。
 
    >[!NOTE]
    >
    >Workfront 管理者がレイアウトテンプレートを設定した方法によっては、「概要」セクションが最初に表示されない場合があり、その場合は折りたたまれています。 詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. （条件付き）プロジェクトで更新する必要があるものの、このセクションに表示されていない特定のフィールドがある場合は、プロジェクト名の横にある&#x200B;**詳細メニュー** ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックして他のプロジェクトフィールドを表示します。
+1. （条件付き）プロジェクトで更新する必要があるものの、このセクションに表示されていない特定のフィールドがある場合は、プロジェクト名の横にある&#x200B;**詳細メニュー** ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックして他のプロジェクトフィールドを表示します。
 
    プロジェクトの編集について詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">プログラム</td> 
-      <td>プロジェクトのポートフォリオに関連付けられたプログラム。 プログラムをプロジェクトに追加する前に、プログラムを作成する必要があります。 </td> 
+      <td></p>プロジェクトのポートフォリオに関連付けられたプログラム。 プログラムをプロジェクトに追加する前に、プログラムを作成する必要があります。</p>
+      <p> ポートフォリオに20個を超えるアクティブなプログラムがある場合、プロジェクトの概要の「プログラム」フィールドには、最初の20個のプログラムのみがアルファベット順に一覧表示されます。 名前の一部を入力すると、ポートフォリオのアクティブなプログラムが見つかります。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">グループ</td> 
