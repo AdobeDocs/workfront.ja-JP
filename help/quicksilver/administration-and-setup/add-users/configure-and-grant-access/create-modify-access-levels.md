@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 74%
@@ -242,7 +242,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
       <p>これはデフォルトで選択されています。</p>
       <p>詳しくは、<a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">WorkfrontでのCX Enterprise Coworkerの使用</a>を参照してください。</p>
       <p><b>メモ：</b></p>
-      <p>すべてのお客様がCoworkereにアクセスできるわけではありません。</p>
+      <p>すべての顧客がCoworkerにアクセスできるわけではありません。</p>
       </td> 
      </tr>
 

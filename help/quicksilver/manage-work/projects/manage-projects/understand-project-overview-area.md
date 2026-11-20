@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 81%
-
+source-wordcount: '1466'
+ht-degree: 79%
 ---
-
 # プロジェクトの概要エリアで情報を管理する
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">プログラム</td> 
-      <td>プロジェクトのポートフォリオに関連付けられたプログラム。 プログラムをプロジェクトに追加する前に、プログラムを作成する必要があります。 </td> 
+      <td></p>プロジェクトのポートフォリオに関連付けられたプログラム。 プログラムをプロジェクトに追加する前に、プログラムを作成する必要があります。</p>
+      <p> ポートフォリオに20個を超えるアクティブなプログラムがある場合、プロジェクトの概要の「プログラム」フィールドには、最初の20個のプログラムのみがアルファベット順に一覧表示されます。 名前の一部を入力すると、ポートフォリオのアクティブなプログラムが見つかります。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">グループ</td> 

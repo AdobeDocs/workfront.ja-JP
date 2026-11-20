@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 1%
+source-wordcount: '1540'
+ht-degree: 2%
 ---
 
 # Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ
@@ -174,7 +174,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
 ## アイデア創出スペースを探す
 
-適切な製品、パッケージ、およびシステムとアクセスレベルが設定されていることを確認したら、Workfrontの次の領域にアイデア創出スペースを配置できます。
+適切な製品、パッケージ、およびシステムとアクセスレベルが設定されていることを確認したら、WorkfrontとWorkfront計画の複数の領域にアイデア創出スペースを配置できます。
+
+>[!TIP]
+>
+>レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。
+>
+>ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>
+
+Workfrontの次の領域にあるアイデア創出スペースにアクセスします。
 
 * Workfrontのメインメニューで、アイデア創出スペース領域を開きます
 
@@ -188,11 +197,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
   ![&#x200B; レコード詳細ページのアイデア創出スペース &#x200B;](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>アイデア創出スペースを起動するポイントによって、ブリーフの構造が決まります。 次のシナリオが存在します。
+>
+>* Planningの「新規レコード」ボタンから起動すると、概要には、最初のレコードタイプと同じフィールドが含まれます。
+>
+>* 計画既存レコードから起動すると、レコードと同じ値を持つ同じフィールドが概要に含まれます。
+>
+>* Workfrontのメインメニューから起動すると、カンバスにアップロードしたファイルのフィールドと情報が概要に含まれます。
 
->[!TIP]
->
->レイアウトテンプレートを使用して、アイデア創出スペース領域をメインメニューから削除することはできません。 ユーザーによるアイデア創出スペースへのアクセスをブロックする方法について詳しくは、「[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
->
 
 ## アイデア創出スペースとAdobe CX Enterprise Coworker
 

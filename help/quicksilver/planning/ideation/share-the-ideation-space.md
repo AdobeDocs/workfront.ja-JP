@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 7%
 ---
 
@@ -76,6 +76,9 @@ Adobe Workfrontのアイデア創出スペースを使用して、キャンペ�
 * アイデアの作成者は、常に自分のアイデアに対する編集者の権限を持っています。
 
 * ブリーフを作成または投稿し、他のアプリケーションに書き出すには、アイデア創出スペースの編集者権限が必要です。
+
+* &#x200B;
+  * 共有は、アイデア出しキャンバスでアクセスして共同作業できるユーザーのみを制御します。 誰かが概要をWorkfront Planningに書き出した場合にのみ、レコードの更新が引き続き行われます。
 
 ## アクセス要件
 

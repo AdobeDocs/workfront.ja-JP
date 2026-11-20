@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 90%
+source-wordcount: '487'
+ht-degree: 84%
 ---
 # プロジェクトのタイムライン再計算を設定
 
@@ -67,6 +67,11 @@ ht-degree: 90%
 ## 自動再計算の設定
 
 [!DNL Adobe Workfront] 管理者は、[!DNL Workfront] がプロジェクトタイムラインの自動再計算するタイミングを設定できます。 [!DNL Workfront] では、毎晩、またはプロジェクトの範囲が変更されたとき、あるいはその両方に対して、プロジェクトのタイムラインを再計算できます。
+
+>[!NOTE]
+>
+>最適なパフォーマンスを確保するために、期間が1000日を超えるタスクを含むプロジェクトでは、タイムラインが自動的に再計算されることはありません。 これらのプロジェクトのタイムラインを手動で再計算する必要があります。
+
 
 {{step-1-to-setup}}
 

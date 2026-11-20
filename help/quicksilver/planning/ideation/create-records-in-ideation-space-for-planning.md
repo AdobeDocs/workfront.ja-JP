@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1161'
 ht-degree: 4%
 ---
 
@@ -167,10 +167,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ## アイデア立案スペースを使用してプランニングレコードを作成または編集する場合の考慮事項
 
 * プランニングレコードを作成または編集するには、Workfront計画からアイデア創出スペースを起動する必要があります。 Workfrontのメインメニューからアイデア創出スペースにアクセスしても、アイデア創出の概要がプランニングレコードに関連付けられることはありません。
+* レコードからアイデア創出スペースを起動すると、Workfrontはレコードの構造と情報を使用して、ブリーフのフィールドを作成および更新します。
 * アイデア創出スペースを使用してレコードを作成または編集するには、Workfront Planningにワークスペースとレコードタイプが必要です。
 * 新しいレコードは、作成方法に関係なく、常にプレースホルダーコンテンツから開始されます。
 * アイデアの概要にリンクされているプランニングレコードを削除すると、アイデアの概要はアイデアのスペースに残り、関連するスペースは削除されません。
-* 情報の同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出スペースブリーフへの逆同期や自動同期はありません。<!--this might change after beta?-->
+* 同期は、アイデア立案スペースからWorkfront Planningにのみ行われます。 プランニングレコードからアイデア創出ブリーフへの逆同期や自動同期はありません。
+* Workfront Planningへの書き出しは、接続されたPlanning レコード内の既存のすべてのフィールドデータを上書きします。
 * Workfront Planningでフィールドを作成、編集または削除する場合、次のシナリオが存在します。
 
   * アイデア立案ブリーフにリンクされたレコードに作成された新しいフィールドは、毎日ブリーフに追加されます。 新しいフィールドは、アイデアの概要では空で表示されます。
@@ -208,9 +210,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * レコードはすぐにプレースホルダー名で作成されます。
 
+   * アイデア概要は、プレースホルダー名で作成されます。 アイデア概要フィールドは、最初に作成したレコードタイプのフィールドと同じです。
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. （オプション）アイデア創出スペースキャンバスの右上隅にある&#x200B;**Workfront計画** タグにカーソルを合わせると、レコードタイプの名前、レコードを作成するワークスペース、作成する概要のバージョン番号が表示されます。
+
+   ![Workfront計画ワークスペースとレコードタイプの情報タグ（カンバス内） &#x200B;](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. **同僚** ダイアログボックスにプロンプトを追加し、Enter キーを押します。
 
@@ -253,9 +261,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    アイデアが存在しない場合は、アイデア創出スペースと概要を作成します。
 
+   アイデア概要には、開始したレコードと同じフィールドが含まれています。 フィールド値は、レコードから概要に入力されます。
+
    >[!TIP]
    >
    >アイデア出しスペースを使用してレコードを一括編集することはできません。
+
 1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
    <!-- 
