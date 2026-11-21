@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
@@ -214,7 +214,7 @@ Workfrontの次の領域にあるアイデア創出スペースにアクセス�
 
 利用者は、たった一発の結果を得るのではなく、フォローアップで質問し、会話で概要を絞り込むことができます。
 
-ブリーフがAdobe Workfrontプランニングのレコードに関連付けられている場合、基礎となるプランが維持されるように、Coworkerはブリーフの上書きを控えます。 レコードは、Workfront Planningに概要を書き出すときにのみ上書きされます。
+ブリーフがAdobe Workfrontプランニングのレコードに関連付けられている場合、基礎となるプランが維持されるように、Coworkerはブリーフの上書きを控えます。 Workfront Planningに概要を書き出す場合にのみ、レコードが上書きされます。
 
 <!--
 Previous intro but oped for the more direct one above: 

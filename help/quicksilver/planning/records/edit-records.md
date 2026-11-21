@@ -30,22 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
-ht-degree: 26%
+source-wordcount: '3174'
+ht-degree: 25%
 ---
 # レコードの編集
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-レコードに関連付けられたフィールドの値を編集することで、Adobe Workfront Planning 内のレコード情報を編集できます。
+レコードに関連付けられたフィールドの値を編集することで、Adobe Workfront プランニング内のレコード情報を編集できます。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 
@@ -173,7 +173,7 @@ Old:
   * システムフィールド（作成者、作成日、最終変更者、最終変更日、承認日、承認者、レコード ID）
 * 表示するレコードが他のレコードにリンクされている場合、編集するレコードの新しい情報は、そのレコードがリンクされているすべてのワークスペースのリンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。<!--this will probably change-->
-* URLは、http://、https://、ftp://またはwwwで始まる場合にのみ、1行テキストフィールドタイプのリンクとして認識されます。 .
+* URLは、http://、https://、ftp://、または次で始まる場合にのみ、1行テキストフィールドタイプのリンクとして認識されます。 <www>. .
 * 各レコードにカバー画像を追加できます。 画像は各レコードに対して一意であり、同時にすべてのレコードには適用されません。 詳しくは、[&#x200B; レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)を参照してください。
 * レコードの詳細ページのフィールドの順序を編集できます。 詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 * タイムラインビューとカレンダービューでレコードのサイズを変更したり、位置を変更したりすることで、レコードの開始日と終了日を編集できます。
@@ -389,8 +389,8 @@ Old:
    >  * レコードタイプを接続して作成された他のレコードのルックアップフィールド。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
-1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。 </span>
-   <span class="preview"> レコードは、作成時に自動的に色が割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しい色を選択します。</span>
+1. （オプション）レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。
+レコードは、作成時に自動的にカラーが割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しいカラーを選択します。
 
 1. （オプション）「**カバーを追加**」をクリックして、カバー画像をレコードに追加します。 詳しくは、[&#x200B; レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)を参照してください。
 
@@ -448,8 +448,8 @@ Old:
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
 1. （オプション）表示されるフィールドの右側にある情報アイコンをクリックして、フィールドの説明を表示します。
-1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。 </span>
-   <span class="preview"> レコードは、作成時に自動的に色が割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しい色を選択します。</span>
+1. （オプション）レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。
+レコードは、作成時に自動的にカラーが割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しいカラーを選択します。
 
    ![&#x200B; レコードの詳細ボックスのカラーピッカーボックス &#x200B;](assets/color-picker-box-for-record-color-in-details-page.png)
 
