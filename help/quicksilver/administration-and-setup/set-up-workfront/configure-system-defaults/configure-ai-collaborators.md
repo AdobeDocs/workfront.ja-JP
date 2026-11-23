@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 3%
 ---
 # AI共同作業者の設定
@@ -46,7 +46,7 @@ AI共同作業者が使用するライセンスには請求されません。 �
 
 * <span class="preview"> プロジェクトコーディネーター：外部エージェントを設定することなく、プロジェクトのステータスを監視し、プロジェクトの更新を送信する、すぐに使用できる共同作業者。</span>
 
-  <span class="preview">詳細については、[&#x200B; プロジェクト コーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。</span>
+  <span class="preview">詳細については、[ プロジェクト コーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。</span>
 
 
 ## アクセス要件
@@ -134,7 +134,7 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
 
 作業担当者が使用するライセンスには料金は請求されません。 組織に200 Workfront ライセンスがあり、Work Agentを作成している場合、201 ライセンスが使用されますが、請求されるのは200のみです。
 
-作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
+作業エージェントとして機能するエージェントを作成する際のベストプラクティスの一覧については、[作業エージェントのエージェント作成に関するベストプラクティス ](#best-practices-for-creating-an-agent-for-a-work-agent)を参照してください。
 
 * [Workfrontでの作業エージェントの設定](#configure-a-work-agent-in-workfront)
 * [作業エージェント用のエージェントを作成するためのベストプラクティス](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -156,7 +156,12 @@ AI レビュー担当者は、Workfrontブランド、つまりAdobe Brand Intel
    >グループ管理者の場合、このフィールドには管理者であるグループのみが表示されます。 グループ管理者は、少なくとも1つのグループを選択する必要があります。
 
 1. **エージェントの生成元を選択**&#x200B;領域で、<span class="preview">Adobe Native</span>を使用するか、Copilotなどの共通プラットフォームで作成されたエージェントを接続するか、カスタムエージェントを使用するかを選択します。
-1. <span class="preview"> （条件付き）Adobe Nativeを選択した場合は、Adobe CX Coworkerが有効になっており、すぐに使用できるAdobe Native Agentを使用することを確認します。</span>
+1. <span class="preview"> （条件付き）Adobe Nativeを選択する場合は、使用する共同作業者（CX Enterprise Coworker共同作業者または受注コーディネーターなどの事前構築済みのAI共同作業者）を選択します。 説明を含む事前構築済みの共同作業者について詳しくは、[事前構築済みのAI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)を参照してください。</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">事前定義済みのAI Collaboratorを有効にすると、プロビジョニングに約30秒かかります。 共同作業者の準備が整うまでスピナーが表示されます。</span>
+
 1. （条件付き）共通プラットフォームのエージェントを使用している場合は、エージェントのプラットフォームの認証の詳細を入力します。
 
    | Platform | 必須の認証 |
@@ -252,9 +257,9 @@ Workfrontで作業エージェントとして使用するエージェントを�
 
 プロジェクトコーディネーターを保存したら、ユーザーが使用するレイアウトテンプレートのプロジェクトヘッダーに「**プロジェクトコーディネーター**」フィールドを追加します。 フィールドがヘッダーで使用可能になるまで、ユーザーはプロジェクトにプロジェクトコーディネーターを割り当てることはできません。
 
-手順については、[&#x200B; レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
+手順については、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
-プロジェクトに割り当てる方法など、プロジェクトコーディネーターについて詳しくは、[&#x200B; プロジェクトコーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。
+プロジェクトに割り当てる方法など、プロジェクトコーディネーターについて詳しくは、[ プロジェクトコーディネーターの共同作業者の使用](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)を参照してください。
 
 </div>
 
@@ -270,4 +275,4 @@ Workfrontで作業エージェントとして使用するエージェントを�
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。

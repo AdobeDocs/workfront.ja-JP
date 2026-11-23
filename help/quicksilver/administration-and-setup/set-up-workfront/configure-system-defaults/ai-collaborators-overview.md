@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 10%
+source-wordcount: '183'
+ht-degree: 9%
 ---
 # AI 共同作業者
 
@@ -29,7 +29,7 @@ AI共同作業者は、個人を割り当てるのと同じようにタスクに
 
 使用可能なAI コラボレーターの種類には、AI レビュアー、作業担当者<span class="preview">、プロジェクトコーディネーター</span>などがあります。
 
-Work Agentsの場合は、サポートされている外部プラットフォーム <span class="preview">からエージェントを接続できます。または、Adobe CX Coworkerが有効になっている場合は、「Adobe Native」を選択して、Adobe CX Coworkerを活用した、すぐに使用できるエージェントを使用できます。 Adobe Native オプションには、外部プラットフォームの資格情報は必要ありません。</span>
+Work Agentsの場合は、サポートされている外部プラットフォーム <span class="preview">からエージェントを接続できます。または、組織でAdobe CX Coworkerが有効になっている場合は、「Adobe Native」を選択して、CX Enterprise Coworker共同作業者または受注コーディネーターなどの事前構築済みのAI共同作業者を使用します。 Adobe Native オプションでは、外部プラットフォームの資格情報は必要ありません。 オプションの一覧については、[事前構築済みのAI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)を参照してください。</span>
 
 ## 職場でのAI協力者
 

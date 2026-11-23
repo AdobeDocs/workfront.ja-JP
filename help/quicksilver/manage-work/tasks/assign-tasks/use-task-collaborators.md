@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1249'
 ht-degree: 3%
 ---
 # 作業担当者の使用
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 作業担当者は、Workfrontのタスク、イシュー、リクエストに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同様に作業項目に割り当てられます。
 
-<span class="preview">Adobe CX Coworkerを活用した、すぐに使用できるAdobe Native Work Agent、</span>または外部プラットフォームに接続されたWork Agentを使用できます。 使用可能な機能と設定の要件は、エージェントのオリジンによって異なります。
+<span class="preview">CX Enterprise Coworkerの共同作業者などの既製のAdobe Native Work Agent、または受注コーディネーターなどの事前構築済みのAI Collaboratorを使用できます（詳細については、[事前構築済みのAI Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)の設定を参照）、</span>または外部プラットフォームに接続されたWork Agentを使用できます。 使用可能な機能と設定の要件は、エージェントのオリジンによって異なります。
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 >
 >Writerはエージェントの使用を廃止しました。 Writer エージェントを使用して設定された作業エージェントは、10月9日を過ぎると機能しなくなります。 2026.
 >
->非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[&#x200B; エージェントライブラリの移行と非推奨（廃止予定） &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
+>非推奨（廃止予定）について詳しくは、執筆者ドキュメントの[ エージェントライブラリの移行と非推奨（廃止予定） ](https://support.writer.com/articles/8335689949-migrating-no-code-agents)を参照してください。
 
 Workfrontでの作業エージェントの作成について詳しくは、「[作業エージェントの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)」を参照してください。
 
@@ -145,7 +145,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 
 使用可能な担当者のリストで作業エージェントを検索する場合、作業エージェントの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)および[作業とチームのリクエストの管理](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
 >[!NOTE]
 >
