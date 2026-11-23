@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14768'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -502,6 +502,7 @@ ht-degree: 90%
       * [ビジネスルールの作成および編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [AI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+      * [事前定義済みのAI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)
       * [AI 共同作業者](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
     * スケジュールとタイムシートの環境設定の指定 {#configure-timesheets-schedules}
       * [スケジュールとタイムシートの環境設定の指定](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
