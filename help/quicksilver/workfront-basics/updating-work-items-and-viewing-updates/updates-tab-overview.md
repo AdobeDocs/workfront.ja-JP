@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 57%
+source-wordcount: '1464'
+ht-degree: 55%
 ---
 # 「更新」セクションの概要
 
@@ -168,7 +168,7 @@ Depending on what objects you access the commenting experience for, you might fi
   >
   >「**コメントを要約**」タブを使用するには、AI アシスタント契約書に署名するか、設定エリアで同僚とMCPの環境設定を有効にする必要があります。 企業には、AI アシスタントやCX Enterprise Coworker for Workfrontがあります。
   >
-  >詳しくは、[WorkfrontのAI アシスタント &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
+  >詳しくは、[WorkfrontのAI アシスタント ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[WorkfrontのCX Enterprise Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)を参照してください。
 
 
 ### 異なるオブジェクトの更新領域の類似点と相違点
@@ -202,7 +202,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * ボード領域の接続されたカード
 
-    詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+    詳しくは、[ ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * 次のオブジェクトには、「システム活動」タブに代わる「履歴」タブがあります。
 
@@ -351,6 +351,8 @@ The following objects don't record system updates:
   * タイムシート
   * イテレーション
 
+* チームの「更新」セクションには、チームのメンバー全員が行った更新が表示され、そのチームが関連付けられていないプロジェクトの更新も含まれます。 更新は、チームが関連付けられているプロジェクトやその他のオブジェクトによってフィルタリングされません。 特定のプロジェクトの更新を表示するには、そのプロジェクトの「更新」セクションに移動します。
+
 * ユーザーの「更新」エリアの「システム更新」タブには、他のオブジェクトの更新が表示されます。 次の更新は、ユーザーのプロファイルの「システム更新」タブに表示される更新です。これらのフィールドが設定の「更新フィード」領域で追跡されている場合に表示されます。
 
   * ドキュメントの追加、削除、その他のドキュメントの更新
@@ -387,4 +389,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
