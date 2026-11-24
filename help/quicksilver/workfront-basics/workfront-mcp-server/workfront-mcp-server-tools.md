@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
+source-git-commit: b836c42f007e31be8533e89cb0c2f3095c9ace9a
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3801'
 ht-degree: 5%
 ---
 
@@ -112,9 +112,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | 名前でドキュメントのバージョンを検索 | `approvals_find_document_version_by_name` | ドキュメントの現在のバージョン IDをファイル名で検索します。 部分一致をサポートします。 | 読み取り |
 | バージョン IDでドキュメントを取得 | `approvals_get_document_by_version_id` | 既知のドキュメントバージョン IDのドキュメントの詳細（名前、サイズ、アップロード日、アップローダー）を取得します。 | 読み取り |
 | ドキュメント範囲を解決 | `approvals_resolve_document_scope` | プロジェクトまたはフォルダーを、そのプロジェクトに含まれるドキュメントバージョン IDのリストに展開します。 プロジェクト、フォルダーおよびフォルダーの名前単位のスコープをサポートします。 | 読み取り |
-| スコープ別ドキュメントの取得 | `approvals_get_documents_by_scope` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、プロジェクトまたはフォルダー内のドキュメントを一覧表示します。 | 読み取り |
 | AEMにリンクされたフォルダーのリスト* | `approvals_list_aem_linked_folders` | Adobe Experience ManagerにリンクされているWorkfront ドキュメントフォルダーを一覧表示します。 | 読み取り |
-| ドキュメントを検索 | `approvals_find_document` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、ファイル名またはドキュメントのバージョン IDでドキュメントを検索しました。 | 読み取り |
 | AEM フォルダーへのドキュメントの送信* | `approvals_send_documents_to_aem_folder` | 1つ以上のWorkfront ドキュメントをAEMにリンクされたフォルダーに移動します。 | 編集 |
 
 * これらのツールを使用するには、Workfront インスタンスでネイティブの[!DNL Adobe Experience Manager]統合が設定されている必要があります。 詳しくは、[Adobe Experience Manager Assets統合の概要](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)を参照してください。
@@ -122,10 +120,6 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 *AEM フォルダーへのドキュメントの送信は、Adobe クラウドストレージ上のプロジェクトではまだサポートされていません。 今後のリリースでサポートが予定されています。
 ** このツールはチャットでインタラクティブなアップロードパネルを開くため、MCP アプリをサポートするツールでのみ機能します。 現在、このツールでサポートされているのはClaudeのみです。 ツール権限の「インタラクティブツール」の下に表示され、デフォルトで承認を求められます。
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
--->
 
 ### 承認ワークフロー
 
@@ -141,13 +135,6 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | <span class="preview"> パスからステージを削除</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">同時承認ワークフローの特定のパスから、開始されていないステージを削除します。 各パスには、少なくとも1つのステージを保持する必要があります。</span> | <span class="preview">Write</span> |
 | <span class="preview"> パスのステージの並べ替え</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">同時承認ワークフローの1つのパス内のステージの順序を変更します。</span> | <span class="preview">Write</span> |
 
-<!--
-| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
--->
-
-<!--
-| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
--->
 
 ### リマインダー
 
@@ -175,10 +162,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_id_by_name`を使用してください。 このツールは、システム全体で名前の一部が一致するWorkfront プロジェクトを検索しました。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_workfront_data`を使用してください。 このツールには、呼び出し元ユーザーがオーナーであるWorkfront プロジェクトが一覧表示されます。 | 読み取り |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得[&#128279;](#insights-tools)」を参照してください。 | 読み取り |
-| 名前でユーザーを検索 | `approvals_find_user_by_name` | 非推奨（廃止予定）: 代わりに`insights_search_users`を使用してください。 このツールは、WorkfrontユーザーのIDを名前（ファジーまたは部分的に一致）で検索し、名前、ID、メール、タイトル、アバターURLを返します。 | 読み取り |
-| 名前でチームを検索 | `approvals_find_team_by_name` | 非推奨（廃止予定）: 代わりに`insights_find_id_by_name`を使用してください。 このツールは、Workfront チームのIDを名前（ファジーまたは部分一致）で検索しました。 | 読み取り |
-| プロジェクトの検索 | `approvals_find_projects` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、Workfront プロジェクトを検索し、オプションで名前でフィルタリングしたり、呼び出し元ユーザーが所有するプロジェクトに限定したりしました。 | 読み取り |
+| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得](#insights-tools)」を参照してください。[ | 読み取り |
 
 ## プランニングツール
 
@@ -276,11 +260,9 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
-| オブジェクトを検索 | `workflow_search_any_object` | このツールは非推奨（廃止予定）です。 | 読み取り |
 | オブジェクトを作成 | `workflow_create_any_object` | プロジェクト、タスク、イシュー、時間、割り当て、プログラム、ポートフォリオなどの新しいWorkfront オブジェクトを作成します。 | 編集 |
 | オブジェクトを更新 | `workflow_update_any_object` | 既存のオブジェクトのフィールドを更新します。 また、タスクまたはイシューを別のプロジェクトに移動したり、タスクまたはイシューを新しいプロジェクト（またはイシューをタスクに変換）に変換したり、タスク先行者（依存関係）を設定したりすることもできます。 | 編集 |
 | オブジェクトを削除 | `workflow_delete_any_object` | IDでWorkfront オブジェクトを削除します。 アクションを実行する前に、明示的なユーザー確認が必要です。 | 編集 |
-| フィールド名を解決 | `workflow_resolve_field_names_any_object` | このツールは非推奨（廃止予定）です。 | 読み取り |
 | ワークフロードキュメントを読む | `workflow_read_workflow_docs` | ツール使用ガイドやオブジェクト固有の操作プレイブックなど、Workfront Workflow ドキュメントを読み込みます。 これは、ワークフローアクションを実行する前に必要な最初の手順です。 | 読み取り |
 
 ### オブジェクトツール機能の更新
