@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 57%
+source-wordcount: '1464'
+ht-degree: 55%
 ---
 # 「更新」セクションの概要
 
@@ -350,6 +350,8 @@ The following objects don't record system updates:
   * ストーリー
   * タイムシート
   * イテレーション
+
+* チームの「更新」セクションには、チームのメンバー全員が行った更新が表示され、そのチームが関連付けられていないプロジェクトの更新も含まれます。 更新は、チームが関連付けられているプロジェクトやその他のオブジェクトによってフィルタリングされません。 特定のプロジェクトの更新を表示するには、そのプロジェクトの「更新」セクションに移動します。
 
 * ユーザーの「更新」エリアの「システム更新」タブには、他のオブジェクトの更新が表示されます。 次の更新は、ユーザーのプロファイルの「システム更新」タブに表示される更新です。これらのフィールドが設定の「更新フィード」領域で追跡されている場合に表示されます。
 
