@@ -53,7 +53,7 @@ ht-degree: 10%
 
 * 編集
 
-  詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+  詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
 * レコードタイプの「設定」ページを設定します。
 
@@ -118,7 +118,7 @@ ht-degree: 10%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++    
 
@@ -200,7 +200,7 @@ Old:
 
    * レコードタイプのカードにカーソルを合わせ、レコードタイプカードの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**設定**&#x200B;をクリックします
 
-     ![ レコードタイプ カードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+     ![&#x200B; レコードタイプ カードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
      または
 
@@ -218,7 +218,7 @@ Old:
 
    設定はデフォルトでオフになっています。
 
-   詳細については、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください
+   詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください
 
 
 ## レコードタイプのレコードデフォルト権限の設定
@@ -227,4 +227,4 @@ Old:
 
 すべての新しいレコードは、デフォルトでレコードタイプ設定領域で設定した権限を受け取ります。
 
-詳しくは、[ レコードに対する既定の権限の設定](/help/quicksilver/planning/access/set-default-record-permissions.md)を参照してください。
+詳しくは、[&#x200B; レコードに対する既定の権限の設定](/help/quicksilver/planning/access/set-default-record-permissions.md)を参照してください。
