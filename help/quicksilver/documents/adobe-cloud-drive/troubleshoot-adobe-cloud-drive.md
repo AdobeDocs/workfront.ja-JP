@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Adobe Cloud Driveのトラブルシューティング
@@ -165,6 +165,41 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * プロジェクトを作成、名前変更または削除するには、Workfront web インターフェイスを使用します。
 * プロジェクトの所有者に、編集アクセス権を持つプロジェクトを共有するように依頼します。
+
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### 「クラウドにアップロード」オプションは使用できません
+
+**考えられる原因：**
+
+* Macでは、Adobe Cloud Drive Finder Helperは有効になっていません。
+
+**解決策：**
+
+* Macで、**System Settings** > **General** > **Login Items &amp; Extensions**&#x200B;に移動し、Adobe Cloud Drive Finder Helperが有効になっていることを確認します。
+
+### デスクトップ、ドキュメント、またはダウンロードからのアップロードが認証エラーで失敗する（Mac）
+
+**考えられる原因：**
+
+* Adobe Cloud Driveには、デスクトップ、ドキュメント、またはダウンロードフォルダーにアクセスする権限がありません。
+* 必要なフォルダーアクセス権限は、macOS設定で無効になっています。
+
+**解決策：**
+
+1. **システム設定** > **プライバシーとセキュリティ** > **ファイルとフォルダー**&#x200B;に移動します。
+1. 関連するフォルダーへのAdobe Cloud Drive アクセス権を付与します。
+1. アップロードを再試行してください。
+
+### 複数のFinder Sync プロセスが表示される（Mac）
+
+**考えられる原因：**
+
+* macOSでは、通常の操作の一環として、Activity Monitorに2～3個のAdobe Cloud Drive Finder Sync プロセスが表示される場合があります。
+
+**解決策：**
+
+* アクションは必要ありません。 Adobe Drive Finder Sync プロセスを2～3回実行すると、動作が期待されます。
 
 ## ヘルプを表示
 

@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 2%
 ---
 # Adobe Cloud Driveの設定と管理
@@ -222,9 +222,13 @@ Adobe Admin Consoleでパッケージを作成するには：
    ![&#x200B; パッケージウィザードでアプリの手順を選択](assets/choose-apps-step-in-wizard.png)
 
 1. 「**次へ**」をクリックします。
-1. **オプション** ステップで、オプションを選択せずに&#x200B;**次へ**&#x200B;をクリックします。
+1. **オプション**&#x200B;の手順で、**エンドユーザーの更新を無効にする**&#x200B;をクリックして、ユーザーがアプリケーション自体を更新できないようにするか、オプションを選択せずに&#x200B;**次へ**&#x200B;をクリックします。
 
-   これらの設定はCreative Cloud デスクトップアプリケーションに適用され、Adobe Cloud Driveには適用されません。
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >エンドユーザー自身がアプリケーションを更新できないようにするには、**オプション**&#x200B;手順で「**エンドユーザーの更新を無効にする**」を選択します。 この手順の他の設定は、Creative Cloud デスクトップアプリケーションに適用され、Adobe Cloud Driveには適用されません。
 
    ![&#x200B; パッケージウィザードのオプション手順](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Adobe Admin Consoleでパッケージを作成するには：
    ![準備中のパッケージ &#x200B;](assets/package-is-preparing.png)
 
 1. 「**ダウンロード**」をクリックし、選択した場所にパッケージファイルを保存します。
+
+   >[!NOTE]
+   >
+   >パッケージのダウンロードリンクとダウンローダーユーティリティは、パッケージの作成後3日で期限切れになります。 ただし、ダウンロードした.pkgまたは.zip ファイルは期限切れにならず、後でインストールに使用できます。
 
 ### 方法B：ソフトウェア配布からのセルフサービスの直接ダウンロード
 

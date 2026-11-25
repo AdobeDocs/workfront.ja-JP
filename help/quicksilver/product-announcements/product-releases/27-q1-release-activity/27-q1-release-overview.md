@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 12%
 ---
 
@@ -191,6 +191,17 @@ ht-degree: 12%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Adobe Cloud Drive v1.2.0の新機能</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0では、直接アップロード、一時停止と再開の同期、バージョン履歴、ローカルストレージ管理、Sync Activity、およびOpen in Workfrontが導入されています。</p>
+            </td>
+            <td><p>2026年11月25日（PT）</p></td>
+            <td><p>2026年11月25日（PT）</p></td>
+            <td><p>2026年11月25日（PT）</p></td>
         </tr>
 <!--
         <tr>
