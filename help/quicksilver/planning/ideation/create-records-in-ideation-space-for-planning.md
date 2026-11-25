@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 4%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -160,7 +160,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -198,7 +198,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >
      >「**表示しない**」を選択すると、今後のプロンプトが完全に閉じられます。 閉じるアイコン **X**&#x200B;をクリックすると、このボックスは閉じますが、次回レコードをインラインに追加すると再度表示されます。
 
-   ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
+   ![ アイデア創出スペースを開くボタンを含む新しいレコードボックス ](assets/new-record-creation-picker-with-ideation.png)
+
+   >[!TIP]
+   >
+   >また、アイデア創出スペースにアクセスして、Workfrontのメインメニューからレコードを作成することもできます。 詳しくは、「[ アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
+
 
 1. ベータ版の契約書を読み、**同意**&#x200B;をクリックします。 アイデア創出スペースを使用するには、契約書に署名する必要があります。
 
@@ -216,15 +221,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. （オプション）キャンバスの左上隅にある&#x200B;**ホーム** アイコン ![ アイデア創出スペース ホーム アイコン ](assets/ideation-space-home-icon.png)をクリックして、**アイデア創出スペース ホーム** エリアを開き、別のキャンバスにアクセスします。
 1. （オプション）アイデア創出スペースキャンバスの右上隅にある&#x200B;**Workfront計画** タグにカーソルを合わせると、レコードタイプの名前、レコードを作成するワークスペース、作成する概要のバージョン番号が表示されます。
 
-   ![Workfront計画ワークスペースとレコードタイプの情報タグ（カンバス内） &#x200B;](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
+   ![Workfront計画ワークスペースとレコードタイプの情報タグ（カンバス内） ](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. **同僚** ダイアログボックスにプロンプトを追加し、Enter キーを押します。
 
    共有する詳細情報が多ければ多いほど、アイデア創出スペースから提供される情報がより有用になります。 例えば、計画しているキャンペーンの説明を「マーケティングエージェンシーの学校戻りキャンペーン」と入力します。
 
-1. 記事[&#x200B; アイデア創出スペースでブリーフを作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)の説明に従って、アイデア創出ブリーフの作成を続行します。
+1. 記事[ アイデア創出スペースでブリーフを作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)の説明に従って、アイデア創出ブリーフの作成を続行します。
 
    <!--
     1. Click **Start ideating**.
@@ -267,7 +273,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >アイデア出しスペースを使用してレコードを一括編集することはできません。
 
-1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
+1. この記事の「[ アイデア創出スペース ](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 

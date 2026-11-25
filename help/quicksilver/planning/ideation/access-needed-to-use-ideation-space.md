@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1017'
 ht-degree: 3%
 ---
 
@@ -73,7 +73,7 @@ Workfrontのアイデア創出スペースでは、WorkfrontのAdobe Enterprise 
 >
 >アイデア創出スペースにアクセスするために個別のログインは必要ありません。 Workfront Planningがある場合にWorkfrontにログインできる場合は、すぐに利用できます。
 >
->アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+>アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 組織が次のアクセス権を持っている場合は、アイデア創出スペースにアクセスできます。
 
@@ -136,7 +136,7 @@ Workfrontのアイデア創出スペースにアクセスするには、次の�
 
 * セットアップ <!--check the UI because Becky was going to change it-->のシステム環境設定エリアで、同僚とMCPの環境設定を有効にします
 
-  詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
   >[!IMPORTANT]
   >
@@ -157,8 +157,11 @@ Workfrontのアイデア創出スペースにアクセスするには、次の�
     >
     > システム管理者は常にアイデア創出スペースにアクセスできます。
     >
-    >詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+    >詳しくは、[ カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
+* Beta契約に同意
+
+  これはベータプログラム中の要件です。 ベータプログラムの条件に同意しない限り、アイデア創出スペースを使用することはできません。 契約書に同意する場合は、組織ではなく、ユーザーに対して行います。 各ユーザーは、契約書に個別に同意する必要があります。
 
 
 ## ライセンス要件
@@ -212,7 +215,7 @@ Workfront Planningのアイデア創出スペースを使用する場合、各�
 | コメンター | アイデア出しスペースの表示とコメントができます |
 | ビューア | アイデア創出スペースを表示できます |
 
-アイデア創出スペースの共有について詳しくは、[&#x200B; アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
+アイデア創出スペースの共有について詳しくは、[ アイデア創出スペースの共有](/help/quicksilver/planning/ideation/share-the-ideation-space.md)を参照してください。
 
 <!--
 there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users

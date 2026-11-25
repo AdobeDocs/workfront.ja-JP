@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
-ht-degree: 80%
-
+source-wordcount: '438'
+ht-degree: 74%
 ---
-
 # コミット日と予定完了日の間のやり取り
 
 <!--
@@ -73,7 +71,8 @@ this article has mostly information that is repeated from the articles linked fr
 >
 >タスクまたはイシューのコミット日を更新できるのは担当者だけです。
 
-コミット日を変更した担当者では、予定完了日が自動的に変更されません。 逆も同様で、予定完了日を変更しても、コミット日は変更されません。
+
+タスクまたはイシュー担当者がコミット日を変更しても、予定完了日は自動的に変更されません。 逆も同様で、予定完了日を変更しても、コミット日は変更されません。 担当者がコミット日を更新すると、予定完了日も変更されます。
 
 コミット日が変更されると、この変更が発生したことをWorkfront アプリ内通知でプロジェクトオーナーに通知します。
 

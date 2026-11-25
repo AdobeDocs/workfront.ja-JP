@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 2%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,7 +167,7 @@ Or
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -177,17 +177,25 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 共同作業者がオンになっているPlanningでWorkfrontにログインし、次のいずれかの操作を行ってアイデア創出スペースを初めて開き、ブリーフを作成します。
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png)に移動し、**アイデア創出スペース**&#x200B;をクリックします
+   * **メインメニュー** ![ メインメニュー](assets/main-menu-lines.png)に移動し、**アイデア創出スペース**&#x200B;をクリックします
 
-     ![&#x200B; メインメニューのアイデア創出スペース &#x200B;](assets/ideation-space-area-icon-in-main-menu.png)
+     **アイデア創出スペースのホーム**&#x200B;領域が開きます。
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **計画** > ワークスペースをクリック > レコードタイプをクリック > **新しいレコード**&#x200B;をクリック > **アイデア創出スペース**&#x200B;をクリック
+     ![ メインメニューのアイデア創出スペース ](assets/ideation-space-area-icon-in-main-menu.png)
 
-     ![新しいレコードのアイデア創出スペース &#x200B;](assets/ideation-space-in-planning-new-record.png)
+   * **メインメニュー** ![ メインメニュー](assets/main-menu-lines.png) > **計画** > ワークスペースをクリック > レコードタイプをクリック > **新しいレコード**&#x200B;をクリック > **アイデア創出スペース**&#x200B;をクリック
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **プランニング**&#x200B;に移動し、ワークスペースをクリックし、レコードタイプをクリックし、既存のレコードをクリックし、**アイデア創出スペースで開く**&#x200B;をクリックします
+     新しいレコードにすぐに接続された新しいキャンバスが開きます。
 
-     レコード詳細![&#128279;](assets/ideation-space-button-in-details-page.png)の アイデア創出スペース
+     ![新しいレコードのアイデア創出スペース ](assets/ideation-space-in-planning-new-record.png)
+
+   * **メインメニュー** ![ メインメニュー](assets/main-menu-lines.png) > **プランニング**&#x200B;に移動し、ワークスペースをクリックし、レコードタイプをクリックし、既存のレコードをクリックし、**アイデア創出スペースで開く**&#x200B;をクリックします
+
+     選択したレコードに接続されているカンバスが開きます。
+
+     レコード詳細](assets/ideation-space-button-in-details-page.png)の![ アイデア創出スペース
+
+     アイデア創出スペースを使用してプランニングレコードを作成する方法の詳細については、[ アイデア創出スペース概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >* Workfrontのメインメニューから起動すると、カンバスにアップロードしたファイルのフィールドと情報が概要に含まれます。
 
 1. ベータ版の契約書を読み、**同意**&#x200B;をクリックします。 アイデア創出スペースを使用するには、契約書に署名する必要があります。
+1. （条件付き）アイデア出しスペースに&#x200B;**メインメニュー**&#x200B;からアクセスし、**アイデア出しスペース ホーム**&#x200B;領域を開いた場合は、次のいずれかの操作を行って、アイデア出しキャンバスを開きます。
 
-   アイデア立案スペース キャンバスが開き、新しいアイデアがデフォルトで次の形式の後にタイトル付けされます。
+   * ページ上部の最近開いたキャンバスをクリックして開きます
+   * 「**新しいキャンバスを起動**」をクリックして新しいキャンバスを開き、アイデアの概要の作成を開始します
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     アイデア創出スペースのキャンバスが開き、新しいアイデアが次の形式の後に自動的にタイトル付けされます。
 
-   アイデア創出スペースを使用してレコードを作成する方法の詳細については、[&#x200B; アイデア創出スペースの概要から計画レコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
+     `Untitled ideation - Month date, year at time`
 
-1. （条件付き）アイデア創出スペースで既存の概要を開くには、共同作業者がオンになっているPlanningでWorkfrontにログインし、次のいずれかの操作を行います。
+     ![最小限のブリーフと同僚を含む空のアイデア創出キャンバス ](assets/empty-ideation-space-with-brief-minimized.png)
+   * **すべてのキャンバス** リストの右上隅にある既存のキャンバスを検索し、リストに表示されたらクリックします
 
-   * **メインメニュー** ![&#x200B; メインメニュー](assets/main-menu-lines.png) > **計画**&#x200B;に移動> ワークスペースをクリック > レコードタイプをクリック >既存のレコードをクリック > **アイデア創出スペースで開く**
+     ![ アイデア創出スペースのホームエリア ](assets/ideation-space-home-area.png)
 
-     アイデアの名前は、レコードの名前と一致します。
+     >[!TIP]
+     >
+     >アイデア創出スペースの「ホーム」エリア内のすべてのキャンバスがプランニングレコードに接続されているわけではありません。
+
+1. （オプション） **すべてのキャンバス**&#x200B;領域で、次のいずれかの操作を行います。
+
+   * **更新** ![更新アイコン ](assets/refresh-icon.png)をクリックして、使用可能なすべてのキャンバスのリストを更新します。
+   * **カードアイコン** ![ カードアイコン ](assets/card-icon.png)をクリックすると、利用可能なキャンバスがカードとして表示されます。
+   * **リストアイコン** ![ リストアイコン ](assets/list-icon.png)をクリックすると、使用可能なキャンバスがリストビューに表示されます。
+1. （オプション）開いたキャンバスから、画面の左上エリアにある&#x200B;**ホーム** アイコン ![ アイデア創出スペース ホーム アイコン ](assets/ideation-space-home-icon.png)をクリックして、**アイデア創出スペース ホーム**&#x200B;領域に戻ります。
+
+   >[!TIP]
+   >
+   >アイデア創出スペースのホームアイコン ![ アイデア創出スペースのホームアイコン ](assets/ideation-space-home-icon.png)は、Workfront Planningから開いたときでも、どのキャンバスでも利用できます。
 
 1. （推奨）初めて開いた場合は、アイデアの名前をクリックして名前を変更します。
 
-1. （条件付き、オプション）別の既存のアイデア スペースを開くには、アイデア名の右側にあるドロップダウンメニューをクリックし、名前で検索して、リストにアイデアが表示されたらアイデアをクリックします。
+1. （条件付きとオプション）別の既存のキャンバスを開くには、アイデア名の右側にあるドロップダウンメニューをクリックし、名前で検索して、リストにアイデアが表示されたらアイデアをクリックします。
 
-   **アイデア創出スペース**&#x200B;が開き、右側に共同作業者が開きます。
 1. 共同作業者プロンプトを使用して、作成する概要の種類を説明します。
 
    例えば、「米国の保護者と教師のために、8月の月を通して実行する小中高校向けの新学期キャンペーンを作成する」と入力します。  ブリーフを完成させるには、どのようなキャンペーン、タイムライン、関係者、承認のチェックポイントなど、利用可能な情報をできるだけ多く示してください。
@@ -243,18 +266,18 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >概要にファイルを直接追加することはできません。 最初に、ファイル情報をカードに転送して、ブリーフに送信する必要があります。
 
-1. （オプション）同僚パネルの右上隅にある&#x200B;**チャット** アイコン ![&#x200B; チャットアイコン &#x200B;](assets/chats-icon-coworker.png)をクリックし、**新しいチャット**&#x200B;をクリックして新しいプロンプトを開くか、リスト内の以前のチャットのいずれかをクリックして古いチャットに戻ります。
+1. （オプション）同僚パネルの右上隅にある&#x200B;**チャット** アイコン ![ チャットアイコン ](assets/chats-icon-coworker.png)をクリックし、**新しいチャット**&#x200B;をクリックして新しいプロンプトを開くか、リスト内の以前のチャットのいずれかをクリックして古いチャットに戻ります。
 
-   チャットについて詳しくは、Adobe CX Enterprise Coworker ドキュメントの[&#x200B; チャットの管理](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)を参照してください。
+   チャットについて詳しくは、Adobe CX Enterprise Coworker ドキュメントの[ チャットの管理](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)を参照してください。
 
-1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、アイデア創出キャンバス内のアイテムを検索し、リストに表示されたらクリックしてリストに移動します。
+1. **検索** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、アイデア創出キャンバス内のアイテムを検索し、リストに表示されたらクリックしてリストに移動します。
 
 1. （オプション）各カードの下部にある「**ソース**」をクリックして、情報の収集元を確認します。
 
    Workfront PlanningまたはWebから情報をインポートできます。
 
-   スペースの右上隅にある&#x200B;**ソース** アイコン ![&#x200B; ソースアイコン &#x200B;](assets/sources-icon.png)をクリックして、スペース内のすべてのカードのソースのリストを表示することもできます。
-1. （オプション）キャンバスの右上隅にある&#x200B;**コメント** ![&#x200B; コメントアイコン &#x200B;](assets/comments-icon.png)をクリックし、他のユーザーに&#x200B;**@** タグを付けて、スペース内でブレインストーミングを開始します。
+   スペースの右上隅にある&#x200B;**ソース** アイコン ![ ソースアイコン ](assets/sources-icon.png)をクリックして、スペース内のすべてのカードのソースのリストを表示することもできます。
+1. （オプション）キャンバスの右上隅にある&#x200B;**コメント** ![ コメントアイコン ](assets/comments-icon.png)をクリックし、他のユーザーに&#x200B;**@** タグを付けて、スペース内でブレインストーミングを開始します。
 
    ユーザーには、タグに関する通知メールが送信されます。
 
@@ -262,14 +285,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >カードまたは一連のカードにコメントを追加できます。
 
-1. （オプション）コメントカード内の&#x200B;**フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-comments-icon.png)をクリックして、次の条件でコメントをフィルタリングします。
+1. （オプション）コメントカード内の&#x200B;**フィルター** アイコン ![ フィルターアイコン ](assets/filter-comments-icon.png)をクリックして、次の条件でコメントをフィルタリングします。
 
 
    * レビュー担当者
    * コメントが追加された時間
    * ステータス（コメントが解決された箇所、または未解決の箇所）
    * 未読（未読コメントのみを表示）
-1. （オプション）カードの&#x200B;**親指の上下**&#x200B;または&#x200B;**親指の下下** アイコンを使用して、カードの情報の正確性に関するフィードバックを提供します![親指の上下アイコン &#x200B;](assets/thumbs-up-and-down-icons.png)。
+1. （オプション）カードの&#x200B;**親指の上下**&#x200B;または&#x200B;**親指の下下** アイコンを使用して、カードの情報の正確性に関するフィードバックを提供します![親指の上下アイコン ](assets/thumbs-up-and-down-icons.png)。
 1. カードをクリックするか、すべてのカードを含むフレームをクリックし、**概要に追加**&#x200B;をクリックして、情報を概要に追加します。
 
    Workfrontは、各情報と、データを保存する可能性が最も高いフィールドを一致させます。
@@ -277,12 +300,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    例えば、タイムラインは日付型フィールドに追加され、説明は段落型フィールドに追加されます。
 
 1. （条件付き）カードをクリックし、「**AIに質問…**」をクリックして、情報を概要に追加する前に、次のステップのアイデアを得ます。 答えは、各カードの情報のコンテキストにあります。
-1. アイデア出しキャンバスの左上隅にある「**ドキュメントを追加**」アイコン「![&#x200B; ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、スペースにドキュメントをアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
+1. アイデア出しキャンバスの左上隅にある「**ドキュメントを追加**」アイコン「![ ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、スペースにドキュメントをアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
 
    >[!TIP]
    >
    >ドキュメントにアクセスしてスペースにアップロードするには、「ドキュメント」設定をオンにする必要があります。
-   >詳しくは、この記事の「[&#x200B; アイデア創出スペース キャンバスの設定](#configure-the-ideation-space-canvas)」の節を参照してください。
+   >詳しくは、この記事の「[ アイデア創出スペース キャンバスの設定](#configure-the-ideation-space-canvas)」の節を参照してください。
    > 
 1. **Workfront接続計画レコードを追加** アイコン ![Workfront接続計画レコードを追加](assets/add-from-wf-planning-on-ideations-space.png)をクリックして、接続されたレコードタイプを選択し、各タイプからレコードを選択して、選択したレコードタイプにそのレコードの情報を追加します。
 
@@ -309,7 +332,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）任意のアイデア カード セットから紫色のコネクタのいずれかをクリックし、**完全なプロンプトをコピー** アイコンをクリックして、カードを生成したプロンプトをクリップボードにコピーし、Coworker プロンプト ボックスに貼り付けます。
 
-   ![&#x200B; プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
+   ![ プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
 
 1. （オプション）キャンバスの上部にある「**取り消し**」または「**やり直し**」アイコン「![取り消しとやり直し](assets/undo-redo-icons.png)」をクリックして、アクションをキャンセルまたは取り消します。
 1. 元のキャンペーン目標、AIが生成した引用を含むあらゆるコンセプトカード、追加のドキュメント、取り込んだ実際のWorkfrontプランニングレコード（商品、ペルソナなど）の全体像を確認できます。 左下隅の&#x200B;**概要**&#x200B;概要カードを使用すると、すべての概要をまとめて表示できます。
@@ -329,10 +352,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    これにより、レコードまたは追加情報を含むファイルの作成が完了します。 既存のレコードから開始した場合、概要の情報がレコードに追加されます。 新しいレコードで開始した場合は、ブリーフの情報を使用してレコードが作成されます。
 
-   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[&#x200B; アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
+   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[ アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
 1. （オプション）「**共有**」をクリックして、アイデア出しキャンバスを他のユーザーと共有します。
 
-   詳しくは、「[&#x200B; アイデア創出スペースを他のユーザーと共有する](/help/quicksilver/planning/ideation/share-the-ideation-space.md)」を参照してください。
+   詳しくは、「[ アイデア創出スペースを他のユーザーと共有する](/help/quicksilver/planning/ideation/share-the-ideation-space.md)」を参照してください。
 
 ## アイデア立案スペースキャンバスの設定
 
@@ -347,7 +370,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     -->
 1. 「**保存**」をクリックします。
 
-1. **ヘルプ** アイコン ![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)の左側にある&#x200B;**ズームレベル** ドロップダウンメニューをクリックして、オプションを選択します。
+1. **ヘルプ** アイコン ![ ヘルプアイコン ](assets/more-information-icon.png)の左側にある&#x200B;**ズームレベル** ドロップダウンメニューをクリックして、オプションを選択します。
 
    次のオプションから選択します。
 
@@ -358,7 +381,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **ドットグリッドを表示**：選択範囲をオンにしてドットグリッドを表示します。
    * **製品ツアー**：アイデア創出スペースの使用中にガイドのヒントをオプトアウトするには、選択範囲をオフにします。
 
-1. **ヘルプ** アイコン ![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)をクリックして、キャンバスのナビゲーションまたは別のズーム値の選択に使用できるキーボードショートカットを確認します。
+1. **ヘルプ** アイコン ![ ヘルプアイコン ](assets/more-information-icon.png)をクリックして、キャンバスのナビゲーションまたは別のズーム値の選択に使用できるキーボードショートカットを確認します。
 
 | アクション | ショートカット |
 | --- | --- |
