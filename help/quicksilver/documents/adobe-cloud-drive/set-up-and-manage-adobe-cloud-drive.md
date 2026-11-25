@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 2%
@@ -439,3 +439,4 @@ Adobe Cloud Driveは、Adobe IMS（Identity Management System）を介してユ�
 
 1. Workfrontで、プロジェクトに対するユーザーの権限を確認します（**ビュー**、**投稿**、または&#x200B;**管理**）。
 1. ユーザーがファイルを作成または編集する必要がある場合は、ユーザーの権限を&#x200B;**Contribute**&#x200B;または&#x200B;**Manage**&#x200B;に更新します。
+
