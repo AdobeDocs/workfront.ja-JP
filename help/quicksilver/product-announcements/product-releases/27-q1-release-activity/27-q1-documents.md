@@ -35,7 +35,7 @@ Adobe Cloud Drive v1.2.0では、ファイルのアップロード、同期の�
 * **同期アクティビティ：**&#x200B;最近のアップロード、ダウンロード、変更を確認し、同期できなかったアイテムを特定します。
 * **Workfrontで開く：** Finder、ファイルエクスプローラー、またはSync ActivityからアイテムのWorkfrontの場所を直接開きます。
 
-詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)および[Adobe Cloud Driveのトラブルシューティング ](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)を参照してください。
+詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)および[Adobe Cloud Driveのトラブルシューティング &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)を参照してください。
 
 <!--
 
