@@ -6,9 +6,9 @@ description: Adobe Workfront管理者は、ユーザーがタスクやイシュ�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '377'
 ht-degree: 8%
 ---
 # 事前定義済みのAI共同作業者の設定
@@ -71,6 +71,10 @@ Adobe Agent Orchestratorを活用したCX Enterprise Coworkerエージェント�
 ### 受注コーディネーター {#intake-coordinator}
 
 受注コーディネーターは、欠落、不明確、または一貫性のない情報について、リクエストの詳細、カスタムフォーム、添付ファイルをチェックします。 フィードバックを投稿したり、ユーザーの承認にもとづいて変更を加えたりします。
+
+>[!NOTE]
+>
+>ルールの作成時に受注コーディネータをルーティング・ルールに割り当てることはできますが、後で割り当てることはできません。
 
 <!--
 ### Context Carrier {#context-carrier}
