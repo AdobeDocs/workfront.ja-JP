@@ -4,10 +4,10 @@ description: 2027年第1四半期ドキュメントの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 86dd87865046a4f2dc75e13feb370e338bbf4c92
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 11%
+source-wordcount: '409'
+ht-degree: 5%
 ---
 
 # 2027年第1四半期ドキュメントの機能強化
@@ -15,6 +15,27 @@ ht-degree: 11%
 このページでは、2027年第1四半期リリースのプレビュー環境に対するドキュメントの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2027年第1四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2027年第1四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)を参照してください。
+
+## Adobe Cloud Drive v1.2.0の新機能
+
+>[!NOTE]
+>
+>プレビュー：2026年11月25日（PT）
+>プロダクション高速リリース：2026年11月25日（PT）
+>すべての人のための制作：2026年11月25日
+>[!BADGE 同時リリース]{type=Neutral}
+>[!BADGE Workflow Ultimate]{type=Informative}
+
+Adobe Cloud Drive v1.2.0では、ファイルのアップロード、同期の管理、クラウドコンテンツの操作を行う新しい方法が導入されています。
+
+* **クラウドへのアップロード（ダイレクト アップロード）:** FinderまたはFile Explorerでファイルを右クリックすると、最初にAdobe Cloud Drive フォルダーにコピーすることなく、Adobe クラウドストレージのプロジェクトに直接アップロードできます。 同期アクティビティの「直接アップロード」セクションで進行状況を監視します。
+* **同期を一時停止して再開：**&#x200B;遅い接続またはメーター制限付き接続でAdobe Cloud Driveを一時停止してから、準備ができたら再開します。
+* **バージョン履歴：** ファイルの保存されたクラウドバージョンを参照し、バージョン名と説明を編集して、以前のバージョンに戻します。
+* **ローカルストレージの管理：** ローカルディスクの使用状況を監視し、ストレージ制限を設定し、「このデバイスで常に」とマークされたファイルを表示します。
+* **同期アクティビティ：**&#x200B;最近のアップロード、ダウンロード、変更を確認し、同期できなかったアイテムを特定します。
+* **Workfrontで開く：** Finder、ファイルエクスプローラー、またはSync ActivityからアイテムのWorkfrontの場所を直接開きます。
+
+詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)および[Adobe Cloud Driveのトラブルシューティング ](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)を参照してください。
 
 <!--
 

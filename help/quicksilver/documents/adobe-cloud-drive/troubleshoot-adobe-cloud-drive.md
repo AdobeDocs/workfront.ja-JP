@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Adobe Cloud Driveのトラブルシューティング
@@ -50,7 +50,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * Adobe Cloud Driveに保存されたファイルは、デバイスのディスク容量をローカルで使用します。
 * クラウドのみのファイルでは、ローカルストレージは使用されません。
-* 不要になったファイルのオフラインアクセスを削除します。 詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の「[&#x200B; オフラインアクセスを削除して空き容量を増やす](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space)」を参照してください。
+* 不要になったファイルのオフラインアクセスを削除します。 詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の「[ オフラインアクセスを削除して空き容量を増やす](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space)」を参照してください。
 
 ## パフォーマンスに関する検討事項
 
@@ -73,7 +73,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 * Adobe Cloud Driveがインストールされていることを確認します。 **アプリケーション** （Mac）または&#x200B;**プログラム** （Windows）を確認します。
 * Adobe Cloud Driveを手動で起動します。
 * お客様の組織がWorkfront クラウドストレージをサポートするWorkfrontのバージョンを使用していることを確認するには、Adobe管理者にお問い合わせください。
-* 必要に応じて、Adobe Cloud Driveを再インストールします。 詳しくは、[Adobe Cloud Driveのインストール &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)を参照してください。
+* 必要に応じて、Adobe Cloud Driveを再インストールします。 詳しくは、[Adobe Cloud Driveのインストール ](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)を参照してください。
 
 ### Adobe Cloud Drive アイコンがメニューバーまたはタスクバーに表示されない
 
@@ -112,7 +112,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * インターネット接続を確認します。
 * 十分なディスク容量があることを確認します。
-* 同期エラーについては、ファイルのステータスインジケーターを確認してください。 詳しくは、[Adobe Cloud Driveを使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の[&#x200B; ファイル ステータス インジケーター](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#file-status-indicators)を参照してください。
+* 同期エラーについては、ファイルのステータスインジケーターを確認してください。 詳しくは、[Adobe Cloud Driveを使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の[ ファイル ステータス インジケーター](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#file-status-indicators)を参照してください。
 * Adobe Cloud Driveを再起動します。
 * システムトレイ（Windows）またはメニューバー（Mac）でAdobe Cloud Driveのステータスを確認します。
 
@@ -166,11 +166,46 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 * プロジェクトを作成、名前変更または削除するには、Workfront web インターフェイスを使用します。
 * プロジェクトの所有者に、編集アクセス権を持つプロジェクトを共有するように依頼します。
 
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### 「クラウドにアップロード」オプションは使用できません
+
+**考えられる原因：**
+
+* Macでは、Adobe Cloud Drive Finder Helperは有効になっていません。
+
+**解決策：**
+
+* Macで、**System Settings** > **General** > **Login Items &amp; Extensions**&#x200B;に移動し、Adobe Cloud Drive Finder Helperが有効になっていることを確認します。
+
+### デスクトップ、ドキュメント、またはダウンロードからのアップロードが認証エラーで失敗する（Mac）
+
+**考えられる原因：**
+
+* Adobe Cloud Driveには、デスクトップ、ドキュメント、またはダウンロードフォルダーにアクセスする権限がありません。
+* 必要なフォルダーアクセス権限は、macOS設定で無効になっています。
+
+**解決策：**
+
+1. **システム設定** > **プライバシーとセキュリティ** > **ファイルとフォルダー**&#x200B;に移動します。
+1. 関連するフォルダーへのAdobe Cloud Drive アクセス権を付与します。
+1. アップロードを再試行してください。
+
+### 複数のFinder Sync プロセスが表示される（Mac）
+
+**考えられる原因：**
+
+* macOSでは、通常の操作の一環として、Activity Monitorに2～3個のAdobe Cloud Drive Finder Sync プロセスが表示される場合があります。
+
+**解決策：**
+
+* アクションは必要ありません。 Adobe Drive Finder Sync プロセスを2～3回実行すると、動作が期待されます。
+
 ## ヘルプを表示
 
 ライセンスに関するご質問、プロジェクトへのアクセスに関する問題、組織固有の設定については、Workfront管理者にお問い合わせください。
 
-Adobe サポートとログを共有するには、[Adobe ログコレクターツールの実行](https://helpx.adobe.com/jp/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)の手順に従います。
+Adobe サポートとログを共有するには、[Adobe ログコレクターツールの実行](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)の手順に従います。
 
 ## ベストプラクティス
 
