@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3412'
 ht-degree: 2%
 ---
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
@@ -418,7 +418,7 @@ Planningで接続を追加するときに、フィルター条件を満たす特
 
 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
-## 週表示での大規模なレコードセットのカレンダーパフォーマンスの向上
+## カレンダービューでの増分データの読み込みによるパフォーマンスの向上
 
 >[!NOTE]
 >

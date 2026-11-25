@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 11%
+source-wordcount: '499'
+ht-degree: 10%
 ---
 # レコードタイプの設定エリアの設定
 
@@ -219,3 +219,12 @@ Old:
    設定はデフォルトでオフになっています。
 
    詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください
+
+
+## レコードタイプのレコードデフォルト権限の設定
+
+レコードタイプレベルでデフォルトを設定することで、レコードタイプのすべてのレコードに対してレコード権限を設定できます。
+
+すべての新しいレコードは、デフォルトでレコードタイプ設定領域で設定した権限を受け取ります。
+
+詳しくは、[&#x200B; レコードに対する既定の権限の設定](/help/quicksilver/planning/access/set-default-record-permissions.md)を参照してください。

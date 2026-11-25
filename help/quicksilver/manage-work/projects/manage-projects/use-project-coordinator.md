@@ -4,15 +4,13 @@ content-type: reference
 description: すぐに利用できるAI コラボレーターであるプロジェクトコーディネーターを活用して、プロジェクトのステータスを監視し、期限切れのタスクをフォローアップする方法を説明します。
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 8%
 
 ---
 # プロジェクトコーディネーター共同作業者の使用
-
-{{highlighted-preview-article-level}}
 
 プロジェクトコーディネーターは、プロジェクトを監視し、重要なステータス情報を関係者に通知する、すぐに利用できるAI コラボレーターです。
 

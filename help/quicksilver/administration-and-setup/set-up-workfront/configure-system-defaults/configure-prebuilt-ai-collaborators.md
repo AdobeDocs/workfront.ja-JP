@@ -6,16 +6,12 @@ description: Adobe Workfront管理者は、ユーザーがタスクやイシュ�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 13%
+source-wordcount: '357'
+ht-degree: 8%
 ---
 # 事前定義済みのAI共同作業者の設定
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 ## 概要
 

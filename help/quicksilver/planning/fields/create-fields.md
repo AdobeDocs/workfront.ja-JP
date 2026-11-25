@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f1a19ac5c3f8ca548a1bf203c34118c0bfb30550
 workflow-type: tm+mt
 source-wordcount: '5676'
 ht-degree: 37%
@@ -332,6 +332,10 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**: レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブル内のフィールドの列ヘッダーにカーソルを合わせたときや、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたときに表示されます。
+
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique text identifier like Serial code, the code must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
 1. 「**作成**」をクリックします。
 
    新しい1行のフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
@@ -514,6 +518,9 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
 
    * **名前**: テーブルまたはレコードページに表示されるフィールドの名前。
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブル内のフィールドの列にカーソルを合わせたときや、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたときに表示されます。
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique number identifier like Serial number, the number must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
    * **Precision**: フィールドに記録する小数点以下桁の数。 小数点以下桁を6つまで表示できます。
    * **負の数を許可**：このフィールドで負の数値を許可する場合は、このオプションを選択します。 このオプションは、デフォルトで無効になっています。
 

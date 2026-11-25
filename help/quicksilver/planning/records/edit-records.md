@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 25%
@@ -185,6 +185,13 @@ Old:
   * [レコードタイプのカレンダービューでレコードを編集する](#edit-a-record-in-the-calendar-view-of-a-record-type)
   * [レコードタイプのタイムラインビューでのレコードの編集](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
+<!--
+<div class="preview">
+
+* Single-line text and number fields can be set to have unique values. Any duplicate values are highlighted with a warning. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+</div>
+-->
 
 ## レコードの編集
 

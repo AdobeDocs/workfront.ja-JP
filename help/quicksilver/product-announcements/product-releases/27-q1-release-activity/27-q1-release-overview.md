@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 12%
 ---
 
@@ -142,11 +142,12 @@ ht-degree: 12%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">受注コーディネーターの事前定義済みAI Collaboratorの設定</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>管理者は、AI共同作業者として事前に構築された受注コーディネーターを作業エージェントとして設定し、問題が見つからない、不明確な、または一貫性のない情報をチェックできるようになりました。</p>
             </td>
-            <td><p>2026年11月22日（PT）</p></td>
-            <td><p>2026年12月17日（PT）</p></td>
-            <td><p>2027年1月21日</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ ht-degree: 12%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Work Agents:Adobe ネイティブサポート</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>外部プラットフォームを設定したり、外部資格情報を入力したりすることなく、CX Enterprise Coworker Agent Orchestratorを搭載したCX Enterprise Coworker エージェントであるAdobe Collaboratorを使用する作業エージェントを作成できるようになりました。</p>
             </td>
-            <td><p>2026年10月29日（PT）</p></td>
             <td><p>2026年11月12日（PT）</p></td>
-            <td><p>2027年1月21日</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
+            <td><p>2026年11月12日（PT）</p></td>
         </tr>
         <tr>
             <td>

@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 作業担当者は、Workfrontのタスク、イシュー、リクエストに直接割り当てることができるAI共同作業者です。 他のAI共同作業者と同様に、作業担当者は設定領域で設定され、ユーザーと同様に作業項目に割り当てられます。
 
-<span class="preview">CX Enterprise Coworkerの共同作業者などの既製のAdobe Native Work Agent、または受注コーディネーターなどの事前構築済みのAI Collaboratorを使用できます（詳細については、[事前構築済みのAI Collaborator](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)の設定を参照）、</span>または外部プラットフォームに接続されたWork Agentを使用できます。 使用可能な機能と設定の要件は、エージェントのオリジンによって異なります。
+Adobeの共同作業者など、すぐに使用できるCX Enterprise Coworker Native Work Agent、またはIntake Coordinatorなどの事前構築済みのAI Collaborator （詳細については、[事前構築済みのAI Collaboratorの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)を参照）、または外部プラットフォームに接続されたWork Agentを使用できます。 使用可能な機能と設定の要件は、エージェントのオリジンによって異なります。
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -69,7 +69,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 ## 前提条件
 
 * 管理者は、Workfrontで作業エージェントを設定してから、それを使用できるようにする必要があります。
-* <span class="preview">Adobe Native Work Agentの場合、Adobe CX Coworkerが有効になっている必要があります。</span>
+* Adobe Native Work Agentの場合、Adobe CX Coworkerが有効になっている必要があります。
 * 外部プラットフォームに接続された作業エージェントの場合は、そのプラットフォームでエージェントも設定する必要があります。
 
 ## 作業エージェントの概要
@@ -128,7 +128,7 @@ Workfrontでの作業エージェントの作成について詳しくは、「[�
 * 作業エージェントとユーザーが既に割り当てられているタスクは開始準備が整い、作業エージェントが最初に割り当てられたか、または主な担当者です。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * ユーザーと作業エージェントがタスクに割り当てられ、ユーザーが削除されます。
 * ユーザーと作業エージェントがタスクに割り当てられ、作業エージェントがタスクのプライマリ担当者として設定されます。
-* <span class="preview">Workfront ネイティブのWork Agentがタスクに@mentionedり込まれています。
+* Workfront ネイティブのWork Agentがタスクに@mentionedり込まれます。
 
 次の状況では、作業エージェントはタスクの作業を開始しません。
 

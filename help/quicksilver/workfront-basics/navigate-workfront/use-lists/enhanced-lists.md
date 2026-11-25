@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 2%
 ---
 # 拡張リストの使用
@@ -98,8 +98,15 @@ ht-degree: 2%
 | ドキュメントのすべてのバージョン表示 | プロジェクト/ドキュメント/ドキュメント詳細/すべてのバージョン |
 | ボード管理者ビュー | ボード/管理者ビュー |
 | Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
-| シナリオプランとイニシアチブのリスト | メインメニュー/シナリオ |
+| シナリオプラン <!--and initiatives-->のリスト | メインメニュー/シナリオ |
 | 目標と進捗状況インジケーターのリスト | <ul><li>メインメニュー/目標</li><li>メインメニュー/目標/進行状況インジケーター</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ Last, under Scenario Planner
 
 編集する権限がないビューが共有されている場合は、ビューをコピーして新しい名前で保存できます。 ビューをコピーする前に、まずビューを変更する必要があります。
 
-1. 表示ドロップダウンで、の設定を変更し、コピーする&#x200B;**共有ビュー**&#x200B;のビューにカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**環境設定を使用してコピー**&#x200B;をクリックします。
+1. 表示ドロップダウンで、設定を変更し、コピーする&#x200B;**共有ビュー**&#x200B;のビューにカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**環境設定を使用してコピー** <!--<span class="preview">or **Copy with my changes**</span>-->をクリックします。
 
    新しいビューが自動的に作成されます。 コピーされたビューの名前は次のパターンに従います。`Original view name (copy)` ビューの&#x200B;**マイビュー** セクションに表示されます。
 
@@ -380,7 +387,7 @@ Last, under Scenario Planner
 
    >[!NOTE]
    >
-   >**環境設定を使用してコピー** オプションは、共有されたビューに変更を加えた場合にのみ使用できます。
+   >**環境設定を使用したコピー** <!--<span class="preview">or **Copy with my changes**</span>--> オプションは、共有されたビューに変更を加えた場合にのみ使用できます。
 
 ### ビューのリセット
 
@@ -458,6 +465,26 @@ Last, under Scenario Planner
 1. フィルターボックスで、**条件を追加**&#x200B;をクリックします。
 1. フィルタリングするフィールドを選択します。
 1. フィルター修飾子を選択します。例えば、「次のいずれかである」、「次のいずれでもない」、「次の前である」、「次の後である」などです。 修飾子オプションは、フィルタリングするフィールドのタイプによって異なります。
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. フィールドの値を選択します。 フィルタリングするフィールドタイプに応じて、リストから項目を選択するか、検索するか、カレンダーを使用して日付範囲を選択するように求められることがあります。
 
    ![拡張リストのフィルター](assets/glist-filter-with-options.png)
