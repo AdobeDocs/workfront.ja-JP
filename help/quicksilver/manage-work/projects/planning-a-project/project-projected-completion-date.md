@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 69%
-
+source-wordcount: '885'
+ht-degree: 65%
 ---
-
 # プロジェクト、タスクおよびイシューに関する見込み完了日の概要
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ ht-degree: 69%
 
 * **タスク：**&#x200B;タスクの見込み完了日は、次の基準に基づいて決定されます。
 
-   * タスク担当者がタスクに対して行った&#x200B;**進捗状況の更新：**&#x200B;進捗状況の更新には、完了率の変更とタスクのステータスの変更が含まれます。
-   * **コミット日：**&#x200B;タスクの担当者がコミット日を指定した場合、「見込み完了日」は「コミット日」に合わせて変更されます。
+  * タスク担当者がタスクに対して行った&#x200B;**進捗状況の更新：**&#x200B;進捗状況の更新には、完了率の変更とタスクのステータスの変更が含まれます。
+  * **コミット日：**&#x200B;タスクの担当者がコミット日を指定した場合、「見込み完了日」は「コミット日」に合わせて変更されます。 これにより、イシューの予定完了日が変更されることはありません。
 
-     コミット日について詳しくは、記事[&#x200B; コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
+    コミット日について詳しくは、記事[&#x200B; コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
-   * **先行タスク：**&#x200B;先行タスクに遅延がない場合、予定完了日は予定完了日と一致する必要があります。 遅延が発生した場合、依存タスクには、「予定完了日」よりも大きい日付の「見込み完了日」が表示されます。
+  * **先行タスク：**&#x200B;先行タスクに遅延がない場合、予定完了日は予定完了日と一致する必要があります。 遅延が発生した場合、依存タスクには、「予定完了日」よりも大きい日付の「見込み完了日」が表示されます。
 
-     タスクの予定完了日について詳しくは、[タスクの予定完了日の概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md)を参照してください。
+    タスクの予定完了日について詳しくは、[タスクの予定完了日の概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md)を参照してください。
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ ht-degree: 69%
 
 * **イシュー：**&#x200B;イシューの見込み完了日は、最初はイシューの予定完了日に合わせて設定されます。
 
-  イシューの担当者がコミット日を指定すると、見込み完了日と予定完了日の両方がコミット日に合わせて変更されます。
+  イシュー担当者がコミット日を指定すると、予定完了日がコミット日に一致するように変更されます。 これにより、イシューの予定完了日が変更されることはありません。
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   コミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 

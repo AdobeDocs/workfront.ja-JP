@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '328'
 ht-degree: 3%
 ---
 
@@ -62,6 +62,7 @@ Adobe Workfront Planningでは、キャンペーンを開始する前にアイ�
 次の記事には、アイデア出しスペースに関する情報が含まれており、その機能のガイドを提供します。
 
 * ここでは、Workfrontのアイデア創出スペースの一般的な理解を得るために次の手順を実行します。[Adobe Workfront計画のアイデア創出スペースの基本を学ぶ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* アイデア創出スペースの現在の機能リリース：[Adobe Workfront計画リリースアクティビティのアイデア創出スペース &#x200B;](/help/quicksilver/planning/ideation/ideation-space-release-notes.md)
 * システム管理者は、組織でアイデア創出スペースを利用できるようにする方法を理解していることを確認します。[&#x200B; アイデア創出スペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * 最初のキャンペーン戦略を作成する準備ができたら、アイデア出しスペースを使用してブリーフを作成する方法を確認します。[&#x200B; アイデア出しスペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * Workfront計画から作業している場合は、アイデア創出スペースを使用してレコードを作成する方法を確認します。[&#x200B; アイデア創出スペース概要から計画レコードを作成または編集](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)

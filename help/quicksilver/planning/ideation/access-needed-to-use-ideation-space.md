@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1017'
 ht-degree: 3%
 ---
 
@@ -159,6 +159,9 @@ Workfrontのアイデア創出スペースにアクセスするには、次の�
     >
     >詳しくは、[&#x200B; カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
+* Beta契約に同意
+
+  これはベータプログラム中の要件です。 ベータプログラムの条件に同意しない限り、アイデア創出スペースを使用することはできません。 契約書に同意する場合は、組織ではなく、ユーザーに対して行います。 各ユーザーは、契約書に個別に同意する必要があります。
 
 
 ## ライセンス要件

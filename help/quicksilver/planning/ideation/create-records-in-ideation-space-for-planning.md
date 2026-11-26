@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 4%
 ---
 
@@ -200,6 +200,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >また、アイデア創出スペースにアクセスして、Workfrontのメインメニューからレコードを作成することもできます。 詳しくは、「[&#x200B; アイデア創出スペースで概要を作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)」を参照してください。
+
+
 1. ベータ版の契約書を読み、**同意**&#x200B;をクリックします。 アイデア創出スペースを使用するには、契約書に署名する必要があります。
 
    次のことが発生します。
@@ -216,6 +221,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. （オプション）キャンバスの左上隅にある&#x200B;**ホーム** アイコン ![&#x200B; アイデア創出スペース ホーム アイコン &#x200B;](assets/ideation-space-home-icon.png)をクリックして、**アイデア創出スペース ホーム** エリアを開き、別のキャンバスにアクセスします。
 1. （オプション）アイデア創出スペースキャンバスの右上隅にある&#x200B;**Workfront計画** タグにカーソルを合わせると、レコードタイプの名前、レコードを作成するワークスペース、作成する概要のバージョン番号が表示されます。
 
    ![Workfront計画ワークスペースとレコードタイプの情報タグ（カンバス内） &#x200B;](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)

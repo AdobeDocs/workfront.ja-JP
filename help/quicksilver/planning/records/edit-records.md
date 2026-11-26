@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 25%
@@ -261,7 +261,13 @@ Old:
    * 箇条書きリストを追加
    * 番号付きリストを追加
 
+   <!--update screen shot at release of new rich test box and move it below the next step-->
+
    ![段落フィールドのリッチテキストツールバー](assets/rich-text-toolbar-on-paragraph-field.png)
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. （オプション）接続されたレコードフィールドをダブルクリックして、接続済みレコードやオブジェクトを別のレコードに追加します。 詳しくは、[レコーのを接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 1. キーボードの **Enter** キーを押すか、行の外側をクリックして変更を保存します。 変更点は自動的に保存されます。 テーブルビューの右上隅に&#x200B;**保存済み**&#x200B;インジケータが短時間表示され、変更が保存されたことを示します。

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '14768'
+source-wordcount: '14776'
 ht-degree: 90%
 ---
 # Workfront ガイド {#using}
@@ -1868,7 +1868,7 @@ ht-degree: 90%
     * [Snowflake のリーダーアカウントまたは接続の作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Workfront Data Connect への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect のデータ辞書](reports-and-dashboards/data-lake/data-dictionary.md)
-    * {hide-from-toc}[Workfront Data Connectのプライベートリストを登録](reports-and-dashboards/data-lake/register-a-private-listing.md)
+    * {hide-from-toc}[Workfront Data Connectの非公開リストを登録](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[&#x200B; データディクショナリテスト &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)
@@ -2231,7 +2231,7 @@ ht-degree: 90%
   * Adobe Workfront計画レポート {#adobe-workfront-planning-reporting}
     * [Adobe Workfront計画レポート：記事インデックス](planning/reporting/reporting-in-planning-article-index.md)
     * [レポートでのWorkfront計画の情報の表示](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[Workfront Planning用Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * {hide-from-toc}[Workfront計画用Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront Planning のベストプラクティス {#adobe-workfront-planning-best-practices}
     * [Adobe Workfrontのベストプラクティス：記事インデックス](planning/best-practices.md/best-practices-article-index.md)
     * [戦略的ホーム：30日間のランチパッドを展開](planning/best-practices.md/30-day-launchpad.md)
@@ -2342,6 +2342,7 @@ ht-degree: 90%
     * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](planning/planning-sta/manage-teams-in-planning-sta.md)
   * Workfront Planningのアイデア創出スペースは {#ideation}
     * [Adobe Workfront計画のためのアイデア創出スペース：記事インデックス](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront計画リリースアクティビティのアイデア創出スペース](planning/ideation/ideation-space-release-notes.md)
     * [Adobe Workfront Planningのアイデア創出スペースの基本を学ぶ](planning/ideation/get-started-with-planning-ideation.md)
     * [アイデア創出スペースの利用に必要なアクセス](planning/ideation/access-needed-to-use-ideation-space.md)
     * [アイデア創出スペースでブリーフを作成する](planning/ideation/create-briefs-in-ideation-space.md)

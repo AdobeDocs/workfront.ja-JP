@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 2%
 ---
 
@@ -169,6 +169,11 @@ In addition to above requirements, you must also meet the following criteria to 
    * [アイデア創出スペースの利用に必要なアクセス](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [アイデア立案スペースの概要からプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [アイデア創出スペースでブリーフを作成する](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Beta契約に同意する。
+
+   これはベータプログラム中の要件です。 ベータプログラムの条件に同意しない限り、アイデア創出スペースを使用することはできません。
+
+   契約書に同意する場合は、組織ではなく、ユーザーに対して行います。 各ユーザーは、契約書に個別に同意する必要があります。
 
 1. （推奨）最初のキャンペーンを特定：更新する最近のキャンペーン、またはゼロから作成する新しいキャンペーン。
 
